@@ -1,0 +1,384 @@
+%sa(I
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+value_peek_string
+g_getenv
+g_utf8_validate
+value_new_error_NA
+value_new_string
+value_new_bool
+value_new_error_REF
+value_new_empty
+gnm_cellpos_init_cellref
+gnm_sheet_hlink_find
+gnm_hlink_get_target
+__stack_chk_fail
+sheet_cell_get
+g_string_new
+parse_pos_init_cell
+gnm_conventions_default
+gnm_expr_top_as_gstring
+g_string_free
+value_new_string_nocopy
+gnm_expr_top_as_string
+value_new_error
+value_area_get_width
+value_area_get_height
+value_area_foreach
+value_new_int
+gnm_rangeref_normalize
+value_get_as_float
+fmod
+value_error_classify
+g_ascii_strcasecmp
+uname
+g_dgettext
+g_strdup_printf
+workbook_get_recalcmode
+value_dup
+parse_pos_init_evalpos
+cellref_as_string
+go_doc_get_type
+g_type_check_instance_cast
+go_doc_get_uri
+sheet_style_get
+gnm_style_get_format
+go_format_as_XL
+gnm_style_get_align_h
+gnm_style_get_contents_locked
+value_new_error_VALUE
+sheet_col_get_info
+gnm_font_default_width
+sheet_date_conv
+format_match_number
+value_new_error_NUM
+value_new_float
+gnm_expr_eval
+value_release
+info_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+GLIBC_2.4
+5BO 
+%DO 
+%BO 
+%:O 
+%2O 
+%*O 
+%"O 
+%zN 
+%rN 
+%jN 
+%bN 
+%ZN 
+%RN 
+%JN 
+%BN 
+%:N 
+%2N 
+%*N 
+%"N 
+=eM 
+u+UH
+=BM 
+F0H9F
+H;^(t'
+D$81
+8FuOH
+P0H9P
+H;H(t
+u*f.
+\$8dH3
+|$ H
+8FuFH
+X0H9X
+H;H(t
+ATUH
+D$81
+L$8dH3
+@[]A\
+AVAUI
+ATUH
+D$81
+L$8dH3
+@[]A\A]A^
+D$(H
+|$ 1
+|$ H
+%O: 
+ tWwA
+P0H9P
+H;H(t
+FwjH
+<u7H
+directory
+Unimplemented
+gnumeric-1.12.41
+memavail
+memused
+numfile
+origin
+osversion
+Unknown version
+%s version %s
+recalc
+Automatic
+Manual
+release
+Unknown system
+totmem
+Unknown info_type
+address
+sheetname
+coord
+column
+color
+contents
+filename
+format
+parentheses
+prefix
+prefixcharacter
+locked
+protect
+datatype
+formulatype
+columnwidth
+Invalid number of arguments
+error.type
+info
+isblank
+iserr
+iserror
+iseven
+islogical
+isna
+isnontext
+isnumber
+isodd
+isref
+istext
+countblank
+expression
+get.formula
+get.link
+isformula
+getenv
+cell:the referenced cell
+HYPERLINK
+=GETENV("HOME")
+value:a value
+=TYPE(3)
+=TYPE("Gnumeric")
+text:string
+=N("42")
+=N("eleven")
+=ISTEXT("Gnumeric")
+=ISTEXT(34)
+ISNONTEXT
+=ISREF(A1)
+ISODD:TRUE if @{n} is odd
+n:number
+=ISODD(3)
+ISEVEN
+=ISNUMBER("Gnumeric")
+=ISNUMBER(PI())
+=ISNONTEXT("Gnumeric")
+ISTEXT
+=ISLOGICAL(1)
+=ISLOGICAL("Gnumeric")
+ISEVEN:TRUE if @{n} is even
+=ISEVEN(4)
+ISODD
+=ISBLANK("")
+name:string
+=ERROR("#N/A")
+=ISNA(ERROR("#N/A"))
+ISERROR
+NA:the error value #N/A
+=NA()
+=ISNA(NA())
+error:an error
+=ERROR.TYPE(NA())
+=ERROR.TYPE(ERROR("#X"))
+=ISERR(NA())
+=ISERR(5/0)
+=ISNA(5/0)
+=ISERROR(NA())
+=ISERROR(5/0)
+ISERR,ISNA
+=INFO("system")
+=INFO("release")
+=INFO("numfile")
+CELL
+range:a cell range
+COUNT
+GET.FORMULA
+EXPRESSION,ISFORMULA
+cell:a cell reference
+General
+#,##0
+#,##0.00
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+0.00%
+0.00e+00
+# ?/?
+# ??/??
+m/d/yy
+m/d/yy h:mm
+mm/dd/yy
+dd-mmm-yy
+dd-mmm
+mm/dd
+h:mm am/pm
+h:mm:ss am/pm
+h:mm:ss
+cell:cell reference
+=CELL("col",A1)
+=CELL("width",A1)
+INDIRECT
+goffice
+gnumeric
+munG
+GET.LINK:the target of the hyperlink attached to @{cell} as a string
+The value return is not updated automatically when the link attached to @{cell} changes but requires a recalculation.
+GETENV:the value of execution environment variable @{name}
+name:the name of the environment variable
+If a variable called @{name} does not exist, #N/A will be returned.
+Variable names are case sensitive.
+TYPE:a number indicating the data type of @{value}
+TYPE returns a number indicating the data type of @{value}:
+1  	= number
+2  	= text
+4  	= boolean
+16 	= error
+64 	= array
+This function is Excel compatible.
+N:@{text} converted to a number
+If @{text} contains non-numerical text, 0 is returned.
+ISTEXT:TRUE if @{value} is text
+ISREF:TRUE if @{value} is a reference
+This function checks if a value is a cell reference.
+ISNUMBER:TRUE if @{value} is a number
+This function checks if a value is a number.  Neither TRUE nor FALSE are numbers for this purpose.
+ISNONTEXT:TRUE if @{value} is not text
+ISLOGICAL:TRUE if @{value} is a logical value
+This function checks if a value is either TRUE or FALSE.
+ISBLANK:TRUE if @{value} is blank
+This function checks if a value is blank.  Empty cells are blank, but empty strings are not.
+ERROR:the error with the given @{name}
+ERROR.TYPE:the type of @{error}
+ERROR.TYPE returns an error number corresponding to the given error value.  The error numbers for error values are:
+	#DIV/0!  		2
+	#VALUE!  	3
+	#REF!    		4
+	#NAME?   	5
+	#NUM!    	6
+	#N/A     		7
+ISERR:TRUE if @{value} is any error value except #N/A
+ISNA:TRUE if @{value} is the #N/A error value
+ISERROR:TRUE if @{value} is any error value
+INFO:information about the current operating environment according to @{type}
+type:string giving the type of information requested
+INFO returns information about the current operating environment according to @{type}:
+  memavail     		Returns the amount of memory available, bytes.
+  memused      	Returns the amount of memory used (bytes).
+  numfile      		Returns the number of active worksheets.
+  osversion    		Returns the operating system version.
+  recalc       		Returns the recalculation mode (automatic).
+  release      		Returns the version of Gnumeric as text.
+  system       		Returns the name of the environment.
+  totmem       		Returns the amount of total memory available.
+COUNTBLANK:the number of blank cells in @{range}
+COUNTBLANK(A1:A20) returns the number of blank cell in A1:A20.
+ISFORMULA:TRUE if @{cell} contains a formula
+ISFORMULA is OpenFormula compatible.
+GET.FORMULA:the formula in @{cell} as a string
+GET.FORMULA is the OpenFormula function FORMULA.
+If A1 is empty and A2 contains =B1+B2, then
+GET.FORMULA(A2) yields '=B1+B2' and
+GET.FORMULA(A1) yields ''.
+EXPRESSION:expression in @{cell} as a string
+If @{cell} contains no expression, EXPRESSION returns empty.
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+CELL:information of @{type} about @{cell}
+type:string specifying the type of information requested
+@{type} specifies the type of information you want to obtain:
+  address        		Returns the given cell reference as text.
+  col            		Returns the number of the column in @{cell}.
+  color          		Returns 0.
+  contents       		Returns the contents of the cell in @{cell}.
+  column         		Returns the number of the column in @{cell}.
+  columnwidth    	Returns the column width.
+  coord          		Returns the absolute address of @{cell}.
+  datatype       	same as type
+  filename       		Returns the name of the file of @{cell}.
+  format         		Returns the code of the format of the cell.
+  formulatype    	same as type
+  locked         		Returns 1 if @{cell} is locked.
+  parentheses    	Returns 1 if @{cell} contains a negative value
+                 		and its format displays it with parentheses.
+  prefix         		Returns a character indicating the horizontal
+                 		alignment of @{cell}.
+  prefixcharacter  	same as prefix
+  protect        		Returns 1 if @{cell} is locked.
+  row            		Returns the number of the row in @{cell}.
+  sheetname      	Returns the name of the sheet of @{cell}.
+  type           		Returns "l" if @{cell} contains a string, 
+                 		"v" if it contains some other value, and 
+                 		"b" if @{cell} is blank.
+  value          		Returns the contents of the cell in @{cell}.
+  width          		Returns the column width.
+;*3$"
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+plugin.so-1.12.41-2.fc29.x86_64.debug
+7zXZ
+YZrQw
+A"mb
+H;eE
+[[>O
+v%'m
+#dXs\Q
+O	S:?
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

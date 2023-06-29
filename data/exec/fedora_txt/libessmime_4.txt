@@ -1,0 +1,636 @@
+$cXvb
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_type_class_peek_parent
+g_type_class_adjust_private_offset
+g_type_class_add_private
+g_type_check_class_cast
+gcr_certificate_mixin_get_property
+gcr_certificate_mixin_class_init
+e_cert_get_type
+g_once_init_enter
+g_intern_static_string
+g_type_register_static_simple
+gcr_certificate_mixin_comparable_init
+gcr_comparable_get_type
+g_type_add_interface_static
+gcr_certificate_get_type
+g_once_init_leave
+g_type_instance_get_private
+e_cert_new
+g_object_new
+g_type_check_instance_cast
+CERT_GetOrgName
+CERT_GetOrgUnitName
+CERT_GetCommonName
+CERT_GetCertTimes
+PR_LocalTimeParameters
+PR_ExplodeTime
+dcgettext
+e_utf8_strftime
+g_strdup
+CERT_Hexify
+PK11_HashBuf
+e_cert_new_from_der
+CERT_DecodeCertFromPackage
+CERT_GetDefaultCertDB
+e_cert_get_internal_cert
+e_cert_get_raw_der
+e_cert_get_nickname
+e_cert_get_email
+e_cert_get_org
+e_cert_get_org_unit
+e_cert_get_cn
+e_cert_get_issuer_name
+e_cert_get_issuer_cn
+e_cert_get_issuer_org
+e_cert_get_issuer_org_unit
+e_cert_get_subject_name
+e_cert_get_issued_on
+e_cert_get_expires_on
+e_cert_get_usage
+g_string_new
+g_string_append
+g_string_free
+e_cert_get_serial_number
+e_cert_get_sha1_fingerprint
+e_cert_get_md5_fingerprint
+e_cert_get_ca_cert
+PR_Now
+CERT_FindCertIssuer
+CERT_DestroyCertificate
+g_object_ref
+e_cert_mark_for_deletion
+PK11_NeedLogin
+PK11_NeedUserInit
+PK11_IsInternal
+PK11_Authenticate
+e_cert_get_cert_type
+e_cert_trust_has_any_user
+e_cert_trust_has_any_ca
+CERT_IsCACert
+e_cert_trust_has_peer
+PORT_Free
+puts
+PK11_IsReadOnly
+SEC_DeletePermCertificate
+PK11_DeleteTokenCertAndKey
+e_cert_trust_init
+e_cert_trust_add_trust
+e_cert_trust_init_with_values
+e_cert_trust_add_ca_trust
+e_cert_trust_add_peer_trust
+e_cert_trust_set_ssl_trust
+e_cert_trust_set_email_trust
+e_cert_trust_set_objsign_trust
+e_cert_trust_set_valid_ca
+e_cert_trust_set_valid_peer
+e_cert_trust_has_trust
+e_cert_trust_has_trusted_ca
+e_cert_trust_has_trusted_peer
+SECITEM_DupItem
+PORT_UCS2_UTF8Conversion
+SECITEM_ZfreeItem
+e_get_user_data_dir
+camel_init
+PK11_SetPasswordFunc
+SEC_PKCS12EnableCipher
+SEC_PKCS12SetPreferredCipher
+PORT_SetUCS2_ASCIIConversionFunction
+SECMOD_GetDefaultModuleList
+SECMOD_GetDefaultModuleListLock
+SECMOD_GetReadLock
+PK11_IsPresent
+PK11_HasRootCerts
+SECMOD_ReleaseReadLock
+PK11_GetModInfo
+g_module_build_path
+g_file_test
+e_marshal_BOOLEAN__POINTER_BOOLEAN_POINTER
+g_signal_new
+e_marshal_BOOLEAN__POINTER_POINTER
+e_marshal_BOOLEAN__POINTER_POINTER_POINTER_POINTER
+SECMOD_DeleteModule
+SECMOD_AddNewModule
+PORT_ArenaZAlloc
+CERT_DecodeCertPackage
+SECITEM_CopyItem
+e_cert_db_get_type
+e_certdb_error_quark
+g_quark_from_static_string
+g_return_if_fail_warning
+PORT_GetError
+g_error_new_literal
+e_cert_db_peek
+init_mutex
+g_mutex_lock
+g_mutex_unlock
+PK11_ProtectedAuthenticationPath
+g_signal_emit
+PORT_Strdup
+strlen
+memset
+e_cert_db_shutdown
+e_cert_db_import_email_cert
+PORT_NewArena
+__CERT_NewTempCertificate
+PORT_Alloc
+CERT_ImportCerts
+CERT_SaveSMimeProfile
+g_slist_prepend
+g_slist_reverse
+PORT_FreeArena
+e_cert_db_import_server_cert
+e_cert_db_import_pkcs12_file
+e_pkcs12_new
+e_pkcs12_import_from_file
+g_propagate_error
+e_cert_db_export_pkcs12_file
+g_list_append
+e_pkcs12_export_to_file
+g_list_free
+e_cert_db_login_to_slot
+PK11_Logout
+PK11_InitPin
+__printf_chk
+e_cert_db_change_cert_trust
+CERT_ChangeCertTrust
+g_log
+PK11_GetInternalKeySlot
+e_cert_db_delete_cert
+e_cert_db_import_certs
+g_object_unref
+g_list_foreach
+strcmp
+CERT_FindCertByDERCert
+g_list_last
+CERT_MakeCANickname
+__CERT_AddTempCertToPerm
+e_cert_db_import_certs_from_file
+__fxstat
+g_malloc
+CERT_FindCertByNickname
+PR_Malloc
+g_strdup_printf
+g_output_stream_get_type
+g_output_stream_write_all
+g_clear_error
+fopen
+SEC_PKCS12DecoderUpdate
+fread
+fclose
+e_pkcs12_get_type
+e_pkcs12_error_quark
+g_utf8_skip
+e_passwords_ask_password
+SECITEM_AllocItem
+g_utf8_get_char
+SEC_PKCS12DecoderStart
+SEC_PKCS12DecoderFinish
+SEC_PKCS12DecoderVerify
+SEC_PKCS12DecoderValidateBags
+SEC_PKCS12DecoderImportBags
+__strdup
+SEC_PKCS12CreateExportContext
+SEC_PKCS12AddPasswordIntegrity
+SEC_PKCS12CreateUnencryptedSafe
+SEC_PKCS12CreatePasswordPrivSafe
+SEC_PKCS12AddCertOrChainAndKey
+g_file_replace
+SEC_PKCS12Encode
+g_output_stream_close
+g_error_new
+SEC_PKCS12DestroyExportContext
+libevolution-util.so
+libgnomecanvas.so
+libgtkspell3-3.so.0
+libenchant.so.1
+libm.so.6
+libebook-1.2.so.16
+libedata-book-1.2.so.25
+libebook-contacts-1.2.so.2
+libecal-1.2.so.19
+libical.so.1
+libicalss.so.1
+libicalvcal.so.1
+libedataserverui-1.2.so.1
+libebackend-1.2.so.10
+libedataserver-1.2.so.21
+libcamel-1.2.so.54
+libsqlite3.so.0
+libsecret-1.so.0
+libgmodule-2.0.so.0
+libgailutil-3.so.0
+libgcr-ui-3.so.1
+libgcr-base-3.so.1
+libgck-1.so.0
+libp11-kit.so.0
+libxml2.so.2
+libwebkitgtk-3.0.so.0
+libsoup-2.4.so.1
+libjavascriptcoregtk-3.0.so.0
+libgnome-desktop-3.so.12
+libgtk-3.so.0
+libgdk-3.so.0
+libpangocairo-1.0.so.0
+libpango-1.0.so.0
+libatk-1.0.so.0
+libcairo-gobject.so.2
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+libdl.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libessmime.so
+/usr/lib/evolution
+GLIBC_2.3.4
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.4
+NSS_3.4
+NSS_3.12.2
+NSS_3.2
+NSS_3.5
+NSS_3.6
+NSS_3.3
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+[^_]
+UWVS
+D$<u
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+d$$[^
+d$$[^
+UWVS
+D$<1
+|$<e3=
+d$L[^_]
+UWVS
+D$D1
+9t$Dt=
+D$,D
+D$$D
+D$(D
+D$$D
+D$0D
+D$,D
+D$(D
+D$$D
+[^_]
+d$,[
+d$,1
+[^_]
+UWVS
+[^_]
+d$,1
+[^_]
+d$$[^
+d$$[^
+UWVS
+[^_]
+[^_]
+D$,1
+L$,e3
+d$0[^_
+UWVS
+T$$1
+D$`1
+[^_]
+D$`1
+D$`1
+[^_]
+t$He
+D$,1
+L$,e3
+d$0[^_
+UWVS
+L$pe
+T$<1
+T$<e3
+d$L[^_]
+D$,1
+L$,e3
+d$0[^_
+UWVS
+d$,[^_]
+UWVS
+D$4e
+D$l1
+L$le3
+d$|[^_]
+D$81
+D$41
+UWVS
+D$ ty
+t$`;t$,tc
+[^_]
+4$uQ
+d$,[
+D$,1
+D$,e3
+d$0[^_
+UWVS
+[^_]
+d$$[^
+d$$[^
+UWVS
+L$l1
+D$^t"
+L$le3
+d$|[^_]
+UWVS
+D$He
+D$\1
+t$\e35
+d$l[^_]
+ECert
+%d/%m/%Y
+Sign
+Encrypt
+attempting to delete cert marked for deletion
+An I/O error occurred during security authorization.
+security library: received bad data.
+security library: output length error.
+security library has experienced an input length error.
+security library: invalid arguments.
+security library: invalid algorithm.
+security library: invalid AVA.
+Improperly formatted time string.
+security library: improperly formatted DER-encoded message.
+Peer's certificate has an invalid signature.
+Peer's Certificate has expired.
+Peer's Certificate has been revoked.
+Peer's Certificate issuer is not recognized.
+The security password entered is incorrect.
+New password entered incorrectly.  Please try again.
+security library: no nodelock.
+security library: bad database.
+security library: memory allocation failure.
+Peer's certificate issuer has been marked as not trusted by the user.
+Peer's certificate has been marked as not trusted by the user.
+Certificate already exists in your database.
+Downloaded certificate's name duplicates one already in your database.
+Error adding certificate to database.
+Error refiling the key for this certificate.
+The private key for this certificate cannot be found in key database
+This certificate is not valid.
+The certificate issuer's certificate has expired.  Check your system date and time.
+The CRL for the certificate's issuer has expired.  Update it or check your system date and time.
+The CRL for the certificate's issuer has an invalid signature.
+New CRL has an invalid format.
+Certificate extension value is invalid.
+Certificate extension not found.
+Issuer certificate is invalid.
+Certificate path length constraint is invalid.
+Certificate usages field is invalid.
+The key does not support the requested operation.
+Certificate contains unknown critical extension.
+New CRL is not later than the current one.
+Not encrypted or signed: you do not yet have an email certificate.
+Not encrypted: you do not have certificates for each of the recipients.
+Cannot decrypt: you are not a recipient, or matching certificate and private key not found.
+Cannot decrypt: key encryption algorithm does not match your certificate.
+Signature verification failed: no signer found, too many signers found, or improper or corrupted data.
+Unsupported or unknown key algorithm.
+Cannot decrypt: encrypted using a disallowed algorithm or key size.
+Fortezza card has not been properly initialized.  Please remove it and return it to your issuer.
+Please select a personality to get more info on
+No more information on that Personality
+Couldn't initialize Fortezza personalities.
+No KRL for this site's certificate has been found.
+The KRL for this site's certificate has expired.
+The KRL for this site's certificate has an invalid signature.
+The key for this site's certificate has been revoked.
+New KRL has an invalid format.
+security library: need random data.
+security library: no security module can perform the requested operation.
+The security card or token does not exist, needs to be initialized, or has been removed.
+security library: read-only database.
+No slot or token was selected.
+A certificate with the same nickname already exists.
+A key with the same nickname already exists.
+error while creating safe object
+error while creating baggage object
+This principal doesn't have a certificate
+Required algorithm is not allowed.
+Error attempting to export certificates.
+Error attempting to import certificates.
+Unable to import.  Decoding error.  File not valid.
+Unable to import.  Invalid MAC.  Incorrect password or corrupt file.
+Unable to import.  MAC algorithm not supported.
+Unable to import.  Only password integrity and privacy modes supported.
+Unable to import.  File structure is corrupt.
+Unable to import.  Encryption algorithm not supported.
+Unable to import.  File version not supported.
+Unable to import.  Incorrect privacy password.
+Unable to import.  Same nickname already exists in database.
+Not imported, already in database.
+Certificate key usage inadequate for attempted operation.
+Certificate type not approved for application.
+Address in signing certificate does not match address in message headers.
+Unable to import.  Error attempting to import private key.
+Unable to import.  Error attempting to import certificate chain.
+Unable to export.  Unable to locate certificate or key by nickname.
+Unable to export.  Private Key could not be located and exported.
+Unable to export.  Unable to write the export file.
+Unable to import.  Unable to read the import file.
+Unable to export.  Key database corrupt or deleted.
+Unable to generate public/private key pair.
+Password entered is invalid.  Please pick a different one.
+Old password entered incorrectly.  Please try again.
+Certificate nickname already in use.
+Peer FORTEZZA chain has a non-FORTEZZA Certificate.
+A sensitive key cannot be moved to the slot where it is needed.
+New KRL is not later than the current one.
+New CKL has different issuer than current CKL.  Delete current CKL.
+The Certifying Authority for this certificate is not permitted to issue a certificate with this name.
+The key revocation list for this certificate is not yet valid.
+The certificate revocation list for this certificate is not yet valid.
+The requested certificate could not be found.
+The signer's certificate could not be found.
+The location for the certificate status server has invalid format.
+The OCSP response cannot be fully decoded; it is of an unknown type.
+The OCSP server returned unexpected/invalid HTTP data.
+The OCSP server found the request to be corrupted or improperly formed.
+The OCSP server experienced an internal error.
+The OCSP server suggests trying again later.
+The OCSP server requires a signature on this request.
+The OCSP server has refused this request as unauthorized.
+The OCSP server returned an unrecognizable status.
+The OCSP server has no status for the certificate.
+You must enable OCSP before performing this operation.
+You must set the OCSP default responder before performing this operation.
+The response from the OCSP server was corrupted or improperly formed.
+The signer of the OCSP response is not authorized to give status for this certificate.
+The OCSP response is not yet valid (contains a date in the future).
+The OCSP response contains out-of-date information.
+The CMS or PKCS #7 Digest was not found in signed message.
+The CMS or PKCS #7 Message type is unsupported.
+PKCS #11 module could not be removed because it is still in use.
+Could not decode ASN.1 data. Specified template was invalid.
+You are attempting to import a cert with the same issuer/serial as an existing cert, but that is not the same cert.
+NSS could not shutdown. Objects are still in use.
+DER-encoded message contained extra unused data.
+Unsupported elliptic curve point form.
+Unrecognized Object Identifier.
+Invalid OCSP signing certificate in OCSP response.
+Certificate is revoked in issuer's certificate revocation list.
+Issuer's OCSP responder reports certificate is revoked.
+Issuer's Certificate Revocation List has an unknown version number.
+Issuer's V1 Certificate Revocation List has a critical extension.
+Issuer's V2 Certificate Revocation List has an unknown critical extension.
+Unknown object type specified.
+PKCS #11 driver violates the spec in an incompatible way.
+No new slot event is available at this time.
+The operation failed because the PKCS#11 token is not logged in.
+Configured OCSP responder's certificate is invalid.
+OCSP response has an invalid signature.
+Cert validation search is out of search limits
+Policy mapping contains anypolicy
+Cert chain fails policy validation
+Unknown location type in cert AIA extension
+Server returned bad HTTP response
+Server returned bad LDAP response
+Failed to encode data with ASN1 encoder
+Bad information access location in cert extension
+Libpkix internal error occured during cert validation.
+A PKCS #11 module returned CKR_GENERAL_ERROR, indicating that an unrecoverable error has occurred.
+A PKCS #11 module returned CKR_FUNCTION_FAILED, indicating that the requested function could not be performed.  Trying the same operation again might succeed.
+A PKCS #11 module returned CKR_DEVICE_ERROR, indicating that a problem has occurred with the token or slot.
+PK11_Authenticate failed (err = %d/%d)
+CERT_ChangeCertTrust() failed: %s
+Didn't get any certs to import.
+Couldn't create cert from DER blob
+security library failure.
+Peer's public key is invalid.
+This certificate is valid.
+Cert Library: No Response
+**Internal ONLY module**
+No Fortezza cards Found
+No Fortezza card selected
+Personality not found
+Invalid Pin
+Couldn't remove the principal
+Couldn't delete the privilege
+The user pressed cancel.
+Message not sent.
+Invalid module name.
+Invalid module path/filename
+Unable to add module
+Unable to delete module
+No matching CRL was found.
+Unsupported elliptic curve.
+CRL already exists.
+NSS is not initialized.
+/usr/lib
+/usr/lib/mozilla
+/opt/mozilla/lib
+/opt/mozilla/lib/mozilla
+nssckbi
+Mozilla Root Certs
+pk11_passwd
+pk11_change_passwd
+confirm_ca_cert_import
+ECertDB
+e-certdb-error-quark
+*error == NULL
+evolution-smime
+cert != NULL
+initializing slot password
+Certificate already exists
+importing %d bytes from '%s'
+e_cert_db_export_pkcs12_file
+set_nss_error
+Imported Certificate
+nickname_collision
+%s #%d
+Unknown error
+couldn't open '%s'
+EPKCS12
+e-pkcs12-error-quark
+importing pkcs12 from '%s'
+PKCS12 File Password
+handle_error (%d)
+I/O error during certificate backup, error message: %s
+Enter password for PKCS12 file:
+Unable to create export context, err_code: %i
+Unable to setup password integrity, err_code: %i
+Unable to create safe bag, err_code: %i
+Unable to add key/cert to the store, err_code: %i
+Unable to write store to disk, err_code: %i
+;*2$"
+libessmime.so.debug
+7zXZ
+DR"H:
+t Oo
+pPDut#a
+ppe?
+c.$ x]
+m!{G
++-cp
+z$"i/
+Gug<hk
+<uvk
+Gkb6
+h$]$
+\kBE
+	RuM
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

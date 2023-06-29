@@ -1,0 +1,235 @@
+/lib64/ld-linux-x86-64.so.2
+__progname
+GLIBC_2.2.5
+libc.so.6
+execvpe
+GLIBC_2.11
+free
+strchr
+calloc
+fork
+libpthread.so.0
+__libc_start_main
+getopt_long
+optarg
+__bss_start
+_edata
+_end
+epoll_ctl
+GLIBC_2.3.2
+program_invocation_short_name
+sigaction
+epoll_wait
+dup2
+_exit
+getpid
+__printf_chk
+GLIBC_2.3.4
+getppid
+__stack_chk_fail
+GLIBC_2.4
+__strdup
+__errno_location
+epoll_create1
+GLIBC_2.9
+__asprintf_chk
+GLIBC_2.8
+__cxa_finalize
+prctl
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+waitid
+optind
+__gcc_personality_v0
+GCC_3.3.1
+accept4
+GLIBC_2.10
+log_parse_environment
+getpeername_pretty
+reset_all_signal_handlers
+reset_signal_mask
+strv_find_prefix
+safe_close
+strv_length
+strappend
+strv_join
+sd_listen_fds
+fd_cloexec
+log_close
+close_all_fds
+make_socket_fd
+log_open
+getsockname_pretty
+log_assert_failed
+version
+strv_extend
+strv_split
+log_oom_internal
+fdname_is_valid
+cescape
+strv_extend_strv
+log_assert_failed_unreachable
+log_get_max_level
+log_internal
+strv_free
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-231.so
+/usr/lib/systemd
+a_&	
+AWAVAUATA
+[A\A]A^A_]
+_AXL
+A[A]H
+D;%.>
+PAU1
+AYAZ
+AWAVAUATL
+[A\A]A^A_]
+ffff.
+AWAVAUATI
+[A\A]A^A_]
+~1SL
+PAV1
+AWAVA
+AUATL
+[]A\A]A^A_
+fffff.
+Failed to reap children: %m
+src/activate/activate.c
+Child %d died with code %d
+TERM=
+PATH=
+USER=
+HOME=
+n_fds == 1
+LISTEN_FDS=%i
+Failed to dup connection: %m
+LISTEN_PID=%i
+Failed to extend strv: %m
+LISTEN_FDNAMES=
+Execing %s (%s)
+Failed to execp %s (%s): %m
+argc >= 0
+argv
+strv_extend_strv: %m
+Unhandled option
++hl:aE:d
+Failed to open '%s': %m
+Listening on %s as %i.
+epoll_wait() failed: %m
+Connection from %s to %s
+Failed to fork: %m
+Spawned %s (%s) as PID %d
+help
+version
+datagram
+seqpacket
+listen
+accept
+setenv
+environment
+fdname
+inetd
+--inetd only supported for single file descriptors.
+Failed to dup connection to stdin: %m
+Failed to dup connection to stdout: %m
+The number of fd names is different than number of fds: %zu vs %d
+%s [OPTIONS...]
+Listen on sockets and launch child on connection.
+Options:
+  -h --help                  Show this help and exit
+     --version               Print version string and exit
+  -l --listen=ADDR           Listen for raw connections at ADDR
+  -d --datagram              Listen on datagram instead of stream socket
+     --seqpacket             Listen on SOCK_SEQPACKET instead of stream socket
+  -a --accept                Spawn separate child for each connection
+  -E --setenv=NAME[=VALUE]   Pass an environment variable to children
+     --fdname=NAME[:NAME...] Specify names for file descriptors
+     --inetd                 Enable inetd file descriptor passing protocol
+Note: file descriptors from sd_listen_fds() will be passed through.
+--datagram may not be combined with --seqpacket.
+--seqpacket may not be combined with --datagram.
+File descriptor name "%s" is not valid.
+%s: command to execute is missing.
+Datagram sockets do not accept connections. The --datagram and --accept options may not be combined.
+Failed to install SIGCHLD handler: %m
+Failed to read listening file descriptors from environment: %m
+Received %i descriptors via the environment.
+fd == SD_LISTEN_FDS_START + count
+Failed to create epoll object: %m
+Failed to add event on epoll fd:%d for fd:%d: %m
+No sockets to listen on specified or passed in.
+Communication attempt on fd %i.
+Failed to accept connection on fd:%d: %m
+exec_process
+exec_process
+sigchld_hdl
+parse_argv
+parse_argv
+install_chld_handler
+add_epoll
+open_sockets
+open_sockets
+fork_and_exec_process
+do_accept
+main
+;*3$"
+zPLR
+. a.
+gold 1.11
+systemd-socket-activate.debug
+7zXZ
+z^3z
+q^&J
+Q3@D
+*A,`
+p&ZC
+>&i#
+"skL,
+_9.Eb
+uN4L
+K%Gl
+}`ap9
+$q&l>
+e:ZHh47
+G_C<
+9(A,
++\"9}
+%^5w
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

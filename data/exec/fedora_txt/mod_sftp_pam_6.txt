@@ -1,0 +1,205 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+check_context
+add_config_param_str
+mod_create_ret
+get_context_name
+pstrcat
+add_config_param
+pcalloc
+get_boolean
+destroy_pool
+free
+pr_signals_block
+pr_privs_root
+pam_authenticate
+pam_acct_mgmt
+pam_open_session
+pam_setcred
+pr_privs_relinquish
+pr_signals_unblock
+pam_strerror
+pr_trace_msg
+__errno_location
+make_array
+push_array
+pstrdup
+sftp_logfd
+pr_log_writefile
+sftp_auth_send_banner
+sftp_kbdint_send_challenge
+sftp_kbdint_recv_response
+__strdup
+pr_log_pri
+mod_create_error
+sftp_pam_module
+pr_event_register
+pam_close_session
+pam_end
+main_server
+find_config
+sftp_kbdint_unregister_driver
+strlen
+malloc
+sstrncpy
+pam_start
+pam_set_item
+add_config_param_set
+palloc
+pr_auth_remove_auth_only_module
+pr_auth_add_auth_only_module
+permanent_pool
+make_sub_pool
+pr_pool_tag
+__snprintf_chk
+getpid
+exit
+sftp_kbdint_register_driver
+pr_event_unregister
+libpam.so.0
+libc.so.6
+_edata
+__bss_start
+mod_sftp_pam.so
+LIBPAM_1.0
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z* 
+%r* 
+%j* 
+%b* 
+%Z* 
+%R* 
+%J* 
+%B* 
+%:* 
+%2* 
+%** 
+%"* 
+%z) 
+%r) 
+%j) 
+%b) 
+%Z) 
+%R) 
+%J) 
+%B) 
+%:) 
+=8* 
+ATSubH
+=(' 
+=?% 
+[A\]
+G0E1
+AUATUSH
+[]A\A]
+G0E1
+D$81
+l$ H
+=~% 
+=f% 
+='% 
+=I$ 
+ffffff.
+AVAUATUH
+8[]A\A]A^A_
+T$ H
+L$,D9
+[]A\A]A^A_
+[]A\A]A^A_
+D$ H
+D$ H
+D$ H
+fff.
+[]A\
+missing arguments
+ context
+directive not allowed in 
+wrong number of parameters
+NoTTY
+NoInfoMsgs
+: unknown SFTPPAMOption: '
+expected Boolean parameter
+mod_sftp_pam.c
+ssh2
+message
+messages
+responses
+response
+challenges
+challenge
+PAM_TEXT_INFO
+PAM_ERROR_MSG
+handling %d PAM %s
+received PAM_ERROR_MSG '%s'
+mod_sftp_pam/0.2
+Out of memory!
+received %s message: %s
+core.exit
+SFTPPAMEngine
+SFTPPAMServiceName
+using PAM service name '%s'
+SFTPPAMOptions
+/dev/ftpd%02lu
+setting PAM_TTY to '%s'
+AuthPAM
+mod_auth_pam.c
+core.module-unload
+sftp_pam
+auth
+sshd
+PAM authentication error (%d) for user '%s': %s
+PAM account mgmt error: PAM_ACCT_EXPIRED
+PAM account mgmt error: PAM_USER_UNKNOWN
+PAM account mgmt error (%d) for user '%s': %s
+PAM session error (%d) for user '%s': %s
+PAM credentials error: PAM_CRED_EXPIRED
+PAM credentials error: PAM_USER_UNKNOWN
+PAM credentials error (%d) for user '%s': %s
+bad number of PAM messages (%d)
+skipping sending of PAM_TEXT_INFO '%s' to client
+sending PAM_TEXT_INFO '%s' to client
+error sending keyboard-interactive challenges: %s
+error receiving keyboard-interactive responses: %s
+sent %d %s, but received %u %s
+received PAM_PROMPT_ECHO_ON message '%s', responding with '%s'
+received PAM_PROMPT_ECHO_OFF message '%s', responding with text
+received unknown PAM message style (%d), treating it as an error
+PAM error setting PAM_DELETE_CRED: %s
+disabled by SFTPPAMEngine setting, unregistered 'pam' driver
+error starting PAM service: %s
+error starting PAM service: Memory buffer error
+mod_sftp_pam/0.2: error removing 'mod_auth_pam.c' from the auth-only module list: %s
+mod_sftp_pam/0.2: error adding 'mod_sftp_pam.c' to the auth-only module list: %s
+PAM keyboard-interactive driver pool
+mod_sftp_pam/0.2: notice: error registering 'keyboard-interactive' driver: %s
+;*3$"
+mod_sftp_pam.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

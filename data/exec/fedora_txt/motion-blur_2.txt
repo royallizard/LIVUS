@@ -1,0 +1,302 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+g_type_check_instance_cast
+sincos
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+gegl_cl_is_accelerated
+g_malloc_n
+g_malloc0_n
+gegl_buffer_get
+gegl_buffer_set
+g_free
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_buffer_cl_iterator_next
+gegl_clSetKernelArg
+gegl_cl_errstring
+g_log
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_value_set_double
+g_type_name
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+motion-blur.so
+GLIBC_2.2.5
+GLIBC_2.4
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+=U< 
+u+UH
+=2< 
+=f8 
+\$`f
+D$H1
+D$@8
+D$(H
+ATUSH
+[]A\
+AWAVI
+AUATUSH
+)T$pH
+)L$`D
+)D$PD
+)d$@D
+)l$0D
+(l$0
+(d$@D
+(D$PD
+(L$`D
+(T$pD
+)T$pD
+)L$`
+)D$PHc
+)d$@D
+(4$L
+(d$@D
+(D$PH
+(L$`D
+(T$p
+T$0A
+D$`H
+)T$pH
+*T$@D
+YD$0
+(D$p
+D$@;D$`
+[]A\A]A^A_
+G(PA
+G$PH
+L$ H
+(l$0D
+(d$@D
+(D$PD
+(L$`H
+(T$pD
+)4$D
+)d$0D
+)D$@D
+)L$PD
+)T$`D
+)\$pH
+Ic\$
+IcT$
+(4$D
+(d$0D
+(D$@D
+(L$PD
+(T$`D
+(\$pD
+)\$pD
+)T$`D
+)L$PD
+)D$@D
+)d$0D
+(4$D
+(d$0D
+(D$@D
+(L$PD
+(T$`D
+(\$p
+(4$D
+(d$0D
+(D$@D
+(L$PD
+(T$`D
+(\$pD
+(4$D
+(d$0D
+(D$@D
+(L$PD
+(T$`D
+(\$pD
+ATUH
+ []A\
+ATUSL
+ []A\
+[]A\
+[]A\
+GeglChantmotion-blur.c
+RaGaBaA float
+input
+output
+Linear motion blur
+gegl-0.2
+description
+categories
+gegl:motion-blur
+name
+Length of blur in pixels
+Length
+length
+Angle of blur in degrees
+Angle
+angle
+chant-data
+motion_blur_CL
+GEGL-motion-blur.c
+property
+GEGL-../../gegl/gegl-chant.h
+int CLAMP(int val,int lo,int hi)                                      
+{                                                                     
+    return (val < lo) ? lo : ((hi < val) ? hi : val);                 
+}                                                                     
+                                                                      
+float4 get_pixel_color_CL(const __global float4 *in_buf,              
+                          int     rect_width,                         
+                          int     rect_height,                        
+                          int     rect_x,                             
+                          int     rect_y,                             
+                          int     x,                                  
+                          int     y)                                  
+{                                                                     
+    int ix = x - rect_x;                                              
+    int iy = y - rect_y;                                              
+                                                                      
+    ix = CLAMP(ix, 0, rect_width-1);                                  
+    iy = CLAMP(iy, 0, rect_height-1);                                 
+                                                                      
+    return in_buf[iy * rect_width + ix];                              
+}                                                                     
+                                                                      
+__kernel void motion_blur_CL(const __global float4 *src_buf,          
+                             int     src_width,                       
+                             int     src_height,                      
+                             int     src_x,                           
+                             int     src_y,                           
+                             __global float4 *dst_buf,                
+                             int     dst_x,                           
+                             int     dst_y,                           
+                             int     num_steps,                       
+                             float   offset_x,                        
+                             float   offset_y)                        
+{                                                                     
+    int gidx = get_global_id(0);                                      
+    int gidy = get_global_id(1);                                      
+                                                                      
+    float4 sum = 0.0f;                                                
+    int px = gidx + dst_x;                                            
+    int py = gidy + dst_y;                                            
+                                                                      
+    for(int step = 0; step < num_steps; ++step)                       
+    {                                                                 
+        float t = num_steps == 1 ? 0.0f :                             
+            step / (float)(num_steps - 1) - 0.5f;                     
+                                                                      
+        float xx = px + t * offset_x;                                 
+        float yy = py + t * offset_y;                                 
+                                                                      
+        int   ix = (int)floor(xx);                                    
+        int   iy = (int)floor(yy);                                    
+                                                                      
+        float dx = xx - floor(xx);                                    
+        float dy = yy - floor(yy);                                    
+                                                                      
+        float4 mixy0,mixy1,pix0,pix1,pix2,pix3;                       
+                                                                      
+        pix0 = get_pixel_color_CL(src_buf, src_width,                 
+            src_height, src_x, src_y, ix,   iy);                      
+        pix1 = get_pixel_color_CL(src_buf, src_width,                 
+            src_height, src_x, src_y, ix+1, iy);                      
+        pix2 = get_pixel_color_CL(src_buf, src_width,                 
+            src_height, src_x, src_y, ix,   iy+1);                    
+        pix3 = get_pixel_color_CL(src_buf, src_width,                 
+            src_height, src_x, src_y, ix+1, iy+1);                    
+                                                                      
+        mixy0 = dy * (pix2 - pix0) + pix0;                            
+        mixy1 = dy * (pix3 - pix1) + pix1;                            
+                                                                      
+        sum  += dx * (mixy1 - mixy0) + mixy0;                         
+    }                                                                 
+                                                                      
+    dst_buf[gidy * get_global_size(0) + gidx] =                       
+        sum / num_steps;                                              
+}                                                                     
+[OpenCL] Error in gegl:motion-blur: %s
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+motion-blur.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+ZK[ig
+d'.>h
+J-2r
+#A^&,
+ET@_s
+dd NE
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

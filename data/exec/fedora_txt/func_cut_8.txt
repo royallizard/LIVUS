@@ -1,0 +1,101 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+strlen
+memcpy
+ast_app_separate_args
+__snprintf_chk
+ast_get_encoded_char
+pbx_substitute_variables_helper
+strchr
+sscanf
+__strsep_g
+ast_log
+__stack_chk_fail
+memset
+qsort
+strncat
+ast_module_unregister
+acf_cut
+ast_custom_function_unregister
+acf_sort
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+AVAUI
+[A\A]A^A_
+fff.
+AWAVI
+AUATI
+[A\A]A^A_
+fffff.
+${%s}
+%d-%d
+%d%c
+func_cut.c
+%c%s
+Out of memory
+Unknown internal error
+SORT() requires an argument
+$Revision: 163256 $
+SORT
+func_cut
+We're already past the field you wanted?
+Syntax: CUT(<varname>,<char-delim>,<range-spec>) - missing argument!
+Usage: CUT(<varname>,<char-delim>,<range-spec>)
+Sorts a list of key/vals into a list of keys, based upon the vals
+Takes a comma-separated list of keys and values, each separated by a colon, and returns a
+comma-separated list of the keys, sorted by their values.  Values will be evaluated as
+floating-point numbers.
+SORT(key1:val1[...][,keyN:valN])
+Slices and dices strings, based upon a named delimiter.
+  varname    - variable you want cut
+  char-delim - defaults to '-'
+  range-spec - number of the field you want (1-based offset)
+             may also be specified as a range (with -)
+             or group of ranges and fields (with &)
+CUT(<varname>,<char-delim>,<range-spec>)
+Cut out information from a string
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+acf_cut_exec
+cut_internal
+acf_sort_exec
+a9c98e5d177805051735cb5b0b16b0a0
+func_cut.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

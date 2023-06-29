@@ -1,0 +1,434 @@
+`4uw
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_msgobject_check_type
+pa_source_output_type_id
+pa_source_output_process_msg
+pa_log_level_meta
+abort
+pa_memblockq_get_length
+pa_source_get_latency_within_thread
+pa_bytes_to_usec
+pa_rtclock_now
+pa_sink_get_requested_latency_within_thread
+pa_usec_to_bytes
+pa_memblockq_seek
+pa_memblockq_drop
+pa_sink_input_type_id
+pa_thread_mq_get
+pa_sink_input_process_msg
+pa_memblockq_push_align
+pa_sink_get_latency_within_thread
+pa_memblockq_is_readable
+pa_msgobject_type_id
+pa_asyncmsgq_post
+pa_sink_input_request_rewind
+pa_core_rttime_new
+pa_sink_input_set_requested_latency
+pa_source_output_set_requested_latency
+pa_object_type_id
+pa_asyncmsgq_process_one
+pa_memblockq_peek
+pa_source_output_unlink
+pa_object_unref
+pa_sink_input_unlink
+pa_source_get_requested_latency
+pa_asyncmsgq_send
+pa_module_unload_request
+pa_rtpoll_item_free
+pa_rtpoll_item_new_asyncmsgq_write
+pa_asyncmsgq_flush
+pa_memblockq_rewind
+pa_memblockq_set_maxrewind
+pa_memblockq_set_prebuf
+pa_source_output_cork
+pa_rtpoll_item_new_asyncmsgq_read
+pa_sink_input_get_max_request
+pa_sink_input_get_max_rewind
+pa_core_rttime_restart
+pa_sink_input_set_rate
+pa_source_get_latency_range
+pa_sink_get_fixed_latency
+pa_sink_get_latency_range
+pa_source_get_fixed_latency
+pa_proplist_gets
+pa_sink_get_requested_latency
+pa_sprintf_malloc
+pa_source_output_set_property
+pa_xfree
+pa_sink_input_set_property
+pa_sink_input_cork
+module_loopback_LTX_pa__get_author
+module_loopback_LTX_pa__get_description
+module_loopback_LTX_pa__get_version
+module_loopback_LTX_pa__load_once
+module_loopback_LTX_pa__get_usage
+module_loopback_LTX_pa__done
+pa_memblockq_free
+pa_asyncmsgq_unref
+module_loopback_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+pa_namereg_get
+pa_modargs_get_value_boolean
+pa_modargs_get_sample_spec_and_channel_map
+pa_modargs_get_value_u32
+pa_xmalloc0
+pa_sink_input_new_data_init
+pa_sink_input_new_data_set_sink
+pa_modargs_get_proplist
+pa_proplist_contains
+pa_sink_input_new_data_set_sample_spec
+pa_sink_input_new_data_set_channel_map
+pa_sink_input_new
+pa_sink_input_new_data_done
+pa_source_output_new_data_init
+pa_source_output_new_data_set_source
+pa_source_output_new_data_set_sample_spec
+pa_source_output_new_data_set_channel_map
+pa_source_output_new
+pa_source_output_new_data_done
+pa_sink_input_get_silence
+pa_memblockq_new
+pa_memblock_unref
+pa_asyncmsgq_new
+pa_module_hook_connect
+pa_msgobject_new_internal
+pa_sink_input_put
+pa_source_output_put
+pa_modargs_free
+pa_proplist_sets
+pa_proplist_setf
+__stack_chk_fail
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-loopback.so
+PULSE_0
+GLIBC_2.4
+GLIBC_2.2.5
+/usr/lib64/pulseaudio
+u+UH
+]A\A]A^
+[]A\A]A^
+H9ohH
+CohH
+x`H)
+rkvaE
+t\H)
+[]A\
+[]A\
+AWAVI
+]A\A]A^A_
+[]A\A]A^A_
+ExH9
+ATUSH
+[]A\
+[]A\
+AUATUH
+[]A\A]
+ATUSH
+[]A\
+ATUSH
+XZ[]A\
+AVAUATUSH
+XZ[]A\A]A^
+ATUSH
+[]A\
+AVAUI
+u?[]A\A]A^
+ChH;
+B H9p`t
+H9p`t
+AUATUSH
+H9qH
+@`E1
+H9ShH
+CShH
+H+CPH
+H9ChH
+CChH
+HHU1
+([]A\A]
+tWATUSH
+[]A\
+tWATUSH
+[]A\
+ATUSH
+AWAVAUATUSH
+T$+H
+)D$`
+)L$p
+D$4H
+T$`1
+D$8-
+T$,H
+T$0H
+D$@I
+D$,A
+T$)H
+)D$`L
+)L$p
+T$*H
+t$@H
+|$`H
+[]A\A]A^A_
+T$+H
+)D$`
+)L$p
+D$<A
+pa_source_output_isinstance(o)
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Dropping %lu usec of audio from queue
+Adding %lu usec of silence to queue
+pa_thread_mq_get() || !PA_SINK_INPUT_IS_LINKED((u->sink_input)->state)
+Requesting rewind due to end of underrun.
+Cannot set requested sink latency of %0.2f ms, adjusting to %0.2f ms
+Cannot set requested source latency of %0.2f ms, adjusting to %0.2f ms
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+pa_thread_mq_get() || !PA_SINK_INPUT_IS_LINKED((i)->state)
+pa_thread_mq_get() || !PA_SOURCE_OUTPUT_IS_LINKED((o)->state)
+pa_thread_mq_get() || !PA_SOURCE_OUTPUT_IS_LINKED((i)->state)
+Minimum possible end to end latency: %0.2f ms
+Configured latency of %0.2f ms is smaller than minimum latency, using minimum instead
+Too many underruns, increasing latency to %0.2f ms
+Loopback overall latency is %0.2f ms + %0.2f ms + %0.2f ms = %0.2f ms
+Loopback latency at base rate is %0.2f ms
+[%s] Updated sampling rate to %lu Hz.
+Source minimum latency increased to %0.2f ms
+Sink minimum latency increased to %0.2f ms
+Underrun detected, counter incremented to %u
+source=<source to connect to> sink=<sink to connect to> adjust_time=<how often to readjust rates in s> latency_msec=<latency in ms> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> sink_input_properties=<proplist> source_output_properties=<proplist> source_dont_move=<boolean> sink_dont_move=<boolean> remix=<remix channels?> 
+Failed to parse module arguments
+Invalid boolean remix parameter
+Invalid sample format specification or channel map
+Invalid rate specification, valid range is 4000 Hz to %i Hz
+Failed to parse adjust_time value
+Failed to parse the sink_input_properties value.
+sink_dont_move= expects a boolean argument.
+Failed to parse the source_output_properties value.
+source_dont_move= expects a boolean argument.
+./pulsecore/source-output.h
+modules/module-loopback.c
+pa_sink_input_isinstance(o)
+./pulsecore/sink-input.h
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+./pulsecore/object.h
+u = i->userdata
+chunk
+Could not peek into queue
+!pa_thread_mq_get()
+u = o->userdata
+Max request changed
+u->time_event == e
+Underrun counter: %u
+device.api
+alsa
+loopback_msg_isinstance(o)
+u = msg->userdata
+(null)
+device.description
+Loopback to %s
+media.name
+device.icon_name
+media.icon_name
+Loopback of %s
+Pierre-Louis Bossart
+Loopback from source to sink
+12.2-rebootstrapped
+source
+No such source.
+No such sink.
+remix
+format
+rate
+channels
+channel_map
+latency_msec
+Invalid latency specification
+adjust_time
+sink_input_properties
+media.role
+abstract
+sink_dont_move
+source_output_properties
+source_dont_move
+module-loopback memblockq
+pa_asyncmsgq_new() failed.
+Loopback from %s
+module_loopback_LTX_pa__done
+module_loopback_LTX_pa__done
+set_source_output_latency
+set_sink_input_latency
+pa_sink_input_cast
+pa_sink_input_cast
+sink_input_process_msg_cb
+sink_input_process_msg_cb
+memblockq_adjust
+sink_input_pop_cb
+sink_input_pop_cb
+sink_input_process_rewind_cb
+sink_input_process_rewind_cb
+sink_input_kill_cb
+sink_input_kill_cb
+sink_input_state_change_cb
+sink_input_state_change_cb
+sink_input_attach_cb
+sink_input_attach_cb
+sink_input_detach_cb
+sink_input_detach_cb
+sink_input_update_max_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_update_max_request_cb
+sink_input_update_max_request_cb
+sink_input_may_move_to_cb
+sink_input_may_move_to_cb
+sink_input_moving_cb
+sink_input_moving_cb
+sink_input_suspend_cb
+sink_input_suspend_cb
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+update_sink_latency_range_cb
+update_sink_latency_range_cb
+pa_source_output_cast
+pa_source_output_cast
+source_output_push_cb
+source_output_push_cb
+source_output_process_rewind_cb
+source_output_process_rewind_cb
+adjust_rates
+adjust_rates
+time_callback
+time_callback
+teardown
+teardown
+source_output_kill_cb
+source_output_kill_cb
+source_output_attach_cb
+source_output_attach_cb
+source_output_detach_cb
+source_output_detach_cb
+source_output_may_move_to_cb
+source_output_may_move_to_cb
+source_output_moving_cb
+source_output_moving_cb
+source_output_suspend_cb
+source_output_suspend_cb
+pa_object_cast
+pa_object_cast
+pa_source_output_assert_ref
+pa_source_output_assert_ref
+update_source_latency_range_cb
+update_source_latency_range_cb
+pa_msgobject_cast
+pa_msgobject_cast
+update_minimum_latency
+loopback_msg_cast
+loopback_msg_cast
+loopback_process_msg_cb
+loopback_process_msg_cb
+module_loopback_LTX_pa__init
+module_loopback_LTX_pa__init
+loopback_msg
+MbP?
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+module-loopback.so-12.2-3.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

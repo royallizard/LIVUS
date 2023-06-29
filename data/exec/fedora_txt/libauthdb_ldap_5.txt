@@ -1,0 +1,438 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+strlen
+t_strcut
+hash_table_lookup
+auth_default_subsystems
+auth_request_log_warning
+strchr
+str_printfa
+t_strconcat
+parse_setting_from_defs
+ldap_get_option
+ldap_err2string
+i_error
+ldap_set_option
+i_fatal
+strcmp
+unsafe_data_stack_pool
+p_strdup_until
+buffer_append
+p_strdup
+ldap_msgfree
+default_pool
+i_panic
+ldap_initialize
+str_to_int
+dec2str
+ldap_first_attribute
+p_strconcat
+hash_table_insert
+ldap_value_free
+ldap_memfree
+ldap_next_attribute
+ldap_get_values
+ber_free
+ioloop_time
+aqueue_count
+aqueue_delete_tail
+auth_request_log_error
+auth_request_log_info
+timeout_remove
+ldap_unbind
+io_remove_closed
+timeout_add
+ldap_get_error
+db_ldap_connect
+gettimeofday
+ldap_start_tls_s
+net_set_nonblock
+io_add
+timeval_diff_msecs
+i_debug
+ldap_bind
+ldap_search
+db_ldap_request
+aqueue_append
+ldap_sasl_interactive_bind_s
+db_ldap_connect_delayed
+timeout_add_short
+db_ldap_set_attrs
+t_strsplit_spaces
+t_str_new
+buffer_create_dynamic
+var_expand_with_funcs
+buffer_append_space_unsafe
+array_idx_modifiable_i
+buffer_set_used_size
+ldap_escape
+buffer_append_c
+str_c
+str_append_n
+db_ldap_result_iterate_init_full
+pool_alloconly_create
+strcasecmp
+strcase_hash
+hash_table_create
+t_strdup_printf
+db_ldap_result_iterate_init
+db_ldap_result_iterate_next
+auth_request_get_var_expand_table_full
+auth_request_get_var_expand_table
+db_ldap_result_iterate_deinit
+hash_table_iterate_init
+hash_table_iterate
+hash_table_iterate_deinit
+auth_request_log_debug
+hash_table_destroy
+ldap_result
+ldap_msgid
+ldap_result2error
+auth_request_ref
+ldap_msgtype
+t_push
+t_pop_check
+auth_request_unref
+buffer_get_modifiable_data
+aqueue_delete
+pool_datastack_create
+db_ldap_enable_input
+io_remove
+settings_read_i
+getenv
+env_put
+aqueue_init
+db_ldap_unref
+buffer_free
+aqueue_deinit
+authdb_ldap_init
+passdb_ldap_plugin
+passdb_register_module
+userdb_ldap_plugin
+userdb_register_module
+authdb_ldap_deinit
+passdb_unregister_module
+userdb_unregister_module
+auth_request_set_field
+auth_request_set_null_field
+t_strdup
+password_get_scheme
+passdb_handle_credentials
+auth_request_password_verify
+auth_request_log_unknown_user
+auth_fields_exists
+auth_request_var_expand
+t_strarray_join
+worker
+auth_cache_parse_key
+ldap_get_dn
+i_warning
+global_auth_settings
+auth_request_set_userdb_field_values
+libldap-2.4.so.2
+liblber-2.4.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libauthdb_ldap.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+[^_]
+D$,1
+D$,e3
+<[^_]
+D$0e
+D$L1
+D$01
+T$$1
+9t$8u
+D$H1
+D$Le3
+\[^_]
+9T$0
+L[^_]
+,[^_]
+,[^_]
+|$(1
+l$pe
+D$L1
+T$Le3
+D$<1
+L$<e3
+@[^_
+UWVS
+L$Le
+L$l1
+D$le3
+|[^_]
+D$0E
+9l$\
+D$0E
+UWVS
+,[^_]
+,[^_]
+;t$(u
+[^_]
+UWVS
+t$0e
+t$L1
+_%8Y
+|$Le3=
+\[^_]
+T$(1
+\$,1
+UWVS
+T$,1
+D$,e3
+<[^_]
+UWVS
+D$ e
+D$|1
+T$h1
+L$X1
+D$$tj
+T$(1
+@t21
+E9l$$u
+D$ )
+D$|e3
+[^_]
+L$p1
+T$,1
+D$,1
+D$01
+D$;tY
+t$$t
+DL$,
+|$(A
+9|$$t~
+L$$1
+9l$(tW
+|$<1
+UWVS
+D$<1
+L$<e3
+L[^_]
+D$<1
+D$<e3
+L[^_]
+D$,e
+D$<1
+D$<e3
+<[^_]
+D$,1
+D$(tn1
+D$,e3
+l$@e
+UWVS
+D$(e
+D$<1
+D$<e3
+L[^_]
+[^_]
+UWVS
+<[^_]
+[^_]
+D$<1
+D$<e3
+; %s missing
+res->refcount > 0
+deref
+debug_level
+protocol_version
+tls_ca_cert_file
+tls_ca_cert_dir
+tls_cert_file
+tls_key_file
+tls_cipher_suite
+tls_require_cert
+ %s%s=
+<no values>
+password_noscheme
+<hidden>
+../../src/lib/array.h
+conn->pending_count > 0
+request->msgid != -1
+conn->pending_count == 0
+ldaps:
+file %s: line %d: unreached
+request->msgid == -1
+ldap_bind(%s) failed: %s
+request->auth_request != NULL
+(none)
+conn->to == NULL
+*,\#+<>;"()= 
+\%02X
+GROWING-ldap result iter
+ unused
+result: %s
+conn->pending_count == 1
+ldap_search(dn=%s) failed: %s
+Request lost
+ldap_connection
+ldap %s: %s
+LDAP %s: No base given
+LDAP %s: No uris or hosts set
+never
+hard
+demand
+allow
+LDAPRC
+LDAPRC=
+searching
+finding
+always
+base
+onelevel
+subtree
+conn->refcount >= 0
+Shutting down
+ldap
+ldap_ptr
+uid=user
+(objectClass=posixAccount)
+crypt
+hosts
+uris
+dnpass
+auth_bind
+auth_bind_userdn
+sasl_bind
+sasl_mech
+sasl_realm
+sasl_authz_id
+scope
+ldap_version
+ldaprc_path
+user_attrs
+user_filter
+pass_attrs
+pass_filter
+iterate_attrs
+iterate_filter
+default_pass_scheme
+userdb_warning_disable
+blocking
+Multiple values found for '%s', using value '%s'
+LDAP: Can't get error number: %s
+LDAP %s: Can't set option %s to %s: %s
+file %s: line %d (%s): assertion failed: (%s)
+LDAP %s: ldap_initialize() failed with uris %s: %s
+LDAP %s: ldap_init() failed with hosts: %s
+LDAP %s: Can't set network-timeout: %s
+idx * array->element_size < array->buffer->used
+Aborting (timeout), we're not connected to LDAP server
+conn->conn_state == LDAP_CONN_STATE_BINDING
+LDAP %s: Initial binding to LDAP server timed out
+LDAP %s: Don't use both tls=yes and ldaps URI
+LDAP %s: ldap_start_tls_s() failed: %s
+LDAP initialization took %d msecs
+LDAP %s: Can't get connection fd: %s
+LDAP %s: Buggy LDAP library returned wrong fd: %d
+conn->conn_state == LDAP_CONN_STATE_BOUND_AUTH || conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+ldap_search(%s) parsing failed: %s
+Connection appears to be hanging, reconnecting
+LDAP: Can't connect to server: %s
+LDAP: binding failed (dn %s): %s
+conn->conn_state != LDAP_CONN_STATE_BINDING
+conn->default_bind_msgid == -1
+ldap_get_errno(conn) != LDAP_SUCCESS
+conn->conn_state == LDAP_CONN_STATE_DISCONNECTED
+LDAP %s: Invalid attrs entry: %s
+no fields returned by the server
+LDAP: Reply with unknown msgid %d
+LDAP: Reply with unexpected type %d
+ldap_search(base=%s filter=%s) failed: %s
+ldap_search(base=%s) failed: %s
+LDAP search returned multiple entries
+LDAP: ldap_result() failed: %s
+LDAP: Connection lost to LDAP server, reconnecting
+LDAP: Configuration file path not given
+LDAP %s: sasl_bind=yes requires ldap_version=3
+LDAP %s: tls=yes requires ldap_version=3
+LDAP %s: Unknown tls_require_cert value '%s'
+LDAP %s: Multiple different ldaprc_path settings not allowed (%s and %s)
+LDAP %s: Unknown deref option '%s'
+LDAP %s: Unknown scope option '%s'
+homeDirectory=home,uidNumber=uid,gidNumber=gid
+(&(objectClass=posixAccount)(uid=%u))
+uid=user,userPassword=password
+db_ldap_unref
+db_ldap_connect_callback
+db_ldap_connect_delayed
+db_ldap_result_unref
+db_ldap_handle_request_result
+db_ldap_default_bind_finished
+db_ldap_connect
+db_ldap_request_search
+db_ldap_request_bind
+ldap_connection_timeout
+db_ldap_bind_simple
+db_ldap_request_queue_next
+db_ldap_abort_requests
+db_ldap_conn_close
+array_idx_i
+db_ldap_request
+Login attempt with empty password
+pass_filter matched multiple objects, aborting
+No password returned (and no nopassword)
+password == NULL || scheme != NULL
+pass search: base=%s scope=%s filter=%s fields=%s
+bind search: base=%s filter=%s
+nopassword
+passdb-ldap.c
+(all)
+invalid credentials
+ (given password: 
+ldap_bind() failed: %s
+ldap_lookup_finish
+ldap: iterate: Ignoring field not named 'user': %s
+ldap: iterate: base=%s scope=%s filter=%s fields=%s
+user search: base=%s scope=%s filter=%s fields=%s
+user_filter matched multiple objects, aborting
+;*2$"
+libauthdb_ldap.so-2.2.32-2.fc27.i386.debug
+7zXZ
+4bVm
+kI:v!
+L/Hc
+Z]IH
+F475
+$81?
+&sVon
+, L%
+pLv&
+\~Hi#[6
+0E!9j
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

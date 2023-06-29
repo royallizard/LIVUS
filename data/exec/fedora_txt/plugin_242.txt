@@ -1,0 +1,127 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+function_iterate_argument_values
+value_new_bool
+value_new_error_VALUE
+value_get_as_bool
+value_dup
+value_new_int
+dcgettext
+value_new_error
+go_plugin_depends
+go_plugin_header
+logical_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+ATSubH
+l$ H
+l$ H
+fffff.
+l$ H
+Type Mismatch
+gnumeric
+goffice
+1.8.2
+number,number,
+number
+b|EE
+condition,if true,if false
+true
+munG
+@FUNCTION=AND
+@SYNTAX=AND(b1, b2, ...)
+@DESCRIPTION=AND implements the logical AND function: the result is TRUE if all of the expressions evaluate to TRUE, otherwise it returns FALSE.
+@b1 through @bN are expressions that should evaluate to TRUE or FALSE.  If an integer or floating point value is provided, zero is considered FALSE and anything else is TRUE.
+* If the values contain strings or empty cells those values are ignored.
+* If no logical values are provided, then the error #VALUE! is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+AND(TRUE,TRUE) equals TRUE.
+AND(TRUE,FALSE) equals FALSE.
+Let us assume that A1 holds number five and A2 number one.  Then
+AND(A1>3,A2<2) equals TRUE.
+@SEEALSO=OR, NOT
+@FUNCTION=OR
+@SYNTAX=OR(b1, b2, ...)
+@DESCRIPTION=OR implements the logical OR function: the result is TRUE if any of the values evaluated to TRUE.
+@b1 through @bN are expressions that should evaluate to TRUE or FALSE. If an integer or floating point value is provided, zero is considered FALSE and anything else is TRUE.
+* If the values contain strings or empty cells those values are ignored.
+* If no logical values are provided, then the error #VALUE! is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+OR(TRUE,FALSE) equals TRUE.
+OR(3>4,4<3) equals FALSE.
+@SEEALSO=AND, NOT
+@FUNCTION=NOT
+@SYNTAX=NOT(number)
+@DESCRIPTION=NOT implements the logical NOT function: the result is TRUE if the @number is zero;  otherwise the result is FALSE.
+* This function is Excel compatible.
+@EXAMPLES=
+NOT(0) equals TRUE.
+NOT(TRUE) equals FALSE.
+@SEEALSO=AND, OR
+@FUNCTION=IF
+@SYNTAX=IF(condition[,if-true,if-false])
+@DESCRIPTION=IF function can be used to evaluate conditionally other expressions. IF evaluates @condition.  If @condition returns a non-zero value the result of the IF expression is the @if-true expression, otherwise IF evaluates to the value of @if-false.
+* If omitted @if-true defaults to TRUE and @if-false to FALSE.
+* This function is Excel compatible.
+@EXAMPLES=
+IF(FALSE,TRUE,FALSE) equals FALSE.
+@SEEALSO=
+@FUNCTION=TRUE
+@SYNTAX=TRUE()
+@DESCRIPTION=TRUE returns boolean value true.
+* This function is Excel compatible.
+@EXAMPLES=
+TRUE() equals TRUE.
+@SEEALSO=FALSE
+@FUNCTION=FALSE
+@SYNTAX=FALSE()
+@DESCRIPTION=FALSE returns boolean value false.
+* This function is Excel compatible.
+@EXAMPLES=
+FALSE() equals FALSE.
+@SEEALSO=TRUE
+@FUNCTION=XOR
+@SYNTAX=XOR(b1, b2, ...)
+@DESCRIPTION=XOR implements the logical exclusive OR function: the result is TRUE if an odd number of the values evaluated to TRUE.
+@b1 through @bN are expressions that should evaluate to TRUE or FALSE. If an integer or floating point value is provided, zero is considered FALSE and anything else is TRUE.
+* If the values contain strings or empty cells those values are ignored.
+* If no logical values are provided, then the error #VALUE! is returned.
+@EXAMPLES=
+XOR(TRUE,FALSE) equals TRUE.
+XOR(3>4,4<3) equals FALSE.
+@SEEALSO=OR, AND, NOT
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,146 @@
+tdt-
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+xt_xlate_add
+puts
+getservbyport
+__printf_chk
+putchar
+strdup
+strchr
+free
+xtables_parse_port
+xt_params
+strtok
+strcasecmp
+optind
+optarg
+xtables_strtoui
+libxt_tcp_init
+xtables_register_match
+libxtables.so.12
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+[^_]
+[^_]
+UWVS
+URPW
+RQPW
+[^_]
+[^_]
+[^_]
+[^_]
+Y^j:P
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+RQPj
+RQPj
+UWVS
+[^_]
+[^_]
+UWVS
+,[^_]
+D$,Pj
+tcp sport %s%u-%u
+tcp sport %s%u
+%stcp dport %s%u-%u
+%stcp dport %s%u
+%stcp flags & (
+) %s 
+invalid portrange (min > max)
+Unknown TCP flag `%s'
+NONE
+ --sport %u:%u
+ --sport %u
+ --dport %u:%u
+ --dport %u
+ --tcp-option %u
+ --tcp-flags 
+ tcp
+ option=%s%u
+ flags:%s
+0x%02X/0x%02X
+ Unknown invflags: 0x%X
+SYN,RST,ACK,FIN
+Bad TCP option "%s"
+libxtables.so.12
+source-port
+sport
+destination-port
+dport
+tcp-flags
+tcp-option
+tcp match options:
+[!] --tcp-flags mask comp	match when TCP flags & mask == comp
+				(Flags: SYN ACK FIN RST URG PSH ALL NONE)
+[!] --syn			match when only SYN flag set
+				(equivalent to --tcp-flags SYN,RST,ACK,FIN SYN)
+[!] --source-port port[:port]
+ --sport ...
+				match source port(s)
+[!] --destination-port port[:port]
+ --dport ...
+				match destination port(s)
+[!] --tcp-option number        match if TCP option set
+Only one `--source-port' allowed
+Only one `--destination-port' allowed
+Only one of `--syn' or `--tcp-flags'  allowed
+--tcp-flags requires two args.
+Only one `--tcp-option' allowed
+;*2$"
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+libxt_tcp.so-1.6.2-2.fc28.i386.debug
+7zXZ
+m$NX%
+=GqX
+-6Ey
+EJbv
+jfe<G_Q
+2gm>&;
+uJy#4
+fymG
+Ss-^
+D%vC
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,833 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+talloc_named_const
+auth_context_create
+gensec_server_start
+gensec_set_credentials
+gensec_set_target_service
+_talloc_steal_loc
+_talloc_free
+debuglevel_get_class
+dbghdrclass
+nt_errstr
+dbgtext
+__stack_chk_fail
+talloc_check_name
+stream_terminate_connection
+_tevent_req_callback_data
+_talloc_get_type_abort
+tevent_req_is_werror
+_tevent_req_werror
+_tevent_req_done
+tstream_writev_queue_recv
+strerror
+talloc_asprintf
+_talloc_zero
+_tevent_queue_create
+socket_get_fd
+_tstream_bsd_existing_socket
+packet_full_request_u16
+tstream_read_pdu_blob_send
+tevent_req_set_callback
+tdgram_sendto_queue_recv
+dns_common_zones
+talloc_get_size
+_talloc_realloc_array
+rep_memset_s
+talloc_strdup
+ndr_dnsp_string_list_copy
+_tevent_req_create
+dns_cli_request_send
+_tevent_req_nomem
+tevent_req_post
+_tevent_req_data
+dns_cli_request_recv
+unix_to_werror
+_talloc_move
+win_errstr
+_talloc_memdup
+time
+unix_to_dns_timestamp
+_tsocket_address_inet_from_strings
+lpcfg_socket_options
+stream_setup_socket
+_tdgram_inet_udp_socket
+tdgram_recvfrom_send
+__errno_location
+map_nt_error_from_unix_common
+lpcfg_server_role
+lpcfg_interfaces
+lpcfg_bind_interfaces_only
+task_server_set_title
+cli_credentials_init
+system_session
+samdb_connect
+cli_credentials_set_conf
+lpcfg_netbios_name
+strlower_talloc
+lpcfg_dnsdomain
+ldb_get_default_basedn
+dsdb_search_one
+cli_credentials_set_stored_principal
+task_server_terminate
+load_interface_list
+iface_list_count
+cli_credentials_set_machine_account
+_talloc_zero_array
+iface_list_n_ip
+lpcfg_dns_port
+iface_list_wildcard
+irpc_add_name
+ndr_table_irpc
+irpc_register
+samba_server_gensec_start
+lpcfg_gensec_settings
+talloc_reparent
+samba_server_gensec_krb5_start
+gensec_init
+gensec_security_by_oid
+samba_init_module
+register_server_service
+dns_server_process_query_recv
+werr_to_dns_err
+dns_lookup_records
+dns_common_lookup
+dns_lookup_records_wildcard
+dns_common_wildcard_lookup
+dns_replace_records
+dns_common_replace
+dns_authoritative_for_zone
+dns_name_match
+dns_get_authoritative_zone
+dns_name2dn
+dns_common_name2dn
+tevent_req_simple_recv_werror
+dns_name_is_static
+dns_record_match
+dns_find_tkey
+dns_name_equal
+dns_server_process_query_send
+lpcfg_dns_forwarder
+gensec_update
+gensec_session_info
+_talloc_array
+gensec_want_feature
+gensec_set_remote_address
+gensec_set_local_address
+gensec_start_mech_by_oid
+ntstatus_to_werror
+dns_server_process_update
+lpcfg_allow_dns_updates
+ldb_set_opaque
+ldb_transaction_cancel
+ldb_transaction_start
+ldb_transaction_commit
+ndr_print_dns_res_rec
+ndr_print_debug
+memset
+dns_verify_tsig
+ndr_push_dns_res_rec
+ndr_push_struct_blob
+ndr_push_dns_fake_tsig_rec
+memcpy
+gensec_check_packet
+ndr_map_error2string
+dump_data_dbgc
+ndr_pull_dns_name_packet
+ndr_pull_struct_blob
+ndr_print_dns_name_packet
+ndr_print_debugc
+tstream_read_pdu_blob_recv
+tsocket_address_string
+tdgram_recvfrom_recv
+dns_sign_tsig
+ndr_push_dns_name_packet
+gensec_sign_packet
+data_blob_talloc_named
+tstream_writev_queue_send
+tdgram_sendto_queue_send
+libclidns-samba4.so
+libsamba-credentials.so.1
+libdnsserver-common-samba4.so
+libservice-samba4.so
+libauth4-samba4.so
+libsamba-sockets-samba4.so
+libtevent-util.so.0
+libgensec-samba4.so
+libsamba-hostconfig.so.0
+libndr.so.3
+libMESSAGING-samba4.so
+libndr-nbt.so.0
+libsamba-util.so.0
+libreplace-samba4.so
+libsamdb-common-samba4.so
+libsamba-errors.so.1
+libauthkrb5-samba4.so
+libndr-samba4.so
+libsamdb.so.0
+libsamba-debug-samba4.so
+libcli-ldap-samba4.so
+libnetif-samba4.so
+libtalloc.so.2
+libldb.so.2
+libtevent.so.0
+libc.so.6
+dns.so
+SAMBA_4.18.1_SAMBA4
+TEVENT_UTIL_0.0.1
+NDR_0.0.1
+NDR_0.0.2
+SAMDB_0.0.1
+TEVENT_0.9.9
+SAMBA_ERRORS_1.0.0
+SAMBA_UTIL_0.0.1
+NDR_NBT_0.0.1
+SAMBA_HOSTCONFIG_0.0.1
+LDB_0.9.10
+TALLOC_2.0.2
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+SAMBA_CREDENTIALS_1.0.0
+/usr/lib/samba:/usr/lib
+u3UH
+AWAVAUI
+D$81
+D$(H
+T$(H
+L$0H
+|$0L
+t$0H
+D$8dH+
+[]A\A]A^A_
+ATUSH
+[]A\
+[]A\
+ATUSH
+[]A\
+[]A\
+[]A\
+t9H9
+AUATI
+u>f.
+[]A\A]A^
+,$[]A\A]A^
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+C fD
+[]A\A]
+ATUSH
+AWAVI
+D$pL
+|$xL
+D$(1
+t$$L
+D$$H
+T$(dH+
+8[]A\A]A^A_
+AVAUATI
+D$(1
+T$ f
+t$ H
+D$(dH+
+0[]A\A]A^
+D$(dH+
+[]A\A]A^
+AUATUH
+[]A\A]
+]A\A]
+[]A\A]
+[]A\A]
+nE(f
+~C(f
+AUATUSH
+C t1
+[]A\A]
+]A\A]
+AWAVAUI
+7AWSPH
+D$,PAU
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+D$(1
+D$(dH+
+[]A\A]A^A_
+|$ L
+AWAVM
+t$PL
+D$PL
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUH
+t$PAWH
+D$PL
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+D$xL
+|$pL
+D$(1
+t$$L
+D$$=+#
+E fA
+D$$H
+T$(dH+
+8[]A\A]A^A_
+AUATUH
+[]A\A]
+ATUSH
+[]A\
+ATUSH
+[]A\
+AWAVI
+|$pH
+t$ dH
+D$(1
+t$ H
+D$xL
+t$ H
+|$ f
+D$(dH+
+[]A\A]A^A_
+AWAVAUATI
+l$`H
+|$hH
+[]A\A]A^A_
+D$pH
+AUATUH
+C*f;C(
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+D$H1
+|$@I
+L$0L
+A;D$
+D$HdH+
+[]A\A]A^A_
+T$0H
+L$8L
+T$.f
+D$8H
+T$0H
+L$8L
+T$.f
+D$8H
+T$0H
+L$8L
+t$.H
+f;T$.s@
+AWAVAUI
+D$(1
+L$ H
+D$(dH+
+[]A\A]A^A_
+T$ H
+tSE1
+AUATUH
+[]A\A]
+[]A\A]
+]A\A]
+[]A\A]
+[]A\A]
+]A\A]A^
+A\A]A^
+AWAVI
+AUATM
+t$HH
+D$h1
+|$HI
+|$HH
+D$hdH+
+[]A\A]A^A_
+l$(H
+|$HH
+T$XL
+t$PfA
+|$HH
+D$HH
+|$H1
+D$HH
+|$HM
+T$8H
+D$(H
+D$0I
+T$8H
+T$8H
+t$0L
+T$8H
+T$0L
+u VM
+T$0A
+T$0I
+t$ L
+T$ I
+T$ H
+T$ L
+AWAVAUM
+ATUSH
+D$h1
+D$hdH+
+[]A\A]A^A_
+T$HM
+\$ L
+\$ fE
+L$ L
+L$(L
+T$ D
+T$ H
+d$ M
+\$0H
+D$`D
+T$(H
+A9D$
+\$0D
+d$ L
+T$(L
+L$PL
+L$PL
+l$ D
+D$(Hk
+\$0L
+L$`L
+T$`H
+L$XH
+L$EL
+t$FH
+D$(D
+L$ L
+D$XE1
+d$ L
+t$ M
+L$FfD9
+L$FL
+D$XfD9
+T$`H
+L$FL
+\$FL
+D$XH
+T$FA
+D$FL
+D$X@
+L$FE
+D$XH
+T$FA
+D$FL
+D$Xf9
+t$FH
+D$XD
+PfD9
+t$ M
+f;\$Fr
+H(fA9M(
+L$FL
+L$FK
+D$FL
+AUATI
+D$H1
+T$HdH+
+X[]A\A]A^A_
+|$0L
+|$ L
+L+l$8M
+T$(H
+t$ K
+AVAUI
+oN I
+oV0H
+[]A\A]A^A_
+w@PH
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATI
+ []A\A]A^
+AUATI
+D$X1
+C fA
+D$(H
+uIfA
+T$XdH+
+h[]A\A]A^A_
+|$ L
+C fE
+@"fE
+|$0L
+D$(H
+D$(H
+D$8L
+T$(H
+t$ L
+|$(H
+T$8H
+t$0H
+D$HPH
+L$ L
+D$(I
+D$@L
+|$HH
+[]A\A]
+S@E1
+AUATUH
+[]A\A]
+[]A\A]
+[]A\A]
+AVAUATUH
+[]A\A]A^
+[]A\A]A^
+talloc_new: ../../source4/auth/samba_server_gensec.c:43
+../../source4/auth/samba_server_gensec.c:55
+Failed to start auth server code: %s
+../../source4/auth/samba_server_gensec.c:56
+../../source4/auth/samba_server_gensec.c:65
+../../source4/auth/samba_server_gensec.c:66
+Failed to start GENSEC server code: %s
+../../source4/auth/samba_server_gensec.c:75
+../../source4/auth/samba_server_gensec.c:76
+../../source4/dns_server/dns_query.c:490
+../../source4/dns_server/dns_query.c:495
+../../source4/dns_server/dns_query.c:496
+../../source4/dns_server/dns_query.c:499
+dns_tcp_call_writev_done: tstream_writev_queue_recv() failed
+../../source4/dns_server/dns_server.c:410
+../../source4/dns_server/dns_server.c:416
+dns_tcp_call_writev_done: tstream_writev_queue_recv() - %d:%s
+../../source4/dns_server/dns_server.c:433
+../../source4/dns_server/dns_server.c:453
+../../source4/dns_server/dns_server.c:462
+../../source4/dns_server/dns_server.c:464
+dns_tcp_accept: no memory for tstream_read_pdu_blob_send
+../../source4/dns_server/dns_server.c:599
+../../source4/dns_server/dns_server.c:607
+../../source4/dns_server/dns_server.c:766
+../../source4/dns_server/dns_query.c:131
+../../source4/dns_server/dns_query.c:264
+../../source4/dns_server/dns_query.c:286
+../../source4/dns_server/dns_query.c:294
+../../source4/dns_server/dns_query.c:303
+../../source4/dns_server/dns_query.c:305
+../../source4/dns_server/dns_query.c:310
+../../source4/dns_server/dns_query.c:313
+../../source4/dns_server/dns_query.c:317
+../../source4/dns_server/dns_query.c:326
+../../source4/dns_server/dns_query.c:504
+../../source4/dns_server/dns_query.c:506
+../../source4/dns_server/dns_query.c:517
+../../source4/dns_server/dns_query.c:523
+../../source4/dns_server/dns_query.c:535
+../../source4/dns_server/dns_query.c:530
+../../source4/dns_server/dns_query.c:1036
+../../source4/dns_server/dns_query.c:1038
+struct dns_server_process_query_state
+../../source4/dns_server/dns_query.c:1046
+../../source4/dns_server/dns_query.c:1056
+../../source4/dns_server/dns_query.c:1060
+DNS query returned %s, trying another forwarder.
+../../source4/dns_server/dns_query.c:1066
+../../source4/dns_server/dns_query.c:1076
+../../source4/dns_server/dns_crypto.c:53
+../../source4/dns_server/dns_crypto.c:61
+../../source4/dns_server/dns_update.c:371
+../../source4/dns_server/dns_server.c:630
+../../source4/dns_server/dns_server.c:648
+Failed to bind to %s:%u TCP - %s
+../../source4/dns_server/dns_server.c:650
+../../source4/dns_server/dns_server.c:659
+../../source4/dns_server/dns_server.c:665
+Failed to bind to %s:%u UDP - %s
+../../source4/dns_server/dns_server.c:670
+dns: no DNS required in standalone configuration
+dns: no DNS required in member server configuration
+dns: no network interfaces configured
+Failed to init server credentials
+../../source4/dns_server/dns_server.c:865
+../../source4/dns_server/dns_server.c:872
+Failed to obtain server credentials for DNS, despite finding it in the samdb! %s
+../../source4/dns_server/dns_server.c:887
+Failed to obtain server credentials, perhaps a standalone server?: %s
+../../source4/dns_server/dns_server.c:747
+Failed to allocate tkey storage
+talloc_new: ../../source4/dns_server/dns_server.c:691
+../../source4/dns_server/dns_server.c:711
+No wildcard address available
+../../source4/dns_server/dns_server.c:722
+../../source4/dns_server/dns_server.c:727
+dns failed to setup interfaces
+dns: failed to register IRPC name
+dns: failed to setup reload handler
+../../source4/auth/samba_server_gensec.c:101
+const struct gensec_security_ops *
+../../source4/auth/samba_server_gensec.c:129
+../../source4/auth/samba_server_gensec.c:146
+../../source4/dns_server/dns_query.c:1158
+../../source4/dns_server/dns_server.c:213
+../../source4/dns_server/dns_server.c:215
+../../source4/dns_server/dns_server.c:224
+../../source4/dns_server/dns_server.c:229
+../../source4/dns_server/dns_query.c:573
+struct handle_authoritative_state
+../../source4/dns_server/dns_query.c:587
+../../source4/dns_server/dns_query.c:592
+../../source4/dns_server/dns_query.c:593
+../../source4/dns_server/dns_query.c:598
+../../source4/dns_server/dns_query.c:607
+../../source4/dns_server/dns_query.c:417
+../../source4/dns_server/dns_query.c:426
+../../source4/dns_server/dns_query.c:452
+../../source4/dns_server/dns_query.c:438
+../../source4/dns_server/dns_query.c:443
+../../source4/dns_server/dns_query.c:447
+../../source4/dns_server/dns_query.c:457
+../../source4/dns_server/dns_query.c:472
+../../source4/dns_server/dns_query.c:480
+../../source4/dns_server/dns_query.c:616
+../../source4/dns_server/dns_query.c:618
+../../source4/dns_server/dns_query.c:623
+../../source4/dns_server/dns_query.c:624
+../../source4/dns_server/dns_query.c:631
+../../source4/dns_server/dns_query.c:640
+../../source4/dns_server/dns_query.c:361
+Creating zone authority record for '%s'
+../../source4/dns_server/dns_query.c:1081
+../../source4/dns_server/dns_query.c:1083
+../../source4/dns_server/dns_query.c:1089
+../../source4/dns_server/dns_query.c:1103
+../../source4/dns_server/dns_query.c:1104
+../../source4/dns_server/dns_query.c:1113
+../../source4/dns_server/dns_query.c:1117
+Error: %s, trying a different forwarder.
+../../source4/dns_server/dns_query.c:1125
+../../source4/dns_server/dns_query.c:1139
+../../source4/dns_server/dns_query.c:1140
+../../source4/dns_server/dns_query.c:1149
+../../source4/dns_server/dns_query.c:944
+../../source4/dns_server/dns_query.c:950
+../../source4/dns_server/dns_query.c:956
+../../source4/dns_server/dns_query.c:848
+Rejecting tkey negotiation for already established key
+../../source4/dns_server/dns_query.c:697
+../../source4/dns_server/dns_query.c:707
+Failed to set remote address into GENSEC: %s
+../../source4/dns_server/dns_query.c:716
+Failed to set local address into GENSEC: %s
+../../source4/dns_server/dns_query.c:725
+../../source4/dns_server/dns_query.c:731
+../../source4/dns_server/dns_query.c:871
+../../source4/dns_server/dns_query.c:874
+../../source4/dns_server/dns_query.c:876
+../../source4/dns_server/dns_query.c:888
+GSS key negotiation returned %s
+../../source4/dns_server/dns_query.c:896
+../../source4/dns_server/dns_query.c:907
+../../source4/dns_server/dns_query.c:965
+../../source4/dns_server/dns_query.c:968
+../../source4/dns_server/dns_query.c:994
+../../source4/dns_server/dns_query.c:998
+../../source4/dns_server/dns_query.c:1006
+../../source4/dns_server/dns_query.c:1016
+Not authoritative for '%s', forwarding
+../../source4/dns_server/dns_query.c:1022
+../../source4/dns_server/dns_query.c:1030
+../../source4/dns_server/dns_update.c:824
+../../source4/dns_server/dns_update.c:836
+We're not authoritative for this zone
+../../source4/dns_server/dns_update.c:842
+Would have to delegate zone '%s'.
+../../source4/dns_server/dns_update.c:771
+../../source4/dns_server/dns_update.c:776
+../../source4/dns_server/dns_update.c:781
+Update not allowed for unsigned packet.
+../../source4/dns_server/dns_update.c:787
+Authenticated, but key not found. Something is wrong.
+talloc_new: ../../source4/dns_server/dns_update.c:705
+../../source4/dns_server/dns_update.c:713
+../../source4/dns_server/dns_update.c:731
+../../source4/dns_server/dns_update.c:397
+../../source4/dns_server/dns_update.c:398
+../../source4/dns_server/dns_update.c:399
+../../source4/dns_server/dns_update.c:415
+Can't handle updates of type %u yet
+../../source4/dns_server/dns_update.c:440
+Tombstoned dnsNode has %u records, expected 1
+../../source4/dns_server/dns_update.c:442
+../../source4/dns_server/dns_update.c:443
+../../source4/dns_server/dns_update.c:459
+../../source4/dns_server/dns_update.c:492
+../../source4/dns_server/dns_update.c:516
+../../source4/dns_server/dns_update.c:524
+../../source4/dns_server/dns_update.c:541
+../../source4/dns_server/dns_update.c:542
+../../source4/dns_server/dns_update.c:543
+../../source4/dns_server/dns_update.c:740
+../../source4/dns_server/dns_update.c:761
+../../source4/dns_server/dns_crypto.c:125
+TSIG record not the last additional record!
+../../source4/dns_server/dns_crypto.c:197
+../../source4/dns_server/dns_crypto.c:205
+../../source4/dns_server/dns_crypto.c:223
+../../source4/dns_server/dns_crypto.c:240
+../../source4/dns_server/dns_server.c:129
+../../source4/dns_server/dns_server.c:139
+../../source4/dns_server/dns_server.c:150
+../../source4/dns_server/dns_server.c:153
+../../source4/dns_server/dns_server.c:158
+../../source4/dns_server/dns_server.c:159
+../../source4/dns_server/dns_server.c:179
+../../source4/dns_server/dns_server.c:188
+../../source4/dns_server/dns_server.c:207
+../../source4/dns_server/dns_server.c:301
+dns_tcp_call_loop: no memory for dns_tcp_call
+../../source4/dns_server/dns_server.c:318
+dns_tcp_call_loop: tstream_read_pdu_blob_recv() - %s
+../../source4/dns_server/dns_server.c:333
+Received DNS TCP packet of length %lu from %s
+dns_tcp_call_loop: dns_process_send failed
+dns_tcp_call_loop: no memory for tstream_read_pdu_blob_send
+../../source4/dns_server/dns_server.c:514
+../../source4/dns_server/dns_server.c:524
+../../source4/dns_server/dns_server.c:531
+../../source4/dns_server/dns_server.c:533
+../../source4/dns_server/dns_server.c:540
+Received DNS UDP packet of length %lu from %s
+../../source4/dns_server/dns_server.c:549
+no memory for tdgram_recvfrom_send
+../../source4/dns_server/dns_crypto.c:291
+../../source4/dns_server/dns_crypto.c:299
+../../source4/dns_server/dns_crypto.c:407
+../../source4/dns_server/dns_server.c:235
+../../source4/dns_server/dns_server.c:263
+../../source4/dns_server/dns_server.c:271
+DATA_BLOB: ../../source4/dns_server/dns_server.c:279
+../../source4/dns_server/dns_server.c:373
+../../source4/dns_server/dns_server.c:379
+../../source4/dns_server/dns_server.c:381
+dns_tcp_call_loop: process function failed
+dns_tcp_call_loop: no memory for tstream_writev_queue_send
+../../source4/dns_server/dns_server.c:569
+../../source4/dns_server/dns_server.c:576
+../../source4/dns_server/dns_server.c:578
+../../source4/dns_server/dns_server.c:579
+../../source4/dns_server/dns_server.c:591
+struct dns_tcp_connection
+dns_tcp_recv: called
+dns_tcp_send: called
+struct tevent_req
+struct dns_tcp_call
+dns_tcp_accept: out of memory
+dns_tcp_accept
+struct dns_socket
+struct dns_udp_call
+struct dns_server
+struct dns_res_rec
+Got unhandled type %u query.
+%s: 
+struct ask_forwarder_state
+struct handle_dnsrpcrec_state
+Got a qytpe of %d
+struct dns_udp_socket
+dns_udp_send_queue
+task[dns]
+dns: out of memory
+dns: samdb_connect failed
+dns: failed to load smb.conf
+DNS/%s.%s
+(servicePrincipalName=%s)
+dns: talloc_asprintf failed
+struct dns_server_tkey_store
+struct dns_server_tkey *
+dns: failed to load DNS zones
+dnssrv
+1.2.840.113554.1.2.2
+1.3.6.1.5.5.2
+struct dns_process_state
+struct dns_name_question
+struct dnsp_DnssrvRpcRecord
+Failed to add SOA record: %s
+struct dns_server_tkey
+More processing required
+Tkey handshake completed
+Should delete tkey here
+Unsupported TKEY mode %d
+struct forwarder_string
+Got a dns update request.
+All updates allowed.
+Updates disabled.
+sessionInfo
+unable to set session info
+dns update count is %u
+Looking at record: 
+discard_const(update)
+Skipping update
+Duplicate SOA records found.
+struct dns_fake_tsig_rec
+Failed to push packet: %s!
+uint8_t
+Verifying tsig failed: %s
+&state->in_packet
+Won't reply to replies.
+gss-tsig
+&state->out_packet
+dns_process returned %s
+dns_tcp
+add_zone_authority_record
+dns_add_socket
+dns_tsig_compute_mac
+dns_verify_tsig
+dns_update_allowed
+handle_one_update
+handle_one_update
+handle_updates
+handle_updates
+dns_server_process_update
+dns_rr_to_dnsp
+dns_server_process_query_got_auth
+dns_server_process_query_got_auth
+dns_server_process_query_got_response
+create_tkey
+handle_tkey
+handle_tkey
+dns_server_process_query_send
+add_dns_res_rec
+add_response_rr
+dns_startup_interfaces
+dns_udp_call_process_done
+dns_udp_call_loop
+dns_tcp_call_process_done
+dns_tcp_call_loop
+dns_process_recv
+dns_process_send
+samba_server_gensec_start_settings
+GCC: (GNU) 12.2.1 20230201
+dns.so.debug
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment
+.gnu_debuglink

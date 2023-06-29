@@ -1,0 +1,463 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+connect
+close
+__errno_location
+__stack_chk_fail
+socket
+lcp_allowoptions
+lcp_wantoptions
+strlcpy
+ioctl
+ppp_devnam
+pppd_pppoe_service
+__isoc99_sscanf
+ppp_session_number
+remote_number
+__sprintf_chk
+warn
+script_setenv
+fatal
+Eth_PPPOE_Discovery
+openInterface
+discovery
+sendPADT
+__snprintf_chk
+options_from_file
+exit
+strlen
+the_channel
+pppoe_channel
+modem
+malloc
+novm
+pppoe_check_options
+ipcp_allowoptions
+ipcp_wantoptions
+ccp_allowoptions
+ccp_wantoptions
+option_error
+plugin_init
+ppp_available
+new_style_driver
+add_options
+info
+generic_establish_ppp
+generic_disestablish_ppp
+OldDevnameHook
+pppoe_reqd_mac_addr
+pppd_version
+parsePacket
+strncmp
+memcpy
+__memcpy_chk
+sendPacket
+getpid
+dbglog
+gettimeofday
+__fdelt_chk
+select
+receivePacket
+waitForPADO
+etherType
+Eth_PPPOE_Session
+setsockopt
+strncpy
+bind
+debug
+send
+pppoe_log_packet
+recv
+pppoe_printpkt
+init_pr_log
+end_pr_log
+libc.so.6
+GLIBC_2.7
+GLIBC_2.14
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+D$(1
+D$(dH3
+AUATUSH
+D$X1
+A;T$
+D$,H
+D$0PH
+D$4P1
+L$8L
+\$XdH3
+`[]A\A]A^
+AUATUH
+D$(1
+\$(dH3
+8[]A\A]
+AXAY
+AVAUATI
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+s^[A
+A\A]A^
+[]A\A]A^
+AVAUATUH
+w0dH
+[]A\A]A^
+tWH)
+([]A\A]
+I94$
+AWAVAUATU
+l$ L
+t$ L
+HcT$
+[]A\A]A^A_
+AVAUATUH
+g0dH
+[]A\A]A^
+AWAVAUATU
+D$81
+t$ L
+|$(L
+HcT$
+[]A\A]A^A_
+T$0H
+[]A\
+fD9 t
+fD9 u
+AUfA
+ATUH
+D$X1
+l$0H
+D$Bf
+D$Ff
+D$@H
+L$XdH3
+`[]A\A]A^
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+ATUSH
+N	PA
+t,Hc
+}CHc
+]A\A]A^A_
+[]A\A]A^A_
+vK<e
+td<	
+Failed to disconnect PPPoE socket: %d %m
+Failed to create PPPoE socket: %m
+Illegal value for rp_pppoe_sess option
+Unable to complete PPPoE Discovery
+Connected to %02X:%02X:%02X:%02X:%02X:%02X via interface %s
+Failed to connect PPPoE socket: %d %m
+cannot parse pppoe-mac option value
+Linux kernel does not support PPPoE -- are you running 2.4.x?
+RP-PPPoE plugin version %s compiled against pppd %s
+Desired PPPoE access concentrator name
+Attach to existing session (sessid:macaddr)
+Be verbose about discovered access concentrators
+Only connect to specified MAC address
+Can't get MTU for %s: %m
+%d:%x:%x:%x:%x:%x:%x
+%02X:%02X:%02X:%02X:%02X:%02X
+MACREMOTE
+/etc/ppp/options.%s
+nic-
+Interface %s not Ethernet
+PPPoE session data
+2.4.7
+3.8p
+PPPoE device name
+rp_pppoe_service
+Desired PPPoE service name
+rp_pppoe_ac
+rp_pppoe_sess
+rp_pppoe_verbose
+pppoe-mac
+Access-Concentrator: %.*s
+PADO: System-Error: %.*s
+PADO: Generic-Error: %.*s
+Would create too-long packet
+PADS: Service-Name: '%.*s'
+PADS: System-Error: %.*s
+PADS: Generic-Error: %.*s
+gettimeofday: %m
+Bogus PPPoE length field (%u)
+PPP session is %d
+select (waitForPADS): %m
+select (waitForPADO): %m
+PADO: Service-Name-Error: %.*s
+PADS: Service-Name-Error: %.*s
+gettimeofday (waitForPADS): %m
+Access concentrator used a session value of %x -- the AC is violating RFC 2516
+NO-SERVICE-NAME-NON-RFC-COMPLIANT
+gettimeofday (waitForPADO): %m
+Ignoring PADO packet from non-unicast MAC address
+Ignoring PADO packet from wrong MAC address
+Ignoring PADO packet with no AC-Name tag
+Ignoring PADO packet with no Service-Name tag
+Timeout waiting for PADO packets
+Timeout waiting for PADS packets
+Invalid ether type 0x%x
+Send 
+Recv 
+Cannot create raw socket -- pppoe must be run as root.
+Can't open socket for pppoe: %m
+Can't set socket options for pppoe: %m
+Can't get hardware address for %s: %m
+Interface %.16s is not Ethernet
+Can't use interface %.16s: it has broadcast/multicast MAC address
+Interface %.16s has MTU of %d -- should be at least %d.
+This may cause serious connection problems.
+Could not get interface index for %s: %m
+Failed to bind to interface %s: %m
+error sending pppoe packet: %m
+error receiving pppoe packet: %m
+Invalid PPPoE version (%d)
+Invalid PPPoE type (%d)
+Invalid PPPoE tag length (%u)
+Sent PADT
+PPPOE Discovery V%dT%d 
+PADI
+PADO
+PADR
+PADS
+unknown code %x
+ session 0x%x length %d
+PPPOE Session V%dT%d
+end-of-list
+service-name
+AC-name
+host-uniq
+AC-cookie
+vendor-specific
+relay-session-id
+PPP-max-payload
+service-name-error
+AC-system-error
+generic-error
+unknown tag 0x%x
+ %.*v
+ %.*B
+ %.32B... (length %d)
+Invalid PPPoE packet length (%u)
+ code 0x%x session 0x%x length %d
+Unknown ethernet frame with proto = 0x%x
+ dst %02x:%02x:%02x:%02x:%02x:%02x 
+ src %02x:%02x:%02x:%02x:%02x:%02x
+:*3$"
+2.4.7
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+rp-pppoe.so-2.4.7-31.fc30.x86_64.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

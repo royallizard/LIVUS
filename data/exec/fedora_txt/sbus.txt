@@ -1,0 +1,483 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_reg_handoff
+proto_reg_handoff_sbus
+__stack_chk_fail
+plugin_register
+proto_register_sbus
+version
+new_create_dissector_handle
+dissector_add
+tvb_length
+tvb_get_ntohl
+tvb_reported_length
+find_conversation
+conversation_new
+tvb_get_ntohs
+g_hash_table_lookup
+tvb_get_guint8
+check_col
+val_to_str
+col_add_fstr
+proto_tree_add_item
+proto_item_add_subtree
+proto_tree_add_text
+proto_tree_add_uint_format
+proto_tree_add_boolean_hidden
+col_set_str
+col_clear
+tvb_get_string
+proto_tree_add_string
+g_free
+g_mem_chunk_alloc
+g_hash_table_insert
+proto_tree_add_uint
+col_append_fstr
+proto_register_protocol
+proto_register_field_array
+proto_register_subtree_array
+register_init_routine
+g_hash_table_destroy
+g_mem_chunk_destroy
+g_hash_table_new
+g_mem_chunk_new
+libm.so.6
+libcrypto.so.7
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+sbus.so
+GLIBC_2.4
+GLIBC_2.2.5
+5BQ 
+%DQ 
+%BQ 
+%:Q 
+%2Q 
+%*Q 
+%"Q 
+%zP 
+%rP 
+%jP 
+%bP 
+%ZP 
+%RP 
+%JP 
+%BP 
+%:P 
+%2P 
+%*P 
+%"P 
+=Pc 
+ATSubH
+=gB 
+=OB 
+fffff.
+fff.
+5&N 
+ffff.
+AUATUH
+D$81
+T$8dH3
+H[]A\A]A^A_
+=4` 
+t$0f
+5oK 
+5TK 
+59K 
+5tK 
+5KJ 
+5rI 
+5HI 
+T$,L
+5IH 
+\$,H
+55G 
+5}G 
+5bG 
+5GG 
+5,G 
+5?F 
+5\F 
+5?F 
+5<E 
+5:E 
+K	E1
+5\D 
+53B 
+55B 
+5!A 
+5$A 
+D$ E
+5b@ 
+|$ E1
+D$0H
+5{= 
+5&= 
+5<< 
+5:< 
+5s; 
+5G; 
+5J; 
+5o: 
+5z: 
+5-9 
+5/9 
+5Y8 
+5?8 
+567 
+5)6 
+5;5 
+=-G 
+0.0.4
+udp.port
+Unknown Request!
+Unknown Command!
+Request: %s
+Response: %s
+ (Seq No: %d)
+Response
+Unknown NAK response code!
+Unknown attribute
+Ether-S-Bus header
+Binary data: %08u
+Clock data
+Program lines
+Data (bytes)
+ACCU and arithmetic status
+Data (hex bytes)
+System info
+Checksum: 0x%04x (correct)
+sbus
+SBUS
+SAIA S-Bus
+sbus_request_keys
+sbus_request_vals
+Partitial request
+Request end
+Get Data
+Transfer OK
+Partial answer
+Last part of answer
+Server not ready
+Read counter(s)
+Read display register
+Read flag(s)
+Read input(s)
+Read real time clock
+Read output(s)
+Read register(s)
+Read timer(s)
+Write counter(s)
+Write flag(s)
+Write real time clock
+Write output(s)
+Write register(s)
+Write timer(s)
+Read PCD status, CPU 0
+Read PCD status, CPU 1
+Read PCD status, CPU 2
+Read PCD status, CPU 3
+Read PCD status, CPU 4
+Read PCD status, CPU 5
+Read PCD status, CPU 6
+Read PCD status (own)
+Read S-Bus station number
+Read user memory*
+Read program line*
+Read firmware version
+Read text*
+Read active transition*
+Write user memeory*
+Write program line*
+Write text*
+Run procedure*, CPU 0
+Run procedure*, CPU 1
+Run procedure*, CPU 2
+Run procedure*, CPU 3
+Run procedure*, CPU 4
+Run procedure*, CPU 5
+Run procedure*, CPU 6
+Run procedure* (own CPU)
+Run procedure* (All CPUs)
+Restart cold CPU 1*
+Restart cold CPU 2*
+Restart cold CPU 3*
+Restart cold CPU 4*
+Restart cold CPU 5*
+Restart cold CPU 6*
+Restart cold own CPU*
+Restart cold all CPUs*
+Stop procedure*, CPU 0
+Stop procedure*, CPU 1
+Stop procedure*, CPU 2
+Stop procedure*, CPU 3
+Stop procedure*, CPU 4
+Stop procedure*, CPU 5
+Stop procedure*, CPU 6
+Stop procedure*, (own CPU)
+Stop procedure*, (All CPUs)
+Read byte
+Read halt failure register*
+Read index register*
+Read instruction pointer*
+Find history*
+Write byte*
+Write index register
+Write instruction pointer*
+Clear all (F, O, R, T)*
+Clear flags*
+Clear outputs*
+Clear registers*
+Clear timers*
+Restart warm CPU 1*
+Restart warm CPU 2*
+Restart warm CPU 3*
+Restart warm CPU 4*
+Restart warm CPU 5*
+Restart warm CPU 6*
+Restart warm (own CPU)*
+Restart warm (All CPUs)*
+Change block*
+Clear history failure*
+Delete program line*
+Go conditional*
+Insert program line*
+Local cycles*
+All cycles*
+Make text*
+Execute single instruction*
+Single step*
+XOB 17 interrupt
+XOB 18 interrupt
+XOB 19 interrupt
+Read hangup timeout
+Read data block
+Write data block
+Make data block*
+Clear data block*
+Clear text*
+Read block address
+Read block sizes
+Read current block*
+Read call stack*
+Read DBX
+Read user EEPROM register
+Write user EEPROM register
+Erase flash*
+Restart cold flag*
+Write system buffer
+Read system buffer
+Get diagnostic*
+Read system information*
+Changes blocks on run*
+Flashcard telegram*
+Download FW*
+ACK (Acknowledged)
+NAK, no reason specified
+NAK, because of password
+NAK, PGU port is already used
+Length (bytes)
+sbus.len
+Version
+sbus.vers
+SAIA Ether-S-Bus version
+Protocol type
+sbus.proto
+Sequence
+sbus.seq
+Telegram attribute
+sbus.att
+Destination
+sbus.destination
+S-Bus address
+sbus.address
+SAIA S-Bus station address
+Command
+sbus.cmd
+SAIA S-Bus command
+Command extension
+sbus.cmd_extn
+SAIA S-Bus command extension
+R-count
+sbus.rcount
+W-count (raw)
+sbus.wcount
+Number of bytes to be written
+W-count (32 bit values)
+sbus.wcount_calc
+FIO Count (amount of bits)
+sbus.fio_count
+Base address RTC
+sbus.addr_RTC
+Base address IOF
+sbus.addr_IOF
+sbus.addr_EEPROM
+sbus.addr_prog
+Base address of bytes
+Block type
+sbus.block_type
+Program block type read
+Block/Element nr
+sbus.block_nr
+Number of elements
+sbus.nbr_elements
+PCD Display register
+sbus.data_display_register
+S-Bus 32-bit data
+sbus.data_rtc
+Data bytes
+sbus.data_byte
+One byte from PCD
+Data bytes (hex)
+sbus.data_byte_hex
+S-Bus binary data
+sbus.data_iof
+8 binaries
+PCD type
+sbus.pcd_type
+PCD type (short form)
+Firmware version
+sbus.fw_version
+System information number
+sbus.sysinfo
+Mem size info
+sbus.sysinfo0.mem
+Trace buffer
+sbus.sysinfo0.trace
+Slot B1
+sbus.sysinfo0.b1
+Slot B2
+sbus.sysinfo0.b2
+PGU baud
+sbus.sysinfo0.pgubaud
+System information length
+sbus.sysinfo_length
+F-module type
+sbus.fmodule_type
+Hardware version
+sbus.hw_version
+Hardware modification
+sbus.hw_modification
+Varous data
+sbus.various
+ACK/NAK code
+sbus.nakcode
+SAIA S-Bus ACK/NAK response
+sbus.CPU_status
+SAIA PCD CPU status
+sbus.rtc.week_day
+RTC date (YYMMDD)
+sbus.rtc.date
+RTC time (HHMMSS)
+sbus.rtc.time
+Time of the real time clock
+Web server packet size
+sbus.web.size
+sbus.web.aid
+sbus.web.seq
+sbus.crc
+CRC 16
+Bad Checksum
+sbus.crc_bad
+ACCU
+sbus.flags.accu
+PCD Accumulator
+Error flag
+sbus.flags.error
+PCD error flag
+N-flag
+sbus.flags.nflag
+Negative status flag
+Z-flag
+sbus.flags.zflag
+Zero status flag
+Request
+ACK/NAK
+TEXT
+Is present
+Is not present
+Halt
+Stop
+Is high
+Is low
+Web Server Request: %s (Seq No: %d)
+Time (HH:MM:SS): %02x:%02x:%02x
+Date (YY/MM/DD): %02x/%02x/%02x
+Calendar week: %x, Week day: %x
+This telegram isn't implemented in the dissector.
+Checksum: 0x%04x (NOT correct)
+Read arithmetic status and ACCU*
+Write arithmetic staus and ACCU*
+Web server serial communication*
+NAK, PGU port is in reduced protocol
+SAIA Ether-S-Bus telegram length
+SAIA Ether-S-Bus protocol type
+SAIA Ether-S-Bus sequence number
+SAIA Ether-S-Bus telegram attribute, indicating type of telegram
+SAIA S-Bus destination address
+Number of elements expected in response
+Number of elements to be written
+Number of binary elements to be written
+Base address of 32 bit elements to read
+Base address of binary elements to read
+Base address of EEPROM register
+Base address of 32 bit EEPROM register to read or write
+Base address of user memory or program lines
+Base address of the user memory or program lines (read or write)
+Base address of bytes to read or write (68k address)
+Program block / DatatBlock number
+Number of elements or characters
+The PCD display register (32 bit value)
+One regiser/timer of counter (32 bit value)
+One byte from PCD (hexadecimal)
+Firmware version of the PCD or module
+System information number (extension to command code)
+Availability of memory size information
+Availability of trace buffer feature
+Presence of EEPROM information on slot B1
+Presence of EEPROM information on slot B2
+Availability of PGU baud switch feature
+System information length in response
+Module type mounted on B1/2 slot
+Hardware version of the PCD or the module
+Hardware modification of the PCD or module
+Various data contained in telegrams but nobody will search for it
+RTC calendar week and week day
+Calendar week and week day number of the real time clock
+Year, month and day of the real time clock
+Web server command/status code (AID)
+Web server sequence nr (PACK_N)
+A bad checksum in the telegram
+X, Exceptional Intermediate Status (MODEMS+)
+sbus.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,330 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+__errno_location
+main_server
+find_config
+find_config_next
+pr_signals_handle
+pr_privs_root
+GeoIP_open
+pr_privs_relinquish
+push_array
+GeoIP_database_edition
+GeoIP_database_info
+pr_trace_msg
+GeoIP_new
+GeoIP_set_charset
+pr_log_writefile
+pr_log_debug
+permanent_pool
+make_sub_pool
+pr_pool_tag
+make_array
+geoip_module
+pr_event_register
+check_context
+strcasecmp
+add_config_param
+pstrdup
+palloc
+mod_create_ret
+get_context_name
+pstrcat
+add_config_param_str
+get_boolean
+pcalloc
+GeoIP_id_by_addr
+GeoIP_name_by_addr
+pr_netaddr_use_ipv6
+GeoIP_name_by_addr_v6
+GeoIP_continent_by_id
+GeoIP_code_by_id
+GeoIP_code3_by_id
+GeoIP_name_by_id
+GeoIP_region_by_addr
+GeoIP_region_name_by_code
+session
+GeoIP_time_zone_by_country_and_region
+GeoIPRegion_delete
+GeoIP_record_by_addr
+__snprintf_chk
+GeoIPRecord_delete
+GeoIP_id_by_addr_v6
+GeoIP_record_by_addr_v6
+GeoIP_region_by_addr_v6
+__stack_chk_fail
+pr_env_set
+pr_table_add_dup
+strerror
+GeoIP_delete
+destroy_pool
+pr_netaddr_get_ipstr
+pr_regexp_exec
+pr_log_pri
+pr_signals_block
+pr_log_openfile
+pr_signals_unblock
+close
+pr_event_unregister
+pr_regexp_alloc
+pr_regexp_compile
+pr_regexp_error
+pr_regexp_free
+libGeoIP.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+mod_geoip.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+%2B 
+%*B 
+%"B 
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+=iB 
+fffff.
+=)B 
+5"B 
+fffff.
+=?@ 
+=b: 
+fffff.
+AWAVH
+AUATA
+[]A\A]A^A_H
+[]A\A]A^A_
+=b< 
+=?< 
+[]A\A]A^A_H
+fff.
+ffff.
+AWAV
+AUATI
+[]A\A]A^A_
+G0E1
+AUATUSH
+[]A\A]
+AWAVAUATI
+D$0L
+D$PH
+[]A\A]A^A_
+-92 
+L$(H
+t$ H
+=:1 
+=j0 
+ffff.
+x	[]A\
+[]A\H
+fffff.
+AUATI
+A;\$
+[]A\A]
+fffff.
+AWAVH
+AUAT1
+[]A\A]A^A_
+=U- 
+_AXH
+AYAZ
+=F& 
+[]A\A]A^A_
+5{& 
+5{& 
+5+& 
+5{& 
+5[& 
+5;& 
+5s% 
+5S% 
+[]A\A]A^A_
+[]A\A]A^A_
+5k# 
+fff.
+=E$ 
+=:$ 
+AVAUATUI
+D$0H
+D$01
+D$0H
+[]A\A]A^
+t$0I
+D$0I
+GeoIPTable
+mod_geoip.c
+geoip
+mod_geoip/0.3
+core.module-unload
+core.postparse
+core.restart
+ context
+directive not allowed in 
+wrong number of parameters
+Standard
+MemoryCache
+MMapCache
+IndexCache
+CheckCache
+UTF8
+unknown GeoIP flag '
+missing arguments
+expected Boolean parameter
+CountryCode
+unknown
+dialup
+cabledsl
+corporate
+anonymous
+GeoIPEngine
+GeoIPLog
+none
+GeoIP Session Pool
+%s: 2-Letter country code: %s
+%s: 3-Letter country code: %s
+%s: Country name: %s
+%s: Region code: %s
+%s: Region name: %s
+%s: Timezone: %s
+%s: Continent name: %s
+%s: ISP: %s
+%s: Organization: %s
+%s: Network speed: %s
+%s: City: %s
+%s: Area code: %s
+%s: Postal code: %s
+%s: Latitude: %s
+%s: Longitude: %s
+%s: ASN: %s
+%s: Proxy: %s
+GeoIPAllowFilter
+GeoIPDenyFilter
+GEOIP_COUNTRY_CODE
+GEOIP_COUNTRY_CODE3
+GEOIP_COUNTRY_NAME
+GEOIP_REGION
+GEOIP_REGION_NAME
+GEOIP_CONTINENT_CODE
+GEOIP_ISP
+GEOIP_ORGANIZATION
+GEOIP_NETSPEED
+GEOIP_CITY
+GEOIP_AREA_CODE
+GEOIP_POSTAL_CODE
+GEOIP_LATITUDE
+GEOIP_LONGITUDE
+GEOIP_ASN
+GEOIP_PROXY
+GEOIP_TIMEZONE
+did not match
+matched
+unknown GeoIP filter name '
+' failed regex compilation: 
+pattern '
+CountryCode3
+CountryName
+RegionCode
+RegionName
+Continent
+Organization
+NetworkSpeed
+City
+AreaCode
+PostalCode
+Latitude
+Longitude
+Proxy
+Timezone
+loaded GeoIP table '%s': %s (type %d)
+unable to open/use GeoIPTable '%s'
+loaded default GeoIP table: %s (type %d)
+unable to open/use default GeoIP library database file(s)
+mod_geoip/0.3: loading static GeoIP tables
+unable to find GeoIP country ID for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP network speed ID for IP address '%s', attempting lookup as IPv6 address
+unknown netspeed value (%d), ignoring
+unable to find GeoIP ASN for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP organization for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP ISP for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP region for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP city record for IP address '%s', attempting lookup as IPv6 address
+unable to find GeoIP proxy ID for IP address '%s', attempting lookup as IPv6 address
+unknown proxy value (%d), ignoring
+unknown database type (%d), skipping
+error setting %s environment variable: %s
+error adding %s session note: %s
+mod_geoip/0.3: notice: unable to open GeoIPLog '%s': %s
+mod_geoip/0.3: notice: unable to open GeoIPLog '%s': parent directory is world-writable
+mod_geoip/0.3: notice: unable to open GeoIPLog '%s': cannot log to a symlink
+mod_geoip/0.3: loading session GeoIP tables
+no usable GeoIPTable files found, skipping GeoIP lookups
+%s filter value %s %s GeoIPAllowFilter pattern '%s'
+%s filter value '%s' did not match GeoIPAllowFilter pattern '%s'
+%s filter value '%s' matched GeoIPDenyFilter pattern '%s'
+connection from %s denied due to GeoIP filter
+mod_geoip/0.3: Connection denied to %s due to GeoIP filter
+;*3$"
+mod_geoip.so.debug
+7zXZ
+:jvU
+}9x|i
+?%:6h
+t%b|Q
+fs2/
+n(Q?
+7-.l
+[)* 
+f7?^<mm
+7t%*;
+TqeG`
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,353 @@
+/lib64/ld-linux-x86-64.so.2
+liblcms.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+cmsTakeProductName
+cmsCreateLab4Profile
+cmsCreateInkLimitingDeviceLink
+_cmsLCMScolorSpace
+cmsOpenProfileFromMem
+cmsD50_xyY
+cmsCreateMultiprofileTransform
+cmsSetCMYKPreservationStrategy
+cmsGetPCS
+cmsOpenProfileFromFile
+cmsDeleteTransform
+cmsCreateGrayProfile
+cmsSetAdaptationState
+cmsFreeGamma
+cmsCreateXYZProfile
+cmsCreateRGBProfile
+cmsSetUserFormatters
+cmsBuildGamma
+_fini
+cmsCreateProofingTransform
+_init
+cmsCreateNULLProfile
+cmsCreate_sRGBProfile
+cmsSetErrorHandler
+cmsCloseProfile
+cmsWhitePointFromTemp
+cmsDoTransform
+cmsTakeProductDesc
+cmsGetColorSpace
+cmsAllocGamma
+cmsCreateLabProfile
+libtiff.so.5
+TIFFOpen
+TIFFNumberOfTiles
+TIFFReadDirectory
+TIFFSetField
+TIFFGetFieldDefaulted
+TIFFStripSize
+TIFFClose
+TIFFSetWarningHandler
+TIFFGetField
+_TIFFmalloc
+_TIFFfree
+TIFFIsTiled
+TIFFSetErrorHandler
+TIFFReadEncodedStrip
+TIFFReadEncodedTile
+TIFFTileSize
+TIFFWriteDirectory
+TIFFWriteEncodedStrip
+TIFFNumberOfStrips
+TIFFWriteEncodedTile
+libjpeg.so.62
+libz.so.1
+libm.so.6
+libc.so.6
+fflush
+exit
+fopen
+perror
+__vsprintf_chk
+__stack_chk_fail
+strtod
+strtol
+__errno_location
+__fprintf_chk
+stdout
+fputc
+fclose
+strcasecmp
+stderr
+__fxstat
+fileno
+fwrite
+fread
+strchr
+__strcpy_chk
+__cxa_finalize
+__strcat_chk
+__libc_start_main
+_edata
+__bss_start
+_end
+LIBTIFF_4.0
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zS 
+%rS 
+%jS 
+%bS 
+%ZS 
+%RS 
+%JS 
+%BS 
+%:S 
+%2S 
+%*S 
+%"S 
+%zR 
+%rR 
+%jR 
+%bR 
+%ZR 
+%RR 
+%JR 
+%BR 
+%:R 
+%2R 
+%*R 
+%"R 
+AWAVAUATUS
+=fQ 
+=gQ 
+=YP 
+=AO 
+= O 
+=hN 
+=HN 
+D$(H
+=.N 
+=TM 
+D$ H
+T$P1
+%IK 
+D$0H
+L$(H
+=vH 
+L$Hf
+|$ A	
+d$hMc
+L$HL
+t$Hf
+=RD 
+D$PH
+L$hH
+T$@H
+D$XXZH
+|$8H
+D$pL
+D$8H
+T$hH
+D;d$
+|$8D
+|$8L
+D$`H
+D$@H
+[]A\A]A^A_
+=V= 
+=]< 
+D$8H
+T$hH
+D;d$
+|$8D
+L$pE1
+t$8H
+|$HL
+\$hE
+l$XH
+t$8H
+|$H9
+l$pE
+\$hA
+|$HH
+=O4 
+|$HL
+l$ H
+D$`H
+D$ H
+D$@H
+L$0Hc
+L$XL
+fffff.
+fffff.
+=W/ 
+=z* 
+fffff.
+=I* 
+ATUI
+[]A\
+ATUI
+=q, 
+[]A\
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+fffff.
+=I+ 
+=f* 
+5L* 
+=4* 
+=~) 
+5d) 
+=L) 
+=+) 
+=u( 
+=T( 
+5:( 
+="( 
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+AWAVAUATUSH
+=O& 
+5C& 
+[]A\A]A^A_
+AWAVA
+AUATL
+[]A\A]A^A_
+Warning
+Error
+TIFFICC
+flags:
+%cv - Verbose
+%cq - Dither 8 bit images
+%ch<0,1,2> - More help
+sRGB default
+perceptual
+relative colorimetric
+saturation
+absolute colorimetric
+Unknown precalc mode '%d'
+Unknown PreserveBlack '%d'
+Device-link already specified
+Ink limit must be 0%%..400%%
+%s(device link) -> %s [%s]
+%s(%s) -> %s(%s) [%s]
+Unable to open '%s'
+Unable to write '%s'
+ (Embedded profile found)
+Product name: %s
+Description : %s
+Cannot create '%s'
+Cannot write %ld bytes to %s
+Error flushing file '%s'
+ (Colorimetric TIFF)
+Unsupported output colorspace
+*Lab
+little cms ICC profile applier for TIFF - v6.0
+usage: tifficc [flags] input.tif output.tif
+%ci<profile> - Input profile (defaults to sRGB)
+%co<profile> - Output profile (defaults to sRGB)
+%cl<profile> - Transform by device-link profile
+%ct<0,1,2,3> - Intent (0=Perceptual, 1=Colorimetric, 2=Saturation, 3=Absolute)
+%cc<0,1,2,3> - Precalculates transform (0=Off, 1=Normal, 2=Hi-res, 3=LoRes) [defaults to 1]
+%cw - Wide output (generates 16 bps tiff)
+%ca - Handle channels > 4 as alpha
+%cn - Ignore embedded profile on input
+%ce - Embed destination profile
+%cs<new profile> - Save embedded profile as <new profile>
+%cp<profile> - Soft proof profile
+%cm<0,1,2,3> - Soft proof intent
+%cg - Marks out-of-gamut colors on softproof
+%cb - Black point compensation
+%cf<n> - Preserve black (CMYK only) 0=off, 1=black ink only, 2=full K plane
+%ck<0..400> - Ink-limiting in %% (CMYK only)
+%cd<0..1> - Observer adaptation state (abs.col. only)
+You can also use '*Lab' and '*XYZ' as predefined, built-in
+profiles for CIE L*a*b* and XYZ color spaces.
+Examples:
+To color correct from scanner to sRGB:
+	tifficc %ciscanner.icm in.tif out.tif
+To convert from monitor1 to monitor2:
+	tifficc %cimon1.icm %comon2.icm in.tif out.tif
+To make a CMYK separation:
+	tifficc %coprinter.icm inrgb.tif outcmyk.tif
+To recover sRGB from a CMYK separation:
+	tifficc %ciprinter.icm incmyk.tif outrgb.tif
+To convert from CIELab TIFF to sRGB
+	tifficc %ci*Lab in.tif out.tif
+This program is intended to be a demo of the little cms
+engine. Both lcms and this program are freeware. You can
+obtain both in source code at http://www.littlecms.com
+For suggestions, comments, bug reports etc. send mail to
+info@littlecms.com
+Adaptation states other that 0 or 1 are not yet implemented
+Unknown option - run without args to see valid ones
+aAeEbBwWnNvVGgh:H:i:I:o:O:P:p:t:T:c:C:l:L:M:m:K:k:S:s:D:d:f:F:Qq
+Unknown precalculation mode '%d'
+Sorry, bilevel TIFFs has nothig to do with ICC profiles
+Sorry, 8 or 16 bits per sample only
+Unsupported planar configuration (=%d) 
+Sorry, palette images not supported (at least on this version)
+What a weird separation of %d channels?!?!
+Sorry, subsampled images not supported
+Unsupported TIFF color space (Photometric %d)
+Input profile is not operating in proper color space
+Unsupported output color space
+Out of memory on allocating %d bytes.
+y@get command line option
+*Lab4
+*LabD65
+*XYZ
+*Gray22
+*srgb
+*null
+;*3$"
+tifficc.debug
+7zXZ
+T2>i
+]]p^7
+(5{\
+6BU8
+u8+)
+bxx$
+vviL
+7q&L+
+o~v+
+H1g1g
+:s6q]u
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

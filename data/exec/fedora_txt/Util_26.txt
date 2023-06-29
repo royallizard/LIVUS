@@ -1,0 +1,110 @@
+td0*
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+boot_Hash__Util
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_Hash__Util_all_keys
+Perl_newXS_flags
+XS_Hash__Util_hidden_ref_keys
+Perl_newXS
+XS_Hash__Util_legal_ref_keys
+XS_Hash__Util_hv_store
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_croak_nocontext
+Perl_vstringify
+Perl_croak
+Perl_hv_common
+Perl_sv_free2
+Perl_Isv_no_ptr
+Perl_sv_free
+Perl_hv_iterinit
+Perl_hv_iternext_flags
+Perl_hv_iterkeysv
+Perl_Istack_max_ptr
+Perl_stack_grow
+Perl_Gsv_placeholder_ptr
+Perl_av_clear
+Perl_av_push
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+\[^_]
+<[^_]
+[^_]
+[^_]
+<[^_]
+XS_VERSION
+%s::%s
+0.07
+version
+bootstrap parameter
+\%\@\@
+Util.c
+Hash::Util::all_keys
+Hash::Util::hidden_ref_keys
+Hash::Util::legal_ref_keys
+\%$$
+Hash::Util::hv_store
+hvref, key, val
+Usage: %s(%s)
+hash
+hash, keys, placeholder
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "Util.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+Assertion %s failed: file "Util.xs", line %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+First argument to alias_hv() must be a hash reference
+First argument to legal_keys() must be an HASH reference
+First argument to hidden_keys() must be an HASH reference
+First argument to all_keys() must be an HASH reference
+Second argument to all_keys() must be an ARRAY reference
+Third argument to all_keys() must be an ARRAY reference
+Util.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

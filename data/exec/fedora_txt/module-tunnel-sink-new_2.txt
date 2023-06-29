@@ -1,0 +1,289 @@
+p?5f##
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_stream_cork
+pa_operation_unref
+pa_stream_flush
+pa_log_level_meta
+abort
+pa_sink_type_id
+pa_sink_process_msg
+pa_stream_get_state
+pa_stream_get_latency
+__stack_chk_fail
+pa_stream_get_buffer_attr
+pa_sink_set_max_request_within_thread
+pa_proplist_new
+pa_proplist_sets
+pa_init_proplist
+pa_thread_mq_install
+pa_context_new_with_proplist
+pa_proplist_free
+pa_context_load_cookie_from_file
+pa_context_set_state_callback
+pa_context_connect
+pa_mainloop_iterate
+pa_stream_writable_size
+pa_sink_render_full
+pa_memblock_acquire
+pa_stream_write
+pa_memblock_release
+pa_memblock_unref
+pa_sink_process_rewind
+pa_stream_disconnect
+pa_stream_unref
+pa_context_disconnect
+pa_context_unref
+pa_msgobject_type_id
+pa_asyncmsgq_post
+pa_asyncmsgq_wait_for
+pa_context_get_state
+pa_get_user_name_malloc
+pa_get_host_name_malloc
+dcgettext
+pa_sprintf_malloc
+pa_xfree
+pa_stream_new_with_proplist
+pa_sink_get_requested_latency_within_thread
+pa_usec_to_bytes
+pa_stream_set_state_callback
+pa_stream_set_buffer_attr_callback
+pa_stream_connect_playback
+pa_context_errno
+pa_strerror
+pa_object_type_id
+pa_stream_set_buffer_attr
+module_tunnel_sink_new_LTX_pa__get_author
+module_tunnel_sink_new_LTX_pa__get_description
+module_tunnel_sink_new_LTX_pa__get_version
+module_tunnel_sink_new_LTX_pa__load_once
+module_tunnel_sink_new_LTX_pa__get_usage
+module_tunnel_sink_new_LTX_pa__done
+pa_sink_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_mainloop_free
+pa_object_unref
+module_tunnel_sink_new_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec_and_channel_map
+pa_modargs_get_value
+pa_xmalloc0
+pa_xstrdup
+pa_mainloop_new
+pa_mainloop_get_api
+pa_thread_mq_init_thread_mainloop
+pa_sink_new_data_init
+pa_sink_new_data_set_name
+pa_sink_new_data_set_sample_spec
+pa_sink_new_data_set_channel_map
+pa_proplist_setf
+pa_modargs_get_proplist
+pa_sink_new
+pa_sink_new_data_done
+pa_sink_set_latency_range
+pa_sink_set_asyncmsgq
+pa_thread_new
+pa_sink_put
+pa_modargs_free
+libpulsecore-6.0.so
+libpulsecommon-6.0.so
+libpulse.so.0
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-tunnel-sink-new.so
+/usr/lib64/pulseaudio
+GLIBC_2.4
+GLIBC_2.2.5
+PULSE_0
+5R. 
+%T. 
+%R. 
+%J. 
+%B. 
+%:. 
+%2. 
+%*. 
+%". 
+%z- 
+%r- 
+%j- 
+%b- 
+%Z- 
+%R- 
+%J- 
+%B- 
+%:- 
+%2- 
+%*- 
+%"- 
+%z, 
+%r, 
+%j, 
+%b, 
+%Z, 
+%R, 
+%J, 
+%B, 
+%:, 
+%2, 
+%*, 
+%", 
+fffff.
+fffff.
+=w+ 
+fffff.
+=q% 
+jlPH
+AWAVM
+AUATI
+([]A\A]A^A_
+fff.
+ATUSH
+D$(1
+T$ E1
+{8E1
+D$(dH3
+0[]A\
+=J$ 
+j,PH
+AUATUSH
+([]A\A]
+{8E1
+ATUSH
+ []A\
+fffff.
+ffff.
+AWAVAUATUSH
+D$ L
+[]A\A]A^A_
+pa_sink_isinstance(o)
+./pulsecore/sink.h
+proplist
+application.name
+org.PulseAudio.PulseAudio
+application.id
+application.version
+Thread starting up
+Can not load cookie file!
+memchunk.length > 0
+Thread shutting down
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+Tunnel for %s@%s
+pulseaudio
+!u->stream
+Could not create a stream.
+Could not connect stream.
+Context failed: %s.
+Context terminated.
+./pulsecore/object.h
+u = s->userdata
+Stream failed.
+Stream terminated.
+Alexander Couzens
+server
+No server given!
+Failed to create mainloop
+cookie
+tunnel-sink-new.%s
+sink_name
+sound
+device.class
+Tunnel to %s/%s
+device.description
+sink_properties
+Invalid properties
+Failed to create sink.
+tunnel-sink
+Failed to create thread.
+format
+channels
+rate
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+modules/module-tunnel-sink-new.c
+Failed to create libpulse context
+Failed to connect libpulse context
+Could not write data into the stream ... ret = %i
+Connection successful. Creating stream.
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Create a network sink which connects via a stream to a remote PulseAudio server
+server=<address> sink=<name of the remote sink> sink_name=<name for the local sink> sink_properties=<properties for the local sink> format=<sample format> channels=<number of channels> rate=<sample rate> channel_map=<channel map> cookie=<cookie file path>
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+module_tunnel_sink_new_LTX_pa__done
+module_tunnel_sink_new_LTX_pa__done
+pa_sink_cast
+pa_sink_cast
+pa_object_cast
+pa_object_cast
+pa_sink_assert_ref
+pa_sink_assert_ref
+sink_update_requested_latency_cb
+sink_update_requested_latency_cb
+pa_msgobject_cast
+pa_msgobject_cast
+tunnel_new_proplist
+tunnel_new_proplist
+cork_stream
+cork_stream
+stream_state_cb
+stream_state_cb
+stream_changed_buffer_attr_cb
+stream_changed_buffer_attr_cb
+context_state_cb
+context_state_cb
+thread_func
+thread_func
+module_tunnel_sink_new_LTX_pa__init
+module_tunnel_sink_new_LTX_pa__init
+;*3$"
+module-tunnel-sink-new.so.debug
+7zXZ
+lB%/DS
+jN!T
+[Tch
+0:LO
+#r%%'
+DWd0z
++DAB
+6:^a
+_('g\
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,180 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_idxset_first
+pa_sink_input_is_passthrough
+pa_idxset_next
+__stack_chk_fail
+pa_proplist_gets
+dcgettext
+pa_sprintf_malloc
+pa_module_load
+pa_xfree
+pa_hashmap_put
+pa_sink_input_move_to
+pa_log_level_meta
+pa_hashmap_get
+abort
+pa_object_type_id
+pa_sink_input_new_data_is_passthrough
+pa_sink_input_new_data_set_sink
+pa_idxset_isempty
+pa_format_info_copy
+pa_namereg_get
+pa_module_unload_request_by_index
+pa_hashmap_remove
+module_allow_passthrough_LTX_pa__get_author
+module_allow_passthrough_LTX_pa__get_description
+module_allow_passthrough_LTX_pa__get_version
+module_allow_passthrough_LTX_pa__load_once
+module_allow_passthrough_LTX_pa__init
+pa_modargs_new
+pa_xmalloc
+pa_idxset_trivial_compare_func
+pa_idxset_trivial_hash_func
+pa_hashmap_new
+pa_module_hook_connect
+pa_modargs_free
+module_allow_passthrough_LTX_pa__done
+pa_hashmap_free
+pa_hashmap_iterate
+libpulsecore-11.1.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-11.1.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-allow-passthrough.so
+GLIBC_2.4
+GLIBC_2.2.5
+PULSE_0
+/usr/lib64/pulseaudio
+u+UH
+[]A\
+AUATUH
+A9D$
+[]A\A]A^A_
+d$HH
+[]A\
+AVAUI
+[]A\A]A^
+[]A\
+[]A\
+ATUSH
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+ATUSH
+[]A\
+ATUSH
+[]A\
+media.name
+Dummy Output
+pulseaudio
+module-null-sink
+(null)
+application.name
+./pulsecore/object.h
+./pulsecore/core.h
+./pulsecore/sink-input.h
+i->sink
+Guillaume Desmottes
+11.1-rebootstrapped
+sink_name=allow_passthrough_null_%s sink_properties='device.description="%s"'
+Failed to move sink input %u "%s" to %s.
+modules/module-allow-passthrough.c
+Successfully moved sink input %u "%s" to %s.
+Dropping playing a passthrough stream; ignoring
+Just received a passthrough stream; pause all the others streams so it can play
+Already playing a passthrough stream; re-routing moved stream to the null sink
+!obj || obj->check_type(pa_object_type_id)
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+pa_object_refcnt(pa_object_cast(o)) > 0
+Assertion '%s' failed at %s:%u, function %s.
+Already playing a passthrough stream; re-routing new stream to the null sink
+Passthrough stream removed; restore all streams
+When a passthrough stream is requested, route all the other streams to a dummy device
+Failed to parse module arguments
+module_allow_passthrough_LTX_pa__done
+module_allow_passthrough_LTX_pa__done
+pa_core_assert_ref
+pa_core_assert_ref
+sink_input_new_cb
+sink_input_new_cb
+passthrough_stream_removed
+passthrough_stream_removed
+pa_object_cast
+pa_object_cast
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+move_stream
+new_passthrough_stream
+sink_input_move_finish_cb
+module_allow_passthrough_LTX_pa__init
+module_allow_passthrough_LTX_pa__init
+;*3$"
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+module-allow-passthrough.so-11.1-18.fc28.x86_64.debug
+7zXZ
+%yUl
+?6s*
+y.nvw
+vP	;3u
+y+?A
+yc}w1
+aKZf|K
+jQ[c
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

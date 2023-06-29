@@ -1,0 +1,167 @@
+/lib64/ld-linux-x86-64.so.2
+libstrongswan.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+library_init
+library_deinit
+_fini
+libc.so.6
+__printf_chk
+puts
+time
+__stack_chk_fail
+strtol
+__fprintf_chk
+fputc
+stderr
+fwrite
+__vfprintf_chk
+__cxa_finalize
+strcmp
+__libc_start_main
+__cxa_atexit
+_edata
+__bss_start
+_end
+/usr/lib64/strongswan
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z$ 
+%r$ 
+%j$ 
+%b$ 
+%Z$ 
+%R$ 
+%J$ 
+%B$ 
+%:$ 
+AWAVH
+AUATA
+=6$ 
+D$(1
+A]A^t%H
+L$ 1
+ZYteL
+|$ L
+t$(j
+D$0H
+D$DP1
+D$$E1
+AZA[t0H
+_AXu	
+fffff.
+fffff.
+fffff.
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+AWAVAUATA
+D$lH
+D$ H
+D$hH
+D$(H
+D$0H
+D$dH
+D$8H
+D$`L
+l$xH
+D$tH
+D$|H
+AWAV1
+t$(H
+t$@L
+L$PL
+D$XH
+L$`H
+T$hH
+DD$|H
+[]A\A]A^A_
+|$`H
+T$@1
+T$@t_
+T$`H
+L$\H
+t$p1
+D$pH
+AWAVA
+AUATL
+[]A\A]A^A_
+SELECT e.id, p.type, p.argument, p.file, p.dir, p.rec_fail, p.rec_noresult, e.policy, e.max_age, e.rec_fail, e.rec_noresult FROM enforcements AS e JOIN policies as p ON e.policy = p.id WHERE e.group_id = ?
+SELECT r.rec FROM results AS r JOIN sessions AS s ON s.id = r.session WHERE r.policy = ? AND s.device = ? AND s.time > ? ORDER BY s.time DESC
+INSERT INTO workitems (session, enforcement, type, arg_str, arg_int, rec_fail, rec_noresult) VALUES (?, ?, ?, ?, ?, ?, ?)
+SELECT parent FROM groups WHERE id = ?
+SELECT s.device, s.product, d.created FROM sessions AS s LEFT JOIN devices AS d ON s.device = d.id WHERE s.id = ?
+SELECT group_id FROM groups_members WHERE device_id = ?
+SELECT group_id FROM groups_product_defaults WHERE product_id = ?
+INSERT INTO groups_members (device_id, group_id) VALUES (?, ?)
+could not assign device to a default group
+UPDATE devices SET created = ? WHERE id = ?
+creation date of device could not be set
+SELECT w.rec_final, w.result, e.policy FROM workitems AS w JOIN enforcements AS e ON w.enforcement = e.id WHERE w.session = ? AND w.result IS NOT NULL
+INSERT INTO results (session, policy, rec, result) VALUES (?, ?, ?, ?)
+DELETE FROM workitems WHERE session = ?
+skipping enforcment %d
+could not insert workitem
+group information not found
+failed
+start
+stop
+successful
+imv_policy_manager
+sqlite
+imv_policy_manager.load
+libimcv.database
+charon.imcv.database
+imv_policy_manager.database
+database uri not defined.
+opening database failed.
+session %d not found
+imv_policy_manager %s %s
+Usage:
+  imv_policy_manager start|stop <tnc-session-id>
+;*3$"
+imv_policy_manager.debug
+7zXZ
+=Dc/
+A=%p
+GUiJ
+K/:dX
+S{3"y
+p.8v
+CdYNs~
+M80}
+dI+:
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

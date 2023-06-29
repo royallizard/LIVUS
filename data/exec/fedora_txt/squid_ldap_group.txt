@@ -1,0 +1,268 @@
+/lib64/ld-linux-x86-64.so.2
+libldap-2.4.so.2
+__gmon_start__
+_Jv_RegisterClasses
+ldap_msgfree
+ldap_get_option
+ldap_get_dn
+ldap_simple_bind_s
+ldap_initialize
+ldap_start_tls_s
+ldap_err2string
+ldap_memfree
+ldap_first_entry
+ldap_init
+ldap_search_s
+ldap_unbind
+ldap_set_option
+liblber-2.4.so.2
+ber_pvt_opt_on
+librt.so.1
+libpthread.so.0
+__errno_location
+libdl.so.2
+libm.so.6
+rint
+libresolv.so.2
+libnsl.so.1
+libc.so.6
+exit
+fopen
+strrchr
+__strdup
+perror
+puts
+__stack_chk_fail
+realloc
+abort
+stdin
+strtok
+strtol
+fgets
+calloc
+strlen
+strstr
+__fprintf_chk
+stdout
+fputc
+memcpy
+fclose
+malloc
+__ctype_b_loc
+sscanf
+stderr
+__snprintf_chk
+fwrite
+strchr
+__ctype_tolower_loc
+__cxa_finalize
+__sprintf_chk
+setbuf
+strerror
+__libc_start_main
+snprintf
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+%z? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+%"? 
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+=(> 
+ATSubH
+=g9 
+=O9 
+AWAVAUATA
+[]A\A]A^A_
+fff.
+AVAUATUSH
+T$ H
+t$@A
+D$8L
+D$ H
+51< 
+t&<\
+[]A\A]A^A_
+=s: 
+t$8H
+fffff.
+AVAUATUSH
+*vTH
+<5v\H
+l$pH
+l$hH
+l$`H
+l$XH
+l$PH
+l$HH
+l$@H
+l$8H
+l$0H
+l$(H
+l$ H
+-y2 
+-U2 
+=c1 
+=H1 
+-t0 
+-^0 
+-*0 
+=q. 
+=9. 
+[]A\A]A^A_
+AUATI
+tb<%A
+<%th
+ []A\A]A^
+AWAVA
+AUATUH
+[]A\A]A^A_
+fffff.
+ffffff.
+fff.
+fffff.
+fff.
+fff.
+=y= 
+=Q= 
+fff.
+fffff.
+=O< 
+=*< 
+fff.
+fffff.
+l$ L
+t$(L
+|$0H
+%02x
+%s,%s
+ERROR: Filter too large
+%s %s
+base
+never
+always
+search
+find
+localhost
+	-c timeout		connect timeout
+	-v 2|3			LDAP version
+%s: ERROR: Too large: %s
+%s: ERROR: Too large..: %s
+%s: Invalid request
+TLS requires LDAP version 3
+Connected OK
+%s=%s, %s, %s
+%s=%s, %s
+ERROR: Unknown filter template string %%%c
+squid_ldap_group ERROR, Failed to construct LDAP search filter. filter="%s", user="%s", group="%s"
+group filter '%s', searchbase '%s'
+squid_ldap_group WARNING, LDAP search error '%s'
+squid_ldap_group ERROR: Unknown search scope '%s'
+squid_ldap_group ERROR: -E unsupported with this LDAP library
+squid_ldap_group ERROR: Unknown alias dereference method '%s'
+squid_ldap_group ERROR: Can not read secret file %s
+squid_ldap_group ERROR: Secret file %s is empty
+squid_ldap_group ERROR: can not allocate memory
+Protocol version should be 2 or 3
+TLS (-Z) is incompatible with version %d
+squid_ldap_group ERROR: Unknown command line option '%c'
+squid_ldap_group version 2.17
+Usage: squid_ldap_group -b basedn -f filter [options] ldap_server_name
+	-b basedn (REQUIRED)	base dn under where to search for groups
+	-f filter (REQUIRED)	group search filter pattern. %%u = user,
+				%%v = group
+	-B basedn (REQUIRED)	base dn under where to search for users
+	-F filter (REQUIRED)	user search filter pattern. %%s = login
+	-s base|one|sub		search scope
+	-D binddn		DN to bind as to perform searches
+	-w bindpasswd		password for binddn
+	-W secretfile		read password for binddn from file secretfile
+	-H URI			LDAPURI (defaults to ldap://localhost)
+	-h server		LDAP server (defaults to localhost)
+	-p port			LDAP server port (defaults to %d)
+	-P			persistent LDAP connection
+	-t timelimit		search time limit
+	-R			do not follow referrals
+	-a never|always|search|find
+				when to dereference aliases
+	-Z			TLS encrypt the LDAP connection, requires
+				LDAP version 3
+	-g			first query parameter is base DN extension
+				for this query
+	-S			Strip NT domain from usernames
+	-K			Strip Kerberos realm from usernames
+	If you need to bind as a user to perform searches then use the
+	-D binddn -w bindpasswd or -D binddn -W secretfile options
+Unable to connect to LDAPURI:%s
+Unable to connect to LDAP server:%s port:%d
+Could not set LDAP_OPT_PROTOCOL_VERSION %d
+Could not Activate TLS connection
+squid_ldap_group WARNING, could not bind to binddn '%s'
+user filter '%s', searchbase '%s'
+squid_ldap_group WARNING, User '%s' not found in '%s'
+%%%02X
+<>"#{}|\^~[]`' ;/?:@=&%.2f MB
+%.2f GB
+%.2f TB
+%.3f GB
+%.4f TB
+Unknown error
+(%d) %s
+xcalloc
+realloc
+malloc
+util.c
+s != NULL
+xcalloc: Unable to allocate %u blocks of %u bytes!
+xrealloc: Unable to reallocate %d bytes!
+xmalloc: Unable to allocate %d bytes!
+xstrdup: tried to dup a NULL pointer!
+mBassertion failed: %s:%d: "%s"
+squid_ldap_group.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

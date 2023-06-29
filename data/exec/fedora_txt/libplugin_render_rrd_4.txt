@@ -1,0 +1,341 @@
+2oGo
+&=8DC
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+cherokee_stat
+strrchr
+access
+__errno_location
+cherokee_error_errno_log
+__stack_chk_fail
+cherokee_rrd_connection_get
+rrd_connection
+malloc
+cherokee_buffer_init
+pthread_mutex_init
+cherokee_rrd_connection_configure
+cherokee_tmp_dir
+cherokee_buffer_add_buffer
+cherokee_buffer_add
+cherokee_config_node_get
+cherokee_find_exec_in_path
+getenv
+cherokee_error_log
+cherokee_rrd_connection_spawn
+cherokee_pipe
+fork
+dup2
+cherokee_fd_close
+execv
+exit
+fcntl
+cherokee_rrd_connection_kill
+waitpid
+usleep
+cherokee_rrd_connection_mrproper
+pthread_mutex_destroy
+cherokee_buffer_mrproper
+cherokee_rrd_connection_execute
+write
+cherokee_buffer_move_to_begin
+cherokee_buffer_clean
+cherokee_buffer_read_from_fd
+cherokee_rrd_connection_create_srv_db
+cherokee_mkdir_p_perm
+stderr
+__fprintf_chk
+fflush
+cherokee_buffer_add_long10
+cherokee_buffer_add_va
+cherokee_rrd_connection_create_vsrv_db
+cherokee_rrd_intervals
+cherokee_handler_free
+cherokee_handler_render_rrd_new
+cherokee_render_rrd_info
+cherokee_handler_init_base
+cherokee_handler_render_rrd_init
+cherokee_handler_file_new
+cherokee_handler_render_rrd_configure
+cherokee_handler_props_init_base
+cherokee_handler_file_configure
+cherokee_handler_file_props_free
+cherokee_handler_props_free_base
+cherokee_buffer_prepend
+cherokee_buffer_add_char
+strlen
+cherokee_bogonow_now
+strncmp
+cherokee_buffer_replace_string
+cherokee_handler_file_init
+pthread_mutex_trylock
+pthread_mutex_unlock
+cherokee_connection_sleep
+cherokee_handler_file_add_headers
+cherokee_handler_file_step
+cherokee_plugin_render_rrd_init
+cherokee_plugin_loader_load
+libplugin_file.so
+libcrypto.so.10
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+libplugin_render_rrd.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+fffff.
+5zC 
+fffff.
+=1C 
+fffff.
+ATUSH
+[]A\
+ATUH
+[]A\
+|$pA
+D$0A
+D$4A
+D$8A
+|$H1
+fffff.
+O<dH
+D$81
+\$ H
+D$ H
+|$ H
+L$ H
+L$8dH3
+ATUSH
+|$0H
+[]A\
+t$4H
+AUATL
+D$(1
+L$(dH3
+8[]A\A]
+AUATI
+-&5 
+([]A\A]
+AUATI
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+[]A\
+ATUH
+D$XH9
+[]A\
+AWAVAUATUSH
+o@dH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+5,) 
+=`& 
+rrd_tools.c
+rrdtool_path
+rrdtool
+PATH
+database_dir
+/var/lib/cherokee/graphs
+/rrd-cache
+/server.rrd
+create 
+ --step 
+DS:Accepts:ABSOLUTE:%d:U:U 
+DS:Requests:ABSOLUTE:%d:U:U 
+DS:Timeouts:ABSOLUTE:%d:U:U 
+DS:RX:ABSOLUTE:%d:U:U 
+DS:TX:ABSOLUTE:%d:U:U 
+RRA:AVERAGE:0.5:1:600 
+RRA:AVERAGE:0.5:6:700 
+RRA:AVERAGE:0.5:24:775 
+RRA:AVERAGE:0.5:288:797 
+RRA:MAX:0.5:1:600 
+RRA:MAX:0.5:6:700 
+RRA:MAX:0.5:24:775 
+RRA:MAX:0.5:288:797 
+RRA:MIN:0.5:1:600 
+RRA:MIN:0.5:6:700 
+RRA:MIN:0.5:24:775 
+RRA:MIN:0.5:288:797 
+1 Hour
+6 Hours
+1 Day
+1 Week
+1 Month
+file %s:%d (%s): ret code unknown ret=%d
+cherokee_rrd_connection_create_vsrv_db
+cherokee_rrd_connection_create_srv_db
+n != NULL
+handler_render_rrd.c
+ERROR
+.png
+/server_accepts_
+server_accepts
+graph 
+/server_accepts_%s.png 
+AREA:accepts_min#ffffff: 
+STACK:accepts_minmax#4477BB: 
+/server_timeouts_
+server_timeouts
+/server_timeouts_%s.png 
+--title "Timeouts: %s" 
+COMMENT:"\n" 
+AREA:timeouts_min#ffffff: 
+LINE1.5:timeouts#900:Average 
+/server_traffic_
+server_traffic
+/server_traffic_%s.png 
+--title "Traffic: %s" 
+VDEF:tx_total=tx,TOTAL 
+VDEF:rx_total=rx,TOTAL 
+CDEF:rx_r=rx,-1,* 
+AREA:tx#4477BB:Out 
+LINE1:tx#224499 
+AREA:rx_r#C007 
+LINE1:rx_r#990000:In 
+/vserver_traffic_
+'/vserver_traffic_%s_%s.png' 
+--title "Traffic, %s: %s" 
+LINE1:srv_tx#ADE:"Global" 
+Content-Type: text/html
+Content-Length: %d
+file
+render_rrd
+%s:%d - assertion `%s' failed
+--imgformat PNG --width 580 --height 340 --start -%s 
+--title "Accepted Connections: %s" 
+--vertical-label "conn/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+DEF:accepts=%s/server.rrd:Accepts:AVERAGE 
+DEF:accepts_min=%s/server.rrd:Accepts:MIN 
+DEF:accepts_max=%s/server.rrd:Accepts:MAX 
+VDEF:accepts_total=accepts,TOTAL 
+CDEF:accepts_minmax=accepts_max,accepts_min,- 
+DEF:requests=%s/server.rrd:Requests:AVERAGE 
+DEF:requests_min=%s/server.rrd:Requests:MIN 
+DEF:requests_max=%s/server.rrd:Requests:MAX 
+VDEF:requests_total=requests,TOTAL 
+CDEF:requests_minmax=requests_max,requests_min,- 
+LINE1.5:requests#900:"HTTP reqs" 
+GPRINT:requests:LAST:"Current\:%8.2lf%s" 
+GPRINT:requests:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:requests_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:requests_total:"  Total\:%8.2lf%s\n" 
+LINE1.5:accepts#224499:"TCP conns" 
+GPRINT:accepts:LAST:"Current\:%8.2lf%s" 
+GPRINT:accepts:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:accepts_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:accepts_total:"  Total\:%8.2lf%s\n" 
+--vertical-label "timeouts/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+DEF:timeouts=%s/server.rrd:Timeouts:AVERAGE 
+DEF:timeouts_min=%s/server.rrd:Timeouts:MIN 
+DEF:timeouts_max=%s/server.rrd:Timeouts:MAX 
+VDEF:timeouts_total=timeouts,TOTAL 
+CDEF:timeouts_minmax=timeouts_max,timeouts_min,- 
+COMMENT:"  Current           Average           Maximum             Total\n" 
+GPRINT:timeouts:LAST:"%8.2lf%s" 
+GPRINT:timeouts:AVERAGE:"%8.2lf%s" 
+GPRINT:timeouts_max:MAX:"%8.2lf%s" 
+GPRINT:timeouts_total:"%8.2lf%s" 
+STACK:timeouts_minmax#C007:Timeouts 
+--vertical-label "bytes/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+DEF:rx=%s/server.rrd:RX:AVERAGE 
+DEF:rx_max=%s/server.rrd:RX:MAX 
+DEF:tx=%s/server.rrd:TX:AVERAGE 
+DEF:tx_max=%s/server.rrd:TX:MAX 
+GPRINT:tx:LAST:"     Current\:%8.2lf%s" 
+GPRINT:tx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:tx_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:tx_total:"   Total\:%8.2lf%s\n" 
+GPRINT:rx:LAST:"      Current\:%8.2lf%s" 
+GPRINT:rx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:rx_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:rx_total:"   Total\:%8.2lf%s\n" 
+'DEF:rx=%s/vserver_%s.rrd:RX:AVERAGE' 
+'DEF:rx_max=%s/vserver_%s.rrd:RX:MAX' 
+'DEF:tx=%s/vserver_%s.rrd:TX:AVERAGE' 
+'DEF:tx_max=%s/vserver_%s.rrd:TX:MAX' 
+GPRINT:tx:LAST:"    Current\:%8.2lf%s" 
+GPRINT:rx:LAST:"     Current\:%8.2lf%s" 
+DEF:srv_tx=%s/server.rrd:TX:AVERAGE 
+VDEF:srv_tx_total=srv_tx,TOTAL 
+GPRINT:srv_tx:LAST:" Current\:%8.2lf%s" 
+GPRINT:srv_tx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:srv_tx:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:srv_tx_total:"   Total\:%8.2lf%s\n" 
+Graphs generation is disabled because RRDtool was not found.
+;*3$"
+libplugin_render_rrd.so.debug
+7zXZ
+Ik5^
+h/t\
+ x\p
+VXVj
+:AQB
+D_G<
+GTeo
+<	#,
+;ZAQ
+;D^1
+>=;|e
+w_-8
+aML3
+lgy'
+ztp|=
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

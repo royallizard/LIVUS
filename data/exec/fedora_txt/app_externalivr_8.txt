@@ -1,0 +1,281 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+ast_closestream
+ast_openstream_full
+__errno_location
+strerror
+ast_log
+calloc
+strlen
+strcpy
+time
+ast_str_append
+__fprintf_chk
+option_debug
+ast_options
+ast_debug_get_by_file
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+strchr
+pthread_mutex_lock
+pbx_builtin_getvar_helper
+pthread_mutex_unlock
+__stack_chk_fail
+ast_readframe
+ast_write
+ast_frame_free
+fdopen
+setvbuf
+ast_waitfor_nandfds
+ast_check_hangup
+ast_read
+dup2
+feof
+fgets
+fclose
+pbx_builtin_setvar_helper
+ast_answer
+ast_activate_generator
+ast_fileexists
+strcasecmp
+memcpy
+ast_app_separate_args
+strrchr
+ast_app_parse_options
+strtol
+ast_gethostbyname
+__memcpy_chk
+ast_tcptls_client_start
+_ao2_ref
+ast_deactivate_generator
+pipe
+ast_safe_fork
+ast_set_priority
+ast_close_fds_above_n
+execv
+stderr
+_exit
+options_flags
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%zL 
+%rL 
+%jL 
+%bL 
+%ZL 
+%RL 
+%JL 
+%BL 
+%:L 
+%2L 
+%*L 
+%"L 
+%zK 
+%rK 
+%jK 
+%bK 
+%ZK 
+%RK 
+%JK 
+%BK 
+%:K 
+%2K 
+%*K 
+%"K 
+=HK 
+ATSubH
+%|F 
+=GF 
+=/F 
+ATUH
+l$ H
+fff.
+\$(H
+l$0L
+d$8L
+l$@H
+ffff.
+ATLc
+D$6H
+8,t\H
+[A\A]A^A_
+AUE1
+ATUH
+A+D$
+[]A\A]
+[]A\A]
+AVAUATUL
+|$81
+|$@1
+D$pD
+D$,H
+T$0H
+D$ H
+D$`H
+L$,H
+t	A9
+|$XI
+H9]H
+|$HH
+T$8H
+H+T$ H
+[]A\A]A^A_
+T$@H
+L$ L
+|$81
+T$hL
+T$`L
+d$XD
+l$`H
+5e7 
+D$`H
+T$xH
+T$xL
+d$XD
+D$`H
+|$`1
+|$`1
+|$`H
+|$`H
+D$ H
+D$ H
+D$ H
+D$`H
+T$`I
+exceptioL
+exceptioL
+D$`H
+T$`L
+T$`L
+ffffff.
+AVAUATSH
+[A\A]A^A_
+51( 
+%s: File '%s' could not be opened: %s
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/strings.h
+%s: Failed to write frame: %s
+%s: Could not open stream to send events
+%s: Could not open stream to receive commands
+%s: Could not open stream to receive errors
+%s: Got check_hangup, but ignore_hangup set so sending 'I' command
+%s: Answering channel if needed and starting generator
+%s: Running ExternalIVR with 'd'ead flag on non-hungup channel isn't supported
+%s: Failed to activate generator
+%s: Queue 'S'et called on unanswered channel
+%s: Unknown file requested '%s'
+%s: Queue 'A'ppend called on unanswered channel
+%s: Getting a Variable out of the channel: %s
+%s: Setting a Variable up: %s
+%s: Log message from EIVR: %s
+%s: Option called on unanswered channel
+%s: Unknown option requested '%s'
+Parse error, no closing paren?
+ExternalIVR requires a command to execute
+%s: Answering channel and starting generator
+Parsing hostname:port for socket connect from "%s"
+%s: Could not create pipe for child input: %s
+%s: Could not create pipe for child output: %s
+%s: Could not create pipe for child errors: %s
+External IVR Interface Application
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  ExternalIVR(command|ivr://ivrhosti([,arg[,arg...]])[,options]): Either forks a process
+to run given command or makes a socket to connect to given host and starts
+a generator on the channel. The generator's play list is controlled by the
+external application, which can add and clear entries via simple commands
+issued over its stdout. The external application will receive all DTMF events
+received on the channel, and notification if the channel is hung up. The
+application will not be forcibly terminated when the channel is hung up.
+See doc/externalivr.txt for a protocol specification.
+The 'n' option tells ExternalIVR() not to answer the channel. 
+The 'i' option tells ExternalIVR() not to send a hangup and exit when the
+  channel receives a hangup, instead it sends an 'I' informative message
+  meaning that the external application MUST hang up the call with an H command
+The 'd' option tells ExternalIVR() to run on a channel that has been hung up
+  and will not look for hangups.  The external application must exit with
+  an 'E' command.
+Interfaces with an external IVR application
+app_externalivr.c
+silence/10
+%c,%10d
+sent '%s'
+$Revision: 151135 $
+%s=%s,
+/dev/null
+%s: Is a zombie
+HANGUP
+%s: Got check_hangup
+%s: Returned no frame
+%s: Got AST_CONTROL_HANGUP
+%s: Child process went away
+got command '%s'
+ANSWER_FAILURE
+GENERATOR_FAILURE
+Setting up a variable: %s
+%s: Exiting ExternalIVR: %s
+%s: Exiting: %s
+%s: Hanging up: %s
+noautoclear
+%s: stderr: %s
+%s: Wait failed (%s)
+%s%s
+Parsing options from: [%s]
+noanswer is set
+ignore_hangup is set
+run_dead is set
+ivr://
+Failed to fork(): %s
+Failed to execute '%s': %s
+app_externalivr
+ExternalIVR
+app_exec
+gen_generate
+gen_nextfile
+gen_alloc
+_ast_calloc
+ast_str_create
+eivr_comm
+make_entry
+ast_eivr_setvariable
+send_eivr_event
+a9c98e5d177805051735cb5b0b16b0a0
+app_externalivr.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

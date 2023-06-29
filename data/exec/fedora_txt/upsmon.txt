@@ -1,0 +1,552 @@
+/lib/ld-linux.so.2
+<QhTo
+-sxO
+libupsclient.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+select_write
+upscli_disconnect
+pconf_init
+syslogbit_set
+xrealloc
+upscli_strerror
+upslog_with_errno
+fatal_with_errno
+pconf_line
+upscli_init
+sendsignalfn
+background
+sendsignal
+upsdebugx
+upscli_sendline
+pconf_parse_error
+UPS_VERSION
+fatalx
+get_user_pwent
+_fini
+upscli_fd
+pconf_char
+confpath
+rtrim
+altpidpath
+xmalloc
+upscli_connect
+upscli_upserror
+pconf_file_begin
+ltrim
+upsdebug_with_errno
+become_user
+rtrim_m
+upscli_add_host_cert
+ltrim_m
+upscli_splitname
+open_syslog
+upscli_ssl
+upslogx
+pconf_finish
+dflt_statepath
+upsdebug_ascii
+pconf_file_next
+xstrdup
+upscli_cleanup
+chroot_start
+cleanpid
+snprintfcat
+xbasename
+nut_debug_level
+upscli_get
+upscli_readline
+writepid
+pconf_encode
+upsdebug_hex
+xcalloc
+select_read
+nut_log_level
+libssl.so.10
+libcrypto.so.10
+libpthread.so.0
+waitpid
+__errno_location
+sigaction
+libc.so.6
+_IO_stdin_used
+setuid
+chroot
+__printf_chk
+fopen
+strncmp
+strrchr
+pipe
+__strdup
+perror
+__fdelt_chk
+initgroups
+strncpy
+puts
+fork
+unlink
+select
+_exit
+popen
+getpid
+kill
+__assert_fail
+strtol
+fgetc
+fgets
+getpwnam
+strlen
+setlogmask
+sigemptyset
+openlog
+memset
+strstr
+chdir
+__syslog_chk
+getopt
+__fprintf_chk
+fclose
+__vsnprintf_chk
+umask
+strcasecmp
+__ctype_b_loc
+getenv
+optarg
+stderr
+alarm
+system
+__snprintf_chk
+seteuid
+getuid
+pclose
+usleep
+fwrite
+gettimeofday
+geteuid
+difftime
+strchr
+__cxa_finalize
+setsid
+memmove
+setgid
+strcmp
+__libc_start_main
+setenv
+closelog
+snprintf
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.1
+GLIBC_2.3.4
+WVSQ
+u?PPj
+WWPj
+QQPj
+VVPj
+t0RP
+QQPj
+VVPj
+t[RPh
+[^_]
+UWVS
+D$ j
+T$,W
+L$$u
+L$ WPj
+RRUP
+D$xP
+[^_]
+9l$Pw
+D$pP
+|$,	D
+QQPj
+VRPj
+QRPj
+D$pP
+UWVS
+[^_]
+t$8V
+RRPj
+D$,1
+D$$P
+D$$P
+D$0PVU
+|$,e3=
+<[^_]
+[^_]
+UWVS
+D$ P
+D$$P
+D$(+D$$
+[^_]
+8/tQ
+t$(V
+UWVS
+l$0W
+T$,)
+t$4j
+[^_]
+|$(W
+[^_]
+UWVS
+t$(V
+[^_]
+UWVS
+[^_]
+t$(V
+UWVS
+Pjdj
+t$4V
+D$|e3
+[^_]
+UWVS
+[^_]
+t$(V
+RRPj
+QQPj
+VVPj
+RRPj
+QQPj
+QVPj
+RVPj
+t	[^_
+UWVS
+[^_]
+UWVS
+[^_]
+D$(X
+D$ P
+[^_]
+D$(X
+D$ P
+[^_]
+@0Inva
+@4lid 
+@8ctx 
+@<bufff
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+F0Unba
+F4lanc
+F8ed w
+F<ord 
+F@due 
+FDto u
+FHnesc
+FLaped
+FP # i
+FTn qu
+FXotes
+9F t
+9G t
+UWVS
+[^_]
+t$<j
+|$01
+>\;D$
+UWVS
+t$,U
+[^_]
+SIGPIPE: dazed and confused, but continuing...
+Fatal error in parseconf(%s): %s
+Dropping connection to UPS [%s]
+'%s' exists, but we can't read from it
+Monitors UPS servers and may initiate shutdown if necessary.
+  -c <cmd>	send command to running process
+		 - fsd: shutdown all master UPSes (use with caution)
+		 - reload: reread configuration
+		 - stop: stop monitoring and exit
+  -F		run in foreground, do not daemonize
+  -K		checks POWERDOWNFLAG, sets exit code to 0 if set
+  -p		always run privileged (disable privileged parent)
+  -u <user>	run child as user <user> (ignored when using -p)
+setfsd: programming error: no UPS name set [%s]
+Warning: %s redefined in split-process mode!
+You must restart upsmon for this change to work
+'%s' is not a valid notify event name
+Unable to use old-style MONITOR line without a username
+Convert it and add a username to upsd.users - see the documentation
+Fatal error: unusable configuration
+Ignoring invalid MONITOR line in %s!
+MONITOR configuration directives require five arguments.
+UPS [%s]: ignoring invalid power value [%s]
+UPS [%s]: redefined power value to %d
+Warning: ignoring duplicate UPS [%s]
+Error: unable to split UPS name [%s]
+Warning: UPS [%s]: no upsname set!
+Warning: invalid notify type [%s]
+Failed to create power down flag!
+Executing automatic power-fail shutdown
+Executing automatic power-fail shutdown
+get_var: programming error: no UPS name set [%s]
+%s: Error: insufficient data (got %d args, need at least %d)
+get_var: programming error: var=%s
+Configuration error: CERTVERIFY is set, but CERTPATH isn't
+UPS [%s]: Connection impossible, dropping link
+UPS [%s]: no username defined!
+Can't set username on [%s]: %s
+Set username on [%s] failed: %s
+Can't set password on [%s]: %s
+Set password on [%s] failed: %s
+Set password on [%s] failed - got [%s]
+Login to UPS [%s] failed: empty upsname
+Login on UPS [%s] failed - got [%s]
+Set master on UPS [%s] failed: empty upsname
+Can't set master mode on UPS [%s] - %s
+Master privileges unavailable on UPS [%s]
+Poll UPS [%s] failed - [%s] does not exist on server %s
+Host sync timer expired, forcing shutdown
+Shutting down any UPSes in MASTER mode...
+This system is a master... waiting for slave logout...
+Fatal error: A previous upsmon instance is already running!
+Either stop the previous instance first, or use the 'reload' command.
+POWERDOWNFLAG (%s) does not contain the upsmon magic string
+Programming error: pdflag_status returned %d
+Warning: no shutdown command defined!
+POWERDOWNFLAG (%s) does not containthe upsmon magic string - disabling!
+Fatal error: insufficient power configured!
+Sum of power values........: %d
+Minimum value (MINSUPPLIES): %d
+Edit your upsmon.conf and change the values.
+upsmon parent: exiting (child exited)
+upsmon parent: got bogus pipe command %c
+parent: Unable to call shutdown command: %s
+Warning: running as one big root process by request (upsmon -p)
+Fatal error: total power value (%d) less than MINSUPPLIES (%d)
+Impossible power configuation, unable to continue
+Giving up on the master for UPS [%s]
+Parent died - shutdown impossible
+UPS %s: forced shutdown in progress
+Communications with UPS %s established
+Communications with UPS %s lost
+Auto logout and shutdown proceeding
+UPS %s battery needs to be replaced
+upsmon parent process died - shutdown impossible
+Signal %d: User requested FSD
+upsmon-shutdown-file
+usage: %s [OPTIONS]
+		commands:
+  -D		raise debugging level
+  -h		display this help
+  -4		IPv4 only
+  -6		IPv6 only
+Setting FSD on UPS %s
+FSD %s
+FSD set on UPS %s failed: %s
+Reload failed: %s
+Parse error: %s:%d: %s
+SHUTDOWNCMD
+POWERDOWNFLAG
+Using power down flag file %s
+NOTIFYCMD
+POLLFREQ
+POLLFREQALERT
+HOSTSYNC
+DEADTIME
+MINSUPPLIES
+RBWARNTIME
+NOCOMMWARNTIME
+FINALDELAY
+RUN_AS_USER
+CERTPATH
+CERTVERIFY
+FORCESSL
+NOTIFYMSG
+NOTIFYFLAG
+SYSLOG
+WALL
+EXEC
+IGNORE
+Invalid notify flag: [%s]
+CERTIDENT
+CERTHOST
+MONITOR
+UPS [%s]: redefined username
+UPS [%s]: retrying connection
+UPS [%s]: defined username
+UPS [%s]: redefined password
+UPS [%s]: redefined as master
+UPS [%s]: redefined as slave
+UPS: %s (%s) (power value %d)
+UPS: %s (monitoring only)
+%s line %d: invalid directive
+Can't invoke wall
+%s: ntype 0x%04x (%s)
+Can't fork to notify
+%s "%s"
+UPSNAME
+NOTIFYTYPE
+Not root, shutdown may fail
+numlogins
+NUMLOGINS
+ups.status
+%s: %s / %s
+UPS [%s]: Too old to monitor
+Trying to connect to UPS [%s]
+UPS [%s]: connect failed: %s
+USERNAME %s
+PASSWORD %s
+LOGIN %s
+Login to UPS [%s] failed: %s
+Can't login to UPS [%s]: %s
+Logged into UPS %s
+MASTER %s
+Response: [%s]
+Reason: %s
+%s: %s [SSL]
+%s: [%s]
+parsing: [%s]
+%s: %s (no change)
+%s: %s (first time)
+Poll UPS [%s] failed - %s
+Network UPS Tools %s %s
+%s/upsmon.conf
++DFhic:f:pu:VK46
+Power down flag is not set
+Power down flag is set
+debug level is '%d'
+pipe creation failed
+fork failed
+upsmon parent: read
+Reloading configuration
+Reload failed: can't open %s
+No longer monitoring UPS [%s]
+delete_ups: UPS not found
+Promoting dead UPS: %s
+Current power value: %d
+Minimum power value: %d
+Signal %d: exiting
+Critical UPS: %s
+stop
+reload
+ONLINE
+UPS %s on line power
+ONBATT
+UPS %s on battery
+LOWBATT
+UPS %s battery is low
+COMMOK
+COMMBAD
+SHUTDOWN
+REPLBATT
+NOCOMM
+UPS %s is unavailable
+NOPARENT
+ups_fsd
+ups_low_batt
+ups_on_batt
+ups_on_line
+parse_status
+pollups
+notify
+do_notify
+get_var
+/var/run/nut
+%s/%s.pid
+common.c
+len <= size
+%4.0f.%06ld	
+/etc/ups
+NUT_CONFPATH
+NUT_STATEPATH
+writepid: fopen %s
+Failed to read pid from %s
+kill
+ %02x
+%s: (%d bytes) =>
+%3s 
+%02Xh 
+'%c' 
+Unable to enter background
+open /dev/null
+Startup successful
+initgroups
+setgid
+setuid
+chdir(%s)
+chroot(%s)
+chdir(/)
+chrooted into %s
+Invalid log level threshold
+user %s not found
+getpwnam(%s)
+Out of memory
+2.7.3
+vupslog: vsnprintf needed more than %d bytes
+Ignoring invalid pid number %d
+getuid gave 0, but seteuid(0) failed
+snprintfcat
+parseconf: fatal error: %s
+realloc wordbuf failed
+realloc arglist failed
+realloc argsize failed
+realloc arglist member failed
+malloc wordbuf failed
+Can't open %s: %s
+addchar: discarding invalid character (0x%02x)!
+;*2$"
+upsmon.debug
+7zXZ
++uRI:Z
+Fh2*
+'85k
+i65A
+6_=L
+z^Kx
+4a6B
+Ay/?ua
+X|DN
+X=vz
+,)VE.
+)9soTe
+!&%}
+XS)0
+'#gp
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

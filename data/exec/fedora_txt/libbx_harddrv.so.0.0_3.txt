@@ -1,0 +1,759 @@
++Cl8
+nX#Cz
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+_ZN14bx_param_num_c3getEv
+_ZN24bx_simulator_interface_c9get_paramEPKcP10bx_param_c
+_ZN24bx_simulator_interface_c13get_param_numEPKcP10bx_param_c
+_ZN24bx_simulator_interface_c16get_param_stringEPKcP10bx_param_c
+_ZN24bx_simulator_interface_c14get_param_boolEPKcP10bx_param_c
+_ZN24bx_simulator_interface_c14get_param_enumEPKcP10bx_param_c
+_ZN24bx_simulator_interface_c31register_runtime_config_handlerEPvPFvS0_E
+_ZN24bx_simulator_interface_c14get_bochs_rootEv
+_ZN13bx_devmodel_c4initEv
+_ZN13bx_devmodel_c5resetEj
+_ZN13bx_devmodel_c14register_stateEv
+_ZN13bx_devmodel_c19after_restore_stateEv
+_ZN17bx_pci_ide_stub_c13bmdma_presentEv
+_ZN17bx_pci_ide_stub_c13bmdma_set_irqEh
+_ZN15bx_hard_drive_c19get_first_cd_handleEv
+theHardDrive
+_ZN14bx_cmos_stub_c7get_regEj
+pluginlog
+_ZN12logfunctions5panicEPKcz
+_ZN14bx_cmos_stub_c7set_regEjj
+_ZN13bx_pic_stub_c9raise_irqEj
+_ZN13bx_pic_stub_c9lower_irqEj
+_ZN13bx_devmodel_cD2Ev
+_ZTV13bx_devmodel_c
+_ZN12logfunctionsD2Ev
+_ZN13bx_devmodel_cD1Ev
+_ZN13bx_devmodel_cD0Ev
+_ZdlPvm
+_ZN15bx_hard_drive_c19get_cd_media_statusEj
+_ZN15bx_hard_drive_cD2Ev
+_ZTV15bx_hard_drive_c
+_ZN17bx_param_string_c11set_handlerEPFPKcPS_iS1_S1_iE
+_ZN14bx_param_num_c11set_handlerEPFlP10bx_param_cilE
+__sprintf_chk
+_ZN12logfunctions6ldebugEPKcz
+__stack_chk_fail
+__gxx_personality_v0
+_ZN15bx_hard_drive_cD1Ev
+_ZN15bx_hard_drive_cD0Ev
+_ZN15bx_hard_drive_c14register_stateEv
+_Znwm
+_ZN9bx_list_cC1EP10bx_param_cPKcS3_
+_ZN9bx_list_cC1EP10bx_param_cPKc
+_ZN15bx_shadow_num_cC1EP10bx_param_cPKcPjihh
+_ZN16bx_shadow_data_cC1EP10bx_param_cPKcPhj
+_ZN16bx_shadow_bool_cC1EP10bx_param_cPKcPjh
+_ZN15bx_shadow_num_cC1EP10bx_param_cPKcPhihh
+_ZN15bx_shadow_num_cC1EP10bx_param_cPKcPtihh
+_Unwind_Resume
+_ZN15bx_hard_drive_c5resetEj
+bx_devices
+_ZN15bx_hard_drive_c4initEv
+pluginRegisterIOReadHandler
+_ZN15bx_hard_drive_c12read_handlerEPvjj
+_ZN15bx_hard_drive_c13write_handlerEPvjjj
+pluginRegisterIOWriteHandler
+strncpy
+strlen
+_ZN9bx_list_c3addEP10bx_param_c
+_ZN15bx_hard_drive_c18cdrom_path_handlerEP17bx_param_string_ciPKcS3_i
+bx_gui
+_ZN8bx_gui_c19register_statusitemEPKcj
+hdimage_mode_names
+_ZN12logfunctions4infoEPKcz
+pluginRegisterIRQ
+_ZN15bx_hard_drive_c20cdrom_status_handlerEP10bx_param_cil
+_ZN15bx_hard_drive_c18seek_timer_handlerEPv
+bx_pc_system
+_ZN14bx_pc_system_c14register_timerEPvPFvS0_EjjjPKc
+_ZN15bx_hard_drive_c22runtime_config_handlerEPv
+libharddrv_LTX_plugin_fini
+_ZN15bx_hard_drive_c10seek_timerEv
+_ZN15bx_hard_drive_c14runtime_configEv
+_ZN15bx_hard_drive_c25calculate_logical_addressEhPl
+_ZN12logfunctions5errorEPKcz
+_ZN15bx_hard_drive_c17increment_addressEhPl
+_ZN15bx_hard_drive_c23init_send_atapi_commandEhhiij
+_ZN15bx_hard_drive_c15atapi_cmd_errorEh6_sense4_ascj
+_ZN15bx_hard_drive_c13atapi_cmd_nopEP12controller_t
+_ZN15bx_hard_drive_c22init_mode_sense_singleEhPKvi
+memcpy
+_ZN15bx_hard_drive_c15raise_interruptEh
+_ZN15bx_hard_drive_c19ready_to_send_atapiEh
+_ZN15bx_hard_drive_c19set_cd_media_statusEjj
+_ZN15bx_hard_drive_c14bmdma_completeEh
+_ZN15bx_hard_drive_c15command_abortedEhj
+_ZN15bx_hard_drive_c13bmdma_presentEv
+_ZN15bx_hard_drive_c20identify_ATAPI_driveEh
+_ZN15bx_hard_drive_c14identify_driveEh
+_ZN15bx_hard_drive_c13set_signatureEhh
+_ZN15bx_hard_drive_c15ide_read_sectorEhPhj
+_ZN8bx_gui_c17statusbar_setitemEijj
+_ZN15bx_hard_drive_c17virt_read_handlerEjj
+_ZN15bx_hard_drive_c17bmdma_read_sectorEhPhPj
+_ZN15bx_hard_drive_c16ide_write_sectorEhPhj
+_ZN15bx_hard_drive_c18bmdma_write_sectorEhPh
+_ZN15bx_hard_drive_c15lba48_transformEP12controller_tj
+_ZN8bx_gui_c27update_drive_status_buttonsEv
+_ZN15bx_hard_drive_c18virt_write_handlerEjjj
+_ZN16error_recovery_tC2Ev
+_ZN16error_recovery_tC1Ev
+_ZN15bx_hard_drive_cC2Ev
+_ZN12logfunctionsC2Ev
+_ZN12logfunctions3putEPKcS1_
+_ZN15bx_hard_drive_cC1Ev
+libharddrv_LTX_plugin_init
+pluginRegisterDeviceDevmodel
+_Z28get_device_handle_from_paramP10bx_param_c
+_ZN10bx_param_c14get_param_pathEPci
+_ZTS12logfunctions
+_ZTI12logfunctions
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTS13bx_devmodel_c
+_ZTI13bx_devmodel_c
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZTS20bx_hard_drive_stub_c
+_ZTI20bx_hard_drive_stub_c
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTS15bx_hard_drive_c
+_ZTI15bx_hard_drive_c
+libstdc++.so.6
+libm.so.6
+libc.so.6
+libgcc_s.so.1
+_edata
+__bss_start
+_end
+libbx_harddrv.so.0
+GCC_3.0
+GLIBC_2.14
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBCXX_3.4
+CXXABI_1.3
+CXXABI_1.3.9
+AWAVE1
+AUATUSH
+D$(1
+@PH;
+@0L;
+@@H;
+D$(dH3
+8[]A\A]A^A_
+AWAVAUATS1
+[A\A]A^A_]
+A[A_
+AYAZ
+A[A^
+AYAZ
+A[A^
+AYAZ
+A[A^
+AYAZ
+ATUL
+[]A\
+@8H;
+AWAVH
+AUATUS1
+|$ I
+H0H;
+@HH;
+J0H;
+Hil$
+Hi\$
+t$(L
+t$(H
+|$ H
+HiD$
+D$PH
+D$hE1
+HcD$
+B0H;
+BPH;
+J0H;
+@HH;
+P0H;
+@HH;
+P0H;
+[]A\A]A^A_
+@@H;
+HiD$
+@PH;
+J0H;
+@PH;
+J0H;
+@0H;
+@@H;
+@0H;
+Lid$
+l$PL
+L$(B
+@8L9
+J0H;
+@8L9
+J0H;
+D$(H
+@8L9
+J0H;
+D$0HcD$(H
+D$XHcD$0H
+D$`Hc
+D$8H
+@PH;
+J0H;
+@@H;
+L$HL
+D$@L
+L$HH
+T$8D
+D$@H
+L$ H
+@@H;
+Lid$
+t$(L
+@@H;
+L$@L
+L$@H
+\$0E
+HiD$
+L$(I
+T$0H
+T$`H
+T$hHc
+T$@AR
+AYAZHil$
+t$8H
+T(0H;r
+|$ H
+|$ H
+t$(H
+@PH;
+@0H;
+Lid$
+l$PL
+L$(B
+HiT$
+HiT$
+HiT$
+Lid$
+@@H;
+L$0L
+D$(L
+L$0H
+D$(H
+@@H;
+@PH;
+J0H;
+HiD$
+D$(E
+D$8PD
+L$81
+T 0H
+A\A]
+@8H9
+Q0H;
+@8H;
+Q0H;
+@8H;
+Q0H;
+Hil$
+@PH;
+@8H;
+@8H;
+@8H;
+@PH;
+J0H;
+H0H;
+@PH;
+B0H;
+@PH;
+D$8H
+@PH;
+Q0H;
+@0H;
+H+PxH
+@PH;
+H+PxH
+@PH;
+H+PxH
+@PH;
+B0H;
+@PH;
+B0H;
+H;-7
+@HH;
+B0H;
+@PH;
+B0H;
+H;-d
+@HH;
+B0H;
+@@H;
+|$8?
+@0H;
+H;-R
+@0H;
+@0H;
+@0H9
+@8H;
+@8H;
+@8H;
+@8H;
+@8H;
+@8H;
+@0H9
+@0H9
+@8H;
+@0H9
+@8H;
+@8H;
+@8H;
+@8H;
+@8H;
+@8H;
+@0H9
+@0H9
+@8H;
+AWAVAUATUSH
+D$(1
+$Lct$
+46Mi
+A0H;
+IPH;
+J0H;
+D$(dH3
+8[]A\A]A^A_
+t20;N
+t20;N
+AWAVA
+AUATA
+[]A\A]A^A_
+AUATD
+[]A\A]
+ATUSL
+|$8H
+@8H;
+|$xH
+@0H;
+[]A\H
+[]A\I
+AWAV
+AUATA
+D$(1
+@0H;
+L$(dH3
+8[]A\A]A^A_
+@PH;
+@@H;
+@PH;
+@0H;
+AWAVA
+AUATD
+D$(1
+D=>fE
+T=PL
+HiT$
+BXCD0000I
+0       
+D$     H
+HiT$
+pffD
+@hfD
+HjfD
+DWpH
+Lid$
+D$(dH3
+8[]A\A]A^A_
+AWAVA
+AUATA
+    
+BXHD0000A
+0       fD
+`dfD
+hffD
+phfD
+HnfD
+D>rH
+([]A\A]A^A_
+AWAV@
+AUAT
+	USI
+D$(1
+|$ H
+T$ H
+HiD$
+L$(dH3
+8[]A\A]A^A_
+T$ H
+AWAVA
+AUATA
+[]A\A]A^A_
+@8H;
+ufIi
+AVAUD
+tZ<(tVMi
+]A\A]A^
+[]A\A]A^
+]A\A]A^
+]A\A]A^
+AWAV@
+AUAT
+	USI
+D$(1
+|$ H
+T$ H
+HiD$
+L$(dH3
+8[]A\A]A^A_
+T$ H
+T$ H
+t/<5t+H
+AWAVA
+AUATA
+D$X1
+Hc,$L
+T$(L
+\$ L
+@8H;
+\$ L
+T$(Ii
+D$XdH3
+h[]A\A]A^A_
+|(8E
+T$ L
+T$ Hc
+@8L9
+~2Hi
+<$Hi
+<$E1
+5%t 
+<$Hi
+<$Hi
+T$(L
+\$ L
+T$(L
+\$ L
+T$(L
+\$ L
+<$Hi
+AYAZH
+<$Hi
+T$8H
+5rW 
+T$8	
+8rcH
+*rHH
+l$@H
+ATUSH
+[]A\A]
+ATUH
+cmos
+get_reg
+%s called in %s stub. you must not have loaded the %s plugin
+set_reg
+raise_irq
+lower_irq
+master
+slave
+ata.%d.%s
+path
+status
+hard_drive
+Exit
+Hard Drive State
+drive%d
+buffer
+busy
+drive_ready
+write_fault
+seek_complete
+corrected_data
+index_pulse
+index_pulse_count
+error_register
+head_no
+sector_count
+sector_no
+cylinder_no
+buffer_size
+buffer_index
+drq_index
+current_command
+multiple_sectors
+lba_mode
+packet_dma
+control_reset
+control_disable_irq
+reset_in_progress
+features
+mdma_mode
+udma_mode
+hob_feature
+hob_nsector
+hob_sector
+hob_lcyl
+hob_hcyl
+num_sectors
+cdrom_locked
+drive_select
+ata.%d.resources
+ioaddr1
+ioaddr2
+ATA%d
+type
+model
+Hard-Disk on target %d/%d
+HD:%d-%s
+cylinders
+heads
+journal
+menu.runtime.cdrom
+CDROM on target %d/%d
+CD:%d-%s
+CD on ata%d-%d: '%s'
+Media present in CD-ROM drive
+clock_cmos.cmosimage.enabled
+translation
+large
+none
+boot_params.boot_drive1
+boot_params.boot_drive3
+boot_params.boot_drive2
+boot_params.floppy_sig_check
+HD/CD seek
+pci.enabled
+Allocation length < 0
+CD-ROM
+DISK
+raising interrupt %d {%s}
+not raising interrupt {%s}
+Read all drive ID Bytes ...
+index > %d : %d
+Read with CDROM not ready
+CDROM: read block %d failed
+CDROM: last READ block loaded
+PACKET drq bytes read
+PACKET all bytes read
+PACKET-DMA not active
+DMA read not active
+DMA write not active
+Generic CD-ROM  
+BOCHS   
+Read CD: unknown format
+no precompensation {%s}
+sector count = %u {%s}
+sector number = %u {%s}
+cylinder low = %02xh {%s}
+cylinder high = %02xh {%s}
+enabling LBA mode
+set multiple mode: sectors=%d
+ATAPI SERVICE not implemented
+Enter RESET mode
+Reset complete {%s}
+harddrv
+ata.
+Init $Id: harddrv.cc 11649 2013-03-08 18:25:32Z vruppert $
+incoherency for ata channel %d: io1=0x%x, io2=%x, irq=%d
+HD on ata%d-%d: '%s', '%s' mode
+ata%d-%d: could not open hard drive image file '%s'
+ata%d-%d: image geometry: CHS=%d/%d/%d
+ata%d-%d cannot have zero heads, or sectors/track
+ata%d-%d: autodetect geometry: CHS=%d/%d/%d
+ata%d-%d cannot have zero cylinders, heads, or sectors/track
+ata%d-%d: using specified geometry: CHS=%d/%d/%d
+ata%d-%d: specified geometry doesn't fit on disk image
+ata%d-%d: extra data outside of CHS address range
+interrupt reason bit field error
+Capacity is %d sectors (%.2f MB)
+Could not locate CD-ROM, continuing with media not present
+Media not present in CD-ROM drive
+translation on ata%d-%d set to '%s'
+Using boot sequence %s, %s, %s
+Floppy boot signature check is %sabled
+calc_log_addr: out of bounds (%ld/%ld)
+Odd byte count (0x%04x) to ATAPI command 0x%02x, using 0x%04x
+ATAPI command 0x%02x with zero byte count
+ata%d-%d: atapi_cmd_error: key=%02x asc=%02x
+set_cd_media_status handle=%d status=%d
+aborting on command 0x%02x {%s}
+ide_read_sector() reached invalid sector %lu, aborting
+could not lseek() hard drive image file
+could not read() hard drive image file at byte %lu
+read: unable to find ATA channel, ioport=0x%04x
+IO read(0x%04x) with drq == 0: last command was %02xh
+IO read(0x%04x): current command is %02xh
+IO read(0x%04x): buffer_index >= %d
+CDROM: READ block loaded (%d remaining)
+read from 0x%04x: current command is 0x%02x
+hard drive: io read to address %x unsupported
+hard drive: shouldnt get here!
+32-bit read from %04x = %08x {%s}
+16-bit read from %04x = %04x {%s}
+8-bit read from %04x = %02x {%s}
+ide_write_sector() reached invalid sector %lu, aborting
+could not lseek() hard drive image file at byte %lu
+could not write() hard drive image file at byte %lu
+write: unable to find ATA channel, ioport=0x%04x
+8-bit write to %04x = %02x {%s}
+16-bit write to %04x = %04x {%s}
+32-bit write to %04x = %08x {%s}
+unknown-size write to %04x = %08x {%s}
+IO write(0x%04x): buffer_index >= %d
+IO write(0x%04x): buffer_index >= PACKET_SIZE
+ata%d-%d: ATAPI command 0x%02x started
+FIXME: Stop disc not implemented
+FIXME: ATAPI start disc not reading TOC
+Zero allocation length to MECHANISM STATUS not impl.
+cdrom: MODE SENSE (curr), code=%x not implemented yet
+cdrom: MODE SENSE PC=%x, PageCode=%x, not implemented by device
+cdrom: MODE SENSE (chg), code=%x not implemented yet
+cdrom: MODE SENSE (dflt), code=%x not implemented
+(READ TOC) format %d not supported
+READ(%d) with transfer length <= 0, ok (%i)
+cdrom: READ (%d) LBA=%d LEN=%d
+Read sub-channel with SubQ not implemented (format=%d)
+ATAPI command 0x%x not implemented yet
+Unknown ATAPI command 0x%x (%d)
+IO write(0x%04x): current command is %02xh
+precompensation value %02x {%s}
+IO write 0x%04x (%02x): not 1x1xxxxxb
+ata%d: device set to %d which does not exist
+ata%d: command 0x%02x sent, controller BSY bit set
+ata%d-%d: calibrate drive issued to non-disk
+ata%d-%d: read sectors issued to non-disk
+ata%d-%d: : read from 0/0/0, aborting command
+ata%d-%d: write sectors issued to non-disk
+ata%d-%d: initialize drive parameters issued to non-disk
+ata%d-%d: init drive params: sec=%u, drive sel=%u, head=%u
+init drive params: disk ata%d-%d not present
+ata%d-%d: init drive params: logical sector count %d not supported
+ata%d-%d: init drive params: max. logical head number 0 not supported
+ata%d-%d: init drive params: max. logical head number %d not supported
+Drive ID Command issued : 0xec 
+disk ata%d-%d not present, aborting
+ata%d-%d: set transfer mode to PIO
+ata%d-%d: set transfer mode to MDMA%d
+ata%d-%d: unknown transfer mode type 0x%02x
+ata%d-%d: SET FEATURES subcommand 0x%02x not supported, but returning success
+ata%d-%d: SET FEATURES with unknown subcommand: 0x%02x
+ata%d-%d: read verify issued to non-disk
+ata%d-%d: verify command : 0x%02x !
+set multiple mode issued to non-disk
+ATAPI Device Reset on non-cd device
+PACKET-overlapped not supported
+write cmd 0x70 (SEEK) executing
+initial seek to sector %lu out of bounds, aborting
+ata%d-%d: SEEK completed (IRQ %sabled)
+write cmd 0x70 (SEEK) not supported for non-disk
+write cmd 0x22 (READ LONG) not supported
+write cmd 0x23 (READ LONG NO RETRY) not supported
+write cmd 0x26 (READ DMA QUEUED EXT) not supported
+write cmd 0x2A (READ STREAM DMA) not supported
+write cmd 0x2B (READ STREAM PIO) not supported
+write cmd 0x2F (READ LOG EXT) not supported
+write cmd 0x31 (WRITE SECTORS NO RETRY) not supported
+write cmd 0x32 (WRITE LONG) not supported
+write cmd 0x33 (WRITE LONG NO RETRY) not supported
+write cmd 0x36 (WRITE DMA QUEUED EXT) not supported
+write cmd 0x37 (SET MAX ADDRESS EXT) not supported
+write cmd 0x38 (CFA WRITE SECTORS W/OUT ERASE) not supported
+write cmd 0x3A (WRITE STREAM DMA) not supported
+write cmd 0x3B (WRITE STREAM PIO) not supported
+write cmd 0x3F (WRITE LOG EXT) not supported
+write cmd 0x50 (FORMAT TRACK) not supported
+write cmd 0x51 (CONFIGURE STREAM) not supported
+write cmd 0x87 (CFA TRANSLATE SECTOR) not supported
+write cmd 0x92 (DOWNLOAD MICROCODE) not supported
+write cmd 0x94 (STANDBY IMMEDIATE) not supported
+write cmd 0x95 (IDLE IMMEDIATE) not supported
+write cmd 0x96 (STANDBY) not supported
+write cmd 0x97 (IDLE) not supported
+write cmd 0x98 (CHECK POWER MODE) not supported
+write cmd 0x99 (SLEEP) not supported
+write cmd 0xB0 (SMART commands) not supported
+write cmd 0xB1 (DEVICE CONFIGURATION commands) not supported
+write cmd 0xC0 (CFA ERASE SECTORS) not supported
+write cmd 0xC7 (READ DMA QUEUED) not supported
+write cmd 0xC9 (READ DMA NO RETRY) not supported
+write cmd 0xCC (WRITE DMA QUEUED) not supported
+write cmd 0xCD (CFA WRITE MULTIPLE W/OUT ERASE) not supported
+write cmd 0xD1 (CHECK MEDIA CARD TYPE) not supported
+write cmd 0xDA (GET MEDIA STATUS) not supported
+write cmd 0xDE (MEDIA LOCK) not supported
+write cmd 0xDF (MEDIA UNLOCK) not supported
+write cmd 0xE2 (STANDBY) not supported
+write cmd 0xE3 (IDLE) not supported
+write cmd 0xE4 (READ BUFFER) not supported
+write cmd 0xE6 (SLEEP) not supported
+write cmd 0xE8 (WRITE BUFFER) not supported
+write cmd 0xED (MEDIA EJECT) not supported
+write cmd 0xF1 (SECURITY SET PASSWORD) not supported
+write cmd 0xF2 (SECURITY UNLOCK) not supported
+write cmd 0xF3 (SECURITY ERASE PREPARE) not supported
+write cmd 0xF4 (SECURITY ERASE UNIT) not supported
+write cmd 0xF5 (SECURITY FREEZE LOCK) not supported
+write cmd 0xF6 (SECURITY DISABLE PASSWORD) not supported
+write cmd 0xF9 (SET MAX ADDRESS) not supported
+IO write to 0x%04x: unknown command 0x%02x
+ata%d: adapter control reg: reset controller = %d
+ata%d: adapter control reg: disable irq = %d
+hard drive: io write to address %x = %02x
+write cmd 0x%02x (READ DMA) not supported
+write cmd 0x%02x (WRITE DMA) not supported
+cdrom_status_handler called with unexpected parameter '%s'
+cdrom_path_handler called with unexpected parameter '%s'
+12logfunctions
+13bx_devmodel_c
+20bx_hard_drive_stub_c
+15bx_hard_drive_c
+;*3$"
+zPLR
+libbx_harddrv.so.0.0.0.debug
+7zXZ
+3Krs
+|93zE
+gvUo
+oBJx
+L;Ia
+<0zD
+[IHX
+"l{%
+,t`}s[
+wqD8
+NqsT
++;8r
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

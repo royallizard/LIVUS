@@ -1,0 +1,442 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_reg_handoff
+proto_reg_handoff_ircomm
+proto_reg_handoff_irda
+proto_reg_handoff_irsir
+plugin_register
+proto_register_ircomm
+proto_register_irda
+proto_register_irsir
+version
+check_iap_lsap_result
+add_lmp_conversation
+tvb_length
+check_col
+proto_tree_add_item
+proto_item_add_subtree
+call_dissector
+g_snprintf
+col_add_str
+col_set_str
+tvb_get_guint8
+tvb_new_subset
+check_iap_octet_result
+tvb_get_ntohs
+proto_item_append_text
+g_strlcat
+dissect_param_tuple
+tvb_format_text
+find_dissector
+proto_register_protocol
+proto_register_field_array
+proto_register_subtree_array
+ircomm_attr_dissector
+irlpt_attr_dissector
+dissector_add
+register_dissector
+find_conversation
+conversation_get_proto_data
+proto_item_set_len
+col_append_str
+se_alloc
+conversation_new
+conversation_add_proto_data
+tvb_memcpy
+strcmp
+tvb_get_ntohl
+val_to_str
+tvb_get_ephemeral_string
+tvb_reported_length_remaining
+tvb_get_letohl
+proto_tree_add_uint
+proto_item_set_end
+col_append_fstr
+col_add_fstr
+dissect_xdlc_control
+col_clear
+tvb_get_letohs
+crc16_ccitt_tvb
+proto_tree_add_boolean
+proto_tree_add_uint_format
+tvb_length_remaining
+tvb_find_guint8
+g_malloc
+tvb_new_child_real_data
+g_free
+tvb_set_free_cb
+add_new_data_source
+proto_tree_add_protocol_format
+libm.so.6
+libcrypto.so.10
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+irda.so
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.4
+d$0[^]
+d$0[^]
+[^_]
+[^_]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+[^_]
+d$\[^_]
+[^_]
+[^_]
+t%;O
+[^_]
+[^_]
+[^_]
+d$ [^]
+d$l[^_]
+d$$[]
+0.0.6
+IrDA:IrLMP:LsapSel
+IrDA:TinyTP:LsapSel
+User Data: %d byte%s
+Clen=%d, UserData: %d byte%s
+Clen=%d
+Parameters
+: Service Type (
+, 3-Wire raw
+, 3-Wire
+, 9-Wire
+, Centronics
+: Port Type (
+, serial
+, parallel
+: Port Name ("%s")
+: unknown
+data
+ircomm
+IrCOMM Protocol
+IrDA:IrLMP:LSAPSel
+IrCOMM Parameter
+ircomm.parameter
+Parameter Identifier
+ircomm.pi
+Parameter Length
+ircomm.pl
+Parameter Value
+ircomm.pv
+Control Channel
+ircomm.control
+Clen
+ircomm.control.len
+irda
+wtap_encap
+irlap
+IrLAP
+IrDA Link Access Protocol
+Log Message
+irlmp
+IrLMP
+IrDA Link Management Protocol
+Information Access Protocol
+Tiny Transport Protocol
+, Credit=%d
+GetValueByClass: "
+Result: 
+, Missing
+, Integer: %d
+, %d Octets
+, "%s"
+, ...
+: Baud Rate (
+, 2400
+, 9600
+, 19200
+, 38400
+, 57600
+, 115200
+, 576000
+, 1152000
+, 4000000
+ bps)
+: Maximum Turn Time (
+, 500
+, 250
+, 100
+, 50
+ ms)
+: Data Size (
+, 64
+, 128
+, 256
+, 512
+, 1024
+, 2048
+ bytes)
+: Window Size (
+ frame window)
+: Additional BOFs (
+, 48
+, 24
+, 12
+ additional BOFs at 115200)
+: Minimum Turn Time (
+, 10
+, 0.5
+, 0.1
+, 0.05
+, 0.01
+, 3/0
+, 8/3
+, 12/3
+, 16/3
+, 20/3
+, 25/3
+, 30/3
+, 40/3
+0x%08X
+, s=final
+, s=%u
+ (final)
+, PnP Compatible
+, PDA/Palmtop
+, Computer
+, Printer
+, Modem
+, Fax
+, LAN Access
+, Telephony
+, File Server
+, IrCOMM
+, OBEX
+IrDA
+ (NULL Address)
+ (Broadcast)
+%d > %d, 
+%d > %d, Len=%d
+, ca=0x%02X
+Parameter Bit
+ttp.p
+Initial Credit
+ttp.icredit
+More Bit
+ttp.m
+Delta Credit
+ttp.dcredit
+Control Field
+iap.ctl
+Last Frame
+iap.ctl.lst
+iap.ctl.ack
+Opcode
+iap.ctl.opcode
+Class Name
+iap.classname
+Attribute Name
+iap.attrname
+Return
+iap.return
+List Length
+iap.listlen
+List Entry 
+iap.listentry
+Object Identifier
+iap.objectid
+iap.attrtype
+iap.int
+Sequence Length
+iap.seqlen
+iap.octseq
+Character Set
+iap.charset
+String
+iap.string
+Malformed IAP result: "
+iap.invaloctet
+iap.invallsap
+Service Hints
+irlmp.xid.hints
+irlmp.xid.charset
+Device Nickname
+irlmp.xid.name
+Destination
+irlmp.dst
+Control Bit
+irlmp.dst.c
+Destination LSAP
+irlmp.dst.lsap
+Source
+irlmp.src
+reserved
+irlmp.src.r
+Source LSAP
+irlmp.src.lsap
+irlmp.opcode
+Reserved
+irlmp.rsvd
+irlmp.reason
+irlmp.mode
+Status
+irlmp.status
+log.msg
+log.missed
+Address Field
+irlap.a
+irlap.a.cr
+irlap.a.address
+irlap.c
+N(R)
+irlap.c.n_r
+N(S)
+irlap.c.n_s
+Poll
+irlap.c.p
+Final
+irlap.c.f
+Supervisory frame type
+irlap.c.s_ftype
+irlap.c.u_modifier_cmd
+Response
+irlap.c.u_modifier_resp
+Frame Type
+irlap.c.ftype
+Information Field
+irlap.i
+Source Device Address
+irlap.snrm.saddr
+Destination Device Address
+irlap.snrm.daddr
+Connection Address
+irlap.snrm.ca
+Negotiation Parameter
+irlap.negotiation
+irlap.pi
+irlap.pl
+irlap.pv
+irlap.ua.saddr
+irlap.ua.daddr
+Format Identifier
+irlap.xid.fi
+irlap.xid.saddr
+irlap.xid.daddr
+Discovery Flags
+irlap.xid.flags
+Number of Slots
+irlap.xid.s
+Conflict
+irlap.xid.conflict
+Slot Number
+irlap.xid.slotnr
+Version Number
+irlap.xid.version
+Success
+Class/Object Unknown
+Attribute Unknown
+Attribute List Too Long
+Disconnect (Linux-IrDA only)
+Connect Command
+Connect Confirm
+Access Mode Command
+Access Mode Confirm
+Multiplexed
+Exclusive
+SNRM
+DISC
+TEST
+RNRM
+FRMR
+Device
+IrDA:IrCOMM
+IrLPT
+Not set
+GetInfoBase
+GetObjects
+GetValue
+GetValueByClass
+GetObjectInfo
+GetAttributeNames
+Integer
+Octet Sequence
+User Request
+Unexpected IrLAP Disconnect
+IrLAP Reset
+Non Responsive LM-MUX Client
+No available LM-MUX Client
+Connection Half Open
+Illegal Source Address
+Unspecified Disconnect Reason
+Failure
+Unsupported
+Receiver ready
+Receiver not ready
+Selective reject
+Set Normal Response Mode
+Unnumbered Information
+Test
+Request Normal Response Mode
+Unnumbered Acknowledge
+Frame Reject
+Disconnect Mode
+Request Disconnect
+Information frame
+Supervisory frame
+Unnumbered frame
+" attribute must be octet sequence!
+" attribute must be integer value between 0x01 and 0x6F!
+: Link Disconnect/Threshold Time (
+WARNING: Missed one or more messages while capturing!
+Device Nickname (unsupported character set)
+Unsupported Optional Operation
+Failed to establish IrLAP connection
+Link Management Initiated Disconnect
+Data delivered on disconnected LSAP-Connection
+Exchange Station Identification
+Serial Infrared
+Unescaped SIR
+Serial Infrared, Len: %d
+tcp.port
+Beginning of frame
+sir.bof
+Command escape
+sir.ce
+End of frame
+sir.eof
+Frame check sequence
+sir.fcs
+Bad frame check sequence
+sir.fcs_bad
+sir.length
+Preamble
+sir.preamble
+Frame check sequence: 0x%04x (correct)
+Frame check sequence: 0x%04x (incorrect, should be 0x%04x)
+irda.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

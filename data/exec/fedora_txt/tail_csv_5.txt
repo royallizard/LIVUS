@@ -1,0 +1,148 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+free
+cu_tail_destroy
+plugin_log
+plugin_get_ds
+strcasecmp
+calloc
+cf_util_get_string
+plugin_get_interval
+realloc
+cf_util_get_cdtime
+ssnprintf
+plugin_register_complex_read
+__stack_chk_fail
+cu_tail_readline
+cu_tail_create
+parse_value
+__errno_location
+strtod
+__assert_fail
+hostname_g
+sstrncpy
+plugin_dispatch_values
+module_register
+plugin_register_complex_config
+plugin_register_init
+plugin_register_shutdown
+libdl.so.2
+libc.so.6
+tail_csv.so
+GLIBC_2.4
+GLIBC_2.2.5
+=I# 
+=7# 
+=J  
+t?USH
+t;SH
+AWAVAUATUSH
+G(dH
+|$(H
+D$`H
+D$@H
+D$PH
+D$(H
+\$ H
+D$0I
+t$0L
+0;A(
+D$ 09B(
+[]A\A]A^A_
+t$8L
+{(E1
+0D;c(}BM
+\$@H
+D$HH
+t$PH
+AWAVAUATUSH
+l$@H
+x	L9
+M;} s>I
+M;} r
+dH34%(
+[]A\A]A^A_
+t$ L
+D$8H
+D$ L
+|$pH
+D$XH
+localhosH
+D$ht
+D$0H
+D$PI
+tail_csv plugin: Failed to look up type "%s" for metric "%s". It may not be defined in the types.db file. Please read the types.db(5) manual page for more details.
+tail_csv plugin: The type "%s" has %zu data sources. Only types with a single data soure are supported.
+tail_csv plugin: The "%s" config option needs exactly one integer argument.
+tail_csv plugin: The "%s" config option must be positive (or zero).
+tail_csv plugin: Option `%s' not allowed here.
+tail_csv plugin: Option `Type' must be set.
+tail_csv plugin: Option `ValueFrom' must be set.
+tail_csv plugin: The `Collect' config option needs at least one argument.
+tail_csv plugin: All arguments to `Collect' must be strings.
+tail_csv plugin: Option `Path' must be set.
+tail_csv plugin: Option `Collect' must be set.
+tail_csv plugin: Registering complex read function failed.
+tail_csv plugin: Ignore unknown config option `%s'.
+tail_csv plugin: `Collect' argument not found `%s'.
+tail_csv plugin: cu_tail_create ("%s") failed.
+tail_csv plugin: File "%s": cu_tail_readline failed with status %i.
+tail_csv plugin: last line of `%s' does not contain enough values.
+tail_csv plugin: calloc failed.
+tail_csv plugin: Metric "%s": Request for index %zd when only %zu fields are available.
+Metric
+Type
+Instance
+ValueFrom
+File
+Collect
+Interval
+TimeFrom
+tail_csv/%s
+tail_csv.c
+i == metrics_num
+md->value_from >= 0
+tail_csv
+tcsv_read_metric
+tcsv_read_buffer
+;*3$"
+tail_csv.so.debug
+7zXZ
+]L=R
+mzC+y
+VDkH
+(K`p
+HUS{
+Df{P
+jq':
+2!5L
+[a\]
+jkP,
+!;dV<
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

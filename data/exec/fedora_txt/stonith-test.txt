@@ -1,0 +1,367 @@
+/lib64/ld-linux-x86-64.so.2
+Cs9w
+DD};3
+libcrmcommon.so.3
+__gmon_start__
+_Jv_RegisterClasses
+qb_log_callsite_get
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+qb_log_real_
+qb_log_from_external_source
+mainloop_set_trigger
+mainloop_add_trigger
+crm_exit
+crm_set_options
+crm_system_name
+crm_get_option
+crm_log_init
+_fini
+pcmk_strerror
+crm_help
+mainloop
+crm_is_callsite_active
+mainloop_add_signal
+libcrmcluster.so.4
+libstonithd.so.2
+stonith_api_delete
+stonith_api_new
+stonith_key_value_freeall
+stonith_key_value_add
+stonith_dispatch
+libcpg.so.4
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+optind
+time
+__stack_chk_fail
+poll
+__snprintf_chk
+sleep
+__cxa_finalize
+__libc_start_main
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+g_main_loop_run
+g_main_loop_new
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+5RV 
+%TV 
+%RV 
+%JV 
+%BV 
+%:V 
+%2V 
+%*V 
+%"V 
+%zU 
+AVAUH
+ATUH
+Vt1~
+mt0A
+5'c 
+=zd 
+5dS 
+=)c 
+=la 
+56R 
+=sb 
+=db 
+=p` 
+57Q 
+=\a 
+=Ma 
+=q_ 
+5;P 
+=H` 
+=9` 
+=u^ 
+5<O 
+=1_ 
+="_ 
+=r^ 
+=`] 
+=A] 
+="] 
+ []A\A]A^
+=wN 
+={[ 
+=\[ 
+==[ 
+A\A]H
+=mZ 
+='[ 
+=?Z 
+=fY 
+=8Y 
+=~Y 
+=qY 
+5xI 
+=RX 
+=$X 
+=EP 
+5{H 
+=UW 
+='W 
+=vN 
+=^V 
+AYAZH
+=\U 
+=.U 
+5xE 
+=4T 
+=?T 
+=2T 
+A]A^H
+=FS 
+5	D 
+=5S 
+=(S 
+=xR 
+5;C 
+=_R 
+=RR 
+=ZQ 
+5!B 
+=1M 
+=cP 
+5:A 
+=>P 
+=1P 
+=*F 
+AYAZ
+AXAY
+=mI 
+AYAZ
+AYAZ
+=,L 
+=HK 
+=HK 
+=;K 
+=TJ 
+=QF 
+=u@ 
+=eA 
+=%> 
+=J> 
+=R? 
+=^9 
+=>: 
+=^; 
+=J; 
+=&8 
+=>: 
+=J; 
+=^8 
+AYAZ
+A\A]
+AYAZ
+=)) 
+fffff.
+fffff.
+==6 
+=r" 
+fffff.
+=1" 
+=G5 
+ffff.
+ffff.
+fff.
+=i( 
+=$( 
+=<2 
+=T& 
+=k0 
+5.! 
+5q  
+=h/ 
+=i! 
+=\- 
+=i! 
+=$! 
+=q, 
+=d! 
+=!+ 
+=H) 
+AWAVA
+AUATL
+[]A\A]A^A_
+<none>
+completed
+failed
+Looking for notification
+test.c
+custom_timeout_node1
+false_1_node1=1,2
+pcmk_host_map
+fail
+mode
+fence_dummy
+stonith-ng
+false_1
+true_1_node1=1,2
+pass
+true_1
+custom_timeout_node1=1,2
+1000
+delay
+pcmk_off_timeout
+false_custom_timeout
+Destroy
+true_1_node1
+mode [options]
+stonith-test
+Create
+Connect: %d
+fence_xvm
+Register: %d
+List: %d output: %s
+Monitor: %d
+Status false_1_node2: %d
+Status false_1_node1: %d
+unknown-host
+Fence unknown-host: %d
+Fence false_1_node1: %d
+Unfence false_1_node1: %d
+some-host
+Fence alias: %d
+Status alias: %d
+Remove test-id: %d
+st_notify_disconnect
+st_notify_fence
+st_device_register
+st_device_remove
+st_global_callback
+Register
+SUCCESS - %s: %d
+list
+Monitor
+Status false_1_node2
+Status false_1_node1
+Fence false_1_node1
+Unfence false_1_node1
+Remove test-id
+test-id1
+Fence failure results off
+Fence failure results reboot
+test-id2
+Fence rollover results off
+Fence rollover results on
+Starting
+Disconnect: %d
+ALL MAINLOOP TESTS PASSED!
+API CONNECTION FAILURE
+SUCCESS - %s
+monitor failed with rc %d
+fence failed with rc %d
+Sanity Tests Passed
+Starting API Sanity Tests
+verbose
+version
+help
+passive
+mainloop_api_test
+Provides a summary of cluster's current state.
+Outputs varying levels of detail in a number of different formats.
+some-host=pcmk-7 true_1_node1=3,4
+false_1_node1=1,2 false_1_node2=3,4
+Fence unknown-host (expected failure)
+Register device1 for failure test
+Remove device1 for failure test
+Register device1 for rollover test
+Register device2 for rollover test
+Remove device1 for rollover tests
+Remove device2 for rollover tests
+FAILURE = %s async_callback %d
+stonith client connection failed
+stonith client connection established
+Custom timeout test failed, callback expiration should be updated to %d, actual timeout was %d
+FAILURE - expected %d notifications, got only %d for cmd - %s
+FAILURE - expected rc %d != %d(%s) for cmd - %s
+Call id %d completed with rc %d
+Operation %s requested by %s %s for peer %s.  %s reported: %s (ref=%s)
+test_shutdown
+try_mainloop_connect
+try_mainloop_connect
+test_register_async_devices
+test_register_async_devices
+test_async_monitor
+test_async_monitor
+test_async_fence_pass
+test_async_fence_pass
+test_async_fence_timeout
+test_async_fence_timeout
+test_async_fence_custom_timeout
+test_async_fence_custom_timeout
+iterate_mainloop_tests
+mainloop_tests
+run_fence_failure_rollover_test
+run_fence_failure_test
+run_standard_test
+sanity_tests
+dispatch_helper
+st_callback
+st_global_callback
+passive_test
+standard_dev_test
+main
+;*3$"
+stonith-test.debug
+7zXZ
+cY$c
++(lX
+V>Y5G
+S	n,
+F~4]
+a"j-
+7s}1
+jkZugsW
+!"]/
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

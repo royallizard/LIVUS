@@ -1,0 +1,96 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+xtables_option_parse
+puts
+__printf_chk
+strncpy
+xt_params
+libxt_recent_init
+xtables_register_match
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.2.5
+fffff.
+fff.
+recent match options:
+[!] --set                       Add source address to list, always matches.
+[!] --rcheck                    Match if source address in list.
+[!] --update                    Match if source address in list, also update last-seen time.
+[!] --remove                    Match if source address in list, also removes that address from list.
+    --seconds seconds           For check and update commands above.
+                                Specifies that the match will only occur if source address last seen within
+                                the last 'seconds' seconds.
+    --hitcount hits             For check and update commands above.
+                                Specifies that the match will only occur if source address seen hits times.
+                                May be used in conjunction with the seconds option.
+    --rttl                      For check and update commands above.
+                                Specifies that the match will only occur if the source address and the TTL
+                                match between this packet and the one which was set.
+                                Useful if you have problems with people spoofing their source address in order
+                                to DoS you via this module.
+    --name name                 Name of the recent list to be used.  DEFAULT used if none given.
+    --rsource                   Match/Save the source address of each packet in the recent list table (default).
+    --rdest                     Match/Save the destination address of each packet in the recent list table.
+xt_recent by: Stephen Frost <sfrost@snowman.net>.  http://snowman.net/projects/ipt_recent/
+recent: you must specify one of `--set', `--rcheck' `--update' or `--remove'
+ recent:
+ SET
+ CHECK
+ UPDATE
+ REMOVE
+ seconds: %d
+ hit_count: %d
+ TTL-Match
+ name: %s
+ side: source
+ side: dest
+ --set
+ --rcheck
+ --update
+ --remove
+ --seconds %d
+ --hitcount %d
+ --rttl
+ --name %s
+ --rsource
+ --rdest
+DEFAULT
+libxtables.so.7
+recent
+seconds
+hitcount
+name
+;*3$"
+libxt_recent.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

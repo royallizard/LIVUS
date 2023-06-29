@@ -1,0 +1,309 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_log_level_meta
+pa_sink_input_request_rewind
+abort
+pa_sink_type_id
+pa_sink_process_msg
+pa_sink_get_latency_within_thread
+pa_memblockq_get_length
+pa_bytes_to_usec
+pa_object_type_id
+pa_sink_process_rewind
+pa_sink_render
+pa_memblockq_push
+pa_memblock_unref
+pa_memblockq_peek
+pa_frame_size
+pa_memblock_new
+pa_memblockq_drop
+pa_memblock_acquire_chunk
+pa_memblock_acquire
+pa_sample_clamp
+pa_memblock_release
+__stack_chk_fail
+pa_sink_input_get_state
+pa_sink_input_set_mute
+pa_sink_input_set_volume
+pa_sink_input_cork
+pa_sink_get_requested_latency_within_thread
+pa_sink_input_set_requested_latency_within_thread
+pa_sink_volume_changed
+pa_sink_set_max_request_within_thread
+pa_sink_mute_changed
+pa_sink_set_fixed_latency_within_thread
+pa_sink_set_latency_range_within_thread
+pa_sink_set_rtpoll
+pa_sink_detach_within_thread
+pa_memblockq_set_maxrewind
+pa_sink_set_max_rewind_within_thread
+pa_memblockq_rewind
+pa_memblockq_seek
+pa_sink_set_asyncmsgq
+pa_sink_update_flags
+pa_proplist_new
+pa_proplist_gets
+pa_proplist_setf
+pa_sink_update_proplist
+pa_proplist_free
+pa_sink_unlink
+pa_sink_input_unlink
+pa_object_unref
+pa_module_unload_request
+pa_sink_input_get_max_request
+pa_sink_input_get_max_rewind
+pa_sink_attach_within_thread
+module_virtual_sink_LTX_pa__get_author
+module_virtual_sink_LTX_pa__get_description
+dcgettext
+module_virtual_sink_LTX_pa__get_version
+module_virtual_sink_LTX_pa__load_once
+module_virtual_sink_LTX_pa__get_usage
+module_virtual_sink_LTX_pa__get_n_used
+pa_sink_linked_by
+module_virtual_sink_LTX_pa__done
+pa_memblockq_free
+pa_xfree
+module_virtual_sink_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+pa_namereg_get
+pa_modargs_get_sample_spec_and_channel_map
+pa_modargs_get_value_boolean
+pa_xmalloc0
+pa_sink_new_data_init
+pa_xstrdup
+pa_sink_new_data_set_sample_spec
+pa_sink_new_data_set_channel_map
+pa_proplist_sets
+pa_modargs_get_proplist
+pa_proplist_contains
+pa_sink_new
+pa_sink_new_data_done
+pa_sink_set_set_mute_callback
+pa_sink_input_new_data_init
+pa_sink_input_new_data_set_sink
+pa_sink_input_new_data_set_sample_spec
+pa_sink_input_new_data_set_channel_map
+pa_sink_input_new
+pa_sink_input_new_data_done
+pa_sink_input_get_silence
+pa_memblockq_new
+pa_sink_input_put
+pa_sink_put
+pa_modargs_free
+pa_sink_set_set_volume_callback
+pa_sink_enable_decibel_volume
+pa_sprintf_malloc
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-virtual-sink.so
+PULSE_0
+GLIBC_2.4
+GLIBC_2.2.5
+/usr/lib64/pulseaudio
+u+UH
+	u>H
+A\A]A^
+[]A\A]A^
+,$]A\A]A^
+AWAVAUATUSH
+D$H1
+L9l$ L
+Fl$ L
+l$ M
+t6E1
+S$D9
+L$HdH3
+X[]A\A]A^A_
+ATUSH
+[]A\
+[]A\
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+ATUSH
+[]A\
+AWAVAUATUSH
+oG|1
+)D$@
+)L$P
+D$@H
+)T$`
+)\$p
+l$ H
+|$ H
+[]A\A]A^A_
+modules/module-virtual-sink.c
+u = s->userdata
+pa_sink_isinstance(o)
+./pulsecore/sink.h
+./pulsecore/object.h
+./pulsecore/sink-input.h
+chunk
+u = i->userdata
+tchunk.length > 0
+n > 0
+device.description
+device.vsink.name
+Virtual Sink %s on %s
+Pierre-Louis Bossart
+Virtual sink
+pulseaudio
+12.2-rebootstrapped
+u = m->userdata
+master
+Master sink not found
+use_volume_sharing
+force_flat_volume
+sink_name
+%s.vsink
+device.master_device
+filter
+device.class
+sink_properties
+Invalid properties
+Failed to create sink.
+Virtual Sink Stream from %s
+media.name
+media.role
+module-virtual-sink memblockq
+rate
+channels
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Requesting rewind due to state change.
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+sink_name=<name for the sink> sink_properties=<properties for the sink> master=<name of sink to filter> rate=<sample rate> channels=<number of channels> channel_map=<channel map> use_volume_sharing=<yes or no> force_flat_volume=<yes or no> 
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+use_volume_sharing= expects a boolean argument
+force_flat_volume= expects a boolean argument
+Flat volume can't be forced when using volume sharing.
+module_virtual_sink_LTX_pa__done
+module_virtual_sink_LTX_pa__done
+module_virtual_sink_LTX_pa__get_n_used
+module_virtual_sink_LTX_pa__get_n_used
+pa_sink_cast
+pa_sink_cast
+sink_set_state_in_main_thread_cb
+sink_set_state_in_main_thread_cb
+sink_set_state_in_io_thread_cb
+sink_set_state_in_io_thread_cb
+sink_update_requested_latency_cb
+sink_update_requested_latency_cb
+sink_request_rewind_cb
+sink_request_rewind_cb
+sink_set_mute_cb
+sink_set_mute_cb
+pa_sink_assert_ref
+pa_sink_assert_ref
+sink_set_volume_cb
+sink_set_volume_cb
+sink_input_pop_cb
+sink_input_pop_cb
+sink_input_process_rewind_cb
+sink_input_process_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_update_max_request_cb
+sink_input_update_max_request_cb
+sink_input_update_sink_latency_range_cb
+sink_input_update_sink_latency_range_cb
+sink_input_update_sink_fixed_latency_cb
+sink_input_update_sink_fixed_latency_cb
+sink_input_kill_cb
+sink_input_kill_cb
+sink_input_attach_cb
+sink_input_attach_cb
+sink_input_detach_cb
+sink_input_detach_cb
+sink_input_moving_cb
+sink_input_moving_cb
+sink_input_volume_changed_cb
+sink_input_volume_changed_cb
+pa_object_cast
+pa_object_cast
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+sink_input_mute_changed_cb
+sink_input_mute_changed_cb
+module_virtual_sink_LTX_pa__init
+module_virtual_sink_LTX_pa__init
+;*3$"
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+module-virtual-sink.so-12.2-1.fc29.x86_64.debug
+7zXZ
+-g2 
+X;W|
+85UJ.
+A*D 
+6KhTp0n
+S_bK
+vlG'
+&	0T
++sEK/@
+)S"j
+\a8M
+pIXd
+}/LH'
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

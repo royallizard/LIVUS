@@ -1,0 +1,159 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+__isinff
+__isnanf
+g_return_if_fail_warning
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+g_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+babl_format_get_n_components
+g_malloc_n
+gegl_buffer_get
+logf
+powf
+expf
+gegl_buffer_set
+g_free
+_Unwind_Resume
+__gcc_personality_v0
+g_type_name
+g_log
+g_value_set_double
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libm.so.6
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+reinhard05.so
+GLIBC_2.2.5
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.4
+a_&	
+ATSubH
+[A\]
+fffff.
+|$Pf
+D$0(
+D$ H
+D$81
+T$PH
+T$PE1
+fff.
+ffffff.
+ffff.
+ffffff.
+AVAUATSH
+[A\A]A^A_]
+t$(H
+\$8H
+l$@H
+\$8H
+l$@H
+t$(H
+\$8H
+l$@H
+\$8H
+l$@H
+\$8H
+l$@H
+\$8H
+l$@H
+fff.
+GeglChantreinhard05.c
+input
+RGBA float
+output
+!isinf (value)
+!isnan (value)
+gegl:reinhard05
+tonemapping
+gegl-0.1
+Brightness
+brightness
+Chromatic Adaptation
+chromatic
+Light Adaptation
+light
+chant-data
+s->num != 0.0
+s->max >= s->min
+Y float
+result
+chrom >= 0.0 && chrom <= 1.0
+light >= 0.0 && light <= 1.0
+world_lin.min >= 0.0
+property
+../../gegl/gegl-chant.h:479
+../../gegl/gegl-chant.h:580
+Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This is an efficient global operator derived from simple physiological observations, producing luminance within the range 0.0-1.0
+Overall brightness of the image
+Adapation to colour variation across the image
+Adapation to light variation across the image
+babl_format_get_n_components (babl_format (OUTPUT_FORMAT)) == pix_stride
+chrom_comp >= 0.0 && chrom_comp <= 1.0
+light_comp >= 0.0 && light_comp <= 1.0
+contrast >= 0.3 && contrast <= 1.0
+%s: invalid %s id %u for "%s" of type `%s' in `%s'
+reinhard05_process
+reinhard05_stats_start
+reinhard05_stats_update
+reinhard05_stats_finish
+?ffffff
+?333333
+zPLR
+reinhard05.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.gcc_except_table
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

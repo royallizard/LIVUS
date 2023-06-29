@@ -1,0 +1,107 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+ast_app_separate_args
+ast_db_get
+option_debug
+ast_options
+pbx_builtin_setvar_helper
+ast_debug_get_by_file
+ast_log
+ast_db_del
+ast_db_put
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+ATSubH
+D$ L
+t$0H
+|$(A
+D$0L
+L$(L
+t$0H
+D$0L
+L$(L
+D$ L
+t$0H
+|$(A
+D$0L
+L$(L
+t$ H
+DB_DELETE requires an argument, DB_DELETE(<family>/<key>)
+DB_DELETE: %s/%s not found in database.
+DB_DELETE: %s/%s could not be deleted from the database
+DB requires an argument, DB(<family>/<key>)
+DB: %s/%s not found in database.
+DB_EXISTS requires an argument, DB(<family>/<key>)
+DB requires an argument, DB(<family>/<key>)=<value>
+DB requires an argument, DB(<family>/<key>)=value
+DB: Error writing value to database.
+Database (astdb) related dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Read from or write to the Asterisk database
+This function will read from or write a value to the Asterisk database.  On a
+read, this function returns the corresponding value from the database, or blank
+if it does not exist.  Reading a database value will also set the variable
+DB_RESULT.  If you wish to find out if an entry exists, use the DB_EXISTS
+function.
+Check to see if a key exists in the Asterisk database
+This function will check to see if a key exists in the Asterisk
+database. If it exists, the function will return "1". If not,
+it will return "0".  Checking for existence of a database key will
+also set the variable DB_RESULT to the key's value if it exists.
+Return a value from the database and delete it
+This function will retrieve a value from the Asterisk database
+ and then remove that key from the database.  DB_RESULT
+will be set to the key's value if it exists.
+func_db.c
+DB_RESULT
+$Revision: 89512 $
+func_db
+DB(<family>/<key>)
+DB_EXISTS
+DB_EXISTS(<family>/<key>)
+DB_DELETE
+DB_DELETE(<family>/<key>)
+function_db_delete
+function_db_exists
+function_db_write
+function_db_read
+a9c98e5d177805051735cb5b0b16b0a0
+func_db.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

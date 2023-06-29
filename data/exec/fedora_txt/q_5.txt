@@ -1,0 +1,677 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Znwm
+_ZN7CModuleC2EPvP5CUserP11CIRCNetworkRK7CStringS7_
+_ZTV8MCString
+_ZdlPvm
+_Unwind_Resume
+__gxx_personality_v0
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+memcpy
+_ZSt19__throw_logic_errorPKc
+__stack_chk_fail
+strlen
+_ZdlPv
+_ZNK5CNick10NickEqualsERK7CString
+_ZNK5CNick7GetHostEv
+_ZNK7CString6EqualsERKS_15CaseSensitivity
+_ZN11CIRCNetwork7AddChanERK7CStringb
+_ZNK7CString5TokenEmbRKS_b
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
+_ZN11CIRCNetwork9JoinChansEv
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcmm
+_ZN7CModule5SetNVERK7CStringS2_b
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm
+_ZSt20__throw_length_errorPKc
+_ZNK5CNick7GetNickEv
+_ZNK7CString7AsLowerEv
+_ZN6CTable9AddColumnERK7CStringb
+_ZN6CTable6AddRowEv
+_ZN6CTable7SetCellERK7CStringS2_m
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+_ZNK7CString6ToBoolEv
+memcmp
+_ZNK11CIRCNetwork10GetCurNickEv
+_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_SA_
+_ZNK7CString9Replace_nERKS_S1_S1_S1_b
+_ZNK7CString4LeftEm
+_ZNK7CString6SHA256Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm
+sscanf
+_ZN7CModuleD2Ev
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+_ZNSt8_Rb_treeIN8CModInfo11EModuleTypeES1_St9_IdentityIS1_ESt4lessIS1_ESaIS1_EE16_M_insert_uniqueIRKS1_EESt4pairISt17_Rb_tree_iteratorIS1_EbEOT_
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+ZNCModInfo
+_ZNSt8_Rb_treeIhhSt9_IdentityIhESt4lessIhESaIhEE8_M_eraseEPSt13_Rb_tree_nodeIhE
+_ZNSt8_Rb_treeIhhSt9_IdentityIhESt4lessIhESaIhEE7_M_copyINS5_11_Alloc_nodeEEEPSt13_Rb_tree_nodeIhEPKS9_PSt18_Rb_tree_node_baseRT_
+__cxa_begin_catch
+__cxa_rethrow
+__cxa_end_catch
+_ZNK7CModule5GetNVERK7CString
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+_ZNK9CHTTPSock8GetParamERK7CStringbS2_
+_ZNK7CString5ToIntEv
+_ZN9CTemplate6AddRowERK7CString
+_ZN8CWebSock10GetSessionEv
+_ZN11CWebSession10AddSuccessERK7CString
+_ZN7CString4TrimERKS_
+_ZNK5CUser14IsUserAttachedEv
+_ZNK7CString7WildCmpERKS_
+_ZNK7CString6Trim_nERKS_
+_ZNK7CString10TrimLeft_nERKS_
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_
+_ZNSt8ios_base4InitC1Ev
+_ZNSt8ios_base4InitD1Ev
+__cxa_atexit
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTI7CModule
+_ZN7CModule6OnBootEv
+_ZN7CModule10GetWebPathEv
+_ZN7CModule15GetWebFilesPathEv
+_ZN7CModule15OnWebPreRequestER8CWebSockRK7CString
+_ZN7CModule20OnEmbeddedWebRequestER8CWebSockRK7CStringR9CTemplate
+_ZN7CModule11OnPreRehashEv
+_ZN7CModule12OnPostRehashEv
+_ZN7CModule15OnIRCConnectingEP8CIRCSock
+_ZN7CModule20OnIRCConnectionErrorEP8CIRCSock
+_ZN7CModule17OnIRCRegistrationER7CStringS1_S1_S1_
+_ZN7CModule11OnBroadcastER7CString
+_ZN7CModule17OnChanPermission2EPK5CNickRS1_R5CChanhbb
+_ZN7CModule16OnChanPermissionERK5CNickS2_R5CChanhbb
+_ZN7CModule5OnOp2EPK5CNickRS1_R5CChanb
+_ZN7CModule4OnOpERK5CNickS2_R5CChanb
+_ZN7CModule6OnDeopERK5CNickS2_R5CChanb
+_ZN7CModule8OnVoice2EPK5CNickRS1_R5CChanb
+_ZN7CModule7OnVoiceERK5CNickS2_R5CChanb
+_ZN7CModule9OnDevoiceERK5CNickS2_R5CChanb
+_ZN7CModule7OnMode2EPK5CNickR5CChancRK7CStringbb
+_ZN7CModule6OnModeERK5CNickR5CChancRK7CStringbb
+_ZN7CModule10OnRawMode2EPK5CNickR5CChanRK7CStringS7_
+_ZN7CModule9OnRawModeERK5CNickR5CChanRK7CStringS7_
+_ZN7CModule15OnStatusCommandER7CString
+_ZN7CModule19OnUnknownModCommandERK7CString
+_ZN7CModule11OnModNoticeERK7CString
+_ZN7CModule9OnModCTCPERK7CString
+_ZN7CModule6OnQuitERK5CNickRK7CStringRKSt6vectorIP5CChanSaIS8_EE
+_ZN7CModule6OnNickERK5CNickRK7CStringRKSt6vectorIP5CChanSaIS8_EE
+_ZN7CModule6OnKickERK5CNickRK7CStringR5CChanS5_
+_ZN7CModule6OnPartERK5CNickR5CChanRK7CString
+_ZN7CModule20OnChanBufferStartingER5CChanR7CClient
+_ZN7CModule18OnChanBufferEndingER5CChanR7CClient
+_ZN7CModule21OnChanBufferPlayLine2ER5CChanR7CClientR7CStringRK7timeval
+_ZN7CModule20OnChanBufferPlayLineER5CChanR7CClientR7CString
+_ZN7CModule21OnPrivBufferPlayLine2ER7CClientR7CStringRK7timeval
+_ZN7CModule20OnPrivBufferPlayLineER7CClientR7CString
+_ZN7CModule13OnClientLoginEv
+_ZN7CModule18OnClientDisconnectEv
+_ZN7CModule9OnUserRawER7CString
+_ZN7CModule15OnUserCTCPReplyER7CStringS1_
+_ZN7CModule10OnUserCTCPER7CStringS1_
+_ZN7CModule12OnUserActionER7CStringS1_
+_ZN7CModule9OnUserMsgER7CStringS1_
+_ZN7CModule12OnUserNoticeER7CStringS1_
+_ZN7CModule10OnUserJoinER7CStringS1_
+_ZN7CModule10OnUserPartER7CStringS1_
+_ZN7CModule11OnUserTopicER7CStringS1_
+_ZN7CModule18OnUserTopicRequestER7CString
+_ZN7CModule11OnCTCPReplyER5CNickR7CString
+_ZN7CModule10OnPrivCTCPER5CNickR7CString
+_ZN7CModule10OnChanCTCPER5CNickR5CChanR7CString
+_ZN7CModule12OnPrivActionER5CNickR7CString
+_ZN7CModule12OnChanActionER5CNickR5CChanR7CString
+_ZN7CModule9OnChanMsgER5CNickR5CChanR7CString
+_ZN7CModule12OnChanNoticeER5CNickR5CChanR7CString
+_ZN7CModule7OnTopicER5CNickR5CChanR7CString
+_ZN7CModule20OnServerCapAvailableERK7CString
+_ZN7CModule17OnServerCapResultERK7CStringb
+_ZN7CModule15OnTimerAutoJoinER5CChan
+_ZN7CModule12OnAddNetworkER11CIRCNetworkR7CString
+_ZN7CModule15OnDeleteNetworkER11CIRCNetwork
+_ZN7CModule14OnSendToClientER7CStringR7CClient
+_ZN7CModule11OnSendToIRCER7CString
+_ZN7CModule6PutIRCERK7CString
+_ZN7CModule7PutUserERK7CString
+_ZN7CModule9PutStatusERK7CString
+_ZN7CModule9PutModuleERK7CString
+_ZN7CModule9PutModuleERK6CTable
+_ZN7CModule12PutModNoticeERK7CString
+_ZN7CModule10ListTimersEv
+_ZN7CModule11ListSocketsEv
+_ZN7CModule9OnAddUserER5CUserR7CString
+_ZN7CModule12OnDeleteUserER5CUser
+_ZN7CModule15OnClientConnectEP8CZNCSockRK7CStringt
+_ZN7CModule14OnLoginAttemptESt10shared_ptrI9CAuthBaseE
+_ZN7CModule13OnFailedLoginERK7CStringS2_
+_ZN7CModule16OnUnknownUserRawEP7CClientR7CString
+_ZN7CModule13OnClientCapLsEP7CClientRSt3setI7CStringSt4lessIS3_ESaIS3_EE
+_ZN7CModule20IsClientCapSupportedEP7CClientRK7CStringb
+_ZN7CModule18OnClientCapRequestEP7CClientRK7CStringb
+_ZN7CModule15OnModuleLoadingERK7CStringS2_N8CModInfo11EModuleTypeERbRS0_
+_ZN7CModule17OnModuleUnloadingEPS_RbR7CString
+_ZN7CModule12OnGetModInfoER8CModInfoRK7CStringRbRS2_
+_ZN7CModule18OnGetAvailableModsERSt3setI8CModInfoSt4lessIS1_ESaIS1_EENS1_11EModuleTypeE
+__pthread_key_create
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GCC_3.0
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.14
+CXXABI_1.3.9
+CXXABI_1.3
+GLIBCXX_3.4
+GLIBCXX_3.4.21
+ATUI
+$wDH
+[]A\
+D$(1
+D$(dH3
+D$81
+L$8dH3
+AWAVM
+AUATI
+[]A\A]A^A_
+AVAUI
+ATUSL
+]A\A]A^
+AWAVH
+AUATI
+^ H9
+t(f.
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATH
+D$H1
+L$HdH3
+X[]A\A]A^A_
+l$ H
+|$ H
+|$ H
+AWAVH
+AUATI
+^ H9
+t(f.
+[]A\A]A^A_
+AWAVH
+AUATI
+l$0E1
+|$0H
+[]A\A]A^A_
+d$pH
+|$pI
+|$PH
+d$pL
+|$pH
+|$PH
+|$0H
+D$@H9
+|$pI
+|$PH
+ATUH
+D$H1
+|$ H
+D$HdH3
+P[]A\
+|$ H
+ATUH
+D$H1
+|$ H
+D$HdH3
+P[]A\
+|$ H
+ATUH
+D$H1
+|$ H
+D$HdH3
+P[]A\
+|$ H
+ATUH
+D$H1
+|$ H
+D$HdH3
+P[]A\
+|$ H
+AVAUI
+ATUI
+[]A\A]A^
+AUATH
+D$H1
+\$ H
+D$ H
+|$ H
+D$HdH3
+X[]A\A]
+|$ H
+AVAUATUSH
+D$h1
+D$hdH3
+p[]A\A]A^
+\$@H
+|$@H
+H+D$
+l$ I
+T$ H
+L$ H
+L$0H
+L$(H
+t$ H
+T$(H
+D$@H
+|$@H
+|$ I
+)D$0
+|$ I
+|$@H
+|$@H
+ATUH
+D$H1
+|$ H
+u*f.
+D$HdH3
+P[]A\
+|$ H
+AVAUH
+ATUI
+d$@dH
+D$h1
+l$ H
+t$@H
+T$HH
+|$ H
+|$@I
+D$hdH3
+p[]A\A]A^
+|$ H
+|$@I
+AVAUATUH
+D$h1
+l$@I
+\$ H
+t$@H
+T$HH
+|$ H
+|$@I
+D$hdH3
+p[]A\A]A^
+l$@H
+|$@I
+H+D$HH
+\$ H
+T$ H
+L$ H
+L$0H
+L$(H
+t$ H
+T$(H
+|$ H
+|$@I
+)D$0
+|$@I
+|$@I
+|$@I
+|$ H
+|$ H
+AWAVAUATUSH
+[]A\A]A^A_
+d$pH
+|$pI
+H9D$
+|$0I
+T$0H
+L$0H
+L$@H
+L$8H
+L$PH
+T$`H
+T$PH
+L$PH
+L$`H
+L$XH
+t$PI
+T$XH
+D$pH
+|$pI
+|$PH
+|$0I
+)D$`
+)D$@
+|$pI
+|$PH
+|$0I
+|$pI
+AWAVH
+AUATI
+t,f.
+|$xH
+|$`H
+|$HH
+l$8H
+\$0H9
+\$0H
+D$ L
+[]A\A]A^A_
+AWAVAUATL
+L9l$
+](I9
+\$ I
+|$ H
+[]A\A]A^A_
+|$@H
+t$`H
+t$@H
+T$HI
+|$`I
+|$@I
+|$`I
+|$@I
+|$ H
+AUATUSH
+D$(1
+D$(dH3
+8[]A\A]
+AVAUATUSH
+D$81
+D$8dH3
+@[]A\A]A^
+AVAUATUSH
+D$81
+D$8dH3
+@[]A\A]A^
+[]A\
+AWAVAUATSH
+[A\A]A^A_]
+t[ATI
+C0H9
+[]A\
+AWAVL
+AUATI
+{ A9
+u%A9
+[]A\A]A^A_
+[]A\A]A^A_
+E A9
+AWAVI
+AUATI
+ ttH
+[]A\A]A^A_
+t3ATI
+[]A\
+AVAUATUI
+[]A\A]A^
+r(M9
+u$M)
+t$ H
+AWAVI
+AUAT
+[]A\A]A^A_
+AWAVAUATI
+l$PH
+D$PH
+|$PI
+[]A\A]A^A_
+t$ I
+T$8H
+L$8H
+L$@H
+D$0H
+T$Ht<I
+x ww
+z xw	A
+|$pH
+|$pH
+D$xI
+t$0L
+t$0L
+|$PI
+AWAVAUATUSH
+k M9
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATI
+[]A\A]A^A_
+I9] 
+[]A\A]A^A_
+ufL)
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATI
+\$(L
+|$ H
+H9l$
+](I9
+E@[]A\A]A^A_
+{@I9
+{ I9
+AWAVAUATI
+[]A\A]A^A_
+D$@H
+D$`H
+|$ I
+t$(H
+t$(L
+t$(H
+t$(L
+t$(H
+t$(L
+t$(H
+t$(L
+t$(H
+t$(H
+D$ H
+|$`H
+|$@H
+l$0H
+\$8H
+=_P 
+T$ H
+|$`H
+|$@H
+|$8H
+AWAVAUATI
+[]A\A]A^A_
+|$ E1
+|$`H
+l$@H
+|$`I
+D$ L
+t$(H
+H;\$
+|$@I
+|$ H
+t$ H
+T$(L
+}@H9
+} I9
+|$@I
+|$ H
+|$`I
+ATUI
+D$81
+L$8dH3
+@[]A\
+ATUI
+D$81
+L$8dH3
+@[]A\
+basic_string::_M_construct null not valid
+Please provide your username and password for Q.
+Auths you with QuakeNet's Q bot.
+CServe.quakenet.org
+users.quakenet.org
+Cloak successful: Your hostname is now cloaked.
+false
+true
+UseChallenge
+RequestPerms
+JoinOnInvite
+JoinAfterCloaked
+basic_string::append
+PRIVMSG Q@CServe.quakenet.org :
+Cloak: Trying to cloak your hostname, setting +x...
+MODE 
+UseCloakedHost
+WHOAMI
+Username
+Password
+Auth: Requesting CHALLENGE...
+CHALLENGE
+Auth: Sending AUTH request...
+You have to set a username and password to use this module! See 'help' for details.
+help
+Command
+Description
+Auth [<username> <password>]
+Cloak
+Status
+Update
+Setting
+Type
+String
+Your Q username.
+Your Q password.
+Boolean
+Syntax: Set <setting> <value>
+username
+Username set
+password
+Password set
+usecloakedhost
+UseCloakedHost set
+usechallenge
+UseChallenge set
+requestperms
+RequestPerms set
+joinoninvite
+JoinOnInvite set
+joinaftercloaked
+JoinAfterCloaked set
+Unknown setting: 
+list
+status
+Value
+*****
+Connected: 
+Cloaked: 
+Authed: 
+cloak
+auth
+update
+Update requested.
+Unknown command. Try 'help'.
+The following commands are available:
+Tries to authenticate you with Q. Both parameters are optional.
+Tries to set usermode +x to hide your real hostname.
+Prints the current status of the module.
+Re-requests the current user information from Q.
+Changes the value of the given setting. See the list of settings below.
+Prints out the current configuration. See the list of settings below.
+The following settings are available:
+Whether to cloak your hostname (+x) automatically on connect.
+Whether to use the CHALLENGEAUTH mechanism to avoid sending passwords in cleartext.
+Whether to request voice/op from Q on join/devoice/deop.
+Whether to join channels when Q invites you.
+Whether to delay joining channels until after you are cloaked.
+This module takes 2 optional parameters: <username> <password>
+Module settings are stored between restarts.
+Error: You are not connected to IRC.
+Error: You are already cloaked!
+Error: You are already authed!
+VOICE 
+RequestPerms: Requesting op on 
+RequestPerms: Requesting voice on 
+%02x
+CHALLENGEAUTH 
+ HMAC-SHA-256
+Auth: Received challenge, sending CHALLENGEAUTH request...
+Notice: Your host will be cloaked the next time you reconnect to IRC. If you want to cloak your host now, /msg *q Cloak. You can set your preference with /msg *q Set UseCloakedHost true/false.
+index
+submitted
+OptionLoop
+DisplayName
+Tooltip
+Changes have been saved!
+Checked
+Information for user
+End of list.
+Auth failed: 
+You are now logged in as *.
+Auth successful: 
+WHOAMI is only available to authed users
+account, or HELLO to create an account.
+Username or password incorrect.
+not available once you have authed
+Auth failed: Q does not support HMAC-SHA-256 for CHALLENGEAUTH, falling back to standard AUTH.
+St12_Vector_baseISt6vectorI7CStringSaIS1_EESaIS3_EE
+St6vectorIS_I7CStringSaIS0_EESaIS2_EE
+6CTable
+8CQModule
+;*3$"
+zPLR
+q.so-1.6.5-8.fc27.x86_64.debug
+7zXZ
+%]U 
+%%2c:kT0&s
+2ATp
+.;P-
+c* H
+}b8"\
+6Rl>V
+<eG!
+2_6v
+;>Hv^
+Ju-h$
+JV4K
+3xlJ
+Jj S
+g+Oz_
+)HHD
+P@n![
+j6Ac
+#Err
+"1y;
+ar^z
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

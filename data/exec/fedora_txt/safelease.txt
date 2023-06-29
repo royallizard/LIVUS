@@ -1,0 +1,289 @@
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+__printf_chk
+exit
+strncmp
+optind
+strrchr
+posix_memalign
+signal
+__vsprintf_chk
+__stack_chk_fail
+strtoll
+getpid
+strlen
+sigemptyset
+warn
+__errno_location
+memcmp
+getopt
+__fprintf_chk
+ctime
+strtoul
+optarg
+stderr
+alarm
+__snprintf_chk
+strtoull
+usleep
+fwrite
+gettimeofday
+sigaction
+close
+open
+__cxa_finalize
+pread
+pwrite
+access
+strcmp
+strerror
+__libc_start_main
+_edata
+__bss_start
+_end
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+5:@ 
+%<@ 
+%:@ 
+%2@ 
+%*@ 
+%"@ 
+%z? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+AUATUSH
+[]A\A]
+%J> 
+]A\A]
+]A\A]
+]A\A]
+]A\A]
+fffff.
+=y< 
+5r< 
+fffff.
+=a< 
+fffff.
+\$ L
+fff.
+ATUH
+d$0L
+D$ H
+=s9 
+ATUA
+[]A\
+fffff.
+ffffff.
+D$ 1
+AVAUA
+ATUH
+D$(1
+L$(dH3
+0[]A\A]A^
+fffff.
+AUATI
+D$81
+|$ 1
+\$8dH3
+H[]A\A]
+d$ 1
+AWAVM
+AUATI
+([]A\A]A^A_
+Hi4$
+dH34%(
+AVAUI
+[]A\A]A^
+AWAVA
+AUAT
+\$@H
+T$pH
+T$xH
+l$pAi
+[]A\A]A^A_
+5 , 
+=b, 
+=A, 
+t$ H
+AUATUSH
+D$(1
+T$(dH3
+8[]A\A]
+AVAU1
+ATUSH
+\$0H
+D$X1
+5}) 
+\$XdH3
+`[]A\A]A^
+ffffff.
+AVAUE1
+ATUA
+=Q' 
+=;' 
+=2' 
+[]A\A]A^
+AUATE1
+={$ 
+=r$ 
+[]A\A]
+5'# 
+fff.
+AUATE1
+ft6~$
+[]A\A]
+ht/~
+=)  
+==  
+='  
+[]A\
+AWAVA
+AUATL
+[]A\A]A^A_
+%s: Exiting due to signal %d
+panic: [%d] %s: %s: (%m)
+IO op too long
+[%s:%d:%llu]: %s: %s
+Usage: %s [ -h ] <op>  [...]
+%-*s%0*llx
+'%s' ts %lld
+%-*s
+fd %d offset %ld
+r %d %m
+Enter
+Exit r=%ld
+time elapsed: %lld/%lld
+sigaction: can't set alarm
+updating tag: msleft %lld
+All good
+restart: curr tag is '%s'
+backoff: curr tag is '%s'
+fail:    curr tag is '%s'
+contend: curr tag is '%s'
+won    : curr tag is %s
+FREE
+LOCKED
+can't access '%s'
+id must be <= 8 characters
+can't lease free stamp
+bad lease/op max timeouts
++hdr:bo:
+can't open '%s'
+Succeeded
+Failed
+%s (%s)
++hdr:o:t:
+%lld
++hdfo:
++hdr:o:
+path '%s' offset %ld id '%s'
+acquire
+renew
+release
+query
+protect
+unknonwn op <%s>
+Ops:
+acquire [ -r <path> ] [ -b ] [ -o offset ] <path> <id> <lease_ms> <op_max_ms>
+renew   [ -r <path> ] [ -o offset ] [ -t laststamp ] <path> <id> <lease_ms> <op_max_ms>
+release [ -f ] [ -o offset ] <path> <id>
+query   [ -o offset ] <path>
+protect [ -r <path> -i <id>] [ -o offset ] <path> <lease_ms> <op_max_ms> <progname> [<param1> ...]
+Notes:
+-b - busy loop on lease until lease acquired
+-f - force release even if lease id is not equal to id
+-o - offset to lease in path (default is 0)
+-t - timestamp of last successful renewal
+Path is a path to a device or a file to use as a sync object.
+Id is an arbitrary unique string
+lease_ms is the maximum time in msec that the owner of the lease
+    may hold it without renewing it
+op_max_ms is the maximum time in msec that a single IO operation may take (must be <= lease_ms).
+if -r option is used, the path is a readable file/device.
+ The program then validates that its 'id' is written at the given offset.
+ If this is not the case, acquire and renew  will fail immediately.
+Error - time limit breached: op_max_ms - %ld, time passed - %lld
+lost (writetimestamp failed)  : curr tag is %s
+lost (readtag failed)  : curr tag is %s
+lost   : curr tag is %s
+         our tag is  %s
+%s: ID %-*s TS %0*llx (%s, %d usec)
+path '%s' offset %ld id '%s' lease_ms %ld op_max_ms %ld
+path '%s' offset %ld id '%s' force %d
+fatal memory allocation error
+------FREE------0000000000000000
+cmd_query
+cmd_release
+cmd_renew
+cmd_acquire
+validate_lease_params
+validate_id
+validate_path
+handler
+renew
+timeleft_ms
+acquire
+writetag
+readtag
+buildtag
+withintimelimits
+;*3$"
+safelease.debug
+7zXZ
+{b=}H#
+?&Z]
+d&AC
+d@JF`
+5_N^
+e~A{
+! h&
+?Y~c
+;2jP
+r&V:;
+s~6(
+]z9P'
+$C:4#
+.V~:
+*^Y+
+3eQq
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

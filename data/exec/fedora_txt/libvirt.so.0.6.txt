@@ -1,0 +1,8913 @@
+  k 
+4`&@
+qX@d
+A`aB
+<)$P
+\vS	2!
+C&Te
+xvxPP
+ZB9f
+<JWo
+X?	Y.
+55D]
+Jqz7
+S	g*>
+|a\H
+	cPT
+P1"a
+5M~V
+JaE'
+P=Vl'
+V0k.O
+D~sC
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+brSetEnableSTP
+virRun
+brSetForwardDelay
+__snprintf_chk
+__stack_chk_fail
+brDeleteBridge
+ioctl
+__errno_location
+brAddBridge
+brShutdown
+virFree
+brInit
+socket
+fcntl
+virAlloc
+strlen
+__strncpy_chk
+inet_ntop
+brSetInterfaceUp
+brHasBridge
+inet_pton
+brSetInetNetmask
+brSetInetAddress
+if_nametoindex
+brAddInterface
+brAddTap
+strstr
+dcgettext
+virLogMessage
+__strdup
+virBufferError
+virReallocN
+virBufferAddChar
+memcpy
+virBufferAdd
+virBufferEscapeString
+virAllocN
+virBufferVSprintf
+__vsnprintf_chk
+virBufferContentAndReset
+virConfFreeValue
+strchr
+virConfWriteMem
+virReportOOMErrorFull
+virRaiseError
+virErrorMsg
+virConfWriteFile
+safewrite
+virConfFree
+virConfGetValue
+strcmp
+virConfNew
+virConfSetValue
+__strndup
+virConfReadMem
+virConfReadFile
+virFileReadAll
+virEventAddHandle
+virEventUpdateHandle
+virEventRemoveHandle
+virEventAddTimeout
+virEventUpdateTimeout
+virEventRemoveTimeout
+virEventRegisterImpl
+virHashSize
+virHashForEach
+virHashSearch
+virHashFree
+virHashRemoveSet
+virHashRemoveEntry
+virHashLookup
+virHashAddEntry
+virHashCreate
+iptablesSaveRules
+iptablesContextFree
+malloc
+memmove
+iptablesRemoveForwardMasquerade
+iptablesAddForwardMasquerade
+iptablesRemoveForwardRejectIn
+iptablesAddForwardRejectIn
+iptablesRemoveForwardRejectOut
+iptablesAddForwardRejectOut
+iptablesRemoveForwardAllowCross
+iptablesAddForwardAllowCross
+iptablesRemoveForwardAllowIn
+iptablesAddForwardAllowIn
+iptablesRemoveForwardAllowRelatedIn
+iptablesAddForwardAllowRelatedIn
+iptablesRemoveForwardAllowOut
+iptablesAddForwardAllowOut
+iptablesRemoveUdpInput
+iptablesAddUdpInput
+iptablesRemoveTcpInput
+iptablesAddTcpInput
+virStrerror
+iptablesReloadRules
+iptablesContextNew
+closelog
+__syslog_chk
+virMutexLock
+virMutexUnlock
+virLogDefineOutput
+virLogParseOutputs
+virSkipSpaces
+virParseNumber
+openlog
+virLogDefineFilter
+virLogParseFilters
+virLogShutdown
+virMutexDestroy
+virLogStartup
+virMutexInit
+realloc
+gettimeofday
+localtime_r
+virAsprintf
+__memcpy_chk
+virLogSetDefaultPriority
+virLogReset
+debugFlag
+calloc
+pciFreeDevice
+pciGetDevice
+virReportErrorHelper
+memset
+lseek
+saferead
+opendir
+readdir
+sscanf
+closedir
+usleep
+pciResetDevice
+virReportSystemErrorFull
+virFileExists
+virFileWriteStr
+virFileLinkPointsTo
+pciDettachDevice
+pciReAttachDevice
+free_qparam_set
+qparam_get_query
+qparam_query_parse
+xmlURIUnescapeString
+pthread_setspecific
+pthread_getspecific
+pthread_key_create
+virCondBroadcast
+pthread_cond_broadcast
+virCondSignal
+pthread_cond_signal
+virCondWait
+pthread_cond_wait
+virCondDestroy
+pthread_cond_destroy
+virCondInit
+pthread_cond_init
+pthread_mutex_unlock
+pthread_mutex_lock
+pthread_mutex_destroy
+pthread_mutex_init
+virUUIDParse
+virUUIDFormat
+virUUIDGenerate
+virMacAddrCompare
+virEnumToString
+virGetUserDirectory
+sysconf
+getpwuid_r
+random_r
+initstate_r
+virKillProcess
+kill
+virDiskNameToIndex
+strncmp
+virEnumFromString
+virFileHasSuffix
+virFormatMacAddr
+virParseMacAddr
+strtoul
+virStrToLong_ui
+__vasprintf_chk
+virFilePid
+virStrToLong_ull
+strtoull
+virStrToLong_ll
+strtoll
+virStrToLong_i
+strtol
+virFileDeletePid
+unlink
+virFileReadPid
+fopen
+fscanf
+fclose
+virFileOpenTty
+posix_openpt
+unlockpt
+grantpt
+ptsname_r
+tcgetattr
+cfmakeraw
+tcsetattr
+strcpy
+strcat
+__xstat
+virFileResolveLink
+__lxstat
+readlink
+fread
+ferror
+stderr
+__fprintf_chk
+virFileReadLimFD
+fdopen
+poll
+virSetCloseExec
+virSetNonBlock
+sigfillset
+pthread_sigmask
+fork
+virSetErrorFunc
+sigemptyset
+sigaction
+dup2
+execve
+_exit
+setsid
+chdir
+pipe
+execvp
+waitpid
+virExecWithHook
+virExec
+safezero
+posix_fallocate
+virGetHostname
+gethostname
+getaddrinfo
+freeaddrinfo
+virFileMakePath
+strncpy
+strrchr
+mkdir
+virConnGetLastError
+strerror_r
+virConnSetErrorFunc
+virGetLastError
+virDefaultErrorFunc
+virResetError
+virConnResetLastError
+virConnCopyLastError
+virResetLastError
+virFreeError
+virCopyLastError
+virSaveLastError
+virXPathNode
+xmlXPathEval
+xmlXPathFreeObject
+virXPathNodeSet
+virXMLPropString
+xmlGetProp
+__isnan
+virXPathLong
+virXPathString
+virXPathStringLimit
+virNodeDeviceFree
+xmlFreeURI
+virUnrefDomain
+virUnrefConnect
+virStorageVolFree
+virStoragePoolFree
+virNetworkFree
+virDomainFree
+virGetNodeDevice
+virGetStorageVol
+virGetStoragePool
+virGetNetwork
+virGetDomain
+virDomainEventCallbackListMarkDelete
+virDomainEventDispatch
+virDomainEventFree
+virDomainEventQueueDispatch
+virDomainEventQueueFree
+virDomainEventCallbackListFree
+virDomainEventDispatchDefaultFunc
+virDomainEventQueuePush
+virDomainEventQueuePop
+virDomainEventQueueNew
+virDomainEventCallbackListAdd
+virDomainEventNew
+virDomainEventNewFromDef
+virDomainEventNewFromObj
+virDomainEventNewFromDom
+virDomainEventCallbackListPurgeMarked
+virDomainEventCallbackListRemoveConn
+virDomainEventCallbackListRemove
+linuxDomainInterfaceStats
+fgets
+xs_read
+regcomp
+regexec
+regfree
+xenLinuxDomainBlockStats
+virStateCleanup
+virStateReload
+virStateActive
+__printf_chk
+stdout
+fflush
+getpass
+stdin
+getuid
+feof
+virConnectDomainEventDeregister
+virConnectDomainEventRegister
+virNodeDeviceLookupByName
+virNodeListDevices
+virNodeNumOfDevices
+virStorageVolCreateXML
+virStorageVolLookupByPath
+virStorageVolLookupByKey
+virStorageVolLookupByName
+virStoragePoolListVolumes
+virStoragePoolNumOfVolumes
+virStoragePoolDefineXML
+virStoragePoolCreateXML
+virStoragePoolLookupByVolume
+virStoragePoolLookupByUUID
+virStoragePoolLookupByName
+virConnectFindStoragePoolSources
+virConnectListDefinedStoragePools
+virConnectNumOfDefinedStoragePools
+virConnectListStoragePools
+virConnectNumOfStoragePools
+virNetworkDefineXML
+virNetworkCreateXML
+virNetworkLookupByUUID
+virNetworkLookupByName
+virConnectListDefinedNetworks
+virConnectNumOfDefinedNetworks
+virConnectListNetworks
+virConnectNumOfNetworks
+virNodeGetCellsFreeMemory
+virConnectListDefinedDomains
+virConnectNumOfDefinedDomains
+virDomainDefineXML
+virNodeGetFreeMemory
+virConnectGetCapabilities
+virNodeGetInfo
+virDomainMigrateFinish2
+virDomainMigratePrepare2
+virDomainMigrateFinish
+virDomainMigratePrepare
+virDomainLookupByName
+virDomainLookupByUUID
+virDomainLookupByID
+virDomainCreateXML
+virDomainCreateLinux
+virConnectNumOfDomains
+virConnectListDomains
+virConnectGetMaxVcpus
+virConnectGetHostname
+virConnectGetVersion
+virConnectGetType
+virDrvSupportsFeature
+virStorageVolGetPath
+virStorageVolGetXMLDesc
+virStorageVolDelete
+virStorageVolGetKey
+virStorageVolGetName
+virStorageVolGetConnect
+virStoragePoolSetAutostart
+virStoragePoolGetAutostart
+virStoragePoolGetXMLDesc
+virStoragePoolGetName
+virStoragePoolRefresh
+virStoragePoolDelete
+virStoragePoolDestroy
+virStoragePoolCreate
+virStoragePoolUndefine
+virStoragePoolBuild
+virStoragePoolGetConnect
+virNetworkSetAutostart
+virNetworkGetAutostart
+virNetworkGetBridgeName
+virNetworkGetXMLDesc
+virNetworkGetName
+virNetworkDestroy
+virNetworkCreate
+virNetworkUndefine
+virNetworkGetConnect
+virDomainDetachDevice
+virDomainAttachDevice
+virDomainGetMaxVcpus
+virDomainGetVcpus
+virDomainPinVcpu
+virDomainSetVcpus
+virDomainSetAutostart
+virDomainGetAutostart
+virDomainCreate
+virDomainUndefine
+virDomainSetSchedulerParameters
+virDomainGetSchedulerParameters
+virDomainGetSchedulerType
+virDomainMigratePerform
+virDomainSetMemory
+virDomainSetMaxMemory
+virDomainGetMaxMemory
+virDomainGetOSType
+virDomainGetID
+virDomainGetName
+virDomainReboot
+virDomainShutdown
+virDomainResume
+virDomainSuspend
+virDomainDestroy
+virDomainGetConnect
+virNodeGetSecurityModel
+virDomainGetSecurityLabel
+virNodeDeviceRef
+virStorageVolRef
+virStoragePoolRef
+virNetworkRef
+virDomainRef
+virConnectRef
+virStorageVolGetInfo
+virStoragePoolGetInfo
+virDomainGetInfo
+virStoragePoolGetUUID
+virStoragePoolGetUUIDString
+virNetworkGetUUID
+virNetworkGetUUIDString
+virDomainInterfaceStats
+virDomainBlockStats
+virDomainGetUUID
+virDomainGetUUIDString
+virStoragePoolLookupByUUIDString
+virNetworkLookupByUUIDString
+virDomainLookupByUUIDString
+virDomainMemoryPeek
+virDomainBlockPeek
+virDomainGetXMLDesc
+virDomainMigrate
+virDomainCoreDump
+__getcwd_chk
+virDomainRestore
+virDomainSave
+virConnectGetURI
+xmlSaveUri
+virConnectClose
+getenv
+strcasecmp
+xmlParseURI
+virInitialize
+getpid
+bindtextdomain
+virConnectOpenAuth
+virConnectOpenReadOnly
+virConnectOpen
+virGetVersion
+virStateInitialize
+virRegisterStateDriver
+virRegisterDriver
+virRegisterDeviceMonitor
+virRegisterStorageDriver
+virRegisterNetworkDriver
+virNodeDeviceGetXMLDesc
+virNodeDeviceGetName
+virNodeDeviceGetParent
+virNodeDeviceNumOfCaps
+virNodeDeviceListCaps
+virNodeDeviceDettach
+virNodeDeviceReAttach
+virNodeDeviceReset
+virConnectAuthPtrDefault
+virCapabilitiesGenerateMac
+virCapabilitiesSetMacPrefix
+virCapabilitiesDefaultGuestEmulator
+virCapabilitiesDefaultGuestMachine
+virCapabilitiesDefaultGuestArch
+virCapabilitiesFormatXML
+virCapabilitiesAddHostMigrateTransport
+virCapabilitiesAddHostFeature
+virCapabilitiesAddGuestFeature
+virCapabilitiesFree
+virCapabilitiesNew
+virCapabilitiesAddGuestDomain
+virCapabilitiesAddGuest
+virCapabilitiesAddHostNUMACell
+virDomainObjUnlock
+virDomainObjLock
+virDomainFindByID
+virDiskNameToBusDeviceIndex
+virDomainDiskQSort
+virDomainConfigFile
+virDomainDeleteConfig
+virDomainSoundDefFree
+virDomainChrDefFree
+virDomainNetDefFree
+virDomainFSDefFree
+virDomainDiskDefFree
+virDomainInputDefFree
+virDomainDeviceDefFree
+virDomainGraphicsDefFree
+virDomainDefFree
+virDomainSaveXML
+virDomainFindByName
+virDomainCpuSetFormat
+virDomainCpuSetParse
+xmlStrEqual
+virDomainAssignDef
+virDomainObjFree
+virDomainRemoveInactive
+virDomainObjListFree
+virDomainFindByUUID
+virDomainStateTypeFromString
+virDomainGraphicsTypeFromString
+virDomainSoundModelTypeFromString
+virDomainChrTypeFromString
+virDomainDeviceDefParse
+xmlReadDoc
+xmlDocGetRootElement
+xmlFreeDoc
+virDomainLifecycleTypeFromString
+virDomainStateTypeToString
+virDomainSoundModelTypeToString
+virDomainChrTypeToString
+virDomainDiskBusTypeToString
+virDomainDiskDeviceTypeToString
+virDomainDeviceTypeToString
+virDomainLifecycleTypeToString
+virDomainVirtTypeToString
+virDomainDefDefaultEmulator
+virDomainDefFormat
+virDomainSaveConfig
+virDomainDefParseNode
+xmlXPathNewContext
+qsort
+xmlXPathFreeContext
+virDomainDefParseFile
+xmlNewParserCtxt
+xmlFreeParserCtxt
+xmlCtxtReadFile
+virDomainLoadAllConfigs
+virDomainDefParseString
+xmlCtxtReadDoc
+virCapsInitNUMA
+numa_all_cpus_ptr
+numa_available
+numa_max_node
+numa_node_to_cpus
+virNodeInfoPopulate
+uname
+virNetworkObjUnlock
+virNetworkObjLock
+virNetworkSetBridgeName
+virNetworkFindByName
+virNetworkConfigFile
+virNetworkDeleteConfig
+virNetworkDefFree
+virNetworkAssignDef
+virNetworkRemoveInactive
+virNetworkObjListFree
+virNetworkFindByUUID
+virNetworkDefParseNode
+inet_ntoa
+xmlFree
+virNetworkDefParseFile
+virNetworkLoadAllConfigs
+virNetworkDefParseString
+virNetworkDefFormat
+virNetworkSaveConfig
+virStoragePoolObjUnlock
+virStoragePoolObjLock
+virStoragePoolObjDeleteDef
+virStoragePoolSourceFree
+virStoragePoolDefFree
+virStorageVolDefFree
+virStoragePoolObjClearVols
+virStorageVolDefFindByName
+virStorageVolDefFindByPath
+virStorageVolDefFindByKey
+virStoragePoolObjFindByName
+virStorageVolDefFormat
+virStoragePoolObjFindByUUID
+getgid
+virStorageVolDefParse
+virStoragePoolObjAssignDef
+virStoragePoolObjRemove
+virStoragePoolObjListFree
+virStorageVolFormatFileSystemTypeFromString
+virStoragePoolTypeFromString
+virStoragePoolDefParse
+virStoragePoolLoadAllConfigs
+virStorageVolFormatFileSystemTypeToString
+virStoragePoolFormatDiskTypeToString
+virStoragePoolFormatFileSystemNetTypeToString
+virStoragePoolFormatFileSystemTypeToString
+virStoragePoolSourceListFormat
+virStoragePoolDefFormat
+virStoragePoolObjSaveDef
+virNodeDeviceObjUnlock
+virNodeDeviceObjLock
+virNodeDevCapsDefFree
+virNodeDeviceDefFree
+virNodeDeviceFindByName
+virNodeDeviceObjRemove
+virNodeDeviceAssignDef
+virNodeDeviceObjListFree
+virNodeDeviceDefParseString
+virNodeDevCapTypeToString
+virNodeDeviceDefFormat
+xmlReadFd
+xmlBufferCreate
+xmlSaveToBuffer
+xmlSaveTree
+xmlSaveClose
+xmlBufferFree
+gnutls_record_send
+gnutls_strerror
+gnutls_record_recv
+sasl_decode
+sasl_errstring
+getnameinfo
+gai_strerror
+xdrmem_create
+xdr_u_int
+sasl_encode
+xdr_free
+xdr_void
+sasl_dispose
+gnutls_bye
+gnutls_deinit
+sasl_client_init
+getsockname
+getpeername
+sasl_client_new
+gnutls_cipher_get
+gnutls_cipher_get_key_size
+sasl_setprop
+sasl_client_start
+sasl_errdetail
+sasl_client_step
+sasl_getprop
+gnutls_global_init
+gnutls_certificate_allocate_credentials
+socketpair
+connect
+setsockopt
+gnutls_init
+gnutls_set_default_priority
+gnutls_certificate_type_set_priority
+gnutls_credentials_set
+gnutls_transport_set_ptr
+gnutls_handshake
+gnutls_certificate_verify_peers2
+gnutls_certificate_type_get
+gnutls_certificate_get_peers
+gnutls_x509_crt_init
+gnutls_x509_crt_import
+gnutls_x509_crt_get_expiration_time
+gnutls_x509_crt_get_activation_time
+gnutls_x509_crt_check_hostname
+gnutls_x509_crt_deinit
+access
+gnutls_certificate_set_x509_trust_file
+gnutls_certificate_set_x509_key_file
+strncasecmp
+__assert_fail
+xdr_enum
+xdr_int
+xdr_array
+xdr_char
+xdr_int64_t
+xdr_uint64_t
+xdr_u_char
+xdr_bytes
+xdr_u_short
+xdr_vector
+xdr_double
+xdr_pointer
+xdr_opaque
+xdr_string
+__strcpy_chk
+mlock
+munlock
+regerror
+strtod
+__strcat_chk
+symlink
+xs_directory
+xs_unwatch
+xs_watch
+xs_write
+xs_daemon_close
+xs_daemon_open_readonly
+xs_fileno
+xs_daemon_open
+xs_read_watch
+inotify_init
+inotify_add_watch
+__strtok_r
+rename
+popen
+geteuid
+virSecurityDriverGetDOI
+virSecurityDriverGetModel
+virSecurityDriverInit
+virSecurityDriverSetDOI
+virSecurityDriverStartup
+virSecurityDriverVerify
+getpidcon
+security_getenforce
+freecon
+context_new
+context_range_set
+context_str
+context_free
+__sprintf_chk
+setfilecon
+setexeccon
+matchpathcon
+context_range_get
+security_check_context
+selinux_virtual_domain_context_path
+strchrnul
+selinux_virtual_image_context_path
+is_selinux_enabled
+abort
+libxml2.so.2
+libselinux.so.1
+libnuma.so.1
+libgnutls.so.26
+libsasl2.so.2
+libxenstore.so.3.0
+libpthread.so.0
+libc.so.6
+libvirt.so.0
+LIBVIRT_0.0.3
+LIBVIRT_0.0.5
+LIBVIRT_0.1.0
+LIBVIRT_0.1.1
+LIBVIRT_0.1.4
+LIBVIRT_0.1.5
+LIBVIRT_0.1.9
+LIBVIRT_0.2.0
+LIBVIRT_0.2.1
+LIBVIRT_0.2.3
+LIBVIRT_0.3.0
+LIBVIRT_0.3.2
+LIBVIRT_0.3.3
+LIBVIRT_0.4.0
+LIBVIRT_0.4.1
+LIBVIRT_0.4.2
+LIBVIRT_0.4.5
+LIBVIRT_0.5.0
+LIBVIRT_0.6.0
+LIBVIRT_0.6.1
+LIBVIRT_PRIVATE_0.6.2
+libnuma_1.2
+libnuma_1.1
+GLIBC_2.3.2
+GLIBC_2.2.5
+GNUTLS_1_4
+GLIBC_2.8
+GLIBC_2.4
+GLIBC_2.3.4
+5J?)
+%L?)
+%J?)
+%B?)
+%:?)
+%2?)
+%*?)
+%"?)
+%z>)
+%r>)
+%j>)
+%b>)
+%Z>)
+%R>)
+%J>)
+%B>)
+%:>)
+%2>)
+%*>)
+%">)
+%z=)
+%r=)
+%j=)
+%b=)
+%Z=)
+%R=)
+%J=)
+%B=)
+%:=)
+%2=)
+%*=)
+%"=)
+%z<)
+%r<)
+%j<)
+%b<)
+%Z<)
+%R<)
+%J<)
+%B<)
+%:<)
+%2<)
+%*<)
+%"<)
+%z;)
+%r;)
+%j;)
+%b;)
+%Z;)
+%R;)
+%J;)
+%B;)
+%:;)
+%2;)
+%*;)
+%";)
+%z:)
+%r:)
+%j:)
+%b:)
+%Z:)
+%R:)
+%J:)
+%B:)
+%::)
+%2:)
+%*:)
+%":)
+%z9)
+%r9)
+%j9)
+%b9)
+%Z9)
+%R9)
+%J9)
+%B9)
+%:9)
+%29)
+%*9)
+%"9)
+%z8)
+%r8)
+%j8)
+%b8)
+%Z8)
+%R8)
+%J8)
+%B8)
+%:8)
+%28)
+%*8)
+%"8)
+%z7)
+%r7)
+%j7)
+%b7)
+%Z7)
+%R7)
+%J7)
+%B7)
+%:7)
+%27)
+%*7)
+%"7)
+%z6)
+%r6)
+%j6)
+%b6)
+%Z6)
+%R6)
+%J6)
+%B6)
+%:6)
+%26)
+%*6)
+%"6)
+%z5)
+%r5)
+%j5)
+%b5)
+%Z5)
+%R5)
+%J5)
+%B5)
+%:5)
+%25)
+%*5)
+%"5)
+%z4)
+%r4)
+%j4)
+%b4)
+%Z4)
+%R4)
+%J4)
+%B4)
+%:4)
+%24)
+%*4)
+%"4)
+%z3)
+%r3)
+%j3)
+%b3)
+%Z3)
+%R3)
+%J3)
+%B3)
+%:3)
+%23)
+%*3)
+%"3)
+%z2)
+%r2)
+%j2)
+%b2)
+%Z2)
+%R2)
+%J2)
+%B2)
+%:2)
+%22)
+%*2)
+%"2)
+%z1)
+%r1)
+%j1)
+%b1)
+%Z1)
+%R1)
+%J1)
+%B1)
+%:1)
+%21)
+%*1)
+%"1)
+%z0)
+%r0)
+%j0)
+%b0)
+%Z0)
+%R0)
+%J0)
+%B0)
+%:0)
+%20)
+%*0)
+%"0)
+%z/)
+%r/)
+%j/)
+%b/)
+%Z/)
+%R/)
+=(G)
+ATSubH
+D$X1
+|$0L
+T$XdH3
+ffff.
+ffff.
+D$81
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+D$X1
+T$XdH3
+\$hH
+l$pL
+d$xL
+D$DH
+D$@H
+D$ H
+D$HH
+D$(1
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+t$(A
+D$0t
+D$@H
+t$?L
+l$HA
+|$$1
+|$$H
+T$\1
+D$]@
+|$$H
+|$(L
+t$(H
+t$(Hc
+|$`Hc
+t$pL
+ATUSH
+t$(H
+T$0H
+L$8L
+D$@L
+P[]A\
+D$ H
+fffff.
+AVAUATI
+[]A\A]A^
+t#<<u
+[]A\A]A^
+fff.
+AUATUSH
+T$PH
+L$XL
+D$`H)
+l$ A
+D$@H
+D$ H
+D$(H
+D$@H
+[]A\A]A^A_
+fffff.
+\$(H
+l$0L
+d$8L
+l$@H
+T$@H
+D$0H
+T$PD
+T$PD
+D$XH
+T$0H
+D$(A
+T$PD
+D$XH
+ffff.
+|$(H
+0[]A\
+fffff.
+\$(H
+l$0H
+$xCH
+ffffff.
+fff.
+AWAVAUI
+ATUH
+[]A\A]A^A_
+AUATUH
+	u#f
+'uuH
+[]A\A]
+[]A\A]
+D$(H
+|$(H
+D$8H
+	tDf
+T$(H
+H[]H
+L$0H
+t$8H
+|$(H
+d$ H
+AWAVI
+ATUSH
+~TE1
+ E9}
+[]A\A]A^A_
+~TE1
+ E9|$
+l$ L
+t$(L
+|$0H
+AWAVAUI
+ATUSH
+([]A\A]A^A_
+AWAVAUI
+ATUH
+D$(E1
+D$(H
+D$(I
+D$(u
+[]A\A]A^A_
+D$(A
+|$(H
+D$(H
+D$(H
+T$(L
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffffff.
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+$w	f
+fffff.
+ffff.
+AWAVAUI
+L$hL
+D$pL
+L$xH
+D$(H
+D$0I
+t$(Hc
+D$ L
+/sbin/ip
+tablf
+--table
+--insert
+t$HL
+D$(H
+D$PH
+T$ H
+t$HI
+D$(H
+D$HH
+D$HH
+[]A\A]A^A_
+|$HH
+D$@t
+t$H1
+D$HH
+D$8Hc
+L$8Hk
+|$HH
+--delete
+D$@H
+}lLc
+D$8H
+D$8H
+L$ H
+D$(H
+D$ H
+D$8H
+D$0H
+D$(H
+D$ H
+D$(H
+D$ H
+D$8H
+D$0H
+D$(H
+D$ H
+\$0I
+D$X1
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+fff.
+AWAVAUATUH
+T$@E1
+D$ L
+D$(L
+L$ L
+D$(H
+T$0H
+[]A\A]A^A_
+D$@1
+L$ L
+L$ H
+ffffff.
+$tBH
+d$ H
+fffff.
+fffff.
+fffff.
+t$ H
+AWAVAUATUSH
+[]A\A]A^A_
+d$ L
+l$(L
+t$0H
+u"Hc
+AUATUSH
+< t#<
+tTH)
+[]A\A]
+]A\A]
+ATUSH
+T$(H
+t$$H
+L$0H)
+9\$$
+[]A\A]A^A_
+t$@H
+L$DH
+T$HA)
+L$0D
+D$$;
+D$@H
+T$HA)
+L$DH
+D$(H
+<8Hc
+fffff.
+\$ H
+4$dH
+80u5
+ffffff.
+|$8L
+D$8L
+|$8H
+|$8H
+D$(H
+|$8L
+D$8L
+D$8H
+@[]A\A]A^
+l$8H
+t$8H
+ffffff.
+fffff.
+fff.
+AUATI
+[]A\A]A^
+D$/D9
+[]A\A]A^
+[]A\A]A^
+ffff.
+\$8H
+l$@L
+d$HL
+l$PH
+l$/I
+d$/L
+AVAUATUSH
+D$@H
+|$ H
+D$8H
+D$@H
+T$(H
+t$0H
+D$8H
+d$PL
+l$TL
+t$XL
+|$\f.
+[]A\A]A^A_
+t$\H
+t$(H
+|$ H
+D$8H
+D$HH
+fffff.
+d$(H
+t$(H
+|$(M
+t$@E1
+D$0A
+D$0L
+l$0L
+l$1L
+d$ 1
+\$(H
+l$0L
+d$8L
+l$@H
+fffff.
+AVAUATI
+\$PL
+t$0f.
+T$0H
+[]A\A]A^
+l$ I
+fffff.
+l$ H
+l$ H
+l$ dH
+l$ H
+l$ H
+AUATI
+A9,$~.H
+([]A\A]
+[]A\A]
+ffffff.
+D$`H
+t$(H
+T$0H
+L$8L
+D$@H
+D$ L
+T$0H
+L$8L
+D$ H
+AVAUATI
+[]A\A]A^A_
+ffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+AVAUATUSH
+< t}<-ty
+[]A\A]A^
+[]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+<	w=
+	w>f
+	w#=
+ffffff.
+<0us
+T$HH
+D$@L
+D$@H
+\$XH
+l$`L
+d$hL
+l$pH
+fff.
+AVAUL
+[]A\A]A^
+l$ L
+t$(L
+|$0H
+<+Ic
+ATUS
+[]A\A]
+[]A\A]
+fffff.
+l$ H
+AVAUATI
+[]A\A]A^
+t'<:u
+fff.
+d$ L
+l$(L
+t$0H
+T$0H
+L$8L
+D$@H
+D$ H
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+fffff.
+[]A\
+fffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fff.
+fff.
+T$0L
+T$0H
+AUMc
+ATE1
+$"I9
+|$ L
+T$ H
+tbHcD$
+T$(H9
+rjHc
+8[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+t$ H
+ATE1
+[]A\A]A^
+A\A]A^
+AWAVAUATUSH
+d$@L
+|$`L
+l$PH
+t$$H
+L$(L
+t$@f
+T$Hf
+t$PE
+\$TE
+|$8L
+[]A\A]A^A_
+D$$A9
+t$0L
+Dt$(1
+HcD$ I
+|$8L
+|$8H
+fff.
+AVAUATUSH
+|$HH
+t$(H
+T$0H
+L$@H
+D$8L
+t$ 1
+[]A\A]A^A_
+d$P1
+t<D9
+t7D9
+t$(H
+T$0H
+D$(H
+t$(H
+|$HL
+|$HL
+AWAVI
+ATUSH
+D$TL
+D$\1
+D$PL
+d$@H
+t$PL
+D$HH
+D$@H
+\$XH
+|$\1
+D$X1
+[]A\A]A^A_
+d$@H
+t$@H
+|$\1
+d$@H
+D$ H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+D$PH
+D$HH
+D$@H
+AVE1
+ATE1
+[]A\A]L
+A\A]L
+\$PdH
+L$HH
+D$HH
+|$HH
+l$ H
+d$(L
+l$0H
+l$ H
+l$ H
+l$ H
+ffff.
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AVH)
+AUATUSH
+L$4D
+D$ D
+D$8H
+D$(H
+\$8H
+\$@L
+D$`L
+T$$H
+T$4M
+D$ A
+T$$A
+D$(H
+D$0H
+D$DtVL
+T$(H
+[]A\A]A^A_
+D$(H
+l$`L
+D$HH
+D$@0
+D$D0
+|$0H
+\$`L
+D$HH
+D$@0
+D$D0
+D$(H
+[]A\
+ffff.
+\$PH
+t$xH
+fffff.
+=aJ(
+d$ H
+d$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\$8H
+l$@L
+d$HL
+l$PH
+T$(H9S t
+\$(H
+l$0L
+d$8L
+l$@H
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+t$(D
+T$(H9S t
+fffff.
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+t$(D
+T$(H9S t
+ffff.
+d$ L
+l$(L
+t$0H
+\$(H
+l$0L
+d$8L
+l$@H
+ATUSH
+[]A\
+\$(H
+D$(H
+|$(H
+[]A\
+[]A\
+ATUSH
+[]A\
+\$(H
+t$(I
+|$(H
+[]A\
+[]A\
+ATUSH
+[]A\
+\$(H
+D$(I
+[]A\
+[]A\
+ATUSH
+[]A\
+\$(H
+D$(I
+[]A\
+[]A\
+ATUSH
+[]A\
+\$(H
+D$(I
+[]A\
+[]A\
+d$ H
+#OtRH
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+#Ot_H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$(t
+T$(L
+l$(H
+|$(I
+T$(L
+T$(1
+|$(H
+#OtZH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+#OtZH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+#OtZH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+0H9>u
+fffff.
+ATUSH
+[]A\A]A^A_
+ffffff.
+ATUH
+[]A\A]A^A_
+ffffff.
+t$ H
+t$ H
+l$ H
+fff.
+L9!u
+([]A\A]A^A_
+[]A\A]A^A_
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+AWAVAUATUH
+tyE1
+[]A\A]A^A_
+fffff.
+AWAVAUATI
+L9"u
+[]A\A]A^A_
+AVAUATUS
+H99t
+[]A\A]
+[]A\A]A^
+L$HD
+L$Ht7L
+l$PL
+L$0H
+\$8H
+AWAVI
+AUATUSH
+T$pH
+D$xH
+T$hu
+L$pL
+D$xH
+l$XH
+T$0H
+D$(H
+l$PH
+D$ 1
+l$HH
+l$@L
+|$8H
+[]A\A]A^A_
+D$X1
+T$XdH3
+\$`H
+l$hL
+d$pH
+l$ L
+ffffff.
+\$hH
+l$pL
+d$xL
+L$@E1
+|$HA
+\$pH
+l$|H
+t$pH
+t$pH
+\$pH
+t$pH
+t$pH
+D$H!
+D$L"
+D$P8
+D$T9
+D$XX
+D$\Y
+D$`Z
+D$d[
+t$pH
+t$pH
+t$pH
+l$p1
+fff.
+l$ L
+t$(L
+|$0H
+AUATE1
+[]A\A]
+ffffff.
+AUATE1
+9-C5)
+[]A\A]
+ffffff.
+AUATE1
+[]A\A]
+ffffff.
+AWAVAUA
+ATUSH
+T$<L
+d$@L
+;	v4
+[]A\A]A^A_
+D$ H
+D$(H
+\$@H
+l$HL
+d$PH
+fffff.
+ffffff.
+#OuNH
+\$(H
+l$0L
+d$8L
+l$@H
+#OucE
+tUE1
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+#Ou>E
+\$ H
+l$(L
+d$0H
+d$ H
+ffff.
+\$ H
+l$(L
+d$0H
+d$ H
+d$ H
+#Ou&H
+#OuwH
+\$(H
+l$0L
+d$8L
+l$@H
+#OuM
+\$ H
+l$(L
+d$0H
+#Ou)H
+ffff.
+#OuM
+\$ H
+l$(L
+d$0H
+#Ou)H
+ffff.
+#OuM
+\$ H
+l$(L
+d$0H
+#Ou)H
+ffff.
+#OuM
+\$ H
+l$(L
+d$0H
+#Ou)H
+ffff.
+\$(H
+l$0L
+d$8L
+l$@H
+#Ou=
+\$ H
+l$(L
+d$0H
+#Ou)H
+#Ot!H
+#Ou!H
+ffff.
+L$(H
+T$0H
+#Oud
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+L$(H
+D$ H
+T$@H
+D$0I
+T$8H
+T$XL
+\$hH
+l$pL
+d$xL
+L$(H
+#Ou_
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$(H
+D$ H
+T$0H
+T$HL
+T$Ht}
+#Ouu
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+#OuDH
+\$ H
+l$(L
+d$0H
+#OuQH
+#Ou=
+\$ H
+l$(L
+d$0H
+#Ou!H
+ffff.
+#Ou9H
+#Ou=H
+d$ H
+ffff.
+\$@H
+l$HL
+d$PH
+D$(H
+#Ou5
+ffff.
+ffff.
+\$@H
+l$HL
+d$PH
+D$(H
+ffff.
+#Oue
+#Ou5H
+#Ou5
+ffff.
+#Ou5
+#Ou5
+#Ou6
+#Ou5
+#Ou.
+#Ou-
+ffff.
+\$@H
+l$HL
+d$PH
+D$(H
+#Ou5
+#Ou5H
+#Ou&H
+#Ou-
+ffff.
+#Ou.
+#Ou.
+#Ou.
+ffff.
+\$@H
+l$HL
+d$PH
+D$(H
+#Ou-
+#Ou-
+#Ou&H
+D$ H
+#OuR
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+#Ouk
+\$(H
+l$0L
+d$8L
+l$@H
+#Ou=
+#Ou-
+#Ou-H
+#Ou.
+#Ou.
+#Ou<
+\$ H
+l$(L
+d$0H
+#Ou:H
+\$ H
+l$(L
+d$0H
+#Ou-H
+D$(H
+T$0H
+D$ H
+#Oud
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+#Ou=
+#Ou=
+#Ou&H
+ffffff.
+ffff.
+#Ou-
+#Ou.
+#Ou.
+#Ou.
+#Ou-
+ffff.
+D$(H
+\$@H
+l$HL
+d$PH
+fffff.
+fff.
+#OuZH
+#OuZH
+#OuZH
+#OuZH
+#OuZH
+#OubH
+#OuMH
+#OuUH
+#Ou]H
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+#OuuH
+t$ L
+\$`H
+l$hL
+d$pL
+l$xL
+#OukH
+t$ L
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+fffff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+#Ot&H
+ffffff.
+D$(1
+#OuMH
+T$(dH3
+\$0H
+l$8L
+d$@H
+#Ot&H
+ffffff.
+\$`H
+D$XH
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+[]A\
+\$`H
+D$XH
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+[]A\
+D$ H
+#Ouv
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$ H
+#Out
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+d$ H
+T$8M
+L$(H
+T$ H
+D$8H
+<$!C
+T$\H
+t$HL
+L$8L
+D$PL
+T$0L
+D$0L
+D$PH
+D$8L
+T$\H
+t$HL
+L$\L
+T$HH
+|$PH
+\$hH
+l$pL
+d$xL
+T$\H
+t$HL
+D$PL
+L$8L
+D$PH
+D$8L
+T$\H
+t$HL
+L$8M
+L$\H
+T$HL
+l$PM
+#Ot&H
+ffffff.
+#Ou!H
+#Ot!H
+AUATUSH
+[]A\A]A^A_
+\$HH
+|$HH
+D$HH
+L$0H
+|$(H
+D$8H
+D$HE1
+t$ H
+D9-"
+\$XH
+T$X1
+t$HH
+ED$HH
+l$ H
+t?<0t;
+l$(H
+\$ L
+d$0H
+\$ H
+l$(L
+d$0H
+ffffff.
+\$(H
+l$0L
+d$8L
+l$@H
+AUATA
+[]A\A]
+D$(H
+\$0H
+#OueH
+#OuNH
+fff.
+\$ H
+l$(L
+d$0H
+fff.
+fffff.
+fffff.
+AWAVAUATUH
+oXE1
+[]A\A]A^A_
+D$8M
+t$@1
+AVAUATUSH
+gXE1
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUE1
+ATUSH
+t$(H
+h@E1
+D$ 9D$$
+[]A\A]A^A_
+fffff.
+AVAUATUSH
+oXE1
+[]A\A]A^A_
+[]A\A]A^A_
+ffffff.
+ATUSH
+[]A\A]
+[]A\A]
+AVAUATUH
+~<E1
+ D9h(
+~>E1
+8D9h
+ 9P8
+8[]A\A]A^A_
+ D9pH~~H
+~9E1
+0D9`
+D9}0
+~-E1
+D;e |
+Lcc H
+fffff.
+x?HcSHH
+d$ L
+l$(L
+t$0H
+ffff.
+ATUSH
+ []A\
+l$ L
+d$(L
+l$0H
+[]A\A]A^A_
+HcS8H
+([]A\A]A^A_
+fff.
+AWAVAUA
+|$(L
+t$pL
+T$(H
+l$(L
+l$(D
+E teE
+|$(Ic
+D$(1
+D$(A
+[]A\A]A^A_
+HcSPH
+D$(H
+8[]A\A]A^A_
+fff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+S0Hc
+ATUSH
+9+v<H
+[]A\A]
+ffff.
+fff.
+l$(H
+\$ L
+d$0H
+D$`H
+ffff.
+fff.
+l$ L
+d$(L
+l$0H
+ATUH
+D$`H
+[]A\A]
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$(H
+L$ H
+t$0L
+T$(H
+L$ H
+t$0D
+,iA9
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+|$HL
+T$(H
+L$ H
+t$0D
+T$(H
+L$ H
+t$0D
+,t-D8
+t{Hc
+T$(H
+|$HL
+L$ H
+t$0D
+T$(H
+L$ H
+t$0D
+D$8L
+T$(H
+L$ H
+t$0D
+T$(H
+L$ H
+t$0D
+	w)G
+T$(H
+L$ H
+t$0D
+|$HD
+t$0H
+D$8D
+AWAVAUATUH
+D$XtUH
+\$(M
+d$0M
+t$(H
+	vcH
+h[]A\A]A^A_
+T$@H
+T$8H
+T$PH
+T$HH
+L$0H
+t$(H
+T$PH
+T$HH
+t$ H
+t$(H
+T$0H
+T$@H
+T$8H
+\$ H
+l$(L
+d$0H
+ffff.
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AVAUI
+ATUSH
+D9#v|H
+[]A\A]A^
+ffff.
+AVAUATI
+[]A\A]A^
+[]A\A]1
+ffff.
+fff.
+fff.
+fff.
+fff.
+AWAVAUATUH
+|$xH
+D$xH
+d$xH
+d$xH
+D$`tB
+D$HL
+d$PL
+|$XH
+D$(H
+D$@H
+t$xE
+D$ I
+D$Xt!H
+L$ 1
+\$hH
+D$xH
+[]A\A]A^A_
+D$ I
+t$xA
+\$PH
+L$ 1
+L$81
+\$pH
+\$PH
+\$PH
+\$XH
+\$PH
+\$XH
+fff.
+fff.
+fff.
+|$(H
+|$ H
+D$(H
+0[]A\
+D$(1
+D$(D
+l$ H
+l$ H
+l$ H
+fff.
+fff.
+fff.
+AWAVAUATI
+|$hH
+l$hH
+l$8M
+|$`H
+t$hH
+D$8H
+T$hH
+	w'H
+D$hL
+D$hH
+x[]A\A]A^A_
+|$ H
+D$(H
+T$hH
+T$0H
+T$@H
+T$(H
+T$HH
+T$0H
+T$PH
+D$8H
+t$hL
+fff.
+ATUH
+|$(H
+d$(H
+L$(H
+D$(H
+0[]A\
+fff.
+fff.
+fff.
+fff.
+AWAVAUI
+ATUH
+|$hH
+\$hH
+\$@M
+d$0M
+d$0M
+d$hH
+D$@H
+l$8M
+d$hA
+|$0H
+d$hA
+|$(H
+d$hH
+D$@I
+D$8H
+D$PH
+D$ H
+D$HH
+D$(H
+D$hH
+x[]A\A]A^A_
+D$@H
+T$8H
+D$@H
+D$8H
+D$0M
+d$0H
+d$XH
+d$0H
+d$0H
+d$(H
+|$(D
+D$(H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+|$(D
+|$(D
+D$(D
+|$(D
+|$(D
+fff.
+fff.
+\$ H
+l$(L
+d$0H
+fff.
+fff.
+fff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+l$ L
+d$(L
+l$0H
+ffff.
+ffff.
+ffff.
+[]A\A]
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+l$ L
+d$(L
+l$0H
+ffff.
+ffff.
+ffff.
+T$`I
+t$XH
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AWAVAUATUSH
+T$<dH
+l$@H
+|$0H
+|$0H
+|$0H
+|$0H
+|$0I
+D$(H
+L$ H
+T$ H
+T$(H
+T$0E
+T$(H
+D9cp
+|$0H
+|$xH
+[]A\A]A^A_
+l$@H
+D$	E
+T$(H
+T$ H
+T$0H
+|$0H
+L$ H
+T$ H
+\$0H
+~~E1
+|$0H
+|$0H
+|$0H
+|$0H
+T$`H
+D$(9
+T$ H
+|$0L
+|$0H
+d$ H
+AWAVAUI
+t$@H
+t$h1
+l$0L
+t$8I
+t$8L
+l$0L
+|$@H
+@:=)
+D$hL
+t$8M
+D$0H
+D$(A
+QpHc
+D9|$H
+t$8D
+|$0H
+|$pH
+D$pH
+t$xHc
+|$XA
+D$Xt)I
+[]A\A]A^A_
+t$8L
+l$0J
+D$(H
+l$0L
+t$8E1
+l$0L
+l$0L
+|$@H
+D$(H
+l$0L
+t$8E1
+l$0L
+D$(H
+l$0L
+l$8E1
+l$@D
+t$@A
+l$0L
+l$8L
+l$0L
+l$8L
+D$(H
+l$0L
+t$8E1
+l$0L
+D$(H
+l$0L
+t$8E1
+l$0L
+HcT$0
+l$8E1
+9l$0
+1@:5
+HcT$0
+t$8E1
+9\$0H
+|$0H
+|$pH
+|$0H
+|$pH
+HcT$0
+l$8L
+l$@A
+u4Ic
+D9l$0
+l$8L
+l$8L
+D$Xt
+|$0H
+L$p1
+|$0H
+D$XtU
+|$pH
+|$0H
+|$pH
+|$pH
+D$pf
+|$hH
+u:E1
+d$ L
+l$(L
+t$0H
+tdE1
+fffff.
+t$PH
+T$XD
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+ffffff.
+D$`L
+([]A\A]A^A_
+u:E1
+d$ L
+l$(L
+t$0H
+t`E1
+AWAVAUI
+ATU1
+D$(L
+|$(1
+|$(H
+L$ 1
+s	Hc
+[]A\A]A^A_
+L$ 1
+D$`H
+T$lH
+|$XH
+D$PH
+L$HH
+D$lA9D$8
+L$HH
+<.t+
+D$lA
+D$0H
+T$(H
+|$X1
+[]A\A]A^A_
+D$0H
+D$0H
+t$8A
+D$41
+H1E 
+\$ H
+l$(L
+d$0H
+ffff.
+AVAUATE1
+D9#w
+[]A\A]A^A_
+fffff.
+D$X1
+T$XdH3
+h[]A\A]
+l$ H
+ATUH
+D$0H
+[]A\A]
+D$0H
+\$ H
+l$(L
+d$0H
+9hXw
+9hhw
+\$(H
+l$0L
+d$8L
+l$@H
+ffff.
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AVAUI
+ATUSH
+D9#v|H
+[]A\A]A^
+AVAUATI
+[]A\A]A^
+[]A\A]1
+fff.
+AWAVAUI
+|$xL
+\$xH
+D$xH
+t$xH
+t$pL
+\$xH
+\$xH
+D$pH
+L$xH
+\$xH
+\$xH
+D$xH
+D$xH
+|$xH
+l$xH
+D$0H
+T$ H
+T$XH
+D$hH
+T$HH
+T$`H
+D$@H
+T$8H
+D$ht
+t$(H
+D$`t
+t$hA
+L$`H
+L$XH
+D$xH
+\$xH
+\$xH
+[]A\A]A^A_
+\$xH
+|$xL
+|$x1
+D$xH
+D$xH
+fff.
+u2E1
+d$ H
+u`E1
+T$xE
+t$(H
+t$(H
+|$(E
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+|$(1
+AWAVI
+[]A\A]A^A_
+u2E1
+d$ H
+u`E1
+\$xE
+fffff.
+ffff.
+AUATI
+D$H1
+L$(H
+T$@H
+T$HH
+T$HdH3
+P[]A\A]A^
+t$XE
+t9E1
+D$`H
+E9l$Xw
+l$hE
+D$pH
+D$pH
+D$pH
+E9t$h
+T$8H
+fffff.
+d$ H
+\$ H
+l$(L
+d$0H
+ffff.
+AWAVI
+AUATI
+ E9|$
+T$ H
+T$(H
+T$0H
+([]A\A]A^A_
+L$HI
+T$@H
+fff.
+d$ L
+l$(L
+t$0H
+fffff.
+l$ H
+[]A\
+}H]A\
+fffff.
+ffffff.
+9]Pw
+AUATUSD
+A\A]A^
+A\A]A^
+AUATUSD
+A\A]A^
+A\A]A^
+AUATUSD
+A\A]A^
+A\A]A^
+ATUH
+D$@H
+[]A\A]
+AWAVAUATI
+S0E1
+D9s(
+8[]A\A]A^A_
+|$(H
+[]A\A]A^A_
+AVAUATI
+[]A\A]A^
+[]A\A]1
+ffff.
+G<3vqH
+\$(H
+l$0L
+d$8L
+l$@H
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+L$ H
+D$ A
+L$ H
+D$ A
+AWAVI
+ATUH
+|$HH
+D$HH
+T$8H
+D$0H
+L$HH
+T$8L
+|$0H
+L$HH
+T$@H
+D$0H
+L$HH
+A8tSH
+T$HH
+T$HH
+L$HH
+A`tSH
+T$HH
+T$HH
+D$HL
+X[]A\A]A^A_
+t$(H
+L$HH
+T$8L
+|$0H
+D$8L
+|$0H
+[]A\A]A^A_
+t$(H
+fff.
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AVAUI
+ATUSH
+D9#v|H
+[]A\A]A^
+ffff.
+fff.
+fff.
+fff.
+fff.
+=&q&
+fff.
+fff.
+=Vq&
+fff.
+AWAVAUI
+ATUH
+|$XH
+=]z&
+L$XH
+L$XH
+t$XH
+T$XH
+t$XH
+D$XH
+t$XA
+T$XH
+\$XL
+[]A\A]A^A_
+L$XH
+T$8H
+T$(H
+|$XHcT$$
+t$$1
+9L$$
+D$8H
+|$P1
+L$XH
+L$XH
+T$XH
+t$XA
+D$XA
+|$XH
+|$HE1
+D$XH
+|$@E1
+D$XH
+AWAVI
+AUATI
+D$(L
+|$0H
+t$(1
+[]A\A]A^A_
+ffff.
+ffff.
+ffff.
+ffff.
+=Ga&
+ffff.
+=7a&
+ffff.
+=wa&
+ffff.
+AVAUI
+ATUSH
+t0E1
+8[]A\A]A^A_
+AVAUATI
+D$X1
+t$0H
+T$(H
+T$ H
+T$0H
+L$8L
+T$XdH3
+`[]A\A]A^
+t$ I
+fffff.
+ffffff.
+\$(H
+l$0L
+d$8L
+l$@H
+El$PL
+\$(H
+l$0L
+d$8L
+l$@H
+El$PL
+ATUH
+D$(H
+[]A\A]
+\$(H
+l$0L
+d$8L
+l$@H
+El$PL
+\$ H
+l$(L
+d$0H
+ffff.
+fff.
+AVAUATI
+9+vrL
+[]A\A]A^
+fffff.
+\$(H
+l$0L
+d$8L
+l$@H
+fff.
+fff.
+AUATUSH
+T$(H
+[]A\A]A^A_
+D$(I
+D$(I
+|$hA
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+D$(I
+|$hE1
+T$PH
+D$xH
+T$pL
+l$XA
+T$@H
+T$hH
+|$8A
+D9l$4
+D$xH
+D$xL
+L$ L
+D$(H
+D$pI
+l$XA
+D$PH
+D$(H
+T$(H
+|$hL
+D$(I
+D$(I
+D$(I
+D$(H
+|$hA
+T$(H
+T$(H
+D$(H
+T$xH
+T$(H
+D$(H
+L$pH
+D$pI
+D$(H
+l$PH
+\$HL
+d$XL
+l$`L
+t$hL
+|$pH
+|$8L
+d$8H
+d$8I
+T$0H
+T$(H
+T$8E1
+T$8L
+D$0L
+D9l$$
+\$8L
+|$81
+D$8H
+ffffff.
+ffff.
+ffff.
+AVAUATI
+D$H1
+t$ f
+$IcD
+d$PM
+T$HdH3
+X[]A\A]A^A_
+T$ H
+|$(L
+T$8H
+T$@H
+T$HH
+T$ H
+T$(H
+T$0H
+T$8H
+|$@A
+T$ H
+T$ H
+T$(H
+ffff.
+=)S&
+=9T&
+d$ H
+d$ H
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+ffffff.
+d$ H
+d$ H
+d$ H
+d$ H
+~[D9
+[]A\A]A^
+fffff.
+d$ H
+fff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+ffff.
+AVAUATUH
+H)J H
+J(H+J H
+[]A\A]A^
+l$ L
+d$(L
+l$0H
+V(H+V H
+d$ L
+l$(L
+t$0H
+AUE1
+ATUSH
+[]A\A]
+AWAVAUI
+ATUSH
+taE1
+[]A\A]A^A_
+([]A\A]A^A_
+AWAVAUI
+ATUSH
+taE1
+[]A\A]A^A_
+([]A\A]A^A_
+AVLc
+ATUH
+D9cPw
+[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+d$ H
+fff.
+tNE1
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+d$ H
+fff.
+t$ H
+fair
+fffff.
+linuf
+fffff.
+d$ L
+l$(L
+t$0H
+fffff.
+d$ H
+fff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+d$ H
+d$ H
+d$ H
+fff.
+H,t1H
+d$ H
+l$ H
+d$(L
+l$0H
+d$ H
+fff.
+l$ H
+fffff.
+l$ H
+fffff.
+d$ H
+fff.
+AWAVAUI
+[]A\A]A^A_
+AUE1
+ATUSH
+[]A\A]
+fff.
+AWAVAUI
+[]A\A]A^A_
+AUE1
+ATUSH
+[]A\A]
+fff.
+t$ H
+d$ L
+l$(L
+t$0H
+fffff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+fff.
+ w3H
+l$ L
+d$(L
+l$0H
+C`L9h(r/L
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+D$`L
+d$ H
+fff.
+weigf
+d$ L
+l$(L
+t$0H
+l$ H
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+fffff.
+l$ L
+d$(L
+l$0H
+tPE1
+l$ L
+d$(L
+l$0H
+ffffff.
+d$ L
+l$(L
+t$0H
+fffff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+d$ H
+fff.
+t$ H
+ffffff.
+t$ H
+fff.
+AUE1
+ATE1
+[]A\A]
+AWAVAUI
+[]A\A]A^A_
+AVAUATUSH
+u+E1
+[]A\A]A^A_
+l$ L
+d$(L
+l$0H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$(M
+T$(M
+T$(M
+ffff.
+D$H1
+HcT$,H
+;D$,
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+T$ H
+ffff.
+HcT$<H
+|$0E1
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+T$(I
+T$(I
+T$(I
+T$(I
+T$(I
+@0Ii
+D$ H
+\$(H
+l$0L
+d$8L
+l$@H
+d$ H
+fff.
+d$ H
+fff.
+d$ H
+ffffff.
+ffffff.
+AUATI
+~uHc
+[]A\A]A^
+t$ H
+d$ H
+|$`1
+i686H
+|$8H
+i686H
+T$xH
+D$pE1
+T$0H
+9T$ 
+|$0H
+T$pH
+|$@H
+T$(A
+T$p1
+T$@H
+T$xH
+D$ 9D$0
+|$@H
+t$xH
+|$HH
+t$(L
+T$xH
+D$pL
+T$PH
+D$XH
+T$09T$H
+T$ H
+|$PH
+T$pH
+|$XH
+T$ H
+D$@1
+|$@H
+fffff.
+t$ H
+[]A\
+D$(H
+d$0L
+\$@H
+l$HL
+d$PH
+ffffff.
+\$`L
+L$@I
+D$HH
+D$D0
+D$(H
+[]A\
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+|8u@1
+fff.
+T$ H
+ffffff.
+\$PH
+|$HH
+\$HH
+|$HH
+D$HH
+[]A\
+D$(A
+\$8D
+fff.
+fffff.
+AWAVL
+AUATA
+l$PL
+D$XH
+|$0H
+D$(1
+D$XH
+[]A\A]A^A_
+l$PH
+D$XH
+D$XH
+L$HE
+D$(1
+L$8H
+D$XH
+t$0H
+D$(A
+ATUH
+T$|H
+D$lH
+t$`H
+T$lL
+|$lH
+D$lH
+T$|H
+t$pD
+t$LL
+\$L1
+T$lH
+[]A\A]A^A_
+D$PH
+L$XH
+T$LH
+|$0H
+|$(H
+\$ D
+\$|1
+fff.
+d$(H
+D$ H
+\$0H
+l$8L
+d$@H
+fffff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$(H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+D$x1
+L$ H
+l$@L
+d$HL
+t$PH
+D$`H
+|$XH
+D$hH
+T$xdH3
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+l$0D
+d$8L
+t$@H
+fffff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$H1
+d$0D
+t$8H
+T$HdH3
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+\$ H
+l$(L
+d$0H
+fffff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+AVAUA
+ATUSH
+D$h1
+T$0L
+l$PH
+T$XH
+D$XH
+SPIc
+T$$E
+T$hdH3
+x[]A\A]A^A_
+t$(1
+d$ H
+fff.
+d$ L
+l$(L
+t$0H
+fff.
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+uvD9k(t
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+=Uz%
+t$ H
+L$0H
+l$8H
+D$0L
+D$ D9
+D$(A
+D$ H
+D$ H
+El$ H
+L$ H
+D$ H
+\$0H
+l$8L
+d$@H
+D$ 1
+El$ H
+\$0L
+d$@H
+l$8H
+L$0D
+t$<L
+d$8H
+D$0H
+D$ D9
+D$(A
+D$ I
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+fffff.
+L$ H
+D$ H
+D$0H
+El$0H
+\$@L
+l$HH
+D$ H
+D$0H
+El$0H
+d$(H
+D$ H
+D$0H
+El$0H
+\$@L
+d$PH
+l$HH
+L$01
+D$0I
+D$8I
+D$ H
+D$@H
+D$ H
+[]A\
+fff.
+D$X1
+T$XdH3
+\$hH
+l$pL
+d$xL
+L$0H
+l$HL
+t$ L
+D$ D9
+D$(A
+D$ H
+D$81
+d$ H
+T$8dH3
+\$@H
+l$HL
+d$PH
+D$81
+l$ H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+D$H1
+d$ A
+l$8H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+fffff.
+D$H1
+l$0H
+D$ H
+D$(H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+D$8H
+l$0H
+D$8L
+-vl%
+l$ L
+L$ H
+l$@L
+D$(H
+d$@H
+\$XH
+l$`L
+d$hL
+l$pH
+fffff.
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+t$ L
+L$01
+l$0H
+D$ D9
+wTE1
+t-f.
+D$(A
+D$ I
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+=1l%
+t$ L
+L$01
+l$0H
+D$ D9
+wTE1
+t-f.
+D$(A
+D$ I
+D$81
+l$ H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+D$81
+d$ H
+T$8dH3
+\$@H
+l$HL
+d$PH
+D$H1
+d$ A
+l$8H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+fffff.
+D$X1
+-Dd%
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$h1
+-Pd%
+L$PL
+D$PI
+d$0H
+D$XL
+D$8H
+t$0H
+D$@H
+T$hdH3
+\$pH
+l$xL
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$ 1
+l$ H
+=ed%
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$ 1
+l$ H
+==^%
+L$(H
+L$(L
+l$@1
+-v_%
+d$0L
+d$`L
+L$PL
+L$0H
+t$8L
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+L$ L
+|$(H
+T$ H
+D$0H
+D$8H
+D$@H
+D$PH
+D$`E1
+\$xH
+D$XI
+D$PA
+fffff.
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+t$ L
+L$ L
+5(\%
+l$$L
+D$x1
+l$PH
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+T$xdH3
+D$h1
+t$@H
+l$`H
+D$ H
+D$(H
+D$0H
+T$hdH3
+\$pH
+l$xL
+L$(H
+L$(L
+l$@1
+-mV%
+d$0L
+d$`H
+L$PL
+L$0H
+t$8L
+|$HE1
+D$`H
+D$hH
+D$pH
+D$xH
+L$ L
+|$(H
+T$ H
+D$0H
+D$8H
+D$@H
+D$PE1
+\$hH
+l$pL
+d$xL
+D$HI
+D$@A
+D$H1
+l$ H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+D$H1
+l$ H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+D$X1
+-LQ%
+L$ L
+d$ L
+d$01
+D$0H
+D$8H
+D$@H
+D$HH
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$ 1
+l$ H
+D$H1
+d$ A
+l$@H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+fffff.
+D$H1
+d$ H
+T$HdH3
+\$PH
+l$XL
+d$`H
+D$x1
+T$xdH3
+L$PH
+T$0H
+D$tL
+L$ L
+T$(H
+l$pH
+L$0D9
+L$@D9
+L$8H
+\$HL
+9T$@w
+D$0H
+t$(H
+=WL%
+L$ H
+fff.
+D$h1
+l$@H
+D$ H
+D$(f
+D$0H
+T$hdH3
+\$xH
+D$H1
+d$ H
+T$HdH3
+\$PH
+l$XL
+d$`H
+D$H1
+d$ H
+T$HdH3
+\$PH
+l$XL
+d$`H
+D$X1
+-|K%
+L$ L
+d$ L
+d$01
+D$0H
+D$8H
+D$@H
+D$HH
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+L$@L
+D$@I
+d$ H
+D$HL
+D$ H
+D$(H
+D$0H
+D$8H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+L$ D
+d$ L
+d$01
+D$0H
+D$8H
+D$@H
+D$HH
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+_0E1
+l$(L
+L$ L
+d$ L
+d$01
+D$0H
+D$8H
+D$@H
+D$HH
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$ 1
+l$ H
+=?A%
+L$ H
+D$ H
+D$0H
+El$0H
+\$ H
+l$(L
+d$0H
+\$ H
+l$(L
+d$0H
+fff.
+\$8H
+l$@L
+d$HL
+l$PH
+L$ 1
+_HE1
+L$ L
+d$ L
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$h1
+T$hdH3
+\$xH
+|$0H
+D$\H
+D$ H
+T$ H9
+t$(L
+D$h1
+T$hdH3
+\$xH
+D$0H
+l$PL
+T$dH
+T$ I
+l$`H
+T$ H9
+t$(L
+D$X1
+|$0I
+l$ L
+D$PL
+w	;E
+=g:%
+T$XdH3
+\$hH
+l$pL
+d$xL
+T$(E1
+D$X1
+T$XdH3
+\$hH
+l$pL
+d$xL
+l$(E1
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$X1
+l$0H
+D$ A
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+t$0H
+l$PH
+d$HL
+L$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+fffff.
+_@E1
+L$0L
+d$0L
+L$ H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+_@E1
+-/5%
+L$0L
+d$0L
+L$ H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+D$X1
+t$0H
+-#1%
+d$HL
+L$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$X1
+_@E1
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+fffff.
+D$X1
+_@E1
+- +%
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+fffff.
+D$h1
+d$PH
+-R0%
+D$XH
+t$PH
+T$8H
+D$8H
+D$`H
+t$0H
+T$hdH3
+\$pH
+l$xL
+D$h1
+-p+%
+L$PL
+D$PI
+d$0H
+D$XL
+D$8H
+t$0H
+D$@H
+T$hdH3
+\$pH
+l$xL
+D$X1
+-<*%
+d$@1
+D$HH
+t$@H
+T$(H
+D$(H
+D$PH
+t$ H
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+AUATI
+\$8D
+l$0A
+[]A\A]A^A_
+T$`H
+tTE1
+t$pH
+\$xE1
+D$XH
+D$PH
+D$hH
+d$hI
+D$XH
+L$PI
+\$8D
+l$0A
+D$0H
+D$(1
+D$(A
+d$0H
+|$`L
+t$pH
+D$(A
+D$0A
+T$(1
+D$0H
+D$(1
+T$HL
+T$HH
+\$xH
+T$`H
+l$pE
+L$XL
+D$PD
+L$hH
+D$`H
+l$pE
+\$xL
+D$(A
+d$0H
+l$pH
+D$0H
+T$(A
+\$xL
+l$pE
+l$pH
+D$0H
+D$(A
+l$0H
+D$(A
+AWAVI
+ATUSH
+[]A\A]A^A_
+|$`H
+|$`H
+|$`H
+|$`H
+|$`H
+|$`H
+|$`H
+L$hH
+A9,$~dI
+T$hH
+D$hH
+A9,$
+L$hH
+D$hH
+L$hH
+D$hH
+|$hL
+D$`H
+1651f
+=c7&
+L$xH
+1650f
+T$@H
+L$PH
+t$HL
+T$@H
+L$PH
+t$HL
+D$Xt	f
+T$@H
+t$HH
+T$@H
+D$hD
+\$xE
+T$@H
+|$`H
+T$h9
+|$hH
+T$xH
+t$HL
+t$HL
+D$`H
+\$0H
+D$(A
+D$xH
+d$`A
+L$xA
+Icu(H
+t$`I
+l$`L
+l$`H
+l$`L
+=X$&
+T$@H
+T$@H
+L$Pt	f
+T$@t	f
+none
+L$hD
+d$hL
+|$`I
+D$`H
+|$`I
+t$`H
+t$`H
+D$(A
+D$0H
+@t"H
+t$ H
+fffff.
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+L$(A
+t$(D
+|$(H
+fff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+fff.
+l$ H
+d$(L
+l$0H
+ffff.
+d$ H
+fffff.
+AWAVA
+8[]A\A]A^A_
+[]A\A]A^A_
+L$ H
+T$(1
+T$(dH3
+fffff.
+D$(1
+#OtOH
+T$(dH3
+ffff.
+D$(1
+T$(dH3
+ffff.
+D$&f
+#OtoH
+l$ H
+d$&fA
+ffffff.
+l$ H
+D$&f
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$ H
+t$ H
+AVAUATUSH
+[]A\A]A^A_
+t$`L
+d$\E1
+T$0H
+D$XH
+T$@H
+D$ H
+T$(1
+irt_proxH
+y_conn
+/tmp/livH
+D$ H
+t$(1
+\$@H
+|$X1
+d$8H
+D$0H
+\$ H)
+ffff.
+fff.
+fff.
+l$ L
+d$(L
+l$0H
+4+L)
+fff.
+d$ H
+AWAVI
+ATUSH
+<(t<H
+[]A\A]A^A_
+fffff.
+T$HH
+T$HI
+L$@H
+t$PL
+l$8L
+t$0L
+l$8H
+L$0H
+fffff.
+d$ H
+l$ H
+xNHc5
+\$@H
+l$HL
+d$PH
+xPHc5
+\$@H
+l$HL
+d$PH
+xKHc5
+\$@H
+l$HL
+d$PH
+l$(I
+D|$(
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+xCA9
+AVAUATUSH
+[]A\A]A^
+fff.
+AUATUSH
+|$ 1
+[]A\A]A^A_
+t$ L
+D$ H
+8[]A\A]A^A_
+[]A\A]A^A_
+D$H1
+T$HdH3
+fffff.
+xNHc5k
+\$@H
+l$HL
+d$PH
+l$ 1
+D$8H
+D$@E
+|$(D
+d$0D
+D$8L
+D$8H
+ATUSH
+5vt$
+d$xE1
+[]A\
+L$xE1
+L$xE1
+L$xE1
+L$xE1
+L$xE1
+l$ H
+D$h1
+|$hdH3<%(
+\$xH
+T$ 1
+T$ ;S
+D9l$
+~dE9
+}0E1
+ffffff.
+fff.
+fff.
+fff.
+l$01
+D$0	
+l$(A
+D$PD
+d$@H
+|$(L
+D$(A
+AWAVAUATA
+[]A\A]A^A_
+D$H1
+T$HdH3
+\$PH
+l$XL
+d$`H
+t$0t
+C Hc
+D$(f
+ffff.
+D$H1
+T$HdH3
+ffff.
+D$h1
+T$hdH3
+\$pH
+l$xL
+t$ E9
+fffff.
+D$H1
+T$HdH3
+linuf
+credf
+sedf
+AWAVAUE1
+ATUH
+T$PH
+|$HH
+tGHc
+43Hc
+\$(E1
+|$HL
+[]A\A]A^A_
+L$ H
+D$D 
+l$4M
+l$4wxA
+t$@L
+L$ H
+D$D@
+D$D@
+D$D@
+D$D 
+D$D@
+L$0E
+=xs$
+=gs$
+D$ L
+5zK$
+5iK$
+|$0H
+=ro$
+=_o$
+5,H$
+D$XI
+-CG$
+t$ H
+fffff.
+t$ H
+fffff.
+-7F$
+ATUH
+[]A\A]
+l$ L
+t$(L
+|$0H
+fffff.
+t$ H
+5>D$
+t$ H
+ATUH
+[]A\A]
+-#C$
+t$ H
+5~B$
+t$ H
+ATUH
+[]A\A]
+-[A$
+l$ H
+t$ H
+-S@$
+t$ H
+t$ H
+-3?$
+t$ H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+-#=$
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffff.
+%s<$
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ATUH
+[]A\A]
+fffff.
+-S;$
+l$ L
+t$(L
+|$0H
+ATUH
+[]A\A]
+-g:$
+ATUH
+[]A\A]
+t$ H
+ffff.
+-w9$
+ATUH
+[]A\A]
+t$ H
+-s8$
+t$ H
+t$ H
+-S7$
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+t$ H
+ffff.
+AWAVAUATUS
+|$(H
+$u&I
+|$ I
+[]A\A]A^A_
+D$(H
+T$(1
+8[]A\A]A^A_
+AVAUI
+ATUSH
+d$(L
+D$(H
+T$(Mc
+8[]A\A]A^A_
+[]A\A]A^A_
+D$(H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+\$(H
+l$0H
+\$(H
+l$0H
+\$(H
+l$0H
+d$ H
+d$ L
+l$(L
+t$0H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffffff.
+ffffff.
+ffffff.
+l$ L
+t$(L
+|$0H
+d$ H
+d$ H
+d$ H
+l$ H
+d$ H
+d$ H
+ffffff.
+d$ H
+ffffff.
+-g!$
+[]A\A]
+AVAUATI
+D$h1
+t$ H
+T$PH
+T$hdH3
+p[]A\A]A^
+t*Ic
+D$x1
+T$xdH3
+l$ L
+D$d1
+L$ H
+t$(E1
+}XLc
+t$ A
+t$(A
+h0t1
+\$8H
+l$@H
+|$(H
+ffff.
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AWE1
+[]A\A]A^A_
+ffffff.
+AWAVA
+l$ H
+[]A\A]A^A_
+ffffff.
+fffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$(H
+T$(H
+AWAVAUI
+[]A\A]A^A_
+[]A\A]A^A_
+ffffff.
+d$ H
+D$ I
+AWAVI
+AUATUSH
+l$PH
+|$HH
+[]A\A]A^A_
+AWAVAUATUH
+|$hH
+|$pH
+D$0I
+T$(I
+D$8I
+T$@I
+D$HI
+T$PH
+D$XH
+D$PH
+T$XH
+L$8L
+D$@H
+L$HH
+T$pH
+T$tH
+T$xH
+T$|H
+t$ H
+|$ H
+|$hH
+[]A\A]A^A_
+|$`L
+|$hL
+AWAVAUATUH
+D$lH
+T$@H
+T$hH
+D$dH
+T$ H
+T$`H
+D$(H
+D$XH
+T$0H
+D$8L
+L$ 1
+L$(1
+L$01
+t$XHc
+[]A\A]A^A_
+|$HH
+[]A\A]A^A_
+|$HL
+fff.
+AWAVAUATI
+l$0H
+t$0H
+l$0L
+l$0M
+[]A\A]A^A_
+H[]A\A]A^A_
+|$ I
+l$0H
+E t#L
+l$0M
+l$0A
+L$<1
+D$h1
+T$hdH3
+\$xH
+AWAVAUATUH
+D$H1
+t$0L
+|$(I
+d$(L
+t$(Hc
+T$HdH3
+X[]A\A]A^A_
+T$(H
+T$(H
+l$pH
+\$hL
+d$xL
+D$XM
+D$,H
+L$PH
+L$HH
+T$@H
+D$XH
+T$PH
+D$8H
+|$ H
+|$ L
+|$ H
+T$0L
+D$(H
+|$(1
+L$hL
+D$0 
+|$h1
+|$hf
+\$xH
+L$ tLA
+L$ A
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+F t`
+AWAVAUATUSH
+|$(H
+T$0H
+L$XH
+D$4H
+T$4E
+E I;E(L
+|$(H
+t$X1
+|$4H
+\$PH
+D$@H
+D$ H
+T$ H
+T$ H
+|$(L
+[]A\A]A^A_
+|$(H
+|$(H
+l$4H
+|$(H
+\$PL
+|$(H
+|$(H
+|$(H
+d$4E
+\$4E
+l$`H
+T$`H
+t$hI
+D$xM
+D$xH
+t$xHc
+|$HH
+file
+D$ H
+file
+|$HH
+|$(H
+|$(H
+|$(H
+|$(1
+T$4H
+D$(L
+|$4L
+t$4E
+\$XH
+D$ H
+|$ L
+|$(H
+fffff.
+l$ H
+D$h1
+T$hdH3
+\$pH
+l$xL
+t$@L
+t$8H
+L$ I
+D$$0
+fff.
+fff.
+d$ H
+fff.
+l$ L
+d$(L
+l$0H
+#OtEH
+l$ H
+ffffff.
+l$(H
+\$ L
+d$0H
+T$(H
+t$0H
+sedf
+\$(H
+l$0L
+d$8L
+l$@H
+credf
+t$,H
+\$8H
+l$@L
+d$HL
+l$PH
+D$XI
+D$XA
+t$ H
+tUE1
+linuf
+d$ H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+D$ Hc
+L$ D
+t$LI
+d$0E
+t$8D
+D$,M
+T$ H
+D$(H
+T$ f
+L$(A
+;l$(
+L$(H
+L$,Mc
+I1D$
+T$ t	A
+T$ t	A
+T$ f
+I1D$
+L$81
+T$ L
+T$ L
+9D$,
+l$ L
+d$(L
+l$0H
+H1E 
+ffff.
+AWAVI
+ATUSH
+D$0H
+D$(H
+l$8L
+d$8L
+t$8H
+L$0Hc
+L$(H
+t$01
+D$(H
+[]A\A]A^A_
+L$(1
+AVAUATI
+T$ A
+L$(H
+8[]A\A]A^A_
+t$ 1
+T$(L
+fffff.
+d$ H
+\$ H
+l$(L
+d$0H
+fffff.
+u-E1
+d$ L
+l$(L
+t$0H
+AVAUATUH
+T$8H
+T$0H
+T$0H
+D$8H
+D$8H
+T$8H
+[]A\A]A^
+ffff.
+ffffff.
+ffffff.
+D$(1
+T$(dH3
+ffff.
+l$ H
+l$ H
+l$ H
+l$ H
+l$ H
+l$ H
+D$x1
+t$LH
+T$xdH3
+D$PH
+T$`L
+t$0L
+T$8H
+5	}#
+|$8L
+\$Pu;H
+L$`L
+|$`L
+AUATI
+[]A\A]A^
+l$ L
+d$(L
+l$0H
+\$0H
+l$8L
+d$@H
+D$(H
+T$4H
+L$(L
+|$(A
+AVAUATUH
+D$`L
+L$`L
+D$HH
+D$8H
+T$@H
+D$0H
+T$(H
+D$ H
+D$pH
+[]A\A]A^
+T$lH
+L$lL
+D$p1
+dH34%(
+ignof
+starf
+AWAVAUATUSH
+|$0H
+L$,dH
+t$<H
+D$@[
+D$0H
+\$,E
+D$0D
+|$@H
+D9l$,
+L$<L
+D$0H
+[]A\A]A^A_
+T$0L
+t$@L
+D$(H
+T$ H
+fff.
+l$ H
+L$8H
+l$ H
+L$8L
+l$ H
+ffff.
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+d$ L
+l$(L
+t$0H
+l$ L
+t$(L
+|$0H
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+\$ L
+l$ A
+l$ L
+d$(L
+l$0H
+fff.
+d$ H
+D$81
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+\$(H
+l$0H
+fff.
+\$(H
+D$(H
+D$8H
+|$(H
+t$8H
+l$PH
+\$HL
+d$XL
+l$`H
+d$8H
+l$8L
+d$0H
+fff.
+l$(H
+D$(H
+D$8H
+t$(H
+|$8H
+t$0tEH
+$x\1
+l$PH
+\$HL
+d$XL
+l$`H
+d$0H
+ffffff.
+#Ou5H
+l$ H
+ffff.
+l$@H
+\$8L
+d$HL
+l$PH
+ffff.
+\$ H
+l$(L
+d$0H
+fff.
+d$ H
+fffff.
+d$ H
+d$ L
+l$(L
+t$0H
+AWAVAUATUSH
+|$0H
+l$`H
+T$<H
+l$`E1
+d$XH
+T$@H
+T$(tdI
+T$ H
+L$(I
+d$XH
+l$`E1
+d$@H
+D$(f.
+T$0H
+|$0L
+|$0H
+[]A\A]A^A_
+T$(H
+T$(H
+L$<E
+T$ H
+d$@H
+l$`H
+l$`H
+|$0H
+/@:-
+@:-u
+@:-i
+@:=]
+l$`H
+|$0H
+l$`H
+|$0H
+|$0H
+|$0L
+|$0H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+l$8E1
+\$(L
+d$0H
+D9t$
+\$(L
+d$0L
+D$ I
+l$8H
+\$(L
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+l$(H
+t$0L
+l$(L
+|$(1
+T$(H
+T$(I
+\$ H
+l$(L
+d$0H
+\$ H
+l$(L
+d$0H
+L9b L
+ffffff.
+\$ H
+l$(L
+d$0H
+b I9
+l$ L
+d$(L
+l$0H
+g0E1
+l$ L
+d$(L
+l$0H
+AWAVAUATI
+T$ H
+T$ H
+l$0E1
+D9|$
+l$PL
+d$XA
+[]A\A]A^A_
+l$PL
+d$XH
+L$P1
+T$(H
+D$(H
+t$(H
+D$PH
+l$PL
+\$ H
+l$(L
+d$0H
+fff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+ffff.
+l$ L
+d$(L
+l$0H
+ffff.
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+d$ H
+d$ H
+AWAVAUATUH
+[]A\A]A^A_
+|$PH
+T$HH
+D$HH
+d$\E
+L$PH
+t$P1
+L$PL
+L$PL
+L$PL
+\$\E
+L$PH
+L$PH
+L$PH
+L$PH
+\$`H
+\$`H
+l$xH
+|$hH
+D$@H
+T$8H
+|$0H
+\$`H
+D$hH
+T$hH
+L$hL
+L$pH
+D$hH
+|$(H
+D$0H
+T$8H
+|$@H
+D$`H
+T$hH
+|$pH
+|$(L
+|$0L
+L$@1
+L$`H
+|$(1
+L$hH
+|$01
+L$pH
+|$81
+|$0H
+T$0L
+T$0H
+L$ L
+x H)
+@:5 
+x(H)
+L$PH
+file
+D$ H
+$< t
+T$ H
+T$xH9
+|$(L
+T$@L
+D$0H
+t$ H
+|$0H
+T$8H
+D$X%
+t$0H
+|$(L
+|$(H
+l$ L
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+D9d$
+d$ H
+\$(H
+l$0H
+ffff.
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+D$<t
+;l$<
+l$Ls
+D$0H
+D$@J
+T$(H
+t$ L
+T$0H
+T$0H
+|$0I
+;D$Lv$I
+|$0H
+L$ L
+D$(I
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+T$8H
+\$8L
+T$ H
+D$8A
+T$(H
+T$8Hc
+D$8H
+D$,t
+D$XI
+D$,H
+\$LH
+l$0L
+|$`E1
+T$ H
+l$8H
+T$,;T$\u
+|$0H9
+D9l$Xv`D
+L$ 1
+\$LH
+l$0H
+L$@1
+D$\H
+l$8L
+|$`1
+l$,H
+;l$\u
+|$8M9
+9\$XvdH
+L$ 1
+H;\$
+AWAVI
+AUATUSH
+L$8L
+8;9u
+H[]A\A]A^A_
+AWAVI
+ATUSH
+D$X1
+T$8H
+D$0L
+t$8D
+D$8H
+D$8L
+D$8H
+t$0E1
+D$8I
+D$ E
+T$XdH3
+h[]A\A]A^A_
+d$ D
+L$H1
+L$HH
+D$@E
+T$LH
+L$8L
+l$PE1
+T$ H
+D9d$HvkH
+D$@H
+L$ 1
+|$@H
+D$@J
+\$(H
+l$0H
+\$(H
+l$0H
+D$(1
+T$(dH3
+AVAUATUSH
+D$(1
+L$<H
+T$<E
+T$0H
+D$8L
+d$@H
+L$ 1
+9\$<v7
+D$0L
+[]A\A]A^A_
+|$(1
+ATUH
+D9 w
+ []A\
+[]A\
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fffff.
+d$ L
+AUATI
+D$(1
+T$(dH3
+8[]A\A]A^A_
+D$$H
+fff.
+D$81
+d$ H
+T$8dH3
+\$@H
+l$HL
+d$PH
+t$ f
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+fff.
+AVAUATI
+t$0M
+[]A\A]A^A_
+T$PH
+t$8L
+d$0H
+T$ H
+D$(H
+D$ H
+T$@H
+\$(A
+T$(H
+D$8H
+|$ L
+t$ H
+T$0L
+t$ H
+t$8H
+t$ H
+t$ H
+|$01
+T$0H
+t$@H
+|$HL
+T$01
+T$HL
+ffffff.
+AUATA
+[]A\A]A^
+]A\A]A^
+AWE1
+AVAUA
+ATUH
+T$(Mc
+[]A\A]A^A_
+D$X1
+D$8H
+T$XdH3
+fffff.
+l$ dH
+\$ H
+l$(L
+d$0H
+fffff.
+AWAVAUATI
+|, =t
+[]A\A]A^A_
+fffff.
+\$xH
+D$lH
+t$ H
+D$ H
+D$(H
+D$@H
+D$hH
+|$PH
+L$\H
+T$`L
+D$XH
+d$lD9
+D$\E1
+AVAUI
+\$PdH
+D$PI
+D$PI
+$<;t
+T$HL
+|$ M
+T$HH
+D$HH
+t$HI
+$< u
+$< t
+d$ I
+D$HH
+l$0H
+\$8H
+D$(H
+T$ H
+D$HI
+|$HA
+D$HMc
+D$HH
+[]A\A]A^A_
+D$0H
+T$0H
+T$0H
+|$HA
+D$HMc
+D$HH
+t$HH
+AWAVAUATUSH
+l$pH
+D$HH
+D$8H
+T$@H
+D$(H
+T$0H
+D$ H
+|$(H
+/sbin/inf
+T$0H
+|$ A
+T$8H
+[]A\A]A^A_
+|$0L
+T$ H
+|$XH
+D$`H
+|$XH
+D$8H
+D$@H
+T$ H
+[]A\
+fff.
+ATUH
+[]A\
+ATUH
+[]A\
+HcC@H
+fff.
+[]A\A]
+[]A\
+|$0H
+d$ H
+fff.
+|$0H
+d$ H
+fff.
+Openf
+ffff.
+AWE1
+ATUSH
+L$(L
+l$PH
+|$(H
+--saf
+[]A\A]A^A_
+/usr/sbiH
+n/vzctl
+--quiet
+--ipadd
+{(Mc
+--netif_Ic
+|$LH
+|$@<;u
+|$@L
+T$ H
+l$8H
+T$0H
+|$(H
+T$ H
+|$(H
+|$(H
+|$(H
+|$(H
+l$8H
+|$@L
+L$LL
+fffff.
+AWAVAUI
+ATUSH
+H[]A\A]A^A_
+|$8H
+[]A\A]A^A_
+ATUH
+D$x1
+d$PH
+T$ H
+d$8H
+D$0H
+T$xdH3
+[]A\A]
+l$ L
+d$(L
+l$0H
+AUE1
+ATUSH
+D;e0r
+[]A\A]
+AUE1
+ATUSH
+D;e0r
+[]A\A]
+AVAUA
+T$0H
+t$0L
+D$hH
+|$(H
+D$8H
+D$`H
+T$@1
+D$dH
+l$pL
+t$lL
+T$lHc
+|$(L
+|$h1
+[]A\A]A^A_
+|$(L
+AVAUA
+ATUSH
+T$@H
+t$@L
+D$pH
+|$8H
+D$HH
+T$P1
+D$XH
+D$tH
+D$xH
+D$|H
+T$hL
+D$(H
+L$|L
+L$(H
+|$8L
+|$p1
+[]A\A]A^A_
+|$8H
+|$8L
+fff.
+d$ H
+l$ H
+d$(L
+l$0H
+T$<H
+l$@L
+l$(L
+t$ L
+|$0H
+D9d$<u
+D9d$<
+\$ H
+@0fA
+l$ L
+d$(L
+l$0H
+d$ H
+l$ H
+fffff.
+/usr/sbiH
+n/vzctl
+--quiet
+creaf
+D$(teA
+[]A\
+--ostemp
+late
+D$0I
+d$ L
+l$(L
+t$0H
+/sbin/inf
+D$ H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+/sbin/inf
+fff.
+\$`L
+L$@I
+D$HH
+D$D0
+D$(H
+[]A\
+fff.
+|$PH
+ffffff.
+l$ H
+%9k"
+-be"
+AVAUATI
+-}j"
+]A\A]A^A
+[]A\A]1
+[]A\A]
+~@dH
+u%E1
+AVAUI
+ATUH
+selinux
+[]A\A]A^
+fff.
+AVAUATUH
+~GE1
+[]A\A]A^
+t$(H
+AWAVI
+ATE1
+tHE1
+[]A\A]A^A_
+l$ H
+AUATUH
+[]A\A]
+ffffff.
+fffff.
+ffff.
+L$8H
+D$@L
+L$HH)
+D$ H
+/wOE
+/wWE
+/w7E
+AVAUI
+ATUSH
+<	w$H
+0<	v
+m H)
+t$0s
+D$0L
+t$(I
+t$(L
+Sv;I
+[]A\A]A^A_
+T$81
+H[]A\A]A^A_
+0<	w
+0<	v
+M8L)
+H;D$8
+t$(H
+t$(I
+D$ L
+D$ L
+GD$8L
+D$8A
+t$(H
+D$(L;T$(
+H9T$(r5H
+D$(H
+T$(H
+L;T$(w
+T$(I
+t$(H
+t$(I
+D$ L
+AWAVAUATU
+\$ L1
+T$@I
+T$0H
+t:~4
+T$0H
+t$<1
+[]A\A]A^A_
+L$<H
+AWAVI
+AUE1
+[A\A]A^A_
+T$7H
+D$PH
+ t	A
+L$ H9
+t$0I
+L$8H9
+D$HA
+D$@H
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+tiL;
+t	L9
+/usr/sbin/brctl
+setfd
+/dev/net/tun
+libvirt
+file.bridge.c
+Enabling IFF_VNET_HDR
+Not enabling IFF_VNET_HDR; TUNGETFEATURES ioctl() not implemented
+Not enabling IFF_VNET_HDR; TUNGETFEATURES ioctl() reports no IFF_VNET_HDR
+Not enabling IFF_VNET_HDR; TUNGETIFF ioctl() not implemented
+brProbeVnetHdr
+0123456789abcdef
+"""%s"""
+"%s"
+%s:%d: %s
+failed to open file
+failed to save content
+expecting a value
+unterminated string
+expecting a separator in list
+list is not closed with ]
+unterminated number
+expecting a name
+expecting an assignment
+expecting a separator
+memory conf
+virConfWriteMem
+virConfWriteFile
+virConfFree
+virConfReadMem
+virConfParseStatement
+virConfParseComment
+virConfParseName
+virConfParseValue
+virConfAddEntry
+virConfReadFile
+virConfNew
+--destination
+--source
+MASQUERADE
+--jump
+--out-interface
+REJECT
+--in-interface
+ACCEPT
+ESTABLISHED,RELATED
+--state
+--match
+--protocol
+--destination-port
+--delete
+file.iptables.c
+INPUT
+filter
+FORWARD
+POSTROUTING
+Failed to remove iptables rule '%s' from chain '%s' in table '%s': %s
+Failed to add iptables rule '%s' to chain '%s' in table '%s': %s
+iptRulesReload
+stderr
+syslog
+debug
+warning
+unknown
+%02d:%02d:%02d.%03d: %s : %s
+%02d:%02d:%02d.%03d: %s : %s:%lld : %s
+%s %s: freeing
+file.pci.c
+/sys/bus/pci/devices/%s/%s
+%.4x:%.2x:%.2x.%.1x
+%s %s: initialized
+%s %s: opened %s
+Failed to read from '%s' : %s
+/sys/bus/pci/devices
+%x:%x:%x.%x
+%s %s: iter matched on %s
+Failed to write to '%s' : %s
+/sys/bus/pci/drivers/%s
+pci-stub
+pciback
+/sbin/modprobe
+/sys/bus/pci/drivers/%s/%s
+new_id
+driver/unbind
+new_slot
+remove_id
+remove_slot
+/sys/bus/pci/drivers_probe
+/sys/bus/pci/devices/%s/config
+Failed to read product/vendor ID for %s
+Failed to open config space file '%s': %s
+%s %s: found cap 0x%.2x at 0x%.2x
+%s %s: failed to find cap 0x%.2x
+%s %s: found parent device %s
+%s %s: iterating over /sys/bus/pci/devices
+Failed to open /sys/bus/pci/devices
+Unusual entry in /sys/bus/pci/devices: %s
+Other devices on bus with %s, not doing bus reset
+Failed to find parent device for %s
+%s %s: doing a secondary bus reset
+Failed to save PCI config space for %s
+Failed to restore PCI config space for %s
+%s contains other functions, not resetting
+%s %s: doing a power management reset
+Failed to open config space file '%s'
+%s %s: detected PCIe FLR capability
+%s %s: detected PCI FLR capability
+%s %s: no FLR capability found
+%s %s: detected PM reset capability
+%s %s: no PM reset capability found
+No PCI reset capability available for %s
+failed to load pci-stub or pciback drivers: %s
+Failed to add PCI device ID '%s' to %s
+Failed to unbind PCI device '%s'
+Failed to add slot for PCI device '%s' to %s
+Failed to bind PCI device '%s' to %s
+Failed to remove PCI ID '%s' from %s
+cannot find any PCI stub module
+Failed to remove slot for PCI device '%s' to %s
+Failed to trigger a re-probe for PCI device '%s'
+pciFreeDevice
+pciGetDevice
+pciGetDevice
+pciReAttachDevice
+pciFindStubDriver
+pciUnBindDeviceFromStub
+pciDettachDevice
+pciBindDeviceToStub
+pciResetDevice
+pciInitDevice
+pciOpenConfig
+pciFindCapabilityOffset
+pciRead
+pciDetectFunctionLevelReset
+pciDetectPowerManagementReset
+pciTrySecondaryBusReset
+pciIterDevices
+pciIsParent
+pciWrite
+pciTryPowerManagementReset
+qparams.c
+qparam_query_parse
+qparam_get_query
+append_qparam
+grow_qparam_set
+new_qparam_set
+virUUIDGenerate
+%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x
+Falling back to pseudorandom UUID, failed to generate random bytes: %s
+/dev/urandom
+file.uuid.c
+%02X:%02X:%02X:%02X:%02X:%02X
+%s/%s.pid
+Failed to open file '%s': %s
+Failed to read '%s': %s
+Unknown poll response.
+poll error
+cannot block signals
+/dev/null
+cannot open %s
+cannot create pipe
+Failed to create pipe
+cannot fork child process
+cannot unblock signals
+cannot become session leader
+cannot execute binary %s
+file.util.c
+Command stdout: %s
+Command stderr: %s
+Failed to find user record for uid '%d'
+Failed to set non-blocking file descriptor flag
+Failed to set close-on-exec file descriptor flag
+cannot change to root directory: %s
+failed to setup stdin file handle
+failed to setup stdout file handle
+failed to setup stderr file handle
+'%s' exited with non-zero status %d and signal %d: %s
+virGetUserDirectory
+virRun
+virRun
+__virExec
+virPipeReadUntilEOF
+virExecWithHook
+virExecWithHook
+AXen 
+XML 
+Xen Daemon 
+Xen Store 
+Xen Inotify 
+Domain 
+XML-RPC 
+QEMU 
+Network 
+Test 
+Remote 
+S-Expr 
+PROXY 
+OpenVZ 
+Xen XM 
+Linux Stats 
+Linux Container 
+Storage 
+Network Config 
+Domain Config 
+Node Device 
+UML 
+Security Labeling 
+internal error %s
+internal error
+out of memory
+could not connect to %s
+invalid connection pointer in
+invalid domain pointer in
+invalid domain pointer in %s
+invalid argument in
+invalid argument in %s
+GET operation failed: %s
+GET operation failed
+POST operation failed: %s
+POST operation failed
+unknown host %s
+unknown host
+failed to serialize S-Expr
+failed Xen syscall %s
+unknown OS type
+unknown OS type %s
+missing kernel information
+missing devices information
+too many drivers registered
+this domain exists already
+domain %s exists already
+failed to open %s for reading
+parser error
+invalid network pointer in
+invalid network pointer in %s
+this network exists already
+network %s exists already
+system call error
+RPC error
+GNUTLS call error
+Failed to find the network
+Domain not found
+Domain not found: %s
+Network not found
+Network not found: %s
+invalid MAC address
+invalid MAC address: %s
+authentication failed
+authentication failed: %s
+Storage pool not found
+Storage pool not found: %s
+Storage volume not found
+Storage volume not found: %s
+Failed to find a node driver
+invalid node device pointer
+Node device not found
+Node device not found: %s
+Security model not found
+Security model not found: %s
+Unknown failure
+libvir: %s%s %s%s: %s
+libvir: %s%s %s%s: %s
+No error message provided
+this function is not supported by the hypervisor
+this function is not supported by the hypervisor: %s
+could not connect to hypervisor
+invalid connection pointer in %s
+got unknown HTTP error code %d
+failed to serialize S-Expr: %s
+could not use Xen hypervisor entry
+could not use Xen hypervisor entry %s
+could not connect to Xen Store
+could not connect to Xen Store %s
+missing root device information
+missing root device information in %s
+missing source information for device
+missing source information for device %s
+missing target information for device
+missing target information for device %s
+missing domain name information
+missing domain name information in %s
+missing operating system information
+missing operating system information for %s
+missing devices information for %s
+too many drivers registered in %s
+library call failed, possibly not supported
+library call %s failed, possibly not supported
+XML description not well formed or invalid
+XML description for %s is not well formed or invalid
+operation forbidden for read only access
+operation %s forbidden for read only access
+failed to open configuration file for reading
+failed to read configuration file
+failed to read configuration file %s
+failed to parse configuration file
+failed to parse configuration file %s
+configuration file syntax error
+configuration file syntax error: %s
+failed to write configuration file
+failed to write configuration file: %s
+Failed to find the network: %s
+invalid storage pool pointer in
+invalid storage pool pointer in %s
+invalid storage volume pointer in
+invalid storage volume pointer in %s
+Failed to find a storage driver
+Failed to find a storage driver: %s
+Failed to find a node driver: %s
+invalid node device pointer in %s
+libvir: %s%s %s%s: line %d: %s
+Invalid parameter to virXPathNode()
+Invalid parameter to virXPathBoolean()
+Invalid parameter to virXPathNodeSet()
+Invalid parameter to virXPathULong()
+Invalid parameter to virXPathNumber()
+Invalid parameter to virXPathLong()
+Invalid parameter to virXPathString()
+'%s' value longer than %Zd bytes in virXPathStringLimit()
+xml.c
+virXPathNodeSet
+virXPathNode
+virXPathBoolean
+virXPathULongLong
+virXPathULongBase
+virXPathLongBase
+virXPathNumber
+virXPathStringLimit
+virXPathString
+Crelease connection %p
+file.datatypes.c
+unref dev %p %s %d
+release dev %p %s
+unref connection %p %d
+unref vol %p %s %d
+release vol %p %s
+unref pool %p %s %d
+release pool %p %s
+unref network %p %s %d
+release network %p %s
+unref domain %p %s %d
+release domain %p %s
+New hash entry %p
+dev missing from connection hash table
+vol missing from connection hash table
+pool missing from connection hash table
+network missing from connection hash table
+domain missing from connection hash table
+failed to add node dev to conn hash table
+failed to add storage vol to connection hash table
+failed to add storage pool to connection hash table
+failed to add network to connection hash table
+failed to add domain to connection hash table
+Existing hash entry %p: refs now %d
+virUnrefNodeDevice
+virReleaseNodeDevice
+virReleaseNodeDevice
+virReleaseConnect
+virGetNodeDevice
+virUnrefStorageVol
+virUnrefStorageVol
+virReleaseStorageVol
+virReleaseStorageVol
+virGetStorageVol
+virUnrefStoragePool
+virUnrefStoragePool
+virReleaseStoragePool
+virReleaseStoragePool
+virGetStoragePool
+virUnrefNetwork
+virUnrefNetwork
+virReleaseNetwork
+virReleaseNetwork
+virGetNetwork
+virUnrefDomain
+virUnrefDomain
+virReleaseDomain
+virReleaseDomain
+virGetDomain
+virGetDomain
+virUnrefConnect
+virUnrefConnect
+virGetConnect
+file.domain_event.c
+Error reallocating queue
+Error allocating event
+Error reallocating list
+WARNING: Callback already tracked
+virDomainEventQueuePush
+virDomainEventCallbackListAdd
+/proc/net/dev
+/dev/
+/dev/%s
+stats_linux.c
+/dev/sd[a-z]([1-9]|1[0-5])?$
+/dev/sdi[a-v]([1-9]|1[0-5])?$
+/dev/xvd[a-p]([1-9]|1[0-5])?$
+/dev/xvd[q-z]([1-9]|1[0-5])?$
+/dev/sd
+/dev/hd
+/dev/xvd
+rd_req
+rd_sect
+wr_req
+wr_sect
+oo_req
+%lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld %lld
+/proc/net/dev: Interface not found
+/sys/devices/xen-backend/vbd-%d-%d/statistics/%s
+/sys/devices/xen-backend/tap-%d-%d/statistics/%s
+/local/domain/0/backend/vbd/%d/%d/state
+/dev/sd[a-h][a-z]([1-9]|1[0-5])?$
+/dev/hd[a-t]([1-9]|[1-5][0-9]|6[0-3])?$
+/dev/xvd[a-i][a-z]([1-9]|1[0-5])?$
+invalid path, device names must be in the range sda[1-15] - sdiv[1-15]
+invalid path, device names must be in the range hda[1-63] - hdt[1-63]
+invalid path, device names must be in the range xvda[1-15] - xvdiz[1-15]
+unsupported path, use xvdN, hdN, or sdN
+Failed to read any block statistics
+Frontend block device not connected
+stats->rd_bytes would overflow 64 bit counter
+stats->wr_bytes would overflow 64 bit counter
+linuxDomainInterfaceStats
+read_bd_stats
+xenLinuxDomainDeviceID
+PolicyKit
+/usr/bin/polkit-auth
+--obtain
+conn=%p, cb=%p
+file.libvirt.c
+conn=%p, name=%p
+(null)
+conn=%p, cap=%s, flags=%d
+pool=%p, flags=%u
+conn=%p, path=%s
+conn=%p, key=%s
+pool=%p, name=%s
+pool=%p
+conn=%p, xml=%s
+conn=%p, xmlDesc=%s
+vol=%p
+conn=%p, uuid=%s
+conn=%p, name=%s
+conn=%p, info=%p
+conn=%p, id=%d
+conn=%p, xmlDesc=%s, flags=%d
+conn=%p, ids=%p, maxids=%d
+conn=%p, type=%s
+conn=%p, hvVer=%p
+conn=%p, feature=%d
+vol=%p, flags=%u
+pool=%p, autostart=%d
+pool=%p, autostart=%p
+pool=%p flags=%u
+network=%p, autostart=%d
+network=%p, autostart=%p
+network=%p
+network=%p, flags=%d
+net=%p
+domain=%p, xml=%s
+domain=%p
+domain=%p, nvcpus=%u
+domain=%p, autostart=%d
+domain=%p, autostart=%p
+domain=%p, nparams=%p
+domain=%p, memory=%lu
+domain=%p, flags=%u
+dom=%p
+dev=%p refs=%d
+vol=%p refs=%d
+pool=%p refs=%d
+network=%p refs=%d
+domain=%p refs=%d
+conn=%p refs=%d
+vol=%p, info=%p
+pool=%p, info=%p
+domain=%p, info=%p
+pool=%p, uuid=%p
+pool=%p, buf=%p
+network=%p, uuid=%p
+network=%p, buf=%p
+domain=%p, uuid=%p
+domain=%p, buf=%p
+conn=%p, uuidstr=%s
+path is NULL
+flags must be zero
+buffer is NULL
+domain=%p, flags=%d
+domain=%p, to=%s, flags=%d
+cannot get current directory
+path too long
+conn=%p, from=%s
+cannot get working directory
+domain=%p, to=%s
+LIBVIRT_DEFAULT_URI
+Using LIBVIRT_DEFAULT_URI %s
+xen:///
+xen://
+trying driver %d (%s) ...
+DECLINED
+unknown status
+Is the daemon running ?
+node driver %d %s returned %s
+Is the %s daemon running?
+SUCCESS
+ERROR
+remote
+LIBVIRT_DEBUG
+LIBVIRT_LOG_FILTERS
+LIBVIRT_LOG_OUTPUTS
+register drivers
+/usr/share/locale
+name=%s, auth=%p, flags=%d
+Test
+QEMU
+OpenVZ
+Remote
+registering %s as driver %d
+dev=%p, conn=%p
+conn=%p, cb=%p, opaque=%p, freecb=%p
+conn=%p, cap=%s, names=%p, maxnames=%d, flags=%d
+pool=%p, names=%p, maxnames=%d
+conn=%p, type=%s, src=%s, flags=%u
+conn=%p, freeMems=%p, startCell=%d, maxCells=%d
+dconn=%p, dname=%s, cookie=%p, cookielen=%d, uri=%s, flags=%lu, retcode=%d
+dconn=%p, cookie=%p, cookielen=%p, uri_in=%s, uri_out=%p,flags=%lu, dname=%s, bandwidth=%lu, dom_xml=%s
+dconn=%p, dname=%s, cookie=%p, cookielen=%d, uri=%s, flags=%lu
+dconn=%p, cookie=%p, cookielen=%p, uri_in=%s, uri_out=%p, flags=%lu, dname=%s, bandwidth=%lu
+domain=%p, info=%p, maxinfo=%d, cpumaps=%p, maplen=%d
+domain=%p, vcpu=%u, cpumap=%p, maplen=%d
+domain=%p, params=%p, nparams=%d
+domain=%p, params=%p, nparams=%p
+domain=%p, cookie=%p, cookielen=%d, uri=%s, flags=%lu, dname=%s, bandwidth=%lu
+domain=%p, path=%s, stats=%p, size=%zi
+domain=%p, start=%lld, size=%zi, buffer=%p, flags=%d
+flags parameter must be VIR_MEMORY_VIRTUAL
+buffer is NULL but size is non-zero
+domain=%p, path=%s, offset=%lld, size=%zi, buffer=%p
+virDomainGetXMLDesc with secure flag
+domain=%p, dconn=%p, flags=%lu, dname=%s, uri=%s, bandwidth=%lu
+domainMigratePrepare did not set uri
+domainMigratePrepare2 did not set uri
+could not parse connection URI
+name "%s" to URI components:
+  scheme %s
+  opaque %s
+  authority %s
+  server %s
+  user %s
+  port %d
+  path %s
+network driver %d %s returned %s
+storage driver %d %s returned %s
+Is the libvirtd daemon running ?
+no name, allowing driver auto-select
+libVir=%p, type=%s, typeVer=%p
+virRegisterDriver: tried to register an internal Xen driver
+registering %s as device driver %d
+registering %s as storage driver %d
+registering %s as network driver %d
+dev=%p, conn=%p, names=%p, maxnames=%d
+virConnectDomainEventDeregister
+virConnectDomainEventDeregister
+virConnectDomainEventRegister
+virConnectDomainEventRegister
+virNodeDeviceReset
+virNodeDeviceReset
+virNodeDeviceReAttach
+virNodeDeviceReAttach
+virNodeDeviceDettach
+virNodeDeviceDettach
+virNodeDeviceRef
+virNodeDeviceRef
+virNodeDeviceFree
+virNodeDeviceFree
+virNodeDeviceListCaps
+virNodeDeviceListCaps
+virNodeDeviceNumOfCaps
+virNodeDeviceNumOfCaps
+virNodeDeviceGetParent
+virNodeDeviceGetParent
+virNodeDeviceGetName
+virNodeDeviceGetName
+virNodeDeviceGetXMLDesc
+virNodeDeviceGetXMLDesc
+virNodeDeviceLookupByName
+virNodeDeviceLookupByName
+virNodeListDevices
+virNodeListDevices
+virNodeNumOfDevices
+virNodeNumOfDevices
+virStorageVolGetPath
+virStorageVolGetPath
+virStorageVolGetXMLDesc
+virStorageVolGetXMLDesc
+virStorageVolGetInfo
+virStorageVolGetInfo
+virStorageVolRef
+virStorageVolRef
+virStorageVolFree
+virStorageVolFree
+virStorageVolDelete
+virStorageVolDelete
+virStorageVolCreateXML
+virStorageVolCreateXML
+virStorageVolGetKey
+virStorageVolGetKey
+virStorageVolGetName
+virStorageVolGetName
+virStorageVolLookupByPath
+virStorageVolLookupByPath
+virStorageVolLookupByKey
+virStorageVolLookupByKey
+virStorageVolLookupByName
+virStorageVolLookupByName
+virStorageVolGetConnect
+virStorageVolGetConnect
+virStoragePoolListVolumes
+virStoragePoolListVolumes
+virStoragePoolNumOfVolumes
+virStoragePoolNumOfVolumes
+virStoragePoolSetAutostart
+virStoragePoolSetAutostart
+virStoragePoolGetAutostart
+virStoragePoolGetAutostart
+virStoragePoolGetXMLDesc
+virStoragePoolGetXMLDesc
+virStoragePoolGetInfo
+virStoragePoolGetInfo
+virStoragePoolGetUUIDString
+virStoragePoolGetUUIDString
+virStoragePoolGetUUID
+virStoragePoolGetUUID
+virStoragePoolGetName
+virStoragePoolGetName
+virStoragePoolRefresh
+virStoragePoolRefresh
+virStoragePoolRef
+virStoragePoolRef
+virStoragePoolFree
+virStoragePoolFree
+virStoragePoolDelete
+virStoragePoolDelete
+virStoragePoolDestroy
+virStoragePoolDestroy
+virStoragePoolCreate
+virStoragePoolCreate
+virStoragePoolUndefine
+virStoragePoolUndefine
+virStoragePoolBuild
+virStoragePoolBuild
+virStoragePoolDefineXML
+virStoragePoolDefineXML
+virStoragePoolCreateXML
+virStoragePoolCreateXML
+virStoragePoolLookupByVolume
+virStoragePoolLookupByVolume
+virStoragePoolLookupByUUIDString
+virStoragePoolLookupByUUIDString
+virStoragePoolLookupByUUID
+virStoragePoolLookupByUUID
+virStoragePoolLookupByName
+virStoragePoolLookupByName
+virConnectFindStoragePoolSources
+virConnectFindStoragePoolSources
+virConnectListDefinedStoragePools
+virConnectListDefinedStoragePools
+virConnectNumOfDefinedStoragePools
+virConnectNumOfDefinedStoragePools
+virConnectListStoragePools
+virConnectListStoragePools
+virConnectNumOfStoragePools
+virConnectNumOfStoragePools
+virStoragePoolGetConnect
+virStoragePoolGetConnect
+virNetworkSetAutostart
+virNetworkSetAutostart
+virNetworkGetAutostart
+virNetworkGetAutostart
+virNetworkGetBridgeName
+virNetworkGetBridgeName
+virNetworkGetXMLDesc
+virNetworkGetXMLDesc
+virNetworkGetUUIDString
+virNetworkGetUUIDString
+virNetworkGetUUID
+virNetworkGetUUID
+virNetworkGetName
+virNetworkGetName
+virNetworkRef
+virNetworkRef
+virNetworkFree
+virNetworkFree
+virNetworkDestroy
+virNetworkDestroy
+virNetworkCreate
+virNetworkCreate
+virNetworkUndefine
+virNetworkUndefine
+virNetworkDefineXML
+virNetworkDefineXML
+virNetworkCreateXML
+virNetworkCreateXML
+virNetworkLookupByUUIDString
+virNetworkLookupByUUIDString
+virNetworkLookupByUUID
+virNetworkLookupByUUID
+virNetworkLookupByName
+virNetworkLookupByName
+virConnectListDefinedNetworks
+virConnectListDefinedNetworks
+virConnectNumOfDefinedNetworks
+virConnectNumOfDefinedNetworks
+virConnectListNetworks
+virConnectListNetworks
+virConnectNumOfNetworks
+virConnectNumOfNetworks
+virNetworkGetConnect
+virNetworkGetConnect
+virNodeGetCellsFreeMemory
+virNodeGetCellsFreeMemory
+virDomainDetachDevice
+virDomainDetachDevice
+virDomainAttachDevice
+virDomainAttachDevice
+virNodeGetSecurityModel
+virDomainGetSecurityLabel
+virDomainGetMaxVcpus
+virDomainGetMaxVcpus
+virDomainGetVcpus
+virDomainGetVcpus
+virDomainPinVcpu
+virDomainPinVcpu
+virDomainSetVcpus
+virDomainSetVcpus
+virDomainSetAutostart
+virDomainSetAutostart
+virDomainGetAutostart
+virDomainGetAutostart
+virDomainCreate
+virDomainCreate
+virConnectListDefinedDomains
+virConnectListDefinedDomains
+virConnectNumOfDefinedDomains
+virConnectNumOfDefinedDomains
+virDomainUndefine
+virDomainUndefine
+virDomainDefineXML
+virDomainDefineXML
+virDomainMemoryPeek
+virDomainMemoryPeek
+virDomainBlockPeek
+virDomainBlockPeek
+virDomainInterfaceStats
+virDomainInterfaceStats
+virDomainBlockStats
+virDomainBlockStats
+virDomainSetSchedulerParameters
+virDomainSetSchedulerParameters
+virDomainGetSchedulerParameters
+virDomainGetSchedulerParameters
+virDomainGetSchedulerType
+virDomainGetSchedulerType
+virNodeGetFreeMemory
+virNodeGetFreeMemory
+virConnectGetCapabilities
+virConnectGetCapabilities
+virNodeGetInfo
+virNodeGetInfo
+virDomainMigrateFinish2
+virDomainMigrateFinish2
+virDomainMigratePrepare2
+virDomainMigratePrepare2
+virDomainMigrateFinish
+virDomainMigrateFinish
+virDomainMigratePerform
+virDomainMigratePerform
+virDomainMigratePrepare
+virDomainMigratePrepare
+virDomainMigrate
+virDomainMigrate
+virDomainGetXMLDesc
+virDomainGetXMLDesc
+virDomainGetInfo
+virDomainGetInfo
+virDomainSetMemory
+virDomainSetMemory
+virDomainSetMaxMemory
+virDomainSetMaxMemory
+virDomainGetMaxMemory
+virDomainGetMaxMemory
+virDomainGetOSType
+virDomainGetOSType
+virDomainGetID
+virDomainGetID
+virDomainGetUUIDString
+virDomainGetUUIDString
+virDomainGetUUID
+virDomainGetUUID
+virDomainGetName
+virDomainGetName
+virDomainReboot
+virDomainReboot
+virDomainShutdown
+virDomainShutdown
+virDomainCoreDump
+virDomainCoreDump
+virDomainRestore
+virDomainRestore
+virDomainSave
+virDomainSave
+virDomainResume
+virDomainResume
+virDomainSuspend
+virDomainSuspend
+virDomainRef
+virDomainRef
+virDomainFree
+virDomainFree
+virDomainDestroy
+virDomainDestroy
+virDomainLookupByName
+virDomainLookupByName
+virDomainLookupByUUIDString
+virDomainLookupByUUIDString
+virDomainLookupByUUID
+virDomainLookupByUUID
+virDomainLookupByID
+virDomainLookupByID
+virDomainCreateXML
+virDomainCreateXML
+virDomainGetConnect
+virDomainGetConnect
+virConnectNumOfDomains
+virConnectNumOfDomains
+virConnectListDomains
+virConnectListDomains
+virConnectGetMaxVcpus
+virConnectGetMaxVcpus
+virConnectGetURI
+virConnectGetURI
+virConnectGetHostname
+virConnectGetHostname
+virConnectGetVersion
+virConnectGetVersion
+virConnectGetType
+virConnectGetType
+virDrvSupportsFeature
+virDrvSupportsFeature
+virConnectRef
+virConnectRef
+virConnectClose
+virConnectClose
+virConnectOpenAuth
+do_open
+virConnectOpenReadOnly
+virConnectOpen
+virGetVersion
+virRegisterStateDriver
+virRegisterDriver
+virRegisterDriver
+virRegisterDeviceMonitor
+virRegisterDeviceMonitor
+virRegisterStorageDriver
+virRegisterStorageDriver
+virRegisterNetworkDriver
+virRegisterNetworkDriver
+virInitialize
+<capabilities>
+  <host>
+    <cpu>
+      <arch>%s</arch>
+      <features>
+        <%s/>
+      </features>
+    </cpu>
+    <migration_features>
+      <live/>
+      <uri_transports>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='%d'>
+        <cell id='%d'>
+          <cpus num='%d'>
+            <cpu id='%d'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>%s</model>
+      <doi>%s</doi>
+    </secmodel>
+  </host>
+  <guest>
+    <os_type>%s</os_type>
+    <arch name='%s'>
+      <machine>%s</machine>
+      <domain type='%s'>
+        <loader>%s</loader>
+      </domain>
+    </arch>
+nonpae
+ia64_be
+  </guest>
+</capabilities>
+        <uri_transport>%s</uri_transport>
+      <wordsize>%d</wordsize>
+      <emulator>%s</emulator>
+        <emulator>%s</emulator>
+        <machine>%s</machine>
+      <%s default='%s' toggle='%s'/>
+%s/%s.xml
+domain_conf.c
+cannot remove config %s
+cannot write config file '%s'
+cannot save config file '%s'
+%d-%d
+topology cpuset syntax error
+stdio
+connect
+service
+telnet
+at line %d: %s
+cannot initialize mutex
+unknown hostdev mode '%s'
+unknown host device type '%s'
+missing type in hostdev
+managed
+cannot parse vendor id %s
+usb vendor needs id
+cannot parse product %s
+usb product needs id
+cannot parse bus %s
+usb address needs bus id
+cannot parse device %s
+usb address needs device id
+unknown usb source type '%s'
+missing vendor
+missing product
+cannot parse domain %s
+pci address needs bus id
+cannot parse slot %s
+function
+pci address needs slot id
+cannot parse function %s
+pci address needs function id
+unknown pci source type '%s'
+unknown node %s
+missing input device type
+unknown input bus type '%s'
+unsupported input bus %s
+unknown sound model '%s'
+unknown interface type '%s'
+vnet
+unknown filesystem type '%s'
+readonly
+unknown disk type '%s'
+ioemu:
+shareable
+unknown disk device '%s'
+unknown disk bus type '%s'
+unknown disk cache mode '%s'
+device.xml
+missing root element
+unknown device type
+unknown lifecycle action %s
+unexpected input type %d
+unexpected input bus type %d
+unexpected char type %d
+    <%s type='%s'
+console
+      <source path='%s'/>
+      <protocol type='%s'/>
+      <source mode='%s'
+      <target port='%d'/>
+    </%s>
+unexpected lifecycle type %d
+  <%s>%s</%s>
+unknown virt type
+unexpected domain type %d
+<domain type='%s' id='%d'>
+  <memory>%lu</memory>
+  <vcpu>%lu</vcpu>
+  <os>
+    <type
+ arch='%s'
+ machine='%s'
+    <init>%s</init>
+    <kernel>%s</kernel>
+    <initrd>%s</initrd>
+    <cmdline>%s</cmdline>
+    <root>%s</root>
+    <boot dev='%s'/>
+  </os>
+unexpected feature %d
+  <clock offset='%s'/>
+  <devices>
+    <emulator>%s</emulator>
+unexpected disk type %d
+unexpected disk device %d
+unexpected disk bus %d
+unexpected disk cache mode %d
+      <driver name='%s'
+ cache='%s'
+      <source file='%s'/>
+      <source dev='%s'/>
+      <readonly/>
+      <shareable/>
+    </disk>
+unexpected filesystem type %d
+    <filesystem type='%s'>
+      <source dir='%s'/>
+      <source name='%s'/>
+      <target dir='%s'/>
+    </filesystem>
+unexpected net type %d
+    <interface type='%s'>
+      <source network='%s'/>
+      <ip address='%s'/>
+      <script path='%s'/>
+      <source bridge='%s'/>
+      <source port='%d'/>
+      <target dev='%s'/>
+      <model type='%s'/>
+    </interface>
+    <graphics type='%s'
+ port='%d'
+ port='-1'
+ autoport='%s'
+ listen='%s'
+ keymap='%s'
+ passwd='%s'
+ display='%s'
+ xauth='%s'
+ fullscreen='yes'
+unexpected sound model %d
+    <sound model='%s'/>
+unexpected hostdev mode %d
+unexpected hostdev type %d
+      <source>
+      </source>
+    </hostdev>
+  </devices>
+  </seclabel>
+incorrect root element
+string(./@id)
+string(./@type)
+missing domain type attribute
+invalid domain type %s
+string(./name[1])
+string(./uuid[1])
+Failed to generate UUID
+malformed uuid element
+string(./memory[1])
+missing memory element
+string(./currentMemory[1])
+string(./vcpu[1])
+string(./vcpu[1]/@cpuset)
+./features/*
+unexpected feature %s
+string(./on_reboot[1])
+string(./on_poweroff[1])
+string(./on_crash[1])
+string(./clock/@offset)
+string(./bootloader)
+string(./bootloader_args)
+string(./os/type[1])
+no OS type
+string(./os/type[1]/@arch)
+string(./os/type[1]/@machine)
+string(./os/init[1])
+string(./os/kernel[1])
+string(./os/initrd[1])
+string(./os/cmdline[1])
+string(./os/root[1])
+string(./os/loader[1])
+./os/boot
+cannot extract boot device
+missing boot device
+unknown boot device '%s'
+string(./devices/emulator[1])
+./devices/disk
+cannot extract disk devices
+./devices/filesystem
+./devices/interface
+./devices/parallel
+./devices/serial
+cannot extract serial devices
+./devices/console[1]
+./devices/input
+cannot extract input devices
+./devices/graphics
+missing graphics device type
+cannot parse vnc port %s
+autoport
+fullscreen
+unknown fullscreen value '%s'
+xauth
+./devices/sound
+cannot extract sound devices
+./devices/hostdev
+cannot extract host devices
+./seclabel
+string(./seclabel/@type)
+missing security type
+invalid security type
+string(./seclabel/@model)
+missing security model
+string(./seclabel/label[1])
+security label is missing
+failed to parse xml document
+Failed to open dir '%s'
+domain.xml
+dynamic
+static
+nostate
+shutoff
+crashed
+subsystem
+mouse
+tablet
+sb16
+es1370
+pcspk
+ac97
+user
+ethernet
+client
+mcast
+mount
+block
+template
+none
+writethrough
+writeback
+virtio
+floppy
+rename-restart
+preserve
+kqemu
+openvz
+vserver
+ldom
+test
+vmware
+hyperv
+virDomainDefDefaultEmulator
+virDomainConfigFile
+virDomainDeleteConfig
+virDomainLoadAllConfigs
+virDomainSaveXML
+virDomainDefFormat
+virDomainLifecycleDefFormat
+virDomainDiskDefFormat
+virDomainFSDefFormat
+virDomainNetDefFormat
+virDomainChrDefFormat
+virDomainInputDefFormat
+virDomainGraphicsDefFormat
+virDomainSoundDefFormat
+virDomainHostdevDefFormat
+virDomainCpuSetParse
+virDomainCpuSetFormat
+virDomainDefParseNode
+virDomainDefParseXML
+virDomainLifecycleParseXML
+virDomainDiskDefParseXML
+virDomainFSDefParseXML
+virDomainNetDefParseXML
+virDomainChrDefParseXML
+virDomainInputDefParseXML
+virDomainGraphicsDefParseXML
+virDomainSoundDefParseXML
+virDomainHostdevDefParseXML
+virDomainHostdevSubsysUsbDefParseXML
+virDomainHostdevSubsysPciDefParseXML
+virSecurityLabelDefParseXML
+virDomainDefParseFile
+catchXMLError
+virDomainDefParseString
+virDomainDeviceDefParse
+virDomainAssignDef
+cannot create config directory '%s'
+cannot create config file '%s'
+Missing source path attribute for char device
+Missing source host attribute for char device
+Missing source service attribute for char device
+unknown input device type '%s'
+ps2 bus does not support %s input device
+xen bus does not support %s input device
+No <source> 'network' attribute specified with <interface type='network'/>
+No <source> 'dev' attribute specified with <interface type='bridge'/>
+No <source> 'port' attribute specified with socket interface
+Cannot parse <source> 'port' attribute with socket interface
+No <source> 'address' attribute specified with socket interface
+Model name contains invalid characters
+Invalid floppy device name: %s
+Invalid harddisk device name: %s
+Invalid bus type '%s' for floppy disk
+Invalid bus type '%s' for disk
+    <input type='%s' bus='%s'/>
+      <source mode='bind' host='%s' service='%s'/>
+      <source mode='bind' host='%s'/>
+      <source mode='bind' service='%s'/>
+      <source mode='connect' host='%s' service='%s'/>
+      <source mode='connect' host='%s'/>
+      <source mode='connect' service='%s'/>
+      <source mode='%s' host='%s' service='%s'/>
+no emulator for domain %s os type %s on architecture %s
+  <currentMemory>%lu</currentMemory>
+  <vcpu cpuset='%s'>%lu</vcpu>
+  <bootloader>%s</bootloader>
+  <bootloader_args>%s</bootloader_args>
+unexpected boot device type %d
+    <disk type='%s' device='%s'>
+      <target dev='%s' bus='%s'/>
+      <mac address='%02x:%02x:%02x:%02x:%02x:%02x'/>
+      <source address='%s' port='%d'/>
+    <hostdev mode='%s' type='%s' managed='%s'>
+        <vendor id='0x%.4x'/>
+        <product id='0x%.4x'/>
+        <address bus='%d' device='%d'/>
+        <address domain='0x%.4x' bus='0x%.2x' slot='0x%.2x' function='0x%.1x'/>
+  <seclabel type='%s' model='%s'/>
+  <seclabel type='%s' model='%s'>
+    <imagelabel>%s</imagelabel>
+os type '%s' & arch '%s' combination is not supported
+no supported architecture for os type '%s'
+cannot extract filesystem devices
+cannot extract network devices
+cannot extract parallel devices
+cannot extract graphics devices
+unknown graphics device type '%s'
+string(./seclabel/imagelabel[1])
+security imagelabel is missing
+parsing cpuinfo processor
+parsing cpuinfo cpu MHz
+parsing cpuinfo cpu cores %c
+no cpus found
+/proc/cpuinfo
+nodeinfo.c
+virNodeInfoPopulate
+P?network_conf.c
+virbr%d
+string(./domain[1]/@name)
+string(./bridge[1]/@name)
+string(./bridge[1]/@stp)
+string(./bridge[1]/@delay)
+string(./ip[1]/@address)
+string(./ip[1]/@netmask)
+cannot parse IP address '%s'
+cannot parse netmask '%s'
+./ip[1]/dhcp[1]
+range
+cannot parse MAC address '%s'
+cannot use name address '%s'
+count(./forward) > 0
+string(./forward[1]/@mode)
+unknown forwarding type '%s'
+string(./forward[1]/@dev)
+network.xml
+<network>
+  <forward dev='%s'
+  <forward
+ mode='%s'/>
+  <bridge
+  <ip
+ address='%s'
+ netmask='%s'
+    <dhcp>
+      <host 
+mac='%s' 
+name='%s' 
+ip='%s' 
+    </dhcp>
+  </ip>
+</network>
+route
+Bridge generation exceeded max id %d
+bridge name '%s' already in use.
+cannot remove config file '%s'
+Forwarding requested, but no IPv4 address/netmask provided
+Network config filename '%s' does not match network name '%s'
+ stp='%s' forwardDelay='%ld' />
+      <range start='%s' end='%s' />
+virNetworkSetBridgeName
+virNetworkAllocateBridge
+virNetworkConfigFile
+virNetworkDeleteConfig
+virNetworkLoadAllConfigs
+virNetworkLoadConfig
+virNetworkSaveXML
+virNetworkDefFormat
+virNetworkDefParseNode
+virNetworkDefParseXML
+virNetworkDHCPRangeDefParseXML
+virNetworkDefParseFile
+catchXMLError
+virNetworkDefParseString
+virNetworkAssignDef
+missing backend for pool type %d
+    <freeExtent start='%llu' end='%llu'/>
+    <auth type='chap' login='%s' passwd='%s'>
+unknown volume format number %d
+      <extent start='%llu' end='%llu'/>
+  <allocation>%llu</allocation>
+capacity element value too large
+string(/volume/capacity/@unit)
+string(/volume/allocation/@unit)
+string(/volume/target/format/@type)
+string(/volume/backingStore/path)
+string(/volume/backingStore/format/@type)
+/volume/backingStore/permissions
+unknown root element for storage pool
+missing pool source name element
+string(/pool/source/format/@type)
+string(/pool/source/host/@name)
+missing storage pool source host name
+cannot extract storage pool source devices
+missing storage pool source device path
+string(/pool/source/dir/@path)
+missing storage pool source path
+string(/pool/source/adapter/@name)
+missing storage pool source adapter name
+string(/pool/source/auth/@type)
+string(/pool/source/auth/@login)
+string(/pool/source/auth/@passwd)
+missing storage pool target path
+Config filename '%s/%s' is too long
+Autostart link path '%s/%s' is too long
+Error parsing storage pool config '%s' : %s
+Storage pool config filename '%s' does not match pool name '%s'
+Failed to load storage pool config '%s': out of memory
+  <available>%llu</available>
+cannot create config directory %s
+cannot construct config file path
+cannot construct autostart link path
+storage_conf.c
+    <host name='%s'/>
+    <device path='%s'>
+    </device>
+    <device path='%s'/>
+    <dir path='%s'/>
+    <adapter name='%s'/>
+    <name>%s</name>
+unknown pool format number %d
+    <format type='%s'/>
+  <%s>
+    <path>%s</path>
+    <permissions>
+      <mode>0%o</mode>
+      <owner>%d</owner>
+      <group>%d</group>
+      <label>%s</label>
+    </permissions>
+no config file for %s
+cannot remove config for %s
+<volume>
+  <key>%s</key>
+  <capacity>%llu</capacity>
+backingStore
+</volume>
+unknown size units '%s'
+malformed capacity element
+string(./mode)
+malformed octal mode
+./owner
+number(./owner)
+malformed owner element
+./group
+number(./group)
+malformed group element
+string(./label)
+storage.xml
+volume
+unknown root element
+string(/volume/name)
+missing volume name element
+string(/volume/capacity)
+missing capacity element
+string(/volume/allocation)
+string(/volume/target/path)
+unknown volume format type %s
+/volume/target/permissions
+unknown storage pool type %s
+string(/pool/name)
+string(/pool/source/name)
+string(/pool/uuid)
+unable to generate uuid
+unknown pool format type %s
+/pool/source/device
+chap
+unknown auth type '%s'
+missing auth host attribute
+missing auth passwd attribute
+string(/pool/target/path)
+/pool/target/permissions
+Failed to open dir '%s': %s
+unexpected pool type
+<sources>
+</sources>
+<pool type='%s'>
+  <target>
+  </target>
+</pool>
+failed to generate XML
+cannot create config file %s
+cannot write config file %s
+cannot save config file %s
+bochs
+cloop
+qcow
+qcow2
+vmdk
+fat16
+fat32
+linux-swap
+linux-lvm
+linux-raid
+extended
+lvm2
+pc98
+auto
+ext2
+ext3
+ext4
+iso9660
+gfs2
+vfat
+hfs+
+netfs
+logical
+iscsi
+virStoragePoolSourceListFormat
+virStoragePoolTypeInfoLookup
+virStoragePoolSourceFormat
+virStoragePoolObjDeleteDef
+virStoragePoolObjSaveDef
+virStoragePoolObjAssignDef
+virStorageVolDefFormat
+virStorageVolTargetDefFormat
+virStorageVolDefParse
+virStorageVolDefParseDoc
+virStorageSize
+virStorageDefParsePerms
+catchXMLError
+virStoragePoolDefFormat
+virStoragePoolDefParse
+virStoragePoolDefParseDoc
+virStoragePoolDefParseAuthChap
+virNodeDeviceDefParseString
+virNodeDeviceDefParseNode
+virNodeDeviceDefParseXML
+virNodeDevCapsDefParseXML
+virNodeDevCapSystemParseXML
+virNodeDevCapsDefParseULong
+virNodeDevCapsDefParseHexId
+virNodeDevCapNetParseXML
+virNodeDevCapStorageParseXML
+virNodeDevCapsDefParseULongLong
+catchXMLError
+virNodeDeviceDefFormat
+virNodeDeviceAssignDef
+node_device_conf.c
+missing capability type
+unknown capability type '%s'
+string(./product[1])
+string(./hardware/vendor[1])
+string(./hardware/version[1])
+string(./hardware/serial[1])
+string(./hardware/uuid[1])
+string(./firmware/vendor[1])
+string(./firmware/version[1])
+number(./domain[1])
+number(./bus[1])
+number(./slot[1])
+number(./function[1])
+string(./vendor[1]/@id)
+string(./product[1]/@id)
+string(./vendor[1])
+number(./device[1])
+number(./number[1])
+number(./class[1])
+number(./subclass[1])
+number(./protocol[1])
+string(./description[1])
+string(./interface[1])
+string(./address[1])
+string(./capability/@type)
+number(./host[1])
+number(./target[1])
+number(./lun[1])
+string(./type[1])
+string(./block[1])
+string(./bus[1])
+string(./drive_type[1])
+string(./model[1])
+./capability
+hotpluggable
+removable
+number(./media_size[1])
+no size supplied for '%s'
+number(./size[1])
+string(./parent[1])
+<device>
+  <parent>%s</parent>
+  <capability type='%s'>
+    <product>%s</product>
+    <hardware>
+      <vendor>%s</vendor>
+      <version>%s</version>
+      <serial>%s</serial>
+      <uuid>%s</uuid>
+    </hardware>
+    <firmware>
+    </firmware>
+    <domain>%d</domain>
+    <bus>%d</bus>
+    <slot>%d</slot>
+    <function>%d</function>
+    <product id='0x%04x'
+    <vendor id='0x%04x'
+    <device>%d</device>
+    <number>%d</number>
+    <class>%d</class>
+    <subclass>%d</subclass>
+    <protocol>%d</protocol>
+    <address>%s</address>
+    <capability type='%s'/>
+    <host>%d</host>
+    <target>%d</target>
+    <lun>%d</lun>
+    <type>%s</type>
+    <block>%s</block>
+    <bus>%s</bus>
+    </capability>
+    <size>%llu</size>
+80203
+80211
+usb_device
+scsi_host
+storage
+no system UUID supplied for '%s'
+malformed uuid element for '%s'
+string(./firmware/release_date[1])
+invalid PCI domain ID supplied for '%s'
+no PCI domain ID supplied for '%s'
+invalid PCI bus ID supplied for '%s'
+no PCI bus ID supplied for '%s'
+invalid PCI slot ID supplied for '%s'
+no PCI slot ID supplied for '%s'
+invalid PCI function ID supplied for '%s'
+no PCI function ID supplied for '%s'
+invalid PCI vendor ID supplied for '%s'
+no PCI vendor ID supplied for '%s'
+invalid PCI product ID supplied for '%s'
+no PCI product ID supplied for '%s'
+invalid USB bus number supplied for '%s'
+no USB bus number supplied for '%s'
+invalid USB device number supplied for '%s'
+no USB device number supplied for '%s'
+invalid USB vendor ID supplied for '%s'
+no USB vendor ID supplied for '%s'
+invalid USB product ID supplied for '%s'
+no USB product ID supplied for '%s'
+invalid USB interface number supplied for '%s'
+no USB interface number supplied for '%s'
+invalid USB interface class supplied for '%s'
+no USB interface class supplied for '%s'
+invalid USB interface subclass supplied for '%s'
+no USB interface subclass supplied for '%s'
+invalid USB interface protocol supplied for '%s'
+no USB interface protocol supplied for '%s'
+no network interface supplied for '%s'
+invalid network type supplied for '%s'
+invalid SCSI host ID supplied for '%s'
+no SCSI host ID supplied for '%s'
+invalid SCSI bus ID supplied for '%s'
+no SCSI bus ID supplied for '%s'
+invalid SCSI target ID supplied for '%s'
+no SCSI target ID supplied for '%s'
+invalid SCSI LUN ID supplied for '%s'
+no SCSI LUN ID supplied for '%s'
+no block device path supplied for '%s'
+error parsing storage capabilities for '%s'
+missing storage capability type for '%s'
+count(./media_available[. = '1']) > 0
+invalid removable media size supplied for '%s'
+no removable media size supplied for '%s'
+unknown storage capability type '%s' for '%s'
+invalid size supplied for '%s'
+unknown capability type '%d' for '%s'
+no device capabilities for '%s'
+      <release_date>%s</release_date>
+    <description>%s</description>
+    <interface>%s</interface>
+    <drive_type>%s</drive_type>
+    <capability type='removable'>
+      <media_available>%d</media_available>
+      <media_size>%llu</media_size>
+    <capability type='hotpluggable' />
+pool has no config file
+Range exceeds available cells
+storage vol already exists
+storage pool already exists
+Network '%s' is still running
+nparams
+field
+Domain '%s' is still running
+domain '%s' not running
+domain '%s' not paused
+TestGuestMagic
+cannot read domain image '%s'
+mismatched header magic
+incomplete metdata in '%s'
+getting time of day
+cannot lookup hostname
+i686
+/usr/bin/test-hv
+/default
+creating xpath context
+string(/node/cpu/nodes[1])
+node cpu numa nodes
+string(/node/cpu/sockets[1])
+node cpu sockets
+string(/node/cpu/cores[1])
+node cpu cores
+string(/node/cpu/threads[1])
+node cpu threads
+string(/node/cpu/active[1])
+node active cpu
+string(/node/cpu/mhz[1])
+node cpu mhz
+string(/node/cpu/model[1])
+string(/node/memory[1])
+node memory
+/node/domain
+node domain list
+resolving domain filename
+/node/network
+node network list
+resolving network filename
+/node/pool
+node pool list
+resolving pool filename
+file.test.c
+no storage vol with matching name '%s'
+storage pool '%s' is not active
+storage pool '%s' is already active
+Not enough free space in pool for volume '%s'
+no storage vol with matching path '%s'
+no storage vol with matching key '%s'
+Network '%s' is already running
+Domain '%s' is already running
+domain '%s' coredump: failed to open %s
+domain '%s' coredump: failed to write header to %s
+domain '%s' coredump: write failed: %s
+incomplete save header in '%s'
+failed to read metadata length in '%s'
+length of metadata out of range
+saving domain '%s' failed to allocate space for metadata
+saving domain '%s' to '%s': open failed
+saving domain '%s' to '%s': write failed
+testOpen: supply a path or use test:///default
+loading host definition file '%s'
+virEventAddTimeout failed: No addTimeoutImpl defined. continuing without events.
+<domain type='test'>  <name>test</name>  <memory>8388608</memory>  <currentMemory>2097152</currentMemory>  <vcpu>2</vcpu>  <os>    <type>hvm</type>  </os></domain>
+<network>  <name>default</name>  <bridge name='virbr0' />  <forward/>  <ip address='192.168.122.1' netmask='255.255.255.0'>    <dhcp>      <range start='192.168.122.2' end='192.168.122.254' />    </dhcp>  </ip></network>
+<pool type='dir'>  <name>default-pool</name>  <target>    <path>/default-pool</path>  </target></pool>
+testStorageVolumeGetPath
+testStorageVolumeGetXMLDesc
+testStorageVolumeGetInfo
+testStorageVolumeDelete
+testStorageVolumeCreateXML
+testStorageVolumeLookupByPath
+testStorageVolumeLookupByKey
+testStorageVolumeLookupByName
+testStoragePoolListVolumes
+testStoragePoolNumVolumes
+testStoragePoolSetAutostart
+testStoragePoolGetAutostart
+testStoragePoolDumpXML
+testStoragePoolGetInfo
+testStoragePoolRefresh
+testStoragePoolDelete
+testStoragePoolDestroy
+testStoragePoolStart
+testStoragePoolUndefine
+testStoragePoolBuild
+testStoragePoolObjSetDefaults
+testStoragePoolCreate
+testStoragePoolLookupByUUID
+testStoragePoolLookupByName
+testStorageListDefinedPools
+testStorageListPools
+testNetworkSetAutostart
+testNetworkGetAutostart
+testNetworkGetBridgeName
+testNetworkDumpXML
+testNetworkDestroy
+testNetworkStart
+testNetworkUndefine
+testLookupNetworkByName
+testLookupNetworkByUUID
+testListDefinedNetworks
+testListNetworks
+testNodeGetCellsFreeMemory
+testDomainSetSchedulerParams
+testDomainGetSchedulerParams
+testDomainGetSchedulerType
+testDomainSetAutostart
+testDomainGetAutostart
+testDomainUndefine
+testDomainCreate
+testListDefinedDomains
+testDomainDumpXML
+testSetVcpus
+testDomainCoreDump
+testDomainRestore
+testDomainSave
+testGetDomainInfo
+testSetMemory
+testSetMaxMemory
+testGetMaxMemory
+testGetOSType
+testDestroyDomain
+testRebootDomain
+testShutdownDomain
+testResumeDomain
+testPauseDomain
+testLookupDomainByName
+testLookupDomainByUUID
+testLookupDomainByID
+testGetCapabilities
+testGetHostname
+testOpen
+testOpen
+testOpenDefault
+testBuildCapabilities
+testOpenFromFile
+cannot send data
+server closed connection
+cannot recv data
+Cannot access %s '%s'
+Cannot resolve address %d: %s
+file.remote_internal.c
+invalid header in reply
+Error adding event to queue
+Unexpected event proc %d
+unmarshalling ret
+unmarshalling remote_error
+unknown status (received %x)
+Doing call %d %p
+marshalling args
+xdr_u_int (length word)
+Going to sleep %d %p %p
+failed to wait on condition
+Wokeup from sleep %d %p %p
+We have the buck %d %p %p
+poll on socket failed
+Waking up sleep %d %p %p
+Giving up the buck %d %p %p
+Passing the buck to %d %p
+unknown procedure
+unknown parameter type
+removing cb fron list
+no event support
+adding cb to list
+Event fired %d %d %d %X
+too many NUMA cells: %d > %d
+failed to get sock address
+failed to get peer address
+Setting external SSF %d
+Failed SASL step: %d (%s)
+Server step with %d bytes %p
+SASL SSF value %d
+SASL authentication complete
+localhost
+command
+netcat
+no_verify
+no_tty
+stdout
+remote+
+transport_str[-1] == '+'
+proceeding with name = %s
+/etc/pki/CA/cacert.pem
+CA certificate
+client key
+client certificate
+loading CA file %s
+cannot get current time
+Invalid certificate
+Certificate type is not X.509
+The certificate has expired
+unable to connect to '%s'
+@%s/.libvirt/libvirt-sock
+/var/run/libvirt/libvirt-sock
+/usr/sbin/libvirtd
+unable to create socket
+LIBVIRTD_PATH
+--timeout=30
+BatchMode=yes
+j == nr_args
+unable to create socket pair
+unable to make pipe
+sasl
+sasl.
+polkit
+org.libvirt.unix.manage
+org.libvirt.unix.monitor
+No auth callback provided
+unable to auto-detect URI
+Auto-probed URI is %s
+Error allocating domainEvents
+Auto-remote UNIX socket
++unix
+/session
+Auto-probe remote URI
+/usr/sbin/libvirtd_dbg
+failed to read from TLS socket %s
+failed to decode SASL data: %s
+xdr_u_int (length word, reply)
+packet received from server too small
+packet received from server too large
+Got length, now need %d total (%d more)
+unknown program (received %x, expected %x)
+unknown protocol version (received %x, expected %x)
+Encountered an event while waiting for a response
+Ignoring bogus event %d received while in open
+remoteDomainProcessEvent: unmarshalling ret
+got unexpected RPC call %d from server
+no call waiting for reply with serial %d
+unknown procedure (received %x, expected %x)
+xdr_remote_message_header failed
+Woken up from poll by other thread
+failed to encode SASL data: %s
+received hangup / error event on socket
+Giving up the buck due to I/O error %d %p %p
+All done with our call %d %p %p
+map length greater than maximum: %d > %d
+out of memory allocating array
+%s : VIR_EVENT_HANDLE_HANGUP or VIR_EVENT_HANDLE_ERROR encountered
+Something went wrong during async message processing
+too many capability names requested
+too many capability names received
+too many device names requested
+too many device names received
+too many storage volumes requested
+too many storage volumes received
+too many storage pools requested
+too many storage pools received
+too many remote networks: %d > %d
+too many remote domain names: %d > %d
+vCPU count exceeds maximum: %d > %d
+vCPU map buffer length exceeds maximum: %d > %d
+host reports too many vCPUs: %d > %d
+host reports map buffer length exceeds maximum: %d > %d
+too many remote domain IDs: %d > %d
+memory peek request too large for remote protocol, %zi > %d
+returned buffer is not same size as requested
+block peek request too large for remote protocol, %zi > %d
+remoteDomainGetSchedulerParameters: returned number of parameters exceeds limit
+remoteDomainGetSchedulerParameters: unknown parameter type
+security model exceeds maximum: %zd
+security doi exceeds maximum: %zd
+security label exceeds maximum: %zd
+Client initialize SASL authentication
+failed to initialize SASL library: %d (%s)
+Failed to create SASL client context: %d (%s)
+invalid cipher size for TLS session
+cannot set external SSF %d (%s)
+cannot set security props %d (%s)
+SASL mechanism %s not supported by server
+Client start negotiation mechlist '%s'
+Failed to start SASL negotiation: %d (%s)
+Failed to make auth credentials
+No authentication callback available
+Failed to collect auth credentials
+SASL negotiation data too long: %d bytes
+Server start negotiation with mech %s. Data %d bytes %p
+Client step result complete: %d. Data %d bytes %p
+Client step result %d. Data %d bytes %p
+cannot query SASL ssf on connection %d (%s)
+negotiation SSF %d was not strong enough
+remote_open: transport in URL not recognised (should be tls|unix|ssh|ext|tcp)
+passing through variable '%s' ('%s') to remote end
+remote_open: for 'ext' transport, command is required
+unable to allocate TLS credentials: %s
+/etc/pki/libvirt/private/clientkey.pem
+/etc/pki/libvirt/clientcert.pem
+unable to load CA certificate: %s
+loading client cert and key from files %s and %s
+unable to load private key/certificate: %s
+unable to resolve hostname '%s': %s
+unable to initialize TLS client: %s
+unable to set TLS algorithm priority: %s
+unable to set certificate priority: %s
+unable to set session credentials: %s
+unable to complete TLS handshake: %s
+unable to verify server certificate: %s
+The certificate is not trusted.
+The certificate hasn't got a known issuer.
+The certificate has been revoked.
+server certificate failed validation: %s
+gnutls_certificate_get_peers failed
+unable to initialize certificate: %s
+unable to import certificate: %s
+The certificate is not yet activated
+Certificate's owner does not match the hostname (%s)
+failed to verify peer's certificate
+unable to complete TLS initialization: %s
+server verification (of our certificate or IP address) failed
+/var/run/libvirt/libvirt-sock-ro
+failed to find libvirtd binary
+unable to make socket non-blocking
+unknown authentication type %s
+requested authentication type %s rejected
+Client initialize PolicyKit authentication
+Client auth callback does not support PolicyKit
+PolicyKit authentication complete
+unsupported authentication type %d
+Error allocating callbacks list
+Adding Handler for remote events
+virEventAddHandle failed: No addHandleImpl defined. continuing without events.
+Adding Timeout for remote event queue flushing
+Auto-spawn user daemon instance
+call
+call
+processCalls
+processCalls
+processCallWrite
+processCallRead
+processCallRecvLen
+processCallAsyncEvent
+remoteDomainQueueEvent
+remoteAllocPrivateData
+doRemoteOpen
+doRemoteOpen
+doRemoteOpen
+initialise_gnutls
+check_cert_file
+negotiate_gnutls_on_connection
+verify_certificate
+remoteAuthSASL
+remoteAuthSASL
+addrToString
+remoteAuthPolkit
+remoteDomainSetSchedulerParameters
+remoteOpen
+remoteDomainEventFired
+remoteDomainEventFired
+read socket %d interrupted
+file.proxy_internal.c
+Failed to read socket %d
+read %d bytes from socket %d
+Failed to close socket %d
+Closed socket %d
+Failed to write to socket %d
+wrote %d bytes to socket %d
+failed to write proxy request
+failed to read proxy reply
+/usr/libexec/libvirt_proxy
+LIBVIRT_DEBUG_PROXY
+failed to find libvirt_proxy
+Asking to launch %s
+Failed to fork libvirt_proxy
+/tmp/livirt_proxy_conn
+/usr/bin/libvirt_proxy_dbg
+Communication error with proxy: got %d bytes of %d
+Communication error with proxy: expected %d bytes got %d
+Communication error with proxy: got %d bytes packet
+Communication error with proxy: malformed packet
+got asynchronous packet number %d
+connected to unix socket %s via %d
+xenProxyDomainGetInfo
+xenProxyCommand
+xenProxyCommand
+virProxyWriteClientSocket
+virProxyReadClientSocket
+virProxyCloseSocket
+xenProxyDomainGetMaxMemory
+xenProxyDomainGetOSType
+xenProxyNumOfDomains
+xenProxyGetCapabilities
+xenProxyNodeGetInfo
+xenProxyGetVersion
+xenProxyClose
+xenProxyOpen
+virProxyOpenClientSocket
+virProxyForkServer
+xenProxyDomainDumpXML
+xenProxyLookupByName
+xenProxyLookupByUUID
+xenProxyLookupByID
+xenProxyListDomains
+sexpr.c
+_string2sexpr
+sexpr_new
+sexpr2string
+vif%d.%d
+ locking
+ sys ioctl %d
+ releasing
+ release
+/proc/xen/privcmd
+file.xen_internal.c
+ ioctl %lu
+Using hypervisor call v1
+invalid argument
+priv->handle invalid
+domain or conn is NULL
+x86_32
+x86_64
+ia64
+powerpc64
+ppc64
+xenmigr
+xenfv
+/usr/lib/xen/boot/hvmloader
+/usr/lib/xen/bin/qemu-dm
+/usr/lib64/xen/bin/qemu-dm
+xenpv
+cannot read file %s
+Noparameters given
+Unimplemented block at %s:%d
+Unknown scheduler
+invalid path, should be vif<domid>.<n>.
+invalid path, vif<domid> should match this domain ID
+Using new hypervisor call: %X
+Using old hypervisor call: %X
+Using hypervisor call v2, sys ver2 dom ver3
+Using hypervisor call v2, sys ver2 dom ver4
+Using hypervisor call v2, sys ver3 dom ver5
+Using hypervisor call v2, sys ver4 dom ver5
+Using hypervisor call v2, sys ver6 dom ver5
+Failed to find any Xen hypervisor method
+cannot determine actual number of cells
+unsupported in sys interface < 4
+priv->handle or domain->id invalid
+unsupported in dom interface < 5
+/sys/hypervisor/properties/capabilities
+Credit scheduler weight parameter (%d) is out of range (1-65535)
+Credit scheduler cap parameter (%d) is out of range (0-65535)
+Credit scheduler accepts 'cap' and 'weight' integer parameters
+^flags[[:blank:]]+:.* (vmx|svm)[[:space:]]
+^flags[[:blank:]]+:.* pae[[:space:]]
+(xen|hvm)-[[:digit:]]+\.[[:digit:]]+-(x86_32|x86_64|ia64|powerpc64)(p|be)?
+virXen_getdomaininfolist
+xenHypervisorDoV2Sys
+xenHypervisorDoV1Op
+xenHypervisorDoV0Op
+virXen_getvcpusinfo
+xenHypervisorDoV2Dom
+virXen_setvcpumap
+xenHypervisorNodeGetCellsFreeMemory
+xenHypervisorLookupDomainByUUID
+xenHypervisorListDomains
+xenHypervisorNumOfDomains
+xenHypervisorGetCapabilities
+xenHypervisorMakeCapabilities
+xenHypervisorMakeCapabilitiesInternal
+xenHypervisorOpen
+xenHypervisorInit
+xenHypervisorInit
+xenHypervisorDomainInterfaceStats
+xenHypervisorSetSchedulerParameters
+xenHypervisorGetSchedulerParameters
+xenHypervisorGetSchedulerType
+file.xen_unified.c
+WARNING: dom already tracked
+device %s is not a PCI device
+/proc/xen
+http
+cannot initialise mutex
+Trying hypervisor sub-driver
+Trying XenD sub-driver
+Activated XenD sub-driver
+Trying XM sub-driver
+Activated XM sub-driver
+Trying XS sub-driver
+Activated XS sub-driver
+Handing off for remote driver
+Failed to make capabilities
+Trying Xen inotify sub-driver
+Activated hypervisor sub-driver
+Activated Xen inotify sub-driver
+Failed to activate a mandatory sub-driver
+xenUnifiedAddDomainInfo
+xenUnifiedAddDomainInfo
+xenUnifiedNodeDeviceGetPciInfo
+xenUnifiedDomainEventDeregister
+xenUnifiedDomainEventRegister
+xenUnifiedNodeGetFreeMemory
+xenUnifiedNodeGetCellsFreeMemory
+xenUnifiedDomainBlockPeek
+xenUnifiedDomainInterfaceStats
+xenUnifiedDomainBlockStats
+xenUnifiedDomainMigratePerform
+xenUnifiedDomainMigratePrepare
+xenUnifiedDomainSetAutostart
+xenUnifiedDomainGetAutostart
+xenUnifiedDomainDumpXML
+xenUnifiedDomainLookupByName
+xenUnifiedDomainLookupByUUID
+xenUnifiedDomainLookupByID
+xenUnifiedGetCapabilities
+xenUnifiedGetMaxVcpus
+xenUnifiedGetHostname
+xenUnifiedOpen
+xenUnifiedOpen
+failed to create a socket
+failed to connect to xend
+Content-Length: 
+HTTP/1.1 
+(device 
+(tap 
+(vbd 
+(dev 'ioemu:%s')
+(dev '%s:%s')
+(dev '%s:cdrom')
+(dev '%s')
+(uname '%s:%s:%s')
+(uname '%s:%s')
+(uname 'file:%s')
+(uname 'phy:%s')
+(uname 'phy:/dev/%s')
+(mode 'r')
+(mode 'w!')
+(mode 'w')
+unsupported network type %d
+(vif 
+(bridge '%s')
+vif-bridge
+(script '%s')
+(ip '%s')
+network %s is not active
+(vifname '%s')
+(model '%s')
+(type ioemu)
+unexpected chr device type
+,listen
+%s:%s:%s%s
+%s:%s:%s@%s:%s
+(vm 
+(name '%s')
+(memory %lu)(maxmem %lu)
+(vcpus %lu)
+(cpus '%s')
+(uuid '%s')
+(bootloader '%s')
+(bootloader)
+(bootloader_args '%s')
+unexpected lifecycle value %d
+(on_poweroff '%s')
+(on_reboot '%s')
+(on_crash '%s')
+(localtime 1)
+(image (linux 
+no HVM domain loader
+(kernel '%s')
+(ramdisk '%s')
+(root '%s')
+(args '%s')
+(loader '%s')
+(boot %s)
+(cdrom '%s')
+(%s '%s')
+(acpi 1)
+(apic 1)
+(pae 1)
+(usb 1)
+(usbdevice %s)
+(parallel 
+(parallel none)
+(serial 
+(serial none)
+(soundhw '
+(device_model '%s')
+unexpected graphics type %d
+(sdl 1)
+(display '%s')
+(xauthority '%s')
+(vnc 1)
+(vncunused 1)
+(vncunused 0)
+(vncdisplay %d)
+(vnclisten '%s')
+(vncpasswd '%s')
+(keymap '%s')
+(device (pci 
+(device (vkbd))
+(device (vfb 
+(type sdl)
+(type vnc)
+(image (hvm 
+device/vif
+device/vif/script
+device/vif/bridge
+device/vif/model
+device/vif/ip
+device/vif/vifname
+device/vif/mac
+%02x:%02x:%02x:%02x:%02x:%02x
+malformed mac address '%s'
+device/pci
+dev/domain
+missing PCI domain
+dev/bus
+missing PCI bus
+dev/slot
+missing PCI slot
+dev/func
+missing PCI func
+cannot parse PCI domain '%s'
+cannot parse PCI bus '%s'
+cannot parse PCI slot '%s'
+cannot parse PCI func '%s'
+device/vfb
+device/vfb/type
+unknown graphics type '%s'
+device/vfb/display
+device/vfb/xauthority
+device/vfb/vnclisten
+device/vfb/vncpasswd
+device/vfb/keymap
+device/vfb/vncunused
+device/vfb/vncdisplay
+unable to resolve name %s
+unexpected sound model %s
+file:
+pipe:
+tcp:
+telnet:
+udp:
+unix:
+Unknown char device type
+    <%s type='%s' tty='%s'>
+    <%s type='%s'>
+malformed char device string
+unable to connect to '%s:%s'
+unknown chr device type '%s'
+domain/domid
+domain/name
+domain/uuid
+domain/image/hvm
+domain/bootloader
+domain/bootloader_args
+domain/image
+domain/image/hvm/loader
+domain/image/hvm/kernel
+domain/image/hvm/ramdisk
+domain/image/hvm/args
+domain/image/hvm/root
+domain/image/linux/kernel
+domain/image/linux/ramdisk
+domain/image/linux/args
+domain/image/linux/root
+domain/image/hvm/boot
+domain/maxmem
+domain/memory
+invalid CPU mask %s
+domain/vcpus
+domain/on_poweroff
+unknown lifecycle type %s
+domain/on_reboot
+domain/on_crash
+domain/image/hvm/acpi
+domain/image/hvm/apic
+domain/image/hvm/pae
+domain/image/hvm/localtime
+domain/localtime
+domain/image/hvm/device_model
+device/vbd
+device/tap
+device/vbd/uname
+device/vbd/dev
+device/vbd/mode
+device/tap/uname
+device/tap/dev
+device/tap/mode
+:cdrom
+domain/image/%s/vnc
+domain/image/%s/vnclisten
+domain/image/%s/vncpasswd
+domain/image/%s/keymap
+domain/image/%s/vncunused
+domain/image/%s/sdl
+domain/image/%s/display
+domain/image/%s/xauthority
+domain/image/hvm/cdrom
+domain/image/hvm/%s
+usbdevice
+domain/image/hvm/serial
+domain/image/hvm/parallel
+domain/image/hvm/soundhw
+GET 
+ HTTP/1.1
+/xend/domain/
+/xend/domain?state=halted
+/xend/domain
+/xend/domain/%s?detail=1
+domain/on_xend_start
+/xend/node/
+node/xen_major
+node/xen_minor
+node/xend_config_format
+/var/lib/xend/xend-socket
+8000
+node/xen_scheduler
+credit
+strdup failed
+sedf
+domain/cpu_weight
+domain/cpu_cap
+node/machine
+node/total_memory
+node/nr_cpus
+node/cpu_mhz
+node/nr_nodes
+node/sockets_per_node
+node/cores_per_socket
+node/threads_per_core
+/xend/domain/%s?op=vcpuinfo
+vcpu
+vcpu/number
+vcpu/online
+vcpu/running
+vcpu/blocked
+vcpu/cpu_time
+vcpu/cpu
+cpumap
+domain/state
+domain/cpu_time
+node/node_to_cpu
+no cpus
+topology syntax error
+/xend/domain/%d?detail=1
+%s: invalid path
+/xend/domain/%s
+POST 
+xend.err
+Domain %s isn't running.
+dump
+live
+set_vcpus
+mem_target_set
+maxmem_set
+restore
+reason
+unpause
+wait_for_devices
+domain_sched_credit_set
+%%%02x
+failed to build sexpr
+Defining w/ sexpr: 
+file.xend_internal.c
+hostname = %s, port = %s
+migrate
+resource
+migration done
+ignore
+no memory
+sexpr2string failed
+Failed to redefine sexpr
+pincpu
+device_destroy
+rm_cfg
+force
+unsupported device type
+device_create
+device_configure
+failed to read from Xen Daemon
+Cannot directly attach floppy %s
+Cannot directly attach CDROM %s
+(mac '%02x:%02x:%02x:%02x:%02x:%02x')
+managed PCI devices not supported with XenD
+(dev (domain 0x%04x)(bus 0x%02x)(slot 0x%02x)(func 0x%x))
+      <source mode='%s' service='%s'/>
+      <source mode='%s' path='%s'/>
+domain information incomplete, missing id
+domain information incomplete, missing name
+domain information incomplete, missing HVM loader
+domain information incomplete, missing kernel & bootloader
+domain/image/linux/device_model
+domain information incomplete, vbd has no dev
+domain information incomplete, vbd has no src
+cannot parse vbd filename, missing driver name
+cannot parse vbd filename, missing driver type
+hotplug of device type not supported
+Host: localhost:8000
+Accept-Encoding: identity
+Content-Type: application/x-www-form-urlencoded
+%d status from xen daemon: %s:%s
+xenDaemonGetAutostart failed to find this domain
+unsupported in xendConfigVersion < 4
+node information incomplete, missing scheduler name
+Failed to get a scheduler name
+domain information incomplete, missing cpu_weight
+domain information incomplete, missing cpu_cap
+domainBlockPeek is not supported for dom0
+failed to open for reading: %s
+failed to lseek or read from file: %s
+xenDaemonDomainFetch failed to find this domain
+Host: localhost:8000
+Accept-Encoding: identity
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 
+xend_post: error from xen daemon: %s
+failed to urlencode the create S-Expr
+failed to parse domain description
+Failed to create inactive domain %s
+xenDaemonDomainMigrate: Xen does not support renaming domains during migration
+xenDaemonDomainMigrate: Xen does not support bandwidth limits during migration
+xenDaemonDomainMigrate: unsupported flag
+xenDaemonDomainMigrate: invalid URI
+xenDaemonDomainMigrate: only xenmigr:// migrations are supported by Xen
+xenDaemonDomainMigrate: a hostname must be specified in the URI
+xenDaemonDomainMigrate: invalid port number
+xenDaemonSetAutostart failed to find this domain
+unexpected value from on_xend_start
+on_xend_start not present in sexpr
+failed to parse Xend domain information
+domain information incomplete, missing domid
+domain information incorrect domid not numeric
+domain information incomplete, missing uuid
+xenDaemonSetSchedulerParameters
+xend_get
+do_connect
+wr_sync
+http2unix
+xend_op_ext
+xend_post
+xenDaemonGetSchedulerParameters
+xenDaemonGetSchedulerType
+xenDaemonDetachDevice
+virDomainXMLDevID
+xenDaemonAttachDevice
+xenDaemonFormatSxprDisk
+xenDaemonFormatSxprNet
+xenDaemonFormatSxprOnePCI
+xenDaemonDomainCoreDump
+xenDaemonDomainGetOSType
+xenDaemonFormatSxpr
+xenDaemonFormatSxprInput
+xenDaemonFormatSxprGraphicsOld
+xenDaemonFormatSxprAllPCI
+xenDaemonFormatSxprGraphicsNew
+xenDaemonFormatSxprSound
+xenDaemonFormatSxprChr
+xenDaemonDomainBlockPeek
+xenDaemonParseSxpr
+xenDaemonParseSxprOS
+xenDaemonParseSxprDisks
+xenDaemonParseSxprNets
+xenDaemonParseSxprPCI
+xenDaemonParseSxprGraphicsNew
+xenDaemonParseSxprGraphicsOld
+xenDaemonParseSxprUSB
+xenDaemonDomainUndefine
+xenDaemonDomainCreate
+xenDaemonDomainDefineXML
+xenDaemonDomainDefineXML
+xenDaemonDomainMigratePerform
+xenDaemonDomainMigratePerform
+xenDaemonDomainMigratePrepare
+xenDaemonDomainSetAutostart
+xenDaemonDomainGetAutostart
+xenDaemonDomainGetVcpus
+xenDaemonDomainPinVcpu
+xenDaemonDomainSetVcpus
+xenDaemonGetVersion
+xenDaemonNodeGetTopology
+sexpr_to_xend_topology
+xenDaemonNodeGetInfo
+xenDaemonLookupByName
+sexpr_to_domain
+xenDaemonDomainGetInfo
+xenDaemonDomainDumpXML
+xenDaemonDomainFetch
+xenDaemonDomainSetMemory
+xenDaemonDomainSetMaxMemory
+xenDaemonDomainGetMaxMemory
+xenDaemonDomainRestore
+xenDaemonDomainSave
+xenDaemonDomainDestroy
+xenDaemonDomainReboot
+xenDaemonDomainShutdown
+xenDaemonDomainResume
+xenDaemonDomainSuspend
+xenDaemonOpen
+xenDaemonOpen_tcp
+xend_detect_config_version
+xenDaemonParseSxprSound
+xenDaemonParseSxprChar
+xend_parse_sexp_desc_char
+xenDaemonDomainLookupByID
+xenDaemonDomainLookupByName_ids
+xenDaemonDomainCreateXML
+urlencode
+A/etc/xen/auto/%s
+/etc/xen/%s
+failed to remove link %s
+builder
+extra
+type=sdl
+,display=%s
+,xauthority=%s
+type=vnc
+,vncunused=%d
+,vncdisplay=%d
+,vnclisten=%s
+,vncpasswd=%s
+,keymap=%s
+,bridge=%s
+,ip=%s
+,script=%s
+,type=ioemu
+,model=%s
+,vifname=%s
+%04x:%02x:%02x.%x
+unknown device
+config file name is too long
+unable to get current time
+read only connection
+not inactive domain
+virHashLookup
+config value %s was missing
+config value %s was malformed
+/etc/xen
+No config entry for %s
+file.xm_internal.c
+Removed %s %s
+bootargs
+mac=
+bridge=
+script=
+model=
+vifname=
+vif-vnic
+vncunused=
+vnclisten=
+vncpasswd=
+keymap=
+vncdisplay=
+xauthority=
+Adding file %s
+cannot stat: %s
+Ignoring zero length file %s
+Failed to read %s
+Added config %s %s
+cannot get time of day
+cannot read directory %s
+xend-config.sxp
+xend-pci-
+xmexample
+qemu-ifup
+failed to create link %s to %s
+cannot check link %s points to config %s
+unexpected lifecycle action %d
+mac=%02x:%02x:%02x:%02x:%02x:%02x
+can't retrieve config filename for domain to overwrite
+can't retrieve config entry for domain to overwrite
+failed to remove old domain from config map
+unable to store config file handle
+can't retrieve config file for domain
+config value %s was not a string
+unexpected value %s for on_poweroff
+unexpected value %s for on_reboot
+unexpected value %s for on_crash
+xenXMConfigCacheRefresh: virHashAddEntry
+xenXMDomainDetachDevice
+xenXMDomainAttachDevice
+xenXMDomainSetAutostart
+xenXMDomainGetAutostart
+xenXMDomainBlockPeek
+xenXMNumOfDefinedDomains
+xenXMListDefinedDomains
+xenXMDomainUndefine
+xenXMDomainDefineXML
+xenXMDomainConfigFormat
+xenXMDomainConfigFormatDisk
+xenXMDomainConfigFormatNet
+xenXMDomainConfigFormatPCI
+xenXMDomainLookupByUUID
+xenXMDomainLookupByName
+xenXMDomainPinVcpu
+xenXMDomainSetVcpus
+xenXMDomainGetMaxMemory
+xenXMDomainSetMaxMemory
+xenXMDomainSetMemory
+xenXMDomainDumpXML
+xenXMDomainConfigParse
+xenXMConfigCopyStringInternal
+xenXMConfigGetULong
+xenXMConfigGetBool
+xenXMConfigGetString
+xenXMDomainGetInfo
+xenXMConfigCacheRefresh
+xenXMConfigCacheAddFile
+xenXMConfigCacheAddFile
+xenXMConfigCacheRemoveFile
+/local/domain/%d/name
+/local/domain/%d/%s
+console/tty
+/local/domain
+memory/target
+file.xs_internal.c
+watch already tracked
+/local/domain/%d/vm
+%s/%s/%s
+console/vnc-port
+No domains removed, retrying
+/local/domain/%d/cpu
+control/shutdown
+/local/domain/%s/name
+adding watch @releaseDomain
+adding watch @introduceDomain
+image/ostype
+WARNING: Could not remove watch
+/local/domain/0/backend/vbd/%d
+/local/domain/0/backend/tap/%d
+Some domains were missing, trying again
+/local/domain/0/backend/vif/%d
+Warning, could not remove @introduceDomain watch
+Warning, could not remove @releaseDomain watch
+failed to connect to Xen Store
+failed to allocate activeDomainList
+failed to allocate xsWatchList
+Failed to add event handle, disabling events
+xenStoreDomainGetOSType
+xenStoreDomainReleased
+xenStoreDomainReleased
+xenStoreDomainIntroduced
+xenStoreDomainIntroduced
+xenStoreRemoveWatch
+xenStoreAddWatch
+xenStoreDomainReboot
+xenStoreDomainShutdown
+xenStoreLookupByName
+xenStoreListDomains
+xenStoreNumOfDomains
+xenStoreDomainSetMemory
+xenStoreGetDomainInfo
+xenStoreClose
+xenStoreClose
+xenStoreOpen
+xenStoreOpen
+No config found for %s
+file.xen_inotify.c
+Error getting dom from def
+parsing uuid %s
+Looking for dom with uuid: %s
+finding dom for %s
+Found dom on list
+finding dom on config list
+Error looking up domain
+/var/lib/xend/domains
+cannot open directory: %s
+initializing inotify
+Adding a watch on %s
+adding watch on %s
+Building initial config cache
+Registering with event loop
+got inotify event
+conn, or private data is NULL
+looking up dom
+Error adding file to config cache
+failed to allocate configInfoList
+Error adding file to config list
+Failed to enable XM config cache %s
+Failed to add inotify handle, disabling events
+xenInotifyOpen
+xenInotifyOpen
+xenInotifyXendDomainsDirAddEntry
+xenInotifyXenCacheLookup
+xenInotifyXendDomainsDirLookup
+xenInotifyXendDomainsDirLookup
+xenInotifyEvent
+xenInotifyEvent
+xenInotifyXendDomainsDirRemoveEntry
+/etc/vz/conf
+/usr/local/etc/conf
+Cound not read nodeinfo
+openvz_conf.c
+%s/%d.%s
+%s.tmp
+CONFIGFILE
+/etc/vz/vz.conf
+%s/ve-%s.conf-sample
+%s %s
+#UUID:
+#UUID: %s
+/usr/sbin/vzctl
+--help
+LC_ALL=C
+vzctl version %u.%u.%u
+IP_ADDRESS
+NETIF
+host_ifname=
+Too long network device name
+Too long bridge device name
+Wrong length MAC address
+Wrong MAC address
+%d.%5s
+popen failed
+%d %s
+Failed to parse vzlist output
+stopped
+UUID in config file malformed
+CPUS
+OSTEMPLATE
+VE_PRIVATE
+$VEID
+Cound not extract vzctl version
+Cound not read 'IP_ADDRESS' from config for container %d
+Cound not read 'NETIF' from config for container %d
+Cound not read config for container %d
+Cound not read 'OSTEMPLATE' from config for container %d
+Cound not read 'VE_PRIVATE' from config for container %d
+/usr/sbin/vzlist -a -ovpsid,status -H 2>/dev/null
+openvzGetNodeCPUs
+openvzLoadDomains
+openvzReadNetworkConf
+openvzReadFSConf
+openvzExtractVersion
+--quiet
+--onboot
+--save
+no domain with matching uuid
+openvz_driver.c
+Could not exec %s
+stop
+ONBOOT
+cannot delete active domain
+no domain with matching id
+Container ID is not specified
+eth0
+ifname=eth%d
+%*[^0-9]%d
+veth%d.%d
+Could not generate veth name
+,mac=%s
+,host_ifname=%s
+,host_mac=%s
+Could not put argument to %s
+Could not configure network
+cannot replace NETIF config
+--cpus
+VCPUs should be >= 1
+/usr/sbin/vzlist
+-ovpsid
+Could not parse VPS ID %s
+/proc/vz/vestat
+%d %llu %llu %llu
+unknown type '%s'
+/proc/vz
+openvz:///system
+only one filesystem supported
+Could not copy default config
+Could not set UUID
+OPENVZ
+domain is not in running state
+Could not read container config
+domain is not in shutoff state
+Could not generate eth name for container
+cannot read cputime for domain %d
+filesystem is not of type 'template' or 'mount'
+Could not convert domain name to VEID
+Could not set the source dir for the filesystem
+Error creating command for container
+Already an OPENVZ VM active with the id '%s'
+Error creating intial configuration
+Could not set number of virtual cpu
+Already an OPENVZ VM defined with the id '%s'
+openvzDomainSetAutostart
+openvzDomainGetAutostart
+openvzDomainUndefine
+openvzDomainDefineXML
+openvzSetInitialConfig
+openvzDomainDefineCmd
+openvzDomainSetNetworkConfig
+openvzDomainSetNetwork
+openvzDomainSetVcpusInternal
+openvzDomainCreate
+openvzListDefinedDomains
+openvzDomainDumpXML
+openvzDomainSetVcpus
+openvzDomainGetInfo
+openvzGetOSType
+openvzDomainReboot
+openvzDomainShutdown
+openvzDomainLookupByName
+openvzDomainLookupByUUID
+openvzDomainLookupByID
+openvzDomainCreateXML
+openvzListDomains
+openvzGetMaxVCPUs
+openvzOpen
+invalid security model '%s'
+%s: DOI '%s' is longer than the maximum allowed length of %d
+virSecurityDriverSetDOI
+%s: error calling getpidcon(): %s
+%s: security label exceeds maximum lenth: %d
+%s: error calling security_getenforce(): %s
+security label already defined for VM
+cannot generate selinux context for %s
+Setting SELinux context on '%s' to '%s'
+%s: unable to set security context '%s' on %s: %s.
+%s: security label driver mismatch: '%s' model configured for domain, but hypervisor driver is '%s'.
+%s: unable to set security context '%s': %s.
+%s: cannot open SELinux virtual domain context file %s: %s
+%s: cannot read SELinux virtual domain context file %s: %s
+%s: cannot open SELinux virtual image context file %s: %s
+%s: cannot read SELinux virtual image context file %s: %s
+s0:c%d
+s0:c%d,c%d
+file.security_selinux.c
+cannot resolve symlink %s
+Invalid security label %s
+selinux
+SELinuxSetSecurityLabel
+SELinuxGetSecurityLabel
+SELinuxGenSecurityLabel
+SELinuxSetFilecon
+SELinuxRestoreSecurityImageLabel
+SELinuxInitialize
+?(NULL)
+XXXXXX
+tempname.c
+! "invalid KIND in __gen_tempname"
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+gen_tempname
+libvirt.so.0.6.2.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

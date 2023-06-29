@@ -1,0 +1,121 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+saver_ps
+fopen
+__fprintf_chk
+fwrite
+fputc
+fclose
+libc.so.6
+_edata
+__bss_start
+_end
+libimlib-ps.so
+GLIBC_2.3.4
+GLIBC_2.2.5
+AWAVI
+AUATH
+L$$E
+D9t$
+[]A\A]A^A_
+VUUU
+D9l$
+[]A\A]A^A_
+%%!PS-Adobe-2.0 EPSF-2.0
+%%%%Title: %s
+%%%%BoundingBox: %i %i %i %i
+%%%%Pages: 1
+%%%%DocumentFonts:
+%%%%EndComments
+%%%%EndProlog
+%%%%Page: 1 1
+/origstate save def
+20 dict begin
+/pix %i string def
+/grays %i string def
+/npixls 0 def
+/rgbindx 0 def
+%i %i translate
+%i %i scale
+%i %i 8
+[%i 0 0 -%i 0 %i]
+false 3 colorimage
+showpage
+origstate restore
+%%%%Trailer
+%%%%Creator: Imlib by The Rasterman
+/colorimage where
+{ pop }
+/colortogray {
+/rgbdata exch store
+rgbdata length 3 idiv
+/npixls exch store
+/rgbindx 0 store
+0 1 npixls 1 sub {
+grays exch
+rgbdata rgbindx       get 20 mul
+rgbdata rgbindx 1 add get 32 mul
+rgbdata rgbindx 2 add get 12 mul
+add add 64 idiv
+/rgbindx rgbindx 3 add store
+} for
+grays 0 npixls getinterval
+} bind def
+/mergeprocs {
+dup length
+3 -1 roll
+length
+5 1 roll
+3 -1 roll
+array cvx
+3 -1 roll
+0 exch
+putinterval
+4 2 roll
+putinterval
+} bind def
+/colorimage {
+pop pop
+{colortogray} mergeprocs
+image
+} bind def
+} ifelse
+{currentfile pix readhexstring pop}
+;*3$"
+libimlib-ps.so.debug
+7zXZ
+R_R3
+Q6ix
+ @P4
+|pc5z
+F)=!
++|j, j
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

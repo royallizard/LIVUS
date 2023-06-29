@@ -1,0 +1,285 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+calloc
+free
+dcgettext
+write
+xine_monotonic_clock
+close
+ioctl
+perror
+xine_log
+xine_open_cloexec
+fcntl
+__errno_location
+strerror
+__sprintf_chk
+__strdup
+xine_strcat_realloc
+__strcpy_chk
+strstr
+__snprintf_chk
+open64
+__stack_chk_fail
+stderr
+__fprintf_chk
+abort
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+libm.so.6
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_ao_out_oss.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+=iA 
+fffff.
+=h< 
+=R< 
+fff.
+|$ 1
+L$(H
+D$ H+
+fffff.
+fffff.
+AWAVA
+[]A\A]A^A_
+ffff.
+AVAUATUSH
+|$0H
+HcT$DA
+L$ H
+\$(H
+L$ H
+D$`D
+|$0H
+|$0H
+l$\A
+T$X1
+D$(H
+L$pH
+t$0H
+\$(H
+D$hautoA
+D$pH
+d$HH
+D$xI
+D$hH
+D$ H
+D$lI
+L$lD9
+L$@A
+D$8H
+\$(H
+D$(H
+[]A\A]A^A_
+D$(H
+t$(I
+|$(I
+L$ H
+|$(I
+|$0H
+D$(H
+L$(H
+D$(A
+D$0I
+D$HH
+D$PH
+D$ H
+D$0H
+D$8H
+D$@H
+D$(H
+T$h1
+T$l1
+D$hHcT$DH
+D$ H
+D$(H
+libxine1
+/dev/dsp
+OSS audio device name
+audio.device.oss_device_name
+/dev/sound/dsp
+%s%d
+a/v sync method to use by OSS
+audio.oss_sync_method
+audio.oss_latency
+speaker arrangement
+ mono
+ stereo
+ 4-channel
+ 5-channel
+ 5.1-channel
+ a/52 pass-through
+audio.device.oss_mixer_number
+%smixer%s
+%smixer
+%smixer%d
+audio_oss_out.c
+abort: %s:%d: %s: Aborting.
+Mono 1.0
+Stereo 2.0
+Headphones 2.0
+Stereo 2.1
+Surround 3.0
+Surround 4.0
+Surround 4.1
+Surround 5.0
+Surround 5.1
+Surround 6.0
+Surround 6.1
+Surround 7.1
+Pass Through
+auto
+getodelay
+getoptr
+softsync
+probebuffer
+xine audio output plugin using oss-compliant audio devices/drivers
+audio_oss_out: DSP_GETODELAY ioctl():
+audio_oss_out: SNDCTL_DSP_GETOPTR failed:
+audio_oss_out: ao_open rate=%d, mode=%d, dev=%s
+audio_oss_out: unsupported mode %08x
+audio_oss_out: Opening audio device %s: %s
+audio_oss_out: warning: sampling rate %d Hz not supported, trying 44100 Hz
+audio_oss_out: error: 44100 Hz sampling rate not supported
+audio_oss_out: audio rate : %d requested, %d provided by device
+audio_oss_out: AO_CAP_MODE_A52
+audio_oss_out: %d channels output
+audio_oss_out: SNDCTL_DSP_SETFMT failed for AFMT_U8.
+audio_oss_out: ioctl succeeded but set format to 0x%x.
+audio_oss_out: The AFMT_U8 ioctl failed.
+audio_oss_out: SNDCTL_DSP_SETFMT failed for AFMT_S16_NE.
+audio_oss_out: The AFMT_S16_NE ioctl failed.
+audio_oss_out: AC3 SNDCTL_DSP_SETFMT failed. %d. Using alternative.
+audio_oss_out: Opening audio device...
+Specifies the base part of the audio device name, to which the OSS device number is appended to get the full device name.
+Select "auto" if you want xine to auto detect the corret setting.
+The full audio device name is created by concatenating the OSS device name and the audio device number.
+If you do not need a number because you are happy with your system's default audio device, set this to -1.
+The range of this value is -1 or 0-15. This setting is ignored, when the OSS audio device name is set to "auto".
+OSS audio device number, -1 for none
+audio.device.oss_device_number
+audio_oss_out: audio.device.oss_device_name = auto, probing devs
+audio_oss_out: Auto probe for audio device failed
+audio_oss_out: using device >%s<
+audio_oss_out: opening audio device %s failed:
+xine can use different methods to keep audio and video synchronized. Which setting works best depends on the OSS driver and sound hardware you are using. Try the various methods, if you experience sync problems.
+The meaning of the values is as follows:
+auto
+xine attempts to automatically detect the optimal setting
+getodelay
+uses the SNDCTL_DSP_GETODELAY ioctl to achieve true a/v sync even if the driver claims not to support realtime playback
+getoptr
+uses the SNDCTL_DSP_GETOPTR ioctl to achieve true a/v sync even if the driver supports the preferred SNDCTL_DSP_GETODELAY ioctl
+softsync
+uses software synchronization with the system clock; audio and video can get severely out of sync if the system clock speed does not precisely match your sound card's playback speed
+probebuffer
+probes the sound card buffer size on initialization to calculate the latency for a/v sync; try this if your system does not support any of the realtime ioctls and you experience sync errors after long playback
+audio_oss_out: using SNDCTL_DSP_GETODELAY
+audio_oss_out: using SNDCTL_DSP_GETOPTR
+audio_oss_out: Audio driver realtime sync disabled...
+audio_oss_out: ...will use system real-time clock for soft-sync instead
+audio_oss_out: ...there may be audio/video synchronization issues
+If you experience audio being not in sync with the video, you can enter a fixed offset here to compensate.
+The unit of the value is one PTS tick, which is the 90000th part of a second.
+OSS audio output latency (adjust a/v sync)
+audio_oss_out: Audio driver realtime sync disabled...
+audio_oss_out: ...probing output buffer size: %d bytes
+audio_oss_out: ...there may be audio/video synchronization issues
+audio_oss_out: switching the soundcard to 16 bits mode failed
+Select how your speakers are arranged, this determines which speakers xine uses for sound output. The individual values are:
+Mono 1.0: You have only one speaker.
+Stereo 2.0: You have two speakers for left and right channel.
+Headphones 2.0: You use headphones.
+Stereo 2.1: You have two speakers for left and right channel, and one subwoofer for the low frequencies.
+Surround 3.0: You have three speakers for left, right and rear channel.
+Surround 4.0: You have four speakers for front left and right and rear left and right channels.
+Surround 4.1: You have four speakers for front left and right and rear left and right channels, and one subwoofer for the low frequencies.
+Surround 5.0: You have five speakers for front left, center and right and rear left and right channels.
+Surround 5.1: You have five speakers for front left, center and right and rear left and right channels, and one subwoofer for the low frequencies.
+Surround 6.0: You have six speakers for front left, center and right and rear left, center and right channels.
+Surround 6.1: You have six speakers for front left, center and right and rear left, center and right channels, and one subwoofer for the low frequencies.
+Surround 7.1: You have seven speakers for front left, center and right, left and right and rear left and right channels, and one subwoofer for the low frequencies.
+Pass Through: Your sound system will receive undecoded digital sound from xine. You need to connect a digital surround decoder capable of decoding the formats you want to play to your sound card's digital output.
+audio.output.speaker_arrangement
+audio_oss_out: supported modes are
+ (4-channel not enabled in xine config)
+ (5-channel not enabled in xine config)
+ (5.1-channel not enabled in xine config)
+ (a/52 pass-through not enabled in xine config)
+The full mixer device name is created by taking the OSS device name, replacing "dsp" with "mixer" and adding the mixer number.
+If you do not need a number because you are happy with your system's default mixer device, set this to -1.
+The range of this value is -1 or 0-15. This setting is ignored, when the OSS audio device name is set to "auto".
+OSS audio mixer number, -1 for none
+audio_oss_out: open() mixer %s failed: %s
+open_plugin
+;*3$"
+xineplug_ao_out_oss.so.debug
+7zXZ
+(!Ok
+(@s@W
+Iz`&
+7Agj
+l-oK
+(Ox~
+!^ $
+{d	3
+H}f6
+h,)	
+dC@_
+	G+N
+1[Pr
+kM.c
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

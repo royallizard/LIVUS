@@ -1,0 +1,253 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_config_load2
+ast_variable_retrieve
+strtol
+ast_true
+ast_config_destroy
+ast_register_application2
+option_verbose
+ast_options
+ast_verbose_get_by_file
+__ast_verbose
+ast_db_get
+ast_db_put
+sscanf
+__snprintf_chk
+__stack_chk_fail
+ast_waitfor
+ast_read
+__ast_lin2mu
+ast_write
+ast_frame_free
+ast_log
+__strncat_chk
+mkstemp
+fdopen
+ast_callerid_parse
+ast_shrink_phone_number
+gettimeofday
+ast_localtime
+ast_strftime
+__fprintf_chk
+option_debug
+ast_debug_get_by_file
+fflush
+fclose
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+ast_set_write_format
+ast_set_read_format
+ast_safe_sleep
+ast_safe_system
+ast_answer
+calloc
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+5*3 
+%,3 
+%*3 
+%"3 
+%z2 
+%r2 
+%j2 
+%b2 
+%Z2 
+%R2 
+%J2 
+%B2 
+%:2 
+%22 
+%*2 
+%"2 
+ATSubH
+=?. 
+D$(1
+=#/ 
+D$(dH3
+\$0H
+l$8L
+d$@H
+%>* 
+='. 
+AWAVE1
+AUE1
+T$<H
+D$LdH
+*D$<
+5/( 
+D$0D
+YL$ 
+YD$ 
+YD$0H
+;D$,u
+D$8A
+T$8D
+ID$8
+t$@H
+[]A\A]A^A_
+fff.
+AVAUI
+\$pH
+T$hH
+|$hH
+|$@1
+D$HH
+|$P1
+D$XH
+D$@H
+[]A\A]A^
+L$hL
+L$`H
+ffff.
+AVAUATUH
+|$hH
+|$`H
+|$(H
+[]A\A]A^A_
+|$ H
+|$@D
+=Q! 
+d$P1
+l$XL
+|$PH
+T$ H
+|$ H
+|$ L
+@82t
+t$@H
+t$@H
+D$ H
+T$0H
+t$(H
+L$ Hc
+l$XL
+D$<H
+D$ H
+L$ L
+L$0H
+D$0f
+app_alarmreceiver
+alarmreceiver.conf
+app_alarmreceiver.c
+eventcmd
+general
+loudness
+fdtimeout
+sdtimeout
+logindividualevents
+eventspooldir
+timestampformat
+db-family
+[metadata]
+PROTOCOL=%s
+<unknown>
+CALLINGFROM=%s
+CALLERNAME=%s
+TIMESTAMP=%s
+[events]
+$Revision: 117802 $
+ADEMCO_CONTACT_ID
+calls-received
+Waitfor returned %d
+no-events-received
+ack-retries
+checksum-errors
+format-errors
+Alarmreceiver: executing: %s
+Alarm Receiver for Asterisk
+AlarmReceiver
+       > AlarmReceiver: No config file
+       > AlarmReceiver: Creating database entry %s and setting to 1
+       > AlarmReceiver: New value for %s: %u
+       > AlarmReceiver: database_increment write error
+       > AlarmReceiver: Failed to write frame on %s
+AlarmReceiver Failed to write frame on %s
+    -- AlarmReceiver: can't make temporary file
+AlarmReceiver: can't make temporary file
+    -- AlarmReceiver: can't write metadata
+AlarmReceiver: can't write metadata
+       > AlarmReceiver: Setting read and write formats to ULAW
+AlarmReceiver: Unable to set write format to Mu-law on %s
+AlarmReceiver: Unable to set read format to Mu-law on %s
+       > AlarmReceiver: Answering channel
+       > AlarmReceiver: Waiting for connection to stabilize
+       > AlarmReceiver: Waiting for first event from panel
+       > AlarmReceiver: Sending 1400Hz 100ms burst (ACK)
+       > AlarmReceiver: Sending 2300Hz 100ms burst (ACK)
+       > AlarmReceiver: DTMF Digit Timeout on %s
+AlarmReceiver: DTMF timeout on chan %s
+       > AlarmReceiver: ACK retries during this call: %d
+       > AlarmReceiver: App exiting...
+  == AlarmReceiver: Incomplete string: %s, trying again...
+  == AlarmReceiver: Received Event %s
+AlarmReceiver: Received event: %s
+  == AlarmReceiver: Bad DTMF character %c, trying again
+  == AlarmReceiver: Nonzero checksum
+AlarmReceiver: Nonzero checksum
+  == AlarmReceiver: Wrong message type
+AlarmReceiver: Wrong message type
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  AlarmReceiver(): Only 1 signalling format is supported at this time: Ademco
+Contact ID. This application should be called whenever there is an alarm
+panel calling in to dump its events. The application will handshake with the
+alarm panel, and receive events, validate them, handshake them, and store them
+until the panel hangs up. Once the panel hangs up, the application will run the
+system command specified by the eventcmd setting in alarmreceiver.conf and pipe
+the events to the standard input of the application. The configuration file also
+contains settings for DTMF timing, and for the loudness of the acknowledgement
+tones.
+Provide support for receiving alarm reports from a burglar or fire alarm panel
+load_config
+alarmreceiver_exec
+receive_ademco_contact_id
+0123456789*#ABC
+receive_dtmf_digits
+database_increment
+_ast_calloc
+send_tone_burst
+log_events
+write_metadata
+%a %b %d, %Y @ %H:%M:%S %Z
+/event-XXXXXX
+a9c98e5d177805051735cb5b0b16b0a0
+app_alarmreceiver.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

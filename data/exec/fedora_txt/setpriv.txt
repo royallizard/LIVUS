@@ -1,0 +1,396 @@
+td,|
+/lib/ld-linux.so.2
+libcap-ng.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+capng_capability_to_name
+_fini
+capng_apply
+capng_have_capability
+_init
+capng_update
+capng_name_to_capability
+libc.so.6
+_IO_stdin_used
+strcpy
+__printf_chk
+setlocale
+strncmp
+optind
+__strdup
+dcgettext
+warnx
+putchar
+_exit
+strspn
+strtod
+strtol
+fgetc
+getpwnam
+calloc
+strlen
+prctl
+localeconv
+warn
+strcspn
+__errno_location
+read
+setgroups
+__fprintf_chk
+getgrnam
+stdout
+fputc
+__strtoll_internal
+fputs
+setresgid
+fclose
+strtoul
+malloc
+__strndup
+__ctype_b_loc
+setresuid
+optarg
+stderr
+__snprintf_chk
+getgroups
+fscanf
+getopt_long
+execvp
+getresgid
+__fpending
+strchr
+program_invocation_short_name
+getresuid
+__cxa_finalize
+errx
+fopen64
+bindtextdomain
+access
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+write
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+D$Xt
+D$X1
+[^_]
+|$T9
+9|$\
+D$Lt
+[^_]
+d$,[^_]
+UWVS
+<+tl<-
+d$,[^_]
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+Options:
+For more details see %s.
+setpriv(1)
+/proc/self/attr/current
+cannot open %s
+cannot read %s
+%s: too long
+%s: %s
+/proc/sys/kernel/cap_last_cap
+cap_%d
+cannot duplicate string
+bad capability string
+unknown capability "%s"
+write error
+dump
+/usr/share/locale
+util-linux
+duplicate ruid
+failed to parse ruid
+duplicate euid
+failed to parse euid
+duplicate ruid or euid
+failed to parse reuid
+duplicate rgid
+failed to parse rgid
+duplicate egid
+failed to parse egid
+duplicate rgid or egid
+failed to parse regid
+duplicate --groups option
+cannot allocate %zu bytes
+duplicate --inh-caps option
+duplicate --securebits option
+bad securebits string
+noroot
+noroot_locked
+no_setuid_fixup
+no_setuid_fixup_locked
+keep_caps
+keep_caps_locked
+unrecognized securebit
+%s from %s
+util-linux 2.27
+unrecognized option '%c'
++dhV
+euid: %u
+suid: %u
+getresuid failed
+egid: %ld
+sgid: %ld
+getresgid failed
+getgroups failed
+Supplementary groups: 
+[none]
+no_new_privs: %d
+setting no_new_privs failed
+Effective capabilities: 
+Permitted capabilities: 
+Inheritable capabilities: 
+Capability bounding set: 
+Securebits: 
+0x%x
+[none]
+/sys/fs/selinux
+SELinux label
+/sys/kernel/security/apparmor
+AppArmor profile
+cap %d: libcap-ng is broken
+No program specified
+SELinux is not running
+/proc/self/attr/exec
+write failed: %s
+close failed: %s
+AppArmor is not running
+exec %s
+setresuid failed
+reactivate capabilities
+setresgid failed
+setgroups failed
+set process securebits failed
+apply bounding set
+apply capabilities
+cannot execute: %s
+ -%c
+ --%s
+no-new-privs
+inh-caps
+list-caps
+clear-groups
+keep-groups
+bounding-set
+securebits
+selinux-label
+apparmor-profile
+help
+version
+ %s [options] <program> [<argument>...]
+Run a program with different privilege settings.
+ -d, --dump               show current state (and do not exec anything)
+ --nnp, --no-new-privs    disallow granting new privileges
+ --inh-caps <caps,...>    set inheritable capabilities
+ --bounding-set <caps>    set capability bounding set
+ --ruid <uid>             set real uid
+ --euid <uid>             set effective uid
+ --rgid <gid>             set real gid
+ --egid <gid>             set effective gid
+ --reuid <uid>            set real and effective uid
+ --regid <gid>            set real and effective gid
+ --clear-groups           clear supplementary groups
+ --keep-groups            keep supplementary groups
+ --groups <group,...>     set supplementary groups
+ --securebits <bits>      set securebits
+ --selinux-label <label>  set SELinux label
+ --apparmor-profile <pr>  set AppArmor profile
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+ This tool can be dangerous.  Read the manpage, and be careful.
+libcap-ng is too old for "all" caps
+%s: these options are mutually exclusive:
+duplicate --no-new-privs option
+duplicate --clear-groups option
+duplicate --keep-groups option
+Invalid supplementary group id
+duplicate --bounding-set option
+getting process secure bits failed
+unrecognized securebit set -- refusing to adjust
++all securebits is not allowed
+adjusting keep_caps does not make sense
+duplicate --selinux-label option
+duplicate --apparmor-profile option
+--dump is incompatible with all other options
+--list-caps must be specified alone
+--[re]gid requires --keep-groups, --clear-groups, or --groups
+disallow granting new privileges failed
+keep process capabilities failed
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"@
+setpriv.debug
+7zXZ
+#`;j
+ELwSn{
+|bd7j
+f'5g
+ob"+q
+3""CN%
+0^8:NA`5
+v0f,
+\o:*
+59aSr
+P8-5
+C|G7
+M1rY
+o GD
+0f= Q
+$c0D
+Ki3L
+kX$/0
+hv1g1M
+jNQaeI
+zvZI
+s0TE!
+)U+,
+I2/t'
+C]TnQgQ
+elJnY4
+,]=j
+RW6%
+J~00
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,441 @@
+/lib64/ld-linux-x86-64.so.2
+AljG
+]	4U#
+AC0#7[g
+libcupsimage.so.2
+ppdPageSize
+__gmon_start__
+_Jv_RegisterClasses
+cupsGetOption
+cupsTempFd
+_cups_strlcpy
+cupsImageGetXPPI
+cupsImageClose
+cupsImageGetWidth
+cupsImageGetHeight
+cupsImageGetRow
+cupsImageOpen
+cupsImageGetYPPI
+cupsImageGetColorSpace
+libcups.so.2
+ppdEmit
+cupsMarkOptions
+ppdMarkOption
+ppdEmitJCLEnd
+ppdOpenFile
+ppdClose
+ppdFindOption
+ppdMarkDefaults
+cupsParseOptions
+ppdIsMarked
+ppdEmitJCL
+ppdFindMarkedChoice
+libgnutls.so.26
+libgcrypt.so.11
+libdl.so.2
+libgpg-error.so.0
+libavahi-common.so.3
+libavahi-client.so.3
+libpthread.so.0
+close
+libm.so.6
+ceilf
+libcrypt.so.1
+libaudit.so.1
+libselinux.so.1
+libc.so.6
+__printf_chk
+_IO_putc
+setlocale
+perror
+puts
+__stack_chk_fail
+unlink
+putchar
+stdin
+strftime
+strtod
+strtol
+strlen
+memset
+__fprintf_chk
+stdout
+memcpy
+malloc
+strcasecmp
+__strndup
+getenv
+sscanf
+stderr
+fwrite
+fread
+localtime
+__cxa_finalize
+__sprintf_chk
+setbuf
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+LanguageLevel
+__libc_csu_fini
+Flip
+XPosition
+Collate
+Duplex
+Orientation
+__libc_csu_init
+Copies
+PageBottom
+PageWidth
+PageLeft
+ColorDevice
+YPosition
+PageLength
+PageRight
+PageTop
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5:g 
+%<g 
+%:g 
+%2g 
+%*g 
+%"g 
+%zf 
+%rf 
+%jf 
+%bf 
+%Zf 
+%Rf 
+%Jf 
+%Bf 
+%:f 
+%2f 
+%*f 
+%"f 
+AWAVAUATU
+t$p1
+T$pH
+L$p1
+L$pH
+t$XtP1
+L$XH
+t$dtT1
+L$dH
+D$`H
+D$hu
+z.u,
+ZD$`H
+\$ t~
+YL$P
+L$PH
+T$p1
+L$0L
+D$@H
+L$0H
+T$pH
+L$pH
+ZD$XH
+ZL$d
+T$@L
+T$@L
+YL$T
+YT$T
+|$hA
+T$p)
+T$xH
+*D$x
+D;d$d
+LcD$T
+T$PM
+t$pH
+|$hM
+t$TD
+t$|D
+L$`H
+D$XL
+l$`H
+T$XA
+L$d9L$P
+HcT$TIc
+T$P9T$d
+[]A\A]A^A_
+T$xH
+T$xH
+T$xH
+D$P1
+T$xH
+l$PD
+D;d$d
+t$pM
+|$hD
+T$PE
+YL$T
+YT$T
+YL$T
+YL$T
+YL$T
+YL$T
+YL$T
+YL$T
+YL$T
+-.F 
+D$pH
+YD$T
+YT$TH
+l$@H
+d$0H
+\$ H
+YD$T
+YT$T
+YL$T
+5DC 
+%MC 
+ZD$|H
+\$ H
+^t$|
+^t$|
+t$xvfH
+YD$|
+t$`H
+ZL$P
+ZD$`H
+ZL$x
+^\$T
+^T$T
+YD$|
+^\$T
+^T$T
+YD$P
+.\$P
+\$ H
+ATSubH
+=@; 
+%d8 
+[A\]
+= 8 
+5T: 
+AVAUA
+ []A\A]A^
+ffffff.
+AWAVAUATUSH
+-~0 
+9D$pA
+D$hE1
+|$pD
+HcL$pD
+D$h1
+t$xB
+T$PH
+T$PH
+L$hA
+L$xIc
+T$PH
+[]A\A]A^A_
+\$xA
+D9t$p
+T$@f
+t$0H
+Xd$p
+XD$p
+XD$x
+[]A\A]A^A_
+l$xIc
+l$ H
+L$PH
+-?' 
+[]A\
+-S! 
+%L! 
+l$ L
+t$(L
+|$0H
+Usage: %s job-id user title copies options [file]
+ERROR: Unable to copy image file
+DEBUG: imagetoraster - copying to temp print file "%s"
+separate-documents-uncollated-copies
+ERROR: Unable to open image file for printing!
+DEBUG: Before scaling: xppi=%d, yppi=%d, zoom=%.2f
+DEBUG: Before scaling: xprint=%.1f, yprint=%.1f
+DEBUG: Image size is %.1f x %.1f inches...
+DEBUG: Using landscape orientation...
+DEBUG: cupsImageGetXPPI(img) = %d, cupsImageGetYPPI(img) = %d, aspect = %f
+DEBUG: Portrait size is %.2f x %.2f inches
+DEBUG: Landscape size is %.2f x %.2f inches
+DEBUG: Using portrait orientation...
+DEBUG: xpages = %dx%.2fin, ypages = %dx%.2fin
+DEBUG: Updated custom page size to %.2f x %.2f inches...
+%%%%BoundingBox: %.0f %.0f %.0f %.0f
+%%DocumentNeededResources: font Helvetica-Bold
+%%Creator: imagetops/CUPS v1.4.6
+{ neg 1 add dup 0 lt { pop 1 } { %.3f exp neg 1 add } ifelse %.3f mul } bind settransfer
+<</NumCopies %d>>setpagedevice
+DEBUG: XPosition=%d, YPosition=%d, Orientation=%d
+DEBUG: xprint=%.0f, yprint=%.0f
+DEBUG: PageLeft=%.0f, PageRight=%.0f, PageWidth=%.0f
+DEBUG: PageBottom=%.0f, PageTop=%.0f, PageLength=%.0f
+%.0f %.0f translate 180 rotate
+{currentfile picture readhexstring pop} image
+{currentfile picture readhexstring pop} false %d colorimage
+<</ImageType 1/Width %d/Height %d/BitsPerComponent 8
+/DataSource currentfile/ASCII85Decode filter
+/ImageMatrix[1 0 0 -1 0 1]>>image
+multiple-document-handling
+Collate
+True
+gamma
+brightness
+fitplot
+fit-to-page
+%dx%d
+position
+center
+top-left
+top-right
+bottom-left
+bottom-right
+saturation
+MirrorPrint
+mirror
+emit-jcl
+false
+natural-scaling
+orientation-requested
+landscape
+DEBUG: Auto orientation...
+PageSize
+Custom
+Custom.%.0fx%.0f
+%!PS-Adobe-3.0
+%%%%LanguageLevel: %d
+%%%%Pages: %d
+%%DocumentData: Clean7Bit
+%%%%CreationDate: %s
+Title
+%%Orientation: Landscape
+%%Orientation: Portrait
+%%EndComments
+%%BeginProlog
+page-label
+/#copies %d def
+%%EndProlog
+DEBUG: left=%.2f, top=%.2f
+PAGE: %d %d
+INFO: Printing page %d...
+%%%%Page: %d %d
+gsave
+%.0f 0 translate -1 1 scale
+%.0f 0 translate 90 rotate
+0 %.0f translate -90 rotate
+%.1f %.1f translate
+%.3f %.3f scale
+/picture %d string def
+%d %d 8[1 0 0 -1 0 1]
+0123456789ABCDEF
+/DeviceGray setcolorspace
+/DeviceRGB setcolorspace
+/DeviceCMYK setcolorspace
+/Decode[0 1]
+/Decode[0 1 0 1 0 1]
+/Decode[0 1 0 1 0 1 0 1]
+/Interpolate true
+grestore
+showpage
+%%EOF
+R@PPD
+page-left
+page-right
+page-bottom
+page-top
+DuplexNoTumble
+DuplexTumble
+JCLDuplex
+EFDuplex
+KD03Duplex
+CLASSIFICATION
+none
+userdict/ESPwl{}bind put
+LSPP:
+userdict/ESPp%c(
+\%03o
+)put
+ dup
+  1 setgray
+  0 setgray
+  %.0f moveto ESPp%c show
+  pop
+}bind put
+userdict
+confidential
+/ESPpl(CONFIDENTIAL
+/ESPpl(CLASSIFIED
+/ESPpl(SECRET
+topsecret
+/ESPpl(TOP SECRET
+unclassified
+/ESPpl(UNCLASSIFIED
+/ESPpl(
+userdict/ESPwl{
+  ESPpf setfont
+  dup %.0f moveto ESPpl show
+  %.0f moveto ESPpl show
+%.1f 0.0 translate 90 rotate
+ESPwl
+%%%%%s: (
+DEBUG: Page = %.0fx%.0f; %.0f,%.0f to %.0f,%.0f
+% x y w h ESPrc - Clip to a rectangle.
+userdict/ESPrc/rectclip where{pop/rectclip load}
+{{newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath clip newpath}bind}ifelse put
+% x y w h ESPrf - Fill a rectangle.
+userdict/ESPrf/rectfill where{pop/rectfill load}
+{{gsave newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath fill grestore}bind}ifelse put
+% x y w h ESPrs - Stroke a rectangle.
+userdict/ESPrs/rectstroke where{pop/rectstroke load}
+{{gsave newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath stroke grestore}bind}ifelse put
+userdict/ESPlf /Nimbus-Mono findfont 12 scalefont put
+userdict/ESPwl{
+  ESPlf setfont
+  ESPp%c stringwidth pop dup 12 add exch -0.5 mul %.0f add
+  dup 6 sub %.0f %d index %.0f ESPrf
+  dup 6 sub %.0f %d index %.0f ESPrs
+  dup %.0f moveto ESPp%c show
+userdict/ESPpf /Helvetica-Bold findfont 14 scalefont put
+  ESPpl stringwidth pop dup 12 add exch -0.5 mul %.0f add
+  dup 6 sub %.0f 3 index 20 ESPrf
+  dup 6 sub %.0f 3 index 20 ESPrs
+%.1f %.1f translate 180 rotate
+0.0 %.1f translate -90 rotate
+imagetops.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

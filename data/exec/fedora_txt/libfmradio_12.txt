@@ -1,0 +1,236 @@
+pEJF
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+rb_fm_radio_plugin_get_type
+rb_debug_real
+register_rb_plugin
+bindtextdomain
+bind_textdomain_codeset
+rb_plugin_get_type
+g_type_module_register_type
+g_type_check_class_cast
+g_type_class_peek_parent
+rb_radio_tuner_register_type
+rb_fm_radio_source_register_type
+g_type_check_instance_cast
+rb_source_delete_thyself
+g_object_get
+gtk_ui_manager_remove_ui
+g_object_unref
+rb_radio_tuner_new
+rb_radio_tuner_set_mute
+rb_radio_tuner_update
+rb_fm_radio_source_new
+rb_shell_append_source
+rb_plugin_find_file
+gtk_ui_manager_add_ui_from_file
+g_free
+g_log
+rb_fm_radio_source_add_station
+g_ascii_strtod
+g_strconcat
+rhythmdb_entry_lookup_by_location
+rhythmdb_entry_new
+g_value_init
+g_value_set_static_string
+rhythmdb_entry_set
+g_value_unset
+g_value_set_double
+rhythmdb_commit
+g_strdup
+rb_source_get_type
+g_type_class_add_private
+rb_false_function
+rb_true_function
+g_list_prepend
+_rb_source_show_popup
+rhythmdb_entry_unref
+g_dgettext
+rb_uri_dialog_new
+g_signal_connect_object
+gtk_dialog_get_type
+gtk_dialog_run
+gtk_object_get_type
+gtk_object_destroy
+rb_source_update_play_statistics
+rhythmdb_entry_get_entry_type
+rhythmdb_entry_ref
+rhythmdb_entry_get_string
+g_str_has_prefix
+rb_radio_tuner_set_frequency
+rb_entry_view_resort_model
+rb_fm_radio_source_get_type
+g_assertion_message_expr
+rhythmdb_entry_type_get_by_name
+g_object_new
+g_object_ref
+rb_shell_register_entry_type_for_source
+rhythmdb_entry_register_type
+rb_null_function
+g_type_instance_get_private
+rb_entry_view_get_selected_entries
+rhythmdb_entry_delete
+g_list_free
+_rb_source_register_action_group
+rb_entry_view_new
+rb_entry_view_append_column
+gtk_widget_get_type
+gtk_container_get_type
+gtk_container_add
+gtk_widget_show_all
+rhythmdb_query_parse
+rhythmdb_query_model_new_empty
+rhythmdb_query_results_get_type
+rhythmdb_do_full_query_parsed
+rhythmdb_query_free
+rb_entry_view_set_model
+g_object_set
+_gst_plugin_register_static
+rb_fm_radio_src_get_type
+g_once_init_enter_impl
+g_intern_static_string
+gst_bin_get_type
+gst_type_register_static_full
+gst_uri_handler_get_type
+g_type_add_interface_static
+g_once_init_leave
+gst_element_register
+gst_object_unref
+gst_element_get_type
+gst_static_pad_template_get
+gst_element_class_add_pad_template
+gst_element_class_set_details
+gst_element_factory_make
+gst_bin_add
+gst_object_ref
+gst_element_get_pad
+gst_ghost_pad_new
+gst_element_add_pad
+close
+rb_radio_tuner_get_type
+ioctl
+open
+g_strndup
+__errno_location
+g_strerror
+librhythmbox-core.so.0
+libz.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libfmradio.so
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.0
+l[^_]
+ [^]
+<[^_]
+<[^_]
+L[^_]
+,[^_]
+L[^_]
+<[^_]
+9V,@
+[^_]
+[^_]
+RBFMRadioPlugin initialising
+rb-fm-radio-plugin.c
+RBFMRadioPlugin
+Registering plugin %s
+/usr/share/locale
+rhythmbox
+UTF-8
+RBIRadioPlugin finalising
+ui-manager
+fmradio-ui.xml
+Rhythmbox
+Unable to find file: fmradio-ui.xml
+register_rb_plugin
+rb_fm_radio_plugin_init
+rb_fm_radio_plugin_finalize
+%s is not a frequency
+rb-fm-radio-source.c
+fmradio:
+uri %s already in db
+xrbsilence:///
+RBFMRadioSource
+MusicNewFMRadioStation
+/FMRadioSourcePopup
+/FMRadioViewPopup
+Frequency of radio station
+New FM Radio Station
+location-added
+fmradio-station
+FM Radio
+entry-type
+shell
+name
+shell-player
+FMRadioActions
+sort-order-changed
+show_popup
+query-model
+playing-song-changed
+gtk-new
+New FM R_adio Station
+Create a new FM Radio station
+rb_fm_radio_source_type_id != 0
+rb_fm_radio_source_add_station
+rb_fm_radio_source_get_type
+RBFMRadioSrc
+rbsilencesrc
+xrbsilence://
+rb-fm-radio-gst-src.c
+audiotestsrc
+wave
+element to output silence
+0.12.1
+xrbsilence
+RB Silence Source
+Source/File
+Outputs buffers of silence
+creating rb silence src element
+James Henstridge <james@jamesh.id.au>
+rb_fm_radio_src_init
+RBRadioTuner
+rb_radio_tuner_type_id != 0
+rb-radio-tuner-v4l2.c
+/dev/radio0
+Could not open device %s
+Device is not a tuner
+Device is not a radio tuner
+Could not query device capabilities: %s
+Could not query tuner info: %s
+rb_radio_tuner_get_type
+libfmradio.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

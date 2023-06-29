@@ -1,0 +1,147 @@
+/lib64/ld-linux-x86-64.so.2
+liblxc.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lxc_log_category_lxc
+lxc_container_new
+lxc_container_put
+libcap.so.2
+libselinux.so.1
+libseccomp.so.2
+libutil.so.1
+libpthread.so.0
+libc.so.6
+__printf_chk
+exit
+optind
+puts
+__stack_chk_fail
+putchar
+__fprintf_chk
+__ctype_b_loc
+optarg
+stderr
+getopt_long
+strtoull
+fwrite
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+_IO_stdin_used
+__libc_csu_init
+lxc_log_category_lxc_clone_ui
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+AWAVAUATI
+D$x1
+D$pL
+l$lH
+t$H1
+T$pH9T$PH
+T$XH
+D$pH
+<Mtp<G
+t$0L
+D$HH
+T$PL
+|$xdH3<%(
+[]A\A]A^A_
+D$PH
+L$PH
+fffff.
+fffff.
+=2	 
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+Usage: %s [-s] [-B backingstore] [-L size[unit]] [-K] [-M] [-H]
+          [-p lxcpath] [-P newlxcpath] orig new
+  -s: snapshot rather than copy
+  -B: use specified new backingstore.  Default is the same as
+      the original.  Options include aufs, btrfs, lvm, overlayfs, 
+  -L: for blockdev-backed backingstore, use specified size * specified
+      unit. Default size is the size of the source blockdev, default
+  -K: Keep name - do not change the container name
+  -M: Keep macaddr - do not choose a random new mac address
+  -p: use container orig from custom lxcpath
+  -P: create container new in custom lxcpath
+Invalid blockdev size '%s', using default size
+Invalid blockdev unit size '%c' in '%s', using default size
+Error: you must provide orig and new names
+Insufficent privileges to control %s
+Error: container %s is not defined
+Created container %s as %s of %s
+      dir and loop
+      unit is MB
+snapshot
+copy
+sB:L:o:n:v:KMHp:P:t:h
+Error: vgname not supported
+Error: fstype not supported
+clone failed
+backingstore
+size
+orig
+vgname
+keepname
+keepmac
+lxcpath
+newpath
+fstype
+help
+lxc_clone_ui
+;*3$"
+lxc-clone.debug
+7zXZ
+/1`(
+aIDg
+2L ^
+:"&}
+: M%
+	>9	
+</uw
+'zIc
+>:0q
+@-	'Zo
+E?I UTg
+kc_@
+.[.l
+'8[!
+__Vhe}
+@-#	
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

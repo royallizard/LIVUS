@@ -1,0 +1,128 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+calloc
+plugin_log
+fopen
+fgets
+strsplit
+strchr
+strtol
+fclose
+__stack_chk_fail
+sstrncpy
+ssnprintf
+plugin_dispatch_values
+socket
+sendmsg
+recvmsg
+__errno_location
+sstrerror
+strcasecmp
+free
+module_register
+plugin_register_config
+plugin_register_init
+plugin_register_read
+libdl.so.2
+libc.so.6
+tcpconns.so
+GLIBC_2.4
+GLIBC_2.2.5
+=	$ 
+=y# 
+=?# 
+f;;tI
+[]A\
+AWAVH
+AUATUSH
+|$ L
+|$0H
+[]A\A]A^A_
+AUATI
+[]A\A]
+AWAV
+AUAT
+\$0f
+l$ f
+D$xH
+D$<H
+D$ H
+D$(L
+l$@H
+[]A\A]A^A_
+[]A\
+[]A\
+[]A\
+AUAT
+[]A\A]
+tcpconns plugin: Ignoring connection with unknown state 0x%02x.
+tcpconns plugin: conn_read_netlink: socket(AF_NETLINK, SOCK_RAW, NETLINK_INET_DIAG) failed: %s
+tcpconns plugin: conn_read_netlink: sendmsg(2) failed: %s
+tcpconns plugin: conn_read_netlink: recvmsg(2) failed: %s
+tcpconns plugin: conn_read_netlink: Received error %i.
+tcpconns plugin: Invalid port: %i
+tcpconns plugin: conn_get_port_entry failed.
+tcpconns plugin: Reading from netlink succeeded. Will use the netlink method from now on.
+tcpconns plugin: Reading from netlink failed. Will read from /proc from now on.
+ESTABLISHED
+tcpconns
+tcp_connections
+%u-local
+%u-remote
+ListeningPorts
+true
+LocalPort
+RemotePort
+AllPortsSummary
+/proc/net/tcp
+/proc/net/tcp6
+SYN_SENT
+SYN_RECV
+FIN_WAIT1
+FIN_WAIT2
+TIME_WAIT
+CLOSED
+CLOSE_WAIT
+LAST_ACK
+LISTEN
+CLOSING
+;*3$"
+tcpconns.so.debug
+7zXZ
+P2>uc
++6"t#<
+HlJTF
+IS18
+I99?2),G\2
+PUT}1
+bND_
+=4a9j
+',q?UA
+	X(@
+7v%}7
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

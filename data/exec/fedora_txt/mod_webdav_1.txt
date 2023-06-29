@@ -1,0 +1,293 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+webdav_has_lock
+mod_webdav_plugin_init
+buffer_init_string
+buffer_free
+calloc
+buffer_init
+buffer_is_empty
+config_insert_values_global
+log_error_write
+webdav_lockdiscovery
+response_header_overwrite
+chunkqueue_get_append_buffer
+buffer_copy_string_len
+buffer_append_string_len
+buffer_append_string
+buffer_append_string_buffer
+stat_cache_get_entry
+buffer_is_equal_right_len
+gmtime
+strftime
+buffer_append_long
+__stack_chk_fail
+get_http_status_name
+unlink
+__errno_location
+stream_open
+open64
+stream_close
+opendir
+readdir64
+buffer_copy_string_buffer
+__xstat64
+closedir
+rmdir
+config_check_cond
+buffer_is_equal_string
+response_header_insert
+live_properties
+array_get_element
+strtol
+buffer_reset
+strstr
+strchr
+buffer_is_equal
+chunkqueue_length
+strncmp
+strtoll
+lseek64
+buffer_append_string_encoded
+mkdir
+chunkqueue_remove_finished_chunks
+mmap64
+strrchr
+buffer_urldecode_path
+buffer_path_simplify
+buffer_to_lower
+buffer_copy_string
+__assert_fail
+strerror
+rename
+libc.so.6
+_edata
+__bss_start
+_end
+mod_webdav.so
+GLIBC_2.4
+GLIBC_2.2.5
+52< 
+%4< 
+%2< 
+%*< 
+%"< 
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+ATSubH
+=O6 
+%$6 
+ffffff.
+ATUSH
+[]A\A]
+AVAUI
+ATUSH
+D$0H
+D$8H
+D$PI
+T$ H
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+fff.
+[]A\A]A^A_
+D$H1
+2005-08-H
+18T07:27H
+Thu, 18 H
+|$0H
+Aug 2005H
+ 07:27:1H
+t$8H
+D$@:16Z
+D$ L
+D$(6 GMf
+D$,T
+T$HdH3
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+l$ H
+t$ H
+l$ L
+d$(L
+l$0H
+AWAVAUATI
+t$ H
+T$8L
+D$@H
+T$0f
+D$X%
+D$(H
+L$0H
+T$8H
+t$ H
+[]A\A]A^A_
+D$(H
+L$0H
+T$8H
+t$ H
+D$(H
+T$0H
+t$ H
+ffffff.
+AWAVAUATUH
+[]A\A]A^A_
+trE1
+$H;P
+l$ L
+t$(L
+|$0H
+L$ H
+l$ H
+.t.H
+L$(M
+t$ L
+u E1
+D$ H
+T$@H
+T$(H
+L$0H
+D$8L
+D$ H
+T$ H
+D$X%
+D$0H
+L$8E
+webdav
+webdav.activate
+webdav.is-readonly
+webdav.sqlite-db-name
+webdav.log-xml
+mod_webdav.c
+Lock-Token
+text/xml; charset="utf-8"
+Content-Type
+<D:lockdiscovery>
+<D:activelock>
+<D:lockscope>
+</D:lockscope>
+<D:locktype>
+</D:locktype>
+<D:depth>
+infinity
+</D:depth>
+<D:timeout>
+Second-600
+</D:timeout>
+<D:owner>
+</D:owner>
+<D:locktoken>
+<D:href>
+</D:href>
+</D:locktoken>
+</D:activelock>
+</D:lockdiscovery>
+</D:prop>
+resourcetype
+getcontenttype
+<D:getcontenttype>
+</D:getcontenttype>
+creationdate
+%Y-%m-%dT%H:%M:%SZ
+</D:creationdate>
+getlastmodified
+%a, %d %b %Y %H:%M:%S GMT
+</D:getlastmodified>
+getcontentlength
+<D:getcontentlength>
+</D:getcontentlength>
+getcontentlanguage
+<D:getcontentlanguage>
+</D:getcontentlanguage>
+<D:href>
+</D:href>
+<D:status>
+HTTP/1.1 
+HTTP/1.0 
+</D:status>
+</D:response>
+MS-Author-Via
+PROPFIND
+Allow
+Depth
+<D:response>
+<D:propstat>
+<D:prop>
+</D:propstat>
+</D:multistatus>
+XML-response-body:
+Content-Range
+bytes 
+open failed: 
+mmap failed: 
+ssbd
+Destination
+Overwrite
+DAV:
+displayname
+getetag
+lockdiscovery
+source
+supportedlock
+Sorry, no sqlite3 and libxml2 support include, compile with --with-webdav-props
+<?xml version="1.0" encoding="utf-8"?>
+<D:prop xmlns:D="DAV:" xmlns:ns0="urn:uuid:c2f41010-65b3-11d1-a29f-00aa00c14882/">
+<D:resourcetype><D:collection/></D:resourcetype>
+<D:getcontenttype>httpd/unix-directory</D:getcontenttype>
+<D:creationdate ns0:dt="dateTime.tz">
+<D:getlastmodified ns0:dt="dateTime.rfc1123">
+<D:response xmlns:ns0="urn:uuid:c2f41010-65b3-11d1-a29f-00aa00c14882/">
+PROPFIND, DELETE, MKCOL, PUT, MOVE, COPY, PROPPATCH, LOCK, UNLOCK
+<D:multistatus xmlns:D="DAV:" xmlns:ns0="urn:uuid:c2f41010-65b3-11d1-a29f-00aa00c14882/">
+<D:status>HTTP/1.1 200 OK</D:status>
+<D:status>HTTP/1.1 404 Not Found</D:status>
+<D:multistatus xmlns:D="DAV:">
+chunkqueue_length(cq) == (off_t)con->request.content_length
+mod_webdav_subrequest_handler
+mod_webdav.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

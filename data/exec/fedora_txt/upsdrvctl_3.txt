@@ -1,0 +1,342 @@
+tdDO
+td|l
+/lib/ld-linux.so.2
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+write
+waitpid
+fork
+read
+__errno_location
+sigaction
+libc.so.6
+_IO_stdin_used
+setuid
+chroot
+__printf_chk
+execv
+fopen
+optind
+strrchr
+__strdup
+perror
+__fdelt_chk
+initgroups
+strncpy
+puts
+unlink
+select
+realloc
+_exit
+getpid
+kill
+__assert_fail
+strtol
+fgetc
+fgets
+getpwnam
+calloc
+strlen
+setlogmask
+sigemptyset
+openlog
+memset
+chdir
+__syslog_chk
+getopt
+__fprintf_chk
+fclose
+__vsnprintf_chk
+malloc
+umask
+__xstat64
+__ctype_b_loc
+getenv
+optarg
+stderr
+alarm
+__snprintf_chk
+seteuid
+getuid
+gettimeofday
+geteuid
+difftime
+strchr
+sleep
+__cxa_finalize
+setsid
+setgid
+strcmp
+strerror
+__libc_start_main
+snprintf
+free
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__gmon_start__
+GLIBC_2.0
+GLIBC_2.3
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+UWVS
+[^_]
+[^_]
+execf
+D$ : 
+[^_]
+UWVS
+[^_]
+|$Le
+UWVS
+d$,[^_]
+d$,[^_]
+8/tQ
+t$(V
+UWVS
+l$0W
+T$,)
+t$4j
+[^_]
+|$(W
+[^_]
+UWVS
+|$(W
+[^_]
+UWVS
+[^_]
+t$(V
+UWVS
+Pjdj
+t$4V
+D$|e3
+[^_]
+UWVS
+[^_]
+t$(V
+RRPj
+QQPj
+VVPj
+RRPj
+QQPj
+QVPj
+RVPj
+t	[^_
+D$(X
+D$ P
+[^_]
+D$(X
+D$ P
+[^_]
+UWVS
+t$(V
+ZYUV
+D$XP
+t$TU
+[^_]
+9[tI
+D$LP
+@0Inva
+@4lid 
+@8ctx 
+@<bufff
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+F0Unba
+F4lanc
+F8ed w
+F<ord 
+F@due 
+FDto u
+FHnesc
+FLaped
+FP # i
+FTn qu
+FXotes
+9F t
+UWVS
+[^_]
+[^_]
+9E t
+UWVS
+[^_]
+t$<j
+|$01
+>\;D$
+t$,U
+[^_]
+Stopping UPS: %s
+%s/%s-%s.pid
+Can't open %s
+Sending signal to %s
+Stopping %s failed
+  -h			display this help
+fork
+Driver exited abnormally
+Driver died after signal %d
+execv
+Starting UPS: %s
+%s/%s
+Can't start %s
+%i remaining attempts
+Shutdown UPS: %s
+maxstartdelay
+driverpath
+maxretry
+retrydelay
+driver
+port
+sdorder
++htu:r:DV
+start
+stop
+shutdown
+/usr/sbin
+UPS %s not found in ups.conf
+Starts and stops UPS drivers via ups.conf.
+usage: %s [OPTIONS] (start | stop | shutdown) [<ups>]
+  -r <path>		drivers will chroot to <path>
+  -t			testing mode - prints actions without doing them
+  -u <user>		drivers started will switch from root to <user>
+  -D            	raise debugging level
+  start			start all UPS drivers in ups.conf
+  start	<ups>		only start driver for UPS <ups>
+  stop			stop all UPS drivers in ups.conf
+  stop <ups>		only stop driver for UPS <ups>
+  shutdown		shutdown all UPS drivers in ups.conf
+  shutdown <ups>	only shutdown UPS <ups>
+Startup timer elapsed, continuing...
+Driver failed to start (exit status=%d)
+Network UPS Tools - UPS driver controller %s
+*** Testing mode: not calling exec/kill
+If you're not a NUT core developer, chances are that you're told to enable debugging
+to see why a driver isn't working for you. We're sorry for the confusion, but this is
+the 'upsdrvctl' wrapper, not the driver you're interested in.
+Below you'll find one or more lines starting with 'exec:' followed by an absolute
+path to the driver binary and some command line option. This is what the driver
+starts and you need to copy and paste that line and append the debug flags to that
+line (less the 'exec:' prefix).
+Error: unrecognized command [%s]
+Error: no UPS definitions found in ups.conf
+Error: no UPS definitions found in ups.conf!
+/var/run/nut
+%s/%s.pid
+common.c
+len <= size
+%4.0f.%06ld	
+/etc/ups
+NUT_CONFPATH
+NUT_STATEPATH
+writepid: fopen %s
+Failed to read pid from %s
+kill
+ %02x
+%s: (%d bytes) =>
+%3s 
+%02Xh 
+'%c' 
+Unable to enter background
+open /dev/null
+Startup successful
+initgroups
+setgid
+setuid
+chdir(%s)
+chroot(%s)
+chdir(/)
+chrooted into %s
+Invalid log level threshold
+user %s not found
+getpwnam(%s)
+Out of memory
+2.7.2
+vupslog: vsnprintf needed more than %d bytes
+Ignoring invalid pid number %d
+getuid gave 0, but seteuid(0) failed
+snprintfcat
+Fatal error in parseconf(ups.conf): %s
+%s/ups.conf
+Can't open %s: %s
+Parse error: %s:%d: %s
+parseconf: fatal error: %s
+realloc wordbuf failed
+realloc arglist failed
+realloc argsize failed
+realloc arglist member failed
+malloc wordbuf failed
+addchar: discarding invalid character (0x%02x)!
+;*2$"
+upsdrvctl.debug
+7zXZ
+b{}^
+D	4f
+,ch.
+_Oeq
++J\u
+dH<'LYbV\	Y
+:z[3
+-vV8
+5EOH
+R/OV"
+IcRG
+-3&q
+N@Ms
+/}(:
+p{$	$#
+k-)?
+=[^/rF&
+|4Mf
+He$!
+VJW>d
+X1@4
+^+TCN
+/f09
+^mu>z
+W%|=
+6kMG{
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

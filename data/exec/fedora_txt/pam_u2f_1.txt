@@ -1,0 +1,316 @@
+O+W:
+TN8[Hi
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+stderr
+__vfprintf_chk
+fputc
+fflush
+fdopen
+fclose
+__stack_chk_fail
+__fprintf_chk
+pam_sm_authenticate
+malloc
+pam_get_user
+getpwnam_r
+free_devices
+pam_strerror
+free
+__strdup
+gethostname
+get_devices_from_authfile
+__errno_location
+converse
+do_authentication
+secure_getenv
+strlen
+memcpy
+do_manual_authentication
+pam_sm_setcred
+__fxstat
+getpwuid_r
+strcmp
+fgets
+strtok_r
+__isoc99_sscanf
+pam_get_item
+u2fh_global_init
+u2fh_devs_init
+u2fh_devs_discover
+u2fh_strerror
+u2fs_global_init
+u2fs_init
+u2fs_set_origin
+u2fs_strerror
+u2fs_set_appid
+u2fs_authentication_verify
+u2fs_set_keyHandle
+u2fs_set_publicKey
+u2fs_authentication_challenge
+u2fh_authenticate
+u2fh_devs_done
+u2fh_global_done
+u2fs_done
+u2fs_global_done
+__sprintf_chk
+libu2f-host.so.0
+libu2f-server.so.0
+libpam.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+pam_u2f.so
+U2F_HOST_0.0
+LIBPAM_1.0
+U2F_SERVER_0.0.0
+GLIBC_2.7
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.17
+GLIBC_2.3.4
+GLIBC_2.2.5
+5z: 
+%|: 
+%z: 
+%z: 
+%z: 
+=Y: 
+5R: 
+=	: 
+ATUI
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+[]A\
+AUATI
+[]A\A]
+[]A\A]
+AWAVAUATUSf
+)D$p
+D$pH
+t$81
+t$@L
+t$,H
+[]A\A]A^A_
+t$pH
+t$8H
+t$,1
+pam:f
+T$pH
+t$8L
+L$,I
+t$,H
+t$8H
+t$8H
+t$8H
+D$0H
+t$8H
+T$,H
+|$pH
+t$,H
+t$,H
+t$,H
+D$0H
+/.configf
+t$,H
+|$pH
+t$,H
+t$,H
+ATUI
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+[]A\
+AUATI
+[]A\A]
+[]A\A]
+AWAVI
+AUATI
+y=E1
+[]A\A]A^A_
+D$@H
+D$@H
+D$(D
+d$8L
+l$ H
+D$4H
+D$HH
+t$4H
+|$8H
+L$ D
+|$(D
+|$(L
+d$8H
+ATUH
+D$81
+T$(H
+D$ H
+\$8dH3
+AWAVI
+AUATA
+D$X1
+T$XdH3
+h[]A\A]A^A_
+l$,H
+|$@L
+t$,E
+t$,H
+D$PH
+D$HH
+D$8H
+t$HH
+|$@L
+D$,A
+t$,H
+|$0H
+t$PH
+t$PH
+t$HH
+AWAVAUATI
+t$0H
+t$8H
+[A\A]A^A_]
+D$0H
+/var/run/pam-debug.log
+pam-u2f.c
+[%s:%s(%d)] 
+(null)
+max_devices=
+max_devices=%u
+manual
+debug
+nouserok
+alwaysok
+interactive
+authfile=
+origin=
+appid=
+argv[%d]=%s
+max_devices=%d
+debug=%d
+interactive=%d
+cue=%d
+manual=%d
+nouserok=%d
+alwaysok=%d
+authfile=%s
+origin=%s
+appid=%s
+Unable to get host name
+Unable to allocate memory
+Unable to access user %s
+Found user %s
+Home directory for %s is %s
+XDG_CONFIG_HOME
+Variable %s set to %s
+Using authentication file %s
+Found no devices. Aborting.
+do_authentication returned %d
+done. [%s]
+called.
+flags %d argc %d
+Unable to create origin string
+Origin not specified, using "%s"
+Appid not specified, using the same value of origin (%s)
+Maximum devices number not set. Using default (%d)
+Requesting authentication for user %s
+Unable to retrieve credentials for user %s, (%s)
+Variable %s is not set. Using default value ($HOME/.config/)
+Using default authentication file %s
+Unable to get devices from file %s
+Found no devices but nouserok specified. Skipping authentication
+Insert your U2F device, then press ENTER.
+alwaysok needed (otherwise return with %d)
+parse_cfg
+pam_sm_authenticate
+/Yubico/u2f_keysutil.c
+Cannot open file: %s (%s)
+Cannot stat file: %s (%s)
+%s is not a regular file
+File %s is empty
+root
+fdopen: %s
+Authorization line: %s
+Matched user: %s
+Length of key number %d is %d
+Please touch the device.
+Device max index is %u
+Unable to set origin: %s
+Unable to set appid: %s
+Unable to set keyHandle: %s
+Unable to set publicKey %s
+Challenge: %s
+Response: %s
+Unable to discover devices
+[%d]: 
+Unable to retrieve credentials for uid %u, (%s)
+The owner of the authentication file is neither %s nor root
+The owner of the authentication file is not root
+Found more than %d devices, ignoring the remaining ones
+KeyHandle for device number %d: %s
+Unable to allocate memory for keyHandle number %d
+Unable to retrieve publicKey number %d
+publicKey for device number %d: %s
+Length of key number %d not even
+Unable to allocate memory for publicKey number %d
+Found %d device(s) for user %s
+Unable to initialize libu2f-host
+Unable to discover device(s), %s
+Unable to initialize libu2f-server
+Attempting authentication with device number %d
+Unable to produce authentication challenge: %s
+Unable to communicate to the device, %s
+Devices max_index has changed: %u (was %u). Starting over
+Now please copy-paste the below challenge(s) to 'u2f-host -aauthenticate -o %s'
+Now, please enter the response(s) below, one per line.
+do_manual_authentication
+do_authentication
+get_devices_from_authfile
+;*3$"
+pam_u2f.so.debug
+7zXZ
+2Qmo
+V*q*
+LCB-
+5qY 
+<j4'
+"Im|
+9"(5
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,235 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_mutex_lock
+pthread_mutex_unlock
+free
+plugin_log
+uc_get_rate
+format_name
+__stack_chk_fail
+strlen
+meta_data_get_boolean
+subst_string
+rate_to_value
+sstrncpy
+plugin_dispatch_values
+plugin_get_interval
+meta_data_create
+meta_data_add_boolean
+sqrt
+meta_data_destroy
+cdtime
+calloc
+pthread_mutex_init
+ssnprintf
+strcasecmp
+cf_util_get_boolean
+strchr
+cf_util_get_string_buffer
+cf_util_get_string
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_write
+c_avl_get
+__strdup
+strcmp
+c_avl_create
+c_avl_insert
+c_avl_destroy
+__assert_fail
+regcomp
+regerror
+pthread_mutex_destroy
+regexec
+c_avl_pick
+libm.so.6
+libdl.so.2
+libc.so.6
+aggregation.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+=iN 
+=ON 
+=,N 
+t+SH
+AVAUM
+ATUI
+ []A\A]A^
+AVAUATUI
+localhosH
+D$01
+D$8t
+d$ H
+[]A\A]A^
+AUATL
+[]A\A]
+=vD 
+AVAUI
+ATUI
+[]A\A]A^
+|$HH
+E@t5H
+l$@H
+l$@I
+AWAVAUATUSH
+=6> 
+=Q> 
+t$ H
+D$@H
+D$@I
+D$HI
+D$8I
+t$@H
+A;^(
+D$XH
+D$ 09A(
+=<: 
+h[]A\A]A^A_
+0A;^(
+t$0H
+AYAZ
+t$0L
+D$(H
+t$0L
+D$(H
+\$\L
+t$0H
+t$8H
+t$HH
+=*5 
+t$0L
+D$(H
+ATUH
+$u8H
+[]A\
+ATUH
+;/tA
+[]A\
+?waH
+AVAUI
+ATUI
+D$ H
+[]A\A]A^
+AWAVI
+ATUSH
+[]A\A]A^A_
+l$HH
+T$8E
+|$ H
+l$HH
+AVAUI
+ATUI
+=^* 
+[]A\A]A^
+AWAVAUATUSH
+D$(1
+l$ L
+t$ H
+D$(dH3
+[]A\A]A^A_
+D$(dH3
+8[]A\A]A^A_
+AWAVA
+ATUSH
+[]A\A]A^A_
+AWAVAUATUSH
+tfE1
+[]A\A]A^A_
+aggregation plugin: The "%s" type (data set) has more than one data source. This is currently not supported by this plugin. Sorry.
+aggregation plugin: Unable to read the current rate of "%s".
+aggregation plugin: rate_to_value failed with status %i.
+aggregation plugin: meta_data_create failed.
+aggregation plugin: Reading an aggregation instance failed with status %i.
+aggregation plugin: malloc() failed.
+aggregation plugin: lookup_create failed.
+aggregation plugin: malloc failed.
+aggregation plugin: Argument %i of the "GroupBy" option is not a string.
+aggregation plugin: Grouping by type is not supported.
+aggregation plugin: The "%s" argument to the "GroupBy" option is invalid and will be ignored.
+aggregation plugin: The "%s" key is not allowed inside <Aggregation /> blocks and will be ignored.
+aggregation plugin: It appears you did not specify the required "Type" option in this aggregation. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: The "Type" may not contain the '/' character. Especially, it may not be a regex. The current value is "%s".
+aggregation plugin: An aggregation must contain at least one wildcard. This is achieved by leaving at least one of the "Host", "Plugin", "PluginInstance" and "TypeInstance" options blank or using a regular expression and not grouping by that field. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: Only wildcard fields (fields for which a regular expression is configured or which are left blank) can be specified in the "GroupBy" option. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: No aggregation function has been specified. Without this, I don't know what I should be calculating. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: lookup_add failed with status %i.
+aggregation plugin: The "%s" key is not allowed inside <Plugin aggregation /> blocks and will be ignored.
+aggregation:created
+%{aggregation}
+average
+stddev
+/.*/
+global
+aggregation
+%s-%s
+Aggregation
+Type
+SetHost
+SetPlugin
+SetPluginInstance
+SetTypeInstance
+GroupBy
+CalculateNum
+CalculateSum
+CalculateAverage
+CalculateMinimum
+CalculateMaximum
+CalculateStddev
+utils_vl_lookup: strdup failed.
+utils_vl_lookup: malloc failed.
+utils_vl_lookup: c_avl_create failed.
+utils_vl_lookup: c_avl_insert failed.
+sizeof (match_part->str) > len
+utils_vl_lookup: Compiling regular expression "%s" failed: %s
+strcmp (vl->type, user_class->match.type.str) == 0
+user_class->match.plugin.is_regex || (strcmp (vl->plugin, user_class->match.plugin.str)) == 0
+utils_vl_lookup: User-provided constructor failed.
+utils_vl_lookup: The user object callback failed with status %i.
+utils_vl_lookup: c_avl_insert("%s") failed with status %i.
+utils_vl_lookup.c
+status <= 0
+ptr != NULL
+lu_handle_user_class
+lu_add_by_plugin
+lu_copy_ident_to_match_part
+lu_search_by_type
+;*3$"
+aggregation.so.debug
+7zXZ
+dC.O
+Cs: 
+?:kt
+yL^4
+b="m'C
+_"tx`
+nlgd
+YSdX
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,218 @@
+ vJ(U
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+netQueryInterface
+cvthname
+addAllowedSenderLine
+PrintAllowedSenders
+clearAllowedSenders
+debugListenInfo
+create_udp_socket
+closeUDPListenSockets
+netClassExit
+dbgprintf
+netClassInit
+objGetObjInterface
+modInit
+uname
+sscanf
+__errno_location
+rs_strerror_r
+__stack_chk_fail
+close
+free
+pAllowedSenders_TCP
+getnameinfo
+pAllowedSenders_GSS
+pAllowedSenders_UDP
+fnmatch
+getsockname
+calloc
+glblHadMemShortage
+family
+getaddrinfo
+malloc
+setsockopt
+fcntl
+freeaddrinfo
+Debug
+bind
+gai_strerror
+DisableDNS
+strcpy
+sigemptyset
+sigaddset
+pthread_sigmask
+bDropMalPTRMsgs
+__snprintf_chk
+__ctype_b_loc
+__ctype_tolower_loc
+strchr
+LocalDomain
+strcmp
+StripDomains
+LocalHosts
+strcasecmp
+rsParsConstructFromSz
+parsIsAtEndOfParseString
+parsPeekAtCharAtParsPtr
+parsAddrWithBits
+rsParsDestruct
+parsGetCurrentPosition
+ACLDontResolve
+memcpy
+ACLAddHostnameOnFail
+libc.so.6
+_edata
+__bss_start
+_end
+lmnet.so
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2.5
+5R. 
+%T. 
+%R. 
+%J. 
+%B. 
+%:. 
+%2. 
+%*. 
+%". 
+%z- 
+%r- 
+%j- 
+%b- 
+%Z- 
+%R- 
+%J- 
+%B- 
+%:- 
+%2- 
+%*- 
+%"- 
+=x- 
+ATSubH
+= + 
+58, 
+=u* 
+d$ H
+fffff.
+[]A\
+ATUSH
+D$X1
+D$XdH3
+`[]A\
+AWAVAUATI
+D$(1
+T$(dH3
+8[]A\A]A^A_
+D$(1
+D$(dH3
+l$ H
+fff.
+AVAUATUSH
+L$@L
+D$@E1
+\$@1
+D$HL
+|$LH
+|$@H
+[]A\A]A^A_
+\$ H
+l$ L
+t$(L
+|$0H
+AVAUATUSH
+D$(H
+D$xH
+D$ H
+D$0H
+D$pH
+D$`H
+T$(H
+[]A\A]A^A_
+D$0 
+T$pH
+T$pf
+D$pH
+D$pH
+errmsg
+net.c
+modExit
+modGetID
+getType
+objGetObjInterface
+uname: %s
+%u.%u
+in closeUDPListenSockets()
+clearAllowedSenders(0x%lx)
+Allowed %s Senders:
+	No restrictions set.
+	%s/%u
+other
+IPv4
+IPv6
+create_udp_socket(), socket
+setsockopt
+setsockopt(REUSEADDR)
+setsockopt(BSDCOMPAT)
+fcntl(O_NONBLOCK)
+bind
+Malformed from address %s
+DNS error: Can't resolve "%s"
+entry point '%s' not present in module
+uname: unexpected release '%s'
+	ERROR in getnameinfo() - something may be wrong - ignored for now
+MaskCmp: host="%s"; pattern="%s"
+Listening on %s syslogd socket %d (%s/port %d).
+Listening on syslogd socket %d - could not obtain peer info.
+UDP message reception disabled due to error logged in last message.
+couldn't allocate memory for UDP sockets, suspending UDP message reception
+We could initialize %d UDP listen sockets out of %d we received - this may or may not be an error indication.
+No UDP listen socket could successfully be initialized, message reception via UDP disabled.
+Malicious PTR record, message dropped IP = "%s" HOST = "%s"
+Malicious PTR record (message accepted, but used IP instead of PTR name: IP = "%s" HOST = "%s"
+Host name for your address (%s) unknown
+Invalid protocol '%s' in allowed sender list, line ignored
+Error %d constructing parser object - ignoring allowed sender list
+Error %d parsing address in allowed senderlist - ignoring.
+You can not specify 0 bits of the netmask, this would match ALL systems. If you really intend to do that, remove all $AllowedSender directives.
+Invalid number of bits (%d) in IPv4 address - adjusted to 32
+Invalid number of bits (%d) in IPv6 address - adjusted to 128
+Internal error caused AllowedSender to be ignored, AF = %d
+Ignoring hostname based ACLs because DNS is disabled.
+Adding hostname "%s" to ACL as a wildcard entry.
+Hostname "%s" WON'T be added to ACL.
+Error %d adding allowed sender entry - ignoring.
+Error %d adding allowed sender entry - terminating, nothing more will be added.
+lmnet.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

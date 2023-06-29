@@ -1,0 +1,296 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_point_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_int
+g_object_class_install_property
+gegl_param_spec_color_from_string
+g_param_spec_double
+g_object_set_data_full
+gegl_color_new
+g_object_unref
+g_slice_free1
+g_value_set_double
+g_value_set_int
+g_value_set_object
+g_type_name
+g_log
+g_value_get_double
+g_value_get_int
+g_value_dup_object
+gegl_operation_source_get_bounding_box
+gegl_color_get_pixel
+sincos
+gegl_clSetKernelArg
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+__powf_finite
+__hypot_finite
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+vignette.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.15
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+=e< 
+u+UH
+=B< 
+=v8 
+\$`f
+D$H1
+D$@(
+D$(H
+[]A\
+ATUH
+ []A\
+t$$H
+tcv)
+AUATM
+t$(H
+T$ dH
+D$0v
+T$`H
+YD$h
+L$Lf
+YC@H
+D$DA
+D$8A
+l$TH
+Ict$
+IcT$
+(|$`H
+-s/ 
+t$\H
+)D$p
+[]A\A]
+AUATI
+D$ dH
+l$(v
+d$\f
+L$ H
+YC@H
+Z|$pf
+ZD$x
+*l$P
+*\$T
+^l$(
+\$hM
+L$ f
+D$0fD
+\$lf
+t$(fD
+|$8f
+T$Hf
+T$Gf
+YD$(
+D9|$ 
+d$0D
+|$XD
++D$T
+YT$,
+\d$4
+XT$@H
++D$P
+YL$0
+\D$`
+\t$4
+\L$@
+T$Gf
+YD$h
+\t$4
+\L$@
+YD$d
+\t$4
+\L$@
+YD$d
+dH3<%(
+[]A\A]A^A_
+GeglChantvignette.c
+RaGaBaA float
+input
+output
+gegl-0.2
+description
+render
+categories
+gegl:vignette
+name
+Shape
+shape
+Color
+black
+color
+Radius
+radius
+Softness
+softness
+Falloff linearity
+Gamma
+gamma
+Proportion
+proportion
+Squeeze
+squeeze
+Vertical center of vignetting
+Rotation angle
+Rotation
+rotation
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+RGBA float
+vignette_cl
+A vignetting op, applies a vignette to an image. Simulates the luminance fall off at edge of exposed film, and some other fuzzier border effects that can naturally occur with analoge photograpy.
+Shape to use: 0=circle 1=diamond 2=square
+Defaults to 'black', you can use transparency here to erase portions of an image
+How far out vignetting goes as portion of half image diagonal
+How close we are to image proportions
+Aspect ratio to use, -0.5 = 1:2, 0.0 = 1:1, 0.5 = 2:1, -1.0 = 1:inf 1.0 = inf:1, this is applied after proportion is taken into account, to directly use squeeze factor as proportions, set proportion to 0.0.
+Horizontal center of vignetting
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+__kernel void vignette_cl (__global const float4 *in,           
+                           __global       float4 *out,          
+                                          float4 color,         
+                                          float  scale,         
+                                          float  cost,          
+                                          float  sint,          
+                                          int    roi_x,         
+                                          int    roi_y,         
+                                          int    midx,          
+                                          int    midy,          
+                                          int    o_shape,       
+                                          float  gamma,         
+                                          float  length,        
+                                          float  radius0,       
+                                          float  rdiff)         
+{                                                               
+  int gidx = get_global_id(0);                                  
+  int gidy = get_global_id(1);                                  
+  int gid = gidx + gidy * get_global_size(0);                   
+  float strength = 0.0f;                                        
+  float u,v,costy,sinty;                                        
+  int x,y;                                                      
+  x = gidx + roi_x;                                             
+  y = gidy + roi_y;                                             
+  sinty = sint * (y-midy) - midx;                               
+  costy = cost * (y-midy) + midy;                               
+                                                                
+  u = cost * (x-midx) - sinty;                                  
+  v = sint * (x-midx) + costy;                                  
+                                                                
+  if (length == 0.0f)                                           
+    strength = 0.0f;                                            
+  else                                                          
+    {                                                           
+      switch (o_shape)                                          
+        {                                                       
+          case 0:                                               
+          strength = hypot ((u-midx) / scale, v-midy);          
+          break;                                                
+                                                                
+          case 1:                                               
+          strength = fmax (fabs(u-midx)/scale, fabs(v-midy));   
+          break;                                                
+                                                                
+          case 2:                                               
+          strength = fabs (u-midx) / scale + fabs(v-midy);      
+          break;                                                
+        }                                                       
+      strength /= length;                                       
+      strength = (strength-radius0) / rdiff;                    
+    }                                                           
+                                                                
+  if (strength < 0.0f) strength = 0.0f;                         
+  if (strength > 1.0f) strength = 1.0f;                         
+                                                                
+  if (gamma > 0.9999f && gamma < 2.0001f)                       
+    strength *= strength;                                       
+  else if (gamma != 1.0f)                                       
+    strength = pow(strength, gamma);                            
+                                                                
+  out[gid] = in[gid]*(1.0f-strength) + color * strength;        
+}                                                               
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+vignette.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+v9{0
+=#hp
+Xd0 
+m`'%
+agTF
+	q?f
+u4SR
+j	)H
+{JqOyk
+j2-.
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

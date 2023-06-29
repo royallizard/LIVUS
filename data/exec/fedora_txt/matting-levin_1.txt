@@ -1,0 +1,288 @@
+tdh`
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_composer_get_type
+g_type_module_register_type
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+gegl_rectangle_is_empty
+g_return_if_fail_warning
+umfpack_di_defaults
+umfpack_dl_symbolic
+umfpack_dl_numeric
+g_malloc_n
+umfpack_dl_solve
+g_free
+g_log
+umfpack_dl_free_numeric
+umfpack_dl_free_symbolic
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_int
+g_object_class_install_property
+g_param_spec_double
+g_object_set_data_full
+g_slice_free1
+g_value_set_int
+g_value_set_double
+g_type_name
+g_value_get_int
+g_value_get_double
+memcpy
+g_malloc0_n
+memset
+cblas_dgemm
+g_warn_message
+g_malloc
+umfpack_dl_triplet_to_col
+babl_format_get_n_components
+gegl_buffer_get
+gegl_buffer_set
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libumfpack.so.5
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+matting-levin.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+t$8V
+RVPW
+[^_]
+UWVS
+|$<W
+Y]PV
+Y]PV
+Y]PV
+\$,UP
+Y]PV
+Y]PV
+Y]PV
+,[^_]
+ZYWP
+0[^_
+G [^_
+ZYWP
+0[^_
+UWVS
+9D$P
+9D$P
++D$P
+9D$P
++D$P
+9<$tR
+<[^_]
+;D$ u
+\$4;D$<
+\$0;D$<
+l[^_]
+UWVS
+D$\P
+L$8Q
+D$\P
+<[^_]
+<[^_]
+[^_]
+jojpje
+jpjoje
+jojoje
+PSPS
+jpjoje
+jojoje
+PPjojpje
+[^_]
+jojoje
+jojpje
+UWVS
+,[^_]
+D$$P
+D$(P
+D$$Y
+\$ U
+P9G 
+NG P
+,[^_]
+UWVS
+|$Pe
+<[^_]
+;L$|
+;t$t
+O|$`;
+;D$ u
+;D$$u
+9D$(
+GeglChantmatting-levin.c
+input
+R'G'B' double
+Y'A double
+Y' double
+output
+Unknown UMFPACK error
+UMFPACK_ERROR_file_IO
+UMFPACK_ERROR_internal_error
+UMFPACK_ERROR_out_of_memory
+UMFPACK_ERROR_n_nonpositive
+UMFPACK_ERROR_invalid_matrix
+UMFPACK_ERROR_invalid_system
+trimap
+GEGL-matting-levin.c
+laplacian
+solution
+s->col_idx[0] == 0
+s->col_idx[i - 1] <= col
+row < s->rows
+s->row_idx[j - 1] < row
+rows[i]
+gegl-0.2
+description
+misc
+categories
+gegl:matting-levin
+name
+Log of the error weighting
+Epsilon
+epsilon
+Radius
+radius
+Threshold
+threshold
+Trimap influence factor
+Lambda
+lambda
+Active Levels
+active_levels
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+image != NULL
+region != NULL
+components > 0
+radius > 0
+radius < region->width / 2
+radius < region->height / 2
+image
+alpha
+epsilon != 0.0
+trip_masked >= 0
+trip_cursor < trip_nz
+trip_cursor == trip_nz
+status == UMFPACK_OK
+new_alpha != NULL
+input_buf
+aux_buf
+output_buf
+result
+UMFPACK_WARNING_determinant_underflow
+UMFPACK_ERROR_invalid_Numeric_object
+UMFPACK_ERROR_invalid_Symbolic_object
+UMFPACK_ERROR_argument_missing
+UMFPACK_ERROR_different_pattern
+UMFPACK_ERROR_invalid_permutation
+UMFPACK_WARNING_determinant_overflow
+!gegl_rectangle_is_empty (roi)
+laplacian->columns == image_elems
+laplacian->rows == image_elems
+file %s: line %d (%s): should not be reached
+Given a sparse user supplied tri-map and an input image, create a foreground alpha mat. Set white as selected, black as unselected, for the tri-map.
+Radius of the processing window
+Alpha threshold for multilevel processing
+Number of downsampled levels to use
+Number of levels to perform solving
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+input->x == 0 && input->y == 0
+input->width < output->width && input->height < output->height
+abs (output->width - 2 * input->width ) <= 1
+abs (output->height - 2 * input->height) <= 1
+float_cmp (row_sum [i], 0.0) || float_cmp (row_sum [i], lambda)
+unable to construct laplacian matrix
+babl_format_get_n_components (babl_format (FORMAT_INPUT )) == COMPONENTS_INPUT
+babl_format_get_n_components (babl_format (FORMAT_AUX )) == COMPONENTS_AUX
+babl_format_get_n_components (babl_format (FORMAT_OUTPUT)) == COMPONENTS_OUTPUT
+matting_umf_error_to_string
+matting_verify
+matting_solve_laplacian
+matting_get_laplacian
+?matting_upsample
+matting_get_linear_coefficients
+matting_fill_borders
+?matting_downsample
+matting_solve_level
+matting_process
+@DGEMM 
+GEGL-matting-levin-cblas.c
+On entry to %s, parameter number %i had an illegal value
+;*2$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+matting-levin.so-0.2.0-38.fc28.i386.debug
+7zXZ
+]Jb_&
+NW@Jl#
+8O#e
+nRH(
+R0^"iS
+T845
+bx;K
+IO"\~
+?Y$r
+V>A	
+\^3~mVt
+O8Wi
+iV/.
+e>u9
+nDCb	
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

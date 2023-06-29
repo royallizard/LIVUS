@@ -1,0 +1,190 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+ast_set_read_format
+gettimeofday
+ast_frame_free
+ast_waitfor
+ast_read
+option_debug
+ast_log
+ast_options
+ast_debug_get_by_file
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+ast_tonepair_start
+ast_waitfordigit
+ast_tonepair_stop
+ast_answer
+ast_safe_sleep
+ast_config_AST_LOG_DIR
+__snprintf_chk
+ast_mkdir
+fopen
+setlinebuf
+__fprintf_chk
+fclose
+ast_app_getdata
+ast_dtmf_stream
+__stack_chk_fail
+strchr
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+ATSubH
+=P- 
+%,+ 
+=d* 
+AWAVAUA
+t$@1
+D$@L
+t$(L
+|$(1
+L$HH
+t$@H
+T$0A
+|$0H
+[]A\A]A^A_
+t$4L
+ffff.
+AVAUI
+ATUH
+d$`L
+[]A\A]A^
+AUATUH
+|$hH
+[]A\A]A^
+Unable to set to linear mode!
+Unable to restore original format!
+No samples were received from the other side!
+%s: Noise: %d, samples: %d, avg: %d
+TestClient requires an argument - the test id
+TestClient: 3.  Wait one second
+TestClient: 4.  Measure noise
+TestClient: 6.  Transmit tone
+TestClient: 8.  Wait one second
+Did not read a test ID on '%s'
+TestServer: 3.  Measure noise
+TestServer: 5.  Wait one second
+TestServer: 8.  Transmit tone
+TestServer: 11.  Waiting for hangup
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  TestClient(testid): Executes test client with given testid.
+Results stored in /var/log/asterisk/testreports/<testid>-client.txt
+  TestServer(): Perform test server function and write call report.
+Results stored in /var/log/asterisk/testreports/<testid>-server.txt
+app_test.c
+$Revision: 117802 $
+8378*1#
+Transmit client version
+Read server version
+server version: %s
+send test identifier: %s
+CLIENTCHAN:    %s
+CLIENTTEST ID: %s
+ANSWER:        PASS
+TestClient: 2.  Wait DTMF 1
+FAIL
+WAIT DTMF 1:   %s
+TestClient: 2.  Send DTMF 2
+PASS
+SEND DTMF 2:   %s
+WAIT 1 SEC:    %s
+TestClient
+MEASURENOISE:  %s (%d)
+TestClient: 5.  Wait DTMF 4
+WAIT DTMF 4:   %s
+SENDTONE:      %s
+TestClient: 7.  Wait DTMF 5
+WAIT DTMF 5:   %s
+TestClient: 6.  Measure tone
+MEASURETONE:   %s (%d)
+TestClient: 7.  Send DTMF 7
+SEND DTMF 7:   %s
+TestClient: 11.  Wait DTMF 8
+WAIT DTMF 8:   %s
+TestClient: 12.  Hangup
+-- TEST COMPLETE--
+-- END TEST--
+%s/testresults
+%s/testresults/%s-client.txt
+Read client version
+client version: %s
+Transmit server version
+read test identifier: %s
+%s/testresults/%s-server.txt
+SERVERCHAN:    %s
+SERVERTEST ID: %s
+Processing Test ID '%s'
+TestServer: 1.  Send DTMF 1
+SEND DTMF 1:   %s
+TestServer: 2.  Wait DTMF 2
+WAIT DTMF 2:   %s
+TestServer
+TestServer: 4.  Send DTMF 4
+SEND DTMF 4:   %s
+TestServer: 6.  Measure tone
+TestServer: 7.  Send DTMF 5
+SEND DTMF 5:   %s
+TestServer: 9.  Wait DTMF 7
+WAIT DTMF 7:   %s
+TestServer: 10.  Send DTMF 8
+SEND DTMF 8:   %s
+WAIT HANGUP:   %s
+app_test
+Interface Test Application
+Execute Interface Test Client
+Execute Interface Test Server
+testserver_exec
+measurenoise
+testclient_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_test.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

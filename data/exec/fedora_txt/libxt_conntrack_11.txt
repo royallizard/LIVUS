@@ -1,0 +1,174 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+puts
+__printf_chk
+xtables_ipmask_to_numeric
+xtables_ipaddr_to_anyname
+xtables_ipaddr_to_numeric
+xtables_ip6mask_to_numeric
+xtables_ip6addr_to_numeric
+xtables_ip6addr_to_anyname
+xt_params
+strncasecmp
+strchr
+strlen
+xtables_option_parse
+strcasecmp
+xtables_param_act
+__strcpy_chk
+__strcat_chk
+libxt_conntrack_init
+xtables_register_matches
+libxtables.so.10
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+D$ tk
+t$0f
+t>f9
+d$$[^
+d$$[^
+d$,[^_]
+d$,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+[^_]
+[^_]
+[^_]
+conntrack
+%sINVALID
+%sNEW
+%sRELATED
+%sESTABLISHED
+%sUNTRACKED
+%sSNAT
+%sDNAT
+%sEXPECTED
+%sSEEN_REPLY
+%sASSURED
+%sCONFIRMED
+%sNONE
+ state 
+ --state 
+ anywhere
+ %s%s
+ %s%s %u
+ %s%s %u:%u
+ %sctproto %u
+ %sctorigsrc
+ %sctorigdst
+ %sctreplsrc
+ %sctrepldst
+ctorigsrcport
+ctorigdstport
+ctreplsrcport
+ctrepldstport
+ %sctstatus
+ %sctexpire 
+ %sctdir REPLY
+ %sctdir ORIGINAL
+Bad state "%s"
+Bad ctstate "%s"
+Bad ctstatus "%s"
+--ctdir
+ %sctstate
+ %sctproto
+%lu:%lu
+libxtables.so.10
+ctexpire
+conntrack match options:
+[!] --ctstate {INVALID|ESTABLISHED|NEW|RELATED|UNTRACKED|SNAT|DNAT}[,...]
+                               State(s) to match
+[!] --ctproto proto            Protocol to match; by number or name, e.g. "tcp"
+[!] --ctorigsrc address[/mask]
+[!] --ctorigdst address[/mask]
+[!] --ctreplsrc address[/mask]
+[!] --ctrepldst address[/mask]
+                               Original/Reply source/destination address
+[!] --ctorigsrcport port
+[!] --ctorigdstport port
+[!] --ctreplsrcport port
+[!] --ctrepldstport port
+                               TCP/UDP/SCTP orig./reply source/destination port
+[!] --ctstatus {NONE|EXPECTED|SEEN_REPLY|ASSURED|CONFIRMED}[,...]
+                               Status(es) to match
+[!] --ctexpire time[:time]     Match remaining lifetime in seconds against
+                               value or range of values (inclusive)
+    --ctdir {ORIGINAL|REPLY}   Flow direction of packet
+state match options:
+ [!] --state [INVALID|ESTABLISHED|NEW|RELATED|UNTRACKED][,...]
+				State(s) to match
+conntrack: At least one option is required
+"--state" requires a list of states with no spaces, e.g. ESTABLISHED,RELATED
+"--ctstate" requires a list of states with no spaces, e.g. ESTABLISHED,RELATED
+rule would never match protocol
+conntrack: rule would never match protocol
+conntrack rev 1 does not support port ranges
+conntrack rev 2 does not support port ranges
+;*2$"
+libxt_conntrack.so.debug
+7zXZ
+mL{qH.
+S^u9E
+M0?#
+nfbFU
+t$&4
+?'I+
+(0?!z
+tCg08K
+UEZ#
+CAjx
+<ba1
+\mpc-
+0Z`t
+bo9C
+Sk>8b
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

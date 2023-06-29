@@ -1,0 +1,8838 @@
+/lib64/ld-linux-x86-64.so.2
+AecW
+LR%4O2
+Cg|XPCE
+libprelude.so.2
+pthread_sigmask
+__gmon_start__
+pthread_join
+pthread_create
+_Jv_RegisterClasses
+idmef_alert_new_target
+prelude_client_destroy
+idmef_message_destroy
+idmef_impact_set_severity
+idmef_target_new_node
+prelude_client_send_idmef
+idmef_node_new_address
+idmef_alert_new_source
+idmef_alert_set_create_time
+prelude_string_set_ref
+prelude_string_set_ref_fast
+idmef_alert_new_additional_data
+idmef_classification_new_text
+idmef_service_set_ip_version
+prelude_client_get_analyzer
+idmef_alert_set_analyzer
+idmef_analyzer_new_model
+idmef_reference_set_origin
+idmef_target_new_service
+idmef_analyzer_new_manufacturer
+idmef_reference_new_url
+idmef_analyzer_new_class
+idmef_analyzer_new_version
+idmef_alert_new_classification
+idmef_message_new_alert
+idmef_additional_data_set_integer
+idmef_classification_new_reference
+idmef_additional_data_new_meaning
+idmef_reference_new_name
+idmef_alert_new_detect_time
+idmef_address_new_address
+prelude_client_new
+idmef_message_new
+prelude_client_start
+idmef_source_new_service
+idmef_impact_new_description
+prelude_client_get_flags
+idmef_time_new_from_gettimeofday
+idmef_analyzer_ref
+prelude_perror
+idmef_source_new_node
+idmef_reference_new_meaning
+idmef_service_set_iana_protocol_number
+idmef_service_set_port
+idmef_alert_new_assessment
+idmef_classification_new_ident
+idmef_time_set_from_timeval
+prelude_string_sprintf
+idmef_additional_data_set_byte_string_ref
+idmef_assessment_new_impact
+prelude_client_set_flags
+prelude_init
+libgnutls.so.26
+libgcrypt.so.11
+libgpg-error.so.0
+libdl.so.2
+libhtp-0.2.so.1
+table_getc
+htp_config_register_request
+htp_connp_destroy_all
+htp_config_register_request_body_data
+htp_tx_destroy
+htp_config_destroy
+htp_tx_set_user_data
+htp_connp_create
+htp_config_register_response
+htp_connp_res_data
+htp_connp_req_data
+htp_connp_open
+htp_connp_close
+htp_connp_set_user_data
+htp_tx_get_request_headers_raw
+htp_config_create
+htp_config_set_generate_request_uri_normalized
+htp_config_set_server_personality
+htp_tx_get_user_data
+libz.so.1
+libcap-ng.so.0
+capng_clear
+capng_change_id
+capng_apply
+capng_updatev
+libpcap.so.1
+pcap_set_buffer_size
+pcap_geterr
+pcap_close
+pcap_activate
+pcap_open_offline
+pcap_setfilter
+pcap_set_promisc
+pcap_findalldevs
+pcap_create
+pcap_set_snaplen
+pcap_dispatch
+pcap_datalink
+pcap_compile
+pcap_freealldevs
+pcap_set_timeout
+pcap_stats
+libnet.so.1
+libnet_init
+libnet_write
+libnet_build_tcp
+libnet_destroy
+libnet_build_ipv4
+libnet_geterror
+libnet_build_icmpv4_unreach
+libnetfilter_queue.so.1
+nfnl_fd
+nfq_set_verdict
+nfq_set_mode
+nfq_get_indev
+nfq_unbind_pf
+nfq_create_queue
+nfq_get_msg_packet_hdr
+nfq_get_payload
+nfq_open
+nfq_nfnlh
+nfq_get_nfmark
+nfq_get_outdev
+nfq_handle_packet
+nfq_destroy_queue
+nfq_set_queue_maxlen
+nfq_bind_pf
+nfq_get_timestamp
+libnfnetlink.so.0
+nfnl_rcvbufsiz
+libpthread.so.0
+pthread_cond_init
+pthread_mutex_destroy
+pthread_self
+pthread_spin_trylock
+pthread_mutex_init
+pthread_cond_wait
+pthread_exit
+pthread_cond_destroy
+recv
+__errno_location
+pthread_mutex_lock
+pthread_cond_signal
+pthread_cond_timedwait
+pthread_spin_init
+sigaction
+pthread_spin_lock
+fork
+pthread_attr_init
+pthread_cond_broadcast
+pthread_spin_unlock
+pthread_spin_destroy
+pthread_mutex_unlock
+pthread_attr_setdetachstate
+waitpid
+pthread_mutex_trylock
+libyaml-0.so.2
+yaml_parser_delete
+yaml_parser_parse
+yaml_event_delete
+yaml_parser_set_input_file
+yaml_parser_set_input_string
+yaml_parser_initialize
+libpcre.so.0
+pcre_study
+pcre_free_substring
+pcre_free
+pcre_exec
+pcre_get_substring
+pcre_compile
+pcre_free_substring_list
+pcre_dfa_exec
+libgcc_s.so.1
+_Unwind_Resume
+__gcc_personality_v0
+libc.so.6
+fflush
+gmtime_r
+__printf_chk
+fopen
+strncmp
+optind
+__strdup
+getpwuid
+ftell
+inet_ntop
+sigfillset
+__stack_chk_fail
+unlink
+putchar
+realloc
+abort
+strtoll
+getpid
+kill
+inet_pton
+__assert_fail
+localtime_r
+strtod
+strtof
+strtok
+endpwent
+strtol
+feof
+fgetc
+fgets
+sched_setaffinity
+getpwnam
+getppid
+calloc
+strlen
+prctl
+sigemptyset
+getaddrinfo
+memset
+strstr
+fseek
+endgrent
+rand_r
+__fprintf_chk
+sigaddset
+getgrnam
+stdout
+fputc
+fputs
+memcpy
+fclose
+__strtol_internal
+setsockopt
+malloc
+umask
+strcasecmp
+__strncpy_chk
+__ctype_b_loc
+getenv
+nice
+optarg
+stderr
+__snprintf_chk
+getopt_long
+__strncat_chk
+index
+strncasecmp
+strtoull
+usleep
+fwrite
+fread
+__memcpy_chk
+strchr
+__ctype_tolower_loc
+__cxa_finalize
+syscall
+freeaddrinfo
+setsid
+getprotobyname
+__xstat
+strcmp
+strerror
+__libc_start_main
+snprintf
+sysconf
+_edata
+__bss_start
+_end
+tmqh_table
+flow_est_q
+sc_log_global_log_level
+__libc_csu_fini
+tmm_modules
+engine_mode
+DecodePPP
+DecodeRaw
+mpm_table
+flow_spare_q
+trans_q
+alp_proto_ctx
+sc_log_module_initialized
+rep_ctx
+variable_names
+g_u8_lowercasetable
+max_pending_packets
+sc_log_fg_filters_present
+variable_names_idx
+suricata_ctl_flags
+__libc_csu_init
+num_tags_sc_atomic__
+flow_proto
+flow_memuse_sc_atomic__
+run_mode
+tv_root
+sc_set_caps
+DecodeSll
+flow_new_q
+flow_hash
+data_queues
+sigmatch_table
+flow_close_q
+stream_config
+variable_idxs
+engine_stage_sc_atomic__
+DecodeEthernet
+flow_flags
+flow_config
+sc_log_fd_filters_present
+tag_ctx
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2.5
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.3.2
+a_&	
+%zD0
+%rD0
+%jD0
+%bD0
+%ZD0
+%RD0
+%JD0
+%BD0
+%:D0
+%2D0
+%*D0
+%"D0
+%zC0
+%rC0
+%jC0
+%bC0
+%ZC0
+%RC0
+%JC0
+%BC0
+%:C0
+%2C0
+%*C0
+%"C0
+%zB0
+%rB0
+%jB0
+%bB0
+%ZB0
+%RB0
+%JB0
+%BB0
+%:B0
+%2B0
+%*B0
+%"B0
+%zA0
+%rA0
+%jA0
+%bA0
+%ZA0
+%RA0
+%JA0
+%BA0
+%:A0
+%2A0
+%*A0
+%"A0
+%z@0
+%r@0
+%j@0
+%b@0
+%Z@0
+%R@0
+%J@0
+%B@0
+%:@0
+%2@0
+%*@0
+%"@0
+%z?0
+%r?0
+%j?0
+%b?0
+%Z?0
+%R?0
+%J?0
+%B?0
+%:?0
+%2?0
+%*?0
+%"?0
+%z>0
+%r>0
+%j>0
+%b>0
+%Z>0
+%R>0
+%J>0
+%B>0
+%:>0
+%2>0
+%*>0
+%">0
+%z=0
+%r=0
+%j=0
+%b=0
+%Z=0
+%R=0
+%J=0
+%B=0
+%:=0
+AUATUH
+AWAVAUATU
+q:d:r:usH
+D$pH
+L$`H
+c:Dhi:l:H
+:U:V
+L$`H
+I;,$
+t$ H
+t$XH
+|$HH
+t$HH
+|$@H
+t$0H
+t$(H
+ATSubH
+[A\]
+fffff.
+fffff.
+AVAUE1
+ATUSH
+[]A\A]A^A_
+\$ H
+ffff.
+fff.
+fffff.
+AVAUATUSH
+d$ M
+[]A\A]A^A_
+\$ H
+\$ H
+\$ H
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ffff.
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ATUH
+ug[]1
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ffff.
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ffff.
+ATUH
+Detef
+Detef
+[]A\
+\$ H
+\$ H
+ATUH
+uo[]1
+ATUSH
+Detef
+Detef
+[]A\
+-4t/
+\$ H
+\$ H
+ATUH
+Detef
+Detef
+Detef
+Detef
+[]A\
+-bg/
+\$ H
+\$ H
+\$ H
+\$ H
+ffff.
+AVAUATUSH
+5xl/
+Detef
+\$(H
+\$(L
+[]A\A]A^A_
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+|$(H
+ffff.
+AVAUATUSH
+Detef
+\$(H
+%YT/
+\$(L
+[]A\A]A^A_
+%PR/
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+|$(H
+ffffff.
+AVAUATUH
+|$ H
+|$HH
+T$@H
+L$@H
+T$ H
+Detef
+\$8H
+%-K/
+\$8L
+[]A\A]A^A_
+%:I/
+\$8A
+l$8H
+|$8H)
+D$8H
+l$8H
+l$8H)
+D$8H
+|$8H
+l$8H
+l$8I)
+D$8H
+|$8H
+AWAVAUI
+ATUSH
+Detef
+-lC/
+[]A\A]A^A_
+\$ H
+AVAUATUSH
+=.J/
+Detef
+\$(H
+\$(L
+%hF/
+[]A\A]A^A_
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+ffff.
+AVAUATUSH
+T$(H
+5/?/
+t$&1
+Detef
+\$8H
+%u0/
+\$8L
+T$(H
+[]A\A]A^A_
+\$@H
+\$8A
+l$8H
+|$8H)
+D$8H
+l$8H
+l$8H)
+D$8H
+l$8H
+l$8I)
+D$8H
+|$8H
+|$8H
+AVAUATUSH
+Detef
+\$(H
+\$(L
+[]A\A]A^A_
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+|$(H
+AVAUATUSH
+%Y+/
+Detef
+\$(H
+\$(L
+[]A\A]A^A_
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+|$(H
+ffffff.
+AWAVAUI
+ATUSH
+-2 /
+[]A\A]A^A_
+f;Gpf
+f;Gpf
+|$dH
+|$fH
+|$hH
+l$ H
+fffff.
+=x"/
+=b"/
+\$ H
+EdH)
+\$0H
+|$(H
+EXH)
+fff.
+fff.
+~pSH
+fff.
+d$ L
+fffff.
+wHdH
+l$0H
+l$(A
+\$(H
+|$(H)
+l$0H
+|$(D
+\$(H
+|$(H)
+|$(H
+t$(H
+|$(H)
+D$(H
+\$(H
+\$(H)
+D$(H
+\$(H
+|$(H)
+|$(H
+|$(H
+l$0H
+\$(H
+|$(H)
+l$0H
+\$(H
+|$(H)
+l$0H
+\$(H
+|$(H)
+\$(H
+|$(H)
+HcWxH
+\$ H
+\$ H
+d$ L
+,$H)
+z`dH
+|$bH
+|$dH
+|$fH
+|$hH
+[]A\A]
+l$ H
+t$ H
+\$@dH
+\$8H
+L$$L
+|$8M
+D$ H
+|$8H
+D$ H
+|$8H
+t$8H
+t$8I)
+D$8H
+|$8H
+fff.
+l$0H
+l$ A
+\$ H
+|$ H)
+D$ H
+d$ H
+d$ I)
+|$ H
+t$ f
+|$ H
+d$ H
+d$ I)
+|$ H
+d$ H
+d$ I)
+|$ H
+d$ H
+d$ I)
+|$ H
+t$(H
+d$ H
+d$ I)
+|$ H
+|$(1
+|$(1
+d$ H
+d$ I)
+|$ H
+d$ H
+d$ I)
+|$ H
+|$ H
+|$ H
+d$ H
+d$ I)
+|$ H
+l$0H
+l$ A
+\$ H
+\$ H)
+D$ H
+\$ H
+|$ H)
+D$ H
+|$ H
+AVAUM
+ATUH
+[]A\A]A^
+d$ L
+ffffff.
+d$ H
+ffff.
+L$8H
+[]A\
+t$@H
+l$0H
+D$8A
+[]A\A]
+\$ H
+l$ H
+[]A\
+l$ H
+\$ H
+fffff.
+ffffff.
+ATUH
+\$ H
+ATUH
+\$ H
+\$ H
+[]A\A]
+d$ I
+d$ L
+ATUH
+[]A\
+\$0L
+ H=@B
+U8Mc
+\$0H
+|$(H
+l$(H
+|$(H)
+ffff.
+ATUH
+\$ H
+t$ H
+ffffff.
+ffff.
+\$ H
+l$ L
+t$(L
+|$0H
+l$pt
+vYf=c
+l$ L
+t$(L
+|$0H
+tJf=
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+wFf=
+tJf=d
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+tJf=
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+@t4A
+l$ L
+t$(L
+|$0H
+ u-A
+l$ L
+t$(L
+|$0H
+vvf=3
+#trf
+%tlf
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+[]A\
+tLw:<
+tF<	
+[]A\
+l$ L
+t$(L
+|$0H
+#tzf
+%ttf
+1unf
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+|$jE
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+0fA9
+|$@fA)
+l$0H
+|$@fA)
+l$0H
+|$@fA)
+l$0H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+|$@fA)
+l$0H
+tQfA
+'v+A
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+<wUH
+t$(H
+L$(E
+\$(H
+l$0E
+d$8L
+l$@L
+t$HL
+|$PH
+L$(E
+\$(H
+l$0E
+d$8L
+l$@L
+t$HL
+|$PH
+L$(E
+\$(H
+l$0E
+d$8L
+l$@L
+t$HL
+|$PH
+'w1D
+9fA)
+'w1D
+'w/D
+9fE)
+@8<$v@D
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+'v:H
+ffff.
+l$ H
+l$ H
+l$ H
+t?<:
+/v"H
+ffff.
+l$ H
+C,:I
+l$ H
+l$ H
+l$ H
+t$ H
+r)twA
+D$(A
+D$*H
+t$0H
+t$ H
+-wl.
+l$ H
+ffffff.
+t$ H
+[]A\A]
+fff.
+AVAUE1
+ATE1
+L$pH
+|$0H
+t$pE1
+D$0H
+|$@H
+=2e.
+\$<E1
+\$<E1
+t$@I
+=;e.
+t$@A
+|$PH
+D$PH
+T$@H9
+|$hH
+D$HH
+D$0H
+t$01
+T$pH
+t$XH
+L$HH9
+D+l$HH
+D$XE
+|$hH
+AVAUE1
+ATUH
+[]A\D
+A]A^
+5Ta.
+5|_.
+5^`.
+AUATI
+-0`.
+[]A\A]
+l$ H
+AWAVE1
+ATUSH
+%G].
+[]A\A]A^A_
+K.@H
+F(f;F*t.f;G(
+fffff.
+AWAVAUATUSH
+5cY.
+-XY.
+=jW.
+[]A\A]A^A_
+AVAUATUSH
+([]A\A]A^A_
+AWAVAUA
+ATUSH
+\$0H
+=dO.
+t$ H
+t$ H
+t$ H
+5BO.
+t$0L
+-[M.
+t$0L
+[]A\A]A^A_
+t$0L
+t$0L
+t$ L
+t$ L
+t$ L
+t$0L
+5nF.
+ffffff.
+ffffff.
+tbH9
+[]A\
+=%>.
+t$$L
+A;D$$t
+5Y>.
+|$0L
+A;D$$u
+A;D$$u
+T$(L
+|$(L)
+D$(L
+ffffff.
+AVAUI
+ATUS
+A;E$
+A;E$
+[]A\A]A^
+f9s*
+f9{(
+M-8K-
+u H9s 
+u(9s(
+} 9{
+u*f9s(
+}(f9{*
+E,f9C,
+[]A\A]A^
+A;E$
+} A9~
+A;N$
+A9v 
+M*fA9N(
+](fA9^*
+u,fA9v,
+[]A\A]A^
+u A9v
+A;N$
+A9N 
+}*fA9~(
+E(fA9F*
+u I9v 
+](A9^(
+M,fA9N,
+fA9v*
+fA9~(
+A8F,
+M-A8N-
+} I9~ 
+u(A9v(
+M-8K-
+A9~(
+A8^,
+]-A8^-
+ATUSH
+-n4.
+[]A\
+\$ H
+fff.
+[]A\A]A^
+\$ H
+[]A\A]
+\$ H
+fffff.
+fffff.
+fffff.
+fD;`
+fD;`
+fD;`
+fff.
+ffffff.
+ffffff.
+fffff.
+ffff.
+fffff.
+\$ H
+[]A\
+\$ H
+fffff.
+[]A\
+\$ L
+\$ H
+\$ H
+\$ H
+fffff.
+~?A(
+ffffff.
+\$ H
+\$ H
+\$ H
+\$ H
+\$ H
+fffff.
+fff.
+fff.
+fff.
+fff.
+\$ H
+\$ H
+\$ H
+ffff.
+\$ H
+\$ H
+ffff.
+\$ H
+\$ H
+fff.
+fffff.
+fffff.
+AVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+@tLH
+f;Q 
+f;Q 
+ffff.
+l$ H
+AUATUSH
+|$(H
+|$XH
+t$0H
+|$0H
+D$8f
+D$PH
+<\t=H
+|$(H
+[]A\A]A^A_
+t$Hf
+l$HH
+|$HH)
+T$HH
+H+D$
+|$HH=
+D$8H
+D$HH
+l$HH
+l$HH)
+|$HH
+L$0L
++D$$H
+T$0L
+fff.
+AWAVAUI
+ATUSH
+|$ H
+L$0 A
+}0tTH
+|$ H
+|$ H
+D$HH
+x[]A\A]A^A_
+D$0H
+|$ H
+T$dH
+tJfA
+D$0I
+D$Lf
+D$0D
+ t0L
+|$ A
+L$(H
+D$LH
+T$PH
+t$PD
+|$hI
+|$ A
+t$lI
+E9|$<
+E9|$<
+E9|$<
+t$dH
+D$(H
+L$LL
+|$ H
+L$PL
+f;B 
+|$ L
+t$dD
+D$0H
+L$(H
+L$lL
+ffff.
+Fh@t(
+fffff.
+AWAVAUATUSH
+o(dH
+L$ H
+d$HM
+T$ I
+t$0H
+[]A\A]A^A_
+L$ L
+d$HM
+T$ I
+t$0H
+L$ L
+d$HM
+T$ I
+t$0H
+D$@H
+D$ H
+D$(E1
+|$8H
+t$ H
+L$ f
+L$ H
+L$ A
+|$8H
+t$ L
+T$@H
+T$ H
+T$(H
+\$8H
+t$ L
+H+D$ H
+|$8H=
+D$ H
+D$8H
+l$8H
+t$ L
+l$8H+l$ H
+D$ H
+D$8H
+t$ H
+|$8H
+t$ L
+FP9GP
+AVAUATUSH
+L$8 H
+D$HM
+,$E1
+D$(H
+L$8 H
+D$HA
+N8 H
+[]A\A]A^A_
+L$8 H
+ffffff.
+F(9G(
+AWAVAUATU
+T$(L
+D$ H
+t$(H
+[]A\A]A^A_
+d$$t
+D$(1
+t$(L
+D$(1
+fffff.
+AWAVAUATUH
+\$0H
+[]A\A]A^A_
+|$(H
+\$0H
+t$0L
+t$0L
+|$0L
+|$(A
+|$(L
+|$(H
+|$(L
+|$(L
+|$(L
+ffff.
+AVAUATA
+|$(L
+8[]A\A]A^A_
+D9{$
+t$(L
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+|$8H
+|$8L
+t$(A
+D9s$
+L$,E
+D$(I
+T$ H
+t$8H
+D$@H
+M8 H
+D$$E
+9D$$
+L$(H
+d$ M
+9D$$
+L$(I
+T$(I
+H[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+AUATUSH
+l$0H
+[]A\A]
+l$0H
+l$(A
+|$(H
+|$(H
+|$(D
+|$(H
+|$(H
+|$(H
+|$(A
+|$(H
+|$(D
+AUATUSH
+[]A\A]
+SthH
+9](vGI
+9](w
+[]A\
+t	D9
+9](w
+[]A\A]
+AWAVE1
+AUATUSH
+D2xL
+E09X
+D$0H
+D$09X
+l$(H
+d$HM
+d$ M
+[]A\A]A^A_
+\$ H
+\$ L
+\$ L
+\$ L
+fffff.
+AWAVI
+AUATUSH
+X E1
+|$@I
+T$<H
+T$0L
+|$0L)
+t$ H
+T$<L
+[]A\A]A^A_
+|$0H
+L$ L
+D$<H
+D$(H
+|$0H
+|$0H)
+D$0H
+l$0H
+|$0H)
+D$0H
+L$ L
+H9p(H
+A H9w8
+tMH9
+9:u	H
+9:u	H
+@ H9
+H9p(H
+A H9w8
+tMH9
+9:u	H
+9:u	H
+@ H9
+H9p(H
+A H9w8
+tMH9
+9:u	H
+9:u	H
+@ H9
+H9p(H
+A H9w8
+tMH9
+@ H9
+ATUH
+g0dH
+I94$u
+H9(t;I
+(tgI
+[]A\
+AVAUATUH
+D$ I9
+I9l$(L
+P H9k8
+D$(H
+D$(H
+l$(L
+tPM9
+D$(L
+D$(H
+l$(H
+[]A\A]A^
+[]A\A]A^
+fffff.
+AWAVAUATUH
+\$0H
+|$(H
+[]A\A]A^A_
+[]A\A]A^A_
+|$(H
+\$(L
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+l$(H)
+D$(H
+\$(L
+|$(H
+|$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+ATUSH
+[]A\A]
+ffff.
+l$ L
+t$(L
+|$0H
+fffff.
+fff.
+AWAVI
+AUATUH
+[]A\A]L
+A^A_
+AVAUATUSH
+[]A\A]A^A_
+D$0M
+L$8H
+L$ H
+L$(H
+L$0H
+\$PH
+\$HA
+l$HH
+l$HH)
+D$HH
+l$HH
+|$HH)
+D$HH
+|$HH
+fffff.
+AUATI
+[]A\A]A^
+l$ H
+l$ H
+%(r-
+l$ H
+l$ H
+l$ H
+\$ H
+fffff.
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AWAVAUATUSH
+l$0H
+=}}-
+[]A\A]A^A_
+9\$,
+ffffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AUATUH
+[]A\A]
+,$H)
+-qP-
+fA9U
+	u;H
+\$0A
+l$(H
+|$(H)
+\$0A
+l$(H
+|$(H)
+\$0A
+\$0A
+\$0A
+fffff.
+ffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+,$H)
+fffff.
+l$ H
+t6f9
+ []A\
+ffffff.
+l$ H
+fffff.
+D$ H
+~.Hc
+T$ D
+D$(D
+L$0A!
+D$8H
+D$0I
+\$HH
+t$0L
+l$0L
+D$0D!
+L;|$
+T$0L
+l$HH
+|$HH)
+D$HH
+l$HH
+l$HH)
+D$HH
+|$HH
+fffff.
+t$ H
+t$ H
+t$ H
+\$ H
+ffffff.
+fffff.
+ t$H
+fffff.
+AWAVAUI
+[]A\A]A^A_
+C@I9
+-u(-
+-q&-
+\$ H
+ffffff.
+AWAVAUI
+ATUSH
+|$(H
+L$$dH
+|$XI
+H9\$
+wGI9
+[]A\A]A^A_
+T$$H
+T$$H
+t$0H
+|$P1
+T$$A
+D$8D
+|$8H
+T$8H
+t$0H
+|$(D
+L;|$8
+|$8E1
+|$P1
+|$$A
+|$(A
+t$0H
+t$0H
+%L -
+\$HA
+\$HA
+\$HL
+l$HH
+|$HH)
+D$HH
+l$HH
+l$HI)
+D$HH
+l$HH
+l$HH)
+D$HH
+|$HH
+|$HH
+k@I9
+$t&H
+[]A\
+[]A\
+rD;O
+r2D;G
+T$`H
+T$`H
+AVAUATI
+[]A\A]A^
+t}H9]
+d$HM
+ATUSH
+C0E1
+[]A\
+J(8O(u
+J$9O$u
+J 9O u
+fffff.
+\$ H
+fffff.
+AWAVAUM
+D$81
+T$*L
+D$8H)
+T$8dH3
+H[]A\A]A^A_
+D$ A
+D$ A
+T$8H
+T$8E1
+T$8H
+T$8H
+T$8H
+T$8H
+L$` A
+L$` A
+\$ H
+\$ H
+\$ H
+\$ H
+\$ H
+fff.
+\$ H
+\$ H
+\$ H
+\$ H
+\$ H
+fffff.
+ffff.
+fffff.
+D$xH
+}8E1
+[]A\A]
+ffff.
+AWAVAUATUH
+D$h1
+D$hdH3
+x[]A\A]A^A_
+ttE1
+I+D$8H
+t$ L
+D$,H
+t$ H
+t{E1
+D$8L
+D$8L
+$tRH
+tJE1
+H+G(H=X
+G8t*I
+$tSI
+tKE1
+H+G(H=X
+G8t,I
+D$8L
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D;t$
+t$0I
+T$0H
+L$(H
+u(f.
+D$PA
+t$0H
+L$(H
+t$0I
+T$0H
+L$(H
+u(f.
+D$PA
+D$PA
+T$0H
+t$(f
+D;t$
+t$0H
+t$0I
+L$(H
+t$(M
+D$PA
+t$0I
+T$0H
+T$(H
+T$(L
+t$(f
+D$PA
+D$PA
+t$0H
+T$0H
+|$(M
+D$PA
+t$0H
+|$(M
+u(f.
+fff.
+t4;J
+t"9B
+ffff.
+ffff.
+ffff.
+ffff.
+ffff.
+AWAVI
+AUATI
+h[]A\A]A^A_
+[]A\A]A^A_
+|$ H
+D$@1
+|$ H
+D$@1
+u(f.
+T$0H
+L$P1
+<19<2
+T$0H
+L$P1
+<19<2
+ffff.
+C$[1
+fffff.
+\$ H
+fffff.
+fffff.
+B,8G,
+fffff.
+fffff.
+ffff.
+fffff.
+s,f9
+s'fA9
+t5f9
+$t&H
+[]A\
+[]A\
+AWAVAUI
+[]A\A]A^A_
+t$ H
+fff.
+fff.
+f97w	1
+fffff.
+fffff.
+f;7r
+ffffff.
+l$ A
+l$ L
+AWAVAUI
+ATUSH
+|$0H
+L$$dH
+|$XI
+t[<]
+H9\$(
+w?I9
+[]A\A]A^A_
+|$$H
+L$$H
+|$0A
+|$$H
+t$PA
+T$$E
+t$8H
+L;|$
+L$$H
+t$8L
+|$0L
+t7I9
+\$HA
+\$HA
+\$HL
+l$HH
+|$HH)
+D$HH
+l$HH
+l$HH)
+D$HH
+l$HH
+|$HH)
+D$HH
+l$HH
+l$HI)
+D$HH
+|$HH
+|$HH
+fff.
+[]A\A]
+$tyH
+fffff.
+ffffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+N8;J8t
+z0H9
+N(;J(t
+z H9
+l$ H
+l$ H
+t,f.
+l$ H
+fffff.
+C@t9
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+ATUSH
+[]A\
+ATUSH
+|$@H
+[]A\
+f9A v
+f9q0v
+K@9A8w
+f9A v
+f9q0v
+fffff.
+ffffff.
+AUATUH
+[]A\A]
+l$ H
+fff.
+AUATUH
+[]A\A]
+l$ H
+AUATUH
+D$(H
+ uMH
+[]A\A]
+l$ H
+AUATA
+[]A\A]
+l$ H
+AUATUSH
+[]A\A]
+l$ H
+G(tRE
+fff.
+ u=H
+fff.
+\$ H
+ffff.
+AWE1
+AVAUATUH
+fD;@"r
+[]A\A]A^A_
+fffff.
+t/E1
+[]A\
+ffff.
+fffff.
+5wx,
+fff.
+AVAUATU
+tOE1
+[]A\A]A^A_
+ffff.
+AWAVAUATUH
+S8E1
+D$0f
+L;|$0u
+l$(E
+t	f9
+[]A\A]A^A_
+|$01
+D$0E1
+T$8A
+|$(1
+D$0B
+f;C r
+|$(1
+D$0N
+t$@E1
+T$@A
+f;C"r
+|$(1
+D$LI
+9D$LH
+|$(1
+T$8H
+T$81
+|$(1
+f;C0rF
+T$8H
+f;C0r
+L$ t
+D$(I
+9D$(H
+L$ w	
+T$8H)
+|$01
+D$0E1
+T$8A
+|$(1
+D$0B
+f;C r
+|$(1
+T$8f
+D$0N
+t$@E1
+T$@A
+f;C r
+|$(1
+D$LI
+9D$LH
+T$8H)
+|$(1
+|$(1
+l$`H
+l$XA
+l$XL
+%;b,
+l$`H
+l$XA
+l$XL
+\$XH
+|$XH)
+D$XH
+\$XH
+\$XH)
+D$XH
+l$XH
+l$XI)
+D$XH
+|$XH
+|$XH
+l$`H
+l$XA
+l$XL
+l$`H
+l$XA
+l$`H
+l$XA
+l$XL
+\$XH
+\$XH)
+D$XH
+l$XH
+l$XI)
+D$XH
+\$XH
+\$XH)
+D$XH
+|$XH
+|$XH
+|$XH
+%1Z,
+\$ H
+ffff.
+fffff.
+-,V,
+l$ H
+-LR,
+l$ H
+fffff.
+AUATUS
+tsE1
+[]A\A]A^
+-FO,
+\$ I
+St)H
+fff.
+ffff.
+ffff.
+l$ H
+%fI,
+l$ H
+l$ D
+l$ H
+%FD,
+l$ H
+%{C,
+fffff.
+\$(H
+t$0L
+L;|$
+l$0A
+T$0L
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(H)
+D$(H
+|$(H
+ffffff.
+AWE1
+AVAUI
+ATUSH
+|$XI
+H9\$0
+w?I9
+<!tx<[H
+[]A\A]A^A_
+T$<H
+t$PH
+T$<H
+t$PH
+T$<H
+|$P1
+\$<A
+\$ H
+D$(L
+\$ L
+|$(H
+\$ H
+|$(D
+L;T$(I
+|$P1
+T$<A
+D$(D
+|$(H
+|$(D
+H;l$(I
+|$(1
+l$HH
+|$HH)
+D$HH
+\$HA
+\$HA
+\$HL
+l$HH
+|$HH)
+D$HH
+l$HH
+l$HH)
+D$HH
+l$HH
+l$HI)
+D$HH
+|$HH
+|$HH
+o(dH
+l$ H
+l$ H
+fff.
+l$ H
+-I),
+l$ H
+fffff.
+fffff.
+AWAVAUATUH
+([]A\A]A^A_
+AWAVAUATUH
+d$ L
+d$ L
+[]A\A]A^A_
+5J~	
+5(~	
+;Cpw*
+AWAVI
+AUATUH
+|$0H
+L$8M
+H[]A\A]A^A_
+[]A\A]A^A_
+D$(L
+|$0H
+T$ t
+d$ D
+t$ A9
+T$(H
+L$8L
+|$0D
+D9D$ 
+D$ t:
+ffff.
+AUATUH
+|$0H
+D$8M
+H[]A\A]A^A_
+[]A\A]A^A_
+T$(L
+|$0M
+H[]A\A]A^A_
+T$ t
+d$ D
+t$ A9
+T$(H
+D$8M
+|$0H
+D9D$ 
+fff.
+d$ L
+l$(L
+t$0H
+fff.
+ATUSH
+|$(H
+T$0tGA
+[]A\A]A^A_
+T$ t
+d$ D
+L$ A9
+[]A\A]A^A_
+T$0H
+|$(E
+D$<L
+|$(E
+H[]A\A]A^A_
+D9D$ 
+[]A\A]A^A_
+AWAVI
+P(H9
+[]A\A]A^A_
+ffff.
+\$ H
+5	j	
+5Pi	
+ffffff.
+ffffff.
+ffff.
+fffff.
+AUATE1
+|$(H
+t$ E
+D$<I
+T$8H
+[]A\A]A^A_
+L$8L
+t$ H
+|$(A
+D$?8D$>t
+t$ L
+D$<D
+T$?8T$>
+AVAUM
+|$(H
+t$@f
+D$Pt
+[]A\A]A^A_
+T$PE
+t$6f9p
+l$ H
+t$@H
+l$8H
+t$RI
+D$S1
+t$HuI
+L$0H
+D$HH
+T$SH
+8T$RI
+D$0H
+|$@L
+D$0H
+|$@L
+D$8H
+D$S8D$RuB
+ffffff.
+fffff.
+AUATUH
+[]A\A]
+d$HM
+d$HM
+l$ H
+l$ H
+l$ H
+53X	
+l$ H
+fff.
+\$ H
+fffff.
+\$ H
+5gR	
+fffff.
+l$ H
+ffff.
+ffff.
+\$ H
+ATUS1
+Ot6H
+[]A\A]
+]A\A]
+AWAVAUATUSH
+t$0M
+t$ H
+D$/t
+[]A\A]A^A_
+t$ H
+5mI	
+5xH	
+t(H9
+t(H9
+ffff.
+ATSH
+[A\]
+tw:P
+t(Ic
+fff.
+H9>t)H9:t4H
+H9:u
+L$,H
+L$,H
+\$0H
+\$0H
+l$ H
+|$ H)
+\$0L
+l$ H
+|$ H)
+5C;	
+\$0H
+l$ H
+|$ H)
+5 v	
+t+f;r
+l$ A
+AWAVI
+AUATUSH
+T$ dH
+|$0I
+l$/H
+D2d$/H
+T$ 1
+[]A\A]A^A_
+ATUH
+[]A\A]
+\$ H
+5v.	
+ffff.
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+l$(H
+l$(H)
+55'	
+D$(H
+|$(H
+D$(f
+[]A\
+l$ H
+AUATI
+[]A\A]
+[]A\A]
+fffff.
+fffff.
+fffff.
+ffffff.
+l$ H
+ffffff.
+fffff.
+ffffff.
+l$ H
+ffffff.
+fffff.
+fffff.
+fffff.
+AWAVAUI
+ATUSH
+L$ A
+L$ H
+t$0H
+D$ I
+|$0I
+G fA
+[]A\A]A^A_
+t$0A
+t$0A
+L$0A
+\$0L)
+\$`L
+l$HH
+|$HH)
+\$`L
+\$`I
+\$`L
+l$HH
+|$HH)
+D$HH
+\$`L
+\$HA
+\$HL
+l$HH
+|$HH)
+\$HA
+\$HL
+l$HH
+l$HH)
+D$HH
+l$HH
+l$HH)
+D$HH
+|$HH
+|$HH
+\$HA
+\$HL
+\$HL
+l$HH
+l$HH)
+D$HH
+l$HH
+l$HH)
+D$HH
+|$HH
+|$HH
+\$`H
+\$HA
+\$HA
+\$HL
+l$HH
+l$HI)
+D$HH
+l$HH
+l$HH)
+D$HH
+|$HH
+|$HH
+l$ H
+t$ H
+ffffff.
+	t	H
+ffffff.
+fffff.
+StdH
+fffff.
+fffff.
+l$ H
+fff.
+fffff.
+AWAVAUATUH
+D$ f
+\$ H
+t$0H
+D$ I
+|$0I
+[]A\A]A^A_
+d$0H)
+t$0A
+t$0A
+L$0A
+l$`H
+l$HA
+l$HL
+\$HH
+|$HH)
+D$HH
+l$HA
+l$HL
+\$HH
+\$HH)
+D$HH
+|$HH
+l$`H
+l$HA
+l$HA
+l$HL
+l$HH
+l$HI)
+D$HH
+\$HH
+\$HH)
+D$HH
+|$HH
+|$HH
+l$HA
+l$HL
+\$HH
+\$HH)
+D$HH
+\$HH
+\$HH)
+D$HH
+|$HH
+|$HH
+ffffff.
+d$ L
+d$ L
+fffff.
+AUE1
+P(H9
+f;Q0r
+[]A\A]
+fffff.
+fffff.
+l$ H
+z0E1
+=yD	
+=_D	
+=vA	
+=XA	
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+l$@dH
+"t2L
+t$ H
+|tk@
+T$(H
+|$0H
+T$(H
+T$(L
+D$(D
+T$(L
+|$0L
+D$(H
+|$(A
+D$>L
+%ju+
+ffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+fffff.
+{0tB
+{0D)
+ffffff.
+=(*	
+L$,H
+\$0H
+[]A\
+|$ H
+-yj+
+\$0H
+d$ H
+|$ H)
+d$ H
+|$ H)
+D$ H
+,$H)
+l$@dH
+"t2L
+t$ H
+|tk@
+T$(H
+|$0H
+T$(L
+D$(D
+T$(L
+|$0L
+%pS+
+D$(A
+D$>L
+%?P+
+ffffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+=J		
+L$,H
+\$0L
+L$,H
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+ATU1
+P(H9
+<$E1
+[]A\A]A^
+ATU1
+P(H9
+<$E1
+[]A\A]A^
+ATU1
+P(H9
+<$E1
+[]A\A]A^
+fff.
+@u:H
+L$(L
+P(I9
+t$ H
+HcD$$
+HcD$ I
+fff.
+HcD$
+ffffff.
+AWAVAUI
+ATUS1
+5yM+
+=hM+
+\$ M
+[]A\A]A^A_
+ffffff.
+5D@+
+=5@+
+-X&+
+d$0L
+l$(L
+|$(L)
+D$(L
+d$0L
+d$0A
+l$(L
+|$(L)
+l$(L
+|$(L)
+D$(L
+d$0A
+\$(L
+|$(L)
+fA9U
+d$0A
+\$(L
+|$(L)
+d$0A
+\$(L
+|$(L)
+d$0A
+\$(L
+|$(L)
+\$0H
+\$0H
+l$(H
+|$(H)
+\$0H
+l$(H
+|$(H)
+\$0L
+\$0H
+l$(H
+|$(H)
+l$(H
+|$(H)
+\$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+|$(H)
+D$(H
+|$(H
+l$(H
+|$(H)
+D$(H
+l$(H
+|$(H)
+)fA9(s
+l$(H
+|$(H)
+l$(H
+|$(H)
+\$0D
+\$(E
+l$(H
+|$(H)
+D$(H
+\$0D
+\$(E
+l$(H
+|$(H)
+\$(L
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+\$(L
+\$(L
+\$(L
+l$(H
+l$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+\$(L
+l$(H
+l$(I)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+fffff.
+fffff.
+l$ A
+l$ H
+l$ A
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+l$ A
+l$ A
+AUATUS1
+|$ dH
+[]A\A]A^A_
+H9l$
+l$0L
+l$0A
+\$(L
+|$(L)
+d$(L
+|$(L)
+l$0L
+d$(L
+|$(L)
+l$0A
+\$(L
+|$(L)
+l$0A
+l$0A
+l$0A
+fffff.
+l$ A
+l$ A
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+|$ L
+D$ H
+D$ D
+|$ M
+l$(L
+|$(L)
+l$(L
+|$(L)
+AVAUI
+ATUSH
+t$0dH
+[]A\A]A^A_
+T$ H
+L;d$
+,$H)
+l$0L
+l$0A
+\$(L
+|$(L)
+d$(L
+|$(L)
+l$0L
+d$(L
+|$(L)
+l$0A
+\$(L
+|$(L)
+l$0A
+l$0A
+l$0A
+J$9J
+J 9J
+fffff.
+fffff.
+AUATUSH
+[]A\A]
+>tEH
+ T3h
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+\$0H
+\$0L
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+D$(H
+\$0H
+d$(H
+|$(H)
+\$0H
+\$0H
+d$(H
+\$0H
+d$(H
+|$(H)
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+D$(H
+\$0L
+\$0H
+d$(H
+|$(H)
+\$0L
+d$(H
+|$(H)
+\$0H
+\$0L
+\$0L
+\$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+|$(H)
+D$(H
+|$(H
+fffff.
+\$0L
+\$0L
+\$0H
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+D$(H
+\$0H
+d$(H
+|$(H)
+\$0L
+\$0H
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+\$0H
+d$(H
+|$(H)
+\$0L
+\$0L
+\$0L
+\$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+|$(H)
+D$(H
+|$(H
+\$0H
+\$0H
+l$(H
+|$(H)
+\$0H
+l$(H
+|$(H)
+\$0L
+\$0H
+l$(H
+|$(H)
+l$(H
+|$(H)
+\$(H
+l$(H
+l$(H)
+D$(H
+l$(H
+|$(H)
+D$(H
+|$(H
+:"tb
+fffff.
+[]A\
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+:"tb
+fffff.
+-=m*
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+ffffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AUATUH
+1w$I
+[]A\A]
+c0E1
+\$ H
+l$ H
+l$ H
+%tM*
+5fb*
+=Wb*
+fffff.
+fffff.
+fffff.
+|$0H
+\$8H
+\$8H
+T$PH
+T$8H
+T$81
+D$0J
+|$0H
+|$0H
+|$0H
+|$0H
+|$0H
+|$0H
+D9l$@
+\$HH
+9l$@
+L$8L
+fff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+ffff.
+fffff.
+AVAUATI
+[]A\A]A^
+d$ L
+-R**
+d$ L
+-	(*
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+5Q9*
+=B9*
+ffffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AWAVAUATUSH
+[]A\A]A^A_
+fffff.
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+d$ L
+fffff.
+L$,H
+\$0H
+\$0H
+l$ H
+|$ H)
+l$ H
+|$ H)
+D$ H
+>u_A
+=uXA
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AUATUSH
+[]A\A]
+ffffff.
+~,@:
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AUATUSH
+[]A\A]
+fff.
+u#"A
+fffff.
+fffff.
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+!<Tw)
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+fffff.
+AUATUSH
+l$ H
+[]A\A]
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AVAUATUH
+[]A\A]A^
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+z,:t
+[]A\
+[]A\
+ffffff.
+JxU1
+t	[]
+ffffff.
+ffffff.
+rxU1
+t	[]
+ffffff.
+[]A\
+[]A\
+ffffff.
+[]A\
+[]A\
+ffffff.
+\$ H
+\$ H
+\$ H
+\$ H
+\$ H
+%~s)
+\$ H
+%np)
+\$ H
+fffff.
+L$,H
+\$0H
+\$0H
+l$ H
+|$ H)
+l$ H
+|$ H)
+D$ H
+% b)
+fff.
+ffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AVAUATUSH
+5.s)
+[]A\A]A^
+fff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AVAUATUSH
+5^g)
+=Og)
+[]A\A]A^
+fffff.
+fffff.
+AUE1
+ATUL
+D$@H
+P(H9
+[]A\A]A^A_
+l$ H
+l$ H
+l$ H
+fffff.
+AVAUATUL
+D$0L
+P(H9
+vME1
+[]A\A]A^
+l$ H
+l$ H
+l$ H
+l$ H
+fffff.
+fffff.
+\$ H
+\$ H
+AVAUL
+D$0L
+P(H9
+[]A\
+A]D1
+[]A\A]1
+ffff.
+fffff.
+\$ H
+\$ H
+\$ H
+\$ H
+fffff.
+D$0A
+t$ H
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+=r))
+fff.
+d$ L
+fffff.
+D$0A
+82t1H
+t$ H
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+d$ L
+fffff.
+D$0A
+@tSA
+|$(H
+t$ H
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+d$ L
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AVAUATUH
+[]A\A]A^
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AVAUATUH
+[]A\A]A^
+fffff.
+AUATM
+D$0H
+twwE<
+[]A\A]
+AVAUATI
+t$(H
+l$0dH
+~gE1
+D9t$$~PH
+D9t$$
+[]A\A]A^A_
+D$(f
+$$H)
+s<!u
+ffff.
+fffff.
+AVAUI
+ATUSH
+\$ dH
+wu;E
+[]A\A]A^A_
+,$H)
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+ffff.
+fffff.
+l$ H
+fffff.
+AWAVAUE1
+ATUL
+D$@L
+P(H9
+[]A\A]A^A_
+fffff.
+fA9W
+fffff.
+fffff.
+L$,H
+\$0H
+l$ H
+|$ H)
+D$ H
+\$0H
+l$ H
+|$ H)
+AWAVAUATUSH
+t6E1
+[]A\A]A^A_
+T$ H
+D9d$
+HcD$
+t`E1
+fffff.
+fffff.
+\$ H
+\$ H
+\$ H
+AVAUM
+ATUSH
+T$ L
+P(I9
+uhE1
+[]A\A]A^A_
+D$,H
+1D$,
+\$@H
+\$8A
+l$8H
+|$8H)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8H
+fffff.
+AUE1
+[]A\A]
+D;@8r[
+L#@(M9
+H#H(L9
+[]A\A]
+ATE1
+|$,1
+|$$1
+|$(1
+T$$H
+[]A\A]
+d$0L
+d$0L
+d$0L
+d$0L
+d$0L
+-kv(
+fff.
+[]A\A]
+[]A\A]A^
+AWAVA
+D;t$
+D;t$
+[]A\A]A^A_
+[]A\A]A^A_
+\$ H
+fffff.
+\$ H
+fffff.
+\$ H
+fffff.
+\$ H
+\$ H
+,$H)
+l$ H
+l$ H
+ffff.
+fffff.
+fff.
+fffff.
+ffff.
+%+Y(
+AVAUATUS
+|bD8(H
+tCM9
+[]A\A]A^A_
+[]A\A]A^1
+AVAUATUS
+E841u
+L9T$
+[]A\A]A^A_
+[]A\A]A^A_
+fffff.
+AVAUATUS
+|rD80H
+tfL;T$
+u-I9
+[]A\A]A^A_
+AVAUATUSL
+H+t$
+E8<0u
+tWL;\$
+[]A\A]A^A_
+[]A\A]A^1
+ffffff.
+AUHc
+ATUS
+[]A\A]
+fff.
+AVAUI
+[]A\A]A^
+l$ H
+l$ H
+l$ H
+%BG(
+l$ H
+%oF(
+AVHc
+AUATU
+[]A\A]A^
+AVAUI
+[]A\A]A^
+[]A\A]A^
+-jA(
+l$ H
+AVAUATUSx_D
+uCLc
+:[]A\A]A^A_
+[]A\A]A^1
+AVAUATUSL
+uYLc
+2[]A\A]A^A_
+[]A\A]A^1
+fffff.
+fffff.
+AVAUATE1
+[]A\A]A^A_
+=hQ(
+T$ L
+T$ L
+\$(f
+T$ L
+\$(A
+T$ L
+AWAVAUATUSH
+t$@H
+D$ I9
+H)D$(H)D$8
+L$ L
+H+L$ H)
+d$PL
+|$XE1
+d$PH
+D$4H
+h[]A\A]A^A_
+d$PL
+|$XH
+T$8L
+t$(M
+H+D$ A
+fD9x tYH
+f9X"u
+A8L=
+t$HH
+|$@L
+D$4L
+fff.
+AWAVAUATUH
+4J;C
+[]A\A]A^A_
+d$0L
+d$(A
+d$(L
+d$0L
+d$(A
+d$(~
+\$(L
+|$(L)
+D$(L
+\$(L
+\$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+d$0L
+d$(A
+d$(L
+-|'(
+d$0L
+d$(A
+d$(L
+l$(L
+l$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+-1%(
+d$0L
+d$(A
+d$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+AWAVAUATUSH
+t$@H
+D$ I9
+-5<(
+H)D$(H)D$8
+L$ L
+H+L$ H)
+d$PL
+|$XE1
+d$PH
+D$4H
+h[]A\A]A^A_
+d$PL
+|$XH
+T$8L
+t$(M
+H+D$ A
+fD9x tYH
+f9X"u
+A8L=
+t$HH
+|$@L
+D$4L
+fff.
+AWAVAUATUSH
+t$@H
+D$ I9
+-%9(
+H)D$(H)D$8
+L$ L
+H+L$ H)
+d$PL
+|$XE1
+d$PH
+D$4H
+h[]A\A]A^A_
+d$PL
+|$XH
+T$8L
+t$(M
+H+D$ A
+fD9x tYH
+f9X"u
+A8L=
+t$HH
+|$@L
+D$4L
+fff.
+AWAVAUATUSH
+t$@H
+D$ I9
+H)D$(H)D$8
+L$ L
+H+L$ H)
+d$PL
+|$XE1
+d$PH
+D$4H
+h[]A\A]A^A_
+d$PL
+|$XH
+T$8L
+t$(M
+H+D$ A
+fD9x tYH
+f9X"u
+A8L=
+t$HH
+|$@L
+D$4L
+fff.
+AWAVAUATUSH
+t$@H
+D$ I9
+H)D$(H)D$8
+L$ L
+H+L$ H)
+d$PL
+|$XE1
+d$PH
+D$4H
+h[]A\A]A^A_
+d$PL
+|$XH
+T$8L
+t$(M
+H+D$ A
+fD9x tYH
+f9X"u
+A8L=
+t$HH
+|$@L
+D$4L
+fff.
+5K0(
+AUATI
+[]A\A]
+AVAUATUSH
+[]A\A]A^
+fD;`
+5}+(
+H$A9
+fD;c
+\$0H
+\$(L
+\$0H
+\$(~
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+\$0H
+\$(L
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+|$(H
+AUATUS
+[]A\A]A^
+\$ H
+\$ H
+fffff.
+fffff.
+AVAUATU1
+|$(H
+T$ H
+t$ H
+[]A\A]A^A_
+T$ H
+t$ H
+T$ H
+AVAUATUSH
+|$ D
+d$,I
+|$ D
+d$,A
+D$(H
+8[]A\A]A^A_
+d$,L
+|$ I
+\$ E)
+\$ L
+D$(M
+AVAUATUSH
+t$0H
+D$Df
+L$D+L$
+D9d$(
+T$ H
+t$ H
+2;T$
+t$HD
+d$LE1
+t$HD
+9t$@
+D$,H
+X[]A\A]A^A_
+t$HD
+d$LH
+t$ H
+t$ E
+3u4H
+t$8H
+D$,H
+ffff.
+AWAVAUATUSH
+[]A\A]A^A_
+\$0H
+\$0H
+l$(H
+l$(H)
+|$(H
+\$0H
+\$(L
+l$(H
+|$(H)
+d$(H
+d$(I)
+D$(H
+l$(H
+l$(H)
+|$(H
+\$0H
+|$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+fffff.
+AVAUATUSH
+} E1
+D9e,w
+U0E1
+D9m,w
+E,)C
+[]A\A]A^
+fD; 
+fD;c
+\$0H
+\$(L
+\$0H
+\$(~
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+\$0H
+\$(L
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+|$(H
+AUATUH
+[]A\A]
+l$ H
+AWAVAUATUH
+D$,H
+[]A\A]A^A_
+d$0L
+d$(A
+d$0L
+d$(A
+d$(L
+\$(L
+|$(L)
+D$(L
+d$0L
+d$(A
+d$(L
+d$0L
+d$(A
+d$(L
+l$(L
+l$(L)
+D$(L
+\$(L
+\$(L)
+D$(L
+|$(L
+|$(L
+l$(L
+l$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+fffff.
+fffff.
+AVAUATU1
+|$(H
+t$ H
+t$ H
+T$ H
+[]A\A]A^A_
+T$ H
+ffffff.
+AVAUATI
+L$(L
+L$(L
+\$ M
+L94$
+[]A\A]A^A_
+L$(L
+\$ L
+L$(D
+AVAUATU1
+|$ H
+D$.H
+L;,$
+L9,$
+D$.H
+[]A\A]A^A_
+D82t1M
+AVAUATUSH
+t$(H
+T$0D
+d$LH
+\$@E1
+L$8H
+L$8H
+\$@A
+D$$)
+D$HH
+X[]A\A]A^A_
+d$LL
+L$8H
+\$@I
+|$$H
+t$0H
+|$(L
+D$HL
+AVAUATUSH
+t$0H
+L$H+L$
+D9t$
+l$@D
+t$LE1
+L$(D
+D$,H
+l$@L
+L$(D
+D$,D
+9T$$
+D$ H
+X[]A\A]A^A_
+L$(D
+D$,H
+l$@D
+t$LH
+t$,I
+<u6H
+t$8H
+D$ M
+D$(D
+fffff.
+AVAUATUSH
+E0E1
+D9e w
+}(E1
+D9e w
+D9e w
+E )C
+[]A\A]A^
+fD;`
+H A9
+fD;c
+\$0H
+\$(L
+\$0H
+\$(~
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+\$0H
+\$(L
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+|$(H
+AUATUH
+[]A\A]
+l$ H
+AWAVAUATUH
+D$ H
+[]A\A]A^A_
+d$0L
+d$(A
+d$0L
+d$(A
+d$(L
+\$(L
+|$(L)
+D$(L
+d$0L
+d$(A
+d$(L
+\$(L
+\$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+d$0L
+d$(A
+d$(L
+d$0L
+d$(A
+d$(L
+l$(L
+l$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+AVAUATUSH
+[]A\A]A^A_
+ffff.
+\$ H
+\$ H
+\$ H
+[]A\
+AUATUSH
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+l$ L
+ffff.
+T$ L
+D$ H
+D$$A
+D$(A
+D$,A
+D$$A
+D$(A
+D$,A
+\$@H
+\$8L
+\$@H
+\$8L
+l$8H
+|$8H)
+D$8H
+\$@H
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8H
+|$8H
+|$8H
+ffff.
+D$ H
+T$@L
+D$(E
+D$@H
+\$PH
+\$8L
+\$PH
+\$8L
+l$8H
+|$8H)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8H
+\$PH
+\$8L
+\$PH
+\$8L
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8H
+|$8H
+\$PH
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8H
+|$8H
+ffff.
+AWAVA
+[]A\A]A^A_
+|$ 1
+ffffff.
+ffffff.
+ffffff.
+fffff.
+[]A\
+AWAVI
+AUATUH
+l$0L
+[]A\A]A^A_
+l$(u
+|$(D
+|$(A
+\$(L
+|$(L)
+l$ L
+[]A\A]
+l$ L
+l$ L
+fffff.
+L$ E
+T$01
+~ZIc
+l$(D9d$
+t$ D
+urf.
+\$@H
+L$(L
+D$ 1
+L$(L
+D$ D
+L$(L
+D$ D
+L$(L
+D$ D
+l$8H
+|$8H)
+D$8H
+ffffff.
+AUATA
+Payload
+[]A\A]
+fffff.
+fffff.
+T$ H
+T$ H
+l$@H
+l$8A
+l$8L
+l$@H
+l$8A
+l$8~
+\$8H
+|$8H)
+D$8H
+\$8H
+\$8H)
+D$8H
+l$8H
+l$8I)
+D$8H
+|$8H
+|$8H
+AUATI
+D$ H
+E9l$
+[]A\A]
+[]A\A]
+%:o'
+\$ H
+t1E1
+l$ L
+t$(L
+|$0H
+AVE1
+AUATI
+St:D
+[]A\A]L
+3[]A\A]L
+fffff.
+l$0H
+l$(A
+l$(L
+l$0H
+l$(A
+l$(~
+\$(H
+|$(H)
+D$(H
+\$(H
+\$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+AUATI
+D$0H
+E9l$
+[]A\A]
+[]A\A]
+%md'
+\$ H
+t9E1
+l$ L
+t$(L
+|$0H
+AVE1
+AUATI
+St:D
+[]A\A]L
+3[]A\A]L
+l$0H
+l$(A
+l$(L
+%Y^'
+l$0H
+l$(A
+l$(~
+\$(H
+|$(H)
+D$(H
+\$(H
+\$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+ffffff.
+fffff.
+AUATI
+[]A\A]A^
+fffff.
+T$ H
+T$ H
+t$(tlH
+l$@H
+l$8A
+l$8L
+%OX'
+l$@H
+l$8A
+l$8~
+\$8H
+|$8H)
+D$8H
+\$8H
+\$8H)
+D$8H
+l$8H
+l$8I)
+D$8H
+|$8H
+|$8H
+fffff.
+ffff.
+[]A\A]
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+AVAUATI
+[]A\A]A^
+E8tdE1
+\$0H
+\$(~lL
+\$0H
+\$(L
+-OO'
+\$0H
+\$(L
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+|$(H
+fffff.
+\$ H
+l$ H
+=I_'
+=9_'
+fffff.
+=hL'
+=w^'
+=d^'
+fffff.
+%tsH
+'t9v
+fffff.
+[]A\
+fffff.
+fff.
+->?'
+\$ H
+\$ H
+;"tQH
+l$ A
+[]A\
+l$ A
+[]A\
+l$ A
+[]A\
+l$ A
+[]A\
+l$ A
+[]A\
+l$ A
+[]A\
+fffff.
+AUATUH
+d$0M
+A;\$(
+[]A\A]
+|$HA
+T$8M
+.tUH
+|$LH
+t$PH
+4$H)
+D$LL
+T$8L
+|$HH
+4$H)
+|$8D
+|$@I
+5R%'
+l$ H
+D$ t(E
+l$(L
+l$ H
+ffff.
+K(t/H
+\$ H
+t$ H
+t$ H
+t$ H
+t$ H
+[]A\
+[]A\
+ATUH
+[]A\
+D$ H
+D$(I
+E uPH
+\$ H
+AVAUATUSH
+t$0H
+\$@H
+D$@H
+D$ H
+D$@H
+D$8H
+l$8H
+t$ L
+H+D$ H
+|$8H=
+t$ L
+[]A\A]A^A_
+T$ H
+T$ H
+l$8H
+|$8H)
+t$(H
+|$0H
+\$@H
+l$8H
+|$8H)
+L$0L
+\$@H
+\$@H
+d$8H
+|$8H)
+D$8H
+l$8H
+|$8H)
+\$@H
+l$8H
+|$8H)
+\$8A
+l$8H
+|$8H)
+l$8H
+l$8H)
+D$8H
+|$8H
+AVAUATA
+tID9
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+AWAVAUL
+ATUH
+[]A\A]A^A_
+AUATUS
+[]A\A]A^
+[]A\A]A^
+fff.
+ATUH
+[]A\
+\$ H
+ATUH
+[]A\H
+[]A\
+[]A\H
+[]A\H
+AUATUH
+[]A\A]
+$t0H
+\$ H
+=9	'
+\$ D
+\$ D
+\$ D
+ txH
+\$ D
+AWAVA
+AUATUH
+Lcl$
+D96u
+D90t
+[]A\A]A^A_
+fffff.
+AUATUH
+[]A\A]
+[]A\A]
+t 9~
+\$ H
+fffff.
+ATUSH
+[]A\A]
+[]A\A]
+fffff.
+l$0L
+l$0L
+\$(L
+|$(L)
+l$(L
+|$(L)
+l$0L
+l$(L
+l$0L
+l$(~
+\$(L
+|$(L)
+D$(L
+\$(L
+\$(L)
+D$(L
+d$(L
+d$(M)
+D$(L
+|$(L
+|$(L
+AUATU
+t)@:2H
+ tWH
+@8/H
+@8*t7
+[]A\A]
+})Hc
+l$ H
+l$ H
+l$ H
+8Hc[
+d$ L
+d$ L
+\$ H
+fffff.
+\$ H
+fffff.
+AUATA
+[]A\A]
+[]A\A]
+D: u
+D$0H
+L9` I
+D$ I
+T$0H
+I;\$ tgH
+D$ I
+T$0H
+|$(H
+D$(I
+T$0H
+|$(H
+D$(I
+T$0H
+AUATUSH
+T$ E
+@ 2H
+[]A\A]A^A_
+t$ B
+A9D$
+\$0H
+T$(E
+@ 2H
+D$ E
+T$()
+;D$(u
+t$(B
+A9D$
+\$0H
+D$ E
+T$()
+;D$(u
+t$ H
+8[]A\A]L
+A^A_
+AUATU
+dH34%(
+[]A\A]A^A_
+@ 2H
+L$(H
+L$ D
+L$ D
+AWAVE
+AUATU
+T$(H
+L$0H
+T$ D
+T$(H
+L$7A
+uIfA9
+#fA9
+\$8D
+A20@
+K0D9
+|$7E9
+|$8D
+H9X(
+t$09D$0~
+[]A\A]A^A_
+D:0u
+T$PH
+T$ H
+\$HH
+t$ L
+H+D$ H
+|$HH=
+D$ H
+D$HH
+H9X(
+D$P1
+D$ H
+D$HH
+\$HH
+t$ L
+H+D$ H
+|$HH=
+t$ H
+|$7 
+T$PH
+T$ H
+\$HH
+t$ L
+H+D$ H
+|$HH=
+D$ L
+D$HH
+t$ H
+T$PI
+T$ H
+\$HH
+t$ I
+H+D$ H
+|$HH=
+t$ H
+T$(fA
+|$PH
+|$ H
+|$PH
+|$ H
+l$HH
+t$ L
+H+D$ H
+|$HH=
+D$ L
+D$HH
+T$(L
+@:7v
+t$09D$0~
+T$(L
+t$ H
+t$ H
+|$7 
+|$PH
+|$ H
+\$HH
+t$ L
+H+D$ H
+|$HH=
+t$ H
+T$ A
+D$PH
+D$ H
+D$HH
+\$HH
+t$ I
+|$PI
+|$ H
+l$HH
+t$ L
+H+D$ H
+|$HH=
+D$ H
+D$HH
+t$ H
+|$PH
+|$ H
+|$HA
+D$ L
+\$HH
+t$ L
+H+D$ H
+|$HH=
+t$ H
+\$HH
+t$ L
+H+D$ H
+|$HH=
+D$ H
+t$ H
+|$PH
+|$ H
+|$HA
+D$ H
+\$HH
+t$ L
+\$HH+\$ H
+D$ H
+D$HH
+\$HH
+t$ L
+\$HH+\$ H
+D$ H
+D$HH
+8Ic\$
+|$HH
+t$ L
+8Hc]
+|$HH
+t$ L
+D$PH
+D$ H
+D$HA
+T$ L
+T$PH
+T$ H
+\$HH
+t$ L
+H+D$ H
+|$HH=
+t$ H
+|$PH
+|$ H
+|$HA
+D$ L
+D$PH
+D$ H
+D$HH
+\$HH
+t$ L
+H+D$ H
+|$HH=
+t$ H
+l$HH
+t$ L
+l$HH+l$ H
+D$ H
+D$HH
+l$HH
+t$ L
+l$HH+l$ H
+D$ H
+D$HH
+|$HH
+t$ D)
+8Hc[
+|$HH
+t$ L
+fff.
+fff.
+D$81
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+D$h1
+T$hdH3
+\$xH
+T$PH
+|$PE
+fffff.
+fffff.
+fffff.
+fffff.
+AVAUATU
+~)E1
+~:f.
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+[]A\
+fff.
+%oz&
+fffff.
+AVAUI
+[]A\A]A^A_
+\$(H
+|$(H)
+l$0H
+\$(H
+|$(H)
+D$(H
+\$(H
+|$(H)
+%^r&
+l$0H
+l$(A
+\$(H
+|$(H)
+l$0H
+\$(H
+|$(H)
+l$(H
+|$(H)
+D$(H
+\$(H
+|$(H)
+D$(H
+l$0H
+\$(H
+|$(H)
+D$(H
+%@m&
+l$(H
+\$(H
+|$(H)
+\$(H
+\$(H)
+D$(H
+l$(L
+\$(H
+|$(H)
+|$(H
+\$(H
+\$(H)
+D$(H
+|$(H
+\$ L
+\$ H
+ATUSH
+[]A\A]
+d$ L
+fff.
+l$ L
+l$ L
+\$ H
+\$ H
+\$ H
+fff.
+\$ H
+\$ H
+AUATE1
+[]A\A]
+l$ H
+L$,H
+\$ H
+|$ H)
+D$ H
+t$ H
+D$ L
+d$ H
+l$0H
+l$ H
+l$ I)
+D$ H
+|$ H
+AWAVA
+ATUH
+[]A\A]A^A_
+\$ L
+\$ I
+-_M&
+\$ H
+-gK&
+5bd&
+=Sd&
+|$@1
+[]A\A]
+|$@1
+ATUH
+[]A\
+fffff.
+=C_&
+fffff.
+l$0H
+D$ L
+L$ A
+t$ H
+H+D$
+D$(H
+H+D$
+D$(H
+ffffff.
+AWAVAUE1
+ATUSH
+[]A\A]A^A_
+fffff.
+ATU1
+fffff.
+AVE1
+ATUS1
+[]A\A]A^A_
+l$ L
+l$ L
+l$ L
+L$,H
+L$,H
+l$0H
+d$0L
+d$0L
+l$ L
+|$ L)
+D$ L
+|$ H
+d$0L
+t$ L
+t$ M)
+|$ L
+d$0L
+l$ L
+|$ L)
+d$0L
+l$ L
+|$ L)
+\$ H
+fffff.
+\$ H
+\$ L
+\$ H
+fff.
+\$ H
+fff.
+ffff.
+fffff.
+SsMH;
+J8+G
+s^H;
+ffffff.
+[]A\
+ffff.
+l$ H
+l$ H
+f9] w
+\$ H
+ffffff.
+AUATA
+f9G r\
+S H;C
+ukf9
+[]A\A]
+]A\A]
+]A\A]
+ffff.
+ffffff.
+fff.
+fff.
+[]A\
+fffff.
+fff.
+\$ H
+fffff.
+[]A\
+fffff.
+\$ H
+fffff.
+[]A\
+ffff.
+fffff.
+ATUS1
+[]A\A]
+]A\A]
+\$ H
+fffff.
+\$ H
+AUATfE
+StOA
+[]A\A]A^
+[]A\A]1
+ffff.
+AUATUSH
+[]A\A]
+ffffff.
+UStrH
+[]A\
+AUATI
+[]A\A]
+\$ H
+\$ H
+ffffff.
+AVAUATUSH
+T$0L
+L$0E
+t$xH
+L$HL
+L$0H
+L$HI
+L$0I
+D$`t
+L$0M
+L$ A
+t$`H
+L$PL
+L$ H
+L$PI
+L$ I
+D$ht
+L$ M
+L$(A
+t$hH
+L$XL
+L$(H
+L$XI
+L$(I
+D$pt
+L$(M
+t$pH
+L$@L
+L$@I
+D$8t
+t$8H
+t$8H
+t$8H
+|$(H
+t$pH
+|$ H
+t$hH
+|$0H
+t$`H
+[]A\A]A^A_
+t$8H
+t$pH
+D$@H
+t$pH
+|$0H
+D$0L
+L$0E1
+t$xH
+D$HH
+|$(H
+D$(L
+L$(E1
+t$hH
+D$XH
+t$hH
+|$ H
+D$ L
+L$ E1
+t$`H
+D$PH
+t$`H
+ffffff.
+\$ H
+ffffff.
+l$0H
+l$(A
+\$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+l$ H
+\$ H
+l$ H
+tXH9
+[]A\
+AUATL
+ttE1
+[]A\A]
+fffff.
+D$81
+T$8dH3
+l$ H
+l$ H
+\$ H
+\$ H
+\$ H
+\$ H
+L$ H
+UPt1H
+T$(H
+t$ L
+\$@H
+\$8A
+l$8H
+l$8H)
+D$8H
+l$8H
+|$8H)
+D$8H
+|$8H
+AVAUATUSH
+ffff.
+AUATI
+T$@H
+T$PH
+T$PH
+t$p1
+S@E1
+ATUSH
+ffffff.
+[]A\
+ffff.
+[]A\
+ffff.
+[]A\
+fffff.
+l$ A
+\$ H
+l$ A
+t$H;+u
+StVH
+[]A\
+t$p1
+ffff.
+fffff.
+fffff.
+fff.
+\$ H
+fffff.
+fffff.
+l$ H
+l$ H
+AVAUATUSH
+[]A\A]A^
+\$ H
+t$p1
+fffff.
+\$ H
+fffff.
+\$ H
+@HH)
+fffff.
+ATUSH
+[]A\
+L$ L
+t$0H
+|$hH
+D$()
+AWAVAUATI
+8USH
+t$`dH
+PHfA
+T$PH
+t$PL
+T$*D
+L$`D
+t$(H
+T$@A
+T$0I
+[]A\A]A^A_
+fff.
+AWAVAUATI
+8USH
+t$`dH
+PHfA
+T$PH
+t$PL
+T$*D
+L$`D
+t$(H
+T$@A
+T$0A
+[]A\A]A^A_
+fff.
+AVAUATI
+D$h1
+T$hdH3
+p[]A\A]A^
+PHfA
+L$ H
+ffff.
+\$ H
+@HH)
+fffff.
+AUATUH
+[]A\A]
+fD9c 
+[]A\
+t$0H
+|$hH
+D$()
+fffff.
+ATUSH
+D$h1
+T$hdH3
+x[]A\A]
+D$ H
+L$@H
+L$PH
+ffff.
+AWAVAUATUH
+[]A\A]A^A_
+t$PH
+T$HH
+D$@J
+t$HH
+L$PE
+|$0L
+t$PH
+L$PH
+ATUH
+D$H1
+T$HdH3
+X[]A\A]
+D$ H
+fff.
+|$ 1
+L$ L
+fffff.
+[]A\
+-Q[%
+\$ H
+\$ H
+ffff.
+fff.
+|$ H
+|$(H
+|$@H
+|$8H
+t$ H
+l$(H
+t$0L
+|$0H
+|$@H
+|$PE
+|$PD
+|$@H
+|$8H
+|$HH
+|$XH
+|$0H
+|$PD
+|$PD
+|$0H
+|$8H
+|$HH
+|$XH
+t$ H
+\$hH
+l$pL
+d$xL
+|$8H
+|$@H
+|$8H
+|$@H
+|$8H
+|$@H
+|$0H
+|$PL
+|$PH
+|$XH
+|$@H
+|$@H
+fffff.
+HHH)
+l$ H
+l$ H
+l$ H
+ffff.
+\$0A
+d$(H
+d$(I)
+|$(H
+ffff.
+o0dH
+t$(H
+T$(H
+L$(L
+[]A\
+\$0A
+d$ H
+d$ I)
+D$ H
+|$ H
+%H@%
+\$0H
+\$ A
+l$ H
+l$ H)
+D$ H
+l$ H
+|$ H)
+D$ H
+|$ H
+l$ H
+d$ L
+d$ L
+d$ L
+d$ L
+ffff.
+AWAVAUATI
+D$8M
+D$HI
+D$@E
+D$LA
+D$TA
+T$,H
+D$0H
+T$(H
+T$0H
+T$8H
+T$@H
+T$HH
+T$PH
+[]A\A]A^A_
+t$`L
+fffff.
+HHH)
+ATUSH
+\$0A
+[]A\
+\$0A
+l$(H
+|$(H)
+d$(H
+d$(I)
+|$(H
+ffff.
+o0dH
+t$(H
+T$(H
+L$(L
+\$0A
+[]A\
+\$0A
+d$ H
+d$ I)
+|$ H
+l$ H
+|$ H)
+D$ H
+\$0H
+\$ A
+l$ H
+l$ H)
+D$ H
+l$ H
+|$ H)
+D$ H
+|$ H
+l$ H
+d$ L
+d$ L
+d$ L
+d$ L
+ffff.
+ATUSH
+D$FH
+D$H1
+@D@H
+d$`L
+[]A\A]A^
+l$XL
+l$XM)
+|$XL
+fffff.
+HHH)
+\$ H
+\$ H
+fffff.
+d$ A
+d$ A
+fffff.
+_0dH
+t$(H
+T$(H
+L$(L
+[]A\
+l$0A
+d$ H
+d$ I)
+D$ H
+|$ H
+l$0H
+l$ A
+\$ H
+\$ H)
+D$ H
+\$ H
+|$ H)
+D$ H
+|$ H
+l$ H
+d$ L
+d$ L
+d$ L
+d$ L
+ffff.
+AWAVAUI
+[]A\A]A^A_
+t$`Hc
+D$hI
+D$lI
+D$(f
+D$*f
+t$ L
+fffff.
+AWAVAUI
+[]A\A]A^A_
+D$`H
+D$ H
+D$(f
+D$*f
+l$hL
+|$hL)
+D$hL
+@DTH
+d$pL
+l$hL
+l$hM)
+D$hL
+t$ L
+|$hL
+\$ H
+t$0H
+|$hH
+D$()
+~0dH
+T$`H
+D$pH
+L$ H
+D$pH
+fff.
+~0dH
+t$ Mc
+T$`H
+L$ H
+fffff.
+|$ H
+L$ L
+ffff.
+\$ H
+\$ H
+fffff.
+ffffff.
+\$ H
+ffffff.
+ffff.
+fff.
+ffffff.
+fffff.
+\$ H
+\$ H
+fffff.
+9CLxYH
+fffff.
+ffff.
+fff.
+d$0L
+d$0L
+d$0L
+d$0L
+d$0L
+d$0L
+t$(H
+d$0L
+[]A\
+t$(H
+|$ L
+|$ L
+|$ L
+|$ L
+|$ H
+|$ H
+|$ L
+d$0L
+\$ L
+|$ L)
+D$ L
+fffff.
+\$ H
+l$ H
+M2 1
+Mr H
+Mr H
+C8fA
+l$ H
+A;D$8
+A;L$8
+tDwx
++CL+CX
++CLH
+ffffff.
+v=<YtY
+9CLtG
+CPfD
+fffff.
+tn<0
+v&<TtBf
++CP1
+t$ H
+M2 H
+Mr H
++EX+EP
++UP+UX
+UPt"H
+fffff.
+fffff.
+l$ H
+l$ H
+[]A\A]A^A_
+AVAUL
+[]A\A]A^
+\$ H
+ffff.
+xII9
+AUATU1
+[]A\A]
+AUATA
+tRfA)
+fD;e
+sGfD;k
+fD9e
+fD9k
+[]A\A]A^
+[]A\A]A^
+fff.
+ffff.
+AVAUI
+ATUSH
+|$0H
+[]A\A]A^A_
+|$ E1
+I9m0
+D+|$
+T$0H
+L$0H
+T$(H
+|$ H
+D$0D
+L$>A
+f+T$>9
+f9D$>
+fD9|$
+t$>A
+fD9|$
+T$0H
+I9m0tTH
+I9m0u
+fD;}
+T$(H
+|$ H
+fD;}
+L$0H
+L$0H
+T$0H
+T$0H
+L$0H
+f+T$>D9
+T$(H
+D$0H
+|$ t)A
+L$0H
+L$0A
+D$0H
+D$0H
+T$0H
+T$(H
+|$ H
+L$0H
+ffffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+\$(D
+D$ f)
+I;o0H
+D$ H
+|$(	
+D$ f)
+D$ H
+I;o0
+L$ f9
+D$ f)
+I;o0
+D$ H
+D$(9
+I;o0D
+;T$(
+t$(f)
+t$ D
+t$ D
+D$ D
+I;o0H
+D$ D
+D$ f)
+D$ H
+l$ H
+ffffff.
+ffff.
+\$(A
+l$PH
+\$HH
+|$HH)
+l$PH
+d$HH
+d$HI)
+|$HH
+l$PH
+d$HH
+d$HI)
+|$HH
+l$PA
+\$HH
+|$HH)
+l$PH
+d$HH
+d$HI)
+|$HH
+\$HH
+|$HH)
+l$PH
+d$HH
+d$HI)
+|$HH
+l$PH
+d$HH
+d$HI)
+|$HH
+\$HH
+|$HH)
+l$PH
+d$HH
+d$HI)
+|$HH
+SxP1
+ffffff.
+\$ H
+AUATI
+-Kj$
+[]A\A]
+AUATUH
+[]A\A]
+fffff.
+d$ H
+<$"t
+d$ H
+<$"t
+t$(H
+\$0H
+l$8L
+d$@H
+d$(1
+d$ H
+<$"t
+AWAVA
+AUATUH
+[]A\A]A^A_
+-yT$
+\$(L
+$<.t
+\$(L
+-2R$
+\$(~
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+-"P$
+\$(L
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+|$(H
+ffffff.
+fff.
+AVAUE1
+t$ H
+D$(H
+T$8E
+D$(H
+D$(H
+[]A\A]A^A_
+D$(L
+-~C$
+fffff.
+fffff.
+\$0H
+D$(H
+[]A\
+l$(H
+|$(H)
+-y8$
+d$ L
+stdof
+d$ H
+d$ L
+d$ L
+d$ L
+ffff.
+AWAVAUATUSH
+t$@H
+5X,$
+[]A\A]A^A_
+D$(H
+d$8M
+T$(9S
+l$8H
+T$0H
+D$ H
+T$(H
+D$8H
+t$8H
+T$(L
+T$(L
+D$8H
+-A'$
+L$$H
+L$(L
+|$(I
+|$0H
+T$(E1
+D$$L
+9l$$
+|$(L
+fffff.
+\$ L
+\$ H
+\$ H
+\$ L
+t%L9't}
+tbH9
+fA9|$
+l$ H
+l$ H
+l$ H
+fD9k
+[8fD9k
+t[fD;c
+[]A\A]A^
+l$ H
+l$ H
+ffff.
+t.f;~
+@8f9x
+AVAUATUSH
+t~f9E
+|$ H
+|$XH
+x[]A\A]A^A_
+T$ H
+|$`H
+T$ H
+*t$0
+*l$h
+*\$`I
+|$(H
+T$8H
+*l$(
+D$@H
+|$`H
+D$PH
+*l$0
+*d$h
+*D$`H
+*d$(
+|$(H
+D$PH
+fffff.
+\$0H
+l$(H
+|$(H)
+D$(H
+\$ H
+ffff.
+fffff.
+ffff.
+St2H
+St*H
+fff.
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+fffff.
+D$`H
+|U$fD;
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffffff.
+ATE1
+[]A\
+ffffff.
+AUATUSH
+[]A\A]
+l$ H
+l$ H
+ffffff.
+fE9>u
+A;D$
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+ATUH
+='K&
+=!K&
+[]A\
+AVAUATUH
+L$ H
+\$ H
+fA;D$
+[]A\A]A^A_
+\$ H
+=tG&
+=@G&
+tMfE
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$0L
+\$(L
+|$(L)
+D$(L
+l$0L
+l$0L
+l$(A
+l$(L
+l$0L
+l$(A
+l$(~
+\$(L
+|$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+l$0L
+l$(A
+l$(L
+\$(L
+\$(L)
+D$(L
+l$(L
+l$(L)
+D$(L
+|$(L
+|$(L
+d$ L
+d$ L
+d$ L
+d$ L
+d$0L
+\$(L
+|$(L)
+d$0L
+d$0L
+d$0L
+d$0L
+d$(L
+d$0L
+d$(L
+\$(L
+|$(L)
+D$(L
+d$0L
+l$(L
+l$(M)
+D$(L
+\$(L
+\$(L)
+D$(L
+|$(L
+|$(L
+d$0L
+d$(L
+l$(L
+l$(M)
+D$(L
+l$(L
+l$(M)
+D$(L
+|$(L
+|$(L
+ffffff.
+ffffff.
+[]A\
+\$ H
+\$ H
+ffffff.
+ffff.
+fff.
+\$ H
+ffffff.
+T$0D
+\$8L
+T$01
+D$0H
+f+k8f
+T$8f
+T$0D
+T$0D
+\$pA
+d$hH
+|$hH)
+D$hH
+\$pA
+d$hH
+|$hH)
+T$XH
+L$H@
+t$PD
+D$@L
+T$XH
+t$PD
+D$@L
+f9k4f
+Fk4f+k8
+L$H@
+t$PD
+D$@D
+L$XL
+T$0D
+\$8A
+T$ H
+t$PD
+D$@D
+L$XL
+T$0D
+ffff.
+fff.
+AWAVAUATUSH
+fD95
+fD9h
+fE;<$s
+[]A\A]A^A_
+l$0H
+l$(A
+\$(H
+|$(H)
+l$0H
+l$(H
+\$(H
+|$(H)
+D$(H
+l$0H
+l$0H
+l$(A
+l$(L
+\$(H
+\$(H)
+D$(H
+l$(H
+l$(I)
+D$(H
+|$(H
+|$(H
+ffffff.
+l$0A
+l$0H
+l$(H
+d$(H
+|$(H)
+l$0A
+\$(H
+|$(H)
+\$(H
+|$(H)
+d$(H
+|$(H)
+ffff.
+l$0H
+l$(H
+d$(H
+|$(H)
+l$0A
+\$(H
+|$(H)
+D$(H
+E*E1
+l$0A
+\$(H
+|$(H)
+d$(H
+|$(H)
+ffff.
+AVAUATUSH
+l$0L
+\$ H
+l$(H
+|$(H)
+d$0M
+l$0I
+T$(L
+|$(L)
+[]A\A]A^A_
+T$(L
+|$(L)
+T$(L
+|$(L)
+T$(L
+|$(L)
+\$(L
+|$(L)
+D$(L
+l$(H
+|$(H)
+\$(H
+|$(H)
+d$0M
+\$0H
+\$0H
+\$(A
+l$(H
+|$(H)
+D$(H
+\$0H
+l$(H
+|$(H)
+\$0H
+l$(H
+|$(H)
+\$0H
+l$(H
+|$(H)
+l$(H
+|$(H)
+l$(H
+l$(H)
+D$(H
+|$(H
+d$ H
+d$ L
+d$ L
+d$ L
+d$ H
+d$ L
+-ru#
+d$ L
+-zt#
+d$ L
+ffffff.
+-6q#
+[]A\
+ffff.
+AUATUSH
+[]A\A]
+fffff.
+AUATI
+P(H9
+[]A\A]
+[]A\A]
+fffff.
+ffff.
+ffff.
+t@f=
+t@f=
+AWAVAUM
+T$(H
+T$(H
+\$0L
+l$ H
+|$ H)
+T$(H
+|$.1
+D$(A9
+D$(A
+[]A\A]A^A_
+\$0L
+\$0H
+AWAVAUM
+T$(H
+T$(H
+\$0L
+l$ H
+|$ H)
+T$(H
+|$.1
+D$(A9
+D$(A
+[]A\A]A^A_
+\$0L
+\$0H
+ffffff.
+5i`#
+ffffff.
+AVAUATUH
+~xE1
+([]A\A]A^A_
+[]A\A]A^A_
+fD	[6A
+f	s8
+_$A9
+SAfD)
+fD	[4
+fD	[2
+L	[(
+L	[(
+L	[(
+L	[(
+ L	[(
+(L	[(
+0L	[(
+fD	[ 
+fD	[
+{x(CA
+STt3A
+CTf)
+STt>A
+H;Kp
+Cxf)CT
+STt/
+Cxf)
+<uw9<ss
+(CAfD)
+H	Kp
+f	Kh
+(H	Sp
+ H	SpH
+(CAf
+0H	Kp
+8H	Kp
+H	Kp
+f	Kh
+f	Kj
+f	Kd
+H	Kp
+f	Kh
+f	Kd
+f	Kd
+{xfD
+<sr$f
+fffff.
+fffff.
+VHtnfA
+wgfA
+PHD)
+[]A\
+8H	x0
+0H	x0
+(H	x0
+ H	x0
+H	x0
+H	x0
+H	x0
+8H	x 
+0H	x 
+(H	x 
+ H	x 
+H	x 
+H	x 
+H	x 
+fffff.
+Cxf)
+f	C&
+f	C(
+\$ H
+-k1#
+\$ H
+ffff.
+$fD)m|fD
+l$0H
+d$(H
+|$(H)
+D$(H
+fffff.
+ffffff.
+AVAUATUSH
+H9\$
+H9\$
+D$PH
+T$pH
+[]A\A]A^A_
+T$pH
+AWAVAUI
+ATE1
+tFf;S
+v6f;S
+Sxf)
+[]A\A]A^A_
+sJf)
+SxuAE1
+t>f;S
+ttf;S
+KJfD)
+tlf;S
+K|fD)
+Sxu;E1
+t@f;S
+t6f;S
+t$@(
+tsf;S
+Sx@(
+fD	CL
+f	{P
+ffffff.
+	C8A
+	C8A
+	C8A
+	C<A
+	C<A
+	C<A
+	C@A
+	C@A
+	C@A
+f	CDA
+f	CFA
+f	CHA
+f	CJA
+f	CLA
+\$0H
+\$(L
+\$0H
+\$(~
+l$(H
+|$(H)
+D$(H
+d$(H
+d$(I)
+D$(H
+d$(H
+d$(I)
+D$(H
+|$(H
+|$(H
+l$0H
+d$(H
+|$(H)
+D$(H
+Ow:M
+[]A\A]A^A_
+tGf;CJsA
+f9CJt2M
+t8fA
+[]A\A]A^A_
+AWAVAUI
+T$ L
+t$@L
+|$8I
+t$ H
+|$(H
+L$?L
+D$? 
+D$8A
+[]A\A]A^A_
+H;D$
+T$ f
+l$@H
+l$0A
+\$0H
+|$0H)
+D$0H
+d$0H
+d$0I)
+D$0H
+|$0H
+D$81
+L$ D
+T$8dH3
+\$@H
+l$HL
+d$PH
+fff.
+L$ D
+fffff.
+l$ A
+l$ A
+l$ A
+l$ A
+l$ A
+l$ A
+ffffff.
+T$DH
+t$DE
+D$@f
+[]A\A]A^A_
+T$DH
+L$DE
+|$H1
+D$HA
+T$DA
+L$<H
+t$DE
+D;l$DfA
+T$HH
+L$OM
+L$H)
+L$HM
+L$OH
+D$HL
+H+L$
+t*A)
+\$PH
+l$8H
+|$8H)
+\$PL
+\$PL
+T$(D
+H+L$
+\$PI
+l$8H
+|$8H)
+D$H)
+\$PI
+\$PH
+\$PH
+\$8L
+l$8H
+|$8H)
+D$8H
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8I
+D$(H
+|$8I
+D$ H
+fffff.
+T$DH
+t$DE
+D$8f
+[]A\A]A^A_
+T$DH
+L$DE
+|$H1
+D$HA
+T$DA
+L$4H
+t$DE
++D$DfA
+T$HH
+L$OM
+L$H)
+L$HM
+L$OH
+D$HL
+H+L$
+D$ H
+D$ D
+D+l$
+T$(D
+H+L$
+D$(H
+\$PH
+l$8H
+|$8H)
+\$PL
+\$PL
+\$PI
+l$8H
+|$8H)
+D$H)
+\$PI
+\$PH
+\$8L
+\$PH
+\$8~
+l$8H
+|$8H)
+D$8H
+d$8H
+d$8I)
+D$8H
+d$8H
+d$8I)
+D$8H
+|$8I
+D$(H
+|$8I
+D$ H
+fffff.
+fffff.
+AUATUSH
+|$pH
+[]A\A]H
+D$(1
+D$ H
+D$(dH3
+D$ dH
+T$ D
+l$@L
+t$8L
+|$8L)
+D$8L
+D$ H
+|$(H
+l$@L
+\$8L
+|$8L)
+D$8L
+AWAVAUATI
+|$@H
+t$H<
+[]A\A]A^A_
+T$8A
+t$8f
+L$PI
+L$`f)
+t$jC
+D$lf
+t$hH
+T$ H
+T$ H
+L$hL
+p(w>Kc
+9L$(
+t$h1
+t$h1
+f9|$hv
+D$hfA)
+fD9T$hv
+t$hfD)
+|$(I
+t$`H
+D$jf)
+D$8fE
+D$nfE
+L$lfE
+fD;h
+t6 A
+L$PI
+L$`fD
+D$hf)
+|$jf
+t$lf
+\$xL
+|$xL)
+D$xL
+|$(I
+|$pL
+d$8H
+\$(1
+l$(H
+\$`E1
+D$8E
+|$8H
+\$(L
+L$ D
+|$@H
+|$@L
+D$HH
+l$(Ic
+\$`D
+t7(H
+|$@H
+|$@L
+D$HH
+d$8H
+\$(L
+l$xL
+|$xL)
+D$xL
+|$@H
+d$8H
+\$(L
+l$xL
+|$xL)
+D$xL
+t$xA
+l$xL
+|$xL)
+D$xL
+\$xL
+|$xL)
+D$xL
+\$xL
+\$xL)
+D$xL
+|$xL
+ffffff.
+ffff.
+8O t
+J$9O$u
+J89O8u
+J0H9O0u
+J,9O,u
+JHH9OHu
+B@H9G@
+ffffff.
+D-[J%
+t$ D
+|$$H
+D$(H
+D$8H
+D$<H
+ATUSH
+[]A\
+\$0H
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+l$ H
+|$ H)
+\$0H
+\$ A
+l$ H
+|$ H)
+l$ H
+l$ H)
+D$ H
+|$ H
+\$ M
+ffff.
+[0A	
+[]A\
+l$ H
+l$ H
+l$ H
+l$ H
+l$ L
+t$(L
+|$0H
+suricata.c
+1.0.5
+Suricata
+%s %s
+USAGE: %s
+This is %s version %s
+dump-config
+pfring-int
+pfring-cluster-id
+pfring-cluster-type
+pcap-buffer-size
+unittest-filter
+list-unittests
+list-cuda-cards
+pidfile
+init-errors-fatal
+fatal-unittests
+user
+group
+erf-in
+[ERRCODE: %s(%d)] - 
+engine.init_failure_fatal
+pcap.buffer-size
+default-log-dir
+This is %s version %s
+bpf-filter
+/var/log/suricata
+max-pending-packets
+failed in getting user ID
+failed in getting group ID
+Loading signatures failed.
+signal received
+EngineStop received
+time elapsed %lus
+Trans_Q Mutex not initialized correctly
+	-c <path>                    : path to configuration file
+	-i <dev or ip>               : run in pcap live mode
+	-r <path>                    : run in pcap file/offline mode
+	-q <qid>                     : run in inline nfqueue mode
+	-s <path>                    : path to signature file (optional)
+	-l <dir>                     : default log directory
+	-D                           : run as daemon
+	--pidfile <file>             : write pid to this file (only for daemon mode)
+	--init-errors-fatal          : enable fatal failure on signature init error
+	--dump-config                : show the running configuration
+	--pcap-buffer-size           : size of the pcap buffer value from 0 - %i
+	--user <user>                : run suricata as this user after init
+	--group <group>              : run suricata as this group after init
+	--erf-in <path>              : process an ERF file
+To run the engine with default configuration on interface eth0 with signature file "signatures.rules", run the command as:
+%s -c suricata.yaml -s signatures.rules -i eth0 
+Warning: Log message exceeded message length limit of %d
+PF_RING not enabled. Make sure to pass --enable-pfring to configure when building.
+ERROR: Failed to set engine init_failure_fatal.
+ERROR: Unit tests not enabled. Make sure to pass --enable-unittests to configure when building.
+ERROR: Cuda not enabled. Make sure to pass --enable-cuda to configure when building.
+libdag and a DAG card are required to receieve packets using --dag.
+ERROR: Failed to set pcap-buffer-size.
+more than one run mode has been specified
+ERROR: Failed to set log directory.
+The logging directory "%s" upplied at the commandline (-l %s) doesn't exist. Shutting down the engine.
+IPFW not enabled. Make sure to pass --enable-ipfw to configure when building.
+SCMalloc failed: %s, while trying to allocate %lu bytes
+Out of memory. The engine cannot be initialized. Exiting...
+ERROR: Failed to set bpf filter.
+Configuration file has not been provided
+The logging directory "%s" supplied by %s (default-log-dir) doesn't exist. Shutting down the engine
+The pidfile file option applies only to the daemon modes
+Fatal error encountered while allocating a packet. Exiting...
+preallocated %li packets. Total memory %lu
+initializing detection engine context failed.
+Signature file has not been provided
+Unknown runtime mode. Aborting
+Engine initialization failed, aborting...
+all packets processed by threads, stopping engine
+GlobalInits
+main
+SetBpfString
+threading.set_cpu_affinity
+threading.detect_thread_ratio
+runmodes.c
+enabled
+1slot_noinout
+simple
+pickup-queue
+packetpool
+ReceivePcap
+ERROR: TmThreadsCreate failed
+ERROR: TmThreadSpawn failed
+1slot
+decode-queue1
+Decode1
+DecodePcap
+stream-queue1
+Stream1
+StreamTcp
+verdict-queue
+Detect1
+Detect
+Error allocating memory
+Detect2
+alert-queue1
+RespondReject
+varslot
+Outputs
+decode-queue2
+Stream2
+stream-queue2
+decode-queue3
+Stream3
+decode-queue4
+Stream4
+Outputs1
+ReceiveNFQ
+DecodeNFQ
+respond-queue
+Verdict
+VerdictNFQ
+ReceivePcapFile
+DecodePcapFile
+RunModeFilePcap2: file %s
+pickup-queue1
+ReceivePfring
+pickup-queue2
+ReceivePfring2
+DecodePfring
+Decode2
+ReceiveIPFW
+DecodeIPFW
+VerdictIPFW
+pickup-queue3
+ReceivePfring3
+pickup-queue4
+ReceivePfring4
+Decode3
+Decode4
+stream-queue3
+stream-queue4
+Detect3
+Detect4
+Decode & Stream
+Detect%u
+alert-queue
+pickup%u
+queues %s
+tname %s, qname %s
+ReceiveErfFile
+DecodeErfFile
+ReceiveErfDag
+DecodeErfDag
+No output module named %s, ignoring
+Failed to lookup configuration child node: fast
+TmModuleGetByName for %s failed
+SCCalloc failed: %s, while trying to allocate %lu bytes
+ERROR: TmModuleGetByName failed for ReceivePcap
+ERROR: TmThreadsCreate failed for Decode1
+ERROR: TmModuleGetByName DecodePcap failed
+ERROR: TmThreadsCreate failed for Stream1
+ERROR: TmModuleGetByName StreamTcp failed
+ERROR: TmModuleGetByName Detect failed
+SCStrdup failed: %s, while trying to allocate %lu bytes
+ERROR: TmModuleGetByName for RespondReject failed
+ERROR: TmThreadCreatePacketHandler for Outputs failed
+decode-queue1,decode-queue2,decode-queue3,decode-queue4
+ERROR: TmThreadsCreate failed for Stream2
+ERROR: TmModuleGetByName failed for ReceiveNFQ
+ERROR: TmModuleGetByName DecodeNFQ failed
+ERROR: TmModuleGetByName VerdictNFQ failed
+ERROR: TmModuleGetByName failed for ReceivePfring
+ERROR: TmModuleGetByName DecodePfring failed
+ERROR: TmModuleGetByName failed for ReceiveIPFW
+ERROR: TmModuleGetByName DecodeIPFW failed
+ERROR: TmModuleGetByName VerdictIPFW failed
+ERROR: TmModuleGetByName failed for ReceiveErfFile
+ERROR: TmModuleGetByName DecodeErfFile failed
+ERROR: TmModuleGetByName failed for ReceiveErfDag
+ERROR: TmModuleGetByName DecodeErfDag failed
+RunModeInitializeOutputs
+RunModeIdsPcap
+RunModeIdsPcap2
+RunModeIpsNFQ
+RunModeFilePcap
+RunModeIdsPfring
+RunModeIdsPfring2
+RunModeIpsIPFW
+RunModeIdsPfring4
+RunModeIdsPcapAuto
+RunModeFilePcapAuto
+RunModeFilePcapAutoFp
+RunModeFilePcapAuto2
+RunModeIpsIPFWAuto
+RunModeIpsNFQAuto
+RunModeIdsPfringAuto
+RunModeErfFileAuto
+RunModeErfDagAuto
+source-nfq.c
+NFQ sent too big packet
+nfq_open() failed
+nfq_create_queue failed
+can't set packet_copy mode
+setting queue length to %d
+setting nfnl bufsize to %d
+can't set socket timeout: %s
+recv got returncode 0
+nfq_handle_packet error %d
+(%s) Pkts accepted %u, dropped %u
+(%s) Pkts %u, Bytes %lu, Errors %u
+nfq_unbind_pf() for AF_INET failed
+nfq_unbind_pf() for AF_INET6 failed
+nfq_bind_pf() for AF_INET failed
+nfq_bind_pf() for AF_INET6 failed
+binding this thread to queue '%u'
+can't set queue maxlen: your kernel probably doesn't support setting the queue length
+specified queue number %s is not valid
+nfq thread failed to initialize
+nfq_set_verdict of %p failed %d
+NFQSetupPkt
+NFQInitThread
+ReceiveNFQThreadInit
+NFQRecvPkt
+ReceiveNFQThreadExitStats
+VerdictNFQThreadExitStats
+NFQSetVerdict
+.Asource-pcap.c
+(%s) Packets %u, bytes %lu
+using interface %s
+using bpf-filter "%s"
+bpf compilation error %s
+could not set bpf filter %s
+error code %d %s
+Error: datalink type %d not yet supported in module DecodePcap
+(%s) Failed to get pcap_stats: %s
+(%s) Pcap Total:%lu Recv:%lu Drop:%lu (%02.1f%%).
+Coudn't create a new pcap handler, error %s
+Couldn't set snaplen, error: %s
+Couldn't set promisc mode, error %s
+Problems setting timeout, error %s
+Going to use pcap buffer size of %d
+Problems setting pcap buffer size, error %s
+Couldn't activate the pcap handler, error %s
+ReceivePcap
+ReceivePcapThreadInit
+ReceivePcapThreadExitStats
+DecodePcap
+Bsource-pcap-file.c
+error: initdata == NULL
+reading pcap file %s
+ - (%s) Packets %u, bytes %lu.
+datalink type %d not (yet) supported in module PcapFile.
+pcap file end of file reached (pcap err code %d)
+ReceivePcapFile
+ReceivePcapFileThreadInit
+ReceivePcapFileThreadExitStats
+source-pfring.c
+Error creating thread %s: you do not have support for pfring enabled please recompile with --enable-pfring
+NoPfringSupportExit
+source-ipfw.c
+Error creating thread %s: you do not have support for ipfw enabled please recompile with --enable-ipfw
+NoIPFWSupportExit
+source-erf-file.c
+Packets: %u; Bytes: %lu
+Error: No filename provided.
+Failed to open %s: %s
+Processing ERF file %s
+Failed to allocate memory for ERF file thread vars.
+End of ERF file reached or an error occurred.
+DAG record type %d not implemented.
+ReceiveErfFile
+ReceiveErfFileThreadInit
+ReceiveErfFileThreadExitStats
+source-erf-dag.c
+Error creating thread %s: you do not have support for DAG cards enabled please recompile with --enable-dag
+NoErfDagSupportExit
+decode.c
+SCMalloc failed: %s
+decoder.pkts
+decoder.bytes
+decoder.ipv4
+decoder.ipv6
+decoder.ethernet
+decoder.raw
+decoder.sll
+decoder.tcp
+decoder.udp
+decoder.icmpv4
+decoder.icmpv6
+decoder.ppp
+decoder.pppoe
+decoder.gre
+decoder.vlan
+decoder.avg_pkt_size
+decoder.max_pkt_size
+defrag.ipv4.fragments
+defrag.ipv4.reassembled
+defrag.ipv4.timeouts
+defrag.ipv6.fragments
+defrag.ipv6.reassembled
+defrag.ipv6.timeouts
+FIXME: DecodeTunnel: protocol %u not supported.
+DecodeTunnel
+PacketGetFromQueueOrAlloc
+DecodeThreadVarsAlloc
+FlowManagerThread
+flow-timeouts
+default
+emergency_new
+emergency_established
+emergency_closed
+icmp
+initializing flow engine...
+flow.emergency_recovery
+flow.prune_flows
+flow.memcap
+flow.hash_size
+flow.prealloc
+ERROR: FlowAlloc failed: %s
+Flow emergency mode over, back to normal... unsetting FLOW_EMERGENCY bit (ts.tv_sec: %lu, ts.tv_usec:%lu) flow_spare_q status(): %u%% flows at the queue
+%u new flows, %u established flows were timed out, %u flows in closed state
+flow.emergency_recovery must be in the range of 1 and 100 (as percentage)
+Fatal error encountered in FlowInitConfig. Exiting...
+allocated %u bytes of memory for the flow hash... %u buckets of size %lu
+ERROR: FlowAlloc failed (max flow memcap reached): %s
+preallocated %u flows of size %lu
+flow memory usage: %u bytes, maximum: %u
+FlowL7DataPtrInit
+FlowInitConfig
+FlowManagerThread
+@flow-queue.c
+Fatal error encountered in FlowQueueNew. Exiting...
+FlowQueueNew
+flow-hash.c
+Warning, engine running with FLOW_EMERGENCY bit set (ts.tv_sec: %lu, ts.tv_usec:%lu)
+FlowGetNew
+flow-util.c
+FIXME: %s:%s:%d
+FlowAlloc
+FlowInit
+flow-var.c
+FlowVarAddStr
+FlowVarAddInt
+flow-bit.c
+FlowBitAdd
+flow-alert-sid.c
+FlowAlertSidAdd
+pkt-var.c
+Name "%s", Value "
+\%02X
+", Len "%u"
+PktVarAdd
+host.c
+HostAlloc
+reputation.c
+No Reputation Data!
+Rep_type %d = %d
+REPUTATION_FLAG_NEEDSYNC = 1
+Invalid arguments
+Invalid IPV4 Netblock
+Invalid IPV6 Netblock
+Mutex not correctly initialized
+Reputation trees not initialized
+SCReputationInitCtx
+SCReputationAllocData
+SCReputationTransactionAlloc
+SCReputationClone
+SCReputationAddIPV4Data
+SCReputationAddIPV6Data
+SCReputationUpdateIPV4Data
+SCReputationUpdateIPV6Data
+detect.c
+default-rule-path
+ERROR opening rule file null.
+!(r == -1)
+%u total signatures:
+SigAddressPrepareStage2 error
+max sig id %u, array size %u
+MPM max patcnt %u, avg %u
+SigAddressPrepareStage3 error
+!(de_ctx == ((void *)0))
+1 Src Addr: 
+ (sh %p)
+ 2 Dst Addr: 
+ (COPY): 
+ (ORIGINAL): 
+  3 Src port(range): 
+   4 Dst port(range): 
+ (sigs %u, sgh %p, maxlen %u)
+(COPY)
+  * Src port(range): 
+   * Dst port(range): 
+ (sigs %u)
+rule-files
+No rules loaded from %s
+Loading rule file: %s
+!(gr->ip.family == 0 && !(gr->flags & 0x01))
+ERROR opening rule file %s: %s.
+Error parsing signature "%s" from file %s at line %d
+ERROR: Detect has no thread ctx
+ERROR: Detect has no detection engine ctx
+%u signatures processed. %u are IP-only rules, %u are inspecting packet payload, %u inspect application layer, %u are decoder event only
+building signature grouping structure, stage 1: adding signatures to signature source addresses... done
+building signature grouping structure, stage 2: building source address lists...
+TCP Source address blocks:     any: %4u, ipv4: %4u, ipv6: %4u.
+UDP Source address blocks:     any: %4u, ipv4: %4u, ipv6: %4u.
+ICMP Source address blocks:    any: %4u, ipv4: %4u, ipv6: %4u.
+building signature grouping structure, stage 2: building source address list... done
+PatternMatchPrepareGroup failed
+building signature grouping structure, stage 3: building destination address lists...
+BuildDestinationAddressHeads(src_gh[6],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[17],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_INET6) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_UNSPEC) failed
+MPM memory %lu (dynamic %u, ctxs %lu, avg per ctx %u)
+signature group heads: unique %u, copies %u.
+MPM instances: %u unique, copies %u (none %u).
+MPM (URI) instances: %u unique, copies %u (none %u).
+MPM (URI) max patcnt %u, avg %u (%u/%u)
+port maxgroups: %u, avg %u, tot %u
+building signature grouping structure, stage 3: building destination address lists... done
+cleaning up signature grouping structure...
+cleaning up signature grouping structure... done
+* Building signature grouping structure, stage 5: print...
+ mpm_ctx %p, mpm_stream_ctx %p
+* Building signature grouping structure, stage 5: print... done
+initializing the detection engine failed
+%d rule files specified, but no rule was loaded at all!
+%d rule files processed. %d rules succesfully loaded, %d rules failed
+DetectLoadCompleteSigPath
+DetectLoadSigFile
+SigLoadSignatures
+SigAddressPrepareStage1
+CreateGroupedAddrList
+CreateGroupedPortList
+SigAddressPrepareStage2
+DetectEngineLookupBuildSourceAddressList
+BuildDestinationAddressHeadsWithBothPorts
+SigAddressPrepareStage3
+SigAddressCleanupStage1
+SigAddressCleanupStage1
+SigGroupBuild
+detect-engine-sigorder.c
+ordering signatures in memory
+Fatal error encountered in SCSigRegisterSignatureOrderingFunc. Exiting...
+SCSigOrderSignatures: Total Signatures to be processed by thesigordering module: %d
+total signatures reordered by the sigordering module: %d
+SCSigOrderSignatures
+SCSigAllocSignatureWrapper
+SCSigRegisterSignatureOrderingFunc
+detect-engine.c
+detect-engine
+profile
+medium
+high
+custom
+custom-values
+toclient_src_groups
+toclient_dst_groups
+toclient_sp_groups
+toclient_dp_groups
+toserver_src_groups
+toserver_dst_groups
+toserver_sp_groups
+toserver_dp_groups
+malloc of %lu failed: %s
+detect.alert
+argument "data" NULL
+DetectEngineCtxInit
+DetectEngineThreadCtxInit
+DetectEngineThreadCtxDeinit
+detect-rpc.c
+pcre study failed: %s
+pcre_get_substring failed
+invalid rpc option %s
+^\s*([0-9]{0,10})\s*(?:,\s*([0-9]{0,10}|[*])\s*(?:,\s*([0-9]{0,10}|[*]))?)?\s*$
+pcre compile of "%s" failed at offset %d: %s
+parse error, ret %d, string %s
+Invalid size specified for the rpc program:"%s"
+Invalid size specified for the rpc version:"%s"
+Invalid size specified for the rpc procedure:"%s"
+DetectRpcRegister
+DetectRpcParse
+isdataat
+detect-isdataat.c
+isdataat out of range
+^\s*([0-9]{1,5})\s*(,\s*relative)?\s*(,\s*rawbytes\s*)?\s*$
+pcre_exec parse error, ret %d, string %s
+No preceding content or uricontent or pcre option
+Unknown previous-previous keyword!
+DetectIsdataatRegister
+DetectIsdataatParse
+DetectIsdataatSetup
+window
+detect-window.c
+^\s*([!])?\s*([0-9]{1,9}+)\s*$
+DetectWindowRegister
+DetectWindowParse
+detect-ftpbounce.c
+ftpbounce
+rule contains conflicting keywords.
+DetectFtpbounceSetup
+detect-engine-address.c
+!(dd->ip.family == 0)
+__address__
+!(r == ADDRESS_ER)
+DetectAddressParse error "%s"
+0.0.0.0/0
+!(ad->ip.family == 0)
+::/0
+DetectAddressSetup error
+[%s]
+list:
+SIGS %6u 
+endlist
+!(new->ip.family == 0 && !(new->flags & 0x01))
+DetectAddressInit
+DetectAddressPrintList
+DetectAddressInsert
+DetectAddressSetup
+DetectAddressSetup
+DetectAddressParseString
+DetectAddressParseString
+DetectAddressParse2
+DetectAddressHeadInit
+detect-engine-threshold.c
+failed to add element into the hash table
+Threshold: Failed to initialize ipv4 dst hash table.
+Threshold: Failed to initialize ipv4 src hash table.
+Threshold: Failed to initialize ipv6 src hash table.
+Threshold: Failed to initialize ipv6 dst hash table.
+Threshold: Failed to initialize hash table mutex.
+ThresholdHashAdd
+DetectThresholdEntryAlloc
+ThresholdHashInit
+detect-engine-tag.c
+Tag: Failed to initialize ipv4 dst hash table.
+Tag: Failed to initialize ipv4 src hash table.
+Error allocating memory for the tagging context
+Tag: Failed to initialize hash table mutex.
+Failed to allocate a new session
+TagInitCtx
+TagHashInit
+TagHashAddTag
+__proto__
+detect-engine-proto.c
+DetectProtoInit
+detect-engine-port.c
+__port__
+!(1)
+!(r == PORT_ER)
+PortParse error "%s"
+0:65535
+!(r != PORT_ES && r != PORT_EB && r != PORT_LE && r != PORT_GE)
+DetectPortParseInsertString error
+Can't have a negated value in a range.
+Complete port space is negated
+no ports left after merging ports with negated ports
+DetectPortInit
+DetectPortInsert
+DetectPortCut
+DetectPortCmp
+DetectPortParseMergeNotPorts
+DetectPortParseInsertString
+DetectPortParseDo
+PortParse
+detect-engine-siggroup.c
+s->num %u 
+!(sgh->init == ((void *)0))
+SCRealloc failed: %s, while trying to allocate %lu bytes
+!((*dst)->mpm_content_maxlen == 0)
+!(sgh->match_array != ((void *)0))
+!(sgh->head_array != ((void *)0))
+!(s->flags != sgh->head_array[idx].flags)
+!(s->alproto != sgh->head_array[idx].alproto)
+!(s->mpm_pattern_id != sgh->head_array[idx].mpm_pattern_id)
+!(s->mpm_stream_pattern_id != sgh->head_array[idx].mpm_stream_pattern_id)
+!(s->num != sgh->head_array[idx].num)
+!(s != sgh->head_array[idx].full_sig)
+SigGroupHeadStore
+SigGroupHeadAlloc
+SigGroupHeadInitDataAlloc
+SigGroupHeadCopySigs
+SigGroupHeadLoadContent
+SigGroupHeadLoadContent
+SigGroupHeadLoadUricontent
+SigGroupHeadLoadUricontent
+SigGroupHeadLoadStreamContent
+SigGroupHeadLoadStreamContent
+SigGroupHeadBuildMatchArray
+SigGroupHeadBuildMatchArray
+SigGroupHeadBuildHeadArray
+SigGroupHeadBuildHeadArray
+detect-engine-mpm.c
+mpm-algo
+Add hash failed
+!(ht == ((void *)0))
+!(ht->hash == ((void *)0))
+!(e == ((void *)0))
+!(ret != 0)
+!(e->pattern == ((void *)0))
+wumanber
+!(len < sizeof(MpmPatternIdTableElmt))
+!(len1 < sizeof(MpmPatternIdTableElmt))
+!(len2 < sizeof(MpmPatternIdTableElmt))
+Invalid mpm algo supplied in the yaml conf file: "%s"
+!(ht == ((void *)0) || ht->hash == ((void *)0))
+PatternMatchDefaultMatcher
+ContentHashAlloc
+UricontentHashAlloc
+PatternMatchPrepareGroup
+PatternMatchPreprarePopulateMpm
+PatternMatchPreprarePopulateMpmStream
+MpmPatternIdTableInitHash
+MpmPatternIdTableInitHash
+MpmPatternIdCompare
+MpmPatternIdHashFunc
+DetectContentGetId
+DetectContentGetId
+DetectUricontentGetId
+DetectUricontentGetId
+, %u
+detect-engine-iponly.c
+IPOnlyCIDRItemSetup error
+!(dd->family == 0)
+Error parsing addresses
+Fatal error encountered in SigNumArrayNew. Exiting...
+Fatal error encountered in SigNumArrayCopy. Exiting...
+Fatal error encountered in IPOnlyInit. Exiting...
+Fatal error encountered in DetectEngineIPOnlyThreadInit. Exiting...
+Error inserting in the src ipv4 radix tree
+Error inserting in the src ipv6 radix tree
+Error inserting in the dst ipv4 radix tree
+Error inserting in the dst ipv6 radix tree
+IPOnlyCIDRItemNew
+SigNumArrayNew
+SigNumArrayCopy
+IPOnlyCIDRListParse2
+IPOnlyCIDRItemParseSingle
+IPOnlyCIDRItemParseSingle
+IPOnlyCIDRItemSetup
+IPOnlyInit
+DetectEngineIPOnlyThreadInit
+IPOnlyPrepare
+detect-engine-payload.c
+!(spayload_len > payload_len)
+!(cd->depth != 0 && cd->depth <= cd->offset)
+DoInspectPacketPayload
+detect-engine-dcepayload.c
+!(sstub_len > stub_len)
+!(sm->next == ((void *)0))
+DoInspectDcePayload
+detect-engine-uri.c
+!(ud->depth != 0 && ud->depth <= ud->offset)
+DoInspectPacketUri
+detect-engine-state.c
+DE_STATE_MATCH_NOSTATE
+DE_STATE_MATCH_FULL
+DE_STATE_MATCH_PARTIAL
+DE_STATE_MATCH_NEW
+DeStateStoreAlloc
+DetectEngineStateAlloc
+detect-parse.c
+unknown rule keyword '%s'.
+!(old == ((void *)0))
+pass
+reject
+rejectsrc
+rejectdst
+rejectboth
+can't use uricontent with flow:to_client or flow:from_server
+Libnet 1.1 is incompatible with POSIX based capabilities with privs dropping. For rejects to work, run as root/super user.
+pcre_exec failed: ret %d, optstr "%s"
+You need to send an even no of args (non zero as well) to this function, since we need a SigMatch list for every SigMatch type(send a map of sm_type and sm_list) sent
+^([A-z]+)\s+([A-z0-9]+)\s+([\[\]A-z0-9\.\:_\$\!\-,\/]+)\s+([\:A-z0-9_\$\!,]+)\s+(-\>|\<\>)\s+([\[\]A-z0-9\.\:_\$\!\-,/]+)\s+([\:A-z0-9_\$\!,]+)(?:\s+\((.*)?(?:\s*)\))?(?:(?:\s*)\n)?\s*$
+^\s*([A-z_0-9-\.]+)(?:\s*\:\s*(.*)(?<!\\))?\s*;\s*(?:\s*(.*))?\s*$
+An invalid action "%s" was given
+SigParseBasics: pcre_exec failed: ret %d, sigstr "%s"
+Signature parsing failed: "%s"
+SigMatchAlloc
+SigMatchReplaceContent
+SigMatchReplaceContentToUricontent
+SigMatchGetLastSMFromLists
+SigParsePrepare
+SigParseAction
+SigParseActionRejectValidate
+SigParseBasics
+SigParse
+SigParseOptions
+SigAlloc
+SigInit
+SigBuildAddressMatchArray
+SigValidate
+DetectEngineSignatureIsDuplicate
+detect-ack.c
+DetectAckSetup
+detect-seq.c
+DetectSeqSetup
+detect-content.c
+!(s == ((void *)0))
+Error allocating memory. Exiting...
+error allocating memory. exiting...
+DetectContentParse
+DetectContentPrint
+SigMatchGetLastPattern
+uricontent
+detect-uricontent.c
+uri content specified in a dcerpc sig
+DetectUricontentSetup
+DetectUricontentPrint
+DoDetectUricontentSetup
+detect-flowbits.c
+unknown cmd %u
+noalert
+isset
+isnotset
+unset
+toggle
+flowbits
+([a-z]+)(?:,(.*))?
+"%s" is not a valid setting for flowbits.
+ERROR: flowbits action "%s" is not supported.
+DetectFlowbitsRegister
+DetectFlowbitSetup
+DetectFlowbitMatch
+detect-flowvar.c
+flowvar
+(.*),(.*)
+"%s" is not a valid setting for flowvar.
+DetectFlowvarRegister
+DetectFlowvarSetup
+DetectFlowintRegister
+DetectFlowintParse
+flowint
+detect-flowint.c
+Unknown modifier
+malloc from strdup failed
+^\s*([a-zA-Z][\w\d_]+)\s*,\s*([+=-]{1}|==|!=|<|<=|>|>=|isset|notset)\s*,?\s*([a-zA-Z][\w\d]+|[\d]{1,10})?\s*$
+Error registering flowint detection plugin
+"%s" is not a valid setting for flowint(ret = %d).
+detect-pktvar.c
+pktvar
+"%s" is not a valid setting for pktvar.
+DetectPktvarRegister
+DetectPktvarSetup
+pcre
+__pcre_http_body__
+__pcre_http_cookie__
+__pcre_http_method__
+__pcre_http_header__
+pcre.match-limit
+pcre.match-limit-recursion
+detect-pcre.c
+Cookie
+parse error
+unknown regex modifier '%c'
+pcre study failed : %s
+uricontent not setup properly
+pcre not setup properly
+(?<!\\)/(.*(?<!(?<!\\)\\))/([^"]*)
+\(\?P\<([A-z]+)\_([A-z0-9_]+)\>
+Invalid option. DCERPC rule has pcre keyword with http related modifier.
+prev sigmatch has unknown type: %u
+DetectPcreRegister
+DetectPcreSetup
+DetectPcreParse
+DetectPcreParseCapture
+detect-depth.c
+invalid argument
+depth needspreceeding content option for dcerpc sig
+distance needspreceeding content or uricontent option
+depth needs a preceeding content (or uricontent) option
+DetectDepthSetup
+detect-nocase.c
+nocase has value
+nocase
+Fatal error encountered in SigMatchGetLastNocasePattern. Exiting...
+"nocase" needs a preceeding content, uricontent, http_client_body, http_header, http_method, http_uri, http_cookie option
+"nocase" needs a preceeding content, uricontent, http_client_body or http_cookie option
+DetectNocaseSetup
+SigMatchGetLastNocasePattern
+SigMatchGetLastNocasePattern
+detect-fast-pattern.c
+fast_pattern
+DetectFastPatternSetup: fast_pattern shouldn't be supplied with a value
+ a fast_pattern found inside the rule, is not preceding a keyword that support (currently) this optimization. At least, the engine support fast_pattern for content (not for uricontent yet). The signature is being loaded anyway ==> %s
+fast_pattern found inside the rule, without a content context. Please use a content keyword before using fast pattern
+DetectFastPatternSetup
+DetectRecursiveSetup: recursive has no value
+recursive
+detect-rawbytes.c
+nocase has no value
+rawbytes
+"rawbytes" needs a preceeding content option
+DetectRawbytesSetup
+byte_test
+detect-bytetest.c
+Malformed number of bytes: %s
+Invalid operator
+Malformed value: %s
+ Malformed offset: %s
+relative
+string
+little
+Unknown value: "%s"
+^\s*([^\s,]+)\s*,\s*(\!?)\s*([^\s,]*)\s*,\s*([^\s,]+)\s*,\s*([^\s,]+)(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?\s*$
+Error extracting %d bytes of string data: %d
+Error extracting %d bytes of numeric data: %d
+pcre_get_substring failed for arg %d
+Cannot test more than 23 bytes with "string": %s
+Cannot test more than 8 bytes without "string": %s
+Cannot use a base without "string": %s
+Non dce alproto sig has bytetest with dce enabled
+Invalid option. a byte_test keyword with dce holds other invalid modifiers.
+DetectBytetestRegister
+DetectBytetestDoMatch
+DetectBytetestParse
+DetectBytetestSetup
+detect-bytejump.c
+byte_jump
+from_beginning
+align
+multiplier 
+Malformed multiplier: %s
+post_offset 
+Malformed post_offset: %s
+Unknown option: "%s"
+Error extracting %d bytes of numeric data: %d
+^\s*([^\s,]+\s*,\s*[^\s,]+)(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?\s*$
+parse error, ret %d, string "%s"
+Cannot test more than 8 bytes without "string": %s
+Invalid option. DCERPC rule holds an invalid modifier for bytejump.
+DetectBytejumpRegister
+DetectBytejumpDoMatch
+DetectBytejumpMatch
+DetectBytejumpParse
+DetectBytejumpSetup
+sameip
+detect-ipproto.c
+Malformed protocol name: %s
+Malformed protocol number: %s
+ip_proto
+^\s*([!<>]?)\s*([^\s]+)\s*$
+DetectIPProtoRegister
+DetectIPProtoParse
+detect-within.c
+Unknown previous keyword!
+within
+Invalid signature.  within needs a preceding content keyword
+within needspreceeding content or uricontent option
+within argument "%i" is less than the content length "%u" which is invalid, since this will never match.  Invalidating signature
+within needs two preceeding content or uricontent options
+No related previous-previous content or pcre keyword
+DetectWithinSetup
+detect-distance.c
+distance
+distance needs two preceeding content or uricontent options
+DetectDistanceSetup
+detect-offset.c
+offset needspreceeding content option for dcerpc sig
+offset needs a preceeding content or uricontent option
+DetectOffsetSetup
+detect-sid.c
+DetectSidSetup
+detect-priority.c
+priority
+^\s*(\d+|"\d+")\s*$
+Invalid Priority in Signature - %s
+Compile of "%s" failed at offset %d: %s
+DetectPriorityRegister
+DetectPrioritySetup
+detect-rev.c
+DetectRevSetup
+detect-classtype.c
+classtype
+Invalid Classtype in Signature
+Error parsing classtype argument supplied with the classtype keyword
+Unknown Classtype: "%s".  Invalidating the Signature
+^\s*([a-zA-Z][a-zA-Z0-9-_]*)\s*$
+DetectClasstypeRegister
+DetectClasstypeParseRawString
+DetectClasstypeSetup
+reference
+detect-reference.c
+malloc failed: %s
+bugtraq
+nessus
+mcafee
+arachnids
+strdup failed: %s
+^\s*(cve|nessus|url|mcafee|bugtraq|arachnids)\s*,"?\s*"?\s*([a-zA-Z0-9\-_\.\/\?\=]+)"?\s*"?
+unknown reference key "%s". Supported keys are cve, bugtraq, nessus, url, mcafee, arachnids.
+DetectReferenceRegister
+DetectReferenceParse
+detect-tag.c
+host
+seconds
+^\s*(host|session)\s*(,\s*(\d+)\s*,\s*(packets|bytes|seconds)\s*(,\s*(src|dst))?\s*)?$
+Allocation failed for tag entry. The rule will alert, but no session/host will be taged
+Error on direction of a tag keyword (not src nor dst)
+Error on type of a tag keyword (not session nor host)
+Invalid argument type. Must be session or host (%s)
+Invalid argument for count. Must be a value in the range of 0 to %u (%s)
+Invalid argument metric. Must be one of "seconds", "packets" or "bytes" (%s)
+Invalid argument direction. Must be one of "src" or "dst" (only valid for tag host type, not sessions) (%s)
+Argument direction doesn't make sense for type "session" (%s [%u])
+DetectTagRegister
+DetectTagFlowAdd
+DetectTagMatch
+DetectTagParse
+detect-threshold.c
+count
+second
+track
+threshold
+by_dst
+by_src
+"detection_filter" and "threshold" are not allowed in the same rule
+^\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*
+DetectThresholdRegister
+DetectThresholdSetup
+DetectThresholdParse
+metadata
+detect-msg.c
+format error '%s'
+DetectMsgSetup
+detect-id.c
+^\s*([0-9]{1,5}|"[0-9]{1,5}")\s*$
+invalid id option. The id option value must be in the range %u - %u
+"id" option  must be in the range %u - %u
+DetectIdRegister
+DetectIdParse
+detect-flow.c
+stateless
+to_client
+from_server
+to_server
+from_client
+stream_only
+no_stream
+invalid flow option "%s"
+^\s*([A-z_]+)\s*(?:,\s*([A-z_]+))?\s*(?:,\s*([A-z_]+))?\s*$
+FLOW_PKT_ESTABLISHED flag is already set
+FLOW_PKT_STATELESS already set
+FLOW_PKT_STATELESS flag is already set
+cannot set FLOW_PKT_STATELESS, FLOW_PKT_ESTABLISHED already set
+cannot set FLOW_PKT_TOCLIENT flag is already set
+cannot set to_client, FLOW_PKT_TOSERVER already set
+cannot set FLOW_PKT_TOSERVER flag is already set
+cannot set to_server, FLOW_PKT_TO_CLIENT flag already set
+cannot set stream_only flag is already set
+cannot set stream_only flag, FLOW_PKT_NOSTREAM already set
+cannot set no_stream flag is already set
+cannot set no_stream flag, FLOW_PKT_STREAMONLY already set
+DetectFlowRegister
+DetectFlowParse
+dsize
+detect-dsize.c
+Parse error %s
+Invalid size value1:"%s"
+Invalid size value2:"%s"
+dsize2:%u <= dsize:%u
+Parsing '%s' failed
+^\s*(<|>)?\s*([0-9]{1,5})\s*(?:(<>)\s*([0-9]{1,5}))?\s*$
+Range specified but mode also set
+Multiple dsize values specified but mode is not range
+Failed to allocate memory for SigMatch
+DetectDsizeRegister
+DetectDsizeSetup
+DetectDsizeParse
+DetectStreamSizeRegister
+DetectStreamSizeParse
+stream_size
+detect-stream_size.c
+either
+^\s*([A-z_]+)\s*,\s*([<=>!]+)\s*,\s*([0-9]+)\s*$
+decode-event
+\S[0-9A-z_]+[.][A-z+]+$
+detect-decode-event.c
+pcre study failed: %s
+ipv4.pkt_too_small
+ipv4.hlen_too_small
+ipv4.iplen_smaller_than_hlen
+ipv4.trunc_pkt
+ipv4.opt_invalid
+ipv4.opt_invalid_len
+ipv4.opt_malformed
+ipv4.opt_pad_required
+ipv4.opt_eol_required
+ipv4.opt_duplicate
+ipv4.opt_unknown
+ipv4.wrong_ip_version
+ipv6.pkt_too_small
+ipv6.trunc_pkt
+ipv6.trunc_exthdr
+ipv6.exthdr_dupl_fh
+ipv6.exthdr_dupl_rh
+ipv6.exthdr_dupl_hh
+ipv6.exthdr_dupl_dh
+ipv6.exthdr_dupl_ah
+ipv6.exthdr_dupl_eh
+ipv6.exthdr_invalid_optlen
+ipv6.wrong_ip_version
+icmpv4.pkt_too_small
+icmpv4.unknown_type
+icmpv4.unknown_code
+icmpv4.ipv4_trunc_pkt
+icmpv4.ipv4_unknown_ver
+icmpv6.unknown_type
+icmpv6.unknown_code
+icmpv6.pkt_too_small
+icmpv6.ipv6_unknown_version
+icmpv6.ipv6_trunc_pkt
+tcp.pkt_too_small
+tcp.hlen_too_small
+tcp.invalid_optlen
+tcp.opt_invalid_len
+tcp.opt_duplicate
+udp.pkt_too_small
+udp.hlen_too_small
+udp.hlen_invalid
+sll.pkt_too_small
+ethernet.pkt_too_small
+ppp.pkt_too_small
+ppp.vju_pkt_too_small
+ppp.ip4_pkt_too_small
+ppp.ip6_pkt_too_small
+ppp.wrong_type
+ppp.unsup_proto
+pppoe.pkt_too_small
+pppoe.wrong_code
+pppoe.malformed_tags
+gre.pkt_too_small
+gre.wrong_version
+gre.version0_recur
+gre.version0_flags
+gre.version0_hdr_too_big
+gre.version1_chksum
+gre.version1_route
+gre.version1_ssr
+gre.version1_recur
+gre.version1_flags
+gre.version1_no_key
+gre.version1_wrong_protocol
+gre.version1_hdr_too_big
+ipraw.wrong_ip_version
+vlan.hlen_too_small
+vlan.unknown_type
+pcre compile of "%s" failed at offset %d: %s
+gre.version0_malformed_sre_hdr
+gre.version1_malformed_sre_hdr
+DetectDecodeEventRegister
+DetectDecodeEventParse
+ipopts
+\S[A-z]
+detect-ipopts.c
+lsrr
+ssrr
+satid
+DetectIpOptsRegister
+DetectIpOptsParse
+detect-flags.c
+pcre match failed
+"flags" supports only one modifier at a time
+^\s*(?:([\+\*!]))?\s*([SAPRFU120\+\*!]+)(?:\s*,\s*([SAPRFU12]+))?\s*$
+DetectFlagsRegister
+DetectFlagsParse
+detect-fragbits.c
+fragbits
+^\s*(?:([\+\*!]))?\s*([MDR]+)
+DetectFragBitsRegister
+DetectFragBitsParse
+fragoffset
+^\s*(?:(<|>))?\s*([0-9]+)
+detect-fragoffset.c
+specified frag offset %s is not valid
+DetectFragOffsetRegister
+DetectFragOffsetParse
+detect-gid.c
+[0-9]+
+DetectGidRegister
+DetectGidParse
+detect-noalert.c
+DetectNoalertSetup
+detect-csum.c
+ipv4-csum
+tcpv4-csum
+tcpv6-csum
+udpv4-csum
+udpv6-csum
+icmpv4-csum
+icmpv6-csum
+DetectICMPV6CsumSetup
+DetectCsumParseArg
+DetectICMPV4CsumSetup
+DetectUDPV6CsumSetup
+DetectUDPV4CsumSetup
+DetectTCPV6CsumSetup
+DetectTCPV4CsumSetup
+DetectIPV4CsumSetup
+detect-ttl.c
+parse error, ret %d
+^\s*([0-9]*)?\s*([<>=-]+)?\s*([0-9]+)?\s*$
+DetectTtlRegister
+DetectTtlParse
+itype
+detect-itype.c
+itype: invalid value
+^\s*(<|>)?\s*([0-9]+)\s*(?:<>\s*([0-9]+))?\s*$
+DetectITypeRegister
+DetectITypeParse
+icode
+detect-icode.c
+icode: invalid value
+DetectICodeRegister
+DetectICodeParse
+detect-http-cookie.c
+SigMatchAlloc failed
+http_cookie
+http_cookie shouldn't be supplied with an argument
+http_cookie found inside the rule, without any preceding content keywords
+http_cookie found inside the rule, without a content context.  Please use a content keyword before using http_cookie
+http_cookie rule can not be used with the fast_pattern rule keyword. Unsetting fast_pattern on this modifier. Signature ==> %s
+http_cookie rule can not be used with the rawbytes rule keyword
+DetectHttpCookieSetup
+detect-http-method.c
+http_method
+http_method does not take an argument
+http_method modifier used before any signature match
+http_method modifies "content", but none was found
+http_method cannot be used with "fast_pattern" currently.Unsetting fast_pattern on this modifier. Signature ==> %s
+http_method cannot be used with "rawbytes"
+DetectHttpMethodSetup
+detect-http-header.c
+SCMalloc() failed
+http_header
+http_header supplied with no args
+http_header found inside the rule, without any preceding content keywords
+"http_header" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_header" keyword
+http_header cannot be used with "fast_pattern" currently.Unsetting fast_pattern on this modifier. Signature ==> %s
+http_header rule can not be used with the rawbytes rule keyword
+rule contains conflicting keywords
+DetectHttpHeaderSetup
+detect-http-uri.c
+http_uri
+http_uri shouldn't be supplied with an argument
+http_uri found inside the rule, without any preceding content keywords
+http_uri modifies "content"but none was found
+http_uri cannot be used with "fast_pattern" currently.Unsetting fast_pattern on this modifier. Signature ==> %s
+http_uri rule can not be used with the rawbytes rule keyword
+DetectHttpUriSetup
+tls.version
+detect-tls-version.c
+invalid tls.version option
+Invalid value
+^\s*([A-z0-9\.]+|"[A-z0-9\.]+")\s*$
+DetectTlsVersionRegister
+DetectTlsVersionSetup
+DetectTlsVersionParse
+1.99
+ssh.protoversion
+detect-ssh-proto-version.c
+2_compat
+^\s*"?\s*([0-9]+([\.\-0-9]+)?|2_compat)\s*"?\s*$
+invalid ssh.protoversion option
+DetectSshVersionRegister
+DetectSshVersionSetup
+DetectSshVersionParse
+ssh.softwareversion
+detect-ssh-software-version.c
+^\s*"?\s*?([0-9a-zA-Z\.\-\_]+)\s*"?\s*$
+invalid ssh.softwareversion option
+DetectSshSoftwareVersionRegister
+DetectSshSoftwareVersionSetup
+DetectSshSoftwareVersionParse
+icmp_id
+detect-icmp-id.c
+Missing close quote in input
+Missing open quote in input
+^\s*("\s*)?([0-9]+)(\s*")?\s*$
+specified icmp id %s is not valid
+DetectIcmpIdRegister
+DetectIcmpIdParse
+icmp_seq
+detect-icmp-seq.c
+Missing quote in input
+specified icmp seq %s is not valid
+DetectIcmpSeqRegister
+DetectIcmpSeqParse
+detect-dce-iface.c
+dce_iface
+DCE_IFACE interface version invalid: %d
+DCE_IFACE interface version invalid: %d.  Version can't be lessthan 0, with "<" operator
+DCE_IFACE interface version invalid: %d.  Version can't be greaterthan %d, with ">" operator
+Error parsing dec_iface option in signature
+^\s*([0-9a-zA-Z]{8}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{12})(?:\s*,(<|>|=|!)([0-9]{1,5}))?(?:\s*,(any_frag))?\s*$
+DetectDceIfaceSetup
+DetectDceIfaceArgParse
+detect-dce-opnum.c
+dce_opnum
+Error parsing dce_opnum option in signature
+^\s*([0-9]{1,5}(\s*-\s*[0-9]{1,5}\s*)?)(,\s*[0-9]{1,5}(\s*-\s*[0-9]{1,5})?\s*)*$
+DetectDceOpnumRegister
+DetectDceOpnumSetup
+DetectDceOpnumArgParse
+DetectDceOpnumAllocDetectDceOpnumRange
+detect-dce-stub-data.c
+dce_stub_data
+DetectDceStubDataSetup
+urilen
+detect-urilen.c
+Invalid size :"%s"
+urilen2:%u <= urilen:%u
+Multiple urilen values specified but mode is not range
+DetectUrilenParse
+detection_filter
+detect-detection-filter.c
+found an invalid value
+^\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*,\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*,\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*$
+At most one "detection_filter" is allowed per rule
+DetectDetectionFilterRegister
+DetectDetectionFilterSetup
+DetectDetectionFilterParse
+detect-http-client-body.c
+http_client_body
+http_client_body supplied with no args
+http_client_body found inside the rule, without any preceding content keywords
+"http_client_body" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_client_body" keyword
+http_client_body cannot be used with "fast_pattern" currently.Unsetting fast_pattern on this modifier. Signature ==> %s
+http_client_body rule can not be used with the rawbytes rule keyword
+DetectHttpClientBodyMatch
+DetectHttpClientBodySetup
+asn1
+detect-asn1.c
+Malformed asn1 argument: %s
+bitstring_overflow
+double_overflow
+oversize_length
+absolute_offset
+relative_offset
+Malformed value for oversize_length: %s
+Malformed value for absolute_offset: %s
+Malformed value for relative_offset: %s
+Error allocating DetectAsn1Data
+DetectAsn1Parse
+%02X 
+\x%02X
+ %04X  
+util-cpu.c
+CPUs Summary: 
+CPUs online: %u
+CPUs configured %u
+Couldn't retrieve the number of cpus configured (%s)
+Couldn't retrieve the number of cpus online (%s)
+Couldn't retrieve the maximum number of cpus allowed by the system, synconf macro unavailable
+Couldn't retireve any information of CPU's, please, send your operating system info and check util-cpu.{c,h}
+UtilCpuGetNumProcessorsConfigured
+UtilCpuGetNumProcessorsOnline
+UtilCpuGetNumProcessorsMax
+UtilCpuPrintSummary
+util-pidfile.c
+Pid error (%s)
+unable to set pidfile: %s
+unable to write pidfile: %s
+unable to write pidfile: wrote %ld of %lu bytes.
+SCPidfileCreate
+util-mpm.c
+lowest
+highest
+PmqSetup
+util-spm.c
+BoyerMooreSearch
+BoyerMooreNocaseSearch
+util-spm-bm.c
+Fatal error encountered in BoyerMooreCtxInit. Exiting...
+Fatal error encountered in BooyerMooreCtxInit. Exiting...
+BoyerMooreCtxInit
+PreBmGs
+PreBmGsNocase
+MPM WuManber Information:
+Memory allocs:   %u
+Memory alloced:  %u
+ Sizeofs:
+  MpmCtx         %lu
+  WmCtx:         %lu
+  WmPattern      %lu
+  WmHashItem     %lu
+Unique Patterns: %u
+Total Patterns:  %u
+Smallest:        %u
+Largest:         %u
+Max shiftlen:    %u
+Hash size:       %u
+Search function: 
+MBSearch funct:  
+WmSearch2Hash16
+WmSearch2Hash15
+WmSearch2Hash14
+WmSearch2Hash12
+WmSearch2Hash9
+util-mpm-wumanber.c
+\x%X
+Max search words reached
+pattern-matcher
+bf_size
+WmSearch1 (allows single byte patterns)
+WmSearch2Hash16 (only for multibyte patterns)
+WmSearch2Hash15 (only for multibyte patterns)
+WmSearch2Hash14 (only for multibyte patterns)
+WmSearch2Hash12 (only for multibyte patterns)
+WmSearch2Hash9 (only for multibyte patterns)
+WmAllocPattern
+WmAddPattern
+WmPreparePatterns
+WmSearchPrepareShiftTable
+WmSearchPrepareHash
+WmAllocHashItem
+WmInitCtx
+MPM B2g Information:
+  B2gCtx:         %lu
+  B2gPattern      %lu
+  B2gPattern     %lu
+util-mpm-b2g.c
+B2gSearch
+B2gSearchBNDMq
+!(mpm_ctx->ctx != ((void *)0))
+SCMalloc failed: %s, while trying to allocate %ld bytes
+B2gAllocPattern
+B2gAddPattern
+B2gBuildMatchArray
+B2gPreparePatterns
+B2gPrepareHash
+B2gAllocHashItem
+B2gInitCtx
+B2gInitCtx
+MPM B3g Information:
+  B3gCtx:         %lu
+  B3gPattern      %lu
+  B3gHashItem     %lu
+util-mpm-b3g.c
+B3gSearch
+B3gSearchBNDMq
+B3gAllocPattern
+B3gAddPattern
+B3gBuildMatchArray
+B3gPreparePatterns
+B3gPrepareHash
+B3gAllocHashItem
+B3gInitCtx
+util-unittest.c
+unittests.failure_fatal
+Test %-60.60s : 
+ERROR: unittest failed.
+==== TEST RESULTS ====
+PASSED: %u
+FAILED: %u
+======================
+UtRunTests: regex provided regex_arg: %s did not match any tests
+UtRunTests: pcre compilation failed
+UtAllocTest
+UtRunTests
+util-unittest-helper.c
+192.168.1.1
+192.168.1.5
+packet or de_ctx was null
+de_ctx == NULL: 
+signature == NULL: 
+signature didn't alert: 
+The arrays cant be null, and the number of packets should be grater thatn zero
+Arguments invalid, check if the packet is NULL, and if the array contain sids is set
+Sid %u matched %u times, and not %u as expected
+Sid %u matched %u times, as expected
+Arguments invalid, check if sigs or de_ctx are NULL, and if the array contain sigs
+Check the signature at position %d
+Check the signature at position %d (%s)
+Arguments invalid, that the pointer/arrays are not NULL, and the number of signatures and packets is > 0
+UTHBuildPacketIPV6Real
+UTHBuildPacketReal
+UTHBuildPacketArrayFromEth
+UTHBuildPacketFromEth
+UTHGenericTest
+UTHCheckPacketMatchResults
+UTHAppendSigs
+UTHMatchPacketsWithResults
+UTHMatchPackets
+util-hash.c
+Buckets:               %u
+Hash function pointer: %p
+----------- Hash Table Stats ------------
+-----------------------------------------
+HashTableInit
+HashTableAdd
+util-hashlist.c
+HashListTableInit
+HashListTableAdd
+util-bloomfilter.c
+Hash functions:        %u
+---------- Bloom Filter Stats -----------
+Memory size:           %u bytes
+BloomFilterInit
+util-bloomfilter-counting.c
+Counter size:          %u
+------ Counting Bloom Filter Stats ------
+ERROR: BloomFilterCountingRemove tried to remove data that was never added to the set or was already removed.
+ERROR: BloomFilterCountingRemove tried to decrease a counter below zero.
+BloomFilterCountingInit
+util-pool.c
+PoolInit
+PoolTestAlloc
+PoolTestAllocArg
+ERROR: GenericVarFree unknown type %u
+util-var-name.c
+VariableNameGetIdx
+VariableIdxGetName
+util-byte.c
+len too large (23 max)
+Numeric value out of range
+Invalid numeric value
+Numeric value out of range (%lx != %lx)
+Numeric value out of range (%lx != %lx)
+ByteExtractString
+ByteExtractStringUint32
+ByteExtractStringUint16
+ByteExtractStringUint8
+ByteExtractStringSigned
+ByteExtractStringInt32
+ByteExtractStringInt16
+ByteExtractStringInt8
+%s/%s
+sc_ids_log.log
+UNKNOWN TM
+util-debug.c
+%s%u
+%s%lu
+%s%s
+%s%d
+SC_LOG_FORMAT
+SC_LOG_LEVEL
+Error opening file %s
+local0
+SC_LOG_OP_IFACE
+SC_LOG_FILE
+SC_LOG_FACILITY
+SC_LOG_OP_FILTER
+logging.outputs
+logging.default-log-level
+Invalid default log level: %s
+logging.default-log-format
+Invalid log level: %s
+console
+filename
+syslog
+facility
+Invalid syslog facility: %s
+auth
+authpriv
+cron
+daemon
+kern
+mail
+news
+security
+uucp
+local1
+local2
+local3
+local4
+local5
+local6
+local7
+Console
+Syslog
+Not set
+None
+Emergency
+Critical
+Warning
+Notice
+Info
+Debug
+Logging module not initialized.  Call SCLogInitLogModule() first before using the debug API
+Error writing to stream using fprintf
+%s%d/%d/%04d -- %02d:%02d:%02d
+Fatal error encountered in SCLogallocLogOPIfaceCtx. Exiting...
+Overriding setting for "console.format" because of env var SC_LOG_FORMAT="%s".
+Overriding setting for "console.level" because of env var SC_LOG_LEVEL="%s".
+Fatal error encountered in SCLogAllocLogOPBuffer. Exiting...
+Warning: Supplied log_level_override for op_interface "%s" is invalid.  Defaulting to not specifing an override
+[%i] %t - (%f:%l) <%d> (%n) -- 
+Warning: Invalid output interface supplied by user.  Falling back on default_output_interface "%s"
+pcre compile of "%s" failed at offset %d : %s
+Warning: Invalid global_log_format supplied by user or format length exceeded limit of "%d" characters.  Falling back on default log_format "%s"
+Warning: Invalid global_log_level assigned by user.  Falling back on default_log_level "%s"
+Fatal error encountered in SCLogInitLogModule. Exiting...
+Warning: Invalid/No global_log_level assigned by user.  Falling back on the default_log_level "%s"
+Warning: Invalid/No global_log_format supplied by user or format length exceeded limit of "%d" characters.  Falling back on default log_format "%s"
+Warning: Output_interface not supplied by user.  Falling back on default_output_interface "%s"
+No default log level set, will use info.
+Logging to file requires a filename
+Initialization syslog logging with format "%s".
+Invalid logging method: %s, ignoring
+SCLogMessage
+SCLogAllocLogOPBuffer
+SCLogAllocLogOPIfaceCtx
+SCLogInitFileOPIface
+SCLogInitLogModule
+SCLogLoadConfig
+Invalid argument supplied to SCLogAddFDFilter
+Fatal error encountered in SCLogAddToFGFFileList. Exiting...
+Fatal error encountered in SCLogAddToFGFFuncList. Exiting...
+Fatal error encountered in SCLogAddToFGFLineList. Exiting...
+Error: Invalid arguments supplied to SCLogAddFGFilter
+Invalid argument(s) supplied to SCLogRemoveFDFilter
+util-debug-filters.c
+Error Allocating memory
+SCLogCheckFDFilterEntry
+SCLogAddFDFilter
+SCLogAddToFGFFileList
+SCLogAddToFGFFuncList
+SCLogAddToFGFLineList
+SC_OK
+SC_ERR_MEM_ALLOC
+SC_ERR_ACTION_ORDER
+SC_ERR_PCRE_MATCH
+SC_ERR_PCRE_GET_SUBSTRING
+SC_ERR_PCRE_COMPILE
+SC_ERR_PCRE_STUDY
+SC_ERR_PCRE_PARSE
+SC_ERR_LOG_MODULE_NOT_INIT
+SC_ERR_LOG_FG_FILTER_MATCH
+SC_ERR_PCAP_DISPATCH
+SC_ERR_PCAP_CREATE
+SC_ERR_PCAP_SET_SNAPLEN
+SC_ERR_PCAP_SET_PROMISC
+SC_ERR_PCAP_SET_TIMEOUT
+SC_ERR_PCAP_OPEN_LIVE
+SC_ERR_PCAP_OPEN_OFFLINE
+SC_ERR_PCAP_ACTIVATE_HANDLE
+SC_ERR_PCAP_SET_BUFF_SIZE
+SC_ERR_NO_PF_RING
+SC_ERR_PF_RING_RECV
+SC_ERR_PF_RING_OPEN
+SC_ERR_INVALID_CLUSTER_TYPE
+SC_ERR_DATALINK_UNIMPLEMENTED
+SC_ERR_INVALID_SIGNATURE
+SC_ERR_OPENING_FILE
+SC_ERR_OPENING_RULE_FILE
+SC_ERR_NO_RULES
+SC_ERR_NO_RULES_LOADED
+SC_ERR_COUNTER_EXCEEDED
+SC_ERR_INVALID_CHECKSUM
+SC_ERR_SPRINTF
+SC_ERR_FATAL
+SC_ERR_INVALID_ARGUMENT
+SC_ERR_SPINLOCK
+SC_ERR_INVALID_ENUM_MAP
+SC_ERR_INVALID_IP_NETBLOCK
+SC_ERR_INVALID_IPV4_ADDR
+SC_ERR_INVALID_IPV6_ADDR
+SC_ERR_INVALID_RUNMODE
+SC_ERR_INVALID_NUMERIC_VALUE
+SC_ERR_NUMERIC_VALUE_ERANGE
+SC_ERR_INVALID_NUM_BYTES
+SC_ERR_ARG_LEN_LONG
+SC_ERR_ALPARSER
+SC_ERR_POOL_EMPTY
+SC_ERR_REASSEMBLY
+SC_ERR_POOL_INIT
+SC_ERR_UNIMPLEMENTED
+SC_ERR_FAST_LOG_GENERIC
+SC_ERR_IPONLY_RADIX
+SC_ERR_DEBUG_LOG_GENERIC
+SC_ERR_UNIFIED_LOG_GENERIC
+SC_ERR_HTTP_LOG_GENERIC
+SC_ERR_UNIFIED_ALERT_GENERIC
+SC_ERR_UNIFIED2_ALERT_GENERIC
+SC_ERR_FWRITE
+SC_ERR_FOPEN
+SC_ERR_THREAD_NICE_PRIO
+SC_ERR_THREAD_SPAWN
+SC_ERR_THREAD_CREATE
+SC_ERR_THREAD_INIT
+SC_ERR_THRESHOLD_HASH_ADD
+SC_ERR_UNDEFINED_VAR
+SC_ERR_RULE_KEYWORD_UNKNOWN
+SC_ERR_FLAGS_MODIFIER
+SC_ERR_WITHIN_MISSING_CONTENT
+SC_ERR_WITHIN_INVALID
+SC_ERR_DEPTH_MISSING_CONTENT
+SC_ERR_OFFSET_MISSING_CONTENT
+SC_ERR_NOCASE_MISSING_PATTERN
+SC_ERR_NO_URICONTENT_NEGATION
+SC_ERR_HASH_TABLE_INIT
+SC_ERR_STAT
+SC_ERR_LOGDIR_CONFIG
+SC_ERR_LOGDIR_CMDLINE
+SC_ERR_RADIX_TREE_GENERIC
+SC_ERR_MISSING_QUOTE
+SC_ERR_UNKNOWN_PROTOCOL
+SC_ERR_UNKNOWN_RUN_MODE
+SC_ERR_IPFW_NOSUPPORT
+SC_ERR_IPFW_BIND
+SC_ERR_IPFW_SOCK
+SC_ERR_IPFW_NOPORT
+SC_WARN_IPFW_RECV
+SC_WARN_IPFW_XMIT
+SC_WARN_IPFW_SETSOCKOPT
+SC_WARN_IPFW_UNBIND
+SC_ERR_MULTIPLE_RUN_MODE
+SC_ERR_BPF
+SC_ERR_MISSING_CONFIG_PARAM
+SC_ERR_UNKNOWN_VALUE
+SC_ERR_INVALID_VALUE
+SC_ERR_UNKNOWN_REGEX_MOD
+SC_ERR_INVALID_OPERATOR
+SC_ERR_PCAP_RECV_INIT
+SC_ERR_NFQ_NOSUPPORT
+SC_ERR_NFQ_UNBIND
+SC_ERR_NFQ_BIND
+SC_ERR_CUDA_ERROR
+SC_ERR_CUDA_HANDLER_ERROR
+SC_ERR_TM_THREADS_ERROR
+SC_ERR_TM_MODULES_ERROR
+SC_ERR_B2G_CUDA_ERROR
+SC_ERR_TMQ_ALREADY_REGISTERED
+SC_ERR_INITIALIZATION
+SC_ERR_INVALID_ACTION
+SC_ERR_LIBNET_INIT
+SC_ERR_LIBNET_INVALID_DIR
+SC_ERR_LIBNET_BUILD_FAILED
+SC_ERR_LIBNET_WRITE_FAILED
+SC_ERR_LIBNET_NOT_ENABLED
+SC_ERR_REFERENCE_UNKNOWN
+SC_ERR_PIDFILE_SNPRINTF
+SC_ERR_PIDFILE_OPEN
+SC_ERR_PIDFILE_WRITE
+SC_ERR_PIDFILE_DAEMON
+SC_ERR_UID_FAILED
+SC_ERR_GID_FAILED
+SC_ERR_CHANGING_CAPS_FAILED
+SC_ERR_LIBCAP_NG_REQUIRED
+SC_WARN_FLOW_EMERGENCY
+SC_ERR_SVC
+SC_ERR_ERF_DAG_OPEN_FAILED
+SC_WARN_COMPATIBILITY
+SC_ERR_DCERPC
+UNKNOWN_ERROR
+SC_ERR_NO_PCAP_SET_BUFFER_SIZE
+SC_ERR_PF_RING_GET_CLUSTERID_FAILED
+SC_ERR_PF_RING_GET_INTERFACE_FAILED
+SC_ERR_GET_CLUSTER_TYPE_FAILED
+SC_ERR_PF_RING_SET_CLUSTER_FAILED
+SC_ERR_COMPLETE_PORT_SPACE_NEGATED
+SC_ERR_NO_PORTS_LEFT_AFTER_MERGE
+SC_ERR_NEGATED_VALUE_IN_PORT_RANGE
+SC_ERR_PORT_PARSE_INSERT_STRING
+SC_ERR_UNREACHABLE_CODE_REACHED
+SC_ERR_DISTANCE_MISSING_CONTENT
+SC_ERR_BYTETEST_MISSING_CONTENT
+SC_ERR_BYTEJUMP_MISSING_CONTENT
+SC_ERR_RAWBYTES_MISSING_CONTENT
+SC_ERR_INVALID_YAML_CONF_ENTRY
+SC_ERR_CONFLICTING_RULE_KEYWORDS
+SC_ERR_LIBNET_REQUIRED_FOR_ACTION
+SC_ERR_UNIFIED_LOG_FILE_HEADER
+SC_ERR_LIBNET11_INCOMPATIBLE_WITH_LIBCAP_NG
+SC_ERR_ERF_DAG_STREAM_OPEN_FAILED
+SC_ERR_ERF_DAG_STREAM_START_FAILED
+SC_ERR_ERF_DAG_STREAM_SET_FAILED
+SC_ERR_ERF_DAG_STREAM_READ_FAILED
+SC_WARN_ERF_DAG_REC_LEN_CHANGED
+Invalid argument(s) passed into SCMapEnumNameToValue
+Invalid argument(s) passed into SCMapEnumValueToName
+A enum by the value %d doesn't exist in this table
+util-radix-tree.c
+prefix is NULL
+Invalid argument bitlen - %d
+Argument "stream" NULL
+prefix NULL
+src or dest NULL
+Argument "tree" NULL
+Error creating prefix
+prefix or user NULL
+new or list supplied as NULL
+%d [
+%d, 
+ [%d], 
+No print function provided
+NULL)
+Printing the Radix Tree: 
+Invalid argument.  Node is NULL
+Fatal error encountered in SCRadixValidateIPV4Address. Exiting...
+Fatal error encountered in SCRadixValidateIPV6Address. Exiting...
+Fatal error encountered in SCRadixCreateNode. Mem not allocated...
+Fatal error encountered in SCRadixAddKey. Mem not allocated
+Fatal error encountered in SCRadixAddKey. Mem not allocated...
+Fatal error encountered in SCRadixAddKey. Exiting...
+Fatal error encountered in SCRadixCreateRadixTree. Exiting...
+SCRadixValidateIPV4Address
+SCRadixValidateIPV6Address
+SCRadixCreateRadixTree
+SCRadixAddKey
+SCRadixCreateNode
+SCRadixPrefixContainNetmask
+SCRadixAddNetmaskUserDataToPrefix
+SCRadixAllocSCRadixUserData
+SCRadixAppendToSCRadixUserDataList
+SCRadixCreatePrefix
+SCRadixPrefixNetmaskCount
+SCRadixRemoveNetblockEntry
+SCRadixRemoveNetmaskUserDataFromPrefix
+SCRadixTransferNetmasksBWNodes
+SCRadixPrefixContainNetmaskAndSetUserData
+util-host-os-info.c
+Invalid enum map inside
+Invalid IPV4 address
+Invalid IPV6 address inside
+host-os-policy
+none
+bsd_right
+old_linux
+old_solaris
+hpux10
+hpux11
+irix
+macos
+windows
+vista
+windows2k3
+Fatal error encountered in SCHInfoValidateIPV6Address. Exiting...
+Fatal error encountered in SCHInfoValidateIPV4Address. Mem not allocated
+Error allocating memory. Exiting
+Invalid enum map inside SCHInfoAddHostOSInfo()
+Failed to add host "%s" with policy "%s" to host info database
+SCHInfoAddHostOSInfo
+SCHInfoAllocUserDataOSPolicy
+SCHInfoValidateIPV4Address
+SCHInfoValidateIPV6Address
+SCHInfoGetHostOSFlavour
+SCHInfoLoadFromConfig
+util-rule-vars.c
+%s.%s
+$HOME_NET
+$EXTERNAL_NET
+[!192.168.0.0/16,2000::/3]
+$HTTP_SERVERS
+!192.168.0.0/16
+$SMTP_SERVERS
+$SQL_SERVERS
+$DNS_SERVERS
+$TELNET_SERVERS
+$AIM_SERVERS
+$HTTP_PORTS
+80:81,88
+$SHELLCODE_PORTS
+$ORACLE_PORTS
+1521
+$SSH_PORTS
+$HOME_NETW
+$home_net
+$TOMCAT_PORTSW
+$tomcat_ports
+vars.address-groups
+vars.port-groups
+Variable "%s" is not defined in configuration file
+%YAML 1.1
+default-log-dir: /var/log/suricata
+logging:
+  default-log-level: debug
+  default-format: "<%t> - <%l>"
+  default-startup-message: Your IDS has started.
+  default-output-filter:
+  output:
+  - interface: console
+    log-level: info
+  - interface: file
+    filename: /var/log/suricata.log
+  - interface: syslog
+    facility: local5
+    format: "%l"
+pfring:
+  interface: eth0
+  clusterid: 99
+vars:
+  address-groups:
+    HOME_NET: "[192.168.0.0/16,10.8.0.0/16,127.0.0.1,2001:888:13c5:5AFE::/64,2001:888:13c5:CAFE::/64]"
+    EXTERNAL_NET: "[!192.168.0.0/16,2000::/3]"
+    HTTP_SERVERS: "!192.168.0.0/16"
+    SMTP_SERVERS: "!192.168.0.0/16"
+    SQL_SERVERS: "!192.168.0.0/16"
+    DNS_SERVERS: any
+    TELNET_SERVERS: any
+    AIM_SERVERS: any
+  port-groups:
+    HTTP_PORTS: "80:81,88"
+    SHELLCODE_PORTS: 80
+    ORACLE_PORTS: 1521
+    SSH_PORTS: 22
+[192.168.0.0/16,10.8.0.0/16,127.0.0.1,2001:888:13c5:5AFE::/64,2001:888:13c5:CAFE::/64]
+alert tcp [![192.168.1.3,$EXTERNAL_NET],[$HTTP_SERVERS,!$HOME_NET],192.168.2.5] $HTTP_PORTS -> !$HTTP_SERVERS [80,[!$HTTP_PORTS,$ORACLE_PORTS]] (msg:"Rule Vars Test"; sid:1;)
+alert tcp $HTTP_SERVER any -> any any (msg:"Rule Vars Test"; sid:1;)
+alert tcp $http_servers any -> any any (msg:"Rule Vars Test"; sid:1;)
+alert tcp $http_servers any -> any $HTTP_PORTS (msg:"Rule Vars Test"; sid:1;)
+alert tcp !$TELNET_SERVERS !80 -> any !$SSH_PORTS (msg:"Rule Vars Test"; sid:1;)
+SCRuleVarsGetConfVar
+util-daemon.c
+Error forking the process
+Error creating new session
+/dev/null
+Child died unexpectedly
+ERROR: pcap offline mode cannot run as daemon
+ERROR: unittests cannot run as daemon
+Daemonize
+WaitForChild
+CheckValidDaemonModes
+util-classification-config.c
+classification-file
+Error opening file: "%s": %s
+pcre_get_substring() failed
+classification.config
+Error initializing the hash table
+^\s*config\s*classification\s*:\s*([a-zA-Z][a-zA-Z0-9-_]*)\s*,\s*(.+)\s*,\s*(\d+)\s*$
+Please check the "classification-file" option in your suricata.yaml file.
+Invalid Classtype in classification.config file
+SCClassConfInitContext
+SCClassConfAddClasstype
+SCClassConfAllocClasstype
+SCClassConfStringToLowercase
+threshold-file
+threshold.config
+util-threshold-config.c
+sdrop
+by_rule
+Error allocating SigMatch
+log action for rate_filter not supported yet
+sdrop action for rate_filter not supported yet
+Error allocating memory for threshold config (tried to allocate %uth_entrys for rule tracking with rate_filter)
+^\s*(event_filter|threshold)\s*gen_id\s*(\d+)\s*,\s*sig_id\s*(\d+)\s*,\s*type\s*(limit|both|threshold)\s*,\s*track\s*(by_dst|by_src)\s*,\s*count\s*(\d+)\s*,\s*seconds\s*(\d+)\s*$
+^\s*(rate_filter)\s*gen_id\s*(\d+)\s*,\s*sig_id\s*(\d+)\s*,\s*track\s*(by_dst|by_src|by_rule)\s*,\s*count\s*(\d+)\s*,\s*seconds\s*(\d+)\s*,\s*new_action\s*(alert|drop|pass|log|sdrop|reject)\s*,\s*timeout\s*(\d+)\s*$
+Global thresholding options defined
+SCThresholdConfInitContext
+SCThresholdConfAddThresholdtype
+SCThresholdConfParseFile
+util-privs.c
+failed in dropping the caps
+capng_change_id for main thread failed
+dropped the caps for main thread
+unable to get the user ID, check if user exist!!
+unable to get the group ID, check if group exist!!
+SCDropAllCaps
+SCDropMainThreadCaps
+SCGetUserID
+SCGetGroupID
+asn1_max_frames
+util-decode-asn1.c
+SCAsn1CtxNew
+SCAsn1CtxNewFrame
+util-ringbuffer.c
+RingBuffer8Init
+RingBufferInit
+tm-modules.c
+LogFileNewCtx
+tm-queues.c
+TmqDebugList: id %u, name '%s', len %u
+Error: Queue "%s" doesn't have a reader
+Error: Queue "%s" doesn't have a writer
+TmqAlloc
+tm-threads.c
+spin lock errno=%d
+1slot_noout
+1slot_noin
+ERROR: no thread function set
+thread "%s" failed to spawn
+thread "%s" restarted
+Both slot name and function pointer can't be NULL inside TmThreadSetSlots
+Error: Slot "%s" not supported
+Warning: slot 1 is already set tp %p, overwriting with %p
+Error setting nice value for thread %s: %s
+Setting affinity for "%s" Module to cpu/core %u, thread id %lu
+Warning: sched_setaffinity failed (%d): %s
+ERROR; return code from pthread_create() is %d
+Warning: thread restarts exceeded threshhold limit for thread"%s"
+Fatal error encountered in TmThreadInitMC. Exiting...
+Error initializing the tv->m mutex
+Error initializing the tv->cond condition variable
+ERROR: failed to setup a thread.
+thread "%s" failed to initialize.
+thread "%s" closed on initialization.
+all %u packet processing threads, %u management threads initialized, engine started.
+TmThreadsCheckFlag
+TmThreadsSetFlag
+TmThreadsUnsetFlag
+TmThreadSetSlots
+TmVarSlotSetFuncAppend
+TmThreadSetPrio
+TmThreadSetupOptions
+TmThreadCreate
+TmThreadInitMC
+TmThreadRestartThread
+TmThreadWaitOnThreadInit
+tmqh-packetpool.c
+Error registering Packet pool handler (at ring buffer init)
+TmqhPacketpoolRegister
+tmqh-flow.c
+TmqhOutputFlowSetupCtx
+StoreQueueId
+ringbuffer_mrsw
+ringbuffer_srsw
+ringbuffer_srmw
+tmqh-ringbuffer.c
+Error allocating memory to register Ringbuffers. Exiting...
+TmqhRingBufferRegister
+alert-fastlog.c
+(%s) Alerts %lu
+fast.log
+ERROR: failed to open %s: %s
+[Xref => %s%s]
+AlertFastLog
+fast
+AlertFastLogIPv4
+AlertFastLogIPv6
+] [pcap file packet: %lu]
+Fast log output initialized, filename: %s
+%02d/%02d/%02d-%02d:%02d:%02d.%06u
+%s  [**] [%u:%u:%u] %s [**] [Classification: %s] [Priority: %u] {%u} %s:%u -> %s:%u
+%s  [**] [%u:%u:%u] %s [**] [Classification: %s] [Priority: %u] [**] [Raw pkt: 
+AlertFastLogThreadInit
+AlertFastLogExitPrintStats
+AlertFastLogInitCtx
+AlertFastLogOpenFileCtx
+alert-debuglog.c
+PKTVAR:            %s
+FLOWVAR idx(%u):    
+FLOWVAR idx(%u):    %u"
+FLOWBIT:           %s
+AlertDebugLog
+alert-debug
+TRUE
+FALSE
++================
+TIME:              %s
+PCAP PKT NUM:      %lu
+ALERT CNT:         %u
+ALERT MSG [%02d]:    %s
+ALERT GID [%02d]:    %u
+ALERT SID [%02d]:    %u
+ALERT REV [%02d]:    %u
+ALERT CLASS [%02d]:  %s
+ALERT PRIO [%02d]:   %u
+SRC IP:            %s
+DST IP:            %s
+PROTO:             %u
+SRC PORT:          %u
+DST PORT:          %u
+TCP SEQ:           %u
+TCP ACK:           %u
+FLOW Start TS:     %s
+FLOW PKTS TODST:   %u
+FLOW PKTS TOSRC:   %u
+FLOW Total Bytes:  %lu
+PACKET LEN:        %u
+PACKET:
+alert-debug.log
+FLOW:              to_server: %s, to_client: %s
+FLOW IPONLY SET:   TOSERVER: %s, TOCLIENT: %s
+FLOW ACTION:       DROP: %s, PASS %s
+FLOW NOINSPECTION: PACKET: %s, PAYLOAD: %s, APP_LAYER: %s
+FLOW APP_LAYER:    DETECTED: %s, PROTO %u
+%s  [**] [%u:%u:%u] %s [**] [Classification: fixme] [Priority: %u] {%u} %s:%u -> %s:%u
+AlertDebugLogThreadInit
+AlertDebugLogExitPrintStats
+AlertDebugLogInitCtx
+AlertDebugLogOpenFileCtx
+NIDS
+alert-prelude.c
+Unable to allocate memory
+%u:%u
+Snort Signature ID
+snort_rule_sid
+snort_rule_rev
+ip_ver
+ip_hlen
+ip_tos
+ip_len
+ip_id
+ip_off
+ip_ttl
+ip_sum
+tcp_seq
+tcp_ack
+tcp_off
+tcp_res
+tcp_flags
+tcp_win
+tcp_sum
+tcp_urp
+udp_len
+udp_sum
+icmp_type
+icmp_code
+icmp_sum
+payload
+AlertPrelude
+alert-prelude
+unable to initialize the prelude library
+Unable to create a prelude client object
+http://www.openinfosecfoundation.org/
+Unable to start prelude client
+http://www.snort.org/search/sid/%u
+http://www.snort.org/search/sid/%u-%u
+AlertPreludeThreadInit
+AlertPreludeInitCtx
+alert-unified-log.c
+AlertUnifiedLog
+unified-log
+fwrite failed: ret = %d, %s
+%s/%s.%u
+unified.log
+Couldn't create new file_ctx
+Alert unified1 log module wrote %lu alerts
+Target file has not been opened, check the write permission
+The Unified1 module detected a 64-bit system. For Barnyard 0.2.0 to work correctly, it needs to be patched. Patch can be found here: https://redmine.openinfosecfoundation.org/attachments/download/184/barnyard.64bit.diff
+Error: AlertUnifiedLogWriteFileHeader failed.
+Fail to initialize unified log output, invalid limit: %s
+Fail to initialize unified log output, limit less than allowed minimum.
+Unified-log initialized: filename %s, limit %u MB
+Error: AlertUnifiedLogCloseFile failed
+Error: AlertUnifiedLogOpenFileCtx, open new log file failed
+TmModuleAlertUnifiedLogRegister
+AlertUnifiedLogWriteFileHeader
+AlertUnifiedLog
+AlertUnifiedLogThreadInit
+AlertUnifiedLogThreadDeinit
+AlertUnifiedLogInitCtx
+AlertUnifiedLogOpenFileCtx
+alert-unified-alert.c
+file pointer is NULL
+AlertUnifiedAlert
+unified-alert
+unified.alert
+Error: fwrite failed: %s
+Alert unified1 alert module wrote %lu alerts
+Error: fwrite failed: ret = %d, %s
+Error: AlertUnifiedLogWriteFileHeader failed
+AlertUnifiedAlertInitCtx: Couldn't create new file_ctx
+Fail to initialize unified alert output, invalid limit: %s
+Fail to initialize unified alert output, limit less than allowed minimum.
+Unified-alert initialized: filename %s, limit %u MB
+Error: AlertUnifiedAlertCloseFile failed
+Error: AlertUnifiedLogAppendFile, write unified header failed
+AlertUnifiedAlertWriteFileHeader
+AlertUnifiedAlertRotateFile
+AlertUnifiedAlert
+AlertUnifiedAlertThreadInit
+AlertUnifiedAlertThreadDeinit
+AlertUnifiedAlertInitCtx
+AlertUnifiedAlertOpenFileCtx
+alert-unified2-alert.c
+Unified2Alert
+unified2-alert
+unified2.alert
+Alert unified2 module wrote %lu alerts
+len is too big for thread data: %d vs %d
+Unified2AlertInitCtx: Couldn't create new file_ctx
+Fail to initialize unified2 output, invalid limit: %s
+Fail to initialize unified2 output, limit less than allowed minimum.
+Unified2-alert initialized: filename %s, limit %u MB
+Error: Unified2AlertCloseFile failed
+Error: Unified2AlertOpenFileCtx, open new log file failed
+Unified2AlertRotateFile
+Unified2PacketTypeAlert
+Unified2IPv6TypeAlert
+Unified2IPv4TypeAlert
+Unified2AlertThreadInit
+Unified2AlertThreadDeinit
+Unified2AlertInitCtx
+Unified2AlertOpenFileCtx
+log-httplog.c
+(%s) HTTP requests %u
+<hostname unknown>
+ [**] 
+user-agent
+<useragent unknown>
+ [**] %s:%u -> %s:%u
+LogHttpLog
+http-log
+LogHttpLogIPv4
+LogHttpLogIPv6
+http.log
+LogHttpLogInitCtx: Couldn't create new file_ctx
+LogHttpLogThreadInit
+LogHttpLogExitPrintStats
+LogHttpLogInitCtx
+LogHttpLogOpenFileCtx
+stream.c
+StreamMsgAlloc
+StreamMsgQueueGetNew
+stream-tcp.c
+(%s) Packets %lu
+tcp.sessions
+tcp.ssn_memcap_drop
+disabled
+stream.max_sessions
+stream "max_sessions": %u
+stream.prealloc_sessions
+stream.memcap
+stream "memcap": %u
+stream.midstream
+stream.async_oneside
+stream "async_oneside": %s
+stream.reassembly.memcap
+stream.reassembly.depth
+stream.checksum_validation
+stream.reassembly "depth": %u
+ssn_pool is not initialized
+ssn_pool is NULL
+stream "prealloc_sessions": %u
+stream "midstream" session pickups: %s
+stream.reassembly "memcap": %u
+Max memuse of stream engine %u (in use %u)
+!(p->flow->protoctx != ((void *)0))
+StreamTcpSessionPoolAlloc
+StreamTcpInitConfig
+StreamTcpFreeConfig
+StreamTcpPacketStateNone
+StreamTcpThreadInit
+StreamTcpExitPrintStats
+stream-tcp-reassemble.c
+!(smsg->flow == ((void *)0))
+!(seg->prev != ((void *)0))
+!(size > stream_reassembly_memuse)
+Max memuse of the stream reassembly engine %u (in use %u)
+!(((len + dst_pos) - 1) > dst_seg->payload_len)
+!(payload_offset > seg->payload_len)
+!((payload_len + payload_offset) > seg->payload_len)
+!(copy_size > sizeof(smsg->data.data))
+StreamTcpReassembleDecrMemuse
+TcpSegmentPoolAlloc
+StreamTcpReassembleFree
+StreamTcpReassembleInitThreadCtx
+StreamTcpReassembleHandleSegmentUpdateACK
+StreamTcpSetupMsg
+StreamTcpReassembleProcessAppLayer
+StreamTcpSegmentDataReplace
+respond-reject-libnet11.c
+libnet_inint failed: %s
+libnet_build_tcp %s
+libnet_build_ipv4 %s
+libnet_write failed: %s
+reset not src or dst returning
+libnet_build_icmpv4_unreach %s
+libnet_write_raw_ipv4 failed: %s
+RejectSendLibnet11L3IPv4TCP
+RejectSendLibnet11L3IPv4ICMP
+conf.c
+%s.%s = %s
+true
+ERROR: Failed to allocate memory for root configuration node, aborting.
+ConfInit
+ConfNodeNew
+ConfGetNode
+ConfSet
+ConfNodeDump
+Failed to parse configuration file at line %zu: %s
+ERROR: Invalid configuration file.
+The configuration file must begin with the following two lines:
+ERROR: Invalid YAML version.  Must be 1.1
+Failed to initialize yaml parser.
+%%YAML 1.1
+conf-yaml-loader.c
+Failed to open file: %s: %s
+ConfYamlParse
+counters.c
+stats.log
+Sprintf Error
+%d/%d/%04d -- %02d:%02d:%02d
+Value
+TM Name
+Counter
+%-25s | %-25s | %-s
+%-25s | %-25s | %-lu
+%-25s | %-25s | %-lf
+Invalid Timebased interval
+SCPerfWakeupThread
+SCPerfMgmtThread
+Perf Counter API not initSCPerfInitCounterApi() has to be called first
+Fatal error encountered in SCPerfInitOPCtx. Exiting...
+Error retrieving Perf Counter API output file path
+fopen error opening file "%s".  Resorting to using the standard output for output
+error initializing pctmi mutex
+-------------------------------------------------------------------
+Counters of type %d can't be registered
+^(?:(\d+)([shm]))(?:(\d+)([shm]))?(?:(\d+)([shm]))?$
+SCPerfParseTBCounterInterval:pcre_get_substring failed
+Invalid timebased counter interval
+TmThreadCreateMgmtThread failed
+TmThreadSpawn failed for SCPerfWakeupThread
+SCPerfInitOPCtx
+SCPerfGetLogFilename
+SCPerfSpawnThreads
+SCPerfMgmtThread
+SCPerfWakeupThread
+SCPerfRegisterQualifiedCounter
+SCPerfParseTBCounterInterval
+SCPerfAddToClubbedTMTable
+SCPerfGetCounterArrayRange
+SCPerfOutputCounterFileIface
+app-layer.c
+AppLayerHandleMsg
+app-layer-detect-proto.c
+!(s->co == ((void *)0))
+GET|20|
+GET|09|
+PUT|20|
+PUT|09|
+POST|20|
+POST|09|
+HEAD|20|
+HEAD|09|
+TRACE|20|
+TRACE|09|
+OPTIONS|20|
+OPTIONS|09|
+CONNECT|20|
+CONNECT|09|
+HTTP/
+SSH-
+|01 00 02|
+|00 02|
+|01 03 00|
+|16 03 00|
+|01 03 01|
+|16 03 01|
+|01 03 02|
+|16 03 02|
+|01 03 03|
+|16 03 03|
+|2A 20|OK|20|
+1|20|capability
+EHLO 
+HELO 
+ESMTP 
+USER 
+PASS 
+PORT 
+AUTH SSL
+MSNP
+|ff|SMB
+|fe|SMB
+|04 00|
+|05 00|
+Error allocating memory. Signature not loaded. Not enough memory so.. exiting..
+AlpProtoAddSignature
+AlpProtoFinalizeGlobal
+AlpProtoFinalizeGlobal
+app-layer-parser.c
+!(r)
+Failed to store field value
+App layer "al_result_pool" is empty
+Failed to register %s al_parser_table array full
+Error occured in parsing "%s" app layer protocol, using network protocol %u, source IP address %s, destination IP address %s, src port %u and dst port %u
+Error occured in parsing "%s" app layer protocol, using network protocol %u, source IPv6 address %s, destination IPv6 address %s, src port %u and dst port %u
+Fatal error encountered in AppLayerParsersInitPostProcess. Exiting...
+AlpParseFieldBySize
+AlpStoreField
+AlpParseFieldByEOF
+AlpParseFieldByDelimiter
+AppLayerRegisterParser
+AppLayerRegisterProto
+AppLayerParserStateStoreAlloc
+AppLayerParse
+AppLayerDoParse
+AlpResultElmtPoolAlloc
+AppLayerParsersInitPostProcess
+app-layer-htp.c
+HTP state has no connp
+unknown address family, bug!
+!(htp == ((void *)0))
+MINIMAL
+IIS_4_0
+IIS_5_0
+IIS_5_1
+IIS_6_0
+IIS_7_0
+IIS_7_5
+TOMCAT_6_0
+APACHE
+APACHE_2_2
+libhtp.default-config
+personality
+libhtp.server-config
+realloc failed: %s
+http
+Outbound parser is in error state, no need to feed data to libhtp
+Error in parsing HTTP server response: [%d] [%s] [%d] %s
+Error in parsing HTTP server response
+!(hstate->connp == ((void *)0))
+Inbound parser is in error state, no need to feed data to libhtp
+Error in parsing HTTP client request: [%d] [%s] [%d] %s
+Error in parsing HTTP client request
+Error initializing HTP config tree
+Failed to create HTP default config
+LIBHTP Failed adding personality "%s", ignoring
+LIBHTP Unknown personality "%s", ignoring
+LIBHTP Ignoring unknown default config: %s
+Failed to create HTP server config rec
+Failed to create HTP server config
+LIBHTP failed to add ipv6 server %s, ignoring
+LIBHTP failed to add ipv4 server %s, ignoring
+LIBHTP Ignoring unknown server config: %s
+HtpBodyAppendChunk
+HTPCallbackRequestBodyData
+HTPHandleResponseData
+HTPHandleRequestData
+HTPHandleRequestData
+HTPStateAlloc
+HTPConfigure
+app-layer-tls.c
+tls.client.content_type
+tls.client.version
+tls.server.content_type
+tls.server.version
+tls.no_reassemble
+AlpParseFieldBySize failed, r %d
+TLSStateAlloc
+TLSParseServerRecord
+TLSParseClientRecord
+app-layer-smb.c
+SMBStateAlloc
+app-layer-smb2.c
+SMB2StateAlloc
+app-layer-dcerpc.c
+%.4lx
+[%4.4s]   %-50.50s  %s
+Accepted
+Rejected
+%s UUID [%2u] %s 
+%02x
+dcerpc
+ Major Version 0x%04x Minor Version 0x%04x
+DCERPCParseBINDCTXItem
+StubDataParser
+DCERPCStateAlloc
+app-layer-dcerpc-udp.c
+dcerpcudp
+DCERPCUDPParseHeader
+FragmentDataParser
+app-layer-ftp.c
+port
+ftp.request_command_line
+FTPStateAlloc
+FTPParseRequestCommandLine
+app-layer-ssl.c
+SSL version is not equal to 2, incorrect message!!
+Error encountered in establishing the sslv2 session
+Incorrect message type (%u) while establishing the sslv2 session
+SSLStateAlloc
+SSLParseServerRecord
+SSLParseClientRecord
+app-layer-ssh.c
+SSHStateAlloc
+SSHParseClientRecord
+SSHParseClientVersion
+SSHParseServerRecord
+SSHParseServerVersion
+defrag.c
+defrag.trackers
+defrag.timeout
+Defrag: Failed to allocate tracker.
+Defrag: Failed to add new tracker to hash table.
+Invalid address family, aborting.
+Failed to allocate packet for fragmentation re-assembly, dumping fragments.
+Failed re-assemble fragmented packet, exceeds size of packet buffer.
+Defrag: Failed to initialize hash table.
+Defrag: Failed to initialize hash table mutex.
+Defrag: Failed to initialize tracker pool.
+Defrag: Failed to initialize tracker pool mutex.
+Defrag: Failed to initialize fragment pool.
+Defrag: Failed to initialize frag pool mutex.
+defrag: Timeout less than minimum allowed value.
+defrag: Tiemout greater than maximum allowed value.
+Failed to allocate memory for the Defrag module.
+DefragGetTracker
+DefragInsertFrag
+Defrag4Reassemble
+Defrag6Reassemble
+DefragInit
+DefragContextNew
+DefragFragNew
+DefragTrackerNew
+@output.c
+Fatal error encountered in OutputRegisterModule. Exiting...
+Output module "%s" registered.
+OutputRegisterModule
+action-order
+util-action.c
+action-order, invalid action: "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, action already set: "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, you have already specified all the possible actions plus "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, the config didn't specify all of the actions. Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+ActionInitConfig
+;*3$"
+zPLR
+http://
+http://vil.nai.com/vil/dispVirus.asp?virus_k=
+http://www.whitehats.com/info/IDS
+http://cgi.nessus.org/plugins/dump.php3?id=
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=
+http://www.securityfocus.com/bid/
+suricata.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.gcc_except_table
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got
+.text

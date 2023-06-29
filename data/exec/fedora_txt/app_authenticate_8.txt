@@ -1,0 +1,106 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+strlen
+memcpy
+ast_app_separate_args
+ast_app_parse_options
+strtol
+ast_app_getdata
+strcmp
+ast_streamfile
+ast_db_get
+ast_db_del
+ast_waitstream
+fopen
+feof
+fgets
+strchr
+ast_md5_hash
+ast_cdr_setaccount
+fclose
+ast_log
+ast_answer
+__errno_location
+strerror
+__stack_chk_fail
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+auth_option_flags
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.4
+ATSubH
+AWAVI
+AUATI
+:/tYH
+[A\A]A^A_
+Authenticate requires an argument(password)
+Unable to open file '%s' for authentication: %s
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  Authenticate(password[,options[,maxdigits]]): This application asks the caller
+to enter a given password in order to continue dialplan execution. If the password
+begins with the '/' character, it is interpreted as a file which contains a list of
+valid passwords, listed 1 password per line in the file.
+  When using a database key, the value associated with the key can be anything.
+Users have three attempts to authenticate before the channel is hung up.
+  Options:
+     a - Set the channels' account code to the password that is entered
+     d - Interpret the given path as database key, not a literal file
+     m - Interpret the given path as a file which contains a list of account
+         codes and password hashes delimited with ':', listed one per line in
+         the file. When one of the passwords is matched, the channel will have
+         its account code set to the corresponding account code in the file.
+     r - Remove the database key upon successful entry (valid with 'd' only)
+     maxdigits  - maximum acceptable number of digits. Stops reading after
+         maxdigits have been entered (without requiring the user to
+         press the '#' key).
+         Defaults to 0 - no limit - wait for the user press the '#' key.
+app_authenticate.c
+agent-pass
+auth-incorrect
+auth-thankyou
+vm-goodbye
+$Revision: 153710 $
+app_authenticate
+Authentication Application
+Authenticate
+Authenticate a user
+auth_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_authenticate.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,367 @@
+/lib/ld-linux.so.2
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+readlinkat
+__strdup
+dcgettext
+__fxstatat64
+closedir
+nanosleep
+warnx
+_exit
+kill
+strspn
+strtod
+strtol
+sigqueue
+fgetc
+fgets
+__openat64_2
+calloc
+strlen
+memset
+localeconv
+warn
+strcspn
+__errno_location
+open64
+read
+ttyname
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+strcasecmp
+__strndup
+opendir
+__libc_current_sigrtmax
+__ctype_b_loc
+getenv
+sscanf
+stderr
+ioctl
+__snprintf_chk
+getuid
+strncasecmp
+fwrite
+__fpending
+strchr
+program_invocation_short_name
+fdopen
+readdir64
+__cxa_finalize
+__libc_current_sigrtmin
+__sprintf_chk
+errx
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+dirfd
+ferror
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.7
+GLIBC_2.0
+GLIBC_2.3.4
+GLIBC_2.1
+D$\1
+:-u5
+t$H1
+;D$H
+T$\e3
+[^_]
+|$<vtq
+|$<Vup
+|$<hu
+|$<a
+|$<lu
+|$<LtU
+T$$tR
+|$<p
+9|$$
+|$<s
+D$,1
+|$<q
+d$ [^_
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+[^_]
+[^_]
+[^_]
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+8 tH
+[^_]
+UWVS
+t$Te
+D$,1
+L$(9
+T$,e3
+d$<[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$d9F
+T$L9
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+d$ [^_
+UWVS
+d$,[1
+d$,[^_]
+d$([
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+%2d %-8s
+ RT<N> RTMIN+<N> RTMAX-<N>
+RTMIN
+RTMAX
+sending signal %d to pid %d
+sending signal to %s failed
+RT%d
+min+
+max-
+write error
+/usr/share/locale
+util-linux
+--version
+%s from %s
+util-linux 2.27
+--help
+Usage:
+Options:
+For more details see %s.
+kill(1)
+--verbose
+--all
+--list
+too many arguments
+unknown signal: %s
+--list=
+--table
+--pid
+--signal
+--queue
+not enough arguments
+argument error
+cannot find process "%s"
+QUIT
+TRAP
+ABRT
+KILL
+USR1
+SEGV
+USR2
+PIPE
+TERM
+STKFLT
+CHLD
+CONT
+STOP
+TSTP
+TTIN
+TTOU
+XCPU
+XFSZ
+VTALRM
+PROF
+WINCH
+POLL
+UNUSED
+use of 'kill --pid' option as command name is deprecated
+ %s [options] <pid>|<name>...
+Forcibly terminate a process.
+ -a, --all              do not restrict the name-to-pid conversion to processes
+                          with the same uid as the present process
+ -s, --signal <signal>  send this <signal> instead of SIGTERM
+ -q, --queue <value>    use sigqueue(2), not kill(2), and pass <value> as data
+ -p, --pid              print pids without signaling them
+ -l, --list[=<signal>]  list signal names, or convert a signal number to a name
+ -L, --table            list signal names and numbers
+     --verbose          print pids that will be signaled
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+%s and %s are mutually exclusive
+unknown signal %s; valid signals:
+option '%s' requires an argument
+invalid signal name or number: %s
+/proc/%d/task/
+/proc/%d/cmdline
+/proc
+%s/stat
+%*d (%255[^)])
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+$tICOLUMNS
+/dev/
+;*2$"0
+kill.debug
+7zXZ
+k>HJ
+I~|p W
+f>6m
+T'LX
+D@	]
+J&CmT
+3}[Z
+2Xux
+WwO*
+qR~3
+%u*b
+98GG
+/|Xg
+u):O
+rhS/
+tM>J
+"yq1G
+CyS:}
+dEYEZS
+p~5#
+]l0q
+dP 97*
+N0?et
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

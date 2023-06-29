@@ -1,0 +1,402 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+curl_easy_cleanup
+xmlNodeListGetString
+__errno_location
+strtod
+xmlFree
+plugin_log
+strtoll
+xmlXPathEvalExpression
+xmlStrcmp
+xmlXPathFreeObject
+interval_g
+hostname_g
+sstrncpy
+replace_special
+plugin_dispatch_values
+__stack_chk_fail
+strcmp
+memcpy
+realloc
+strdup
+strcasecmp
+free
+curl_easy_init
+curl_easy_setopt
+xmlXPathNewContext
+ssnprintf
+__assert_fail
+xmlXPathFreeContext
+curl_easy_perform
+strlen
+xmlParseMemory
+xmlGetProp
+strptime
+mktime
+xmlFreeDoc
+module_register
+plugin_register_complex_config
+plugin_register_init
+plugin_register_read
+plugin_register_shutdown
+libcurl.so.4
+libxml2.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+bind.so
+LIBXML2_2.4.30
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+5*? 
+%,? 
+%*? 
+%"? 
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+ATSubH
+%<4 
+[A\]
+=e= 
+H;l$
+$txA
+\$ H
+l$(L
+d$0H
+fff.
+H;\$
+l$ L
+d$(L
+l$0H
+AVAUATUH
+8[]A\A]A^A_
+T$ H
+fffff.
+localhosSH
+|$@H
+t$,H
+577 
+L$ H
+D$4t
+|$lH
+[]A\A]
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+,3H;-
+l$ L
+t$(L
+|$0H
+=e7 
+=o7 
+AVAUI
+ATUSH
+0E9e(
+K(E1
+D$(H
+T$8H
+D$$;C(
+t$(H
+5!2 
+E9e(
+H[]A\A]A^A_
+t$0H
+t$8H
+[]A\A]A^A_
+=j/ 
+fff.
+AWAVE
+AUATUH
+([]A\A]A^A_
+fff.
+AVAUATUH
+-~. 
+L;%3. 
+E E1
+\$ I
+l$(H
+l$(H
+\$ M
+D$pH
+T$@H
+D$PI
+D$8H
+t$@H
+[]A\A]A^A_
+|$0E1
+|$pH
+|$`H
+D$h1
+L$8H
+T$`H
+|$pH
+T$@H
+|$PH
+L$8H
+T$@H
+|$pH
+|$`H
+D$h1
+L$8H
+T$`H
+AWAVAUATUSH
+=8( 
+t$ H
+T$(H
+D$ H
+d$@1
+D$ H
+D$ H
+=x& 
+=f& 
+D$0H
+[]A\A]A^A_
+D$ H
+5`$ 
+L$ H
+=Y% 
+t$ H
+T$(A
+D$ H
+D$ H
+L$ H
+L$ H
+L$ H
+D$0H
+D$0H
+bind plugin: bind_xml_read_gauge: xmlNodeListGetString failed.
+bind plugin: bind_xml_read_gauge: strtod failed with underflow.
+bind plugin: bind_xml_read_gauge: strtod failed with overflow.
+bind plugin: bind_xml_read_gauge: strtod failed.
+bind plugin: bind_xml_read_counter: xmlNodeListGetString failed.
+bind plugin: bind_xml_read_counter: strtoll failed with underflow.
+bind plugin: bind_xml_read_counter: strtoll failed with overflow.
+bind plugin: bind_xml_read_counter: strtoll failed.
+bind plugin: Unable to evaluate XPath expression `%s'.
+bind plugin: The `%s' option needs exactly one boolean argument.
+bind plugin: The `Url' option needs exactly one string argument.
+bind plugin: `View' blocks need exactly one string argument.
+bind plugin: The `Zone' option needs exactly one string argument.
+bind plugin: Unknown configuration option `%s' in view `%s' will be ignored.
+bind plugin: Unknown configuration option `%s' will be ignored.
+bind plugin: bind_init: curl_easy_init failed.
+bind plugin: xmlXPathEvalExpression failed.
+bind plugin: xmlXPathNewContext failed.
+bind plugin: Cannot find any <view> tags.
+bind plugin: Could not determine view name.
+bind plugin: Could not determine zone name.
+bind plugin: I don't have a CURL object.
+bind plugin: curl_easy_perform failed: %s
+bind plugin: xmlParseMemory failed.
+bind plugin: Cannot find the <statistics> tag.
+bind plugin: Found <statistics> tag doesn't have a `version' attribute.
+bind plugin: Found <statistics> tag with version `%s'. Unfortunately I have no clue how to parse that. Please open a bug report for this.
+bind plugin: Evaluating the XPath expression `%s' returned %i nodes. Only handling the first one.
+bind plugin: bind_xml_read_timestamp: node->xmlChildrenNode == NULL
+bind plugin: bind_xml_read_timestamp: xmlNodeListGetString failed.
+bind plugin: bind_xml_read_timestamp: strptime failed.
+bind plugin: Reading `server/current-time' failed.
+name
+counter
+bind
+bind plugin: realloc failed.
+OpCodes
+QTypes
+ServerStats
+ZoneMaintStats
+ResolverStats
+MemoryStats
+View
+bind plugin: strdup failed.
+CacheRRSets
+Zone
+http://localhost:8053/
+collectd/4.10.3
+dns_qtype_gauge
+%s-qtypes
+%s-resolver_stats
+%s-cache_rr_sets
+cache/rrset
+zones/zone
+bind.c
+node != ((void *)0)
+%s-zone-%s
+counters
+/isc/bind/statistics
+version
+server/current-time
+%Y-%m-%dT%T
+global-opcodes
+dns_opcode
+server/requests/opcode
+global-qtypes
+dns_qtype
+server/queries-in/rdtype
+global-server_stats
+server/nsstats
+server/nsstat
+global-zone_maint_stats
+server/zonestats
+server/zonestat
+global-resolver_stats
+server/resstats
+server/resstat
+global-memory_stats
+memory/summary
+views/view
+Requestv4
+dns_request
+Requestv6
+ReqEdns0
+ReqBadEDNSVer
+ReqTSIG
+ReqSIG0
+ReqBadSIG
+ReqTCP
+AuthQryRej
+dns_reject
+authorative
+RecQryRej
+recursive
+XfrRej
+UpdateRej
+update
+Response
+dns_response
+normal
+TruncatedResp
+truncated
+RespEDNS0
+RespTSIG
+RespSIG0
+QryAuthAns
+dns_query
+QryNoauthAns
+nonauth
+QryReferral
+referral
+QryRecursion
+recursion
+QryDuplicate
+dupliate
+QryDropped
+dropped
+QryFailure
+failure
+QrySuccess
+dns_rcode
+tx-NOERROR
+QryNxrrset
+tx-NXRRSET
+QrySERVFAIL
+tx-SERVFAIL
+QryFORMERR
+tx-FORMERR
+QryNXDOMAIN
+tx-NXDOMAIN
+NotifyOutv4
+dns_notify
+tx-IPv4
+NotifyOutv6
+tx-IPv6
+NotifyInv4
+rx-IPv4
+NotifyInv6
+rx-IPv6
+NotifyRej
+rejected
+SOAOutv4
+SOA-IPv4
+SOAOutv6
+SOA-IPv6
+AXFRReqv4
+AXFR-IPv4
+AXFRReqv6
+AXFR-IPv6
+IXFRReqv4
+IXFR-IPv4
+IXFRReqv6
+IXFR-IPv6
+XfrSuccess
+dns_transfer
+success
+XfrFail
+Queryv4
+Queryv6
+Responsev4
+Responsev6
+rx-NXDOMAIN
+rx-SERVFAIL
+rx-FORMERR
+OtherError
+rx-OTHER
+rx-EDNS0Fail
+Mismatch
+mismatch
+Truncated
+Lame
+lame
+Retry
+retry
+ValAttempt
+dns_resolver
+DNSSEC-attempt
+ValOk
+DNSSEC-okay
+ValNegOk
+DNSSEC-negokay
+ValFail
+DNSSEC-fail
+TotalUse
+memory
+InUse
+BlockSize
+ContextSize
+Lost
+bind_xml
+bind_xml_stats_search_views
+bind_xml_stats_search_zones
+;*3$"
+bind.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

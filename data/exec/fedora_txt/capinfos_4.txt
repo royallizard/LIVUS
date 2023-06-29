@@ -1,0 +1,348 @@
+/lib64/ld-linux-x86-64.so.2
+libwiretap.so.4
+g_free
+__gmon_start__
+_Jv_RegisterClasses
+g_strdup
+g_malloc
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+g_snprintf
+g_strerror
+g_log
+g_strlcpy
+wtap_file_type_subtype
+wtap_phdr
+wtap_open_offline
+wtap_iscompressed
+wtap_get_num_encap_types
+wtap_close
+register_all_wiretap_modules
+wtap_encap_string
+wtap_read
+init_open_routines
+wtap_file_type_subtype_string
+wtap_file_encap
+wtap_strerror
+wtap_file_size
+wtap_register_plugin_types
+wtap_file_get_shb_info
+wtap_snapshot_length
+libwsutil.so.4
+init_process_policies
+init_progfile_dir
+nstime_to_sec
+scan_plugins
+format_size
+init_report_err
+libglib-2.0.so.0
+g_malloc0_n
+libgcrypt.so.20
+gcry_md_ctl
+gcry_md_enable
+gcry_check_version
+gcry_md_read
+gcry_md_reset
+gcry_md_write
+gcry_md_open
+libpthread.so.0
+libc.so.6
+__printf_chk
+exit
+_IO_putc
+setlocale
+fopen
+optind
+puts
+__stack_chk_fail
+putchar
+getopt
+__fprintf_chk
+ctime
+stdout
+fputc
+fclose
+stderr
+fwrite
+fread
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+_IO_stdin_used
+__data_start
+__libc_csu_init
+GCRYPT_1.6
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5RJ 
+%TJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+%zI 
+%rI 
+%jI 
+%bI 
+%ZI 
+%RI 
+%JI 
+%BI 
+%:I 
+%2I 
+%*I 
+%"I 
+AWAVAUATUSH
+|$DH
+t$HH
+|$DH
+=_G 
+=7G 
+=uF 
+D$D+
+=xD 
+9D$D
+D$`H
+D$XH
+D$hf.
+=RE 
+HcD$@H
+\$HH
+L$`H
+T$XE1
+D$@9
+L$$9
+D$$L
+L$x9
+t$8f
+]l$0
+.D$(
+D$PH
+= B 
+IcV H
+D$@9D$D
+[]A\A]A^A_
+d$pu 
+T$PH
+=78 
+-^7 
+L$PH
+=04 
+='3 
+="4 
+5D1 
+5|0 
+5h0 
+=)1 
+5N. 
+5:. 
+5&. 
+5l- 
+5N- 
+5:- 
+5 - 
+5v, 
+5b, 
+5N, 
+5:, 
+5&, 
+5r+ 
+5^+ 
+5J+ 
+56+ 
+5"+ 
+5n* 
+5Z* 
+5$) 
+5x( 
+5d( 
+5P( 
+=}& 
+=l& 
+=[& 
+=J& 
+=9& 
+=(& 
+=y$ 
+fffff.
+=9$ 
+52$ 
+fffff.
+=)$ 
+fffff.
+AUATUSH
+[]A\A]
+dH3<%(
+AWAVA
+AUATL
+[]A\A]A^A_
+%02x
+1.12.7
+General infos:
+Size infos:
+Time infos:
+Statistic infos:
+Output format:
+  -T generate table report
+Table report options:
+Miscellaneous:
+output format.
+%s%.*f%s
+%sn/a
+%lu%s
+Not representable%s
+n/a%s
+ (gzip compressed)
+True
+False
+Unknown
+File name
+File type
+File encapsulation
+Packet size limit
+Number of packets
+File size (bytes)
+Data size (bytes)
+Capture duration (seconds)
+Start time
+End time
+Data byte rate (bytes/sec)
+Data bit rate (bits/sec)
+Average packet size (bytes)
+SHA1
+RIPEMD160
+Strict time order
+Capture comment
+<unknown>
+capinfos: Can't open %s: %s
+(%s)
+File name:           %s
+File type:           %s%s
+File encapsulation:  %s
+                       %s
+Number of packets:   
+File size:           
+%ld bytes
+Data size:           
+%lu bytes
+ seconds
+Capture duration:    
+Start time:          %s
+End time:            %s
+Data byte rate:      
+ bytes/sec
+Data bit rate:       
+ bits/sec
+Average packet rate: 
+ packets/sec
+%spackets/sec
+SHA1:                %s
+RIPEMD160:           %s
+MD5:                 %s
+Strict time order:   %s
+Capture comment:     %s
+(not set)
+%.2f
+Capinfos %s (Git Rev Unknown from unknown)
+Prints various information (infos) about capture files.
+See http://www.wireshark.org for more information.
+Usage: capinfos [options] <infile> ...
+  -t display the capture file type
+  -E display the capture file encapsulation
+  -H display the SHA1, RMD160, and MD5 hashes of the file
+  -k display the capture comment
+  -c display the number of packets
+  -s display the size of the file (in bytes)
+  -d display the total length of all packets (in bytes)
+  -l display the packet size limit (snapshot length)
+  -u display the capture duration (in seconds)
+  -a display the capture start time
+  -e display the capture end time
+  -o display the capture file chronological status (True/False)
+  -S display start and end times as seconds
+  -y display average data rate (in bytes/sec)
+  -i display average data rate (in bits/sec)
+  -z display average packet size (in bytes)
+  -x display average packet rate (in packets/sec)
+  -L generate long report (default)
+  -M display machine-readable values in long reports
+  -R generate header record (default)
+  -r do not generate header record
+  -B separate infos with TAB character (default)
+  -m separate infos with comma (,) character
+  -b separate infos with SPACE character
+  -N do not quote infos (default)
+  -q quote infos with single quotes (')
+  -Q quote infos with double quotes (")
+  -h display this help and exit
+  -C cancel processing if file open fails (default is to continue)
+  -A generate all infos (default)
+Options are processed from left to right order with later options superceding
+or adding to earlier options.
+If no options are given the default is to display all infos in long report
+capinfos: init_progfile_dir(): %s
+tEcsHdluaeyizvhxokCALTMRrSNqQBmb
+Packet size limit min (inferred)
+Packet size limit max (inferred)
+Average packet rate (packets/sec)
+capinfos: Unknown per-packet encapsulation: %d [frame number: %d]
+capinfos: An error occurred after reading %u packets from "%s": %s.
+  (will continue anyway, checksums might be incorrect)
+capinfos: Can't get size of "%s": %s.
+Packet size limit:   file hdr: %u bytes
+Packet size limit:   file hdr: (not set)
+Packet size limit:   inferred: %u bytes
+Packet size limit:   inferred: %u bytes - %u bytes (range)
+Average packet size: %.2f bytes
+;*3$"
+capinfos.debug
+7zXZ
+<@;'
+$BTI|*
+u{pe
+-! S
+jtDVs
+Td'^
+39(h
+,:lu
+9{00
+KjR<
+-jj/
+5#^.x
+"9z+t
+/:NT
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,237 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+value_area_get_width
+value_area_get_height
+value_new_error_std
+collect_floats_value
+value_get_as_float
+g_malloc0_n
+g_malloc_n
+g_free
+g_return_if_fail_warning
+value_new_array_empty
+value_new_float
+go_complex_from_polar
+go_complex_mul
+go_complex_add
+go_complex_sub
+collect_floats_value_with_info
+floor
+gnm_strip_missing
+g_slist_free
+gnm_complex_to_string
+value_new_string_nocopy
+go_range_increasing
+value_new_array_non_init
+gnm_slist_sort_merge
+g_log
+sqrt
+go_cspline_init
+go_cspline_get_integrals
+go_cspline_destroy
+go_cspline_get_value
+go_cspline_get_values
+collect_float_pairs
+value_new_error_VALUE
+g_memdup
+TimeSeriesAnalysis_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+D$l1
+D$d1
+t8Ht5
+T$le3
+|[^_]
+D$Hu
+T$H1
+9|$L
+L$09|$d
+[^_]
+l$,9l$L
+UWVS
+D$\1
+D$P1
+D$T1
+t:Ht7
+L$\e3
+l[^_]
+D$>f
+D$>f
+T$(;|$0
+D$41
+;|$(
+UWVS
+L$PA
+l$L9
+l$@@
+A;L$
+,[^_]
+,[^_]
+UWVS
+9D$(
+|$Xs
+A9L$`u
+<[^_]
+D$(1
+E9l$`t
+\$(1
+UWVS
+C;\$0to
+C;\$0u
+L[^_]
+L[^_]
+UWVS
+l$T1
+L$\9
+B9T$`u
+<[^_]
+@9D$`
+D$|1
+D$p1
+D$t1
+t$|e35
+D$^f
+|$01
+;|$(
+D$^f
+T$(9
+D$^f
+D$X;D$d
+D$H1
+|$01
+t$01
+UWVS
+L$,~
+<[^_]
+[^_]
+UWV1
+D$,~*
+E9l$`u
+<[^_]
+D$l1
+D$\1
+D$>f
+T$le3
+|[^_]
+D$\t
+D$ht
+F9t$X
+D$X1
+L$ 9t$X
+n > 5
+data != NULL
+interpolation
+AAA|f
+periodogram
+A|fAff
+fourier
+A|bb
+hpfilter
+INTERPOLATION
+PERIODOGRAM
+goffice
+gnumeric
+1.12.35
+This should not happen. n0=%d n1=%d
+HPFILTER:Hodrick Prescott Filter
+Sequence:the data sequence to be transformed
+:filter parameter 
+, defaults to 1600
+This array function returns the trend and cyclical components obtained by applying the Hodrick Prescott Filter with parameter @{
+} to the given data sequence.
+The output consists of two columns of numbers, the first containing the trend component, the second the cyclical component.
+If @{Sequence} is neither an n by 1 nor 1 by n array, this function returns #VALUE!
+If @{Sequence} contains less than 6 numerical values, this function returns #VALUE!
+FOURIER:Fourier or inverse Fourier transform
+Inverse:if true, the inverse Fourier transform is calculated, defaults to false
+Separate:if true, the real and imaginary parts are given separately, defaults to false
+This array function returns the Fourier or inverse Fourier transform of the given data sequence.
+The output consists of one column of complex numbers if @{Separate} is false and of two columns of real numbers if @{Separate} is true.
+If @{Separate} is true the first output column contains the real parts and the second column the imaginary parts.
+PERIODOGRAM:periodogram of the given data
+ordinates:ordinates of the given data
+filter:windowing function to  be used, defaults to no filter
+abscissae:abscissae of the given data, defaults to regularly spaced abscissae
+interpolation:method of interpolation, defaults to none
+number:number of interpolated data points
+If an interpolation method is used, the number of returned values is one less than the number of targets and the targets values must be given in increasing order.
+The output consists always of one column of numbers.
+Possible interpolation methods are:
+0: linear;
+1: linear with averaging;
+2: staircase;
+3: staircase with averaging;
+4: natural cubic spline;
+5: natural cubic spline with averaging.
+Possible window functions are:
+0: no filter (rectangular window)
+1: Bartlett (triangular window)
+2: Hahn (cosine window)
+3: Welch (parabolic window)
+Strings and empty cells in @{abscissae} and @{ordinates} are ignored.
+If several target data are provided they must be in the same column in consecutive cells.
+INTERPOLATION:interpolated values corresponding to the given abscissa targets
+abscissae:abscissae of the given data points
+ordinates:ordinates of the given data points
+targets:abscissae of the interpolated data
+interpolation:method of interpolation, defaults to 0 ('linear')
+The @{abscissae} should be given in increasing order. If the @{abscissae} is not in increasing order the INTERPOLATION function is significantly slower.
+If any two @{abscissae} values are equal an error is returned.
+If any of interpolation methods 1 ('linear with averaging'), 3 ('staircase with averaging'), and 5 ('natural cubic spline with averaging') is used, the number of returned values is one less than the number of targets and the target values must be given in increasing order. The values returned are the average heights of the interpolation function on the intervals determined by consecutive target values.
+=interpolation(array(1,2,3),array(10,20,20),1.5,0)
+=interpolation(array(1,2,3),array(10,20,20),array(1.5,4),1)
+gnm_hpfilter
+munG
+;*2$"
+plugin.so-1.12.35-3.fc27.i386.debug
+7zXZ
+y6v%
+=Jdn
+xg{$
+H]	a(xFp7
+pCK7
+Rt2=k
+lw:v
+aZTA
+YG&i
+S`t7
+?Kc8
+}[K(0
+Z!`*f
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

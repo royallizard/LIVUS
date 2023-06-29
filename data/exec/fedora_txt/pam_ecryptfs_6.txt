@@ -1,0 +1,197 @@
+FN)h\
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+free
+__asprintf_chk
+__xstat64
+__errno_location
+setuid
+ecryptfs_wrap_passphrase_file
+__syslog_chk
+pam_get_user
+getpwnam
+fork
+clearenv
+initgroups
+setresuid
+execl
+_exit
+waitpid
+unlink
+symlink
+open64
+close
+pam_sm_authenticate
+calloc
+ecryptfs_fetch_private_mnt
+ecryptfs_private_is_mounted
+pam_get_item
+__strdup
+ecryptfs_read_salt_hex_from_rc
+from_hex
+pam_set_data
+pam_strerror
+pam_prompt
+memcmp
+pam_sm_setcred
+pam_sm_open_session
+sysconf
+malloc
+pam_get_data
+geteuid
+getegid
+getgroups
+setegid
+setgroups
+seteuid
+setgid
+ecryptfs_validate_keyring
+__ecryptfs_detect_wrapped_passphrase_file_version
+ecryptfs_insert_wrapped_passphrase_into_keyring
+ecryptfs_add_passphrase_key_to_keyring
+ecryptfs_unwrap_passphrase
+ecryptfs_wrap_passphrase
+pam_sm_close_session
+pam_sm_chauthtok
+libecryptfs.so.1
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+libkeyutils.so.1
+libpam.so.0
+libtspi.so.1
+libpam_misc.so.0
+libdl.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+pam_ecryptfs.so
+LIBPAM_EXTENSION_1.0
+LIBPAM_1.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.2
+GLIBC_2.0
+L$T9
+[^_]
+L$,t
+D$\%
+[^_]
+UWVS
+t$pe
+D$L1
+L$Le3
+d$\[^_]
+[^_]
+[^_]
+%s/.ecryptfs/%s
+/dev/shm/.ecryptfs-%s
+auto-mount
+auto-umount
+Private
+%s/.ecryptfs/%s.sig
+/sbin/mount.ecryptfs_private
+/sbin/umount.ecryptfs_private
+wrapping-independent
+Encryption passphrase: 
+0011223344556677
+ecryptfs:passphrase
+ecryptfs: %s: Out of memory
+wrapped-passphrase
+ecryptfs: %s: pam_ecryptfs: Unable to allocate memory
+ecryptfs: %s: pam_ecryptfs: Error wrapping cleartext password; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: Error getting passwd info for user [%s]; rc = [%ld]
+ecryptfs: %s: pam_ecryptfs: Error allocating memory for autofile name
+ecryptfs: %s: pam_ecryptfs: Error allocating memory for sigfile name
+ecryptfs: %s: pam_ecryptfs: Error setting up private mount
+%s/.ecryptfs/.wrapped-passphrase.recorded
+ecryptfs: %s: pam_ecryptfs: Error allocating memory for recorded name
+/usr/share/ecryptfs-utils/ecryptfs-record-passphrase
+/var/lib/update-notifier/user.d/ecryptfs-record-passphrase
+/var/lib/update-notifier/dpkg-run-stamp
+ecryptfs: %s: pam_ecryptfs: Skipping automatic eCryptfs mount
+ecryptfs: %s: Unable to set user's groups : %m
+ecryptfs: %s: unable to execute mount.ecryptfs_private : %m
+ecryptfs: %s: pam_ecryptfs: Skipping automatic eCryptfs unmount
+ecryptfs: %s: unable to execute umount.ecryptfs_private : %m
+ecryptfs: %s: Memory allocation failed
+ecryptfs: %s: pam_ecryptfs: Error getting passwd info for user; rc = [%ld]
+ecryptfs: %s: pam_ecryptfs: %s: %s is already mounted
+ecryptfs: %s: pam_ecryptfs: Error retrieving passphrase; rc = [%ld]
+ecryptfs: %s: Unable to store ecryptfs pam data : %s
+ecryptfs: %s: Unable to get ecryptfs pam data : %s
+ecryptfs: %s: pam_ecryptfs: geteuid error
+ecryptfs: %s: pam_ecryptfs: seteuid error
+ecryptfs: %s: NULL passphrase; aborting
+ecryptfs: %s: Cannot validate keyring integrity
+ecryptfs: %s: Unable to allocate memory
+ecryptfs: %s: Passphrase file wrapped
+ecryptfs: %s: pam_ecryptfs: Unable to rewrap passphrase file
+ecryptfs: %s: Error adding passphrase key token to user session keyring; rc = [%d]
+ecryptfs: %s: waitpid() returned with error condition
+ecryptfs: %s: pam_ecryptfs: Error getting passwd info for user [%s]; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: Error retrieving old passphrase; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: PAM passphrase change module retrieved a NULL passphrase; nothing to do
+ecryptfs: %s: pam_ecryptfs: Error retrieving new passphrase; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: Passphrase file wrapped
+ecryptfs: %s: pam_ecryptfs: PAM passphrase change module retrieved at least one NULL passphrase; nothing to do
+ecryptfs: %s: pam_ecryptfs: Error attempting to unwrap passphrase; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: Error attempting to wrap passphrase; rc = [%d]
+ecryptfs: %s: pam_ecryptfs: waitpid() returned with error condition
+unwrap
+pam_sm_chauthtok
+fetch_pwd
+private_dir
+wrap_passphrase_if_necessary
+fill_keyring
+pam_sm_authenticate
+;*2$"(
+pam_ecryptfs.so.debug
+7zXZ
+T!+o
+|]jWx
+;3|S
+tE:m&
+Hx3z
+u!~\ex=
+:tiW
+J2[u	k
+O,O,;!
+$>rY5
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

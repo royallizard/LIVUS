@@ -1,0 +1,537 @@
+/lib/ld-linux.so.2
+libatalk.so.15
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+ad_convert
+cnid_add
+ad_setname
+cnid_update
+make_log_entry
+afp_config_parse
+ea_path
+strlcpy
+cnid_lookup
+strlcat
+cnid_wipe
+load_charset
+cnid_open
+ad_setid
+cnid_close
+ea_close
+ad_open
+ad_getid
+cnid_getstamp
+ad_close
+setuplog
+getvolbypath
+cnid_init
+convert_charset
+ea_open
+load_volumes
+ad_setfuid
+ad_init
+type_configs
+_fini
+ad_flush
+libwrap.so.0
+libtdb.so.1
+libdb-5.3.so
+db_strerror
+db_env_create
+db_create
+libacl.so.1
+libattr.so.1
+libmysqlclient.so.18
+libpthread.so.0
+__errno_location
+sigaction
+libz.so.1
+libm.so.6
+libssl.so.10
+libcrypto.so.10
+libdl.so.2
+libcrack.so.2
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+strncmp
+optind
+strrchr
+__longjmp_chk
+__strdup
+closedir
+fchdir
+strncpy
+puts
+unlink
+strftime
+getpwnam
+calloc
+strlen
+sigemptyset
+memset
+strstr
+rmdir
+asctime
+getopt
+_setjmp
+stdout
+fclose
+__vsnprintf_chk
+umask
+__lxstat64
+opendir
+__xstat64
+optarg
+chown
+geteuid
+__memcpy_chk
+localtime
+readdir64
+__strcpy_chk
+__cxa_finalize
+setvbuf
+fopen64
+access
+strcmp
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.2
+GLIBC_2.0
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.11
+GLIBC_2.1.3
+GLIBC_2.3.4
+d$$[^
+D$,1
+D$*	
+D$*)
+t$,e35
+d$0[^_
+UWVS
+T$,t:
+T$,	
+[^_]
+[^_]
+D$ %
+[^_]
+L$ 9
+D$$%
+[^_]
+UWVS
+T$@e
+D$H%
+[^_]
+D$H%
+D$0%
+D$0%
+D$H%
+;t$t
+L$x1
+T$L3
+D$H3
+T$(1
+D$,e
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+D$$e
+D$<1
+T$<e3
+d$L[^_]
+9|$$u
+[^_]
+[^_]
+UWVS
+[^_]
+d$ 1
+D$(e
+D$l1
+t$le35
+d$|[^_]
+L$,1
+d$ [^_
+d$0[^_
+|$De
+D$|1
+D$01
+t$|e35
+[^_]
+D$d%
+[^_]
+UWVS
+D$$e
+[^_]
+D$(1
+L$D1
+d$(1
+t$He
+L$,1
+L$,e3
+d$4[^
+D$l1
+T$(~f1
+t$le35
+d$|[^_]
+D$Xe
+[^_]
+;D$8
+T$He
+D$,1
+L$,e3
+d$0[^_
+l$Xe
+D$,1
+D$* 
+t$,e35
+d$<[^_]
+UWVS
+d$,[
+T$l1
+T$41
+t$le35
+d$|[^_]
+|$8e
+D$l%
+[^_]
+UWVS
+d$L[^_]
+d$L[
+[^_]
+d$L[^_]
+T$@e
+D$\1
+L$\e3
+d$l[^_]
+D$\1
+T$\e3
+d$l[^_]
+|$He
+D$T9F
+D$D1
+[^_]
+L$H	
+D$X9F
+D$D9T$\
+D$X9F
+;D$T
+UWVS
+L$|1
+|$D1
+t$|e35
+[^_]
+D$d%
+D$,1
+T$l1
+t$le35
+d$|[^_]
+|$De
+D$|1
+T$|e3
+[^_]
+UWVS
+[^_]
+uZ;T$
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+3.1.3
+dbd %s
+:cfF:rstu:vV
+Can't open dir: %s
+Couldn't load afp.conf
+/dev/tty
+default:note, cnid:debug
+default:note
+unknown user
+Couldn't load volumes
+Couldn't find volume for '%s'
+mysql
+adouble:ea volume
+adouble:v2 volume
+unknown adouble volume
+Failed to wipe CNID db
+Error repairing database.
+fchdir: %s
+Usage: dbd [-cfFstuvV] <path to netatalk volume>
+dbd scans all file and directories of AFP volumes, updating the
+CNID database of the volume. dbd must be run with appropiate
+permissions i.e. as root.
+Options:
+   -s scan volume: treat the volume as read only and don't
+      perform any filesystem modifications
+   -c convert from adouble:v2 to adouble:ea
+   -F location of the afp.conf config file
+   -f delete and recreate CNID database
+   -t show statistics while running
+   -u username for use with AFP volumes using user variable $u
+   -v verbose
+   -V show version info
+error in sigaction(SIGTERM): %s
+error in sigaction(SIGINT): %s
+error in sigaction(SIGABRT): %s
+error in sigaction(SIGHUP): %s
+error in sigaction(SIGQUIT): %s
+Couldn't load charsets for '%s'
+"%s" isn't a "dbd" CNID volume
+Cant initialize CNID database connection for %s
+Can't run adouble:v2 to adouble:ea conversion because not an adouble:ea volume
+Unknown Extended Attributes option: %u
+Conversion from %s to %s for %s failed.
+Access error in directory %s: %s
+Missing .AppleDouble/.Parent for '%s'
+Error creating AppleDouble dir in %s: %s
+Couldn't open the directory '%s/%s': %s
+Error unlinking EA file '%s/%s/%s': %s
+Error opening AppleDouble file for '%s/%s': %s
+Bad CNID in adouble file of '%s/%s'
+CNID from .AppleDouble file for '%s/%s': %u
+CNID mismatch for '%s/%s', CNID db: %u, ad-file: %u
+Conversion error for "%s/%s": %s
+Access error for ad-file '%s/%s': %s
+Missing AppleDouble file '%s/%s'
+Error creating AppleDouble file '%s/%s': %s
+Error opening AppleDouble file for '%s/%s'
+Lost file or dir while enumeratin dir '%s/%s/%s', probably removed: %s
+Unexpected directory '%s' in AppleDouble dir '%s/%s'
+Access error for file '%s/%s': %s
+Orphaned Extended Attribute file '%s/%s/%s'
+Error unlinking orphaned Extended Attribute file '%s/%s/%s'
+Orphaned AppleDoube file '%s/%s/%s'
+Error unlinking orphaned AppleDoube file '%s/%s/%s'
+Couldn't chdir back to '%s' from AppleDouble dir: %s
+Couldn't open the directory: %s
+Lost file while reading dir '%s/%s', probably removed: %s
+Scanned: %10llu, time: %10llu s
+Removing orphaned AppleDouble "%s/%s"
+Error calling ea_open for file: %s/%s, removing EA files
+Bogus EA: %s/%s, removing it...
+Error removing EA file '%s/%s': %s
+Cant chdir to directory '%s': %s
+Error removing adouble dir "%s/%s": %s
+Not a Unicode volume: %s, %u != %u
+.AppleDouble
+Missing %s for '%s'
+Access error on '%s/%s': %s
+Couldnt stat %s: %s
+::EA
+name too long: '%s/%s/%s'
+Couldn't chdir to '%s/%s': %s
+Removing EA file: '%s/%s/%s'
+Couldn't chdir to '%s': %s
+File without meta EA: "%s/%s"
+.AppleDB
+.Parent
+Nested %s in %s
+.zfs
+Ignoring "%s"
+Bad filetype: %s/%s
+Error removing: %s/%s: %s
+Bad AppleDouble "%s/%s"
+EA: %s
+Missing EA: %s/%s
+Bogus EA: %s/%s
+Entering directory: %s
+Cant open directory '%s': %s
+Ignoring special dir "%s"
+Conversion error for "%s": %s
+.AppleDesktop
+error opening cwd: %s
+dbif.c
+db_errlog
+error chdiring back: %s
+cnid2.db
+devino.db
+didname.db
+Running recovery
+Finished recovery.
+error closing database %s: %s
+error closing DB logfile: %s
+CNID database version %u
+error setting key/value in %s
+key not found
+Couldn't create cursor: %s
+match: CNID %u
+error stating database %s: %s
+stamp: %s
+error upgarding database: %s
+error closing database: %s
+error forcing checkpoint: %s
+Cant open database
+Truncating CNID index.
+Reindexing did/name index...
+... done.
+Reindexing dev/ino index...
+Reindexing name index...
+CNID database dump:
+%b %d %Y %H:%M:%S
+Couldn't close cursor: %s
+dev/inode index:
+%u items
+did/name index:
+error chdiring to db_env '%s': %s
+error creating/opening DB errlogfile: %s
+error starting transaction: %s
+error creating DB environment: %s
+error opening DB environment: %s
+error closing DB environment after recovery: %s
+error creating DB environment after recovery: %s
+error setting DB environment cachesize to %i: %s
+error setting DB environment maxlocks to %i: %s
+error setting DB environment max lockobjects to %i: %s
+error opening DB environment after recovery: %s
+error setting DB_AUTO_COMMIT flag: %s
+error getting list of stale logfiles: %s
+Error removing stale logfile %s: %s
+error setting DB_LOG_AUTO_REMOVE flag: %s
+error closing DB environment: %s
+Trying to remove BerkeleyDB environment
+error removing transaction logfiles: %s
+BerkeleyDB environment recovery done.
+error acquiring db_end handle: %s
+error removing BerkeleyDB environment: %s
+Removed BerkeleyDB environment.
+error retrieving value from %s: %s
+dbif_getversion: reading version info
+dbif_getversion: no version info found
+dbif_getversion: database error
+error setting key/value in %s: %s
+error deleting key/value from %s
+error deleting key/value from %s: %s
+error committing transaction: %s
+Setting CNID database version to %u
+dbif_init_rootinfo: cant commit txn
+See if we can upgrade the CNID database...
+error creating handle for database: %s
+Finished BerkeleyBD upgrade check
+error creating handle for database %s: %s
+error setting flags for database %s: %s
+error setting cachesize %u KB for database %s: %s
+error truncating database %s: %s
+Failed to associate didname database: %s
+Failed to associate devino database: %s
+Failed to associate name index: %s
+Finished CNID database version upgrade check
+Error upgrading CNID database to version %d
+error aborting transaction: %s
+Fatal error aborting transaction. Exiting!
+Fatal error committing transaction. Exiting!
+error checkpointing transaction susystem: %s
+error getting stat infotmation on database: %s
+dbif_copy_rootinfokey: Error getting rootinfo record
+dbif_copy_rootinfokey: Error writing rootinfo key
+CNID db version: %u, dbd stamp: 0x%08x (%s), next free CNID: %u
+id: %10u, did: %10u, type: %s, dev: 0x%llx, ino: 0x%016llx, name: %s
+Error iterating over btree: %s
+%u CNIDs in database. Max CNID: %u.
+id: %10u <== dev: 0x%llx, ino: 0x%016llx
+id: %10u <== did: %10u, name: %s
+RootInfo
+idxname: conversion error
+pack.c
+add_cnid: duplicate %x %s
+dbd_add.c
+dbd_add(did:%u, '%s', dev/ino:0x%llx/0x%llx) {start}
+dbd_add(did:%u, '%s', dev/ino:0x%llx/0x%llx): error in dbd_lookup
+dbd_add: dbd_lookup success --> CNID: %u
+dbd_add(did:%u, '%s', dev/ino:0x%llx/0x%llx): {adding to database ...}
+dbd_add: FATAL: CNID database has reached its limit.
+dbd_add: Failed to compute CNID for %s, error reading/updating Rootkey
+dbd_add(DID: %u/"%s", dev/ino 0x%llx/0x%llx): Cannot add CNID: %u
+dbd_add: Failed to add CNID for %s to database
+dbd_add(did:%u, '%s', dev/ino:0x%llx/0x%llx): Added with CNID: %u
+dbd_delete: Unable to delete entry for dev/ino: 0x%llx/0x%llx
+cnid_delete: deleted dev/ino: 0x%llx/0x%llx
+cnid_delete: dev/ino: 0x%llx/0x%llx not in database
+dbd_delete: Unable to delete entry for DID: %lu, name: %s
+cnid_delete: deleted DID: %lu, name: %s
+cnid_delete: DID: %lu, name: %s not in database
+dbd_delete: Unable to delete entry for CNID %u
+cnid_delete: CNID %u not in database
+dbd_delete.c
+cnid_delete: CNID %u deleted
+dbd_getstamp: Error getting rootinfo record
+dbd_getstamp: No rootinfo record found
+dbd_getstamp.c
+dbd_lookup(): START
+dbd_lookup.c
+dbd_lookup: Unable to get CNID %u, name %s
+dbd_lookup(name:'%s', did:%u, dev/ino:0x%llx/0x%llx) {devino: %u, didname: %u}
+dbd_lookup: name: '%s', did: %u, dev/ino: 0x%llx/0x%llx is not in the CNID database
+dbd_lookup(name:'%s', did:%u, dev/ino:0x%llx/0x%llx): type mismatch for devino
+dbd_lookup(name:'%s', did:%u, dev/ino:0x%llx/0x%llx): error deleting type mismatch for devino
+dbd_lookup(name:'%s', did:%u, dev/ino:0x%llx/0x%llx): type mismatch for didname
+dbd_lookup(name:'%s', did:%u, dev/ino:0x%llx/0x%llx): error deleting type mismatch for didname
+dbd_lookup(DID:%u/'%s',0x%llx/0x%llx): Got CNID: %u
+dbd_lookup: CNID mismatch: (DID:%u/'%s') --> %u , (0x%llx/0x%llx) --> %u
+dbd_lookup(CNID hint: %u, DID:%u, "%s", 0x%llx/0x%llx): CNID resolve problem: server side rename oder reused inode
+dbd_lookup: server side mv (with resource fork)
+dbd_lookup(DID:%u/'%s',0x%llx/0x%llx): CNID resolve problem: changed dev/ino
+dbd_lookup(DID:%u/'%s',0x%llx/0x%llx): Got CNID (needed update): %u
+dbd_rebuild_add(CNID: %u, did: %u, name: "%s", dev/ino:0x%llx/0x%llx): success
+dbd_rebuild_add.c
+dbd_resolve: DB Error resolving CNID %u
+dbd_resolve: Could not resolve CNID %u
+dbd_resolve(CNID: %u): did: %u, name: "%s"
+dbd_resolve.c
+dbd_update: Updated dbd with dev/ino: 0x%llx/0x%llx, did: %u, name: %s, cnid: %u
+dbd_update: Unable to update CNID: %u, dev/ino: 0x%llx/0x%llx, DID: %u: %s
+dbd_update.c
+;*2$"
+dbd.debug
+7zXZ
+NE@i+
+ox6>
+:U}fU
+KFdk
+DomY
+8o!M
+J3?U%*
+T8oj
+!	7	
+|Nr-
+k+KGO
+wvED
+trWR\
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

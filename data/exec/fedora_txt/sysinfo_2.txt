@@ -1,0 +1,286 @@
+@"BEh
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+hexchat_get_info
+g_strdup_printf
+hexchat_pluginpref_get_int
+hexchat_gettext
+hexchat_printf
+g_ascii_strtoull
+hexchat_pluginpref_set_int
+hexchat_pluginpref_get_str
+hexchat_print
+g_str_has_prefix
+strcmp
+hexchat_pluginpref_set_str
+hexchat_list_int
+g_ascii_strcasecmp
+g_malloc0
+g_snprintf
+g_free
+g_strjoinv
+hexchat_commandf
+g_strfreev
+sysinfo_get_str_pref
+hexchat_plugin_init
+hexchat_hook_command
+hexchat_command
+hexchat_plugin_deinit
+sysinfo_backend_get_os
+sysinfo_backend_get_cpu
+sysinfo_backend_get_memory
+sysinfo_backend_get_disk
+sysinfo_backend_get_gpu
+sysinfo_backend_get_sound
+sysinfo_backend_get_network
+sysinfo_backend_get_uptime
+sysinfo_format_uptime
+g_strdup
+sysinfo_format_memory
+g_format_size_full
+sysinfo_format_disk
+xs_parse_df
+popen
+fgets
+__isoc99_sscanf
+pclose
+xs_parse_distro
+xs_parse_meminfo
+xs_parse_cpu
+xs_parse_video
+xs_parse_agpbridge
+xs_parse_sound
+xs_parse_uptime
+xs_parse_ether
+g_strlcpy
+find_match_char
+g_strchug
+strstr
+strpbrk
+strcpy
+strchr
+find_match_double
+strtod
+find_match_double_hex
+find_match_ll
+fopen
+fclose
+g_ascii_strtoll
+__ctype_b_loc
+__strcat_chk
+pci_find_by_class
+pci_find_fullname
+pci_alloc
+pci_filter_init
+pci_init
+pci_scan_bus
+pci_setup_cache
+pci_fill_info
+pci_filter_match
+pci_read_block
+pci_cleanup
+exit
+strncpy
+func
+libpci.so.3
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+sysinfo.so
+LIBPCI_3.3
+LIBPCI_3.5
+LIBPCI_3.0
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+t$ t
+D$0e
+D$l1
+T$((
+BD$(
+|$le3=
+|[^_]
+[^_]
+UWVS
+[^_]
+D$,1
+T$,e3
+D$L1
+T$Le3
+P[^_
+UWVS
+[^_]
+D$(e
+D$@1
+[^_]
+\$L1
+D$<1
+D$.f
+T$<e3
+\$L1
+D$<1
+D$.f
+T$<e3
+\$L1
+D$<1
+D$.f
+T$<e3
+t$ 1
+l$$1
+[^_]
+UWVS
+[^_]
+t$Lf
+UWVS
+[^_]
+T$<1
+D$$e
+[^_]
+UWVS
+T$<y
+[^_]
+;<$w
+UWVS
+,[^_]
+HexChat %s
+Sysinfo: %s is set to: %d
+announce
+pciids
+/usr/share/hwdata/pci.ids
+hide_
+ECHO
+type
+hide_%s
+%s %s
+: %s
+SYSINFO
+%s plugin loaded
+%s plugin unloaded
+client
+Client
+memory
+Memory
+storage
+Storage
+sound
+Sound
+ethernet
+Ethernet
+Uptime
+Sysinfo: Valid settings are: announce and hide_* for each piece of information. e.g. hide_os. Without a value it will show current (or default) setting.
+Sysinfo: pciids is set to: %s
+Sysinfo: Invalid variable name
+Sysinfo: Failed to get info. Either not supported or error.
+Sysinfo: No info by that name
+MENU ADD "Window/Send System Info" "SYSINFO"
+MENU DEL "Window/Display System Info"
+%lliw %dd %dh %dm %ds
+%s Total (%s Free)
+%s / %s (%s Free)
+df -k -l -P
+%*s %lld %*s %lld %*s %*s
+Physical: %s Swap: %s
+%s (%.0fMHz)
+%s (%.2fGHz)
+%s @ %s
+None found
+zD:=
+/proc/cpuinfo
+model name
+vendor_id
+cpu MHz
+/proc/uptime
+/proc/asound/cards
+%lli: %s
+/proc/meminfo
+MemTotal:
+MemFree:
+Buffers:
+Cached:
+SwapTotal:
+SwapFree:
+/etc/portage/make.conf
+/etc/make.conf
+ACCEPT_KEYWORDS
+Gentoo Linux (stable)
+Gentoo Linux %s
+/etc/redhat-release
+/etc/mageia-release
+/etc/slackware-version
+/etc/mandrake-release
+/etc/SuSE-release
+/etc/turbolinux-release
+/etc/arch-release
+ArchLinux
+/etc/lsb-release
+DISTRIB_ID
+DISTRIB_CODENAME
+DISTRIB_RELEASE
+%s "%s" %s
+/etc/debian_version
+Debian %s
+Unknown Distro
+%04x
+%s:%s
+;*2$"
+SysInfo Usage:
+  /SYSINFO [-e|-o] [CLIENT|OS|CPU|RAM|DISK|VGA|SOUND|ETHERNET|UPTIME], print various details about your system or print a summary without arguments
+  /SYSINFO SET <variable>
+Display info about your hardware and OS
+Sysinfo
+sysinfo.so-2.12.4-8.fc27.i386.debug
+7zXZ
+{u6c|
+ub4]M}
+i1}eO
+F5}Y
+cgx+
+uKtD
+.p<1x
+p9vI
+<Rj]
+p]mF
+ao}G=
+H~$8
+o*X]x~
+	+1 
+'kHO
+ `E9o
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

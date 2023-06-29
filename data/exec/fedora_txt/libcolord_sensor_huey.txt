@@ -1,0 +1,208 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_object_unref
+g_free
+g_type_check_instance_cast
+g_object_get_data
+g_strcmp0
+g_print
+g_ascii_table
+cd_sensor_get_type
+cd_usb_disconnect
+g_simple_async_result_set_from_error
+g_error_free
+g_log
+cd_sensor_get_sample_async
+g_type_check_instance_is_a
+g_return_if_fail_warning
+g_slice_alloc0
+g_simple_async_result_new
+g_object_ref
+g_cancellable_connect
+g_cancellable_new
+g_object_set_data
+g_simple_async_result_get_type
+g_simple_async_result_run_in_thread
+g_simple_async_result_set_op_res_gpointer
+g_cancellable_disconnect
+g_slice_free1
+cd_sensor_unlock_async
+cd_sensor_lock_async
+cd_usb_get_device_handle
+libusb_control_transfer
+libusb_interrupt_transfer
+g_set_error
+g_set_error_literal
+cd_sensor_set_state
+cd_buffer_read_uint16_be
+cd_buffer_write_uint16_be
+cd_buffer_read_uint32_be
+cd_vec3_subtract
+cd_mat33_vector_multiply
+cd_vec3_scalar_multiply
+cd_color_xyz_dup
+cd_mat33_get_data
+cd_usb_connect
+g_strdup_printf
+cd_sensor_set_serial
+cd_mat33_clear
+cd_mat33_to_string
+cd_vec3_get_data
+g_usleep
+cd_sensor_get_sample_finish
+g_simple_async_result_propagate_error
+g_simple_async_result_get_op_res_gpointer
+cd_sensor_lock_finish
+cd_sensor_unlock_finish
+cd_sensor_dump_device
+g_string_append_printf
+cd_sensor_coldplug
+g_object_set
+g_malloc0
+g_object_set_data_full
+cd_usb_new
+libcolord.so.1
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgmodule-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libcolord_sensor_huey.so
+GLIBC_2.1.3
+GLIBC_2.4
+;|$@u
+d$,[^_]
+d$([
+d$L[^_]
+d$L1
+[^_]
+d$L1
+[^_]
+UWVS
+t$he
+D$<1
+D$<e3
+d$L[^_]
+D$<1
+T$<e3
+UWVS
+D$8f
+T$Df
+D$H1
+D$L1
+D$>f
+l$@f
+D$Lf
+D$L1
+[^_]
+L$,1
+D$ <
+T$,e3
+d$8^
+D$,1
+T$,e3
+d$<[^_]
+UWV1
+d$<[^_]
+UWVS
+T$\1
+D$MG
+D$Nr
+D$OM
+D$Pb
+D$Qk
+D$Re
+D$Sd
+t$C1
+T$\e3
+d$l[^_]
+UWV1
+D$$t
+d$L[^_]
+priv
+request
+%c[%dm
+reply
+%02x [%c]	
+%c[%dm
+cancelled huey
+state
+CD_IS_SENSOR (sensor)
+failed to get device handle
+unknown
+failed to send request: %s
+failed to get reply: %s
+the device is locked
+failed to issue command: %s
+return value unknown: 0x%02x
+request != NULL
+reply != NULL
+reply_read != NULL
+using LCD calibration matrix
+using CRT calibration matrix
+Serial number: %s
+Unlock string: %s
+device calibration LCD: %s
+device calibration CRT: %s
+huey-dump-version:%i
+unlock-string:%s
+calibration-value:%f
+dark-offset:%f,%f,%f
+register[0x%02x]:0x%02x
+kind
+native
+wrong command reply, got 0x%02x, expected 0x%02x
+gave up retrying after %i reads
+HUEY cannot measure ambient light in projector mode
+HUEY cannot measure in projector mode
+initial values: red=%i, green=%i, blue=%i
+using multiplier factor: red=%i, green=%i, blue=%i
+raw values: red=%i, green=%i, blue=%i
+scaled values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+dark offset values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+finished values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+G_IS_SIMPLE_ASYNC_RESULT (res)
+error == NULL || *error == NULL
+cd_sensor_get_sample_async
+cd_sensor_huey_send_data
+cd_sensor_get_sample_finish
+cd_sensor_lock_async
+cd_sensor_lock_finish
+cd_sensor_unlock_async
+cd_sensor_unlock_finish
+;*2$"
+libcolord_sensor_huey.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

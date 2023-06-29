@@ -1,0 +1,332 @@
+Rm0&
+Rr0&
+_u.&
+4YAwr
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+lsx_ms_adpcm_block_expand_i
+lsx_ms_adpcm_samples_in
+lsx_ms_adpcm_bytes_per_block
+sox_globals
+lsx_debug_more
+sqrt
+lsx_ms_adpcm_block_mash_i
+lsx_ms_adpcm_i_coef
+lsx_ima_init_table
+lsx_ima_samples_in
+lsx_ima_bytes_per_block
+lsx_ima_block_mash_i
+lsx_warn
+lsx_ima_block_expand_m
+lsx_ima_block_expand_i
+sox_wav_format_fn
+lsx_fail_errno
+lsx_seeki
+lsx_writebuf
+lsx_gsm_encode
+lsx_gsm_destroy
+free
+lsx_writes
+lsx_writedw
+lsx_writew
+lsx_debug
+lsx_report
+lsx_writeb
+lsx_rawwrite
+lsx_gsm_create
+lsx_gsm_option
+lsx_realloc
+lsx_rawstart
+lsx_rawread
+lsx_readbuf
+lsx_gsm_decode
+lsx_reads
+lsx_readdw
+strncmp
+lsx_readw
+lsx_readb
+lsx_tell
+lsx_clearerr
+lsx_eof
+strlen
+strcat
+lsx_gsm_add
+lsx_gsm_sub
+lsx_gsm_mult
+lsx_gsm_mult_r
+lsx_gsm_abs
+lsx_gsm_L_add
+lsx_gsm_L_sub
+lsx_gsm_L_asr
+lsx_gsm_L_asl
+lsx_gsm_asr
+lsx_gsm_asl
+lsx_gsm_div
+__assert_fail
+lsx_gsm_norm
+lsx_gsm_L_mult
+lsx_Gsm_Coder
+lsx_Gsm_Preprocess
+lsx_Gsm_LPC_Analysis
+lsx_Gsm_Short_Term_Analysis_Filter
+lsx_Gsm_Long_Term_Predictor
+lsx_Gsm_RPE_Encoding
+lsx_Gsm_Decoder
+lsx_Gsm_RPE_Decoding
+lsx_Gsm_Long_Term_Synthesis_Filtering
+lsx_Gsm_Short_Term_Synthesis_Filter
+lsx_gsm_QLB
+lsx_gsm_DLB
+lsx_gsm_FAC
+lsx_gsm_NRFAC
+malloc
+lsx_gsm_A
+lsx_gsm_B
+lsx_gsm_MIC
+lsx_gsm_MAC
+lsx_gsm_INVA
+lsx_gsm_H
+libsox.so.1
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libsox_fmt_wav.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+d$T[^_]
+[^_]
+d$|[^_]
+[^_]
+d$l[^_]
+d$`^_]
+d$\[^_]
+d$ ^_]
+d$<[^_]
+d$|[^_]
+[^_]
+[^_]
+1tbf
+d$,[^_]
+d$,[^_]
+F|tq
+[^_]
+d$<[^_]
+[^_]
+[^_]
+d$<[^_]
+[^_]
+[^_]
+[^_]
+d$,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+d$,[^_]
+[^_]
+d$,[^_]
+d$0^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+tO~%
+d$$^_]
+d$(^_]
+d$ ^_]
+uE9u
+u19u
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+MSADPCM bpred >= nCoef, arbitrarily using 0
+AdpcmMashI(chans %d, ip %p, n %d, st %p, obuff %p, bA %d)
+adpcm.c
+%.1x
+ch%d: st %d->%d, d %.1f
+ s32 %d
+kmin %d, smin %5d, 
+ima_rw.c
+IMA_ADPCM block ch%d initial-state (%d) out of range
+Microsoft PCM
+Microsoft Official Unknown
+Microsoft ADPCM
+IEEE Float
+Microsoft A-law
+Microsoft U-law
+OKI ADPCM format.
+IMA ADPCM
+Digistd format.
+Digifix format.
+Dolby AC2
+GSM 6.10
+Rockwell ADPCM
+Rockwell DIGITALK
+G.721 ADPCM
+G.728 CELP
+MPEG
+MPEG Layer 3
+G.726 ADPCM
+G.722 ADPCM
+write error
+Channels(%d) must be <= 16
+wav.c
+wavpcm
+RIFX
+RIFF
+WAVE
+fmt 
+fact
+data
+cannot create GSM object
+error during gsm decode
+WAV Chunk %s
+WAVE: RIFF header not found
+Found RIFX header
+WAVE header not found
+WAVE chunk fmt not found
+OKI ADPCM
+Digistd
+Digifix
+Could not find data chunk.
+datalen %d, numSamples %lu
+        %lu Samps/chans
+LIST
+Type INFO
+Type adtl
+Chunk ICRD
+Chunk ISFT
+Chunk cue 
+Chunk ltxt
+Microsoft audio format
+seeking not supported with this encoding
+Overriding GSM audio from %d channel to 1
+Requested to swap bytes so writing RIFX header
+Writing Wave file: %s format, %d channel%s, %d samp/sec
+        %d byte/sec, %d block align, %d bits/samp
+Finished writing Wave file, %u data bytes %lu samples
+GSM6.10 format: %li blocks %u padded samples %u padded data bytes
+help ! internal inconsistency - data_written %u gsmbytecount %lu
+Can't rewind output file to rewrite .wav header.
+error setting gsm_option for WAV49 format. Recompile gsm library with -DWAV49 option and relink sox
+Length in output .wav header will be wrong since can't seek to fix it
+Premature EOF on .wav input file
+invalid wav gsm frame size: %d bytes
+WAVE file has missing %s chunk
+WAVE file %s chunk is too short
+WAV chunk appears to have invalid size %d.
+WAVE file fmt chunk is too short
+WAVE file fmt with padded samples is not supported yet
+WAVE file is in unsupported Microsoft Official Unknown format.
+User options overriding encoding read in .wav header
+Unhandled WAV file encoding (%s).
+Try overriding the encoding: e.g. for an MP3 WAV, `-t mp3'
+Unknown WAV file encoding (type %x)
+User options overriding channels read in .wav header
+User options overriding rate read in .wav header
+wave header missing FmtExt chunk
+wave header error: wExtSize inconsistent with wFmtLen
+format[%s]: expects wExtSize >= %d
+Can only handle 4-bit MS ADPCM in wav files
+format[%s]: samplesPerBlock(%d) incompatible with blockAlign(%d)
+ADPCM file nCoefs (%.4hx) makes no sense
+wave header error: wExtSize(%d) too small for nCoefs(%d)
+base lsx_ms_adpcm_i_coefs differ in %d/14 positions
+Can only handle 4-bit IMA ADPCM in wav files
+format[%s]: expects blockAlign(%d) = %d
+format[%s]: expects samplesPerBlock(%d) = %d
+User options overriding size read in .wav header
+Sorry, don't understand .wav size
+WAV Chunk data's length is value often used in pipes or 4G files.  Ignoring length.
+Reading Wave file: %s format, %d channel%s, %d samp/sec
+        %d byte/sec, %d block align, %d bits/samp, %u data bytes
+        %d Extsize, %d Samps/block, %lu bytes/block %d Num Coefs, %lu Samps/chan
+        %d Extsize, %d Samps/block, %lu bytes/block %lu Samps/chan
+GSM .wav: %d Extsize, %d Samps/block, %lu Samples/chan
+Possible buffer overflow hack attack (ICRD)!
+Possible buffer overflow hack attack (ISFT)!
+Attempting to seek beyond unsupported chunk '%c%c%c%c' of length %d bytes
+Aadd.c
+num >= 0 && denum >= num
+a != 0
+a != (-32767 - 1) || b != (-32767 - 1)
+lsx_gsm_div
+lsx_gsm_norm
+lsx_gsm_L_mult
+long_term.c
+Nr >= 40 && Nr <= 120
+brp != (-32767 - 1)
+scal >= 0
+scal <= 100 && scal >= -100
+Nc <= 120 && Nc >= 40
+lsx_Gsm_Long_Term_Synthesis_Filtering
+lsx_Gsm_Long_Term_Predictor
+Calculation_of_the_LTP_parameters
+lpc.c
+scalauto <= 4
+temp >= 0 && temp < 32
+*r >= 0
+*r != (-32767 - 1)
+Autocorrelation
+Reflection_coefficients
+Transformation_to_Log_Area_Ratios
+preprocess.c
+SO >= -0x4000
+SO <= 0x3FFC
+s1 != (-32767 - 1)
+lsx_Gsm_Preprocess
+rpe.c
+exp >= -4 && exp <= 6
+mant >= 0 && mant <= 7
+0 <= Mc && Mc <= 3
+*xMc <= 7 && *xMc >= 0
+temp <= 7 && temp >= -7
+exp <= 5
+exp <= 6 && exp >= 0
+exp <= 4096 && exp >= -4096
+temp1 >= 0 && temp1 < 16
+APCM_quantization_xmaxc_to_exp_mant
+APCM_inverse_quantization
+RPE_grid_positioning
+APCM_quantization
+<V!L#
+33333333
+N%IDD
+libsox_fmt_wav.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,80 @@
+/lib64/ld-linux-x86-64.so.2
+libzmq.so.5
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+zmq_curve_keypair
+zmq_errno
+libsodium.so.13
+_fini
+_init
+librt.so.1
+libpthread.so.0
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+exit
+puts
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+D$h1
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+This tool generates a CurveZMQ keypair, as two printable strings you can
+use in configuration files or source code. The encoding uses Z85, which
+is a base-85 format that is described in 0MQ RFC 32, and which has an
+implementation in the z85_codec.h source used by this tool. The keypair
+always works with the secret key held by one party and the public key
+distributed (securely!) to peers wishing to connect to it.
+To use curve_keygen, please install libsodium and then rebuild libzmq.
+== CURVE PUBLIC KEY ==
+== CURVE SECRET KEY ==
+;*3$"
+curve_keygen.debug
+7zXZ
+o|Z;
+BWDC
+1*=T
+Zy]'
+f#%Z
+p:6(
+)un$
+U=Y!
+Bo)K(
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

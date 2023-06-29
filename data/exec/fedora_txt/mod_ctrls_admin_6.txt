@@ -1,0 +1,344 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+check_context
+get_boolean
+ctrls_admin_module
+pr_ctrls_unregister
+destroy_pool
+mod_create_ret
+get_context_name
+pstrcat
+pr_ctrls_parse_acl
+pr_ctrls_unregister_module_actions
+pr_ipbind_find
+pr_netaddr_get_ipstr
+pr_ctrls_log
+pr_ipbind_open
+pr_ctrls_add_response
+pr_ipbind_add_binds
+SocketBindTight
+pr_ipbind_get_listening_conn
+__errno_location
+strerror
+pr_log_pri
+pr_ctrls_check_acl
+strchr
+strtol
+pr_netaddr_get_addr
+strcmp
+pr_trace_parse_levels
+pr_trace_set_levels
+pr_trace_get_table
+pr_table_rewind
+pr_table_next
+pr_signals_handle
+pr_table_get
+child_count
+sleep
+child_update
+pr_ctrls_flush_response
+raise
+pr_privs_root
+child_signal
+pr_privs_relinquish
+pr_scoreboard_scrub
+pr_gmtime
+pr_getopt_reset
+getopt
+optarg
+optopt
+optind
+pr_rewind_scoreboard
+pr_scoreboard_entry_read
+pr_scoreboard_entry_kill
+pr_restore_scoreboard
+pr_log_debug
+main_server
+find_config
+pr_stash_get_symbol
+qsort
+pr_str_is_boolean
+ServerUseReverseDNS
+pr_netaddr_clear_cache
+pr_log_setdebuglevel
+permanent_pool
+make_sub_pool
+pr_pool_tag
+pcalloc
+pr_ctrls_init_acl
+pr_ctrls_register
+pr_event_register
+strcasecmp
+pr_ipbind_get
+pr_ipbind_close
+pr_ctrls_set_module_acls
+pr_open_scoreboard
+pr_event_unregister
+libc.so.6
+_edata
+__bss_start
+_end
+mod_ctrls_admin.so
+GLIBC_2.2.5
+5jD 
+%lD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+=PD 
+ATSubH
+[A\]
+=x= 
+=^= 
+ATUS
+[]A\1
+[]A\
+G0E1
+t$ H
+AVAUATUH
+5@> 
+([]A\A]A^A_
+L;t$
+AWAVI
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUI
+5&: 
+H+D$
+[]A\A]A^
+\$(H
+l$0L
+d$8L
+l$@H
+5B8 
+AVAUATA
+5;5 
+?tDA
+[]A\A]A^A_
+-y0 
+H9D$
+D;d$
+H9D$
+D9d$
+AUATI
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+D$`H
+[]A\
+fffff.
+=a( 
+=Q& 
+l$ H
+AWAVAUI
+([]A\A]A^A_
+AWAVAUI
+([]A\A]A^A_
+[]A\A]A^A_
+fffff.
+G0E1
+ffffff.
+missing arguments
+ context
+directive not allowed in 
+: unknown action: '
+up: %s#%u already enabled
+mod_ctrls_admin/0.9.7
+mod_ctrls_admin.c
+up: %s#%u enabled
+access denied
+trace
+info
+Level
+Channel
+%-10s %-6s
+---------- ------
+%10s %-6d
+trace: no info available
+shutdown
+shutting down
+graceful
+bad number of arguments
+clean
+scrub
+scrubbed scoreboard
+times
+time
+restarted server
+count
+unsupported parameter '%s'
+kick
+missing required parameters
+user
+bad number: %s
+unsupported option: '%c'
+error kicking user '%s': %s
+kicked user '%s' (%d clients)
+kicked user '%s'
+user '%s' not connected
+host
+kicked host '%s' (%d clients)
+kicked host '%s'
+host '%s' not connected
+class
+bad client number: %s
+error kicking class '%s': %s
+kicked class '%s'
+class '%s' not connected
+config
+%s: not retrievable
+%s: directive not found
+%s: missing parameters
+directives
+%s (mod_%s.c)
+cache
+clear
+dns: netaddr cache cleared
+debug
+debug: level set to %d
+debug level set to %d
+unknown debug action: '%s'
+core.module-unload
+core.restart
+core.startup
+DOWN
+status: checking %s#%u
+status: %s#%u %s
+status
+status: checking all servers
+status: no such server: %s#%u
+down: disabling %s#%u
+down: no such server: %s#%u
+down: %s#%u already disabled
+down: %s#%u disabled
+down: all servers disabled
+allow
+deny
+group
+error opening scoreboard: %s
+ctrls_admin
+set debugging level
+list configuration data
+clean the ScoreboardFile
+shutdown the daemon
+display status of servers
+set trace levels
+AdminControlsACLs
+AdminControlsEngine
+up: no server associated with %s#%u
+up: attempting to enable %s#%u
+%s:%d: notice: unable to open ipbind '%s': %s
+up: no server listening on %s#%u
+%s:%d: notice: unable to add binds to ipbind '%s': %s
+up: missing required parameters
+up: unable to resolve address for '%s'
+trace: missing required parameters
+trace: badly formatted parameter: '%s'
+trace: error setting channel '%s' to levels %d-%d: %s
+trace: set channel '%s' to levels %d-%d
+trace: error parsing level '%s' for channel '%s': %s
+shutdown: waiting %u seconds before shutting down
+shutdown: %u seconds elapsed, ending %lu remaining sessions
+shutdown: waiting for %lu sessions to end
+shutdown: error flushing response: %s
+shutdown: flushed to %s/%s client: return value: 0
+shutdown: flushed to %s/%s client: '%s'
+unknown scoreboard action '%s'
+server restarted %u %s since %04d-%02d-%02d %02d:%02d:%02d GMT
+kick user: missing required user name(s)
+error rewinding scoreboard: %s
+error restoring scoreboard: %s
+mod_ctrls_admin/0.9.7: kicked user '%s' (%d clients)
+mod_ctrls_admin/0.9.7: kicked user '%s'
+kick host: missing required host(s)
+kick host: error resolving '%s': %s
+mod_ctrls_admin/0.9.7: kicked host '%s' (%d clients)
+mod_ctrls_admin/0.9.7: kicked host '%s'
+kick class: missing required class name(s)
+kicked class '%s' (%d clients)
+mod_ctrls_admin/0.9.7: kicked class '%s' (%d clients)
+mod_ctrls_admin/0.9.7: kicked class '%s'
+unknown kick type requested: '%s'
+get: missing required parameters
+%s: wrong number of parameters
+unknown get type requested: '%s'
+dns: missing required parameters
+dns: wrong number of parameters
+dns: error: expected 'clear' command: '%s'
+dns: error: expected Boolean parameter: '%s'
+dns: UseReverseDNS set to '%s'
+debug: missing required parameters
+debug: wrong number of parameters
+debug level must not be negative
+mod_ctrls_admin/0.9.7: error registering '%s' control: %s
+status: no server associated with %s#%u
+status: missing required parameters
+down: missing required parameters
+second parameter must be 'allow' or 'deny'
+third parameter must be 'user' or 'group'
+error opening scoreboard: bad/corrupted file
+error opening scoreboard: bad version (too old)
+error opening scoreboard: bad version (too new)
+set UseReverseDNS configuration
+disable an individual virtual server
+disconnect a class, host, or user
+restart the daemon (similar to using HUP)
+enable a downed virtual server
+;*3$"
+mod_ctrls_admin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

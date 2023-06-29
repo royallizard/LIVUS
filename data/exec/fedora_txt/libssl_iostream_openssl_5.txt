@@ -1,0 +1,571 @@
+X{i~
+1O7Y
+OqEo
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+realloc
+i_fatal_status
+dovecot_openssl_common_global_ref
+CRYPTO_set_mem_functions
+OPENSSL_init_ssl
+OPENSSL_init_crypto
+RAND_bytes
+__stack_chk_fail
+dovecot_openssl_common_global_unref
+ENGINE_finish
+OPENSSL_cleanup
+i_panic
+dovecot_openssl_common_global_set_engine
+ENGINE_load_builtin_engines
+ENGINE_by_id
+ENGINE_init
+ENGINE_set_default
+t_strdup_printf
+ENGINE_free
+default_pool
+i_strdup
+o_stream_cork
+BIO_ctrl_pending
+o_stream_get_buffer_avail_size
+BIO_read
+o_stream_send
+o_stream_uncork
+o_stream_get_error
+o_stream_set_flush_pending
+i_debug
+ssl_iostream_has_valid_client_cert
+SSL_get_peer_certificate
+X509_get_subject_name
+X509_NAME_get_text_by_NID
+X509_free
+t_malloc
+strlen
+openssl_cert_match_name
+i_stream_unref
+o_stream_unref
+BIO_free
+SSL_free
+SSL_get_ex_data_X509_STORE_CTX_idx
+X509_STORE_CTX_get_ex_data
+dovecot_ssl_extdata_index
+SSL_get_ex_data
+X509_STORE_CTX_get_current_cert
+X509_NAME_oneline
+X509_STORE_CTX_get_error
+X509_verify_cert_error_string
+i_info
+SSL_alert_desc_string_long
+SSL_state_string_long
+SSL_alert_type_string_long
+SSL_get_current_cipher
+SSL_CIPHER_get_bits
+SSL_get_current_compression
+SSL_COMP_get_name
+t_strconcat
+SSL_CIPHER_get_name
+SSL_get_version
+SSL_new
+BIO_new_bio_pair
+i_strdup_printf
+SSL_set_bio
+SSL_set_ex_data
+SSL_ctrl
+strcmp
+SSL_clear_options
+openssl_get_protocol_options
+SSL_set_options
+OBJ_txt2nid
+openssl_i_stream_create_ssl
+openssl_o_stream_create_ssl
+i_stream_get_name
+i_stream_set_name
+o_stream_get_name
+o_stream_set_name
+SSL_set_verify
+SSL_set_cipher_list
+openssl_iostream_error
+t_strdup_noconst
+BIO_new_mem_buf
+PEM_read_bio_X509
+SSL_use_certificate
+ERR_peek_error
+openssl_iostream_use_certificate_error
+openssl_iostream_load_key
+SSL_use_PrivateKey
+EVP_PKEY_free
+SSL_set_info_callback
+o_stream_set_no_error_handling
+openssl_iostream_key_load_error
+openssl_iostream_bio_sync
+BIO_ctrl_get_write_guarantee
+i_stream_get_data
+i_stream_get_data_size
+i_stream_set_input_pending
+BIO_write
+i_stream_skip
+i_stream_read_data
+i_stream_get_error
+i_error
+SSL_get_error
+__errno_location
+strerror
+openssl_iostream_more
+ssl_iostream_handshake
+SSL_shutdown
+openssl_iostream_clear_errors
+o_stream_flush
+i_stream_close
+o_stream_close
+ssl_iostream_unref
+openssl_iostream_handle_error
+SSL_accept
+SSL_connect
+openssl_iostream_handle_write_error
+ssl_iostream_openssl_init
+iostream_ssl_module_init
+ssl_iostream_openssl_deinit
+openssl_iostream_global_deinit
+openssl_iostream_context_init_client
+openssl_iostream_context_init_server
+openssl_iostream_context_deinit
+openssl_iostream_generate_params
+openssl_iostream_context_import_params
+ASN1_STRING_length
+ASN1_STRING_get0_data
+t_strndup
+ERR_error_string_n
+strchr
+t_strsplit_spaces
+strcasecmp
+i_fatal
+X509_get_ext_d2i
+OPENSSL_sk_num
+inet_pton
+OPENSSL_sk_value
+ASN1_STRING_type
+GENERAL_NAME_free
+OPENSSL_sk_pop_free
+X509_NAME_get_index_by_NID
+X509_NAME_get_entry
+X509_NAME_ENTRY_get_data
+net_ip_compare
+buffer_append
+ERR_get_error_line_data
+t_str_new
+str_printfa
+str_c
+strstr
+ERR_get_error
+SSL_get_servername
+SSL_get_servername_type
+i_strocpy
+CRYPTO_get_ex_new_index
+PEM_read_bio_PrivateKey
+safe_memset
+pool_alloconly_create
+SSL_CTX_set_options
+SSL_CTX_ctrl
+SSL_CTX_set_tmp_dh_callback
+EVP_PKEY_get1_EC_KEY
+EC_KEY_get0_group
+EC_GROUP_get_curve_name
+EC_KEY_new_by_curve_name
+OBJ_nid2sn
+EC_KEY_free
+p_strdup
+SSL_CTX_set_cipher_list
+SSL_CTX_use_certificate
+ERR_peek_last_error
+ERR_clear_error
+SSL_CTX_use_PrivateKey
+SSL_CTX_callback_ctrl
+SSL_CTX_get_cert_store
+PEM_X509_INFO_read_bio
+OPENSSL_sk_new_null
+X509_STORE_add_cert
+X509_NAME_dup
+OPENSSL_sk_push
+X509_STORE_add_crl
+X509_INFO_free
+X509_STORE_set_flags
+SSL_CTX_set_client_CA_list
+SSL_CTX_load_verify_locations
+TLS_client_method
+SSL_CTX_new
+TLS_server_method
+SSL_CTX_free
+openssl_iostream_context_free_params
+DH_generate_parameters
+i2d_DHparams
+buffer_append_space_unsafe
+DH_free
+buffer_append_zero
+d2i_DHparams
+i_stream_get_max_buffer_size
+i_stream_compress
+io_stream_set_error
+i_stream_try_alloc
+SSL_read
+i_stream_alloc
+memcpy
+i_stream_get_fd
+i_stream_create
+o_stream_ref
+o_stream_set_max_buffer_size
+o_stream_get_buffer_used_size
+o_stream_switch_ioloop
+SSL_write
+buffer_delete
+buffer_free
+buffer_get_writable_size
+buffer_create_dynamic
+o_stream_set_flush_callback
+o_stream_get_fd
+o_stream_create
+libssl.so.1.1
+libcrypto.so.1.1
+libc.so.6
+_edata
+__bss_start
+_end
+libssl_iostream_openssl.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+OPENSSL_1_1_0
+%zu 
+%ru 
+%ju 
+%bu 
+%Zu 
+%Ru 
+%Ju 
+%Bu 
+%:u 
+%2u 
+%*u 
+%"u 
+%zt 
+%rt 
+%jt 
+%bt 
+%Zt 
+%Rt 
+%Jt 
+%Bt 
+%:t 
+%2t 
+%*t 
+%"t 
+%zs 
+%rs 
+%js 
+%bs 
+%Zs 
+%Rs 
+%Js 
+%Bs 
+%:s 
+%2s 
+%*s 
+%"s 
+%zr 
+%rr 
+%jr 
+%br 
+%Zr 
+%Rr 
+%Jr 
+%Br 
+%:r 
+%2r 
+%*r 
+%"r 
+%zq 
+%rq 
+%jq 
+%bq 
+%Zq 
+%Rq 
+%Jq 
+%Bq 
+%:q 
+%2q 
+%*q 
+%"q 
+%zp 
+%rp 
+%jp 
+%bp 
+%Zp 
+%Rp 
+%Jp 
+%Bp 
+%:p 
+%2p 
+%*p 
+%"p 
+%zo 
+%ro 
+%jo 
+%bo 
+=Qo 
+5Jo 
+="e 
+=(m 
+AVAUE1
+ATUH
+[]A\A]A^
+AVAUATUSH
+]A\A]A^
+ATUH
+[]A\
+AUATI
+[]A\A]H
+[]A\A]1
+[]A\A]I
+[]A\A]H
+AVAUATUSH
+[]A\A]A^
+AWAVAUATI
+D$H1
+T$8H
+|$01
+D$8I
+t$0I
+L$HdH3
+X[]A\A]A^A_
+T$ H
+t$@H
+|$@I
+AWAVAUATE1
+H;t$
+([]A\A]A^A_
+AVAUA
+ATUI
+[]A\A]A^
+]A\A]A^
+]A\A]A^
+ATUSH
+[]A\
+AUATI
+[]A\A]
+[]A\A]H
+ATUI
+[]A\
+AWAVH
+AUATUSH
+[]A\A]A^A_
+AWAVAUATUSH
+D$X1
+D$ H
+)D$ 
+5CR 
+\$$H
+)D$ 
+)D$ 
+5NQ 
+L$XdH3
+h[]A\A]A^A_
+AVAUL
+ATU1
+ []A\A]A^
+ATUSH
+E@[1
+t*USHc
+ATUI
+[]A\
+AVAUI
+ATUI
+D$8H
+ []A\A]A^
+AWAVI
+AUATUSH
+D$(H
+D$0H
+D$PL
+([]A\A]A^A_
+5@D 
+ATUI
+D$h1
+)D$ 
+)D$0
+)D$@
+)D$Pu
+|$XH
+L$hdH3
+p[]A\
+AUATI
+=RA 
+[]A\A]
+ATUI
+L$(1
+Hct$
+t$ H
+L$(dH3
+0[]A\
+ATUA
+[]A\
+AWAVAUATI
+dH34%(
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+T$HH
+T$HH
+K| H
+ATUH
+[]A\
+AUATI
+[]A\A]
+xut1H
+AWAVI
+AUATI
+t(L9#L
+H;+t
+[]A\A]A^A_
+OpenSSL: realloc(%lu): Out of memory
+OpenSSL: malloc(%lu): Out of memory
+file %s: line %d (%s): assertion failed: (%s)
+openssl_init_refcount > 0
+dovecot-openssl-common.c
+Unknown engine '%s'
+ENGINE_init(%s) failed
+ENGINE_set_default(%s) failed
+dovecot_openssl_common_global_unref
+ret == (int)bytes
+iostream-openssl.c
+sent == (ssize_t)bytes
+%sSSL error: %s
+x509 != NULL
+%sSSL alert: %s
+%sSSL failed: where=0x%x: %s
+%sSSL: where=0x%x, ret=%d: %s
+ssl_io->refcount > 0
+SSL_new() failed: %s
+BIO_new_bio_pair() failed: %s
+%s: 
+BIO_new_mem_buf() failed: %s
+Can't load ssl_cert: %s
+SSL 
+ret == (ssize_t)size
+SSL BIO buffer size too small
+Disconnected
+errno != 0
+%s syscall failed: %s
+%s failed: %s
+!ssl_io->handshaked
+SSL_connect()
+SSL_accept()
+error != NULL
+ssl_io->plain_output->closed || ssl_io->plain_output->stream_errno != 0
+Received invalid SSL certificate: %s: %s
+Received valid SSL certificate: %s
+%sSSL alert: where=0x%x, ret=%d: %s %s
+%s with cipher %s (%d/%d bits)%s
+Can't set cipher list to '%s': %s
+Can't load SSL private key: %s
+Invalid cert_username_field: %s
+SSL: Too much data in buffered plain input buffer
+SSL ostream buffer size not unlimited
+%s failed: unknown failure %d (%s)
+openssl_iostream_unref
+openssl_iostream_handshake
+openssl_iostream_get_peer_name
+openssl_iostream_handle_error_full
+openssl_iostream_bio_input
+openssl_iostream_bio_output
+%s: %s
+SSLv3
+TLSv1
+TLSv1.1
+TLSv1.2
+cert != NULL
+iostream-openssl-common.c
+entry != NULL
+str != NULL
+Unknown error
+OpenSSL malloc() failed
+, %s
+PRIVATE KEY---
+Invalid ssl_protocols setting: Unknown protocol '%s'
+Key is for a different cert than ssl_cert
+The file contains a private key (you've mixed ssl_cert and ssl_key settings)
+There is no valid PEM certificate.
+There is no valid PEM certificate. (You probably forgot '<' from %s=<%s)
+get_cname
+openssl_cert_match_name
+SSL_get_servername() failed
+Unknown ssl_crypto_device: %s
+ssl iostream context
+BIO_new_mem_buf() failed
+Couldn't parse ssl_ca: %s
+SSL_CTX_new() failed: %s
+SSL private key file is password protected, but password isn't given
+SSL private key password is too long
+Couldn't parse private SSL key: %s
+Can't verify remote client certs without CA (ssl_ca setting)
+Can't verify remote server certs without trusted CAs (ssl_client_ca_* settings)
+SSL: elliptic curve %s will be used for ECDH and ECDHE key exchanges
+Can't load SSL certificate: %s
+sk_X509_NAME_new_null() failed
+Can't load CA certs from directory %s: %s
+OpenSSL library doesn't support SNI
+DH_generate_parameters(bits=%d, gen=%d) failed: %s
+i2d_DHparams() failed: %s
+len == len2
+iostream-openssl-params.c
+generate_dh_parameters
+istream-openssl.c
+file %s: line %d: unreached
+max_buffer_size > stream->pos
+SSL_read
+i_stream_get_data_size(sstream->ssl_io->plain_input) == 0
+i_stream_ssl_read_real
+i_stream_ssl_read
+SSL_write
+;*3$"
+dovecot
+libssl_iostream_openssl.so-2.2.32-2.fc27.x86_64.debug
+7zXZ
+!54u
+SLuy
+FQ8w
+$?qW
+bn+I
+;~&vB
+h.|M/*nT
+$H-#
+iN]+&
+lFbf
+D4H@
+w=z52~
+Y8SL
+1z)^
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

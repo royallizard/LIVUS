@@ -1,0 +1,228 @@
+/lib64/ld-linux-x86-64.so.2
+Zd*IO)
+libcollectdclient.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lcc_string_to_identifier
+_fini
+lcc_sort_identifiers
+_init
+lcc_connect
+lcc_strerror
+lcc_disconnect
+lcc_identifier_to_string
+lcc_listval
+lcc_getval
+libgcrypt.so.20
+libgpg-error.so.0
+libdl.so.2
+libc.so.6
+__printf_chk
+exit
+__strdup
+__isnan
+puts
+__stack_chk_fail
+putchar
+realloc
+__assert_fail
+strtod
+calloc
+strlen
+__errno_location
+getopt
+__fprintf_chk
+memcpy
+malloc
+strcasecmp
+optarg
+stderr
+__snprintf_chk
+fwrite
+strchr
+__cxa_finalize
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+5"0 
+%$0 
+%"0 
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+AWAVAUATA
+-i. 
+=S. 
+5*. 
+=y- 
+=`- 
+t$0H
+d$0PL
+\$`L
+[]A\A]A^A_
+L$8H
+T$HL
+D$@H
+t$0H
+T$HH
+t$@H
+T$HH
+t$@L
+|$@H
+|$@I
+L;d$H
+="+ 
+|$@I
+|$@I
+|$@H
+L9l$
+D$ J
+d$HL
+t$@E1
+|$81
+D$@H
+H;l$Hr
+D$8H
+D$@H
+D$@H
+H;l$Hr
+=s' 
+=9' 
+D$@L
+l$81
+D$HM
+L;d$ t^
+L$(u
+L$(u
+d$@1
+l$8L
+t$H1
+=6% 
+l$HL
+t$@L
+d$8M
+=P$ 
+d$@L
+l$8L
+t$H1
+=K# 
+=f" 
+H9l$
+fffff.
+5z  
+fffff.
+=q  
+fffff.
+ATUI
+<~uK
+AWAVA
+AUATL
+[]A\A]A^A_
+collectd-nagios.c
+max_ptr != ((void *)0)
+OKAY
+WARNING
+CRITICAL
+w:c:s:n:H:g:d:hm
+none
+average
+percentage
+realloc failed: %s
+cn_strdup failed: %s
+LIST
+Missing required arguments.
+unix:%s
+UNKNOWN: %s
+Host: %s
+%s/%s
+malloc failed: %s
+ %s=%f;;;;
+%s: %g average |
+%s: %g sum |
+%s: %lf percent |
+ %s=%lf;;;;
+Usage: %s <-s socket> <-n value_spec> <-H hostname> [options]
+Valid options are:
+  -s <socket>    Path to collectd's UNIX-socket.
+  -n <v_spec>    Value specification to get from collectd.
+                 Format: `plugin-instance/type-instance'
+  -d <ds>        Select the DS to examine. May be repeated to examine multiple
+                 DSes. By default all DSes are used.
+  -g <consol>    Method to use to consolidate several DSes.
+                 See below for a list of valid arguments.
+  -H <host>      Hostname to query the values for.
+  -c <range>     Critical range
+  -w <range>     Warning range
+  -m             Treat "Not a Number" (NaN) as critical (default: warning)
+Consolidation functions:
+  none:          Apply the warning- and critical-ranges to each data-source
+                 individually.
+  average:       Calculate the average of all matching DSes and apply the
+                 warning- and critical-ranges to the calculated average.
+  sum:           Apply the ranges to the sum of all DSes.
+  percentage:    Apply the ranges to the ratio (in percent) of the first value
+                 and the sum of all values.
+Unknown consolidation function `%s'.
+ERROR: Connecting to daemon at %s failed.
+ERROR: listval: Failed to convert returned identifier to a string: %s
+ERROR: Creating an identifier failed: %s.
+ERROR: Retrieving values from the daemon failed: %s.
+ERROR: DS `%s' is not available.
+WARNING: No defined values found
+%s: %i critical, %i warning, %i okay
+CRITICAL: Data source "%s" is NaN
+WARNING: The first value is not defined
+WARNING: Values sum up to zero
+parse_range
+;*3$"
+collectd-nagios.debug
+7zXZ
+cMl^
+hypjj
+)QXN 
+4Q0>
+^hJf
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

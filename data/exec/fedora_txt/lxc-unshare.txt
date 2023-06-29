@@ -1,0 +1,151 @@
+/lib64/ld-linux-x86-64.so.2
+&b& 8
+|k	C
+liblxc.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lxc_log_category_lxc
+lxc_netdev_move_by_name
+current_config
+lxc_log_use_global_fd
+lxc_clone
+lxc_setup_fs
+lxc_caps_init
+lxc_fill_namespace_flags
+lxc_error_set_and_log
+libcap.so.2
+libselinux.so.1
+libseccomp.so.2
+libutil.so.1
+libpthread.so.0
+__errno_location
+waitpid
+libc.so.6
+setuid
+__xpg_basename
+optind
+perror
+getpwuid
+__stack_chk_fail
+_exit
+getpwnam
+strlen
+getopt
+__fprintf_chk
+sethostname
+malloc
+sscanf
+optarg
+stderr
+execvp
+fwrite
+gettimeofday
+__cxa_finalize
+strerror
+__libc_start_main
+sysconf
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+_IO_stdin_used
+lxc_log_category_lxc_unshare_ui
+__libc_csu_init
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+AWAVAUATA
+[A\A]A^A_]
+fffff.
+fffff.
+fffff.
+AUATUSH
+f0dH
+([]A\A]
+T$pH
+L$xL
+D$X1
+t$(1
+T$ H
+D$D0
+D$HH
+D$`H
+D$PH
+D$@H
+D$0f
+D$XdH3
+ffffff.
+AVAUATUSH
+o dH
+ []A\A]A^
+AWAVA
+AUATL
+[]A\A]A^A_
+%s <options> command [command_arguments]
+	 -s flags   : ORed list of flags to unshare:
+	           MOUNT, PID, UTSNAME, IPC, USER, NETWORK
+	 -u <id>      : new id to be set if -s USER is specified
+	 -i <iface>   : Interface name to be moved into container (presumably with NETWORK unsharing set)
+	 -H <hostname>: Set the hostname in the container
+	 -d           : Daemonize (do not wait for container to exit)
+	 -M           : reMount default fs inside container (/proc /dev/shm /dev/mqueue)
+a command to execute in the new namespace is required
+-i <interfacename> needs -s NETWORK option
+-H <hostname> needs -s UTSNAME option
+Could not move interface %s into container %d: %s
+Options are:
+lxc_unshare.c
+failed to set hostname %s: %s
+failed to set uid %d: %s
+failed to exec: '%s': %s
+malloc
+invalid username %s
+invalid uid %u
+s:u:hH:i:dM
+-M needs -s MOUNT option
+failed to clone
+failed to wait for '%d'
+lxc_unshare_ui
+lookup_user
+do_start
+main
+;*3$"
+lxc-unshare.debug
+7zXZ
+Hiy^ 
+yRm6Q
+\S0.
+DW?O
+CM08
+LxuT
+sDdD`
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

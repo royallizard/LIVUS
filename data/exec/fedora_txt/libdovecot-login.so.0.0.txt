@@ -1,0 +1,861 @@
+%@*'
+L4Hg[X
+[Mk3
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+access_lookup
+net_connect_unix
+t_strconcat
+strlen
+fd_send
+default_pool
+i_strdup
+io_add
+timeout_add
+i_error
+access_lookup_destroy
+timeout_remove
+io_remove
+i_panic
+client_input
+t_malloc
+t_strcut
+strchr
+str_sanitize
+login_binary
+getenv
+net_ip2addr
+my_pid
+dec2str
+t_str_new
+str_c
+t_strdup
+str_truncate
+var_get_key
+str_len
+ssl_proxy_is_handshaked
+ssl_proxy_get_last_error
+t_strdup_printf
+ssl_proxy_get_security_string
+str_append
+i_stream_create_fd
+o_stream_create_fd
+client_ref
+client_unref
+i_stream_unref
+o_stream_unref
+master_service
+master_service_client_connection_destroyed
+login_refresh_proctitle
+clients_get_count
+client_log
+t_push
+i_info
+t_pop_check
+client_log_err
+client_is_trusted
+t_strsplit_spaces
+net_parse_range
+net_is_in_network
+__stack_chk_fail
+client_create
+client_vfuncs
+ioloop_time
+last_client
+clients
+auth_client
+auth_client_is_connected
+client_set_auth_waiting
+net_ip_compare
+client_auth_send_challenge
+client_auth_parse_response
+client_get_extra_disconnect_reason
+ssl_proxy_has_broken_client_cert
+ssl_proxy_has_valid_client_cert
+client_destroy
+i_stream_close
+o_stream_close
+sasl_server_auth_abort
+str_free
+net_disconnect
+safe_memset
+login_proxy_free
+ssl_proxy_free
+login_client_destroyed
+master_auth
+master_auth_request_abort
+master_service_get_service_count
+auth_client_disconnect
+clients_destroy_all
+client_destroy_oldest
+client_destroy_success
+client_send_line
+ssl_proxy_alloc
+ssl_proxy_set_client
+ssl_proxy_start
+o_stream_flush
+o_stream_unset_flush_callback
+client_cmd_starttls
+ssl_initialized
+o_stream_uncork
+o_stream_set_flush_pending
+o_stream_set_flush_callback
+client_destroy_internal_failure
+client_send_raw_data
+o_stream_send
+client_send_raw
+client_read
+i_stream_read
+t_strdup_until
+strtol
+i_debug
+client_auth_failed
+auth_client_request_continue
+str_c_modifiable
+login_proxy_is_ourself
+login_proxy_new
+__errno_location
+client_proxy_finish_destroy_client
+login_proxy_get_port
+login_proxy_get_host
+str_printfa
+login_proxy_detach
+str_append_c
+client_proxy_log_failure
+client_proxy_failed
+login_proxy_get_istream
+i_stream_next_line
+i_stream_read_data
+str_append_n
+i_stream_skip
+o_stream_sendv
+client_auth_begin
+sasl_server_auth_begin
+client_check_plaintext_auth
+clients_notify_auth_connected
+i_stream_destroy
+o_stream_destroy
+md5_get_digest
+ipc_cmd_send
+t_strsplit
+ipc_cmd_success
+ipc_cmd_success_reply
+ipc_cmd_fail
+str_to_uint
+login_proxy_state_notify
+strerror
+o_stream_get_buffer_used_size
+net_receive
+timeval_cmp
+ioloop_timeval
+login_proxy_state_get
+net_connect_ip
+net_addr2ip
+dns_lookup
+i_warning
+login_proxy_get_ostream
+login_proxy_get_ssl_flags
+i_stream_get_fd
+o_stream_set_max_buffer_size
+i_stream_get_data
+ipc_server_init
+login_proxy_starttls
+ssl_proxy_client_alloc
+net_geterror
+login_proxy_kill_idle
+login_proxy_init
+login_proxy_state_init
+login_proxy_deinit
+ipc_server_deinit
+login_proxy_state_deinit
+net_ip_hash
+pool_alloconly_create
+hash_table_create
+p_strdup
+hash_table_destroy
+hash_table_lookup
+hash_table_insert
+str_tabescape
+open
+fd_set_nonblock
+p_strsplit
+login_settings_read
+login_set_roots
+master_service_settings_cache_read
+settings_parser_get_list
+settings_dup
+settings_check
+login_setting_parser_info
+settings_var_expand
+master_service_settings_cache_init
+i_fatal
+login_settings_deinit
+master_service_settings_cache_deinit
+master_service_stop_new_connections
+p_strsplit_free
+net_getsockname
+global_login_settings
+master_service_client_connection_accept
+auth_client_connect
+p_strsplit_spaces
+recv
+process_title_set
+ssl_proxy_get_count
+main
+master_service_init
+master_service_init_log
+master_getopt
+optind
+login_process_preinit
+global_other_settings
+master_service_init_finish
+random_init
+ssl_proxy_init
+master_service_get_socket_count
+master_service_get_client_limit
+restrict_fd_limit
+current_ioloop
+io_loop_set_max_fd_count
+anvil_client_init
+anvil
+anvil_client_connect
+restrict_access_by_env
+restrict_access_allow_coredumps
+restrict_process_size
+restrict_access_get_current_chroot
+master_service_set_avail_overflow_callback
+master_service_set_die_callback
+getpid
+auth_client_init
+auth_client_set_connect_notify
+master_auth_init
+clients_init
+master_service_run
+ssl_proxy_deinit
+clients_deinit
+auth_client_deinit
+master_auth_deinit
+anvil_client_deinit
+master_service_deinit
+chdir
+closing_down
+auth_client_send_cancel
+auth_client_request_abort
+strtoul
+ssl_proxy_get_compression
+pool_datastack_create
+buffer_create_dynamic
+buffer_append
+master_auth_request
+auth_client_request_get_server_pid
+auth_client_request_get_id
+buffer_create_data
+auth_client_request_get_cookie
+anvil_client_query
+hex_to_binary
+sasl_server_get_advertised_mechs
+auth_client_get_available_mechs
+t_malloc0
+sasl_server_auth_failed
+str_ucase
+auth_client_find_mech
+ssl_proxy_get_peer_name
+auth_client_request_new
+RSA_generate_key
+ERR_error_string_n
+ERR_get_error_line_data
+ERR_peek_error
+ERR_get_error
+SSL_CTX_ctrl
+SSL_CTX_get_cert_store
+t_strdup_noconst
+BIO_new_mem_buf
+PEM_X509_INFO_read_bio
+BIO_free
+sk_new_null
+sk_value
+X509_STORE_add_cert
+X509_get_subject_name
+X509_NAME_dup
+sk_push
+X509_STORE_add_crl
+sk_num
+X509_INFO_free
+sk_pop_free
+SSL_CTX_set_info_callback
+SSL_CTX_set_tmp_rsa_callback
+SSL_CTX_set_tmp_dh_callback
+i_strocpy
+X509_STORE_set_flags
+SSL_CTX_set_verify
+SSL_CTX_set_client_CA_list
+SSLv23_server_method
+SSL_CTX_new
+SSL_CTX_set_cipher_list
+PEM_read_bio_X509
+SSL_CTX_use_certificate
+X509_free
+SSL_CTX_callback_ctrl
+PEM_read_bio_PrivateKey
+SSL_CTX_use_PrivateKey
+EVP_PKEY_free
+ERR_peek_last_error
+strstr
+ERR_clear_error
+SSL_get_ex_data_X509_STORE_CTX_idx
+X509_STORE_CTX_get_ex_data
+SSL_get_ex_data
+X509_NAME_oneline
+X509_verify_cert_error_string
+SSL_state_string_long
+SSL_alert_desc_string_long
+SSL_alert_type_string_long
+SSL_free
+SSL_shutdown
+SSL_get_servername
+SSL_set_SSL_CTX
+null_strcmp
+SSL_get_error
+net_transmit
+memmove
+SSL_pending
+SSL_read
+SSL_write
+net_set_cork
+SSL_accept
+SSL_connect
+read_full
+DH_free
+SSL_new
+SSL_set_fd
+socketpair
+net_set_nonblock
+SSL_set_ex_data
+i_malloc
+d2i_DHparams
+SSL_get_peer_certificate
+X509_NAME_get_text_by_NID
+SSL_get_current_compression
+SSL_COMP_get_name
+SSL_get_current_cipher
+SSL_CIPHER_get_bits
+SSL_CIPHER_get_name
+SSL_get_version
+SSL_library_init
+SSL_load_error_strings
+OPENSSL_add_all_algorithms_noconf
+SSL_get_ex_new_index
+SSLv23_client_method
+OBJ_txt2nid
+RAND_bytes
+hash_table_iterate_init
+SSL_CTX_free
+hash_table_iterate
+hash_table_iterate_deinit
+EVP_cleanup
+ERR_free_strings
+libssl.so.10
+libcrypto.so.10
+libdl.so.2
+libz.so.1
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libdovecot-login.so.0
+GLIBC_2.4
+GLIBC_2.2.5
+AVAUATUSH
+([]A\A]A^A_
+ATSubH
+[A\]
+l$ L
+t$(L
+|$0H
+fff.
+AWAVAUATI
+C8E1
+[]A\A]A^A_
+t-@8
+l$ H
+fffff.
+l$ H
+fffff.
+AUE1
+D$(1
+T$(dH3
+8[]A\A]
+AWAVI
+AUATM
+|$`@
+[]A\A]A^A_
+ffffff.
+fffff.
+fffff.
+AWAVI
+AUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+?sumA
+sufA
+lu_A
+ffff.
+T$HH
+t$ H
+T$8H
+D$ H
+t$PH
+D$`H
+|$0H
+l$ H
+l$ H
+ffffff.
+t$ H
+ffffff.
+t$ H
+t$ H
+ATUSH
+H;l$
+[]A\A]
+[]A\
+l$ L
+d$(L
+l$0H
+AUATUSH
+8[]A\A]
+D$ u
+\$ t=H
+|$ A
+\$ u
+D$ u
+\$ t;H
+\$ u
+8[]A\A]
+8[]A\A]
+;D$,u
+;D$,u
+|$ H
+8[]A\A]
+fff.
+ffff.
+[]A\
+[]A\A]
+fff.
+D$(1
+T$(dH3
+\$8H
+l$@H
+ffffff.
+uCL)
+[]A\
+fffff.
+D$X1
+T$$H
+T$XdH3
+\$`H
+l$hL
+d$pH
+d$ H
+Cpu_
+AVAUATUSH
+|$ L
+L$xH
+D$ H
+D$8H
+L$@t
+|$PH
+t$`H
+t$dH
+T$tH
+L$ 1
+D$ I
+T$ H
+D$@H
+[]A\A]A^A_
+D$ H
+-yq 
+fffff.
+ATUSH
+T$,H
+t$0dH
+D$H1
+D$ H
+t$01
+=<~ 
+D$ H
+L$0H
+D$HdH3
+P[]A\
+D$ H
+C@t<[
+l$ H
+l$ H
+AUATUSH
+D$x1
+UhH9
+l$ 1
+D$(I
+D$@I
+D$HA
+D$PI
+D$TI
+D$\A
+D$,H
+D$0H
+D$(A
+D$xdH3
+[]A\A]
+fff.
+\$xH
+T$(L
+D$ L
+t$0H
+ATUH
+[]A\
+[]A\
+fffff.
+D$h1
+D$ D!
+D$(H
+D$,H
+D$<H
+D$@H
+D$hdH3
+\$xH
+l$ H
+l$ H
+fff.
+AVAUATI
+[]A\A]A^A_
+ffff.
+AVAUATUH
+[]A\A]A^A_
+ffff.
+x(uk
+l$ H
+l$ H
+l$ H
+l$ 1
+fff.
+-!c 
+D$ H
+C0E1
+8E0A
+t9[H
+l$ H
+opSH
+ATUS
+[]A\
+[]A\
+ffff.
+ATUS
+[]A\
+[]A\
+[]A\
+5XY 
+fff.
+==Y 
+=)Y 
+ffffff.
+AWAVM
+([]A\A]A^A_
+=yW 
+=CW 
+=#W 
+5lU 
+fffff.
+l$ H
+t$ H
+d$ L
+l$(L
+t$0H
+fff.
+fffff.
+=\O 
+connect(%s) failed: %m
+fd_send(%s) failed: %m
+lookup->refcount > 0
+access-lookup.c
+close(%s) failed: %m
+read(%s) failed: %m
+access(%s): Invalid input
+fd_send(%s) didn't write enough bytes
+file %s: line %d (%s): assertion failed: (%s)
+access(%s): Timed out while waiting for reply
+access_lookup_destroy
+secured
+TLS handshaking
+HOME
+client->refcount > 0
+client-common.c
+client->ssl_proxy == NULL
+client->login_proxy == NULL
+clients_count > 0
+fd != -1
+(client sent an invalid cert)
+(client didn't send a cert)
+(no auth attempts)
+(aborted authentication)
+(auth failed, %u attempts)
+client->auth_request == NULL
+client->refcount > 1
+!client->authenticating
+Disconnected: Shutting down
+TLS initialization failed.
+Disconnected
+TLS is already active.
+TLS support isn't enabled.
+Begin TLS negotiation now.
+Disconnected for inactivity.
+Disconnected: Inactivity
+Input buffer full, aborting
+username
+domain
+service
+home
+mech
+lport
+rport
+ssl_security
+mail_pid
+login_trusted_networks: Invalid network '%s'
+(tried to use disabled plaintext auth)
+(cert required, client didn't start TLS)
+(tried to use unsupported auth mechanism)
+(disconnected while authenticating)
+Disconnected: Connection queue full
+Disconnected: TLS initialization failed.
+Internal login failure. Refer to server log for more information.
+Internal login failure (pid=%s id=%u)
+Disconnected: Input buffer full
+client_create
+client_destroy
+client_unref
+Waiting for authentication process to respond..
+Waiting for authentication master process to respond..
+Ignoring unknown passdb extra field: %s
+client->to_auth_waiting == NULL
+!client->destroyed || sasl_reply == SASL_SERVER_REPLY_AUTH_ABORTED || sasl_reply == SASL_SERVER_REPLY_MASTER_FAILED
+Account is temporarily unavailable.
+Authentication aborted by client.
+proxy(%s): started proxying to %s:%u
+proxy(%s): Login failed to %s:%u
+proxy: Remote input buffer full
+proxy: Remote %s:%u disconnected: %s (state=%u)
+Authentication response too large
+Login failed: SSL required for authentication
+Authentication not allowed until SSL/TLS is enabled.
+Login failed: Plaintext authentication disabled
+Plaintext authentication not allowed without SSL/TLS, but your client did it anyway. If anyone was listening, the password was exposed.
+Plaintext authentication disallowed on non-secure (SSL/TLS) connections.
+nologin
+temp
+authz
+reason
+host
+destuser
+pass
+proxy_timeout
+proxy_refresh
+master
+any-cert
+starttls
+client-common-auth.c
+reply->destuser != NULL
+!client->destroyed
+proxy: password not given
+proxy: host not given
+Proxying loops to itself
+dns-client
+Login
+Authentication failed.
+shutdown() failed: %m
+client->io == NULL
+ (master %s)
+Connection closed
+Connection closed: %m
+client_set_auth_waiting
+sasl_callback
+proxy_start
+proxy_input
+ (%s)
+proxy(%s): disconnecting %s%s
+proxy->client_io == NULL
+login-proxy.c
+proxy->client_output == NULL
+Killed by admin
+%s	%s	%s	%s	%u
+KICK
+Missing parameter
+Connection kicked
+KICK-DIRECTOR-HASH
+Invalid parameters
+LIST
+Unknown command
+Disconnected by %s
+Disconnected by %s: %s
+server
+proxy(%s): Host %s:%u is down
+proxy(%s): host not given
+proxy->client_fd == -1
+proxy->server_output != NULL
+ipc-proxy
+proxy->to == NULL
+proxy: SSL certificate not received from %s:%u
+proxy: Received invalid SSL certificate from %s:%u
+proxy(%s): connect(%s, %u) failed: %m
+proxy: connect(%s, %u) timed out
+proxy(%s): DNS lookup of %s failed: %s
+proxy(%s): DNS lookup for %s took %u.%03u s
+proxy: SSL handshake failed to %s:%u
+proxy: connect(%s, %u) failed: %s
+login_proxy_new
+login_proxy_free_reason
+login_proxy_detach
+login_proxy_kill_idle
+login proxy state
+open(%s) failed: %m
+write(%s) failed: %m
+write(%s) wrote partial update
+Unknown ssl setting value: %s
+unknown
+cache_sets[count] == NULL
+login-settings.c
+settings_check(%s) failed: %s
+login_trusted_networks
+login_greeting
+login_log_format_elements
+login_log_format
+login_access_sockets
+ssl_ca
+ssl_cert
+ssl_key
+ssl_key_password
+ssl_cipher_list
+ssl_cert_username_field
+ssl_verify_client_cert
+auth_ssl_require_client_cert
+auth_ssl_username_from_cert
+verbose_ssl
+disable_plaintext_auth
+verbose_auth
+auth_debug
+verbose_proctitle
+mail_max_userip_connections
+Dovecot ready.
+%$: %s
+yes:no:required
+ALL:!LOW:!SSLv2:!EXP:!aNULL
+commonName
+ssl enabled, but ssl_cert not set
+ssl enabled, but ssl_key not set
+ssl_verify_client_cert set, but ssl_ca not
+Error reading configuration: %s
+user=<%u> method=%m rip=%r lip=%l mpid=%e %c
+login_settings_read
+close(client) failed: %m
+login client
+[%s TLS]
+[%s]
+[TLS]
+[%u connections (%u TLS)]
+global login settings
+main.c
+Couldn't connect to anvil
+chdir(login) failed: %m
+proxy-notify
+access(%s): Client refused (rip=%s)
+access(%s): Client disconnected during lookup (rip=%s)
+strcmp(global_login_settings->ssl, "no") == 0 || ssl_initialized
+main_preinit
+reply != SASL_SERVER_REPLY_CONTINUE
+Maximum number of connections from user+IP exceeded (mail_max_userip_connections=%u)
+client->auth_request == request
+auth_client_is_connected(auth_client)
+Unsupported authentication mechanism.
+Plaintext authentication disabled.
+sasl-server.c
+Authenticate %s failed: %s
+status < 0
+user=
+LOOKUP	
+sasl_server_auth_begin
+authenticate_callback
+call_client_callback
+sasl_server_auth_cancel
+Unknown error
+SSL: Stacked error: %s
+BIO_new_mem_buf() failed
+Couldn't parse ssl_ca: %s
+ssl server context
+SSL_CTX_new() failed
+PRIVATE KEY---
+Can't load ssl_cert: %s
+SSL_KEY_PASSWORD
+Invalid certificate: %s: %s
+Valid certificate: %s
+proxy->refcount == 0
+ssl-proxy-openssl.c
+%s syscall failed: %s
+SSL_read()
+SSL_write()
+SSL_connect()
+SSL_accept()
+SSL_new() failed: %s
+SSL_set_fd() failed: %s
+socketpair() failed: %m
+proxy->client == NULL
+ssl-params
+sk_X509_NAME_new_null() failed
+SSL private key file is password protected, but password isn't given
+The file contains a private key (you've mixed ssl_cert and ssl_key settings)
+There is no valid PEM certificate.
+Key is for a different cert than ssl_cert
+Can't set cipher list to '%s': %s
+There is no valid PEM certificate. (You probably forgot '<' from ssl_cert=<%s)
+OpenSSL library doesn't support SNI
+Couldn't parse private ssl_key
+Can't load private ssl_key: %s
+SSL alert: where=0x%x, ret=%d: %s %s [%s]
+SSL failed: where=0x%x: %s [%s]
+SSL: where=0x%x, ret=%d: %s [%s]
+OpenSSL malloc() failed. You may need to increase login_process_size
+%s failed: unknown failure %d (%s)
+Corrupted SSL parameters file: /var/lib/dovecot/ssl-parameters.dat
+SSL support not enabled in configuration
+%s with cipher %s (%d/%d bits)%s
+Invalid ssl_cert_username_field: %s
+ssl_proxy_alloc_common
+ssl_proxy_unref
+ssl_proxy_set_client
+;*3$"
+dovecot
+libdovecot-login.so.0.0.0.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

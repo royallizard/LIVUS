@@ -1,0 +1,218 @@
+tdX>
+!2	m
+	./!
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+gegl_chant_get_type
+gegl_module_query
+v4lmaxchannel
+v4lsetchannelnorm
+v4lgrabinit
+v4lgetaddress
+v4lreadframe
+v4lseterrorlevel
+v4ldebug
+stderr
+__fprintf_chk
+v4lprint
+__printf_chk
+v4ltrylock
+pthread_mutex_trylock
+v4lunlock
+pthread_mutex_unlock
+v4llock
+pthread_mutex_lock
+perror
+v4lsync
+ioctl
+v4lsyncf
+v4lgrabstart
+v4lgrabf
+v4lgetmbuf
+v4lsetpalette
+v4lsetpicture
+v4lgetpicture
+v4lsetfreq
+v4lsetchannel
+v4loverlaystop
+v4loverlaystart
+v4lsetframebuffer
+v4lgetframebuffer
+v4lsetsubcapture
+v4lgetsubcapture
+v4lgetcapability
+v4lsetdefaultnorm
+v4lmunmap
+v4lmmap
+mmap64
+v4lclose
+v4lopen
+open64
+__snprintf_chk
+pthread_mutex_init
+g_snprintf
+gegl_operation_source_get_type
+g_type_module_register_type
+gegl_module_register
+g_slice_alloc0
+babl_component
+babl_type
+babl_model
+babl_format_new
+gegl_operation_set_format
+g_log
+g_malloc0
+gegl_buffer_set
+g_timeout_add
+gegl_operation_get_bounding_box
+gegl_operation_invalidate
+g_free
+g_type_check_class_cast
+g_type_class_peek_parent
+gegl_operation_get_type
+g_dgettext
+gegl_param_spec_file_path
+g_object_class_install_property
+g_param_spec_int
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_value_set_int
+g_value_set_string
+g_value_get_int
+g_value_get_string
+g_strdup
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+v4l.so
+GLIBC_2.2
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.1
+GLIBC_2.4
+GLIBC_2.3.4
+d$$[]
+[^_]
+[^_]
+[^_]
+d$L[^_]
+;J<}
+[^_]
+d$<[^_]
+debug: %d
+v4l device data
+name: %s
+channels: %d
+max size: %dx%d
+min size: %dx%d
+device type;
+VID_TYPE_CAPTURE,
+VID_TYPE_OVERLAY,
+VID_TYPE_CLIPPING,
+VID_TYPE_FRAMERAM,
+VID_TYPE_SCALES,
+VID_TYPE_MONOCHROME,
+VID_TYPE_SUBCAPTURE,
+current status;
+picture.depth: %d
+mbuf.size: %08x
+mbuf.frames: %d
+mbuf.offsets[0]: %08x
+mbuf.offsets[1]: %08x
+v4lsync: sync frame %d.
+v4lsync:VIDIOCSYNC
+v4lgrabstart: grab frame %d.
+v4lgrabstart:VIDIOCMCAPTURE
+v4lgetmbuf:VIDIOCGMBUF
+v4lsetpalette:VIDIOCSPICT
+v4lsetpicture:VIDIOCSPICT
+v4lgetpicture:VIDIOCGPICT
+v4lsetfreq:VIDIOCSFREQ
+v4lsetchannel:VIDIOCSCHAN
+v4loverlaystop:VIDIOCCAPTURE
+v4loverlaystart:VIDIOCCAPTURE
+v4lsetframebuffer:VIDIOCSFBUF
+v4lgetframebuffer:VIDIOCGFBUF
+v4lopen:VIDIOCGCAP
+v4lgetcapability:quit
+v4lmunmap:munmap
+v4lclose:close...
+v4lclose:quit
+/dev/video
+v4lopen:open...
+v4lopen: failed to open %s
+v4lopen:VIDIOCGCHAN...
+v4lopen:VIDIOCGCHAN
+v4lopen:quit
+GeglChantv4l.c
+R'G'B'
+output
+no capbuf found
+gegl:v4l
+input:video
+gegl-0.1
+Path to v4l device
+Path
+/dev/video0
+path
+Width for rendered image
+Width
+width
+Height for rendered image
+Height
+height
+Frame
+frame
+chant-data
+property
+../../gegl/gegl-chant.h:481
+../../gegl/gegl-chant.h:582
+v4lsync: grabbing to frame %d is not started.
+v4lgrabstart: frame %d is already used to grab.
+v4lsetsubcapture:VIDIOCSCAPTURE
+v4lgetsubcapture:VIDIOCGCAPTURE
+v4lgetcapability:VIDIOCGCAP...
+video_init: This device seems not to support video capturing.
+capturing size is set to %dx%d.
+oops,. no usable v4l format found
+Video4Linux input, webcams framegrabbers and similar devices.
+current frame number, can be changed to trigger a reload of the image.
+autotrigger reload this many times a second.
+%s: invalid %s id %u for "%s" of type `%s' in `%s'
+v4l.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

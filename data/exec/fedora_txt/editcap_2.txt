@@ -1,0 +1,302 @@
+/lib/ld-linux.so.2
+libwiretap.so.4
+g_malloc
+_ITM_deregisterTMCloneTable
+g_free
+g_slist_foreach
+g_slist_free
+g_assertion_message_expr
+__gmon_start__
+g_log
+_Jv_RegisterClasses
+g_strdup
+g_snprintf
+_ITM_registerTMCloneTable
+g_strlcpy
+wtap_file_get_idb_info
+wtap_short_string_to_encap
+wtap_file_type_subtype
+wtap_phdr
+wtap_open_offline
+wtap_get_num_encap_types
+wtap_dump
+wtap_encap_string
+register_all_wiretap_modules
+wtap_read
+wtap_get_num_file_types_subtypes
+init_open_routines
+wtap_file_type_subtype_short_string
+wtap_file_type_subtype_string
+wtap_file_encap
+wtap_strerror
+wtap_dump_close
+wtap_encap_short_string
+wtap_dump_open_ng
+wtap_short_string_to_file_type_subtype
+wtap_register_plugin_types
+wtap_dump_can_open
+wtap_file_get_shb_info
+wtap_snapshot_length
+wtap_buf_ptr
+libwsutil.so.4
+g_strconcat
+md5_finish
+nstime_cmp
+init_process_policies
+init_progfile_dir
+strnatcmp
+nstime_set_unset
+scan_plugins
+md5_append
+md5_init
+nstime_delta
+init_report_err
+nstime_is_unset
+libglib-2.0.so.0
+g_slist_insert_sorted
+g_malloc_n
+libpthread.so.0
+libc.so.6
+_IO_stdin_used
+exit
+srand
+optind
+strrchr
+__isoc99_sscanf
+getpid
+strtod
+strtol
+memcmp
+getopt
+strptime
+__fprintf_chk
+stdout
+fputc
+optarg
+stderr
+optopt
+fwrite
+localtime
+strchr
+mktime
+__cxa_finalize
+memmove
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+__libc_csu_init
+_fp_hw
+GLIBC_2.3.4
+GLIBC_2.7
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+D$f~
+D$Lt[
+;D$@
+t$P+L$@+t$<
+T$P)
+D$P)
+T$Pk
+D$P;G
+T$<u
+[^_]
+T$Pk
+T$Pu
+T$lk
+T$lu
+T$Pk
+T$Pu
+T$lk
+T$lu
+d$([
+d$([
+|$Fe
+D$L1
+|$Le3=
+d$\[^_]
+d$$[^
+D$@e
+L$,1
+D$,e3
+d$8[
+D$,1
+D$,e3
+d$<[^_]
+D$,1
+D$,e3
+d$<[^_]
+t$,U
+[^_]
+%05u
+%d%02d%02d%02d%02d%02d
+Packet selection:
+Duplicate packet removal:
+Packet manipulation:
+Output File(s):
+Miscellaneous:
+    %s - %s
+%Y-%m-%d %T
+%d:%d
+editcap: at the same time
+editcap: Can't open %s: %s
+(%s)
+Add_Selected: %s
+Not inclusive ...
+Inclusive ...
+ %i, %i
+editcap: Out of memory
+Editcap 1.12.1
+Packet: %u
+%02x
+filename
+editcap.c
+Editcap %s (Git Rev Unknown from unknown)
+Edit and/or translate the format of capture files.
+See http://www.wireshark.org for more information.
+Usage: editcap [options] ... <infile> <outfile> [ <packet#>[-<packet#>] ... ]
+<infile> and <outfile> must both be present.
+A single packet or a range of packets can be selected.
+  -r                     keep the selected packets; default is to delete them.
+  -A <start time>        only output packets whose timestamp is after (or equal
+                         to) the given time (format as YYYY-MM-DD hh:mm:ss).
+  -B <stop time>         only output packets whose timestamp is before the
+                         given time (format as YYYY-MM-DD hh:mm:ss).
+  -d                     remove packet if duplicate (window == %d).
+  -D <dup window>        remove packet if duplicate; configurable <dup window>
+                         Valid <dup window> values are 0 to %d.
+                         NOTE: A <dup window> of 0 with -v (verbose option) is
+                         useful to print MD5 hashes.
+  -w <dup time window>   remove packet if duplicate packet is found EQUAL TO OR
+                         LESS THAN <dup time window> prior to current packet.
+                         A <dup time window> is specified in relative seconds
+                         (e.g. 0.000001).
+           NOTE: The use of the 'Duplicate packet removal' options with
+           other editcap options except -v may not always work as expected.
+           Specifically the -r, -t or -S options will very likely NOT have the
+           desired effect if combined with the -d, -D or -w.
+  -s <snaplen>           truncate each packet to max. <snaplen> bytes of data.
+  -C [offset:]<choplen>  chop each packet by <choplen> bytes. Positive values
+                         chop at the packet beginning, negative values at the
+                         packet end. If an optional offset precedes the length,
+                         then the bytes chopped will be offset from that value.
+                         Positive offsets are from the packet beginning,
+                         negative offsets are from the packet end. You can use
+                         this option more than once, allowing up to 2 chopping
+                         regions within a packet provided that at least 1
+                         choplen is positive and at least 1 is negative.
+  -L                     adjust the frame length when chopping and/or snapping
+  -t <time adjustment>   adjust the timestamp of each packet;
+                         <time adjustment> is in relative seconds (e.g. -0.5).
+  -S <strict adjustment> adjust timestamp of packets if necessary to insure
+                         strict chronological increasing order. The <strict
+                         adjustment> is specified in relative seconds with
+                         values of 0 or 0.000001 being the most reasonable.
+                         A negative adjustment value will modify timestamps so
+                         that each packet's delta time is the absolute value
+                         of the adjustment specified. A value of -0 will set
+                         all packets to the timestamp of the first packet.
+  -E <error probability> set the probability (between 0.0 and 1.0 incl.) that
+                         a particular packet byte will be randomly changed.
+  -c <packets per file>  split the packet output to different files based on
+                         uniform packet counts with a maximum of
+                         <packets per file> each.
+  -i <seconds per file>  split the packet output to different files based on
+                         uniform time intervals with a maximum of
+                         <seconds per file> each.
+  -F <capture type>      set the output file type; default is pcapng. An empty
+                         "-F" option will list the file types.
+  -T <encap type>        set the output file encapsulation type; default is the
+                         same as the input file. An empty "-T" option will
+                         list the encapsulation types.
+  -h                     display this help and exit.
+  -v                     verbose output.
+                         If -v is used with any of the 'Duplicate Packet
+                         Removal' options (-d, -D or -w) then Packet lengths
+                         and MD5 hashes are printed to standard-error.
+editcap: The available capture file types for the "-F" flag are:
+editcap: The available encapsulation types for the "-T" flag are:
+editcap: init_progfile_dir(): %s
+editcap: "%s" isn't a valid time format
+editcap: "%s" isn't a valid packet count
+editcap: "%d" packet count must be larger than zero
+editcap: "%s" isn't a valid chop length or offset:length
+editcap: "%s" isn't a valid duplicate window value
+editcap: "%d" duplicate window value must be between 0 and %d inclusive.
+editcap: probability "%s" must be between 0.0 and 1.0
+editcap: "%s" isn't a valid capture file type
+editcap: "%s" isn't a valid time interval
+editcap: "%s" isn't a valid snapshot length
+editcap: "%s" isn't a valid time adjustment
+editcap: "%s" isn't a valid encapsulation type
+1: editcap: "%s" isn't a valid rel time value
+2: editcap: "%s" isn't a valid rel time value
+3: editcap: "%s" isn't a valid rel time value
+A:B:c:C:dD:E:F:hi:Lrs:S:t:T:vw:
+editcap: start time is after the stop time
+editcap: can't split on both packet count and time interval
+File %s is a %s capture file.
+Out of room for packet selections!
+editcap: Can't open or create %s: %s
+editcap: Error writing to %s: %s
+Continuing writing in file %s
+Skipped: %u, Len: %u, MD5 Hash: 
+Packet: %u, Len: %u, MD5 Hash: 
+editcap: Frame %u of "%s" has a network type that can't be saved in a "%s" file
+editcap: Frame %u of "%s" is too large for a "%s" file
+editcap: An error occurred while reading "%s": %s.
+%u packet%s seen, %u packet%s skipped with duplicate window of %i packets.
+%u packet%s seen, %u packet%s skipped with duplicate time window equal to or less than %ld.%09ld seconds.
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+main
+;*2$"
+editcap.debug
+7zXZ
+k>HJ
+Upj \
+GaLX
+}r-PTCk
+gW69
+lg^c
+aT 2
+b#cv
+gt_P#
+l3P?
+s?k-
+j}gU
+=&|(
+S@W	
+z\l,
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

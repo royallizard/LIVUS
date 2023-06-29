@@ -1,0 +1,380 @@
+/lib64/ld-linux-x86-64.so.2
+_environ
+GLIBC_2.2.5
+libc.so.6
+__progname
+__printf_chk
+GLIBC_2.3.4
+execvpe
+GLIBC_2.11
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+__environ
+free
+__libc_start_main
+__bss_start
+_edata
+_end
+program_invocation_short_name
+environ
+__cxa_finalize
+__asprintf_chk
+GLIBC_2.8
+strncmp
+__stack_chk_fail
+GLIBC_2.4
+getopt_long
+fputc
+stdout
+_Unwind_Resume
+GCC_3.0
+strcpy
+optind
+optarg
+log_parse_environment
+log_open
+find_binary
+strv_join
+free_and_strdup
+bus_connect_transport_systemd
+sd_bus_flush_close_unref
+setresuid
+posix_openpt
+ptsname_malloc
+unlockpt
+setresgid
+sd_bus_default_system
+getenv
+sd_bus_call_method
+fcntl
+libpthread.so.0
+sd_event_default
+sigprocmask_many
+sd_event_add_signal
+pty_forward_new
+__errno_location
+sd_event_loop
+pty_forward_get_last_char
+sd_bus_unref
+sd_event_unref
+pty_forward_free
+safe_close
+getpid
+unit_name_to_type
+__strdup
+unit_name_change_suffix
+bus_wait_for_jobs_new
+sd_bus_message_new_method_call
+sd_bus_message_set_allow_interactive_authorization
+bus_log_create_error
+sd_bus_call
+bus_error_message
+setpriority
+get_group_creds
+get_user_creds
+strv_extendf
+strv_env_merge
+sd_bus_message_read
+bus_log_parse_error
+bus_wait_for_jobs_one
+strv_free
+bus_wait_for_jobs_free
+sd_bus_message_unref
+sd_bus_error_free
+polkit_agent_open
+sd_bus_message_open_container
+sd_bus_message_append_strv
+sd_bus_message_close_container
+unit_name_mangle_with_suffix
+sd_bus_message_append
+bus_append_unit_property_assignment
+sd_bus_get_unique_name
+sd_id128_randomize
+unit_type_to_string
+strjoin
+log_assert_failed
+version
+safe_atoi
+parse_sec
+calendar_spec_from_string
+calendar_spec_free
+strv_extend
+log_oom_internal
+log_assert_failed_unreachable
+log_get_max_level
+log_internal
+bus_standard_errors
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-231.so
+/usr/lib/systemd
+a_&	
+AWAVAUATI
+[A\A]A^A_]
+AYAZ
+A]A^
+ffff.
+AVAUATUSH
+D$(1
+L$(dH3
+0[]A\A]A^
+D$.P
+D$5P
+D$<P
+D$CP
+D$JP
+D$QP
+D$XP
+D$_P
+D$fP
+D$mP
+D$tP
+D${PD
+fff.
+ffff.
+AUATSH
+QPAP1
+$TERMA
+[A\A]]
+fff.
+AWAVA
+AUATL
+[]A\A]A^A_
+fffff.
+src/run/run.c
+argc >= 0
+argv
+Failed to parse nice value
+Invalid calendar spec: %s
+Unhandled option
++hrH:M:E:p:tq
+.scope
+StartTransientUnit
+/org/freedesktop/systemd1
+org.freedesktop.systemd1
+fail
+(sv)
+PIDs
+a(sa(sv))
+Failed to set nice level: %m
+Failed to resolve user %s: %m
+HOME=%s
+SHELL=%s
+USER=%s
+LOGNAME=%s
+Running scope as unit: %s
+Failed to execute: %m
+.timer
+.service
+RemainAfterElapse
+OnActiveSec
+OnBootSec
+OnStartupSec
+OnUnitActiveSec
+OnUnitInactiveSec
+OnCalendar
+(sa(sv))
+sa(sv)
+Running timer as unit: %s
+Will run service as unit: %s
+Failed to unlock tty: %m
+OpenMachinePTY
+/org/freedesktop/machine1
+org.freedesktop.machine1
+Failed to get machine PTY: %s
+Can't allocate tty via ssh
+Could not watch jobs: %m
+Failed to get event loop: %m
+Failed to run event loop: %m
+Running as unit: %s
+help
+version
+user
+system
+scope
+unit
+description
+slice
+remain-after-exit
+send-sighup
+host
+machine
+service-type
+nice
+setenv
+property
+quiet
+on-active
+on-boot
+on-startup
+on-unit-active
+on-unit-inactive
+on-calendar
+timer-property
+no-block
+no-ask-password
+t >= 0
+t < _UNIT_TYPE_MAX
+run-u
+SendSIGHUP
+Slice
+.slice
+Description
+RemainAfterExit
+Type
+User
+Group
+Nice
+StandardOutput
+StandardInput
+(sv)(sv)(sv)(sv)
+TTYPath
+StandardError
+TERM
+Environment
+ExecStart
+a(sasb)
+(sasb)
+sasb
+%s [OPTIONS...] {COMMAND} [ARGS...]
+Run the specified command in a transient scope or service or timer
+unit. If a timer option is specified and the unit specified with
+the --unit option exists, the command can be omitted.
+  -h --help                       Show this help
+     --version                    Show package version
+     --no-ask-password            Do not prompt for password
+     --user                       Run as user unit
+  -H --host=[USER@]HOST           Operate on remote host
+  -M --machine=CONTAINER          Operate on local container
+     --scope                      Run this as scope rather than service
+     --unit=UNIT                  Run under the specified unit name
+  -p --property=NAME=VALUE        Set unit property
+     --description=TEXT           Description for unit
+     --slice=SLICE                Run in the specified slice
+     --no-block                   Do not wait until operation finished
+  -r --remain-after-exit          Leave service around until explicitly stopped
+     --send-sighup                Send SIGHUP when terminating
+     --service-type=TYPE          Service type
+     --uid=USER                   Run as system user
+     --gid=GROUP                  Run as system group
+     --nice=NICE                  Nice level
+  -E --setenv=NAME=VALUE          Set environment
+  -t --pty                        Run service on pseudo tty
+  -q --quiet                      Suppress information messages during runtime
+Timer options:
+     --on-active=SECONDS          Run after SECONDS delay
+     --on-boot=SECONDS            Run SECONDS after machine was booted up
+     --on-startup=SECONDS         Run SECONDS after systemd activation
+     --on-unit-active=SECONDS     Run SECONDS after the last activation
+     --on-unit-inactive=SECONDS   Run SECONDS after the last deactivation
+     --on-calendar=SPEC           Realtime timer
+     --timer-property=NAME=VALUE  Set timer unit property
+Failed to parse timer value: %s
+Command line to execute required.
+Execution in user context is not supported on non-local systems.
+Scope execution is not supported on non-local systems.
+--remain-after-exit and --service-type= are not supported in --scope mode.
+--pty is not compatible in timer or --scope mode.
+--pty is only supported when connecting to the local system or containers.
+Timer options are not supported in --scope mode.
+--timer-property= has no effect without any other timer options.
+Failed to find executable %s: %m
+Failed to create bus connection: %m
+org.freedesktop.systemd1.Manager
+Failed to mangle scope name: %m
+Failed to start transient scope unit: %s
+Failed to resolve group %s: %m
+Failed to change GID to %u: %m
+Failed to change UID to %u: %m
+Failed to change unit suffix: %m
+Failed to mangle unit name: %m
+Failed to start transient timer unit: %s
+Failed to acquire pseudo tty: %m
+Failed to determine tty name: %m
+Failed to connect to system bus: %m
+org.freedesktop.machine1.Manager
+Failed to duplicate master fd: %m
+Failed to start transient service unit: %s
+sigprocmask_many(SIG_BLOCK, NULL, SIGWINCH, SIGTERM, SIGINT, -1) >= 0
+Running as unit: %s
+Press ^] three times within 1s to disconnect TTY.
+Failed to create PTY forwarder: %m
+Failed to generate random run unit name: %m
+run-r%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x.%s
+Unique name %s has unexpected format.
+parse_argv
+parse_argv
+transient_scope_set_properties
+start_transient_scope
+start_transient_scope
+transient_timer_set_properties
+start_transient_timer
+start_transient_timer
+start_transient_service
+start_transient_service
+main
+transient_cgroup_set_properties
+transient_kill_set_properties
+transient_service_set_properties
+make_unit_name
+make_unit_name
+;*3$"
+zPLR
+	. o.
+gold 1.11
+systemd-run.debug
+7zXZ
+Gl^[$
+W<+i
+19lr
+M8u%	
+NRJ.
+:p_XK
+I*jhI
+iC\X
+tj|a	Sn
+b7Oz
+TQ64
+Y!%X_
+oEXXU
+t8Mi
+79Hs>7
+UaC@+|
+`9-$
+vl9-
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

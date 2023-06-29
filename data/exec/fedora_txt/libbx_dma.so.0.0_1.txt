@@ -1,0 +1,218 @@
+!B' C
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+_ZN13bx_devmodel_c8init_memEP8bx_mem_c
+__gxx_personality_v0
+_ZN13bx_devmodel_c4initEv
+_ZN13bx_devmodel_c5resetEj
+libdma_LTX_plugin_fini
+_ZN8bx_dma_c6get_TCEv
+theDmaDevice
+_ZN8bx_dma_c16reset_controllerEj
+_ZN8bx_dma_c5resetEj
+_ZN13bx_dma_stub_c10raise_HLDAEv
+pluginlog
+_ZN12logfunctions5panicEPKcz
+_ZN13bx_dma_stub_c7set_DRQEjj
+_ZN13bx_dma_stub_c6get_TCEv
+_ZN13bx_dma_stub_c20unregisterDMAChannelEj
+_ZN13bx_dma_stub_c20registerDMA16ChannelEjPFvPtES2_PKc
+_ZN13bx_dma_stub_c19registerDMA8ChannelEjPFvPhES2_PKc
+_ZN8bx_dma_c10raise_HLDAEv
+bx_pc_system
+_ZN14bx_pc_system_c7set_HRQEj
+bx_mem
+_ZN8bx_mem_c17writePhysicalPageEP8bx_cpu_cjjPv
+_ZN8bx_mem_c16readPhysicalPageEP8bx_cpu_cjjPv
+_ZN8bx_dma_c11control_HRQEj
+_ZN8bx_dma_c7set_DRQEjj
+_ZN12logfunctions4infoEPKcz
+_ZN8bx_dma_c20unregisterDMAChannelEj
+_ZN8bx_dma_c20registerDMA16ChannelEjPFvPtES2_PKc
+_ZN8bx_dma_c19registerDMA8ChannelEjPFvPhES2_PKc
+_ZN8bx_dma_c13write_handlerEPvjjj
+_ZN12logfunctions5errorEPKcz
+_ZN12logfunctions6ldebugEPKcz
+channelindex
+_ZN8bx_dma_c12read_handlerEPvjj
+_ZN8bx_dma_c4initEv
+pluginRegisterIOWriteHandler
+pluginRegisterIOReadHandler
+_ZN13bx_devmodel_cD0Ev
+_ZTV13bx_devmodel_c
+_ZN12logfunctionsD2Ev
+_ZdlPv
+_ZN13bx_devmodel_cD1Ev
+_Unwind_Resume
+_ZN8bx_dma_cC1Ev
+_ZN12logfunctionsC2Ev
+_ZTV8bx_dma_c
+_ZN12logfunctions3putEPc
+_ZN12logfunctions7settypeEi
+libdma_LTX_plugin_init
+_Znwm
+bx_devices
+pluginRegisterDeviceDevmodel
+_ZN13bx_dma_stub_cD0Ev
+_ZN13bx_dma_stub_cD1Ev
+_ZN8bx_dma_cD0Ev
+_ZN8bx_dma_cC2Ev
+_ZN8bx_dma_cD1Ev
+_ZN8bx_dma_cD2Ev
+_ZTI8bx_dma_c
+_ZTS8bx_dma_c
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTI13bx_dma_stub_c
+_ZTS13bx_dma_stub_c
+_ZTI13bx_devmodel_c
+_ZTVN10__cxxabiv121__vmi_class_type_infoE
+_ZTS13bx_devmodel_c
+_ZTI12logfunctions
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZTS12logfunctions
+_ZTV13bx_dma_stub_c
+libstdc++.so.6
+libm.so.6
+libc.so.6
+libgcc_s.so.1
+_edata
+__bss_start
+_end
+libbx_dma.so.0
+GCC_3.0
+GLIBC_2.2.5
+CXXABI_1.3
+GLIBCXX_3.4
+%z9 
+%r9 
+%j9 
+%b9 
+%Z9 
+%R9 
+%J9 
+%B9 
+%:9 
+%29 
+%*9 
+%"9 
+=o3 
+-e6 
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+D>`f
+D:dI
+=M3 
+=t2 
+l:|E
+D8dI
+T0`D
+T8tH
+t$ H
+t$ 1
+t$ H
+A D8d
+%g. 
+t$ H
+5j- 
+t$ H
+t$ H
+-&, 
+t$ H
+t$ H
+D8`f
+D8`f
+t$ H
+t$ H
+t$ H
+ BdA
+D;`H
+T;rH
+D;`H
+T;vH
+%T& 
+AVAUATUH
+[]A\A]A^A_H
+raise_HLDA
+set_DRQ
+get_TC
+unregisterDMAChannel
+registerDMA16Channel
+registerDMA8Channel
+set_DRQ() channel > 7
+dma_base = %08x
+dma_base_count = %08x
+dma_roof = %08x
+request outside %dk boundary
+channel %u no longer used
+channel %u used by %s
+    base = %04x
+    curr = %04x
+DMA-%d: clear flip/flop
+DMA-%d: master clear
+DMA-%d: clear mask register
+DMA-%d: write all mask bits
+write ignored: %04xh = %02xh
+read addr=%04x
+DMA controller
+channel 4 used by cascade
+Exit
+%s called in %s stub. you must not have loaded the %s plugin
+no dmaWrite handler for channel %u.
+hlda: transfer_type 3 is undefined
+set_DRQ(): channel %d not connected to device
+set_DRQ: mode_type(%02x) not handled
+registerDMA16Channel: invalid channel number(%u).
+registerDMA16Channel: channel(%u) already in use.
+registerDMA8Channel: invalid channel number(%u).
+registerDMA8Channel: channel(%u) already in use.
+io write to address %08x, len=%u
+write: address=%04x value=%02x
+  DMA-%d base and current address, channel %d
+  DMA-%d base and current count, channel %d
+write to command register: value 0x%02x not supported
+DMA-%d: set request bit for channel %u
+DMA-%d: cleared request bit for channel %u
+DMA-%d: set_mask_bit=%u, channel=%u, mask now=%02xh
+DMA-%d: mode register[%u] = %02x
+DMA-1: page register %d = %02x
+DMA-2: page register %d = %02x
+write: extra page register 0x%04x (unused)
+DMA-%d: read of temporary register always returns 0
+read: extra page register 0x%04x (unused)
+read: unsupported address=%04x
+Init $Id: dma.cc,v 1.40 2006/06/14 16:44:33 sshwarts Exp $
+8bx_dma_c
+13bx_dma_stub_c
+13bx_devmodel_c
+12logfunctions
+zPLR
+libbx_dma.so.0.0.0.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

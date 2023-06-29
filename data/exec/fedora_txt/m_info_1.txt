@@ -1,0 +1,867 @@
+:.1P
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+infotext
+form_str
+sendto_one_numeric
+doing_info_hook
+call_hook
+generation
+creation
+sendto_one
+startup_time
+myctime
+hunt_server
+MyInformation
+SystemTime
+ConfigFileEntry
+_mheader
+info_clist
+info_hlist
+info_msgtab
+m_unregistered
+m_ignore
+temp_dlines
+temp_klines
+service_list
+h_server_introduced
+h_burst_finished
+h_burst_channel
+h_burst_client
+h_iorecvctrl_id
+h_iorecv_id
+h_iosend_id
+eob_count
+conf_parse_failure
+maxconnections
+ServerInfo
+ConfigChannel
+ConfigServerHide
+libdl.so.2
+libcrypt.so.1
+libcrypto.so.10
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+=w0 
+fffff.
+=`" 
+=J" 
+ffff.
+xl tpL
+--/ 
+zl tjL
+AVAUATUH
+[]A\A]A^A_
+T$xH
+T$xH
+zl tOL
+zl u
+zl tfL
+5}. 
+:%s %d %s :On-line since %s
+MAX_CONNECTIONS
+<none>
+NONE
+MASK
+:%s INFO :%s
+:%s %d %s :%-30s %-5d [%-30s]
+:%s %d %s :%-30s %-5s [%-30s]
+INFO
+$Revision: 21662 $
+doing_info
+CPATH
+/etc/ircd/ircd.conf
+DPATH
+/usr
+DLPATH
+/etc/ircd/dline.conf
+Path to D-line File
+ENABLE_SERVICES
+RESVPATH
+/etc/ircd/resv.conf
+Path to resv file
+/usr/share/ircd/opers
+Path to Operator Help Files
+UHPATH
+/usr/share/ircd/users
+Path to User Help Files
+RATBOX_SOMAXCONN
+IPV6
+IPv6 Support
+JOIN_LEAVE_COUNT_EXPIRE_TIME
+Anti SpamBot Parameter
+KILLCHASETIMELIMIT
+Nick Change Tracker for KILL
+KPATH
+/etc/ircd/kline.conf
+Path to K-line File
+/var/log/ircd/ircd.log
+Path to Log File
+MAX_BUFFER
+MAX_JOIN_LEAVE_COUNT
+MIN_JOIN_LEAVE_TIME
+MPATH
+/etc/ircd/ircd.motd
+Path to MOTD File
+NICKNAMEHISTORYLENGTH
+Size of WHOWAS Array
+OPATH
+/etc/ircd/opers.motd
+Path to Operator MOTD File
+OPER_SPAM_COUNTDOWN
+HAVE_LIBCRYPTO
+HAVE_LIBZ
+zlib (ziplinks) support
+PPATH
+/etc/ircd/ircd.pid
+Path to Pid File
+SELECT_TYPE
+epoll
+Method of Multiplexed I/O
+SPATH
+/usr/bin//ircd
+Path to Server Executable
+TS_MAX_DELTA_DEFAULT
+TS_WARN_DELTA_DEFAULT
+USE_IODEBUG_HOOKS
+IO Debugging support
+Max number connections
+anti_nick_flood
+NICK flood protection
+anti_spam_exit_message_time
+burst_away
+caller_id_wait
+client_exit
+client_flood
+connect_timeout
+default_floodcount
+Startup value of FLOODCOUNT
+default_adminstring
+default_operstring
+default_invisible
+Clients are set +i on connect
+disable_auth
+disable_fake_channels
+dot_in_ip6_addr
+Suffix a . to ip6 addresses
+dots_in_ident
+failed_oper_notice
+fname_userlog
+User log file
+fname_fuserlog
+Failed user log file
+fname_operlog
+Operator log file
+fname_foperlog
+Failed operator log file
+fname_serverlog
+fname_klinelog
+KLINE etc log file
+fname_glinelog
+GLINE log file
+fname_operspylog
+Oper spy log file
+fname_ioerrorlog
+IO error log file
+glines
+gline_time
+Expiry time for G-lines
+gline_min_cidr
+gline_min_cidr6
+hide_error_messages
+hide_spoof_ips
+Hide IPs of spoofed users
+Server is a hub
+idletime
+kline_delay
+kline_reason
+dline_with_reason
+kline_with_reason
+map_oper_only
+MAP is oper only
+max_accept
+max_monitor
+max_nick_changes
+max_nick_time
+max_targets
+min_nonwildcard
+min_nonwildcard_simple
+network_name
+Network name
+network_desc
+Network description
+nick_delay
+no_oper_flood
+non_redundant_klines
+operspy_admin_only
+pace_wait
+pace_wait_simple
+ping_cookie
+reject_after_count
+reject_ban_time
+reject_duration
+short_motd
+stats_e_disabled
+STATS e output is disabled
+stats_c_oper_only
+stats_h_oper_only
+stats_i_oper_only
+stats_k_oper_only
+stats_o_oper_only
+stats_P_oper_only
+stats_y_oper_only
+target_change
+tkline_expire_notices
+ts_max_delta
+ts_warn_delta
+use_whois_actually
+warn_no_nline
+default_split_server_count
+Startup value of SPLITNUM
+default_split_user_count
+Startup value of SPLITUSERS
+knock_delay
+knock_delay_channel
+invite_ops_only
+max_bans
+max_chans_per_user
+no_create_on_split
+no_join_on_split
+quiet_on_ban
+use_except
+use_invex
+use_knock
+Enable /KNOCK
+disable_hidden
+flatten_links
+Flatten /links list
+links_delay
+Links rehash delay
+:%s %d %s :Birth Date: %s, compile # %s
+Path to Main Configuration File
+Directory Containing Configuration Files
+ratbox-services compatibility code
+Maximum Queue Length of Pending Connections
+Maximum Buffer Connections Allowed
+Enable OpenSSL CHALLENGE Support
+Maximum Allowed TS Delta from another Server
+Maximum TS Delta before Sending Warning
+Duration a client must be connected for to have an exit message
+Burst away messages on server joins
+Minimum delay between notifying UMODE +g users of messages
+Prepend 'Client Exit:' to user QUIT messages
+Number of lines before a client Excess Flood's
+Connect timeout for connections to servers
+Default adminstring at startup.
+Default operstring at startup.
+Controls whether auth checking is disabled or not
+Controls whether bold etc are disabled for JOIN
+Number of permissable dots in an ident
+Inform opers if someone /oper's with the wrong password
+Server connect/disconnect log file
+G-line (network-wide K-line) support
+Minimum CIDR bitlen for ipv4 glines
+Minimum CIDR bitlen for ipv6 glines
+Hide ERROR messages coming from servers
+Number of minutes before a client is considered idle
+Duration of time to delay kline checking
+K-lined clients sign off with this reason
+Display D-line reason to client on disconnect
+Display K-line reason to client on disconnect
+Maximum nicknames on accept list
+Maximum nicknames on monitor list
+NICK change threshhold setting
+NICK flood protection time interval
+The maximum number of PRIVMSG/NOTICE targets
+Minimum non-wildcard chars in K/G lines
+Minimum non-wildcard chars in xlines/resvs
+Delay nicks are locked for on split
+Disable flood control for operators
+Check for and disallow redundant K-lines
+Send +Z operspy notices to admins only
+Minimum delay between uses of certain commands
+Minimum delay between less intensive commands
+Require ping cookies to connect
+Client rejection threshold setting
+Client rejection time interval
+Client rejection cache duration
+Do not show MOTD; only tell clients they should read it
+STATS C output is only shown to operators
+STATS H output is only shown to operators
+STATS I output is only shown to operators
+STATS K output is only shown to operators
+STATS O output is only shown to operators
+STATS P is only shown to operators
+STATS Y is only shown to operators
+Target change anti-spam system
+Notices given to opers when tklines expire
+Maximum permitted TS delta from another server
+Maximum permitted TS delta before displaying a warning
+RPL_WHOISACTUALLY sent in reply to whois requests
+Display warning if connecting server lacks N-line
+Delay between a users KNOCK attempts
+Delay between KNOCK attempts to a channel
+INVITE is restricted to channelops only
+Total +b/e/I modes allowed in a channel
+Maximum number of channels a user can join
+Disallow creation of channels when split
+Disallow joining channels when split
+Banned users may not send text to a channel
+Enable chanmode +e (ban exceptions)
+Enable chanmode +I (invite exceptions)
+Prevent servers from hiding themselves from a flattened /links
+Hide this server from a flattened /links on remote servers
+;*3$"
+GCC: (GNU) 4.6.2 20111027 (Red Hat 4.6.2-1)
+GCC: (GNU) 4.7.0 20120112 (Red Hat 4.7.0-0.6)
+h	(	
+X	R	
+V7p2
+/usr/lib/gcc/x86_64-redhat-linux/4.7.0/include
+/usr/include/bits
+/usr/include/sys
+/usr/include
+/usr/include/netinet
+../include
+m_info.c
+stddef.h
+types.h
+types.h
+time.h
+time.h
+libio.h
+stdint.h
+sockaddr.h
+socket.h
+in.h
+tools.h
+m_info.h
+client.h
+linebuf.h
+s_conf.h
+hook.h
+class.h
+patricia.h
+msg.h
+modules.h
+stdio.h
+ircd.h
+send.h
+numeric.h
+irc_string.h
+s_serv.h
+PqM:
+Ys=W
+>r4F
+<@F5E
+tCEr>
+parent
+hookfn
+sin6_flowinfo
+maxbits
+config_channel_entry
+__pad1
+bytes
+receiveB
+_shortbuf
+AuthRequest
+from
+caller_id_wait
+max_local
+on_allow_list
+firsttime
+receiveK
+generation
+default_adminstring
+rcount
+operspy_admin_only
+out_wire
+slink
+_IO_buf_end
+fname_klinelog
+__off_t
+Class
+listener
+ref_count
+use_whois_actually
+gline_min_cidr6
+handlers
+stats_e_disabled
+knock_delay_channel
+h_burst_channel
+default_max_clients
+users
+info_msgtab
+first_received_message_time
+sin6_scope_id
+_IO_write_end
+disable_fake_channels
+__u_short
+/builddir/build/BUILD/ircd-ratbox-2.2.8/modules
+send_info_text
+uint32_t
+ConfigFileEntry
+ts_max_delta
+_flags
+sendto_one_numeric
+description
+Message
+zipstats
+server_conf
+h_server_introduced
+_markers
+cidr_amount
+default_split_server_count
+c_class
+max_global
+temp_list
+fname_serverlog
+inK_wire
+prev
+mapi_hook_list
+_IO_lock_t
+doing_info_hook
+default_invisible
+class_name
+OPER_HANDLER
+__u6_addr16
+LocalUser
+GNU C 4.7.0 20120112 (Red Hat 4.7.0-0.6) -m64 -mtune=generic -march=x86-64 -g -g -O2 -O2 -fexceptions -fstack-protector -fPIC --param ssp-buffer-size=4
+_patricia_node_t
+hopcount
+glines
+_IO_read_base
+hapi_name
+in_addr_t
+stdout
+fname_killlog
+gotdatalen
+_IO_save_end
+fname_ioerrorlog
+number_of_nick_changes
+_cur_column
+localClient
+servptr
+long long unsigned int
+stats_k_oper_only
+parc
+config_file_entry
+outK_wire
+mapi_module_version
+infotext
+__u6_addr8
+parv
+m_info.c
+infoptr
+sin_family
+info_clist
+_IO_backup_base
+form_str
+nick
+resvfile
+in_port_t
+creation
+last_used
+sendB
+fname_operspylog
+hide_error_messages
+_fileno
+target_last
+__pad2
+sendK
+sendM
+__pad4
+sin_zero
+MessageHandler
+auth_request
+TEMP_DAY
+disable_hidden
+s_addr
+oper_warn_count_down
+use_knock
+mo_info
+size_t
+sa_family_t
+nick_delay
+prefix
+default_operstring
+burst_away
+max_unknown_ip
+random_ping
+_buf_head
+compression_level
+_patricia_tree_t
+LAST_HANDLER_TYPE
+client_flood
+xlinefile
+stdin
+whowas
+ss_family
+received_number_of_privmsgs
+tv_usec
+sin6_addr
+actually_read
+_dlink_node
+_pos
+idletime
+h_iosend_id
+UNREGISTERED_HANDLER
+invite_ops_only
+chal_time
+max_accept
+strvalue
+mapi_unregister
+mapi_version
+last_knock
+hapi_id
+TEMP_MIN
+alloclen
+max_nick_time
+in_wire
+sockaddr_storage
+m_info
+__ss_align
+dot_in_ip6_addr
+conf_parse_failure
+MyInformation
+_IO_marker
+ConfigChannel
+_IO_read_ptr
+writeofs
+last_leave_time
+connect_timeout
+temp_dlines
+kline_with_reason
+sockhost
+uint8_t
+status
+stats_o_oper_only
+lnode
+ServerInfo
+buf_sendq
+Listener
+network_desc
+no_create_on_split
+receiveM
+mapi_clist_av1
+_IO_write_base
+max_ident
+max_sendq
+_vtable_offset
+slinkq_ofs
+long long int
+spasswd
+_IO_save_base
+sin_port
+RCLIENT_HANDLER
+fullcaps
+anti_nick_flood
+stats_i_oper_only
+ENCAP_HANDLER
+__u6_addr32
+info_hlist
+use_except
+max_total
+failed_oper_notice
+call_hook
+fname_glinelog
+target_change
+mapi_register
+non_redundant_klines
+arg1
+arg2
+warn_no_nline
+default_split_user_count
+kline_delay
+fname_userlog
+tnode
+command
+anti_spam_exit_message_time
+__in6_u
+sin_addr
+stats_c_oper_only
+allow_read
+__pad3
+__pad5
+SystemTime
+max_monitor
+SERVER_HANDLER
+att_sconf
+TEMP_WEEK
+use_ts6
+ConfItem
+option
+_prefix_t
+reject_duration
+hold
+dlinefile
+max_nick_changes
+no_oper_flood
+timeval
+specific_ipv4_vhost
+_mode
+klinefile
+suser
+short unsigned int
+intvalue
+flood_noticed
+uint16_t
+sin6_port
+dots_in_ident
+join_leave_count
+buf_recvq
+use_invex
+in_ratio
+max_chans_per_user
+tkline_expire_notices
+hide_spoof_ips
+pace_wait_simple
+min_nonwildcard
+links_disabled
+dline_with_reason
+_IO_read_end
+server_info
+Whowas
+con_freq
+sin6_family
+short int
+burst_topicwho
+reject_after_count
+min_para
+InfoStruct
+ZipStats
+_dlink_list
+username
+tsinfo
+length
+outK
+ping_freq
+source_p
+sent_parsed
+temp_klines
+quiet_on_ban
+__suseconds_t
+lasttime
+handler
+max_targets
+min_nonwildcard_simple
+sin6
+stats_y_oper_only
+servers
+last_caller_id_time
+mapi_hfn_list
+hook_data
+out_ratio
+HandlerType
+specific_ipv6_vhost
+sockaddr_in
+LAST_TEMP_TYPE
+info_table
+configfile
+last_join_time
+kline_reason
+h_iorecv_id
+fname_foperlog
+pace_wait
+slinkq_len
+stats_h_oper_only
+mapi_mheader_av1
+mapi_hfn_list_av1
+challenge
+h_iorecvctrl_id
+num_active_node
+_lock
+tv_sec
+sizetype
+gline_min_cidr
+oper_umodes
+_old_offset
+servlink_path
+_IO_FILE
+network_name
+eob_count
+targinfo
+knock_delay
+myctime
+ip_limits
+client_p
+serial
+invited
+_sbuf
+oper_only_umodes
+__ss_padding
+slinkq
+ts_warn_delta
+send_birthdate_online_time
+hide_server
+unsigned char
+mapi_command_list
+links_delay
+maxconnections
+_IO_write_ptr
+gline_time
+opername
+send_conf_options
+tail
+Server
+buf_head_t
+info_spy
+service_list
+servlink_data
+MessageEntry
+__time_t
+ctrlfd
+cidr_bitlen
+flatten_links
+sendto_one
+stats_P_oper_only
+fname_operlog
+_mheader
+readdata
+reject_ban_time
+default_floodcount
+egdpool_path
+last_nick_change
+dpath
+use_egd
+client_exit
+att_conf
+mapi_hlist_av1
+config_server_hide
+h_burst_finished
+ping_cookie
+h_burst_client
+numlines
+double
+hunt_server
+max_bans
+output_type
+fname_fuserlog
+_chain
+disable_auth
+short_motd
+TEMP_HOUR
+_flags2
+no_join_on_split
+monitor_list
+startup_time
+sockaddr_in6
+serv
+_next
+map_oper_only
+__off64_t
+_unused2
+_IO_buf_base
+ConfigServerHide
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_loc
+.debug_ranges
+call_gmon_start
+crtstuff.c
+__JCR_LIST__
+deregister_tm_clones
+register_tm_clones
+__do_global_dtors_aux
+completed.6084
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+m_info.c
+send_info_text
+info_spy
+send_birthdate_online_time
+mo_info
+info_table
+m_info
+last_used.11942
+__FRAME_END__
+__JCR_END__
+__dso_handle
+_DYNAMIC
+__TMC_END__
+_GLOBAL_OFFSET_TABLE_
+_mheader
+_ITM_deregisterTMCloneTable
+myctime
+sendto_one
+conf_parse_failure
+h_burst_channel
+_edata
+info_hlist
+h_iorecvctrl_id
+service_list
+h_server_introduced
+_fini
+ServerInfo
+m_unregistered
+SystemTime
+form_str
+m_ignore
+h_iorecv_id
+generation
+hunt_server
+ConfigServerHide
+__gmon_start__
+sendto_one_numeric
+creation
+h_burst_finished
+infotext
+doing_info_hook
+_end
+temp_dlines
+__bss_start
+h_burst_client
+maxconnections
+_Jv_RegisterClasses
+h_iosend_id
+info_msgtab
+temp_klines
+ConfigChannel
+eob_count
+_ITM_registerTMCloneTable
+info_clist
+call_hook
+startup_time
+__cxa_finalize@@GLIBC_2.2.5
+_init
+ConfigFileEntry
+MyInformation

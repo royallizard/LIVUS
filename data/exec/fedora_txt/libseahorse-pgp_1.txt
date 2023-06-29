@@ -1,0 +1,281 @@
+tddF
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+gedit_document_get_type
+g_type_check_instance_is_a
+gtk_text_buffer_get_type
+g_type_check_instance_cast
+gtk_text_buffer_get_selection_bounds
+gtk_text_iter_order
+gtk_text_iter_get_offset
+g_assert_warning
+gtk_text_buffer_get_iter_at_offset
+gtk_text_buffer_get_end_iter
+gtk_text_buffer_get_slice
+gtk_text_buffer_place_cursor
+gtk_text_buffer_move_mark_by_name
+gtk_text_buffer_begin_user_action
+gtk_text_buffer_delete_selection
+gtk_text_buffer_get_insert
+gtk_text_buffer_get_iter_at_mark
+g_printerr
+gtk_text_buffer_end_user_action
+gedit_debug_message
+strlen
+gtk_text_buffer_insert
+seahorse_gedit_cleanup
+dbus_key_proxy
+g_object_unref
+dbus_crypto_proxy
+dbus_connection
+dbus_g_connection_unref
+seahorse_gedit_show_error
+g_strconcat
+gtk_message_dialog_new_with_markup
+g_free
+gtk_dialog_get_type
+gtk_dialog_run
+gtk_widget_destroy
+g_clear_error
+dbus_g_bus_get
+dbus_g_proxy_new_for_name
+cryptui_keyset_new
+dbus_keyset
+dcgettext
+seahorse_gedit_sign
+cryptui_prompt_signer
+dbus_g_proxy_call
+seahorse_gedit_flash
+g_return_if_fail_warning
+seahorse_gedit_encrypt
+cryptui_prompt_recipients
+g_strv_get_type
+g_strfreev
+detect_text_type
+g_strstr_len
+seahorse_gedit_decrypt
+gtk_text_buffer_get_char_count
+dcngettext
+gtk_window_get_type
+seahorse_gedit_active_window
+gedit_warning
+seahorse_gedit_plugin_get_type
+gedit_app_get_default
+gedit_app_get_active_window
+gedit_window_get_type
+gedit_statusbar_get_type
+gedit_window_get_statusbar
+g_strdup_vprintf
+gedit_statusbar_flash_message
+register_gedit_plugin
+bindtextdomain
+bind_textdomain_codeset
+g_type_module_register_type
+g_type_class_peek_parent
+g_type_check_class_cast
+g_object_get_data
+gedit_window_get_active_document
+gtk_action_group_set_sensitive
+gedit_window_get_ui_manager
+gtk_ui_manager_remove_ui
+gtk_ui_manager_remove_action_group
+g_object_set_data
+g_malloc0
+gtk_action_group_new
+gtk_action_group_set_translation_domain
+gtk_action_group_add_actions
+gtk_ui_manager_insert_action_group
+gtk_ui_manager_new_merge_id
+g_object_set_data_full
+gtk_ui_manager_add_ui
+libgnomeui-2.so.0
+libSM.so.6
+libICE.so.6
+libglade-2.0.so.0
+libgnomeprintui-2-2.so.0
+libgtksourceview-2.0.so.0
+libbonoboui-2.so.0
+libgnomevfs-2.so.0
+libgnome-2.so.0
+libpopt.so.0
+libbonobo-2.so.0
+libbonobo-activation.so.4
+libgnomeprint-2-2.so.0
+libz.so.1
+libgnomecanvas-2.so.0
+libart_lgpl_2.so.2
+libxml2.so.2
+libgtk-x11-2.0.so.0
+libgdk-x11-2.0.so.0
+libatk-1.0.so.0
+libgdk_pixbuf-2.0.so.0
+libpangocairo-1.0.so.0
+libpango-1.0.so.0
+libcairo.so.2
+libgmodule-2.0.so.0
+libdl.so.2
+libgconf-2.so.4
+libORBit-2.so.0
+libgthread-2.0.so.0
+librt.so.1
+libdbus-glib-1.so.2
+libdbus-1.so.3
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libcryptui.so.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libseahorse-pgp.so
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.2
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+L[^_]
+D$(@
+L[^_]
+l[^_]
+D$0@
+D$$@
+l[^_]
+[^_]
+D$0@
+D$(@
+D$0@
+D$(@
+[^_]
+ [^]
+,[^_]
+,[^_]
+GEDIT_IS_DOCUMENT (doc)
+seahorse-gedit.c
+start >= 0
+(end > start) || (end < 0)
+selection_bound
+replace != NULL
+There is no selected text
+heading
+error
+</b></big>
+<big><b>
+org.gnome.seahorse.KeyService
+/org/gnome/seahorse/keys
+org.gnome.seahorse
+/org/gnome/seahorse/crypto
+openpgp
+doc != NULL
+Choose Key to Sign with
+signing text
+SignText
+Signed text
+Couldn't sign text
+getting recipients
+Choose Recipient Keys
+encrypting text
+EncryptText
+Encrypted text
+Couldn't encrypt text
+detected type: %d
+start >= last
+block (pos: %d, len %d)
+importing key
+ImportKeys
+Couldn't import keys
+Keys found but not imported
+decrypting message
+DecryptText
+Couldn't decrypt text
+Decrypted text
+verifying message
+VerifyText
+Couldn't verify text
+Verified text
+raw (pos: %d, len %d)
+Imported %d keys
+Imported %d key
+-----BEGIN PGP MESSAGE-----
+-----END PGP MESSAGE-----
+-----END PGP SIGNATURE-----
+Couldn't connect to seahorse-daemon
+org.gnome.seahorse.CryptoService
+No encrypted or signed text is selected.
+-----BEGIN PGP SIGNED MESSAGE-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+-----END PGP PRIVATE KEY BLOCK-----
+seahorse_gedit_sign
+get_document_selection
+get_document_chars
+set_document_selection
+replace_selected_text
+seahorse_gedit_decrypt
+seahorse_gedit_encrypt
+seahorse_gedit_show_error
+status
+seahorse gedit plugin inited
+seahorse-gedit-plugin.c
+/usr/share/locale
+UTF-8
+SeahorseGeditPlugin
+data != NULL
+manager != NULL
+SeahorseGeditPluginActions
+Sign
+/MenuBar/EditMenu/EditOps_5
+Decrypt
+Encrypt
+_Encrypt...
+Encrypt the selected text
+Decr_ypt/Verify
+Decrypt and/or Verify text
+Sig_n...
+Sign the selected text
+Registering SeahorseGeditPlugin
+seahorse-gedit-plugin-window-data
+seahorse gedit plugin destroyed
+seahorse_gedit_active_window
+seahorse_gedit_flash
+register_gedit_plugin
+seahorse_gedit_plugin_init
+seahorse_gedit_plugin_update_ui
+seahorse_gedit_plugin_deactivate
+seahorse_gedit_plugin_activate
+sign_cb
+decrypt_cb
+encrypt_cb
+seahorse_gedit_plugin_finalize
+libseahorse-pgp.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,396 @@
+/lib64/ld-linux-x86-64.so.2
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+write
+read
+__errno_location
+sigaction
+fork
+waitpid
+libc.so.6
+setuid
+chroot
+__printf_chk
+execv
+fopen
+optind
+strrchr
+__strdup
+perror
+__fdelt_chk
+initgroups
+strncpy
+puts
+__stack_chk_fail
+unlink
+select
+realloc
+_exit
+getpid
+kill
+__assert_fail
+strtol
+fgetc
+fgets
+getpwnam
+calloc
+strlen
+setlogmask
+sigemptyset
+openlog
+memset
+chdir
+__syslog_chk
+getopt
+__fprintf_chk
+fclose
+__vsnprintf_chk
+malloc
+umask
+__xstat64
+__ctype_b_loc
+getenv
+optarg
+stderr
+alarm
+__snprintf_chk
+seteuid
+getuid
+gettimeofday
+geteuid
+difftime
+strchr
+__cxa_finalize
+setsid
+setgid
+strcmp
+strerror
+__libc_start_main
+snprintf
+free
+__cxa_atexit
+_edata
+__bss_start
+_end
+__gmon_start__
+GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.3.4
+5BW 
+%DW 
+%BW 
+%:W 
+%2W 
+%*W 
+%"W 
+%zV 
+%rV 
+%jV 
+%bV 
+%ZV 
+%RV 
+%JV 
+%BV 
+%:V 
+%2V 
+%*V 
+%"V 
+%zU 
+%rU 
+%jU 
+%bU 
+%ZU 
+%RU 
+%JU 
+%BU 
+%:U 
+%2U 
+%*U 
+%"U 
+AUATA
+1wNHc
+;-(S 
+=:R 
+fffff.
+fffff.
+ATUH
+[]A\A]
+ffffff.
+[]A\
+[]A\
+[]A\
+ffffff.
+$execf
+T$PH
+D$ H
+L$(H
+D$ H
+D$(H
+|$0H
+5KJ 
+[]A\A]A^
+s []A\A]A^
+=^H 
+AUATI
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+[]A\A]
+fffff.
+[]A\
+fff.
+ffff.
+ffff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+fff.
+ATUSH
+[]A\
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+ffffff.
+[]A\A]
+<$dH
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+AVAUATA
+D$x1
+D$xdH3
+[]A\A]A^A_
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+ffff.
+ffff.
+t#@8
+fff.
+[]A\A]A^
+[]A\A]A^
+AWAVAUATUSH
+L$HH
+[]A\A]A^A_
+l$ L
+?[tE
+=Q4 
+=)4 
+L$PH
+Invalid H
+ctx buff
+ATUSL
+_w?H
+[]A\
+[]A\H
+AVAUATUSH
+H;s(
+s whLc
+[]A\A]A^
+fff.
+fffff.
+ATUS
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+#tVA
+UnbalancH
+ed word 
+GxotesH
+due to uH
+nescapedH
+ # in quH
+ffffff.
+C0t!H
+fffff.
+H;C(r
+C0H9C8t
+ffff.
+[]A\
+E0H9E8t
+AUATUSH
+[]A\A]A^A_
+/\L9
+[]A\A]A^A_
+Stopping UPS: %s
+%s/%s-%s.pid
+Can't open %s
+Sending signal to %s
+Stopping %s failed
+  -h			display this help
+fork
+Driver exited abnormally
+Driver died after signal %d
+execv
+Starting UPS: %s
+%s/%s
+Can't start %s
+Shutdown UPS: %s
+maxstartdelay
+driverpath
+driver
+port
+sdorder
++htu:r:DV
+start
+stop
+shutdown
+/sbin
+UPS %s not found in ups.conf
+Starts and stops UPS drivers via ups.conf.
+usage: %s [OPTIONS] (start | stop | shutdown) [<ups>]
+  -r <path>		drivers will chroot to <path>
+  -t			testing mode - prints actions without doing them
+  -u <user>		drivers started will switch from root to <user>
+  -D            	raise debugging level
+  start			start all UPS drivers in ups.conf
+  start	<ups>		only start driver for UPS <ups>
+  stop			stop all UPS drivers in ups.conf
+  stop <ups>		only stop driver for UPS <ups>
+  shutdown		shutdown all UPS drivers in ups.conf
+  shutdown <ups>	only shutdown UPS <ups>
+Startup timer elapsed, continuing...
+Driver failed to start (exit status=%d)
+Network UPS Tools - UPS driver controller %s
+*** Testing mode: not calling exec/kill
+If you're not a NUT core developer, chances are that you're told to enable debugging
+to see why a driver isn't working for you. We're sorry for the confusion, but this is
+the 'upsdrvctl' wrapper, not the driver you're interested in.
+Below you'll find one or more lines starting with 'exec:' followed by an absolute
+path to the driver binary and some command line option. This is what the driver
+starts and you need to copy and paste that line and append the debug flags to that
+line (less the 'exec:' prefix).
+Error: unrecognized command [%s]
+Error: no UPS definitions found in ups.conf
+Error: no UPS definitions found in ups.conf!
+/var/run/nut
+%s/%s.pid
+common.c
+len <= size
+%4.0f.%06ld	
+/etc/ups
+NUT_CONFPATH
+NUT_STATEPATH
+writepid: fopen %s
+Failed to read pid from %s
+kill
+ %02x
+%s: (%d bytes) =>
+Unable to enter background
+open /dev/null
+Startup successful
+initgroups
+setgid
+setuid
+chdir(%s)
+chroot(%s)
+chdir(/)
+chrooted into %s
+Invalid log level threshold
+user %s not found
+getpwnam(%s)
+Out of memory
+2.6.5
+vupslog: vsnprintf needed more than %d bytes
+Ignoring invalid pid number %d
+getuid gave 0, but seteuid(0) failed
+snprintfcat
+Fatal error in parseconf(ups.conf): %s
+%s/ups.conf
+Can't open %s: %s
+Parse error: %s:%d: %s
+parseconf: fatal error: %s
+realloc wordbuf failed
+realloc arglist failed
+realloc argsize failed
+realloc arglist member failed
+malloc wordbuf failed
+addchar: discarding invalid character (0x%02x)!
+;*3$"
+upsdrvctl.debug
+7zXZ
+/1`(
+)jXx
+5TDja
+R]f!
+K*".
+Adrw
+tX7v
+2.?+
+ct5i
+=Gba
+]t[p
+pp~ 
+//&39
+'qT1
+XQOM
+v WY#
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

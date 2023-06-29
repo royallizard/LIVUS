@@ -1,0 +1,177 @@
+/lib64/ld-linux-x86-64.so.2
+libslp.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_init
+SLPReg
+SLPAssociateIP
+SLPClose
+SLPFindAttrs
+SLPDereg
+SLPFindScopes
+SLPOpen
+SLPGetProperty
+SLPFindSrvTypes
+SLPFindSrvs
+SLPSetProperty
+SLPFree
+strncasecmp
+SLPAssociateIFList
+_fini
+libdl.so.2
+libz.so.1
+libcrypto.so.10
+libpthread.so.0
+libm.so.6
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+__printf_chk
+__strdup
+puts
+__stack_chk_fail
+putchar
+strtol
+strlen
+strcasecmp
+__strncpy_chk
+strchr
+__cxa_finalize
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+52" 
+%4" 
+%2" 
+%*" 
+%"" 
+%z! 
+%r! 
+%j! 
+%b! 
+%Z! 
+D$H1
+L$HdH3
+=q  
+fffff.
+=1  
+5*  
+fffff.
+fffff.
+ATUH
+s0E1
+<$E1
+<$E1
+AVAU
+ATUE1
+D$h1
+^_u]H
+D$hdH3
+p[]A\A]A^
+fff.
+ffff.
+AWAVI
+AUATI
+[]A\A]A^A_
+n0~CI
+AWAVA
+AUATL
+[]A\A]A^A_
+%s,%i
+errorcode: %i
+service:
+Invalid URL: %s
+net.slp.watchRegistrationPID
+net.slp.useScopes
+2.0.0
+slptool version = %s
+net.slp.OpenSLPVersion
+libslp version = %s
+net.slp.OpenSLPConfigFile
+%s = %s
+--version
+--scopes
+--language
+--time
+--interfaces
+--unicastifc
+findsrvs
+findattrs
+findsrvtypes
+deregister
+getproperty
+   options may be:
+      findattrs url [attrids]
+      findscopes
+      register url [attrs]
+      deregister url
+Examples:
+(de)registration errorcode %d
+libslp configuration file = %s
+slptool: Can't use -i and -u together.
+Usage: slptool [options] command-and-arguments 
+      -v (or --version) displays the versions of slptool and OpenSLP.
+      -s (or --scope) followed by a comma-separated list of scopes.
+      -l (or --language) followed by a language tag.
+      -t (or --time) followed by a lifetime tag.
+      -i (or --interfaces) followed by a comma-separated list of interfaces.
+      -u (or --unicastifc) followed by a single interface.
+   command-and-arguments may be:
+      findsrvs service-type [filter]
+      findsrvtypes [authority]
+      getproperty propertyname
+   slptool register service:myserv.x://myhost.com "(attr1=val1),(attr2=val2)"
+   slptool findsrvs service:myserv.x
+   slptool findsrvs service:myserv.x "(attr1=val1)"
+   slptool -i 10.77.13.240,192.168.250.240 findsrvs service:myserv.x
+   slptool -u 10.77.13.237 findsrvs service:myserv.x "(attr1=val1)"
+   slptool findattrs service:myserv.x://myhost.com
+   slptool findattrs service:myserv.x://myhost.com attr1
+   slptool -i 10.77.13.243 findattrs service:myserv.x://myhost.com attr1
+   slptool -u 10.77.13.237 findattrs service:myserv.x://myhost.com attr1 
+   slptool deregister service:myserv.x://myhost.com
+   slptool getproperty net.slp.useScopes
+;*3$"
+slptool.debug
+7zXZ
+,"p]
+w|	@
+VsSy
+D3<8
+H3">E
+s=A3
+Tu6~
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

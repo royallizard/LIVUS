@@ -1,0 +1,329 @@
+Ti"d
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+smb_vfs_call_sys_acl_set_fd
+smb_vfs_call_fremovexattr
+unbecome_root
+smb_vfs_call_sys_acl_set_file
+smb_vfs_call_removexattr
+_talloc_free
+smb_vfs_call_create_file
+talloc_tos
+sd_has_inheritable_components
+debug_level
+DEBUGLEVEL_CLASS
+DEBUGLEVEL_CLASS_ISSET
+ndr_print_security_descriptor
+ndr_print_debug
+se_create_child_secdesc
+smb_vfs_call_fset_nt_acl
+dbghdrclass
+nt_errstr
+fsp_str_dbg
+dbgtext
+smb_panic
+smb_vfs_call_connect
+lp_do_parameter
+parent_dirname
+smb_vfs_call_chdir
+smb_vfs_call_lstat
+vfs_file_id_from_sbuf
+file_find_di_first
+file_find_di_next
+vfs_ChDir
+__errno_location
+smb_vfs_call_unlink
+smb_vfs_call_rmdir
+strerror
+ndr_push_xattr_NTACL
+ndr_push_struct_blob
+ndr_map_error2ntstatus
+ndr_errstr
+__stack_chk_fail
+SHA256_Init
+SHA256_Update
+SHA256_Final
+lp_parm_bool
+smb_vfs_call_fget_nt_acl
+_talloc_realloc_array
+smb_vfs_call_fgetxattr
+ndr_pull_xattr_NTACL
+ndr_pull_struct_blob
+vfs_stat_fsp
+smb_vfs_call_getxattr
+make_sec_desc
+map_nt_error_from_unix
+smb_vfs_call_get_nt_acl
+make_default_filesystem_acl
+_talloc_zero_array
+unix_mode
+map_canon_ace_perms
+global_sid_Creator_Owner
+init_sec_ace
+global_sid_Creator_Group
+global_sid_World
+vfs_stat_smb_fname
+memcpy
+smb1_file_se_access_check
+smb_vfs_call_mkdir
+_talloc_move
+map_errno_from_nt_status
+smb_vfs_call_opendir
+smb_vfs_call_open
+get_full_smb_filename
+smb_vfs_call_fsetxattr
+smb_vfs_call_setxattr
+init_samba_module
+smb_register_vfs
+libc.so.6
+_edata
+__bss_start
+_end
+acl_xattr.so
+GLIBC_2.4
+GLIBC_2.2.5
+5ZF 
+%\F 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+ATSubH
+[A\]
+=p? 
+=V? 
+ffff.
+D$|L
+D$@H
+l$8L
+t$(H
+D$0H
+D$|A
+D$XH
+8	~>H
+|$XH
+T$pH
+t$hL
+8	~>H
+fffff.
+l$01
+:	~`H
+D$h1
+D$"I
+D$*I
+D$2I
+D$ H
+D$:I
+D$(H
+D$BI
+D$0H
+D$JI
+D$8H
+T$hdH3
+p[]A\
+D$x1
+T$xdH3
+AWAVAUI
+ATUSH
+L$8L
+D$0H
+D$?A
+D$ H
+|$ L
+D$0H
+8	~;H
+[]A\A]A^A_
+t$(H
+8	~8H
+t$(H
+t$(H
+t$(H
+t$<H
+T$(H
+D$<H
+t$(I
+t$(H
+t$@1
+T$(L
+\$ H
+5x( 
+5X( 
+t$(H
+t$(H
+l$ L
+t$(H
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+l$ L
+d$(L
+l$0H
+d$(L
+l$0H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$ L
+T$ L
+D$,H
+t$ H
+}(E1
+AWAVAUI
+D$h1
+8	~>L
+D$ f
+T$ H
+T$hdH3
+x[]A\A]A^A_
+security.NTACL
+parent_desc
+modules/vfs_acl_xattr.c:193
+true
+inherit acls
+dos filemode
+force unknown acl user
+directory
+file
+ignore system acls
+acl_xattr
+get_nt_acl_internal: name=%s
+uint8_t
+modules/vfs_acl_xattr.c:58
+modules/vfs_acl_xattr.c:85
+./modules/vfs_acl_common.c:85
+parse_acl_blob returned %s
+struct security_ace
+modules/vfs_acl_xattr.c:106
+modules/vfs_acl_xattr.c:126
+./modules/vfs_acl_common.c:536
+./modules/vfs_acl_common.c:961
+%s() failed to get vfs_handle->data!
+./modules/vfs_acl_common.c:454
+inherit_new_acl: parent acl for %s is:
+./modules/vfs_acl_common.c:471
+inherit_new_acl: child acl for %s is:
+./modules/vfs_acl_common.c:974
+create_file_acl_common: error setting sd for %s (%s)
+create_file_acl_common: logic error.
+connect_acl_xattr: setting 'inherit acls = true' 'dos filemode = true' and 'force unknown acl user = true' for service %s
+./modules/vfs_acl_common.c:811
+acl_common_remove_object: removing %s %s/%s
+./modules/vfs_acl_common.c:846
+acl_common_remove_object: %s %s/%s not an open file
+./modules/vfs_acl_common.c:865
+./modules/vfs_acl_common.c:1003
+unlink_acl_common: unlink of %s failed %s
+./modules/vfs_acl_common.c:883
+rmdir_acl_common: unlink of %s failed %s
+./modules/vfs_acl_common.c:152
+create_acl_blob: ndr_push_xattr_NTACL failed: %s
+./modules/vfs_acl_common.c:266
+./modules/vfs_acl_common.c:286
+get_nt_acl_internal: get_next_acl for file %s returned %s
+./modules/vfs_acl_common.c:293
+get_nt_acl_internal: get_acl_blob returned %s
+parse_acl_blob: ndr_pull_xattr_NTACL failed: %s
+./modules/vfs_acl_common.c:118
+./modules/vfs_acl_common.c:302
+./modules/vfs_acl_common.c:318
+get_nt_acl_internal: ACL blob revision mismatch (%u) for file %s
+./modules/vfs_acl_common.c:319
+./modules/vfs_acl_common.c:330
+./modules/vfs_acl_common.c:339
+get_nt_acl_internal: blob hash matches for file %s
+./modules/vfs_acl_common.c:344
+./modules/vfs_acl_common.c:352
+./modules/vfs_acl_common.c:379
+./modules/vfs_acl_common.c:200
+add_directory_inheritable_components: directory %s, mode = 0%o
+./modules/vfs_acl_common.c:417
+./modules/vfs_acl_common.c:422
+get_nt_acl_internal: returning acl for %s is:
+./modules/vfs_acl_common.c:510
+check_parent_acl_common: get_nt_acl_internal on directory %s for path %s returned %s
+./modules/vfs_acl_common.c:525
+check_parent_acl_common: access check on directory %s for path %s for mask 0x%x returned %s
+./modules/vfs_acl_common.c:559
+open_acl_common: stream open on %s
+./modules/vfs_acl_common.c:587
+open_acl_xattr: %s open refused with error %s
+./modules/vfs_acl_common.c:627
+open_acl_xattr: get_nt_acl_attr_internal for %s returned %s
+./modules/vfs_acl_common.c:712
+fset_nt_acl_xattr: incoming sd for file %s
+CONST_DISCARD(struct security_descriptor *,orig_psd)
+./modules/vfs_acl_common.c:767
+fset_nt_acl_xattr: storing xattr sd for file %s
+CONST_DISCARD(struct security_descriptor *,psd)
+store_acl_blob_fsp: storing blob length %u on file %s
+store_acl_blob_fsp: setting attr failed for file %swith error %s
+fset_nt_acl_common
+get_nt_acl_internal
+parse_acl_blob
+add_directory_inheritable_components
+create_acl_blob
+store_acl_blob_fsp
+unlink_acl_common
+acl_common_remove_object
+create_file_acl_common
+inherit_new_acl
+open_acl_common
+check_parent_acl_common
+rmdir_acl_common
+connect_acl_xattr
+acl_xattr.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

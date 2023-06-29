@@ -1,0 +1,665 @@
+01-*
+%'I1
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+strcase_hash
+pool_alloconly_create
+p_strdup
+file_dotlock_open
+default_pool
+hash_table_create
+i_stream_create_fd
+i_stream_read_data
+i_stream_skip
+ioloop_time
+memcpy
+p_strndup
+hash_table_insert
+i_error
+unlink
+i_stream_unref
+__errno_location
+hash_table_count
+i_panic
+memcmp
+strcasecmp
+duplicate_check
+hash_table_lookup
+duplicate_mark
+duplicate_flush
+o_stream_create_fd_file
+o_stream_cork
+o_stream_send
+hash_table_iterate_init
+strlen
+hash_table_iterate
+o_stream_uncork
+hash_table_iterate_deinit
+o_stream_unref
+file_dotlock_replace
+file_dotlock_delete
+duplicate_init
+mail_user_get_home
+i_strconcat
+mail_user_set_get_storage_set
+duplicate_deinit
+hash_table_destroy
+strchr
+p_strconcat
+my_hostdomain
+lda_setting_parser_info
+mail_user_setting_parser_info
+o_stream_get_buffer_used_size
+o_stream_flush
+o_stream_set_flush_pending
+t_strdup_printf
+o_stream_send_str
+net_connect_ip
+o_stream_create_fd
+o_stream_set_flush_callback
+io_add
+lmtp_client_init
+buffer_create_dynamic
+lmtp_client_close
+io_remove
+i_stream_close
+o_stream_close
+net_disconnect
+lmtp_client_deinit
+lmtp_client_state_to_string
+i_stream_get_size
+lmtp_client_fail
+buffer_get_modifiable_data
+i_stream_read_next_line
+__ctype_b_loc
+array_idx_modifiable_i
+net_geterror
+strerror
+lmtp_client_connect_tcp
+net_addr2ip
+dns_lookup
+net_gethostbyname
+net_gethosterror
+lmtp_client_set_data_header
+lmtp_client_add_rcpt
+buffer_append_space_unsafe
+memset
+lmtp_client_send
+i_stream_ref
+lmtp_client_send_more
+lmtp_client_set_data_output_callback
+mail_deliver_get_address
+mail_get_first_header
+pool_datastack_create
+message_address_parse
+t_strconcat
+mail_deliver_get_log_var_expand_table
+t_malloc
+str_sanitize
+mail_get_first_header_utf8
+mail_get_special
+mail_get_physical_size
+mail_get_virtual_size
+dec2str
+mail_deliver_log
+t_strdup_vprintf
+t_str_new
+str_printfa
+var_expand
+str_c
+i_info
+mail_deliver_session_init
+mail_deliver_session_deinit
+mail_deliver_save_open
+uni_utf8_str_is_valid
+mail_namespace_find
+strcmp
+mailbox_alloc
+mailbox_open
+mailbox_get_last_error
+mailbox_create
+mailbox_sync
+mail_namespace_find_inbox
+mailbox_set_subscribed
+mail_deliver_deduplicate_guid_if_needed
+mailbox_save_get_transaction
+mailbox_transaction_get_mailbox
+mailbox_get_name
+mailbox_get_metadata
+guid_128_generate
+guid_128_to_string
+mailbox_save_set_guid
+buffer_append
+__stack_chk_fail
+mail_deliver_save
+mailbox_get_storage
+mailbox_transaction_begin
+str_array_length
+mailbox_save_alloc
+mailbox_save_set_from_envelope
+mailbox_save_set_flags
+mailbox_header_lookup_init
+mail_alloc
+mailbox_header_lookup_unref
+mailbox_save_set_dest_mail
+mailbox_save_using_mail
+mailbox_keywords_unref
+mail_free
+mailbox_transaction_commit_get_changes
+mail_set_uid
+mailbox_transaction_rollback
+mail_storage_get_last_error
+mailbox_keywords_create_valid
+mailbox_free
+mail_deliver_get_return_address
+mail_deliver_get_new_message_id
+ioloop_timeval
+mail_deliver
+deliver_mail
+mail_deliver_hook_set
+mail_send_rejection
+mailbox_get_settings
+smtp_client_open
+my_pid
+__fprintf_chk
+message_date_create
+fwrite
+str_truncate
+mail_get_hdr_stream
+null_header_filter_callback
+i_stream_create_header_filter
+smtp_client_close
+i_debug
+mail_send_forward
+mail_get_stream
+global_outgoing_count
+current_ioloop
+io_loop_stop
+fopen
+i_fatal
+str_append
+master_service
+master_service_get_name
+str_append_c
+safe_mkstemp
+i_strdup
+fdopen
+pipe
+fork
+close_keep_errno
+t_strdup
+dup2
+master_service_env_clean
+execv_const
+t_strdup_until
+str_to_uint
+fflush
+fileno
+lseek
+io_loop_create
+io_loop_destroy
+fclose
+io_loop_run
+waitpid
+libdovecot-storage.so.0
+libdovecot.so.0
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libdovecot-lda.so.0
+/usr/lib64/dovecot
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+5rq 
+%tq 
+%rq 
+%jq 
+%bq 
+%Zq 
+%Rq 
+%Jq 
+%Bq 
+%:q 
+%2q 
+%*q 
+%"q 
+%zp 
+%rp 
+%jp 
+%bp 
+%Zp 
+%Rp 
+%Jp 
+%Bp 
+%:p 
+%2p 
+%*p 
+%"p 
+%zo 
+%ro 
+%jo 
+%bo 
+%Zo 
+%Ro 
+%Jo 
+%Bo 
+%:o 
+%2o 
+%*o 
+%"o 
+%zn 
+%rn 
+%jn 
+%bn 
+%Zn 
+%Rn 
+%Jn 
+%Bn 
+%:n 
+%2n 
+%*n 
+%"n 
+%zm 
+%rm 
+%jm 
+%bm 
+%Zm 
+%Rm 
+%Jm 
+%Bm 
+%:m 
+%2m 
+%*m 
+%"m 
+%zl 
+%rl 
+%jl 
+%bl 
+%Zl 
+%Rl 
+%Jl 
+%Bl 
+%:l 
+%2l 
+%*l 
+%"l 
+=Rm 
+="m 
+fffff.
+=h` 
+=R` 
+AWAVAUATUH
+|$,1
+T$HH
+T$XH
+t$PL
+D$PD
+T$XH
+t$PL
+t$PL
+t$PI
+[]A\A]A^A_
+D$PD
+;T$(
+t$ H
+T$(H
+l$ H
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+\$(H
+T$4H
+T$8H
+T$(H
+fff.
+t$ H
+ATE1
+([]A\A]
+([]A\A]
+([]A\A]
+ATUH
+[]A\A]
+Cptb1
+t$ H
+fff.
+fffff.
+AUATUSH
+[]A\A]A^
+AWAVAUATUSH
+< t:<-t
+[]A\A]A^A_
+|$`H
+T$LH
+T$LI
+D$HE
+ udH
+[]A\A]A^A_
+|$`H
+ffffff.
+\$(H
+l$0L
+d$8L
+l$@H
+fffff.
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+fffff.
+<$xh
+[]A\
+AVAUI
+ATUSH
+[]A\M
+u`A]A^
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+T$ H
+l$ L
+t$(L
+|$0H
+D$(1
+D$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+AWAVAUATUSH
+D$@H
+D$0H
+|$@L
+|$ H
+t$PH
+D$`H
+D$PH
+|$PH
+[]A\A]A^A_
+L$0H
+l$ H
+l$ H
+d$(L
+l$0H
+ffffff.
+AUATUSH
+T$@H
+T$8H
+|$8H
+L$ 1
+|$ H
+|$ H
+|$ H
+|$ H
+L$ H
+|$ H
+|$ H
+L$ H
+L$ H
+L$ H
+|$ H
+L$ H
+L$ H
+L$ H
+|$ H
+|$ H
+|$ H
+T$(H
+L$(H
+|$ H
+|$ H
+L$ H
+|$ H
+|$ H
+|$ H
+T$(H
+L$(H
+|$ H
+|$ H
+L$@H
+|$ H
+L$ H
+L$ H
+|$ H
+L$ H
+T$HH
+t$01
+|$ H
+X[]A\A]A^A_
+|$@H
+[]A\A]A^A_
+|$@H
+ []A\
+ffff.
+fff.
+\$hH
+l$pL
+d$xL
+D$ H
+D$(H
+D$0t
+l$8L
+t$HH
+D$@H
+t$ H
+ATUSH
+D$(H
+|$ H
+[]A\
+ctx->path != NULL
+duplicate.c
+duplicates
+open(%s) failed: %m
+broken duplicate file %s
+unexpected end of file in %s
+unlink(%s) failed: %m
+close(%s) failed: %m
+write(%s) failed: %m
+/.dovecot.lda-dupes
+file %s: line %d (%s): assertion failed: (%s)
+file_dotlock_create(%s) failed: %m
+record_size == sizeof(time_t) + sizeof(uint32_t)*2
+file_dotlock_replace(%s) failed: %m
+User %s doesn't have home dir set, disabling duplicate database
+duplicate_file_new
+duplicate_read_records
+postmaster_address setting not given
+Your message to <%t> was automatically rejected:%n%r
+postmaster@
+postmaster_address
+hostname
+submission_host
+sendmail_path
+rejection_subject
+rejection_reason
+deliver_log_format
+recipient_delimiter
+lda_original_recipient_header
+quota_full_tempfail
+lda_mailbox_autocreate
+lda_mailbox_autosubscribe
+/usr/sbin/sendmail
+Rejected: %s
+msgid=%m: %$
+RCPT TO:<%s>
+client->refcount > 0
+lmtp-client.c
+client->finish_called
+*set->mail_from == '<'
+*set->my_hostname != '\0'
+lmtp client
+greeting
+LHLO
+MAIL FROM
+RCPT TO
+DATA init
+DATA reply
+DATA (%lu/%lu)
+DATA (%lu/?)
+DATA
+LHLO %s
+EHLO %s
+MAIL FROM:%s
+lmtp client: host not given
+lmtp client: connect(%s, %u) failed: %m
+lmtp client: read() failed: %m
+451 4.4.0 Remote server not answering (read failure)
+451 4.4.0 Remote server not answering (disconnected in input)
+lmtp client: connect(%s, %u) failed: %s
+451 4.4.0 Remote server not answering (connect)
+451 4.4.0 Remote server not answering (disconnected in output)
+lmtp client: DNS lookup of %s failed: %s
+451 4.4.0 Remote server not answering (DNS lookup)
+client->rcpt_next_receive_idx == array_count(&client->recipients)
+lmtp_client_init
+lmtp_client_unref
+lmtp_client_add_rcpt
+unspecified
+Message-ID
+Subject
+From
+%s: 
+mail deliver session
+INBOX
+Mailbox name not valid UTF-8
+Unknown namespace
+ctx->dest_mail == NULL
+mail-deliver.c
+saved mail to %s
+../../src/lib/array.h
+save failed to %s: %s
+Return-Path
+<dovecot-%s-%s-%d@%s>
+msgid
+from
+from_envelope
+vsize
+save failed to open mailbox %s: %s
+idx * array->element_size < array->buffer->used
+range[0].seq1 == range[0].seq2
+mail_deliver_save
+array_idx_i
+delivery-status
+disposition-notification
+5.2.2
+5.2.0
+Auto-Submitted
+Sending a rejection to %s: %s
+%s/%s
+Date: %s
+To: <%s>
+MIME-Version: 1.0
+Subject: %s
+Precedence: bulk
+--%s
+Content-Disposition: inline
+Reporting-MTA: dns; %s
+Original-Recipient
+Final-Recipient: rfc822; %s
+Action: failed
+Status: %s
+Original-Message-ID: %s
+ret != 0
+mail-send.c
+--%s--
+Content-Type
+crlf
+msgid=%s: Auto-submitted message discarded: %s
+msgid=%s: Return-Path missing, rejection reason: %s
+From: Mail Delivery Subsystem <%s>
+Content-Type: multipart/report; report-type=%s;
+	boundary="%s"
+Auto-Submitted: auto-replied (rejected)
+This is a MIME-encapsulated message
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+--%s
+Content-Type: message/delivery-status
+Original-Recipient: rfc822; %s
+--%s
+Content-Type: message/disposition-notification
+Reporting-UA: %s; Dovecot Mail Delivery Agent
+Disposition: automatic-action/MDN-sent-automatically; deleted
+--%s
+Content-Type: message/rfc822
+Sending a forward to <%s> with return path <%s>
+mail_send_rejection
+/dev/null
+fopen() failed: %m
+smtp(%s): DATA failed: %s
+smtp(%s): RCPT TO failed: %s
+pipe() failed: %m
+fork() failed: %m
+dup2() failed: %m
+fdopen() failed: %m
+/tmp/dovecot.
+safe_mkstemp(%s) failed: %m
+waitpid() failed: %m
+fflush(%s) failed: %m
+lseek(%s) failed: %m
+Sendmail process terminated abnormally, exit status %d
+Sendmail process terminated abnormally, signal %d
+Sendmail process stopped, signal %d
+Sendmail process terminated abnormally, return status %d
+Invalid port in submission_host: %s
+;*3$"
+libdovecot-lda.so.0.0.0.debug
+ao;d
+7zXZ
++Yplb
+@g_t
+zlBb
+y{FZ
+tK#*
+2T56
+Nw#e
+$5T/3
+RH\r
+lm %
+%B_>
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

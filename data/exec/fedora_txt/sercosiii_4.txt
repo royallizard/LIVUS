@@ -1,0 +1,704 @@
+{;EQ
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_register
+proto_register_sercosiii
+plugin_reg_handoff
+proto_reg_handoff_sercosiii
+version
+col_set_str
+col_clear
+dissector_try_heuristic
+tvb_get_guint8
+col_append_fstr
+proto_tree_add_item
+proto_item_add_subtree
+dissect_siii_at
+dissect_siii_mdt
+proto_register_protocol
+register_dissector
+register_heur_dissector_list
+proto_register_subtree_array
+dissect_siii_mdt_init
+dissect_siii_at_init
+dissect_siii_mdt_devctrl_init
+dissect_siii_at_devstat_init
+dissect_siii_svc_init
+dissect_siii_mst_init
+dissect_siii_hp_init
+create_dissector_handle
+dissector_add_uint
+dissect_siii_mdt_svc
+tvb_get_letohs
+tvb_get_letohl
+proto_tree_add_text
+dissect_siii_at_svc
+proto_register_field_array
+dissect_siii_mdt_devctrl
+dissect_siii_at_devstat
+dissect_siii_mst
+tvb_new_subset
+tvb_new_subset_remaining
+dissect_siii_mdt_hp
+g_snprintf
+dissect_siii_at_hp
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+sercosiii.so
+GLIBC_2.1.3
+GLIBC_2.4
+D$,1
+D$,e3
+d$$[^
+d$([
+UWVS
+|$xe
+D$L1
+T$:f
+D$Le3
+d$\[^_]
+l$He
+D$,1
+D$,e3
+d$([
+D$,1
+D$,e3
+d$0[^_
+d$([
+D$,1
+D$,e3
+d$0[^_
+d$([
+UWVS
+D$L1
+D$Le3
+d$\[^_]
+T$41
+UWVS
+D$\1
+L$\e3
+d$l[^_]
+D$IReco
+D$Mgniz
+D$Qed D
+D$Uevicf
+D$Yes
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+d$([
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+d$([
+0.0.1
+SERCOS III V1.1
+%s%u Channel=%s
+sercosiii
+ethertype
+IDN code: %c-%u-%04d.%d.%d
+SvcCtrl
+siii.mdt.svch.ctrl
+SvcStat
+siii.mdt.svch.stat
+Svc Info
+siii.mdt.svch.info
+siii.at.svch.info
+siii.mdt.svch.idn
+Data block element
+siii.mdt.svch.dbe
+End of element transmission
+siii.mdt.svch.eot
+Read/Write
+siii.mdt.svch.rw
+Master Handshake
+siii.mdt.svch.mhs
+SVC process
+siii.mdt.svch.proc
+SVC Error
+siii.mdt.svch.error
+Busy
+siii.mdt.svch.busy
+siii.at.svch.ahs
+Telegram Number
+Telegram Type
+Telegram Offset
+Procedure Command Execution
+Procedure Command
+Dummy-Parameter
+Class 1 diagnostic
+Class 2 diagnostic
+Interface status
+Configuration list of AT
+Configuration list of MDT
+MST error counter
+MDT error counter
+Primary operation mode
+Velocity command value
+Positive velocity limit value
+Negative velocity limit value
+Velocity feedback value 1
+Homing velocity
+Homing acceleration
+Velocity polarity parameter
+Velocity data scaling type
+Velocity data scaling factor
+Position command value
+Positive position limit value
+Negative position limit value
+Reference distance 1
+Reference distance 2
+Position polarity parameter
+Position window
+Reversal clearance
+Position data scaling type
+Torque command value
+Additive torque command value
+Positive torque limit value
+Negative torque limit value
+Torque feedback value
+Torque polarity parameter
+Bipolar velocity limit value
+Bipolar torque limit value
+Diagnostic message
+Slave arrangement (SLKN)
+Mask class 2 diagnostic
+Mask class 3 diagnostic
+Reset class 1 diagnostic
+Modulo value
+Position loop KV-factor
+Feedrate override
+Motor peak current
+Amplifier peak current
+Amplifier rated current
+Maximum motor speed
+Load limit of the motor
+Position feedback 2 type
+Resolution of feedback 1
+Resolution of feedback 2
+Resolution of linear feedback
+Feed constant
+Standstill window
+Velocity threshold (nx)
+Torque threshold (Tx)
+CP3 transition check
+CP4 transition check
+Probe value 1 positive edge
+Probe value 1 negative edge
+Probe value 2 positive edge
+Probe value 2 negative edge
+Drive control
+Drive status
+Park axis procedure command
+SERCOS Interface version
+Signal status word
+Signal control word
+Homing parameter
+Reference offset 1
+Reference offset 2
+Spindle angle position
+Spindle positioning parameter
+Friction torque compensation
+Velocity feedback value 2
+Velocity window
+Power threshold (Px)
+Monitoring window
+Weight counterbalance
+Acceleration feedback value 1
+Frequency limit of feedback 1
+Probe control
+Marker position A
+Marker position B
+Displacement parameter 1
+Displacement parameter 2
+Absolute distance 1
+Absolute distance 2
+Probe status
+Spindle relative offset
+Following distance
+Positioning jerk
+Acceleration command time
+Acceleration feedback value 2
+Motor rated current
+Initial coordinate value
+Amplifier warning temperature
+Motor warning temperature
+Motor shut-down temperature
+Drive on delay time
+Drive off delay time
+Temperature data scaling type
+Lower adaptation limit
+Upper adaptation limit
+Adaptation proportional gain
+Engaging dither amplitude
+Average engaging speed
+Engaging dither period
+Parameter set preselection
+Gear-ration preselection
+IDN-list of parameter set
+Minimum spindle speed
+Maximum spindle speed
+Spindle positioning speed
+Lead Spindle Address
+Lead spindle revolutions
+Actual parameter set
+Actual gear ration
+Multiplication factor 1
+Multiplication factor 2
+Target position
+Positioning velocity
+Positioning acceleration
+Coarse position window
+Language selection
+List of available languages
+Password
+Angular setting
+Storage mode
+Velocity window percentage
+Maximum drive off delay time
+Coordinate offset value
+Position feedback 1 type
+Maximum travel range
+Underflow threshold
+Positioning command value
+Current coordinate offset
+Divider modulo value
+Drive enable delay time
+Velocity feed forward gain
+Homing distance
+Suggest home switch distance
+Home switch offset 1
+Real-time control bit 1
+Real-time control bit 2
+Real-time status bit 1
+Real-time status-bit 2
+Synchronization error status
+Overload warning
+Motor overtemperature warning
+Cooling error warning
+Parameter checksum
+Status 'nfeedback = ncommand'
+Status 'nfeedback = 0'
+Status 'T higher than Tx'
+Status 'In position'
+Status 'P greater Px'
+Status 'In Coarse position'
+Status 'Interpolator halted'
+Positioning control
+Velocity error
+Bipolar jerk limit
+Marker pulse distance
+Home switch offset 2
+Positioning deceleration
+MDT data container
+AT data container A1
+Data container A pointer
+Absolute encoder range 1
+Absolute encoder range 2
+DC bus voltage
+DC bus current
+DC bus power
+Motor temperature
+Amplifier temperature
+Active power
+Power overload
+Braking current limit
+Effective current
+DiagnosticNumber
+Velocity feedback filter
+Command value mode
+Home switch
+Position command value status
+Probe 1 enable
+Probe 2 enable
+Homing enable
+Probe 1 positive latched
+Probe 1 negative latched
+Probe 2 positive latched
+Probe 2 negative latched
+Positioning acknowledge
+Measuring data allocation 1
+Measuring data allocation 2
+Emergency stop deceleration
+Active target position
+Positioning status
+Ramp reference velocity
+Position switch control
+Position switch hysteresis
+Limit switch status
+Extended probe control
+Difference value probe 1
+Difference value probe 2
+End position probing window 1
+End position probing window 2
+Marker losses probe 1
+Marker losses probe 2
+Maximum marker losses probe 1
+Maximum marker losses probe 2
+Axis control word
+Axis status word
+Difference value 1 latched
+Difference value 2 latched
+Probe 1 delay positive
+Delay Negative Edge, Probe 1
+Delay positive Edge, Probe 2
+Delay Negative Edge, Probe 2
+Clamping torque
+Limit switch control
+SCP Type & Version
+SERCOS III: Length of MDT
+SERCOS III: Length of AT
+SERCOS III: SVC offset in MDT
+SERCOS III: SVC offset in AT
+SERCOS III: Ring delay
+SERCOS III: Slave delay
+SERCOS III: SYNC delay
+SERCOS III: MAC address
+SERCOS III: IP address
+SERCOS III: Network mask
+SERCOS III: Gateway address
+SERCOS III: Sync jitter
+Requested MTU
+Effective MTU
+Error counter Port1 and Port2
+SERCOSAddress
+Device Control
+Device Status
+SERCOS III: Device control
+SERCOS III: Device status
+Element 0: Closed SVC
+Element 1: Opening IDN
+Element 7: Operation data
+Transmission in progress
+Last transmission
+Read SVC INFO
+Write SVC INFO
+SVC not valid
+SVC valid
+No error
+Error in SVC
+AT-telegram
+MDT-telegram
+Cancel procedure command
+Set procedure command
+siii.mdt.svch.data.telassign.telno
+siii.mdt.svch.data.telassign.mdt_at
+siii.mdt.svch.data.telassign.offset
+siii.mdt.svch.data.proccmd.interrupt
+siii.mdt.svch.data.proccmd.set
+IDN-list of all operation data
+IDN-list of operation data for CP2
+IDN-list of operation data for CP3
+IDN-list of invalid operation data for CP2
+IDN-list of invalid operation data for CP3
+IDN-list of all procedure commands
+Configuration list for signal status word
+Configuration list for signal control word
+Additive velocity command value
+Velocity data scaling exponent
+Additive position command value
+Position feedback value 1 (motor feedback)
+Position feedback value 2 (external feedback)
+Position switch flag parameter
+Position switches (position switch points on 1-16)
+Linear position data scaling factor
+Linear position data scaling exponent
+Rotational position resolution
+Torque/force data scaling type
+Torque/force scaling data factor
+Torque/force scaling data exponent
+Velocity loop proportional gain
+Velocity loop integral action time
+Velocity loop differential time
+Position loop integral action time
+Current loop proportional gain 1
+Current loop integral action time 1
+Motor continuous stall current
+Current loop proportional gain 2
+Current loop integral action time 2
+Input revolutions of load gear
+Output revolutions of load gear
+Manufacturer class 1 diagnostic
+Positive acceleration limit value
+Negative acceleration limit value
+Bipolar acceleration limit value
+Control unit controlled homing procedure command
+Drive controlled homing procedure command
+Position drive stop procedure command
+Position spindle procedure command
+Acceleration data scaling factor
+Acceleration data scaling exponent
+Distance-coded reference marks A
+Distance-coded reference marks B
+Probing cycle procedure command
+Calculate displacement procedure command
+Displacement to the referenced system procedure command
+Manufacturer class 2 diagnostic
+Synchronization velocity window
+Synchronization velocity error limit
+Length of the configurable data record in the AT
+Length of the configurable data record in the MDT
+IDN list of configurable data in the AT
+IDN list of configurable data in the MDT
+Drive controlled gear engaging procedure command
+Cancel reference point procedure command
+IDN-list of all backup operation data
+Set coordinate system procedure command
+Shift coordinate system procedure command
+Cooling error warning temperature
+Amplifier shut-down temperature
+Cooling error shut-down temperature
+Adaptation integral action time
+Switch parameter set procedure command
+Drive controlled synchronous operation procedure command
+Synchronous spindle revolutions
+Synchronization position window
+Synchronization position error limit
+Synchronization position offset
+Load defaults procedure command
+Load working memory procedure command
+Backup working memory procedure command
+IDN-list of selected backup operation data
+Return to Modulo range procedure command
+IDN list of password protected data
+List of supported operation modes
+Selectively backup working memory procedure command
+Allocation of real-time control bit 1
+Allocation of real-time control bit 2
+Allocation of real-time status bit 1
+Allocation of real-time status bit 2
+Synchronization operation status
+Amplifier overtemperature warning
+Positioning velocity higher than n Limit
+Target position outside of travel range
+IDN list of checksum parameter
+Bit number allocation list for signal status word
+Bit number allocation list for signal control word
+Status 'nfeedback less then nx'
+Status 'T greater than Tlimit '
+Status 'ncommand greater than nlimit'
+Status 'Position feedback = active target position'
+Status 'nfeedback less than minimum spindle speed'
+Status 'nfeedback exceeds maximum spindle speed'
+Status 'Target position attained'
+Acceleration feed forward gain
+Distance home switch - marker puls
+MDT data container A list index
+AT data container A list index
+MDT data container A/B configuration list
+AT data container A/B configuration list
+Drive Halt acceleration bipolar
+Velocity feedback monitoring window
+Active position feedback value
+Position feedback monitoring window
+IDN list of configurable real-time/status bits
+IDN list of configurable real-time/control bits
+Position feedback value status
+Reference marker pulse registered
+Bit number allocation of real-time control bit 1
+Bit number allocation of real-time control bit 2
+Bit number allocation of real-time status bit 1
+Bit number allocation of real-time status bit 2
+Positioning velocity threshold in modulo mode
+Target position window in modulo mode
+Activate parametrization level procedure command (PL)
+Exit parameterization level procedure command
+IDN-list of invalid data for parameterization level
+IDN list of configurable measuring data
+Spindle positioning acceleration bipolar
+Set absolute position procedure command
+Set absolute position control word
+Position switches (position switch points off 1-16)
+Start position probing window 1
+Start position probing window 2
+Checksum for backup operation data
+Motor continuous stall torque/force
+SERCOS III: Control unit cycle time (tNcyc)
+SERCOS III: Communication cycle time (tScyc)
+SERCOS III: Number of successive MDT errors
+SERCOS III: Feedback value computation time (t5)
+SERCOS III: AT transmission starting time (t1)
+SERCOS III: Synchronization time (t8)
+SERCOS III: Command value valid time (t3)
+SERCOS III: Device Control offset in MDT
+SERCOS III: Device Status offset in AT
+SERCOS III: Transmission starting time IP channel
+SERCOS III: Ring control - node control
+SERCOS III: Ring status - node status
+SERCOS III: Hardware identification
+SERCOS III: Error counter MDT0 MST
+SERCOS III: Error counter MDT0-3
+SERCOS III: Error counter AT0-3
+Signal assignment Port 1 & Port 2
+AT Command value valid time (t9)
+IDN-list of SERCOS addresses in device
+Element 2: Name of operation data
+Element 3: Attribute of operation data
+Element 4: Unit of operation data
+Element 5: Minimum value of operation data
+Element 6: Maximum value of operation data
+Step finished, slave ready for new step
+Step in process, new step not allowed
+Interrupt procedure command execution
+Enable procedure command execution
+Topology Control
+Identification
+Changing Topology
+Word
+siii.mdt.devcontrol
+Fast Forward on P/S-Channel
+siii.mdt.devcontrol.topcontrol
+siii.mdt.devcontrol.identrequest
+siii.mdt.devcontrol.topologychange
+Loopback on P-Channel and Fast Forward
+Loopback on S-Channel and Fast Forward
+siii.at.devstatus
+Communication Warning
+siii.at.devstatus.commwarning
+Topology Change
+Topology Status
+siii.at.devstatus.topstatus
+Port 1 Status
+Slave data valid
+siii.at.devstatus.slavevalid
+Procedure Command Change
+Parameterization level active
+No link on port
+Link on port
+S III P-Telegram on port
+S III S-Telegram on port
+Error-free connection
+siii.at.devstatus.topologychanged
+siii.at.devstatus.inactportstatus
+siii.at.devstatus.errorconnection
+siii.at.devstatus.proccmdchange
+siii.at.devstatus.paralevelactive
+Error in the connection occurs
+No change in procedure command acknowledgement
+Changing procedure command acknowledgement
+SIII MDT
+ Phase=CP?s -> CP%u
+ Phase=CP%u
+MDT%u
+Service Channels
+Device %u
+Device Controls
+CP is unknown
+Communication Version
+siii.mdt.version
+Revision Number
+siii.mdt.version.revision
+siii.mdt.version.initprocvers
+2 MDTs/ATs in CP1/2
+4 MDTs/ATs in CP1/2
+No remote address allocation
+Remote address allocation
+Number of MDTs and ATS in CP1 and CP2
+siii.mdt.version.num_mdt_at_cp1_2
+Initialization Procedure Version Number
+SIII AT
+AT%u
+Number of Devices: %u
+Device Address %u: No Device
+Device Address %u: %u
+Service Channel
+Device Address %u: No SERCOS Address
+Phase Field
+siii.channel
+siii.type
+Cycle Count Valid
+siii.cyclecntvalid
+siii.telno
+Phase
+siii.mst.phase
+Cycle Cnt
+siii.mst.cyclecnt
+CRC32
+siii.mst.crc32
+P-Telegram
+S-Telegram
+Invalid
+CP0 (Phase Change)
+CP1 (Phase Change)
+CP2 (Phase Change)
+CP3 (Phase Change)
+CP4 (Phase Change)
+Hot-Plug
+Sercos address
+siii.mdt.hp.sercosaddress
+HP control
+siii.mdt.hp.ctrl
+HP info
+siii.mdt.hp.info
+siii.at.hp.sercosaddress
+HP status
+siii.mdt.hp.stat
+siii.at.hp.info
+siii.mdt.hp.parameter
+Switch to SVC
+siii.mdt.hp.switch
+Parameter Received
+siii.at.hp.parameter
+HP/SVC
+siii.at.hp.hp0_finished
+siii.at.hp.error
+No data
+tScyc
+Communication timeout
+MDT0 Length
+MDT1 Length
+MDT2 Length
+MDT3 Length
+AT0 Length
+AT1 Length
+AT2 Length
+AT3 Length
+MDT-SVC pointer
+MDT-RTD pointer
+AT-SVC pointer
+AT-RTD pointer
+Transmission via HP-field
+Acknowledgement in HP-1
+Error in HP-1
+Next Sercos Slave has same address
+;*2$" 
+sercosiii.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

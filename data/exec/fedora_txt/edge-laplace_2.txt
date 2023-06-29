@@ -1,0 +1,366 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+g_dgettext
+gegl_operation_class_set_keys
+g_type_check_instance_cast
+babl_format
+gegl_operation_set_format
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+gegl_cl_is_accelerated
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_buffer_cl_iterator_next
+gegl_clSetKernelArg
+gegl_cl_errstring
+gegl_operation_get_required_for_output
+g_malloc0_n
+gegl_buffer_get
+gegl_buffer_set
+g_free
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_clEnqueueBarrier
+gegl_cl_compile_and_build
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+edge-laplace.so
+GLIBC_2.4
+GLIBC_2.2.5
+%zN 
+%rN 
+%jN 
+%bN 
+%ZN 
+%RN 
+%JN 
+%BN 
+%:N 
+%2N 
+%*N 
+%"N 
+=9N 
+=	N 
+u+UH
+\$`f
+D$H1
+D$@8
+D$(H
+[]A\
+ []A\
+ []A\
+AWAVI
+AUATUSH
+T$ dH
+|$ H
+L$ j
+D$,A
+D$(PA
+D$$PH
+L$ 1
+D$,j
+D$(PA
+D$$P
+D$pI
+D$XH
+D$lH
+D$XH
+)d$@H
+t$XL
+\$PI
+\$8H
+T$xH
+L$pH
+L$pL
+%vG 
+~D$(H
+L$(H
+D$8D
+T$8B
+L$(H
+|$0L
+L$(H
+H;D$
+D$(D
++L$8
+L$(A
+t$0D9
+|$ H
+[]A\A]A^A_
+D$ H
+ol$@H
+GeglChantedge-laplace.c
+gegl-0.2
+description
+edge-detect
+categories
+gegl:edge-laplace
+name
+RGBA float
+input
+output
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+pre_edgelaplace
+knl_edgelaplace
+GEGL-edge-laplace.c
+High-resolution edge detection
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+#define LAPLACE_RADIUS 1                                              
+void minmax(float x1, float x2, float x3,                             
+            float x4, float x5,                                       
+            float *min_result,                                        
+            float *max_result)                                        
+{                                                                     
+    float min1, min2, max1, max2;                                     
+                                                                      
+    if (x1 > x2)                                                      
+    {                                                                 
+        max1 = x1;                                                    
+        min1 = x2;                                                    
+    }                                                                 
+    else                                                              
+    {                                                                 
+        max1 = x2;                                                    
+        min1 = x1;                                                    
+    }                                                                 
+                                                                      
+    if (x3 > x4)                                                      
+    {                                                                 
+        max2 = x3;                                                    
+        min2 = x4;                                                    
+    }                                                                 
+    else                                                              
+    {                                                                 
+        max2 = x4;                                                    
+        min2 = x3;                                                    
+    }                                                                 
+                                                                      
+    if (min1 < min2)                                                  
+        *min_result = fmin(min1, x5);                                 
+    else                                                              
+        *min_result = fmin(min2, x5);                                 
+    if (max1 > max2)                                                  
+        *max_result = fmax(max1, x5);                                 
+    else                                                              
+        *max_result = fmax(max2, x5);                                 
+}                                                                     
+                                                                      
+kernel void pre_edgelaplace (global float4 *in,                       
+                             global float4 *out)                      
+{                                                                     
+    int gidx = get_global_id(0);                                      
+    int gidy = get_global_id(1);                                      
+                                                                      
+    int src_width  = get_global_size(0) + LAPLACE_RADIUS * 2;         
+    int src_height = get_global_size(1);                              
+                                                                      
+    int i = gidx + LAPLACE_RADIUS, j = gidy + LAPLACE_RADIUS;         
+    int gid1d = i + j * src_width;                                    
+                                                                      
+    float pix_fl[4] = {                                               
+        in[gid1d - 1 - src_width].x, in[gid1d - 1 - src_width].y,     
+        in[gid1d - 1 - src_width].z, in[gid1d - 1 - src_width].w      
+    };                                                                
+    float pix_fm[4] = {                                               
+        in[gid1d     - src_width].x, in[gid1d     - src_width].y,     
+        in[gid1d     - src_width].z, in[gid1d     - src_width].w      
+    };                                                                
+    float pix_fr[4] = {                                               
+        in[gid1d + 1 - src_width].x, in[gid1d + 1 - src_width].y,     
+        in[gid1d + 1 - src_width].z, in[gid1d + 1 - src_width].w      
+    };                                                                
+    float pix_ml[4] = {                                               
+        in[gid1d - 1            ].x, in[gid1d - 1            ].y,     
+        in[gid1d - 1            ].z, in[gid1d - 1            ].w      
+    };                                                                
+    float pix_mm[4] = {                                               
+        in[gid1d                ].x, in[gid1d                ].y,     
+        in[gid1d                ].z, in[gid1d                ].w      
+    };                                                                
+    float pix_mr[4] = {                                               
+        in[gid1d + 1            ].x, in[gid1d + 1            ].y,     
+        in[gid1d + 1            ].z, in[gid1d + 1            ].w      
+    };                                                                
+    float pix_bl[4] = {                                               
+        in[gid1d - 1 + src_width].x, in[gid1d - 1 + src_width].y,     
+        in[gid1d - 1 + src_width].z, in[gid1d - 1 + src_width].w      
+    };                                                                
+    float pix_bm[4] = {                                               
+        in[gid1d     + src_width].x, in[gid1d     + src_width].y,     
+        in[gid1d     + src_width].z, in[gid1d     + src_width].w      
+    };                                                                
+    float pix_br[4] = {                                               
+        in[gid1d + 1 + src_width].x, in[gid1d + 1 + src_width].y,     
+        in[gid1d + 1 + src_width].z, in[gid1d + 1 + src_width].w      
+    };                                                                
+                                                                      
+    int c;                                                            
+    float minval, maxval;                                             
+    float gradient[4];                                                
+                                                                      
+    for (c = 0;c < 3; ++c)                                            
+    {                                                                 
+        minmax(pix_fm[c], pix_bm[c], pix_ml[c], pix_mr[c],            
+            pix_mm[c], &minval, &maxval);                             
+        gradient[c] = 0.5f *                                          
+            fmax((maxval - pix_mm[c]),(pix_mm[c] - minval));          
+        gradient[c] =                                                 
+            (pix_fl[c] + pix_fm[c] + pix_fr[c] +                      
+             pix_ml[c] + pix_mr[c] + pix_bl[c] +                      
+             pix_bm[c] + pix_br[c] - 8.0f * pix_mm[c]) >              
+             0.0f ? gradient[c] : -1.0f * gradient[c];                
+    }                                                                 
+    gradient[3] = pix_mm[3];                                          
+                                                                      
+    out[gid1d] = (float4)                                             
+        (gradient[0], gradient[1], gradient[2], gradient[3]);         
+}                                                                     
+                                                                      
+kernel void knl_edgelaplace (global float4 *in,                       
+                             global float4 *out)                      
+{                                                                     
+    int gidx = get_global_id(0);                                      
+    int gidy = get_global_id(1);                                      
+                                                                      
+    int src_width  = get_global_size(0) + LAPLACE_RADIUS * 2;         
+    int src_height = get_global_size(1);                              
+                                                                      
+    int i = gidx + LAPLACE_RADIUS, j = gidy + LAPLACE_RADIUS;         
+    int gid1d = i + j * src_width;                                    
+                                                                      
+    float pix_fl[4] = {                                               
+        in[gid1d - 1 - src_width].x, in[gid1d - 1 - src_width].y,     
+        in[gid1d - 1 - src_width].z, in[gid1d - 1 - src_width].w      
+    };                                                                
+    float pix_fm[4] = {                                               
+        in[gid1d     - src_width].x, in[gid1d     - src_width].y,     
+        in[gid1d     - src_width].z, in[gid1d     - src_width].w      
+    };                                                                
+    float pix_fr[4] = {                                               
+        in[gid1d + 1 - src_width].x, in[gid1d + 1 - src_width].y,     
+        in[gid1d + 1 - src_width].z, in[gid1d + 1 - src_width].w      
+    };                                                                
+    float pix_ml[4] = {                                               
+        in[gid1d - 1            ].x, in[gid1d - 1            ].y,     
+        in[gid1d - 1            ].z, in[gid1d - 1            ].w      
+    };                                                                
+    float pix_mm[4] = {                                               
+        in[gid1d                ].x, in[gid1d                ].y,     
+        in[gid1d                ].z, in[gid1d                ].w      
+    };                                                                
+    float pix_mr[4] = {                                               
+        in[gid1d + 1            ].x, in[gid1d + 1            ].y,     
+        in[gid1d + 1            ].z, in[gid1d + 1            ].w      
+    };                                                                
+    float pix_bl[4] = {                                               
+        in[gid1d - 1 + src_width].x, in[gid1d - 1 + src_width].y,     
+        in[gid1d - 1 + src_width].z, in[gid1d - 1 + src_width].w      
+    };                                                                
+    float pix_bm[4] = {                                               
+        in[gid1d     + src_width].x, in[gid1d     + src_width].y,     
+        in[gid1d     + src_width].z, in[gid1d     + src_width].w      
+    };                                                                
+    float pix_br[4] = {                                               
+        in[gid1d + 1 + src_width].x, in[gid1d + 1 + src_width].y,     
+        in[gid1d + 1 + src_width].z, in[gid1d + 1 + src_width].w      
+    };                                                                
+                                                                      
+    int c;                                                            
+    float value[4];                                                   
+                                                                      
+    for (c = 0;c < 3; ++c)                                            
+    {                                                                 
+        float current = pix_mm[c];                                    
+        current =                                                     
+            ((current > 0.0f) &&                                      
+             (pix_fl[c] < 0.0f || pix_fm[c] < 0.0f ||                 
+              pix_fr[c] < 0.0f || pix_ml[c] < 0.0f ||                 
+              pix_mr[c] < 0.0f || pix_bl[c] < 0.0f ||                 
+              pix_bm[c] < 0.0f || pix_br[c] < 0.0f )                  
+            ) ? current : 0.0f;                                       
+        value[c] = current;                                           
+    }                                                                 
+    value[3] = pix_mm[3];                                             
+                                                                      
+    out[gidx + gidy * get_global_size(0)] = (float4)                  
+        (value[0], value[1], value[2], value[3]);                     
+}                                                                     
+[OpenCL] Error in gegl:edge-laplace: %s
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+edge-laplace.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+xRPX
+0w~Y
+{2+yY
+!bBa
+<UF9
++ir,
+q.M{
+l0LQT
+L,U+
+J.*i
+6<zG
+KirD
+Bjk?
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

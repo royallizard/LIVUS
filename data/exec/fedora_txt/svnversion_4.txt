@@ -1,0 +1,139 @@
+/lib64/ld-linux-x86-64.so.2
+qa.\;5
+libsvn_wc-1.so.0
+__gmon_start__
+_Jv_RegisterClasses
+svn_io_check_path
+apr_pool_destroy
+svn_error_clear
+svn_path_internal_style
+svn_pool_create_ex
+svn_wc_check_wc
+svn_wc_revision_status
+svn_wc_version
+libsvn_delta-1.so.0
+libsvn_diff-1.so.0
+apr_getopt_long
+svn_utf_cstring_to_utf8
+libsvn_subr-1.so.0
+svn_cmdline_printf
+svn_opt_print_help3
+svn_opt_format_option
+svn_cmdline_fprintf
+svn_cmdline_fflush
+svn_ver_check_list
+svn_handle_error2
+svn_cmdline_init
+svn_cmdline_fputs
+svn_subr_version
+svn_cmdline_handle_exit_error
+svn_cmdline__getopt_init
+libz.so.1
+libsqlite3.so.0
+libaprutil-1.so.0
+libcrypt.so.1
+libexpat.so.1
+libdb-4.8.so
+libapr-1.so.0
+apr_allocator_create
+apr_allocator_owner_set
+apr_allocator_max_free_set
+libpthread.so.0
+libdl.so.2
+libc.so.6
+exit
+dcgettext
+stdout
+stderr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+D$@H
+D$Hn
+D$`c
+D$PH
+D$xh
+D$XH
+D$hH
+D$pH
+[]A\A]A^
+l$ H
+D$8A
+D$8H
+@(Hc
+ATSubH
+[A\]
+l$ L
+t$(L
+|$0H
+Type 'svnversion --help' for usage.
+do not output the trailing newline
+last changed rather than current revisions
+show program version information
+usage: svnversion [OPTIONS] [WC_PATH [TRAIL_URL]]
+  Produce a compact 'version number' for the working copy path
+  WC_PATH.  TRAIL_URL is the trailing portion of the URL used to
+  determine if WC_PATH itself is switched (detection of switches
+  within WC_PATH does not rely on TRAIL_URL).  The version number
+  is written to standard output.  For example:
+    $ svnversion . /repos/svn/trunk
+    4168
+  The version number will be a single number if the working
+  copy is single revision, unmodified, not switched and with
+  an URL that matches the TRAIL_URL argument.  If the working
+  copy is unusual the version number will be more complex:
+   4123:4168     mixed revision working copy
+   4168M         modified working copy
+   4123S         switched working copy
+   4123P         partial working copy, from a sparse checkout
+   4123:4168MS   mixed revision, modified, switched working copy
+  If invoked on a directory that is not a working copy, an
+  exported directory say, the program will output 'exported'.
+  If invoked without arguments WC_PATH will be the current directory.
+Valid options:
+'%s' not versioned, and not exported
+subversion
+no-newline
+committed
+display this help
+svnversion
+svnversion: 
+  %s
+svn: 
+exported%s
+:%ld
+svn_subr
+svn_wc
+svnversion.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,206 @@
+tdHS
+Zxmy
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_get_hv
+Perl_hv_common_key_len
+Perl_newHV
+Perl_croak_nocontext
+Perl_sv_upgrade
+Perl_newCONSTSUB
+Perl_croak
+boot_Sys__Syslog
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_Sys__Syslog_constant
+Perl_newXS
+XS_Sys__Syslog_LOG_FAC
+XS_Sys__Syslog_LOG_PRI
+XS_Sys__Syslog_LOG_MAKEPRI
+XS_Sys__Syslog_LOG_MASK
+XS_Sys__Syslog_LOG_UPTO
+XS_Sys__Syslog_openlog_xs
+XS_Sys__Syslog_syslog_xs
+XS_Sys__Syslog_setlogmask_xs
+XS_Sys__Syslog_closelog_xs
+Perl_newSViv
+Perl_Isub_generation_ptr
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_vstringify
+closelog
+Perl_sv_free2
+Perl_sv_2iv_flags
+Perl_Iop_ptr
+Perl_sv_newmortal
+setlogmask
+Perl_pad_sv
+__syslog_chk
+Perl_newSVsv
+openlog
+Perl_sv_setiv
+Perl_mg_set
+Perl_newSVpvf_nocontext
+Perl_sv_2mortal
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+[^_]
+[^_]
+,[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+<[^_]
+ExtUtils::Constant::ProxySubs::Missing
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "const-c.inc", line %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((*ref)->sv_flags & 0xff)) >= SVt_RV
+((svtype)((*ref)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((*ref)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((*ref)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((*ref)->sv_flags & 0xff)) != SVt_PVFM
+!((((*ref)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((*ref)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((*ref)->sv_flags & 0xff)) == SVt_PVLV))
+Couldn't add key '%s' to %%Sys::Syslog::
+((svtype)((*sv)->sv_flags & 0xff)) >= SVt_RV
+((svtype)((*sv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((*sv)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((*sv)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((*sv)->sv_flags & 0xff)) != SVt_PVFM
+!((((*sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((*sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((*sv)->sv_flags & 0xff)) == SVt_PVLV))
+Assertion %s failed: file "Syslog.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+Assertion %s failed: file "Syslog.xs", line %d
+Your vendor has not defined Sys::Syslog macro %-p, used
+%-p is not a valid Sys::Syslog macro
+Sys::Syslog
+XS_VERSION
+%s::%s
+0.24
+version
+bootstrap parameter
+Syslog.c
+Sys::Syslog::constant
+Sys::Syslog::LOG_FAC
+Sys::Syslog::LOG_PRI
+Sys::Syslog::LOG_MAKEPRI
+Sys::Syslog::LOG_MASK
+Sys::Syslog::LOG_UPTO
+Sys::Syslog::openlog_xs
+Sys::Syslog::syslog_xs
+Sys::Syslog::setlogmask_xs
+Sys::Syslog::closelog_xs
+Sys::Syslog::
+Usage: %s(%s)
+mask
+priority, message
+ident, option, facility
+fac, pri
+_PATH_LOG
+/dev/log
+LOG_ALERT
+LOG_CRIT
+LOG_DEBUG
+LOG_EMERG
+LOG_ERR
+LOG_INFO
+LOG_NOTICE
+LOG_WARNING
+LOG_AUTH
+LOG_AUTHPRIV
+LOG_CRON
+LOG_DAEMON
+LOG_FTP
+LOG_KERN
+LOG_LOCAL0
+LOG_LOCAL1
+LOG_LOCAL2
+LOG_LOCAL3
+LOG_LOCAL4
+LOG_LOCAL5
+LOG_LOCAL6
+LOG_LOCAL7
+LOG_LPR
+LOG_MAIL
+LOG_NEWS
+LOG_SYSLOG
+LOG_USER
+LOG_UUCP
+LOG_CONS
+LOG_PID
+LOG_NDELAY
+LOG_NOWAIT
+LOG_ODELAY
+LOG_PERROR
+LOG_FACMASK
+LOG_PRIMASK
+LOG_NFACILITIES
+LOG_INSTALL
+LOG_LAUNCHD
+LOG_NETINFO
+LOG_RAS
+LOG_REMOTEAUTH
+LOG_CONSOLE
+LOG_NTP
+LOG_SECURITY
+LOG_AUDIT
+LOG_LFMT
+Syslog.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

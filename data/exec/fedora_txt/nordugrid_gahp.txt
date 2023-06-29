@@ -1,0 +1,668 @@
+/lib64/ld-linux-x86-64.so.2
+r5#O
+t5Xj
+o{ik	C
+ed2"C7 Hg
+libdl.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libglobus_ftp_client.so.2
+globus_cond_init
+globus_hashtable_insert
+globus_hashtable_init
+globus_error_construct_string
+globus_url_parse
+globus_error_put
+globus_cond_wait
+globus_list_empty
+globus_mutex_lock
+globus_mutex_unlock
+globus_hashtable_lookup
+globus_fifo_enqueue
+globus_list_rest
+globus_module_deactivate
+globus_callback_space_register_periodic
+globus_fifo_dequeue
+globus_url_destroy
+globus_fifo_init
+globus_mutex_init
+globus_list_first
+globus_list_remove
+globus_list_insert
+globus_hashtable_remove
+globus_fifo_empty
+globus_ftp_client_register_read
+globus_ftp_client_exists
+globus_ftp_client_cwd
+globus_ftp_client_operationattr_set_authorization
+globus_i_ftp_client_module
+globus_ftp_client_handle_init
+globus_ftp_client_handleattr_init
+globus_ftp_client_handle_destroy
+globus_ftp_client_third_party_transfer
+globus_ftp_client_get
+globus_ftp_client_handleattr_set_cache_all
+globus_ftp_client_operationattr_destroy
+globus_ftp_client_rmdir
+globus_ftp_client_put
+globus_ftp_client_register_write
+globus_ftp_client_operationattr_init
+libglobus_gssapi_error.so.2
+libglobus_xio.so.0
+globus_hashtable_string_keyeq
+globus_i_common_module
+globus_libc_lock
+globus_fifo_size
+globus_error_print_friendly
+globus_hashtable_first
+globus_libc_unlock
+globus_hashtable_next
+globus_error_peek
+globus_hashtable_string_hash
+libglobus_io.so.3
+globus_l_io_module
+globus_io_register_select
+globus_io_file_posix_convert
+libglobus_rsl.so.2
+globus_rsl_parse
+globus_rsl_value_make_sequence
+globus_rsl_relation_get_value_sequence
+globus_rsl_is_relation_attribute_equal
+globus_rsl_free_recursive
+globus_rsl_unparse
+globus_rsl_value_sequence_get_value_list
+globus_rsl_boolean_get_operand_list
+globus_rsl_value_make_literal
+libglobus_gss_assist.so.3
+globus_gss_assist_acquire_cred
+libglobus_gssapi_gsi.so.4
+gss_import_cred
+gss_release_cred
+libglobus_gsi_proxy_core.so.0
+libglobus_gsi_credential.so.1
+libglobus_gsi_callback.so.0
+libglobus_gsi_sysconfig.so.1
+libglobus_oldgaa.so.0
+libglobus_gsi_cert_utils.so.0
+libglobus_openssl.so.0
+libglobus_openssl_error.so.0
+libglobus_proxy_ssl.so.1
+libglobus_callout.so.0
+libglobus_common.so.0
+globus_thread_set_model
+globus_module_activate
+libltdl.so.7
+libssl.so.10
+libcrypto.so.10
+libldap-2.4.so.2
+ber_free
+ldap_msgfree
+ldap_simple_bind_s
+ldap_next_entry
+ldap_value_free
+ldap_first_entry
+ldap_next_attribute
+ldap_init
+ldap_get_values
+ldap_search_s
+ldap_unbind
+ldap_first_attribute
+liblber-2.4.so.2
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libpthread.so.0
+__errno_location
+sigaction
+open
+close
+lseek
+libc.so.6
+__xpg_basename
+fflush
+strcpy
+__printf_chk
+__strdup
+__isoc99_sscanf
+puts
+fork
+sigprocmask
+time
+__stack_chk_fail
+realloc
+_exit
+getpid
+kill
+strtol
+calloc
+strlen
+sigemptyset
+memset
+unsetenv
+__fprintf_chk
+sigaddset
+stdout
+memcpy
+strcasecmp
+stderr
+strchr
+__vfprintf_chk
+__cxa_finalize
+__sprintf_chk
+memmove
+__libc_start_main
+_edata
+__bss_start
+_end
+$ORIGIN/../lib:/lib64:/usr/lib64:$ORIGIN/../lib/condor:/usr/lib64/condor
+handle_nordugrid_ldap_query
+result_fifo
+handle_nordugrid_stage_in
+nordugrid_exit_info_read_callback
+nordugrid_submit_cwd1_callback
+nordugrid_stage_in_write_callback
+nordugrid_exit_info_get_callback
+__libc_csu_fini
+nordugrid_submit_cwd2_callback
+fifo_control
+malloc_user_arg
+escape_spaces
+nordugrid_ping_exists_callback
+main_activate_globus
+gridftp_transfer_start_callback
+__data_start
+free_user_arg
+escape_err_msg
+handle_nordugrid_stage_out
+quit_on_signal
+gahp_sem_init
+begin_ftp_command
+ResponsePrefix
+handle_version
+handle_quit
+nordugrid_stage_in_start_file_callback
+nordugrid_ping_start_callback
+handle_response_prefix
+nordugrid_status_read_callback
+handle_nordugrid_submit
+nordugrid_stage_out2_get_callback
+nordugrid_stage_in_exists_callback
+nordugrid_stage_out2_read_callback
+nordugrid_stage_in_start_callback
+handle_uncache_proxy
+handle_refresh_proxy_from_file
+handle_nordugrid_exit_info
+handle_results
+CondorPlatform
+handle_nordugrid_stage_out2
+gridftp_transfer_write_callback
+nordugrid_submit_put_callback
+nordugrid_cancel_rmdir_callback
+handle_async_mode_off
+gahp_sem_down
+gridftp_transfer_done_callback
+handle_use_cached_proxy
+ftp_handle_attr
+nordugrid_cancel_start_callback
+handle_nordugrid_status
+my_string_free
+gridftp_transfer_read_callback
+__libc_csu_init
+my_string_malloc
+quit_on_signal_with_core
+unlink_ref_count
+CondorVersion
+stdin_handle
+clean_ftp_handles
+nordugrid_submit_start_callback
+nordugrid_status_start_callback
+handle_cache_proxy_from_file
+enqueue_results
+GlobusActive
+handle_commands
+nordugrid_submit_write_callback
+finish_ftp_command
+read_command
+current_cred
+AsyncResults
+gahp_sem_up
+process_string_arg
+nordugrid_status_get_callback
+all_args_free
+nordugrid_stage_in_put_callback
+handle_gridftp_transfer
+nordugrid_stage_out2_start_file_callback
+handle_async_mode_on
+dispatch_ftp_command
+handle_initialize_from_file
+service_commands
+ftp_cache_table
+handle_nordugrid_cancel
+process_int_arg
+my_strcat
+handle_nordugrid_ping
+handle_bad_request
+main_deactivate_globus
+print_control
+_IO_stdin_used
+my_string_convert
+nordugrid_exit_info_start_callback
+gahp_printf
+ResultsPending
+handle_cache
+globus_gssapi_gsi
+GLOBUS_COMMON_14
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.7
+GLIBC_2.14
+%z{ 
+%r{ 
+%j{ 
+%b{ 
+%Z{ 
+%R{ 
+%J{ 
+%B{ 
+%:{ 
+%2{ 
+%*{ 
+%"{ 
+%zz 
+%rz 
+%jz 
+%bz 
+%Zz 
+%Rz 
+%Jz 
+%Bz 
+%:z 
+%2z 
+%*z 
+%"z 
+%zy 
+%ry 
+%jy 
+%by 
+%Zy 
+%Ry 
+%Jy 
+%By 
+%:y 
+%2y 
+%*y 
+%"y 
+%zx 
+%rx 
+%jx 
+%bx 
+%Zx 
+%Rx 
+%Jx 
+=Cw 
+=Kx 
+=Zw 
+fffff.
+=au 
+5Zu 
+fffff.
+=)u 
+fffff.
+t;SH
+fffff.
+AUATUSH
+l$@tDH
+[]A\A]
+H;]8v
+[]A\A]
+[]A\A]
+AVAUATUSH
+t$@tBH
+[]A\A]A^
+rILc
+H;k8v
+[]A\A]A^
+ffffff.
+fffff.
+AUATI
+IcT$
+[]A\A]
+<$Hc
+$IcT$
+ATUI
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+8 tsH
+[]A\
+t+SH
+fffff.
+ATUI
+-co 
+=4o 
+[]A\
+ATUH
+[]A\
+ATUH
+\tiHc
+[]A\
+t;USH
+fffff.
+AUATI
+h t	
+[]A\A]
+='l 
+ffffff.
+AWAVI
+AUATUSH
+5Xk 
+-)k 
+=8k 
+[]A\A]A^A_
+ffffff.
+ATUSH
+=Mi 
+[]A\
+[]A\
+ffff.
+AWAVAUATUSH
+t$(H
+\$(H
+ldap_sim
+ple_bindf
+_s faile1
+|$0H
+[]A\A]A^A_
+t$0H
+D$8H
+T$8H
+|$81
+ldap_sea
+iled
+rch_s faH
+ldap_ope
+n failedH
+AWAV1
+AUATUSH
+5Tc 
+[]A\A]A^A_
+AUATI
+[]A\A]
+I9D$ u
+D$HH
+]A\A]
+5oa 
+D$ H
+ffffff.
+AVAUATUH
+[]A\A]A^
+[]A\A]A^
+.gahp_co
+mpleH
+=r] 
+teH9
+tmH9
+AUATUSH
+D\0H
+[]A\A]
+=[Y 
+[]A\A]
+AVAUATUSH
+l$ M
+L$(H
+[]A\A]A^
+=;W 
+[]A\A]A^
+l$ M
+L$(H
+ATUSH
+|$ H
+AVAUATUSH
+[]A\A]A^
+ATUI
+[]A\
+ATUH
+[]A\
+ATUH
+ZYu H
+[]A\
+AVAUATUSH
+[]A\A]A^
+ATUI
+[]A\
+[]A\
+AVAUATUSH
+[]A\A]A^
+.gahp_co
+mpleI
+ATUI
+[]A\
+ATUI
+[]A\
+AUATUSH
+d$@tDH
+[]A\A]
+[]A\A]
+[]A\A]H
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+ATUI
+[]A\
+AWAVAUATUSH
+d$@tHH
+[]A\A]A^A_
+[]A\A]A^A_H
+[]A\A]A^A_
+AWAVAUATI
+[]A\A]A^A_
+l$ L
+t$`H
+D$4H
+L$,1
+L$(H
+D$8I
+D$(H
+ATUI
+[]A\
+[]A\
+AVAUATUSH
+[]A\A]A^
+ATUI
+[]A\
+ATUI
+[]A\
+AUATUSH
+d$@tDH
+[]A\A]
+[]A\A]
+[]A\A]H
+ZYu/[]A\
+[]A\
+C@x\H
+^_[]A\
+AWAVAUATUSH
+d$@tHH
+[]A\A]A^A_
+[]A\A]A^A_H
+[]A\A]A^A_
+t_ATH
+t;L9
+[]A\
+[]A\
+ATUSH
+d$0H
+d$(L
+T$(H
+t$ H
+=#5 
+[]A\
+=04 
+ffffff.
+[]A\
+-|3 
+[]A\
+[]A\
+ffffff.
+fffff.
+AWAVAUATA
+=v1 
+=a1 
+<\tN<
+< tV<
+D9t$
+Hct$
+D9t$
+[]A\A]A^A_
+ATU1
+=e0 
+[]A\
+AWAVA
+AUATL
+%&# 
+-&# 
+[]A\A]A^A_
+nordugrid_submit_write_callback: %s
+nordugrid_status_read_callback: %s
+nordugrid_exit_info_read_callback: %s
+COMMANDS NORDUGRID_SUBMIT NORDUGRID_STATUS NORDUGRID_CANCEL NORDUGRID_STAGE_IN NORDUGRID_STAGE_OUT NORDUGRID_STAGE_OUT2 NORDUGRID_EXIT_INFO NORDUGRID_PING NORDUGRID_LDAP_QUERY GRIDFTP_TRANSFER INITIALIZE_FROM_FILE QUIT RESULTS VERSION ASYNC_MODE_ON ASYNC_MODE_OFF RESPONSE_PREFIX REFRESH_PROXY_FROM_FILE CACHE_PROXY_FROM_FILE USE_CACHED_PROXY UNCACHE_PROXY
+$GahpVersion: 1.3.0 Oct  1 2015 Nordugrid\ Gahp $
+nordugrid_submit_cwd1_callback: %s
+gsiftp://%s/jobs/info/%s/status
+nordugrid_status_start_callback: %s
+Failed to open local file '%s'
+nordugrid_stage_in_write_callback: %s
+nordugrid_stage_out2_start_file_callback: %s
+nordugrid_stage_out2_read_callback: %s
+Command terminated by signal %d
+WallTime=%[0-9.]s
+KernelTime=%[0-9.]s
+UserTime=%[0-9.]s
+Failed to parse job usage info
+Command exited with non-zero status %d
+nordugrid_exit_info_start_callback: %s
+gridftp_transfer_write_callback: %s
+gridftp_transfer_start_callback: %s
+gridftp_transfer_read_callback: %s
+uncache_proxy\ failed\ sanity\ check!!!
+F Failed\ to\ import\ credential\ maj=%d\ min=%d
+F globus_hashtable_insert\ failed!
+F %d Failed\ to\ activate\ Globus modules
+ERROR %d Failed to globus_io_register_select stdin
+ERROR %d Failed to activate Globus fifo
+ERROR %d Failed to activate cred handle cache
+ERROR %d Failed to activate Globus IO Module
+ERROR %d Failed to get globus_io handle to stdin
+ERROR %d globus_callback_register_periodic() failed
+S %s
+S %d
+X509_USER_PROXY
+F Error\ Codes:\ %d\ %d
+%s 1 %s
+Unknown ftp command type: %d
+Failed to parsed RSL
+%s 1 NULL %s
+inputfiles
+%s:%d
+%s 0 %s NULL
+gsiftp://%s/jobs/new
+Failed to parse job id
+250 "jobs/%[A-Za-z0-9]
+gsiftp://%s/jobs/new/job
+gsiftp://%s/jobs
+%s 0 NULL
+/dev/null
+gsiftp://%s/jobs/%s/%s
+.gahp_complete
+Failed to close local file
+Failed to read local file
+Failed to write local file
+WallTime
+Command
+%s 1 0 0 0 0 0 %s
+job info diag file:
+%s 0 %d %d %s %s %s NULL
+gsiftp://%s/jobs/info/%s/diag
+gsiftp://%s/jobs/%s
+file://
+DEFAULT
+F handle\ not\ found
+F "DEFAULT"\ not\ allowed
+F bad\ file\ name
+X509_USER_PROXY=%s
+none
+initialize_from_file
+cache_proxy_from_file
+uncache_proxy
+use_cached_proxy
+commands
+version
+quit
+results
+async_mode_on
+async_mode_off
+response_prefix
+refresh_proxy_from_file
+nordugrid_submit
+nordugrid_status
+nordugrid_cancel
+nordugrid_stage_in
+nordugrid_stage_out
+nordugrid_stage_out2
+nordugrid_exit_info
+nordugrid_ping
+nordugrid_ldap_query
+gridftp_transfer
+X509_RUN_AS_SERVER
+X509_USER_KEY
+X509_USER_CERT
+Unable to active Globus!
+$CondorVersion: 8.3.8 Oct 01 2015 BuildID: RH-8.3.8-1.fc23 $
+$CondorPlatform: X86_64-RedHat_ $
+;*3$"
+nordugrid_gahp.debug
+7zXZ
+]W*n
+[=D,
+3Uq4
+Cb+#p ~
+=5i~
+r%?p
+Y#]K
+^yOM
+jE1aN
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

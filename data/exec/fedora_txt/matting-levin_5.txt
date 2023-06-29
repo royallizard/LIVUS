@@ -1,0 +1,361 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_composer_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+memcpy
+g_return_if_fail_warning
+g_malloc0_n
+memset
+g_free
+g_malloc_n
+_Unwind_Resume
+__gcc_personality_v0
+cblas_dgemm
+g_warn_message
+g_malloc
+umfpack_dl_triplet_to_col
+gegl_rectangle_is_empty
+umfpack_di_defaults
+umfpack_dl_symbolic
+umfpack_dl_numeric
+umfpack_dl_solve
+umfpack_dl_free_numeric
+umfpack_dl_free_symbolic
+g_log
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+g_param_spec_int
+g_object_class_install_property
+g_param_spec_double
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_value_set_int
+g_value_set_double
+g_value_get_int
+g_value_get_double
+__isnan
+babl_format_get_n_components
+gegl_buffer_get
+powf
+gegl_buffer_set
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libumfpack.so.5
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+matting-levin.so
+GLIBC_2.4
+GLIBC_2.2.5
+GCC_3.0
+GCC_3.3.1
+a_&	
+%za 
+%ra 
+%ja 
+%ba 
+%Za 
+%Ra 
+%Ja 
+%Ba 
+%:a 
+%2a 
+%*a 
+%"a 
+ATSubH
+%d\ 
+[A\]
+= \ 
+fffff.
+|$Pf
+D$0(
+D$ H
+D$81
+T$PH
+T$PE1
+fff.
+AWAVAUATU
+\$<L
+t$ L
+T$8A
+\$0A
+4$Mc
+D;d$
+H[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+HcD$
++~Lf
+D;|$
+]A\A]A^A_
+HcD$
+AWAVI
+IcT$
+IcD$
+E9D$
+[]A\A]A^A_
+[]A\A]A^A_
+AUATSH
+[A\A]A^]
+AWAVAUATI
+t$?H)
+D$?H
+|$?I
+T$ A
+dH34%(
+[A\A]A^A_]
+AVAUI
+\$?H)
+t$?H
+|$?H
+L$(H
+D$ D
+T$(H
+L$ H
+[A\A]A^A_]
+\$?H
+fff.
+AWAVAUI
+D$(H
+[]A\A]A^A_
+D$0L
+D$0H
+D$0H
+t1vO
+=;/ 
+G vrH
+t$(H
+L$ H
+L$ H
+t$(H
+_ vrH
+t$(H
+L$ H
+L$ H
+t$(H
+ffffff.
+AWAVAUATUSH
+|$(H
+L$DD
+L$8D
+|$(H
+|$ H
+T$|H
+D$@D
+L$DH
+|$Hf
+L$8A
+|$HH
+D$0H
+$9D$
+l$`H
+D;L$
+l$`H
+\$hH
+l$ L
+t$ H
+D$8H
+[]A\A]A^A_
+L$D9L$@
+$~tD
+T$(1
+ffff.
+AUATUSL
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+D$ E9D$$H
+NL$$H
+AWAVAUATUSH
+D$ D
+L$ D
+h[]A\A]A^A_
+\$ E
+t$8L
+\$@L
+D$HE1
+L;\$
+|$@L
+t$HL
+l$8D
+T$ D9T$0
+h[]A\A]A^A_
+D$ Hc
+twHc
+T$ 1
+D$ I
+\$HL
+D$Pf
+T$8I
+\$@H
+9L$ 
+T$8H
+l$0L
+$$E9
+l$XH
+D$HH
+t$PH
+D$8H9t$@
+D$8H
+T$ 1
+D$PA
+\$@L
+t$Hf
+T$0I
+D$XE
+tXfD
+T$0H
+L;T$
+d$PL
+T$@L
+|$HL
+D$ 9D$8
+D$0I
+GeglChantmatting-levin.c
+input
+R'G'B' double
+Y'A double
+Y' double
+output
+image != NULL
+region != NULL
+components > 0
+radius > 0
+radius < region->width / 2
+radius < region->height / 2
+s->columns == s->rows
+s->col_idx[0] == 0
+s->col_idx[i - 1] <= col
+s->row_idx[j - 1] < row
+row < s->rows
+rows[i]
+image
+alpha
+epsilon != 0.0
+trip_masked >= 0
+trip_cursor < trip_nz
+trip_cursor == trip_nz
+status == UMFPACK_OK
+Unknown UMFPACK error
+UMFPACK_ERROR_file_IO
+UMFPACK_ERROR_out_of_memory
+UMFPACK_ERROR_n_nonpositive
+UMFPACK_ERROR_invalid_matrix
+UMFPACK_ERROR_invalid_system
+UMFPACK_ERROR_internal_error
+trimap
+laplacian
+solution
+gegl:matting-levin
+misc
+gegl-0.1
+Log of the error weighting
+Epsilon
+epsilon
+Radius
+radius
+Threshold
+threshold
+Trimap influence factor
+Lambda
+lambda
+Active Levels
+active_levels
+chant-data
+property
+../../gegl/gegl-chant.h:479
+../../gegl/gegl-chant.h:580
+new_alpha != NULL
+input_buf
+aux_buf
+output_buf
+result
+input->x == 0 && input->y == 0
+float_cmp (row_sum [i], 0.0) || float_cmp (row_sum [i], lambda)
+UMFPACK_WARNING_determinant_underflow
+UMFPACK_WARNING_determinant_overflow
+UMFPACK_ERROR_invalid_Numeric_object
+UMFPACK_ERROR_invalid_Symbolic_object
+UMFPACK_ERROR_argument_missing
+UMFPACK_ERROR_different_pattern
+UMFPACK_ERROR_invalid_permutation
+file %s: line %d (%s): should not be reached
+!gegl_rectangle_is_empty (roi)
+laplacian->columns == image_elems
+laplacian->rows == image_elems
+Given a sparse user supplied tri-map and an input image, create a foreground alpha mat. Set white as selected, black as unselected, for the tri-map.
+Radius of the processing window
+Alpha threshold for multilevel processing
+Number of downsampled levels to use
+Number of levels to perform solving
+%s: invalid %s id %u for "%s" of type `%s' in `%s'
+unable to construct laplacian matrix
+input->width < output->width && input->height < output->height
+abs (output->width - 2 * input->width ) <= 1
+abs (output->height - 2 * input->height) <= 1
+babl_format_get_n_components (babl_format (FORMAT_INPUT )) == COMPONENTS_INPUT
+babl_format_get_n_components (babl_format (FORMAT_AUX )) == COMPONENTS_AUX
+babl_format_get_n_components (babl_format (FORMAT_OUTPUT)) == COMPONENTS_OUTPUT
+matting_process
+matting_solve_level
+matting_downsample
+matting_fill_borders
+matting_get_linear_coefficients
+matting_upsample
+matting_get_laplacian
+matting_solve_laplacian
+matting_verify
+matting_umf_error_to_string
+ ADGEMM 
+On entry to %s, parameter number %i had an illegal value
+zPLR
+matting-levin.so.debug
+8]7a
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.gcc_except_table
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

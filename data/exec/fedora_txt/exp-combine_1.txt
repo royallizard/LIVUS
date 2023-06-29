@@ -1,0 +1,294 @@
+td@I
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_filter_get_type
+g_type_module_register_type
+g_slice_alloc0
+gegl_node_get_input_pads
+gegl_pad_get_name
+babl_format
+gegl_pad_set_format
+g_object_class_find_property
+g_log
+gegl_operation_set_format
+gegl_pad_get_type
+g_type_check_instance_cast
+g_str_has_prefix
+strrchr
+g_ascii_strtoll
+__errno_location
+g_return_if_fail_warning
+gegl_buffer_get_type
+g_param_spec_object
+g_object_class_install_property
+gegl_operation_create_pad
+__snprintf_chk
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_string
+g_param_spec_int
+g_param_spec_double
+g_object_set_data_full
+g_free
+g_slice_free1
+g_slist_length
+g_slist_nth_data
+gegl_operation_context_get_target
+babl_format_get_n_components
+gegl_rectangle_is_empty
+g_slist_copy
+g_slist_sort
+gegl_operation_context_get_source
+g_malloc
+g_malloc_n
+gegl_buffer_get
+g_ascii_strtod
+g_slist_prepend
+g_slist_free
+gegl_buffer_set
+gegl_node_get_cache
+gegl_cache_computed
+g_slist_foreach
+g_type_name
+g_value_set_int
+g_value_set_string
+g_value_set_double
+g_value_get_int
+g_value_get_string
+g_strdup
+g_value_get_double
+gegl_rectangle_bounding_box
+gegl_operation_source_get_bounding_box
+gegl_rectangle_equal
+gegl_module_query
+gegl_module_register
+gegl_chant_get_type
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+exp-combine.so
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.0
+t$8V
+RVPW
+UWVS
+ZYPV
+,[^_]
+UWVS
+ZYUP
+[^_]
+ZYj-W
+[^_]
+UWVS
+D$,1
+YXVU1
+ZYPW
+t$ VV
+YZPW
+D$,e3
+<[^_]
+UWVS
+|$,W
+Y]PV
+Y]PV
+Y]PV
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+D$|1
+9T$|
+\[^_]
+\[^_]
+;T$$s
+L$@9
+L$@9
+D$,9D$0
+D$8e
+^_RP
+D$,P
+t$HW
+D$`Y_j
+[^_]
+T$,9T$ t&
+D$,P
+t$@W
+9|$@
+t$41
+L$h9
+D$ Y^j
+t$h9
+9<$tl
+t$0j
+t$ 9<$u
+t$dV
+9D$L
+|$HW
+ZYWP
+t$DV
+T$P1
+9D$$
+9t$@w
+\$X9
+L$L9
+L$T9
+L$h9
+9T$$w
+L$(9
+9T$$w
+D$h9
+9D$H
+;|$p
+D$L9
+|$ W
+ZYWP
+0[^_
+ZYWP
+0[^_
+L$H1
+)D$,
+L$<e3
+L[^_]
+t$,S
+t$,S
+GeglChantexp-combine.c
+R'G'B' float
+GEGL-exp-combine.c
+output
+exposure-
+Output buffer
+exposure_%u
+Exposure input.
+gegl-0.2
+description
+compositors
+categories
+gegl:exp-combine
+name
+Exposure Values
+exposures
+Discretization Bits
+Weight Sigma
+sigma
+chant-data
+response
+steps > 0
+step_max >= step_min
+val_mid != 0.0f
+e->lo
+e->hi
+g_slist_length (imgs) > 0
+weighting
+extent->width > 0
+extent->height > 0
+step < steps
+sum >= 0.0f
+div >= 0.0f
+ti_max <= ti_min
+context
+full_roi
+scale <= 1.0f
+components > 0
+weights
+step_min < steps
+step_max < steps
+g_slist_length (imgs) > 1
+response[i] >= 0
+sum[0] >= 0.0f
+sum[1] >= 0.0f
+sum[2] >= 0.0f
+property
+GEGL-../../gegl/gegl-chant.h
+Could not find property for pad '%s'
+Combine multiple scene exposures into one high range buffer
+Relative brightness of each exposure in EV
+Log2 of source's discretization steps
+Weight distrubtion sigma controlling response contributions
+!gegl_rectangle_is_empty (full_roi)
+Unexpected pad name '%s' in exp-combine
+Invalid exposure values specified for exp-combine
+too many supplied EVs for input pads
+Unexpected pixel bounds. Overflow error: %f, underflow error: %f
+robertson02: m out of range: %u
+exp-combine failed to converge. too noisy data in range.
+step[0] < steps && step[1] < steps && step[2] < steps
+step_lo[0] < steps && step_lo[1] < steps && step_lo[2] < steps
+step_hi[0] < steps && step_hi[1] < steps && step_hi[2] < steps
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+expcombine inputs are of varying dimensions
+Bounding box for exp-combine should not be empty
+gegl_expcombine_apply_debevec
+gegl_expcombine_apply_response
+gegl_expcombine_normalize
+gegl_expcombine_get_response
+gegl_expcombine_weights_gauss
+gegl_expcombine_pad_cmp
+gegl_expcombine_get_exposures
+gegl_expcombine_destroy_exposure
+gegl_expcombine_process
+;*2$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+exp-combine.so-0.2.0-38.fc28.i386.debug
+7zXZ
+{"3zO
+cu8?
+=9ON
+Q7Q,
+)"r"u
++U+(
+y	3pM
+#j\1
+m$FT
+4>A.
+:MXE:|?
+sJ_[
+`[\4&
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

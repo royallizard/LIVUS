@@ -1,0 +1,258 @@
+luTCE
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+PyErr_SetString
+PyArg_ParseTupleAndKeywords
+_Py_NoneStruct
+Py_OptimizeFlag
+PyString_Type
+PyArg_ParseTuple
+PyCFunction_Type
+PyType_Type
+PyExc_RuntimeError
+PyErr_Format
+PyExc_TypeError
+PyExc_ValueError
+PyFloat_AsDouble
+malloc
+free
+PyErr_Occurred
+memcpy
+init_compiled_base
+Py_InitModule4_64
+PyImport_ImportModule
+PyObject_GetAttrString
+PyCObject_Type
+PyModule_GetDict
+PyString_FromString
+PyDict_SetItemString
+PyDict_GetItemString
+PyErr_Print
+PyExc_ImportError
+PyCObject_AsVoidPtr
+libpython2.5.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+5b3 
+%d3 
+%b3 
+%Z3 
+%R3 
+%J3 
+%B3 
+%:3 
+%23 
+%*3 
+%"3 
+ATSubH
+=W/ 
+=?/ 
+ATUS
+l$8H
+[]A\A]A^A_
+fffff.
+AWE1
+AVAUATU
+t$,1
+|$,1
+T$0~
+|$ 1
+A9L$
+HcT$,H
+D$ A
+C H9C
+LcT$,I
+D$(J
+D$ J
+C H9C
+=[4 
+[]A\A]A^A_
+HcD$,H
+@8Hc@ H
+@8Hc@ H
+=I2 
+C0H;
+E0H;
+fff.
+AVAUATUSH
+L$(L
+|$0A
+|$(A
+D$ H
+|$ M
+H9D$ 
+$uVI
+$t<M
+[]A\A]A^A_
+H9D$ 
+H9D$ 
+=y+ 
+AVAUATUSH
+-E# 
+D$ H
+|$ A
+L9l$
+=y) 
+[]A\A]A^A_
+q$tOH;
+t3H;
+tqH;
+t	H;
+D$hL
+D$xH
+D$pH
+|$xA
+D$@I
+T$@H;
+T$ E1
+|$ A
+|$pI
+T$PH
+D$(L
+D$XL
+D$(L
+|$hH
+H;=q
+D$(L
+D$(L
+T$0L
+D$(L
+L$ I
+T$0L
+L$ ~-1
+D$(L
+D$(L
+D$(L
+T$0L
+D$(L
+fff.
+AVAUATUSH
+L$pH
+D$xH
+|$pH
+[]A\A]A^A_
+A8E1
+|$xA
+D$4H
+D$pH
+L$@H
+D$8H
+D$LH
+L$TH
+|$pH
+L$XH
+D$0HcD$LH
+D$(HcD$0H
+D$XH
+L$ H
+L$01
+L$ H
+L$XH
+T$(Hc
+T$@H
+L$P9L$4~kH
+D$(H
+D$@D;d$
+HcT$LH
+t$@H
+\$@H
+fffff.
+[]A\
+[]A\H
+Expecting an input array of unsigned byte data type
+Expecting an input array of integer data type
+x and bins both must have non-zero length
+bins must be montonically increasing or decreasing
+bincount: first argument of bincount must be non-negative
+bincount: length of weights does not match that of list
+Cannot set a docstring for that object
+interp: fp and xp are not the same length.
+mask array must be 1-d or same shape as input array
+module compiled against version %x of C-API but this version of numpy is %x
+numpy.core.multiarray failed to import
+O|O&
+%s method %s
+OOO|OO
+O&OO
+_compiled_base
+numpy.core.multiarray
+_ARRAY_API
+numpy.lib.error
+fields
+alignment
+newbyteorder
+__version__
+_insert
+bincount
+digitize
+interp
+add_docstring
+unpackbits
+axis
+already has a docstring
+left
+right
+bins
+list
+weights
+input
+mask
+vals
+Insert vals sequentially into equivalent 1-d positions indicated by mask.
+out = numpy.packbits(myarray, axis=None)
+  myarray : an integer type array whose elements should be packed to bits
+   This routine packs the elements of a binary-valued dataset into a
+   NumPy array of type uint8 ('B') whose bits correspond to
+   the logical (0 or nonzero) value of the input elements.
+   The dimension over-which bit-packing is done is given by axis.
+   The shape of the output has the same number of dimensions as the input
+   (unless axis is None, in which case the output is 1-d).
+     Example:
+     >>> a = array([[[1,0,1],
+     ...             [0,1,0]],
+     ...            [[1,1,0],
+     ...             [0,0,1]]])
+     >>> b = numpy.packbits(a,axis=-1)
+     >>> b
+     array([[[160],[64]],[[192],[32]]], dtype=uint8)
+     Note that 160 = 128 + 32
+               192 = 128 + 64
+out = numpy.unpackbits(myarray, axis=None)
+     myarray - array of uint8 type where each element represents a bit-field
+        that should be unpacked into a boolean output array
+        The shape of the output array is either 1-d (if axis is None) or
+        the same shape as the input array with unpacking done along the
+        axis specified.
+_compiled_base.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

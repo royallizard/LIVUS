@@ -1,0 +1,187 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+uc_get_hits
+uc_set_hits
+uc_get_state
+uc_set_state
+notification_init
+ssnprintf
+plugin_notification_meta_add_string
+plugin_notification_meta_add_double
+plugin_dispatch_notification
+plugin_notification_meta_free
+uc_inc_hits
+__stack_chk_fail
+cdtime
+format_name
+threshold_tree
+threshold_search
+sstrncpy
+strcasecmp
+__strdup
+malloc
+threshold_lock
+pthread_mutex_lock
+threshold_get
+pthread_mutex_unlock
+plugin_log
+cf_util_get_flag
+c_avl_insert
+c_avl_size
+plugin_register_missing
+plugin_register_write
+strcmp
+c_avl_create
+uc_get_rate
+memcpy
+module_register
+plugin_register_complex_config
+libdl.so.2
+libc.so.6
+threshold.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+=90 
+AWAVE
+AUATI
+l$@L
+D$0H
+L$8I
+PATM
+D$H1
+D$ L
+D$ H
+LcD$
+[]A\A]A^A_
+l$@L
+D$0H
+t$8I
+PATM
+\$0L
+l$@L
+D$0H
+t$8I
+PATL
+\$0L
+L$0H
+H)D$
+L$8H
+D$ L
+D$ H
+NHAQH
+AYAZ
+AWAVAUATUSH
+E H+]
+\$(L
+T$ H
+l$ ASL
+Y^xaf
+[]A\A]A^A_
+t3SH
+AWAVAUATUSH
+|$ H
+0E9f(
+=j" 
+[]A\A]A^A_
+=U  
+AWAVAUATUSH
+0E9n(~MI
+[]A\A]A^A_
+AWAVAUATUSH
+|$ 1
+0D;c(
+[]A\A]A^A_
+AWAVAUATSH
+HcS@H
+A;\$@
+|$HH
+[A\A]A^A_]
+failure
+warning
+below
+above
+Host %s, plugin %s
+ (instance %s)
+ type %s
+DataSource
+CurrentValue
+WarningMin
+WarningMax
+FailureMin
+FailureMax
+: Value is no longer missing.
+Instance
+Interesting
+Invert
+Persist
+PersistOK
+Percentage
+Hits
+Hysteresis
+Type
+Plugin
+Host
+threshold
+: All data sources are within range again. Current value of "%s" is %f.
+: Data source "%s" is currently %f. That is within the %s region of %f%s and %f%s.
+: Data source "%s" is currently %f. That is %s the %s threshold of %f%s.
+: Data source "%s" is currently %g (%.2f%%). That is %s the %s threshold of %.2f%%.
+: Data source "%s" is currently %f. That is %s the %s threshold of %f.
+%s has not been updated for %.3f seconds.
+threshold values: The `Type' block needs exactly one string argument.
+threshold values: The `Type' block needs at least one option.
+threshold values: The `Instance' option needs exactly one string argument.
+threshold values: The `DataSource' option needs exactly one string argument.
+threshold values: The `%s' option needs exactly one number argument.
+threshold values: Option `%s' not allowed inside a `Type' block.
+ut_threshold_add: format_name failed.
+ut_threshold_add: strdup failed.
+ut_threshold_add: malloc failed.
+ut_threshold_add: c_avl_insert (%s) failed.
+threshold values: The `Plugin' block needs exactly one string argument.
+threshold values: The `Plugin' block needs at least one nested block.
+threshold values: Option `%s' not allowed inside a `Plugin' block.
+ut_config: c_avl_create failed.
+threshold values: The `Host' block needs exactly one string argument.
+threshold values: The `Host' block needs at least one nested block.
+threshold values: Option `%s' not allowed inside a `Host' block.
+threshold values: Option `%s' not allowed here.
+ut_check_one_threshold: The %s type has only one data source, but you have configured to check this as a percentage. That doesn't make much sense, because the percentage will always be 100%%!
+ut_check_threshold: ut_check_one_threshold failed.
+ut_check_threshold: ut_report_state failed.
+;*3$"
+threshold.so.debug
+7zXZ
+taV=
+TL@l:
+zi_)
+sNE?
+},Fn*
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

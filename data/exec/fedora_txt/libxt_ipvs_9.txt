@@ -1,0 +1,110 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+puts
+__printf_chk
+xtables_ipaddr_to_anyname
+__strcpy_chk
+xtables_ipmask_to_numeric
+__strcat_chk
+xtables_ipaddr_to_numeric
+xtables_ip6addr_to_numeric
+xtables_ip6mask_to_numeric
+xtables_ip6addr_to_anyname
+xtables_option_parse
+strcasecmp
+xtables_param_act
+xt_params
+libxt_ipvs_init
+xtables_register_matches
+libxtables.so.12
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+UWVS
+[^_]
+|$0<
+F&@uf
+[^_]
+IPVS match options:
+[!] --ipvs                      packet belongs to an IPVS connection
+Any of the following options implies --ipvs (even negated)
+[!] --vproto protocol           VIP protocol to match; by number or name,
+                                e.g. "tcp"
+[!] --vaddr address[/mask]      VIP address to match
+[!] --vport port                VIP port to match; by number or name,
+                                e.g. "http"
+    --vdir {ORIGINAL|REPLY}     flow direction of packet
+[!] --vmethod {GATE|IPIP|MASQ}  IPVS forwarding method used
+[!] --vportctl port             VIP port of the controlling connection to
+                                match, e.g. 21 for FTP
+IPVS: At least one option is required
+! --ipvs cannot be together with other options
+ anywhere
+--vdir
+--vmethod
+ %sipvs
+ %sproto %u
+ %svaddr
+ %svport %u
+ %svdir REPLY
+ %svdir ORIGINAL
+ %svmethod
+ GATE
+ IPIP
+ MASQ
+ UNKNOWN
+ %svportctl %u
+libxtables.so.12
+vproto
+vport
+vportctl
+;*2$" 
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+libxt_ipvs.so-1.6.2-2.fc28.i386.debug
+7zXZ
+FGT{
+,X8;
+@`A{2
+K-Qp
+:!t>d
+yPgL
+'{=o\
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

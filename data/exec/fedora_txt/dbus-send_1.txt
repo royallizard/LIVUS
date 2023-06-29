@@ -1,0 +1,358 @@
+/lib64/ld-linux-x86-64.so.2
+libdbus-1.so.3
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+dbus_malloc
+dbus_bus_get
+dbus_message_iter_get_basic
+dbus_message_unref
+dbus_connection_open
+dbus_message_get_serial
+_dbus_get_real_time
+dbus_message_new_signal
+dbus_connection_send
+dbus_free
+dbus_message_type_from_string
+dbus_error_is_set
+dbus_bus_register
+dbus_validate_bus_name
+dbus_message_iter_next
+dbus_message_get_path
+dbus_message_set_destination
+dbus_message_iter_get_fixed_array
+dbus_message_get_sender
+dbus_message_iter_get_arg_type
+dbus_connection_send_with_reply_and_block
+dbus_message_get_reply_serial
+dbus_message_iter_init_append
+dbus_message_get_destination
+dbus_message_iter_init
+dbus_connection_flush
+dbus_message_set_auto_start
+dbus_message_iter_append_basic
+dbus_message_iter_recurse
+dbus_message_iter_close_container
+dbus_error_init
+dbus_message_iter_open_container
+dbus_message_get_error_name
+dbus_connection_unref
+dbus_message_get_member
+dbus_message_get_type
+dbus_error_free
+dbus_message_new_method_call
+dbus_message_get_interface
+libpthread.so.0
+__errno_location
+close
+libsystemd.so.0
+libc.so.6
+fflush
+__printf_chk
+exit
+strrchr
+__strdup
+inet_ntop
+puts
+__stack_chk_fail
+putchar
+strtoll
+strtod
+strtok
+strtol
+strstr
+__fprintf_chk
+stdout
+memcpy
+strtoul
+getpeername
+stderr
+__fxstat
+strtoull
+fwrite
+strchr
+getsockname
+__cxa_finalize
+strcmp
+__libc_start_main
+_fini
+_edata
+__bss_start
+_end
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+LIBDBUS_PRIVATE_1.10.0
+LIBDBUS_1_3
+5BD 
+%DD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+%2B 
+%*B 
+%"B 
+AWAVAUATUSH
+t$0H
+l$@H
+l$`H
+D$8H
+t$@H
+|$(H
+D$PH
+D$8H
+|$PH
+|$PH
+D$(H
+L;t$(
+=5< 
+L$8H
+T$8H
+T$8H
+t$@H
+D$hH
+t$(H
+D$hH
+|$@L
+T$LH
+t$PL
+D$0H
+\$XH
+t$P1
+D$0M
+D$0H
+D$hH
+L$`H
+=Q6 
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATA
+VUUU
+D$(H
+D$ f.
+t$PH
+T$PH
+[]A\A]A^A_
+t$PH
+T$PH
+\$PH
+t$PH
+T$PH
+t$PH
+T$PH
+t$PH
+T$PH
+l$PH
+t$DH
+t$PH
+T$PH
+t$PH
+D$PH
+l$PH
+l$PH
+t$PH
+D$PH
+t$PH
+T$PH
+t$PH
+T$PH
+t$PH
+T$PH
+t$PH
+T$DH
+t$HL
+l$DE
+t$HA
+Lcl$DH
+t$HH
+T$PD
+D$,~%
+\$8H
+l$(1
+\$8D
+\$8H
+l$0D
+D$,A
+L$,E
+D$8E
+t$,E
+\$8E
+T$,E
+AWAVI
+AUATA
+D$H1
+=>& 
+D$HdH3
+X[]A\A]A^A_
+tbAUATA
+[]A\A]
+[]A\A]
+AWAVA
+AUATL
+[]A\A]A^A_
+true
+false
+string "
+signature "
+object path "
+int16 %d
+uint16 %u
+int32 %d
+uint32 %u
+int64 %ld
+uint64 %lu
+double %g
+byte %d
+boolean %s
+variant 
+array of bytes "%s" + \0
+copying bytestring
+array of bytes "%s"
+%02x
+array [
+dict entry(
+struct {
+file descriptor
+type: 
+file
+directory
+char
+block
+fifo
+link
+socket
+address family: 
+unix
+peer @%.*s
+peer %s
+inet
+name %s port %u
+peer %s port %u
+inet6
+bluetooth
+unknown (%d)
+array of bytes [
+inode: %d
+name @%.*s
+name %s
+(null destination)
+(null sender)
+signal
+method call
+method return
+error
+(unknown message type)
+ serial=%u reply_serial=%u
+ (dbus-monitor too dumb to decipher arg type '%c')
+%s time=%ld.%06ld sender=%s -> destination=%s
+%s sender=%s -> destination=%s
+ serial=%u path=%s; interface=%s; member=%s
+ error_name=%s reply_serial=%u
+Usage: %s [--help] [--system | --session | --bus=ADDRESS | --peer=ADDRESS] [--dest=NAME] [--type=TYPE] [--print-reply[=literal]] [--reply-timeout=MSEC] <destination object path> <message name> [contents ...]
+%s: Expected "true" or "false" instead of "%s"
+"--peer=" and "--bus=" require an ADDRESS
+invalid value (%s) of "--print-reply"
+"--reply-timeout=" requires an MSEC
+invalid value (%s) of "--reply-timeout"
+"--peer" and "--bus" may not be used with "--system" or "--session"
+Message type "%s" is not supported
+invalid value (%s) of "--dest"
+Failed to open connection to "%s" message bus: %s
+Failed to register on connection to "%s" message bus: %s
+Must use org.mydomain.Interface.Method notation, no dot in "%s"
+Must use org.mydomain.Interface.Signal notation, no dot in "%s"
+Internal error, unknown message type
+Couldn't allocate D-Bus message
+%s: Data item "%s" is badly formed
+%s: Unsupported data type %c
+uint16
+uint32
+uint64
+double
+byte
+boolean
+objpath
+%s: Unknown type "%s"
+--system
+--session
+--bus=
+--peer=
+--address=
+--print-reply
+=literal
+--reply-timeout=
+--dest=
+"--dest=" requires an NAME
+--type=
+--help
+Not enough memory
+variant
+array
+dict
+%s: Malformed dictionary
+Error %s: %s
+OOM while %s
+;*3$"
+dbus-send.debug
+7zXZ
+2wDaN+
+?OfT
+olQl
+/EM l
+7Sx4
+mAkz
+@FA7
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,161 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+XS_Devel__Peek_SvREFCNT_inc
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_croak
+boot_Devel__Peek
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_Devel__Peek_mstat
+Perl_newXS
+XS_Devel__Peek_fill_mstats
+XS_Devel__Peek_mstats_fillhash
+Perl_newXS_flags
+XS_Devel__Peek_mstats2hash
+XS_Devel__Peek_Dump
+XS_Devel__Peek_DumpArray
+XS_Devel__Peek_DumpProg
+XS_Devel__Peek_SvREFCNT
+XS_Devel__Peek_SvREFCNT_dec
+XS_Devel__Peek_DeadCode
+XS_Devel__Peek_CvGV
+XS_Devel__Peek_runops_debug
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_croak_nocontext
+Perl_vstringify
+Perl_sv_2iv_flags
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_Irunops_ptr
+Perl_runops_standard
+Perl_runops_debug
+Perl_Isv_no_ptr
+Perl_sv_2mortal
+Perl_Isv_undef_ptr
+Perl_PerlIO_stderr
+PerlIO_printf
+Perl_newAV
+Perl_newRV_noinc
+Perl_Isv_arenaroot_ptr
+Perl_do_gvgv_dump
+Perl_mg_size
+Perl_do_sv_dump
+Perl_sv_free
+Perl_sv_free2
+Perl_Iop_ptr
+Perl_sv_newmortal
+Perl_sv_setiv
+Perl_mg_set
+Perl_pad_sv
+Perl_Idumpindent_ptr
+Perl_warn_nocontext
+Perl_Imain_root_ptr
+Perl_op_dump
+Perl_sv_2bool
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+l[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+L[^_]
+<[^_]
+Devel::Peek::SvREFCNT_inc
+Usage: %s(%s)
+XS_VERSION
+%s::%s
+1.03
+version
+bootstrap parameter
+Peek.c
+Devel::Peek::mstat
+Devel::Peek::fill_mstats
+Devel::Peek::mstats_fillhash
+$\%;$
+Devel::Peek::mstats2hash
+Devel::Peek::Dump
+Devel::Peek::DumpArray
+Devel::Peek::DumpProg
+Devel::Peek::SvREFCNT
+Devel::Peek::SvREFCNT_dec
+Devel::Peek::DeadCode
+Devel::Peek::CvGV
+Devel::Peek::runops_debug
+sv, rv, level= 0
+sv, level= 0
+flag= -1
+str="Devel::Peek::mstat: "
+Devel::Peek::mstat: 
+GVGV::GV
+  busy
+    closure-template
+     ref in args!
+dumpindent is %d
+lim, ...
+Devel::Peek::pv_limit
+Devel::Peek::dump_ops
+Elt No. %ld  0x%lx
+sv, lim=4
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "Peek.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+Cannot report mstats without Perl malloc
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+%s: perl not compiled with DEBUGGING_MSTATS
+((svtype)((_cv)->sv_flags & 0xff)) == SVt_PVCV || ((svtype)((_cv)->sv_flags & 0xff)) == SVt_PVFM
+Assertion %s failed: file "Peek.xs", line %d
+    level %i: refs: %i, strings: %i in %i,	argsarray: %i, argsstrings: %i
+  total: refs: %i, strings: %i in %i,	argsarrays: %i, argsstrings: %i
+total: refs: %i, strings: %i in %i	argsarray: %i, argsstrings: %i
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+Peek.so.debug
+qRgN
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

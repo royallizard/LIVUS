@@ -1,0 +1,125 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pipe
+fdevent_setfd_cloexec
+fdevent_fork_execve
+close
+__errno_location
+strerror
+log_error_write
+__stack_chk_fail
+buffer_string_prepare_copy
+read
+buffer_commit
+calloc
+buffer_init
+config_insert_values_global
+log_failed_assert
+buffer_free
+waitpid
+config_check_cond
+buffer_is_equal_string
+strstr
+__xstat64
+buffer_copy_string_len
+buffer_append_string_buffer
+buffer_append_string_len
+buffer_append_int
+mod_rrdtool_plugin_init
+buffer_init_string
+libc.so.6
+_edata
+__bss_start
+_end
+mod_rrdtool.so
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+ATUSH
+D$(1
+D$ H
+T$(dH3
+8[]A\A]
+ATE1
+t H9
+[]A\A]
+[]A\
+AVAUATUSH
+D$X1
+L$(H
+D$ H
+D$8H
+D$8H
+D$0I
+D$8H
+D$8H
+D$@E
+L$XdH3
+h[]A\A]A^A_
+D$8H
+A9D$$t/L
+[]A\A]
+|$ 1
+AWAVAUI
+[]A\A]A^A_
+9V u
+AWAVAUI
+ATUSH
+~(dH
+,u0H
+,u H
+9F$u6H
+[]A\A]A^A_
+pipe failed: 
+mod_rrdtool.c
+fork/exec(
+SBss
+rrdtool.binary
+rrdtool.db-name
+rrdtool.binary has to be set
+not a regular file:
+create 
+rrdtool-write: failed
+rrdtool-read: failed
+rrdtool-response:
+update 
+(minimum one second step)
+assertion failed: srv->config_context->used > 0
+rrdtool.binary can only be set as a global option.
+ --step 60 DS:InOctets:ABSOLUTE:600:U:U DS:OutOctets:ABSOLUTE:600:U:U DS:Requests:ABSOLUTE:600:U:U RRA:AVERAGE:0.5:1:600 RRA:AVERAGE:0.5:6:700 RRA:AVERAGE:0.5:24:775 RRA:AVERAGE:0.5:288:797 RRA:MAX:0.5:1:600 RRA:MAX:0.5:6:700 RRA:MAX:0.5:24:775 RRA:MAX:0.5:288:797 RRA:MIN:0.5:1:600 RRA:MIN:0.5:6:700 RRA:MIN:0.5:24:775 RRA:MIN:0.5:288:797
+:*3$"
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+mod_rrdtool.so-1.4.50-1.fc29.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

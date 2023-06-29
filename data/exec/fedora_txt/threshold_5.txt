@@ -1,0 +1,173 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_point_composer_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+babl_format
+gegl_operation_set_format
+gegl_clSetKernelArg
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+g_value_set_double
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+threshold.so
+GLIBC_2.4
+GLIBC_2.2.5
+52" 
+%4" 
+%2" 
+%*" 
+%"" 
+=y! 
+5r! 
+=5! 
+u+UH
+\$`f
+D$H1
+D$@(
+D$(H
+t$(H
+T$ H
+D$X1
+L$<H
+L$(L
+T$XdH3
+t$@H
+)D$@
+[]A\
+F H9
+F H9
+tgATUH
+ []A\
+ATUS
+ []A\
+[]A\
+GeglChantthreshold.c
+YA float
+input
+Y float
+output
+kernel_thr_3
+kernel_thr_2
+gegl-0.2
+description
+color
+categories
+gegl:threshold
+name
+Threshold
+value
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+__kernel void kernel_thr_3 (__global const float2     *in,     
+                            __global const float      *aux,    
+                            __global       float2     *out)    
+{                                                              
+  int gid = get_global_id(0);                                  
+  float2 in_v  = in [gid];                                     
+  float  aux_v = aux[gid];                                     
+  float2 out_v;                                                
+  out_v.x = (in_v.x > aux_v)? 1.0f : 0.0f;                     
+  out_v.y = in_v.y;                                            
+  out[gid]  =  out_v;                                          
+}                                                              
+__kernel void kernel_thr_2 (__global const float2     *in,     
+                            __global       float2     *out,    
+                            float value)                       
+{                                                              
+  int gid = get_global_id(0);                                  
+  float2 in_v  = in [gid];                                     
+  float2 out_v;                                                
+  out_v.x = (in_v.x > value)? 1.0f : 0.0f;                     
+  out_v.y = in_v.y;                                            
+  out[gid]  =  out_v;                                          
+}                                                              
+Thresholds the image to white/black based on either the global value set in the value property, or per pixel from the aux input.
+Global threshold level (used when there is no auxiliary input buffer).
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+threshold.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+n_A!
+b<^^
+[d)EF
+</mCW_
+=9Fs2X`h
+;NIB
+=pSC]
+9.UB
+v$'R
+s#cW8
+k;d:^T
+"$5[
+-@>tf
+6I`bz
+fy^>
+aS3~i
+a%gMR
+|CAYi@
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

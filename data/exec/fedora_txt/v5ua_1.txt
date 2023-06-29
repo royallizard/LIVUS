@@ -1,0 +1,564 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_reg_handoff
+proto_reg_handoff_v5ua
+plugin_register
+proto_register_v5ua
+version
+create_dissector_handle
+find_dissector
+dissector_add
+proto_tree_add_item
+tvb_get_ntohs
+val_to_str
+proto_tree_add_uint_format
+proto_item_append_text
+tvb_get_ntohl
+tvb_get_guint8
+tvb_new_subset
+call_dissector
+proto_tree_add_text
+proto_item_add_subtree
+tvb_length_remaining
+tvb_length
+proto_tree_add_item_hidden
+check_col
+col_set_str
+proto_tree_add_uint
+tvb_get_ptr
+col_add_str
+col_append_str
+col_clear
+proto_register_protocol
+proto_register_field_array
+proto_register_subtree_array
+libm.so.6
+libcrypto.so.7
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+v5ua.so
+GLIBC_2.1.3
+GLIBC_2.4
+\[^_]
+,[^_]
+|[^_]
+[^_]
+0.0.2
+q931
+sctp.port
+sctp.ppi
+unknown EFA
+unknown EFA-value
+ (EFA: %s )
+Envelope function address: 0
+ (EFA: 0 )
+  Link: %d 
+ Chnl: %d 
+Unknown release reason
+ (%s)
+Layer3 header
+Unknown layer3 msg type
+  Msg Type: %s
+Layer3 message
+Unknown Signal
+  Steady Signal: %s
+Diagnostic: %s
+ (%u byte%s)
+V5UA
+   !! DLCI INCORRECT !!
+V5UA (draft)
+UNKNOWN
+Common Msg-Header
+Message type: %s ( %u )
+Unknown Msg-Type
+Unknown parameter
+Unknown TEI Status
+ (%.*s)
+ (0x%.*s)
+ (%u range%s)
+Unknown ASP down reason
+Unknown traffic mode type
+Unknown error code
+Unknown status information
+Unknown TEI status
+Unknown Link status
+unknown Bit
+ (%s %s)
+v5ua
+V5.2-User Adaptation Layer
+Notify
+TEI status request
+TEI status confirmation
+TEI status indication
+TEI status confimation
+ASP up
+ASP down
+Heartbeat
+ASP up ack
+ASP down ack
+Heartbeat ack
+ASP inactive
+ASP active ack
+ASP inactive ack
+Data request
+Data indication
+Unit data request
+Unit data indication
+Establish request
+Establish confirmation
+Establish indication
+Release request
+Release confirmation
+Release indication
+Link status start reporting
+Link status stop reporting
+Link status indication
+Sa-Bit set request
+Sa-Bit set confirm
+Sa-Bit status request
+Sa-Bit status indication
+Error indication
+Text Interface Identifier
+Info
+DLCI
+Diagnostic information
+Hearbeat data
+ASP DOWN Reason
+Traffic mode type
+Error code
+Status type/identification
+Protocol Data
+SA-Bit status
+Error reason
+ASP Adaption Layer ID
+SCN Protocol Identifier
+TEI is in service
+TEI is out of service
+ISDN Protocol
+PSTN Protocol
+BCC Protocol
+PROT Protocol
+Link Contol Protocol
+VALUE RESERVED
+Management inhibit
+Over-ride
+Load-share
+Invalid version
+Invalid interface identifier
+Unsuported message class
+Unsupported message type
+Unexpected message
+Protocol error
+Invalid stream identifier
+Unassigned TEI
+Unrecognized SAPI
+Invalid TEI/SAPI combination
+Application server down
+Application server inactive
+Application server active
+Application server pending
+Alternate ASP active
+Establish
+Establish Ack
+Signal Ack
+Disconnect
+Disconnect Complete
+Status Enqueiry
+Protocol Parameter
+Port Control
+Port Control Ack
+Common Control
+Common Control Ack
+Switch-Over Request
+OS-Switch-Over Com
+Switch-Over Ack
+Switch-Over Reject
+Protection Protocol Error
+Reset SN Com
+Reset SN Ack
+DE Allocation
+DE Allocation Complete
+DE Allocation Reject
+Audit
+Audit Complete
+AN Fault
+AN Fault Ack
+BCC Protocol Error
+Link Control
+Link Control Ack
+Normal polarity
+Reversed polarity
+Battery on c-wire
+No battery on c-wire
+Off hook (loop closed)
+On hook (loop open)
+Battery on a-wire
+A-wire on earth
+No battery on a-wire
+No batery on b-wire
+Reduced battery
+No battery
+Normal battery
+Stop ringing
+Start pilot frequency
+Stop pilot frequency
+Low impedance on b-wire
+B-wire connected to earth
+Battery on b-wire
+Low loop impedance
+High loop impedance
+Anomalous loop impedance
+C-wire on earth
+Specific to a request
+Other reason
+Link is in operation
+Link is not in operation
+set to ZERO
+set to ONE
+Sa7 Bit
+Version
+v5ua.version
+Reserved
+v5ua.reserved
+Message class
+v5ua.msg_class
+Message Type
+v5ua.msg_type
+Message Type ID
+v5ua.msg_type_id
+Message length
+v5ua.msg_length
+Link Identifier
+v5ua.link_id
+Channel Identifier
+v5ua.channel_id
+Adaptation Layer ID
+v5ua.adaptation_layer_id
+Text interface identifier
+v5ua.text_interface_id
+v5ua.scn_protocol_id
+Info String
+v5ua.info_string
+Zero bit
+v5ua.dlci_zero_bit
+Spare bit
+v5ua.dlci_spare_bit
+v5ua.dlci_sapi
+One bit
+v5ua.dlci_one_bit
+v5ua.dlci_tei
+Envelope Function Address
+v5ua.efa
+v5ua.asp_reason
+Release Reason
+v5ua.release_reason
+v5ua.tei_status
+v5ua.tei_draft_status
+Link Status
+v5ua.link_status
+BIT ID
+v5ua.sa_bit_id
+Bit Value
+v5ua.sa_bit_value
+Parameter Tag
+v5ua.parameter_tag
+Parameter length
+v5ua.parameter_length
+Parameter value
+v5ua.parameter_value
+Parameter padding
+v5ua.parameter_padding
+Diagnostic Information
+v5ua.diagnostic_info
+Interface range Start
+v5ua.interface_range_start
+Interface range End
+v5ua.interface_range_end
+Heartbeat data
+v5ua.heartbeat_data
+v5ua.traffic_mode_type
+v5ua.error_code
+Error code (draft)
+v5ua.draft_error_code
+Status type
+v5ua.status_type
+Status identification
+v5ua.status_id
+Error Reason
+v5ua.error_reason
+Protocol Discriminator
+v5ua.l3_protocol_disc
+Layer3 address
+v5ua.l3_address
+Layer3 low address
+v5ua.l3_low_address
+Layer3 message type
+v5ua.l3_msg_type
+Layer3 information element
+v5ua.l3_info_element
+Line_Information
+v5ua.l3_line_info
+Cadenced ringing type
+v5ua.l3_cad_ringing
+Pulse Type
+v5ua.l3_pulse_type
+Suppression indicator
+v5ua.l3_suppression_indicator
+Pulse duration type
+v5ua.l3_pulse_duration
+Ack request indicator
+v5ua.l3_ack_request_indicator
+Number of pulses
+v5ua.l3_number_of_pulses
+Steady Signal
+v5ua.l3_steady_signal
+Sequence number
+v5ua.l3_sequence_number
+Pulse notification
+v5ua.l3_pulse_notification
+Sequence response
+v5ua.l3_sequence_response
+Digit ack request indication
+v5ua.l3_digit_ack
+Digit information
+v5ua.l3_digit_info
+Resource unavailable
+v5ua.l3_res_unavailable
+PSTN FSM state
+v5ua.l3_state
+Cause type
+v5ua.l3_cause_type
+Link control function
+v5ua.l3_link_control_function
+v5ua.l3_pstn_user_port_id
+v5ua.l3_isdn_user_port_id
+v5ua.l3_user_port_id_lower
+v5ua.l3_isdn_user_port_ts_num
+Override
+v5ua.l3_override
+v5ua.l3_link_id
+V5 Time Slot Number
+v5ua.l3_v5_time_slot
+Reject cause type
+v5ua.l3_reject_cause_type
+BCC Protocol error cause type
+v5ua.l3_bcc_protocol_cause
+Control function element
+Control function ID
+v5ua.l3_control_function
+Variant
+v5ua.l3_variant
+Interface ID
+v5ua.l3_interface_id
+Performance grading
+v5ua.l3_performance_grading
+Rejection cause
+v5ua.l3_cp_rejection_cause
+v5ua.l3_pstn_sequence_number
+Duration Type
+v5ua.l3_duration_type
+Release 1
+Management Messages
+ASP state maintenance message
+Invalid TEI
+Invalid interface ID
+Invalid SCN version
+Other
+Line information
+State
+Autonomous signal sequence
+Cadenced ringing
+Pulsed signal
+Steady signal
+Digit signal
+Recognition time
+Enable autonomous acknowledge
+Cause
+Link control funktion
+User port ID
+ISDN port channel ID
+V5 time slot ID
+Multi slot map
+Reject cause
+Protocol error cause
+Connection incomplete
+C-Channel ID
+Impedance marker reset
+Impedance marker set
+Pulsed normal polarity
+Pulsed reversed polarity
+Pulsed battery on c-wire
+Pulsed on hook
+Pulsed reduced battery
+Pulsed no battery
+Initial ring
+Meter pulse
+50 Hz pulse
+Earth loop pulse
+Pulsed c-wire disconnected
+Pulsed normal battery
+Pulsed a-wire disconnected
+Pulsed b-wire disconnected
+No suppression
+No acknowledgement requested
+Response to STATUS ENQUIRY
+Protocol discriminator error
+L3 address error
+Message type unrecognized
+Too many information elements
+FE-IDReq
+FE-IDAck
+FE-IDRel
+FE-IDRej
+FE301/302 (link unblock)
+FE303/304 (link block)
+Unspecified
+Access network fault
+User port not provisioned
+V5 link unavailable (blocked)
+Too many information element
+Incomplete normal
+FE101 (activate access)
+FE103 (DS activated)
+FE104 (access activated)
+FE105 (deactivate access)
+FE106 (access deactivated)
+FE201/202 (unblock)
+FE203/204 (block)
+FE205 (block request)
+FE206 (performance grading)
+FE207 (D-channel block)
+FE208 (D-channel unblock)
+Verify re-provisioning
+Ready for re-provisioning
+Not ready for re-provisioning
+Switch-over to new variant
+Re-provisioning started
+Cannot re-provision
+Variant and interface ID
+Blocking started
+Restart request
+Restart complete
+normal grade
+degraded
+variant unknown
+variant known, not ready
+Envelope function address: %s (%u)
+Digit ack request indication: %s
+Status identification: %u (%s)
+ with tag %u and %u byte%s value
+V5UA Interface Identifier (int)
+Integer range interface identifier
+Unsupported traffic handling mode
+Unsupported interface identifier type
+Insufficient ASP resources active in AS
+Alternate reduced power / no power
+B-wire disconnected from earth
+A-wire disconnected from earth
+C-wire disconnected from earth
+No ending acknowledgement requested
+Ending acknowledgement requested when digit transmission is finished
+Management layer generated release
+Physical layer alarm generated release
+TEI is considered assigned by Q.921
+TEI is considered unassigned by Q.921
+C-Channel is in overload state
+Envelope Function Address (spare)
+Autonomous signalling sequence
+v5ua.l3_auto_signalling_sequence
+PSTN User Port identification Value
+PSTN User Port Identification Value (lower)
+v5ua.l3_pstn_user_port_id_lower
+ISDN User Port Identification Value
+ISDN User Port Identification Value (lower)
+ISDN user port time slot number
+V5 2048 kbit/s Link Identifier
+v5ua.l3_connection_incomplete_reason
+v5ua.l3_control_function_element
+ASP traffic maintenance message
+V5 Boundary Primitives Transport Message
+An unexpected message was received
+The IUA layers are of different version
+Invalid SCTP stream identifier
+Invalid Adaptation Layer Identifier
+Application server state change
+Disable autonomous acknowledge
+Anomalous line condition received
+Register recall (timed loop open)
+Pulsed off hook (pulsed loop closed)
+Pulsed b-wire connected to earth
+Pulsed b-wire connected to battery
+Pulsed a-wire connected to earth
+Pulsed a-wire connected to battery
+Pulsed c-wire connected to earth
+Suppression allowed by pre-defined V5.1 SIGNAL msg from LE
+Suppression allowed by pre-defined line signal from TE
+Suppression allowed by pre-defined V5.1 SIGNAL msg from LE or line signal from TE
+Ending acknowledgement requested when finished each pulses
+Ending acknowledgement requested when finished all pulses
+Start of pulse acknowledgement requested
+Out of sequence information element
+Repeated optional information element
+Mandatory information element missing
+Unrecognized information element
+Mandatory information element content error
+Optional information element content error
+Message not compatible with path state
+Repeated mandatory information element
+FE305 (deferred link block request
+FE306 (non-deferred link block request)
+Access network blocked (internally)
+Connection already present at the PSTN user port to a different V5 time slot
+Connection already present at the V5 time slot(s) to a different port or ISDN user port time slot(s)
+Connection already present at the ISDN user port time slot(s) to a different V5 time slot(s)
+User port unavailable (blocked)
+De-allocation cannot completeddue to incompatible data content
+De-allocation cannot completeddue to V5 time slot(s) data incompatibility
+De-allocation cannot completeddue to port data incompatibility
+De-allocation cannot completeddue to user port time slot(s) data incompatibility
+Invalid V5 time slot(s) indication(s)
+Invalid V5 2048 kbit/s link indication
+Invalid user time slot(s) indication(s)
+V5 time slot(s) being used as physikal C-channel(s)
+Optional infromation element content error
+Message not compatible with the BCC protocol state
+BCC Reference Number coding error
+Invalid V5 time slot identification
+Invalid V5 2048 kbit/s link identification
+Time slot being used as physikal C-channel
+FE102 (activation initiated by user)
+Request variant and interface ID
+re-provisioning in progress (re-pro)
+v5ua.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

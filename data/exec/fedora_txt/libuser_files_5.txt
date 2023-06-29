@@ -1,0 +1,306 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_malloc
+strlen
+g_realloc
+fgets
+g_free
+g_strconcat
+lu_cfg_read_single
+lu_util_lock_obtain
+fdopen
+g_ptr_array_new
+lu_ent_new
+strchr
+g_strndup
+fnmatch
+lu_ent_free
+lu_util_lock_free
+fclose
+g_strdup
+g_ptr_array_add
+g_assertion_message_expr
+__errno_location
+dcgettext
+lu_error_new
+__fxstat
+__xstat
+fchown
+fchmod
+fsync
+lseek
+ftruncate
+strncmp
+strstr
+lu_ent_get_current
+lu_util_fscreate_save
+lu_util_fscreate_from_file
+lu_util_fscreate_restore
+g_value_array_get_nth
+lu_value_strdup
+memmove
+g_assertion_message
+lu_ent_get
+strcmp
+g_return_if_fail_warning
+g_malloc0
+memcpy
+__rawmemchr
+lu_util_line_get_matchingx
+__sprintf_chk
+access
+g_value_get_string
+stderr
+__fprintf_chk
+abort
+lu_value_init_set_attr_from_string
+lu_strerror
+g_log
+lu_error_free
+g_strsplit
+g_strv_length
+lu_ent_add_current
+g_value_unset
+lu_ent_clear_current
+g_strfreev
+lu_ent_clear_all
+g_value_init
+g_value_set_string
+lu_ent_clear
+lu_ent_add
+g_value_array_new
+g_value_array_append
+g_value_reset
+__snprintf_chk
+g_value_array_free
+g_type_check_value_holds
+lu_util_field_read
+g_ascii_strncasecmp
+lu_util_field_write
+lu_util_default_salt_specifier
+lu_make_crypted
+libuser_files_init
+geteuid
+lu_string_cache_new
+lu_common_user_default
+lu_common_group_default
+libuser_shadow_init
+lu_common_suser_default
+lu_common_sgroup_default
+libuser.so.1
+libgmodule-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libcrypt.so.1
+libselinux.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libuser_files.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.2.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+[^_]
+ED$T
+d$<[^_]
+[^_]
+9D$p
+D$p9
+;D$p
+UWVS
+DT$8
+;2sf
+T$L9T$@t
+T$p9T$@te
+[^_]
+d$\1
+[^_]
+d$\1
+[^_]
+[^_]
+9D$p
+D$<t:
+D$<1
+[^_]
+[^_]
+D$p9
+T$4+T$,
+d$<[
+d$<1
+d$<1
+D$\1
+T$\e3
+d$([
+D$\1
+T$\e3
+d$([
+d$([
+d$([
+UWVS
+D$T1
+d$<1
+[^_]
+[^_]
+;l$p
+DD$,
+D$$t
+;l$p
+[^_]
+d$\1
+[^_]
+D$ 	
+d$\[^_]
+UWVS
+<-t}
+t=<,
+d$l[^_]
+d$l[^_]
+UWVS
+<+tF<-tB
+[^_]
+t$$t@
+t-<,
+UWVS
+8@tI
+d$<1
+[^_]
+[^_]
+D$x1
+L$,t=
+D$01
+[^_]
+[^_]
+[^_]
+8yt?
+8yt<
+/etc
+couldn't open `%s': %s
+libuser
+module != NULL
+modules/files.c
+couldn't stat `%s': %s
+error creating `%s': %s
+Error reading `%s': %s
+Error writing `%s': %s
+backup file size mismatch
+filename != NULL
+strlen(filename) > 0
+pw_name
+gr_name
+couldn't read from `%s': %s
+couldn't write to `%s': %s
+ent != NULL
+entry already present in file
+formats != NULL
+format_count > 0
+parser != NULL
+field > 0
+ldap
+names != NULL
+err != NULL
+ret != FALSE
+gr_passwd
+pw_passwd
+user != NULL
+group != NULL
+shadow
+G_VALUE_HOLDS_STRING(value)
+sp_pwdp
+{CRYPT}
+error encrypting password
+files/nonroot
+files
+context != NULL
+shadow/nonroot
+shadow/directory
+pw_gid
+gr_mem
+pw_uid
+pw_gecos
+pw_dir
+pw_shell
+/bin/bash
+gr_adm
+sp_lstchg
+sp_min
+sp_max
+99999
+sp_warn
+sp_inact
+sp_expire
+sp_flag
+backup file `%s' exists and is not a regular file
+Error changing owner of `%s': %s
+%s value `%s': `:' not allowed
+format_count != 0 && ret != NULL
+entity object has no %s attribute
+entry with conflicting name already present in file
+(ent->type == lu_user) || (ent->type == lu_group)
+libuser fatal error: %s() called with NULL error
+libuser fatal error: %s() called with non-NULL *error
+the `%s' and `%s' modules can not be combined
+entry is incorrectly formatted
+`:' not allowed in encrypted password
+not executing with superuser privileges
+no shadow file present -- disabling
+libuser_files_init
+close_module
+/group
+parse_generic
+parse_field
+lu_files_enumerate_full
+lu_files_groups_enumerate_by_user
+/passwd
+lu_files_enumerate
+generic_setpass
+ent_has_shadow
+lu_files_create_backup
+generic_is_locked
+generic_lock
+lock_process
+generic_del
+generic_mod
+format_generic
+generic_add
+generic_lookup
+lu_files_users_enumerate_by_group
+lu_files_shadow_valid_module_combination
+lu_files_shadow_valid_module_combination
+libuser_shadow_init
+/shadow
+/gshadow
+libuser_files.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

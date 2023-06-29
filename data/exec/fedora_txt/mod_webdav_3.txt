@@ -1,0 +1,279 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+buffer_free
+calloc
+buffer_init
+config_insert_values_global
+log_error_write
+__stack_chk_fail
+buffer_append_string_len
+open64
+malloc
+read
+__errno_location
+close
+strerror
+log_failed_assert
+buffer_append_string_buffer
+buffer_copy_string_len
+buffer_append_int
+get_http_status_name
+buffer_append_string
+unlink
+config_check_cond
+buffer_is_equal_string
+response_header_overwrite
+response_header_insert
+stat_cache_get_entry
+stat_cache_mimetype_by_ext
+etag_create
+etag_mutate
+buffer_reset
+gmtime
+strftime
+opendir
+readdir64
+buffer_copy_buffer
+__xstat64
+closedir
+rmdir
+array_get_element_klen
+chunkqueue_append_buffer
+http_response_redirect_to_directory
+buffer_append_string_encoded
+mkdir
+strtoll
+lseek64
+chunkqueue_mark_written
+strstr
+strchr
+memchr
+buffer_is_equal
+buffer_urldecode_path
+buffer_path_simplify
+connection_handle_read_post_state
+strncasecmp
+mmap64
+buffer_copy_string
+buffer_is_equal_right_len
+buffer_to_lower
+fdevent_open_cloexec
+strrchr
+rename
+mod_webdav_plugin_init
+buffer_init_string
+libc.so.6
+_edata
+__bss_start
+_end
+mod_webdav.so
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+ATUH
+[]A\A]
+t9UH
+AVAUATI
+D$x1
+D$(H
+|$0H
+L$@H
+T$HH
+D$XH
+D$8H
+D$PI
+T$ L
+|$xdH3<%(
+[]A\A]A^A_
+oChH
+AVAUATUS
+[]A\A]A^A_
+|$ L
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+<$dH
+D$h1
+D$0:16Z
+ 07:27:1
+)D$ f
+D$X6 GM
+)D$@
+\$hdH3
+x[]A\A]A^A_
+|$ H
+|$@H
+AVAUATE1
+T$ L
+D$HH
+D$0H
+D$HH
+D$(H
+|$0H
+|$0H
+|$HI
+|$HH
+D$0H
+D$x%
+[]A\A]A^A_
+D$(H
+T$ H
+D$0H
+t$(H
+AWAVAUATI
+t}fA
+[]A\A]A^A_
+L$HH
+<Tt	E
+|$(H
+t$(I
+t$ I
+D$ I
+d$(L
+D$hH
+D$PH
+D$ f
+|$PH
+|$PH
+|$hH
+|$hH
+|$PL
+|$hL
+D$hH
+D$PH
+<2/u
+L$PH
+|$8H
+|$@H
+D$8H
+D$8H
+|$8I
+D$hH
+D$(H
+D$PH
+D$0H
+|$PI
+|$PH
+|$PH
+|$hI
+|$hH
+|$hH
+T$(I
+T$0L
+E(E1
+|$(H
+t$8I
+t$PH
+|$8H
+D$8H
+T$8L
+|$8H
+D$8H
+T$8H
+webdav.activate
+webdav.is-readonly
+webdav.sqlite-db-name
+webdav.log-xml
+mod_webdav.c
+assertion failed: data
+close 
+sbss
+<D:href>
+</D:href>
+<D:status>
+HTTP/1.1 
+HTTP/1.0 
+</D:status>
+</D:response>
+MS-Author-Via
+PROPFIND
+Allow
+getcontentlanguage
+creationdate
+resourcetype
+<D:resourcetype/>
+getcontenttype
+<D:getcontenttype>
+</D:getcontenttype>
+%Y-%m-%dT%H:%M:%SZ
+</D:creationdate>
+getlastmodified
+%a, %d %b %Y %H:%M:%S GMT
+</D:getlastmodified>
+getcontentlength
+<D:getcontentlength>
+</D:getcontentlength>
+<D:getcontentlanguage>
+</D:getcontentlanguage>
+getetag
+<D:getetag>
+</D:getetag>
+Depth
+text/xml; charset="utf-8"
+Content-Type
+<D:response>
+<D:href>
+<D:propstat>
+<D:prop>
+</D:prop>
+</D:propstat>
+</D:multistatus>
+XML-response-body:
+Content-Range
+bytes 
+open failed: 
+lseek/read failed: 
+ssbd
+Destination
+Overwrite
+webdav
+DAV:
+Sorry, no sqlite3 and libxml2 support include, compile with --with-webdav-props
+<D:response xmlns:ns0="urn:uuid:c2f41010-65b3-11d1-a29f-00aa00c14882/">
+PROPFIND, DELETE, MKCOL, PUT, MOVE, COPY, PROPPATCH, LOCK, UNLOCK
+<D:resourcetype><D:collection/></D:resourcetype>
+<D:getcontenttype>httpd/unix-directory</D:getcontenttype>
+<D:creationdate ns0:dt="dateTime.tz">
+<D:getlastmodified ns0:dt="dateTime.rfc1123">
+<?xml version="1.0" encoding="utf-8"?>
+<D:multistatus xmlns:D="DAV:" xmlns:ns0="urn:uuid:c2f41010-65b3-11d1-a29f-00aa00c14882/">
+<D:status>HTTP/1.1 200 OK</D:status>
+<D:status>HTTP/1.1 404 Not Found</D:status>
+<D:multistatus xmlns:D="DAV:">
+2005-08-18T07:27Thu, 18 Aug 2005
+:*3$"
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+mod_webdav.so-1.4.50-1.fc29.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

@@ -1,0 +1,127 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+Perl_croak_nocontext
+boot_Encode__Unicode
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_Encode__Unicode_decode_xs
+Perl_newXS
+XS_Encode__Unicode_encode_xs
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_vstringify
+Perl_croak
+enc_pack
+Perl_sv_grow
+Perl_hv_common_key_len
+Perl_newSVpvn
+Perl_sv_2pvutf8
+Perl_sv_2mortal
+PL_utf8skip
+Perl_utf8n_to_uvuni
+Perl_sv_2iv_flags
+memmove
+Perl_Isv_undef_ptr
+Perl_sv_2bool
+Perl_sv_2pvbyte
+Perl_uvuni_to_utf8_flags
+Perl_warner
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.0
+L[^_]
+[^_]
+[^_]
+l[^_]
+\[^_]
+Partial character %c
+Unknown endian %c
+XS_VERSION
+%s::%s
+2.05
+version
+bootstrap parameter
+Unicode.c
+Encode::Unicode::decode_xs
+Encode::Unicode::encode_xs
+obj, utf8, check = 0
+Usage: %s(%s)
+endian
+size
+ucs2
+renewed
+Name
+obj, str, check = 0
+%-p:Unrecognised BOM %lx
+%-p:no surrogates allowed %lx
+%-p:Partial character
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "Unicode.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+Assertion %s failed: file "Unicode.xs", line %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((result)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((result)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((result)->sv_flags & 0xff)) != SVt_PVHV
+!((((result)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((result)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((result)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+%-p:code point "\x{%lx}" too high
+%-p:partial character is not allowed when CHECK = 0x%lu
+((svtype)((utf8)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((utf8)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((utf8)->sv_flags & 0xff)) != SVt_PVHV
+!((((utf8)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((utf8)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((utf8)->sv_flags & 0xff)) == SVt_PVLV))
+%-p:Malformed HI surrogate %lx
+%-p:Malformed LO surrogate %lx
+%-p:Unicode character %lx is illegal
+((svtype)((str)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((str)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((str)->sv_flags & 0xff)) != SVt_PVHV
+!((((str)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((str)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((str)->sv_flags & 0xff)) == SVt_PVLV))
+Unicode.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,354 @@
+/lib/ld-linux.so.2
+libmount.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+mnt_table_find_devno
+mnt_new_table_from_file
+mnt_unref_table
+mnt_fs_get_target
+libblkid.so.1
+libuuid.so.1
+libselinux.so.1
+_init
+_fini
+librt.so.1
+libsmartcols.so.1
+scols_table_enable_raw
+scols_print_table
+scols_table_set_name
+scols_init_debug
+scols_line_set_data
+scols_table_enable_noheadings
+scols_new_table
+scols_table_new_line
+scols_table_enable_json
+scols_unref_table
+scols_table_new_column
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+readlinkat
+__strdup
+dcgettext
+__fxstatat64
+closedir
+warnx
+_exit
+strspn
+__assert_fail
+strtod
+strtok
+strtol
+fgetc
+fgets
+__openat64_2
+calloc
+strlen
+memset
+localeconv
+warn
+strcspn
+__errno_location
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+opendir
+__ctype_b_loc
+sscanf
+optarg
+stderr
+__snprintf_chk
+getopt_long
+strncasecmp
+__fpending
+strchr
+program_invocation_short_name
+fdopen
+readdir64
+__cxa_finalize
+__vasprintf_chk
+__sprintf_chk
+errx
+fopen64
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+dirfd
+ferror
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+MOUNT_2.22
+MOUNT_2.19
+MOUNT_2.24
+SMARTCOLS_2.27
+SMARTCOLS_2.25
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.7
+GLIBC_2.0
+GLIBC_2.3.4
+D$\1
+\$\e3
+[^_]
+D$Pud
+D$89D$L
+D$(;|$8t
+?;t$8u
+D$4;
+DD$,
+DD$,
+D$L;D$8t
+;P4t
+DD$,
+;l$,u
+UWVS
+[^_]
+[^_]
+UWVS
+D$de
+D$,u
+D$H3
+L$,1
+l$t1
+L$p0
+t$<	
+D$x	
+[^_]
+UWVS
+8 tH
+[^_]
+d$([
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options]
+List local system locks.
+Options:
+ %11s  %s
+For more details see %s.
+lslocks(8)
+cannot allocate string
+misc-utils/lslocks.c
+num >= 0
+name
+unknown column: %s
+/proc/locks
+cannot allocate %zu bytes
+failed to parse ID
+cannot duplicate string
+failed to parse pid
+/proc/%d/comm
+(unknown)
+%02x:%02x:%ju
+failed to parse start
+failed to parse end
+/proc/%d/fd/
+/proc/self/mountinfo
+write error
+json
+/usr/share/locale
+util-linux
+invalid PID argument
+%s from %s
+util-linux 2.27
+Jp:o:nruhV
+failed to add line to output
+%s%s
+ -%c
+ --%s
+help
+notruncate
+version
+noheadings
+COMMAND
+TYPE
+SIZE
+size of the lock
+MODE
+lock access mode
+START
+ending offset of the lock
+PATH
+path of the locked file
+BLOCKER
+ -J, --json             use JSON output format
+ -n, --noheadings       don't print headings
+ -o, --output <list>    define which output columns to use
+ -p, --pid <pid>        display only locks held by this process
+ -r, --raw              use the raw output format
+ -u, --notruncate       don't truncate text in columns
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+Available columns (for --output):
+%s: these options are mutually exclusive:
+failed to initialize output table
+columns[num] < (int) (sizeof(infos) / sizeof((infos)[0]) + __extension__ (sizeof(struct { int:-!!(__builtin_types_compatible_p(__typeof__(infos), __typeof__(&infos[0]))); })))
+failed to initialize output column
+command of the process holding the lock
+PID of the process holding the lock
+kind of lock: FL_FLOCK or FL_POSIX.
+mandatory state of the lock: 0 (none), 1 (set)
+relative byte offset of the lock
+PID of the process blocking the lock
+add_scols_line
+get_column_id
+column_name_to_id
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"$
+lslocks.debug
+7zXZ
+o<2^
+N>	:i
+QO^L
+,',A
+wxN@
+8,geg
+YEBuD
+){g;
+PO^C
+-6c(T
+<),{"
+Zt0^
+88"!
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

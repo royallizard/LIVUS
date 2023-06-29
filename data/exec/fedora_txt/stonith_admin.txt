@@ -1,0 +1,320 @@
+/lib64/ld-linux-x86-64.so.2
+DD};2
+libcrmcommon.so.3
+__gmon_start__
+_Jv_RegisterClasses
+qb_log_callsite_get
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+qb_log_real_
+qb_log_from_external_source
+mainloop_set_trigger
+mainloop_add_trigger
+crm_strdup_printf
+crm_get_option_long
+crm_set_options
+crm_log_cli_init
+crm_system_name
+crm_bump_log_level
+crm_get_msec
+_fini
+crm_log_args
+pcmk_strerror
+crm_parse_int
+crm_help
+crm_str_eq
+mainloop
+crm_is_callsite_active
+crm_concat
+libcib.so.4
+libpe_rules.so.2
+libpe_status.so.4
+libncurses.so.5
+libtinfo.so.5
+libcrmcluster.so.4
+libstonithd.so.2
+stonith_api_delete
+stonith_api_time
+stonith_api_new
+stonith_key_value_freeall
+stonith_key_value_add
+libcpg.so.4
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+__printf_chk
+optind
+__strdup
+puts
+__stack_chk_fail
+strtol
+__fprintf_chk
+ctime
+stdout
+malloc
+getenv
+sscanf
+optarg
+stderr
+fwrite
+sleep
+__cxa_finalize
+__libc_start_main
+free
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+g_main_loop_run
+g_main_loop_new
+g_main_loop_quit
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z2 
+%r2 
+%j2 
+%b2 
+%Z2 
+%R2 
+%J2 
+%B2 
+%:2 
+%22 
+%*2 
+%"2 
+AWAVE1
+AUATI
+l$tH
+D$HH
+D$xH
+D$$x
+;-*8 
+l$ E
+=V8 
+528 
+L$8H
+=Q7 
+=U5 
+=~6 
+[]A\A]A^A_
+=v5 
+5_5 
+565 
+D$h1
+L$hH
+=n4 
+=+4 
+L$HH
+T$`H
+= 3 
+|$xH
+D$$1
+L$$H
+<Rt`<M
+L$$L
+D$0H
+T$(H
+T$(H
+5d) 
+AXAY
+5>1 
+t$xH
+=K/ 
+t$xH
+L$$H
+D$$H
+5m& 
+l$@A
+AXAYL
+IcF I
+<$t2
+ARPH
+HcE H
+L$$H
+L$$H
+5Q$ 
+D$$H
+=w+ 
+L$8H
+54# 
+unknown
+D$$1
+unknown
+fffff.
+=Y' 
+5R' 
+fffff.
+=i( 
+=G  
+fffff.
+5m( 
+=W( 
+ffff.
+=5' 
+ffffff.
+-n' 
+5c' 
+=Q% 
+ffff.
+=6$ 
+=$$ 
+AWAVA
+AUATL
+[]A\A]A^A_
+Connecting as %s
+admin.c
+callback
+st_notify_fence
+stonith_admin
+mode [options]
+%s.%s
+%m[^=]=%m[^=]
+OCF_RESKEY
+tolerance
+Create
+Created
+Connect: %d
+No devices found
+%d devices found
+stonith-ng
+reboot
+Node %s last kicked at: %s
+turn
+Command failed: %s
+Disconnect: %d
+Destroy
+Command returned: %s (%d)
+Got: '%s'='%s'
+Invalid option: -e %s
+Invalid option: -o %s
+Scanning: -o %s
+help
+	This text
+version
+	Version information
+verbose
+	Increase debug output
+quiet
+	Print only essential output
+-spacer-
+Commands:
+list
+list-registered
+List all registered devices
+list-installed
+List all installed devices
+Check the device's metadata
+query
+Check the device's status
+Fence the named host
+unfence
+Unfence the named host
+Reboot the named host
+confirm
+history
+last
+deregister
+deregister-level
+Options and modifiers:
+agent
+env-option
+device
+index
+The stonith level (1-9)
+timeout
+Operation timeout in seconds
+as-node-id
+list-all
+stonith client connection established
+stonith client connection failed
+Provides access to the stonith-ng API.
+Allows the administrator to add/remove/list devices, check device and host status and fence hosts
+Please specify an agent to query using -a,--agent [value]
+Node %s has never been kicked
+%s failed to %s node %s on behalf of %s from %s at %s
+%s was able to %s node %s on behalf of %s from %s at %s
+We were able to %s node %s on behalf of %s from %s at %s
+%s at %s wishes to %s node %s - %d %d
+Couldn not connect to stonithd. 
+List devices that can terminate the specified host
+Confirm the named host is now safely down
+Retrieve last fencing operation
+Indicate when the named node was last fenced. Optional: --as-node-id
+Register the named stonith device. Requires: --agent, optional: --option
+De-register the named stonith device
+Register a stonith level for the named host. Requires: --index, one or more --device entries
+De-register a stonith level for the named host. Requires: --index
+The agent (eg. fence_xvm) to instantiate when calling with --register
+Identify fencing operations with the specified tag.
+	Useful when there are multiple entities that might be invoking stonith_admin(8)
+A device to associate with a given host and stonith level
+(Advanced) The supplied node is the corosync nodeid (Only for use with --last)
+(Advanced) Do nothing if an equivalent --fence request succeeded less than N seconds earlier
+legacy alias for --list-registered
+try_mainloop_connect
+main
+;*3$"
+stonith_admin.debug
+7zXZ
+]dPm
+zqSy!
+HJy`u1
+~NTZ.
+F~s2x)
+-"T,
+7Ezl
+pf~f
+f8GY
+p$=T
+9.W,
+.0QI*t
+sThT
+j:RY
+hc$5
+)IQV
+.)9*
+wAmW
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

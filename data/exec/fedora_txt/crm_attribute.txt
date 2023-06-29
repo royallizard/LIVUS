@@ -1,0 +1,242 @@
+/lib64/ld-linux-x86-64.so.2
+libcrmcluster.so.4
+__gmon_start__
+_Jv_RegisterClasses
+qb_log_callsite_get
+crm_str_eq
+crm_system_name
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+crm_itoa
+qb_log_real_
+crm_exit
+crm_abort
+safe_str_neq
+_fini
+get_node_name
+libstonithd.so.2
+pcmk_strerror
+libcrmcommon.so.3
+crm_set_options
+crm_log_cli_init
+crm_get_option
+crm_bump_log_level
+attrd_update_delegate
+crm_log_args
+crm_help
+libcib.so.4
+cib_delete
+delete_attr_delegate
+read_attr_delegate
+query_node_uuid
+update_attr_delegate
+cib_new
+libpe_rules.so.2
+libncurses.so.5
+libtinfo.so.5
+libcpg.so.4
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+__printf_chk
+optind
+__strdup
+puts
+time
+__stack_chk_fail
+putchar
+__fprintf_chk
+stdout
+optarg
+stderr
+fwrite
+__cxa_finalize
+__libc_start_main
+free
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z% 
+%r% 
+%j% 
+%b% 
+%Z% 
+%R% 
+%J% 
+%B% 
+%:% 
+%2% 
+%*% 
+%"% 
+AWAVAUATI
+=?, 
+5\+ 
+=j+ 
+=T+ 
+dH34%(
+([]A\A]A^A_
+D$ H
+=i( 
+=L( 
+=c( 
+='( 
+=M' 
+=\& 
+=J% 
+=)" 
+fffff.
+fffff.
+=I" 
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+forever
+<none>
+remote
+<null>
+(null)
+name=
+scope=
+crm_attribute
+nodes
+utilization
+non-option ARGV-elements: 
+reboot
+status
+crm_config
+tickets
+crm_failcount
+last-lrm-refresh
+log-assert
+crm_attribute.c
+type != NULL
+attr_name != NULL
+attr_value != NULL
+%s%s %s%s %s%s value=%s
+Read %s=%s %s%s
+Update %s=%s sent via attrd
+help
+	This text
+version
+	Version information
+verbose
+	Increase debug output
+quiet
+-spacer-
+Commands:
+query
+update
+delete
+	Delete the attribute/option
+Additional Options:
+node
+type
+lifetime
+set-name
+default
+inhibit-policy-engine
+node-uname
+node-uuid
+get-value
+delete-attr
+attr-value
+attr-name
+attr-id
+Examples:
+Manage node's attributes and cluster options.
+Allows node attributes and cluster options to be queried, modified and deleted.
+command -n attribute [options]
+Argument code 0%o (%c) is not (?yet?) supported
+Error signing on to the CIB service: %s
+Could not map name=%s to a UUID
+Error during deletion, no attribute name specified.
+Please choose from one of the matches above and suppy the 'id' with --attr-id
+Error performing operation: %s
+Inhibiting notifications for this update
+	Print only the value on stdout
+Name of the attribute/option to operate on
+	Query the current value of the attribute/option
+Update the value of the attribute/option
+Set an attribute for the named node (instead of a cluster option).  See also: -l
+Which part of the configuration to update/delete/query the option in.
+			Valid values: crm_config, rsc_defaults, op_defaults, tickets
+Lifetime of the node attribute.
+			Valid values: reboot, forever
+Set an utilization attribute for the node.
+(Advanced) The attribute set in which to place the value
+	(Advanced) The ID used to identify the attribute
+(Advanced) The default value to display if none is found in the configuration
+Add a new attribute called 'location' with the value of 'office' for host 'myhost':
+ crm_attribute --node myhost --name location --update office
+Query the value of the 'location' node attribute for host myhost:
+ crm_attribute --node myhost --name location --query
+Change the value of the 'location' node attribute for host myhost:
+ crm_attribute --node myhost --name location --update backoffice
+Delete the 'location' node attribute for the host myhost:
+ crm_attribute --node myhost --name location --delete
+Query the value of the cluster-delay cluster option:
+ crm_attribute --type crm_config --name cluster-delay --query
+Query the value of the cluster-delay cluster option. Only print the value:
+ crm_attribute --type crm_config --name cluster-delay --query --quiet
+main
+main
+;*3$"
+crm_attribute.debug
+7zXZ
+^)qZW
+2gD0
+i	{7/S
+93FA
+QVTI>
+\_ai;
+j[,ap
+dF#;@}3
+8]mb
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,161 @@
+tdL.
+p0MW
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_string_sized_new
+g_string_append_printf
+g_string_append
+g_string_free
+g_snprintf
+uname
+service_management_get_type
+fopen64
+fgets
+fclose
+plugin_find
+cfg_lexer_include_buffer
+evt_tag_str
+msg_event_create
+msg_event_suppress_recursions_and_send
+lseek64
+IV_FD_INIT
+iv_fd_register_try
+iv_fd_unregister
+access
+__errno_location
+evt_tag_errno
+debug_flag
+system_source_module_init
+cfg_lexer_lookup_context_type_by_name
+cfg_lexer_register_block_generator
+module_info
+libsyslog-ng-3.8.so.0
+libsystemd.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libsystem-source.so
+GLIBC_2.0
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+d$,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+D$,e
+[^_]
+unix-dgram("%s"
+ perm(%s)
+ so_rcvbuf(%s)
+/dev/log
+sun-streams("%s"
+ door("%s")
+file("%s"
+ follow-freq(%d)
+kernel
+ program-override("%s")
+ flags(%s)
+ format(%s)
+ keep-timestamp(no)
+/dev/klog
+no-parse
+/proc/kmsg
+linux-kmsg
+/dev/kmsg
+source confgen system
+channel {
+    source {
+error
+Linux
+systemd-journal();
+8192
+/proc/1/cgroup
+device
+SunOS
+afstreams
+@module %s
+/etc/.syslog_door
+/var/run/syslog_door
+/var/run/log
+0600
+/var/run/logpriv
+GNU/kFreeBSD
+HP-UX
+pipe("%s"
+ pad_size(%d)
+OSF1
+CYGWIN
+release
+sysname
+    }; # source
+}; # channel
+json-parser
+system-source
+3.8.1
+channel {
+    source { %s };
+    rewrite { set("${.unix.pid}" value("PID") condition("${.unix.pid}" ne "")); };
+channel {
+    source { %s };
+    parser { extract-solaris-msgid(); };
+system(): Cannot get information about the running kernel
+system(): The kernel message buffer is not readable, please check permissions if this is unintentional.
+system(): Error detecting platform, unable to define the system() source. Please send your system information to the developers!
+WARNING: Starting with syslog-ng 3.6, the system() source performs JSON parsing of messages starting with the '@cim:' prefix. No additional action is needed
+channel {
+  channel {
+    parser {
+      json-parser(prefix('.cim.') marker('@cim:'));
+    };
+    flags(final);
+  };
+  channel { };
+system(): json-parser() is missing, skipping the automatic JSON parsing of messages submitted via syslog(3), Please install the json module
+The system-source module provides support for determining the system log sources at run time.
+;*2$"8
+libsystem-source.so.debug
+7zXZ
+usem
+0kzy|
+ob(P
+VYFM+E
+X	o#P
+XuJl
+W5R#
+_NXlfk}
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

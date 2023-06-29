@@ -1,0 +1,152 @@
+h/^r
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+purple_plugin_pref_frame_new
+dcgettext
+purple_plugin_pref_new_with_name_and_label
+purple_plugin_pref_frame_add
+purple_plugin_pref_set_type
+purple_plugin_pref_add_choice
+purple_prefs_get_bool
+purple_prefs_set_int
+purple_xfers_get_handle
+purple_signal_connect
+purple_blist_get_handle
+purple_blist_node_get_type
+purple_blist_node_get_flags
+purple_menu_action_new
+g_list_prepend
+g_return_if_fail_warning
+purple_contact_get_alias
+g_strdup_printf
+purple_blist_node_get_int
+purple_request_choice
+g_free
+purple_blist_node_get_parent
+g_file_test
+purple_build_dir
+purple_find_buddy
+purple_prefs_get_string
+g_build_filename
+g_strsplit
+purple_xfer_request_accepted
+g_strfreev
+purple_normalize
+purple_prefs_get_int
+purple_escape_filename
+g_strdup
+purple_blist_node_set_int
+purple_find_conversation_with_account
+purple_notify_message
+purple_init_plugin
+purple_user_dir
+purple_prefs_add_none
+purple_prefs_add_string
+purple_prefs_add_int
+purple_prefs_add_bool
+purple_plugin_register
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libnsl.so.1
+libresolv.so.2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+autoaccept.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+d$,[^_]
+D$,1
+T$,e3
+d$4[^
+|$De
+UWVS
+T$te
+D$L1
+D$Le3
+d$\[^_]
+|$(e
+|$De
+D$,1
+;t$T
+l$Ht+
+D$,e3
+t$0e
+d$ [^_
+Path to save the files in
+(Please provide the full path)
+/plugins/core/core-plugin_pack-autoaccept/path
+When a file-transfer request arrives from a user who is
+*not* on your buddy list:
+/plugins/core/core-plugin_pack-autoaccept/stranger
+Notify with a popup when an autoaccepted file transfer is complete
+(only when there's no conversation with the sender)
+/plugins/core/core-plugin_pack-autoaccept/notify
+Create a new directory for each user
+/plugins/core/core-plugin_pack-autoaccept/newdir
+/plugins/core/core-plugin_pack-autoaccept/escape
+/plugins/core/core-plugin_pack-autoaccept/reject_stranger
+When a file-transfer request arrives from %s
+PURPLE_BLIST_NODE_IS_CONTACT(node)
+Autoaccepted file transfer of "%s" from "%s" completed.
+/plugins/core/core-plugin_pack-autoaccept
+Auto-accept file transfer requests from selected users.
+Sadrul H Chowdhury <sadrul@users.sourceforge.net>
+pidgin
+Auto Accept
+Auto Reject
+Escape the filenames
+file-recv-request
+blist-node-extended-menu
+Autoaccept File Transfers...
+_Cancel
+_Save
+Set Autoaccept Setting
+%s-%d%s
+file-recv-complete
+name != NULL
+Autoaccept complete
+core-plugin_pack-autoaccept
+Autoaccept
+2.7.11-2.fc15
+http://pidgin.im/
+set_auto_accept_settings
+save_cb
+file_recv_request_cb
+autoaccept.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

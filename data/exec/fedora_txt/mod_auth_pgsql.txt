@@ -1,0 +1,272 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+strcasecmp
+apr_pstrcat
+ap_hook_post_config
+ap_hook_auth_checker
+ap_hook_check_user_id
+apr_pool_create_ex
+PQsetdbLogin
+PQstatus
+PQreset
+PQerrorMessage
+apr_snprintf
+PQexec
+PQresultStatus
+PQntuples
+PQclear
+PQfinish
+PQgetvalue
+strlen
+apr_palloc
+memset
+strcpy
+ap_is_initial_req
+__ctype_b_loc
+__ctype_tolower_loc
+__ctype_toupper_loc
+apr_time_exp_lt
+apr_strftime
+__strncat_chk
+__stack_chk_fail
+get_pg_pw
+auth_pgsql_module
+ap_get_basic_auth_pw
+apr_is_empty_table
+ap_log_rerror
+ap_note_basic_auth_failure
+crypt
+apr_table_get
+ap_pbase64encode
+strcmp
+apr_md5
+apr_table_elts
+apr_table_set
+apr_table_clear
+ap_requires
+ap_getword
+ap_getword_conf
+ap_add_version_component
+apr_pstrdup
+apr_table_make
+ap_set_string_slot
+ap_set_flag_slot
+libpq.so.5
+libc.so.6
+_edata
+__bss_start
+_end
+mod_auth_pgsql.so
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2.5
+52= 
+%4= 
+%2= 
+%*= 
+%"= 
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+ATSubH
+=_3 
+ffff.
+ffff.
+<\t4
+ffffff.
+=S9 
+d$ L
+l$(L
+t$0H
+=i7 
+L$(I
+|$(H
+t$(H
+t$ H
+t$ H
+t$0H
+L$pH
+t$hH
+T$(H
+|$(H
+|$(I
+|$(L
+T$ L
+|$(I
+|$(L
+T$ L
+|$(I
+|$(L
+D$(H
+AWAVAUI
+T$(M
+T$(H
+T$(H
+L$8H
+T$(H
+t$0A
+T$(M
+T$(H
+T$(H
+L$8H
+T$(H
+t$0A
+[]A\A]A^A_
+=b/ 
+fffff.
+AWAVAUATI
+[]A\A]A^A_
+fffff.
+D$X1
+t$8HcP
+T$XdH3
+\$hH
+l$pL
+d$xL
+D$8A
+=y* 
+T$ L
+T$ L
+=V) 
+L$8L
+T$ L
+L$@H
+T$ L
+L;L$(u
+AWAVAUATE1
+D$(H
+D$(H
+=7% 
+t$$9q
+[]A\A]A^A_
+H[]A\A]A^A_
+=1$ 
+=~# 
+=p" 
+=L" 
+CRYPT
+BASE64
+PGSQL 2: %s -- Query: %s 
+PGSQL 3: %s -- Query: %s
+PGSQL 4: %s
+%Y-%m-%d %H:%M:%S
+%s,%s
+'%s','%s'
+, %s
+, '%s'
+Group table user field name 
+GroupID field name 
+Group table name
+UserID field name 
+Password field name 
+Password table 
+mod_auth_pgsql.c
+%02x
+PG user %s: password mismatch
+valid-user
+group
+mod_auth_pgsql/2.0.3
+Auth_PG_host
+Auth_PG_database
+Auth_PG_port
+Auth_PG_options
+Auth_PG_user
+user name connect as
+Auth_PG_pwd
+password to connect
+Auth_PG_pwd_table
+Auth_PG_pwd_field
+Auth_PG_uid_field
+Auth_PG_grp_table
+Auth_PG_grp_group_field
+Auth_PG_grp_user_field
+Auth_PG_nopasswd
+'on' or 'off'
+Auth_PG_encrypted
+Auth_PG_hash_type
+Auth_PG_cache_passwords
+Auth_PG_authoritative
+Auth_PG_lowercase_uid
+Auth_PG_uppercase_uid
+Auth_PG_pwd_ignore_case
+Auth_PG_grp_whereclause
+Auth_PG_pwd_whereclause
+Auth_PG_log_table
+Auth_PG_log_addrs_field
+Auth_PG_log_uname_field
+Auth_PG_log_pwd_field
+Auth_PG_log_date_field
+Auth_PG_log_uri_field
+Invalid hash type for Auth_PG_hash_type: 
+mod_auth_pgsql database connection error resetting %s
+mod_auth_pgsql database connection error reset failed %s
+Could not get memory for Postgres query.
+insert into %s (%s) values(%s) ; 
+PG: Missing parameters for password lookup: %s%s%s
+select %s from %s where %s='%s' and %s='%s' %s
+PG: Detected SQL-truncation attack. Auth aborted.
+select %s from %s where %s='%s' %s
+[mod_auth_pgsql.c] - missing configuration parameters
+mod_auth_pgsql: Password for user %s not found (PG-Authoritative)
+[mod_auth_pgsql.c] - ERROR - %s
+[mod_auth_pgsql.c] - Empty password accepted for user "%s"
+[mod_auth_pgsql.c] - Empty password rejected for user "%s"
+mod_auth_pgsql: user %s denied, no access rules specified (PG-Authoritative)
+[mod_auth_pgsql.c] - user %s not in right groups (PG-Authoritative)
+the host name of the postgreSQL server.
+the name of the database that contains authorization information.
+the port the postmaster is running on.
+an options string to be sent to the postgres backed process.
+the name of the table containing username/password tuples.
+the name of the password field.
+the name of the user-id field.
+the name of the table containing username/group tuples.
+the name of the group-name field.
+password hash type (CRYPT|MD5|BASE64).
+an SQL fragement that can be attached to the end of a where clause.
+the name of the table containing log tuples.
+the name of the field containing addrs in the log table (type char).
+the name of the field containing username in the log table (type char).
+the name of the field containing password in the log table (type char).
+the name of the field containing date in the log table (type char).
+the name of the field containing uri (Object fetched) in the log table (type char).
+22PA
+mod_auth_pgsql.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

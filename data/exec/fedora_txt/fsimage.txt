@@ -1,0 +1,92 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+Py_FindMethod
+PyArg_ParseTupleAndKeywords
+fsi_file_exists
+_Py_TrueStruct
+_Py_ZeroStruct
+fsimage_file_type
+PyObject_Malloc
+PyObject_Init
+fsi_open_file
+PyExc_IOError
+PyErr_SetFromErrno
+fsi_close_fsimage
+PyObject_Free
+PyString_FromStringAndSize
+fsi_pread_file
+_PyString_Resize
+fsi_close_file
+initfsimage
+Py_InitModule4_64
+fsimage_fs_type
+fsi_open_fsimage
+PyType_Type
+libfsimage.so.1.0
+libpython2.5.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+ATSubH
+l$ H
+D$$H
+\$(H
+l$0L
+d$8L
+l$@H
+D$ L
+D$(H
+T$ H
+fsimage
+s|Ls
+fsimage.file
+fsimage.fs
+open_file
+file_exists
+name
+read
+size
+offset
+open
+options
+Filesystem image file
+Filesystem image
+open_file(fs, filename) - lookup name in the given fs and return the file
+file_exists(fs, name) - lookup name in the given fs and return True if it exists
+read(file, [size=size, offset=off])
+Read size bytes (or all bytes if not set) from the given file. If offset is specified as well, read from the given offset.
+open(name, [offset=off]) - Open the given file as a filesystem image.
+name - name of file to open.
+offset - offset of file system within file image.
+options - mount options string.
+fsimage.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,293 @@
+qXmQ
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+tls_shmcache_module
+pr_event_unregister
+pr_privs_root
+mlock
+__errno_location
+pr_privs_relinquish
+pr_log_debug
+strerror
+pr_trace_msg
+destroy_pool
+pr_memscrub
+shmdt
+pr_fsio_close
+shmctl
+unlink
+getpid
+mpid
+ServerType
+ERR_get_error
+BIO_ctrl
+permanent_pool
+pstrdup
+BIO_free
+BIO_s_mem
+BIO_new
+pr_signals_handle
+ERR_error_string
+BIO_printf
+fcntl
+make_sub_pool
+pr_strtime
+SSL_SESSION_get_time
+SSL_SESSION_get_timeout
+SSL_SESSION_free
+d2i_SSL_SESSION
+pcalloc
+__sprintf_chk
+pr_log_pri
+tls_log
+tls_sess_cache_unregister
+pr_event_register
+tls_sess_cache_register
+palloc
+memcpy
+i2d_SSL_SESSION
+make_array
+push_array
+strchr
+pr_fs_valid_path
+strcmp
+pr_fsio_open
+__getpagesize
+ftok
+shmget
+shmat
+memset
+session
+pr_pool_tag
+strtol
+pr_fs_get_usable_fd
+libssl.so.10
+libcrypto.so.10
+libc.so.6
+_edata
+__bss_start
+_end
+mod_tls_shmcache.so
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+%"? 
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+ATSubH
+=M; 
+=j< 
+l$xH
+\$pL
+fffff.
+ATU1
+[]A\
+fffff.
+AWAVL
+AUATUSH
+|$0f
+|$0H
+HcL$(H
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUS
+=_6 
+D$ D
+[]A\A]A^A_
+T$`H
+D9x,
+t$(I
+D$HH
+A9]Dw
+D$lH
+A9]hw
+9X,w
+AVAUATI
+s5A9]
+D;p,A
+D;t$
+h0A9]
+[]A\A]A^A_
+fff.
+AUATA
+$xuH
+[]A\A]A^A_
+5I* 
+[]A\A]A^A_
+AVAUA
+L$(H
+P,9P(
+D$ t=H
+L$(I
+[]A\A]A^A_
+L$(I
+D$(H
+T$ I
+t$8H
+H9T$(}	H
+T$(H
+tEE0
+L;:}
+@ I9
+;B,H
+AVAUATUSH
+T$(H
+5<" 
+%m  
+D$,H
+D$(I
+[]A\A]A^A_
+H=g(
+T$`H
+H;\$`
+core.exit
+mod_tls_shmcache.c
+closing shmcache cache %p
+tls_shmcache
+removing shmcache cache %p
+(unknown)
+  (%u) %s
+read-lock
+write-lock
+unlock
+[unknown]
+checking shmcache cache %p
+Shared memory segment ID: %d
+Max session cache size: %u
+Cache lifetime hits: %u
+Cache lifetime misses: %u
+Cached sessions:
+  (none)
+%02X
+    Session ID: %s
+    Session ID Context: %s
+SSLv3
+    Protocol: %s
+TLSv1
+unknown
+    Started: %s
+    Expires: %s (%u secs)
+clearing shmcache cache %p
+core.module-unload
+core.restart
+sessions
+session
+opening shmcache cache %p
+/file=
+size=
+mod_tls_shmcache/0.1
+mod_tls_shmcache/0.1: error locking 'shm' cache (%lu bytes) into memory: %s
+mod_tls_shmcache/0.1: 'shm' cache locked into memory (%lu bytes)
+mod_tls_shmcache/0.1: error detaching shm ID %d: %s
+mod_tls_shmcache/0.1: attempting to remove shm ID %d
+mod_tls_shmcache/0.1: error removing shm ID %d: %s
+mod_tls_shmcache/0.1: removed shm ID %d
+attempting to %s shmcache fd %d
+%s of shmcache fd %d failed: %s
+process ID %lu has blocking %s on shmcache fd %d
+%s of shmcache fd %d succeeded
+mod_tls_shmcache/0.1: error read-locking shmcache: %s
+Shared memory (shm) SSL session cache provided by mod_tls_shmcache/0.1
+Shared memory segment size: %u bytes
+Shared memory cache created on: %s
+Shared memory attach count: %u
+Unable to stat shared memory segment ID %d: %s
+Current session cache size: %u
+Cache lifetime sessions stored: %u
+Cache lifetime sessions deleted: %u
+Cache lifetime sessions expired: %u
+Cache lifetime errors handling sessions in cache: %u
+Cache lifetime sessions exceeding max entry size: %u
+  Largest session exceeding max entry size: %u
+mod_tls_shmcache/0.1: error retrieving session from cache: %s
+  -----BEGIN SSL SESSION PARAMETERS-----
+  -----END SSL SESSION PARAMETERS-----
+mod_tls_shmcache/0.1: error unlocking shmcache: %s
+shmcache: unable to clear cache: error write-locking shmcache: %s
+shmcache: error unlocking shmcache: %s
+removing session from shmcache cache %p
+shmcache: unable to delete session from cache: error write-locking shmcache: %s
+getting session from shmcache cache %p
+shmcache: error retrieving session from cache: %s
+shmcache: unable to retrieve session from cache: error write-locking shmcache: %s
+mod_tls_shmcache/0.1: notice: error registering 'shm' SSL session cache: %s
+shmcache: error write-locking shmcache: %s
+adding session to shmcache cache %p
+shmcache: length of serialized SSL session data (%d) exceeds maximum size (%u), unable to add to shared shmcache, adding to list
+shmcache: no expired sessions to flush; %u secs to next expiration
+shmcache: flushing cache of expired sessions
+shmcache: flushed %u expired %s from cache
+shmcache: unable to flush shm cache: error write-locking shmcache: %s
+shmcache: unable to add session to shm cache: error write-locking shmcache: %s
+mod_tls_shmcache/0.1: badly formatted info '%s', unable to open shmcache
+mod_tls_shmcache/0.1: badly formatted size parameter '%s', ignoring
+mod_tls_shmcache/0.1: requested size (%lu bytes) smaller than minimum size (%lu bytes), ignoring
+mod_tls_shmcache/0.1: file '%s' not an absolute path
+mod_tls_shmcache/0.1: file '%s' does not match previously configured file '%s'
+mod_tls_shmcache/0.1: remove existing shmcache using 'ftpdctl tls sesscache remove' before using new file
+mod_tls_shmcache/0.1: error: unable to open file '%s': %s
+warning: unable to find good fd for shmcache fd %d: %s
+mod_tls_shmcache/0.1: requested shmcache file: %s (fd %d)
+mod_tls_shmcache/0.1: requested shmcache size: %lu bytes
+mod_tls_shmcache/0.1: rounded requested size up to %lu bytes
+mod_tls_shmcache/0.1: unable to get key for path '%s': %s
+mod_tls_shmcache/0.1: unable to get shm for existing key: %s
+mod_tls_shmcache/0.1: attempting to attach to shm ID %d
+mod_tls_shmcache/0.1: unable to attach to shm ID %d: %s
+mod_tls_shmcache/0.1: existing shm size: %u bytes
+mod_tls_shmcache/0.1: requested shm size (%lu bytes) is smaller than existing shm size, migrating to smaller shm (may result in loss of cache data)
+mod_tls_shmcache/0.1: requested shm size (%lu bytes) is larger than existing shm size, migrating to larger shm
+mod_tls_shmcache/0.1: remove existing shmcache using 'ftpdctl tls sesscache remove' before using new size
+mod_tls_shmcache/0.1: unable to stat shm ID %d: %s
+mod_tls_shmcache/0.1: error write-locking shmcache: %s
+mod_tls_shmcache/0.1: using shm ID %d for shmcache path '%s'
+mod_tls_shmcache/0.1: unable to allocate shm: %s
+mod_tls_shmcache.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

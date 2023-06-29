@@ -1,0 +1,181 @@
+)?<S
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_custom_function_unregister
+ast_devstate_prov_del
+ast_cli_unregister_multiple
+strncasecmp
+ast_devstate_val
+ast_db_put
+ast_devstate_changed
+ast_log
+__ast_app_separate_args
+strchr
+ast_get_hint
+ast_app_parse_options
+__stack_chk_fail
+ast_device_state
+ast_devstate_str
+ast_db_gettree
+strrchr
+ast_db_freetree
+__ast_custom_function_register
+ast_devstate_prov_add
+ast_cli_register_multiple
+ast_db_get
+ast_cli_complete
+ast_cli
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+GLIBC_2.2.5
+GLIBC_2.4
+5j  
+%l  
+%r  
+%r  
+%r  
+%r  
+%r  
+%r  
+%r  
+%r  
+%r  
+%r  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+%z  
+=Y  
+=Y# 
+5R# 
+=	# 
+=h  
+AUATH
+[]A\A]
+[]A\A]
+AUATUSH
+D$81
+T$8dH3
+H[]A\A]
+L$(M
+D$ H
+L$0H
+AUATH
+[]A\A]
+9B u
+AVAUH
+ATUL
+[]A\A]A^
+t)AUATUSH
+[]A\A]
+Custom
+Custom:
+func_devstate.c
+Custom:%s
+default
+Custom:%s
+devstate change
+Changing %s to %s
+devstate list
+$Revision$
+UNKNOWN
+NOT_INUSE
+BUSY
+UNAVAILABLE
+RINGING
+RINGINUSE
+ONHOLD
+func_devstate
+HINT
+DEVICE_STATE
+Change a custom device state
+The DEVICE_STATE function can only be used to set 'Custom:' device state!
+DEVICE_STATE function given invalid state value '%s'
+DEVICE_STATE function called with no custom device name!
+The HINT function requires an extension
+Usage: devstate change <device> <state>
+       Change a custom device to a new state.
+       The possible values for the state are:
+UNKNOWN | NOT_INUSE | INUSE | BUSY | INVALID | UNAVAILABLE | RINGING
+RINGINUSE | ONHOLD
+Examples:
+       devstate change Custom:mystate1 INUSE
+       devstate change Custom:mystate1 NOT_INUSE
+       
+The devstate command can only be used to set 'Custom:' device state!
+Usage: devstate list
+       List all custom device states that have been set by using
+       the DEVICE_STATE dialplan function.
+---------------------------------------------------------------------
+--- Custom Device States --------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+--- Name: 'Custom:%s'  State: '%s'
+Gets or sets a device state in the dialplan
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+List currently known custom device states
+devstate_write
+hint_read
+CustomDevstate
+;*3$"
+f450f61f60e761b3aa089ebed76ca8a5
+func_devstate.so.debug
+7zXZ
+*^_P
+pDl:
+VRn?
+V.6k
+u>?l
+0R?m
+Olf{
+D@'_
+>BKIm
+KAPs
+2tHS
+!(Q5
+e"g^
+WbSFkW&
+=Jx8
+3&G~0,
+y~W"
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

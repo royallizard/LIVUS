@@ -1,0 +1,241 @@
+/lib64/ld-linux-x86-64.so.2
+libstrongswan.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+options_create
+library_init
+strerror_safe
+library_deinit
+_fini
+key_type_names
+chunk_write
+libtspi.so.1
+Tspi_Context_Create
+Tspi_Context_GetTpmObject
+Tspi_SetAttribUint32
+Tspi_GetPolicyObject
+Tspi_Context_FreeMemory
+Tspi_GetAttribData
+Tspi_SetAttribData
+Tspi_TPM_CollateIdentityRequest
+Tspi_Context_CreateObject
+Tspi_Key_LoadKey
+Tspi_Context_LoadKeyByUUID
+Tspi_Context_Close
+Tspi_Policy_SetSecret
+Tspi_Context_Connect
+libc.so.6
+optind
+__stack_chk_fail
+strtol
+openlog
+__errno_location
+__syslog_chk
+__fprintf_chk
+fputc
+__vsnprintf_chk
+optarg
+stderr
+getopt_long
+fwrite
+strchr
+__vfprintf_chk
+__cxa_finalize
+setbuf
+__libc_start_main
+free
+__cxa_atexit
+_edata
+__bss_start
+_end
+/usr/lib64/strongswan
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z, 
+%r, 
+%j, 
+%b, 
+%Z, 
+%R, 
+%J, 
+%B, 
+%:, 
+%2, 
+%*, 
+%", 
+%z+ 
+%r+ 
+%j+ 
+%b+ 
+%Z+ 
+AWAVAUATUSH
+|$,H
+=D+ 
+t$ H
+T$ H
+D$ L
+D$,1
+|$,H
++u~H
+ku=H
+=_) 
+=[( 
+5=( 
+==( 
+=Q( 
+=e' 
+=/' 
+|$4H
+|$0H
+|$@H
+==& 
+D$XPH
+D$XPj%D
+D$HH
+T$PH
+T$`H
+D$h1
+|$`H
+t$hE
+D$hL
+d$XH
+D$LH
+T$XH
+T$pH
+D$x1
+|$pH
+t$xA
+D$xL
+|$DM
+D$LH
+T$XH
+PPR1
+t$(L
+PPP1
+AWAV
+t$(L
+=9! 
+fffff.
+fffff.
+=W  
+fffff.
+\$0I
+D$ H
+D$ H
+l$ L
+AWAVA
+AUATL
+[]A\A]A^A_
+error: %s
+aikgen
+ho:c:b:p:fqd:
+optionsfrom failed
+unknown option
+aikgen.load
+plugin loading failed
+Generating identity key...
+Identity Request: %B
+AIK private key blob: %B
+AIK public key blob: %B
+AIK keyid: %#B
+help
+optionsfrom
+cacert
+capubkey
+aikblob
+aikpubkey
+idreq
+force
+quiet
+debug
+Usage: aikgen  --cacert|capubkey <filename> [--aikblob <filename>] [--aikpubkey <filename>] 
+              [--idreq <filename>] [--force] [--quiet] [--debug <level>]
+       aikgen --help
+Options:
+ --cacert (-c)     certificate of [privacy] CA
+ --capubkey (-k)   public key of [privacy] CA
+ --aikblob (-b)    encrypted blob with AIK private key
+ --aikpubkey (-p)  AIK public key
+ --idreq (-i)      encrypted identity request
+ --force (-f)      force to overwrite existing files
+ --help (-h)       show usage and exit
+Debugging output:
+ --debug (-l)      changes the log level (-1..4, default: 1)
+ --quiet (-q)      do not write log output to stderr
+/etc/strongswan/pts/aikPub.der
+/etc/strongswan/pts/aikBlob.bin
+integrity check of aikgen failed
+sha1 sha2 md5 random nonce x509 pubkey pkcs1 pem openssl gmp
+could not read ca certificate file '%s'
+either --cacert or --capubkey option is required
+could not read ca public key file '%s'
+could not extract ca public key
+ca public key must be RSA 2048 but is %N %d
+could not extract RSA modulus from ca public key
+tss 0x%x on Tspi_Context_Create
+tss 0x%x on Tspi_Context_Connect
+tss 0x%x on Tspi_Context_LoadKeyByUUID for SRK
+tss 0x%x on Tspi_GetPolicyObject for SRK
+tss 0x%x on Tspi_Policy_SetSecret for SRK
+tss 0x%x on Tspi_Context_GetTpmObject
+tss 0x%x on Tspi_GetPolicyObject for TPM
+tss 0x%x on Tspi_Policy_SetSecret for TPM
+tss 0x%x on Tspi_Context_CreateObject for key
+tss 0x%x on Tspi_Context_CreateObject for PCA
+tss 0x%x on Tspi_SetAttribData for PCA modulus
+tss 0x%x on Tspi_SetAttribUint32 for PCA encryption scheme
+tss 0x%x on Tspi_TPM_CollateIdentityRequest
+could not write AIK identity request file '%s': %s
+AIK identity request written to '%s' (%u bytes)
+tss 0x%x on Tspi_Key_LoadKey for AIK
+tss 0x%x on Tspi_GetAttribData for private key blob
+could not write AIK blob file '%s': %s
+AIK private key blob written to '%s' (%u bytes)
+tss 0x%x on Tspi_GetAttribData for public key blob
+AIK public key is not in TSS blob format
+subjectPublicKeyInfo encoding of AIK key failed
+could not write AIK public key file '%s': %s
+AIK public key written to '%s' (%u bytes)
+computation of AIK keyid failed
+;*3$"
+aikgen.debug
+7zXZ
+tGOI
+`]g9
+_,=5
+T&of}
+[4Vn
+B,6D
+uivp
+?gC'
+l6cC
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,394 @@
+/lib64/ld-linux-x86-64.so.2
+optarg
+GLIBC_2.2.5
+libc.so.6
+__stack_chk_fail
+GLIBC_2.4
+fork
+libpthread.so.0
+__progname
+strchr
+free
+fwrite
+__bss_start
+_edata
+_end
+stdout
+program_invocation_short_name
+stderr
+execlp
+_exit
+__fprintf_chk
+GLIBC_2.3.4
+fputc
+memcmp
+__printf_chk
+optind
+strlen
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+__gcc_personality_v0
+GCC_3.3.1
+strcmp
+__cxa_finalize
+setlocale
+log_parse_environment
+log_open
+sigbus_install
+__libc_start_main
+sd_journal_open_directory
+sd_journal_open
+journal_access_check_and_warn
+journal_make_match_string
+pager_open
+pager_close
+fclose
+fopen
+sd_journal_close
+__errno_location
+sd_journal_seek_realtime_usec
+sd_journal_seek_head
+__strndup
+sd_journal_next
+path_is_absolute
+ignore_signals
+reset_all_signal_handlers
+access
+reset_signal_mask
+wait_for_terminate
+default_signals
+endswith
+var_tmp_dir
+mkostemp_safe
+on_tty
+fileno
+open
+decompress_stream
+sd_journal_set_data_threshold
+sd_journal_get_data
+write
+unlink
+safe_close
+gid_to_name
+safe_atoi
+signal_to_string
+safe_atollu
+format_timestamp_relative
+parse_uid
+getopt_long
+uid_to_name
+colors_enabled
+strreplace
+strstrip
+sd_journal_get_realtime_usec
+format_timestamp
+strcmp_ptr
+parse_boolean
+sd_journal_restart_data
+sd_journal_enumerate_data
+sd_journal_seek_tail
+sd_journal_previous
+log_assert_failed
+version
+parse_timestamp
+log_assert_failed_unreachable
+path_make_absolute_cwd
+parse_pid
+strjoin_real
+log_oom_internal
+sd_journal_add_match
+sd_bus_default_system
+sd_bus_message_new_method_call
+sd_bus_message_append_strv
+bus_log_create_error
+sd_bus_call
+bus_error_message
+sd_bus_message_enter_container
+strv_find
+log_get_max_level
+log_internal
+sd_bus_message_read
+sd_bus_message_exit_container
+bus_log_parse_error
+sd_bus_error_free
+sd_bus_message_unref
+sd_bus_unref
+bus_standard_errors
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+AWAVAUATI
+[A\A]A^A_]
+A[X1
+_AXL
+AWAVI
+AUATI
+=u:L
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+dH34%(
+[A\A]A^A_]
+AYAZ
+AWAVAUATSH
+[A\A]A^A_]
+ffffff.
+AWAVAUATSH
+[A\A]A^A_]
+AWj	I
+j	PH
+AWAVI
+AUATL
+[]A\A]A^A_
+fffff.
+Failed to search journal: %m
+src/coredump/coredumpctl.c
+No match found.
+!(file && path)
+!!path == !!unlink_temp
+COREDUMP_FILENAME
+COREDUMP
+File "%s" is not readable: %m
+.lz4
+/coredump-XXXXXX
+Created temporary file %s
+Failed to open %s: %m
+Failed to decompress %s: %m
+len >= 9
+Failed to write output: %m
+Short write to output.
+Removed temporary file %s
+[0;1;39m
+Reason
+Signal
+truncated
+inaccessible
+[0;1;31m
+file
+MESSAGE_ID
+COREDUMP_PID
+COREDUMP_UID
+COREDUMP_GID
+COREDUMP_SIGNAL
+COREDUMP_EXE
+COREDUMP_COMM
+COREDUMP_CMDLINE
+COREDUMP_UNIT
+COREDUMP_USER_UNIT
+COREDUMP_SESSION
+COREDUMP_OWNER_UID
+COREDUMP_SLICE
+COREDUMP_CGROUP
+COREDUMP_TIMESTAMP
+COREDUMP_TRUNCATED
+_BOOT_ID
+_MACHINE_ID
+_HOSTNAME
+MESSAGE
+           PID: %s%s%s (%s)
+           PID: %s%s%s
+           UID: %s (%s)
+           UID: %s
+           GID: %s (%s)
+           GID: %s
+        %s: %s (%s)
+        %s: %s
+     Timestamp: %s (%s)
+     Timestamp: %s
+  Command Line: %s
+    Executable: %s%s%s
+ Control Group: %s
+          Unit: %s
+     User Unit: %s
+         Slice: %s
+       Session: %s
+     Owner UID: %s (%s)
+     Owner UID: %s
+       Boot ID: %s
+    Machine ID: %s
+      Hostname: %s
+       Storage: %s
+       Storage: journal
+       Storage: none
+                
+       Message: %s
+present
+missing
+error
+journal
+none
+Empty coredump log entry
+TIME
+%-*s %*s %*s %*s %*s %-*s %s
+COREFILE
+COREDUMP_EXE=
+COREDUMP_PID=
+COREDUMP_COMM=
+not 
+unit is running
+units are running
+argc >= 0
+argv
+writing to '%s': %m
+Failed to parse timestamp: %s
+Unhandled option
+ho:F:1D:rS:U:q
+list
+dump
+info
+Unknown action '%s'
+Failed to open journal: %m
+Failed to add match "%s": %m
+Adding match: %s
+Journal filter: %s
+Failed to acquire bus: %m
+ListUnitsByPatterns
+/org/freedesktop/systemd1
+org.freedesktop.systemd1
+systemd-coredump@*.service
+(ssssssouso)
+inactive
+dead
+failed
+Failed to seek to date: %m
+No coredumps found.
+len > strlen("COREDUMP_EXE=")
+ (deleted)
+Binary already deleted.
+Failed to fork(): %m
+Failed to invoke gdb: %m
+Failed to wait for gdb: %m
+Shouldn't be here
+help
+version
+no-pager
+no-legend
+output
+field
+directory
+reverse
+since
+until
+quiet
+Failed to retrieve COREDUMP_FILENAME field: %m
+Coredump entry has no core attached (neither internally in the journal nor externally on disk).
+Failed to retrieve COREDUMP field: %m
+Failed to acquire temporary directory path: %m
+Failed to create temporary file: %m
+Refusing to dump core to tty (use shell redirection or specify --output).
+fc2e22bc6ee647b6b90729ab34a250b1
+       Storage: %s%s (%s%s%s)%s
+Failed to get realtime timestamp: %m
+%s [OPTIONS...]
+List or retrieve coredumps from the journal.
+Flags:
+  -h --help          Show this help
+     --version       Print version string
+     --no-pager      Do not pipe output into a pager
+     --no-legend     Do not print the column headers.
+  -1                 Show information about most recent entry only
+  -S --since=DATE    Only print coredumps since the date
+  -U --until=DATE    Only print coredumps until the date
+  -r --reverse       Show the newest entries first
+  -F --field=FIELD   List all values a certain field takes
+  -o --output=FILE   Write output to FILE
+  -D --directory=DIR Use journal files from directory
+  -q --quiet         Do not show info messages and privilege warning
+Commands:
+  list [MATCHES...]  List available coredumps (default)
+  info [MATCHES...]  Show detailed information about one or more coredumps
+  dump [MATCHES...]  Print first matching coredump to stdout
+  gdb [MATCHES...]   Start gdb for the first matching coredump
+cannot set output more than once
+cannot use --field/-F more than once
+--since= must be before --until=.
+Option --field/-F only makes sense with list
+Failed to open journals in directory: %s: %m
+MESSAGE_ID=fc2e22bc6ee647b6b90729ab34a250b1
+MESSAGE_ID=1f4e0a44a88649939aaea34fc6da8c95
+path_make_absolute_cwd("%s"): %m
+org.freedesktop.systemd1.Manager
+Failed to check if any systemd-coredump@.service units are running: %s
+Unit %s is %s/%s, %scounting it.
+Failed to iterate through journal: %m
+Failed to determine timestamp: %m
+More than one entry matches, ignoring rest.
+Failed to retrieve COREDUMP_EXE field: %m
+Binary is not an absolute path.
+%s-- Notice: %d systemd-coredump@.service %s, output may be incomplete.%s
+retrieve
+print_info
+focus
+print_entry
+print_field
+print_list
+print_list
+save_core
+save_core
+parse_argv
+parse_argv
+add_match
+add_matches
+check_units_active
+dump_list
+dump_list
+dump_core
+dump_core
+run_gdb
+run_gdb
+main
+main
+;*3$"
+zPLR
+. q.
+I.0[.
+gold 1.12
+coredumpctl.debug
+7zXZ
+_3~^
+FouO
++MCY;
+IOc)4
+^Pcb
+k)BM
+^|	/CH
+Cl<=
+1G+b
+HTV-M
+w?/&
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

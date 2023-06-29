@@ -1,0 +1,313 @@
+p%d%R
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_source_type_id
+pa_stream_get_state
+pa_source_process_msg
+pa_log_level_meta
+abort
+pa_stream_get_latency
+__stack_chk_fail
+pa_stream_cork
+pa_operation_unref
+pa_proplist_new
+pa_proplist_sets
+pa_init_proplist
+pa_context_get_state
+pa_context_errno
+pa_strerror
+pa_get_user_name_malloc
+pa_get_host_name_malloc
+dcgettext
+pa_sprintf_malloc
+pa_xfree
+pa_stream_new_with_proplist
+pa_proplist_free
+pa_source_get_requested_latency_within_thread
+pa_usec_to_bytes
+pa_stream_set_state_callback
+pa_stream_set_read_callback
+pa_stream_connect_record
+pa_thread_mq_install
+pa_context_new_with_proplist
+pa_context_load_cookie_from_file
+pa_context_set_state_callback
+pa_context_connect
+pa_mainloop_iterate
+pa_memchunk_reset
+pa_stream_readable_size
+pa_memblock_new_fixed
+pa_source_post
+pa_memblock_unref_fixed
+pa_stream_drop
+pa_stream_peek
+pa_memblock_ref
+pa_memblock_unref
+pa_msgobject_type_id
+pa_asyncmsgq_post
+pa_asyncmsgq_wait_for
+pa_stream_disconnect
+pa_stream_unref
+pa_context_disconnect
+pa_context_unref
+pa_object_type_id
+pa_stream_get_buffer_attr
+pa_stream_set_buffer_attr
+module_tunnel_source_new_LTX_pa__get_author
+module_tunnel_source_new_LTX_pa__get_description
+module_tunnel_source_new_LTX_pa__get_version
+module_tunnel_source_new_LTX_pa__load_once
+module_tunnel_source_new_LTX_pa__get_usage
+module_tunnel_source_new_LTX_pa__done
+pa_source_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_mainloop_free
+pa_object_unref
+pa_rtpoll_free
+module_tunnel_source_new_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec_and_channel_map
+pa_modargs_get_value
+pa_xmalloc0
+pa_xstrdup
+pa_mainloop_new
+pa_mainloop_get_api
+pa_thread_mq_init_thread_mainloop
+pa_rtpoll_new
+pa_source_new_data_init
+pa_source_new_data_set_name
+pa_source_new_data_set_sample_spec
+pa_source_new_data_set_channel_map
+pa_proplist_setf
+pa_modargs_get_proplist
+pa_source_new
+pa_source_new_data_done
+pa_source_set_asyncmsgq
+pa_source_set_rtpoll
+pa_thread_new
+pa_source_put
+pa_modargs_free
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-tunnel-source-new.so
+GLIBC_2.4
+GLIBC_2.2.5
+PULSE_0
+/usr/lib64/pulseaudio
+u+UH
+	u8H
+ []A\A]A^
+AUATUSH
+([]A\A]
+AWAVAUATUSH
+D$H1
+d$0H
+t$(L
+t$ H
+T$(H
+D$0H
+D$(H
+H+l$(
+)D$0H
+D$@H
+T$@H
+D$@H
+D$HdH3
+X[]A\A]A^A_
+ATUSH
+ []A\
+ATUH
+AWAVAUATUSH
+t$ 1
+)D$ 
+)L$0
+)T$@
+)\$P
+)d$`
+)l$p
+[]A\A]A^A_
+pa_source_isinstance(o)
+./pulsecore/source.h
+u = s->userdata
+proplist
+application.name
+org.PulseAudio.PulseAudio
+application.id
+12.2-rebootstrapped
+application.version
+Tunnel for %s@%s
+pulseaudio
+!u->stream
+Could not create a stream: %s
+Could not create stream: %s
+Context failed with err %s.
+Context terminated.
+Thread starting up
+Can not load cookie file!
+pa_stream_peek() failed: %s
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+Thread shutting down
+./pulsecore/object.h
+Stream failed: %s
+Stream terminated.
+Alexander Couzens
+server
+No server given!
+Failed to create mainloop
+cookie
+tunnel-source-new.%s
+source_name
+sound
+device.class
+Tunnel to %s/%s
+device.description
+source_properties
+Invalid properties
+Failed to create source.
+tunnel-source
+Failed to create thread.
+format
+channels
+rate
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+modules/module-tunnel-source-new.c
+Connection successful. Creating stream.
+Failed to create libpulse context
+Failed to connect libpulse context: %s
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Create a network source which connects via a stream to a remote PulseAudio server
+server=<address> source=<name of the remote source> source_name=<name for the local source> source_properties=<properties for the local source> format=<sample format> channels=<number of channels> rate=<sample rate> channel_map=<channel map> cookie=<cookie file path>
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+pa_thread_mq_init_thread_mainloop() failed.
+module_tunnel_source_new_LTX_pa__done
+module_tunnel_source_new_LTX_pa__done
+pa_source_cast
+pa_source_cast
+source_set_state_in_io_thread_cb
+source_set_state_in_io_thread_cb
+pa_object_cast
+pa_object_cast
+pa_source_assert_ref
+pa_source_assert_ref
+source_update_requested_latency_cb
+source_update_requested_latency_cb
+pa_msgobject_cast
+pa_msgobject_cast
+read_new_samples
+tunnel_new_proplist
+tunnel_new_proplist
+cork_stream
+cork_stream
+stream_state_cb
+stream_state_cb
+context_state_cb
+context_state_cb
+thread_func
+thread_func
+module_tunnel_source_new_LTX_pa__init
+module_tunnel_source_new_LTX_pa__init
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+module-tunnel-source-new.so-12.2-3.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

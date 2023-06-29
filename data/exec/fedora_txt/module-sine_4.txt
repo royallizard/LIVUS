@@ -1,0 +1,161 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_log_level_meta
+abort
+pa_object_type_id
+pa_sink_input_unlink
+pa_object_unref
+pa_module_unload_request
+pa_sink_input_request_rewind
+pa_memblock_ref
+module_sine_LTX_pa__get_author
+module_sine_LTX_pa__get_description
+module_sine_LTX_pa__get_version
+module_sine_LTX_pa__load_once
+module_sine_LTX_pa__get_usage
+module_sine_LTX_pa__done
+pa_memblock_unref
+pa_xfree
+module_sine_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+pa_namereg_get
+pa_modargs_get_sample_rate
+pa_modargs_get_value_u32
+pa_xmalloc0
+pa_memchunk_sine
+pa_sink_input_new_data_init
+pa_sink_input_new_data_set_sink
+pa_proplist_setf
+pa_proplist_sets
+pa_sink_input_new_data_set_sample_spec
+pa_sink_input_new
+pa_sink_input_new_data_done
+pa_sink_input_put
+pa_modargs_free
+__stack_chk_fail
+libpulsecore-11.1.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-11.1.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-sine.so
+PULSE_0
+GLIBC_2.4
+GLIBC_2.2.5
+/usr/lib64/pulseaudio
+u+UH
+ATUSH
+[]A\
+AVAUATUH
+l$(H
+[]A\A]A^A_
+!obj || obj->check_type(pa_object_type_id)
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+pa_object_refcnt(pa_object_cast(o)) > 0
+sink=<sink to connect to> rate=<sample rate> frequency=<frequency in Hz>
+Failed to parse module arguments
+Invalid frequency specification
+./pulsecore/object.h
+./pulsecore/sink-input.h
+u = i->userdata
+modules/module-sine.c
+chunk
+Lennart Poettering
+Sine wave generator
+11.1-rebootstrapped
+sink
+No such sink.
+Invalid rate specification
+frequency
+%u Hz Sine
+media.name
+abstract
+media.role
+sine.hz
+rate
+module_sine_LTX_pa__done
+module_sine_LTX_pa__done
+sink_input_pop_cb
+sink_input_pop_cb
+sink_input_process_rewind_cb
+sink_input_process_rewind_cb
+sink_input_kill_cb
+sink_input_kill_cb
+pa_object_cast
+pa_object_cast
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+sink_input_state_change_cb
+sink_input_state_change_cb
+module_sine_LTX_pa__init
+;*3$"
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+module-sine.so-11.1-18.fc28.x86_64.debug
+7zXZ
+h7F{ 
+g0OT?
+/0H@
+cnK9
+k.FEL
+%%B%
+|5_.
+z]	#g
+?KxS
+H+bWUYn2
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

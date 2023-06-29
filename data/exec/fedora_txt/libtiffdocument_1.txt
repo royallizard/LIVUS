@@ -1,0 +1,330 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+tiff_document_get_type
+register_evince_backend
+bindtextdomain
+bind_textdomain_codeset
+g_type_module_register_type
+ev_document_get_type
+g_type_module_add_interface
+ev_document_thumbnails_get_type
+ev_file_exporter_get_type
+g_type_class_peek_parent
+g_type_check_class_cast
+g_type_check_instance_cast
+TIFFClose
+g_free
+tiff2ps_context_finalize
+TIFFSetDirectory
+tiff2ps_process_page
+tiff2ps_context_new
+TIFFSetErrorHandler
+TIFFSetWarningHandler
+TIFFGetField
+TIFFGetFieldDefaulted
+g_type_check_instance_is_a
+g_return_if_fail_warning
+ev_document_misc_get_thumbnail_frame
+g_object_unref
+g_try_malloc
+gdk_pixbuf_new_from_data
+TIFFReadRGBAImageOriented
+gdk_pixbuf_scale_simple
+gdk_pixbuf_rotate_simple
+g_malloc0
+g_utf8_validate
+g_strdup
+cairo_format_stride_for_width
+cairo_image_surface_create_for_data
+cairo_surface_set_user_data
+ev_document_misc_surface_rotate_and_scale
+cairo_surface_destroy
+TIFFReadDirectory
+ev_xfer_uri_simple
+g_filename_from_uri
+TIFFOpen
+g_ascii_dtostr
+__fprintf_chk
+fwrite
+_IO_putc
+_TIFFmemcpy
+_TIFFmalloc
+TIFFReadScanline
+_TIFFfree
+TIFFError
+TIFFWarning
+TIFFStripSize
+TIFFNumberOfStrips
+TIFFReadEncodedStrip
+__sprintf_chk
+TIFFIsTiled
+TIFFNumberOfTiles
+TIFFReadRawTile
+fputs
+_TIFFmemset
+TIFFReadEncodedTile
+TIFFReadRawStrip
+TIFFReverseBits
+TIFFTileSize
+TIFFSetField
+TIFFScanlineSize
+ctime
+ceil
+fclose
+fopen
+libevbackend.so.0
+libtiff.so.3
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libtiffdocument.so
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+,[^_]
+;0t=
+<[^_]
+<[^_]
+ZtB=
+[^_]
+;0t=
+[^_]
+[^_]
+;8tB
+[^_]
+[^_]
+$[^_]
+[^_]
+z=u@
+[^_]
+,[^_]
+<[^_]
+L[^_]
+<[^_]
+9xH~+
+,[^_]
+[^_]
+[^_]
+[^_]
+\[^_]
+BP9E
+im_h
+QLv4
+[^_]
+f;qlr
+im_x
+ neg
+[^_]
+[^_]
+[^_]
+[^_]
+/usr/share/locale
+evince
+UTF-8
+TiffDocument
+TIFF_IS_DOCUMENT (document)
+tiff_document->tiff != NULL
+tiff_document_get_page_size
+tiff_document_render
+tiff_document_get_n_pages
+?%s %s translate
+%s %s scale
+false %d colorimage
+/line %ld string def
+%lu %lu %d
+[%lu 0 0 -%lu 0 %lu]
+false %d colorimage
+true %d colorimage
+/line%d %ld string def
+[%lu 0 0 -%lu 0 %lu] 
+true %d colorimage
+No space for scanline buffer
+Depth %d not supported
+Assuming 8-bit colormap
+Can't read strip
+imagemask
+CMYK
+Gray
+% PostScript Level 2 only.
+/Device%s setcolorspace
+[ /Indexed /DeviceRGB %d
+%02x%02x%02x
+!!!!
+] setcolorspace
+0 0 1 1 rectclip
+/im_y 0 def
+/im_h %lu def
+{ % exec
+%d { %% repeat
+  /ImageType 1
+  /Width %lu
+  /Height %lu
+  /Height im_h
+  /MultipleDataSources true
+  /BitsPerComponent %d
+false
+true
+  /Ctx->Interpolate %s
+  /Decode [0 1]
+  /Decode [1 0]
+  /Decode [%u %u]
+  /Decode [0 1 0 1 0 1]
+  /Decode [0 1 0 1 0 1 0 1]
+  /DataSource
+ im_stream
+	 /EndOfLine true
+	 /EndOfBlock false
+	 /K %s
+	 /Uncompressed true
+	 /EncodedByteAlign true
+	 /K -1
+	 /Columns %lu
+	 /Rows %s
+	 /BlackIs1 true
+	>> /CCITTFaxDecode filter
+	 /Predictor %u
+	 /Colors %u
+	 /BitsPerComponent %u
+ /LZWDecode filter
+	 %% PostScript Level 3 only.
+ /FlateDecode filter
+ /RunLengthDecode filter
+ dup
+ >> %s
+ /im_x im_x %lu add def
+ im_x %lu ge {
+  /im_x 0 def
+ /im_y im_y %lu add def
+ } if
+ /im_h %lu im_y sub
+ dup %lu gt { pop
+ %lu } if def
+} repeat
+strips
+tiles
+Can't alloc %u bytes for %s.
+tile
+Can't read %s %d.
+false 3 colorimage
+/scanLine %ld string def
+%lu %lu 8
+false 3 colorimage
+ EPSF-3.0
+%%!PS-Adobe-3.0%s
+%%%%Creator: Evince
+%%%%CreationDate: %s
+%%%%DocumentData: Clean7Bit
+%%%%Origin: %ld %ld
+%%%%BoundingBox: 0 0 %ld %ld
+%%%%LanguageLevel: %d
+%%%%Pages: (atend)
+%%%%EndComments
+%%%%BeginSetup
+%%%%EndSetup
+Can not handle image with %s
+LogLuv
+LogL
+Ignoring extra samples
+gsave
+100 dict begin
+grestore
+showpage
+%%%%Page: %d %d
+%%%%Trailer
+%%%%Pages: %d
+%%%%EOF
+0123456789abcdef
+1 1 translate 180 ctx->rotate
+%%ImageData: %ld %ld %d %d 0 %d 2 "
+{currentfile line readhexstring pop} bind
+{currentfile line%d readhexstring pop}bind
+Palette image w/o "Colormap" tag
+Cannot allocate ASCII85 encoding buffer.
+ /im_stream currentfile /ASCII85Decode filter def
+  /ImageMatrix [ %lu 0 0 %ld %s %s ]
+ currentfile /ASCIIHexDecode filter
+ im_stream status { im_stream flushfile } if
+{currentfile scanLine readhexstring pop} bind
+Ctx->PhotometricInterpretation=YCbCr
+Can not handle %d-bit/sample RGB image with ctx->alpha
+Can not handle %s data with ctx->compression other than SGILog
+Can not handle image with Ctx->PhotometricInterpretation=%d
+Can not handle %d-bit/sample image
+1 dict begin /PageSize [ %s %s ] def currentdict end setpagedevice
+  /Policies <<
+    /PageSize 3
+  >>
+>> setpagedevice
+%%BeginFeature: *Duplex True
+systemdict begin
+  /languagelevel where { pop languagelevel } { 1 } ifelse
+  2 ge { 1 dict dup /Duplex true put setpagedevice }
+  { statusdict /setduplex known { statusdict begin setduplex true end } if
+  } ifelse
+%%EndFeature
+%%BeginFeature: *Tumble True
+systemdict begin
+  /languagelevel where { pop languagelevel } { 1 } ifelse
+  2 ge { 1 dict dup /Tumble true put setpagedevice }
+  { statusdict /settumble known { statusdict begin true settumble end } if
+  } ifelse
+%%EndFeature
+gsave newpath clippath pathbbox grestore
+  4 2 roll 2 copy translate
+  exch 3 1 roll sub 3 1 roll sub exch
+  currentpagedevice /PageSize get aload pop
+  exch 3 1 roll div 3 1 roll div abs exch abs
+  2 copy gt { exch } if pop
+  dup 1 lt { dup scale } { pop } ifelse
+/bwproc {
+    rgbproc
+    dup length 3 idiv string 0 3 0
+    5 -1 roll {
+	add 2 1 roll 1 sub dup 0 eq {
+	    pop 3 idiv
+	    3 -1 roll
+	    dup 4 -1 roll
+	    dup 3 1 roll
+	    5 -1 roll put
+	    1 add 3 0
+	} { 2 1 roll } ifelse
+    } forall
+    pop pop pop
+} def
+/colorimage where {pop} {
+    /colorimage {pop pop /rgbproc exch def {bwproc} image} bind def
+} ifelse
+libtiffdocument.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,395 @@
+td`|
+/lib/ld-linux.so.2
+___tls_get_addr
+GLIBC_2.3
+ld-linux.so.2
+strcmp
+GLIBC_2.0
+libc.so.6
+stpcpy
+strchr
+__snprintf_chk
+GLIBC_2.3.4
+strcasecmp
+malloc
+__vsnprintf_chk
+localtime
+memcmp
+strlen
+isatty
+strftime
+strspn
+__stack_chk_fail
+GLIBC_2.4
+execvp
+puts
+strrchr
+free
+optind
+setsockopt
+strncmp
+execl
+__printf_chk
+open64
+GLIBC_2.2
+libpthread.so.0
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+__udivdi3
+_Unwind_Resume
+GCC_3.0
+getopt_long
+readdir64
+getrlimit64
+dup3
+GLIBC_2.9
+secure_getenv
+GLIBC_2.17
+sscanf
+writev
+abort
+optarg
+getpid
+__fxstat64
+_end
+__bss_start
+fopen64
+GLIBC_2.1
+getppid
+getuid
+_IO_getc
+_edata
+prctl
+feof
+getenv
+__xstat64
+strtoul
+__ctype_b_loc
+realloc
+opendir
+closedir
+close
+connect
+strtol
+__sprintf_chk
+socket
+sendmsg
+access
+syscall
+__errno_location
+__strdup
+fcntl
+dirname
+__asprintf_chk
+GLIBC_2.8
+fread
+__cxa_finalize
+GLIBC_2.1.3
+program_invocation_short_name
+fclose
+fgets
+ferror
+rand
+srand
+__libc_start_main
+sysconf
+write
+__read_chk
+poll
+uname
+clock_gettime
+librt.so.1
+usleep
+read
+fileno
+_IO_putc
+fflush
+fnmatch
+GLIBC_2.2.3
+stdout
+stdin
+fchmod
+chmod
+qsort
+rename
+fdopen
+__rawmemchr
+__lxstat64
+shutdown
+strerror_r
+in6addr_any
+unlink
+getpeername
+sigfillset
+ioctl
+statfs64
+inet_ntop
+inet_pton
+getsockopt
+sigemptyset
+getgrgid
+getgrnam
+getpwnam
+__strndup
+getpwuid
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+a_&	
+D$@e
+[^_]
+T$4ul
+D$LtH
+D$L<'
+L$38
+D$L8D$3
+D$H1
+D$Ht
+D$,@
+t!S1
+D$,e
+[^_]
+T$,1
+L$,e3
+d$4[^
+UWVS
+l$d;
+d$L[^_]
+T$8w!
+D$,1
+T$,e3
+d$,1
+[^_]
+[^_]
+UWV1
+[^_]
+[^_]
+[^_]
+[^_]
+d$,[^_]
+/run
+/sys
+temd
+/jou
+rnal
+/std
+[^_]
+d$ [^_
+UWVS
+[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+[^_]
+D$,1
+[^_]
+9T$T
++L$@
++T$,
+9D$@
+T$8w
+D$,1
+T$,e3
+d$0[^_
+d$,[^_]
+UWVS
+[^_]
+[^_]
+t$,U
+[^_]
+src/basic/log.c
+console
+/dev/kmsg
+src/basic/fd-util.c
+fclose_nointr(f) != EBADF
+close_nointr(fd) != -EBADF
+/dev/console
+/proc/vz
+/proc/bc
+container
+/run/systemd/container
+/proc/cmdline
+/etc/initrd-release
+SYSTEMD_LOG_TARGET
+SYSTEMD_LOG_LEVEL
+SYSTEMD_LOG_COLOR
+SYSTEMD_LOG_LOCATION
+src/journal/cat.c
+argc >= 0
+argv
+Unhandled option
++ht:p:
+Failed to duplicate fd: %m
+/bin/cat
+Failed to execute process: %m
+lxc-libvirt
+systemd-nspawn
+docker
+help
+version
+identifier
+priority
+level-prefix
+console-prefixed
+kmsg
+journal
+journal-or-kmsg
+syslog
+syslog-or-kmsg
+auto
+safe
+null
+src/basic/process-util.c
+line
+/proc/%i/cmdline
+_value
+/proc/%i/environ
+src/basic/fileio.c
+/proc/self/stat
+ %*c %*d %*d %*d %lu 
+priority >= 0
+priority <= 7
+src/basic/io-util.c
+(size_t) k <= nbytes
+emerg
+src/basic/parse-util.c
+true
+false
+debug
+systemd.log_target
+systemd.log_level
+systemd.log_color
+systemd.log_location
+alert
+crit
+warning
+notice
+info
+ERRNO=
+CODE_FUNCTION=
+CODE_LINE=
+CODE_FILE=
+MESSAGE=
+buffer
+<%i>
+src/basic/time-util.c
+%h %e %T 
+[%i]: 
+(%s:%i) 
+[0;1;31m
+src/journal/journal-send.c
+src/basic/alloc-util.c
+allocated
+xsprintf: buffer[] must be big enough
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+(level & LOG_PRIMASK) == level
+Failed to parse log target '%s'. Ignoring.
+Failed to parse log level '%s'. Ignoring.
+Failed to parse bool '%s'. Ignoring.
+%s [OPTIONS...] {COMMAND} ...
+Execute process with stdout/stderr connected to the journal.
+  -h --help               Show this help
+     --version            Show package version
+  -t --identifier=STRING  Set syslog identifier
+  -p --priority=PRIORITY  Set priority value (0..7)
+     --level-prefix=BOOL  Control whether level prefix shall be parsed
+systemd 229
++PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN
+Failed to parse priority value.
+Failed to parse level prefix value.
+Code should not be reached '%s' at %s:%u, function %s(). Aborting.
+Failed to create stream fd: %m
+Failed to parse log color setting '%s'. Ignoring.
+Failed to parse log location setting '%s'. Ignoring.
+PRIORITY=%i
+SYSLOG_FACILITY=%i
+%s%s%s%s%.*i%s%s%s%s%s%.*i%s%s%s%sSYSLOG_IDENTIFIER=%s
+xsprintf: header_priority[] must be big enough
+clock_gettime(map_clock_id(clock_id), &ts) == 0
+xsprintf: header_pid[] must be big enough
+xsprintf: location[] must be big enough
+Assertion '%s' failed at %s:%u, function %s(). Ignoring.
+log_parse_environment
+/run/systemd/journal/socket
+/dev/log
+parse_argv
+parse_argv
+main
+safe_close
+safe_fclose
+log_assert
+log_set_max_level
+parse_proc_cmdline_item
+parse_boolean
+loop_write
+read_one_line_file
+getenv_for_pid
+get_process_cmdline
+greedy_realloc
+sd_journal_stream_fd
+write_to_console
+write_to_kmsg
+write_to_syslog
+log_dispatch
+;*2$"
+zPLR
+gold 1.11
+systemd-cat.debug
+7zXZ
+UFC>
+;_g4
+zE(I}
+{N.I
+SRKuQ
+B'V/
+iWQ#
+3G	B
+UVvUI`
+;^>Po
+D&9[
+]fnh
+L-^<3\
+RtmB
+s,Q"
+_\YoC
+9Hoh
+;8nP
+M2:Y.
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.tdata
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

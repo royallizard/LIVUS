@@ -1,0 +1,257 @@
+/lib/ld-linux.so.2
+|JX#
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+sigaction
+__errno_location
+libplayerdrivers.so.3.0
+deviceTable
+driverTable
+__gmon_start__
+ErrorPrint
+ErrorInit
+_Z23player_register_driversv
+libplayertcp.so.3.0
+_Z19player_globals_initv
+playerxdr_ftable_init
+fileWatcher
+_ZN9PlayerTCPD1Ev
+_ZN9PlayerTCP6AcceptEi
+_ZN9PlayerTCP6ListenEPiiS0_
+_ZN9PlayerTCP5WriteEb
+_ZN9PlayerTCP4ReadEib
+_ZN9PlayerTCPC1Ev
+libplayerudp.so.3.0
+_ZN9PlayerUDPC1Ev
+_ZN9PlayerUDP4ReadEi
+_ZN9PlayerUDP5WriteEv
+_ZN9PlayerUDP6ListenEPii
+_ZN9PlayerUDPD1Ev
+libplayerwkb.so.3.0
+libltdl.so.7
+libdl.so.2
+libasound.so.2
+libjpeg.so.62
+libraw1394.so.11
+libdc1394.so.22
+libusb-0.1.so.4
+libphidget21.so.0
+libz.so.1
+libgeos-3.4.2.so
+libgeos_c.so.1
+libplayerjpeg.so.3.0
+libopencv_calib3d.so.2.4
+libopencv_contrib.so.2.4
+libopencv_core.so.2.4
+libopencv_features2d.so.2.4
+libopencv_flann.so.2.4
+libopencv_gpu.so.2.4
+libopencv_highgui.so.2.4
+libopencv_imgproc.so.2.4
+libopencv_legacy.so.2.4
+libopencv_ml.so.2.4
+libopencv_objdetect.so.2.4
+libopencv_ocl.so.2.4
+libopencv_photo.so.2.4
+libopencv_stitching.so.2.4
+libopencv_superres.so.2.4
+libopencv_ts.so.2.4
+libopencv_video.so.2.4
+libopencv_videostab.so.2.4
+libgstbase-0.10.so.0
+libgstreamer-0.10.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libxml2.so.2
+libstatgrab.so.6
+libgdk_pixbuf-2.0.so.0
+libgtk-x11-2.0.so.0
+libgdk-x11-2.0.so.0
+libpangocairo-1.0.so.0
+libatk-1.0.so.0
+libcairo.so.2
+libgio-2.0.so.0
+libpangoft2-1.0.so.0
+libpango-1.0.so.0
+libfontconfig.so.1
+libfreetype.so.6
+libflexiport.so.2
+libhokuyoaist.so.3
+libpqxx-4.0.so
+libplayercore.so.3.0
+_ZN10ConfigFile10WarnUnusedEv
+_ZN10ConfigFile4LoadEPKc
+_Z19player_globals_finiv
+_ZN10ConfigFile18ParseAllInterfacesEv
+_ZN11DeviceTable20StartAlwaysonDriversEv
+_ZN10ConfigFile15ParseAllDriversEv
+player_argc
+player_quit
+player_argv
+_ZN11FileWatcher4WaitEd
+_ZN10ConfigFileD1Ev
+_ZN11DeviceTable19StopAlwaysonDriversEv
+player_quiet_startup
+_ZN11DriverTable11SortDriversEv
+_ZN10ConfigFileC1EPKcj
+_ZN11DeviceTable13UpdateDevicesEv
+librt.so.1
+libplayerinterface.so.3.0
+itable_init
+libplayercommon.so.3.0
+libstdc++.so.6
+__gxx_personality_v0
+_Znwj
+_ZdlPv
+libm.so.6
+libgcc_s.so.1
+_Unwind_Resume
+libc.so.6
+_IO_stdin_used
+__printf_chk
+exit
+fopen
+optind
+puts
+__assert_fail
+strtol
+calloc
+strlen
+sigemptyset
+getopt
+__fprintf_chk
+optarg
+stderr
+fwrite
+__cxa_finalize
+strerror
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+_fp_hw
+__libc_csu_init
+ptcp
+_Z4Quiti
+_Z17PrintCopyrightMsgv
+_Z12PrintVersionv
+__libc_csu_fini
+_Z9ParseArgsPiS_PPcS_S1_iS1_
+__data_start
+pudp
+_Z7Cleanupv
+_Z10PrintUsagev
+GLIBC_2.0
+GCC_3.0
+CXXABI_1.3
+GLIBCXX_3.4
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+D$<e
+D$D	
+T$P1
+D$490t(1
+D$<u
+D$4t$
+9t$<u
+;|$<u
+[^_]
+d$$[^
+UWVS
+D$(1
+d$<[^_]
+UWVS
+[^_]
+d$,[1
+UWVS
+t$,U
+[^_]
+error   : failed to stop alwayson drivers
+/builddir/build/BUILD/player-3.0.2/server/server.cc
+* Part of the Player/Stage/Gazebo Project [http://playerstage.sourceforge.net].
+* Copyright (C) 2000 - 2009 Brian Gerkey, Richard Vaughan, Andrew Howard,
+* Nate Koenig, and contributors.
+ Released under the GNU General Public License.
+* Player comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+* are welcome to redistribute it under certain conditions; see COPYING
+* for details.
+USAGE:  player [options] [<configfile>]
+  -h             : print this message.
+  -d <level>     : debug message level (0 = none, 1 = default, 9 = all).
+  -p <port>      : port where Player will listen. Default: %d
+  -q             : quiet mode: minimizes the console output on startup.
+  -l <logfile>   : log player output to the specified file
+  <configfile>   : load the the indicated config file
+The following %d drivers were compiled into Player:
+    
+error   : signal() failed: %s
+error   : failed to load config file %s
+error   : failed to parse config file %s interface blocks
+error   : failed to parse config file %s driver blocks
+error   : No devices read in configuration file. Is it correct?
+Exiting...
+error   : failed to start alwayson drivers
+error   : failed to listen on requested TCP ports
+error   : failed to listen on requested UDP ports
+error   : failed while accepting new TCP connections
+error   : failed while reading from TCP clients
+error   : failed while reading from UDP clients
+error   : failed while writing to TCP clients
+error   : failed while writing to UDP clients
+3.0.2
+Player v.%s
+Where [options] can be:
+    
+d:p:l:hq
+localhost
+new_ports
+remote
+Quitting.
+Listening on ports: 
+int main(int, char**)
+;*2$"
+zPLR
+player.debug
+7zXZ
+Mwy]K
+j%]s
+{	e3V^
++gN	
+)C{_
+cWH;
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

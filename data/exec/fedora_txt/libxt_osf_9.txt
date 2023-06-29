@@ -1,0 +1,66 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+xtables_option_parse
+strlen
+puts
+__printf_chk
+libxt_osf_init
+xtables_register_match
+libxtables.so.12
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.2.5
+OS fingerprint match options:
+[!] --genre string     Match a OS genre by passive fingerprinting.
+--ttl level            Use some TTL check extensions to determine OS:
+       0                       true ip and fingerprint TTL comparison. Works for LAN.
+       1                       check if ip TTL is less than fingerprint one. Works for global addresses.
+       2                       do not compare TTL at all. Allows to detect NMAP, but can produce false results.
+--log level            Log determined genres into dmesg even if they do not match desired one:
+       0                       log all matched or unknown signatures.
+       1                       log only first one.
+       2                       log all known matched signatures.
+ OS fingerprint match %s%s
+ --genre %s
+ --ttl %u
+ --log %u
+libxtables.so.12
+genre
+;*3$"
+libxt_osf.so-1.6.1-4.fc27.x86_64.debug
+7zXZ
+(uHI
+,P:w
+wZiR
+v6it
+Pv6Y
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

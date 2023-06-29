@@ -1,0 +1,266 @@
+pbEK
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_source_type_id
+pa_log_level_meta
+abort
+pa_source_process_msg
+pa_source_get_latency_within_thread
+pa_memblockq_get_length
+pa_bytes_to_usec
+pa_object_type_id
+pa_thread_mq_get
+pa_source_set_asyncmsgq
+pa_source_update_flags
+pa_proplist_new
+pa_proplist_gets
+pa_proplist_setf
+pa_source_update_proplist
+pa_proplist_free
+pa_source_output_cork
+pa_source_get_requested_latency_within_thread
+pa_source_output_set_requested_latency_within_thread
+pa_source_process_rewind
+pa_source_detach_within_thread
+pa_source_set_rtpoll
+pa_source_post
+pa_source_output_unlink
+pa_source_unlink
+pa_object_unref
+pa_module_unload_request
+pa_source_set_latency_range_within_thread
+pa_source_set_fixed_latency_within_thread
+pa_source_output_get_max_rewind
+pa_source_set_max_rewind_within_thread
+pa_source_attach_within_thread
+module_remap_source_LTX_pa__get_author
+module_remap_source_LTX_pa__get_description
+module_remap_source_LTX_pa__get_version
+module_remap_source_LTX_pa__load_once
+module_remap_source_LTX_pa__get_usage
+module_remap_source_LTX_pa__get_n_used
+pa_source_linked_by
+module_remap_source_LTX_pa__done
+pa_xfree
+module_remap_source_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+pa_namereg_get
+pa_modargs_get_sample_spec_and_channel_map
+pa_modargs_get_channel_map
+pa_channel_map_equal
+pa_modargs_get_value_boolean
+pa_modargs_get_resample_method
+pa_xmalloc0
+pa_source_new_data_init
+pa_xstrdup
+pa_source_new_data_set_sample_spec
+pa_source_new_data_set_channel_map
+pa_proplist_sets
+pa_modargs_get_proplist
+pa_proplist_contains
+pa_source_new
+pa_source_new_data_done
+pa_source_output_new_data_init
+pa_source_output_new_data_set_source
+pa_source_output_new_data_set_sample_spec
+pa_source_output_new_data_set_channel_map
+pa_source_output_new
+pa_source_output_new_data_done
+pa_source_put
+pa_source_output_put
+pa_modargs_free
+pa_sprintf_malloc
+__stack_chk_fail
+libpulsecore-9.0.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-9.0.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libjson-c.so.2
+libwrap.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-remap-source.so
+/usr/lib64/pulseaudio
+PULSE_0
+GLIBC_2.4
+GLIBC_2.2.5
+5j1 
+%l1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%z1 
+=Y1 
+5R1 
+=	1 
+]A\A]A^
+[]A\A]A^
+ATUSuGH
+=[- 
+[]A\
+[]A\
+=Z+ 
+=.* 
+SuJH
+=~' 
+ATUSuGH
+[]A\
+=.! 
+AWAVAUATUSH
+|$ H
+D$ A
+D$0L
+D$(8
+[]A\A]A^A_
+pa_source_isinstance(o)
+./pulsecore/source.h
+./pulsecore/object.h
+./pulsecore/source-output.h
+!pa_thread_mq_get()
+modules/module-remap-source.c
+u = o->userdata
+device.description
+Remapped %s
+u = s->userdata
+Source output %d state %d.
+push when no link?
+Stefan Huber
+u = m->userdata
+master
+Master source not found.
+master_channel_map
+Invalid master channel map.
+remix
+Invalid resampling method
+source_name
+%s.remapped
+device.master_device
+filter
+device.class
+source_properties
+Invalid properties.
+Failed to create source.
+Remapped Stream
+media.name
+media.role
+format
+rate
+channels
+resample_method
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Source update requested latency.
+pa_thread_mq_get() || !PA_SOURCE_OUTPUT_IS_LINKED((o)->state)
+Virtual channel remapping source
+source_name=<name for the source> source_properties=<properties for the source> master=<name of source to filter> master_channel_map=<channel map> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> resample_method=<resampler> remix=<remix channels?>
+Failed to parse module arguments.
+Invalid sample format specification or channel map.
+Number of channels doesn't match.
+No remapping configured, proceeding nonetheless!
+Invalid boolean remix parameter.
+module_remap_source_LTX_pa__done
+module_remap_source_LTX_pa__done
+module_remap_source_LTX_pa__get_n_used
+module_remap_source_LTX_pa__get_n_used
+pa_source_cast
+pa_source_cast
+source_set_state_cb
+source_set_state_cb
+pa_source_assert_ref
+pa_source_assert_ref
+source_update_requested_latency_cb
+source_update_requested_latency_cb
+source_output_push_cb
+source_output_push_cb
+source_output_process_rewind_cb
+source_output_process_rewind_cb
+source_output_kill_cb
+source_output_kill_cb
+source_output_attach_cb
+source_output_attach_cb
+source_output_detach_cb
+source_output_detach_cb
+source_output_state_change_cb
+source_output_state_change_cb
+pa_object_cast
+pa_object_cast
+pa_source_output_assert_ref
+pa_source_output_assert_ref
+source_output_moving_cb
+source_output_moving_cb
+module_remap_source_LTX_pa__init
+module_remap_source_LTX_pa__init
+;*3$"
+module-remap-source.so.debug
+7zXZ
+CnAmn
+^T%+
+HCaw
+I]xnO:
+7F\j
+(Sb-
+t&'(
+W:C|
+'[az
+%qu9og
+,l]:
+3".;y
+y?=Lk
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

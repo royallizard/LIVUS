@@ -1,0 +1,179 @@
+/lib64/ld-linux-x86-64.so.2
+liblxc.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lxc_log_category_lxc
+lxc_arguments_parse
+lxc_fill_elevated_privileges
+lxc_log_init
+lxc_config_parse_arch
+lxc_wait_for_pid_status
+lxc_attach
+lxc_attach_run_command
+lxc_log_options_no_override
+lxc_caps_init
+lxc_fill_namespace_flags
+lxc_attach_run_shell
+libcap.so.2
+libselinux.so.1
+libseccomp.so.2
+libutil.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+realloc
+__assert_fail
+memset
+__fprintf_chk
+stderr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+lxc_log_category_lxc_attach_ui
+_IO_stdin_used
+__libc_csu_init
+GLIBC_2.3.4
+GLIBC_2.2.5
+GLIBC_2.4
+5R  
+%T  
+%R  
+%J  
+%B  
+%:  
+%2  
+%*  
+%"  
+D$h1
+L$hdH3
+!D$ 
+=<! 
+D$$H
+D$@H
+D$HH
+D$PuRH
+D$ 1
+D$ H
+=I  
+fffff.
+=	  
+fffff.
+fffff.
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVA
+AUATL
+[]A\A]A^A_
+lxc_attach.c
+*array
+%s: memory allocation error
+none
+lxc-attach
+elevated-privileges
+arch
+namespaces
+remount-sys-proc
+clear-env
+keep-env
+keep-var
+set-var
+name
+help
+usage
+version
+quiet
+logfile
+logpriority
+lxcpath
+lxc_attach_ui
+%s: invalid architecture specified: %s
+--name=NAME [-- COMMAND]
+Execute the specified COMMAND - enter the container NAME
+Options :
+  -n, --name=NAME   NAME for name of the container
+  -e, --elevated-privileges=PRIVILEGES
+                    Use elevated privileges instead of those of the
+                    container. If you don't specify privileges to be
+                    elevated as OR'd list: CAP, CGROUP and LSM (capabilities,
+                    cgroup and restrictions, respectively) then all of them
+                    will be elevated.
+                    WARNING: This may leak privileges into the container.
+                    Use with care.
+  -a, --arch=ARCH   Use ARCH for program instead of container's own
+                    architecture.
+  -s, --namespaces=FLAGS
+                    Don't attach to all the namespaces of the container
+                    but just to the following OR'd list of flags:
+                    MOUNT, PID, UTSNAME, IPC, USER or NETWORK.
+                    WARNING: Using -s implies -e with all privileges
+                    elevated, it may therefore leak privileges into the
+                    container. Use with care.
+  -R, --remount-sys-proc
+                    Remount /sys and /proc if not attaching to the
+                    mount namespace when using -s in order to properly
+                    reflect the correct namespace context. See the
+                    lxc-attach(1) manual page for details.
+      --clear-env   Clear all environment variables before attaching.
+                    The attached shell/program will start with only
+                    container=lxc set.
+      --keep-env    Keep all current environment variables. This
+                    is the current default behaviour, but is likely to
+                    change in the future.
+  -v, --set-var     Set an additional variable that is seen by the
+                    attached program in the container. May be specified
+                    multiple times.
+      --keep-var    Keep an additional environment variable. Only
+                    applicable if --clear-env is specified. May be used
+                    multiple times.
+add_to_simple_array
+;*3$"
+lxc-attach.debug
+7zXZ
+n+;9
+lzK9
+[7CK
+T;nZ
+D7}+s
+6"rc-
+s}{J
+o)4@k
+TnO.0
+IxG'.>
+gE &
+==e3@
+)+&kJxms:
+wlaN&
+W1Ami
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,288 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_str_set
+ast_custom_function_unregister
+ast_unregister_application
+pthread_key_create
+pthread_once
+pthread_getspecific
+__ast_app_separate_args
+ast_get_encoded_char
+strlen
+__sprintf_chk
+ast_str_substitute_variables
+pbx_builtin_setvar_helper
+ast_log
+calloc
+pthread_setspecific
+_ast_mem_backtrace_buffer
+backtrace
+strrchr
+strchr
+__ctype_tolower_loc
+realloc
+__ctype_toupper_loc
+__snprintf_chk
+option_debug
+ast_options
+ast_debug_get_by_module
+pbx_builtin_getvar_helper
+ast_autoservice_stop
+ast_channel_varshead
+ast_var_name
+strncmp
+ast_str_append
+memset
+strncat
+ast_strptime
+ast_mktime
+gettimeofday
+ast_get_timeval
+ast_localtime
+ast_strftime
+regcomp
+regexec
+regfree
+regerror
+strtol
+strstr
+ast_get_encoded_str
+memmove
+_Unwind_Resume
+__gcc_personality_v0
+__ast_custom_function_register
+ast_register_application2
+pbx_substitute_variables_helper
+__ao2_lock
+__ast_str_helper2
+__ao2_unlock
+__rawmemchr
+strcasecmp
+__strsep_g
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.1.1
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.3
+a_&	
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+d$<[1
+T$,tj
+UWVS
+d$<[1
+T$,tj
+UWVS
+[^_]
+UWVS
+d$<[1
+d$(1
+[^_]
+UWVS
+8_te
+[^_]
+d$ [^_
+d$ [1
+[^_]
+UWVS
++t$$
+[^_]
+[^_]
+UWVS
+[^_]
+T$,)
+;|$X
+L$|1
+L$|e3
+UWVS
+l$<e
+D$l1
+T$le3
+d$|[^_]
+UWVS
+D$,e
+D$l1
+L$le3
+d$|[^_]
+T$T8
+L$,	|
+T$\1
+;|$,s)
+[^_]
+[^_]
+[^_]
+UWVS
+d$,	
+[^_]
+d$$1
+d$$[^
+d$(1
+d$(1
+897sP
+[^_]
+[^_]
+[^_]
+ClearHash
+${%s}
+%s%c%s
+%s requires a variable name
+func_strings.c
+AaBbCc2
+DdEeFf3
+GgHhIi4
+JjKkLl5
+MmNnOo6
+PpQqRrSs7
+TtUuVv8
+WwXxYyZz9
+~ODBCFIELDS~
+func_strings
+array (%s=%s)
+array set value (%s=%s)
+__~HASH~%s~%s~
+Not enough buffer
+No argument specified!
+~HASH~%s~
+null
+HASHKEYS
+FUNCTION REGEX (%s)(%s)
+Malformed input %s(%s): %s
+c1=%d, c2=%d
+Allowed: %s
+No <find-string> specified
+String to search: (%s)
+Characters to find: (%s)
+chan
+List variable '%s' not found
+$Revision: 416503 $
+PASSTHRU
+UNSHIFT
+PUSH
+TOLOWER
+TOUPPER
+KEYPADHASH
+EVAL
+STRPTIME
+STRFTIME
+CSV_QUOTE
+ARRAY
+REGEX
+STRREPLACE
+LISTFILTER
+FIELDNUM
+FIELDQTY
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/threadstorage.h
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/utils.h
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/strings.h
+No channel was provided to %s function.
+No channel and only 1 parameter was provided to %s function.
+Asterisk function STRPTIME() requires an argument.
+STRPTIME() found no time specified within the string
+No format supplied to STRPTIME(<timestring>,<timezone>,<format>)
+C function strftime() output nothing?!!
+Unexpected arguments: should have been in the form '"<regex>" <string>'
+Usage: FILTER(<allowed-chars>,<string>)
+FILTER allowed characters includes the quote (") character.  This may not be what you want.
+Range wrapping in FILTER(%s,%s).  This may not be what you want.
+c1=%d, consumed=%d, args.allowed=%s
+Usage: %s(<varname>,<find-string>[,<replace-string>,[<max-replacements>]])
+Usage: %s(<varname>,<search-chars>[,<replace-char>])
+The characters to search for and the variable name must not be empty.
+Character to replace with: (%s)
+EVAL requires an argument: EVAL(<string>)
+Usage: LISTFILTER(<listname>,<delimiter>,<fieldvalue>)
+Usage: FIELDNUM(<listname>,<delimiter>,<fieldvalue>)
+String handling dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+function_fieldnum_helper
+filter
+ast_str_create
+replace
+strreplace
+listfilter
+regex
+quote
+csv_quote
+acf_strftime
+acf_strptime
+function_eval
+function_eval2
+hashkeys_read2
+hashkeys_read
+hash_read
+array
+_ast_realloc
+ast_str_make_space
+shift_pop
+_ast_calloc
+ast_threadstorage_get
+unshift_push
+;*2$"
+zPLR
+d10568311aa53ffbe368f9bd67b07735
+func_strings.so.debug
+7zXZ
+x@/&
+pcFy
+GV.~
+N16n
+d#kr
+{c7-
+*2H_p4
+jCQcQs
+SNeA
+V*%9
+tT@*V
+{=\+pa.
+vW5o
+|+CkG
+,DQZ
+?:]CbGDb
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

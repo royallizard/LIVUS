@@ -1,0 +1,1997 @@
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+ssl_module
+ap_hook_pre_connection
+ap_hook_test_config
+ap_hook_post_config
+ap_hook_http_scheme
+ap_hook_default_port
+ap_hook_pre_config
+ap_hook_child_init
+ap_hook_check_user_id
+ap_hook_fixups
+ap_hook_access_checker
+ap_hook_auth_checker
+ap_hook_post_read_request
+ap_hook_insert_filter
+apr_dynamic_fn_register
+realloc
+malloc
+CRYPTO_set_mem_functions
+ERR_load_crypto_strings
+SSL_load_error_strings
+SSL_library_init
+ENGINE_load_builtin_engines
+OPENSSL_add_all_algorithms_noconf
+OPENSSL_load_builtin_modules
+apr_pool_cleanup_null
+apr_pool_cleanup_register
+CONF_modules_unload
+EVP_cleanup
+ENGINE_cleanup
+ERR_remove_state
+ap_add_output_filter
+apr_palloc
+ap_log_cerror
+SSL_new
+ap_md5_binary
+SSL_set_session_id_context
+SSL_set_ex_data
+SSL_set_tmp_rsa_callback
+SSL_set_tmp_dh_callback
+SSL_set_verify_result
+ap_set_deprecated
+ap_getword_conf
+strcasecmp
+apr_pstrcat
+ap_server_root_relative
+apr_psprintf
+apr_pool_userdata_get
+apr_array_make
+apr_hash_make
+apr_pool_userdata_set
+apr_array_append
+apr_pstrdup
+strchr
+ap_check_cmd_context
+strlen
+ENGINE_by_id
+ENGINE_get_first
+ENGINE_get_name
+ENGINE_get_id
+ENGINE_get_next
+ENGINE_free
+apr_array_push
+strtol
+strncasecmp
+ap_exists_config_define
+BIO_new_file
+PEM_read_bio_DHparams
+BIO_free
+X509_STORE_free
+SSL_CTX_free
+RSA_free
+DH_free
+X509_INFO_free
+sk_pop_free
+X509_free
+EVP_PKEY_free
+SSL_load_client_CA_file
+X509_NAME_free
+sk_num
+sk_value
+X509_NAME_oneline
+ap_log_error
+sk_find
+sk_push
+sk_free
+__stack_chk_fail
+X509_NAME_cmp
+d2i_X509
+SSL_CTX_use_certificate
+d2i_PrivateKey
+SSL_CTX_use_PrivateKey
+X509_get_pubkey
+EVP_PKEY_missing_parameters
+EVP_PKEY_copy_parameters
+FIPS_mode
+RSA_generate_key
+ENGINE_set_default
+ENGINE_ctrl
+apr_sockaddr_ip_get
+apr_hash_get
+apr_hash_set
+sk_new
+apr_dir_open
+apr_dir_read
+apr_dir_close
+sk_set_cmp_func
+SSLv23_client_method
+SSL_CTX_new
+SSL_CTX_ctrl
+SSL_CTX_set_ex_data
+SSL_CTX_sess_set_new_cb
+SSL_CTX_sess_set_get_cb
+SSL_CTX_sess_set_remove_cb
+SSL_CTX_set_tmp_rsa_callback
+SSL_CTX_set_tmp_dh_callback
+SSL_CTX_set_info_callback
+SSL_CTX_set_verify
+SSL_CTX_load_verify_locations
+SSL_CTX_set_client_CA_list
+SSL_CTX_set_cipher_list
+strcmp
+SSL_CTX_callback_ctrl
+SSLv2_client_method
+SSL_CTX_get_client_CA_list
+SSLv23_server_method
+SSLv2_server_method
+SSL_CTX_set_client_cert_cb
+sk_new_null
+apr_fnmatch_test
+apr_fnmatch
+getpid
+ap_get_server_protocol
+FIPS_mode_set
+ap_add_version_component
+srand
+apr_snprintf
+apr_cpystrn
+BIO_get_callback_arg
+SSL_get_ex_data
+apr_brigade_partition
+apr_brigade_split_line
+apr_bucket_type_eos
+apr_bucket_eos_create
+ap_remove_input_filter
+SSL_free
+apr_bucket_immortal_create
+SSL_set_shutdown
+SSL_state
+SSL_connect
+apr_table_set
+SSL_accept
+SSL_get_verify_result
+X509_verify_cert_error_string
+apr_table_get
+apr_table_unset
+SSL_get_error
+ERR_peek_error
+SSL_get_peer_certificate
+X509_cmp_current_time
+apr_bucket_transient_create
+apr_bucket_flush_create
+ap_pass_brigade
+apr_bucket_type_flush
+ap_bucket_type_eoc
+SSL_write
+SSL_ctrl
+apr_brigade_cleanup
+memmove
+SSL_read
+memchr
+ap_get_brigade
+ap_remove_output_filter
+ap_getword
+apr_brigade_create
+ap_fputstrs
+ap_log_rerror
+SSL_set_accept_state
+SSL_do_handshake
+BIO_clear_flags
+memcpy
+BIO_set_flags
+apr_pool_create_ex
+apr_brigade_destroy
+ap_add_input_filter
+BIO_new
+SSL_set_bio
+SSL_get_rbio
+BIO_set_callback
+BIO_set_callback_arg
+ap_register_output_filter
+ap_register_input_filter
+ap_strcasecmp_match
+SSL_set_SSL_CTX
+SSL_get_verify_mode
+SSL_CTX_get_verify_callback
+SSL_CTX_get_verify_mode
+SSL_set_verify
+X509_get_subject_name
+SSL_get_servername
+apr_parse_addr_port
+ap_get_server_port
+ap_run_default_port
+ap_get_server_name
+ap_escape_html
+apr_table_setn
+apr_table_elts
+ap_is_initial_req
+SSL_get_SSL_CTX
+SSL_get_current_cipher
+SSL_set_cipher_list
+SSL_get_ciphers
+sk_dup
+SSL_renegotiate
+apr_brigade_length
+SSL_get_peer_cert_chain
+SSL_CTX_get_cert_store
+X509_STORE_CTX_init
+SSL_get_verify_depth
+X509_STORE_CTX_set_depth
+SSL_get_ex_data_X509_STORE_CTX_idx
+X509_STORE_CTX_set_ex_data
+X509_verify_cert
+X509_STORE_CTX_cleanup
+ap_pbase64encode
+ap_pbase64decode
+ap_getword_nulls
+CRYPTO_free
+X509_STORE_CTX_get_ex_data
+X509_STORE_CTX_get_current_cert
+X509_get_issuer_name
+X509_CRL_verify
+X509_OBJECT_free_contents
+X509_get_serialNumber
+ASN1_INTEGER_cmp
+ASN1_INTEGER_get
+BIO_s_mem
+BIO_printf
+X509_NAME_print
+ASN1_UTCTIME_print
+BIO_read
+X509_STORE_CTX_set_error
+X509_STORE_CTX_get_error
+X509_STORE_CTX_get_error_depth
+SSL_get_client_CA_list
+CRYPTO_add_lock
+SSL_SESSION_set_timeout
+SSL_CTX_get_ex_data
+SSL_state_string_long
+SSL_alert_desc_string_long
+SSL_alert_type_string_long
+ap_vhost_iterate_given_conn
+exit
+ERR_get_error
+ERR_error_string_n
+ap_strcmp_match
+apr_global_mutex_create
+unixd_set_global_mutex_perms
+apr_global_mutex_child_init
+apr_global_mutex_lock
+apr_global_mutex_unlock
+apr_stat
+apr_file_open
+apr_file_close
+EVP_read_pw_string
+apr_file_printf
+apr_file_puts
+apr_file_gets
+apr_file_eof
+memset
+ERR_put_error
+apr_file_open_stdout
+apr_procattr_create
+apr_procattr_io_set
+apr_tokenize_to_argv
+apr_proc_create
+i2d_X509
+ERR_clear_error
+apr_sleep
+i2d_PrivateKey
+fileno
+isatty
+RAND_seed
+apr_file_read
+RAND_status
+apr_itoa
+RAND_egd
+OBJ_txt2obj
+SSL_get_certificate
+X509_get_ext_count
+X509_get_ext
+OBJ_cmp
+X509V3_EXT_print
+BIO_vfree
+BIO_ctrl
+apr_pstrmemdup
+X509_NAME_ENTRY_get_object
+OBJ_obj2nid
+PEM_write_bio_X509
+strspn
+strncmp
+i2a_ASN1_INTEGER
+apr_time_now
+ASN1_UTCTIME_check
+apr_time_exp_gmt_get
+apr_ltoa
+OBJ_nid2ln
+getenv
+apr_time_exp_lt
+SSL_get_session
+ap_get_server_banner
+ap_run_http_scheme
+SSL_get_version
+ap_document_root
+ap_get_remote_host
+SSL_CIPHER_get_bits
+ap_get_remote_logname
+SSLeay_version
+apr_dynamic_fn_retrieve
+apr_file_info_get
+apr_file_seek
+ap_regexec
+ap_pregcomp
+stderr
+__fprintf_chk
+stdin
+sscanf
+ap_rputs
+apr_optional_hook_add
+apr_dbm_open
+apr_dbm_firstkey
+apr_pmemdup
+apr_dbm_nextkey
+apr_dbm_fetch
+apr_dbm_close
+apr_dbm_delete
+apr_pool_destroy
+geteuid
+unixd_config
+chown
+unlink
+i2d_SSL_SESSION
+apr_dbm_store
+d2i_SSL_SESSION
+ap_rprintf
+SSL_SESSION_free
+memcmp
+apr_shm_create
+apr_shm_baseaddr_get
+apr_shm_size_get
+apr_shm_remove
+apr_shm_destroy
+CRYPTO_set_locking_callback
+CRYPTO_set_id_callback
+CRYPTO_set_dynlock_create_callback
+CRYPTO_set_dynlock_lock_callback
+CRYPTO_set_dynlock_destroy_callback
+ap_log_perror
+apr_thread_mutex_destroy
+apr_thread_mutex_create
+apr_os_thread_current
+apr_thread_mutex_unlock
+apr_thread_mutex_lock
+ap_make_dirstr_parent
+apr_procattr_dir_set
+apr_procattr_cmdtype_set
+EVP_PKEY_type
+CRYPTO_num_locks
+SSL_get_ex_new_index
+PEM_read_bio_X509
+BIO_f_base64
+BIO_push
+d2i_X509_bio
+BIO_free_all
+PEM_read_bio_PrivateKey
+d2i_PrivateKey_bio
+SSL_shutdown
+X509_STORE_new
+X509_LOOKUP_file
+X509_STORE_add_lookup
+X509_LOOKUP_ctrl
+X509_LOOKUP_hash_dir
+X509_STORE_get_by_subject
+X509_get_ext_by_NID
+X509V3_EXT_d2i
+ASN1_INTEGER_to_BN
+BN_bn2dec
+BN_free
+BASIC_CONSTRAINTS_free
+BIO_s_file
+PEM_X509_INFO_read_bio
+SSL_SESSION_get_time
+DH_new
+BN_bin2bn
+libssl.so.10
+libcrypto.so.10
+libdl.so.2
+libz.so.1
+libpthread.so.0
+libc.so.6
+mod_ssl.so
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+[A\]
+ffff.
+ffff.
+ffffff.
+PHHcI
+WhHc@
+OhHcE
+l$HH
+d$ L
+l$(L
+t$0H
+ffffff.
+ATUH
+-t:A
++tDH
+[]A\A]
+[]A\A]
+[]A\
+d$ H
+T$(L
+T$(L
+l$ H
+fff.
+AWAVAUATUH
+t$0L
+D$DL
+l$(H
+[]A\A]A^A_
+A#T$
+A#D$
+A#D$
+[]A\A]
+D$ H
+D$0H
+D$8H
+D$@H
+@HcR
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ H
+d$(E1
+l$0L
+t$8L
+|$@H
+t$ H
+t$(H
+D$(H
+D$(H
+t$ 1
+D$(I
+t$ H
+fffff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+{8E1
+l$ 1
+d$(L
+l$01
+t$8L
+|$@H
+ffffff.
+ffff.
+ffff.
+@PHcR
+@PHcR
+@PHcR
+@PHcR
+ffff.
+@PHcR
+ffff.
+@PHcR
+@PHcR
+d$ H
+t$ H
+t$ H
+t$ 1
+t$ H
+ffffff.
+AUATI
+|$8H
+-tRA
++tdH
+[]A\A]A^
+|$8H
+l$ 1
+l$ H
+GHHcR
+GHHcR
+GHHcI
+fffff.
+GHHcR
+l$ H
+@PHcR
+@PHcR
+@PHcR
+@PHcR
+@PHcR
+fffff.
+@PHcR
+ffff.
+IcT$
+[]A\
+fffff.
+AWAVAUATUSH
+CPIcU
+l$0H
+t$(1
+[]A\A]A^A_
+ATU1
+[]A\A]A^
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$(1
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+d$ H
+d$ H
+fffff.
+AWAVI
+ATUSH
+tgIcT$
+{0Pu
+IcT$
+T$hH
+|$XH
+D$8L
+L$HH
+T$@H
+D$8H
+L$HL
+T$@H
+|$ H
+D$(H
+x[]A\A]A^A_
+T$PH
+|$XH
+L$xH
+[]A\A]A^
+fffff.
+AVAUATUH
+T$(H
+GPIcV
+T$ H
+t$$H
+t$(H
+8[]A\A]A^A_
+8[]A\A]A^A_
+AWAVI
+AUATI
+H[]A\A]A^A_
+H[]A\A]A^A_
+T$ 1
+T$(A
+T$<H
+t$8H
+T$0H
+T$ 1
+T$(A
+H[]A\A]A^A_
+l$0I
+|$(H
+D$0L
+D$(H
+t$(H
+l$0D
+AWAVI
+APHcU
+[]A\A]A^A_
+fff.
+ffff.
+AWAVI
+AUATUH
+D$,1
+t2HcD$,L
+[]A\A]A^A_
+D$,I
+\$ H
+L;l$ 
+@hHcR
+l$PH
+\$HL
+d$XL
+l$`L
+t$hL
+|$pH
+L$8L
+l$0H
+l$(H
+T$ D
+l$ H
+ffffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$(L
+T$(H
+T$(H
+fffff.
+L$HH
+l$ H
+;HcR
+FhIcW
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$(H
+@hIcV
+L$4M
+ttIcV
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$HIcV
+T$(H
+l$0H
+\$(L
+l$@L
+t$HL
+|$PH
+T$(H
+ffff.
+AWAVAUATI
+H;D$(
+T$HH
+t$@H
+|$HH
+t$@I
+D$0H
+H;D$(
+[]A\A]A^A_
+l$ L
+D$ A
+D$ L
+t$ 1
+D$ L
+T$0A
+D$0H
+T$0D
+D$8D
+D$0A
+T$0L
+T$8D
+AVAUI
+ATU1
+t^A9
+w8Hc
+[]A\A]A^A_
+w8Ic
+k8D)s0
+H)k8E1
+{8E1
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L;D$ 
+|$HH
+T$ L
+t$ E1
+D$ M
+|$HH
+L$ L
+L$ H
+D$(t>K
+T$(L
+D$ H
+|$8A
+D$8H
+T$ A
+D$(t&H
+\$8H
+l$@L
+d$HL
+l$PH
+C HcR
+t$ H
+|$ H
+d$(L9
+T$8H
+t$0L
+tu=~
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+L$8H
+L9D$(s
+L$(L
+D$(L)
+t$0H
+L$ M
+L9l$(
+|$(H
+|$(H
+T$0L
+|$(H
+AWAVAUATUSH
+|$ H
+D$ 1
+D$0H
+D$0H
+D$ H
+D$(H
+D$8L
+D$0H
+|$(H
+D$ H
+t$(1
+D$(L
+,$L9
+T$HH
+t$@L
+D$HH
+D$ L
+X[]A\A]A^A_
+D$0L
+H9D$8
+D$ H
+L$0H
+T$ H
+D$ L
+[]A\A]A^A_
+D$ L
+D$8L
+D$ L
+AVAUI
+ATUSH
+D$(H
+[]A\A]A^
+[]A\L
+A]A^
+fffff.
+AWAVAUATI
+~%E1
+[]A\A]A^A_
+T$hE1
+l$HA
+fffff.
+T$0L
+t$ I
+T$8H
+ffffff.
+IcT$
+T$>H
+t$0H
+|$(A
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+IcD$
+|$(L
+AWAVAUATUSH
+L$(A
+D$8E
+t$ H
+t$(H
+D$ A
+V(E1
+D;|$ 
+T$(H;S
+t$(HcQ
+D$@M
+[]A\A]A^A_
+l$@H
+\$HI
+\$0H
+\$HL
+\$ E
+@t=H
+T$@E
+t$HH
+D$(H;C
+t$ 1
+|$0L
+l$0H
+\$HL
+l$@1
+|$8H
+|$PL
+|$PH
+|$0H
+ tAH
+\$(H
+l$0L
+d$8L
+l$@H
+AWAVAUATUSH
+[]A\A]A^A_
+%O[!
+ffff.
+ffff.
+fff.
+AUATUSH
+ShHc@
+L$@L
+D$8H
+l$H~qM
+T$(H
+T$8H
+[]A\A]A^A_
+D$0H
+;\$0
+T$(u
+|$81
+D$0H
+t$8H
+|$01
+|$0H
+|$0H
+|$0H
+|$0H
+L$PH
+|$0H
+L$(L
+ShHc@
+t$0H
+T$ A
+D$(1
+D$(1
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+|$,L
+L$ H
+D$8H
+D$8L
+T$ H
+T$ M
+AWAVI
+AUATI
+9D$$
+t$$H
+8[]A\A]A^A_
+D$(H
+[]A\A]A^A_
+D$(H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+d$ L
+l$(L
+t$0H
+l$HE
+d$DH
+d$ H
+@hHcU
+ u4I
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+d$ L
+,$uIL
+d$ H
+-TH!
+T$(u
+HcD$4H
+D$8L
+[]A\A]A^A_
+D$8L
+d$ H
+d$ H
+.Nt.D
+|$x1
+D$PH
+AWAVAUATA
+T$ H
+T$(H
+x@;A
+t,Ic
+[]A\A]A^A_
+=E]!
+50]!
+|$ H
+T$(H
+t$ H
+|$ L
+t$ L
+t$ H
+|$@H
+=IZ!
+|$@1
+T$ H
+|$0H
+D$HH
+|$ H
+D$0H
+L$ L
+D$@H
+T$HH
+T$0H
+AWAVI
+AUATI
+L$ H
+t$0Hc
+t$XH
+B(HcT$,H
+D$8H
+T$pL
+D$tH
+D$xH
+D$|H
+T$hL
+T$hH9P
+D$p;D$(}
+T$`uv
++T$ H
+Hc|$ Hi
+=(T!
+[]A\A]A^A_
+T$0H
+D$ tFL
+t$xH
+L$ H
+t$ Hc
+t$XH
+T$tM
+=FR!
+D$8H
+D$8L
+D$ L
+T$hH
+D$@	D$D
+D$0	D$H
+[]A\A]A^A_
+AWE1
+ATUSH
+t$ H
+L$(HcP
+D$0A
+A9l$
+D9+u
+T$0H
+D$@H
+A9l$
+D$(L
+T$(L
+[]A\A]A^A_
+D$ H
+|$XA
+T$8H
+|$ H
+T$8L
+t$ H
+|$ H
+T$XH
+t$ L
+AWAVI
+AUATA
+~dE1
+D;l$
+[]A\A]A^A_
+AWAVM
+AUATUS1
+t$,H
+8[]A\A]A^A_
+l$ H
+l$ H
+AVAUI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+\$HH
+l$PL
+d$XL
+l$`H
+|$8H
+|$8H
+5Q@!
+t[IcV
+D$hL
+|$(M
+T$8H
+T$8L
+|$@H
+|$@H
+|$@H
+D$8L
+T$0H
+t$(u%H
+|$@H
+|$@H
+t$lH
+D$8A
+|$88L
+|$@H
+|$@H
+T$\H
+|$@H
+D$TD
+L$PH
+t$lH
+t$8H
+ffff.
+5b+!
+5?*!
+=).!
+AWE1
+[]A\A]A^A_
+[]A\A]A^A_
+DS H
+fff.
+|LE1
+|*L9
+t$ H
+t~w,
+D$8H
+|$xH
+|$xH
+|$xH
+|$xH
+AWAVAUATUSH
+$~e1
+([]A\A]A^A_
+l$ H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUATUSH
+[]A\A]A^A_
+6w4H
+ATUSL
+[]A\A]A^
+fff.
+tGH;=
+fffff.
+H;=Y
+ffffff.
+[]A\
+ffffff.
+~)Lc
+fff.
+AWAVAUATUSH
+dH34%(
+[]A\A]A^A_
+D$8H
+L$@I
+L$8H
+:D$K
+t$0A
+D$8H
+T$\H
+D$\=
+D$0L
+L$ D
+L$ H
+D$0D
+\$(I
+trHcL$LH
+Lc|$LM
+Xt!H
+d$ H
+fff.
+AWAVAUATUSH
+|$8HcP
+[]A\A]A^A_
+|$8L
+|$p1
+|$pH
+D$pH
+|$hH
+t$@1
+T$HH
+t$@Lc
+|$pI
+|$hH
+t$@H
+T$HH
+L$PH
+D$PH
+D$x|
+D$pH
+L$0H
+D$(K
+L;|$(u
+L$0H
+D$4L
+D$8L
++D$4
+D$8L
+D$8L
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+fff.
+t$PH
+t$HL
+l$ L
+l$(M
+t$ H
+T$(H
+|$@M
+l$0L
+L$ H
+l$ H
+t$(I
+D$@toH
+|$8H
+H;D$H
+t$@L
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+AUATUSH
+|$8H
+L$ H
+|$8H
+H[]A\A]
+H[]A\A]
+|$8E1
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+t$ H
+|$ D
+T$@L
+D$ L
+t$@A
+t$81
+A9BDtTL
+[]A\A]A^A_
+T$(I
+D$ L
+D$ L
+ATUSH
+T$$1
+v<A9m
+T$@L
+t$@D
+t$81
+D$$9CDu
+T$(H
+[]A\A]A^A_
+ffff.
+AWAVI
+AUATUSH
+Icu I
+T$(L
+t$(C
+8[]A\A]A^A_
+Icu I
+SHcP
+L$HI
+>HcP
+D$`H
+t$XL
+D$@E
+|$DJ
+l;PH
+t$`D
+L$HD
+t$`D
+L$0L
+L$8L
+L$0L
+T$(H
+t$`L
+6HcP
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+6HcP
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AWAVAUATUSH
+C@E1
+D9C8
+XD$ 
+D9C8I
+D$0D
+L$4H
+D$0H
+T$0H
+[]A\A]A^A_H
+L$ H
+L9t$8|
+D$8H
+d$ H
+[]A\
+[]A\
+fff.
+$uiL
+d$ H
+ffffff.
+d$ L
+l$(L
+t$0H
+AWAVAUATUH
+twE1
+[]A\A]A^A_
+fff.
+ffff.
+tiL90t$H
+t$ H
+l$ H
+l$ H
+ffff.
+ATUSH
+~/E1
+[]A\1
+t$ H
+l$ L
+t$(L
+|$0H
+t1E1
+fff.
+AVAUI
+ATUSH
+[]A\A]A^A_
+t$ H
+fff.
+AVAUATE1
+[]A\A]1
+Lc L
+[]A\A]A^
+l$ H
+L$hH
+[]A\A]A^
+ATUH
+	uz%
+]A\A]A^
+]A\A]A^
+AWAVI
+~>Lc
+[]A\A]A^A_
+ffffff.
+t$ H
+ssl_proxy_enable
+ssl_engine_disable
+ssl_extlist_by_oid
+UPGRADE_FILTER
+mod_setenvif.c
+SSLPassPhraseDialog
+SSLSessionCache
+SSLCryptoDevice
+SSLRandomSeed
+SSLEngine
+SSLFIPS
+SSLCipherSuite
+SSLCertificateFile
+SSLCertificateKeyFile
+SSLCertificateChainFile
+SSLCACertificatePath
+SSLCACertificateFile
+SSLCADNRequestPath
+SSLCADNRequestFile
+SSLCARevocationPath
+SSLCARevocationFile
+SSLVerifyClient
+SSLVerifyDepth
+SSLSessionCacheTimeout
+SSLProtocol
+SSLHonorCipherOrder
+SSLInsecureRenegotiation
+SSLUserName
+SSLStrictSNIVHostCheck
+SSLProxyEngine
+SSLProxyProtocol
+SSLProxyCipherSuite
+SSLProxyVerify
+SSLProxyVerifyDepth
+SSLProxyCACertificateFile
+SSLProxyCACertificatePath
+SSLProxyCARevocationPath
+SSLProxyCARevocationFile
+SSLProxyCheckPeerExpire
+SSLProxyCheckPeerCN
+SSLOptions
+SSLRequireSSL
+SSLRequire
+SSLRenegBufferSize
+SSLLog
+SSLLogLevel
+SSL Proxy requested for %s but not enabled [Hint: SSLProxyEngine]
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/mod_ssl.c
+Unable to create a new SSL connection from the SSL context
+Unable to set session id context to `%s'
+Connection to child %ld established (server %s)
+SSL dialog mechanism for the pass phrase query (`builtin', `|/path/to/pipe_program`, or `exec:/path/to/cgi_program')
+SSL Session Cache storage (`none', `nonenotnull', `dbm:/path/to/file')
+SSL external Crypto Device usage (`builtin', `...')
+SSL Pseudo Random Number Generator (PRNG) seeding source (`startup|connect builtin|file:/path|exec:/path [bytes]')
+SSL switch for the protocol engine (`on', `off')
+Enable FIPS-140 mode (`on', `off')
+Colon-delimited list of permitted SSL Ciphers (`XXX:...:XXX' - see manual)
+SSL Server Certificate file (`/path/to/file' - PEM or DER encoded)
+SSL Server Private Key file (`/path/to/file' - PEM or DER encoded)
+SSL Server CA Certificate Chain file (`/path/to/file' - PEM encoded)
+SSL CA Certificate path (`/path/to/dir' - contains PEM encoded files)
+SSL CA Certificate file (`/path/to/file' - PEM encoded)
+SSL CA Distinguished Name path (`/path/to/dir' - symlink hashes to PEM of acceptable CA names to request)
+SSL CA Distinguished Name file (`/path/to/file' - PEM encoded to derive acceptable CA names to request)
+SSL CA Certificate Revocation List (CRL) path (`/path/to/dir' - contains PEM encoded files)
+SSL CA Certificate Revocation List (CRL) file (`/path/to/file' - PEM encoded)
+SSL Client verify type (`none', `optional', `require', `optional_no_ca')
+SSL Client verify depth (`N' - number of intermediate certificates)
+SSL Session Cache object lifetime (`N' - number of seconds)
+Enable or disable various SSL protocols(`[+-][SSLv2|SSLv3|TLSv1] ...' - see manual)
+Use the server's cipher ordering preference
+Enable support for insecure renegotiation
+Set user name to SSL variable value
+Strict SNI virtual host checking
+SSL switch for the proxy protocol engine (`on', `off')
+SSL Proxy: enable or disable SSL protocol flavors (`[+-][SSLv2|SSLv3|TLSv1] ...' - see manual)
+SSL Proxy: colon-delimited list of permitted SSL ciphers (`XXX:...:XXX' - see manual)
+SSL Proxy: whether to verify the remote certificate (`on' or `off')
+SSL Proxy: maximum certificate verification depth (`N' - number of intermediate certificates)
+SSL Proxy: file containing server certificates (`/path/to/file' - PEM encoded certificates)
+SSL Proxy: directory containing server certificates (`/path/to/dir' - contains PEM encoded certificates)
+SSL Proxy: CA Certificate Revocation List (CRL) path (`/path/to/dir' - contains PEM encoded files)
+SSL Proxy: CA Certificate Revocation List (CRL) file (`/path/to/file' - PEM encoded)
+SSLProxyMachineCertificateFile
+SSL Proxy: file containing client certificates (`/path/to/file' - PEM encoded certificates)
+SSLProxyMachineCertificatePath
+SSL Proxy: directory containing client certificates (`/path/to/dir' - contains PEM encoded certificates)
+SSL Proxy: check the peers certificate expiration date
+SSL Proxy: check the peers certificate CN
+Set one or more options to configure the SSL engine(`[+-]option[=value] ...' - see manual)
+Require the SSL protocol for the per-directory context (no arguments)
+Require a boolean expression to evaluate to true for granting access(arbitrary complex boolean expression - see manual)
+Configure the amount of memory that will be used for buffering the request body if a per-location SSL renegotiation is required due to changed access control requirements
+SSLLog directive is no longer supported - use ErrorLog.
+SSLLogLevel directive is no longer supported - use LogLevel.
+Valid SSLMutex mechanisms are: `none', `default', `flock:/path/to/file', `fcntl:/path/to/file', `sysvsem', `posixsem', `pthread', `file:/path/to/file', `sem' 
+SSLv2
+SSLv3
+TLSv1
+: Illegal protocol '
+: Invalid dir path 
+' does not exist
+: directory '
+: Invalid file path 
+' does not exist or is empty
+certificates
+private keys
+none
+optional
+require
+optional_no_ca
+: Invalid argument '
+ssl_module
+default
+fcntl
+flock
+posixsem
+sysvsem
+pthread
+Invalid SSLMutex argument 
+: filepath 
+Invalid SSLMutex 
+builtin
+exec:
+SSLPassPhraseDialog: file '
+startup
+connect
+file:
+egd:
+Invalid SSLRandomSeed path 
+SSLRandomSeed: source path '
+Optional
+nonenotnull
+dbm:
+shm:
+shmht:
+shmcb:
+StdEnvVars
+ExportCertData
+FakeBasicAuth
+StrictRequire
+OptRenegotiate
+SSLOptions: Illegal option '
+SSLRequire: 
+DUMP_CERTS
+%s: only up to %d different %s per virtual host allowed
+SSLPassPhraseDialog: Invalid argument
+Invalid SSLPassPhraseDialog exec: path 
+SSLCryptoDevice: Invalid argument; must be one of: 'builtin' (none)
+SSLRandomSeed: byte specification not allowed for builtin seed source
+SSLRandomSeed: invalid number of bytes specified
+SSLRandomSeed: invalid context: `
+Argument must be On, Off, or Optional
+Conflicting SSLFIPS options, cannot be both On and Off
+SSLSessionCache: Invalid argument: no closing parenthesis
+SSLSessionCache: Invalid argument: size has to be >= 8192 bytes
+SSLSessionCache: distcache support disabled
+SSLSessionCache: Invalid argument
+SSLSessionCache: Invalid cache file path %s
+SSLSessionCache: Invalid argument: size has to be < %d bytes on this platform
+SSLSessionCacheTimeout: Invalid argument
+CA certificate: %s
+chil
+%s:%u
+TLSv1, 
+SSLv3, 
+SSLv2, 
+Init: Initialized %s library
+OpenSSL
+Init: 
+Operating in SSL FIPS mode
+FIPS mode failed
+SSL FIPS mode disabled
+SSL_VERSION_INTERFACE
+SSL_VERSION_LIBRARY
+SSL_VERSION_LIBRARY_INTERFACE
+Apache/2.2.21
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_init.c
+Configuring %s server certificate
+Unable to import %s server certificate
+Unable to configure %s server certificate
+Configuring %s server private key
+Unable to import %s server private key
+Unable to configure %s server private key
+Copying DSA parameters from private key to certificate
+Init: Skipping generating temporary %d bit RSA private key in FIPS mode
+Init: Failed to generate temporary %d bit RSA private key
+Init: Skipping generating temporary %d bit DH parameters in FIPS mode
+Init: Failed to generate temporary %d bit DH parameters
+Init: Failed to load Crypto Device API `%s'
+Init: Failed to enable Crypto Device API `%s'
+Init: loaded Crypto Device API `%s'
+Init: (%s) You configured HTTPS(%d) on the standard HTTP(%d) port!
+Init: (%s) You configured HTTP(%d) on the standard HTTPS(%d) port!
+Init: SSL server IP/port overlap: %s (%s:%d) vs. %s (%s:%d)
+Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+Failed to open Certificate Path `%s'
+No SSL protocols available [hint: SSLProtocol]
+Creating new SSL context (protocols: %s)
+Configuring client authentication
+Unable to configure verify locations for client authentication
+Unable to determine list of acceptable CA certificates for client authentication
+Init: Oops, you want to request client authentication, but no CAs are known for verification!?  [Hint: SSLCACertificate*]
+Configuring permitted SSL ciphers [%s]
+Unable to configure permitted SSL ciphers
+Configuring certificate revocation facility
+Unable to configure X.509 CRL storage for certificate revocation
+Failed to configure CA certificate chain!
+Configuring server certificate chain (%d CA certificate%s)
+Configuring TLS extension handling
+Unable to initialize TLS servername extension callback (incompatible OpenSSL version?)
+Configuring server for SSL protocol
+No SSL Certificate set [hint: SSLCertificateFile]
+Illegal attempt to re-initialise SSL for server (SSLEngine On should go in the VirtualHost, not in global scope.)
+Oops, no RSA or DSA server certificate found for '%s:%d'?!
+%s server certificate enables Server Gated Cryptography (SGC)
+%s server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+%s server certificate is not a leaf certificate (BasicConstraints: pathlen == %d > 0 !?)
+%s server certificate wildcard CommonName (CN) `%s' does NOT match server name!?
+%s server certificate CommonName (CN) `%s' does NOT match server name!?
+Oops, no RSA or DSA server private key found?!
+no client certs found for SSL proxy
+incomplete client cert configured for SSL proxy (missing or encrypted private key?)
+loaded %d client certs for SSL proxy
+Init: Generating temporary RSA private keys (512/1024 bits)
+Init: Generating temporary DH parameters (512/1024 bits)
+Init: Initializing (virtual) servers for SSL
+%s compiled against Server: %s, Library: %s
++-------------------------------------------------------------------------+
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_io.c
+%s: %s %ld/%d bytes %s BIO#%pp [mem: %pp] %s
+%s: I/O error, %d bytes expected to %s on BIO#%pp [mem: %pp]
+read from buffered SSL brigade, mode %d, %ld bytes
+could not partition buffered SSL brigade
+could not split line from buffered SSL brigade
+buffered SSL brigade exhausted
+SSL handshake failed: HTTP spoken on HTTPS port; trying to send HTML error page
+Connection closed to child %ld with %s shutdown (server %s)
+SSL Proxy: Peer certificate is expired
+SSL Proxy: Peer certificate CN mismatch: Certificate CN: %s Requested hostname: %s
+SSL handshake stopped: connection was closed
+SSL handshake interrupted by system [Hint: Stop button pressed in browser?!]
+SSL library error %d in handshake (server %s)
+SSL client authentication failed, accepting certificate based on "SSLVerifyClient optional_no_ca" configuration
+SSL client authentication failed: %s
+No acceptable peer certificate available
+likely due to failed renegotiation
+SSL filter error shutting down I/O
+SSL output filter write failed.
+SSL library error %d writing data
+failed to write %ld of %lu bytes (%s)
+SSL library error %d reading data
+HTTP/1.1 101 Switching Protocols
+could not send interim 101 Upgrade response
+Awaiting re-negotiation handshake
+TLS Upgrade handshake failed: Not accepted by client!?
+filling buffer, max size %lu bytes
+could not read request body for SSL buffer
+could not read bucket for SSL buffer
+could not setaside bucket for SSL buffer
+total of %ld bytes in buffer, eos=%d
+request body exceeds maximum size (%lu) for SSL buffer
+| %04x: 
+%02x%c
+| %04ld - <SPACES/NULS>
+(BIO dump follows)
+(Oops, no memory buffer?)
+write
+from
+GET /
+abortive
+unclean
+accurate
+standard
+SSL Proxy connect failed
+SSL_connect_rv
+proxy-request-hostname
+SSL_CLIENT_S_DN_CN
+reason unknown
+SSL input filter read failed.
+TLS/1.0
+Upgrade: TLS/1.0, HTTP/1.1
+Connection: Upgrade
+APR output filter
+APR input filter
+SSL/TLS Buffer
+SSL/TLS Filter
+timeout=%lds 
+-uknown-
+Initial (No.1)
+https://%s%s/
+error-notes
+Subsequent (No.%d)
+quick 
+client does
+client does not
+SSL connection required
+ssl-access-forbidden
+GENEROUS
+transfer-encoding
+content-length
+Re-negotiation request failed
+Failed expression: %s
+Authorization
+Basic
+:password
+Basic 
+HTTPS
+SSL_TLS_SNI
+SSL_SERVER_CERT
+SSL_CLIENT_CERT
+SSL_CLIENT_CERT_CHAIN_%d
+ssl-secure-reneg
+CA CRL: Issuer: 
+, lastUpdate: 
+, nextUpdate: 
+Invalid signature on CRL
+-unknown-
+no acceptable CA list
+found acceptable cert
+caching
+reuse
+FOUND
+renewal
+MISSED
+dead
+%s: Handshake: start
+%s: Handshake: done
+%s: Loop: %s
+%s: Read: %s
+%s: Write: %s
+%s: Alert: %s:%s:%s
+%s: Exit: failed in %s
+%s: Exit: error in %s
+SSL_CIPHER_ALGKEYSIZE
+SSL_CIPHER_USEKEYSIZE
+SSL_CIPHER
+SSL_PROTOCOL
+REMOTE_ADDR
+SSL_SECURE_RENEG
+SSL_COMPRESS_METHOD
+SSL_CIPHER_EXPORT
+SSL_CLIENT_VERIFY
+SSL_CLIENT_M_VERSION
+SSL_CLIENT_M_SERIAL
+SSL_CLIENT_V_START
+SSL_CLIENT_V_END
+SSL_CLIENT_V_REMAIN
+SSL_CLIENT_S_DN
+SSL_CLIENT_I_DN
+SSL_CLIENT_A_KEY
+SSL_CLIENT_A_SIG
+SSL_SERVER_M_VERSION
+SSL_SERVER_M_SERIAL
+SSL_SERVER_V_START
+SSL_SERVER_V_END
+SSL_SERVER_S_DN
+SSL_SERVER_I_DN
+SSL_SERVER_A_KEY
+SSL_SERVER_A_SIG
+SSL_SESSION_ID
+Inter-Process Session Cache: request=%s status=%s id=%s %s(session %s)
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_kernel.c
+Proxy client certificate callback: (%s) %s, sending %s
+Reason: You're speaking plain HTTP to an SSL-enabled server port.<br />
+Instead use the HTTPS scheme to access this URL, please.<br />
+<blockquote>Hint: <a href="%s"><b>%s</b></a></blockquote>
+Hostname %s provided via SNI, but no hostname provided in HTTP request
+Hostname %s provided via SNI and hostname %s provided via HTTP are different
+No hostname was provided via SNI for a name based virtual host
+%s HTTPS request received for child %ld (server %s)
+access to %s failed, reason: %s
+Unable to reconfigure (per-directory) permitted SSL ciphers
+Reconfigured cipher suite will force renegotiation
+Reduced client verification depth will force renegotiation
+Changed client verification type will force %srenegotiation
+Non-default virtual host with SSLVerify set to 'require' and VirtualHost-specific CA certificate list is only available to clients with TLS server name indication (SNI) support
+could not buffer message body to allow SSL renegotiation to proceed
+Requesting connection re-negotiation
+Performing quick renegotiation: just re-verifying the peer
+Cannot find peer certificate chain
+Cannot find certificate storage
+Re-negotiation verification step failed
+Performing full renegotiation: complete handshake protocol (%s support secure renegotiation)
+Re-negotiation handshake failed: Not accepted by client!?
+Re-negotiation handshake failed: Client verification failed
+Re-negotiation handshake failed: Client certificate missing
+SSL cipher suite not renegotiated: access to %s denied using cipher %s
+Failed to execute SSL requirement expression: %s
+Access to %s denied for %s (requirement expression not fulfilled)
+SSL requirement expression not fulfilled (see SSL logfile for more details)
+insecure SSL re-negotiation required, but a pipelined request is present; keepalive disabled
+Encountered FakeBasicAuth spoof: %s
+Faking HTTP Basic Auth header: "Authorization: %s"
+handing out temporary %d bit RSA key
+handing out temporary %d bit DH key
+Found CRL has invalid nextUpdate field
+Found CRL is expired - revoking all certificates until you get updated CRL
+Certificate with serial %ld (0x%lX) revoked per CRL from issuer %s
+Certificate Verification: depth: %d, subject: %s, issuer: %s
+Certificate Verification: Verifiable Issuer is configured as optional, therefore we're accepting the certificate
+Certificate Verification: Error (%d): %s
+Certificate Verification: Certificate Chain too long (chain has %d certificates, but maximum allowed are only %d)
+Proxy client certificate callback: (%s) entered
+Proxy client certificate callback: (%s) downstream server wanted client certificate but none are configured
+Proxy client certificate callback: (%s) no client certificate found!?
+rejecting client initiated renegotiation
+Connection: Client IP: %s, Protocol: %s, Cipher: %s (%s/%s bits)
+SSL virtual host for servername %s found
+No matching SSL virtual host for servername %s found (using default/first virtual host)
+*envelope*bad*decrypt*
+SSL Library Error: %lu %s %s
+SSL Library Error: %lu %s
+wrong pass phrase!?
+*CLIENT_HELLO*http*request*
+speaking HTTP to HTTPS port!?
+*no shared cipher*
+*no start line*
+*bad password read*
+*bad mac decode*
+*CLIENT_HELLO*unknown*protocol*
+speaking not SSL to HTTPS port!?
+*SSL3_READ_BYTES:sslv3*alert*bad*certificate*
+Subject CN in certificate not server name or identical to CA!?
+*self signed certificate in certificate chain*
+Client certificate signed by CA not known to server?
+*peer did not return a certificate*
+No CAs known to server for verification?
+Too restrictive SSLCipherSuite or using DSA server certificate?
+Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+You entered an incorrect pass phrase!?
+Browser still remembered details of a re-created server certificate?
+Cannot create SSLMutex with file `%s'
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_mutex.c
+Could not set permissions on ssl_mutex; check User and Group directives
+Cannot reinit SSLMutex with file `%s'
+Failed to acquire SSL session cache lock
+Failed to release SSL session cache lock
+Cannot create SSLMutex
+Cannot reinit SSLMutex
+Server %s (%s)
+Enter pass phrase:
+Init: Private key not found
+**Stopped
+Init: Pass phrase incorrect
+Init: Creating pass phrase dialog pipe child '%s'
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_pphrase.c
+Init: Failed to create pass phrase pipe '%s'
+Init: Requesting pass phrase via piped dialog
+Init: Requesting pass phrase via builtin terminal dialog
+%s mod_ssl/%s (Pass Phrase Dialog)
+Some of your private key files are encrypted for security reasons.
+In order to read them you have to provide the pass phrases.
+Apache:mod_ssl:Error: Pass phrase empty (needs to be at least 1 character).
+Init: Requesting pass phrase from dialog filter program (%s)
+Loading certificate & private key of SSL-aware server
+Server should be SSL-aware but has no certificate configured [Hint: SSLCertificateFile] (%s:%d)
+Init: Can't open server certificate file %s
+Init: Unable to read server certificate from file %s
+Init: Multiple %s server certificates not allowed
+Init: Can't open server private key file %s
+%s reusing existing %s private key on restart
+Apache:mod_ssl:Error: Pass phrase incorrect (%d more retr%s permitted).
+Init: Unable to read pass phrase [Hint: key introduced or changed before restart?]
+Apache:mod_ssl:Error: Private key not found.
+Apache:mod_ssl:Error: Pass phrase incorrect.
+Init: Multiple %s server private keys not allowed
+unencrypted %s private key - pass phrase not required
+encrypted %s private key - pass phrase requested
+encrypted %s private key - pass phrase reused
+OK: Pass Phrase Dialog successful.
+Init: Wiped out the queried pass phrases from memory
+%.0f
+%sSeeding PRNG with %d bytes of entropy
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_engine_rand.c
+%sPRNG still contains insufficient entropy!
+_@%s%s_%d
+0123456789
+UNKNOWN
+SUCCESS
+NONE
+true
+false
+NULL
+DEFLATE
+HTTP_USER_AGENT
+User-Agent
+HTTP_REFERER
+Referer
+HTTP_COOKIE
+Cookie
+HTTP_FORWARDED
+Forwarded
+HTTP_HOST
+Host
+HTTP_PROXY_CONNECTION
+Proxy-Connection
+HTTP_ACCEPT
+Accept
+HTTP:
+REQUEST_METHOD
+REQUEST_SCHEME
+REQUEST_URI
+REQUEST_FILENAME
+REMOTE_HOST
+REMOTE_IDENT
+REMOTE_USER
+SERVER_ADMIN
+SERVER_NAME
+SERVER_PORT
+SERVER_PROTOCOL
+SCRIPT_FILENAME
+PATH_INFO
+QUERY_STRING
+IS_SUBREQ
+DOCUMENT_ROOT
+AUTH_TYPE
+THE_REQUEST
+SSL_
+CLIENT_CERT_CHAIN_
+FAILED:%s
+CLIENT_
+SERVER_
+SSL_VERSION_
+SERVER_SOFTWARE
+API_VERSION
+TIME_YEAR
+TIME_MON
+TIME_DAY
+TIME_HOUR
+TIME_MIN
+TIME_SEC
+TIME_WDAY
+TIME
+%02d%02d%02d%02d%02d%02d%02d
+ENV:
+version
+cipher
+subjectdn
+clientcert
+issuerdn
+cacert
+errcode
+errstr
+ssl_is_https
+ssl_var_lookup
+ssl_ext_lookup
+SSL_SERVER_S_DN_
+SSL_SERVER_I_DN_
+SSL_CLIENT_S_DN_
+SSL_CLIENT_I_DN_
+ap_register_log_handler
+Email
+mod_ssl/2.2.21
+Cannot open file
+Huge file cannot be read
+Cannot allocate memory
+Cannot read from file
+Internal evaluation error: Unknown function name
+Internal evaluation error: Unknown expression node
+syntax error
+yacc stack overflow
+Failed to compile regular expression
+bad buffer in yy_scan_bytes()
+Unterminated string
+Escape sequence out of bound
+Bad escape sequence
+flex scanner jammed
+out of dynamic memory in yy_create_buffer()
+out of dynamic memory in yy_scan_buffer()
+out of dynamic memory in yy_scan_bytes()
+fatal flex scanner internal error--end of buffer missed
+fatal error - scanner input buffer overflow
+fatal flex scanner internal error--no action found
+<hr>
+<tr><td bgcolor="#000000">
+</td></tr>
+<tr><td bgcolor="#ffffff">
+</table>
+ssl_scache_init
+status_hook
+<table cellspacing=0 cellpadding=0>
+<b><font color="#ffffff" face="Arial,Helvetica">SSL/TLS Session Cache Status:</font></b>
+Init: Session Cache is not configured [hint: SSLSessionCache]
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_scache.c
+Cannot open SSLSessionCache DBM file `%s' for scanning
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_scache_dbm.c
+Cannot re-open SSLSessionCache DBM file `%s' for expiring
+Inter-Process Session Cache (DBM) Expiry: old: %d, new: %d, removed: %d
+Cannot create SSLSessionCache DBM file `%s'
+streamline session data size too large: %d > %lu
+data size too large for DBM session cache: %d >= %d
+malloc error creating DBM value
+Cannot open SSLSessionCache DBM file `%s' for writing (store)
+Cannot store SSL session to DBM file `%s'
+Cannot open SSLSessionCache DBM file `%s' for writing (delete)
+Cannot open SSLSessionCache DBM file `%s' for reading (fetch)
+Cannot open SSLSessionCache DBM file `%s' for status retrival
+cache type: <b>DBM</b>, maximum size: <b>unlimited</b><br>
+current sessions: <b>%d</b>, current size: <b>%d</b> bytes<br>
+average session size: <b>%d</b> bytes<br>
+SSLSessionCache required
+.dir
+.pag
+will be expiring %u sessions
+we now have %u sessions
+subcache_num = %u
+subcache_size = %u
+subcache_data_offset = %u
+subcache_data_size = %u
+index_num = %u
+session is too big (%u bytes)
+can't store a session!
+inside shmcb_status
+leaving shmcb_status
+/builddir/build/BUILD/httpd-2.2.21/modules/ssl/ssl_scache_shmcb.c
+possible match at idx=%d, data=%d
+shmcb_subcache_remove internal error
+shmcb_subcache_remove removing matching session
+shmcb_subcache_retrieve internal error
+shmcb_subcache_retrieve returning matching session
+shmcb_subcache_retrieve found no match
+could not allocate shared memory for shmcb session cache
+shared memory segment too small
+shmcb_init allocated %lu bytes of shared memory
+for %lu bytes (%lu including header), recommending %u subcaches, %u indexes each
+shmcb_init_memory choices follow
+Shared memory session cache initialised
+ssl_scache_shmcb_store (0x%02x -> subcache %d)
+unusably short session_id provided (%u bytes)
+inserting session larger (%d) than subcache data area (%d)
+about to force-expire, subcache: idx_used=%d, data_used=%d
+finished force-expire, subcache: idx_used=%d, data_used=%d
+insert happened at idx=%d, data=%d
+finished insert, subcache: idx_pos/idx_used=%d/%d, data_pos/data_used=%d/%d
+leaving ssl_scache_shmcb_store successfully
+ssl_scache_shmcb_retrieve (0x%02x -> subcache %d)
+leaving ssl_scache_shmcb_retrieve successfully
+ssl_scache_shmcb_remove (0x%02x -> subcache %d)
+leaving ssl_scache_shmcb_remove successfully
+cache type: <b>SHMCB</b>, shared memory: <b>%d</b> bytes, current sessions: <b>%d</b><br>
+subcaches: <b>%d</b>, indexes per subcache: <b>%d</b><br>
+time left on oldest entries' SSL sessions: 
+avg: <b>%d</b> seconds, (range: %d...%d)<br>
+expiry_threshold: <b>Calculation error!</b><br>
+index usage: <b>%d%%</b>, cache usage: <b>%d%%</b><br>
+total sessions stored since starting: <b>%lu</b><br>
+total sessions expired since starting: <b>%lu</b><br>
+total (pre-expiry) sessions scrolled out of the cache: <b>%lu</b><br>
+total retrieves since starting: <b>%lu</b> hit, <b>%lu</b> miss<br>
+total removes since starting: <b>%lu</b> hit, <b>%lu</b> miss<br>
+Destroying dynamic lock %s:%d
+Creating dynamic lock
+Acquiring mutex %s:%d
+Mutex %s:%d acquired!
+Releasing mutex %s:%d
+Mutex %s:%d released!
+%s:%lu
+Failed to destroy mutex for dynamic lock %s:%d
+Failed to create subpool for dynamic lock
+Failed to allocate dynamic lock structure
+Failed to create thread mutex for dynamic lock
+Second Application Data for SSL
+%02X
+;*3$"
+22PA
+n7Aq
+nL7W
+2JFzc^
+OpenSSL 1.0.0e-fips 6 Sep 2011
+mod_ssl.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got
+.text

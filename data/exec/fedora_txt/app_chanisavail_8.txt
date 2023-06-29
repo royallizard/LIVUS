@@ -1,0 +1,89 @@
+Ii\v
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+strlen
+memcpy
+ast_app_separate_args
+strchr
+__snprintf_chk
+ast_str_append
+ast_parse_device_state
+ast_request
+ast_hangup
+pbx_builtin_setvar_helper
+ast_device_state
+ast_log
+__stack_chk_fail
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+AWAVAUATSH
+[A\A]A^A_
+ChanIsAvail requires an argument (DAHDI/1&DAHDI/2)
+ChanIsAvail argument takes format ([technology]/[device])
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  ChanIsAvail(Technology/resource[&Technology2/resource2...][,options]): 
+This application will check to see if any of the specified channels are
+available.
+  Options:
+    a - Check for all available channels, not only the first one.
+    s - Consider the channel unavailable if the channel is in use at all.
+    t - Simply checks if specified channels exist in the channel list
+        (implies option s).
+This application sets the following channel variable upon completion:
+  AVAILCHAN     - the name of the available channel, if one exists
+  AVAILORIGCHAN - the canonical channel name that was used to create the channel
+  AVAILSTATUS   - the status code for the available channel
+app_chanisavail.c
+%s/%s
+%s%s
+AVAILCHAN
+AVAILORIGCHAN
+AVAILSTATUS
+$Revision: 122234 $
+app_chanisavail
+Check channel availability
+ChanIsAvail
+chanavail_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_chanisavail.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

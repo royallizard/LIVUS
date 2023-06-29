@@ -1,0 +1,593 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+str_c
+crc32_str_more
+str_len
+str_data
+i_stream_create_from_data
+i_stream_read
+imap_parser_create
+imap_parser_finish_line
+mail_search_parser_init_imap
+mail_search_register_get_imap
+mail_search_build
+mail_search_parser_deinit
+imap_parser_destroy
+i_stream_destroy
+mail_search_build_init
+mail_search_build_add_all
+str_truncate
+mail_search_args_ref
+mail_search_args_unref
+imap_parser_get_error
+t_strdup
+i_panic
+t_strconcat
+buffer_get_modifiable_data
+strcmp
+imap_match
+virtual_config_read
+default_pool
+buffer_create_dynamic
+mail_namespaces_get_root_sep
+t_str_new
+i_stream_create_fd
+i_stream_set_return_partial_line
+i_stream_read_next_line
+mail_storage_set_critical
+buffer_append
+str_append_c
+str_append
+strcasecmp
+p_strdup
+mail_namespace_find_inbox
+strchr
+imap_match_init
+mail_namespace_find
+mail_search_args_dup
+i_stream_unref
+__errno_location
+__xstat
+pool_datastack_create
+buffer_delete
+t_strdup_printf
+mail_storage_set_error
+t_malloc0
+mailbox_list_iter_init_namespaces
+mailbox_list_iter_next
+virtual_backend_box_lookup_name
+mailbox_list_iter_deinit
+mail_error_eacces_msg
+virtual_config_free
+buffer_free
+mail_set_expunged
+mail_set_cache_corrupted
+mail_parse
+mail_expunge
+mail_update_pop3_uidl
+mail_get_real_mail
+mail_get_special
+virtual_box_copy_error
+mail_free
+mailbox_header_lookup_unref
+mail_get_stream
+mailbox_header_lookup_init
+mail_get_header_stream
+mail_get_physical_size
+mail_get_virtual_size
+mail_get_save_date
+mail_get_received_date
+mail_get_date
+mail_get_parts
+virtual_mail_alloc
+pool_alloconly_create
+virtual_mail_vfuncs
+index_storage_module
+array_idx_modifiable_i
+mailbox_header_lookup_ref
+virtual_mail_set_backend_mail
+virtual_transaction_get
+mail_index_lookup_ext
+virtual_backend_box_lookup
+mail_set_uid
+mail_index_lookup_uid
+mail_index_lookup_seq
+index_mail_get_flags
+index_mail_get_keywords
+index_mail_get_keyword_indexes
+index_mail_get_modseq
+index_mail_update_flags
+index_mail_update_keywords
+index_mail_update_modseq
+virtual_plugin_init
+virtual_storage
+mail_storage_class_register
+virtual_plugin_deinit
+mail_storage_class_unregister
+virtual_plugin_version
+virtual_search_init
+index_storage_search_init
+virtual_storage_module
+array_idx_set_i
+index_storage_search_next_update_seq
+seq_range_array_add
+mail_search_args_reset
+array_sort_i
+seq_range_array_iter_init
+virtual_search_deinit
+index_storage_search_deinit
+virtual_search_next_nonblock
+index_storage_search_next_nonblock
+seq_range_array_iter_nth
+mail_set_seq
+virtual_search_next_update_seq
+index_storage_is_inconsistent
+mailbox_notify_changes
+mailbox_notify_changes_stop
+index_storage_mailbox_free
+mailbox_search_result_free
+mail_search_args_deinit
+index_storage_mailbox_close
+mail_search_args_init
+mailbox_get_storage
+mail_storage_get_last_error
+index_storage_mailbox_open
+i_debug
+virtual_mailbox
+index_storage_mailbox_alloc
+i_strdup
+mail_index_ext_register
+buffer_append_buf
+mailbox_get_status
+array_bsearch_i
+index_storage_is_readonly
+index_storage_allow_new_keywords
+index_storage_mailbox_enable
+index_storage_mailbox_delete
+index_storage_mailbox_rename
+index_storage_get_status
+virtual_storage_sync_init
+index_mailbox_sync_next
+index_mailbox_sync_deinit
+virtual_transaction_begin
+virtual_transaction_commit
+virtual_transaction_rollback
+index_transaction_set_max_modseq
+index_keywords_create_from_indexes
+index_keywords_ref
+index_keyword_is_valid
+index_storage_get_seq_range
+index_storage_get_uid_range
+index_storage_get_expunges
+index_header_lookup_init
+index_header_lookup_deinit
+virtual_save_alloc
+virtual_save_begin
+virtual_save_continue
+virtual_save_finish
+virtual_save_cancel
+mail_storage_copy
+mail_storage_module_register
+mailbox_list_module_register
+mailbox_save_alloc
+buffer_append_space_unsafe
+mailbox_keywords_create_valid
+mailbox_save_set_flags
+mailbox_save_set_received_date
+mailbox_save_set_from_envelope
+mailbox_save_set_guid
+mailbox_save_set_min_modseq
+mailbox_save_set_dest_mail
+mailbox_save_begin
+mailbox_save_continue
+mailbox_save_finish
+mailbox_save_cancel
+virtual_save_free
+mailbox_keywords_unref
+mailbox_transaction_commit
+mail_index_update_flags
+mail_index_keywords_create
+mail_index_update_keywords
+mail_index_keywords_unref
+mail_index_sync_rollback
+mail_index_sync_commit
+mail_storage_set_index_error
+mail_index_unlink
+i_error
+mailbox_transaction_begin
+array_bsearch_insert_pos_i
+mail_index_expunge
+seq_range_count
+array_idx_clear_i
+buffer_copy
+index_mailbox_want_full_sync
+index_mailbox_sync_init
+mail_index_sync_begin
+mail_index_get_header
+mail_index_get_header_ext
+mail_index_get_keywords
+mail_index_sync_next
+mail_index_lookup_seq_range
+mail_index_modseq_enable
+mail_index_update_header_ext
+mailbox_sync
+mailbox_search_init
+mailbox_search_result_save
+buffer_set_used_size
+mailbox_search_next
+mailbox_search_deinit
+t_push
+mailbox_search_result_sync
+seq_range_array_remove_seq_range
+seq_range_array_merge
+t_pop_check
+mailbox_search_result_alloc
+mailbox_search_result_initial_done
+mail_index_view_get_messages_count
+mail_index_modseq_get_highest
+mail_index_modseq_lookup
+index_search_result_update_flags
+index_search_result_update_appends
+t_strndup
+mail_index_append
+mail_index_update_ext
+mail_index_append_finish_uids
+ioloop_time
+mail_index_update_header
+strlen
+buffer_write
+mail_index_ext_resize
+index_mailbox_set_recent_seq
+qsort
+__stack_chk_fail
+index_transaction_init
+index_transaction_commit
+mailbox_transaction_rollback
+index_transaction_rollback
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+lib20_virtual_plugin.so
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+[A\]
+AUATUH
+9G H
+L$ 1
+L$0H
+D$0H
+@[]A\A]A^
+[]A\A]A^
+t$?H
+AVAUATUH
+t{E1
+?-uLH
+[]A\A]A^
+[]A\A]A^
+AVAUATI
+D$ H
+T$ H
+H;D$
+< uoH
+[]A\A]A^A_
+D$(H
+T$ H
+D$(H
+t$(H
+T$ H
+AUATUSH
+t(E1
+[]A\A]
+[]A\A]
+ffffff.
+fff.
+fffff.
+t$ H
+fffff.
+ATUSH
+[]A\A]
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+t$ H
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+fffff.
+l$ L
+t$(L
+|$0H
+d$ H
+AUATU
+[]A\A]
+[]A\A]
+=ye 
+AUATUSH
+%Ze 
+[]A\A]
+d$ L
+l$(L
+t$0H
+rVE1
+[]A\
+ffff.
+fffff.
+AVAUATA
+[]A\A]A^
+ATUSH
+[]A\A]
+ffff.
+ffff.
+ffff.
+fffff.
+ATUSH
+tyE1
+[]A\A]
+fffff.
+AVAUATUH
+L;t$
+H[]A\A]A^A_
+=I\ 
+t$<H
+D$(H
+H[]A\A]A^A_
+T$ H
+T$(H
+t$ H
+t$<H
+fff.
+5!X 
+l$ L
+t$(L
+|$0H
+5ia 
+5q` 
+ffffff.
+d$ H
+AUATE1
+A\A]A^
+[]E1
+A\A]A^
+D9d$
+l$hH
+\$`L
+d$pL
+l$xL
+91t$
+ffffff.
+AWAVI
+AUATI
+l$xL
+D$@D
+|$pH
+T$8I
+t$(I
+t$PI
+t$@I
+|$pI
+|$pH
+|$pL
+h[]A\A]A^A_
+fffff.
+fffff.
+fffff.
+l$ L
+d$(L
+l$0H
+l$ L
+t$(L
+|$0H
+ffffff.
+AWAVAUATI
+8[]A\A]A^A_
+L$(H
+t$(A
+D9*u
+D$(A
+D$(A9O
+H9L$
+8[]A\A]A^A_
+AWAVAUATUH
+8[]A\A]A^A_
+t$,C
+|$,H
+9)s0
+T$,r
+T$,D9
+T$,A9m
+rXD9
+T$,H
+T$,A9m
+L;d$
+8[]A\A]A^A_
+L$,H
+t$,D9
+EPA)
+AWAVAUATI
+[]A\A]A^A_
+d$HH
+L$0H
+L$(H9L$ 
+d$HH
+D$(1
+L$0H
+A96t
+9D$\H
+H9u 
+H9U(
+t$@H
+A96u
+L;m H
+H;E v
+T$(H
+|$(UUU
+D$(E
+l$ L
+d$(I
+l$ L
+d$HH
+T$ A
+t	9u
+A96t
+T$ E1
+L;|$
+D$ 9
+d$0D
+d$(E1
+A96t
+D9l$ 
+l$(I
+d$0D
+T$ H
+d$(E1
+d$(H
+L$(H
+L;|$
+5y( 
+D$ H
+L$ H
+|$ H
+t$ L
+|$ 1
+d$8H
+t$0L
+H+D$0H
+T$ M
+D$(t
+t$PA
+t$(H
+90tzH
+d$8H
+t$ H
+P A9
+T$(A
+l$ H
+$9T$(
+l$ H
+l$ H
+H98tM
+H98t/H9
+ffff.
+%^" 
+l$ H
+AWAVAUATUH
+L;l$
+A\A]A^A_
+AUATUSH
+[]A\A]
+str_len(ctx->rule) == 0
+virtual-config.c
+UTF-8
+ctx->rule_idx < count
+boxes[i]->name[0] == '-'
+INBOX
+/dovecot-virtual
+stat
+open(%s) failed: %m
+Mailbox doesn't exist: %s
+stat(%s) failed: %m
+Search rule without a mailbox
+Namespace not found for %s
+%s: Error at line %u: %s
+%s: No mailboxes defined
+file %s: line %d (%s): assertion failed: (%s)
+Previous search rule is invalid: 
+bboxes[i]->search_args == NULL
+Virtual mailbox missing configuration file
+Multiple save mailboxes defined
+virtual_config_add_rule
+virtual_config_match
+vmail
+virtual index_mail
+2.0.15
+result != 0
+virtual-search.c
+file %s: line %d: unreached
+virtual_search_get_records
+.virtual-subscriptions
+Virtual mailbox loops: %s
+bbox->box == NULL
+virtual-storage.c
+<hidden>%c%s
+virtual storage
+virtual mailbox
+dovecot.index
+../../../src/lib/array.h
+%s (for backend mailbox %s)
+Virtual mailboxes have no GUIDs
+Can't update virtual mailboxes
+Can't create virtual mailboxes
+virtual mailbox %s: Skipping non-existing mailbox %s
+Virtual mailbox open failed because of mailbox %s: %s
+dest_array->element_size == src_array->element_size
+array_append_array_i
+virtual_backend_box_open
+ctx->backend_save_ctx == NULL
+virtual-save.c
+Can't save messages to this virtual mailbox
+idx * array->element_size < array->buffer->used
+virtual_save_alloc
+array_idx_i
+UID %u lost unexpectedly from %s
+virtual index %s: Failed to unlink() broken indexes: %m
+virtual index %s: Broken mailbox_count header
+virtual index %s: Broken mailbox id
+virtual index %s: Broken mailbox name_len
+virtual index %s: Broken mailbox list
+Backend mailbox added by another session. Reopen the virtual mailbox.
+Mailbox ID %u unexpectedly lost
+seq_range_count(&saved_uids) == count
+i == 0 || bboxes[i]->mailbox_id > bboxes[i-1]->mailbox_id
+rec_count >= uid_count
+virtual-sync.c
+src < rec_count
+uidmap[src].real_uid == uid
+dest < rec_count
+ctx->expunge_removed
+uidmap->virtual_uid == 0
+buf->used == name_pos
+array_idx_i
+virtual_sync_backend_box
+virtual_sync_mailbox_box_remove
+virtual_sync_mailbox_box_add
+array_append_array_i
+virtual_sync_backend_add_new
+virtual_sync_ext_header_rewrite
+;*3$"
+lib20_virtual_plugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

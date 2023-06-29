@@ -1,0 +1,358 @@
+/lib64/ld-linux-x86-64.so.2
+N,yJ
+libdovecot-login.so.0
+str_len
+str_truncate
+t_str_new
+t_pop_check
+o_stream_cork
+pool_datastack_create
+__gmon_start__
+_Jv_RegisterClasses
+buffer_create_dynamic
+p_strdup
+t_strcut
+t_strdup_printf
+t_push
+o_stream_nsend
+i_strdup
+t_strconcat
+buffer_append_c
+_ITM_deregisterTMCloneTable
+str_append_c
+_ITM_registerTMCloneTable
+auth_client_is_connected
+default_pool
+str_printfa
+base64_encode
+str_append
+t_strdup
+safe_memset
+i_stream_get_data
+str_c
+net_addr2ip
+i_stream_skip
+net_ip2addr
+auth_client_find_mech
+i_panic
+timeout_remove
+buffer_append
+io_add
+str_sanitize
+o_stream_uncork
+client_unref
+login_set_roots
+client_is_tls_enabled
+client_read
+login_setting_parser_info
+login_proxy_get_ssl_flags
+clients_destroy_all
+auth_client
+login_binary_run
+client_send_raw_data
+client_ref
+client_proxy_finish_destroy_client
+client_auth_begin
+client_log
+client_send_raw
+client_proxy_log_failure
+client_check_plaintext_auth
+client_auth_read_line
+client_proxy_failed
+client_cmd_starttls
+client_destroy
+client_log_err
+sasl_server_get_advertised_mechs
+client_notify_status
+login_proxy_starttls
+login_proxy_get_ostream
+client_get_session_id
+libdovecot.so.0
+str_array_icase_find
+imap_parser_unref
+base64_decode
+imap_parser_read_args
+imap_parser_read_word
+imap_arg_get_astring
+t_str_ucase
+imap_parser_create
+imap_arg_get_list
+imap_append_string
+imap_arg_get_string
+dsasl_client_new
+imap_parser_reset
+imap_url_create
+t_strsplit
+i_strdup_printf
+imap_arg_get_nstring
+dsasl_client_mech_get_name
+dsasl_client_output
+str_data
+imap_id_reply_generate
+dsasl_client_input
+imap_parser_get_error
+imap_id_args_get_log_reply
+i_strndup
+libc.so.6
+__stack_chk_fail
+strtol
+strlen
+strcasecmp
+strncasecmp
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/dovecot
+imap_proxy_error
+imap_proxy_reset
+_IO_stdin_used
+imap_login_service_settings
+imap_login_setting_roots
+client_skip_line
+client_send_reply
+client_send_reply_code
+imap_proxy_parse_line
+cmd_authenticate
+__data_start
+__libc_csu_init
+cmd_login
+imap_client_auth_result
+__libc_csu_fini
+client_authenticate_get_capabilities
+GLIBC_2.4
+GLIBC_2.2.5
+5zE 
+%|E 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+=$< 
+fffff.
+= ; 
+fff.
+fffff.
+fffff.
+[]A\A]A^A_
+ uFH
+ffff.
+ffff.
+ffff.
+fff.
+AWAVI
+AUATUSH
+D$X1
+D$XdH3
+h[]A\A]A^A_
+|$(L
+d$8L
+l$HH
+D$@H
+|$(H
+|$(H
+|$@H
+D$@H
+|$@L
+D$@H
+D$HH
+t$ H
+[]A\A]
+ffffff.
+ATUH
+[]A\
+AVAUATUS
+D$0H
+D$8H
+D$,H
+[]A\A]A^
+AUATI
+[]A\A]A^
+ATUH
+ []A\
+ATUH
+D$81
+D$ H
+t$ H
+T$(H
+L$8dH3
+@[]A\
+AWAVAUATUSH
+D$H1
+L$HdH3
+X[]A\A]A^A_
+ uME
+T$4H
+t$8H
+t$4H
+|$8L
+D$ D
+T$(L
+L$ D
+t$@H
+fffff.
+[]A\A]A^A_
+[%s] 
+ STARTTLS
+PLAIN
+required
+ LOGINDISABLED
+* OK 
+[CAPABILITY %s] 
+ALERT
+UNAVAILABLE
+client.c
+AUTHENTICATE
+Disconnected: 
+file %s: line %d: unreached
+LOGIN
+CAPABILITY
+* CAPABILITY 
+x-originating-ip
+x-originating-port
+x-connected-ip
+x-connected-port
+x-proxy-ttl
+x-session-id
+ID sent: %s
+* ID %s
+ID completed.
+NOOP
+NOOP completed.
+LOGOUT
+Logging out
+Logout completed.
+Aborted login
+ENABLE
+* ENABLED
+imap
+imap-login
+IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE
+Waiting for authentication process to respond..
+!client->common.authenticating
+file %s: line %d (%s): assertion failed: (%s)
+Pre-login capabilities listed, post-login capabilities have more.
+ENABLE ignored in non-authenticated state.
+First parameter in line is IMAP's command tag, not the command name. Add that before the command, like: a login user pass
+Too many invalid IMAP commands.
+Disconnected: Too many invalid commands
+Error in IMAP command received by server.
+client_handle_input
+%d%s
+AUTH=
+REFERRAL 
+AUTHORIZATIONFAILED
+PRIVACYREQUIRED
+AUTHENTICATIONFAILED
+name *
+imap_capability
+imap_id_send
+imap_id_log
+$default_login_user
+imaps
+C CAPABILITY
+L LOGIN 
+imap-proxy.c
+L AUTHENTICATE 
+!client->destroyed
+[CAPABILITY 
+client->common.proxy_ttl > 1
+SASL-IR
+S STARTTLS
+ret == 0
+S OK 
+L OK 
+* CAPABILITY %s
+NO [AUTHENTICATIONFAILED]
+Authentication failed.
+NO [
+* ID 
+client->common.proxy_sasl_client == NULL
+proxy: SASL mechanism %s init failed: %s
+proxy: Remote returned invalid banner: %s
+I ID ("x-session-id" "%s" "x-originating-ip" "%s" "x-originating-port" "%u" "x-connected-ip" "%s" "x-connected-port" "%u" "x-proxy-ttl" "%u")
+proxy: Remote doesn't support STARTTLS
+proxy: Server sent invalid base64 data in AUTHENTICATE response
+proxy: Server sent invalid authentication data: %s
+proxy: Remote STARTTLS failed: %s
+proxy: Unexpected input, ignoring: %s
+proxy_write_login
+proxy_write_id
+imap_proxy_parse_line
+;*3$"
+imap-login.debug
+7zXZ
+D[!4
+.Ao_s[
+7:jv
+1@Q<
+eZe%!IZ
+[XLF
+\SIN
+*esS
+~ZJy
+~K`e
+#N6h
+OUqK
+y`A\
+N8i*
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

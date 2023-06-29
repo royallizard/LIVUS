@@ -1,0 +1,286 @@
+/lib64/ld-linux-x86-64.so.2
+	" 	
+/qza
+libcrypt.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libgmodule-2.0.so.0
+g_strdup
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+g_string_new
+g_string_free
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+libdbmail.so.0
+do_forwards
+yes_to_all
+do_saction
+do_password
+SetTraceLevel
+do_empty
+do_show
+config_read
+auth_connect
+g_string_split
+config_get_file
+no_to_all
+strtomaxmail
+do_delete
+do_add
+db_connect
+do_clientid
+do_aliases
+GetDBParams
+mkpassword
+auth_disconnect
+verbose
+auth_getencryption
+do_spasswd
+reallyquiet
+auth_user_exists
+do_enable
+do_username
+configFile
+db_disconnect
+config_free
+g_list_destroy
+do_maxmail
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+fflush
+__printf_chk
+strncpy
+puts
+__stack_chk_fail
+putchar
+stdin
+strtol
+fgets
+openlog
+tcsetattr
+__fprintf_chk
+stdout
+strcasecmp
+optarg
+stderr
+optopt
+getopt_long
+strtoull
+fileno
+fwrite
+tcgetattr
+__cxa_finalize
+setvbuf
+opterr
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/dbmail
+__libc_csu_fini
+__data_start
+__libc_csu_init
+do_showhelp
+_IO_stdin_used
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+%z4 
+%r4 
+%j4 
+%b4 
+%Z4 
+%R4 
+%J4 
+AWAVA
+AUATI
+=lC 
+5JC 
+=13 
+D$HH
+D$@H
+D$XH
+D$PH
+t$0H
+DD$(H
+=#? 
+DD$ H
+dH34%(
+[]A\A]A^A_
+=[= 
+=O, 
+=a< 
+t$pH
+t$`H
+t$hH
+T$HH
+t$@H
+L$0H
+t$8H
+=39 
+D$xH
+L$0H
+=r8 
+=B8 
+=q7 
+=|7 
+t$PL
+L$PL
+D$pH
+L$xH
+L$XH
+T$PH
+t$`H
+=Y& 
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+*** dbmail-users ***
+Use this program to manage your DBMail users.
+See the man page for more info. Modes of operation:
+     -a user   add a user
+     -d user   delete a user
+     -c user   change details for a user
+     -e user   empty all mailboxes for a user
+     -l uspec  list information for matching users
+     -x alias  create an external forwarding address
+Summary of options for all modes:
+     -w passwd specify user's password on the command line
+     -W [file] read from a file or prompt for a user's password
+     -p pwtype password type may be one of the following:
+               plaintext, crypt, md5-hash, md5-digest, md5-base64,
+               whirlpool, sha512, sha256, sha1, tiger
+               each type may be given a '-raw' suffix to indicate
+               that the password argument has already been encoded.
+     -P [file] pull encrypted password from the shadow file
+     -u user   new username (only useful for -c, change)
+     -g client assign the user to a client
+     -m max    set the maximum mail quota in <bytes>B,
+               <kbytes>K, or <mbytes>M, default in bytes
+               specify 0 to remove any mail quota limits
+     -s alia.. adds a list of recipient aliases
+     -S alia.. removes a list of recipient aliases (wildcards supported)
+     -t fwds.. adds a list of deliver-to forwards
+     -T fwds.. removes a list of deliver-to forwards (wildcards supported)
+     --security-password  specify a separate security fall-back password
+     --security-action    select the security action value (default 0)
+     --enable             enable authentication for user
+     --disable            disable authentication for user
+Common options for all DBMail utilities:
+     -f file   specify an alternative config file
+     -q        quietly skip interactive prompts
+               use twice to suppress error messages
+     -n        show the intended action but do not perform it, no to all
+     -y        perform all proposed actions, as though yes to all
+     -v        verbose details
+     -V        show the version
+     -h        show this help message
+-a:d:c:e:l::x:W::w:P::p:u:g:m:t:s:S:T:if:qnyvVh
+Interactive console is not supported in this release.
+Use a security-action between 0 and 999
+dbmail-users: -f requires a filename
+Copyright (C) 1999-2004 IC & S, dbmail@ic-s.nl
+Copyright (C) 2001-2007 Aaron Stone, aaron@serendipity.cx
+Copyright (C) 2004-2013 NFG Net Facilities Group BV, support@nfg.nl
+Please see the AUTHORS and THANKS files for additional contributors.
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+Error:
+You cannot set the security-password and encryption-type at the same time,
+without setting the main password as well.
+Failed. Unable to read config file %s
+Failed. Could not connect to database (check log)
+Failed. Could not connect to authentication (check log)
+Error: user [%s] does not exist.
+Please enter a password (will not echo): 
+Error: unable to create a password.
+Error: unable to create a security password.
+Performing changes for user [%s]...
+/etc/shadow
+dbmail/user
+security-password
+security-action
+enable
+disable
+dbmail 3.2.3
+This is %s
+unrecognized option [%c]
+DBMAIL
+Command failed.
+;*3$"
+dbmail-users.debug
+7zXZ
+UH>~
+kjnL
+fUMqN
+EJ5"
+;zA)
+WgK`
+?E{fs
+|o~q
+/}V>z
+H(ybu
+kL`(n
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,238 @@
+tdPL
+/lib/ld-linux.so.2
+Tak	C
+libdovecot.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+io_add
+i_error
+str_printfa
+master_service_client_connection_accept
+str_append
+t_str_new
+str_len
+t_abspath
+i_stream_read
+str_append_tabescaped
+i_info
+net_getunixcred
+master_service_set_die_callback
+i_stream_destroy
+o_stream_destroy
+master_login_init
+net_disconnect
+master_service_init_log
+buffer_append
+master_service_get_name
+str_vprintfa
+auth_user_fields_parse
+buffer_create_dynamic
+i_fatal
+eacces_error_get
+master_login_deinit
+t_push
+t_pop_check
+net_getpeername
+i_strdup
+timeout_remove
+pool_datastack_create
+master_service_init_finish
+net_connect_unix_with_retries
+current_ioloop
+i_stream_create_fd
+o_stream_create_fd
+net_set_nonblock
+master_service_settings_read
+t_strconcat
+timeout_add
+master_service_settings_get_others
+str_c
+master_service
+master_service_client_connection_destroyed
+io_loop_set_running
+master_service_run
+default_pool
+master_service_deinit
+process_title_set
+fd_send
+o_stream_send_str
+master_service_init
+buffer_free
+io_loop_is_running
+str_data
+i_debug
+i_stream_next_line
+i_panic
+io_remove
+str_append_c
+master_login_add
+o_stream_send
+i_set_failure_prefix
+master_getopt
+libc.so.6
+_IO_stdin_used
+puts
+__errno_location
+strcasecmp
+getenv
+getlogin
+getuid
+__cxa_finalize
+strcmp
+__libc_start_main
+write
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+imap_urlauth_setting_parser_info
+client_destroy
+imap_urlauth_service_settings
+client_disconnect
+__data_start
+imap_urlauth_default_settings
+imap_urlauth_clients
+client_send_line
+__libc_csu_init
+_fp_hw
+clients_destroy_all
+client_create
+imap_urlauth_client_count
+verbose_proctitle
+imap_urlauth_refresh_proctitle
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+WVSQ
+RWPV
+Y[^_]
+t$4RP
+UWVS
+l$Xe
+D$,1
+D$,e3
+<[^_]
+UWVS
+4$Ph
+[^_]
+VPhs
+UWVS
+T$$1
+L$ QP
+,[^_]
+D$ P
+UWVS
+l$De
+,[^_]
+D$$P
+UWVS
+,[^_]
+[^_]
+D$ XZ
+UWVS
+[^_]
+t$,U
+[^_]
+DOVECOT_CHILD_PROCESS
+master_login != NULL
+imap-urlauth.c
+idling
+%u connections
+imap-urlauth: 
+auth-master
+USER
+USER environment missing
+Peer's credentials (uid=%ld) do not match the user that logged in (uid=%ld).
+file %s: line %d (%s): assertion failed: (%s)
+NO imap_urlauth binary must not be started from inetd, use imap-urlauth-login instead.
+Error reading configuration: %s
+client_connected
+/imap-urlauth-worker
+net_connect_unix
+imap-urlauth-client: %s
+fd_send(%s, %d) failed: %m
+Disconnected: %s
+submit+
+stream
+imap-urlauth-client.c
+Worker sent too large input
+Worker handshake failed
+ACCESS	
+	debug
+	apps=
+DISCONNECTED
+FINISHED
+Client disconnected
+file %s: line %d: unreached
+Worker finished successfully
+Connection closed
+%s: 
+Server shutting down.
+Connecting to worker socket %s
+imap-urlauth-client: net_connect_unix(%s) failed: %m
+fd_send(%s, %d) failed to send byte
+Error sending handshake to imap-urlauth worker: %m
+User %s has URLAUTH submit access
+User %s has URLAUTH stream access
+ret < 0 || (size_t)ret == str_len(str)
+Worker disconnected unexpectedly
+Failed to send ACCESS control command to worker
+Failed to negotiate access parameters
+Worker finished with unknown response
+Failed to connect to new worker
+client_send_line
+client_worker_input_line
+VERSION	imap-urlauth-worker	1	0
+/var/run/dovecot
+in=%i out=%o
+base_dir
+mail_debug
+verbose_proctitle
+imap_urlauth_logout_format
+imap_urlauth_submit_user
+imap_urlauth_stream_user
+imap
+$default_internal_user
+token-login/imap-urlauth
+;*2$"
+imap-urlauth.debug
+7zXZ
+FwSY
+QS%;
+Y|P7
+_iN*
+k+4C
+	!g2
+;aj#
+c4J\
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

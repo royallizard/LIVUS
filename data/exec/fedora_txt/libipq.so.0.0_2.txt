@@ -1,0 +1,92 @@
+7`DN
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ipq_create_handle
+malloc
+socket
+getpid
+bind
+free
+close
+ipq_destroy_handle
+ipq_set_mode
+sendto
+ipq_read
+recvfrom
+select
+__errno_location
+ipq_message_type
+ipq_get_msgerr
+ipq_get_packet
+ipq_set_verdict
+sendmsg
+ipq_ctl
+ipq_errstr
+ipq_errmap
+ipq_perror
+stderr
+fputs
+strerror
+__fprintf_chk
+fputc
+fwrite
+libc.so.6
+_edata
+__bss_start
+_end
+libipq.so.0
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+[^_]
+[^_]
+d$l[^_]
+ERROR
+: %s
+Unknown error
+Implementation error
+Unable to bind netlink socket
+Unable to allocate buffer
+Invalid peer address length
+Sent message truncated
+Received message truncated
+Received error from netlink
+Operation not supported
+Receive buffer size invalid
+Timeout
+Invalid protocol specified
+Unable to create netlink handle
+Unable to create netlink socket
+Failed to receive netlink message
+Received EOF on netlink socket
+Failed to send netlink message
+libipq.so.0.0.0.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

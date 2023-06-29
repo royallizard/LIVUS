@@ -1,0 +1,272 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+free
+strncmp
+strlen
+calloc
+memcpy
+__ctype_b_loc
+__strcat_chk
+__strdup
+__stack_chk_fail
+malloc
+memcmp
+stderr
+__fprintf_chk
+fputc
+strcat
+fwrite
+ao_initialize
+qsort
+opendir
+readdir
+__snprintf_chk
+__xstat
+strrchr
+dlopen
+dlsym
+closedir
+ao_append_option
+ao_append_global_option
+ao_free_options
+ao_shutdown
+dlclose
+ao_play
+realloc
+ao_close
+fclose
+ao_driver_id
+strcmp
+ao_default_driver_id
+ao_driver_info
+ao_driver_info_list
+ao_is_big_endian
+__errno_location
+ao_open_file
+stdout
+fopen
+ao_open_live
+fgets
+strchr
+getenv
+strncpy
+ftell
+fseek
+libpthread.so.0
+libdl.so.2
+libc.so.6
+libao.so.4
+LIBAO4_1.1.0
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+UWVS
+|$(t
+d$<[^_]
+d$,[^_]
+D$$e
+L$(1
+[^_]
+t$(1
+	D$,
+d$<[^_]
+D$#t#<,u
+[^_]
+UWVS
+T$4f
+|$ )
+;l$ t*
+d$L[^_]
+9D$(
+d$L[^_]
+D$,ub
+[^_]
+[^_]
+UWVS
+l$P;E 
+;|$(
+D$ 9D$$~
+9D$$
+;|$(
+d$<[^_]
+l$ 9l$$
+9|$$
+9T$$
+D$ 9D$$
+9D$$
+l$ 9l$$
+9|$$
+l$ 9l$$
+9|$$
+l$ 9l$$
+9|$$
+l$ 9l$$
+9|$$
+9T$$
+9T$$
+d$<1
+[^_]
+9T$$
+l$0u
+[^_]
+UWVS
+[^_]
+d$l[^_]
+9t$0
+p(9t$0
+MH91t 1
+9t$T
+p(;p$
+L$,9Q
+d$l[^_]
+t$01
+>-uL
+UWVS
+[^_]
+|$4e
+L,R,
+C,LF
+E,BL
+,BR,
+CL,C
+R,BC
+,SL,f
+UWVS
+D$l1
+T$(1
+RIFFf
+WAVE
+fmt 
+F0data
+T$le3
+d$|[^_]
+|$(e
+|$De
+D$,1
+dns.
+T$,e3
+d$0[^_
+" in channel matrix "%s"
+matrix
+debug
+verbose
+quiet
+ao_plugin_test() missing
+ao_plugin_open() missing
+ao_plugin_play() missing
+ao_plugin_close() missing
+ao_plugin_clear() missing
+/usr/lib/ao/plugins-4
+%s/%s
+ao_plugin_test
+ao_plugin_driver_info
+ao_plugin_device_init
+ao_plugin_set_option
+ao_plugin_open
+ao_plugin_play
+ao_plugin_close
+ao_plugin_device_clear
+debug: Loaded driver %s
+ao_%s debug: ...testing %s
+debug: OK, using driver %s
+debug: swap buffer required:
+ao_%s ERROR: Unrecognized channel name "
+ERROR: Unrecognized channel name "
+ao_%s ERROR: Empty or inavlid output matrix
+ERROR: Empty or inavlid output matrix
+ao_%s debug: Sanitized device output matrix: %s
+debug: Sanitized device output matrix: %s
+ao_plugin_driver_info() missing
+ao_plugin_device_list() missing
+ao_plugin_set_option() missing
+ao_%s debug: Loaded driver %s (built-in)
+debug: Loaded driver %s (built-in)
+ao_%s debug: Loading driver plugins from %s...
+debug: Loading driver plugins from %s...
+ao_%s debug: Loaded driver %s
+ao_%s ERROR: Failed to load plugin %s => %s
+ERROR: Failed to load plugin %s => %s
+ao_%s debug: Testing drivers to find playback default...
+debug: Testing drivers to find playback default...
+ao_%s debug: OK, using driver %s
+ao_%s WARNING: Input channel matrix invalid; ignoring.
+WARNING: Input channel matrix invalid; ignoring.
+ao_%s ERROR: Unable to map any channels from input matrix to output
+ERROR: Unable to map any channels from input matrix to output
+ao_%s ERROR: Driver backend failed to set output ordering.
+ERROR: Driver backend failed to set output ordering.
+ao_%s WARNING: Driver %s does not support automatic channel mapping;
+	Routing only L/R channels to output.
+WARNING: Driver %s does not support automatic channel mapping;
+	Routing only L/R channels to output.
+ao_%s debug: input %d (%s)	 -> backend %d (%s)
+debug: input %d (%s)	 -> backend %d (%s)
+ao_%s debug:              	    backend %d (%s)
+debug:              	    backend %d (%s)
+ao_%s debug: input %d (%s)	 -> none
+debug: input %d (%s)	 -> none
+ao_%s WARNING: Some input channels are unmapped and will not be used.
+WARNING: Some input channels are unmapped and will not be used.
+ao_%s debug: swap buffer required:
+ao_%s debug:   machine endianness: %d
+debug:   machine endianness: %d
+ao_%s debug:   device->client_byte_format:%d
+debug:   device->client_byte_format:%d
+ao_%s debug:   device->driver_byte_format:%d
+debug:   device->driver_byte_format:%d
+default_driver=
+HOME
+/etc/libao.conf
+/.libao
+ao_%s debug: %ld bytes sent to null device.
+debug: %ld bytes sent to null device.
+Stan Seibert <volsung@asu.edu>
+Null output
+null
+This driver does nothing.
+WAV file output
+Sends output to a .wav file
+Aaron Holtzman <aholtzma@ess.engr.uvic.ca>
+AU file output
+Wil Mahan <wtm2@duke.edu>
+Sends output to a .au file
+byteorder
+native
+little
+RAW sample output
+Stan Seibert <indigo@aztec.asu.edu>
+Writes raw audio samples to a file
+;*2$"
+libao.so.4.0.0.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.gnu.version_d
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

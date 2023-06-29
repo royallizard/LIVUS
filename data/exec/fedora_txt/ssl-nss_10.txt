@@ -1,0 +1,180 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+purple_init_plugin
+purple_plugin_register
+purple_ssl_get_ops
+purple_certificate_unregister_scheme
+purple_ssl_set_ops
+g_return_if_fail_warning
+CERT_GetCertTimes
+CERT_VerifyCertName
+purple_debug_error
+g_strdup
+CERT_GetCommonName
+PORT_Free
+g_byte_array_sized_new
+PK11_HashBuf
+g_byte_array_free
+strcmp
+PR_Now
+CERT_VerifySignedData
+CERT_DestroyCertificate
+g_free
+g_malloc0
+CERT_DupCertificate
+purple_debug_info
+SEC_SignedCertificateTemplate
+SEC_ASN1EncodeItem
+NSSBase64_EncodeItem
+SECITEM_FreeItem
+g_strdup_printf
+purple_util_write_data_to_file_absolute
+g_file_get_contents
+CERT_DecodeCertFromPackage
+__errno_location
+PR_Write
+PR_GetError
+PR_Read
+PR_Close
+purple_input_remove
+purple_ssl_close
+PR_GetErrorTextLength
+g_malloc
+PR_GetErrorText
+SSL_ForceHandshake
+SSL_PeerCertificate
+g_list_append
+CERT_FindCertIssuer
+purple_certificate_verify
+purple_certificate_destroy_list
+PR_ImportTCPSocket
+PR_SetSocketOption
+SSL_ImportFD
+SSL_OptionSet
+CERT_GetDefaultCertDB
+SSL_AuthCertificateHook
+SSL_SetURL
+SSL_ResetHandshake
+purple_input_add
+purple_debug_warning
+PR_Cleanup
+PR_Init
+NSS_NoDB_Init
+SECMOD_AddNewModule
+NSS_SetDomesticPolicy
+SSL_CipherPrefSetDefault
+PR_GetUniqueIdentity
+PR_GetDefaultIOMethods
+purple_certificate_register_scheme
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+libdl.so.2
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+ssl-nss.so
+NSS_3.4
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.4
+NSS_3.3
+NSS_3.2
+<[^_]
+ [^]
+98tI
+<[^_]
+,[^_]
+ [^]
+l[^_]
+[^_]
+ [^]
+ ^_]
+uM9u
+crt->scheme == &x509_nss
+crt_dat
+nss/x509
+Error: hashing failed!
+issuerCert
+subjectCert
+Exporting certificate to %s
+filename
+dercrt != NULL
+b64crt
+Loading certificate from %s
+Handshake failed %s (%d)
+could not DupCertificate
+(null)
+subject=%s issuer=%s
+partial certificate chain
+nss_data->fd == NULL!
+nss_data->in == NUL!
+Builtins
+Purple
+ssl-nss
+2.5.5-1.fc11
+http://pidgin.im/
+X.509 Certificates
+SECSuccess == CERT_GetCertTimes(crt_dat, &nss_activ, &nss_expir)
+x509_check_name fell through where it shouldn't have.
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+Unable to read certificate file.
+unable to set socket into non-blocking mode: %s (%d)
+/usr/lib/libpurple/libnssckbi.so
+Provides SSL support through Mozilla NSS.
+Christian Hammond <chipx86@gnupdate.org>
+x509_times
+x509_check_name
+x509_common_name
+x509_issuer_dn
+x509_dn
+x509_sha1sum
+x509_signed_by
+x509_destroy_certificate
+x509_copy_certificate
+x509_export_certificate
+x509_import_from_file
+ssl-nss.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

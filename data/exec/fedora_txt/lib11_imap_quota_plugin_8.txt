@@ -1,0 +1,103 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+imap_quota_plugin_deinit
+command_unregister
+imap_quota_plugin_init
+command_register
+capability_string
+str_append
+client_read_args
+imap_arg_string
+client_send_command_error
+quota_set
+quota_root_lookup
+is_numeric
+imap_arg_str_error
+strtoull
+quota_set_resource
+client_send_tagline
+i_panic
+imap_arg_list_error
+t_str_new
+quota_root_get_name
+imap_quote_append
+quota_root_get_resources
+str_printfa
+quota_get_resource
+client_send_line
+str_append_c
+str_c
+client_read_string_args
+client_find_storage
+mailbox_open
+quota_root_iter_init
+quota_root_iter_next
+quota_root_iter_deinit
+mailbox_close
+client_send_storage_error
+imap_quota_plugin_version
+libc.so.6
+_edata
+__bss_start
+_end
+lib11_imap_quota_plugin.so
+GLIBC_2.2.5
+ATSubH
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+AUATI
+[]A\A]A^
+[]A\A]
+GETQUOTAROOT
+GETQUOTA
+SETQUOTA
+ QUOTA
+Invalid arguments.
+OK No quota.
+NO Quota root doesn't exist.
+../../../src/lib/array.h
+OK Setquota completed.
+* QUOTA 
+%s %llu %llu
+OK Getquota completed.
+* QUOTAROOT 
+OK Getquotaroot completed.
+1.1.6
+idx * array->element_size < array->buffer->used
+file %s: line %d (%s): assertion failed: (%s)
+* BAD Internal quota calculation error
+array_idx_i
+lib11_imap_quota_plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

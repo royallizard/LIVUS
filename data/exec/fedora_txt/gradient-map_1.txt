@@ -1,0 +1,119 @@
+/lib64/ld-linux-x86-64.so.2
+libgimp-2.0.so.0
+g_malloc
+_ITM_deregisterTMCloneTable
+g_free
+gimp_rgb_luminance_uchar
+__gmon_start__
+_Jv_RegisterClasses
+gimp_rgb_get_uchar
+_ITM_registerTMCloneTable
+gimp_locale_directory
+gimp_rgn_iterate2
+gimp_progress_init
+gimp_drawable_get
+gimp_drawable_is_gray
+gimp_context_get_gradient
+gimp_gradient_get_uniform_samples
+gimp_context_get_palette
+gimp_drawable_bpp
+gimp_palette_entry_get_color
+gimp_drawable_detach
+gimp_install_procedure
+gimp_drawable_is_rgb
+gimp_plugin_menu_register
+gimp_palette_get_info
+gimp_main
+gimp_displays_flush
+gimp_drawable_has_alpha
+libgimpmath-2.0.so.0
+libm.so.6
+libgimpconfig-2.0.so.0
+libgimpcolor-2.0.so.0
+libgimpbase-2.0.so.0
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+dcgettext
+bind_textdomain_codeset
+__cxa_finalize
+bindtextdomain
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+fffff.
+l$(H
+l$(H
+fffff.
+AWAVAUM
+x[]A\A]A^A_
+t$$H
+<$Hc
+t$$H
+HcD$
+|$PH
+T$PL
+D$(H
+L$$1
+t$0H
+L$0H
+l$ L
+t$(L
+|$0H
+1997
+Eiichi Takamori
+plug-in-gradmap
+RGB*, GRAY*
+_Gradient Map
+<Image>/Colors/Map
+2004
+Bill Skaggs
+plug-in-palettemap
+_Palette Map
+gimp20-std-plug-ins
+UTF-8
+run-mode
+image
+Input image (unused)
+Input drawable
+This plug-in maps the contents of the specified drawable with active gradient. It calculates luminosity of each pixel and replaces the pixel by the sample of active gradient at the position proportional to that luminosity. Complete black pixel becomes the leftmost color of the gradient, and complete white becomes the rightmost. Works on both Grayscale and RGB image with/without alpha channel.
+Recolor the image using colors from the active gradient
+This plug-in maps the contents of the specified drawable with the active palette. It calculates luminosity of each pixel and replaces the pixel by the palette sample  at the corresponding index. A complete black pixel becomes the lowest palette entry, and complete white becomes the highest. Works on both Grayscale and RGB image with/without alpha channel.
+Recolor the image using colors from the active palette
+The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }
+;*3$"
+gradient-map.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array

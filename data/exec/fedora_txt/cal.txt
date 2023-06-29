@@ -1,0 +1,449 @@
+/lib/ld-linux.so.2
+libtinfo.so.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_init
+tigetstr
+_fini
+setupterm
+putp
+tigetnum
+libncursesw.so.5
+libc.so.6
+_IO_stdin_used
+__rawmemchr
+__printf_chk
+setlocale
+mbrtowc
+strncmp
+optind
+strrchr
+__strdup
+dcgettext
+closedir
+strncpy
+mbstowcs
+warnx
+iswprint
+realloc
+abort
+_exit
+getpid
+strspn
+strtod
+__ctype_get_mb_cur_max
+strtol
+isatty
+feof
+fgetc
+fgets
+calloc
+strlen
+memset
+localeconv
+warn
+strcspn
+__errno_location
+mempcpy
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+strcasecmp
+__strndup
+nl_langinfo
+opendir
+__ctype_b_loc
+getenv
+sscanf
+optarg
+stderr
+wcwidth
+__snprintf_chk
+getopt_long
+fwrite
+__fpending
+localtime
+strchr
+__vfprintf_chk
+program_invocation_short_name
+readdir64
+qsort
+wcstombs
+__cxa_finalize
+__sprintf_chk
+errx
+fopen64
+bindtextdomain
+strcmp
+__strtoull_internal
+__asprintf_chk
+__libc_start_main
+ferror
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+D$L1
+|$Le3=
+[^_]
+D$8k
+D$8k
+;D$8|
+9D$<
+d$,[^_]
+L$,f
+[^_]
+UWVS
+|$t9|$x
+D$8=
+t$P1
+|$0	u
+9|$D
+D$4;t
+T$<9
+D$4;t
+9|$<tm
+~J;D$0
+D$t9D$x
+[^_]
+UWVS
+8 tH
+[^_]
+UWVS
+T$de
+D$<1
+D$41
+|$<e3=
+d$L[^_]
+UWVS
+D$<e
+D$L1
+9l$ u
+L$Le3
+d$\[^_]
+[^_]
+UWVS
+D$ 1
+T$ )
+d$<[^_]
+D$\1
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+\$,ta
+wP<+t<
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+D$,1
+L$,e3
+d$0[^_
+UWVS
+d$,[^_]
+|$Pe
+;l$,
+T$,)
+l$<)
+L$X9
+[^_]
+9D$L
+l$<)
+UWVS
+T$0t
+[^_]
+d$([
+D$,9|$(r
+;t$(
+d$<[^_]
+d$<[^_]
+d$([
+d$([
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+d$,1
+[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+Options:
+colors are enabled by default
+                         %s
+For more details see %s.
+cal(1)
+%s %d
+%*s%s
+%s%2d%s
+%*s%s%*d%s
+write error
+/usr/share/locale
+util-linux
+TERM
+rmso
+invalid month argument
+invalid week argument
+illegal week value: use 1-54
+unsupported color mode
+%s from %s
+util-linux 2.27
+13mjn:sywYVh
+illegal day value
+illegal day value: use 1-%d
+illegal month value: use 1-12
+illegal year value
+smso
+ -%c
+ --%s
+three
+sunday
+monday
+julian
+months
+year
+week
+color
+version
+twelve
+help
+ %s [options] [[[day] month] year]
+Display a calendar, or some part of it.
+Without any arguments, display the current month.
+ -1, --one             show only a single month (default)
+ -3, --three           show three months spanning the date
+ -n, --months <num>    show num months starting with date's month
+ -s, --sunday          Sunday as first day of week
+ -m, --monday          Monday as first day of week
+ -j, --julian          output Julian dates
+ -y, --year            show the whole year
+ -Y, --twelve          show the next twelve months
+ -w, --week[=<num>]    show US or ISO-8601 week numbers
+     --color[=<when>]  colorize messages (auto, always or never)
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+%s: these options are mutually exclusive:
+illegal year value: use positive integer
+illegal week value: year %d doesn't have week %d
+\x%02x
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+$tICONF
+termcolors
+%d: %s: %8s: 
+terminal is NOT ready
+SCHEME
+free scheme
+disable
+enable
+reading dir: '%s'
+unknown type '%s'
+setting '%s' from %d -to-> %d
+%s/%s
+XDG_CONFIG_HOME
+%s/terminal-colors.d
+%s/.config/terminal-colors.d
+/etc/terminal-colors.d
+reading file '%s'
+%128[^ ] %128[^
+add '%s'
+[%sm
+unknown logical name: %s
+sort scheme
+search '%s'
+undefined
+auto
+never
+always
+TERMINAL_COLORS_DEBUG
+Colors:
+	utilname = '%s'
+	termname = '%s'
+	scheme file = '%s'
+	mode = %s
+	has_colors = %d
+	disabled = %d
+	configured = %d
+	cs configured = %d
+	score %s = %d
+	scheme #%02zu 
+terminal is ready (supports %d colors)
+item '%s': score=%d [cur: %d, name(%zu): %s, term(%zu): %s]
+black
+[30m
+[34m
+brown
+[33m
+[36m
+darkgray
+[1;30m
+[37m
+[32m
+lightblue
+[1;34m
+lightcyan
+[1;36m
+lightgray,
+lightgreen
+[1;32m
+lightmagenta
+[1;35m
+lightred
+[1;31m
+[35m
+[31m
+yellow
+[1;33m
+;*2$"T
+cal.debug
+7zXZ
+k>HJ
+ZD<R
+ip h
+9mh7
+p{_,
+<\bA
+GM6(
+8Z2,
+UD@^
+3~K\
+n+U/
+`8ie
+&JZacQ
+c4eg%9
+(9hv?
+|9>I
+"(C`
+9sv7
+#M:\
+pWM3?Q
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

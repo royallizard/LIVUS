@@ -1,0 +1,128 @@
+tdTJ
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+xtables_option_parse
+puts
+__printf_chk
+xtables_ip6mask_to_cidr
+xtables_ip6addr_to_numeric
+libip6t_srh_init
+xtables_register_matches
+libxtables.so.12
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.0
+GLIBC_2.1.3
+ [^_
+ [^_
+ [^_
+srh match options:
+[!] --srh-next-hdr		next-hdr        Next Header value of SRH
+[!] --srh-hdr-len-eq		hdr_len         Hdr Ext Len value of SRH
+[!] --srh-hdr-len-gt		hdr_len         Hdr Ext Len value of SRH
+[!] --srh-hdr-len-lt		hdr_len         Hdr Ext Len value of SRH
+[!] --srh-segs-left-eq		segs_left       Segments Left value of SRH
+[!] --srh-segs-left-gt		segs_left       Segments Left value of SRH
+[!] --srh-segs-left-lt		segs_left       Segments Left value of SRH
+[!] --srh-last-entry-eq 	last_entry      Last Entry value of SRH
+[!] --srh-last-entry-gt 	last_entry      Last Entry value of SRH
+[!] --srh-last-entry-lt 	last_entry      Last Entry value of SRH
+[!] --srh-tag			tag             Tag value of SRH
+[!] --srh-psid			addr[/mask]	SRH previous SID
+[!] --srh-nsid			addr[/mask]	SRH next SID
+[!] --srh-lsid			addr[/mask]	SRH Last SID
+ srh
+ next-hdr:%s%d
+ hdr-len-eq:%s%d
+ hdr-len-gt:%s%d
+ hdr-len-lt:%s%d
+ segs-left-eq:%s%d
+ segs-left-gt:%s%d
+ segs-left-lt:%s%d
+ last-entry-eq:%s%d
+ last-entry-gt:%s%d
+ last-entry-lt:%s%d
+ tag:%s%d
+%s --srh-next-hdr %u
+%s --srh-hdr-len-eq %u
+%s --srh-hdr-len-gt %u
+%s --srh-hdr-len-lt %u
+%s --srh-segs-left-eq %u
+%s --srh-segs-left-gt %u
+%s --srh-segs-left-lt %u
+%s --srh-last-entry-eq %u
+%s --srh-last-entry-gt %u
+%s --srh-last-entry-lt %u
+%s --srh-tag %u
+%s --srh-psid %s/%u
+%s --srh-nsid %s/%u
+%s --srh-lsid %s/%u
+ psid %s %s/%u
+ nsid %s %s/%u
+ lsid %s %s/%u
+libxtables.so.12
+srh-next-hdr
+srh-hdr-len-eq
+srh-hdr-len-gt
+srh-hdr-len-lt
+srh-segs-left-eq
+srh-segs-left-gt
+srh-segs-left-lt
+srh-last-entry-eq
+srh-last-entry-gt
+srh-last-entry-lt
+srh-tag
+srh-psid
+srh-nsid
+srh-lsid
+;*2$"
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+libip6t_srh.so-1.8.0-3.fc29.i386.debug
+7zXZ
+@@<-
+n[-I^
+ti0#Y
+C-`]
+K0bZYc
+U(7J
+Mk2!
+#!8a5+
+#nSi
+yJ~#<
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

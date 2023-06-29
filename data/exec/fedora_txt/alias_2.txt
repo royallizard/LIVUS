@@ -1,0 +1,319 @@
+H DE
+r8@v}
+R(e0}
+|xvG>
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+alias_completion_cb
+alias_list
+weechat_alias_plugin
+alias_valid
+alias_search
+alias_value_completion_cb
+strchr
+__strdup
+alias_string_add_word
+strlen
+realloc
+strcat
+malloc
+strcpy
+alias_string_add_word_range
+alias_string_add_arguments
+alias_replace_args
+alias_run_command
+alias_cb
+strcmp
+stpcpy
+alias_free
+last_alias
+unalias_command_cb
+alias_config_file
+alias_config_section_cmd
+alias_config_section_completion
+alias_free_all
+alias_find_pos
+alias_hook_command
+__snprintf_chk
+alias_update_completion
+alias_new
+alias_config_cmd_new_option
+alias_config_completion_new_option
+alias_get_final_command
+alias_add_to_infolist
+weechat_plugin_init
+alias_config_init
+alias_config_read
+alias_info_init
+weechat_plugin_end
+alias_config_write
+weechat_plugin_license
+weechat_plugin_version
+weechat_plugin_author
+weechat_plugin_description
+weechat_plugin_api_version
+weechat_plugin_name
+alias_config_cmd_write_default_cb
+alias_default_list
+alias_config_completion_delete_cb
+alias_config_completion_change_cb
+alias_config_cmd_delete_cb
+alias_config_cmd_change_cb
+alias_config_reload
+alias_config_cmd_create_option_cb
+alias_config_completion_create_option_cb
+alias_info_get_infolist_cb
+libc.so.6
+_edata
+__bss_start
+alias.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+="E 
+=:> 
+fffff.
+ffff.
+%C? 
+[]A\
+[]A\
+t$ H
+AUATUSH
+[]A\A]A^A_
+ffffff.
+AVAUI
+ATUSH
+%G< 
+$t[H
+D;<$
+[]A\A]A^A_
+ffffff.
+t$ H
+AWAVAUATUSH
+|$(H
+-b8 
+T$(M
+D$0t@H
+D$(E1
+D$0H
+T$(I
+[]A\A]A^A_
+|$8L
+|$8H
+fffff.
+-:5 
+ffff.
+AUATUH
+[]A\A]A^A_
+fff.
+[]A\
+[]A\
+l$(H
+d$0H
+\$ L
+l$8L
+t$@H
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+AUATUSH
+-r0 
+[]A\A]
+]A\A]
+[]A\A]
+ffffff.
+AWAVAUATUSH
+[]A\A]A^A_
+l$ L
+d$(L
+l$0H
+l$ H
+d$(L
+l$0H
+ffffff.
+%t) 
+[]A\
+[]A\
+-&& 
+ffff.
+l$ H
+ffff.
+fffff.
+=\# 
+L$HH
+5S# 
+L$8H
+ffffff.
+d$ L
+l$(L
+t$0H
+%_" 
+ffff.
+L$HH
+L$8H
+ffffff.
+l$ L
+d$(L
+l$0H
+-3  
+T$ H
+T$ H
+[]A\
+[]A\
+ffffff.
+l$ H
+fff.
+sort
+args
+beginning
+error
+%sAlias "%s" not found
+Alias "%s" removed
+%%%%%s
+-completion
+Alias "%s" => "%s" created
+No alias found matching "%s"
+List of aliases:
+chat_delimiters
+  %s %s=>%s %s
+No alias defined
+hook
+name
+running
+create an alias for a command
+%(alias)|%*
+<alias> [<alias>...]
+remove aliases
+unalias
+list of aliases
+value of alias
+alias_value
+%s%s: error, circular reference when calling alias "%s"
+%s%s: error creating alias "%s" => "%s"
+%s%s: error creating configuration file
+%(alias)|-completion %(commands)|%(alias_value)
+completion: completion for alias (optional, by default completion is done with target command)
+            note: you can use %%command to use completion of an existing command
+     alias: name of alias (can start or end with "*" for alias listing)
+   command: command name with arguments (many commands can be separated by semicolons)
+Without argument, this command lists all defined alias.
+Note: in command, special variables are replaced:
+        $n: argument 'n' (between 1 and 9)
+       $-m: arguments from 1 to 'm'
+       $n-: arguments from 'n' to last
+      $n-m: arguments from 'n' to 'm'
+        $*: all arguments
+        $~: last argument
+     $nick: current nick
+  $channel: current channel
+   $server: current server
+To remove an alias, use command /unalias.
+Examples:
+  alias /split to split window horizontally:
+    /alias split /window splith
+  alias /hello to say "hello" on all channels but not on #weechat:
+    /alias hello /allchan -exclude=#weechat msg * hello
+  alias /forcejoin to send IRC command "forcejoin" with completion of /sajoin:
+    /alias -completion %%sajoin forcejoin /quote forcejoin
+[-completion <completion>] <alias> [<command> [;<command>...]]
+alias: name of alias to remove
+string
+AAWAY
+allserv /away
+allchan /me
+AMSG
+allchan /msg *
+ANICK
+allserv /nick
+quit
+buffer clear
+CLOSE
+buffer close
+CHAT
+dcc chat
+EXIT
+ignore
+join
+kick
+kickban
+LEAVE
+part
+unban *
+names
+query
+REDRAW
+window refresh
+SIGNOFF
+topic
+unban
+UMODE
+mode $nick
+command core version
+window merge
+whois
+whois $1 $1
+whowas
+%s%s: error creating completion for alias "%s": alias not found
+alias pointer (optional)
+alias name (can start or end with "*" as wildcard) (optional)
+;*3$"
+GPL3
+0.3.9.2
+Sebastien Helleu <flashcode@flashtux.org>
+Alias commands
+20120827-01
+alias
+alias.so.debug
+7zXZ
+veC?
+r,ZH
++x=~
+k@	JP
+n]fIRGu
+GC-'
+\|C|
+ YSdW
+i%J?f
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,345 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+chronoref_type
+object_register_type
+chronoline_type
+g_module_check_init
+dia_plugin_check_version
+object_load_using_properties
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+element_update_handles
+distance_rectangle_point
+dia_font_ascent
+g_snprintf
+__stack_chk_fail
+dia_font_unref
+connpointline_destroy
+element_destroy
+dia_font_string_width
+ceil
+element_update_boundingbox
+connpointline_adjust_count
+connpointline_update
+connpointline_putonaline
+g_malloc0
+connpointline_create
+element_init
+dia_font_new_from_style
+color_black
+element_move_handle
+g_assert_warning
+object_set_props_from_offsets
+object_copy_using_properties
+object_create_props_dialog
+object_apply_props_from_dialog
+prop_std_line_width_data
+prop_std_text_height_data
+object_save_using_properties
+color_white
+g_free
+destroy_clevent_list
+reparse_clevent
+g_strdup
+destroy_cle
+g_slist_foreach
+g_slist_free
+g_slist_insert_sorted
+g_utf8_skip
+g_utf8_get_char
+message_warning
+strtod
+libpng12.so.0
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libchronogram_objects.so
+GLIBC_2.4
+GLIBC_2.2.5
+%z6 
+%r6 
+%j6 
+%b6 
+%Z6 
+%R6 
+%J6 
+%B6 
+%:6 
+%26 
+%*6 
+%"6 
+=hS 
+ATSubH
+=w1 
+=_1 
+fff.
+AWAVAUATUH
+D$XH
+L$XH
+L$HA
+D$`f
+D$PL
+D$`H
+D$PL
+D$`f
+D$`f
+D$pL
+D$ H
+D$@H
+D$PH
+D$@H
+|$ L
+T$(H
+t$ H
+D$`f
+D$0L
+D$PH
+D$`H
+D$XH
+D$hA
+[]A\A]A^A_
+D$PL
+D$`H
+ffffff.
+\$pL
+YD$0
+L$8H
+D$@H
+T$PH
+t$`H
+D$hH
+D$HH
+[]A\
+l$ L
+t$(H
+|$0H
+5%* 
+T$(td
+\$HH
+l$PL
+d$XL
+l$`H
+\$(u
+T$ H
+T$0L
+ffff.
+fff.
+x0tfH
+tQE1
+D;@(
+333333
+[A\A]A^
+AWAVI
+AUATUH
+L$@1
+D$8H
+t$0L
+.D$Xr
+L$Pf
+t$0L
+D$(H
+L$(H
+T$ H
+.D$pr
+L$hf
+T$ H
+L$(H
+D$@1
+D$@L
+L$@H
+D$@H
+[]A\A]A^A_
+fff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUATI
+\$xH
+D$0H
+3\$x
+3\$xH
+D$8;
+L$@H
+D$0f
+D$Hf
+L$Pf
+.D$(s
+XL$(
+L$PH
+L$pH
+D$xH
+d$hH
+D$ H
+D$xH
+D$`H
+T$@H
+L$8H
+[]A\A]A^A_
+t$hL
+D$pM9
+D$ H
+T$@H
+T$pH
+t$xH
+D$HL
+Chronogram diagram objects
+Chronogram
+%%.%df
+chronoref!=NULL
+chronoref.c
+handle!=NULL
+to!=NULL
+chronogram - reference
+obj_pos
+point
+obj_bb
+rect
+elem_corner
+elem_width
+real
+elem_height
+mcol_std
+nb_begin
+mcol_col_time
+mc_col
+frame_time
+f_begin
+start_time
+end_time
+time_step
+time_lstep
+frame_time_end
+f_end
+mcol_col_aspect
+frame_aspect
+colour
+main_lwidth
+light_lwidth
+font
+font_size
+font_color
+frame_aspect_end
+mcol_std_end
+nb_end
+Object position
+Where the object is located
+Object bounding box
+Element corner
+The corner of the element
+Element width
+The width of the element
+Element height
+The height of the element
+mc_begin
+Time data
+Start time
+End time
+Major time step
+Minor time step
+Aspect
+Line color
+Line width
+Minor step line width
+Font
+Font size
+Text color
+mc_end
+22 22 2 1
+ 	c None
+.	c #000000
+                      
+ .................... 
+ .  .  .  .  .  .  .  
+ .              .     
+. .            ..     
+. .             .     
+The bounding box of the object
+chronoref_move_handle
+i < chronoline->snap->num_connections
+@ time    set the pointer at an absolute time.
+( duration  sets the signal up, then wait 'duration'.
+) duration  sets the signal down, then wait 'duration'.
+u duration  sets the signal to "unknown" state, then wait 'duration'.
+example : @ 1.0 (2.0)1.0(2.0)
+chronoline.c
+chronoline!=NULL
+chronoline != NULL
+chronogram - line
+nbook_std
+nbook_page_data
+nb_page
+events
+multistring
+help
+static
+nbook_page_parameters
+rise_time
+fall_time
+multibit
+bool
+nbook_page_aspect
+data_color
+data_lwidth
+nbook_std_end
+Data
+Data name
+Events
+Event specification
+Parameters
+Rise time
+Fall time
+Multi-bit data
+Data color
+Data line width
+22 22 4 1
+.	c #FF0000
++	c #FF8080
+@	c #000000
+ ....    ....   ....  
+ .++.    .++.   .++.  
+ @@@@@@@@@@@@@@@@@@@@ 
+chronoline_move_handle
+chronoline_draw
+chronoline_draw_really
+chronoline_update_data
+chronoline_event.c
+z>Syntax error in event string; waiting one of "()@u". string=%s
+Syntax error in event string; waiting a floating point value. string=%s
+add_event
+compare_cle
+libchronogram_objects.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,249 @@
+yk.7
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_source_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+babl_format
+gegl_operation_set_format
+rgbe_load_path
+rgbe_get_size
+rgbe_file_free
+g_free
+rgbe_read_scanlines
+gegl_buffer_set
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_extension_handler_register
+gegl_param_spec_file_path
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+g_value_set_string
+g_value_get_string
+g_strdup
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+g_return_if_fail_warning
+ldexp
+g_mapped_file_get_contents
+g_mapped_file_get_length
+strlen
+g_str_has_suffix
+fwrite
+g_mapped_file_unref
+rgbe_save_path
+fopen
+g_strconcat
+fclose
+stdout
+g_ascii_dtostr
+g_malloc
+__snprintf_chk
+frexp
+g_warn_message
+g_mapped_file_new
+g_str_has_prefix
+__errno_location
+g_ascii_strtod
+g_strstr_len
+__strncpy_chk
+g_ascii_strtoull
+g_malloc_n
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+rgbe-load.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%z. 
+%r. 
+%j. 
+%b. 
+%Z. 
+%R. 
+%J. 
+%B. 
+%:. 
+%2. 
+%*. 
+%". 
+%z- 
+%r- 
+%j- 
+%b- 
+=8- 
+ATSubH
+=X+ 
+=7) 
+[A\]
+fffff.
+|$Pf
+D$0(
+D$ H
+D$81
+T$PH
+T$PE1
+fff.
+T$0H
+t$ H
+l$0H
+\$@H
+l$HL
+d$PH
+$A9D$
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+A9D$
+[]A\
+=[( 
+G toH
+\$ H
+l$(L
+d$0H
+\$ H
+l$(L
+d$0H
+_ tvH
+t$(H
+\$0H
+l$8L
+d$@H
+YKDf
+ffffff.
+ffffff.
+AWAVAUA
+u_E1
+[]A\A]A^A_
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+L3HI
+<$< 
+<$< 
+AWAVAUATUH
+D$@I
+H;t$
+>J9D| t!L
+t.E1
+D9t$
+E`D9
+[]A\A]A^A_
+d$ H
+D$(I
+D$0I
+t$ H
+GeglChantrgbe-load.c
+RGBA float
+output
+gegl:rgbe-load
+hidden
+gegl-0.1
+.hdr
+.pic
+Path of file to load.
+File
+path
+chant-data
+property
+../../gegl/gegl-chant.h:479
+../../gegl/gegl-chant.h:580
+RGBE image loader (Radiance HDR format).
+%s: invalid %s id %u for "%s" of type `%s' in `%s'
+header
+g_str_has_suffix (line, "\n")
+gegl 0.1.6
+SOFTWARE=
+FORMAT=
+EXPOSURE=
+COLORCORR=
+-Y %hu +X %hu
+pixels
+rgbe[0] != 2 || rgbe[1] != 2
+rgbe.c
+32-bit_rle_rgbe
+Invalid value for COLORCORR
+PIXASPECT=
+Invalid pixel aspect ratio
+file != NULL
+file->file
+cursor && *cursor > 0
+file->scanlines
+32-bit_rle_xyze
+GPOINTER_TO_UINT (data) > GPOINTER_TO_UINT (g_mapped_file_get_contents (f))
+header->format < FORMAT_UNKNOWN
+rgbe[0] != 1 || rgbe[1] != 1 || rgbe[2] != 1
+Unsupported color format for rgbe format
+Invalid value for exposure in radiance image file
+Cannot find a usable value for SOFTWARE, ignoring
+file %s: line %d (%s): should not be reached
+Unable to parse rgbe scanlines, fail at row %u
+data[OFFSET_R] == 2 && data[OFFSET_G] == 2
+pixoffset[component] == pixels + RGBE_NUM_RGBE * linesize + component
+rgbe_header_init
+rgbe_header_write
+#?RADIANCE
+rgbe_write_line
+rgbe_write_uncompressed
+rgbe_float_to_rgbe
+rgbe_file_new
+rgbe_file_init
+rgbe_header_read_variables
+rgbe_mapped_file_remaining
+rgbe_header_read_orientation
+rgbe_get_size
+rgbe_read_scanlines
+rgbe_read_old_rle
+rgbe_read_new_rle
+rgbe_apply_exponent
+rgbe_read_uncompressed
+rgbe_rgbe_to_float
+rgbe-load.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

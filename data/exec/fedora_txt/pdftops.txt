@@ -1,0 +1,260 @@
+/lib64/ld-linux-x86-64.so.2
+AC0#7[g
+libcups.so.2
+__gmon_start__
+_Jv_RegisterClasses
+cupsMarkOptions
+ppdPageSize
+ppdOpenFile
+_cupsLangPrintError
+_cupsLangPrintf
+ppdMarkDefaults
+cupsGetOption
+cupsTempFd
+cupsParseOptions
+ppdIsMarked
+libgnutls.so.26
+libavahi-common.so.3
+libavahi-client.so.3
+libpthread.so.0
+close
+sigaction
+wait
+__errno_location
+fork
+write
+libm.so.6
+libcrypt.so.1
+libaudit.so.0
+libselinux.so.1
+libc.so.6
+__printf_chk
+exit
+execv
+_IO_putc
+setlocale
+puts
+__stack_chk_fail
+unlink
+stdin
+kill
+strtod
+strtol
+strlen
+sigemptyset
+__fprintf_chk
+stdout
+malloc
+strcasecmp
+__strndup
+getenv
+stderr
+__snprintf_chk
+fread
+__cxa_finalize
+setbuf
+strcmp
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+LanguageLevel
+__libc_csu_fini
+Duplex
+Orientation
+__libc_csu_init
+PageBottom
+PageWidth
+PageLeft
+ColorDevice
+PageLength
+PageRight
+PageTop
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+ATSubH
+%|6 
+=76 
+AWAVAUATA
+[]A\A]A^A_
+T$ I
+T$8A
+T$8I
+t$0H
+5,1 
+fffff.
+ffffff.
+[]A\
+AWAVAUATUSH
+-,, 
+D$tH
+9D$`A
+|$`D
+Hct$`A
+D$hH
+D$xA
+T$PH
+t$hIc
+L$hIc
+[]A\A]A^A_
+D$xH
+l$`A
+l$0H
+X\$`
+XD$`
+XL$h
+|$xH
+[]A\A]A^A_
+t$PIc
+T$PH
+D$tH
+D$tH
+l$0H
+L$PH
+-|# 
+AVAUA
+ []A\A]A^
+fffff.
+l$ L
+t$(L
+|$0H
+Usage: %s job user title copies options [filename]
+ERROR: Unable to copy PDF file
+DEBUG: pdftops - copying to temp print file "%s"
+ERROR: Unable to execute pdftops program
+ERROR: pdftops filter exited with status %d!
+ERROR: pdftops filter crashed on signal %d!
+-level1
+-noembtt
+-level2
+-level3
+fitplot
+fit-to-page
+false
+landscape
+orientation-requested
+%.0f
+-paperw
+-paperh
+-expand
+/usr/bin/pdftops
+% x y w h ESPrc - Clip to a rectangle.
+userdict/ESPrc/rectclip where{pop/rectclip load}
+{{newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath clip newpath}bind}ifelse put
+% x y w h ESPrf - Fill a rectangle.
+userdict/ESPrf/rectfill where{pop/rectfill load}
+{{gsave newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath fill grestore}bind}ifelse put
+% x y w h ESPrs - Stroke a rectangle.
+userdict/ESPrs/rectstroke where{pop/rectstroke load}
+{{gsave newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+neg 0 rlineto closepath stroke grestore}bind}ifelse put
+%.1f %.1f translate 180 rotate
+0.0 %.1f translate -90 rotate
+userdict/ESPlf /Nimbus-Mono findfont 12 scalefont put
+userdict/ESPwl{
+  ESPlf setfont
+  ESPp%c stringwidth pop dup 12 add exch -0.5 mul %.0f add
+  dup 6 sub %.0f %d index %.0f ESPrf
+  dup 6 sub %.0f %d index %.0f ESPrs
+  dup %.0f moveto ESPp%c show
+userdict/ESPpf /Helvetica-Bold findfont 14 scalefont put
+  ESPpl stringwidth pop dup 12 add exch -0.5 mul %.0f add
+  dup 6 sub %.0f 3 index 20 ESPrf
+  dup 6 sub %.0f 3 index 20 ESPrs
+DEBUG: Page = %.0fx%.0f; %.0f,%.0f to %.0f,%.0f
+gsave
+%.1f 0.0 translate 90 rotate
+ESPwl
+grestore
+%%%%%s: (
+\%03o
+CLASSIFICATION
+none
+userdict/ESPwl{}bind put
+LSPP:
+userdict/ESPp%c(
+)put
+ dup
+  1 setgray
+  0 setgray
+  %.0f moveto ESPp%c show
+  pop
+}bind put
+userdict
+confidential
+/ESPpl(CONFIDENTIAL
+/ESPpl(CLASSIFIED
+/ESPpl(SECRET
+topsecret
+/ESPpl(TOP SECRET
+unclassified
+/ESPpl(UNCLASSIFIED
+/ESPpl(
+)put
+userdict/ESPwl{
+  ESPpf setfont
+  1 setgray
+  0 setgray
+  dup %.0f moveto ESPpl show
+  %.0f moveto ESPpl show
+page-left
+page-right
+page-bottom
+page-top
+DuplexNoTumble
+DuplexTumble
+JCLDuplex
+EFDuplex
+KD03Duplex
+FDpdftops.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

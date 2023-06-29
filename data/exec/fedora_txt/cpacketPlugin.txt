@@ -1,0 +1,294 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+myGlobals
+ntop_safefree
+ntop_safestrdup
+traceEvent
+closeNwSocket
+__errno_location
+socket
+setsockopt
+bind
+createThread
+strerror
+__stack_chk_fail
+getpid
+pthread_self
+ntopSleepUntilStateRUN
+select
+strlen
+sscanf
+strcmp
+recvfrom
+ntop_safemalloc
+safe_snprintf
+_sendString
+fetchPrefsValue
+printHTMLtrailer
+strtol
+createDummyInterface
+createDeviceIpProtosList
+calculateUniqueInterfaceName
+allocDeviceMemory
+initDeviceSemaphores
+storePrefsValue
+stdout
+fflush
+_killThread
+formatBytes
+formatPkts
+printNoDataYet
+printSectionTitle
+sendHTTPHeader
+printPluginTrailer
+strtok
+unescape
+strncasecmp
+printHTMLheader
+printFlagedWarning
+sanitize_rrd_string
+revertSlashIfWIN32
+rename
+__strcat_chk
+delPrefsValue
+checkReportDevice
+PluginEntryFctn
+libmysqlclient.so.18
+libcrypt.so.1
+libc.so.6
+librrd_th.so.4
+libpcre.so.0
+libpcap.so.1
+libgdbm.so.3
+libz.so.1
+librt.so.1
+libnetsnmp.so.30
+libssl.so.10
+libcrypto.so.10
+libpthread.so.0
+libdl.so.2
+libutil.so.1
+libm.so.6
+libpython2.7.so.1.0
+libGeoIP.so.1
+_edata
+__bss_start
+_end
+libcpacketPlugin-3.4-pre3.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z[ 
+%r[ 
+%j[ 
+%b[ 
+%Z[ 
+%R[ 
+%J[ 
+%B[ 
+%:[ 
+%2[ 
+%*[ 
+%"[ 
+=([ 
+ATSubH
+[A\]
+=XU 
+=>U 
+D$81
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+t$ f
+AWAVAUATUHc
+D$(1
+D$(H
+T$0L
+t$0L
+L$ M
+L$ I
+L$ I
+D$(H
+[]A\A]A^A_
+AUATUSH
+[]A\A]A^
+=@L 
+$<,u
+=)K 
+T$ H
+T$ H
+ATUSH
+[]A\A]A^
+ATUSH
+[]A\A]
+%m? 
+ATUSH
+d$ dH
+[]A\A]A^
+u^Hc
+l$ H
+l$ H
+l$ H
+AVAUATUH
+d$0L
+[]A\A]A^A_
+=L9 
+=/8 
+-z0 
+|$(H
+T$(L
+cpacketPlugin.c
+CPACKET: Collector terminated
+(%lu,%lu)
+cpacket.%d.%s
+cpacket.%s
+CHECKED
+<tr><td align=left>
+knownDevices
+<FORM ACTION="/plugins/
+" METHOD=GET>
+cPacket-device
+<br>
+</td></TR></TABLE></center>
+%s.%d
+cpacketInPort
+debug
+humanFriendlyName
+CPACKET: Terminating cPacket
+CPACKET: Done
+<td  align=right>%s</td>
+</table>
+</center>
+cTap Counters
+cPacket Configuration Error
+port
+name
+%s/interfaces/%s
+statistics.html
+cTap Statistics
+cPacket Device Configuration
+CPACKET: knownDevices=%s
+%s,%d
+CPACKET: knownDevices=2
+cPacket Configuration
+<td ><form action="/plugins/
+" method=GET>
+</td></tr>
+%s?device=%d
+3.4-pre3
+CPACKET: Unable to create a UDP socket - returned %d, error is '%s'(%d)
+Disabled - Unable to create listening socket.
+CPACKET: Created a UDP socket (%d)
+CPACKET: Collector port %d already in use
+CPACKET: Collector listening on port %d
+THREADMGMT[t%lu]: CPACKET: Started thread for receiving flows on port %d
+THREADMGMT[t%lu]: CPACKET: thread starting [p%d]
+THREADMGMT[t%lu]: CPACKET: (port %d) thread running [p%d]
+CPACKET: select() failed(%d, %s), terminating cpacket
+THREADMGMT[t%lu]: CPACKET: thread terminated [p%d][cpacketDeviceId=%d]
+<center><table border="1"  CELLSPACING=0 CELLPADDING=2>
+<tr><th BGCOLOR="#F3F3F3">Available cPacket Devices</th></tr>
+<INPUT TYPE=radio NAME=device VALUE=%s %s>%s.%s
+<INPUT TYPE=radio NAME=device VALUE=%s %s>%s
+[ <A HREF="/plugins/%s?device=-%s" onClick="return confirmDelete()">Delete</A> ]
+<p><INPUT TYPE=submit VALUE="Edit cPacket Device">&nbsp;<INPUT TYPE=reset VALUE=Reset>
+</FORM><p>
+" METHOD=GET>
+<input type=hidden name=device size=5 value=0>
+<p align=center><INPUT TYPE=submit VALUE="Add cPacket Device">&nbsp;
+</FORM><p>
+<p>Please <A HREF="/showPlugins.html?
+=1">enable</A> the cPacket plugin first<br>
+CPACKET: createcPacketDevice(%d)
+CPACKET: not enough memory (cpacketGlobals malloc)
+CPACKET: initializing deviceId=%d
+CPACKET: initcPacketDevice internal error
+CPACKET: createcPacketDevice created device %d
+CPACKET: createDummyInterface failed
+CPACKET: Welcome to the cpacket plugin
+CPACKET: initializing '%s' devices
+CPACKET: no devices to initialize
+CPACKET: terminating device %s
+CPACKET: deviceId=%d terminating a non-cPacket device
+CPACKET: requested invalid termination of deviceId=%d
+CPACKET: [cpacketDeviceId=%d] device thread terminated in the meantime
+CPACKET: no devices to terminate (%s)
+CPACKET: Thanks for using ntop cPacket
+<tr><th  BGCOLOR="#F3F3F3">Counter</th><th  BGCOLOR="#F3F3F3" colspan=2>Bytes</th><th  BGCOLOR="#F3F3F3" colspan=2>Packets</th>
+<tr onMouseOver="this.bgColor = '#EDF3FE'" onMouseOut ="this.bgColor = '#FFFFFF'" ><th   align=left>%s</th><td  align=right>%s</td>
+<TD  ALIGN=CENTER><A HREF="/plugins/rrdPlugin?action=arbreq&arbfile=bytes&arbiface=%s/cTap/%s&start=%u&end=%u&counter=&title=%s&mode=zoom"><IMG valign=top class=tooltip SRC=/graph.gif border=0></A></TD>
+<TD  ALIGN=CENTER><A HREF="/plugins/rrdPlugin?action=arbreq&arbfile=pkts&arbiface=%s/cTap/%s&start=%u&end=%u&counter=&title=%s&mode=zoom"><IMG valign=top class=tooltip SRC=/graph.gif border=0></A></TD></TR>
+<I>Unable to locate the specified device. Please activate the plugin first.</I>
+<tr><th colspan=5  align=center>Device: %s</tr>
+<tr><th  BGCOLOR="#F3F3F3" colspan=5>Statistics</th></tr>
+<tr><th  align=left colspan=3>Stats Packets Received</th><td  align=right colspan=2>%s</td></tr>
+CPACKET: Attempting to delete [deviceId=%d][cPacket device=%d]
+CPACKET: Device [deviceId=%d][active=%d]
+<I>Unable to create a new cPacket device</I>
+<tr><th colspan="4" BGCOLOR="#F3F3F3">Incoming Flows</th></tr>
+<tr><th colspan=2 BGCOLOR="#F3F3F3">cPacket Device</th>
+<INPUT TYPE=hidden NAME=device VALUE=%d>
+<input name="name" size="24" value="
+"> <input type="submit" value="Set Interface Name">
+ [ <A HREF="/plugins/%s"/>List cPacket Interfaces</A> ]</p>
+</form>
+<tr><th rowspan="2" BGCOLOR="#F3F3F3">Flow<br>Collection</th>
+<th BGCOLOR="#F3F3F3">Local<br>Collector<br>UDP<br>Port</th>
+<input name="port" size="5" value="
+"> [ Use a port value of 0 to disable collection ] <input type="submit" value="Set Port"></p>
+</form>
+<p>If you want <b>ntop</b> to display cPacket data it receives from other hosts, i.e. act as a collector, you must specify the UDP port to listen to. The default port used for cPacket is 20167.</p>
+<p align="right"></p>
+<p><font color=red>WARNING</font>: The 'Local Collector UDPPort' is zero (none). Even if this plugin is ACTIVE, you must still enter a port number for <b>ntop</b> to receive and process cPacket data.</p>
+<tr><td colspan="4">&nbsp;</td></tr>
+<tr><th colspan="4" BGCOLOR="#F3F3F3">General Options</th></tr>
+<tr><th colspan="2" BGCOLOR="#F3F3F3">Debug</th>
+<input type="radio" name="debug" value="1" checked>On
+<input type="radio" name="debug" value="0">Off
+<input type="radio" name="debug" value="1">On
+<input type="radio" name="debug" value="0" checked>Off
+ <input type="submit" value="Set Debug"></p>
+</form>
+<p>This option turns on debugging, which dumps a huge quantity of noise into the standard <b>ntop</b> log, all about what the cPacket plugin is doing.  If you are doing development, this might be helpful, otherwise <i>leave it alone</i>!</p>
+</td>
+</tr>
+<tr><td colspan=4><font color=red><b>REMEMBER</b><br></font><ul><li>Regardless of settings here, the cPacket plugin must be ACTIVE on the main plugin menu (click <a href="../showPlugins.html">here</a> to go back) for <b>ntop</b> to receive and/or process cPacket data.
+<li>Any option not indicated as taking effect immediately will require you to recycle (inactivate and then activate) the cPacket plugin in order for the change to take affect.</ul></td></tr>
+cTap is a trademark of <a href="http://www.cpacket.com/" title="cPacket home page">cPacket Inc</a>
+CPACKET: Welcome to %s.(C) 2008 by Luca Deri
+This plugin is used collect traffic statistics emitted by <A HREF=http://www.cpacket.com>cPacket</A>'s cTap devices.<br><i>Received flow data is reported as a separate 'NIC' in the regular <b>ntop</b> reports.<br><em>Remember to <A HREF=/switch.html>switch</A> the reporting NIC.</em>
+<a href="http://luca.ntop.org/" alt="Luca's home page">L.Deri</A>
+;*3$"
+cpacketPlugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

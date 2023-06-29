@@ -1,0 +1,346 @@
+tdX}
+H(YD}
+>aR)a
+,HW9x
+ye$c5
+ph-O
+F(D0W
+A]'c
+[k9W
+&"~ 
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_mutex_lock
+pthread_mutex_unlock
+relpSessDestruct
+free
+calloc
+relpEngineConstruct
+pthread_mutex_init
+relpEngineDestruct
+relpSrvDestruct
+pthread_mutex_destroy
+relpEngineSetDbgprint
+relpEngineSetSyslogRcv2
+relpEngineAddListner2
+relpSrvConstruct
+relpSrvSetUsrPtr
+relpSrvSetLstnPort
+relpSrvRun
+relpEngineSetSyslogRcv
+relpEngineAddListner
+relpEngineRun
+relpSendqIsEmpty
+select
+relpSessAcceptAndConstruct
+relpSessSndData
+relpSessRcvData
+relpEngineDispatchFrame
+relpSCRsp
+relpSCInit
+relpCCServerclose
+relpSCClose
+relpSCSyslog
+relpEngineCltConstruct
+relpCltConstruct
+relpEngineCltDestruct
+relpCltDestruct
+relpEngineGetVersion
+relpEngineSetEnableCmd
+relpEngineSetDnsLookupMode
+relpFrameBuildSendbuf
+relpSendbufSendAll
+memset
+relpTcpRcv
+relpFrameProcessOctetRcvd
+__errno_location
+clock_gettime
+relpSendqDestruct
+relpTcpDestruct
+relpSendbufDestruct
+relpSendbufSend
+relpSessConstruct
+relpSendqConstruct
+relpTcpAcceptConnReq
+relpSessSendResponse
+relpSendqAddBuf
+relpSendqSend
+relpSessAddUnacked
+relpSessGetUnacked
+relpSessCltConnChkOffers
+relpSessSetProtocolVersion
+relpSessSetEnableCmd
+relpOffersConstructFromFrame
+relpOffersDestruct
+relpSessConstructOffers
+relpOffersConstruct
+relpOfferAdd
+relpOfferValueAdd
+relpSessConnect
+relpTcpConstruct
+relpTcpConnect
+relpOffersToString
+__strdup
+relpSessTryReestablish
+relpTcpAbortDestruct
+relpFrameRewriteTxnr
+relpSessSendCommand
+relpSessSendSyslog
+relpFrameConstruct
+relpFrameDestruct
+__ctype_b_loc
+malloc
+relpFrameSetTxnr
+relpFrameSetCmd
+strlen
+__strcpy_chk
+relpFrameSetData
+memcpy
+relpFrameConstructWithData
+__snprintf_chk
+relpSendbufConstruct
+relpFrameGetNextC
+getnameinfo
+gai_strerror
+getaddrinfo
+freeaddrinfo
+setsockopt
+accept
+fcntl
+relpTcpLstnInit
+socket
+bind
+listen
+recv
+relpTcpSend
+send
+relpSendqDelFirstBuf
+relpSendbufSetData
+strncpy
+realloc
+strcpy
+relpCltConnect
+relpCltReconnect
+relpCltSendSyslog
+relpSrvSetEnableCmd
+librt.so.1
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+librelp.so.0
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.0
+9~DtH9~Ht;
+UWVS
+d$,[1
+UWVS
+T$4tmf
+l$0~<
+;|$0~
+D$4u
+L$(u
+9t$,
+Mt$,
+t$,u
+;D$Htg
+D$81
+d$4[^
+9t$(
+D$,=
+[^_]
+F\;D$0
+|$@1
+F\;D$0
+|$4)
+L$8)
+[^_]
+UWVS
+d$L[1
+Fh}+
+;V`tg;VdtZ
+D$81
+UWVS
+d$L[^_]
+D$(%'
+D$()'
+UWVS
+d$,[^_]
+d$([
+;F8s
+F8f1
+D$Xf
+|$,e
+T$<1
+T$<e3
+T$4e
+D$l1
+|$HtD
+T$le3
+|$Hf
+T$,v
+T$,)
+J@;J8r
+|$`e
+D$,1
+D$Z???
+[^_]
+D$Tf
+UWVS
+UWVS
+T$41
+;T$(t 
+d$l[^_]
+gfff
+[^_]
+gfff
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+d$,[1
+UWVS
+d$<[^_]
+UWVS
+D$D1
+d$,[^_]
+[^_]
+UWVS
+[^_]
+T$*t
+D$*<,t
+D$*<,t#<
+D$81
+D$|1
+T$|e3
+T$*f
+T$*f
+|$* f
+D$*<
+L$+t 
+UWVS
+[^_]
+***<librelp> calling select, active file descriptors (max %d): 
+new connect on RELP socket #%d
+relp accept session returns, iRet %d
+relp session %d iRet %d, tearing it down
+relp session %d iRet %d during send, tearing it down
+relp engine is dispatching frame with command '%s'
+invalid or not supported relp command '%s'
+relp engine create a new client (%p)
+relp engine destructing a client (%p)
+ENGINE SetEnableCmd in syslog cmd state: %d
+tried to set unknown command '%s' to %d
+ENGINE SetEnableCmd out syslog cmd state: %d, iRet %d
+relp select returns, nfds %d
+open
+serverclose
+syslog
+1.0.0
+CBrspClose, setting state CLOSE_RSP_RCVD
+relp session %p flagged as broken, IO error
+relp session read %d octets, buf '%s'
+server closed relp session %p, session broken
+errno %d during relp session %p, session broken
+relpSessWaitRsp waiting for data on fd %d, timeout %d.%d
+relpSessWaitRsp select returns, nfds %d, errno %d
+iRet after relpSessRcvData %d
+relp session accepted with state %d
+relp session %p is broken, io error
+Warning: exceeding window size, max %d, curr %d
+ADD sess %p unacked %d, sessState %d
+DEL sess %p unacked %d, sessState %d
+ignoring unknown server offer '%s'
+ConstructOffers syslog cmd state: %d
+relp session %p reestablished, now resending %d unacked frames
+after TryReestablish, sess state %d
+send command relp sess state %d
+sendcommand ready to send, relp sess state %d
+relpSessWaitState returns %d
+hint-frame to send: '%s'
+processing server offer '%s'
+relp_version
+commands
+enabled command '%s'
+relp_software
+http://librelp.adiscon.com
+librelp
+pre CltConnChkOffers %d
+end relpSessConnect, iRet %d
+resending frame '%s'
+SendCommand does auto-retry
+getnameinfo returns %d
+Malformed from address %s
+[MALICIOUS:IP=%s]
+remote host is '%s', ip '%s'
+error %d querying port '%s'
+tcpSend returns %d
+error %d in getaddrinfo
+Malicious PTR record, IP = "%s" HOST = "%s"
+could not set SO_LINGER, errno %d
+error %d setting fcntl(O_NONBLOCK) on relp socket %d
+creating relp tcp listen socket on port %s
+couldn't allocate memory for TCP listen sockets, suspending RELP message reception.
+creating relp tcp listen socket
+error %d setting relp/tcp socket option
+error %d setting fcntl(O_NONBLOCK) on relp socket
+error %d while binding relp tcp socket
+listen with a backlog of %d failed - retrying with default of 32.
+relp listen error %d, suspending
+We could initialize %d RELP TCP listen sockets out of %d we received - this may or may not be an error indication.
+No RELP TCP listen socket could successfully be initialized, message reception via RELP disabled.
+relpSendqIsEmpty() returns %d
+in destructor: sendbuf %p
+sendbuf added to unacked list
+sendbuf NOT added to unacked list
+relp server %p constructed
+SRV SetEnableCmd in syslog cmd state: %d
+SRV SetEnableCmd out syslog cmd state: %d, iRet %d
+in 'syslog' command handler
+500 command disabled
+200 OK
+error: no syslog reception callback is set, nothing done
+in rsp command handler, txnr %d, code %d, text '%s'
+in open command handler
+processing client offer '%s'
+200 OK
+500 error %d on connect
+cmd syslog state in srv session: %d
+ignoring unknown client offer '%s'
+500 required command not supported by client
+in close command handler
+in serverclose command handler
+librelp.so.0.0.0.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

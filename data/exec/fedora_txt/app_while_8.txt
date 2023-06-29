@@ -1,0 +1,120 @@
+nccDnBX
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+ast_walk_context_extensions
+ast_get_extension_name
+ast_extension_match
+ast_get_extension_matchcid
+ast_walk_extension_priorities
+ast_get_extension_priority
+ast_get_extension_cidmatch
+ast_walk_context_includes
+ast_walk_contexts
+ast_get_include_name
+ast_get_context_name
+strcmp
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+__snprintf_chk
+pbx_builtin_getvar_helper
+__stack_chk_fail
+strlen
+memset
+pthread_mutex_lock
+pthread_mutex_unlock
+ast_parseable_goto
+memcpy
+pbx_checkcondition
+pbx_builtin_setvar_helper
+ast_rdlock_contexts
+ast_unlock_context
+ast_rdlock_context
+ast_get_extension_app
+strcasecmp
+ast_unlock_contexts
+ast_log
+option_verbose
+ast_options
+ast_verbose_get_by_file
+__ast_verbose
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+ATSubH
+ATUH
+[]A\A]A^A_
+ffff.
+D$X1
+T$XdH3
+AWE1
+t$ I
+[A\A]A^A_
+l$ I
+ffffff.
+ATE1
+app_while.c
+$Revision: 156757 $
+%s_%s_%d
+%s_%s
+END_%s
+Failed to lock contexts list
+ENDWHILE
+%s,%s,%d
+app_while
+EndWhile
+ExitWhile
+ContinueWhile
+Start a while loop
+End a while loop
+End a While loop
+Restart a While loop
+    -- Jumping to priority %d
+Couldn't find matching EndWhile? (While at %s@%s priority %d)
+While Loops and Conditional Execution
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  While(<expr>): Start a While Loop.  Execution will return to this
+point when EndWhile() is called until expr is no longer true.
+  EndWhile(): Return to the previous called While()
+  ExitWhile(): Exits a While() loop, whether or not the conditional has been satisfied.
+  ContinueWhile(): Returns to the top of the while loop and re-evaluates the conditional.
+_while_exec
+find_matching_endwhile
+a9c98e5d177805051735cb5b0b16b0a0
+app_while.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

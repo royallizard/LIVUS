@@ -1,0 +1,261 @@
+tdxF
+/lib/ld-linux.so.2
+libdovecot.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+o_stream_set_no_error_handling
+io_add
+hash_table_remove
+i_error
+hash_table_destroy
+str_printfa
+master_service_client_connection_accept
+hash_table_lookup
+i_stream_close
+str_tabunescape
+t_str_new
+str_len
+master_service_set_idle_die_callback
+i_stream_read
+str_append_tabescaped
+restrict_access_allow_coredumps
+i_stream_destroy
+o_stream_destroy
+master_service_init_log
+str_hash
+str_to_int
+aqueue_count
+i_realloc
+restrict_access_by_env
+buffer_create_dynamic
+i_fatal
+aqueue_append
+t_push
+t_pop_check
+i_strdup
+ioloop_time
+aqueue_init
+pool_datastack_create
+master_service_settings_read_simple
+master_service_init_finish
+master_service_settings_get
+i_stream_create_fd
+o_stream_create_fd
+t_strconcat
+o_stream_close
+net_connect_unix
+aqueue_delete_tail
+hash_table_create
+str_to_uint
+master_service_client_connection_created
+master_service
+master_service_client_connection_destroyed
+str_array_length
+o_stream_nsend
+master_service_run
+hash_table_insert
+version_string_verify
+p_strsplit
+hash_table_count
+default_pool
+master_service_deinit
+process_title_set
+master_service_init
+buffer_free
+o_stream_nsend_str
+str_data
+aqueue_deinit
+i_stream_next_line
+i_panic
+t_strdup_printf
+io_remove
+str_append_c
+master_getopt
+libc.so.6
+_IO_stdin_used
+__cxa_finalize
+strcmp
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+indexer_refresh_proctitle
+worker_pool_have_busy_connections
+indexer_queue_is_empty
+worker_pool_get_connection
+indexer_queue_count
+indexer_queue_set_listen_callback
+indexer_queue_cancel_all
+indexer_client_status_callback
+worker_pool_find_username_connection
+indexer_queue_append_optimize
+worker_connection_get_username
+indexer_queue_request_remove
+indexer_clients_get_count
+worker_connection_destroy
+worker_connection_connect
+__data_start
+worker_connection_is_busy
+indexer_client_create
+worker_connection_create
+__libc_csu_init
+_fp_hw
+indexer_clients_destroy_all
+indexer_queue_append
+indexer_queue_request_status
+worker_pool_init
+clients
+indexer_queue_deinit
+indexer_service_settings
+worker_connection_get_process_limit
+worker_connection_is_connected
+indexer_queue_request_finish
+indexer_queue_init
+worker_connection_request
+indexer_queue_request_peek
+worker_pool_release_connection
+worker_pool_deinit
+GLIBC_2.1.3
+GLIBC_2.0
+,[^_]
+,[^_]
+<[^_]
+UWVS
+<[^_]
+<[^_]
+D$(1
+ [^_
+ [^_
+[^_]
+9D$Xr\
+[^_]
+[^_]
+UWVS
+,[^_]
+UWVS
+[^_]
+ [^_
+ [^_
+,[^_]
+V$9P
+V$;P
+UWVS
+V$;P
+<[^_]
+UWVS
+<[^_]
+UWVS
+[^_]
+UWVS
+<[^_]
+D$,9F
+UWVS
+,[^_]
+[^_]
+[%u clients, %u requests]
+indexer
+indexer: 
+indexer-worker
+Error reading configuration: %s
+client->refcount > 0
+indexer-client.c
+Wrong parameter count
+Invalid tag
+Invalid max_recent_msgs
+%u	OK
+close(client) failed: %m
+APPEND
+PREPEND
+OPTIMIZE
+Unknown command: 
+Client input error: %s
+%u	%d
+file %s: line %d (%s): assertion failed: (%s)
+BUG: Client connection sent too much data
+Client not compatible with this server (mixed old and new binaries?)
+indexer_client_ref
+indexer_client_unref
+indexer_queue_is_empty(queue)
+indexer-queue.c
+request != NULL
+percentage >= 0 && percentage < 100
+indexer_queue_request_status
+indexer_queue_request_remove
+indexer_queue_deinit
+$default_internal_user
+conn->refcount > 0
+worker-connection.c
+close(%s) failed: %m
+../../src/lib/array.h
+indexer-worker-master
+Invalid input from worker: %s
+conn->fd == -1
+connect(%s) failed: %m
+context != NULL
+	%u	
+Indexer worker disconnected, discarding %u requests for %s
+idx * array->element_size < array->buffer->used
+Indexer worker not compatible with this master (mixed old and new binaries?)
+Indexer worker sent invalid handshake: %s
+Input from worker without pending requests: %s
+VERSION	indexer-master-worker	1	0
+worker_connection_is_connected(conn)
+request->index || request->optimize
+strcmp(conn->request_username, request->username) == 0
+worker_connection_request
+worker_connection_connect
+worker_connection_unref
+array_idx_i
+pool->connection_count > 0
+worker-pool.c
+pool->idle_list == NULL
+list != NULL
+worker_pool_release_connection
+worker_pool_add_connection
+worker_connection_list_free
+;*2$"(
+indexer.debug
+7zXZ
+CUh'
+@^^a	
+#]:]:
+jG?}T6v
+ZZ1/
+O*yy
+fi;-
+2j -
+%(7`
+noR3
+LxQnz1h
+ZrZ#
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

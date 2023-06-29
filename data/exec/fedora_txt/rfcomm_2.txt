@@ -1,0 +1,396 @@
+/lib64/ld-linux-x86-64.so.2
+0)8D
+o_W3D
+libbluetooth.so.3
+__gmon_start__
+_Jv_RegisterClasses
+str2ba
+hci_devba
+ba2str
+libc.so.6
+socket
+__printf_chk
+exit
+fopen
+strncmp
+optind
+__strdup
+cfmakeraw
+perror
+connect
+fork
+sigfillset
+__stack_chk_fail
+listen
+realloc
+stdin
+kill
+strtol
+isatty
+strlen
+__errno_location
+bind
+tcsetattr
+clearerr
+__fprintf_chk
+stdout
+memcpy
+fclose
+setsockopt
+malloc
+getenv
+optarg
+stderr
+sigdelset
+ioctl
+__snprintf_chk
+getuid
+getopt_long
+execvp
+fileno
+usleep
+fread
+sigaction
+tcflush
+waitpid
+getsockname
+accept
+__cxa_finalize
+__sprintf_chk
+access
+_IO_getc
+__strcat_chk
+strcmp
+strerror
+__libc_start_main
+ferror
+ppoll
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+yyout
+yyleng
+yytext
+yychar
+__libc_csu_init
+rfcomm_keyword
+command
+yyin
+yylval
+yylineno
+yy_flex_debug
+yynerrs
+rfcomm_opts
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5Ra 
+%Ta 
+%Ra 
+%Ja 
+%Ba 
+%:a 
+%2a 
+%*a 
+%"a 
+%z` 
+%r` 
+%j` 
+%b` 
+%Z` 
+%R` 
+%J` 
+%B` 
+%:` 
+%2` 
+%*` 
+%"` 
+=t] 
+ATSubH
+%<Z 
+fffff.
+D$(1
+T$(dH3
+ffff.
+l$ H
+l$ 1
+AUATUH
+d$`L
+l$@dH
+[]A\A]
+=R^ 
+= ^ 
+fffff.
+AVAUE1
+D$(1
+T$(dH3
+8[]A\A]A^A_
+T$ Hk
+AVAUATUS
+5}W 
+=rT 
+[]A\A]A^A_
+[]A\A]A^
+AVAUM
+=AL 
+[]A\A]A^A_
+AWAVAUATA
+D$x1
+|$pM
+D$df
+T$@A
+D$Df
+D$xdH3
+[]A\A]A^A_
+|$PH
+L$4f
+ATUSH
+L$ H
+L;d$ H
+5,= 
+L$,Hc
+T$8wBH
+HcT$,H
+L$0H
+T$8H)
+H;\$ t
+[]A\A]A^A_
+5X: 
+H!D$8H
+H!D$8
+ffffff.
+H;8t+
+5N8 
+=78 
+=;8 
+fff.
+[]A\
+[]A\
+fff.
+l$ H
+tUMc
+fffff.
+%t3 
+%U3 
+AWAVAUATUSH
+-(3 
+D$(H
+T$PH
+L$XL
+|$0M
+D$@L
+T$0L
+L$(H
+t$PD
+t$<L
+D$@L
+L$HH
+|$0L
+D$ L
+D$ L
+%r1 
+5.* 
+t$(H
+|$PH
+D$X@
+D$@L
+|$0L
+|$(H
+[]A\A]A^A_
+D$<A+
+L$(I
+|$(L
+D$@L
+L$0A
+=]/ 
+D$0L
+D$(H
+T$(H
+L$(H
+D$@L
+|$0L
+t$(L
+|$0H
+D$d~8H
+l$pL
+t$hH
+\$xH
+T$dHc
+t$hH
+l$pH
+t$ L
+HcL$dL
+|$pM
+t$ H
+L$xM
+5x+ 
+D$ H
+L$(H
+D$ J
+HcD$dL
+T$h1
+H9\$h
+t$ L
+t$ L
+D$dJ
+D$(H
+D$@L
+|$0L
+40I9
+42Lc
+t$(H
+5J( 
+HcD$dH
+5o' 
+L$(Lc
+D$0Hc
+<8Lc
+t$0Hc
+5o& 
+5H& 
+=6& 
+D$@L
+|$0L
+D$ L
+D$ L
+#t0L
+|$0L
+L$HL
+D$(M
+fffff.
+l$ L
+t$(L
+|$0H
+4.37
+Commands:
+	%-8s %-24s	%s
+Can't release device
+Can't allocate memory
+Can't get device list
+%s -> %s
+reuse-dlc 
+release-on-hup 
+tty-attached
+Get info failed
++i:f:rahAESML:
+/dev/rfcomm
+Can't create RFCOMM socket
+Can't set RFCOMM link mode
+Can't bind RFCOMM socket
+Can't get RFCOMM socket name
+Can't set linger option
+Can't create RFCOMM TTY
+/dev/rfcomm%d
+Can't open RFCOMM device
+/dev/bluetooth/rfcomm/%d
+Connection from %s to %s
+Press CTRL-C for hangup
+Disconnected
+Can't open RFCOMM config file
+Can't connect RFCOMM socket
+Can't create device
+create
+<dev> <bdaddr> [channel]
+Bind device
+release
+unbind
+<dev>
+Release device
+show
+info
+Show device
+connect
+conn
+Connect device
+listen
+server
+<dev> [channel [cmd]]
+Listen
+watch
+Watch
+unknown
+connected
+clean
+bound
+listening
+config
+disconnecting
+closed
+help
+auth
+encrypt
+secure
+master
+linger
+RFCOMM configuration utility ver %s
+Usage:
+	rfcomm [options] <command> <dev>
+Options:
+	-i [hciX|bdaddr]      Local HCI device or BD Address
+	-h, --help            Display help
+	-r, --raw             Switch TTY into raw mode
+	-A, --auth            Enable authentication
+	-E, --encrypt         Enable encryption
+	-S, --secure          Secure connection
+	-M, --master          Become the master of a piconet
+	-f, --config [file]   Specify alternate config file
+	-a                    Show all devices (default)
+rfcomm%d: %s channel %d %s %s
+Can't open RFCOMM control socket
+Waiting for connection on channel %d
+Couldn't execute command %s (errno=%d:%s)
+Couldn't fork to execute command %s
+Can't find a config entry for rfcomm%d
+Connected %s to %s on channel %d
+RFCOMM TTY support not available
+%s line %d
+syntax error
+memory exhausted
+HOME
+%s/.bluetooth/rfcomm.conf
+/etc/bluetooth
+%s/rfcomm.conf
+bad buffer in yy_scan_bytes()
+input in flex scanner failed
+out of dynamic memory in yyensure_buffer_stack()
+out of dynamic memory in yy_scan_buffer()
+out of dynamic memory in yy_scan_bytes()
+out of dynamic memory in yy_create_buffer()
+fatal flex scanner internal error--end of buffer missed
+fatal error - scanner input buffer overflow
+out of dynamic memory in yy_get_next_buffer()
+fatal flex scanner internal error--no action found
+channel
+comment
+enable
+disable
+rfcomm.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

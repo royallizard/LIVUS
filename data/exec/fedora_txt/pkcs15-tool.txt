@@ -1,0 +1,563 @@
+/lib/ld-linux.so.2
+libopensc.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+sc_concatenate_path
+sc_ctx_detect_readers
+sc_ctx_log_to_file
+sc_pkcs15_bind
+sc_ctx_get_reader_by_name
+sc_pkcs15_read_data_object
+sc_base64_encode
+sc_context_create
+sc_hex_to_bin
+sc_pkcs15_read_certificate
+sc_lock
+sc_pkcs15_verify_pin
+sc_print_path
+sc_pkcs15_free_pubkey
+sc_pkcs15_print_id
+sc_get_cache_dir
+sc_strerror
+sc_release_context
+sc_pkcs15_encode_pubkey_as_spki
+sc_format_oid
+sc_pkcs15_free_certificate
+sc_pkcs15_compare_id
+sc_transmit_apdu
+sc_pkcs15_free_data_object
+sc_pkcs15_get_object_guid
+sc_ctx_get_reader
+sc_wait_for_event
+sc_pkcs15_find_pin_by_auth_id
+sc_pkcs15_change_pin
+sc_file_free
+sc_connect_card
+sc_pkcs15_read_pubkey
+sc_read_binary
+sc_file_get_acl_entry
+sc_select_file
+sc_pkcs15_unbind
+sc_unlock
+sc_format_apdu
+sc_pkcs15_get_lastupdate
+sc_pkcs15_cache_file
+sc_ctx_get_reader_count
+sc_pkcs15_hex_string_to_id
+sc_pkcs15_get_objects
+sc_pkcs15_find_cert_by_id
+sc_compare_oid
+sc_detect_card_presence
+sc_disconnect_card
+sc_pkcs15_unblock_pin
+sc_valid_oid
+sc_pkcs15_find_pubkey_by_id
+libcrypto.so.10
+_init
+_fini
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__stpcpy_chk
+fflush
+__printf_chk
+exit
+fopen
+__strdup
+perror
+putchar
+stdin
+strtol
+calloc
+strlen
+tcsetattr
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+strnlen
+fclose
+malloc
+__ctype_b_loc
+getenv
+optarg
+stderr
+__snprintf_chk
+__memset_chk
+getopt_long
+strncasecmp
+fileno
+fwrite
+__vfprintf_chk
+tcgetattr
+__cxa_finalize
+__sprintf_chk
+_IO_getc
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.3.4
+[^_]
+9t$t
+T$xt
+D$l9|$t
+T$xtN
+T$xt"
+L$l9L$d
+;~|r
+t$ht
+T$t9
+t$pt
+|$t1
+D$tt
+< tq1
+xrt?
+UWVS
+L$,1
+L$,e3
+d$<[^_]
+D$,1
+D$(1
+T$,e3
+d$<[^_]
+d$<[^_]
+T$(;*t
+d$<[^_]
+UWVS
+9|$$
+|$t1
+[^_]
+L$,1
+L$,e3
+d$4[^
+UWVS
+T$Xu!
+[^_]
+UWVS
+[^_]
+ssh-
+ssh-
+UWVS
+[^_]
+9l$@
+9|$(t;
+9l$@
+d$,[^_]
+UWVS
+D$$9D$,
+[^_]
+UWVS
+D$09D$<
+[^_]
++T$4;
+UWVS
+[^_]
+D$<1
+T$<e3
+d$H[
+UWVS
+D$$e
+[^_]
+L$$1
+D$Dc
+D$,1
+EH;D$Du
+UWVS
+d$,[^_]
+UWVS
+|$L~U
+9l$Ht
+d$,[^_]
+UWVS
+l$pe
+D$L1
+;t$xr
+T$ )t$x
+D$Le3
+d$\[^_]
+UWVS
+L$\1
+T$$u
+Sec.
+Cont
+rolB
+yte 
+PROT
+d$ [^_
+TERM
+Sec.
+Env.f
+????
+PKCS
+#15 
+Auth
+AUTH
+UWVS
+D$ e
+[^_]
+UWVS
+t$,U
+[^_]
+PIN code enumeration failed: %s
+%s [%s]: entry deferred to the reader keypad
+PIN code too short, try again.
+Skipping; ACL for read operation is not NONE.
+---- BEGIN SSH2 PUBLIC KEY ----
+---- END SSH2 PUBLIC KEY ----
+-----BEGIN %s-----
+%s-----END %s-----
+AUTH objects enumeration failed: %s
+Card has %d Authentication objects.
+	Length         : min_len:%lu, max_len:%lu, stored_len:%lu
+	Reference      : %d (0x%02X)
+	Type           : [encoding %d]
+Unable to find cache directory: %s
+Certificate enumeration failed: %s
+Private key enumeration failed: %s
+Authentication objects enumeration failed: %s
+Reading certificate with ID '%s'
+Public key with ID '%s' not found.
+Public key enumeration failed: %s
+Failed to decode public RSA key.
+can't convert key: buffer too small
+Data object enumeration failed: %s
+Failed to establish context: %s
+Trying to find a PKCS#15 compatible card...
+Certificate with ID '%s' not found.
+Reading data object with label '%s'
+Dumping (%lu bytes) to file <%s>: <
+Data object with label '%s' not found.
+Reading public key with ID '%s'
+Secret key enumeration failed: %s
+Old PIN value will be prompted with pinpad.
+New PIN value will be prompted with pinpad.
+PIN codes do not match, try again.
+PIN code incorrect; tries left: %d
+PIN code changed successfully.
+PUK value will be prompted with pinpad.
+PUK code incorrect; tries left: %d
+not using the cardos driver, card is fine.
+apdu command select file failed: card returned %02X %02X
+select file did not return enough data (length %d)
+select file did not return the information we need
+select file returned inconsistent information
+select file returned short fci
+fci is up-to-date, card is fine
+fci is out-of-date, card is vulnerable
+select file returned fci with unknown data
+apdu command select file: card returned %02X %02X
+get lifecycle failed: card returned %02X %02X
+get lifecycle failed: lifecycle byte not in response
+lifecycle neither user nor admin, can't proceed
+apdu command change lifecycle failed: card returned %02X %02X
+apdu command update fci failed: card returned %02X %02X
+security update applied successfully.
+List the on-card PKCS#15 applications
+Reads certificate with ID <arg>
+Reads data object with OID, applicationName or label <arg>
+Reads public key with ID <arg>
+Reads public key with ID <arg>, outputs ssh format
+Outputs the public key in RFC 4716 format (requires --read-ssh-key)
+Test if the card needs a security update
+Update the card with a security update
+Specify New PIN (when changing or unblocking)
+Verify PIN after card binding (without 'auth-id' the first non-SO, non-Unblock PIN will be verified)
+Specify AID of the on-card PKCS#15 application to bind to (in hexadecimal form)
+Verbose operation. Use several times to enable debug output.
+Do not prompt the user; if no PINs supplied, pinpad will be used.
+No PIN codes found.
+Unable to find PIN code: %s
+%s [%s]: 
+PIN code too long, try again.
+Reading file 
+sc_select_file() failed: %s
+out of memory!
+sc_read_binary() failed: %s
+Unable to cache file: %s
+Comment: "%s"
+ssh-%s %s %s
+ssh-%s %s
+print_pem_object
+Base64 encoding failed: %s
+Error opening file '%s': %s
+	Object Flags   : [0x%X]
+private
+, %s
+modifiable
+case-sensitive
+local
+change-disabled
+unblock-disabled
+initialized
+needs-padding
+unblockingPin
+soPin
+disable_allowed
+integrity-protected
+confidentiality-protected
+exchangeRefData
+ascii-numeric
+UTF-8
+halfnibble bcd
+iso 9664-1
+PIN [%s]
+AuthKey [%s]
+	Auth ID        : %s
+	ID             : %s
+	Flags          : [0x%02X]
+	Pad char       : 0x%02X
+	Type           : %s
+	Derived        : %i
+	SecretKeyID    : %s
+	Path           : %s
+	Tries left     : %d
+Please enter PIN
+Using cache directory '%s'.
+Caching %d certificate(s)...
+Reading ssh key with ID '%s'
+Failed to decode DSA key.
+Data object '%s'
+Data object <%i>
+	applicationName: %s
+	applicationOID:  %i
+	Path:            %s
+Data object read failed: %s
+	Data
+%s (%lu bytes): 
+	Auth ID:         %s
+<always>
+	Access Rules   :
+:%s;
+present
+absent
+Card has %d public key(s).
+GOSTR3410
+sign
+signRecover
+unwrap
+verifyRecover
+derive
+nonRepudiation
+extract
+alwaysSensitive
+neverExtract
+Public %s Key [%s]
+	Usage          : [0x%X]
+	Access Flags   : [0x%X]
+	ModLength      : %lu
+	FieldLength    : %lu
+	Key ref        : %d (0x%X)
+	Native         : %s
+	DirectValue    : <%s>
+Card has %d private key(s).
+Private %s Key [%s]
+	MD:guid        : 
+	  :cmap flags  : 0x%X
+	  :sign        : %i
+	  :key-exchange: %i
+Card has %d certificate(s).
+X.509 Certificate [%s]
+	Authority      : %s
+	Encoded serial : %02X %02X 
+r:cuko:va:LR:CwDTU
+pkcs15-tool
+stderr
+Invalid AID value: '%s'
+PKCS#15 binding failed: %s
+Found %s!
+PIN object '%s' not found
+Operation failed: %s
+Certificate read failed: %s
+CERTIFICATE
+ %02X
+Data Object
+%s (%lu bytes): <
+Authentication error: %s
+Public key not available
+Error encoding PEM key: %s
+PUBLIC KEY
+Card has %d secret key(s).
+generic
+2DES
+3DES
+Secret %s Key [%s]
+	Size           : %lu bits
+	GUID           : %s
+Application '%s':
+	AID: 
+	DDO: 
+Read-only
+Login required
+PRN generation
+EID compliant
+PKCS#15 Card [%s]:
+	Version        : %d
+	Serial number  : %s
+	Manufacturer ID: %s
+	Last update    : %s
+	Language       : %s
+	Profile        : %s
+	Flags          : 
+PIN code blocked!
+%d PIN tries left.
+Enter old PIN
+No PIN code supplied.
+Enter new PIN
+No new PIN value supplied.
+Enter new PIN again
+PIN code change failed: %s
+Enter PUK
+PIN unblocking failed: %s
+PIN successfully unblocked.
+cardos
+selecting folder failed: %s
+get lifecycle failed: %s
+change lifecycle failed: %s
+update fci failed: %s
+read
+execute
+delete
+attribute
+pso_cds
+pso_verify
+pso_decrypt
+pso_encrypt
+int_auth
+ext_auth
+Stores card info to cache
+Lists certificates
+Lists data objects
+Lists PIN codes
+Lists secret keys
+Dump card objects
+Unblock PIN code
+Change PIN or PUK code
+Lists private keys
+Lists public keys
+Uses reader number <arg>
+Specify PIN
+Specify Unblock PIN
+Outputs to file <arg>
+Disable card caching
+The auth ID of the PIN to use
+Wait for card insertion
+learn-card
+list-applications
+read-certificate
+list-certificates
+read-data-object
+list-data-objects
+list-pins
+list-secret-keys
+dump
+unblock-pin
+change-pin
+list-keys
+list-public-keys
+read-public-key
+read-ssh-key
+rfc4716
+test-update
+reader
+new-pin
+verify-pin
+output
+no-cache
+auth-id
+wait
+verbose
+no-prompt
+Waiting for a reader to be attached...
+Error while waiting for a reader: %s
+Error while refreshing readers: %s
+Waiting for a card to be inserted...
+Error while waiting for a card: %s
+Reader "%s" not found (%d reader(s) detected)
+Connecting to card in reader %s...
+Failed to connect to card: %s
+No smart card readers found.
+Using reader with a card: %s
+Matched ATR in reader: %s
+Card not present.
+Using card driver %s.
+Failed to lock card: %s
+\x%02X
+%08X: 
+ [arg]
+Usage: %s [OPTIONS] %s
+Usage: %s [OPTIONS]
+Options:
+-%c, --%s%s
+    --%s%s
+  %-28s  %s
+NEVR
+NONE
+Ox%X
+error: 
+Aborting.
+warning: 
+env:
+;*2$",
+pkcs15-tool.debug
+7zXZ
+Q 7<
+|f8?
+p>q>B
+W ?>
+/qHo
+xUhGY
+AxWZv
+<.EIf_
+d-Ce
+p0YIv
+,{:.
+Uo'	lu
+SjrKa
+J.=I
+i<Y<[a>[[
+9>X0Q
+(wo~f
+DOrs
+`)&>
+%P)<
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

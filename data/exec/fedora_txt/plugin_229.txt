@@ -1,0 +1,399 @@
+87$=1
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_peek_string
+getenv
+value_new_string
+value_new_error_NA
+value_new_error_REF
+value_new_empty
+sheet_cell_get
+gnm_conventions_default
+parse_pos_init_cell
+gnm_expr_top_as_string
+value_new_string_nocopy
+value_new_error
+gnm_rangeref_normalize
+range_width
+range_height
+workbook_foreach_cell_in_range
+value_new_int
+gnm_cell_is_empty
+gnm_cell_eval_content
+value_new_error_VALUE
+value_new_error_NUM
+workbook_date_conv
+format_match_number
+value_get_as_float
+value_new_float
+value_new_bool
+dcgettext
+fmod
+value_error_classify
+g_ascii_strcasecmp
+uname
+g_strdup_printf
+workbook_get_recalcmode
+__stack_chk_fail
+g_string_new
+parse_pos_init_evalpos
+cellref_as_string
+g_string_free
+value_dup
+go_doc_get_type
+g_type_check_instance_cast
+go_doc_get_uri
+sheet_style_get
+gnm_style_get_format
+go_format_as_XL
+gnm_style_get_contents_locked
+gnm_style_get_align_h
+sheet_col_get_info
+gnm_font_default_width
+rint
+go_plugin_depends
+go_plugin_header
+info_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+GLIBC_2.4
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+%zI 
+%rI 
+%jI 
+%bI 
+%ZI 
+=(I 
+ATSubH
+=`G 
+%<9 
+ffffff.
+8Fu'H
+P0H9P
+H;x(t+H
+\$(H
+l$0H
+fffff.
+T$ I
+L$,t
+L$,H
+D$,H
+\$8H
+l$@L
+d$HL
+l$PH
+?<t-
+fffff.
+fffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+fffff.
+z%u#
+z)u'
+ffff.
+fff.
+|$ H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+|$ H
+munG
+Invalid number of arguments
+gnumeric
+directory
+Unimplemented
+memavail
+memused
+numfile
+origin
+osversion
+Unknown version
+%s version %s
+recalc
+Automatic
+Manual
+release
+1.8.2
+Unknown system
+totmem
+Unknown info_type
+address
+sheetname
+coord
+column
+color
+contents
+value
+filename
+format
+parentheses
+prefix
+prefixcharacter
+locked
+protect
+datatype
+formulatype
+columnwidth
+goffice
+info_type, cell
+error.type
+info
+isblank
+iserr
+iserror
+iseven
+islogical
+isna
+isnontext
+isnumber
+isodd
+isref
+istext
+countblank
+range
+expression
+getenv
+string
+General
+#,##0
+#,##0.00
+"$"#,##0_);\("$"#,##0\)
+"$"#,##0_);[Red]\("$"#,##0\)
+"$"#,##0.00_);\("$"#,##0.00\)
+0.00%
+0.00e+00
+# ?/?
+# ??/??
+m/d/yy
+m/d/yy h:mm
+mm/dd/yy
+dd-mmm-yy
+dd-mmm
+mm/dd
+h:mm am/pm
+h:mm:ss am/pm
+h:mm:ss
+"$"#,##0.00_);[Red]\("$"#,##0.00\)
+@FUNCTION=CELL
+@SYNTAX=CELL(type,ref)
+@DESCRIPTION=CELL returns information about the formatting, location, or contents of a cell.
+@type specifies the type of information you want to obtain:
+  address    	Returns the given cell reference as text.
+  col        		Returns the number of the column in @ref.
+  contents   	Returns the contents of the cell in @ref.
+  format     		Returns the code of the format of the cell.
+  parentheses	Returns 1 if @ref contains a negative value
+             		and its format displays it with parentheses.
+  row        		Returns the number of the row in @ref.
+  width      		Returns the column width.
+* This function is Excel compatible.
+@EXAMPLES=
+Cell("format",A1) returns the code of the format of the cell A1.
+@SEEALSO=INDIRECT
+@FUNCTION=ERROR.TYPE
+@SYNTAX=ERROR.TYPE(value)
+@DESCRIPTION=ERROR.TYPE returns an error number corresponding to the given error value.  The error numbers for error values are:
+	#DIV/0!  		2
+	#VALUE!  	3
+	#REF!    		4
+	#NAME?   	5
+	#NUM!    		6
+	#N/A     		7
+* This function is Excel compatible.
+@EXAMPLES=
+ERROR.TYPE(NA()) equals 7.
+@SEEALSO=ISERROR
+@FUNCTION=INFO
+@SYNTAX=INFO(type)
+@DESCRIPTION=INFO returns information about the current operating environment. 
+@type is the type of information you want to obtain:
+  memavail 	Returns the amount of memory available, bytes.
+  memused  	Returns the amount of memory used (bytes).
+  numfile  		Returns the number of active worksheets.
+  osversion		Returns the operating system version.
+  recalc   		Returns the recalculation mode (automatic).
+  release  		Returns the version of Gnumeric as text.
+  system   		Returns the name of the environment.
+  totmem   		Returns the amount of total memory available.
+* This function is Excel compatible, except that types directory and origin are not implemented.
+@EXAMPLES=
+INFO("system") returns "Linux" on a Linux system.
+@SEEALSO=
+@FUNCTION=ISBLANK
+@SYNTAX=ISBLANK(value)
+@DESCRIPTION=ISBLANK returns TRUE if the value is blank.
+* This function is Excel compatible.
+@EXAMPLES=
+ISBLANK(A1).
+@SEEALSO=
+@FUNCTION=ISERR
+@SYNTAX=ISERR(value)
+@DESCRIPTION=ISERR returns TRUE if the value is any error value except #N/A.
+* This function is Excel compatible. 
+@EXAMPLES=
+ISERR(NA()) return FALSE.
+@SEEALSO=ISERROR
+@FUNCTION=ISERROR
+@SYNTAX=ISERROR(value)
+@DESCRIPTION=ISERROR returns a TRUE value if the expression has an error.
+* This function is Excel compatible.
+@EXAMPLES=
+ISERROR(NA()) equals TRUE.
+@SEEALSO=ERROR
+@FUNCTION=ISEVEN
+@SYNTAX=ISEVEN(value)
+@DESCRIPTION=ISEVEN returns TRUE if the number is even.
+* This function is Excel compatible.
+@EXAMPLES=
+ISEVEN(4) equals TRUE.
+@SEEALSO=ISODD
+@FUNCTION=ISLOGICAL
+@SYNTAX=ISLOGICAL(value)
+@DESCRIPTION=ISLOGICAL returns TRUE if the value is a logical value.
+* This function is Excel compatible.
+@EXAMPLES=
+ISLOGICAL(A1).
+@SEEALSO=
+@FUNCTION=ISNA
+@SYNTAX=ISNA(value)
+@DESCRIPTION=ISNA returns TRUE if the value is the #N/A error value.
+* This function is Excel compatible.
+@EXAMPLES=
+ISNA(NA()) equals TRUE.
+@SEEALSO=NA
+@FUNCTION=ISNONTEXT
+@SYNTAX=ISNONTEXT(value)
+@DESCRIPTION=ISNONTEXT Returns TRUE if the value is not text.
+* This function is Excel compatible.
+@EXAMPLES=
+ISNONTEXT("text") equals FALSE.
+@SEEALSO=ISTEXT
+@FUNCTION=ISNUMBER
+@SYNTAX=ISNUMBER(value)
+@DESCRIPTION=ISNUMBER returns TRUE if the value is a number.
+* This function is Excel compatible.
+@EXAMPLES=
+ISNUMBER("text") equals FALSE.
+@SEEALSO=
+@FUNCTION=ISODD
+@SYNTAX=ISODD(value)
+@DESCRIPTION=ISODD returns TRUE if the number is odd.
+* This function is Excel compatible.
+@EXAMPLES=
+ISODD(3) equals TRUE.
+@SEEALSO=ISEVEN
+@FUNCTION=ISREF
+@SYNTAX=ISREF(value)
+@DESCRIPTION=ISREF returns TRUE if the value is a reference.
+* This function is Excel compatible.
+@EXAMPLES=
+ISREF(A1) equals TRUE.
+@SEEALSO=
+@FUNCTION=ISTEXT
+@SYNTAX=ISTEXT(value)
+@DESCRIPTION=ISTEXT returns TRUE if the value is text.
+* This function is Excel compatible.
+@EXAMPLES=
+ISTEXT("text") equals TRUE.
+@SEEALSO=ISNONTEXT
+@FUNCTION=N
+@SYNTAX=N(value)
+@DESCRIPTION=N returns a value converted to a number.  Strings containing text are converted to the zero value.
+* This function is Excel compatible.
+@EXAMPLES=
+N("42") equals 42.
+@SEEALSO=
+@FUNCTION=NA
+@SYNTAX=NA()
+@DESCRIPTION=NA returns the error value #N/A.
+* This function is Excel compatible.
+@EXAMPLES=
+NA() equals #N/A error.
+@SEEALSO=ISNA
+@FUNCTION=TYPE
+@SYNTAX=TYPE(value)
+@DESCRIPTION=TYPE returns a number indicating the data type of a value.
+1  == number
+2  == text
+4  == boolean
+16 == error
+64 == array
+* This function is Excel compatible.
+@EXAMPLES=
+TYPE(3) equals 1.
+TYPE("text") equals 2.
+@SEEALSO=
+@FUNCTION=COUNTBLANK
+@SYNTAX=COUNTBLANK(range)
+@DESCRIPTION=COUNTBLANK returns the number of blank cells in a @range.
+* This function is Excel compatible.
+@EXAMPLES=
+COUNTBLANK(A1:A20) returns the number of blank cell in A1:A20.
+@SEEALSO=COUNT
+@FUNCTION=ERROR
+@SYNTAX=ERROR(text)
+@DESCRIPTION=ERROR return the specified error.
+@EXAMPLES=
+ERROR("#OWN ERROR").
+@SEEALSO=ISERROR
+@FUNCTION=EXPRESSION
+@SYNTAX=EXPRESSION(cell)
+@DESCRIPTION=EXPRESSION returns expression in @cell as a string, or empty if the cell is not an expression.
+@EXAMPLES=
+entering '=EXPRESSION(A3)' in A2 = empty (assuming there is nothing in A3).
+entering '=EXPRESSION(A2)' in A1 = 'EXPRESSION(A3)'.
+@SEEALSO=TEXT
+@FUNCTION=GETENV
+@SYNTAX=GETENV(string)
+@DESCRIPTION=GETENV retrieves a value from the execution environment.
+* If the variable specified by @string does not exist, #N/A! will be returned.  Note, that variable names are case sensitive.
+@EXAMPLES=
+@SEEALSO=
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

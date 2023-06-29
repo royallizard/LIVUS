@@ -1,0 +1,311 @@
+tdPH
+H0O=
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+__fdelt_chk
+select
+__errno_location
+snd_rawmidi_drain
+snd_rawmidi_close
+snd_rawmidi_write
+free
+snd_rawmidi_read
+malloc
+memset
+snd_rawmidi_open
+calloc
+snd_card_next
+__sprintf_chk
+snd_ctl_open
+snd_ctl_rawmidi_next_device
+snd_ctl_close
+snd_pcm_close
+snd_pcm_readi
+sleep
+snd_pcm_resume
+snd_pcm_prepare
+snd_pcm_writei
+isatty
+tcgetattr
+cfmakeraw
+cfsetispeed
+tcsetattr
+fcntl
+snd_pcm_hw_params_sizeof
+snd_pcm_sw_params_sizeof
+snd_pcm_open
+snd_pcm_hw_params_any
+snd_pcm_hw_params_set_access
+snd_pcm_hw_params_set_format
+snd_pcm_hw_params_set_channels
+snd_pcm_hw_params_set_rate_near
+snd_pcm_hw_params_set_buffer_size_near
+snd_pcm_hw_params_set_period_size_near
+snd_pcm_hw_params
+snd_pcm_sw_params_current
+snd_pcm_sw_params_set_start_threshold
+snd_pcm_sw_params_set_avail_min
+snd_pcm_sw_params
+snd_strerror
+fopen
+__strcpy_chk
+strtok
+strncpy
+strtol
+strchr
+fgets
+set_scheduler_priority
+sched_get_priority_max
+sched_setscheduler
+setpriority
+csoundModuleCreate
+csoundModuleInit
+csoundModuleInfo
+libsndfile.so.1
+libpthread.so.0
+libgomp.so.1
+libm.so.6
+libasound.so.2
+liblo.so.7
+libpng15.so.15
+libz.so.1
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.15
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.1
+GLIBC_2.0
+ALSA_0.9.0rc4
+ALSA_0.9
+UWVS
+;D$(u
+[^_]
+UWVS
+|$4~n1
+;D$(u
+[^_]
+l$,~A
+[^_]
+[^_]
+|$0tE
+|$@1
+[^_]
+[^_]
+[^_]
+UWVS
+D$L)
+D$L)
+[^_]
+d$,1
+UWVS
+L$d1
+d$L[^_]
+d$L[1
+L$,1
+UWVS
+[^_]
+UWVS
+d$,[^_]
+UWVS
+L$\1
+T$\e3
+d$l[^_]
+[^_]
+Erro
+r se
+ttin
+g so
+ftwa
+re p
+aram
+eter
+s fo
+r re
+al-t
+ime 
+audif
+No r
+eal-
+time
+ aud
+io c
+onfi
+gura
+tion
+s fo
+Erro
+r se
+ttin
+g ac
+cess
+ typ
+e fo
+r so
+undc
+Unab
+le t
+o se
+t re
+ques
+ted 
+samp
+le f
+orma
+t on
+ sou
+ndcaf
+Unab
+le t
+o se
+t nu
+mber
+ of 
+chan
+nels
+ on 
+soun
+dcarf
+Erro
+r se
+ttin
+g ha
+rdwa
+Unab
+le t
+o se
+t sa
+mple
+ rat
+e on
+ sou
+ndcaf
+Memo
+ry a
+lloc
+atio
+n fa
+ilurf
+D$J  
+D$M  
+UWVS
+D$,1
+T$#t
+T$,e3
+d$<[^_]
+sensMIDI: retval errno %d
+hw:%d
+hw:%d,%d
+ALSA midi: No devices found.
+stdout
+stdin
+-M stdin fcntl failed
+cannot open %s
+hw:0,0
+default
+output
+input
+ *** rate set to %d
+ *** %s
+playopen
+recopen
+/proc/asound/pcm
+ "hw:%i,%i" - %s
+  -20 to -1: set nice level
+::priority
+rtscheduler
+_RTAUDIO
+alsa
+rtaudio: ALSA module enabled
+_RTMIDI
+rtmidi: ALSA module enabled
+devfile
+ALSA MIDI: memory allocation failure
+ALSA: error opening MIDI input device: '%s'
+ALSA: opened MIDI input device '%s'
+ALSA midi: Using all devices.
+ALSA midi: Error opening device: %s
+Buffer overrun in real-time audio input
+Error reading data from audio input device
+Real-time audio input suspended
+Buffer underrun in real-time audio output
+Error writing data to audio output device
+Real-time audio output suspended
+Error opening MIDI output device file '%s'
+Opened MIDI output device file '%s'
+MIDI receive: cannot get termios info.
+MIDI receive: cannot set input baud rate.
+MIDI receive: cannot set termios.
+Opened MIDI input device file '%s'
+ALSA: error opening MIDI output device '%s'
+ALSA: opened MIDI output device '%s'
+ *** Cannot open device '%s' for audio output: %s
+ *** Cannot open device '%s' for audio input: %s
+Unknown sample format.
+ *** Only 16-bit and 32-bit integers, and 32-bit floats are supported.
+ALSA: -B %d not allowed on this device; using %d instead
+ALSA: -b %d not allowed on this device; using %d instead
+ALSA %s: total buffer size: %d, period size: %d
+ *** ALSA: must specify a device name, not a number (e.g. -odac:hw:0,0)
+ *** ALSA: %s: memory allocation failure
+--scheduler: invalid priority value; the allowed range is:
+          0: normal scheduling, but lock memory
+    1 to %d: SCHED_RR with the specified priority (DANGEROUS)
+csound: cannot set scheduling policy to SCHED_RR
+csound: setting scheduling policy to SCHED_RR
+csound: cannot set nice level to %d
+warning... could not create global var
+RT scheduler priority, alsa module
+ALSA real-time audio and MIDI module for Csound by Istvan Varga
+rtmidi: devfile module enabled
+;*2$"8
+librtalsa.so.debug
+7zXZ
+pb?t
+Sc<P
+@F)a*
+l)GY
+^_%R
+uTI!VX:
+Rp-F
+_0XM%1
+%]FK
+e)5W-
+*v$J
+,vz>
+b5]q
+Tuuv
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

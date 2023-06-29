@@ -1,0 +1,337 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pkcs11h_key_transition
+calloc
+__asprintf_chk
+strlen
+memcpy
+__syslog_chk
+pkcs11h_certificate_deserializeCertificateId
+pkcs11h_certificate_create
+malloc
+ecryptfs_add_key_module_key_to_keyring
+stack_push
+pkcs11h_certificate_freeCertificate
+pkcs11h_certificate_freeCertificateId
+X509_free
+fclose
+fopen
+PEM_read_X509
+i2d_X509
+memset
+pkcs11h_certificate_getCertificateBlob
+pkcs11h_getMessage
+__errno_location
+__stack_chk_fail
+exit
+pkcs11h_terminate
+pkcs11h_certificate_setCertificateIdCertificateBlob
+pkcs11h_certificate_decryptAny
+X509_new
+d2i_X509
+X509_get_pubkey
+EVP_PKEY_base_id
+EVP_PKEY_free
+EVP_PKEY_get1_RSA
+RSA_free
+RSA_size
+RSA_public_encrypt
+ERR_get_error
+RSA_get0_key
+BN_num_bits
+BN_bn2bin
+SHA1
+to_hex
+pkcs11h_addProvider
+sscanf
+cryptfs_get_ctx_opts
+strncpy
+strtol
+pkcs11h_setLogLevel
+pkcs11h_setPINCachePeriod
+__vsyslog_chk
+getuid
+getpwuid
+parse_options_file
+ecryptfs_verbosity
+ecryptfs_eval_decision_graph
+pkcs11h_initialize
+pkcs11h_setLogHook
+pkcs11h_setTokenPromptHook
+pkcs11h_setPINPromptHook
+pkcs11h_setProtectedAuthentication
+pkcs11h_certificate_enumCertificateIds
+pkcs11h_certificate_serializeCertificateId
+pkcs11h_certificate_freeCertificateIdList
+X509_get_subject_name
+X509_NAME_oneline
+BIO_s_mem
+BIO_new
+X509_get_serialNumber
+i2a_ASN1_INTEGER
+BIO_read
+BIO_free_all
+ecryptfs_find_key_mod
+get_key_mod_ops
+libpthread.so.0
+libpkcs11-helper.so.1
+libcrypto.so.1.1
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+libecryptfs_key_mod_pkcs11_helper.so
+GLIBC_2.2.5
+OPENSSL_1_1_0
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.8
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+%J: 
+%B: 
+%:: 
+%2: 
+%*: 
+%": 
+%z9 
+%r9 
+%j9 
+%b9 
+%Z9 
+%R9 
+%J9 
+%B9 
+%:9 
+%29 
+%*9 
+%"9 
+%z8 
+%r8 
+%j8 
+%b8 
+%Z8 
+%R8 
+%J8 
+%B8 
+%Z8 
+AVAUI
+ATUSH
+,$[]A\A]A^
+AWAVI
+AUATE1
+D$X1
+|$ H
+|$ L
+t$01
+|$0H
+D$0H9FH
+|$@L
+|$8H
+t$8L
+|$(H
+|$ H
+L$XdH3
+h[]A\A]A^A_
+|$(1
+|$(H
+AWAVI
+AUATI
+D$81
+L$8dH3
+H[]A\A]A^A_
+t$(L
+ATUI
+D$81
+L$8dH3
+@[]A\
+T$ H
+AVAUATUI
+[]A\A]A^
+AWAVAUATUSH
+|$ H
+D$81
+|$ H
+L$8dH3
+H[]A\A]A^A_
+\$(H
+|$ 1
+|$ A
+|$(I
+|$ 1
+|$0Hc
+ATU1
+AYAZt-H
+[]A\
+AVAUA
+ATUH
+[]A\A]A^
+AWAVAUATI
+[]A\A]A^A_
+AWAV1
+AUAT1
+D$8H
+\$8H
+D$@E1
+d$pL
+t$`H
+D$XH
+D$PH
+D$HH
+|$HH
+|$@H
+|$@H
+T$(H
+T$(L
+|$HH
+|$@H
+|$8L
+=2* 
+dH34%(
+[]A\A]A^A_
+|$@1
+D$HL
+T$XH
+|$ L
+T$PL
+|$HL
+|$HL
+T$(H
+\$(L
+|$hH
+\$(t
+\$(L
+\$(L
+|$hL
+|$HL
+\$(L
+|$hH
+AUATI
+T$XH
+=M& 
+[]A\A]
+]A\A]
+L$XH
+[]A\A]
+PKCS#11: Out of memory
+PKCS#11: %s: Internal error
+ecryptfs_sig=%s
+PKCS#11: Cannot get RSA key
+password
+%s/.ecryptfsrc.pkcs11
+pkcs11-helper
+PKCS#11: Cannot create BIO
+%s%s (%s) [%s]
+keyformat
+Key format
+default
+PKCS#11 ID
+PKCS#11 Serialized ID
+passwd
+passenv
+Passphrase ENV
+passstdin
+Passphrase STDIN
+defaultpass
+x509file
+pkcs11-provider
+PKCS#11 Provider
+name
+PKCS#11 Provider Alias
+library
+PKCS#11 Library
+allow-protected-auth
+cert-private
+Certificate is private object
+private-mask
+Private Key Mask
+dummy
+pkcs11-log-level
+PKCS#11 Log Level
+pkcs11-pin-cache-timeout
+PKCS#11: pkcs11h_data internal structure not properly filled in
+PKCS#11: Cannot open file '%s'
+PKCS#11: Cannot read PEM from file '%s'
+PKCS#11: Cannot read decode certificate
+PKCS#11: Cannot allocate memory
+PKCS#11: Cannot deserialize id rv=[%ld-'%s']
+PKCS#11: Cannot get certificate rv=[%ld-'%s']
+PKCS#11: Cannot load certificate rv=[%ld-'%s']
+PKCS#11: Error serializing pkcs11; rc=[%d]
+PKCS#11: Error serializing pkcs11
+PKCS#11: Error attempting to add key to keyring for key module [%s]; rc=[%d]
+PKCS#11: Error processing PKCS#11 key; rc=[%d]
+PKCS#11: Cannot set certificate blob rv=[%ld-'%s']
+PKCS#11: Cannot create certificate handle rv=[%ld-'%s']
+PKCS#11: Cannot decrypt rv=[%ld-'%s']
+PKCS#11: Unable to allocate certificate object
+PKCS#11: Unable to parse X.509 certificate
+PKCS#11: Cannot get public key
+PKCS#11: Invalid public key algorithm
+PKCS#11: Error attempting to read RSA key from token; rc=[%d]
+PKCS#11: Error attempting to perform RSA public key encryption; rc=[%d]
+PKCS#11: Error attempting to generate key signature; rc=[%d]
+PKCS#11: Cannot initialize provider '%s' rv=[%ld-'%s']
+Please enter PIN for token '%s'
+PKCS#11: name = [%s]; value = [%s]
+PKCS#11: Cannot initialize rv=[%ld-'%s']
+PKCS#11: Cannot set hooks rv=[%ld-'%s']
+PKCS#11: Cannot set protected authentication mode rv=[%ld-'%s']
+PKCS#11: Cannot enumerate certificates rv=[%ld-'%s']
+PKCS#11: Cannot serialize certificate id certificates rv=[%ld-'%s']
+PKCS#11: Cannot create certificate rv=[%ld-'%s']
+PKCS#11: Cannot find key_mod for param_node with val = [%s]
+PKCS#11 module using pkcs11-helper
+Passphrase (empty for interactive)
+Optional X.509 Certificate PEM file
+Allow Protected Authentication
+ecryptfs_pkcs11h_process_key
+;*3$"
+libecryptfs_key_mod_pkcs11_helper.so-111-7.fc27.x86_64.debug
+7zXZ
+..0:o
+vMS6
+WH&8R%
+@)64
+5ARf
+Ixyq(m1
+0#"2Y
+#Lp/4
+I;8%
+4_o78
+LLGY
+Bx}}3$Q
+jR5l
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

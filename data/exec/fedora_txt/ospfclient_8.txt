@@ -1,0 +1,138 @@
+/lib64/ld-linux-x86-64.so.2
+libospfapiclient.so.0
+__gmon_start__
+_Jv_RegisterClasses
+ospf_apiclient_lsa_delete
+ospf_apiclient_register_callback
+ospf_apiclient_handle_async
+ospf_apiclient_register_opaque_type
+ospf_apiclient_sync_lsdb
+ospf_apiclient_lsa_originate
+ospf_apiclient_connect
+libospf.so.0
+ospfd_privs
+funcname_thread_add_read
+mes_lookup
+master
+funcname_thread_add_timer
+thread_master_create
+ospf_lsa_header_dump
+ospf_ism_state_msg_max
+ospf_nsm_state_msg_max
+ospf_ism_state_msg
+ospf_nsm_state_msg
+libzebra.so.0
+thread_fetch
+zprivs_init
+thread_call
+libcap.so.2
+libcrypt.so.1
+libcrypto.so.10
+libnetsnmp.so.20
+librt.so.1
+libc.so.6
+__printf_chk
+exit
+inet_aton
+inet_ntoa
+puts
+__stack_chk_fail
+strtol
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/quagga
+__libc_csu_fini
+oclient
+__libc_csu_init
+args
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+ATSubH
+fffff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+[]A\H
+fff.
+l$ L
+d$(L
+l$0H
+fff.
+AUATUSH
+_(dH
+D$(1
+t$ I
+t$ A
+T$(dH3
+8[]A\A]
+ffff.
+AUATUSH
+l$ L
+t$(L
+|$0H
+lsa_read called
+Connection closed, exiting...
+lsa_read
+new_if_callback: ifaddr: %s
+new_if_callback: ifaddr: %s 
+area_id: %s
+lsa_delete_callback: 
+area: %s
+is_self_origin: %u
+lsa_update_callback: 
+nsm_change: ifaddr: %s 
+nbraddr: %s
+router_id: %s
+(no item found)
+state: %d [%s]
+ism_change: ifaddr: %s 
+lsa_inject
+lsa_delete
+Deleting LSA... 
+done, return code is = %d
+done, return code is %d
+ready_callback: lsa_type: %d opaque_type: %d addr=%s
+Originating/updating LSA with counter=%d... 
+Usage: ospfclient <ospfd> <lsatype> <opaquetype> <opaqueid> <ifaddr> <areaid>
+where ospfd     : router where API-enabled OSPF daemon is running
+      lsatype   : either 9, 10, or 11 depending on flooding scope
+      opaquetype: 0-255 (e.g., experimental applications use > 128)
+      opaqueid  : arbitrary application instance (24 bits)
+      ifaddr    : interface IP address (for type 9) otherwise ignored
+      areaid    : area in IP address format (for type 10) otherwise ignored
+Connecting to OSPF daemon on %s failed!
+ospfclient.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,109 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+ast_app_separate_args
+ast_get_channel_by_name_locked
+strlen
+__sprintf_chk
+pbx_substitute_variables_helper
+pthread_mutex_unlock
+__stack_chk_fail
+ast_strip_quoted
+strchr
+ast_build_timing
+ast_check_timing
+ast_log
+pbx_checkcondition
+pbx_builtin_setvar_helper
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+ATSubH
+ffff.
+AUATM
+[]A\A]A^A_
+x[]A\A]A^A_
+ffff.
+ATUL
+T$8H
+|$@H
+d$8u
+d$ M
+d$ H
+X[]A\A]
+D$ H
+D$ L
+L$8L
+ffffff.
+ffffff.
+AUATI
+[]A\A]A^
+${%s}
+func_logic.c
+Invalid Time Spec.
+$Revision: 168549 $
+func_logic
+Logical dialplan functions
+ISNULL
+ISNULL(<data>)
+SET(<varname>=[<value>])
+EXISTS
+EXISTS(<data>)
+IF(<expr>?[<true>][:<false>])
+IFTIME
+IMPORT
+IMPORT(channel,variable)
+Syntax IFTIME(<timespec>?[<true>][:<false>])
+Syntax IF(<expr>?[<true>][:<false>])  (expr must be non-null, and either <true> or <false> must be non-null)
+      In this case, <expr>='%s', <true>='%s', and <false>='%s'
+Syntax SET(<varname>=[<value>])
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+NULL Test: Returns 1 if NULL or 0 otherwise
+SET assigns a value to a channel variable
+Existence Test: Returns 1 if exists, 0 otherwise
+Conditional: Returns the data following '?' if true, else the data following ':'
+Temporal Conditional: Returns the data following '?' if true, else the data following ':'
+IFTIME(<timespec>?[<true>][:<false>])
+Retrieve the value of a variable from another channel
+iftime
+acf_if
+a9c98e5d177805051735cb5b0b16b0a0
+func_logic.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

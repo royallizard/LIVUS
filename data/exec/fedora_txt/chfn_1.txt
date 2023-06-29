@@ -1,0 +1,291 @@
+td,\
+/lib/ld-linux.so.2
+libuser.so.1
+is_selinux_enabled
+_ITM_deregisterTMCloneTable
+__gmon_start__
+getfilecon
+setfscreatecon
+_Jv_RegisterClasses
+freecon
+_ITM_registerTMCloneTable
+lu_uses_elevated_privileges
+lu_ent_set_string
+_fini
+_init
+lu_strerror
+lu_ent_free
+lu_ent_new
+lu_user_modify
+lu_prompt_console_quiet
+lu_start
+lu_user_lookup_name
+lu_end
+libpam.so.0
+pam_setcred
+pam_start
+pam_strerror
+pam_acct_mgmt
+pam_chauthtok
+pam_end
+pam_authenticate
+libpam_misc.so.0
+misc_conv
+libselinux.so.1
+context_user_get
+security_compute_av
+context_free
+context_new
+getprevcon
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+setuid
+__printf_chk
+_IO_putc
+setlocale
+strncmp
+optind
+__strdup
+setregid
+dcgettext
+__open64_2
+getpwuid
+warnx
+setreuid
+putchar
+stdin
+_exit
+strpbrk
+fgets
+getpwnam
+strlen
+prctl
+warn
+__syslog_chk
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+__memmove_chk
+strtoul
+malloc
+strcasecmp
+setegid
+getgid
+__xstat64
+__ctype_b_loc
+optarg
+stderr
+seteuid
+getuid
+getegid
+getopt_long
+__fpurge
+geteuid
+__fpending
+strchr
+secure_getenv
+program_invocation_short_name
+__cxa_finalize
+__vasprintf_chk
+__sprintf_chk
+errx
+fopen64
+bindtextdomain
+strcmp
+__libc_start_main
+ferror
+setenv
+__progname
+__environ
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+GLIBC_2.0
+LIBPAM_MISC_1.0
+LIBPAM_1.0
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.17
+|$He
+D$|1
+D$x 
+t'<h
+L$(;H
+L$|e3
+[^_]
+t$P1
+t$T1
+t$X1
+t$\1
+UWVS
+[^_]
+T$(9
+UWVS
+8 tH
+[^_]
+UWVS
+[^_]
+UWVS
+|$`e
+D$<1
+L$<e3
+d$L[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$\t
+,:="
+d$ [^_
+T$0e
+d$ [^_
+UWVS
+D$<1
+L$<e3
+d$L[^_]
+D$<1
+L$<e3
+d$@[^_
+D$T#D$$;D$T
+d$ [^_
+UWVS
+d$,[^_]
+d$$[^
+d$$1
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options] [<username>]
+Options:
+For more details see %s.
+chfn(1)
+field %s is too long
+%s: has illegal characters
+%s,%s,%s,%s,%s
+cannot allocate string
+cannot duplicate string
+%s [%s]: 
+Aborted.
+none
+write error
+/usr/share/locale
+util-linux
+CHFN_RESTRICT
+/etc/login.defs
+Name
+login.defs forbids setting %s
+Office
+Office Phone
+Home Phone
+%s from %s
+util-linux 2.27
+f:r:p:h:o:uv
+you (user %d) don't exist.
+user "%s" does not exist.
+Unknown user context
+/etc/passwd
+pw_gecos
+chfn
+Finger information changed.
+full-name
+office
+office-phone
+home-phone
+help
+version
+Change your finger information.
+ -f, --full-name <full-name>  real name
+ -o, --office <office>        office number
+ -p, --office-phone <phone>   office phone number
+ -h, --home-phone <phone>     home phone number
+ -u, --help     display this help and exit
+ -v, --version  output version information and exit
+%s: CHFN_RESTRICT has unexpected value: %s
+%s: CHFN_RESTRICT does not allow any changes
+%s is not authorized to change the finger info of %s
+can't set default context for %s
+running UID doesn't match UID of user we're altering, change denied
+Changing finger information for %s.
+Finger information not changed.
+Finger information *NOT* changed.  Try again later.
+cannot allocate %zu bytes
+/etc/hushlogins
+.hushlogin
+HUSHLOGIN_FILE
+%s/%s
+%s: %s contains invalid numerical value: %s
+hush login status: restore original IDs failed
+libuser initialization failed: %s.
+Couldn't drop group privileges
+changing user attribute failed
+user attribute not changed: %s
+_RLD_=
+LANG=
+LANGUAGE=
+BASH_ENV=
+HOME=
+IFS=
+KRB_CONF=
+LIBPATH=
+MAIL=
+NLSPATH=
+SHELL=
+SHLIB_PATH=
+;*2$" 
+chfn.debug
+7zXZ
+U"C<
+aQcS;,3,
+8T(i
+[O\r!
+32PG:a:>
+!oM'
+FA}HU
+,s:S
+Dd'>V
+oXZ;
+E`0?
+o,$y
+xKTr
+1o{A5
+N1IM
+<w`8rwb
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

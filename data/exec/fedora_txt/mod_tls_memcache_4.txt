@@ -1,0 +1,382 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pr_trace_msg
+permanent_pool
+make_sub_pool
+tls_memcache_module
+pr_memcache_get
+__memcpy_chk
+destroy_pool
+__stack_chk_fail
+ERR_get_error_line_data
+BIO_ctrl
+pstrdup
+BIO_free
+BIO_s_mem
+BIO_new
+ERR_error_string
+BIO_printf
+pr_signals_handle
+pr_pool_tag
+main_server
+find_config
+pr_memcache_conn_new
+pr_memcache_conn_set_namespace
+__errno_location
+strerror
+pr_str_bin2hex
+pr_json_object_alloc
+pr_json_object_set_string
+pr_json_object_to_text
+strlen
+pstrndup
+pr_json_object_free
+tpl_jot
+palloc
+memcpy
+memcmp
+pr_memscrub
+pr_memcache_kremove
+pr_memcache_incr
+strcasecmp
+session
+pr_memcache_conn_clone
+tls_log
+pr_event_register
+tls_sess_cache_register
+tls_ocsp_cache_register
+pr_log_debug
+pr_json_object_get_number
+i2d_OCSP_RESPONSE
+time
+push_array
+pr_memcache_set
+make_array
+clear_array
+d2i_SSL_SESSION
+pr_memcache_kget
+pr_json_text_validate
+pr_json_object_from_text
+pr_json_object_get_string
+EVP_DecodeBlock
+tpl_free
+tpl_map
+tpl_load
+tpl_unpack
+i2d_SSL_SESSION
+tpl_pack
+tpl_dump
+pr_memcache_kset
+pr_json_object_set_number
+pcalloc
+EVP_EncodeBlock
+pr_event_unregister
+tls_sess_cache_unregister
+tls_ocsp_cache_unregister
+d2i_OCSP_RESPONSE
+libc.so.6
+_edata
+__bss_start
+_end
+mod_tls_memcache.so
+GLIBC_2.14
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+5BR 
+%DR 
+%JR 
+%JR 
+%JR 
+%RR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%ZR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%bR 
+%rR 
+%rR 
+%rR 
+%rR 
+%rR 
+%rR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+%zR 
+=YR 
+=bL 
+AWAVAUATI
+= L 
+H[A\A]A^A_]
+AWAVAUATI
+= K 
+H[A\A]A^A_]
+AWAVL
+ATSL
+8[A\A]A^A_]
+AWAVAUATI
+([A\A]A^A_]
+AWAVAUATA
+t?D9c
+=uJ 
+8[A\A]A^A_]
+AVAUATSH
+[A\A]A^]
+A\A]A^]
+=0D 
+AUATSH
+tSE1
+[A\A]]
+tyUH
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+8[A\A]A^A_]
+AVAUATSI
+[A\A]A^]
+AVAUATSI
+[A\A]A^]
+AWAVAUATI
+(H9H
+[A\A]A^A_]
+=i; 
+=}< 
+AUATSH
+tRE1
+=b: 
+[A\A]]
+ATSH
+=v: 
+==: 
+AWAVAUATA
+A9\$
+%K9 
+A9\$
+5S5 
+dH34%(
+[A\A]A^A_]
+=46 
+= 5 
+AWAVAUATI
+(H9P
+[A\A]A^A_]
+5Q0 
+=\2 
+AWAVAUATI
+[A\A]A^A_]
+=p( 
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+5U" 
+[A\A]A^A_]
+5o  
+54  
+Cache lifetime hits
+cache_misses
+cache_hits
+tls.memcache
+Memcache servers: 
+%s: %lu
+(unknown)
+  (%u) %s [%s]
+  (%u) %s
+(none)
+mod_tls_memcache/0.2
+MemcacheEngine
+mod_tls_memcache.ocsp.
+cache_deletes
+mod_tls_memcache.sessions.
+/json
+core.module-unload
+fingerprint
+cache_exceeds
+cache_max_resp_len
+error setting '%s' value: %s
+error getting '%s' value: %s
+JSON
+expires
+data
+data_len
+S(uic#)
+cache_errors
+cache_max_sess_len
+invalid JSON emitted: '%s'
+cache_stores
+mod_tls_memcache.c
+response
+response_len
+Cache lifetime misses
+tls_memcache
+checking memcache ocsp cache %p
+Memcache OCSP response cache provided by mod_tls_memcache/0.2
+checking memcache session cache %p
+Memcache SSL session cache provided by mod_tls_memcache/0.2
+opening memcache cache %p (info '%s')
+memcache support disabled (see MemcacheEngine directive)
+error connecting to memcached: %s
+error setting memcache namespace prefix: %s
+error constructing cache %s lookup key for session ID (%lu bytes)
+removing session from memcache cache %p
+unable to remove cache entry: error getting cache key: %s
+unable to remove memcache entry for session ID (%lu bytes): %s
+error incrementing '%s' value: %s
+mod_tls_memcache/0.2: error resetting memcache handle: %s
+mod_tls_memcache/0.2: notice: error registering 'memcache' SSL session cache: %s
+mod_tls_memcache/0.2: notice: error registering 'memcache' OCSP response cache: %s
+missing required memcached connection
+clearing memcache ocsp cache %p
+removing memcache ocsp cache %p
+clearing memcache session cache %p
+removing memcache session cache %p
+deleting response from memcache ocsp cache %p
+unable to remove ocsp cache entry: error getting cache key: %s
+unable to remove memcache entry for fingerpring '%s': %s
+ignoring non-string '%s' JSON field in '%s'
+mod_tls_memcache/0.2: missing required '%s' JSON field in '%s'
+ignoring non-number '%s' JSON field in '%s'
+closing memcache ocsp cache %p
+closing memcache session cache %p
+getting session from memcache cache %p
+error retrieving session from cache: %s
+unable to get cache entry: error getting cache key: %s
+no matching memcache entry found for session ID (%lu bytes)
+mod_tls_memcache/0.2: unable to decode invalid JSON session cache entry: '%s'
+error base64-decoding session data in '%s', rejecting
+mod_tls_memcache/0.2: error allocating tpl_map for format '%s'
+error loading TPL memcache session data
+error unpacking TPL memcache session data
+ignoring expired cached session data (expires %lu <= now %lu)
+retrieved session data from cache using %s
+adding session to memcache cache %p (expires = %lu, now = %lu)
+length of serialized SSL session data (%d) exceeds maximum size (%u), unable to add to shared memcache, adding to list
+error allocating tpl_map for format '%s'
+error marshalling TPL memcache session data
+error dumping marshalled TPL memcache session data
+error %s encoding session data: %s
+unable to set cache entry: error getting cache key: %s
+unable to add memcache entry for session ID (%lu bytes): %s
+stored session data in cache using %s
+error adding session to memcache: %s
+adding response to memcache ocsp cache %p
+length of serialized OCSP response data (%d) exceeds maximum size (%u), unable to add to shared memcache, adding to list
+error JSON encoding OCSP response data: %s
+unable to set ocsp cache entry: error getting cache key: %s
+unable to add memcache entry for fingerprint '%s': %s
+stored OCSP response data in cache using JSON
+error adding response to memcache: %s
+getting response from memcache ocsp cache %p
+error retrieving response from ocsp cache: %s
+unable to get ocsp cache entry: error getting cache key: %s
+no matching memcache entry found for fingerprint '%s'
+mod_tls_memcache/0.2: unable to decode invalid JSON ocsp cache entry: '%s'
+error base64-decoding OCSP data in '%s', rejecting
+retrieved response data from cache using JSON
+Cache lifetime responses stored
+Cache lifetime responses deleted
+Cache lifetime errors handling responses in cache
+Cache lifetime responses exceeding max entry size
+Largest response exceeding max entry size
+Cache lifetime sessions stored
+Cache lifetime sessions deleted
+Cache lifetime errors handling sessions in cache
+Cache lifetime sessions exceeding max entry size
+Largest session exceeding max entry size
+;*3$"
+mod_tls_memcache.so.debug
+7zXZ
+$]7@
+H)YF
+{Dj\
+"XP^
+7D~	
+%Shg
+oK&fIat+
+ 	6	N
+@lBj3
+!c]1
+Qw[2e
+*=*,
+ 4].AR
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

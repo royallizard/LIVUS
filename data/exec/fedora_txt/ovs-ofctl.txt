@@ -1,0 +1,8107 @@
+/lib64/ld-linux-x86-64.so.2
+D	[j
+libssl.so.10
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+SSL_get_error
+SSL_read
+SSL_get_verify_mode
+SSL_CTX_ctrl
+SSL_set_msg_callback
+SSL_CTX_use_PrivateKey_file
+SSL_connect
+SSL_CTX_load_verify_locations
+SSL_library_init
+SSL_want
+SSL_accept
+SSL_shutdown
+SSL_write
+SSL_CTX_check_private_key
+SSL_CTX_use_certificate_chain_file
+SSL_set_fd
+SSL_CTX_set_verify
+TLSv1_method
+SSL_state
+SSL_free
+SSL_load_error_strings
+SSL_CTX_set_tmp_dh_callback
+SSL_CTX_set_cert_store
+SSL_ctrl
+SSL_set_verify
+SSL_new
+SSL_get_peer_cert_chain
+SSL_CTX_new
+SSL_CTX_add_client_CA
+libcrypto.so.10
+X509_free
+X509_dup
+X509_digest
+sk_num
+DH_new
+RAND_seed
+PEM_read_X509
+RAND_status
+X509_check_issued
+X509_get_subject_name
+ERR_error_string
+ERR_get_error
+sk_value
+DH_free
+X509_verify_cert_error_string
+EVP_sha1
+BN_bin2bn
+X509_STORE_new
+PEM_write_X509
+ERR_clear_error
+X509_NAME_oneline
+CRYPTO_free
+libpthread.so.0
+pthread_setname_np
+pthread_cond_init
+pthread_rwlock_trywrlock
+pthread_mutex_destroy
+send
+pthread_self
+pthread_rwlock_wrlock
+pthread_sigmask
+pthread_mutex_init
+pthread_cond_wait
+pthread_cond_destroy
+pthread_mutexattr_settype
+pthread_rwlock_unlock
+recv
+fsync
+pthread_mutexattr_gettype
+__errno_location
+pthread_once
+raise
+pthread_mutex_lock
+pthread_mutexattr_init
+pthread_setspecific
+pthread_cond_signal
+fcntl
+pthread_rwlock_init
+pthread_create
+pthread_join
+sigaction
+pthread_getspecific
+fork
+pthread_rwlock_tryrdlock
+pthread_mutexattr_destroy
+pthread_key_create
+pthread_rwlock_rdlock
+pthread_cond_broadcast
+pthread_rwlock_destroy
+pthread_mutex_unlock
+sendmsg
+recvmsg
+waitpid
+pthread_mutex_trylock
+librt.so.1
+aio_suspend
+timer_settime
+aio_error
+aio_return
+timer_create
+aio_write
+clock_gettime
+libm.so.6
+floor
+libc.so.6
+epoll_create
+socket
+fflush
+__rawmemchr
+gmtime_r
+__printf_chk
+pathconf
+_IO_putc
+fopen
+strncmp
+ftruncate
+inet_aton
+optind
+strrchr
+pipe
+in6addr_any
+epoll_wait
+inet_ntop
+__stack_chk_fail
+__lxstat
+unlink
+putchar
+listen
+realloc
+abort
+stdin
+strtoll
+_exit
+socketpair
+getpid
+kill
+strspn
+inet_pton
+strftime
+__assert_fail
+localtime_r
+strtod
+strtol
+isatty
+fgets
+calloc
+strlen
+ungetc
+sigemptyset
+openlog
+getaddrinfo
+memset
+writev
+strstr
+strcspn
+bind
+chdir
+memcmp
+__syslog_chk
+getsockopt
+dup2
+poll
+__fprintf_chk
+sigaddset
+stdout
+fputc
+getrusage
+fputs
+strnlen
+memcpy
+fclose
+__vsnprintf_chk
+strtoul
+setsockopt
+malloc
+umask
+strcasecmp
+getpeername
+__ctype_b_loc
+getenv
+sscanf
+optarg
+stderr
+ioctl
+__snprintf_chk
+readlink
+fscanf
+setrlimit
+getopt_long
+execvp
+strncasecmp
+__fxstat
+strtoull
+fileno
+getcwd
+if_indextoname
+fwrite
+fread
+gettimeofday
+rename
+epoll_ctl
+__memcpy_chk
+sys_siglist
+strerror_r
+strchr
+getsockname
+__vfprintf_chk
+__strtok_r
+fdopen
+qsort
+sleep
+__cxa_finalize
+freeaddrinfo
+setsid
+__sprintf_chk
+__xstat
+getrlimit
+memmove
+_IO_getc
+strcmp
+__libc_start_main
+ferror
+sysconf
+__cxa_atexit
+__start_vlog_modules
+__stop_vlog_modules
+__start_coverage
+__stop_coverage
+_edata
+__bss_start
+_end
+netdev_linux_class
+in6addr_exact
+netdev_tap_class
+netdev_internal_class
+ofputil_n_flow_dump_protocols
+program_name
+flow_tun_flag_to_string
+ofputil_flow_dump_protocols
+set_dscp
+__libc_csu_init
+dpif_netdev_class
+dpif_linux_class
+__libc_csu_fini
+GLIBC_2.2.5
+GLIBC_2.3.3
+GLIBC_2.12
+GLIBC_2.3.2
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.14
+GLIBC_2.3.4
+%z|*
+%r|*
+%j|*
+%b|*
+%Z|*
+%R|*
+%J|*
+%B|*
+%:|*
+%2|*
+%*|*
+%"|*
+%z{*
+%r{*
+%j{*
+%b{*
+%Z{*
+%R{*
+%J{*
+%B{*
+%:{*
+%2{*
+%*{*
+%"{*
+%zz*
+%rz*
+%jz*
+%bz*
+%Zz*
+%Rz*
+%Jz*
+%Bz*
+%:z*
+%2z*
+%*z*
+%"z*
+%zy*
+%ry*
+%jy*
+%by*
+%Zy*
+%Ry*
+%Jy*
+%By*
+%:y*
+%2y*
+%*y*
+%"y*
+%zx*
+%rx*
+%jx*
+%bx*
+%Zx*
+%Rx*
+%Jx*
+%Bx*
+%:x*
+%2x*
+%*x*
+%"x*
+%zw*
+%rw*
+%jw*
+%bw*
+%Zw*
+%Rw*
+%Jw*
+%Bw*
+%:w*
+%2w*
+%*w*
+%"w*
+%zv*
+%rv*
+%jv*
+%bv*
+%Zv*
+%Rv*
+%Jv*
+%Bv*
+%:v*
+%2v*
+%*v*
+%"v*
+D$(1
+T$(dH3
+0[]A\A]A^
+D$81
+T$8dH3
+H[]A\A]
+AUATA
+5>n*
+ []A\A]A^
+=tl*
+fffff.
+fffff.
+L;|$
+[]A\A]A^A_
+ATUH
+D$h1
+D$ H
+U E1
+D$hdH3
+p[]A\
+AVAUATUSH
+[]A\A]A^
+AVAUATUSH
+L$ D
+L$XD
+[]A\A]A^
+AWAVAUATUSH
+l$ L
+t$@H
+D$`H
+L$XH
+[]A\A]A^A_
+fffff.
+AVAUATUSH
+t$ H
+[]A\A]A^
+AWAVAUATUSH
+d$0H
+D$PH
+t,<xu
+[]A\A]A^A_
+fff.
+AWAVAUATUSH
+l$ L
+t$@H
+D$`H
+L$XH
+[]A\A]A^A_
+fffff.
+AWAVAUATA
+l$ H
+\$@L
+5S[*
+=ne+
+[]A\A]A^A_
+fffff.
+AWAVI
+AUATU
+=XX*
+[]A\A]A^A_
+[]A\
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+AWAVAUA
+([]A\A]A^A_
+=aU*
+ffff.
+AVAUATUSH
+D$H1
+d$0A
+D$0H+D$ H
+D$8H+D$(
+D$HdH3
+X[]A\A]A^A_
+AVAUATU
+D$h1
+T$01
+D$@H
+D$8H
+D$PH
+D$,H
+D$8H
+D$PH+D$@H
+D$XH+D$HA
+|$0H
+t$8H
+D$8H9h 
+D$hdH3
+x[]A\A]A^A_
+AUATUSH
+D$h1
+T$ H
+L; t
+D$hdH3
+x[]A\A]
+CXH9
+[]A\
+t$PH
+ []A\
+[]A\
+ATUSH
+([]A\A]
+$u;H
+ []A\
+AWAVAUATI
+=UJ*
+=8J*
+tMD;|$
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+\$0L
+t$(L
+|$,H
+#l$,
+L; t
+[]A\A]A^A_
+L$(H
+fff.
+AWAVAUI
+D$(1
+D$ L
+D$ H
+L$(dH3
+8[]A\A]A^A_
+=KE*
+fff.
+AWAVA
+AUATUSH
+v?Hc
+[]A\A]A^A_
+=2D*
+ffff.
+AVAUATUSH
+D$(1
+T$ H
+|$ L
+|$ H
+D$(dH3
+8[]A\A]A^A_
+D$(1
+d$ H
+t$ H
+D$ I
+L$(dH3
+8[]A\A]A^A_
+D$ H
+D$ H
+AWAVAUATI
+l$ H
+[]A\A]A^A_
+[]A\
+AUATI
+ []A\A]A^
+AWHc
+AUATA
+[]A\A]A^A_
+AVAUATUSH
+t$PL
+d$ dH
+=.E+
+[]A\A]A^
+[]A\
+AWAVAUATUSH
+-SC+
+D$H1
+D$0I
+|$ H
+L$HdH3
+X[]A\A]A^A_
+ffffff.
+fffff.
+fffff.
+AWAVAUA
+ATUSH
+D$81
+L$ L
+|$(H
+=q?+
+504*
+D$8dH3
+H[]A\A]A^A_
+AWAVAUI
+D$(1
+D$(dH3
+8[]A\A]A^A_
+AWAVAUATU
+l$0H
+[]A\A]A^A_
+D$ f
+D$ f
+T$ H
+D$ H
+-W8+
+[]A\
+D$h1
+T$ H
+D$hdH3
+p[]A\
+AWAVAUATUSH
+D$pH
+L$hH
+[]A\A]A^A_
+AVAUATI
+l$pH
+\$HH
+|$(H
+El$p1
+L$@H
+|$HH
+D$@H
+|$<L
+|$(I
+|$HL
+=z(*
+|$PH
+|$ L
+|$@4
+fA;,$
+=q'*
+t$PL
+fA;,$
+[]A\A]A^A_
+T$(H
+T$(H
+T$(H
+fffff.
+AWAVAUI
+ATUSH
+T$0dH
+D$h1
+D$0M
+D$6f
+D$hdH3
+x[]A\A]A^A_
+D$H1
+L$HdH3
+[]A\
+AWAVAUA
+|$PdH
+D$4H
+D$hH
+D$8H
+D$pH
+\$ O
+T$ H
+[]A\A]A^A_
+ []A\
+ffffff.
+ffffff.
+ffffff.
+AWAVAUATUSH
+=$)+
+L$01
+t$`1
+t$0I
+D$8H
+D$(H
+H9\$(w
+[]A\A]A^A_
+[]A\
+[]A\
+AUATUSH
+D$(1
+T$ L
+D$(dH3
+8[]A\A]
+ATHc
+[]A\
+[]A\
+AWAVAUATUSH
+t$pL
+d$0H
+l$PdH
+[]A\A]A^A_
+~@SH
+ffffff.
+H#O0H
+t5H;
+o@SH
+H#K0H
+t=H;
+[]A\
+AUATI
+T$ I
+L$01
+[]A\A]
+[]A\A]
+L$0I
+T$ H
+ffffff.
+ffffff.
+v SH
+v SH
+}8[]
+ffffff.
+ffff.
+AVAUI
+ATUH
+A;T$t
+T$tA
+9Pdr
+;Pdv
+[]A\A]A^
+[]A\A]A^
+L$ L
+I#|$0H
+A;T$t
+|$@H
+} H!
+D$0I
+T$ I
+|$8H
+T$8H
+|$ H
+AVAUATI
+A\A]A^
+t$(H9
+CtD9Bdw
+D9@dv
+A\A]A^
+A\A]A^
+H#8H
+C0H#E
+H#S0H
+AWAVI
+o(ATI
+[]A\A]A^A_
+9Pdw
+9Hdv
+AUATL
+fPUSH
+9QpH
+[]A\A]
+[]A\A]
+\$ dH
+[]A\A]
+AWAVAUATUSH
+9xdI
+\$ H
+D$PH
+T$@H
+T$ I
+L$01
+H9D$
+@dA9
+dH3<%(
+[]A\A]A^A_
+L$0I
+t$ H
+n0SH
+|$ []A\
+ffff.
+ATUH
+[]A\
+[]A\
+[]A\
+ATUS
+u1[]A\A]A^
+[]A\
+[]A\H
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ATUH
+[]A\1
+[]A\
+ATUH
+[]A\A]
+T$@H
+H;\$H
+H9D$@
+Lcl$
+LcL$
+T$@H
+H9D$H
+H9D$@
+fff.
++t	H
+fffff.
+D$(1
+L$ H
+L$(dH3
+AVAUATUSH
+D$@H
+D$HH
+[]A\A]A^A_
+92tIH
+W	H9
+fffff.
+ffff.
+AVAUI
+ []A\A]A^
+D$ H
+ffff.
+fff.
+AVAUI
+3H90
+dH34%(
+[]A\A]A^
+ATUH
+[]A\
+ffff.
+[]A\A]
+[]A\
+[]A\A]
+[]A\A]
+[]A\A]
+fffff.
+fffff.
+[]A\
+fffff.
+AUATI
+([]A\A]
+ffffff.
+[]A\
+[]A\
+ffffff.
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+ffff.
+D$(1
+L$(dH3
+[]A\
+ffff.
+AUATU
+D$(1
+d$xL
+L$pH
+D$(dH3
+8[]A\A]A^A_
+AWAVAUI
+ATUSH
+T$,dH
+D$X1
+D$8L
+L$0H
+D$8I
+t$,H
+D$ L
+D$XdH3
+h[]A\A]A^A_
+ATUH
+[]A\
+[]A\
+[]A\A]A^A_
+ffff.
+D$H1
+L$ H
+D$(H
+D$hH
+D$0H
+D$pH
+T$HdH3
+T$pI
+L$xH
+\$(L
+T$ L
+D$pI
+D$xL
+8[]A\A]A^A_
+|$xH
+T$pL
+D$(M
+T$ I
+T$ L
+\$(u
+T$ L
+D$(1
+T$(dH3
+AWAVAUI
+[]A\A]A^A_
+fffff.
+ffff.
+AVAUATI
+D$(1
+L$(dH3
+0[]A\A]A^
+fffff.
+[]A\A]A^
+ffff.
+ffffff.
+AUATU
+[]A\A]
+[]A\A]
+[]A\
+fffff.
+fffff.
+AVAUI
+ATUH
+ []A\A]A^
+fffff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffffff.
+<^wD
+"t:I
+I;D$
+[]A\A]
+fff.
+AVAUI
+ATUH
+D$H1
+D$HdH3
+P[]A\A]A^
+[]A\
+AVAUI
+]A\A]A^
+[]A\
+fffff.
+AWAVA
+AUATUSH
+L;|$
+D$ H
+D$ H
+H)D$
+8[]A\A]A^A_
+@82t
+ H;-@
+[]A\
+fff.
+AUATUSH
+[]A\A]
+[]A\A]
+ffff.
+fff.
+fffff.
+ H9-"
+AVAUATUL
+D$h1
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`d
+t I9
+D$hdH3
+x[]A\A]A^A_
+D$ H
++tYA
+<tSA
+3t}A
+L$ H
+AWAVAUATU
+[]A\A]A^A_
+[]A\A]A^A_
+fffff.
+D$(1
+twf=
+t$(dH34%(
+@xA3@t
+tJf=
+fff.
+fffff.
+fffff.
+5tjf
+[]A\
+E0[]A\
+[]A\
+e8D)
+ATUH
+[]A\
+E([]A\
+E([]A\
+ATUH
+(;~(u>
+F,9C,u6
+[]A\
+fff.
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\
+AWAVAUE1
+|((E
+A\A]
+ffffff.
+AWAVI
+AUATU1
+([]A\A]A^A_
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+AUATI
+D$H1
+l$ H
+D$8L
+T$0L
+T$ H
+D$8~
+D$ I
+t$8H
+|$ I
+D$(I
+L$(H
+T$8I
+D$0L
+\$0H
+D$HdH3
+X[]A\A]
+D$ H
+T$ H
+fffff.
+fff.
+w3E1
+fff.
+ATUS
+dH3<%(
+([]A\A]
+fffff.
+ffff.
+ffffff.
+ffffff.
+t%H;
+dH34%(
+H9h u
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+t$8H
+|$0E1
+d$8L
+t$0L
+Et$(D
+fffff.
+[]A\
+[]A\
+[]A\
+[]A\
+fff.
+[]A\
+[]A\
+ffffff.
+ATUS
+[]A\
+[]A\
+ffffff.
+tHf=
+tBf=
+5t<f=
+fffff.
+fffff.
+AUATUS
+[]A\A]
+ffffff.
+fff.
+ffffff.
+fff.
+fff.
+ffffff.
+fff.
+ffffff.
+ffffff.
+ffff.
+ffffff.
+ffff.
+fff.
+ffffff.
+fff.
+ffffff.
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+u0[]
+fff.
+u0[]
+fff.
+ffff.
+u0[]
+ffff.
+[]A\A]
+[]A\
+[]A\
+=(s*
+9+uY
+s@;s0t
+=/r*
+:9~@
+:9~0u
+9~4u
+9~8u
+:9~ u
+ffff.
+=td)
+=Hd)
+=sc)
+=Mc)
+dH34%(
+ffffff.
+[]A\A]
+:wzH
+[]A\A]
+[]A\A]
+=XP)
+[]A\
+AWAVI
+AUATUSH
+T$`H
+L$hu
+D$pH
+t$xH
+D$HH
+T$XH
+L$PH
+T$HH
+L$hL
+|$`H
+T$`H
+[]A\A]A^A_
+|$`Hc
+t$h@
+D$`H
+L$HH
+L$hH
+D$HH
+T$`L
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+T$hH
+|$pL
+t$HH
+D$hH
+|$`1
+|$h1
+D$`H
+D$hf
+D$hfD
+L$hH
+D$hA
+([]A\A]
+[]A\A]
+s?:P	u
+D$(1
+D$(dH3
+0[]A\A]A^
+AUATUH
+l$ dH
+D$81
+D$8dH3
+H[]A\A]A^A_
+ATUH
+D$(1
+D$(dH3
+0[]A\
+fff.
+fff.
+AWAVAUATUSH
+L$(1
+t2<[
+[t<H
+L$(dH3
+8[]A\A]A^A_
+\$ H
+L$$H
+[]A\
+[]A\
+AUD!
+dH3<%(
+([]A\A]A^A_
+t5H;
+ffffff.
+=b9)
+O I9
+5K8)
+=Q>*
+=67)
+=t=*
+=J5)
+=M4)
+-t4)
+=[;*
+5^3)
+AVAUATUH
+D$(1
+t$(dH34%(
+0[]A\A]A^
+5V2)
+=a8*
+AWAVI
+=S0)
+=00)
+[]A\A]A^A_
+=X6*
+ffffff.
+=	.)
+fff.
+D$(1
+L$(dH3
+=L.)
+fff.
+ffff.
+=p,)
+[]A\
+ATUSH
+[]A\A]
+=b+)
+=R+)
+[]A\A]
+fff.
+ATUSH
+;vlH
+ffff.
+ffff.
+fffff.
+fff.
+[]A\
+[]A\
+[]A\
+fff.
+=P))
+([]A\A]
+fffff.
+fffff.
+ffffff.
+dH34%(
+ATUSH
+[]A\
+ffffff.
+ffff.
+fff.
+ffff.
+[]A\H
+fffff.
+fff.
+AVAUATUSH
+|$ H
+t$81
+D$(H
+F0thA
+H;\$0
+H9\$0
+@ +D$(H
+t$8dH34%(
+H[]A\A]A^A_
+$$E1
+T$ H
+H;\$0
+T$ H
+T$ H
+T$ H
+ffffff.
+[]A\
+ffffff.
+[]A\
+ffffff.
+[]A\A]A^A_
+AUATI
+D$ +
+[]A\A]A^A_
+fff.
+fffff.
+ATUH
+[]A\
+fffff.
+AWAVA
+AUATUSH
+D$(1
+H;D$ 
+H;D$ sTH
+H;D$ 
+L$(dH3
+8[]A\A]A^A_
+AWAVAUM
+T$/H
+D$0H
+D$`H
+D$8H
+D$pH
+D$ H
+[]A\A]A^A_
+t$0L
+|$8H
+t$8L
+|$@J
+t$@L
+l$HL
+d$PD
+l$XM
+l$HC
+d$PL
+T$@H
+t$8L
+D$ H
+T$ H
+t$8L
+l$HL
+d$PL
+AUATUSH
+[]A\A]
+]A\A]
+AVAUI
+A\A]A^A
+[]A\A]A^A_
+fffff.
+ffff.
+AUATI
+([]A\A]
+fffff.
+ATUH
+[]A\
+ffff.
+[]A\
+[]A\
+?w(L
+AUATUH
+D$(1
+D$(dH3
+8[]A\A]
+C t2H
+[]A\
+fff.
+fffff.
+AWAVAUATI
+D$81
+D$8dH3
+H[]A\A]A^A_
+t$(H
+L$ H
+D$H1
+l$0L
+D$HdH3
+X[]A\A]
+ffff.
+D$H1
+t$0H
+D$HdH3
+P[]A\
+ffff.
+D$(1
+D$(dH3
+8[]A\A]
+ffff.
+ATUH
+D$(1
+D$(dH3
+0[]A\
+fff.
+[]A\A]A^
+fff.
+AUATUH
+x3Hc
+[]A\A]
+[]A\A]
+ATUH
+fffff.
+AVH9
+[]A\A]A^
+]A\A]A^
+P&t6
+Sv91
+AWAVAUATUSH
+D$H1
+D$@H
+Lcl$ H
+D$@	D$$
+<)t6
+L$HdH3
+X[]A\A]A^A_
+	\$$B
+AWAVI
+AUATI
+[]A\A]A^A_
+T$xL
+D$pH
+D$hH
+D$`H
+D$XH
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+D$8H
+D$0H
+D$(H
+D$ H
+D$xH
+D$pH
+D$hH
+D$`H
+D$XH
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+|$@H
+D$8H
+D$0H
+D$(H
+D$ H
+|$ 1
+T$xH
+T$pH
+T$`H
+D$hH
+T$XH
+D$@H
+T$PH
+T$HH
+T$ H
+D$8H
+D$0H
+D$(H
+l$@L
+T$0H
+D$8H
+T$(H
+T$ H
+\$(H
+t$8H
+|$PH
+\$HH
+t$0H
+t$ H
+D$@H
+\$hH
+l$`H
+|$pH
+D$xH
+D$XH
+D$PH
+\$@H
+D$HH
+\$ H
+D$8H
+D$0H
+D$(I
+l$ H
+\$XH
+D$xH
+D$pH
+D$hH
+D$`H
+\$(H
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+|$PI
+l$ H
+D$HL
+D$@L
+D$8L
+D$0L
+D$(H
+|$PH
+D$HH
+l$ L
+D$@H
+D$8H
+D$0H
+D$(H
+L$PH
+|$ I
+D$xH
+D$pH
+D$hH
+D$`H
+D$XH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+|$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+AVAUATUSH
+D$81
+t$8dH34%(
+H[]A\A]A^A_
+AVAUATI
+[]A\A]A^
+I;D$
+AVAUATUH
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+AWAVAUATI
+[]A\A]A^A_
+v%Hc
+[]A\A]A^A_
+AWAVAUATM
+t$ H
+l$0H
+t|L9|$ 
+I;D$
+[]A\A]A^A_
+D$-H
+ D$-
+D$.E1
+I;D$
+AWAVA
+AUATI
+[]A\A]A^A_
+\$xE
+\$	D
+D$hA
+D$`A
+D$XL
+D$PD
+D$H@
+D$8H
+|$ H
+D$(@
+T$ M
+t$HH
+D$@H
+D$8A
+D$(A
+d$hD
+D$pA
+D$XL
+D$PD
+D$H@
+D$8H
+|$ H
+D$(@
+l$@D
+L$xD
+L$pE
+L$hE
+D$PD
+D$HA
+|$0@
+L$XD
+T$xD
+T$pD
+T$hD
+T$`D
+T$XD
+T$PD
+T$HD
+T$@D
+T$8D
+|$ H
+D$(@
+D$ @
+|$(@
+fffff.
+AWAVAUATUH
+L$H1
+tsH9D$
+D$HdH3
+X[]A\A]A^A_
+D$0H
+D$ H
+|$@I
+l$@M
+t)E1
+T$"D
+L$,H
+L$$H
+D$ f
+T$$H
+D$"D
+D$$H
+AWE1
+D$H1
+@t/M
+D$HdH3
+X[]A\A]A^A_
+fffff.
+AUH!
+SugH
+[]A\A]A^
+[]A\A]A^
+\$hL
+5ugL
+[]A\A]D
+A^A_
+([]A\A]A^A_
+[]A\A]A^A_
+AVAUI
+\$PH
+L$8L
+D$(L
+[]A\A]A^A_
+t$8H
+T$0M
+t$8@
+T$(L
+D$0H
+T$0H
+L$0H
+t$8A
+D$0H
+T$0H
+D$0H
+|$8H
+t$(H
+|$@H
+D$@ A
+ t	H
+T$HH
+T$HH
+|$xA
+L$@L
+D$,H
+t$@H
+T$HM
+T$,I
+t$@L
+L$XH
+L$0fA
+t$8H
+fffff.
+fffff.
+AVAUI
+[]A\A]1
+[]A\A]A^
+AUATI
+]A\A]A^
+AWAVI
+AUATUH
+[]A\A]A^A_
+D$XL
+|$TH
+|$XL
+D$`H
+L$LL
+D$PH
+D$ I
+D$Lt
+|$XL
+D$TH
+L$xH
+L$(H
+L$pH
+D$0I
+|$XL
+Hct$T1
+L$0H
+T$(H
+D$pD
+T$ f
+L$0H
+T$(H
+D$0H
+L$(H
+T$81
+D$0H
+L$(H
+T$81
+AVAUI
+[]A\A]1
+t$ ]A\A]
+fffff.
+ATUH
+[]A\
+fff.
+fff.
+ATUSD
+[]A\
+[]A\
+D$H1
+EP9CPt%A
+D$HdH3
+X[]A\A]A^A_
+T$ fA
+E 9C 
+D$ H
+T$ H
+D$(H
+D$0H
+D$D1
+=Hr(
+Et9Ct
+=[p(
+Ex9Cx
+E$9C$
+E(9C(
+E,9C,
+E09C0
+E49C4
+E89C8
+E<9C<
+E|9C|
+wMf=
+	t4f=
+ffff.
+ []A\A]A^
+=bk(
+fffff.
+ATUS
+[]A\
+[]A\H
+E D)
+U D)
+[]A\
+[]A\
+[]A\H
+[]A\H
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+[]A\
+?&w3
+ffff.
+[]A\
+AWAVAUI
+ATUH
+[]A\A]A^A_
+=ka(
+@wgH
+[]A\A]
+[]A\A]
+=t`(
+$7UH
+;%w0
+[]A\A]
+AUATL
+$7UH
+j s4
+E L)
+[]A\A]
+AVAUL
+,7ATUSH
+f+T$
+[]A\A]A^A_
+ffff.
+fff.
+AWAVAUI
+D$81
+D$ M
+s2M9
+D$8dH3
+H[]A\A]A^A_
+[]A\
+fff.
+_(H9
+fffff.
+AWAVI
+AUATI
+@[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+D$(1
+[]A\A]
+ffffff.
+AVAUATUSH
+Gt)f=
+ []A\A]A^
+l$(A;m
+=zH(
+v5f=
+tjf=
+tsf=
+vef=
+:vo1
+D$H1
+\$HdH3
+P[]A\
+D$ H
+l$0H
+l$8H
+=U9(
+= 9(
+L$ H
+=i8(
+@tlH
+ffff.
+([]A\A]A^A_
+t;v)
+AUATL
+~t&I
+@[]A\A]
+[]A\A]
+[]A\I
+tSv9
+tSv9
+tSv9
+AUATUH
+[]A\A]
+T$@H
+t$8H
+ffffff.
+@:w	w
+fffff.
+fff.
+AUATUS
+[]A\A]A^
+D$	A
+[]A\A]A^H
+t5H;
+ []A\
+ttr*<
+fffff.
+AWAVI
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+d$ dH
+D$81
+L$8dH3
+@[]A\A]A^
+t$ I
+C8t[
+u.A9
+D$h1
+L$hdH3
+ffff.
+[]A\A]A^
+[]A\A]A^
+AUATU
+[]A\A]A^
+D$(1
+tRrH
+L$(dH3
+fff.
+pP[]
+AVAUI
+ []A\A]A^
+fff.
+AVAUATI
+[]A\A]A^
+[]A\A]
+[]A\A]
+fff.
+[]A\
+[]A\
+ATUSH
+[]A\
+[]A\
+ATUSH
+[]A\
+AWAVAUATM
+|$8H
+t$0dH
+d$0H
+T$(H
+t$0H
+|$81
+[]A\A]A^A_
+l$(H
+k fD
+\$BfD
+t$hL
+t$0H
+T$DH
+T$Df
+\$pL
+l$HL
+d$hL
+|$HA
+|$hH
+D$`H
+d$hL
+T$@H
+T$@1
+l$hA
+d$hH
+|$hH
+T$AH
+T$A1
+l$XL
+d$hL
+t$XH
+D$ I
+D$`L
+$$pH
+T$BH
+d$hH
+T$BH
+T$Bf
+L$Ff
+t$HA
+D$FL
+d$hL
+l$`L
+t$PA
+D$HH
+D$XH
+D$`H
+8iua
+|$hH
+T$BH
+|$hH
+|$hL
+t$hH
+t$hH
+|$hL
+T$h1
+t$ H
+T$HH
+T$H1
+T$Ff
+t$hL
+D$hA
+T$Hf
+t$`H
+GPA!
+AUATUSH
+D$(D
+|$(H
+d$`H
+|$(H
+D$@H
+D$HH
+D$xH
+D$PD
+[]A\A]A^A_
+D$@H
+D$8H
+\$8H
+D$hH
+D$xH
+D$ H
+D$pH
+D$hH
+T$ H
+L$@H
+\$8H
+D$Ht
+D$pA
+D$0A
+T$xH
+t$pM
+|$hE
+L$0H
+L$@H
+T$HI
+T$@H
+#D$0A
+T$P1
+T$xH
+T$HH
+D$@H
+t$pH
+\$8H
+D$@H
+\$8H
+T$0H
+t$pH
+t$pH
+AWAVAUI
+t$0dH
+l$(H
+[]A\A]A^A_
+AVAUATUSH
+D$x1
+l$@L
+D$HL
+|$(L
+D$`H
+D$PH
+D$ H
+\$xdH3
+[]A\A]A^A_
+D$HL
+L$8H
+T$ I
+T$0H
+|$(H
+t$ L
+T$8H
+#D$8H
+|$(H
+AWAVAUATI
+D$(1
+|$ A
+T$ H
+L$(dH3
+8[]A\A]A^A_
+AWAVAUM
+ATUH
+T$H1
+d$0L
+|$ L
+D$$H
+D$$A!E
+D$(H9
+L;0t
+T$HdH3
+X[]A\A]A^A_
+L9+H
+$L;0t
+T$ H
+[]A\
+AVAUATUSH
+D$X1
+t$0L
+l$(L
+d$ L
+D$ H
+D$@H
+|$(L
+t$0H
+L$XdH3
+h[]A\A]A^A_
+T$(H
+T$(H
+T$(H
+T$(H
+fff.
+fffff.
+ffff.
+t)v_
+ w{H
+ffff.
+ u	H
+ffffff.
+AUATA
+D$(1
+D$(dH3
+8[]A\A]
+ffffff.
+ffff.
+ffffff.
+[]A\
+[]A\
+L$Xt:
+)D$`
+)L$p
+D$(1
+D$(dH3
+D$0H
+[]A\
+AWAVAUATUSH
+l$@L
+T$8H
+t$0H
+ t&H;C
+t$0H
+|$(H
+[]A\A]A^A_
+ATUH
+fE9e
+fE9e
+[]A\A]A^
+]A\A]A^
+fff.
+AVE1
+AUE1
+ATUSH
+ tIA
+[]A\A]A^A_H
+([]A\A]A^A_
+[]A\A]A^A_
+ATUH
+D$81
+d$ H
+T$(H
+D$8dH3
+@[]A\
+AWAVI
+[]A\A]A^A_
+fff.
+AUATUSH
+l$pH
+T$pH
+t$tH
+|$xH
+[]A\A]
+\$ H
+H;D$
+D$`H
+D$`H
+D$`H
+AVAUATA
+D$X1
+l$@E1
+l$@E1
+D$ A
+D$ A
+t$XdH34%(
+h[]A\A]A^A_
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+l$@H
+l$@H
+l$@H
+l$@H
+l$@H
+l$@H
+l$@H
+l$@H
+l$@H
+fffff.
+AVAUATUH
+[]A\A]A^A_
+ t(H
+AUATUSH
+l$pI
+[]A\A]
+fffff.
+tlvR
+ffffff.
+AWAVI
+AUATUH
+\$@H
+\$@H
+[]A\A]A^A_
+\$@H
+\$@H
+|$<H
+l$<H
+\$@D
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$`H
+T$HH
+D$HH
+D$HH;D$Pr
+D$`H
+D$(H
+T$ H
+t$(H
+D$HH;D$P
+T$HH
+D$HH
+T$`H
+T$dH
+T$hH
+T$pH
+t$xH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+D$HH;D$P
+T$HH
+D$HH
+t$ H
+d$(H
+t$ A
+D$ H
+D$HH;D$P
+T$HH
+D$HH
+t$ H
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$Ps)H
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$P
+T$HH
+D$HH
+ tmD
+D$HH;D$P
+T$HH
+D$HH
+ t2D
+D$HH;D$P
+T$HH
+D$HH
+t$ D
+D$HH;D$P
+T$HH
+D$HH
+D$HH;D$Ps8H
+T$HH
+D$HH
+fffff.
+fff.
+t*9P
+ffffff.
+[]A\A]
+]A\A]A^
+[]A\
+ATUH
+[]A\A]
+[]A\A]
+fffff.
+AVAUATI
+tef=
+5t_f=
+T$8H
+D$0H
+D$ H
+T$(E
+T$HH
+D$@E
+[]A\A]A^A_
+tU<:
+=ZA(
+t7f=
+ffff.
+[]A\
+AUATE1
+[]A\A]
+ffff.
+@wGH
+ffff.
+ffff.
+@wWH
+ATU1
+St,A
+t3f.
+fffff.
+@woH
+@wqH
+AUATUS
+-M('
+H;D$
+dH34%(
+([]A\A]
+AWAVAUATUSH
+D	l$
+([]A\A]A^A_
+D	l$
+AWAVE1
+ATUS1
+[]A\A]A^A_
+fff.
+ATE1
+A\A]A^
+tGv-
+ffffff.
+ffffff.
+ATUSH
+D$h1
+t@E1
+T$ H
+L$hdH3
+x[]A\A]
+=o+(
+fff.
+ffff.
+AVAUATI
+[]A\A]A^
+[]A\A]A^
+$]A\A]A^
+D$h1
+t$ H
+L$hdH3
+p[]A\
+ffffff.
+[]A\
+[]A\
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+fff.
+P$t_A
+[]A\A]
+]A\A]
+AWAVI
+ATUSH
+[]A\A]A^A_
+ffffff.
+AVAUATA
+]A\A]A^
+D$*H
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+ffff.
+AVAUATUSH
+dH34%(
+[]A\A]A^A_
+D$h1
+|$hdH3<%(
+[]A\
+T$8f
+[]A\
+fff.
+AVAUATUSH
+[]A\A]A^A_
+D$ H
+D$pH
+|$p@
+D$ H
+D$pH
+D$xH
+T$ H
+AWAVAUATUSH
+HcO4dH
+[]A\A]A^A_
+fff.
+([]A\A]
+t/r%
+ffffff.
+AUATI
+t<r*@
+[]A\A]
+tHr>
+[]A\
+t[rQ
+fff.
+D$h1
+L$hdH3
+AVAUI
+ATLc
+[]A\A]A^A_
+A	O$H
+D$(H
+D$DH
+D$HH
+AVAUI
+ATUSH
+A\A]A^
+]A\A]A^f
+A\A]A^
+AUATUH
+[]A\A]
+AVAUI
+]A\A]A^
+]A\A]A^
+D$(I
+fffff.
+uP[]
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+ATUSH
+M D)
+fffff.
+D$h1
+T$ H
+T$ H
+L$hdH3
+t-r#
+fffff.
+ffff.
+AUATI
+D$(1
+T$ 1
+D$$f
+D$&<
+t$(H
+t[f=
+t_f=
+5tYf=
+T$PI
+t$HH
+|$(dH3<%(
+8[]A\A]
+T$0A
+t$,H
+T$8A
+t$4H
+t>w4<
+D$>f
+t$<H
+t$>H
+t$*@
+t$+H
+D$<f
+tGfA
+AWAVAUA
+v(dH
+([]A\A]A^A_
+D$ H
+ATUSH
+D$h1
+@t!H
+L$hdH3
+p[]A\
+T$ H
+L$ H
+[]A\A]
+[]A\A]
+D$h1
+L$hdH3
+AVAUI
+ATUSH
+D$h1
+L$hdH3
+p[]A\A]A^
+D$ H
+ffff.
+D$h1
+@txH
+L$hdH3
+fffff.
+AWAVA
+D$x1
+L$xdH3
+[]A\A]A^A_
+t$0L
+t$0L
+t$0L
+ffffff.
+AVE1
+AUATUH
+D$81
+L$8dH3
+@[]A\A]A^
+ffff.
+S4[]A\
+D$h1
+L$hdH3
+p[]A\
+F t"r
+[]A\A]
+[]A\A]
+ffffff.
+ffff.
+ffffff.
+ffffff.
+ffff.
+ffff.
+ffff.
+# fD
+# fD
+# fD
+# fD
+fffff.
+fffff.
+fff.
+# fD
+# fD
+# fD
+fff.
+# fD
+# fD
+# fD
+# fD
+# fD
+fffff.
+# fD
+# fD
+# fD
+# fD
+fffff.
+# fD
+# fD
+# fD
+# fD
+fffff.
+# fD
+# fD
+# fD
+# fD
+fffff.
+# fD
+# fD
+fff.
+AWAVAUI
+=uOL
+[]A\A]A^A_
+(t>1
+[]A\A]A^1
+(t&f
+tSrI
+fffff.
+D$h1
+t$hdH34%(
+fff.
+ATUH
+v(dH
+dH3<%(
+[]A\
+fff.
+ffff.
+t-r#<
+tZrP
+ffffff.
+D$h1
+t$hdH34%(
+fff.
+ATUH
+v(dH
+[]A\
+U$f.
+fff.
+ffffff.
+ffff.
+AVAUI
+SH[]A\A]A^
+ffff.
+ffff.
+H+G 
+W H)
+fffff.
+ATUH
+G H9
+[]A\
+AWAVAUI
+ATUSH
+w dH
+C L)
+[]A\A]A^A_
+[]A\
+[]A\
+AUATUSH
+[]A\A]
+fff.
+[]A\
+k H)
+[]A\
+ffff.
+[]A\
+H;W w
+H;W w
+H9w r
+ffff.
+ []A\
+ATUSH
+[]A\A]
+ffff.
+ffff.
+ffff.
+[]A\
+fffff.
+fff.
+[]A\A]
+AVAUATA
+[]A\A]A^
+ffffff.
+ATE1
+[]A\A]
+[]A\
+fff.
+ffffff.
+ffffff.
+fffff.
+ffff.
+[]A\
+[]A\
+H+W(f
+[]A\
+fffff.
+fffff.
+[]A\
+fff.
+dH34%(
+fff.
+u/Hc
+[]A\A]A^A_
+[]A\A]A^
+AWAVAUATI
+|$PM
+[]A\A]A^A_
+K@H)
+r?H)
+3fA9
+[]A\
+3fA9
+[]A\
+[]A\
+fff.
+AVAUATUH
+[]A\A]A^A_
+fff.
+AWAVA
+ATUH
+([]A\A]A^A_
+D;=$
+[]A\A]
+H;X }
+H9X ~
+ATUH
+H;D$
+tg<"t#<\t
+H;D$
+H;D$
+H;D$
+tUI9
+H;D$
+([]A\A]
+fffff.
+fff.
+D$81
+L$8dH3
+ffff.
+[]A\
+%0}'
+=K}'
+AVAUATUH
+dH3<%(
+[]A\A]A^A_
+AUATUH
+[]A\A]
+[]A\A]
+[]A\A]
+=jy'
+AVAUATUSH
+D$(1
+D$(dH3
+0[]A\A]A^
+ffff.
+ffffff.
+[]A\
+[]A\
+ffff.
+t<H;h
+(H;k u#H
+C(H9
+=Mt'
+=&t'
+=Bt'
+ffffff.
+=^s'
+=Os'
+AVAUATUH
+=$s'
+[]A\A]A^
+t";j
+L;`8
+=9q'
+=!q'
+AUATI
+tEH;
+[]A\A]
+[]A\A]
+ffffff.
+ffff.
+[]A\A]
+[]A\
+t3H#
+fffff.
+[]A\
+t*H#
+fffff.
+[]A\
+ATUH
+[]A\A]
+ATUH
+[]A\H
+[]A\
+fff.
+ATUH
+[]A\
+AUATI
+tEH;
+[]A\A]
+[]A\A]
+ffffff.
+ffff.
+[]A\A]
+[]A\
+t3H#
+fffff.
+AUATI
+[]A\A]A^
+[]A\A]
+fffff.
+AUATUS
+[]A\A]A^
+[]A\A]A^
+[]A\
+fffff.
+fff.
+ATUH
+[]A\
+fff.
+ffff.
+dH34%(
+[]A\
+AUATI
+tEH;
+[]A\A]
+[]A\A]
+ffffff.
+ffff.
+[]A\A]
+AUATI
+A\A]A^H
+AVAUATI
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+[]A\A]A^
+AVAUI
+ATUSH
+[]A\A]A^A_
+[]A\A]L
+A^A_
+fffff.
+[]A\
+fffff.
+fff.
+AVAUATI
+[]A\A]A^
+ATUH
+[]A\
+[]A\
+=HZ'
+ []A\
+ATUH
+[]A\A]
+\$"1
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+AWAVAUI
+=xU'
+=MU'
+[]A\A]A^A_
+=eT'
+=2T'
+ffffff.
+=yR'
+fff.
+=iR'
+=<R'
+D$H1
+L$HdH3
+P[]A\
+ATUSH
+[]A\A]
+=bO'
+[]A\
+ffffff.
+[]A\
+AWAVI
+AUATUH
+=oM'
+=FM'
+dH34%(
+[]A\A]A^A_
+d$ H
+fffff.
+AVAUI
+[]A\A]A^
+=iJ'
+=@J'
+D$(1
+L$(dH3
+8[]A\A]A^A_
+=UH'
+ATUSH
+[]A\A]A^
+=yF'
+ATUH
+D$81
+=|E'
+=QE'
+L$ L
+T$(M
+D$"H
+L$8dH3
+H[]A\A]A^A_
+={D'
+=hD'
+ v(D
+=3D'
+=iC'
+=;C'
+=*B'
+[]A\A]
+[]A\A]
+[]A\A]
+ffffff.
+~'H)
+[]A\A]D
+[]A\A]D
+ATUS
+=l@'
+=A@'
+fff.
+T$XH
+T$`H
+AUATU
+D$8%
+D$8H
+H;D$
+[]A\A]
+ffff.
+ffff.
+AVAUA
+ATUSH
+D$h1
+t$0D
+l$@H
+\$HH
+T$X1
+L$hdH3
+p[]A\A]A^
+AWAVI
+AUATUSH
+|$pH
+D$(1
+D$ M
+~wHc
+~gHc
+T$ I
+L$(dH3
+8[]A\A]A^A_
+fffff.
+AWE1
+([]A\A]A^A_
+AUATUH
+d$ H
+l$`H
+d$pH
+D$x0
+|$xI
+l$pM
+=_6'
+L9#w
+dH34%(
+[]A\A]A^A_
+=e5'
+fffff.
+=#2'
+=]4'
+fff.
+[]A\A]
+[]A\A]
+t-H;
+[]A\A]A^
+AUATI
+[]A\A]
+ffff.
+AUATUH
+[]A\A]
+A\A]
+ffff.
+[]A\A]
+ffffff.
+fff.
+fffff.
+fffff.
+fff.
+fff.
+AUATI
+t	[]A\A]A^
+[]A\A]1
+[]A\
+55?&
+=VR'
+=JR'
+=FQ'
+D$(1
+=mP'
+D$(dH3
+=V*'
+=-*'
+=bO'
+ffff.
+s`Hc;[
+ffff.
+=3M'
+ffffff.
+AUATI
+=VL'
+SHH=
+]A\A]
+=&L'
+ffffff.
+=5K'
+ffffff.
+=eK'
+dH3<%(
+=SJ'
+AWAVAUI
+ATLc
+D$ H
+t$ 1
+dH34%(
+[]A\A]A^A_
+EhH9
+upH9
+=R '
+E8Mi
+u@Hi
+u0Li
+L+EpH
+dH3<%(
+ffffff.
+[]A\A]
+8#u!H
+[]A\
+[]A\
+fff.
+AUATUH
+[]A\A]
+ATUS1
+([]A\A]
+fffff.
+[]A\A]A^A_
+[]A\A]A^A_
+fffff.
+AUATI
+[]A\A]
+fffff.
+AWAVAUATI
+D$X1
+l$@H
+D$8I
+H;\$
+D$ H
+t$8M
+D$XdH3
+h[]A\A]A^A_
+|$(H
+t$ L
+M9<$w
+t$HE1
+ffffff.
+UStDH
+[]A\
+ATUSH
+[]A\A]A^
+<$E1
+AWAVM
+AULc
+L$(1
+T$ H
+L$(dH3
+8[]A\A]A^A_
+D$ H
+|$ I
+|$ H
+ATUH
+[]A\
+ffffff.
+AUATUSH
+[]A\A]
+[]A\L)
+#[]A\
+AUATA
+[]A\A]A^A_
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+fff.
+ATUH
+[]A\A]
+ffff.
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fffff.
+ffff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffffff.
+AVAUI
+=m-'
+[]A\A]H
+[]A\A]H
+ATUS
+=w,'
+=y,'
+=n,'
+[]A\
+AWAVAUATUSH
+L;t$
+L)t$
+([]A\A]A^A_
+ffffff.
+AVAUA
+[]A\A]A^
+ffffff.
+fffff.
+ffffff.
+fffff.
+AUATI
+"t"H
+[]A\A]
+6wxH
+ATUStBH
+[]A\A]
+]A\A]
+"u:H
+<3/u H
+<3/t$H
+ffffff.
+fff.
+AWAVI
+AUATUS
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATA
+D$(%
+[]A\A]A^A_
+fff.
+fffff.
+fff.
+ffff.
+ffff.
+ffff.
+,7A)
+[]A\
+[]A\
+AWAVAUI
+ATUH
+t.<:u
+[]A\A]A^A_
+AWAVAUI
+ATUH
+t.<:u
+[]A\A]A^A_
+ATUSH
+[]A\
+[]A\
+[]A\
+[]A\H
+AUATUH
+([]A\A]A^A_
+fff.
+fffff.
+fff.
+fff.
+fff.
+fff.
+AWAVAUI
+ATUSH
+D$$H
+\$PH
+l$(A
+D$0H
+[]A\A]A^A_
+D$(H
+D$(I
+D$(1
+ffff.
+AUATI
+D$(1
+L$(dH3
+8[]A\A]
+t$ H
+D$ u
+ffffff.
+dH34%(
+([]A\A]
+ffffff.
+ []A\A]A^
+fff.
+ffffff.
+AUATI
+[]A\D
+[]A\A]
+ffff.
+AWAVAUI
+ATUH
+D$(1
+D$ H
+D$ H
+L$(dH3
+8[]A\A]A^A_
+ATUH
+{PL9
+[]A\A]A^
+[]A\A]A^
+AUATUH
+([]A\A]A^A_
+ffffff.
+fffff.
+fff.
+fff.
+ATLc
+[]A\H
+[]A\H
+ffff.
+[]A\
+[]A\
+tL<}tH1
+[]A\
+AWAVAUM
+ATUS
+D$8H
+D$(H
+D$PH
+%thI
+[]A\A]A^A_
+|$ H
+L$(H
+fff.
+ATUSH
+[]A\A]
+]A\A]
+AWAVA
+AUATUSH
+uIH9
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\H
+[]A\
+fffff.
+ffff.
+AVAUATUSH
+D$X1
+T$HH
+D$HH
+D$HH;D$P
+D$ L
+H9\$(w
+t$XdH34%(
+h[]A\A]A^A_
+AWAVAUATUH
+D$81
+D$(H;D$0
+T$(H
+D$(H
+T$(H
+t$ H
+D$8dH3
+H[]A\A]A^A_
+D$(H;D$0
+T$(H
+D$(H
+ffff.
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ATUSH
+[]A\
+H9D$
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+AWAVAUATUH
+[]A\A]A^A_
+E+L$ A
+E+|$
+\$(L
+D$ L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+[]A\
+[]A\
+ffffff.
+t$pH
+[]A\
+ffffff.
+fff.
+U`Hc
+s1f.
+MXHc
+ffff.
+AWAVI
+AUATUSH
+L$0H
+l$`1
+L$ 9
+AhLch
+T$ I
+[]A\A]A^A_
+L+p`H
+L$ H
+|$8L
+L$(I
+|$8M
+|$@I
+|$@I
+D$PL
+L$(I
+	9H 
+USH9
+D;cXr&H
+[]A\
+[]A\
+tgvu
+AUATUH
+\$@H
+[]A\A]A^
+|$8H
+|$8H
+|$ H
+|$(1
+AWAVAUATUH
+D$(H
+D$ I
+D$0H
+D$8I
+D$@I
+D$Ht
+L;l$
+D$(H
+\$ L
+L;d$
+[]A\A]A^A_
+[]A\A]A^
+AUATI
+[]A\A]
+[]A\A]
+[]A\A]
+fff.
+l$ dH
+AVAUATA
+wpdH
+D;gXI
+ []A\A]A^
+AWAVAUI
+L$0H
+D$(L
+D$ dH
+L$8H
+D$@H
+L$0H
+L$ H
+L$8H
+t$(1
+[]A\A]A^A_
+t$XL
+D$h1
+t$hdH34%(
+ATUH
+D$h1
+T$hdH3
+p[]A\
+ATUSH
+D$81
+T$8dH3
+@[]A\
+fff.
+AUATUH
+\$ H
+[]A\A]A^
+AUATI
+[]A\A]
+[]A\A]
+fff.
+D$`1
+t$ L
+T$8H
+T$@H
+T$HH
+T$PH
+D$81
+t$8dH34%(
+AVAUATUSH
+\$@H
+[]A\A]A^A_
+AUATUH
+\$@H
+[]A\A]A^
+|$(H
+|$0H
+|$ 1
+|$ H
+AWAVAUATUH
+\$PL
+[]A\A]A^A_
+E 9D$
+D$PH
+D$ H
+ATUS
+l$@dH
+[]A\A]
+ffffff.
+dH3<%(
+[]A\
+t$PL
+L$TH
+T$XH
+D$TH
+D$ L
+ffffff.
+D$ 1
+D$(H
+D$0H
+D$8t
+fffff.
+\$ M
+L$PH
+L$XH
+[]A\
+fffff.
+AUATUH
+[]A\A]
+[]A\A]
+AWAVAUATUH
+D$H1
+9]Xw
+D$HdH3
+X[]A\A]A^A_
+AWAVAUI
+ATUH
+-}y%
+EpyV
+[]A\A]A^A_
+d$0L
+l$pL
+t$$L
+D$PH
+D$(H
+D$$H
+t$`L
+|$(D
+L$$D
+|$xL
+l$PL
+l$PH
+T$ H
+9D$Tt9
+[]A\
+|$TH
+D$XA
+-wu%
+D$81
+xK;kXsFH
+T$8dH3
+H[]A\A]
+AWAVAUATUH
+|$01
+L$<L
+d$@H
+D$81
+T$(H
+t$pL
+\$xA
+T$ H
+D$4A
+[]A\A]A^A_
+D$XH
+ATUSH
+[]A\A]
+D$81
+L$8dH3
+D$H1
+L$HdH3
+D$(1
+L$(dH3
+D$(1
+L$(dH3
+ffff.
+ffff.
+ffffff.
+AWAVAUATUSH
+|$HH
+t$PH
+T$XdH
+D$hH
+t$lL
+D$@f
+L$@H
+D$0H
+D$(H
+D$|H
+D$ H
+D$pH
+D$xH
+D$tH
+D$h3
+D$lL
+L$XL
+[]A\A]A^A_
+[]A\
+ffffff.
+AVAUATUSH
+|$hH
+l$pM
+D$XI
+L$XH
+L$`H
+t$PM
+D$HI
+D$@I
+D$8I
+D$0I
+D$(I
+D$ I
+t$hL
+[]A\A]A^A_
+L$hL
+\$PdH
+[]A\
+|$HH
+K$9K t
+K$9K t
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$@1
+fffff.
+D$81
+L$8dH3
+@[]A\A]A^
+=\|&
+ffffff.
+D$x1
+|$(1
+T$xdH3
+\$0H
+t$ dH
+D$x1
+l$$H
+D$ H
+|$@L
+T$xdH3
+[]A\A]A^
+=Qz&
+D$BA
+fffff.
+L$0dH
+D$x1
+t$xdH34%(
+[]A\A]
+D$@H
+|$hH
+|$(H
+\$ H
+D$H1
+L$HdH3
+P[]A\
+ffffff.
+\$ H
+D$H1
+L$HdH3
+P[]A\
+ffffff.
+D$(1
+L$(dH3
+ATUH
+D$(1
+T$(dH3
+0[]A\
+D$(1
+\$(dH3
+D$(1
+T$(dH3
+Hct$
+ffffff.
+AVAUI
+[]A\
+fff.
+fff.
+]A\A]A^
+fffff.
+ATUH
+H;Spt
+ATUSH
+D$(1
+uND9
+T$(dH3
+0[]A\A]A^
+[]A\
+[]A\
+[]A\
+\$ dH
+[]A\A]A^A_
+=}m&
+=&m&
+ffffff.
+D$x1
+L$xdH3
+[]A\A]A^
+=ml&
+="l&
+D$h1
+L$hdH3
+p[]A\
+D$h1
+L$hdH3
+=ij&
+[]A\
+=$j&
+=Yg&
+=ti&
+=Pi&
+=Ki&
+= i&
+AVAUATUSH
+D$(1
+L$(dH3
+0[]A\A]A^
+=Fg&
+ffffff.
+AVAUATI
+D$81
+T$8dH3
+@[]A\A]A^
+AWAVAUI
+ATUH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+D95lc&
+=Ac&
+AUATUH
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+D$xI
+D$pf
+D$pI
+l$`M
+D$XI
+D$PI
+D$HI
+D$@I
+D$8I
+D$0I
+D$(I
+D$ I
+|$xH
+[]A\
+[]A\
+ATUH
+D$h1
+L$hdH3
+p[]A\
+ffff.
+ffff.
+[]A\
+[]A\
+AUATI
+D$H1
+D$0H
+D$HdH3
+X[]A\A]
+AVAUATUH
+[]A\A]A^
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+AVAUATUH
+[]A\A]A^
+D$8H
+D$0H
+D$(H
+D$ H
+D$@H
+D$HH
+ATUSH
+[]A\A]
+ffff.
+AWAVI
+AUATI
+D$H1
+l$ L
+D$0A
+D$2A
+L$HdH3
+X[]A\A]A^A_
+{0[]
+{0[]
+ATUH
+D$(1
+L$(dH3
+0[]A\
+D$81
+D$8dH3
+ATUSH
+[]A\A]A^A_
+[]A\
+ATUH
+D$(1
+=5N&
+\$(dH3
+8[]A\A]
+=jM&
+=]M&
+=-M&
+\$`dH
+D$HA
+D$8L
+D$8H
+D$0E1
+[]A\A]A^A_
+T$0I
+=-K&
+T$(H
+[]A\A]
+ATUSH
+d$$H
+D$(1
+T$$H
+L$(dH3
+0[]A\
+AUATI
+D$x1
+L$xdH3
+[]A\A]
+t$4H
+AWAVAUATUSH
+[]A\A]A^A_
+=SG&
+%L2%
+%U3%
+=ZF&
+%d1%
+=#F&
+AUATUH
+[]A\A]A^A_
+ffffff.
+AWAVI
+AUATUH
+|$0H
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+[]A\A]A^A_
+AVAUATUH
+4$dH
+[]A\A]A^A_
+AVAUATA
+C,[]A\A]A^
+AWAVAUA
+t$ H
+D$81
+T$8dH3
+H[]A\A]A^A_
+ffffff.
+AWAVI
+D$81
+L$8dH3
+H[]A\A]A^A_
+D$$L
+D$(1
+D$(dH3
+=_<&
+L$$L
+D$ H
+=}=&
+T$$H
+=^<&
+=3<&
+D$$D
+AUATI
+D$(1
+=<;&
+t$(dH34%(
+8[]A\A]
+ATUSH
+\$@L
+t$4L
+[]A\A]A^
+fffff.
+AVAUATUH
+[]A\A]A^A_
+AWAVAUA
+ teE
+[]A\A]A^A_
+|$ 1
+D$,H
+fffff.
+AWAVA
+ATUH
+t$lH
+=74&
+[]A\A]A^A_
+d$p1
+T$lL
+T$lI
+L$lD
+D$PH9
+D$PH9
+D$HL
+T$HI
+=W1&
+T$0H
+|$(D
+AWAVAUATUH
+D$X1
+=50&
+L$XdH3
+h[]A\A]A^A_
+T$@t
+T$@A
+L$Dt
+D$H1
+D$81
+T$$H
+L$8dH3
+AVAUI
+\$ dH
+[]A\A]A^
+t$DH
+ffff.
+AUATUH
+[]A\A]A^A_
+AUATUH
+[]A\A]A^A_
+ffffff.
+AUATUH
+[]A\A]A^
+fff.
+AUATUSH
+[]A\A]A^A_
+=v'&
+=I'&
+AWAVI
+ATUH
+D$PH
+\$0L
+|$ H
+%	H&
+t$0H
+D$4L
+t$ L
+l$(H
+|$`H
+dH34%(
+[]A\A]A^A_
+=#(&
+=jE&
+AUATU
+[]A\A]A^A_
+L$ H
+T$ H
+AWAVAUATA
+D$81
+l$0H
+\$49
+T$4L
+L$8dH3
+H[]A\A]A^A_
+AVAUATI
+t$DL
+[]A\A]A^A_
+\$PL
+AUATUH
+]A\A]A^
+fff.
+t2H#
+L#	I
+t2H#
+L#	I
+AVAUATUSH
+D$(1
+="	%
+D$(dH3
+0[]A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+D$0H
+T$0H
+L$@1
+D$0H
+H;Ex|
+D8Uht
+L$@H
+t$0H
+tYE1
+T$6fA
+L$pL
+T$mt#
+T$lf
+ATUSH
+([]A\A]A^A_
+D9l$
+[]A\A]
+fffff.
+A\A]A^H
+AWAVA
+[]A\A]A^A_
+|$0H
+ffff.
+[]A\A]
+AWAVAUI
+ATUSH
+\$0L
+t$ H
+T$`A
+[]A\A]A^A_
+vOH9
+AWAVAUATI
+T$(H
+tiE1
+H9D$
+|$`1
+\$xH
+D$pA
+D$(d
+t$<I
+T$HL
+t$@1
+t$<H
+dH3<%(
+[]A\A]A^A_
+T$(D)
+T$(tpH
+T$(D
+T$(D
+|$ D
+t$<tMH
+|$0A
+D$ H
+AWAVAUI
+[]A\A]A^A_
+D$H1
+=.	&
+t$ H
+L$HdH3
+X[]A\A]
+ffff.
+[]A\
+[]A\
+fff.
+fffff.
+tbHcG
+fffff.
+fffff.
+D$(1
+L$(dH3
+D$x1
+L$xdH3
+[]A\A]A^
+CxuFH
+[]A\
+AVAUI
+[]A\A]A^
+\$x1
+D$xG
+D$h1
+L$hdH3
+ffffff.
+ffff.
+fff.
+AWAVI
+ATUSH
+t$0H
+D$x1
+|$hH
+|$hH
+L$xdH3
+[]A\A]A^A_
+AVAUATUSH
+D$X1
+|$XdH3<%(
+`[]A\A]A^
+ffff.
+D$X1
+T$XdH3
+h[]A\A]
+|$PH
+ffffff.
+fff.
+=a&&
+=A&&
+AVAUE1
+g UH
+suCE
+[]A\A]A^
+fff.
+fffff.
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATI
+$sPI
+dH34%(
+[]A\A]A^A_
+USH9
+{@Hc
+[]A\
+[]A\
+[]A\
+ATUSH
+[]A\A]
+[]A\H
+fff.
+ffff.
+D$(1
+L$(dH3
+ATUH
+$tOH
+ []A\
+H9D$
+D$81
+D$8dH3
+H[]A\A]A^A_
+|$ L
+ffffff.
+AVE1
+D$81
+L$8dH3
+H[]A\A]A^A_
+t$ H
+t$$L
+t$"L
+ffffff.
+AVAUATUSH
+D$$L
+l$0H
+t$"fA
+[]A\A]A^
+AWAVI
+D$(1
+T$(dH3
+8[]A\A]A^A_
+AVAUI
+dH3<%(
+[]A\A]A^
+L$ E
+L$$L
+D$"L
+t$"H
+fff.
+ATUSH
+l$0dH
+D$x1
+H;D$ s&H
+D$xdH3
+[]A\A]A^
+[]A\
+H9\$
+ffffff.
+ATUH
+[]A\
+v%Hc
+H9\$
+fff.
+fff.
+AWAVAUATUSH
+L$ H
+D$(H
+D$81
+l$6I
+|$ H
+t$(H
+L$8dH3
+H[]A\A]A^A_
+T$ H
+AWAVI
+AUATUL
+E;~ E
+HcD$
+DF$H
+[]A\A]A^A_
+[]A\A]A^A_
+O E1
+lf$H
+[]A\A]A^A_
+AUATI
+t$ 1
+D$ H
+l\$D
+[]A\A]A^
+[]A\A]A^
+AVAUI
+ATUH
+D$(1
+H9T$
+t$&t2f
+D] H
+D$ H9
+L$(dH3
+8[]A\A]A^A_
+LS$f
+[]A\
+AWAVAUI
+\$0H
+D$81
+L$(H
+T$ L
+L$8dH3
+[]A\A]A^A_
+AWAVI
+AUATI
+\$0H
+D$81
+L$(L
+L$ H
+L$8dH3
+[]A\A]A^A_
+ffff.
+|]$L
+E H9
+[]A\
+ffff.
+[]A\A]
+AWAVAUATUSH
+H)l$
+H9L$
+H9L$
+A\A]1
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+fffff.
+ []A\
+ffffff.
+ATUSH
+([]A\A]
+H9\$
+H9\$
+AUATUS1
+[]A\A]A^H
+[]A\
+ffff.
+fffff.
+ []A\
+fffff.
+t5H;
+ffffff.
+[]A\A]
+[]A\A]
+fff.
+woAT
+[]A\
+AVAUA
+D$(1
+\$(dH3
+0[]A\A]A^
+D$ H
+D$ I
+ffffff.
+wpHc
+[]A\
+ffffff.
+[]A\
+ffffff.
+ffffff.
+fffff.
+H;C(t#H
+[]A\H
+[]A\H
+fff.
+AVAUATUSH
+[]A\A]A^
+AWAVAUATI
+D$ I
+D$8H
+D$@H
+[]A\A]A^A_
+fffff.
+AUATUSH
+[]A\A]
+AVAUI
+ATUSH
+[]A\A]A^
+ffffff.
+AUATUSH
+[]A\A]1
+[]A\A]
+ATUH
+[]A\
+|$0H
+ffff.
+AWAVAUATI
+([]A\A]A^A_
+t:f.
+[]A\H
+AVHc
+ USH
+[]A\A]A^
+[]A\A]A^
+AVAUATUSH
+\$@H
+D$0L
+D$ H
+D$`I
+[]A\A]A^A_
+T$ E1
+t$(M
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]
+|$0H
+fff.
+fffff.
+AUATUH
+[]A\A]
+ffffff.
+ffffff.
+t,L9(
+[]A\A]A^A_
+D$(1
+D$(dH3
+[]A\
+ATUSH
+T$PH
+L$XL
+D$`L
+L$ht=
+)D$p
+D$81
+D$8dH3
+[]A\
+T$ H
+D$$0
+D$(H
+D$@H
+fff.
+fff.
+AVAUATUH
+[]A\A]
+[]A\A]L
+[]A\A]L
+[]A\A]L
+[]A\A]L
+[]A\A]A^
+u~E1
+[]A\A]H
+[]A\A]L
+[]A\A]
+fffff.
+ffffff.
+fff.
+fff.
+[]A\
+[]A\A]
+fffff.
+AUATUH
+[]A\A]
+[]A\A]
+ffffff.
+ATUH
+wBH;G@A
+c,[]A\
+[]A\1
+[]A\
+[]A\1
+[]A\H
+[]A\
+}t#H
+AUATUH
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\
+AWAVI
+ATUH
+,7SH
+D$(1
+H;D$ 
+H;D$ 
+H;D$ 
+H;D$ 
+H;D$ 
+H;D$ 
+H;D$ 
+L$(dH3
+8[]A\A]A^A_
+uuKH
+AWAVAUATD
+D$81
+L$8dH3
+H[]A\A]A^A_
+<$0A
+t$ H
+t$ H
+@ttH
+t$ H
+l$ L
+.D$(z
+D$(H
+<$0A
+t$ H
+t$ H
+t$ H
+ffffff.
+[]A\A]
+fffff.
+ATUS
+ATUSH
+[]A\A]
+D$(1
+T$(dH3
+0[]A\
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+D$(1
+D$(dH3
+8[]A\A]
+=~k%
+fff.
+fff.
+fffff.
+fff.
+[]A\A]
+[]A\
+fff.
+ffffff.
+fffff.
+fffff.
+fff.
+AUATUH
+x0Hc
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]A^
+fff.
+AVAUATA
+([]A\A]A^A_
+=N`%
+S$;S w
+=o_%
+=7_%
+=m^%
+fffff.
+AUATUH
+t$PH
+[]A\A]
+[]A\A]
+ffffff.
+AUATUH
+~(dH
+[]A\A]A^
+[]A\
+ffffff.
+[]A\
+ffffff.
+=jX%
+fffff.
+;h$t
+fffff.
+fff.
+fff.
+S@8w(H
+[]A\
+[]A\
+fff.
+[]A\
+fff.
+AVAUATUSH
+|$ H
+t$XL
+d$pH
+l$hdH
+t$XH
+T$xH
+D$0H
+T$8H
+D$hH
+|$p1
+|$p1
+t$ H
+l$hH
+[]A\A]A^A_
+H<D9
+t$ H
+t$ H
+T$(H
+T$P1
+9T$P@
+T$TL
+T$Ty
+t$8H
+D$xH
+|$0H
+l$xL
+AWAVAUATUSH
+([]A\A]A^A_
+ATUH
+[]A\A]
+ffffff.
+AWAVAUATI
+\$(H
+v dH
+T$ f
+D$$H
+D$$H
+E L)
+U D)
+([]A\A]A^A_
+AWAVAUI
+ATUH
+D$H1
+T$(H
+d$0H
+D$0A
+T$8=
+T$ I
+L$(H
+D$HdH3
+X[]A\A]A^A_
+fff.
+ATUH
+W$dH
+([]A\A]
+ffff.
+AWAVAUATI
+|$ dH
+T$ f
+D$$I
+T$(M
+t$@M
+l$0I
+l$XL
+D$$H
+[]A\A]A^A_
+fffff.
+AUATUH
+@[]A\A]
+=x8%
+C$Mc
+=b8%
+=78%
+@[]A\A]
+[]A\A]
+AUATI
+a3A9
+A\A]
+AWAVAUI
+ATUH
+\$ dH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+ffffff.
+H9M@t
+[]A\
+ffff.
+H9P(u
+ffffff.
+ATUSH
+t$pH
+ffffff.
+ATUH
+ATUH
+fffff.
+fff.
+AWAVI
+AUATUSH
+t$?H
+|$;@
+D$(H
+D$><@t
+[]A\A]A^A_
+D$0H9D$(
+D$(H
+L$;H
+D$0H
+D$(1
+L$(dH3
+0[]A\
+ffff.
+fff.
+AUATUH
+=n(%
+[]A\A]
+=](%
+=6(%
+ffffff.
+AWAVAUATUH
+D$x1
+|$@H
+|$`H
+t$`E
+=s&%
+=J&%
+=0&%
+D$l@H
+\$ H
+D$@I
+D$HI
+D$PI
+D$XI
+D$`I
+D$hI
+D$pI
+\$xdH3
+[]A\A]A^A_
+=]#%
+kuuA
+H9P@
+H9W(t	
+AUATI
+[]A\A]
+H9P(t
+[]A\A]
+ATU1
+H9P@t
+ATUH
+H9P(t
+[]A\
+[]A\
+ATUH
+H9P(t
+[]A\
+[]A\
+AX[]
+-$	$
+ATUSH
+ATUSH
+[]A\
+[]A\
+ATUSH
+[]A\
+fffff.
+[]A\H
+[]A\
+fffff.
+[]A\H
+[]A\A]
+ATUSH
+v1L;c w+L
+[]A\A]
+]A\A]
+ffffff.
+fffff.
+fffff.
+ffffff.
+fff.
+L9{ sK
+[]A\A]A^A_
+t/E1
+ffffff.
+D$h1
+T$hdH3
+x[]A\A]
+_ H)
+AWAVI
+AUATL
+8[]A\A]A^A_
+l$ A
+|$ L
+L$pL
+9D$,
+tkv9
+fffff.
+c []A\
+G`+G8
+tmw+
+MW(Hc
+ u#HcW
+H9G0H
+MG0H
+HcW(H
+fffff.
+fffff.
+fff.
+ffffff.
+fff.
+fff.
+fff.
+fff.
+fff.
+;W(}
+ffffff.
+S@8w
+fffff.
+ATUS
+S0H+S8H
+k@Hc
+[]A\
+[]A\
+u%;5
+[]A\
+fff.
+ATUH
+v:H+k H
+C H9C0I
+MC0H
+ffffff.
+t8H)
+fffff.
+D+e H
+cH[]A\
+AWAVAUI
+ATUH
+t.<:u
+[]A\A]A^A_
+AWAVAUI
+ATUH
+t.<:u
+[]A\A]A^A_
+[]A\A]
+[]A\A]
+ATUSH
+ []A\A]A^
+fffff.
+fffff.
+fff.
+fff.
+[]A\
+P([]A\
+fff.
+[]A\
+P0[]A\
+fff.
+fffff.
+fffff.
+[]A\
+[]A\
+ATUSH
+ []A\A]A^
+fffff.
+fffff.
+fff.
+fff.
+]A\A]A^
+]A\A]A^
+[]A\
+[]A\
+ffffff.
+fffff.
+[]A\
+fffff.
+fffff.
+ATUSL
+fffff.
+AUATI
+$H;,$sdI;\$
+H;,$r
+t@I;\$
+I9\$
+([]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]L)
+ATUSH
+[]A\
+fffff.
+AVAUATUH
+ []A\A]A^
+AUATUSH
+[]A\A]
+[]A\A]
+fff.
+AWAVAUATI
+D$(1
+ t	E
+H;L$ 
+D$(dH3
+8[]A\A]A^A_
+"t	E
+H;T$ s/H
+fffff.
+ATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+ATUH
+ []A\A]A^
+ []A\
+wX@8p
+D:DH
+D:DH
+fffff.
+ffffff.
+[]A\A]
+[]A\
+ffff.
+ATUH
+[]A\
+ATUH
+[]A\A]A^
+fff.
+t3r!
+ffffff.
+I;t$ t$H
++n Lc
+~*Hc
+[]A\A]
+ffffff.
+H9N r
+St	d
+[]A\
+fff.
+[]A\A]A^
+ATUSH
+[]A\
+ffff.
+([]A\A]
+fff.
+D$(1
+T$(dH3
+0[]A\
+ffff.
+t%H;
+fff.
+AUATUSH
+\$0H
+[]A\A]
+AVAUATUSH
+\$ L
+t=H;
+[]A\A]A^
+AUATUSH
+t"D9
+[]A\A]A^
+[]A\A]A^
+D$ H
+L$$H
+l$0D
+dH3<%(
+[]A\
+t$"I
+t$ H
+D$81
+\$8dH3
+@[]A\A]A^
+t$$H
+t$"H
+D$(1
+T$(dH3
+0[]A\
+AVAUI
+[]A\A]A^
+[]A\L
+[]A\A]
+A\A]1
+(v(D
+[]A\A]
+[]A\A]
+[]A\A]
+unix
+fffff.
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^A_
+[]A\A]A^A_
+%s%2zu: %02x -> %02x
+%s%2zu: (none) -> %02x
+%s%2zu: %02x -> (none)
+unknown error "%s"
+Trailing garbage in hex data
+Request too short
+Request size inconsistent
+%04x/%04x
+NXM: %s -> 
+OXM: %s -> 
+%04x/%04x,
+bad OF1.1 actions: %s
+bad ofp11_match: %s
+normal: 
+0123456789abcdef
+usable protocols: %s
+no usable protocol
+is_pow2(protocol)
+utilities/ovs-ofctl.c:2307
+chosen protocol: %s
+mgmt
+snoop
+%s/%s.%s
+connecting to %s
+transact
+Reply:
+%s: open
+talking to %s
+received bad reply: %s
+utilities/ovs-ofctl.c:1973
+%s:%d: %s
+parse error in reply (%s)
+utilities/ovs-ofctl.c:1948
+utilities/ovs-ofctl.c:2186
+already unblocked
+already blocking
+exit
+OFMSG...
+ofctl/send
+ofctl/barrier
+FILE
+ofctl/set-output-file
+ofctl/block
+ofctl/unblock
+vconn_recv
+%Y-%m-%d %H:%M:%S.###: 
+failed to send echo reply
+sent
+send: 
+invalid_ttl
+watch:
+%s: unknown field name
+bad OF1.1 instructions: %s
+reply does not match request
+%s: couldn't find port `%s'
+unknown mod-port command '%s'
+ cookie=0x%lx
+ idle_timeout=%u
+ hard_timeout=%u
+utilities/ovs-ofctl.c:2252
+23:38:30
+Oct 28 2013
+2.0.0
+%s: invalid flow format(s)
+unknown packet-in format `%s'
+down
+receive
+receive-stp
+flood
+forward
+packet-in
+strict
+readd
+flow-format
+packet-in-format
+more
+timestamp
+rsort
+help
+detach
+no-chdir
+overwrite-pidfile
+monitor
+protocols
+verbose
+log-file
+private-key
+ca-cert
+dump-desc
+dump-tables
+dump-flows
+dump-aggregate
+queue-stats
+add-flow
+add-flows
+mod-flows
+del-flows
+replace-flows
+diff-flows
+packet-out
+dump-ports
+dump-ports-desc
+mod-port
+get-frags
+set-frags
+ofp-parse
+probe
+ping
+benchmark
+parse-flow
+parse-flows
+parse-nx-match
+parse-nxm
+parse-oxm
+parse-ofp10-actions
+parse-ofp10-match
+parse-ofp11-match
+parse-ofp11-actions
+parse-ofp11-instructions
+check-vlan
+print-error
+encode-error-reply
+ofp-print
+encode-hello
+ofctl
+%s: OpenFlow switch management utility
+usage: %s [OPTIONS] COMMAND [ARG...]
+For OpenFlow switches:
+  show SWITCH                 show OpenFlow information
+  dump-desc SWITCH            print switch description
+  dump-tables SWITCH          print table stats
+  mod-port SWITCH IFACE ACT   modify port behavior
+  get-frags SWITCH            print fragment handling behavior
+  set-frags SWITCH FRAG_MODE  set fragment handling behavior
+  dump-ports SWITCH [PORT]    print port statistics
+  dump-ports-desc SWITCH      print port descriptions
+  dump-flows SWITCH           print all flow entries
+  dump-flows SWITCH FLOW      print matching FLOWs
+  dump-aggregate SWITCH       print aggregate flow statistics
+  dump-aggregate SWITCH FLOW  print aggregate stats for FLOWs
+  queue-stats SWITCH [PORT [QUEUE]]  dump queue stats
+  add-flow SWITCH FLOW        add flow described by FLOW
+  add-flows SWITCH FILE       add flows from FILE
+  mod-flows SWITCH FLOW       modify actions of matching FLOWs
+  del-flows SWITCH [FLOW]     delete matching FLOWs
+  replace-flows SWITCH FILE   replace flows with those in FILE
+  diff-flows SOURCE1 SOURCE2  compare flows from two sources
+  packet-out SWITCH IN_PORT ACTIONS PACKET...
+                              execute ACTIONS on PACKET
+  monitor SWITCH [MISSLEN] [invalid_ttl] [watch:[...]]
+                              print packets received from SWITCH
+  snoop SWITCH                snoop on SWITCH and its controller
+For OpenFlow switches and controllers:
+  probe TARGET                probe whether TARGET is up
+  ping TARGET [N]             latency of N-byte echos
+  benchmark TARGET N COUNT    bandwidth of COUNT N-byte echos
+SWITCH or TARGET is an active OpenFlow connection method.
+Other commands:
+  ofp-parse FILE              print messages read from FILE
+Other options:
+  --strict                    use strict match for flow commands
+  --readd                     replace flows that haven't changed
+  -F, --flow-format=FORMAT    force particular flow format
+  -P, --packet-in-format=FRMT force particular packet in format
+  -m, --more                  be more verbose printing OpenFlow
+  --timestamp                 (monitor, snoop) print timestamps
+  -t, --timeout=SECS          give up after SECS seconds
+  --sort[=field]              sort in ascending order
+  --rsort[=field]             sort in descending order
+  -h, --help                  display this help message
+  -V, --version               display version information
+%s: vendor %#x, type %d, code %d
+OF1.0: %04x/%d,%02x/%d -> %04x/%04x
+OF1.1: %04x/%d,%02x/%d -> %04x/%04x
+Input is %zu bytes, expected %zu
+nx_pull_match() returned error %s
+%s: failed to open socket (%s)
+%s is not a bridge or a socket
+%s: failed to connect to socket (%s)
+%s: unsupported OpenFlow version 0x%02x
+payload must be between 0 and %zu bytes
+Sending %d packets * %u bytes (with header) = %u bytes total
+Finished in %.1f ms (%.0f packets/s) (%.0f bytes/s)
+Reply does not match request.  Request:
+%zu bytes from %s: xid=%08x time=%.1f ms
+%s: unexpected end of file mid-message
+%s: %zu-byte message is too short for OpenFlow
+%s: bad reply to config request
+%s: unknown fragment handling mode
+%s: setting fragment handling mode failed (this switch probably doesn't support mode "%s")
+failed to send packet to switch
+OpenFlow packet receive failed
+received reply with xid %08x != expected %08x
+%s: failed to set protocol, switch replied: %s
+switch does not support any of the usable flow formats (%s)
+none of the usable flow formats (%s) is among the allowed flow formats (%s)
+failed to create unixctl server
+Message size does not match length in OpenFlow header
+Message too short for OpenFlow
+setting invalid_ttl_to_controller failed (this switch probably doesn't support mode)
+%s: unsupported "monitor" argument
+%s: using user-specified packet in format %s
+%s: failed to set packet in format to nxm, controller replied: %s. Falling back to the switch default.
+trailing garbage following hex bytes
+%s: received bad features reply
+%s: failed to decode features reply (%s)
+already waiting for barrier reply
+value %s on -t or --timeout is not at least 1
+None of the enabled OpenFlow versions (%s) supports any of the enabled flow formats (%s).  (Use -O to enable additional OpenFlow versions or -F to enable additional flow formats.)
+ofctl_parse_flows__
+MbP?lib/classifier.c:558
+lib/classifier.c:705
+!displaced_rule
+lib/classifier.c:232
+classifier_insert
+missing command name; use --help for help
+'%s' command requires at least %d arguments
+'%s' command takes at most %d arguments
+unknown command '%s'; use --help for help
+write to stdout failed
+write to stderr failed
+lib/command-line.c:121
+lib/command-line.c:127
+lib/command-line.c:162
+%s: 
+lib/command-line.c:194
+command_line
+%s: open: %s
+%s: fcntl: %s
+%s: pid file is stale
+%s: lost race to lock pidfile
+%s: deleted stale pidfile
+%s: read: %s
+pipe write failed (%s)
+%s/%s.pid
+lib/daemon.c:92
+lib/daemon.c:164
+lib/daemon.c:286
+waitpid failed (%s)
+lib/daemon.c:505
+healthy
+monitoring pid %lu (%s)
+%s, restarting
+pid %lu died, %s, exiting
+running in daemon process
+%s.tmp%ld
+%s.tmp
+%s: create failed (%s)
+%s: fstat failed (%s)
+%s: truncate failed (%s)
+%s: write failed (%s)
+%d crashes: pid %lu died, %s
+daemon
+%s: lost race to delete pidfile
+%s: failed to delete stale pidfile (%s)
+%s: read: unexpected end of file
+%s: stale pidfile for pid %s being deleted by pid %ld
+fd == STDIN_FILENO || fd == STDOUT_FILENO || fd == STDERR_FILENO
+fork child died before signaling startup (%s)
+failed to disable core dumps: %s
+%s, waiting until 10 seconds since last restart
+%s: fcntl(F_SETLK) failed (%s)
+%s: already running as pid %ld, aborting
+%s: pidfile check failed (%s), aborting
+failed to rename "%s" to "%s" (%s)
+Daemon options:
+  --detach                run in background as daemon
+  --no-chdir              do not chdir to '/'
+  --pidfile[=FILE]        create pidfile (default: %s/%s.pid)
+  --overwrite-pidfile     with --pidfile, start even if already running
+daemon_save_fd
+lib/dpif.c:242
+lib/dpif.c:231
+rc->refcount
+lib/dpif.c:232
+%s: %s success
+%s: %s failed (%s)
+%s: execute 
+ on packet %s
+lib/dpif.c:148
+lib/dpif.c:327
+lib/dpif.c:193
+lib/dpif.c:205
+lib/dpif.c:220
+lib/dpif.c:484
+%s: added %s as port %u
+%s: port_del(%u)
+%s: port %u is device %s
+%s: device %s is on port %u
+name_size > 0
+lib/dpif.c:674
+port_dump_start
+%s: dumped all ports
+port_dump_next
+port_dump_done
+packets:%lu, bytes:%lu, used:
+%.3fs
+never
+, flags:
+failed to 
+(%s) 
+, actions:
+[create]
+[modify]
+[zero]
+lib/dpif.c:882
+flow_dump_start
+%s: dumped all flows
+flow_dump
+flow_dump_done
+miss
+<unknown>
+recv_set
+%s: %s upcall:
+queue_to_priority
+%s@%s
+dpif_purge
+dpif_execute
+dpif_flow_query_list_n
+dpif_flow_query_list
+dpif_flow_del
+dpif_flow_put
+dpif_flow_get
+dpif_flow_flush
+dpif_port_del
+dpif_port_add
+dpif_destroy
+dpif
+attempted to register blacklisted provider: %s
+attempted to register duplicate datapath provider: %s
+could not create datapath %s of unknown type %s
+dpif->dpif_class == registered_class->dpif_class
+attempted to unregister a datapath provider that is not registered: %s
+attempted to unregister in use datapath provider: %s
+could not enumerate unknown type: %s
+failed to enumerate %s datapaths: %s
+datapath %s already exists but cannot be opened: %s
+failed to create datapath %s: %s
+%s: failed to add %s as port: %s
+%s: failed to query port %s: %s
+%s: failed to query port %u: %s
+!(put->flags & ~(DPIF_FP_CREATE | DPIF_FP_MODIFY | DPIF_FP_ZERO_STATS))
+dpif_flow_put__
+dpif_port_get_name
+do_open
+dp_class_unref
+needed < available
+lib/dynamic-string.c:167
+\%03o
+%08jx  
+%02hhx%c
+ds_put_format_valist
+lib/fatal-signal.c:77
+signal failed (%s)
+lib/fatal-signal.c:117
+n_hooks < MAX_HOOKS
+lib/fatal-signal.c:118
+lib/fatal-signal.c:165
+lib/fatal-signal.c:185
+lib/fatal-signal.c:230
+lib/fatal-signal.c:247
+lib/fatal-signal.c:261
+could not unlink "%s" (%s)
+lib/fatal-signal.c:311
+fatal_signal
+terminating with signal %d (%s)
+fatal_signal_add_hook
+tnl != &flow->tunnel
+lib/flow.c:388
+csum
+%s%c
+0x%x%c
+eth_src
+symmetric_l4
+miniflow_malloc
+flow_extract
+flow_extract
+%s: %d nodes in bucket (%zu nodes, %zu buckets)
+is_pow2(new_mask + 1)
+lib/hmap.c:96
+hmap_reserve
+hmap_shrink
+hmap_expand
+hmap_pathological
+hmap
+resize
+!list_is_empty(list)
+lib/list.c:155
+lib/list.c:166
+list_back
+list_front
+%.*s/.%s.~lock~
+lib/lockfile.c:113
+lib/lockfile.c:218
+%s: failed to lock file: %s
+lib/lockfile.c:141
+lib/lockfile.c:159
+lockfile_unlock
+lockfile_error
+lockfile_timeout
+lockfile_lock
+lockfile
+%s: failed to stat lock file: %s
+%s: failed to open lock file: %s
+%s: failed to fstat lock file: %s
+%s: lock file disappeared and reappeared!
+%s: cannot lock file because it is already locked by pid %ld
+%s: child does not inherit lock
+0x%x/0x%x
+reg_idx < FLOW_N_REGS
+lib/match.c:176
+first
+<error>
+not_later
+priority=%u,
+pkt_mark=%#x,
+pkt_mark=%#x/%#x,
+skb_priority=%#x,
+icmp,
+tcp,
+udp,
+sctp,
+icmp6,
+tcp6,
+udp6,
+sctp6,
+ipv6,
+rarp,
+mpls,
+mplsm,
+reg%d=0x%x,
+reg%d=0x%x/0x%x,
+tun_id=%#lx,
+tun_id=%#lx/%#lx,
+tun_src
+tun_dst
+tun_tos=%x,
+tun_ttl=%u,
+metadata=%#lx,
+metadata=%#lx/%#lx,
+dl_vlan=%u,
+dl_vlan_pcp=%d,
+vlan_tci=0x%04x,
+vlan_tci=0x%04x/0x%04x,
+dl_type=0x%04x,
+ipv6_src
+ipv6_dst
+ipv6_label=0x%05x,
+ipv6_label=0x%05x/0x%05x,
+arp_spa
+arp_tpa
+arp_op=%u,
+nw_proto=%u,
+arp_sha
+arp_tha
+nw_tos=%u,
+nw_ecn=%u,
+nw_ttl=%u,
+mpls_label=%u,
+mpls_tc=%u,
+mpls_ttl=%u,
+mpls_bos=%u,
+nw_frag=%s,
+icmp_type
+icmp_code
+nd_target
+nd_sll
+nd_tll
+match_set_reg_masked
+lib/meta-flow.c:744
+(unsigned int) id < MFF_N_IDS
+lib/meta-flow.c:725
+!mf_from_nxm_header__(header)
+lib/meta-flow.c:753
+mf->id == i
+lib/meta-flow.c:771
+unknown %s field
+zero bit %s field %s
+source
+destination
+%s: bad syntax for %s
+mf->n_bytes == ETH_ADDR_LEN
+lib/meta-flow.c:2282
+%s: invalid Ethernet address
+mf->n_bytes == sizeof *ip
+lib/meta-flow.c:2307
+%hhu.%hhu.%hhu.%hhu/%d
+%hhu.%hhu.%hhu.%hhu
+%s: invalid IP address
+mf->n_bytes == sizeof *value
+lib/meta-flow.c:2339
+lib/meta-flow.c:2377
+lib/meta-flow.c:2393
+lib/meta-flow.c:2546
+%lli%n
+mf->n_bytes <= 8
+lib/meta-flow.c:2578
+%lld
+/%#llx
+%d:%d
+[%d]
+[%d..%d]
+%s: unknown field `%.*s'
+tun_id
+NXM_NX_TUN_ID
+OXM_OF_TUNNEL_ID
+NXM_NX_TUN_IPV4_SRC
+NXM_NX_TUN_IPV4_DST
+tun_flags
+tun_ttl
+tun_tos
+OXM_OF_METADATA
+in_port
+NXM_OF_IN_PORT
+in_port_oxm
+OXM_OF_IN_PORT
+skb_priority
+pkt_mark
+NXM_NX_PKT_MARK
+reg0
+NXM_NX_REG0
+reg1
+NXM_NX_REG1
+reg2
+NXM_NX_REG2
+reg3
+NXM_NX_REG3
+reg4
+NXM_NX_REG4
+reg5
+NXM_NX_REG5
+reg6
+NXM_NX_REG6
+reg7
+NXM_NX_REG7
+NXM_OF_ETH_SRC
+OXM_OF_ETH_SRC
+eth_dst
+NXM_OF_ETH_DST
+OXM_OF_ETH_DST
+eth_type
+dl_type
+NXM_OF_ETH_TYPE
+OXM_OF_ETH_TYPE
+vlan_tci
+NXM_OF_VLAN_TCI
+dl_vlan
+OXM_OF_VLAN_VID
+dl_vlan_pcp
+OXM_OF_VLAN_PCP
+mpls_label
+OXM_OF_MPLS_LABEL
+mpls_tc
+OXM_OF_MPLS_TC
+mpls_bos
+OXM_OF_MPLS_BOS
+ip_src
+NXM_OF_IP_SRC
+OXM_OF_IPV4_SRC
+ip_dst
+NXM_OF_IP_DST
+OXM_OF_IPV4_DST
+NXM_NX_IPV6_SRC
+OXM_OF_IPV6_SRC
+NXM_NX_IPV6_DST
+OXM_OF_IPV6_DST
+ipv6_label
+NXM_NX_IPV6_LABEL
+OXM_OF_IPV6_FLABEL
+nw_proto
+NXM_OF_IP_PROTO
+OXM_OF_IP_PROTO
+NXM_OF_IP_TOS
+nw_tos_shifted
+OXM_OF_IP_DSCP
+nw_ecn
+NXM_NX_IP_ECN
+OXM_OF_IP_ECN
+nw_ttl
+NXM_NX_IP_TTL
+ip_frag
+NXM_NX_IP_FRAG
+arp_op
+NXM_OF_ARP_OP
+OXM_OF_ARP_OP
+NXM_OF_ARP_SPA
+OXM_OF_ARP_SPA
+NXM_OF_ARP_TPA
+OXM_OF_ARP_TPA
+NXM_NX_ARP_SHA
+OXM_OF_ARP_SHA
+NXM_NX_ARP_THA
+OXM_OF_ARP_THA
+tcp_src
+NXM_OF_TCP_SRC
+OXM_OF_TCP_SRC
+tcp_dst
+NXM_OF_TCP_DST
+OXM_OF_TCP_DST
+udp_src
+NXM_OF_UDP_SRC
+OXM_OF_UDP_SRC
+udp_dst
+NXM_OF_UDP_DST
+OXM_OF_UDP_DST
+sctp_src
+OXM_OF_SCTP_SRC
+sctp_dst
+OXM_OF_SCTP_DST
+NXM_OF_ICMP_TYPE
+OXM_OF_ICMPV4_TYPE
+NXM_OF_ICMP_CODE
+OXM_OF_ICMPV4_CODE
+icmpv6_type
+NXM_NX_ICMPV6_TYPE
+OXM_OF_ICMPV6_TYPE
+icmpv6_code
+NXM_NX_ICMPV6_CODE
+OXM_OF_ICMPV6_CODE
+NXM_NX_ND_TARGET
+OXM_OF_IPV6_ND_TARGET
+NXM_NX_ND_SLL
+OXM_OF_IPV6_ND_SLL
+NXM_NX_ND_TLL
+OXM_OF_IPV6_ND_TLL
+meta_flow
+mf_format_integer_string
+mf_from_ofp_port_string32
+mf_from_ofp_port_string
+mf_from_ipv6_string
+mf_from_ipv4_string
+mf_from_ethernet_string
+mf_parse
+nxm_init_add_field
+nxm_do_init
+mf_from_id
+bit offset %d exceeds %d-bit width of %s field %s
+bit offset %d and width %d exceeds %d-bit width of %s field %s
+%s field %s lacks correct prerequisites
+destination field %s is not writable
+%s: value too large for %u-byte field %s
+%hhx:%hhx:%hhx:%hhx:%hhx:%hhx%n
+%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx%n
+%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu
+%s: network prefix bits not between 1 and 32
+%s: could not convert to IPv6 address
+%s: prefix bits not between 1 and 128
+mf->n_bytes == sizeof(ovs_be16)
+%s: port value out of range for %s
+mf->n_bytes == sizeof(ovs_be32)
+%s: unknown fragment type (valid types are "no", "yes", "first", "later", "not_first"
+%s: unknown tunnel flags (valid flags are "df", "csum", "key"
+%s: wildcards not allowed here
+%s: missing [ looking for field name
+%s: syntax error expecting [] or [<bit>] or [<start>..<end>]
+%s: starting bit %d is after ending bit %d
+%s: starting bit %d is not valid because field is only %d bits wide
+%s: ending bit %d is not valid because field is only %d bits wide
+unexpected input following field syntax
+lib/netdev.c:963
+dev->ref_cnt
+lib/netdev.c:440
+lib/netdev.c:453
+old_ref_cnt > 0
+lib/netdev.c:456
+lib/netdev.c:127
+lib/netdev.c:146
+lib/netdev.c:178
+lib/netdev.c:190
+lib/netdev.c:213
+lib/netdev.c:249
+lib/netdev.c:269
+ovs-
+lib/netdev.c:313
+lib/netdev.c:314
+lib/netdev.c:336
+lib/netdev.c:373
+lib/netdev.c:374
+lib/netdev.c:469
+lib/netdev.c:505
+buffer->size == 0
+lib/netdev.c:541
+lib/netdev.c:542
+lib/netdev.c:1046
+lib/netdev.c:1535
+lib/netdev.c:1556
+rx->netdev->ref_cnt > 0
+lib/netdev.c:1580
+netdev_get_stats
+netdev_add_router
+netdev_sent
+netdev_received
+failed to %s flags for network device %s: %s
+attempted to register duplicate netdev provider: %s
+failed to initialize %s network device class: %s
+attempted to unregister a netdev provider that is not registered: %s
+attempted to unregister in use netdev provider: %s
+list_is_empty(&netdev->saved_flags_list)
+could not create netdev %s of unknown type %s
+%s: arguments provided to device that is not configurable
+ofpbuf_tailroom(buffer) >= ETH_TOTAL_MIN
+failed to retrieve MTU for network device %s: %s
+failed to set MTU for network device %s: %s
+%s: failed to get network device carrier status, assuming down: %s
+netdev_rx_get_netdev
+netdev_rx_recv
+netdev_unref
+netdev_ref
+netdev_open
+<any>
+NXM_NX_COOKIE
+%.2s: hex digits expected
+NXM_NX_COOKIE_W
+<%u invalid bytes>
+lib/nx-match.c:124
+<match too short: %u>
+<bad match type field: %u>
+move:
+set_field:
+->%s
+load:
+push:
+pop:
+nx_match
+%s: missing ( at end of nx_match
+%s: missing / in masked field %.*s
+%s: missing ) following field %.*s
+nx_match ends with partial (%u-byte) nxm_header
+nxm_entry %08x has invalid payload length 0
+%u-byte nxm_entry but only %u bytes left in nx_match
+NXM/OXM entry %s has 1-bits in value for bits wildcarded by the mask.  (Future versions of OVS may report this as an OpenFlow error.)
+bad nxm_entry %#08x (vendor=%u, field=%u, hasmask=%u, len=%u), (%s)
+oxm length %u, rounded up to a multiple of 8, is longer than space in message (max length %zu)
+nx_match length %u, rounded up to a multiple of 8, is longer than space in message (max length %zu)
+(cookie != NULL) == (cookie_mask != NULL)
+<match length field too short: %u>
+<match length field incorrect: %u != %u>
+%s: missing `->' following source
+%s: source field is %d bits wide but destination is %d bits wide
+%s: missing `->' following value
+%s: value %lu does not fit into %d bits
+%s: trailing garbage following push or pop
+Failed to pop from an empty stack. On flow 
+nx_pull_raw
+vid=%u,pcp=%d
+,cfi=0
+label=%u,tc=%d,ttl=%d,bos=%d
+invalid frag %u in flow key
+skb_priority(%lli/%lli)%n
+skb_priority(%lli)%n
+skb_mark(%lli/%lli)%n
+skb_mark(%lli)%n
+in_port(%lli/%lli)%n
+in_port(%lli)%n
+in_port(
+vlan(vid=%hi/%hi,pcp=%i/%i)%n
+vlan(vid=%hi,pcp=%i)%n
+vlan(vid=%hi,pcp=%i,cfi=%i)%n
+eth_type(%i/%i)%n
+eth_type(%i)%n
+tcp(src=%i/%i,dst=%i/%i)%n
+tcp(src=%i,dst=%i)%n
+udp(src=%i/%i,dst=%i/%i)%n
+udp(src=%i,dst=%i)%n
+sctp(src=%i/%i,dst=%i/%i)%n
+sctp(src=%i,dst=%i)%n
+icmp(type=%i/%i,code=%i/%i)%n
+icmp(type=%i,code=%i)%n
+icmpv6(type=%hhi,code=%hhi)%n
+encap(
+unspec
+encap
+skb_mark
+ipv4
+ipv6
+sctp
+icmp
+icmpv6
+key%u
+trailing garbage in flow key
+action%d
+<empty>
+,***%u leftover bytes*** (
+,eth_type(0/0x%04x)
+/0x%04x
+src=%u/%#x,dst=%u/%#x
+src=%u,dst=%u
+(src=%u,dst=%u)
+type=%u/%#x,code=%u/%#x
+type=%u,code=%u
+target=%s
+lacp
+userspace(error)
+userspace(pid=%u
+,slow_path(%s)
+,ipfix
+set(
+push_vlan(
+tpid=0x%04x,
+pop_vlan
+push_mpls(
+,eth_type=0x%x)
+pop_mpls(eth_type=0x%x)
+sample
+(sample=%.1f%%,
+actions(
+drop
+,userdata(
+ %d (and possibly others)
+%s:%s
+expected but not present
+present but not expected
+too_much
+too_little
+userspace(pid=%lli)%n
+%31[^)]))
+userspace(pid=%lli,ipfix)%n
+push_vlan(vid=%i,pcp=%i)%n
+odp_util
+invalid Ethertype %u in flow key
+mask expected for non-Ethernet II frame
+tunnel(tun_id=%31[x0123456789abcdefABCDEF]/%llx,src=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,dst=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,tos=%i/%i,ttl=%i/%i,flags%n
+tunnel(tun_id=%31[x0123456789abcdefABCDEF],src=%hhu.%hhu.%hhu.%hhu,dst=%hhu.%hhu.%hhu.%hhu,tos=%i,ttl=%i,flags%n
+eth(src=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,dst=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+eth(src=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,dst=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+vlan(vid=%hi/%hi,pcp=%i/%i,cfi=%i/%i)%n
+mpls(label=%i/%i,tc=%i/%i,ttl=%i/%i,bos=%i/%i)%n
+mpls(label=%i,tc=%i,ttl=%i,bos=%i)%n
+ipv4(src=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,dst=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,proto=%i/%i,tos=%i/%i,ttl=%i/%i,frag=%7[a-z]/%i)%n
+ipv4(src=%hhu.%hhu.%hhu.%hhu,dst=%hhu.%hhu.%hhu.%hhu,proto=%i,tos=%i,ttl=%i,frag=%7[a-z])%n
+ipv6(src=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.],dst=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.],label=%i/%i,proto=%i/%i,tclass=%i/%i,hlimit=%i/%i,frag=%7[a-z]/%i)%n
+ipv6(src=%46[0123456789abcdefABCDEF:.],dst=%46[0123456789abcdefABCDEF:.],label=%i,proto=%i,tclass=%i,hlimit=%i,frag=%7[a-z])%n
+icmpv6(type=%hhi/%i,code=%hhi/%i)%n
+arp(sip=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,tip=%hhu.%hhu.%hhu.%hhu/%hhu.%hhu.%hhu.%hhu,op=%i/%i,sha=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,tha=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+arp(sip=%hhu.%hhu.%hhu.%hhu,tip=%hhu.%hhu.%hhu.%hhu,op=%i,sha=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,tha=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.])%n
+nd(target=%46[0123456789abcdefABCDEF:.])%n
+nd(target=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.],sll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.],sll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.],tll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.],tll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.]/%46[0123456789abcdefABCDEF:.],sll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,tll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx/%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+nd(target=%46[0123456789abcdefABCDEF:.],sll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx,tll=%hhx:%hhx:%hhx:%hhx:%hhx:%hhx)%n
+attribute %s has length %zu but should have length %d
+duplicate %s attribute in flow key
+(bad key length %zu, expected %d)(
+(bad mask length %zu, expected %d)(
+tun_id=%#lx/%#lx,src=%u.%u.%u.%u/%u.%u.%u.%u,dst=%u.%u.%u.%u/%u.%u.%u.%u,tos=%#x/%#x,ttl=%u/%#x,flags(
+tun_id=0x%lx,src=%u.%u.%u.%u,dst=%u.%u.%u.%u,tos=0x%x,ttl=%u,flags(
+src=%02x:%02x:%02x:%02x:%02x:%02x/%02x:%02x:%02x:%02x:%02x:%02x,dst=%02x:%02x:%02x:%02x:%02x:%02x/%02x:%02x:%02x:%02x:%02x:%02x
+src=%02x:%02x:%02x:%02x:%02x:%02x,dst=%02x:%02x:%02x:%02x:%02x:%02x
+vid=%u/0x%x,pcp=%d/0x%x,cfi=%d/%d
+label=%u/0x%x,tc=%d/%x,ttl=%d/0x%x,bos=%d/%x
+src=%u.%u.%u.%u/%u.%u.%u.%u,dst=%u.%u.%u.%u/%u.%u.%u.%u,proto=%u/%#x,tos=%#x/%#x,ttl=%u/%#x,frag=%s/%#x
+src=%u.%u.%u.%u,dst=%u.%u.%u.%u,proto=%u,tos=%#x,ttl=%u,frag=%s
+src=%s/%s,dst=%s/%s,label=%#x/%#x,proto=%u/%#x,tclass=%#x/%#x,hlimit=%u/%#x,frag=%s/%#x
+src=%s,dst=%s,label=%#x,proto=%u,tclass=%#x,hlimit=%u,frag=%s
+sip=%u.%u.%u.%u/%u.%u.%u.%u,tip=%u.%u.%u.%u/%u.%u.%u.%u,op=%u/%#x,sha=%02x:%02x:%02x:%02x:%02x:%02x/%02x:%02x:%02x:%02x:%02x:%02x,tha=%02x:%02x:%02x:%02x:%02x:%02x/%02x:%02x:%02x:%02x:%02x:%02x
+sip=%u.%u.%u.%u,tip=%u.%u.%u.%u,op=%u,sha=%02x:%02x:%02x:%02x:%02x:%02x,tha=%02x:%02x:%02x:%02x:%02x:%02x
+,sll=%02x:%02x:%02x:%02x:%02x:%02x
+/%02x:%02x:%02x:%02x:%02x:%02x
+,tll=%02x:%02x:%02x:%02x:%02x:%02x
+bad length %zu, expected %d for: 
+,sFlow(vid=%u,pcp=%u,output=%u)
+,flow_sample(probability=%u,collector_set_id=%u,obs_domain_id=%u,obs_point_id=%u)
+unsupported ARP opcode %u in flow key
+OVS_KEY_ATTR_VLAN 0x%04x is nonzero but CFI bit is not set
+userspace(pid=%lli,sFlow(vid=%i,pcp=%i,output=%lli))%n
+userspace(pid=%lli,slow_path(%n
+userspace(pid=%lli,flow_sample(probability=%lli,collector_set_id=%lli,obs_domain_id=%lli,obs_point_id=%lli))%n
+userspace(pid=%lli,userdata(%n
+push_vlan(vid=%i,pcp=%i,cfi=%i)%n
+push_vlan(tpid=%i,vid=%i,pcp=%i)%n
+push_vlan(tpid=%i,vid=%i,pcp=%i,cfi=%i)%n
+sample(sample=%lf%%,actions(%n
+Multiple mpls_pop actions reduced to  a single mpls_pop action
+Multiple mpls_push actions reduced to  a single mpls_push action
+?bad action at offset %#zx (%s):
+ofpact->type == OFPACT_ENQUEUE
+ofpact->type == OFPACT_OUTPUT_REG
+ofpact->type == OFPACT_REG_MOVE
+ofpact->type == OFPACT_REG_LOAD
+ofpact->type == OFPACT_STACK_PUSH
+ofpact->type == OFPACT_STACK_POP
+ofpact->type == OFPACT_MULTIPATH
+ofpact->type == OFPACT_PUSH_MPLS
+ofpact->type == OFPACT_POP_MPLS
+ofpact->type == OFPACT_GOTO_TABLE
+ofpact->type == OFPACT_SET_VLAN_VID
+ofpact->type == OFPACT_SET_VLAN_PCP
+ofpact->type == OFPACT_SET_ETH_SRC
+ofpact->type == OFPACT_SET_ETH_DST
+ofpact->type == OFPACT_SET_IPV4_SRC
+ofpact->type == OFPACT_SET_IPV4_DST
+ofpact->type == OFPACT_SET_IPV4_DSCP
+ofpact->type == OFPACT_SET_L4_SRC_PORT
+ofpact->type == OFPACT_SET_L4_DST_PORT
+ofpact->type == OFPACT_CONTROLLER
+ofpact->type == OFPACT_DEC_TTL
+ofpact->type == OFPACT_SET_MPLS_TTL
+ofpact->type == OFPACT_WRITE_METADATA
+ofpact->type == OFPACT_SET_QUEUE
+duplicate %s instruction not allowed, for OpenFlow 1.1+ compatibility
+invalid instruction ordering: %s must appear before %s, for OpenFlow 1.1+ compatibility
+OpenFlow message actions length %u is not a multiple of %d
+OpenFlow message actions length %u exceeds remaining message length (%zu)
+mod_dl_src:%02x:%02x:%02x:%02x:%02x:%02x
+mod_dl_dst:%02x:%02x:%02x:%02x:%02x:%02x
+sample(probability=%u,collector_set_id=%u,obs_domain_id=%u,obs_point_id=%u)
+Nicira action dec_ttl_cnt_ids only has %zu bytes allocated for controller ids.  %zu bytes are required for %u controllers.
+OpenFlow message instructions length %u is not a multiple of %d
+OpenFlow message instructions length %u exceeds remaining message length (%zu)
+bad instruction format at offset %zu
+inst->type == htons(OFPIT11_CLEAR_ACTIONS)
+inst->type == htons(OFPIT11_GOTO_TABLE)
+ofpact->type == OFPACT_OUTPUT
+lib/ofp-actions.h:602
+ofpact->type == OFPACT_BUNDLE
+ofpact->type == OFPACT_LEARN
+ofpact->type == OFPACT_METER
+actions=
+output:%u
+CONTROLLER:%u
+max_len=%u,
+id=%u,
+enqueue:
+output:
+mod_vlan_vid:%u
+mod_vlan_pcp:%u
+strip_vlan
+push_vlan:%#x
+mod_nw_src:%u.%u.%u.%u
+mod_nw_dst:%u.%u.%u.%u
+mod_nw_tos:%d
+mod_tp_src:%d
+mod_tp_dst:%d
+dec_ttl
+set_mpls_ttl(%u)
+dec_mpls_ttl
+set_tunnel%s:%#lx
+set_queue:%u
+pop_queue
+fin_timeout(
+idle_timeout=%u,
+hard_timeout=%u,
+resubmit:
+resubmit(
+note:
+push_mpls:0x%04x
+pop_mpls:0x%04x
+clear_actions
+write_metadata
+/%#lx
+goto_table
+%s:%u
+controller(
+reason=%s,
+ofpact == ofpacts->l2
+lib/ofp-actions.c:2467
+lib/ofp-actions.c:903
+apply_actions
+write_actions
+ofp_actions
+ofpact_update_len
+ofpact_get_SET_QUEUE
+ofpact_get_WRITE_METADATA
+ofpact_get_SET_MPLS_TTL
+ofpact_get_DEC_TTL
+ofpact_get_CONTROLLER
+ofpact_get_SET_L4_DST_PORT
+ofpact_get_SET_L4_SRC_PORT
+ofpact_get_SET_IPV4_DSCP
+ofpact_get_SET_IPV4_DST
+ofpact_get_SET_IPV4_SRC
+ofpact_get_SET_ETH_DST
+ofpact_get_SET_ETH_SRC
+ofpact_get_SET_VLAN_PCP
+ofpact_get_SET_VLAN_VID
+ofpact_get_GOTO_TABLE
+ofpact_get_METER
+ofpact_get_POP_MPLS
+ofpact_get_PUSH_MPLS
+ofpact_get_MULTIPATH
+ofpact_get_LEARN
+ofpact_get_STACK_POP
+ofpact_get_STACK_PUSH
+ofpact_get_REG_LOAD
+ofpact_get_REG_MOVE
+ofpact_get_BUNDLE
+ofpact_get_OUTPUT_REG
+ofpact_get_ENQUEUE
+ofpact_get_OUTPUT
+instruction_get_OFPIT11_GOTO_TABLE
+instruction_get_OFPIT11_CLEAR_ACTIONS
+ofperr_is_valid(error)
+lib/ofp-errors.c:131
+cannot encode %s for %s
+<invalid>
+OpenFlow 1.3
+OpenFlow 1.2
+OpenFlow 1.1
+OpenFlow 1.0
+No compatible version.
+Permissions error.
+Vendor subtype not supported.
+Invalid port.  
+Invalid packet in packet-out.
+Invalid NXM flow match.
+Unknown action type.
+Length problem in actions.
+Bad action argument.
+Unknown instruction.
+Invalid Table-ID specified.
+Duplicate instruction.
+Length problem in match.
+A prerequisite was not met.
+A field type was duplicated.
+Unspecified error.
+Table does not exist
+Unsupported or unknown flags.
+Generic hardware error.
+The group table is full.
+Error in bucket.
+Error in watch port/group.
+Specified config is invalid.
+Queue does not exist.
+Specified flags is invalid.
+Specified len is invalid.
+Invalid role.
+Rate unsupported.
+Burst size unsupported.
+Band unsupported.
+Band value unsupported.
+No more meters available.
+Invalid metadata mask.
+Unknown property type.
+Length problem in properties.
+Unsupported property value.
+OFPHFC_INCOMPATIBLE
+OFPHFC_EPERM
+OFPBRC_BAD_VERSION
+OFPBRC_BAD_TYPE
+OFPBRC_BAD_STAT
+OFPBRC_BAD_VENDOR
+OFPBRC_BAD_SUBTYPE
+OFPBRC_EPERM
+OFPBRC_BAD_LEN
+OFPBRC_BUFFER_EMPTY
+OFPBRC_BUFFER_UNKNOWN
+OFPBRC_BAD_TABLE_ID
+OFPBRC_IS_SLAVE
+OFPBRC_BAD_PORT
+OFPBRC_BAD_PACKET
+NXBRC_NXM_INVALID
+NXBRC_NXM_BAD_TYPE
+NXBRC_MUST_BE_ZERO
+NXBRC_BAD_REASON
+NXBRC_FM_DUPLICATE_ID
+NXBRC_FM_BAD_FLAGS
+NXBRC_FM_BAD_ID
+NXBRC_FM_BAD_EVENT
+NXBRC_UNENCODABLE_ERROR
+OFPBAC_BAD_TYPE
+OFPBAC_BAD_LEN
+OFPBAC_BAD_VENDOR
+OFPBAC_BAD_VENDOR_TYPE
+OFPBAC_BAD_OUT_PORT
+OFPBAC_BAD_ARGUMENT
+OFPBAC_EPERM
+OFPBAC_TOO_MANY
+OFPBAC_BAD_QUEUE
+OFPBAC_BAD_OUT_GROUP
+OFPBAC_MATCH_INCONSISTENT
+OFPBAC_UNSUPPORTED_ORDER
+OFPBAC_BAD_TAG
+OFPBAC_BAD_SET_TYPE
+OFPBAC_BAD_SET_LEN
+OFPBAC_BAD_SET_ARGUMENT
+NXBAC_MUST_BE_ZERO
+OFPBIC_UNKNOWN_INST
+OFPBIC_UNSUP_INST
+OFPBIC_BAD_TABLE_ID
+OFPBIC_UNSUP_METADATA
+OFPBIC_UNSUP_METADATA_MASK
+OFPBIC_BAD_EXPERIMENTER
+OFPBIC_BAD_EXP_TYPE
+OFPBIC_BAD_LEN
+OFPBIC_EPERM
+ONFBIC_DUP_INSTRUCTION
+OFPBMC_BAD_TYPE
+OFPBMC_BAD_LEN
+OFPBMC_BAD_TAG
+OFPBMC_BAD_DL_ADDR_MASK
+OFPBMC_BAD_NW_ADDR_MASK
+OFPBMC_BAD_WILDCARDS
+OFPBMC_BAD_FIELD
+OFPBMC_BAD_VALUE
+OFPBMC_BAD_MASK
+OFPBMC_BAD_PREREQ
+OFPBMC_DUP_FIELD
+OFPBMC_EPERM
+OFPFMFC_UNKNOWN
+OFPFMFC_TABLE_FULL
+OFPFMFC_BAD_TABLE_ID
+OFPFMFC_OVERLAP
+OFPFMFC_EPERM
+OFPFMFC_BAD_TIMEOUT
+OFPFMFC_BAD_EMERG_TIMEOUT
+OFPFMFC_BAD_COMMAND
+OFPFMFC_BAD_FLAGS
+OFPFMFC_UNSUPPORTED
+NXFMFC_HARDWARE
+NXFMFC_BAD_TABLE_ID
+OFPGMFC_GROUP_EXISTS
+OFPGMFC_INVALID_GROUP
+OFPGMFC_WEIGHT_UNSUPPORTED
+OFPGMFC_OUT_OF_GROUPS
+OFPGMFC_OUT_OF_BUCKETS
+OFPGMFC_CHAINING_UNSUPPORTED
+OFPGMFC_WATCH_UNSUPPORTED
+OFPGMFC_LOOP
+OFPGMFC_UNKNOWN_GROUP
+OFPGMFC_CHAINED_GROUP
+OFPGMFC_BAD_TYPE
+OFPGMFC_BAD_COMMAND
+OFPGMFC_BAD_BUCKET
+OFPGMFC_BAD_WATCH
+OFPGMFC_EPERM
+OFPPMFC_BAD_PORT
+OFPPMFC_BAD_HW_ADDR
+OFPPMFC_BAD_CONFIG
+OFPPMFC_BAD_ADVERTISE
+OFPPMFC_EPERM
+OFPTMFC_BAD_TABLE
+OFPTMFC_BAD_CONFIG
+OFPTMFC_EPERM
+OFPQOFC_BAD_PORT
+OFPQOFC_BAD_QUEUE
+OFPQOFC_EPERM
+OFPSCFC_BAD_FLAGS
+OFPSCFC_BAD_LEN
+OFPSCFC_EPERM
+OFPRRFC_STALE
+OFPRRFC_UNSUP
+OFPRRFC_BAD_ROLE
+OFPMMFC_UNKNOWN
+OFPMMFC_METER_EXISTS
+OFPMMFC_INVALID_METER
+OFPMMFC_UNKNOWN_METER
+OFPMMFC_BAD_COMMAND
+OFPMMFC_BAD_FLAGS
+OFPMMFC_BAD_RATE
+OFPMMFC_BAD_BURST
+OFPMMFC_BAD_BAND
+OFPMMFC_BAD_BAND_VALUE
+OFPMMFC_OUT_OF_METERS
+OFPMMFC_OUT_OF_BANDS
+OFPTFFC_BAD_TABLE
+OFPTFFC_BAD_METADATA
+OFPTFFC_BAD_TYPE
+OFPTFFC_BAD_LEN
+OFPTFFC_BAD_ARGUMENT
+OFPTFFC_EPERM
+ofp_errors
+cannot encode error for unknown OpenFlow version 0x%02x
+invalid OpenFlow error code %d (%s)
+ofp_header.version not supported.
+ofp_header.type not supported.
+ofp_stats_msg.type not supported.
+Vendor not supported (in ofp_vendor_header or ofp_stats_msg).
+Wrong request length for type.
+Specified buffer has already been used.
+Specified buffer does not exist.
+Specified table-id invalid or does not exist. 
+Denied because controller is slave.
+Multipart request overflowed the assigned buffer.
+The nxm_type, or nxm_type taken in combination with nxm_hasmask or nxm_length or both, is invalid or not implemented.
+Must-be-zero field had nonzero value.
+The reason in an ofp_port_status message is not valid.
+The 'id' in an NXST_FLOW_MONITOR request is the same as an existing monitor id (or two monitors in the same NXST_FLOW_MONITOR request have the same 'id').
+The 'flags' in an NXST_FLOW_MONITOR request either does not specify at least one of the NXFMF_ADD, NXFMF_DELETE, or NXFMF_MODIFY flags, or specifies a flag bit that is not defined.
+The 'id' in an NXT_FLOW_MONITOR_CANCEL request is not the id of any existing monitor.
+The 'event' in an NXST_FLOW_MONITOR reply does not specify one of the NXFME_ABBREV, NXFME_ADD, NXFME_DELETE, or NXFME_MODIFY.
+The error that occurred cannot be represented in this OpenFlow version.
+Unknown experimenter id specified.
+Unknown action type for experimenter id.
+Problem validating output port.
+Can't handle this many actions.
+Problem validating output queue.
+Invalid group id in forward action.
+Action can't apply for this match or a prerequisite for use of this field is unmet.
+Action order is unsupported for the action list in an Apply-Actions instruction
+Actions uses an unsupported tag/encap.
+Action uses unknown or unsupported OXM or NXM field.
+Action references past the end of an OXM or NXM field, or uses a length of zero.
+Action sets a field to an invalid or unsupported value, or modifies a read-only field.
+Must-be-zero action argument had nonzero value.
+Switch or table does not support the instruction.
+Metadata value unsupported by datapath.
+Metadata mask value unsupported by datapath.
+Unknown instruction for experimenter id.
+Length problem in instructions.
+Unsupported match type specified by the match
+Match uses an unsupported tag/encap.
+Unsupported datalink addr mask - switch does not support arbitrary datalink address mask.
+Unsupported network addr mask - switch does not support arbitrary network address mask.
+Unsupported wildcard specified in the match.
+Unsupported field in the match.
+Unsupported value in a match field.
+Unsupported mask specified in the match, field is not dl-address or nw-address.
+Flow not added because of full table(s).
+Attempted to add overlapping flow with CHECK_OVERLAP flag set.
+Flow not added because of unsupported idle/hard timeout.
+Flow not added because of non-zero idle/hard timeout.
+Unsupported or unknown command.
+Unsupported action list - cannot process in the order specified.
+A nonexistent table ID was specified in the "command" field of struct ofp_flow_mod, when the nxt_flow_mod_table_id extension is enabled.
+Group not added because a group ADD attempted to replace an already-present group.
+Group not added because Group specified is invalid.
+Switch does not support unequal load sharing with select groups.
+The maximum number of action buckets for a group has been exceeded.
+Switch does not support groups that forward to groups.
+This group cannot watch the watch_port or watch_group specified.
+Group entry would cause a loop.
+Group not modified because a group MODIFY attempted to modify a non-existent group.
+Group not deleted because another group is forwarding to it.
+Unsupported or unknown group type.
+Specified port does not exist.
+Specified hardware address does not match the port number.
+Specified advertise is invalid.
+Specified table does not exist.
+Invalid port (or port does not exist).
+Stale Message: old generation_id.
+Controller role change unsupported.
+Meter not added because a Meter ADD attempted to replace an existing Meter.
+Meter not added because Meter specified is invalid.
+Meter not modified because a Meter MODIFY attempted to modify a non-existent Meter.
+Flag configuration unsupported.
+The maximum number of properties for a meter has been exceeded.
+OFPBRC_MULTIPART_BUFFER_OVERFLOW
+ofperr_get_triplet__
+version >= info->min_version && version <= info->max_version
+OpenFlow message has unknown vendor %#x
+received %s with incorrect length %u (expected length %u)
+received %s with incorrect length %u (expected length at least %u bytes)
+received %s with incorrect length %u (must be exactly %u bytes or longer by an integer multiple of %u bytes)
+hdrs.type == OFPT10_STATS_REQUEST
+hdrs.type == OFPT11_STATS_REQUEST
+lib/ofp-msgs.c:948
+raw < ARRAY_SIZE(raw_infos)
+lib/ofp-msgs.c:941
+lib/ofp-msgs.c:1013
+version %u, type %u
+, stat %u
+, vendor 0x%x, subtype %u
+unknown OpenFlow message (%s)
+hdrs->vendor == NX_VENDOR_ID
+lib/ofp-msgs.c:649
+!error
+lib/ofp-msgs.c:340
+lib/ofp-msgs.c:439
+lib/ofp-msgs.c:724
+lib/ofp-msgs.c:730
+lib/ofp-msgs.c:738
+lib/ofp-msgs.c:548
+reply_raw
+lib/ofp-msgs.c:551
+lib/ofp-msgs.c:618
+lib/ofp-msgs.c:621
+lib/ofp-msgs.c:259
+start_ofs <= UINT16_MAX
+lib/ofp-msgs.c:891
+OFPT_HELLO
+OFPT_ERROR
+OFPT_ECHO_REQUEST
+OFPT_ECHO_REPLY
+OFPT_FEATURES_REQUEST
+OFPT_FEATURES_REPLY
+OFPT_GET_CONFIG_REQUEST
+OFPT_GET_CONFIG_REPLY
+OFPT_SET_CONFIG
+OFPT_PACKET_IN
+NXT_PACKET_IN
+OFPT_FLOW_REMOVED
+NXT_FLOW_REMOVED
+OFPT_PORT_STATUS
+OFPT_PACKET_OUT
+OFPT_FLOW_MOD
+NXT_FLOW_MOD
+OFPT_PORT_MOD
+OFPT_BARRIER_REQUEST
+OFPT_BARRIER_REPLY
+OFPT_QUEUE_GET_CONFIG_REQUEST
+OFPT_QUEUE_GET_CONFIG_REPLY
+OFPT_ROLE_REQUEST
+NXT_ROLE_REQUEST
+OFPT_ROLE_REPLY
+NXT_ROLE_REPLY
+OFPT_GET_ASYNC_REQUEST
+OFPT_GET_ASYNC_REPLY
+OFPT_SET_ASYNC
+NXT_SET_ASYNC_CONFIG
+OFPT_METER_MOD
+OFPST_DESC request
+OFPST_DESC reply
+OFPST_FLOW request
+NXST_FLOW request
+OFPST_FLOW reply
+NXST_FLOW reply
+OFPST_AGGREGATE request
+NXST_AGGREGATE request
+OFPST_AGGREGATE reply
+NXST_AGGREGATE reply
+OFPST_TABLE request
+OFPST_TABLE reply
+OFPST_PORT request
+OFPST_PORT reply
+OFPST_QUEUE request
+OFPST_QUEUE reply
+OFPST_GROUP request
+OFPST_GROUP reply
+OFPST_GROUP_DESC request
+OFPST_GROUP_DESC reply
+OFPST_GROUP_FEATURES request
+OFPST_GROUP_FEATURES reply
+OFPST_METER request
+OFPST_METER reply
+OFPST_METER_CONFIG request
+OFPST_METER_CONFIG reply
+OFPST_METER_FEATURES request
+OFPST_METER_FEATURES reply
+OFPST_TABLE_FEATURES request
+OFPST_TABLE_FEATURES reply
+OFPST_PORT_DESC request
+OFPST_PORT_DESC reply
+NXT_SET_FLOW_FORMAT
+NXT_FLOW_MOD_TABLE_ID
+NXT_SET_PACKET_IN_FORMAT
+NXT_FLOW_AGE
+NXT_SET_CONTROLLER_ID
+NXT_FLOW_MONITOR_CANCEL
+NXT_FLOW_MONITOR_PAUSED
+NXT_FLOW_MONITOR_RESUMED
+NXST_FLOW_MONITOR request
+NXST_FLOW_MONITOR reply
+ofp_msgs
+ofpmp_postappend
+ofphdrs_decode_assert
+ofpraw_stats_request_to_reply
+ofpraw_put_stats_reply
+ofpraw_alloc_stats_reply
+ofpraw_put__
+ofpraw_pull_assert
+raw_instance_get
+raw_info_get
+ofpraw_decode_assert
+invalid %s "%s"
+%hhx:%hhx:%hhx:%hhx:%hhx:%hhx
+invalid mac address %s
+invalid numeric format %s
+%s: output to unknown port
+%s: not a valid VLAN VID
+%s: not a valid VLAN PCP
+%s: missing `->'
+%s is read-only
+ethertype
+%s: not a valid TOS
+source port
+destination port
+%s: enqueue to unknown port
+%s: resubmit to unknown port
+0123456789
+max_len
+reason
+unknown reason "%s"
+push_mpls
+pop_mpls
+probability
+collector_set_id
+obs_domain_id
+obs_point_id
+Unknown action: %s
+must specify an action
+=, 	
+send_flow_rem
+check_overlap
+reset_counts
+no_packet_counts
+no_byte_counts
+out_port
+cannot set cookie
+n_packets
+n_bytes
+idle_age
+hard_age
+must specify bands
+kbps
+pktps
+burst
+slowpath
+invalid value for %s
+must specify 'meter'
+meter must have bands
+dscp_remark
+field %s unknown value %s
+burst_size
+prec_level
+band must have 'type'
+band must have 'rate'
+band
+!initial
+!add
+!delete
+!modify
+!actions
+!own
+%s: field %s missing value
+%s: unknown keyword %s
+Incorrect action ordering
+%s: open failed (%s)
+%s: unknown field %s
+%s: bad value for %s (%s)
+icmp6
+tcp6
+udp6
+sctp6
+rarp
+mplsm
+ofp_parse
+%s: could not convert to IP address
+missing required numeric argument
+%s: missing field name following `->'
+%s is not a valid OXM field name
+%s is not a valid value for field %s
+%s: not a valid VLAN ethertype
+"enqueue" syntax is "enqueue:PORT:QUEUE"
+at least one "in_port" or "table" must be specified  on resubmit
+bad hex digit in `note' argument
+dec_ttl_cnt_ids: expected at least one controller id.
+parse_set_mpls_ttl: expected ttl.
+invalid key '%s' in 'fin_timeout' argument
+unknown key "%s" parsing controller action
+invalid probability value "%s"
+invalid key "%s" in "sample" argument
+non-zero "probability" must be specified on sample
+Drop actions must not be preceded by other actions
+Drop actions must not be followed by other actions
+%s is not a valid OpenFlow port
+flow additions cannot use a cookie mask
+%s isn't supported. Just write actions then it is interpreted as apply_actions
+instruction write-actions is not supported yet
+instruction goto-table needs table id
+Incorrect instruction ordering
+instruction %s may be specified only once
+instruction %s must be specified before %s
+actions are invalid with specified match (%s)
+meter must specify either 'kbps' or 'pktps'
+band must start with the 'type' keyword
+'dscp_remark' band must have 'prec_level'
+Only 'dscp_remark' band may have 'prec_level'
+band must have 'burst_size' when 'burst' flag is set
+band may have 'burst_size' only when 'burst' flag is set
+%s: Ethernet type set multiple times
+%s: network protocol set multiple times
+%s: prerequisites not met for setting %s
+%s: field %s set multiple times
+10MB-HD
+10MB-FD
+100MB-HD
+100MB-FD
+1GB-HD
+1GB-FD
+10GB-FD
+40GB-FD
+100GB-FD
+1TB-FD
+OTHER
+COPPER
+FIBER
+AUTO_NEG
+AUTO_PAUSE
+AUTO_PAUSE_ASYM
+PORT_DOWN
+NO_STP
+NO_RECV
+NO_RECV_STP
+NO_FLOOD
+NO_FWD
+NO_PACKET_IN
+LINK_DOWN
+LIVE
+FLOW_STATS
+TABLE_STATS
+PORT_STATS
+IP_REASM
+QUEUE_STATS
+ARP_MATCH_IP
+GROUP_STATS
+PORT_BLOCKED
+SET_VLAN_VID
+SET_VLAN_PCP
+STRIP_VLAN
+SET_DL_SRC
+SET_DL_DST
+SET_NW_SRC
+SET_NW_DST
+SET_NW_ECN
+SET_NW_TOS
+SET_TP_SRC
+SET_TP_DST
+SET_FIELD
+ENQUEUE
+COPY_TTL_OUT
+COPY_TTL_IN
+SET_MPLS_LABEL
+SET_MPLS_TC
+SET_MPLS_TTL
+DEC_MPLS_TTL
+PUSH_VLAN
+POP_VLAN
+PUSH_MPLS
+POP_MPLS
+SET_QUEUE
+SET_NW_TTL
+DEC_NW_TTL
+send_flow_rem 
+check_overlap 
+reset_counts 
+no_packet_counts 
+no_byte_counts 
+ ***unknown flags 0x%04x***
+[more]
+[***unknown flags 0x%04x***]
+  %d: %-8s: 
+wild=0x%05lx, 
+max=%6u, 
+active=%u
+               
+lookup=%lu, 
+matched=%lu
+match=0x%08lx, 
+instructions=0x%08x, 
+config=0x%08x
+write_actions=0x%08x, 
+apply_actions=0x%08x
+write_setfields=0x%016lx
+apply_setfields=0x%016lx
+metadata_match=0x%016lx
+metadata_write=0x%016lx
+idle
+hard
+group_delete
+eviction
+meter_delete
+.%09u
+***decode error: %s***
+ table=%u
+ out_port=
+ table_id=%u
+ cookie:0x%lx
+ duration
+ idle%u
+ hard%u
+ pkts%lu bytes%lu
+ event=
+ADDED
+DELETED reason=%s
+MODIFIED
+ABBREV xid=0x%x
+ cookie=%#lx
+meter=%u 
+kbps 
+pktps 
+burst 
+stats 
+flags:0x%x 
+bands=
+type=
+ rate=%u
+ burst_size=%u
+ prec_level=%u
+STP_LEARN
+STP_BLOCK
+STP_FORWARD
+     config:     
+     state:      
+     current:    
+     advertised: 
+     supported:  
+     peer:       
+ id=%u flags=
+ tcp_csum:%x
+ udp_csum:%x
+ sctp_csum:%x
+dl_vlan=
+dl_vlan_pcp=
+%02x:%02x:%02x:%02x:%02x:%02x
+dl_src=
+dl_dst=
+dl_type=
+nw_src=
+nw_dst=
+arp_op=
+nw_proto=
+nw_tos=
+icmp_type=
+icmp_code=
+tp_src=
+tp_dst=
+MOD_STRICT
+DEL_STRICT
+cmd:%d
+ table:%d
+cookie:0x%lx 
+cookie:0x%lx/0x%lx 
+idle:%u 
+hard:%u 
+pri:%u 
+buf:0x%x 
+out_port:
+ cookie=0x%lx, duration=
+, table=%u, 
+n_packets=%lu, 
+n_bytes=%lu, 
+idle_timeout=%u, 
+hard_timeout=%u, 
+idle_age=%d, 
+hard_age=%d, 
+ ***parse error***
+ (OF1.1)
+ (OF1.2)
+ (OF1.3)
+ (OF 0x%02x)
+ (xid=0x%x):
+enable
+disable
+master
+OpenFlow message is empty
+NOT IMPLEMENTED YET!
+ version bitmap: 
+ unknown data in hello:
+***decode error***
+ %zu bytes of payload
+ dpid:%016lx
+n_tables:%u, n_buffers:%u
+, auxiliary_id:%u
+capabilities: 
+actions: 
+ frags=%s
+ invalid_ttl_to_controller
+ miss_send_len=%u
+ total_len=%u in_port=
+ tun_id=0x%lx
+ tun_src=%u.%u.%u.%u
+ tun_dst=%u.%u.%u.%u
+ metadata=0x%lx
+ reg%d=0x%x
+ pkt_mark=0x%x
+ (via %s)
+ data_len=%zu
+ (unbuffered)
+ buffer=0x%08x
+ (***total_len < data_len***)
+ ADD:
+ DEL:
+ MOD:
+port: 
+     config: 
+     mask:   
+     advertise: 
+UNCHANGED
+ ADD 
+ MOD 
+ DEL 
+ cmd:%d 
+ role=
+nochange
+equal
+ generation_id=%lu
+ meter=%u
+meter:%u 
+flow_count:%u 
+packet_in_count:%lu 
+byte_in_count:%lu 
+duration:
+bands:
+packet_count:%lu 
+byte_count:%lu
+max_meter:%u
+ max_bands:%u
+ max_color:%u
+band_types: 
+ port_no=
+ queue=
+Manufacturer: %.*s
+Hardware: %.*s
+Software: %.*s
+Serial Num: %.*s
+DP Description: %.*s
+ %zu queues
+  port 
+ queue 
+bytes=
+pkts=
+errors=
+ %zu ports
+: rx 
+drop=
+errs=
+frame=
+over=
+crc=
+           tx 
+coll=
+           duration=
+ %zu tables
+ packet_count=%lu
+ byte_count=%lu
+ flow_count=%u
+ format=
+ id=%u
+ %s:
+       PACKET_IN:
+ (off)
+     PORT_STATUS:
+    FLOW_REMOVED:
+(%s): addr:%02x:%02x:%02x:%02x:%02x:%02x
+     speed: %u Mbps now, %u Mbps max
+OpenFlow packet too short (only %zu bytes):
+(***truncated to %zu bytes from %u***)
+(***only uses %u bytes out of %zu***)
+ (***total_len != data_len***)
+: addr:%02x:%02x:%02x:%02x:%02x:%02x
+  %d: active=%u, lookup=%lu, matched=%lu
+OpenFlow10
+OpenFlow11
+ pre: %s
+post: %s
+NXM-table_id
+NXM+table_id
+OpenFlow10-table_id
+OpenFlow10+table_id
+OXM-OpenFlow12
+OXM-OpenFlow13
+!(protocols & ~OFPUTIL_P_ANY)
+lib/ofp-util.c:882
+none
+%.*s: unknown flow protocol
+openflow10
+lib/ofp-util.c:1329
+current == want
+lib/ofp-util.c:1315
+no_match
+normal
+reassemble
+OFPST_FLOW reply bad match
+NORMAL
+CONTROLLER
+LOCAL
+retval != EOF
+lib/ofp-util.c:3620
+:=(, 	
+output
+mod_vlan_vid
+mod_vlan_pcp
+mod_dl_src
+mod_dl_dst
+mod_nw_src
+mod_nw_dst
+mod_nw_tos
+mod_tp_src
+mod_tp_dst
+enqueue
+set_mpls_ttl
+push_vlan
+set_queue
+set_field
+resubmit
+set_tunnel
+move
+push
+note
+set_tunnel64
+multipath
+bundle
+bundle_load
+learn
+fin_timeout
+ofp_util
+normalization changed ofp_match, details:
+%s: no flow protocol specified
+Unknown OpenFlow version: "%s"
+peer claims to support invalid OpenFlow version 0x00
+peer does not support any OpenFlow version (between 0x01 and 0x1f)
+ofputil_nx_flow_format_is_valid(nxff)
+OFPMP_METER_CONFIG reply has %zu leftover bytes at end
+OFPMP_METER reply has %zu leftover bytes at end
+NXST_FLOW_MONITOR request has %zu leftover bytes at end
+NXST_FLOW_MONITOR has bad flags %#x
+NXST_FLOW_MONITOR reply has bad event %u
+NXST_FLOW_MONITOR reply has %zu leftover bytes at end
+port %u is outside the supported range 0 through %d or 0x%x through 0x%x
+OFPST_FLOW reply has %zu leftover bytes at end
+OFPST_FLOW reply claims invalid length %zu
+OFPST_FLOW reply bad instructions
+NXST_FLOW reply has %zu leftover bytes at end
+NXST_FLOW reply with match_len=%zu claims invalid length %zu
+packet-out has bad input port %#x
+port %u is a reserved OF1.0 port number that will be translated to %u when talking to an OF1.1 or later controller
+port %u is outside the supported range 0 through %x or 0x%x through 0x%x
+referring to port %s as %u is deprecated for compatibility with OpenFlow 1.1 and later
+OFPST_PORT reply has %zu leftover bytes at end
+OFPST_QUEUE reply has %zu leftover bytes at end
+ofputil_decode_port_status
+ofputil_encode_nx_set_flow_format
+ofputil_encode_set_protocol
+ofputil_protocols_to_string
+lib/ofp-version-opt.c:21
+lib/ofp-version-opt.c:28
+ofp_version
+Open Flow Version options:
+  -V, --version           display version information
+  -O, --protocols         set allowed Open Flow versions
+                          (default: %s)
+!b->size
+lib/ofpbuf.c:429
+offset + size <= b->size
+lib/ofpbuf.c:481
+b->size >= size
+lib/ofpbuf.c:514
+size=%zu, allocated=%zu, head=%zu, tail=%zu
+ofpbuf_pull
+ofpbuf_at_assert
+ofpbuf_reserve
+mutex
+pthread_%s_%s failed
+rwlock
+trylock
+tryrdlock
+trywrlock
+pthread_%s_%sfailed
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutexattr_init
+pthread_mutexattr_destroy
+pthread_mutexattr_settype
+pthread_mutex_init failed
+pthread_mutexattr_gettype
+pthread_cond_init
+pthread_cond_destroy
+pthread_cond_signal
+pthread_cond_broadcast
+pthread_join
+pthread_key_create
+pthread_setspecific
+pthread_rwlock_init failed
+pthread_cond_wait failed
+lib/ovs-thread.c:242
+%s: fork failed (%s)
+reason != NULL
+lib/ovs-thread.c:302
+multiple threads exist
+pthread_create failed
+ovs_thread
+%s: attempted operation not allowed when multithreaded
+%s: attempted to fork but forking not allowed (%s)
+forbid_forking
+0123456789abcdefABCDEF
+lib/packets.c:115
+/%u.%u.%u.%u
+[40]
+[80]
+Trailing garbage in packet data
+Packet data too short for Ethernet
+wakeup due to 
+[POLLIN]
+[POLLOUT]
+[POLLERR]
+[POLLHUP]
+[POLLNVAL]
+ on fd %d (%s)
+%d-ms timeout
+ at %s
+ (%d%% CPU usage)
+poll: %s
+poll_zero_timeout
+poll_fd_wait
+poll_loop
+lib/process.c:75
+p->exited
+lib/process.c:267
+exit status %d
+killed (%s)
+stopped (%s)
+terminated abnormally (%x)
+, core dumped
+waitpid: %s
+lib/process.c:335
+lib/process.c:337
+%s/%s
+lib/process.c:185
+starting subprocess: %s
+%s not found in PATH
+fork failed: %s
+execvp("%s") failed: %s
+process_start
+process_sigchld
+process_status
+seed_
+lib/random.c:67
+random_set_seed
+waiter->thread == thread
+lib/seq.c:250
+lib/seq.c:236
+lib/seq.c:77
+lib/seq.c:90
+lib/seq.c:103
+lib/seq.c:120
+lib/seq.c:175
+lib/seq.c:140
+lib/seq.c:150
+lib/seq.c:157
+lib/seq.c:179
+lib/seq.c:196
+seq_thread_woke
+lib/shash.c:112
+added
+lib/shash.c:147
+data != NULL
+lib/shash.c:244
+i == n
+lib/shash.c:279
+shash_sort
+shash_find_and_delete_assert
+shash_add_assert
+lib/simap.c:253
+lib/simap.c:218
+simap_sort
+lib/signals.c:91
+signal %d
+sigaction(%s) failed (%s)
+lib/signals.c:59
+!s->fds[0] && !s->fds[1]
+lib/signals.c:63
+pthread_sigmask failed (%s)
+signals
+signr >= 1 && signr < N_SIGNALS
+signal_register
+lib/smap.c:305
+false
+true
+lib/smap.c:254
+smap_sort
+getsockopt(%s): %s
+%u.%u.%u.%u:%u
+SO_PROTOCOL
+NETLINK_ROUTE
+NETLINK_GENERIC
+AF_NETLINK family %d
+AF_NETLINK
+AF_PACKET
+(ifindex=%d)
+(protocol=0x%u)
+AF_UNSPEC
+AF_%d
+/proc/self/fd/%d/%s
+fcntl(F_SETFL) failed: %s
+fcntl(F_GETFL) failed: %s
+SO_RCVBUF
+unlinking "%s": %s
+%s: bad peer name format
+%s: socket: %s
+%s: bind: %s
+%s: listen: %s
+%s: getsockname: %s
+%s: listening on port %u
+could not open /dev/null: %s
+/dev/null
+write returned 0
+%s: fsync failed (%s)
+failed to create pipe (%s)
+directory
+character device
+block device
+FIFO
+symbolic link
+/proc/self/fd/%d
+sock >= 0
+lib/socket-util.c:1149
+n_fds <= SOUTIL_MAX_FDS
+lib/socket-util.c:1158
+!iovec_is_empty(iovs, n_iovs)
+lib/socket-util.c:1157
+send returned 0
+lib/socket-util.c:1270
+n_fds > 0
+lib/socket-util.c:1333
+multiple SCM_RIGHTS received
+%s: ioctl(%s) failed: %s
+socket_util
+getsockopt(%s): value is %u bytes (expected %zu)
+Unix socket name %s is longer than maximum %d bytes (even shortened)
+failed to obtain fd limit, defaulting to 1024
+"%s" is not a valid IP address
+"%s" is not a valid IPv6 address
+poll return POLLERR but send succeeded
+%s: port number must be specified
+%s: setsockopt(SO_REUSEADDR): %s
+%s: getsockname: invalid socket name
+failed to create socketpair (%s)
+unexpected control message %d:%d
+%zu fds received but only %d supported
+failed to create inet socket: %s
+recv_data_and_fds
+send_iovec_and_fds
+lib/sset.c:53
+lib/sset.c:148
+deleted
+lib/sset.c:199
+lib/sset.c:298
+sset_sort
+sset_find_and_delete_assert
+sset_add_assert
+lib/timeval.c:571
+invalid MSECS
+lib/timeval.c:599
+warped
+timer_create failed (%s)
+timer_settime failed (%s)
+lib/timeval.c:158
+gettimeofday failed (%s)
+xclock_gettime() failed
+lib/timeval.c:181
+lib/timeval.c:190
+lib/timeval.c:269
+faults: %ld minor, %ld major
+disk: %ld reads, %ld writes
+time/stop
+time/warp
+%03d
+timeval
+Unreasonably long %lldms poll interval (%lldms user, %lldms system)
+context switches: %ld voluntary, %ld involuntary
+conn->request_id
+lib/unixctl.c:135
+The available commands are:
+  %-23s %s
+!lookup || lookup->cb == cb
+lib/unixctl.c:112
+punix:%s
+punix:%s/%s.%ld.ctl
+%s: accept failed: %s
+"%s" is not a valid command
+failed to connect to %s
+unixctl_replied
+unixctl_received
+unixctl
+could not initialize control socket %s
+"%s" command requires at least %d arguments
+"%s" command takes at most %d arguments
+"%s" command has non-string argument
+%s: received unexpected %s message
+error communicating with %s: %s
+%s: unexpected error type in JSON RPC reply: %s
+%s: unexpected result type in JSON rpc reply: %s
+unixctl_command_reply__
+unixctl_command_register
+%s: assertion %s failed in %s()
+%s (Open vSwitch) 2.0.0
+Compiled %s %s
+%s %s
+Open vSwitch Library 2.0.0
+Compiled %s %s
+%s: too many levels of symlinks
+End of file
+%s(%s): 
+virtual memory exhausted
+lib/util.c:376
+OpenFlow versions %#x:%#x
+getcwd failed (%s)
+%s%s%s
+%s: readlink failed (%s)
+, and 
+lib/util.c:843
+util_xalloc
+log_2_floor
+class->name != NULL
+lib/vconn.c:99
+class->open != NULL
+lib/vconn.c:100
+class->close != NULL
+lib/vconn.c:103
+class->recv != NULL
+lib/vconn.c:104
+class->send != NULL
+lib/vconn.c:105
+class->wait != NULL
+lib/vconn.c:106
+lib/vconn.c:114
+class->listen != NULL
+lib/vconn.c:115
+lib/vconn.c:117
+class->accept != NULL
+lib/vconn.c:118
+lib/vconn.c:119
+no versions
+version 
+ and earlier
+versions 
+lib/vconn.c:687
+%s: sent (%s): %s
+%s: received: %s
+lib/vconn.c:255
+retval != EINPROGRESS
+lib/vconn.c:422
+%s: unknown data in hello:
+lib/vconn.c:915
+lib/vconn.c:935
+error != EINPROGRESS
+lib/vconn.c:718
+lib/vconn.c:1083
+lib/vconn.c:1123
+vconn_sent
+vconn_received
+vconn_open
+vconn
+msg->size >= sizeof(struct ofp_header)
+Active OpenFlow connection methods:
+  tcp:IP[:PORT]           PORT (default: %d) at remote IP
+  ssl:IP[:PORT]           SSL PORT (default: %d) at remote IP
+  unix:FILE               Unix domain socket named FILE
+Passive OpenFlow connection methods:
+  ptcp:[PORT][:IP]        listen to TCP PORT (default: %d) on IP
+  pssl:[PORT][:IP]        listen for SSL on PORT (default: %d) on IP
+  punix:FILE              listen on Unix domain socket FILE
+PKI configuration (required to use SSL):
+  -p, --private-key=FILE  file with private key
+  -c, --certificate=FILE  file with certificate for private key
+  -C, --ca-cert=FILE      file with peer CA certificate
+  --bootstrap-ca-cert=FILE  file with peer CA certificate to read or create
+vconn->state != VCS_CONNECTING || vconn->class->connect
+%s: version negotiation failed (we support %s, peer supports %s)
+%s: negotiated OpenFlow version 0x%02x (we support %s, peer supports %s)
+%s: received message while expecting hello: %s
+We support %s, you support %s, no common versions.
+%s: received OpenFlow version 0x%02x != expected %02x
+wait == WAIT_CONNECT || wait == WAIT_RECV || wait == WAIT_SEND
+%s: received reply with xid %08x != expected %08x
+%s: duplicate replies with xid %08x
+%s: reply with xid %08x != expected %08x or %08x
+(*new_vconn)->state != VCS_CONNECTING || (*new_vconn)->class->connect
+vconn->state != VCS_CONNECTING || class->connect
+vconn_init
+pvconn_accept
+vconn_wait
+vconn_connect_block
+do_send
+vcs_connecting
+check_vconn_classes
+vconn_open
+lib/vlog.c
+level < VLL_N_LEVELS
+lib/vlog.c:229
+lib/vlog.c:266
+names[i]
+main
+%Y-%m-%d %H:%M:%S.###
+facility < VLF_N_FACILITIES
+unknown module
+ ,:	
+PATTERN
+missing facility
+unknown facility "%s"
+processing "%s": %s
+lib/vlog.c:632
+    (rate limiting disabled)
+lib/vlog.c:821
+lib/vlog.c:834
+lib/vlog.c:857
+%s/%s.log
+lib/vlog.c:317
+closing log file
+lib/vlog.c:340
+opened log file %s
+lib/vlog.c:332
+lib/vlog.c:373
+lib/vlog.c:517
+%a, %d %b %Y %H:%M:%S
+vlog/set
+vlog/list
+[module]...
+vlog/enable-rate-limit
+vlog/disable-rate-limit
+vlog/reopen
+lib/vlog.c:970
+SYSLOG
+ovs|%05N|%c%T|%p|%m
+CONSOLE
+EMER
+WARN
+vlog_recursive
+vlog
+facility >= 0 && facility < VLF_N_FACILITIES
+facility < VLF_N_FACILITIES || facility == VLF_ANY_FACILITY
+cannot specify multiple facilities
+cannot specify multiple levels
+cannot specify multiple modules
+no facility, level, or module "%s"
+                 console    syslog    file
+                 -------    ------    ------
+%-16s  %4s       %4s       %4s
+failed to open %s for logging: %s
+Logging to file not configured
+current time is negative: %s (%lld)
+{spec | PATTERN:facility:pattern}
+Dropped %u log messages in last %u seconds (most recently, %u seconds ago) due to excessive rate
+Logging options:
+  -v, --verbose=[SPEC]    set logging levels
+  -v, --verbose           set maximum verbosity level
+  --log-file[=FILE]       enable logging to specified FILE
+                          (default: %s/%s.log)
+%D{%Y-%m-%dT%H:%M:%SZ}|%05N|%c%T|%p|%m
+%D{%Y-%m-%dT%H:%M:%S.###Z}|%05N|%c%T|%p|%m
+vlog_set_pattern
+set_facility_level
+vlog_set_levels
+vlog_get_level
+vlog_get_facility_name
+search_name_array
+vlog_get_level_name
+!flow->stats
+lib/dpif-linux.c:1997
+!flow->tcp_flags
+lib/dpif-linux.c:1998
+!flow->used
+lib/dpif-linux.c:1999
+lib/dpif-provider.h:51
+lib/dpif-linux.c:1491
+lib/dpif-linux.c:1479
+lib/dpif-linux.c:1481
+lib/dpif-linux.c:1467
+epoll_wait failed (%s)
+ (last polled %lld ms ago)
+lib/dpif-linux.c:670
+lib/dpif-linux.c:827
+internal
+vxlan
+lisp
+n_ops <= MAX_OPS
+lib/dpif-linux.c:1112
+lib/dpif-linux.c:2026
+%s: datapath port %u too big
+lib/dpif-linux.c:1866
+ovs_datapath
+ovs_vport
+ovs_flow
+ovs_packet
+lib/dpif-linux.c:1715
+lib/dpif-linux.c:1314
+lib/dpif-linux.c:605
+lib/dpif-linux.c:574
+%s: vport query failed (%s)
+dpif_linux
+dpif->dpif_class == dpif_class
+%s: lost packet on channel %td%s
+dp%d: port `%s' has unsupported type %u
+(reply != NULL) == (bufp != NULL)
+dumped flow disappeared on get
+error fetching dumped flow: %s
+port_changed: dpif:%s vport:%s cmd:%u
+error reading or parsing netlink (%s)
+Generic Netlink family '%s' does not exist. The Open vSwitch kernel module is probably not loaded.
+%s: assigning port %u to netlink pid %u
+%s: failed to set upcall pid on port: %s
+%s: could not add channel for port %s
+%s: cannot create port `%s' because it has unsupported type `%s'
+%s: requested port %u is in use
+dpif_linux_vport_transact
+dpif_linux_dp_transact
+dpif_linux_flow_transact
+dpif_linux_flow_to_ofpbuf
+dpif_linux_operate__
+dpif_assert_class
+SIOCGIFMTU
+driver_name
+%s: open failed: %s
+%s:%d: parse error
+%s: no stats for %s
+RTM_GETLINK reply lacks stats
+%llu
+min-rate
+max-rate
+lib/netdev-linux.c:974
+ioctl(SIOCADDRT): %s
+failed to parse class message
+failed to parse class stats
+SIOCGIFFLAGS
+SIOCSIFFLAGS
+lib/netdev-linux.c:452
+SIOCGIFTXQLEN
+lib/netdev-linux.c:856
+lib/netdev-linux.c:444
+lib/netdev-linux.c:2568
+lib/netdev-linux.c:2555
+lib/netdev-linux.c:1222
+lib/netdev-linux.c:1150
+lib/netdev-linux.c:1133
+lib/netdev-linux.c:1092
+SIOCSIFMTU
+lib/netdev-linux.c:1075
+ingress
+lib/netdev-linux.c:739
+lib/netdev-linux.c:1121
+lib/netdev-linux.c:1741
+ETHTOOL_GSET
+ETHTOOL_SSET
+lib/netdev-linux.c:1028
+lib/netdev-linux.c:2437
+ETHTOOL_GDRVINFO
+driver_version
+firmware_version
+lib/netdev-linux.c:2296
+/proc/net/if_inet6
+lib/netdev-linux.c:1435
+lib/netdev-linux.c:1478
+lib/netdev-linux.c:1530
+lib/netdev-linux.c:988
+opening "%s" failed: %s
+lib/netdev-linux.c:1718
+failed to parse qdisc message
+unknown qdisc "%s"
+query %s qdisc failed (%s)
+lib/netdev-linux.c:4300
+lib/netdev-linux.c:2022
+lib/netdev-linux.c:1969
+netdev->tc == NULL
+lib/netdev-linux.c:1983
+lib/netdev-linux.c:1987
+lib/netdev-linux.c:1943
+lib/netdev-linux.c:2183
+lib/netdev-linux.c:2979
+lib/netdev-linux.c:2257
+SIOCSIFADDR
+SIOCSIFNETMASK
+lib/netdev-linux.c:2222
+SIOCGIFADDR
+SIOCGIFNETMASK
+%x %x %x %x
+%s: read failed
+lib/netdev-linux.c:1811
+basic
+lib/netdev-linux.c:2149
+lib/netdev-linux.c:2066
+lib/netdev-linux.c:2041
+lib/netdev-linux.c:2002
+lib/netdev-linux.c:3213
+lib/netdev-linux.c:2115
+lib/netdev-linux.c:1275
+lib/netdev-linux.c:1277
+lib/netdev-linux.c:1246
+SIOCGMIIPHY
+SIOCGMIIREG
+%s: failed to query MII
+ETHTOOL_GLINK
+lib/netdev-linux.c:516
+lib/netdev-linux.c:535
+ETHTOOL_GFLAGS
+ETHTOOL_SFLAGS
+linux-other
+linux-hfsc
+linux-htb
+netdev_set_ethtool
+netdev_get_ethtool
+netdev_set_hwaddr
+netdev_get_hwaddr
+netdev_get_ifindex
+netdev_arp_lookup
+netdev_set_policing
+netdev_linux
+ioctl(SIOCGIFINDEX) on %s device failed: %s
+%16s %x %x %04X %d %u %d %x %d %u %u
+%s: could not parse line %d: %s
+ %15[^:]:%lu%lu%lu%lu%lu%lu%lu%*u%lu%lu%lu%lu%lu%lu%lu%*u
+ethtool command %s on network device %s failed: %s
+%s: could not look up ARP entry for %u.%u.%u.%u: %s
+is_netdev_linux_class(netdev_get_class(rx->netdev))
+error receiving Ethernet packet on %s: %s
+is_netdev_linux_class(netdev_get_class(netdev))
+query %s class %u:%u (parent %u:%u) failed (%s)
+delete %s class %u:%u failed (%s)
+failed to get ifindex for lo, obtaining netdev stats from proc
+obtaining netdev stats via rtnetlink
+RTM_GETLINK failed (%s), obtaining netdev stats via proc (you are probably running a pre-2.6.19 kernel)
+%s: linux-sys get stats failed %d
+failed to create raw socket (%s)
+%s: failed to bind raw socket (%s)
+%s: failed to attach filter (%s)
+ioctl(SIOCGIFHWADDR) on %s device failed: %s
+%s device has unknown hardware address family %d
+ %2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%2hhx%*x %*x %*x %*x %16s
+%s: obtaining netdev stats via vport failed (%s)
+ioctl(SIOCSIFHWADDR) on %s device failed: %s
+%s: creating tap device failed: %s
+failed to parse HFSC class options
+failed to parse HFSC class options. Non-linear service curves are not supported.
+failed to parse HFSC class options. Real-time service curves are not supported 
+failed to parse HFSC class options. Min-rate service curve is greater than the max-rate service curve.
+failed to replace %s class %u:%u, parent %u:%u, min-rate %ubps, max-rate %ubps (%s)
+(load_error == 0) == (netdev->tc != NULL)
+(error == 0) == (netdev->tc != NULL)
+%s: psched parameters are: %u %u %u %u
+%s: invalid scheduler parameters
+%s: unexpected psched parameters: %u %u %u %u
+%s: ticks_per_s=%f buffer_hz=%u
+failed to parse HTB class options
+%s: removing policing failed: %s
+%s: adding policing qdisc failed: %s
+%s: adding policing action failed: %s
+cannot set up HTB on device %s that lacks MTU
+failed to replace %s class %u:%u, parent %u:%u, min_rate=%u max_rate=%u burst=%u prio=%u (%s)
+cannot parse HTB class on device %s that lacks MTU
+failed to create packet socket: %s
+error sending Ethernet packet on %s: %s
+sent partial Ethernet packet (%zd bytes of %zu) on %s
+%s: failed to query MII, falling back to ethtool
+%s: ethtool link status failed
+attempt to %s ethtool %s flag on network device %s failed
+/dev/net/tun
+/proc/net/dev
+netdev_linux_set_qos
+/proc/net/psched
+tc_query_qdisc
+/proc/net/route
+netdev_linux_cast
+netdev_rx_linux_cast
+Ccontrol
+nl(len:%u, type=%u
+(no-op)
+(done)
+(overrun)
+(reserved)
+(family-defined)
+, flags=%x
+[%s]
+[OTHER:%x]
+, seq=%x, pid=%u
+ error(%d
+, in-reply-to(
+ error(truncated)
+ done(%d
+ done(truncated)
+,genl(cmd=%u,version=%u)
+nl(truncated)
+%s (%s): %s
+lib/netlink-socket.c:314
+ignoring unexpected seq %#x
+received NAK error=%d (%s)
+transaction error (%s)
+sysconf(_SC_UIO_MAXIOV): %s
+connect(0): %s
+lib/netlink-socket.c:1019
+lib/netlink-socket.c:1021
+lib/netlink-socket.c:1042
+dump->status
+lib/netlink-socket.c:793
+lib/netlink-socket.c:806
+lib/netlink-socket.c:871
+*number != 0
+lib/netlink-socket.c:1000
+MULTI
+ECHO
+DUMP
+ROOT
+MATCH
+ATOMIC
+netlink_sent
+netlink_send
+netlink_recv_jumbo
+netlink_received
+netlink_overflow
+netlink_socket
+buf->allocated >= sizeof *nlmsghdr
+truncated message (longer than %zu bytes)
+received invalid nlmsg (%zd bytes < %zu)
+receive buffer overflow, resending request
+setting %d-byte socket receive buffer failed (%s)
+getsockname returned bad Netlink name
+protocol >= 0 && protocol < ARRAY_SIZE(pools)
+could not join multicast group %u (%s)
+could not leave multicast group %u (%s)
+ignoring seq %#x != expected %#x
+netlink dump request error (%s)
+netlink dump reply contains message fragment
+nl_lookup_genl_family
+nl_dump_done
+nl_pool_alloc
+nl_sock_transact_multiple__
+nl_sock_recv__
+nl_sock_send__
+%s: unexpected SSL_ERROR_NONE
+%s: system error (%s)
+%s: %s
+%s: bad SSL error code %d
+lib/stream-provider.h:48
+lib/stream-ssl.c:700
+SSL_write: connection closed
+SSL_write
+n > 0
+lib/stream-ssl.c:600
+SSL_read
+lib/stream-ssl.c:712
+lib/stream-ssl.c:716
+lib/stream-ssl.c:723
+lib/stream-ssl.c:734
+lib/stream-ssl.c:736
+lib/stream-ssl.c:743
+pstream->class == class
+lib/stream-provider.h:150
+lib/stream-ssl.c:860
+failed to obtain entropy (%s)
+TLSv1_method: %s
+SSL_CTX_new: %s
+%s: stat failed (%s)
+close_notify
+unexpected_message
+bad_record_mac
+decryption_failed
+record_overflow
+decompression_failure
+handshake_failure
+bad_certificate
+unsupported_certificate
+certificate_revoked
+certificate_expired
+certificate_unknown
+illegal_parameter
+unknown_ca
+access_denied
+decode_error
+decrypt_error
+export_restriction
+protocol_version
+insufficient_security
+internal_error
+user_canceled
+no_renegotiation
+warning
+fatal
+hello_request
+client_hello
+server_hello
+server_key_exchange
+certificate_request
+server_hello_done
+certificate_verify
+client_key_exchange
+finished
+client
+server
+change_cipher_spec
+alert: %s, %s
+handshake: %s
+type %d
+%s%u%s%s %s (%zu bytes)
+SSL_new: %s
+SSL_set_fd: %s
+ssl:%u.%u.%u.%u
+%s: connect: %s
+pssl:%u:%u.%u.%u.%u
+SSL_use_PrivateKey_file: %s
+SSL_use_certificate_file: %s
+<out of memory>
+%02hhx
+SSL_connect
+SSL_accept
+pssl
+stream_ssl
+%s: unexpected SSL_ERROR_ZERO_RETURN
+%s: unexpected SSL_ERROR_WANT_CONNECT
+%s: unexpected SSL_ERROR_WANT_ACCEPT
+%s: unexpected SSL_ERROR_WANT_X509_LOOKUP
+%s: unexpected SSL connection close
+%s: SSL_ERROR_SSL without queued error
+failed to open %s for reading: %s
+PEM_read_X509 failed reading %s: %s
+no Diffie-Hellman parameters for key length %d
+OpenSSL random seeding failed, reseeding ourselves
+Private key must be configured to use SSL
+Certificate must be configured to use SSL
+CA certificate must be configured to use SSL
+Private key does not match certificate public key: %s
+%s: setsockopt(TCP_NODELAY): %s
+Trusting CA cert from %s (%s) (fingerprint %s)
+Peer certificate validation disabled (this is a security risk)
+failed to add client certificate %zu from %s: %s
+SSL_CTX_load_verify_locations: %s
+could not bootstrap CA cert: no certificate presented by peer
+could not bootstrap CA cert: obtained certificate is not self-signed (%s)
+only one certificate was received, so probably the peer is not configured to send its CA certificate
+reading CA cert %s created by another process
+could not bootstrap CA cert: creating %s failed: %s
+could not bootstrap CA cert: fdopen failed: %s
+could not bootstrap CA cert: PEM_write_X509 to %s failed: %s
+could not bootstrap CA cert: writing %s failed: %s
+successfully bootstrapped CA cert to %s
+killing successful connection to retry using CA cert
+rejecting SSL connection during bootstrap race window
+SSL_CTX_add_extra_chain_cert: %s
+pstream_assert_class
+ssl_recv
+stream_assert_class
+/etc/openvswitch
+OVS_SYSCONFDIR
+%s/openvswitch
+OVS_DBDIR
+/usr/bin
+OVS_BINDIR
+/var/log/openvswitch
+OVS_LOGDIR
+/var/run/openvswitch
+OVS_RUNDIR
+/usr/share/openvswitch
+OVS_PKGDATADIR
+/etc
+%s: not enough arguments to bundle action
+%s: missing slave delimiter, expected `slaves' got `%s'
+bundle action has nonzero reserved fields
+bundle_load action requires at least 16 bit destination.
+Nicira action %u only has %zu bytes allocated for slaves.  %zu bytes are required for %u slaves.
+, []
+%s: bad port number
+%s: unknown fields `%s'
+active_backup
+%s: unknown algorithm `%s'
+ofport
+%s: unknown slave_type `%s'
+invalid slave %u
+unsupported controller slave
+unsupported fields %d
+too may slaves
+unsupported algorithm %d
+unsupported slave type %u
+reserved field is nonzero
+%s(%s,%u,%s,%s,
+slaves:
+is_pow2(size)
+lib/byteq.c:31
+!byteq_is_full(q)
+lib/byteq.c:71
+!byteq_is_empty(q)
+lib/byteq.c:106
+byteq_tailroom(q) >= n
+lib/byteq.c:171
+n < 0
+lib/byteq.c:123
+byteq_headroom(q) >= n
+lib/byteq.c:198
+byteq_avail(q) >= n
+lib/byteq.c:82
+byteq_advance_head
+byteq_advance_tail
+byteq_write
+byteq_get
+byteq_putn
+byteq_put
+byteq_init
+lib/coverage.c:115
+Event coverage, hash=%08x:
+lib/coverage.c:221
+%-24s %9llu
+%zu events never hit
+coverage/show
+lib/coverage.c:245
+coverage
+Skipping details of duplicate event coverage for hash=%08x
+')uB
+*	5|z
+lEd/
+6 PQ
+pCRF
+Yg:a
+JZJ{.
+#FLR
+_QS}
+internal error parsing flow key %s
+%s: cannot receive packets on this network device (%s)
+unknown datapath or not a dummy
+dpif->dpif_class->open == dpif_netdev_open
+error receiving data from %s: %s
+dummy
+port number already in use
+lib/dpif-netdev.c:174
+lib/dpif-netdev.c:1081
+lib/dpif-netdev.c:392
+lib/dpif-netdev.c:380
+lib/dpif-netdev.c:1121
+lib/dpif-netdev.c:704
+lib/dpif-netdev.c:1107
+lib/dpif-netdev.c:1110
+lib/dpif-netdev.c:722
+lib/dpif-netdev.c:1035
+lib/dpif-netdev.c:962
+lib/dpif-netdev.c:915
+lib/dpif-netdev.c:797
+lib/dpif-netdev.c:667
+lib/dpif-netdev.c:601
+lib/dpif-netdev.c:501
+lib/dpif-netdev.c:470
+lib/dpif-netdev.c:1212
+lib/dpif-netdev.c:1168
+lib/dpif-netdev.c:866
+lib/dpif-netdev.c:840
+lib/dpif-netdev.c:583
+lib/dpif-netdev.c:189
+lib/dpif-netdev.c:640
+lib/dpif-netdev.c:363
+dp->open_cnt > 0
+lib/dpif-netdev.c:365
+lib/dpif-netdev.c:309
+DP PORT NEW-NUMBER
+dpif-dummy/change-port-number
+dpif_netdev
+dpif_netdev_close
+dpif_netdev_cast
+%s: read error (%s)
+entropy
+/dev/urandom
+line %d, column %d, byte %d: 
+json->type == JSON_ARRAY
+lib/json.c:297
+\u%04x
+%.*g
+json->type == JSON_STRING
+lib/json.c:290
+json->type == JSON_OBJECT
+lib/json.c:304
+lib/json.c:311
+lib/json.c:318
+json->type == JSON_INTEGER
+lib/json.c:325
+syntax error expecting value
+malformed \u escape
+bad escape \%c
+invalid character '%c'
+invalid character U+%04x
+invalid keyword '%s'
+.0123456789eE-+
+leading zeros not allowed
+'-' must be followed by digit
+exponent outside valid range
+syntax error in number
+number outside valid range
+empty input stream
+unexpected end of input
+p->height == 1
+lib/json.c:1133
+p->stack[0].json != NULL
+lib/json.c:1134
+error reading JSON stream: %s
+error opening "%s": %s
+json_parser_finish
+json_integer
+json_real
+json_boolean
+json_object
+json_array
+json_string
+json->type == JSON_TRUE || json->type == JSON_FALSE
+json->type == JSON_REAL || json->type == JSON_INTEGER
+input exceeds maximum nesting depth %d
+syntax error at beginning of input
+trailing garbage at end of input
+syntax error parsing object expecting string
+syntax error parsing object expecting ':'
+syntax error expecting '}' or ','
+syntax error expecting ']' or ','
+quoted string ends within \u escape
+null bytes not supported in quoted strings
+quoted string may not include unescaped "
+quoted string may not end with backslash
+malformed escaped surrogate pair
+second half of escaped surrogate pair is not trailing surrogate
+decimal point must be followed by digit
+exponent must contain at least one digit
+U+%04X must be escaped in quoted string
+unexpected end of input in quoted string
+notification
+(null)
+, method="%s"
+, params=
+, result=
+, error=
+, id=
+%s: %s %s%s
+stream != NULL
+lib/jsonrpc.c:87
+ not
+"params" must be JSON array
+%s must%s have "method"
+%s must%s have "params"
+%s must%s have "result"
+%s must%s have "error"
+%s must%s have "id"
+lib/jsonrpc.c:477
+%s: send error: %s
+message is not a JSON object
+method
+method is not a JSON string
+params
+result
+%s: receive error: %s
+%s: error parsing stream: %s
+echo
+%s: failed set_dscp %s
+jsonrpc
+invalid JSON-RPC message type %d
+message has unexpected member "%s"
+%s: received bad JSON-RPC message: %s
+%s: new connection replacing active connection
+jsonrpc_error
+jsonrpc_open
+fin_idle_timeout
+fin_hard_timeout
+%s: bad hex digit in value
+learn(table=%u
+,idle_timeout=%u
+,hard_timeout=%u
+,fin_idle_timeout=%u
+,fin_hard_timeout=%u
+,priority=%u
+,OFPFF_SEND_FLOW_REM
+,cookie=%#lx
+%s: table id 255 not valid for `learn' action
+%s: bit widths of %s (%u) and %s (%u) differ
+%s: value does not fit into %u bits
+modulo_n
+hash_threshold
+iter_hash
+multipath(%s,%u,%s,%d,%u,
+multipath action requires at least %zu bits for %u links
+%s: not enough arguments to multipath action
+%s: n_links %d is not in valid range 1 to 65536
+%s: %d-bit destination field has %u possible values, less than specified n_links %d
+lib/netdev-vport.c:93
+lib/netdev-vport.c:637
+lib/netdev-vport.c:683
+lib/netdev-vport.c:220
+lib/netdev-vport.c:206
+lib/netdev-vport.c:510
+remote_ip
+local_ip
+in_key
+out_key
+inherit
+dst_port
+df_default
+lib/netdev-vport.c:234
+tunnel_egress_iface
+tunnel_egress_iface_carrier
+lib/netdev-vport.c:669
+ipsec
+%s: bad %s 'remote_ip'
+%s: bad %s 'local_ip'
+%s: invalid TOS %s
+peer_cert
+use_ssl_cert
+private_key
+%s: unknown %s argument '%s'
+lib/netdev-vport.c:447
+ovs-monitor-ipsec.pid
+lib/netdev-vport.c:496
+strlen(type) + 10 < IFNAMSIZ
+lib/netdev-vport.c:142
+%s_sys_%d
+lib/netdev-vport.c:594
+lib/netdev-vport.c:611
+lib/netdev-vport.c:625
+patch
+gre_system
+ipsec_gre
+gre64_system
+ipsec_gre64
+vxlan_system
+lisp_system
+netdev_vport
+is_vport_class(netdev_get_class(netdev))
+%s: patch type requires valid 'peer' argument
+%s: patch type takes only a 'peer' argument
+%s: patch peer must not be self
+%s: multicast remote_ip=%u.%u.%u.%u not allowed
+%s: 'peer_cert' requires 'certificate' argument
+%s: IPsec requires the ovs-monitor-ipsec daemon
+%s: cannot define both 'peer_cert' and 'psk'
+%s: IPsec requires an 'peer_cert' or psk' argument
+%s: %s type requires valid 'remote_ip' argument
+%s: %s type requires 'remote_ip=flow' with 'local_ip=flow'
+netdev_vport_get_dpif_port
+netdev_vport_cast
+nla->nla_len >= NLA_HDRLEN
+lib/netlink.c:486
+lib/netlink.c:494
+lib/netlink.c:503
+msg->size == 0
+lib/netlink.c:116
+msg->size == NLMSG_HDRLEN
+lib/netlink.c:155
+lib/netlink.c:217
+lib/netlink.c:325
+nla->nla_len > NLA_HDRLEN
+lib/netlink.c:598
+lib/netlink.c:599
+attr %u lacks null at end
+attr %u has bad length
+duplicate attr %u
+required attr %zu missing
+netlink
+nla->nla_len >= NLA_HDRLEN + size
+received invalid nlmsgerr (%zd bytes < %zd)
+NLA_ALIGN(total_size) <= UINT16_MAX
+memchr(nl_attr_get(nla), '\0', nla->nla_len - NLA_HDRLEN)
+attr %u length %zu not in allowed range %zu...%zu
+missing headers in nl_policy_parse
+attributes followed by garbage
+nl_attr_get_string
+nl_attr_get_unspec
+nl_attr_get_size
+nl_attr_get
+nl_msg_push_unspec_uninit
+nl_msg_put_unspec_uninit
+nl_msg_put_genlmsghdr
+nl_msg_put_nlmsghdr
+fitness != ODP_FIT_ERROR
+lib/odp-execute.c:45
+odp_set_tunnel_action
+VOID
+BACKOFF
+CONNECTING
+ACTIVE
+IDLE
+RECONNECT
+LISTENING
+***ERROR***
+%s: entering %s
+lib/reconnect.c:506
+void
+listen
+connection
+%s: connection dropped (%s)
+%s: connection closed by peer
+%s: connection dropped
+%s: %s attempt failed (%s)
+%s: %s attempt timed out
+%s: listening...
+%s: connecting...
+%s: connected
+lib/reconnect.c:620
+reconnect
+fsm->state_entered != LLONG_MIN
+%s: error listening for connections (%s)
+%s: error listening for connections
+%s: waiting %.3g seconds before trying to listen again
+%s: waiting %.3g seconds before reconnect
+%s: idle %lld ms, sending inactivity probe
+%s: no response to inactivity probe after %.3g seconds, disconnecting
+reconnect_deadline__
+lib/stream.c:76
+lib/stream.c:77
+lib/stream.c:80
+lib/stream.c:81
+lib/stream.c:82
+lib/stream.c:83
+lib/stream.c:91
+lib/stream.c:92
+lib/stream.c:94
+lib/stream.c:95
+lib/stream.c:96
+lib/stream.c:319
+lib/stream.c:422
+lib/stream.c:430
+lib/stream.c:252
+lib/stream.c:583
+lib/stream.c:661
+%s:%d
+ptcp:
+%s%d
+pssl:
+JSON-RPC
+OpenFlow
+pstream_open
+Active %s connection methods:
+  tcp:IP:PORT             PORT at remote IP
+  ssl:IP:PORT             SSL PORT at remote IP
+Passive %s connection methods:
+  ptcp:PORT[:IP]          listen to TCP PORT on IP
+  pssl:PORT[:IP]          listen for SSL on PORT on IP
+wait == STREAM_CONNECT || wait == STREAM_RECV || wait == STREAM_SEND
+(*new_stream)->state != SCS_CONNECTING || (*new_stream)->class->connect
+stream->state != SCS_CONNECTING || class->connect
+%s: received %s data on %s channel
+stream_init
+pstream_accept
+stream_wait
+scs_connecting
+stream_open_block
+check_stream_classes
+svec_is_sorted(a)
+lib/svec.c:181
+svec_is_sorted(b)
+lib/svec.c:182
+svec_is_sorted(svec)
+lib/svec.c:235
+lib/svec.c:143
+lib/svec.c:263
+"%s"
+svec->n
+lib/svec.c:377
+lib/svec.c:384
+svec
+%s: ends in trailing backslash
+%s: word ends inside quoted string
+svec_pop_back
+svec_back
+svec_get_duplicate
+svec_find
+svec_diff
+svec_unique
+lib/token-bucket.c:91
+lib/token-bucket.c:94
+invalid UTF-8 sequence
+ 0x%02x
+send: %s
+%s: accept: %s
+connection dropped mid-packet
+punix
+ptcp
+pstream
+vconn_stream
+received too-short ofp_header (%d bytes)
+list_is_empty(&nln->all_notifiers)
+netlink receive buffer overflowed
+error reading netlink socket: %s
+could not create netlink socket: %s
+lib/netlink-notifier.c:89
+received bad netlink message
+nln_changed
+netlink_notifier
+nln_destroy
+received non AF_INET rtnetlink route message
+received unparseable rtnetlink route message
+lib/route-table.c:434
+lib/route-table.c:324
+!nln
+lib/route-table.c:163
+!route_notifier
+lib/route-table.c:164
+route_table
+route_table_register
+ptcp:%u:%u.%u.%u.%u
+tcp:%u.%u.%u.%u
+stream_tcp
+%s: connection failed (%s)
+%s: binding failed: %s
+unix:%.*s
+stream_unix
+lib/stream-fd.c:120
+lib/stream-fd.c:124
+lib/stream-fd.c:238
+stream_fd
+pstream_assert_class
+stream_assert_class
+;*3$"
+FNO(
+FNO(
+FNO(
+ySQ,
+kF:z6z
+\jRB
+[+^:
+(kpq:
+%&'0
+vRO==
+6k3l8
+6k3l8
+ovs-ofctl.debug
+7zXZ
+zArfs
+6)ybw
+Xx]r
+}EIJ
+}TcvEWl
+gD{r
+/.zyrj
+YA+f
+7A	T
+lV/Q
+&<UC%c^x
+BD)#
+JFFq9
+u%V[!4
+'!:J
+gg%>R
+u&6p
+c\k.
+kGkH
+d}MdO
+?+8:
+t[eN
+(g9`
+AaV-
+yAp%M
+o=CFY
+;:hm
+ju-mQ
+pEY2
+'2Mo/
+p9|G(
+Oezs3
+"&*{W
+|;cf
+X0US
+7{U\P
+J@A?
+J{~ V
+#r+8
+P/<:
+A1GP^
+Q^Q<
+'RQ@{
+OFx6
+}l.p
+tn0n
+<4s3
+K	lj
+e}3h$+|s
+GWs!;
+H/]<
+|/)~
+pr%?
+JA<[I
+ITAjmDi
+crPV
++2HPw
+u(S>Z
+BWu?BF
+&Jx]
+K@>7z
+6W<j
+&5Yff
+]uP-
+osBr
+}:Y$P
+;nr5~
+2eIh
+uNL1ic
+#)x#
+"`zq
+g>Wr
+kisQ
+.o.r#
+zbr2
+tVaz
+H8zH>w
+y{6x
+xd\;
+S6s&
+I	C$
+~_{6
+P2[[
+ FC[;/`
+fU	*l
+83,\
+ y4q
+iS:|&
+:c7~
+\r*FY
+3c,=
+AF:*
+/$hY
+@!my%
+2:e,
+]oxh
+5J|Y
+JVI.
+bCVvMaz
+gUt{
+J2	e
+[#HnK
+\Fcc!
+tl[0
+}G;c1?
+~Pi_
+MAc6
+98ZM
+:kDM
+f"B|>
+3c-z
+(KX2}
+|=	;
+wGyhm
+2|8H
+)t%>
+B7,a
+aGo/
+.9IU
+4"{r
+2lgj
+B3{_n
+'Z$b;%
+w{xAb
+i[O6
+5^}3
+U~TyDV^
+&HLR
+J<	^P
+D2)l
+-b	W
+m9r&-
+T+dV
+]/Z( :H
+xh>O\w
+AV9h
+{{M4g
+iXg,
+>#?L
+sy0p
+G?i:):
+l%_J
+=}s%
+hqz6
+^HiZ"
+,XpV
+WJHmiV
+u	Fq?U
+Mm.oB
+A^mK
+a:)Z
+*zNb+
+m'd6e
+wz^$AV)ho
+E%yF
+HCf!
+?N`|
+6eNW1
+f)sd
+8}&"Q
+p%'vX
+$c2n
+&Tsx
+H~T"
+<Ys<
+=D|[
+C\1aVn
+F9U>+t
+5Bld
+r6S<
+]jV]
+*`2|sO
+1"&u9Y
+i6. 
+2L4$
+&LRz
+#aIB<
+>-4'
+!*Gd
+X3_<s
+F-(BE"
+X8`P
+cJJbm=
+koLK
+t#18
+O~-Q
+E	d_Z
+Ei@D
+Gm3z
+,+,'
+	rUw
+X_`X
+P#e-X
+Sw|y
+^VYb
+`I&a
+mn9/
+{?|i
+{p[k
+6e40
+cvs:
+$)bK
+R5vT
+gCi{
+#znpFG{
+{-<u>
+Pa(0
+i55kO
+I8Ym[X
+SP|,
+*DD$
+NDIX
+^U'0I
+	Cs0k5'4R
+Rk\P
+m	'>
+99i01
+LQ#,
+?#Ww
+;<2y
+kqlm
+io_F
+Ec'4
+$) X
+gnz`
+m9re
+(]pfG}
+^wOf
+.bW(
+[kwpQT
+v^Xh
+ A9U
+S,x9
+kM?Qj
+-uAG
+4J$4
+.`w$
+ ~Z2
+_Tp"K
+:\$z
+5;DKjg5
+A9Qr
+sY!f
+E#Sh|
+\tRL
+dq)`
+4Am|
+kqir
+[FXV
+_6L/
+D, 8
+kMdrI@
+2|>:
+8`y*:
+;1mJ
+d-LN
+pTn%b{
+C0f?
+JD_y
+CGP;
+~R.7
+>[/+4S
+Jd![
+4 }NU|{
+mn"Q
+> ,o
+8g$4-
+r?4!E
+zw_!
+s:|-
+ZQqKQ
+UYhrf
+_6h$~
+d=v@fpL*^
+&\&=
+W_~'
+MA49
+a+%jqR(
+d%6E
+8%r-
+MJ($
+e9vg
+TL&<
+\	d"T
+A?{<Hj
+{MiK
+Xb};
+O>k9
+VA2Tzx
+TvC02U
+oC9@
+Vc']@
+)cf!L
+O{pnO?
+}~oA
+fV5j)
+l/cj
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.tbss
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+vlog_modules
+coverage
+.bss
+.gnu_debuglink
+.gnu_debugdata

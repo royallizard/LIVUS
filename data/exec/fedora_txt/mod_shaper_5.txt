@@ -1,0 +1,479 @@
+&@IR
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+shaper_module
+pr_timer_remove
+permanent_pool
+make_sub_pool
+pr_pool_tag
+shaper_tab
+pr_ctrls_register
+pcalloc
+pr_ctrls_init_acl
+pr_event_register
+__errno_location
+strerror
+pr_log_pri
+destroy_pool
+lseek
+writev
+pr_log_writefile
+__stack_chk_fail
+readv
+make_array
+push_array
+malloc
+pr_signals_handle
+msgrcv
+free
+pr_session_disconnect
+msgsnd
+msgctl
+pr_privs_root
+kill
+pr_privs_relinquish
+getpid
+mpid
+ServerType
+pr_fsio_unlink
+pr_log_debug
+pr_trace_msg
+flock
+strcasecmp
+pr_fsio_open
+pr_fsio_fstat
+pr_fsio_close
+ftok
+msgget
+pr_log_openfile
+pr_timer_add
+pr_event_unregister
+pr_ctrls_unregister
+pr_ctrls_check_acl
+strtol
+pr_ctrls_add_response
+strtod
+pr_rewind_scoreboard
+strcmp
+pr_scoreboard_entry_read
+pr_restore_scoreboard
+palloc
+__snprintf_chk
+pr_netaddr_get_addr
+pr_netaddr_get_ipstr
+session
+find_config
+main_server
+find_config_next
+xaset_remove
+add_config_param_set
+fixup_dirs
+pstrcat
+mod_create_ret
+check_context
+get_context_name
+pr_fs_valid_path
+pstrdup
+add_config_param
+get_boolean
+pr_ctrls_parse_acl
+pr_ctrls_set_module_acls
+libc.so.6
+_edata
+__bss_start
+_end
+mod_shaper.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%"r 
+%"r 
+%*r 
+%*r 
+%*r 
+%*r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%2r 
+%:r 
+%:r 
+%:r 
+%:r 
+%:r 
+%:r 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Br 
+%Jr 
+%Jr 
+%Rr 
+%Rr 
+%Rr 
+%Rr 
+%Zr 
+%Zr 
+%br 
+%br 
+%br 
+%br 
+%br 
+%br 
+%br 
+=:m 
+=vq 
+ATSH
+=rr 
+=	p 
+=Gr 
+==o 
+AWAVAUATSH
+D9{D
+=	n 
+={m 
+D9{D
+x[A\A]A^A_]
+='m 
+AUATSH
+D;cD
+=kk 
+x[A\A]]
+ATSHc
+=4j 
+AWAVAUATSH
+=Eh 
+=&g 
+=|f 
+=Bf 
+[A\A]A^A_]
+=Me 
+=Nd 
+=,f 
+AWAVAUATA
+[A\A]A^A_]
+[A\A]A^A_]
+[A\A]A^A_]
+AVAUATSH
+=<d 
+%:c 
+[A\A]A^]
+D$ H
+D$0H
+D$@H
+L$@E
+D$ H
+=d^ 
+t$8A
+t$01
+5-^ 
+=b] 
+=m\ 
+=~[ 
+=][ 
+=qZ 
+=>Z 
+AWAVAUATSH
+=a\ 
+%_W 
+[A\A]A^A_]
+D$HH
+L$DI
+A;\$DsS
+A;\$D
+D$Dt
+=cX 
+t$HA
+AWAVAUATA
+=^W 
+[A\A]A^A_]
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+=mX 
+FDA9
+D;#u
+=;T 
+AWAVAUATI
+AYAZu
+5AP 
+5UL 
+ E;~D
+[A\A]A^A_]
+A[A^E1
+=PF 
+=>D 
+=mC 
+AWAVAUATSH
+=JB 
+[A\A]A^A_]
+-<A 
+|$HA
+=F@ 
+AWAVAUATSH
+=?? 
+=	? 
+=~A 
+D;(u
+A;\$
+L;pX
+L;px
+A;\$
+==; 
+[A\A]A^A_]
+[A\A]A^A_]1
+=0: 
+[A\A]A^A_]
+AWAVAUATI
+([A\A]A^A_]
+A9_ 
+[A\]1
+[A\]
+AWAVAUATI
+[A\A]A^A_]
+A;_ M
+AVAUATSH
+D$8H
+[A\A]A^]
+[A\A]A^]
+G0E1
+mod_shaper/0.6.6
+tune mod_shaper settings
+shaper
+core.module-unload
+core.postparse
+core.restart
+core.shutdown
+mod_shaper.c
+error sending notice: %s
+removed queue ID %d
+unlock
+none
+error opening '%s': %s
+error checking '%s': %s
+error using '%s': %s
+error obtaining queue ID: %s
+obtained queue ID %d
+error locking ShaperTable: %s
+shaper table scrubber
+no ShaperTable configured
+access denied
+wrong number of parameters
+error handling request
+downrate
+invalid downrate value (%s)
+overall downrate (%3.2Lf) set
+downshares
+default downshares (%u) set
+priority
+default priority (%u) set
+invalid rate value (%s)
+uprate
+invalid uprate value (%s)
+overall uprate (%3.2Lf) set
+upshares
+default upshares (%u) set
+info
+Default Priority: %u
+Number of Shaped Sessions: %u
+%u/%u (%s%d)
+sess
+downshares cannot be 0
+set session priority to %u
+upshares cannot be 0
+user
+error adjusting pid %u: %s
+host
+error resolving '%s': %s
+class
+sessions adjusted
+unknown shaper action: '%s'
+DRate (KB/s)
+DShares
+Priority
+URate (KB/s)
+UShares
+ShaperEngine
+core.exit
+core.signal.USR2
+ShaperSession
+update
+updates
+TransferRate
+ context
+directive not allowed in 
+invalid downrate parameter
+invalid rate parameter
+shares must be greater than 1
+invalid uprate parameter
+uprate must be greater than 0
+unknown option: '
+missing parameters
+must be an absolute path
+expected Boolean parameter
+allow
+deny
+group
+: unknown shaper action: '
+PASS
+ShaperAll
+ShaperControlsACLs
+ShaperLog
+ShaperTable
+APPE
+STOR
+STOU
+RETR
+mod_shaper/0.6.6: error registering 'shaper' control: %s
+error seeking to start of ShaperTable: %s
+error writing ShaperTable (%d) header: %s
+error writing ShaperTable session entry: %s
+error reading ShaperTable header: %s
+mod_shaper/0.6.6: ShaperTable pool
+error reading session entry %u from ShaperTable: %s
+mod_shaper/0.6.6: Out of memory!
+clearing queue ID %d of messages for process ID %lu
+total session shares: %u down, %u up
+rate per share: %3.2Lf down, %3.2Lf up
+pid %u has shares of %u down, %u up, sending rates of %3.2Lf down, %3.2Lf up
+error checking queue ID %d: %s
+unable to send message to PID %lu via queue ID %d, max bytes (%lu) reached (%lu messages of %lu bytes currently in queue)
+unable to send message to PID %lu via queue ID %d after %u attempts (%u max attempts allowed), failing
+error sending msg to pid %u: %s
+error removing queue ID %d: %s
+mod_shaper/0.6.6: error unlinking '%s': %s
+unable to open ShaperTable: %s
+attempting to %s ShaperTable fd %d via flock(2)
+%s of ShaperTable fd %d failed: %s
+%s of ShaperTable fd %d successful
+mod_shaper/0.6.6: error opening ShaperLog '%s': %s
+error opening ShaperTable '%s': %s
+mod_shaper/0.6.6: error opening ShaperTable '%s': %s
+error checking ShaperTable '%s': %s
+mod_shaper/0.6.6: error checking ShaperTable '%s': %s
+error using ShaperTable '%s': %s
+mod_shaper/0.6.6: error using ShaperTable '%s': %s
+unable to fstat ShaperTable: %s
+ShaperTable '%s' has size %llu bytes, is already initialized
+initialized ShaperTable with rate %3.2Lf KB/s (down), %3.2Lf KB/s (up), default priority %u, default shares %u down, %u up
+error initializing ShaperTable: %s
+determining queue ID for path '%s'
+unable to get key for '%s': %s
+removed dead session (pid %u) from ShaperTable
+error modifying session: shares increment (%s%d) will drop session downshares (%u) below 1
+error removing session from ShaperTable: %s
+shaper: missing required parameters
+error write-locking ShaperTable: %s
+downrate must be greater than 0 (%3.2Lf)
+downshares (%d) must be greater than 1
+priority (%d) must be greater than 0
+rate must be greater than 0 (%3.2Lf)
+overall rates (%3.2Lf down, %3.2Lf up) set
+shares (%d) must be greater than 1
+default shares (%u down, %u up) set
+uprate must be greater than 0 (%3.2Lf)
+upshares (%d) must be greater than 1
+unknown shaper all option '%s'
+unable to read-lock ShaperTable: %s
+error refreshing ShaperTable: %s
+Overall Rates: %3.2Lf KB/s down, %3.2Lf KB/s up
+Default Shares Per Session: %u down, %u up
+%5u %8u %14s  %11.2Lf %14s  %11.2Lf
+downshares (%s) must start with '+' or '-'
+adjusted session downshares by %s%d
+shares (%s) must start with '+' or '-'
+adjusted session downshares and upshares by %s%d
+upshares (%s) must start with '+' or '-'
+adjusted session upshares by %s%d
+unknown shaper session option '%s'
+error rewinding scoreboard: %s
+unknown shaper session target type: '%s'
+%-5s %8s %-14s %11s %-14s %11s
+----- -------- -------------- ------------ -------------- ------------
+ShaperTable not configured, disabling ShaperEngine
+ShaperTable not open, disabling ShaperEngine
+overall rates negative or not configured, disabling ShaperEngine
+error adding session to ShaperTable: %s
+received prio %u, rate %3.2Lf down, %3.2Lf up
+merging in new TransferRate entries
+error receiving updates for pid %lu: %s
+received signal, no updates for pid %lu
+received signal, read in %d %s for pid %lu
+downrate must be greater than 0
+downshares must be greater than 1
+priority must be greater than 0
+upshares must be greater than 1
+downshares parameter must start with '+' or '-'
+shares parameter must start with '+' or '-'
+upshares parameter must start with '+' or '-'
+second parameter must be 'allow' or 'deny'
+third parameter must be 'user' or 'group'
+;*3$"
+mod_shaper.so.debug
+7zXZ
+H#wF
+>~&=
+q673l
+hk$>
+Sc'nj@2A
+;O![
+roia
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

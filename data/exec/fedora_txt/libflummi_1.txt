@@ -1,0 +1,161 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_object_ref
+g_object_unref
+g_idle_add_full
+g_return_if_fail_warning
+g_type_class_peek_parent
+g_free
+midori_extension_get_app
+midori_app_get_browser
+midori_browser_get_current_tab
+midori_database_new
+midori_database_get_db
+g_strdup
+sqlite3_prepare_v2
+sqlite3_step
+sqlite3_bind_parameter_index
+sqlite3_bind_int64
+sqlite3_column_int64
+sqlite3_column_text
+g_malloc0
+midori_app_send_command
+g_log
+sqlite3_finalize
+g_quark_to_string
+g_clear_error
+sqlite3_errmsg
+midori_database_error_quark
+__stack_chk_fail
+flummi_manager_construct
+g_dgettext
+g_object_new
+g_signal_connect_object
+flummi_manager_get_type
+g_once_init_enter
+midori_extension_get_type
+g_type_register_static
+g_once_init_leave
+flummi_manager_new
+extension_init
+libmidori-core.so.1
+libxml2.so.2
+libsqlite3.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+libsoup-2.4.so.1
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libXss.so.1
+libX11.so.6
+libgcr-ui-3.so.1
+libgtk-3.so.0
+libgdk-3.so.0
+libpangocairo-1.0.so.0
+libpango-1.0.so.0
+libfribidi.so.0
+libatk-1.0.so.0
+libcairo-gobject.so.2
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libgcr-base-3.so.1
+libgck-1.so.0
+libp11-kit.so.0
+libwebkit2gtk-4.0.so.37
+libjavascriptcoregtk-4.0.so.18
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+AWAVAUATUSH
+D$X1
+L$XdH3
+h[]A\A]A^A_
+t$@H
+L$HE1
+|$(L
+D$ H
+D$ H
+\$@H
+D$ H
+D$@H
+self != NULL
+app != NULL
+flummi.vala:71: %s
+:task_id
+flummi.db
+midori
+Flummi
+version
+description
+name
+authors
+activate
+FlummiManager
+SELECT id, once, command FROM tasks ORDER BY id;
+flummi.vala:31: Failed to select from database: %s
+flummi.vala:37: Failed to select from database: %s
+DELETE FROM `tasks` WHERE id = :task_id;
+flummi.vala:44: Failed to update database: %s
+flummi.vala:56: Command failed: %s
+flummi.vala:63: Failed to delete record %lf.
+Error: %s
+/builddir/build/BUILD/midori-0.5.12/extensions/flummi.vala
+file %s: line %d: uncaught error: %s (%s, %d)
+file %s: line %d: unexpected error: %s (%s, %d)
+This extension provides a task queue for update jobs or recurring events.
+Andr
+sel <andre@stoesel.de>
+flummi_manager_bounce
+flummi_manager_activated
+;*3$"
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+libflummi.so-0.5.12-0.8.fc29.x86_64.debug
+7zXZ
+|x\db
+#xAo
++yQN
+qI]e
+X'E,
+P.~K
+mkk%
+x7j|
+OO5BN
+syQ.
+,@Is
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

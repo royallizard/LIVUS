@@ -1,0 +1,260 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_cli_unregister_multiple
+_ao2_ref
+strlen
+ao2_iterator_init
+strncasecmp
+_ao2_iterator_next
+__strdup
+ast_log
+_ao2_find
+ao2_lock
+strncmp
+ast_cli
+ast_bridge_remove
+ao2_unlock
+__stack_chk_fail
+_ao2_container_alloc
+ast_register_application2
+ast_cli_register_multiple
+ast_stream_and_wait
+option_debug
+pthread_mutex_destroy
+ast_hangup
+ast_bridge_destroy
+ast_options
+ast_debug_get_by_file
+pthread_mutex_lock
+ast_bridge_impart
+ast_bridge_depart
+pthread_mutex_unlock
+ast_request
+ast_call
+memcpy
+ast_app_separate_args
+ast_audiohook_volume_get
+ast_bridge_features_init
+pbx_builtin_getvar_helper
+ast_autoservice_start
+ast_autoservice_stop
+ast_bridge_join
+ast_bridge_suspend
+ast_moh_start
+ast_bridge_unsuspend
+ast_moh_stop
+ast_bridge_features_cleanup
+ast_audiohook_volume_set
+_ao2_unlink
+ast_bridge_features_hook
+ast_bridge_check
+_ao2_alloc
+ast_bridge_new
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+pthread_mutexattr_destroy
+_ao2_link
+ast_app_parse_options
+ast_say_number
+ast_streamfile
+ast_waitstream
+ast_stopstream
+ast_audiohook_volume_adjust
+strcasecmp
+__ctype_tolower_loc
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+option_flags
+option_args
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.2.5
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+%J: 
+%B: 
+%:: 
+%2: 
+%*: 
+%": 
+ATSubH
+=G5 
+AVAUATE1
+l$@Mc
+D$@H
+D$HH
+D$ H
+D$PH
+D$(H
+D$XH
+D$0H
+[]A\A]A^A_
+D$x1
+T$xdH3
+=g8 
+AVAUATUSH
+[]A\A]A^
+t$`H
+l$8H
+d$0L
+5,4 
+D$0H
+D$8H
+D$@H
+D$HH
+D$ H
+=@1 
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+AWAVAUI
+=2* 
+=y. 
+L$ 1
+P@L9
+P@L9c@
+[A\A]A^A_
+=i( 
+=r' 
+L9c@H
+=i$ 
+l$ L
+t$(L
+|$0H
+C@L9
+ffff.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Usage: confbridge kick <name> <channel>
+       Kicks a channel out of the conference bridge.
+No conference bridge named '%s' found!
+Kicking %s from confbridge %s
+Usage: confbridge list [<name>]
+       Lists all currently active conference bridges.
+Conference Bridge Name           Users  Marked Locked?
+================================ ====== ====== ========
+Channel                          Flags
+================================ ================
+Destroying conference bridge '%s'
+Created a playback channel to conference bridge '%s'
+Departing underlying channel '%s' from bridge '%p'
+%s requires an argument (conference name[,options])
+Trying to find conference bridge '%s'
+Conference bridge '%s' is locked and caller is not an admin
+Conference bridge '%s' could not be created. Bridging core is incapable of going to multi party.
+Conference bridge '%s' does not exist.
+Conference bridge '%s' could not be created.
+Created conference bridge '%s' and linked to container '%p'
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+List conference bridges and participants.
+Kick participants out of conference bridges.
+  ConfBridge([confno][,[options]]): Enters the user into a specified conference bridge.
+The option string may contain zero or more of the following characters:
+      'A' -- Set marked mode
+      'a' -- Set admin mode
+      'c' -- Announce user(s) count on joining a conference
+      'm' -- Present menu (user or admin) when '#' is received
+      'M[(<class>)]'
+          -- Enable music on hold when the conference has a single caller.
+             Optionally, specify a musiconhold class to use.  If one is not
+             provided, it will use the channel's currently set music class,
+             or "default".
+      'l' -- Do not play message when first person enters
+      's' -- Set initially muted
+      'w' -- Wait until a marked user enters before starting the conference
+      'q' -- Do not play audio prompts
+The join sound can be set using the CONFBRIDGE_JOIN_SOUND variable and the leave sound
+can be set using the CONFBRIDGE_LEAVE_SOUND variable. These can be unique to the caller.
+Conference Bridge application.
+app_confbridge.c
+confbridge kick
+confbridge list
+unlocked
+%-32s %6i %6i %s
+%-32s 
+M(%s)
+conf-locked
+conf-placeintoconf
+conf-waitforleader
+conf-onlyperson
+conf-onlyone
+conf-thereare
+conf-otherinparty
+CONFBRIDGE_JOIN_SOUND
+CONFBRIDGE_LEAVE_SOUND
+conf-leaderhasleft
+conf-kicked
+conf-usermenu
+conf-adminmenu
+0123456789#*ABCD
+conf-unmuted
+conf-muted
+conf-unlockednow
+conf-lockednow
+conf-errormenu
+$Revision$
+app_confbridge
+Conference Bridge Application
+ConfBridge
+complete_confbridge_name
+_ast_strdup
+confbridge_exec
+join_conference_bridge
+destroy_conference_bridge
+play_sound_file
+a9c98e5d177805051735cb5b0b16b0a0
+app_confbridge.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

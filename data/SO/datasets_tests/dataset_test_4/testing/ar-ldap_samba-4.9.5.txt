@@ -1,0 +1,788 @@
+`[W6
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+talloc_named_const
+auth_context_create
+gensec_server_start
+gensec_set_credentials
+gensec_set_target_service
+_talloc_steal_loc
+_talloc_free
+DEBUGLEVEL_CLASS
+dbghdrclass
+nt_errstr
+dbgtext
+__stack_chk_fail
+samba_server_gensec_start
+lpcfg_gensec_settings
+talloc_reparent
+samba_server_gensec_krb5_start
+_talloc_zero_array
+gensec_init
+gensec_security_by_oid
+ldapsrv_recv
+smb_panic
+_tevent_req_create
+tevent_queue_add
+_tevent_req_oom
+tevent_req_post
+_tevent_req_data
+_talloc_get_type_abort
+ldapsrv_do_call
+_tevent_req_done
+_tevent_req_nterror
+_tevent_req_callback_data
+tstream_disconnect_recv
+tstream_disconnect_send
+tevent_req_set_endtime
+stream_terminate_connection
+tevent_req_set_callback
+ldb_dn_new
+ldb_search
+ldb_msg_find_attr_as_dn
+ldb_dn_copy
+ldb_dn_add_child_fmt
+ldb_msg_find_element
+sscanf
+strcasecmp
+lpcfg_socket_options
+stream_setup_socket
+tstream_tls_params_enabled
+system_session
+samdb_connect
+samdb_is_gc
+talloc_unlink
+timeval_current_ofs
+tevent_queue_stop
+_tevent_req_cancel
+talloc_strdup
+_talloc_zero
+_talloc_set_destructor
+tstream_read_pdu_blob_recv
+asn1_init
+asn1_load
+samba_ldap_control_handlers
+ldap_decode
+data_blob_free
+talloc_asprintf
+lpcfg_server_role
+task_server_set_title
+lpcfg_dnsdomain
+lpcfg_netbios_name
+lpcfg_tls_priority
+lpcfg_tls_dhpfile
+lpcfg_tls_crlfile
+lpcfg_tls_cafile
+lpcfg_tls_certfile
+lpcfg_tls_keyfile
+lpcfg_tls_enabled
+tstream_tls_params_server
+_tevent_queue_create
+lpcfg_interfaces
+lpcfg_bind_interfaces_only
+iface_list_wildcard
+lpcfg_private_path
+directory_create_or_exist
+irpc_add_name
+task_server_terminate
+load_interface_list
+iface_list_count
+iface_list_n_ip
+ldapsrv_notification_retry_setup
+tevent_wakeup_send
+tevent_wakeup_recv
+timeval_zero
+timeval_is_zero
+ldap_full_packet
+tstream_read_pdu_blob_send
+data_blob_null
+ldap_encode
+data_blob_append
+talloc_set_name_const
+tstream_writev_queue_send
+tevent_req_is_nterror
+tevent_req_received
+tstream_writev_queue_recv
+talloc_check_name
+socket_get_fd
+_tstream_bsd_existing_socket
+socket_set_flags
+socket_get_my_addr
+cli_credentials_init
+cli_credentials_set_conf
+cli_credentials_set_machine_account
+ldapsrv_backend_Init
+lpcfg_ldap_server_require_strong_auth
+_tstream_tls_accept_send
+ldb_strerror
+auth_anonymous_session_info
+tstream_tls_accept_recv
+samba_init_module
+register_server_service
+strtol
+samdb_connect_url
+gensec_security_all
+gensec_use_kerberos_mechs
+lpcfg_parm_bool
+_talloc_realloc_array
+ldb_set_opaque
+ldapsrv_init_reply
+ldapsrv_queue_reply
+log_successful_authz_event
+ldapsrv_BindRequest
+ldapsrv_UnbindRequest
+talloc_named
+_talloc_array
+ldb_dn_get_comp_num
+ldb_dn_add_child
+ldb_modify_default_callback
+ldb_build_rename_req
+ldb_request_add_control
+ldb_transaction_start
+ldb_req_set_location
+ldb_request
+ldb_transaction_cancel
+ldb_errstring
+ldapsrv_ExtendedRequest
+ldb_build_del_req
+ldb_search_default_callback
+ldb_build_search_req_ex
+ldb_request_get_control
+ldb_set_timeout
+ldb_wait
+ldb_dn_get_extended_linearized
+ldb_msg_sanity_check
+ldb_build_add_req
+ldb_build_mod_req
+ldb_error_at
+ldb_dn_get_parent
+ldb_filter_from_tree
+ldb_transaction_commit
+ldb_req_mark_untrusted
+tevent_req_simple_recv_ntstatus
+tevent_req_defer_callback
+_talloc_move
+gensec_update_recv
+gensec_have_feature
+_gensec_create_tstream
+gensec_session_info
+nt_status_squash
+ntstatus_to_werror
+authenticate_ldap_simple_bind_recv
+authenticate_ldap_simple_bind_send
+gensec_update_send
+gensec_set_target_service_description
+gensec_set_remote_address
+gensec_set_local_address
+gensec_want_feature
+gensec_start_mech_by_sasl_name
+ldb_binary_encode_string
+_tevent_req_nomem
+map_nt_error_from_unix_common
+strcmp
+libsamdb.so.0
+libservice-samba4.so
+libauth4-samba4.so
+libsamba-credentials.so.0
+libcommon-auth-samba4.so
+libcli-ldap-samba4.so
+libsamba-hostconfig.so.0
+libgensec-samba4.so
+libsamba-util.so.0
+libsamdb-common-samba4.so
+libcli-ldap-common-samba4.so
+libauthkrb5-samba4.so
+libsamba-errors.so.1
+libtevent-util.so.0
+libMESSAGING-samba4.so
+libsamba-sockets-samba4.so
+libsamba-debug-samba4.so
+libnetif-samba4.so
+libasn1util-samba4.so
+libldb.so.1
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+ldap.so
+SAMBA_4.9.5
+TEVENT_UTIL_0.0.1
+SAMBA_ERRORS_1
+SAMDB_0.0.1
+TEVENT_0.9.13
+TEVENT_0.9.12
+TEVENT_0.9.9
+GLIBC_2.4
+GLIBC_2.2.5
+SAMBA_CREDENTIALS_0.0.1
+SAMBA_HOSTCONFIG_0.0.1
+TALLOC_2.0.2
+LDB_0.9.16
+LDB_0.9.12
+LDB_0.9.15
+LDB_0.9.10
+SAMBA_UTIL_0.0.1
+/usr/lib/samba:/usr/lib
+u3UH
+AWAVI
+ATUH
+D$81
+D$0L
+L$(H
+T$0H
+t$(H
+T$8dH3
+H[]A\A]A^A_
+t$PL
+D$PH
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUH
+t$PAWH
+D$PL
+[]A\A]A^A_
+[]A\A]A^A_
+H9:tVH
+[]A\A]
+CXH9Cp
+AVAUI
+l$ H
+d$0H
+}@E1
+d$@f.
+[]A\A]A^A_
+|$6AWAU
+([]A\A]A^A_
+3ATPAWAU
+3ATPAWAU
+T$8A
+3ATPAWAU
+ATUH
+[]A\
+AVAUATI
+ []A\A]A^
+AWAVAUATUSH
+D$(1
+AUATL
+L$8L
+D$0H
+D$(dH3
+8[]A\A]A^A_
+T$ H
+{ H9zp
+AWAVAUATUSH
+[]A\A]A^A_
+AVAUATUSH
+D$(1
+D$(dH3
+0[]A\A]A^
+AUATUSH
+[]A\A]
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AUATUH
+[]A\A]
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVA
+ATUH
+[]A\A]A^A_
+ATUH
+[]A\
+H9\$
+([]A\A]
+AVAUATUSH
+x0VI
+D$,H
+[]A\A]A^A_
+[]A\
+AWAVAUATUSH
+D$H1
+I9@pH
+\$HdH3
+X[]A\A]A^A_
+L$01
+T$0H
+D$0H
+|$8H
+t$8L
+D$0H
+T$0AUP1
+t	H;8
+|$8M
+t$8L
+D$0H
+|$0H
+p@AVD
+D$@H
+L$8H
+D$8H
+t$0H
+t$0H
+D$01
+l$ A
+d$(H
+L$81
+T$8H
+D$8H
+t	H;
+D$8A
+|$8M
+D$ L
+t$8L
+D$0H
+|$8j
+D$ L
+AZA[A
+t$8L
+D$0H
+L$01
+D$0E
+D$0H
+D$0H
+L$8D
+D$8M
+\$ L
+I;F0r
+\$ M
+L$01
+L$01
+L$8H
+T$81
+D$0H
+T$8H
+D$81
+L$8H
+L$01
+T$0H
+L$01
+D$81
+D$81
+D$81
+t$8H
+t	H;
+[]A\
+ATUSH
+[]A\A]
+AWAVAUI
+ATUSH
+D$81
+T$ H
+)D$ 
+D$(f
+oL$ 1
+D$(f
+oT$ E1
+D$8dH3
+H[]A\A]A^A_
+B`H9Bp
+ []A\
+AWAVAUATUSH
+([]A\A]A^A_
+t[M9
+w WH
+C`I9CptJH
+ATUH
+H98t{H
+[]A\
+[]A\
+AUATUH
+[]A\A]
+AWAVAUATUH
+([]A\A]A^A_
+talloc_new: ../source4/auth/samba_server_gensec.c:43
+../source4/auth/samba_server_gensec.c:55
+Failed to start auth server code: %s
+../source4/auth/samba_server_gensec.c:56
+../source4/auth/samba_server_gensec.c:65
+../source4/auth/samba_server_gensec.c:66
+Failed to start GENSEC server code: %s
+../source4/auth/samba_server_gensec.c:75
+../source4/auth/samba_server_gensec.c:76
+../source4/auth/samba_server_gensec.c:101
+const struct gensec_security_ops *
+../source4/auth/samba_server_gensec.c:129
+../source4/auth/samba_server_gensec.c:146
+1.2.840.113554.1.2.2
+1.3.6.1.5.5.2
+samba_server_gensec_start_settings
+../source4/ldap_server/ldap_server.c:151
+../source4/ldap_server/ldap_server.c:159
+../source4/ldap_server/ldap_server.c:929
+struct ldapsrv_process_call_state
+../source4/ldap_server/ldap_server.c:939
+../source4/ldap_server/ldap_server.c:951
+../source4/ldap_server/ldap_server.c:957
+../source4/ldap_server/ldap_server.c:961
+../source4/ldap_server/ldap_server.c:105
+../source4/ldap_server/ldap_server.c:110
+../source4/ldap_server/ldap_server.c:113
+../source4/ldap_server/ldap_server.c:114
+../source4/ldap_server/ldap_server.c:115
+../source4/ldap_server/ldap_server.c:121
+../source4/ldap_server/ldap_server.c:122
+../source4/ldap_server/ldap_server.c:129
+../source4/ldap_server/ldap_server.c:138
+talloc_new: ../source4/ldap_server/ldap_server.c:183
+CN=Default Query Policy,CN=Query-Policies,CN=Directory Service,CN=Windows NT,CN=Services
+../source4/ldap_server/ldap_server.c:259
+Failed to load ldap server query policies
+../source4/ldap_server/ldap_server.c:260
+../source4/ldap_server/ldap_server.c:1051
+ldapsrv failed to bind to %s:%u - %s
+../source4/ldap_server/ldap_server.c:1067
+../source4/ldap_server/ldap_server.c:1094
+../source4/ldap_server/ldap_server.c:1109
+../source4/ldap_server/ldap_server.c:70
+../source4/ldap_server/ldap_server.c:72
+../source4/ldap_server/ldap_server.c:78
+../source4/ldap_server/ldap_server.c:79
+../source4/ldap_server/ldap_server.c:80
+../source4/ldap_server/ldap_server.c:89
+../source4/ldap_server/ldap_server.c:90
+../source4/ldap_server/ldap_server.c:91
+../source4/ldap_server/ldap_server.c:527
+../source4/ldap_server/ldap_server.c:547
+ldapsrv_call_loop: tstream_read_pdu_blob_recv() - %s
+ldapsrv_process_call_send failed
+ldap_server: no LDAP server required in standalone configuration
+ldap_server: no LDAP server required in member server configuration
+../source4/ldap_server/ldap_server.c:1173
+ldapsrv failed tstream_tls_params_server - %s
+../source4/ldap_server/ldap_server.c:1177
+../source4/ldap_server/ldap_server.c:1204
+No wildcard addresses available
+../source4/ldap_server/ldap_server.c:1214
+../source4/ldap_server/ldap_server.c:1230
+../source4/ldap_server/ldap_server.c:1233
+ldapsrv failed to bind to %s - %s
+Cannot create ldap privileged ldapi directory
+../source4/ldap_server/ldap_server.c:1251
+../source4/ldap_server/ldap_server.c:1262
+../source4/ldap_server/ldap_server.c:1265
+Failed to startup ldap server task
+../source4/ldap_server/ldap_server.c:816
+../source4/ldap_server/ldap_server.c:865
+../source4/ldap_server/ldap_server.c:873
+ldapsrv_call_read_next: no memory for tstream_read_pdu_blob_send
+ldapsrv_call_read_next: no memory for tevent_req_set_endtime
+../source4/ldap_server/ldap_server.c:685
+Failed to encode ldap reply of type %d
+../source4/ldap_server/ldap_server.c:705
+stream_writev_queue_send failed
+../source4/ldap_server/ldap_server.c:610
+../source4/ldap_server/ldap_server.c:617
+ldapsrv_call_process_done: call->wait_send - no memory
+../source4/ldap_server/ldap_server.c:647
+../source4/ldap_server/ldap_server.c:654
+ldapsrv_call_wait_done: call->wait_recv() - %s
+ldapsrv_call_writev_done: tstream_writev_queue_recv() failed
+../source4/ldap_server/ldap_server.c:733
+../source4/ldap_server/ldap_server.c:739
+ldapsrv_call_writev_done: tstream_writev_queue_recv() - %d:%s
+ldapsrv_call_writev_done: call->postprocess_send - no memory
+../source4/ldap_server/ldap_server.c:771
+../source4/ldap_server/ldap_server.c:781
+../source4/ldap_server/ldap_server.c:786
+ldapsrv_call_postprocess_done: call->postprocess_recv() - %s
+../source4/ldap_server/ldap_server.c:801
+../source4/ldap_server/ldap_server.c:312
+ldapsrv_accept: tevent_queue_create failed
+../source4/ldap_server/ldap_server.c:319
+../source4/ldap_server/ldap_server.c:323
+ldapsrv_accept: failed to obtain local socket address!
+../source4/ldap_server/ldap_server.c:343
+Failed to init server credentials
+Failed to obtain server credentials, perhaps a standalone server?: %s
+LDB backend for LDAP Init failed: %s: %s
+../source4/ldap_server/ldap_server.c:400
+ldapsrv_accept: no memory for tstream_tls_accept_send
+../source4/ldap_server/ldap_server.c:1010
+failed to setup system session info
+../source4/ldap_server/ldap_server.c:980
+failed to setup anonymous session info
+ldapsrv_accept_tls_loop: tstream_tls_accept_recv() - failed
+../source4/ldap_server/ldap_server.c:416
+../source4/ldap_server/ldap_server.c:422
+ldapsrv_accept_tls_loop: tstream_tls_accept_recv() - %d:%s
+struct ldapsrv_connection
+configurationNamingContext
+lDAPAdminLimits
+%255[^=]=%d
+InitRecvTimeout
+MaxConnIdleTime
+MaxPageSize
+MaxNotificationPerConn
+MaxQueryDuration
+struct ldapsrv_call
+no memory
+struct ldap_message
+asn1_load failed
+task[ldapsrv]
+struct ldapsrv_service
+%s.%s
+ldapsrv_call_queue
+unix
+ldap_priv
+%s/ldapi
+ldap_server
+ldap_encode failed
+data_blob_append failed
+Outgoing, encoded LDAP packet
+ldapsrv_accept: out of memory
+ldapsev send queue
+ldap
+add_socket
+ldapsrv_load_limits
+ldapsrv_task_init
+ldapsrv_call_writev_start
+%08X: %s
+sam.ldb
+gensec
+supportedSASLMechanisms
+struct ldapsrv_reply
+Unwilling type[%d] id[%d]
+NONE
+BASE
+1.3.6.1.4.1.1466.20037
+no bind
+LDAP
+struct ldb_context
+SearchRequest
+ basedn: %s
+ filter: %s
+SearchRequest: basedn: [%s]
+SearchRequest: filter: [%s]
+%s. Invalid scope
+SearchRequest: scope: [%s]
+const char *
+SearchRequest: attrs: [%s]
+struct ldb_result
+1.2.840.113556.1.4.1340
+1.3.6.1.4.1.7165.4.3.17
+1.2.840.113556.1.4.529
+1.2.840.113556.1.4.528
+struct ldb_message_element
+SearchRequest: results: [%d]
+SearchRequest: error
+ModifyRequest
+ModifyRequest: dn: [%s]
+struct ldb_message
+struct ldb_val
+AddRequest
+AddRequest: dn: [%s]
+DelRequest
+DelRequest: dn: [%s]
+ModifyDNRequest
+ dn: %s
+ newrdn: %s
+ModifyDNRequest: olddn: [%s]
+%s. Old RDN must be deleted
+CompareRequest
+CompareRequest: dn: [%s]
+(%s=%*s)
+CompareRequest: error: %s
+CompareRequest: matched
+%s. Too many objects match!
+AbandonRequest
+../source4/ldap_server/ldap_backend.c:221
+../source4/ldap_server/ldap_backend.c:231
+../source4/ldap_server/ldap_backend.c:249
+../source4/ldap_server/ldap_backend.c:270
+../source4/ldap_server/ldap_backend.c:1240
+ldapsrv_do_call: Critical extension %s is not known to this server
+../source4/ldap_server/ldap_backend.c:530
+talloc_new: ../source4/ldap_server/ldap_backend.c:534
+../source4/ldap_server/ldap_backend.c:540
+../source4/ldap_server/ldap_backend.c:541
+../source4/ldap_server/ldap_backend.c:567
+../source4/ldap_server/ldap_backend.c:574
+../source4/ldap_server/ldap_backend.c:581
+ldb_request %s dn=%s filter=%s
+struct ldb_search_options_control
+struct ldb_extended_dn_control
+../source4/ldap_server/ldap_backend.c:635
+SearchRequest: error MaxNotificationPerConn
+MaxNotificationPerConn reached
+../source4/ldap_server/ldap_backend.c:656
+../source4/ldap_server/ldap_backend.c:674
+../source4/ldap_server/ldap_backend.c:712
+../source4/ldap_server/ldap_backend.c:729
+../source4/ldap_server/ldap_backend.c:753
+../source4/ldap_server/ldap_backend.c:759
+../source4/ldap_server/ldap_backend.c:762
+../source4/ldap_server/ldap_backend.c:770
+../source4/ldap_server/ldap_backend.c:791
+ModifyRequest local memory context
+../source4/ldap_server/ldap_backend.c:800
+%s. Invalid LDAP_MODIFY_* type
+../source4/ldap_server/ldap_backend.c
+modify forbidden on global catalog port
+../source4/ldap_server/ldap_backend.c:384
+../source4/ldap_server/ldap_backend.c:398
+../source4/ldap_server/ldap_backend.c:877
+../source4/ldap_server/ldap_backend.c:899
+AddRequest local memory context
+../source4/ldap_server/ldap_backend.c:908
+../source4/ldap_server/ldap_backend.c:326
+../source4/ldap_server/ldap_backend.c:340
+../source4/ldap_server/ldap_backend.c:966
+../source4/ldap_server/ldap_backend.c:986
+DelRequest local memory context
+../source4/ldap_server/ldap_backend.c:995
+../source4/ldap_server/ldap_backend.c:435
+../source4/ldap_server/ldap_backend.c:449
+../source4/ldap_server/ldap_backend.c:1022
+../source4/ldap_server/ldap_backend.c:1042
+ModifyDNRequest local memory context
+../source4/ldap_server/ldap_backend.c:1055
+../source4/ldap_server/ldap_backend.c:1056
+ModifyDNRequest: newrdn: [%s]
+../source4/ldap_server/ldap_backend.c:1083
+ModifyDNRequest: newsuperior: [%s]
+../source4/ldap_server/ldap_backend.c:487
+../source4/ldap_server/ldap_backend.c:501
+../source4/ldap_server/ldap_backend.c:1129
+../source4/ldap_server/ldap_backend.c:1150
+CompareRequest local_memory_context
+../source4/ldap_server/ldap_backend.c:1159
+CompareRequest: attribute: [%s]
+../source4/ldap_server/ldap_backend.c:1177
+../source4/ldap_server/ldap_backend.c:1179
+CompareRequest: doesn't matched
+../source4/ldap_server/ldap_backend.c:1183
+../source4/ldap_server/ldap_backend.c:1191
+CompareRequest: %d results: %s
+../source4/ldap_server/ldap_backend.c:1201
+../source4/ldap_server/ldap_backend.c:1213
+../source4/ldap_server/ldap_backend.c:1223
+  ! " # % & ' ( 
+ + $ , - 
+ . / 
+ 0 1 2 
+ 5 6 
+ 9 ldapsrv_unwilling
+ldapsrv_AbandonRequest
+ldapsrv_CompareRequest
+ldapsrv_ModifyDNRequest
+ldapsrv_DelRequest
+ldapsrv_AddRequest
+ldapsrv_ModifyRequest
+ldapsrv_SearchRequest
+ldapsrv_do_call
+../source4/ldap_server/ldap_bind.c:80
+struct ldapsrv_bind_wait_context
+../source4/ldap_server/ldap_bind.c:85
+struct ldapsrv_bind_wait_state
+../source4/ldap_server/ldap_bind.c:97
+../source4/ldap_server/ldap_bind.c:101
+../source4/ldap_server/ldap_bind.c:712
+struct ldapsrv_unbind_wait_context
+../source4/ldap_server/ldap_bind.c:717
+struct ldapsrv_unbind_wait_state
+../source4/ldap_server/ldap_bind.c:724
+../source4/ldap_server/ldap_bind.c:297
+struct ldapsrv_sasl_postprocess_context
+../source4/ldap_server/ldap_bind.c:302
+struct ldapsrv_sasl_postprocess_state
+../source4/ldap_server/ldap_bind.c:307
+../source4/ldap_server/ldap_bind.c:311
+../source4/ldap_server/ldap_bind.c:136
+../source4/ldap_server/ldap_bind.c:145
+../source4/ldap_server/ldap_bind.c:149
+../source4/ldap_server/ldap_bind.c:471
+../source4/ldap_server/ldap_bind.c:474
+../source4/ldap_server/ldap_bind.c:488
+%08X: LdapErr: DSID-%08X, comment: AcceptSecurityContext error, data %x, v1db1
+../source4/ldap_server/ldap_bind.c:516
+SASL:[%s]: Sign or Seal are not allowed if TLS is used
+../source4/ldap_server/ldap_bind.c:526
+SASL:[%s]: Sign or Seal are not allowed if SASL encryption has already been set up
+SASL:[%s]: not allowed if TLS is used.
+SASL:[%s]: Sign or Seal are required.
+../source4/ldap_server/ldap_bind.c:565
+SASL:[%s]: Failed to setup SASL socket: %s
+SASL:[%s]: Failed to get session info: %s
+../source4/ldap_server/ldap_bind.c:585
+../source4/ldap_server/ldap_bind.c:597
+ldapsrv_backend_Init failed: %s: %s
+SASL Bind: Failed to advise ldb new credentials
+../source4/ldap_server/ldap_bind.c:225
+../source4/ldap_server/ldap_bind.c:228
+../source4/ldap_server/ldap_bind.c:245
+../source4/ldap_server/ldap_bind.c:257
+Simple Bind: Failed to advise ldb new credentials
+Pending requests on this LDAP session
+../source4/ldap_server/ldap_bind.c:165
+BindSimple: Transport encryption required.
+../source4/ldap_server/ldap_bind.c:200
+../source4/ldap_server/ldap_bind.c:388
+../source4/ldap_server/ldap_bind.c:415
+Failed to start GENSEC server for [%s] code: %s
+SASL: Failed to start authentication system: %s
+../source4/ldap_server/ldap_bind.c:436
+../source4/ldap_server/ldap_bind.c:757
+../source4/ldap_server/ldap_bind.c:763
+%s: 
+BindSimple dn: %s
+BindSASL dn: %s
+DATA_BLOB
+Bad AuthenticationChoice [%d]
+UnbindRequest
+ldapsrv_UnbindRequest
+ldapsrv_BindSASL_done
+ldapsrv_BindSASL
+ldapsrv_BindSimple_done
+ldapsrv_BindSimple
+../source4/ldap_server/ldap_extended.c:43
+struct ldapsrv_starttls_postprocess_context
+../source4/ldap_server/ldap_extended.c:50
+struct ldapsrv_starttls_postprocess_state
+../source4/ldap_server/ldap_extended.c:60
+../source4/ldap_server/ldap_extended.c:61
+../source4/ldap_server/ldap_extended.c:73
+../source4/ldap_server/ldap_extended.c:76
+../source4/ldap_server/ldap_extended.c:83
+../source4/ldap_server/ldap_extended.c:89
+ldapsrv_starttls_postprocess_done: accept_tls_loop: tstream_tls_accept_recv() - %d:%s => %s
+../source4/ldap_server/ldap_extended.c:91
+../source4/ldap_server/ldap_extended.c:97
+START-TLS: TLS is already enabled on this LDAP session
+START-TLS: SASL is already enabled on this LDAP session
+START-TLS: pending requests on this LDAP session
+../source4/ldap_server/ldap_extended.c:173
+../source4/ldap_server/ldap_extended.c:179
+Extended Operation(%s) failed: %s
+Extended Operation(%s) not supported
+struct tevent_req
+Extended
+ldapsrv_starttls_postprocess_done
+ldapsrv_ExtendedRequest
+GCC: (GNU) 8.2.1 20181127
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment

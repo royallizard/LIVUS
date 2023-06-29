@@ -1,0 +1,86 @@
+/lib64/ld-linux-x86-64.so.2
+=u_B
+libc.so.6
+exit
+strtol
+getppid
+__fprintf_chk
+stderr
+close
+open
+utime
+sleep
+__cxa_finalize
+__libc_start_main
+setpriority
+write
+_edata
+__bss_start
+_end
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.3.4
+GLIBC_2.2.5
+ATUH
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+Usage: %s <monitor-filename> <ppid>
+This file is created when Asterisk is run with a realtime priority (-p).  It
+must continue to exist, and the astcanary process must be allowed to continue
+running, or else the Asterisk process will, within a short period of time,
+slow itself down to regular priority.
+The technical explanation for this file is to provide an assurance to Asterisk
+that there are no threads that have gone into runaway mode, thus hogging the
+CPU, and making the Asterisk machine seem to be unresponsive.  When that
+happens, the astcanary process will be unable to update the timestamp on this
+file, and Asterisk will notice within 120 seconds and react.  Slowing the
+Asterisk process down to regular priority will permit an administrator to
+intervene, thus avoiding a need to reboot the entire machine.
+;*3$"
+astcanary.debug
+7zXZ
+A:Er
+_2mA
+I/$/R
+03oz
+x~]k
+m0!U
+9|*m\x
+U~~$
+'-cg=
+p fg
+=rVx
+*/3E
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

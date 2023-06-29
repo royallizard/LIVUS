@@ -1,0 +1,438 @@
+/lib/ld-linux.so.2
+libopensc.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+sc_asn1_read_tag
+sc_ctx_detect_readers
+sc_ctx_log_to_file
+sc_ctx_get_reader_by_name
+sc_context_create
+sc_hex_to_bin
+sc_path_set
+sc_lock
+sc_strerror
+sc_release_context
+sc_update_binary
+sc_ctx_get_reader
+sc_wait_for_event
+sc_get_challenge
+sc_file_free
+sc_connect_card
+sc_read_binary
+sc_select_file
+sc_create_file
+sc_unlock
+sc_ctx_get_reader_count
+sc_delete_file
+sc_detect_card_presence
+sc_disconnect_card
+sc_pin_cmd
+sc_file_new
+sc_bin_to_hex
+sc_card_ctl
+libcrypto.so.10
+BN_num_bits
+EVP_EncryptUpdate
+ERR_load_crypto_strings
+BN_sub
+BN_mod_add
+EVP_CIPHER_CTX_init
+BN_clear
+OPENSSL_add_all_algorithms_noconf
+BN_add
+BN_bn2dec
+BN_init
+BN_set_word
+RAND_seed
+BN_clear_free
+BN_rand_range
+BN_bin2bn
+BN_mod_inverse
+EVP_CIPHER_CTX_cleanup
+ERR_print_errors_fp
+EVP_md5
+BN_mod_exp
+EVP_DecryptFinal_ex
+BN_nnmod
+BN_mod_mul
+_fini
+EVP_DecryptInit_ex
+BN_mul
+BN_generate_prime
+BN_CTX_free
+BN_new
+EVP_DecryptUpdate
+CRYPTO_set_mem_functions
+EVP_EncryptInit_ex
+BN_bn2bin
+EVP_aes_256_cbc
+OPENSSL_cleanse
+BN_num_bits_word
+EVP_EncryptFinal_ex
+BN_CTX_init
+BN_CTX_new
+EVP_BytesToKey
+BN_copy
+BN_hex2bn
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__stpcpy_chk
+fflush
+__printf_chk
+exit
+fopen
+perror
+putchar
+realloc
+stdin
+strtol
+fgets
+calloc
+strlen
+memset
+tcsetattr
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+malloc
+__ctype_b_loc
+getenv
+optarg
+stderr
+system
+getopt_long
+strncasecmp
+fileno
+fwrite
+fread
+__memcpy_chk
+__vfprintf_chk
+tcgetattr
+__cxa_finalize
+__sprintf_chk
+_IO_getc
+setbuf
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.3.4
+[^_]
+D$t1
+Salt
+ed__
+Salt
+ed__
+D$x(9t$p
+L$p9L$P
+|$pk
+;t$Pr
+L$<9L$,
+9|$P
+D$8(
+9t$Pu
+9t$p
+8L$pw
+L$,8L$p
+8L$ltt
+8L$p
+D$P(
+kD$((
+(;T$l
+8L$pw
+d$,1
+[^_]
+d$,[^_]
+D$<1
+T$,)
+L$<e3
+d$D[^
+D$l1
+uD=O
+L$le3
+d$|[^_]
+D$4f
+L$(=
+T$<~(
+D$4)
+;D$H
+[^_]
+L$4x:
+|$D1
+UWVS
+D$\ 
+D$\ 
+D$T)
+[^_]
+D$< 
+|$X1
+[^_]
+D$<1
+T$<e3
+d$H[
+UWVS
+D$$e
+[^_]
+L$$1
+D$Dc
+D$,1
+EH;D$Du
+UWVS
+d$,[^_]
+UWVS
+|$L~U
+9l$Ht
+d$,[^_]
+UWVS
+l$pe
+D$L1
+;t$xr
+T$ )t$x
+D$Le3
+d$\[^_]
+UWVS
+L$\1
+T$$u
+Sec.
+Cont
+rolB
+yte 
+PROT
+d$ [^_
+TERM
+Sec.
+Env.f
+????
+PKCS
+#15 
+Auth
+AUTH
+UWVS
+D$ e
+[^_]
+UWVS
+t$,U
+[^_]
+DKEK shares          : %d
+DKEK key check value : 
+Enter User PIN : 
+Wrapped key contains:
+  Key blob
+  Certificate
+Key successfully imported
+Version              : %d.%d
+User PIN locked
+User PIN tries left  : %d
+clear
+Clearing the screen failed
+XC:I:W:U:s:i:fr:wv
+sc-hsm-tool
+stderr
+symbols.
+Press <enter> to continue
+Share %i of %i
+Prime       : %s
+Share ID    : %s
+Share value : %s
+Creating DKEK share failed
+Error encrypting DKEK share
+File %s is not a DKEK share
+Please enter prime: 
+Input aborted
+Please enter share ID: 
+Please enter share value: 
+DKEK share imported
+Initialize token
+Define user PIN
+Define user PIN retry counter
+Token label for --initialize
+Uses reader number <arg> [0]
+create-dkek-share
+import-dkek-share
+unwrap-key
+dkek-shares
+so-pin
+pin-retry
+password
+pwd-shares-threshold
+pwd-shares-total
+key-reference
+label
+force
+reader
+wait
+verbose
+DKEK import pending, %d share(s) still missing
+Invalid key reference (must be 0 < keyid <= 255)
+No file name specified for wrapped key
+PIN verification failed with %s
+Card not initialized for key wrap
+sc_card_ctl(*, SC_CARDCTL_SC_HSM_WRAP_KEY, *) failed with %s
+Error reading PRKD file %s. Skipping.
+Error reading certificate %s. Skipping
+Invalid wrapped key format (Outer sequence).
+Invalid wrapped key format (Key binary).
+  Private Key Description (PRKD)
+Found existing private key description in EF with fid %02x%02x. Please remove key first, select unused key reference or use --force.
+Found existing certificate in EF with fid %02x%02x. Please remove certificate first, select unused key reference or use --force.
+Wrapped key does not match DKEK
+sc_card_ctl(*, SC_CARDCTL_SC_HSM_UNWRAP_KEY, *) failed with %s
+Updating private key description failed with %s
+Updating certificate failed with %s
+SmartCard-HSM has never been initialized. Please use --initialize to set SO-PIN and user PIN.
+sc_card_ctl(*, SC_CARDCTL_SC_HSM_IMPORT_DKEK_SHARE, *) failed with %s
+Failed to establish context: %s
+Failed to connect to card: %s
+Failed to select application: %s
+Enter SO-PIN (16 hexadecimal characters) : 
+Error decoding initialization code (%s)
+SO-PIN must be a hexadecimal string of 16 characters
+Enter initial User-PIN (6 - 16 characters) : 
+PIN must be at least 6 characters long
+PIN must not be longer than 16 characters
+Retry counter must not exceed 3 for a 6 digit PIN. Use a longer PIN for a higher retry counter.
+Retry counter must not exceed 5 for a 7 digit PIN. Use a longer PIN for a higher retry counter.
+Retry counter must not exceed 10
+sc_card_ctl(*, SC_CARDCTL_SC_HSM_INITIALIZE, *) failed with %s
+No file name specified for DKEK share
+The DKEK share will be enciphered using a key derived from a user supplied password.
+The security of the DKEK share relies on a well chosen and sufficiently long password.
+The recommended length is more than 10 characters, which are mixed letters, numbers and
+Please keep the generated DKEK share file in a safe location. We also recommend to keep a
+paper printout, in case the electronic version becomes unavailable. A printable version
+of the file can be generated using "openssl base64 -in <filename>".
+Enter password to encrypt DKEK share : 
+Password way to short. Please retry.
+Please retype password to confirm : 
+Passwords do not match. Please retry.
+Must specify both, --pwd-shares-total and --pwd-shares-threshold
+--pwd-shares-total must be 3 or larger
+--pwd-shares-threshold must 2 or larger
+--pwd-shares-threshold must be smaller or equal to --pwd-shares-total
+The DKEK will be enciphered using a randomly generated 64 bit password.
+This password is split using a (%i-of-%i) threshold scheme.
+Please keep the generated and encrypted DKEK file in a safe location. We also recommend 
+to keep a paper printout, in case the electronic version becomes unavailable. A printable version
+Error generating random key failed with %s
+Error generating random seed failed with %s
+Press <enter> to display key share %i of %i
+Please note ALL values above and press <enter> when finished
+Error generating random number failed with %s
+DKEK share created and saved to %s
+Enter password to decrypt DKEK share : 
+Deciphering DKEK share, please wait...
+--pwd-shares-total must 2 or larger
+Deciphering the DKEK for import into the SmartCard-HSM requires %i key custodians
+to present their share. Only the first key custodian needs to enter the public prime.
+Please remember to present the share id as well as the share value.
+Press <enter> to enter share %i of %i
+Error during reconstruction of secret. Wrong shares?
+Error decrypting DKEK share. Password correct ?
+Not supported by card or card not initialized for key share usage
+Enciphering DKEK share, please wait...
+Create DKEK key share and save to <filename>
+Import DKEK key share <filename>
+Wrap key and save to <filename>
+Unwrap key read from <filename>
+Number of DKEK shares [No DKEK]
+Define security officer PIN (SO-PIN)
+Define password for DKEK share
+Define threshold for number of password shares required for reconstruction
+Define number of password shares
+Key reference for key wrap/unwrap
+Force replacement of key and certificate
+Wait for a card to be inserted
+Verbose operation. Use several times to enable debug output.
+Salted__
+Waiting for a reader to be attached...
+Error while waiting for a reader: %s
+Error while refreshing readers: %s
+Waiting for a card to be inserted...
+Error while waiting for a card: %s
+Reader "%s" not found (%d reader(s) detected)
+Connecting to card in reader %s...
+No smart card readers found.
+Using reader with a card: %s
+Matched ATR in reader: %s
+Card not present.
+Using card driver %s.
+Failed to lock card: %s
+\x%02X
+%08X: 
+%02X 
+ <arg>
+ [arg]
+Usage: %s [OPTIONS] %s
+Usage: %s [OPTIONS]
+Options:
+-%c, --%s%s
+    --%s%s
+  %-28s  %s
+NEVR
+NONE
+Ox%X
+error: 
+Aborting.
+warning: 
+env:
+;*2$"8
+sc-hsm-tool.debug
+7zXZ
+FQ=VC
+48i>
+bVb]E ^A
+J<HxS
+41JY
+|a&%
+-hGT
+oY_~Wb4
+Ntuzh
+BV^_!V
+oP<n
+KEVL
+=i<o)
+f$Z%R%g
+9^d+
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

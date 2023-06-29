@@ -1,0 +1,190 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+plugin_register_read
+plugin_register_shutdown
+free
+__assert_fail
+fopen
+fgets
+strtok_r
+parse_value
+plugin_log
+sstrncpy
+plugin_dispatch_values
+strjoin
+__snprintf_chk
+ferror
+fclose
+__errno_location
+sstrerror
+__stack_chk_fail
+plugin_get_ds
+realloc
+sstrdup
+strcasecmp
+strlen
+strunescape
+replace_special
+module_register
+plugin_register_complex_config
+plugin_register_init
+libc.so.6
+table.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+ATUH
+8L;e(r
+[]A\
+AWAVAUATSH
+L;c0w#H
+S0I9
+|$(H
+D$0I
+M;g(L
+8H;C(
+dH34%(
+[A\A]A^A_]
+AWAVAUATE1
+M;w(szI
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+ATUS
+[]A\
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+D$0E1
+D$(f.
+T$ H
+D9k(~JK
+D9k(
+IcF(I
+I;W0v
+I;W0v
+IcF(I
+AVAUL
+A9\$(~AH
+l$ L
+A9\$(
+]A\A]A^
+table
+src/table.c
+NULL != res->ds
+res->values[i] < fields_num
+%s-%s
+Separator
+Plugin
+Instance
+Result
+Type
+InstancePrefix
+InstancesFrom
+ValuesFrom
+tbl->results_num == 0
+Table
+(tbl->results != NULL) || (tbl->results_num == 0)
+table plugin: Failed to open file "%s": %s.
+table plugin: Table %s: Truncated line: %s
+table plugin: Not enough columns in line (expected at least %zu, got %zu).
+table plugin: Table %s: Failed to parse line: %s
+res->values_num == res->ds->ds_num
+res->instances[i] < fields_num
+table plugin: Truncated type instance: %s.
+table plugin: Failed to dispatch result.
+table plugin: Failed to read from file "%s": %s.
+table plugin: Unknown type "%s". See types.db(5) for details.
+table plugin: Invalid type "%s". Expected %zu data source%s, got %zu.
+table plugin: Failed to prepare and parse table "%s".
+table plugin: "%s" expects at least one argument.
+table plugin: "%s" expects numerical arguments only.
+table plugin: realloc failed: %s.
+table plugin: "%s" expects a single string argument.
+table plugin: <Table> expects a single string argument.
+table plugin: <Result> does not expect any arguments.
+table plugin: Ignoring unknown config key "%s"  in <Result>.
+table plugin: No "ValuesFrom" option specified for <Result> in table "%s".
+table plugin: No "Type" option specified for <Result> in table "%s".
+table plugin: Ignoring unknown config key "%s" in <Table %s>.
+table plugin: Table "%s" does not specify any separator.
+table plugin: Table "%s" does not specify any (valid) results.
+table plugin: Ignoring unknown config key "%s".
+tbl_config_table
+tbl_result_dispatch
+tbl_clear
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+table.so-5.8.1-4.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

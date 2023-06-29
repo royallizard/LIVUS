@@ -1,0 +1,500 @@
+/lib/ld-linux.so.2
+libatalk.so.15
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+bstrListCreateMin
+getcwdpath
+nftw
+cnid_add
+cnid_delete
+ad_forcegetid
+ad_setname
+cnid_update
+bstrListDestroy
+ad_getattr
+make_log_entry
+bjoinInv
+afp_config_parse
+strlcpy
+bdelete
+bconcat
+bsplit
+rel_path_in_vol
+ad_metadata
+cnid_open
+cnid_resolve
+ad_setid
+ad_setattr
+cnid_close
+ad_open
+cnid_find
+bstrListPush
+cnid_getstamp
+ad_close
+setuplog
+getvolbypath
+cnid_init
+convert_charset
+ad_setdate
+load_volumes
+cnid_for_path
+bdestroy
+ad_init
+stripped_slashes_basename
+bcatcstr
+type_configs
+bfromcstr
+_fini
+ad_flush
+libwrap.so.0
+libtdb.so.1
+libacl.so.1
+libattr.so.1
+libmysqlclient.so.18
+libpthread.so.0
+waitpid
+open64
+read
+__errno_location
+sigaction
+libz.so.1
+libm.so.6
+libssl.so.10
+libcrypto.so.10
+libdl.so.2
+libcrack.so.2
+libc.so.6
+_IO_stdin_used
+__xpg_basename
+fchmod
+__printf_chk
+execl
+_IO_putc
+optind
+strrchr
+__strdup
+perror
+getpwuid
+mmap64
+closedir
+fchdir
+getgrgid
+puts
+fork
+unlink
+putchar
+mkdir
+rewinddir
+stdin
+_exit
+strftime
+lchown
+symlink
+strlen
+sigemptyset
+memset
+strstr
+rmdir
+getopt
+__fxstat64
+__fprintf_chk
+fchown
+stdout
+__vsnprintf_chk
+malloc
+umask
+strcasecmp
+__lxstat64
+opendir
+__xstat64
+__ctype_b_loc
+optarg
+stderr
+munmap
+readlink
+strncat
+__realpath_chk
+utimes
+fwrite
+rename
+__memcpy_chk
+localtime
+difftime
+strchr
+readdir64
+__cxa_finalize
+memmove
+access
+_IO_getc
+__strcat_chk
+strcmp
+strerror
+__libc_start_main
+sysconf
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.2
+GLIBC_2.0
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.3.4
+[^_]
+UWVS
+[^_]
+L$0f
+D$J 
+D$,;D$0
+D$<1
+d$$[^
+d$$[^
+F@t<
+UWVS
+t$Pe
+D$,1
+D$*	
+D$*)
+L$,e3
+d$<[^_]
+UWVS
+T$$e
+D$<1
++|$,
+L$<e3
+d$L[^_]
+UWVS
+|$<e
+D$\1
+[^_]
+----
+----
+D$"f
+D$"f
+D$" 
+D$"@
+[^_]
+D$" 
+[^_]
+d$<[
+d$<[^_]
+UWVS
+[^_]
+D$@%
+D$@%
+9D$(|y
+;D$D
+T$<9T$
+[^_]
+;L$H
+UWVS
+>.tc
+[^_]
+T$,)
+D$D3Q
+D$0%
+D$T1
+3Q\3AX	
+D$T%
+D$8%
+t$<t6
+UWVS
+D$0~
++D$8
+D$P%
+|$8/
+[^_]
+D$8.
+|$8/
+D$,e
+[^_]
+D$0u
+D$`%
+T$4%
+L$<tL
+UWVS
+itJ~ 
+D$P%
+[^_]
+D$0t
+UWVS
+[^_]
+D$@1
+UWVS
+[^_]
+UWVS
+[^_]
+D$$t^
+D$$f
+l$2%
+UWVS
+t$,U
+[^_]
+Usage: ad ls|cp|rm|mv|set|find [file|dir, ...]
+       ad -v|--version
+/dev/tty
+default:note
+find
+3.1.3
+ad (Netatalk %s)
+Usage: ad find [-v VOLUME_PATH] NAME
+error in sigaction(SIGTERM): %s
+error in sigaction(SIGINT): %s
+error in sigaction(SIGABRT): %s
+error in sigaction(SIGHUP): %s
+error in sigaction(SIGQUIT): %s
+Cant open volume "%s"
+conversion error
+"%s" isn't a "dbd" CNID volume!
+Unsupported adouble versions: %u
+Unsupported Extended Attributes option: %u
+Cant initialize CNID database connection for %s
+Conversion from %s to %s for %s failed.
+lstat(rpath: %s, elem: %s): %s: %s
+ad_util.c
+ %s 
+ %10u 
+ !ADVOL_CACHE 
+%b %e  %Y
+%b %e %H:%M
+%s  
+%5ld
+ %-8ld
+ %-8s
+%4u,%4u
+%9lu
+ ????????????
+  %s
+Can't stat
+Cant open .
+Cant chdir
+Couldn't opendir .
+:adlRu
+.AppleDB
+.AppleDesktop
+Usage: ad ls [-dRl[u]] [file|dir, ...]
+  -l Long Output [-u: unix info]:
+     <unixinfo ...> <FinderFlags> <AFPAttributes> <Color> <Type> <Creator> <CNID from AppleDouble> <name>
+     FinderFlags (valid for (f)ile and/or (d)irectory):
+       d = On Desktop (f/d)
+       e = Hidden extension (f/d)
+       m = Shared (can run multiple times) (f)
+       n = No INIT resources (f)
+       i = Inited (f/d)
+       c = Custom icon (f/d)
+       t = Stationery (f)
+       s = Name locked (f/d)
+       b = Bundle (f/d)
+       v = Invisible (f/d)
+       a = Alias file (f/d)
+     AFPAttributes:
+       y = System (f/d)
+       w = No write (f)
+       p = Needs backup (f/d)
+       r = No rename (f/d)
+       l = No delete (f/d)
+       o = No copy (f)
+     Note: any letter appearing in uppercase means the flag is set
+           but it's a directory for which the flag is not allowed.
+pKUsage: ad cp [-R] [-aipvf] <source_file> <target_file>
+       ad cp [-R] [-aipvfx] <source_file [source_file ...]> <target_directory>
+In the first synopsis form, the cp utility copies the contents of the source_file to the
+target_file.  In the second synopsis form, the contents of each named source_file is copied to the
+destination target_directory.  The names of the files themselves are not changed.  If cp detects an
+attempt to copy a file to itself, the copy will fail.
+Netatalk AFP volumes are detected by means of their ".AppleDesktop" directory
+which is located in their volume root. When a copy targetting an AFP volume
+is detected, its CNID database daemon is connected and all copies will also
+go through the CNID database.
+AppleDouble files are also copied and created as needed when the target is
+an AFP volume.
+The following options are available:
+     -a    Archive mode.  Same as -Rp.
+     -f    For each existing destination pathname, remove it and create a new
+           file, without prompting for confirmation regardless of its permis-
+           sions.  (The -f option overrides any previous -i or -n options.)
+     -i    Cause cp to write a prompt to the standard error output before
+           copying a file that would overwrite an existing file.  If the
+           response from the standard input begins with the character 'y' or
+           'Y', the file copy is attempted.  (The -i option overrides any pre-
+           vious -f or -n options.)
+     -n    Do not overwrite an existing file.  (The -n option overrides any
+           previous -f or -i options.)
+     -p    Cause cp to preserve the following attributes of each source file
+           in the copy: modification time, access time, file flags, file mode,
+           user ID, and group ID, as allowed by permissions.
+           If the user ID and group ID cannot be preserved, no error message
+           is displayed and the exit value is not altered.
+     -R    If source_file designates a directory, cp copies the directory and
+           the entire subtree connected at that point.If the source_file
+           ends in a /, the contents of the directory are copied rather than
+           the directory itself.
+     -v    Cause cp to be verbose, showing files as they are copied.
+     -x    File system mount points are not traversed.
+%s%s: name too long (not copied)
+%s and %s are identical (not copied).
+cannot overwrite directory %s with non-directory %s
+Error copying adouble for %s -> %s
+%s is a device file (not copied).
+utimes: %s
+chown: %s: %s
+chmod: %s: %s
+"." not supported
+Error converting name for %s
+readlink: %s: %s
+unlink: %s: %s
+symlink: %s: %s
+%s is a directory
+mkdir: %s: %s
+/.AppleDouble
+Error resolving CNID for %s
+Error opening adouble for: %s
+%s is a socket (not copied).
+%s is a FIFO (not copied).
+%s not overwritten
+overwrite %s? %s
+Not enough memory
+%s -> %s
+afinpRvx
+%s: name too long
+%s is not a directory
+...break
+Error: %s: %s
+directory %s does not exist
+Usage: ad mv [-f | -i | -n] [-v] source target
+       ad mv [-f | -i | -n] [-v] source ... directory
+Move files around within an AFP volume, updating the CNID
+database as needed. If either:
+ - source or destination is not an AFP volume
+ - source volume != destinatio volume
+the files are copied and removed from the source.
+The following options are available:
+   -f   Do not prompt for confirmation before overwriting the destination
+        path.  (The -f option overrides any previous -i or -n options.)
+   -i   Cause mv to write a prompt to standard error before moving a file
+        that would overwrite an existing file.  If the response from the
+        standard input begins with the character `y' or `Y', the move is
+        attempted.  (The -i option overrides any previous -f or -n
+        options.)
+   -n   Do not overwrite an existing file.  (The -n option overrides any
+        previous -f or -i options.)
+   -v   Cause mv to be verbose, showing files after they are moved.
+Error moving adouble file for %s
+Couldn't resolve CNID for parent of %s
+%s cp -R %s %s: did not terminate normally
+%s cp -R %s %s: terminated with %d (non-zero) status
+%s rm -R %s: did not terminate normally
+%s rm -R %s: terminated with %d (non-zero) status
+Error opening CNID database for source "%s": 
+Error opening CNID database for destination "%s": 
+%s: destination pathname too long
+-Rpv
+overwrite %s? (y/n [n]) 
+override for %s? (y/n [n]) 
+Couldn't resolve CNID for %s
+Cant stat %s: %s
+cannot resolve %s: %s: %s
+rename %s to %s: %s
+Not a file or dir: %s
+Cant update CNID for: %s
+rmdir %s: %s
+unlink %s: %s
+/usr/bin/ad
+%s cp -R %s %s: waitpid: %s
+%s rm -R %s: waitpid: %s
+finv
+Usage: ad rm [-vR] <file|dir> [<file|dir> ...]
+The rm utility attempts to remove the non-directory type files specified
+on the command line.
+If the files and directories reside on an AFP volume, the corresponding
+CNIDs are deleted from the volumes database.
+The options are as follows:
+   -R   Attempt to remove the file hierarchy rooted in each file argument.
+   -v   Be verbose when deleting files, showing them as they are removed.
+Error removing CNID %u for %s
+Error removing dir "%s": %s
+%s is a device file.
+%s is a socket.
+%s is a FIFO.
+Error: %s
+Usage: ad set [-t TYPE] [-c CREATOR] [-l label] [-f flags] [-a attributes] file|dir 
+     Color Label:
+       none | grey | green | violet | blue | yellow | red | orange
+     FinderFlags:
+       d = On Desktop (f/d)
+       e = Hidden extension (f/d)
+       m = Shared (can run multiple times) (f)
+       n = No INIT resources (f)
+       i = Inited (f/d)
+       c = Custom icon (f/d)
+       t = Stationery (f)
+       s = Name locked (f/d)
+       b = Bundle (f/d)
+       v = Invisible (f/d)
+       a = Alias file (f/d)
+     AFPAttributes:
+       y = System (f/d)
+       w = No write (f)
+       p = Needs backup (f/d)
+       r = No rename (f/d)
+       l = No delete (f/d)
+       o = No copy (f)
+     Uppercase letter sets the flag, lowercase removes the flag
+     f = valid for files
+     d = valid for directories
+:l:t:c:f:a:
+none
+grey
+green
+violet
+blue
+yellow
+orange
+;*2$"
+ad.debug
+p3*L
+7zXZ
+AE'W
+;D:?QzWt
+"2^H
+UUN	
+(rV/
+Ro}!
+P!K7
+wY|"B~
+i|?Lo
+SS&U
+<Qq$G
+1TKE
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

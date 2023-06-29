@@ -1,0 +1,120 @@
+nBDe
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ospf_apiclient_handle_async
+msg_read
+stderr
+__fprintf_chk
+msg_free
+zmalloc
+memcpy
+zfree
+__stack_chk_fail
+ospf_apiclient_register_callback
+_zlog_assert_failed
+msg_write
+ospf_apiclient_lsa_delete
+new_msg_delete_request
+ospf_apiclient_lsa_originate
+__memcpy_chk
+new_msg_originate_request
+ospf_apiclient_sync_lsdb
+new_msg_register_event
+new_msg_sync_lsdb
+ospf_apiclient_register_opaque_type
+new_msg_register_opaque_type
+ospf_apiclient_close
+ospf_apiclient_connect
+socket
+setsockopt
+bind
+listen
+gethostbyname
+getservbyname
+accept
+zcalloc
+__errno_location
+safe_strerror
+libcrypt.so.1
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libospfapiclient.so.0
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+ATSubH
+d$ L
+l$(L
+t$0H
+D$ L
+T$(t7H
+W8u%H
+\$(H
+l$0L
+d$8L
+l$@H
+AVAUA
+ATUSH
+D$H1
+l$ f
+IcT$
+T$HdH3
+X[]A\A]A^A_
+LSA update: Cannot allocate memory for LSA
+LSA delete: Cannot allocate memory for LSA
+ospf_apiclient_read: Unknown message type: %d
+(__extension__ ({ register unsigned int __v, __x = (msg->hdr.msgseq); if (__builtin_constant_p (__x)) __v = ((((__x) & 0xff000000) >> 24) | (((__x) & 0x00ff0000) >> 8) | (((__x) & 0x0000ff00) << 8) | (((__x) & 0x000000ff) << 24)); else __asm__ ("bswap %0" : "=r" (__v) : "0" (__x)); __v; })) == reqseq
+Cannot delete non-opaque LSA type %d
+Cannot originate non-opaque LSA type %d
+new_msg_originate_request failed
+new_msg_register_event failed
+new_msg_register_opaque_type failed
+ospf_apiclient_connect: creating async socket failed
+ospf_apiclient_connect: SO_REUSEADDR failed
+ospf_apiclient_connect: bind async socket failed
+ospf_apiclient_connect: listen: %s
+ospf_apiclient_connect: no such host %s
+ospf_apiclient_connect: creating sync socket failed
+ospf_apiclient_connect: bind sync socket failed
+ospf_apiclient_connect: sync connect failed
+ospf_apiclient_connect: accept async failed
+ospf_apiclient_register_callback
+ospf_apiclient_send_request
+ospf_apiclient.c
+oclient
+update_notify
+msg->hdr.msgtype == 10
+new_msg_sync_lsdb failed
+ospfapi
+libospfapiclient.so.0.0.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

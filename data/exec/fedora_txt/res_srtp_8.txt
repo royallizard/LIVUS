@@ -1,0 +1,299 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_sdp_crypto_unregister
+ast_rtp_engine_unregister_srtp
+srtp_install_event_handler
+srtp_shutdown
+option_debug
+ast_options
+ast_debug_get_by_module
+ast_log
+ast_base64encode
+ast_base64decode
+memcmp
+strlen
+__stack_chk_fail
+RAND_bytes
+memcpy
+srtp_protect
+srtp_protect_rtcp
+__ao2_ref
+free
+srtp_dealloc
+__ao2_callback
+__ast_module_unref
+__ast_asprintf
+srtp_init
+ast_rtp_engine_register_srtp
+ast_sdp_crypto_register
+strsep
+sscanf
+strchr
+ast_rtp_instance_get_stats
+ast_rtp_instance_add_srtp_policy
+ast_verb_sys_level
+__ast_verbose
+__ao2_find
+srtp_remove_stream
+__ao2_unlink
+srtp_add_stream
+__ao2_link
+crypto_policy_set_aes_cm_256_hmac_sha1_32
+crypto_policy_set_rtp_default
+crypto_policy_set_aes_cm_128_hmac_sha1_32
+crypto_policy_set_aes_cm_256_hmac_sha1_80
+__ao2_alloc
+calloc
+__ao2_container_alloc_hash
+__ast_module_ref
+srtp_create
+srtp_unprotect_rtcp
+ast_rtp_instance_get_ssrc
+__errno_location
+ao2_container_count
+ao2_iterator_init
+__ao2_iterator_next
+ao2_iterator_destroy
+srtp_unprotect
+ast_module_register
+ast_module_unregister
+libsrtp.so.1
+libcrypto.so.1.1
+libpthread.so.0
+libc.so.6
+OPENSSL_1_1_0
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+u+UH
+AWLc
+AVAUATI
+dH34%(
+[A\A]A^A_]
+w}AUI
+ATUH
+	uBI
+[]A\A]
+[]A\A]
+AWAVI
+AUATSH
+[A\A]A^A_]
+;QHu
+t';SHt"H
+_AXL
+ATUH
+D$h1
+A[A\H
+_AXH
+\$hdH3
+x[]A\A]
+Z[]A\A]A^
+]A\A]A^
+[]A\
+AWE1
+AUATUSH
+|$`H
+l$@H
+D$ H
+oD$ H
+D$0H
+)D$@H
+[]A\A]A^A_
+D$h1
+T$hdH3
+x[]A\A]
+[]A\H
+l$8H
+[]A\A]A^A_
+[]A\A]A^A_
+unknown
+nothing to report
+unsupported parameter
+couldn't allocate memory
+couldn't deallocate properly
+couldn't initialize
+authentication failure
+cipher failure
+algorithm failed test routine
+unsupported operation
+no appropriate context found
+can't use key any more
+unspecified failure
+SSRC collision
+res_srtp.c
+res_srtp
+event_key_soft_limit
+event_key_hard_limit
+event_packet_index_limit
+base64 encode/decode bad key
+local_key64 %s len %zu
+SRTP protect: %s
+Destroying policy
+Unallocate policy
+Destroying container
+%d AEAD_AES_%d_GCM inline:%s
+Crypto line: a=crypto:%s
+Failed to initialize libsrtp
+%30d
+AES_CM_128_HMAC_SHA1_80
+AES_CM_128_HMAC_SHA1_32
+AES_256_CM_HMAC_SHA1_80
+AES_256_CM_HMAC_SHA1_32
+AES_CM_256_HMAC_SHA1_80
+AES_CM_256_HMAC_SHA1_32
+Unsupported crypto suite: %s
+inline
+%30u
+Could not set SRTP policies
+SRTP policy activated
+SSRC
+type
+Looking for policy
+Remove existing match policy
+Adding new policy for %s %u
+Added additional stream
+Invalid crypto suite: %u
+Allocating policy
+Created initial policy
+SRTP policy container
+SRTP try to re-create
+Couldn't add stream
+Couldn't remove stream (%u)
+SRTP SDP list was not empty
+Secure RTP (SRTP)
+can't process as much data as requested
+replay check failed (bad index)
+replay check failed (index too old)
+unable to perform desired validation
+base64 encode/decode bad len %d != %d
+%d AEAD_AES_%d_GCM_%d inline:%s
+%d AES_%d_CM_HMAC_SHA1_%d inline:%s
+%d AES_CM_%d_HMAC_SHA1_%d inline:%s
+Could not allocate memory for crypto line
+Failed to register SRTP with rtp engine
+Failed to register SDP SRTP crypto API
+Could not set remote SRTP suite
+Unrecognized crypto attribute a=%s
+Unacceptable a=crypto tag: %s
+Unsupported crypto parameters: %s
+Crypto MKI handling is not supported: ignoring attribute %s
+Failed to parse lifetime value in crypto attribute: %s
+Crypto lifetime exponent of '%u' is a bit large; using 48
+Rejecting crypto attribute '%s': lifetime '%f' too short
+Crypto attribute '%s' accepted with lifetime '%f', MKI '%s'
+SRTP crypto offer not acceptable: '%s'
+SRTP descriptions key length is '%d', not '%d'
+SRTP remote key unchanged; maintaining current policy
+Cannot replace an existing wildcard policy
+Unreffing already existing policy
+Failed to remove SRTP stream for SSRC %u
+Failed to add SRTP stream for %s %u
+Unable to allocate memory for srtp_policy
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Unable to allocate memory for srtp
+SRTP unprotect failed with %s, retrying
+SRTP destroy before re-create
+SRTP re-created with first policy
+Unreffing first policy for re-creating srtp session
+Add all the other %d policies
+Unreffing n-th policy for re-creating srtp session
+SRTP session could not be re-created after unprotect failure: %s
+Unreffing first policy after srtp_create failed
+SRTCP unprotect failed on SSRC %u because of %s
+SRTP unprotect failed on SSRC %u because of %s %d
+Unreffing found policy in change_source
+No SRTP key management enabled
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+srtp_event_cb
+res_srtp_init
+res_sdp_crypto_dtor
+res_sdp_crypto_build_offer
+set_crypto_policy
+ast_srtp_policy_alloc
+ast_srtp_policy_destroy
+policy_set_suite
+ast_srtp_policy_set_master_key
+crypto_activate
+res_sdp_crypto_parse_offer
+res_srtp_new
+ast_srtp_create
+ast_srtp_destroy
+ast_srtp_add_stream
+find_policy
+ast_srtp_change_source
+ast_srtp_unprotect
+ast_srtp_protect
+crypto_init_keys
+__ast_calloc
+sdp_crypto_alloc
+res_sdp_srtp_get_attr
+@w;A
+;*3$"
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+GA!stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA!stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+res_srtp.so-15.5.0-1.fc29.x86_64.debug
+7zXZ
+ ^:]
+}ZjZzl
+Tlq8^
+&u(P
+5O0avRl
+FJe`
+2H,BX
+;,:{t
+7]Rt
+1[zq
+)CC$
+	>*H
+LJkh$
+EF))
+XFl5%
+wE`Ay
+{%|Y
+r;_h
+'8b>
+xOOK
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

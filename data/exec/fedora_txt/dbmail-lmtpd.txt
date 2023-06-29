@@ -1,0 +1,309 @@
+/lib64/ld-linux-x86-64.so.2
+|k	C
+libcrypt.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libgmodule-2.0.so.0
+g_free
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+g_strdup_vprintf
+g_strchug
+g_strchomp
+g_malloc0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+libdbmail.so.0
+insert_messages
+ci_readln
+p_list_prepend
+client_session_bailout
+p_string_len
+find_bounded
+client_session_new
+p_string_truncate
+dsn_tostring
+dsnuser_resolve
+dbmail_message_new
+ci_uncork
+p_string_new
+client_session_reset
+trace
+dbmail_message_init_with_string
+dbmail_message_set_header
+server_getopt
+p_list_first
+p_list_data
+server_mainloop
+ci_write
+dsnuser_init
+p_string_str
+server_conf
+dsnuser_free
+ci_cork
+client_session_reset_parser
+config_get_value
+client_session_set_timeout
+p_list_append
+p_string_append_len
+p_list_length
+dm_db_ping
+dbmail_message_free
+strip_crlf
+p_list_next
+server_showhelp
+libldap-2.4.so.2
+libpthread.so.0
+fcntl
+libc.so.6
+perror
+__stack_chk_fail
+strlen
+openlog
+memset
+strcasecmp
+strchr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/dbmail
+lmtp_handle_connection
+lmtp
+__libc_csu_fini
+lmtp_error
+__data_start
+__libc_csu_init
+send_greeting
+_IO_stdin_used
+lmtp_cb_write
+GLIBC_2.4
+GLIBC_2.2.5
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+%z4 
+%r4 
+%j4 
+%b4 
+%Z4 
+%R4 
+%J4 
+%B4 
+%:4 
+%24 
+%*4 
+%"4 
+ATUI
+[]A\
+fffff.
+fffff.
+=G2 
+fffff.
+=Q, 
+ffffff.
+T$PH
+L$XL
+D$`L
+L$ht=
+)D$p
+D$81
+t$ H
+D$@H
+D$ H
+D$(H
+D$@H
+L$8dH3
+ffff.
+AWAVAUATUSH
+D$H1
+L$HdH3
+X[]A\A]A^A_
+t$(L
+l$ L
+t$0H
+t$0M
+L$@L
+L$8L
+t$@H
+|$@I
+L$@L
+L$8L
+D$@L
+AWAVAUATUSH
+AURH
+[]A\A]A^A_
+XZt3
+AWAVA
+AUATL
+[]A\A]A^A_
+221 Connection timeout BYE
+LMTP
+banner
+lmtp
+220 %s %s
+220 %s LMTP
+F_GETFL
+F_SETFL
+LHLO
+221 %s BYE
+250 OK
+502 Command not implemented
+8BITMIME
+BINARYMIME
+250 Sender <%s> OK
+dsnuser_resolve_list failed
+250 Recipient <%s> OK
+550 Recipient <%s> FAIL
+Return-Path
+430 Message not received
+%d%d%d Recipient <%s> OK
+550 Command out of sequence
+503 No valid recipients
+554 No valid sender.
+[%p] done
+500 Invalid command.
+[%p] state: [%d]
+QUIT
+RSET
+DATA
+MAIL
+VRFY
+EXPN
+HELP
+NOOP
+RCPT
+key "banner" section "LMTP" var banner value [%s]
+500 database has gone fishing BYE
+500 Too many errors, closing connection.
+250-%s
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250 SIZE
+LMTP_HELP requested for commandtype %d
+214-This is DBMail-LMTP.
+214-The following commands are supported:
+214-LHLO, RSET, NOOP, QUIT, HELP.
+214-VRFY, EXPN, MAIL, RCPT, DATA.
+214-For more information about a command:
+214 Use HELP <command>.
+550 Command out of sequence.
+500 Sender already received. Use RSET to clear.
+500 No address found. Missing <> boundries.
+500 Please use 7BIT MIME only.
+500 No address found. Missing <> boundries or address is null.
+430 Temporary failure in recipient lookup
+%d%d%d Recipient <%s> %s %s %s
+500 What are you trying to say here?
+500 This command requires an argument.
+354 Start mail input; end with <CRLF>.<CRLF>
+[%p] cmd [%d], state [%d] [%s]
+214-The LHLO command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The QUIT command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The RSET command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The DATA command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The MAIL command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The VRFY command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The EXPN command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The HELP command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The NOOP command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+214-The RCPT command begins a client/server
+214-dialogue. The commands MAIL, RCPT and DATA
+214-may only be issued after a successful LHLO.
+214 Syntax: LHLO [your hostname]
+lmtp
+lmtp_tokenizer
+lmtp_handle_input
+lmtp_cb_write
+send_greeting
+dbmail/lmtpd
+dbmail-lmtpd
+exit
+This daemon provides Local Mail Transport Protocol services.
+main
+;*3$"
+dbmail-lmtpd.debug
+7zXZ
+z!"c
+cNAB
+"m"0x(
+Tum2
+Di$ke
+Xd-(
+\E2.
+-U!O
+LZ+!)
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

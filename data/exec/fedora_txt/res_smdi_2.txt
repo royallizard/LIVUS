@@ -1,0 +1,349 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+fopen64
+__ao2_lock
+__fprintf_chk
+fputc
+fclose
+__ao2_unlock
+option_debug
+ast_log
+ast_options
+ast_debug_get_by_module
+__errno_location
+strerror
+__ast_pthread_mutex_lock
+__ao2_link
+__ast_cond_broadcast
+__ast_pthread_mutex_unlock
+__ao2_cleanup
+free
+__ast_module_user_add
+__ast_module_user_remove
+strlen
+__ast_app_separate_args
+ast_channel_datastore_find
+strcasecmp
+__snprintf_chk
+__ast_string_field_init
+__ao2_ref
+fgetc
+calloc
+__ao2_alloc
+gettimeofday
+__ctype_b_loc
+_ast_mem_backtrace_buffer
+backtrace
+strcmp
+pthread_cancel
+pthread_join
+__ast_pthread_mutex_destroy
+__ast_cond_destroy
+ast_module_unref
+__ao2_global_obj_release
+__ast_cond_signal
+ast_custom_function_unregister
+__ast_calloc_with_stringfields
+strchr
+__ast_string_field_ptr_grow
+__ast_string_field_release_active
+__ast_string_field_alloc_space
+__ast_string_field_empty
+__ao2_global_obj_ref
+ast_config_load2
+__ao2_container_alloc_list
+ast_variable_browse
+__ao2_find
+ast_config_destroy
+__ao2_global_obj_replace_unref
+ao2_container_count
+sscanf
+ast_true
+__ast_pthread_mutex_init
+__ast_cond_init
+fileno
+tcgetattr
+cfsetispeed
+cfsetospeed
+tcsetattr
+ast_verb_sys_level
+__ast_verbose
+ast_pthread_create_stack
+ast_module_ref
+_Unwind_Resume
+__gcc_personality_v0
+__ast_custom_function_register
+__ao2_callback
+strncpy
+ast_tvadd
+__ast_cond_timedwait
+ast_register_file_version
+ast_unregister_file_version
+ast_smdi_mwi_set
+ast_smdi_mwi_unset
+ast_app_has_voicemail
+ast_smdi_md_message_pop
+ast_smdi_md_message_wait
+ast_smdi_mwi_message_pop
+ast_smdi_mwi_message_wait
+ast_smdi_mwi_message_wait_station
+ast_smdi_interface_find
+ast_autoservice_start
+ast_autoservice_stop
+ast_app_parse_options
+__ast_datastore_alloc
+ast_channel_datastore_add
+ast_module_register
+ast_module_unregister
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.0
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+a_&	
+d$<1
+[^_]
+d$<[^_]
+[^_]
+d$<[^_]
+d$<[^_]
+[^_]
+UWVS
+G 9|
+d$<[^_]
+UWV1
+D$L1
+u6<M
+;t$,u
+D$(1
+D$,t
+T$,t
+D$01
+L$Le3
+d$\[^_]
+D$(%
+D$$1
+UWVS
+d$,[^_]
+UWVS
+d$<[^_]
+[^_]
+UWVS
+L$|1
+D$x0u
+D$T 
+D$4	
+L$|e3
+[^_]
+|$t	
+D$T0
+D$T 
+D$x0u
+D$d1
+UWVS
+[^_]
+[^_]
+d$8[
+d$8[
+D$L1
+|$4)
+l$,+
+D$Le3
+d$\[^_]
+[^_]
+T$(e
+D$l1
+,$iD$L
++l$0
++L$4
+;D$(
+|$le3=
+d$|[^_]
+UWVS
+D$|1
+T$0iD$\
+T$|e3
+[^_]
+[^_]
+[^_]
+[^_]
+res_smdi.c
+iface
+%s:MWI 
+res_smdi
+&iface->md_q_lock
+&iface->md_q_cond
+&iface->mwi_q_lock
+&iface->mwi_q_cond
+number
+terminal
+station
+callerid
+type
+chan
+&mwi_monitor.lock
+Read a '%c'
+Message type is '%c'
+The calling station is '%s'
+smdi_ifaces
+&mwi_monitor.cond
+default
+interfaces
+baudrate
+9600
+4800
+2400
+1200
+msdstrip
+%30d
+msgexpirytime
+%30ld
+paritybit
+even
+none
+charsize
+twostopbits
+smdiport
+smdi_read
+mailboxes
+SMDI interface %s not found
+pollinginterval
+%30u
+mwi_monitor_handler
+$Revision: 419592 $
+%s@%s
+SMDI port '%s' not found
+'%s' is not a valid timeout
+SMDI_MSG
+SMDI_MSG_RETRIEVE
+SMDIMSG
+Error opening SMDI interface %s (%s) for writing
+Sent MWI set message for %s on %s
+SMDI_MSG can not be called without a channel
+No SMDI message found for message ID '%s'
+'%s' is not a valid message component for SMDI_MSG
+SMDI_MSG requires an argument
+ID must be supplied to SMDI_MSG
+Read an 'M' to start an SMDI message
+Read a 'D' ... it's an MD message.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/utils.h
+The message desk number is '%s'
+The message desk terminal is '%s'
+Read a space, done looking for the forwarding station
+Read a '%c' and stored it in the forwarding station buffer
+Read a '%c', but didn't store it in the fwd station buffer, because of the msdstrip setting (%d < %d)
+The forwarding station is '%s'
+Read a '%c', but didn't store it in the calling station buffer because it's not a digit
+Read a '%c' and stored it in the calling station buffer
+Read a '%c', but didn't store it in the calling station buffer, because of the msdstrip setting (%d < %d)
+Received SMDI MD message on %s
+Read a 'W', it's an MWI message. (No more debug coming for MWI messages)
+Received SMDI MWI message on %s
+Unknown SMDI message type received on %s (M%c).
+Error reading from SMDI interface %s, stopping listener thread
+Unable to reload config %s: SMDI untouched
+Unable to load config %s: SMDI disabled
+Invalid baud rate '%s' specified in %s (line %d), using default
+Invalid msdstrip value in %s (line %d), using default
+Invalid msgexpirytime value in %s (line %d), using default
+Invalid parity bit setting in %s (line %d), using default
+Invalid character size setting in %s (line %d), using default
+SMDI interface %s already running, not restarting
+Error opening SMDI interface %s (%s)
+Error getting atributes of %s (%s)
+Error setting baud rate on %s (%s)
+Error setting attributes on %s (%s)
+Starting SMDI monitor thread for %s
+Error starting SMDI monitor thread for %s
+Ignoring unknown option %s in %s
+Invalid value for pollinginterval: %s
+Mailbox mapping ignored, no valid SMDI interface specified in mailboxes section
+Failed to start MWI monitoring thread.  This module will not operate.
+No SMDI interfaces are available to listen on, not starting SMDI listener.
+No SMDI interfaces were specified to listen on, not starting SDMI listener.
+Purged expired message from %s SMDI %s message queue.  Message was %ld milliseconds too old.
+SMDI_MSG_RETRIEVE must be used with a channel
+Invalid arguments provided to SMDI_MSG_RETRIEVE
+No SMDI message retrieved for search key '%s' after waiting %u ms.
+SMDI_MSG_RETRIEVE requires an argument
+Simplified Message Desk Interface (SMDI) Resource
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+load_module
+append_mailbox_mapping
+smdi_interface_destroy
+alloc_smdi_interface
+smdi_read
+mwi_monitor_handler
+smdi_load
+smdi_load
+reload
+destroy_mailbox_mapping
+destroy_all_mailbox_mappings
+_ast_calloc
+smdi_msg_retrieve_read
+smdi_msg_read
+_unload_module
+ast_smdi_interface_find
+smdi_message_wait
+unlock_msg_q
+lock_msg_q
+ast_smdi_mwi_message_push
+ast_smdi_md_message_push
+purge_old_messages
+smdi_toggle_mwi
+smdi.conf
+;*2$"h
+zPLR
+d10568311aa53ffbe368f9bd67b07735
+res_smdi.so.debug
+7zXZ
+`e$q
+RYv&
+^:9LV
+hV]zM
+D3V_
+(/_0o
+pWrj|
+C+pIH	h
+`Z2SF
+ukSX
+z4hf<
+1'bj
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

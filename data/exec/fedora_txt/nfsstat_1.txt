@@ -1,0 +1,359 @@
+/lib64/ld-linux-x86-64.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libc.so.6
+fflush
+__printf_chk
+exit
+strrchr
+__stack_chk_fail
+putchar
+strtok
+strtol
+fgets
+pause
+__fprintf_chk
+stdout
+fputs
+fclose
+strtoul
+sscanf
+optarg
+stderr
+getopt_long
+fwrite
+sigaction
+difftime
+strchr
+__cxa_finalize
+fopen64
+strcmp
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+opt_sleep
+__libc_csu_init
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+%z7 
+%r7 
+%j7 
+%b7 
+%Z7 
+%R7 
+%J7 
+%B7 
+%:7 
+%27 
+%*7 
+%"7 
+AVAUATL
+L$PH
+L$ E1
+D$8E1
+zv+H
+[]A\A]A^A_
+	L$0
+D$ H
+ED$0
+ED$0
+D$0t
+L$LH
+|$ A
+L$LH
+|$8E1
+L$HH
+D$HH
+L$LH
+D$(H
+|$HE
+\$LE
+D$H1
+D$LE1
+T$ H
+L$LH
+T$(H
+%V5 
+L$LH
+L$HH
+t$P1
+L$LH
+=j9 
+=:9 
+=	9 
+='- 
+fffff.
+fffff.
+AVAUATUH
+~=A9
+)1McA
+[]A\A]A^A_
+ffffff.
+AWAVAUATUSH
+t$ H
+|$(dH
+D$ H
+l$ H
+d$@Lc
+HcD$<F
+L$<L
+[]A\A]A^A_
+D$(H
+Lcd$
+D$(H
+AUATA
+[]A\A]A^
+AWAVI
+AUATU
+[]A\A]A^A_
+fffff.
+5Y- 
+[]A\H
+[]A\
+5Y3 
+5y3 
+=n( 
+5/3 
+5u2 
+5F* 
+t%[]A\H
+5C+ 
+[]A\
+5y. 
+AUATUS
+[]A\A]A^
+[]A\A]A^
+5P' 
+AUATA
+8num
+[]A\A]A^
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+D$(1
+D$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+l$ L
+t$(L
+|$0H
+proc
+ %u %n
+ %u %*u%% %n
+%s%-8u
+%-13s
+%-8u%3llu%% 
+Server nfs v2:
+Server nfs v3:
+Server nfs v4:
+Server nfs v4 operations:
+Client nfs v2:
+Client nfs v3:
+Client nfs v4:
+total:
+%13s %13s %8llu 
+%13s %12s: %8u 
+nfs v2 server
+nfs v3 server
+nfs v4 server
+nfs v4 servop
+nfs v2 client
+nfs v3 client
+nfs v4 client
+/proc/mounts
+Warning: %s: %m
+nfs4
+%s from %s
+ Flags:	%s
+Server
+Client
+net 
+/proc/net/rpc/nfs
+/proc/net/rpc/nfsd
+nfsstat: 1.2.5
+234acmno:Z::S:vrslz
+auto
+mounted
+verbose
+zero
+help
+version
+sleep
+since
+Server packet stats:
+Server rpc stats:
+Server reply cache:
+Server file handle cache:
+proc2
+proc3
+proc4
+proc4ops
+Client packet stats:
+Client rpc stats:
+null
+getattr
+setattr
+lookup
+readlink
+read
+wrcache
+write
+create
+remove
+rename
+symlink
+mkdir
+rmdir
+readdir
+fsstat
+access
+mknod
+readdirplus
+fsinfo
+pathconf
+open
+open_conf
+open_noat
+open_dgrd
+close
+renew
+setclntid
+confirm
+lock
+lockt
+locku
+lookup_root
+statfs
+server_caps
+delegreturn
+getacl
+setacl
+fs_locations
+rel_lkowner
+secinfo
+exchange_id
+create_ses
+destroy_ses
+sequence
+get_lease_t
+reclaim_comp
+layoutget
+getdevinfo
+layoutcommit
+layoutreturn
+getdevlist
+compound
+op0-unused
+op1-unused
+op2-future
+delegpurge
+getfh
+nverify
+openattr
+putfh
+putpubfh
+putrootfh
+restorefh
+savefh
+setcltid
+setcltidconf
+rellockowner
+bc_ctl
+bind_conn
+free_stateid
+getdirdeleg
+secinfononam
+set_ssv
+test_stateid
+want_deleg
+destroy_clid
+Failed to locate header after label for '%s' in %s.
+Failed to locate stats after header for '%s' in %s.
+Server packet stats:
+packets    udp        tcp        tcpconn
+Server rpc stats:
+calls      badcalls   badclnt    badauth    xdrcall
+Server reply cache:
+hits       misses     nocache
+Server file handle cache:
+lookup     anon       ncachedir  ncachedir  stale
+Client packet stats:
+packets    udp        tcp        tcpconn
+Client rpc stats:
+calls      retrans    authrefrsh
+Signal %d received; displaying (only) statistics gathered over the last %d minutes, %d seconds:
+------------- ------------- --------
+Warning: no server info present in raw client stats file.
+Warning: no client info present in raw server stats file.
+Error: No %s Stats (%s: %m). 
+Usage: %s [OPTION]...
+  -m, --mounts		Show statistics on mounted NFS filesystems
+  -c, --client		Show NFS client statistics
+  -s, --server		Show NFS server statistics
+  -2			Show NFS version 2 statistics
+  -3			Show NFS version 3 statistics
+  -4			Show NFS version 4 statistics
+  -o [facility]		Show statistics on particular facilities.
+     nfs		NFS protocol information
+     rpc		General RPC information
+     net		Network layer statistics
+     fh			Usage information on the server's file handle cache
+     rc			Usage information on the server's request reply cache
+     all		Select all of the above
+  -v, --verbose, --all	Same as '-o all'
+  -r, --rpc		Show RPC statistics
+  -n, --nfs		Show NFS statistics
+  -Z[#], --sleep[=#]	Collects stats until interrupted.
+			    Cumulative stats are then printed
+          		    If # is provided, stats will be output every
+			    # seconds.
+  -S, --since file	Shows difference between current stats and those in 'file'
+  -l, --list		Prints stats in list format
+  --version		Show program version
+  --help		What you just did
+nfsstat: nfs acls are not yet supported.
+nfsstat: unknown category: %s
+nfsstat: zeroing of nfs statistics not yet supported
+Try `%s --help' for more information.
+You requested file handle or request cache statistics while using the -c option.
+This information is available only for the NFS server.
+Collecting statistics; press CTRL-C to view results from interval (i.e., from pause to CTRL-C).
+Error: couldn't register for signal and pause.
+;*3$"
+nfsstat.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

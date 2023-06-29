@@ -1,0 +1,264 @@
+tdxL
+^$3WM
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+strchr
+__rawmemchr
+gnc_get_current_book
+qof_log_prettify
+g_log
+fgets
+xaccTransScrubCurrency
+xaccTransSetReadOnly
+xaccTransCommitEdit
+g_free
+gnc_timespec_to_iso8601_buff
+xaccTransLookup
+xaccTransDestroy
+gnc_numeric_to_string
+guid_to_string
+gnc_iso8601_to_timespec_gmt
+string_to_gnc_numeric
+strncpy
+string_to_guid
+xaccSplitLookup
+qof_instance_get_type
+g_type_check_instance_cast
+qof_instance_set_guid
+xaccSplitSetMemo
+xaccSplitSetAction
+xaccSplitSetDateReconciledTS
+xaccSplitSetReconcile
+xaccSplitSetAmount
+xaccSplitSetValue
+xaccTransBeginEdit
+xaccTransGetReadOnly
+g_strdup
+xaccTransClearReadOnly
+xaccTransSetDateEnteredTS
+xaccTransSetDatePostedTS
+xaccTransSetNum
+xaccTransSetDescription
+xaccTransSetNotes
+xaccMallocSplit
+xaccAccountLookup
+xaccSplitSetAccount
+xaccTransGetCurrency
+xaccSplitSetParent
+xaccMallocTransaction
+gnc_account_or_default_currency
+xaccTransSetCurrency
+gnc_file_log_replay
+qof_log_set_level
+qof_log_check
+xaccLogDisable
+gnc_get_default_directory
+gtk_file_filter_new
+gtk_file_filter_set_name
+gtk_file_filter_add_pattern
+g_list_prepend
+dcgettext
+gnc_file_dialog
+g_path_get_dirname
+gnc_set_default_directory
+xaccFileIsCurrentLog
+gnc_error_dialog
+xaccLogEnable
+qof_log_dedent
+fopen
+ferror
+strlen
+strncmp
+feof
+__errno_location
+perror
+strerror
+qof_log_indent
+fclose
+gnc_info_dialog
+g_type_check_class_cast
+gnc_plugin_get_type
+g_type_class_peek_parent
+g_type_class_add_private
+gnc_suspend_gui_refresh
+gnc_resume_gui_refresh
+gnc_plugin_log_replay_get_type
+g_type_register_static
+g_type_check_instance_is_a
+g_return_if_fail_warning
+gnc_plugin_log_replay_new
+g_object_new
+gnc_plugin_log_replay_create_plugin
+gnc_plugin_manager_get
+gnc_plugin_manager_add_plugin
+libgncmod_log_replay_gnc_module_path
+libgncmod_log_replay_gnc_module_description
+libgncmod_log_replay_gnc_module_init
+gnc_module_load
+libgncmod_log_replay_gnc_module_end
+libgncmod_log_replay_gnc_module_age
+libgncmod_log_replay_gnc_module_revision
+libgncmod_log_replay_gnc_module_current
+libgncmod_log_replay_gnc_module_system_interface
+libgncmod-gnome-utils.so
+libgncmod-app-utils.so
+libgncmod-engine.so
+libgnc-core-utils.so.0
+libgnc-module.so.0
+libgtk-x11-2.0.so.0
+libgdk-x11-2.0.so.0
+libpangocairo-1.0.so.0
+libatk-1.0.so.0
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libpangoft2-1.0.so.0
+libpango-1.0.so.0
+libfontconfig.so.1
+libfreetype.so.6
+libgio-2.0.so.0
+libgthread-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+libgnc-qof.so.1
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+libgncmod-log-replay.so
+/usr/lib/gnucash
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+UWVS
+D$0e
+[^_]
+t?<C
+D$@t3
+UWVS
+[^_]
+[%s] process_trans_record(): Begin...
+[%s] interpret_split_record(): Start...
+[%s()] interpret_split_record():  Expected number of fields exceeded!
+[%s] interpret_split_record(): End
+[%s] dump_split_record(): Start...
+[%s] Log action: LOG_BEGIN_EDIT
+[%s] Transaction description: %s
+[%s] process_trans_record():Ignoring log action: LOG_BEGIN_EDIT
+[%s] process_trans_record():Ignoring log action: LOG_ROLLBACK
+[%s] process_trans_record(): Playing back LOG_DELETE
+[%s()] Destroying a read only transaction.
+[%s()] The transaction to delete was not found!
+[%s] process_trans_record(): Playing back LOG_COMMIT
+[%s] process_trans_record(): Transaction to be edited was found
+[%s()] Replaying a read only transaction.
+[%s] process_trans_record(): Creating a new transaction
+[%s] process_trans_record(): Split to be edited was found
+[%s] process_trans_record(): Creating a new split
+[%s] process_trans_record(): Record ended
+mod	trans_guid	split_guid	time_now	date_entered	date_posted	acc_guid	acc_name	num	description	notes	memo	action	reconciled	amount	value	date_reconciled
+Cannot open the current log file: %s
+Failed to open log file: %s: %s
+The log file you selected was empty.
+[%s()] File header not recognised:
+The log file you selected cannot be read. The file header was not recognized.
+gnc.tests
+===== END
+[%s] Log action: LOG_DELETE
+[%s] Log action: LOG_COMMIT
+[%s] Log action: LOG_ROLLBACK
+[%s] Transaction GncGUID: %s
+[%s] Split GncGUID: %s
+[%s] Log entry date: %s
+[%s] Date entered: %s
+[%s] Date posted: %s
+[%s] Account GncGUID: %s
+[%s] Account name: %s
+[%s] Transaction number: %s
+[%s] Transaction notes: %s
+[%s] Split memo: %s
+[%s] Split action: %s
+[%s] Split reconcile: %c
+[%s] Record amount: %s
+[%s] Record value: %s
+[%s] Reconciled date: %s
+[%s()] Corrupted record
+gnc.import
+gnc-log-replay.c
+[enter %s:%s()]  
+dialogs.log-replay
+*.log
+*.[Ll][Oo][Gg]
+Select a .log file to replay
+[%s] Filename found: %s
+gnc.import.log-replay
+[%s] Opening selected file
+File open failed
+[%s] Read error or EOF
+[%s()] Expected:
+===== START
+[leave %s()] 
+dump_split_record
+interpret_split_record
+process_trans_record
+gnc_file_log_replay
+gnc-plugin-log-replay
+gnc-plugin-log-replay-actions
+gnc-plugin-log-replay-ui.xml
+GncPluginLogreplay
+LogReplayAction
+gtk-convert
+_Replay GnuCash .log file...
+GNC_IS_PLUGIN_LOG_REPLAY (object)
+Replay a GnuCash log file after a crash. This cannot be undone.
+gnc_plugin_log_replay_finalize
+gnucash/import-export/log-replay
+C code for log file replay
+gnucash/engine
+gnucash/app-utils
+gnucash/gnome-utils
+gnucash/import-export
+;*2$"(
+libgncmod-log-replay.so.debug
+7zXZ
+H;?\((Jp
+MmA@<_
+vvUq
+pZ#4
+B+)Y 
+0zkD
+O,nY
+o51B
+[}[[
+-=!D
+)R2S
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

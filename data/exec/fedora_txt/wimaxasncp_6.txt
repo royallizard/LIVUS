@@ -1,0 +1,523 @@
+K\i(
+eLoB
+s~=D
+"d)W1
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_reg_handoff
+proto_reg_handoff_wimaxasncp
+plugin_register
+proto_register_wimaxasncp
+version
+dissector_delete
+dissector_add
+find_dissector
+new_create_dissector_handle
+tvb_get_ptr
+get_ether_name
+ether_to_str
+proto_tree_add_ether_format
+proto_item_append_text
+tvb_get_ipv6
+get_hostname6
+ip6_to_str
+proto_tree_add_ipv6_format
+tvb_get_ipv4
+get_hostname
+ip_to_str
+proto_tree_add_ipv4_format
+eap_code_vals
+tvb_reported_length
+tvb_get_ntohs
+tvb_length_remaining
+proto_tree_add_item
+proto_item_set_text
+proto_item_add_subtree
+proto_tree_add_uint_format
+proto_tree_add_uint
+g_print
+tvb_ensure_bytes_exist
+tvb_new_subset
+bytestring_to_str
+proto_tree_add_bytes_format
+expert_add_info_format
+proto_tree_add_text
+tvb_get_ntoh24
+sminmpec_values
+val_to_str
+tvb_length
+tvb_get_guint8
+check_col
+col_get_writable
+col_set_writable
+call_dissector
+proto_tree_add_ipv4_format_value
+ipprotostr
+tvb_get_ntohl
+decode_numeric_bitfield
+tvb_get_ephemeral_string
+proto_tree_add_string_format
+col_append_fstr
+eap_type_vals
+proto_tree_add_ipv6_format_value
+tvb_bytes_exist
+proto_item_set_len
+proto_tree_add_ether
+col_clear
+col_set_str
+col_add_str
+wimaxasncp_build_dict
+g_array_append_vals
+__ctype_b_loc
+g_strdup
+g_strdup_printf
+getenv
+get_datafile_dir
+ep_strdup_printf
+wimaxasncp_dict_scan
+report_failure
+stdout
+wimaxasncp_dict_print
+g_array_new
+proto_register_protocol
+proto_register_field_array
+proto_register_subtree_array
+__printf_chk
+new_register_dissector
+prefs_register_protocol
+prefs_register_bool_preference
+prefs_register_uint_preference
+WimaxasncpDict_flush_buffer
+WimaxasncpDicttext
+WimaxasncpDictin
+WimaxasncpDictget_lineno
+WimaxasncpDictlineno
+WimaxasncpDictget_in
+WimaxasncpDictget_out
+WimaxasncpDictout
+WimaxasncpDictget_leng
+WimaxasncpDictleng
+WimaxasncpDictget_text
+WimaxasncpDictset_lineno
+WimaxasncpDictset_in
+WimaxasncpDictset_out
+WimaxasncpDictget_debug
+WimaxasncpDict_flex_debug
+WimaxasncpDictset_debug
+wimaxasncp_dict_unused
+fputc
+__fprintf_chk
+wimaxasncp_dict_free
+stderr
+fflush
+__vfprintf_chk
+strlen
+g_malloc
+g_snprintf
+fopen
+memcpy
+fread
+WimaxasncpDictfree
+WimaxasncpDict_delete_buffer
+WimaxasncpDictpop_buffer_state
+WimaxasncpDictlex_destroy
+WimaxasncpDictrealloc
+WimaxasncpDictalloc
+exit
+WimaxasncpDictpush_buffer_state
+WimaxasncpDict_switch_to_buffer
+WimaxasncpDict_scan_buffer
+WimaxasncpDict_scan_bytes
+WimaxasncpDict_scan_string
+__errno_location
+WimaxasncpDict_create_buffer
+WimaxasncpDictrestart
+g_realloc
+strncpy
+WimaxasncpDictlex
+fclose
+strtoul
+strcmp
+strtol
+g_string_append
+stdin
+g_string_new
+g_string_free
+libm.so.6
+libcrypto.so.7
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+wimaxasncp.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.0
+GLIBC_2.3.4
+\[^_]
+L[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+\[^_]
+,[^_]
+;0t8
+ [^]
+,[^_]
+|[^_]
+,[^_]
+0.0.1
+udp.port
+Value: %s (%s)
+ - %s (%s)
+fix-me: unknown TLV type: %u
+TLV: %s
+ [Compound]
+Type: %s (%u)
+Unknown TLV type (%u)
+Value: %s (%u)
+Value: %s
+ - 0x%04x
+Bit #%u is set: %s
+ - 0x%08x
+ - %s...
+Value: %s...
+Value: 0x%02x
+ - 0x%02x
+Value: 0x%04x
+Value: 0x%08x
+Value: %u
+ - %u
+fix-me: TBD: TLV %s (%u)
+Value: %s %s...
+Value: %s %s
+[hex]
+ - TBD
+Value
+Protocol: %s (%u)
+, %s
+, ...
+Port Range: %u-%u
+ - %u-%u
+, %u-%u
+IPv6 Address and Mask
+IPv4 Address and Mask
+ / %s
+Unknown code (0x%02X)
+Unknown type (0x%02X)
+ (%s
+Vendor ID: %s (%u)
+ - %s %s...
+ - %s %s
+fix-me: unknown decoder: %d
+WiMAX
+Flags: 0x%02x
+Flags: 
+Unknown function type (%u)
+Message Type: %s
+Unknown message op (%u)
+Bad length
+Transaction ID: 0x%04x
+ - MSID:%s
+, TID:D+0x%04x
+, TID:0x%04x
+OP ID: %s
+wimaxasncp.tlv.%s
+type=Unknown
+type=%u, TBD
+type=%u, Compound
+type=%u, Value = Null
+wimaxasncp.tlv.%s.value
+value for type=%u
+value for unknown type
+wimaxasncp.tlv.%s.ipv4_value
+IPv4 Address
+wimaxasncp.tlv.%s.ipv6_value
+IPv6 Address
+wimaxasncp.tlv.%s.bsid_value
+BS ID
+value component for type=%u
+Protocol
+Port Low
+Port High
+wimaxasncp.tlv.%s.value.ipv4
+IPv4 Mask
+wimaxasncp.tlv.%s.value.ipv6
+IPv6 Mask
+Vendor ID
+Rest of Info
+EAP payload embedded in %s
+%s/wimaxasncp
+dictionary.xml
+wimaxasncp - %s
+WiMAX ASN CP
+show_transaction_id_d_bit
+Enable debug output
+debug_enabled
+udp.wimax_port
+Reserved
+HO Control
+Data Path Control
+Context Delivery
+R3 Mobility
+Paging
+MS State
+Re-Authentication
+Session
+Invalid
+Request/Initiation
+Response
+Indication
+WIMAXASNCP_TLV_UNKNOWN
+WIMAXASNCP_TLV_TBD
+WIMAXASNCP_TLV_COMPOUND
+WIMAXASNCP_TLV_BYTES
+WIMAXASNCP_TLV_ENUM8
+WIMAXASNCP_TLV_ENUM16
+WIMAXASNCP_TLV_ENUM32
+WIMAXASNCP_TLV_ETHER
+WIMAXASNCP_TLV_ASCII_STRING
+WIMAXASNCP_TLV_FLAG0
+WIMAXASNCP_TLV_BITFLAGS16
+WIMAXASNCP_TLV_BITFLAGS32
+WIMAXASNCP_TLV_ID
+WIMAXASNCP_TLV_HEX8
+WIMAXASNCP_TLV_HEX16
+WIMAXASNCP_TLV_HEX32
+WIMAXASNCP_TLV_DEC8
+WIMAXASNCP_TLV_DEC16
+WIMAXASNCP_TLV_DEC32
+WIMAXASNCP_TLV_IP_ADDRESS
+WIMAXASNCP_TLV_IPV4_ADDRESS
+WIMAXASNCP_TLV_PROTOCOL_LIST
+Version
+wimaxasncp.version
+Flags
+wimaxasncp.flags
+Function Type
+wimaxasncp.function_type
+OP ID
+wimaxasncp.opid
+Message Type
+wimaxasncp.message_type
+wimaxasncp.qos_msg
+wimaxasncp.ho_control_msg
+wimaxasncp.r3_mobility_msg
+wimaxasncp.paging_msg
+wimaxasncp.rrm_msg
+wimaxasncp.authentication_msg
+wimaxasncp.ms_state_msg
+wimaxasncp.session_msg
+Length
+wimaxasncp.length
+MSID
+wimaxasncp.msid
+wimaxasncp.reserved1
+Transaction ID
+wimaxasncp.transaction_id
+wimaxasncp.reserved2
+wimaxasncp.tlv
+wimaxasncp.tlv.type
+wimaxasncp.tlv.length
+wimaxasncp.tlv_value_bytes
+wimaxasncp.tlv_value_protocol
+RR_Ack
+RR_Req
+RR_Rsp
+HO_Ack
+HO_Complete
+HO_Cnf
+Path_Dereg_Ack
+Path_Dereg_Req
+Path_Dereg_Rsp
+Path_Modification_Ack
+Path_Modification_Req
+Path_Modification_Rsp
+Path_Prereg_Ack
+Path_Prereg_Req
+Path_Prereg_Rsp
+Path_Reg_Ack
+Path_Reg_Req
+Path_Reg_Rsp
+MS_Attachment_Req (DPC)
+MS_Attachment_Rsp (DPC)
+MS_Attachment_Ack (DPC)
+Key_Change_Directive
+Context_Rpt
+Context_Req
+Context_Ack
+Anchor_DPF_HO_Req
+Anchor_DPF_HO_Trigger
+Anchor_DPF_HO_Rsp
+Anchor_DPF_Relocate_Req
+FA_Register_Req
+FA_Register_Rsp
+Anchor_DPF_Relocate_Rsp
+FA_Revoke_Req
+FA_Revoke_Rsp
+Initiate_Paging_Req
+Initiate_Paging_Rsp
+LU_Cnf
+LU_Req
+LU_Rsp
+Paging_Announce
+CMAC_Key_Count_Req
+CMAC_Key_Count_Rsp
+R6 PHY_Parameters_Req
+R6 PHY_Parameters_Rpt
+R4/R6 Spare_Capacity_Req
+R4/R6 Spare_Capacity_Rpt
+R4/R6 Radio_Config_Update_Req
+R4/R6 Radio_Config_Update_Rpt
+AR_Authenticated_EAP_Start
+AR_Authenticated_EAP_Transfer
+AR_EAP_Start
+AR_EAP_Transfer
+AR_EAP_Complete
+CMAC_Key_Count_Update
+CMAC_Key_Count_Update_Ack
+IM_Entry_State_Change_Req
+IM_Entry_State_Change_Rsp
+IM_Exit_State_Change_Req
+IM_Exit_State_Change_Rsp
+MS_PreAttachment_Req
+MS_PreAttachment_Rsp
+MS_PreAttachment_Ack
+MS_Attachment_Req
+MS_Attachment_Rsp
+MS_Attachment_Ack
+IM_Entry_State_Change_Ack
+Key_Change_Cnf
+Relocation_Cnf
+Relocation_Confirm_Ack
+Relocation_Notify
+Relocation_Notify_Ack
+Relocation_Req
+Relocation_Rsp
+Key_Change_Ack
+Session_Release_Req
+Session_Release_Rsp
+Session_Release_Ack
+Session_Failure_Rpt
+Session_Failure_Rsp
+fix-me: enum values missing for TLV %s (%u)
+ [error: specified length less than header size (20)]
+Transaction ID: D + 0x%04x (0x%04x)
+wimaxasncp.tlv.%s.value.protocol
+wimaxasncp.tlv.%s.value.port_low
+wimaxasncp.tlv.%s.value.port_high
+wimaxasncp.tlv.%s.value.ipv4_mask
+wimaxasncp.tlv.%s.value.ipv6_mask
+wimaxasncp.tlv.%s.value.vendor_id
+wimaxasncp.tlv.%s.value.vendor_rest_of_info
+WIRESHARK_DEBUG_WIMAXASNCP_DICT_PARSER
+WIRESHARK_DUMP_WIMAXASNCP_DICT
+WiMAX ASN Control Plane Protocol
+  type                   = %d
+  description            = %s
+  decoder                = %s
+  hf_root                = %d
+  hf_value               = %d
+  hf_ipv4                = %d
+  hf_ipv6                = %d
+  hf_bsid                = %d
+  hf_protocol            = %d
+  hf_port_low            = %d
+  hf_port_high           = %d
+  hf_ipv4_mask           = %d
+  hf_ipv6_mask           = %d
+  hf_vendor_id           = %d
+  hf_vendor_rest_of_info = %d
+Show transaction ID direction bit separately from the rest of the transaction ID field.
+Show transaction ID direction bit
+Print debug output to the console.
+Set UDP port for WiMAX ASN Control Plane Protocol
+UDP Port for WiMAX ASN Control Plane Protocol
+T - Source and Destination Identifier TLVs
+R - Reset Next Expected Transaction ID
+WIMAXASNCP_TLV_PORT_RANGE_LIST
+WIMAXASNCP_TLV_IP_ADDRESS_MASK_LIST
+WIMAXASNCP_TLV_VENDOR_SPECIFIC
+wimaxasncp.data_path_control_msg
+wimaxasncp.context_delivery_msg
+wimaxasncp.reauthentication_msg
+wimaxasncp.tlv_value_bitflags16
+wimaxasncp.tlv_value_bitflags32
+wimaxasncp.tlv_value_vendor_id
+R6 Neighbor_BS_Resource_Status_Update
+NW_ReEntry_State_Change_Directive
+TLV: %s[%u] %s[%d] %s
+	Enum: %s[%u]
+%s%s%s
+fname: %s fh: %p
+ENTITY: %s
+GET_FILE: %s
+looking for entity: %s
+closing: %p %i
+DONE READING
+WIMAXASNCP_BIT32(%s)
+WIMAXASNCP_BIT16(%s)
+WIMAXASNCP_BIT8(%s)
+{%s}
+=>%s<=
+dictionary_start
+tlv_start
+attr_str tlv->name	
+attr_str tlv->description	
+attr_uint16 tlv->type	
+attr_decoder tlv->decoder	
+enum_start
+attr_str enumitem->name	
+attr_uint enumitem->code	
+tlv_end
+ignore: %s	
+cannot find entity: '%s'
+WIMAXASNCP_TLV_EAP
+out of memory expanding start-condition stack
+out of dynamic memory in WimaxasncpDict_scan_buffer()
+out of dynamic memory in WimaxasncpDict_scan_bytes()
+bad buffer in WimaxasncpDict_scan_bytes()
+out of dynamic memory in WimaxasncpDict_create_buffer()
+included files nested too deeply
+entity: %s filename: %s WimaxasncpDictin: %p
+start-condition stack underflow
+fatal flex scanner internal error--end of buffer missed
+fatal error - scanner input buffer overflow
+fatal flex scanner internal error--no action found
+---------------
+------- %d -------
+wimaxasncp.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

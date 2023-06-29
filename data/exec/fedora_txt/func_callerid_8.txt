@@ -1,0 +1,112 @@
+BF=.A
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+ast_parse_caller_presentation
+ast_log
+strncasecmp
+strtol
+ast_callerid_split
+ast_set_callerid
+ast_cdr_setcid
+strlen
+memcpy
+pthread_mutex_lock
+free
+__strdup
+pthread_mutex_unlock
+__stack_chk_fail
+ast_named_caller_presentation
+strchr
+__snprintf_chk
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+ATSubH
+AVAUI
+[A\A]A^
+fffff.
+AVAUI
+l$`A
+[]A\A]A^
+D$`t
+'%s' is not a valid presentation (see 'show function CALLERPRES')
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Unknown calling number presentation '%s', value unchanged
+Unknown callerid data type '%s'.
+Caller ID related dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Gets or sets Caller*ID presentation on the channel.
+Gets or sets Caller*ID presentation on the channel.  The following values
+are valid:
+      allowed_not_screened    : Presentation Allowed, Not Screened
+      allowed_passed_screen   : Presentation Allowed, Passed Screen
+      allowed_failed_screen   : Presentation Allowed, Failed Screen
+      allowed                 : Presentation Allowed, Network Number
+      prohib_not_screened     : Presentation Prohibited, Not Screened
+      prohib_passed_screen    : Presentation Prohibited, Passed Screen
+      prohib_failed_screen    : Presentation Prohibited, Failed Screen
+      prohib                  : Presentation Prohibited, Network Number
+      unavailable             : Number Unavailable
+Gets or sets Caller*ID data on the channel.
+Gets or sets Caller*ID data on the channel.  The allowable datatypes
+are "all", "name", "num", "ANI", "DNID", "RDNIS", "pres",
+and "ton".
+Uses channel callerid by default or optional callerid, if specified.
+CALLERID(datatype[,<optional-CID>])
+func_callerid.c
+name
+dnid
+rdnis
+pres
+"%s" <%s>
+$Revision: 160859 $
+func_callerid
+CALLERPRES
+CALLERPRES()
+CALLERID
+callerid_write
+_ast_strdup
+callerid_read
+callerpres_write
+a9c98e5d177805051735cb5b0b16b0a0
+func_callerid.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

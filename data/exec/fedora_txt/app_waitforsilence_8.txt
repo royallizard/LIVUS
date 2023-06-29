@@ -1,0 +1,145 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+ast_answer
+sscanf
+ast_log
+option_verbose
+ast_options
+ast_dsp_noise
+ast_dsp_silence
+ast_set_read_format
+ast_dsp_new
+ast_dsp_get_threshold_from_settings
+ast_dsp_set_threshold
+ast_waitfor
+__ast_verbose
+pbx_builtin_setvar_helper
+option_debug
+ast_getformatname
+ast_read
+ast_frame_free
+ast_verbose_get_by_file
+difftime
+ast_dsp_free
+ast_debug_get_by_file
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+ATSubH
+AVAUATI
+l$dH
+l$lL
+D$hH
+\$d1
+D$`H
+D$HH
+D$PH
+D$0H
+D$XE
+\$lH
+D$(H
+D$@A
+D$`D9
+\$`A
+D$`L
+D$`D9
+t$<L
+|$<M
+t$(H
+x[]A\A]A^A_
+T$HH
+D$89D$d
+D$hD
+L$lH
+D$dH
+[]A\A]A^A_
+%d,%d,%d
+app_waitforsilence.c
+HANGUP
+WAITSTATUS
+noise
+NOISE
+SILENCE
+WAITSTATUS was set to %s
+TIMEOUT
+$Revision: 149063 $
+app_waitforsilence
+Wait For Silence
+WaitForSilence
+WaitForNoise
+Using default value of 1000ms, 1 iteration, no timeout
+    -- Waiting %d time(s) for %d ms silence with %d timeout
+Unable to set channel to linear mode, giving up
+Unable to create silence detector :(
+       > Got %dms %s < %dms required
+    -- Exiting with %dms %s >= %dms required
+WAITSTATUS was set to TIMEOUT
+Unable to restore format %s to channel '%s'
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  WaitForSilence(silencerequired[,iterations][,timeout]):
+Wait for Silence: Waits for up to 'silencerequired' 
+milliseconds of silence, 'iterations' times or once if omitted.
+An optional timeout specified the number of seconds to return
+after, even if we do not receive the specified amount of silence.
+Use 'timeout' with caution, as it may defeat the purpose of this
+application, which is to wait indefinitely until silence is detected
+on the line.  This is particularly useful for reverse-911-type
+call broadcast applications where you need to wait for an answering
+machine to complete its spiel before playing a message.
+The timeout parameter is specified only to avoid an infinite loop in
+cases where silence is never achieved.  Typically you will want to
+include two or more calls to WaitForSilence when dealing with an answering
+machine; first waiting for the spiel to finish, then waiting for the beep, etc.
+Examples:
+  - WaitForSilence(500,2) will wait for 1/2 second of silence, twice
+  - WaitForSilence(1000) will wait for 1 second of silence, once
+  - WaitForSilence(300,3,10) will wait for 300ms silence, 3 times,
+     and returns after 10 sec, even if silence is not detected
+Sets the channel variable WAITSTATUS with to one of these values:
+SILENCE - if exited with silence detected
+TIMEOUT - if exited without silence detected after timeout
+Waits for a specified amount of silence
+WaitForNoise(noiserequired[,iterations][,timeout]) 
+Wait for Noise: The same as Wait for Silance but waits for noise that is above the threshold specified
+Waits for a specified amount of noise
+waitfor_exec
+do_waiting
+a9c98e5d177805051735cb5b0b16b0a0
+app_waitforsilence.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

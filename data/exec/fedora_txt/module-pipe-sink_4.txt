@@ -1,0 +1,299 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_log_level_meta
+pa_rtclock_now
+abort
+pa_sink_type_id
+pa_sink_process_msg
+ioctl
+pa_bytes_to_usec
+__stack_chk_fail
+pa_thread_mq_install
+pa_rtpoll_set_timer_disabled
+pa_rtpoll_run
+pa_sink_process_rewind
+pa_rtpoll_set_timer_absolute
+pa_msgobject_type_id
+pa_sink_render
+pa_memblock_acquire
+pa_write
+__errno_location
+pa_cstrerror
+pa_asyncmsgq_post
+pa_asyncmsgq_wait_for
+pa_memblock_release
+pa_memblock_unref
+pa_object_type_id
+pa_sink_get_requested_latency_within_thread
+pa_usec_to_bytes
+pa_sink_set_max_request_within_thread
+pa_rtpoll_item_get_pollfd
+pa_memchunk_reset
+module_pipe_sink_LTX_pa__get_author
+module_pipe_sink_LTX_pa__get_description
+module_pipe_sink_LTX_pa__get_version
+module_pipe_sink_LTX_pa__load_once
+module_pipe_sink_LTX_pa__get_usage
+module_pipe_sink_LTX_pa__get_n_used
+pa_sink_linked_by
+module_pipe_sink_LTX_pa__done
+pa_sink_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_object_unref
+pa_rtpoll_item_free
+pa_rtpoll_free
+pa_xfree
+pa_close
+module_pipe_sink_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec_and_channel_map
+pa_xmalloc0
+pa_rtpoll_new
+pa_modargs_get_value_boolean
+pa_thread_mq_init
+pa_modargs_get_value
+pa_runtime_path
+mkfifo
+pa_open_cloexec
+pa_make_fd_nonblock
+__fxstat
+pa_sink_new_data_init
+pa_sink_new_data_set_name
+pa_proplist_sets
+pa_proplist_setf
+pa_sink_new_data_set_sample_spec
+pa_sink_new_data_set_channel_map
+pa_modargs_get_proplist
+pa_sink_new
+pa_sink_new_data_done
+pa_sink_set_asyncmsgq
+pa_sink_set_rtpoll
+pa_pipe_buf
+pa_frame_align
+pa_sink_set_latency_range
+pa_sink_set_max_request
+pa_rtpoll_item_new
+pa_thread_new
+pa_sink_put
+pa_modargs_free
+pa_sink_set_fixed_latency
+chmod
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-pipe-sink.so
+GLIBC_2.2.5
+PULSE_0
+GLIBC_2.4
+/usr/lib64/pulseaudio
+u+UH
+	uPH
+[]A\A]A^
+HcT$
+AWAVAUATUSH
+D$H1
+D$HdH3
+X[]A\A]A^A_
+D$0L
+l$(H
+\$@H
+|$0H
+l$8E1
+l$@I
+L$@L
+L$ H
+L$ H
+T$(I
+AUATUSH
+A\A]
+ATUH
+}0E1
+AWAVAUATUSH
+)L$ 
+)T$0
+)\$@
+)d$P
+)l$`
+)t$p
+[]A\A]A^A_
+modules/module-pipe-sink.c
+u = s->userdata
+pa_sink_isinstance(o)
+./pulsecore/sink.h
+l != 0
+Recovered from FIFO error
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+./pulsecore/object.h
+Thread starting up
+u->memchunk.length > 0
+FIFO shutdown.
+Thread shutting down
+Lennart Poettering
+UNIX pipe sink
+12.2-rebootstrapped
+u = m->userdata
+pa_close(u->fd) == 0
+use_system_clock_for_timing
+pa_thread_mq_init() failed.
+fifo_output
+file
+mkfifo('%s'): %s
+chomd('%s'): %s
+open('%s'): %s
+fstat('%s'): %s
+'%s' is not a FIFO.
+sink_name
+device.string
+Unix FIFO sink %s
+device.description
+sink_properties
+Invalid properties
+Failed to create sink.
+pipe-sink
+Failed to create thread.
+format
+rate
+channels
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Pipe-sink continuously dropping data - clear statistics (%zu -> 0 bytes dropped)
+Thread (use timing) starting up
+Failed to write data to FIFO: %s
+Pipe-sink continuously dropped %zu bytes
+Pipe-sink just dropped %zu bytes
+Thread (use timing) shutting down
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+sink_name=<name for the sink> sink_properties=<properties for the sink> file=<path of the FIFO> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map> use_system_clock_for_timing=<yes or no> 
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+Failed to parse use_system_clock_for_timing argument.
+module_pipe_sink_LTX_pa__done
+module_pipe_sink_LTX_pa__done
+module_pipe_sink_LTX_pa__get_n_used
+module_pipe_sink_LTX_pa__get_n_used
+pa_sink_cast
+pa_sink_cast
+sink_set_state_in_io_thread_cb
+sink_set_state_in_io_thread_cb
+pa_object_cast
+pa_object_cast
+pa_sink_assert_ref
+pa_sink_assert_ref
+sink_update_requested_latency_cb
+sink_update_requested_latency_cb
+pipe_sink_write
+pipe_sink_write
+process_render_use_timing
+process_render_use_timing
+thread_func_use_timing
+thread_func_use_timing
+pa_msgobject_cast
+pa_msgobject_cast
+process_render
+process_render
+thread_func
+thread_func
+module_pipe_sink_LTX_pa__init
+module_pipe_sink_LTX_pa__init
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+module-pipe-sink.so-12.2-3.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

@@ -1,0 +1,133 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+PyArg_ParseTupleAndKeywords
+xc_interface_open
+flask_access
+xc_interface_close
+Py_BuildValue
+__errno_location
+PyErr_SetFromErrno
+flask_setenforce
+flask_load
+flask_sid_to_context
+__stack_chk_fail
+strlen
+malloc
+memcpy
+flask_context_to_sid
+free
+PyInt_FromLong
+flask_getenforce
+initflask
+Py_InitModule4_64
+libxenctrl.so.4.0
+libxenguest.so.4.0
+libxenstore.so.3.0
+libflask.so.1.0
+libpython2.7.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+ATSubH
+[A\]
+D$DH
+\$XH
+l$TL
+d$PL
+l$LL
+L$0H
+D$^L
+D$8H
+\$(H
+l$ H
+L$^D
+D$DL
+L$HH
+T$0H
+t$8H
+\$`H
+l$hL
+d$pL
+l$xL
+fff.
+l$ L
+d$(L
+l$0H
+ssil|llll
+flask
+flask_context_to_sid
+flask_sid_to_context
+flask_load
+flask_getenforce
+flask_setenforce
+flask_access
+src_context
+tar_context
+tar_class
+req_permissions
+decided
+auditallow
+auditdeny
+seqno
+mode
+policy
+Convert a context string to a dynamic SID.
+ context [str]: String specifying context to be converted
+Returns: [int]: Numeric SID on success; -1 on error.
+Convert a dynamic SID to context string.
+ context [int]: SID to be converted
+Returns: [str]: Numeric SID on success; -1 on error.
+Loads a policy into the hypervisor.
+ policy [str]: policy to be load
+Returns: [int]: 0 on success; -1 on failure.
+Returns the current mode of the Flask XSM module.
+Returns: [int]: 0 for permissive; 1 for enforcing; -1 on failure.
+Modifies the current mode for the Flask XSM module.
+ mode [int]: mode to change to
+Returns: [int]: 0 on success; -1 on failure.
+Returns whether a source context has access to target context based on        class and permissions requested.
+ scon [str]: source context
+ tcon [str]: target context
+ tclass [int]: target security class
+ req [int] requested permissions
+ allowed [int] permissions allow for the target class between the source         and target context
+ decided [int] the permissions that were returned in the allowed         parameter
+ auditallow [int] permissions set to audit on allow
+ auditdeny [int] permissions set to audit on deny
+ seqno [int] not used
+Returns: [int]: 0 on all permission granted; -1 if any permissions are        denied
+;*3$"
+flask.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,521 @@
+/lib/ld-linux.so.2
+3Y~b
+libldap-2.4.so.2
+__gmon_start__
+_Jv_RegisterClasses
+_fini
+_init
+liblber-2.4.so.2
+libpcre.so.0
+libmysqlclient.so.16
+libm.so.6
+libsasl2.so.2
+libssl.so.8
+libcrypto.so.8
+libdl.so.2
+libz.so.1
+libdb-4.7.so
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+_IO_stdin_used
+epoll_create
+setuid
+chroot
+socket
+strcpy
+srand
+gai_strerror
+strncmp
+optind
+strrchr
+initgroups
+epoll_wait
+signal
+unlink
+listen
+mkdir
+realloc
+abort
+_exit
+memchr
+getpid
+strspn
+strftime
+chmod
+gmtime
+strtol
+getpwnam
+strlen
+openlog
+getaddrinfo
+memset
+strcspn
+__errno_location
+bind
+chdir
+open64
+getnameinfo
+__syslog_chk
+getopt
+longjmp
+_setjmp
+poll
+memcpy
+setsockopt
+malloc
+strcasecmp
+__xstat64
+__ctype_b_loc
+optarg
+setrlimit64
+gettimeofday
+epoll_ctl
+geteuid
+__memcpy_chk
+close
+localtime
+lseek64
+strchr
+accept
+sleep
+__cxa_finalize
+freeaddrinfo
+fcntl
+getrlimit64
+__sprintf_chk
+memmove
+setgid
+strcmp
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+msg_text_lock
+vstream_fstd
+inet_proto_table
+msg_verbose
+msg_vprintf_lock
+mail_version_stamp
+timed_write
+msg_exiting
+timed_read
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2
+GLIBC_2.3.2
+GLIBC_2.1
+GLIBC_2.0
+,[^_]
+[^_]
+[^_]
+[^_]
+ [^]
+ [^]
+,[^_]
+L[^_]
+<[^_]
+[^_]
+[^_]
+<[^_]
+,[^_]
+,[^_]
+[^_]
+[^_]
+locaf
+P[^]
+,[^_]
+mail
+_ver
+sion
+=2.5f
+,[^_]
+,[^_]
+,[^_]
+<8|0~"
+,[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+<[^_]
+<[^_]
+,[^_]
+,[^_]
+,[^_]
+<[^_]
+<[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+,[^_]
+L[^_]
+L[^_]
+t5<%tT
+<[^_]
+<mtT
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+\[^_]
+ti+}
+[^_]
+L[^_]
+[^_]
+<[^_]
+[^_]
+[^_]
+<[^_]
+,[^_]
+,[^_]
+xW9}
+~59}
+t0;u
+Fl;Fp~
+Vl;Vp
+[^_]
+[^_]
+,[^_]
+F<xa
+[^_]
+Q4x-
+,[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+tY9U
+[^_]
+[^_]
+< vG
+[^_]
+[^_]
+unknown command: %s
+non-positive '%s' delay
+221 Bye
+250 2.2.0 Ok
+250 2.0.0 Ok
+220 ********
+220 %s
+220 %s ESMTP
+unknown_stream
+unlink %s: %m
+250 2.1.0 Ok
+Received: from %s ([%s%s])
+sess=%d quit=%d mesg=%d
+550 This violates SMTP
+read timeout
+unknown read/write error
+write timeout
+lost connection
+disconnect
+%s %.100s
+command line too long
+250 2.1.5 Ok
+X-Rcpt-Args: %s
+250-%s
+250-PIPELINING
+250-8BITMIME
+250-AUTH PLAIN LOGIN
+250-XCLIENT NAME HELO
+250-ENHANCEDSTATUSCODES
+250 
+250 %s
+sockaddr_to_hostaddr: %s
+AF_LOCAL
+AF_INET
+unknown protocol family
+AF_INET6
+connect (%s %s)
+ipv6:
+LMTP
+ipv4
+xclient
+xforward
+bad concurrency limit: %s
+bad quit count: %s
+bad timeout: %s
+data
+ipv6
+smtp-sink
+lhlo
+helo, ehlo
+helo
+protocols
+unix:
+inet:
+mkdir %s: %m
+mail_file_open
+%s: something is looping
+%08x
+open %s: %m
+X-Client-Addr: %s%s
+X-Client-Proto: %s
+X-Helo-Args: %s
+X-Mail-Args: %s
+append file %s: %m
+seek file %s: %m
+read file %s: %m
+auth
+mail
+rcpt
+rset
+noop
+vrfy
+quit
+delay odds for '%s' out of range
+450 4.3.0 Error: command failed
+500 5.3.0 Error: command failed
+503 5.5.1 Error: need RCPT command
+354 End data with <CR><LF>.<CR><LF>
+Received: from [%s%s] ([%s%s])
+	by %s (smtp-sink) with %s id %08x;
+421 4.0.0 Server closing connection
+command_read: unknown state: %d
+500 5.5.2 Error: unknown command
+500 5.5.1 Error: unknown command
+503 5.5.1 Error: need MAIL command
+250-XFORWARD NAME ADDR PROTO HELO
+usage: %s [-468acCeEFLpPv] [-A abort_delay] [-f commands] [-h hostname] [-m max_concurrency] [-n quit_count] [-q commands] [-r commands] [-s commands] [-w delay] [-d dump-template] [-D dump-template] [-R root-dir] [-S start-string] [-u user_privs] [host]:port backlog
+invalid command delay argument: %s
++468aA:cCd:D:eEf:Fh:Ln:m:pPq:Q:r:R:s:S:t:u:vw:W:
+use only one of -d or -D, but not both
+-u option is required if running as root
+503 5.5.1 Error: nested MAIL command
+0%a, %e %b %Y %H:%M:%S 
+%+03d%02d
+ (%Z)
+UTC time offset %d is larger than one day
+smtp_fputc: EOF
+smtp_fwrite: EOF
+smtp_fputs: negative todo %ld
+smtp_fputs: EOF
+smtp_fgetc: EOF
+smtp_get: EOF
+smtp_vprintf: EOF
+smtp_flush: EOF
+smtp_fwrite: negative todo %ld
+unknown user: %s
+setgid(%ld): %m
+initgroups: %m
+chroot(%s): %m
+chdir(/): %m
+setuid(%ld): %m
+(none)
+chroot %s user %s
+event_init: repeated call
+epoll_create
+event_loop
+event_loop: select_delay %d
+event_loop: epoll_wait: %m
+event_loop: recursive call
+%s: timer 0x%lx 0x%lx
+%s: bad file descriptor: %d
+event_cancel_timer
+%s: 0x%lx 0x%lx %d
+event_request_timer
+%s: invalid delay: %d
+%s: reset 0x%lx 0x%lx %d
+%s: set 0x%lx 0x%lx %d
+event_disable_readwrite
+%s: fd %d
+epoll_ctl EPOLL_CTL_DEL
+%s: %s: %m
+event_extend
+event_enable_write
+epoll_ctl EPOLL_CTL_ADD
+event_enable_read
+unable to determine open file limit
+could allocate space for only %d open files
+event_init: unable to initialize
+%s: time left %3d for 0x%lx 0x%lx
+%s: read fd=%d act=0x%lx 0x%lx
+%s: write fd=%d act=0x%lx 0x%lx
+%s: other fd=%d act=0x%lx 0x%lx
+%s: fd %d: read/write I/O request
+%s: %s
+default protocol setting
+trying... [%s]:%s
+socket: %m
+setsockopt(IPV6_V6ONLY): %m
+setsockopt(SO_REUSEADDR): %m
+bind %s port %s: %m
+listen: %m
+%s: host found but no usable address
+skipping address family %d for %s
+make_unsigned_vector
+%s: bad vector length: %d
+make_uchar_vector
+inet_proto
+%s: bad inet_proto_mask 0x%x
+%s: IPv6 support is disabled: %m
+%s: configuring for IPv4 support only
+too many errors - program terminated
+unknown
+invalid severity level: %d
+%s: %s: %s
+info
+warning
+fatal
+panic
+myaddrinfo_control
+%s: bad name %d
+numeric hostname: %s
+myfree
+%s: null pointer input
+myrealloc
+%s: corrupt or unallocated memory block
+%s: corrupt memory block length
+mymalloc: requested length %ld
+mymalloc: insufficient memory: %m
+mymemdup: null pointer argument
+mystrndup: null pointer argument
+mystrndup: requested length %ld
+mystrdup: null pointer argument
+myrealloc: requested length %ld
+myrealloc: insufficient memory: %m
+name_mask
+0x%x%c
+%s%c
+unknown %s value "%s" in "%s"
+%s: unknown %s bit in mask: 0x%x
+fcntl: get flags: %m
+fcntl: set non-blocking flag %s: %m
+poll: %m
+\%03d
+unix-domain name too long: %s
+remove %s: %m
+bind: %s: %m
+chmod socket %s: %m
+valid_hostname
+%s: empty hostname
+%s: misplaced hyphen: %.100s
+%s: numeric hostname: %.100s
+valid_ipv4_hostaddr
+%s: misplaced dot: %.100s
+valid_ipv6_hostaddr
+0123456789abcdefABCDEF
+valid_hostaddr
+%s: empty address
+%s: hostname label too long: %.100s
+%s: misplaced delimiter: %.100s
+%s: invalid character %d(decimal): %.100s
+%s: bad length %d for %.100s...
+%s: invalid octet value: %.100s
+%s: bad initial octet value: %.100s
+%s: invalid octet count: %.100s
+%s: too few `:' in IPv6 address: %.100s
+%s: bad null last field in IPv6 address: %.100s
+%s: malformed IPv4-in-IPv6 address: %.100s
+%s: bad null first field in IPv6 address: %.100s
+%s: too many `:' in IPv6 address: %.100s
+%s: too many `::' in IPv6 address: %.100s
+%s: malformed IPv6 address: %.100s
+%s: invalid character %d(decimal) in IPv6 address: %.100s
+vstream_fpurge
+%s: read/write stream
+vstream_fflush_some
+%s: read-only stream
+%s: fd %d flush %ld
+%s: bad to_flush %ld
+%s: to_flush < left_over
+%s: %d flushed %ld/%ld
+vstream_buf_alloc
+%s: attempt to shrink buffer
+vstream_buf_space
+vstream_buf_put_ready
+vstream_buf_get_ready
+%s: fd %d got %ld
+vstream_fdopen: bad file %d
+fcntl F_DUPFD %d: %m
+vstream_control
+vstream_fseek
+vstream_fflush_delayed: bad flags
+%s: unable to extend fixed-size buffer
+vstream_fclose: stream has process
+VSTREAM_CTL_READ_FD requires double buffering
+VSTREAM_CTL_WRITE_FD requires double buffering
+VSTREAM_CTL_BUFSIZE with negative size: %ld
+vstring_truncate: bad length %ld
+vstring_ctl: bad max length %ld
+vstring_buf_get: write-only buffer
+vstring_prepend: bad length %ld
+vstring_insert: bad length %ld
+vstring_extend: length overflow
+vstring_buf_space: bad length %ld
+vstring_ctl: unknown code: %d
+vstring_alloc: bad length %ld
+vstring_insert: bad start %ld
+vstring_get_nonl_bound: invalid bound %ld
+vstring_get_bound: invalid bound %ld
+fcntl: set close-on-exec flag %s: %m
+missing "]"
+garbage after "]"
+missing host information
+missing service information
+valid hostname or network address required
+garbage after numerical service
+read() returns EAGAIN on a readable file descriptor!
+pausing to avoid going into a tight select/read loop!
+write() returns EAGAIN on a writable file descriptor!
+pausing to avoid going into a tight select/write loop!
+vbuf_print
+%s: bad width %d in %.50s
+%s: bad precision %d in %.50s
+vbuf_print: unknown format type: %c
+smtp-sink.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,133 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_app_separate_args
+ast_autoservice_start
+ast_load_realtime_all
+strlen
+ast_str_append
+ast_destroy_realtime
+ast_autoservice_stop
+ast_log
+__stack_chk_fail
+memcpy
+ast_store_realtime
+__snprintf_chk
+pbx_builtin_setvar_helper
+ast_update_realtime
+ast_module_unregister
+realtime_function
+ast_custom_function_unregister
+realtime_store_function
+realtime_destroy_function
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+AVAUM
+40HcE
+[A\A]A^A_
+ffffff.
+AVAUM
+40HcE
+[A\A]A^A_
+ffffff.
+ATSH
+D$xH
+D$pH
+D$hH
+D$`H
+D$XH
+D$PH
+D$HH
+D$@H
+D$8H
+D$0H
+D$(H
+D$ H
+[A\A]A^
+fffff.
+L$ H
+\$0H
+l$8L
+d$@H
+Syntax: REALTIME_DESTROY(family,fieldmatch[,value[,delim1[,delim2]]]) - missing argument!
+Syntax: REALTIME(family,fieldmatch[,value[,delim1[,delim2]]]) - missing argument!
+Syntax: REALTIME_STORE(family,field1,field2,...,field30) - missing argument!
+Failed to store. Check the debug log for possible data repository related entries.
+Syntax: REALTIME(family,fieldmatch,value,newcol) - missing argument!
+Failed to update. Check the debug log for possible data repository related entries.
+This function will read or write values from/to a RealTime repository.
+REALTIME(....) will read names/values from the repository, and 
+REALTIME(....)= will write a new value/field to the repository. On a
+read, this function returns a delimited text string. The name/value 
+pairs are delimited by delim1, and the name and value are delimited 
+between each other with delim2. The default for delim1 is ',' and   
+the default for delim2 is '='. If there is no match, NULL will be   
+returned by the function. On a write, this function will always     
+return NULL. 
+REALTIME(family,fieldmatch[,value[,delim1[,delim2]]]) on read
+REALTIME(family,fieldmatch,value,field) on write
+This function will insert a new set of values into the RealTime repository.
+If RT engine provides an unique ID of the stored record, REALTIME_STORE(...)=..
+creates channel variable named RTSTOREID, which contains value of unique ID.
+Currently, a maximum of 30 field/value pairs is supported.
+REALTIME_STORE(family,field1,field2,...,field30) = value1,value2,...,value30
+This function acts in the same way as REALTIME(....) does, except that
+it destroys matched record in RT engine.
+REALTIME_DESTROY(family,fieldmatch[,value[,delim1[,delim2]]])
+Read/Write/Store/Destroy values from a RealTime repository
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+func_realtime.c
+%s%s%s%s
+RTSTOREID
+$Revision: 124127 $
+REALTIME
+RealTime Read/Write Functions
+REALTIME_STORE
+RealTime Store Function
+REALTIME_DESTROY
+RealTime Destroy Function
+func_realtime
+function_realtime_readdestroy
+function_realtime_store
+function_realtime_write
+function_realtime_read
+a9c98e5d177805051735cb5b0b16b0a0
+func_realtime.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

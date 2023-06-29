@@ -1,0 +1,293 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+uc_get_rate
+pthread_mutex_lock
+pthread_mutex_unlock
+plugin_log
+format_name
+__stack_chk_fail
+strlen
+meta_data_get_boolean
+subst_string
+rate_to_value
+sstrncpy
+plugin_dispatch_values
+meta_data_create
+meta_data_add_boolean
+meta_data_destroy
+sqrt
+cdtime
+calloc
+pthread_mutex_init
+__snprintf_chk
+strcasecmp
+cf_util_get_boolean
+cf_util_get_string_buffer
+strchr
+cf_util_get_string
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_write
+c_avl_get
+strdup
+strcmp
+c_avl_create
+c_avl_insert
+c_avl_destroy
+__assert_fail
+regcomp
+regerror
+pthread_mutex_destroy
+regfree
+regexec
+c_avl_pick
+libm.so.6
+libc.so.6
+aggregation.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+u+UH
+ATUH
+$zif
+[]A\
+t+SH
+AVAUM
+unE1
+ []A\A]A^
+d$ L
+[]A\
+ATU1
+[]A\A]
+AWAVAUI
+ATUH
+|$(H
+[]A\A]A^A_
+/.*/
+/.*/
+/.*/
+;/.*/
+AWAVAUATUSH
+|$0f.
+t$8H
+D9s(
+|$0L
+/.*/
+D9x(
+H[]A\A]A^A_
+L$ A
+t$0H
+t$0L
+D$(H
+t$0H
+L$ H
+L$0L
+t$0L
+L$01
+D$(H
+$$u8H
+[]A\
+AUATI
+[]A\A]
+AUATI
+[]A\A]A^
+?.*t*H
+AWAVAUATUSH
+|$0H
+|$ I
+T$(H
+8[]A\A]A^A_
+T$(H
+tof.
+ATUH
+\$ [L
+]A\A]A^
+AWAVAUATUSH
+D$(1
+t$ L
+D$(dH3
+[]A\A]A^A_
+D$(dH3
+8[]A\A]A^A_
+ATUSH
+[]A\A]A^A_
+AVAUATI
+[]A\A]A^
+aggregation plugin: The "%s" type (data set) has more than one data source. This is currently not supported by this plugin. Sorry.
+aggregation plugin: Unable to read the current rate of "%s".
+aggregation plugin: rate_to_value failed with status %i.
+aggregation plugin: meta_data_create failed.
+aggregation plugin: Reading an aggregation instance failed with status %i.
+aggregation plugin: calloc() failed.
+aggregation plugin: lookup_create failed.
+aggregation plugin: calloc failed.
+aggregation plugin: Argument %i of the "GroupBy" option is not a string.
+aggregation plugin: Grouping by type is not supported.
+aggregation plugin: The "%s" argument to the "GroupBy" option is invalid and will be ignored.
+aggregation plugin: The "%s" key is not allowed inside <Aggregation /> blocks and will be ignored.
+aggregation plugin: It appears you did not specify the required "Type" option in this aggregation. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: The "Type" may not contain the '/' character. Especially, it may not be a regex. The current value is "%s".
+aggregation plugin: An aggregation must contain at least one wildcard. This is achieved by leaving at least one of the "Host", "Plugin", "PluginInstance" and "TypeInstance" options blank or using a regular expression and not grouping by that field. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: Only wildcard fields (fields for which a regular expression is configured or which are left blank) can be specified in the "GroupBy" option. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: No aggregation function has been specified. Without this, I don't know what I should be calculating. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: lookup_add failed with status %i.
+aggregation plugin: The "%s" key is not allowed inside <Plugin aggregation /> blocks and will be ignored.
+aggregation:created
+%{aggregation}
+average
+stddev
+/.*/
+global
+aggregation
+%s-%s
+Aggregation
+Type
+SetHost
+SetPlugin
+SetPluginInstance
+SetTypeInstance
+GroupBy
+CalculateNum
+CalculateSum
+CalculateAverage
+CalculateMinimum
+CalculateMaximum
+CalculateStddev
+utils_vl_lookup: strdup failed.
+utils_vl_lookup: calloc failed.
+utils_vl_lookup: c_avl_create failed.
+utils_vl_lookup: c_avl_insert failed.
+utils_vl_lookup: Compiling regular expression "%s" failed: %s
+strcmp(vl->type, user_class->match.type.str) == 0
+user_class->match.plugin.is_regex || (strcmp(vl->plugin, user_class->match.plugin.str)) == 0
+utils_vl_lookup: User-provided constructor failed.
+utils_vl_lookup: The user object callback failed with status %i.
+utils_vl_lookup: c_avl_insert("%s") failed with status %i.
+src/utils_vl_lookup.c
+status <= 0
+sizeof(match_part->str) > len
+ptr != NULL
+lu_handle_user_class
+lu_add_by_plugin
+lu_copy_ident_to_match_part
+lu_search_by_type
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+aggregation.so-5.8.1-4.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

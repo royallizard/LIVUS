@@ -1,0 +1,245 @@
+/lib64/ld-linux-x86-64.so.2
+libgettextsrc-0.19.6.so
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+allow_duplicates
+_init
+catenate_msgdomain_list
+message_page_width_set
+output_format_po
+msgdomain_list_sort_by_filepos
+message_print_style_uniforum
+msgdomain_list_print
+dir_list_append
+handle_filepos_comment_option
+handle_color_option
+message_print_style_escape
+message_print_style_indent
+handle_style_option
+message_print_style_filepos
+input_format_po
+more_than
+input_format_stringtable
+output_format_properties
+string_list_alloc
+output_format_stringtable
+use_first
+string_list_append
+string_list_free
+input_format_properties
+msgdomain_list_sort_by_msgid
+color_test_mode
+message_page_width_ignore
+less_than
+_fini
+libgettextlib-0.19.6.so
+close_stdout
+maybe_print_progname
+set_program_name
+proper_name
+libcroco-0.6.so.3
+libglib-2.0.so.0
+libxml2.so.2
+libncurses.so.5
+libtinfo.so.5
+libunistring.so.2
+libdl.so.2
+libc.so.6
+__printf_chk
+setlocale
+optind
+dcgettext
+error_print_progname
+error
+putchar
+strtol
+__fprintf_chk
+fputs
+optarg
+stderr
+getopt_long
+__cxa_finalize
+bindtextdomain
+__libc_start_main
+basename
+__cxa_atexit
+libgomp.so.1
+libpthread.so.0
+_edata
+__bss_start
+_end
+/usr/lib64
+GLIBC_2.3.4
+GLIBC_2.2.5
+527 
+%47 
+%27 
+%*7 
+%"7 
+%z6 
+%r6 
+%j6 
+%b6 
+%Z6 
+%R6 
+%J6 
+%B6 
+%:6 
+%26 
+%*6 
+%"6 
+AWAVL
+AUATA
+-R6 
+D$(1
+5y5 
+="5 
+H9L$ 
+-F4 
+=@4 
+=q1 
+fffff.
+=11 
+5*1 
+fffff.
+=B) 
+fffff.
+=	) 
+-j1 
+=#1 
+AWAVA
+AUATL
+[]A\A]A^A_
+Try '%s --help' for more information.
+Usage: %s [OPTION] [INPUTFILE]
+Unifies duplicate translations in a translation catalog.
+Finds duplicate translations of the same message ID.  Such duplicates are
+invalid input for other programs like msgfmt, msgmerge or msgcat.  By
+default, duplicates are merged together.  When using the --repeated option,
+only duplicates are output, and all other messages are discarded.  Comments
+and extracted comments will be cumulated, except that if --use-first is
+specified, they will be taken from the first translation.  File positions
+will be cumulated.  When using the --unique option, duplicates are discarded.
+Mandatory arguments to long options are mandatory for short options too.
+  INPUTFILE                   input PO file
+  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search
+If no input file is given or if it is -, standard input is read.
+  -o, --output-file=FILE      write output to specified file
+The results are written to standard output if no output file is specified
+or if it is -.
+  -d, --repeated              print only duplicates
+  -u, --unique                print only unique messages, discard duplicates
+  -P, --properties-input      input file is in Java .properties syntax
+      --stringtable-input     input file is in NeXTstep/GNUstep .strings syntax
+  -t, --to-code=NAME          encoding for output
+      --use-first             use first available translation for each
+                              message, don't merge several translations
+      --color                 use colors and other text attributes always
+      --color=WHEN            use colors and other text attributes if WHEN.
+                              WHEN may be 'always', 'never', 'auto', or 'html'.
+      --style=STYLEFILE       specify CSS style rule file for --color
+  -e, --no-escape             do not use C escapes in output (default)
+  -E, --escape                use C escapes in output, no extended chars
+      --force-po              write PO file even if empty
+  -i, --indent                write the .po file using indented style
+      --no-location           do not write '#: filename:line' lines
+  -n, --add-location          generate '#: filename:line' lines (default)
+      --strict                write out strict Uniforum conforming .po file
+  -p, --properties-output     write out a Java .properties file
+      --stringtable-output    write out a NeXTstep/GNUstep .strings file
+  -w, --width=NUMBER          set output page width
+      --no-wrap               do not break long message lines, longer than
+                              the output page width, into several lines
+  -s, --sort-output           generate sorted output
+  -F, --sort-by-file          sort output by file location
+  -h, --help                  display this help and exit
+  -V, --version               output version information and exit
+Report bugs to <bug-gnu-gettext@gnu.org>.
+Copyright (C) %s Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+at most one input file allowed
+%s and %s are mutually exclusive
+Input file location:
+Output file location:
+Message selection:
+Input file syntax:
+Output details:
+Informative output:
+/usr/share/locale
+gettext-tools
+bison-runtime
+dD:eEFhino:pPst:uVw:
+0.19.6
+%s (GNU %s) %s
+2001-2010
+Bruno Haible
+Written by %s.
+--sort-by-file
+--sort-output
+add-location
+color
+directory
+force-po
+help
+indent
+no-escape
+no-location
+no-wrap
+output-file
+properties-input
+properties-output
+repeated
+strict
+stringtable-input
+stringtable-output
+style
+to-code
+unique
+use-first
+version
+width
+;*3$"
+msguniq.debug
+7zXZ
+T)Rh
+[[8P
+R2U<2
+;Hnm
+,?ajR? 
+C sZq<p
+}vSUK
+'.hW
+JU|Vdb
+-g*,
+mhT!l$J
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

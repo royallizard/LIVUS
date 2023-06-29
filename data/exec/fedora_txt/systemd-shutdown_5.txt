@@ -1,0 +1,399 @@
+/lib/ld-linux.so.2
+free
+GLIBC_2.0
+libc.so.6
+__sprintf_chk
+GLIBC_2.3.4
+fscanf
+optarg
+calloc
+setsid
+fork
+libpthread.so.0
+exit
+__libc_start_main
+strcmp
+getopt_long
+mlockall
+swapoff
+execv
+reboot
+__stack_chk_fail
+GLIBC_2.4
+__bss_start
+_edata
+_end
+__xmknod
+__lxstat64
+GLIBC_2.2
+_exit
+mkfifo
+mount
+umount2
+GLIBC_2.1
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+syscall
+getenv
+_Unwind_Resume
+GCC_3.0
+symlink
+malloc
+ioctl
+open64
+access
+umask
+getpid
+__rawmemchr
+__errno_location
+__cxa_finalize
+GLIBC_2.1.3
+__strdup
+nftw64
+GLIBC_2.3.3
+sync
+fopen64
+sigemptyset
+sigaddset
+sigprocmask
+internal_hashmap_free
+waitpid
+getpgid
+set_iterate
+timespec_store
+sigtimedwait
+opendir
+internal_hashmap_size
+parse_pid
+set_put
+get_ctty_devnr
+kill
+readdir64
+closedir
+get_process_uid
+fread
+pid_from_same_root_fs
+get_process_comm
+internal_set_new
+internal_hashmap_remove
+log_oom_internal
+is_efi_boot
+cg_is_hybrid_wanted
+cg_is_legacy_wanted
+cg_is_unified_wanted
+mac_smack_use
+log_parse_environment
+log_close_console
+log_open
+cg_get_root_path
+watchdog_ping
+cg_trim
+execute_directories
+in_initrd
+make_console_stdio
+wait_for_terminate_and_warn
+read_one_line_file
+freeze
+switch_root
+log_set_max_level_from_string
+log_set_target_from_string
+log_show_color_from_string
+log_show_color
+log_show_location_from_string
+log_show_location
+safe_atou8
+log_assert_failed_unreachable
+udev_device_get_devnum
+safe_close
+udev_new
+udev_enumerate_new
+udev_enumerate_add_match_subsystem
+udev_enumerate_add_match_sysname
+udev_enumerate_add_match_sysattr
+udev_enumerate_scan_devices
+udev_enumerate_get_list_entry
+udev_list_entry_get_name
+udev_device_new_from_syspath
+udev_device_get_devnode
+udev_list_entry_get_next
+udev_device_unref
+udev_unref
+udev_enumerate_unref
+endswith
+fstab_filter_options
+detect_container
+path_equal
+log_get_max_level
+log_internal
+cunescape
+path_startswith
+safe_fclose
+log_assert_failed
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+D$x1
+D$l1
+;t$p
+D$|1
+D$xx)
+|$DgE#
+D$D=
+=CEXE
+D$DgE#
+D$D#
+D$Yu
+D$DCEXE
+|$D#
+|$DgE#
+D$D=
+=CEXE
+D$|1
+t S1
+90u<
+|$ 	
+|$ 	
+[^_]
+L$(9
+\$,)
+D$He
+D$41
+T$<t
+D$81
+[^_]
+UWVS1
+L$/e
+L$L1
+T$Le3
+\[^_]
+D$81
+UWVS
+[^_]
+src/core/umount.c
+*_head == _item
+/proc/self/cmdline
+/proc/%i/cmdline
+src/core/killall.c
+sigemptyset(&mask) == 0
+/proc
+kill(-1, SIGSTOP) failed: %m
+Could not kill %d: %m
+kill(-1, SIGCONT) failed: %m
+waitpid() failed: %m
+sigtimedwait() failed: %m
+Detaching DM %u:%u.
+major(devnum) != 0
+/dev/mapper/control
+Could not detach DM %s: %m
+/usr
+/run/initramfs
+Unmounting %s.
+Could not unmount %s: %m
+/sys
+ DM devices,
+ loop devices,
+ swap devices,
+ file systems,
+src/core/shutdown.c
+argc >= 1
+argv
+Excess arguments, ignoring
+Unhandled option code.
+Verb argument missing.
+Not executed by init (PID 1).
+reboot
+poweroff
+halt
+kexec
+exit
+Unknown action '%s'.
+WATCHDOG_USEC
+_systemd
+/proc/self/mountinfo
+Unmounting file systems.
+/sys/fs/cgroup/
+All filesystems unmounted.
+/proc/swaps
+Deactivating swaps.
+%*s %*s %*s %*s %*s
+%ms %*s %*s %*s %*s
+ (deleted)
+Deactivating swap %s.
+All swaps deactivated.
+Detaching loop devices.
+block
+loop*
+loop/backing_file
+Detaching loopback %s.
+All loop devices detached.
+Detaching DM devices.
+dm-*
+All DM devices detached.
+/run/initramfs/shutdown
+/oldroot
+/shutdown
+Rebooting with kexec.
+/run/systemd/reboot-param
+Failed to fork: %m
+/usr/sbin/kexec
+Rebooting with argument '%s'.
+Rebooting.
+Powering off.
+Halting system.
+Unknown magic
+Exiting container.
+Failed to invoke reboot(): %m
+/dev
+log-level
+log-target
+log-color
+log-location
+exit-code
+sysfs
+proc
+devtmpfs
+mode=755
+securityfs
+/sys/kernel/security
+smackfs
+/sys/fs/smackfs
+smackfsdef=*
+tmpfs
+/dev/shm
+mode=1777,smackfsroot=*
+mode=1777
+devpts
+/dev/pts
+mode=620,gid=5
+/run
+mode=755,smackfsroot=*
+cgroup
+/sys/fs/cgroup
+cgroup2
+/sys/fs/cgroup/unified
+/sys/fs/cgroup/systemd
+none,name=systemd,xattr
+none,name=systemd
+pstore
+/sys/fs/pstore
+efivarfs
+/sys/firmware/efi/efivars
+Process %i (%s) has been marked to be excluded from killing. It is running from the root file system, and thus likely to block re-mounting of the root file system to read-only. Please consider moving it into an initrd file system instead.
+sigaddset(&mask, SIGCHLD) == 0
+sigprocmask(SIG_BLOCK, &mask, &oldmask) == 0
+Sending SIGKILL to PID %i (%s).
+sigtimedwait() returned unexpected signal.
+sigprocmask(SIG_SETMASK, &oldmask, NULL) == 0
+Remounting '%s' read-only with options '%s'.
+Failed to remount '%s' read-only: %m
+Failed to parse log level %s, ignoring.
+Failed to parse log target %s, ignoring
+Failed to parse log color setting %s, ignoring
+Failed to parse log location setting %s, ignoring
+Failed to parse exit code %s, ignoring
+Sending SIGTERM to remaining processes...
+Sending SIGKILL to remaining processes...
+%*s %*s %*s %*s %ms %*s%*[^-]- %*s %*s%ms%*[^
+Failed to parse /proc/self/mountinfo:%u.
+Not all file systems unmounted, %d left.
+Failed to unmount file systems: %m
+Failed to parse /proc/swaps:%u.
+Could not deactivate swap %s: %m
+Not all swaps deactivated, %d left.
+Failed to deactivate swaps: %m
+Could not detach loopback %s: %m
+Not all loop devices detached, %d left.
+Failed to detach loop devices: %m
+Not all DM devices detached, %d left.
+Failed to detach DM devices: %m
+All filesystems, swaps, loop devices, DM devices detached.
+Cannot finalize remaining%s%s%s%s continuing.
+After %u retries, couldn't finalize remaining %s%s%s%s trying again.
+Too many iterations, giving up.
+Failed to mount bind /run/initramfs on /run/initramfs: %m
+Failed to make /run/initramfs private mount: %m
+Successfully changed into root pivot.
+Returning to initrd...
+Failed to execute shutdown binary: %m
+Failed to switch root to "/run/initramfs": %m
+Failed to finalize %s%s%s%s ignoring
+Failed to read reboot parameter file: %m
+Failed to reboot with parameter, retrying without: %m
+Critical error while doing system shutdown: %m
+/usr/lib/systemd/system-shutdown
+mount_point_free
+mount_points_list_umount
+delete_dm
+dm_points_list_detach
+parse_argv
+parse_argv
+/sys/fs/selinux
+/proc/sys
+/dev/console
+/proc/kmsg
+mount_points_list_get
+swap_list_get
+swap_points_list_off
+loopback_points_list_detach
+switch_root_initramfs
+main
+main
+ignore_proc
+wait_for_children
+killall
+broadcast_signal
+broadcast_signal
+;*2$"
+zPLR
+gold 1.12
+systemd-shutdown.debug
+7zXZ
+/ir;T
+s{%08
+zw7C
+tuDQ3
+!X)b
+SEH]
+bbc7D
+ZQ;Z>
+<Noi
+jdUr
+:-duJ
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

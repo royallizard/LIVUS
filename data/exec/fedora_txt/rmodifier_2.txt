@@ -1,0 +1,307 @@
+Vs1`oWlGj%w
+-P.F
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+rmodifier_valid
+rmodifier_list
+rmodifier_search
+strcmp
+rmodifier_hide_string
+weechat_rmodifier_plugin
+rmodifier_config_look_hide_char
+strlen
+malloc
+strcat
+rmodifier_replace_groups
+__strdup
+realloc
+rmodifier_modifier_cb
+regexec
+rmodifier_hook_modifiers
+__snprintf_chk
+__stack_chk_fail
+rmodifier_free
+last_rmodifier
+regfree
+rmodifier_count
+rmodifier_new
+rmodifier_new_with_string
+strchr
+rindex
+rmodifier_create_default
+rmodifier_config_default_list
+rmodifier_config_modifier_new_option
+rmodifier_free_all
+rmodifier_add_to_infolist
+rmodifier_print_log
+weechat_plugin_init
+rmodifier_hook_list
+rmodifier_config_init
+rmodifier_config_read
+rmodifier_command_init
+rmodifier_completion_init
+rmodifier_info_init
+rmodifier_debug_init
+weechat_plugin_end
+rmodifier_config_write
+rmodifier_config_file
+weechat_plugin_license
+weechat_plugin_version
+weechat_plugin_author
+weechat_plugin_description
+weechat_plugin_api_version
+weechat_plugin_name
+rmodifier_command_print
+rmodifier_command_list
+rmodifier_command_cb
+rmodifier_config_section_modifier
+rmodifier_completion_cb
+rmodifier_config_modifier_write_default_cb
+rmodifier_config_reload
+rmodifier_config_modifier_change_cb
+rmodifier_config_modifier_delete_cb
+rmodifier_config_modifier_create_option_cb
+rmodifier_debug_signal_debug_dump_cb
+rmodifier_info_get_infolist_cb
+libc.so.6
+_edata
+__bss_start
+rmodifier.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+=rE 
+=9E 
+fffff.
+ffff.
+ffffff.
+AVAUATL
+%9B 
+5nB 
+[]A\A]A^
+AUATUSH
+Hct$
+([]A\A]A^A_
+[]A\A]A^A_
+T$HH
+|$(E1
+T$0H
+P[]A\
+AVAUATUH
+Hc|$
+[]A\A]A^A_
+ffffff.
+AWAVAUATUSH
+5_> 
+-I> 
+[]A\A]A^A_
+5m= 
+ffff.
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUE1
+ATUSH
+t_H9
+=Y; 
+[]A\A]A^A_
+fffff.
+[]A\
+AVAUATUSH
+D$H1
+L$HdH3
+P[]A\A]A^
+AUATUSH
+-t8 
+~1E1
+[]A\A]
+[]A\
+AWAVI
+D$`H
+D$hH
+D$xH
+D$pH
+T$`H
+D$h1
+T$PH
+T$xH
+L$HL
+t$0H
+D$(H
+t$ 1
+\$@L
+T$8L
+[]A\A]A^A_
+ATUSH
+[]A\
+[]A\A
+AWAVAUATA
+-u3 
+[]A\A]A^A_
+L$0I
+T$ I
+ATUH
+AVAUI
+T$HH
+T$8H
+[]A\A]A^A_
+h[]A\A]A^A_
+AUATUH
+[]A\A]A^
+%A+ 
+T$ H
+[]A\
+[]A\
+tsAUH
+ATUH
+[]A\A]
+[]A\A]
+[]A\A]
+fff.
+5000|%s
+error
+rmodifier
+name
+hook_%05d
+hooks_count
+str_regex
+groups
+[rmodifier %s (addr:0x%lx)]
+  modifiers. . . . . . : '%s'
+  hooks_count. . . . . : %d
+  str_regex. . . . . . : '%s'
+  groups . . . . . . . : '%s'
+%s%s: error compiling regular expression "%s"
+  hooks. . . . . . . . : 0x%lx
+    hooks[%03d] . . . . : 0x%lx
+  regex. . . . . . . . : 0x%lx
+  prev_rmodifier . . . : 0x%lx
+  next_rmodifier . . . : 0x%lx
+%s%s: error creating configuration file
+chat_delimiters
+chat
+chat_host
+No rmodifier defined
+List of rmodifiers:
+list
+listdefault
+Default rmodifiers:
+Rmodifier "%s" created
+-all
+%d rmodifiers removed
+Rmodifier "%s" removed
+%sRmodifier "%s" not found
+-yes
+Default rmodifiers restored:
+  %s[%s%s%s]%s %s%s: "%s%s%s" [%s%s%s]
+%sError: missing arguments for "%s" command
+%s%s: error creating rmodifier "%s"
+%sError: "-yes" argument is required for restoring default rmodifiers (security reason)
+list || listdefault || add %(rmodifier) || del %(rmodifier)|-all %(rmodifier)|%* || default
+       list: list all rmodifiers
+listdefault: list default rmodifiers
+        add: add a rmodifier
+       name: name of rmodifier
+  modifiers: comma separated list of modifiers
+     groups: action on groups found: comma separated list of groups (from 1 to 9) with optional "*" after number to hide group
+      regex: regular expression (case insensitive, can start by "(?-i)" to become case sensitive)
+        del: delete a rmodifier
+       -all: delete all rmodifiers
+    default: restore default rmodifiers
+Examples:
+  hide everything typed after a command /password:
+    /rmodifier add password input_text_display 1,2* ^(/password +)(.*)
+  delete rmodifier "password":
+    /rmodifier del password
+  delete all rmodifiers:
+    /rmodifier del -all
+list|listdefault || add <name> <modifiers> <groups> <regex> || del <name>|-all [<name>...] || default -yes
+alter modifier strings with regular expressions
+sort
+list of rmodifiers
+"%s;%s;%s"
+value
+%s;%s;%s
+string
+look
+hide_char
+nickserv
+1,4*
+server
+1,4*,5
+oper
+^(/oper +\S+ +)(.*)
+1,2*
+quote_pass
+^(/quote pass +)(.*)
+set_pass
+history_add
+^(/set +\S*password\S* +)(.*)
+%s%s: error creating rmodifier "%s" => "%s"
+char used to hide part of a string
+history_add,input_text_display
+^(/(msg|quote) +nickserv +(id|identify|ghost \S+|release \S+) +)(.*)
+^(/(server|connect) .*-(sasl_)?password=)(\S+)(.*)
+***** "%s" plugin dump *****
+debug_dump
+***** End of "%s" plugin dump *****
+rmodifier pointer (optional)
+rmodifier name (can start or end with "*" as joker) (optional)
+;*3$"
+GPL3
+0.4.0
+Sebastien Helleu <flashcode@flashtux.org>
+String modifier with regular expressions
+20121208-01
+rmodifier
+rmodifier.so.debug
+7zXZ
+1\p$
+M^@W
+?2`R
+U=~>do
+MH4z%n
+-m5X
+4LZd*
+.PG7p
+a6^:l
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

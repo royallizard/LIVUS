@@ -1,0 +1,392 @@
+Lq3j/
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+initgpspacket
+PyType_Ready
+Py_InitModule4_64
+PyModule_AddIntConstant
+packet_reset
+PyErr_Occurred
+PyArg_ParseTuple
+packet_get
+Py_BuildValue
+PyCallable_Check
+_Py_NoneStruct
+PyExc_TypeError
+PyErr_SetString
+_PyObject_New
+Py_FindMethod
+PyObject_Free
+gpsd_report
+gpsd_hexdump_level
+__vsnprintf_chk
+PyObject_Call
+__stack_chk_fail
+isgps_init
+memmove
+gpsd_hexdump_wrapper
+memcpy
+packet_parse
+__ctype_b_loc
+rtcm2_decode
+crc24q_check
+crc24q_hash
+__snprintf_chk
+__ctype_toupper_loc
+read
+__errno_location
+strerror
+isgps_parity
+isgps_decode
+rtcm2_undump
+sscanf
+strcmp
+rtcm2_dump
+strlen
+strlcat
+rtcm2_repack
+rint
+rtcm2_unpack
+strlcpy
+gpsd_hexdump
+hex2bin
+hex_escapes
+gpsd_hexpack
+memset
+crc24q_sign
+libpython2.6.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+ATSubH
+fffff.
+fff.
+l$ L
+d$(L
+l$0H
+D# H)
+fffff.
+fffff.
+l$ I
+l$ 1
+fffff.
+ATUSH
+D$8H
+T$0H
+T$@H
+T$(f.
+|$(H
+L$ H
+t$0L
+[]A\A]A^A_
+H;D$8
+<;H9
+L$ H
+L$ @
+L$ @
+L$ @
+t$ @
+t$ @
+t$ @
+t$ @
+t$ @
+t$ @
+t$ @
+t$ @
+L$ @
+AVAUATI
+@t1H
+[]A\A]A^A_
+ffff.
+T$ H
+l$0H
+L$,L
+t+0H
+D+ H
+D$ L
+D$$L
+t$$H
+T3 H
+t3@H
+9S r
+S ;S
+ATUH
+[]A\A]A^H
+K E1
+D9c w
+S8H)
+D$`H
+T$@H)
+L$PM
+D$`H
+S E1
+D$0A
+D$(A
+D$ A
+D9c 
+[ E1
+D9c 
+AWAVAUATUH
+t-E1
+8[]A\A]A^A_
+Mb`?
+t$ H
+t$ H
+AWAVAUATUS
+Px[]A\A]A^A_
+D1	H
+D1	D
+VUUU
+[]A\A]A^
+W A_
+[]A\A]A^A_
+Mb`?
+[]A\A]A^D
+G A_
+fffff.
+0<6vCH
+l$ H
+gpspacket
+BAD_PACKET
+EMPTY_PACKET
+COMMENT_PACKET
+NMEA_PACKET
+SIRF_PACKET
+ZODIAC_PACKET
+TSIP_PACKET
+EVERMORE_PACKET
+ITALK_PACKET
+GARMIN_PACKET
+NAVCOM_PACKET
+RTCM2_PACKET
+RTCM3_PACKET
+UBX_PACKET
+GARMINTXT_PACKET
+LOG_IO
+(i, s#)
+O:register_report
+:new
+(is)
+gpspacket.lexer
+reset
+i;missing or invalid file descriptor argument to gpspacket.get
+First argument must be callable
+Cannot call Python callback function
+new() -> new packet-lexer object
+Get a packet from a file descriptor.
+Reset the packet lexer to ground state.
+Packet discard of %zu, chars remaining is %zu = %s
+Packet type %d accepted %zu = %s
+Rejected too long packet type %d len %zu
+Navcom packet type 0x%hx bad checksum 0x%hx, expecting 0x%hx
+Zodiac Header checksum 0x%hx expecting 0x%hx
+Zodiac header id=%hd len=%hd flags=%hx
+ITALK: trying to process runt packet
+%08ld: character '%c' [%02x], new state: %s
+Character discarded, buffer %zu chars = %s
+SuperStarII pkt dump: type %u len %u: %s
+REJECT SuperStarII packet type 0x%02x%zd bad checksum 0x%04x, expecting 0x%04x
+Garmin checksum failed: %02x!=0
+Packet ID 0x%02x out of range for TSIP
+TSIP REJECT pkt_id = %#02x, packetlen= %zu
+TSIP pkt_id = %#02x, packetlen= %zu
+RTCM3 data checksum failure, %0x against %02x %02x %02x
+Zodiac data checksum 0x%hx over length %hd, expecting 0x%hx
+UBX checksum 0x%02hhx%02hhx over length %hd, expecting 0x%02hhx%02hhx (type 0x%02hhx%02hhx)
+EverMore checksum failed: %02x != %02x
+ITALK: checksum failed - type 0x%02x expected 0x%04x got 0x%04x
+Read %zd chars to buffer offset %zd (total %zd): %s
+Navcom packet dump: %s
+%02X
+!AIVDM
+Not a Garmin packet
+Not a TSIP packet
+UBX: len %d
+bad checksum in NMEA packet.
+no bytes ready
+errno: %s
+GROUND_STATE
+COMMENT_BODY
+COMMENT_RECOGNIZED
+NMEA_DOLLAR
+NMEA_BANG
+NMEA_PUB_LEAD
+NMEA_VENDOR_LEAD
+NMEA_LEADER_END
+NMEA_CR
+NMEA_RECOGNIZED
+SIRF_ACK_LEAD_1
+SIRF_ACK_LEAD_2
+AIS_LEAD_1
+AIS_LEAD_2
+SEATALK_LEAD_1
+DLE_LEADER
+ASTRAL_1
+ASTRAL_2
+ASTRAL_3
+ASTRAL_4
+ASTRAL_5
+EARTHA_1
+EARTHA_2
+EARTHA_3
+EARTHA_4
+EARTHA_5
+SIRF_LEADER_1
+SIRF_LEADER_2
+SIRF_LENGTH_1
+SIRF_PAYLOAD
+SIRF_DELIVERED
+SIRF_TRAILER_1
+SIRF_RECOGNIZED
+ZODIAC_EXPECTED
+ZODIAC_LEADER_1
+ZODIAC_LEADER_2
+ZODIAC_ID_1
+ZODIAC_ID_2
+ZODIAC_LENGTH_1
+ZODIAC_LENGTH_2
+ZODIAC_FLAGS_1
+ZODIAC_FLAGS_2
+ZODIAC_HSUM_1
+ZODIAC_PAYLOAD
+ZODIAC_RECOGNIZED
+EVERMORE_LEADER_1
+EVERMORE_LEADER_2
+EVERMORE_PAYLOAD
+EVERMORE_PAYLOAD_DLE
+EVERMORE_RECOGNIZED
+ITALK_LEADER_1
+ITALK_LEADER_2
+ITALK_LENGTH
+ITALK_PAYLOAD
+ITALK_DELIVERED
+ITALK_TRAILER
+ITALK_RECOGNIZED
+NAVCOM_EXPECTED
+NAVCOM_LEADER_1
+NAVCOM_LEADER_2
+NAVCOM_LEADER_3
+NAVCOM_ID
+NAVCOM_LENGTH_1
+NAVCOM_LENGTH_2
+NAVCOM_PAYLOAD
+NAVCOM_CSUM
+NAVCOM_RECOGNIZED
+UBX_LEADER_1
+UBX_LEADER_2
+UBX_CLASS_ID
+UBX_MESSAGE_ID
+UBX_LENGTH_1
+UBX_LENGTH_2
+UBX_PAYLOAD
+UBX_CHECKSUM_A
+UBX_RECOGNIZED
+TSIP_LEADER
+TSIP_PAYLOAD
+TSIP_DLE
+TSIP_RECOGNIZED
+GARMIN_RECOGNIZED
+SUPERSTAR2_LEADER
+SUPERSTAR2_ID1
+SUPERSTAR2_ID2
+SUPERSTAR2_PAYLOAD
+SUPERSTAR2_CKSUM1
+SUPERSTAR2_CKSUM2
+SUPERSTAR2_RECOGNIZED
+RTCM2_SYNC_STATE
+RTCM2_SKIP_STATE
+RTCM2_RECOGNIZED
+RTCM3_LEADER_1
+RTCM3_LEADER_2
+RTCM3_PAYLOAD
+RTCM3_RECOGNIZED
+ISGPS parity %u
+ISGPS residual %d
+ISGPS lock never achieved
+ISGPS word tag not correct, skipping byte
+ISGPS syncing at byte %lu: 0x%08x
+ISGPS preamble ok, parity ok -- locked
+ISGPS preamble ok, parity fail
+ISGPS processing word %u (offset %d)
+ISGPS buffer overflowing -- resetting
+ISGPS word 0 not a preamble- punting
+ISGPS parity failure, lost lock
+H	%u	%u	%lf	%u	%u	%u
+S	%u	%u	%u	%*f	%lf	%lf
+R	%lf	%lf	%lf
+D	%1023s	%1d	%5s	%lf	%lf	%lf
+GLONASS
+A	%lf	%lf	%u	%lf	%u	%u	%u
+T	"%[^"]"
+U	0x%08x
+H	%u	%u	%0.1f	%u	%u	%u
+S	%u	%u	%u	%0.1f	%0.3f	%0.3f
+R	%.2f	%.2f	%.2f
+UNKNOWN
+D	%s	%1d	%s	%.1f	%.1f	%.1f
+A	%.4f	%.4f	%u	%.1f	%u	%u	%u
+T	"%s"
+C	%2u	%1u	%1u	%2d	%1u	%1u	%1u	%2u
+333333
+Mb`?
+g@0123456789abcdef
+'	4T+
+/2/`
+O1mJC2
+yZ4z5
+-q>Na
+]'O[
+ZQV8VR
+OTAG
+CWbl}X
+_d^u
+pIpVq
+z}$}{j[
+Python binding of the libgpsd module for recognizing GPS packets.
+The new() function returns a new packet-lexer instance.  Lexer instances
+have two methods:
+    get() takes a file descriptor argument and returns a tuple consisting of
+the integer packet type and string packet value.  On end of file it returns
+(-1, '').
+    reset() resets the packet-lexer to its initial state.
+    The module also has a register_report() function that accepts a callback
+for debug message reporting.  The callback will get two arguments, the error
+level of the message and the message itself.
+GPS packet lexer object
+Fetch a single packet from file descriptor
+register_report(callback)
+callback must be a callable object expecting a string as parameter.
+gpspacket.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

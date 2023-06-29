@@ -1,0 +1,153 @@
+td`2
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+calloc
+dcgettext
+pa_context_get_state
+pa_threaded_mainloop_wait
+pa_context_unref
+pa_get_binary_name
+pa_path_get_filename
+pa_threaded_mainloop_get_api
+pa_context_new
+pa_context_set_state_callback
+pa_context_connect
+pa_context_errno
+pa_strerror
+xine_log
+stderr
+__fprintf_chk
+pa_threaded_mainloop_signal
+pa_stream_get_state
+pa_threaded_mainloop_lock
+pa_stream_disconnect
+pa_stream_unref
+pa_threaded_mainloop_unlock
+pa_stream_writable_size
+pa_stream_write
+pa_stream_get_latency
+_x_ao_mode2channels
+pa_sample_spec_valid
+pa_channel_map_valid
+pa_stream_new
+pa_stream_set_state_callback
+pa_stream_set_write_callback
+pa_stream_set_latency_update_callback
+pa_stream_connect_playback
+pthread_mutex_lock
+xine_list_front
+xine_list_get_value
+xine_event_send
+xine_list_next
+pthread_mutex_unlock
+pa_cvolume_set
+pa_stream_get_index
+pa_context_get_sink_input_info
+pa_operation_get_state
+pa_operation_unref
+pa_sw_volume_to_linear
+pa_cvolume_avg
+pa_context_disconnect
+pa_threaded_mainloop_free
+pa_stream_cork
+pa_stream_flush
+pa_sw_volume_from_linear
+pa_stream_get_sample_spec
+pa_context_set_sink_input_volume
+pa_context_set_sink_input_mute
+strrchr
+__strndup
+__strdup
+pa_threaded_mainloop_new
+pa_threaded_mainloop_start
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+libm.so.6
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libpulse.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+xineplug_ao_out_pulseaudio.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.3.4
+PULSE_0
+[^_]
+t$(uA
+t$(uA
+UWVS
+[^_]
+T$LxM
+[^_]
+d$ ^_]
+libxine1
+Xine
+this->context
+audio_pulse_out.c
+!"Should not be reached"
+cm.channels == 1
+cm.channels == 2
+cm.channels == 4
+!this->stream
+Audio Stream
+audio.volume.remember_volume
+audio.volume.mixer_volume
+(null)
+device used for pulseaudio
+audio.pulseaudio_device
+this->mainloop
+xine audio output plugin using pulseaudio sound server
+assert: %s:%d: %s: Assertion `%s' failed.
+audio_pulse_out: failed to connect context object %s
+audio_pulse_out: failed to connect context object: %s
+audio_pulse_out: stream operation failed: %s
+audio_pulse_out: context operation failed: %s
+audio_pulse_out: failed to query latency: %s
+audio_pulse_out: ao_open bits=%d rate=%d, mode=%d
+audio_pulse_out: unsupported mode %08x
+audio_pulse_out: Invalid sample spec
+audio_pulse_out: Invalid channel map
+audio_pulse_out: Failed to get sink input info: %s
+use 'server[:sink]' for setting the pulseaudio sink device.
+audio_pulse_out: host %s sink %s
+open_plugin
+connect_context
+ao_pulse_open
+xineplug_ao_out_pulseaudio.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

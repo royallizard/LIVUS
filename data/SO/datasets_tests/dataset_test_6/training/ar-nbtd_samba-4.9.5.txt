@@ -1,0 +1,995 @@
+o|9X+
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+DEBUGLEVEL_CLASS
+talloc_named_const
+_talloc_steal_loc
+nbt_name_socket_init
+lpcfg_nbt_port
+socket_address_from_strings
+socket_listen
+_talloc_free
+nbt_set_incoming_handler
+nbt_set_unexpected_handler
+nbtd_dgram_setup
+dbghdrclass
+dbgtext
+nt_errstr
+talloc_check_name
+idr_find
+nbt_name_socket_handle_response_packet
+nbtd_self_packet_and_bcast
+nbtd_request_query
+nbtd_bad_packet
+nbtd_request_defense
+nbtd_winsserver_request
+nbtd_find_iname
+strcmp
+nbtd_startup_interfaces
+iface_list_count
+lpcfg_bind_interfaces_only
+iface_list_n_is_v4
+iface_list_n_bcast
+iface_list_n_ip
+talloc_strdup
+iface_list_n_netmask
+lpcfg_wins_server_list
+_talloc_zero
+iface_list_first_v4
+lpcfg_netbios_name
+interpret_addr2
+inet_ntoa
+nbtd_address_list
+iface_list_same_net
+str_list_add
+nbtd_find_request_iface
+nbtd_find_reply_iface
+lpcfg_netbios_scope
+strupper_talloc
+lpcfg_parm_int
+timeval_zero
+nbt_name_register_bcast_send
+tevent_req_set_callback
+nbtd_winsclient_register
+timeval_add
+_tevent_add_timer
+_tevent_req_callback_data
+_talloc_get_type_abort
+nbt_name_register_bcast_recv
+timeval_current
+nbt_name_string
+nbt_name_register_send
+__stack_chk_fail
+nbt_name_refresh_recv
+nbt_rcode_to_ntstatus
+nbtd_register_name
+nbtd_register_names
+lpcfg_netbios_aliases
+lpcfg_server_role
+lpcfg_workgroup
+samdb_is_pdc
+nbtd_name_query_reply
+nbtd_negative_name_query_reply
+lpcfg_we_are_a_wins_server
+nbtd_query_status
+nbtd_node_status_reply_packet
+_talloc_array
+nbt_name_dup
+_talloc_zero_array
+talloc_asprintf
+nbt_name_reply_send
+nbtd_self_packet
+nbtd_name_registration_reply
+ndr_print_nbt_name_packet
+ndr_print_debug
+nbtd_name_query_reply_packet
+str_list_length
+nbtd_name_release_reply
+nbtd_wack_reply
+dgram_mailslot_netlogon_parse_response
+irpc_send_reply
+dgram_mailslot_temp
+make_nbt_name_client
+make_nbt_name
+dgram_mailslot_netlogon_send
+nbtd_register_irpc
+ndr_table_irpc
+irpc_register
+nbtd_proxy_wins_challenge
+nbtd_proxy_wins_release_demand
+task_server_terminate
+socket_address_copy
+winsdb_addr_list_length
+winsdb_addr_string_list
+_talloc_set_destructor
+wins_challenge_send
+wins_server_ttl
+winsdb_addr_list_make
+winsdb_addr_list_add
+winsdb_add
+winsdb_lookup
+winsdb_modify
+winsdb_addr_list_remove
+winsdb_delete
+wins_challenge_recv
+strlen
+winsdb_addr_list_check
+lpcfg_parm_bool
+lpcfg_wins_dns_proxy
+nbtd_wins_dns_proxy_query
+ldb_qsort
+lpcfg_parm_string
+random
+nbtd_winsserver_init
+lpcfg_max_wins_ttl
+lpcfg_min_wins_ttl
+winsdb_connect
+irpc_add_name
+load_interface_list
+nbt_name_register_wins_recv
+_talloc_move
+timeval_current_ofs
+str_list_make_single
+nbt_name_refresh_wins_send
+nbt_name_register_wins_send
+nbt_name_refresh_wins_recv
+nbt_name_query_recv
+composite_done
+nbt_name_query_send
+composite_continue_nbt
+composite_error
+nbt_name_release_recv
+nbt_name_release_send
+resolve_name_recv
+resolve_context_init
+resolve_context_add_host_method
+resolve_name_send
+lpcfg_disable_netbios
+task_server_set_title
+system_session
+samdb_connect
+samba_init_module
+register_server_service
+dgram_request_handler
+ndr_print_nbt_dgram_packet
+nbt_dgram_socket_init
+lpcfg_dgram_port
+dgram_set_incoming_handler
+nbtd_mailslot_netlogon_handler
+dgram_mailslot_listen
+nbtd_mailslot_browse_handler
+dgram_mailslot_netlogon_parse_request
+ndr_print_nbt_netlogon_packet
+fill_netlogon_samlogon_response
+dgram_mailslot_netlogon_reply
+strcasecmp_m
+dom_sid_string_buf
+dgram_mailslot_browse_parse
+ndr_print_nbt_browse_packet
+ldb_dn_new_fmt
+ldb_dn_is_valid
+ldb_dn_add_child_fmt
+winsdb_get_maxVersion
+ldb_dn_new
+ldb_search
+ldb_msg_find_attr_as_uint64
+winsdb_set_maxVersion
+ldb_transaction_start
+ldb_msg_new
+ldb_msg_add_empty
+ldb_transaction_cancel
+ldb_msg_add_string
+ldb_msg_add_fmt
+ldb_modify
+ldb_transaction_commit
+ldb_add
+_talloc_realloc_array
+ldb_timestring
+winsdb_record
+ldb_dn_get_comp_num
+ldb_dn_get_component_name
+strcasecmp
+ldb_dn_get_component_val
+strtoul
+ldb_msg_find_attr_as_int
+ldb_msg_find_attr_as_string
+ldb_string_to_time
+ldb_msg_find_element
+strchr
+ldb_dn_get_linearized
+get_time_t_max
+ldb_delete
+lpcfg_state_path
+ldb_wrap_connect
+lpcfg_wins_hook
+ldb_set_opaque
+talloc_asprintf_append_buffer
+signal
+fork
+execl
+_exit
+libsamba-util.so.0
+libcli-nbt-samba4.so
+libservice-samba4.so
+libldbsamba-samba4.so
+libdsdb-module-samba4.so
+libndr-nbt.so.0
+libndr.so.0
+libsamba-sockets-samba4.so
+libsamba-debug-samba4.so
+libsamba-security-samba4.so
+libndr-samba4.so
+libsamba-hostconfig.so.0
+libMESSAGING-samba4.so
+libdcerpc.so.0
+libsamdb-common-samba4.so
+libsamba-errors.so.1
+libsamdb.so.0
+libnetif-samba4.so
+libcli-ldap-samba4.so
+libldb.so.1
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+nbtd.so
+SAMBA_4.9.5
+NDR_0.0.1
+SAMDB_0.0.1
+SAMBA_ERRORS_1
+SAMBA_HOSTCONFIG_0.0.1
+GLIBC_2.4
+GLIBC_2.2.5
+TEVENT_0.9.9
+TALLOC_2.0.2
+NDR_NBT_0.0.1
+LDB_0.9.10
+DCERPC_0.0.1
+SAMBA_UTIL_0.0.1
+/usr/lib/samba:/usr/lib
+u3UH
+AWAVAUM
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+D$(H
+[]A\A]A^A_
+]A\A]
+Ht0f=
+xtlf=
+@t$H
+]A\A]
+]A\A]
+[]A\A]
+]A\A]
+]A\A]
+AUATUSH
+t$9k(u
+C0D!
+[]A\A]
+AVAUATUH
+([]A\A]A^A_
+AWAVI
+AUATUH
+[]A\A]A^A_
+[]A\A]
+AUATU
+D$ I
+D$(I
+l$8I
+D$<I
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUH
+[]A\A]A^
+]A\A]A^
+D$x1
+D$ H
+D$2I
+D$xdH3
+[]A\
+AUATI
+D$x1
+D$xdH3
+[]A\A]A^
+t$`H
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+A\A]A^A_
+[]A\A]A^A_
+AUATE1
+[]A\A]A^A_
+AWAVAUI
+ATUH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+A\A]A^A_
+AWAVAUATI
+]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+[]A\A]
+t&H9X0t
+[]A\
+AWAVAUATUSH
+T$@H
+t@E1
+L9|$@t=H
+[]A\A]A^A_
+AUATUH
+d$PD
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUH
+[]A\A]A^A_
+([]A\A]A^A_
+AUATUH
+[]A\A]A^A_
+([]A\A]A^A_
+AWAVA
+AUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+;\tZL
+D$0H
+[]A\A]
+L$(H
+T$ H
+AWAVAUATUH
+|$ L
+t$@H
+D$XH
+t$PH
+D$hH
+[]A\A]A^A_
+[]A\
+BHH9
+H98tNH
+BHH9
+AUATUSH
+]A\A]
+AWAVAUI
+D$(H
+}0fA
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\
+AVAUATUH
+D$X1
+\$(H
+D$@H
+D$PZYH
+T$XdH3
+h[]A\A]A^A_
+D$@L
+AWAVAUATUSH
+U H9P 
+E0XZM
+E0Y^H
+([]A\A]A^A_
+L9d$
+ATUH
+[]A\A]
+[]A\A]
+D$(H
+D$(H
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+D$X1
+D$@L
+D$XdH3
+h[]A\A]A^A_
+L$@H
+L$@L
+|$@M
+E(f;
+A9t$
+T$ uZH
+L$@H
+D$,H
+D$@A
+AZA[
+D$@H
+L$8H
+)D$@I
+D$8H
+D$@H
+L$@L
+T$@H
+t$(I
+D$ 1
+L$@H
+L$@L
+L$@H
+L$@L
+L$@L
+|$@L
+t$@H
+F8Qj
+F0^_H
+T$@E
+|$@M
+AUATI
+[]A\A]
+[]A\A]
+[]A\A]
+ATUS
+]A\A]A^
+[]A\A]A^
+[]A\A]A^
+ATUH
+[]A\A]
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]
+[]A\A]
+[]A\A]
+ATUSH
+;A r
+[]A\A]
+A\A]
+[]A\A]
+[]A\A]
+A\A]
+[]A\A]
+T$0H
+[]A\A]
+ATUSH
+D$0H
+9k@w
+[]A\A]
+D$(H
+[]A\
+[]A\
+AUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+D$ 1
+l$(A
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\
+AWAVAUI
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATI
+8	~a1
+[]A\A]A^A_
+M8E1
+D$(H
+G(PA
+D$HH
+D$(I
+D$0H
+AWAVAUI
+t$8SH
+[]A\A]A^A_
+AUATI
+[]A\A]A^
+t`ATI
+[]A\
+AWAVAUI
+ATUH
+D$pH
+|$ L
+D$/H
+[]A\A]A^A_
+\$ L
+D$ M
+D$/I
+ATUSH
+[]A\
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+AUATI
+]A\A]A^
+]A\A]A^
+AWAVAUATI
+X[]A\A]A^A_
+T$(I
+T$(I
+l$8L
+D$0H
+L$ H
+|$ L
+D$0L
+l$8H
+D$0L
+K0u4J
+L$ H
+l$(J
+D9|$,
+L$(	
+C0uLJ
+D$(1
+D$ H
+t$ L
+D$ I
+L$(dH3
+8[]A\A]A^A_
+ATUH
+]A\A]A^
+]A\A]A^
+ATUH
+]A\A]A^
+]A\A]A^
+[]A\A]
+[]A\A]
+AWAVE
+AXAYH
+([]A\A]A^A_
+AVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+../source4/nbt_server/interfaces.c:165
+nbtd_add_socket(%s, %s, %s, %s)
+../source4/nbt_server/interfaces.c:179
+../source4/nbt_server/interfaces.c:180
+../source4/nbt_server/interfaces.c:181
+../source4/nbt_server/interfaces.c:191
+../source4/nbt_server/interfaces.c:198
+../source4/nbt_server/interfaces.c:205
+../source4/nbt_server/interfaces.c:206
+../source4/nbt_server/interfaces.c:209
+../source4/nbt_server/interfaces.c:217
+../source4/nbt_server/interfaces.c:228
+../source4/nbt_server/interfaces.c:229
+../source4/nbt_server/interfaces.c:232
+../source4/nbt_server/interfaces.c:241
+Failed to setup dgram listen on %s - %s
+../source4/nbt_server/interfaces.c:242
+../source4/nbt_server/interfaces.c:92
+unexpected from src[%s] on interface[%p] %s/%s
+../source4/nbt_server/interfaces.c:118
+unexpected from src[%s] unable to redirected
+../source4/nbt_server/interfaces.c:123
+unexpected from src[%s] redirected to interface[%p] %s/%s
+../source4/nbt_server/interfaces.c:50
+Ignoring bcast self packet from %s:%d
+talloc_new: ../source4/nbt_server/interfaces.c:281
+../source4/nbt_server/interfaces.c:338
+../source4/nbt_server/interfaces.c:374
+../source4/nbt_server/interfaces.c:392
+find interface for dst[%s] ip: %s/%s (iface[%p])
+../source4/nbt_server/interfaces.c:401
+find interface for dst[%s] ip: %s/%s (bcast iface[%p])
+../source4/nbt_server/interfaces.c:408
+find interface for dst[%s] ip: %s/%s (default iface[%p])
+struct nbtd_interface
+0.0.0.0
+Failed to bind to %s:%d - %s
+Unexpected opcode
+255.255.255.255
+255.0.0.0
+127.0.0.1
+nbtd_find_request_iface
+nbtd_request_handler
+nbtd_unexpected_handler
+nbtd_add_socket
+struct nbtd_iface_name
+bcast_ttl
+nbtd
+max_refresh_time
+name_refresh_handler
+__SAMBA__
+struct nbtd_register_name_state
+../source4/nbt_server/register.c:129
+../source4/nbt_server/register.c:144
+../source4/nbt_server/register.c:149
+../source4/nbt_server/register.c:155
+Registered %s with %s on interface %s
+../source4/nbt_server/register.c:157
+../source4/nbt_server/register.c:168
+Error registering %s with %s on interface %s - %s
+../source4/nbt_server/register.c:169
+talloc_new: ../source4/nbt_server/register.c:46
+../source4/nbt_server/register.c:52
+Refreshed name %s with %s on interface %s
+../source4/nbt_server/register.c:55
+../source4/nbt_server/register.c:66
+Name conflict from %s refreshing name %s with %s on interface %s - %s
+../source4/nbt_server/register.c:71
+Error refreshing name %s with %s on interface %s - %s
+../source4/nbt_server/register.c:74
+refresh_completion_handler
+nbtd_register_name_handler
+packet->qdcount == 1
+packet->questions[0].question_type == NBT_QTYPE_NETBIOS
+packet->questions[0].question_class == NBT_QCLASS_IP
+../source4/nbt_server/query.c:95
+Query for %s from %s - name not active yet on %s
+nbtd_request_query
+struct nbt_name_packet
+struct nbt_res_rec
+struct nbt_status_name
+%-15s
+../source4/nbt_server/nodestatus.c:119
+packet->questions[0].question_type == NBT_QTYPE_STATUS
+../source4/nbt_server/nodestatus.c:176
+Node status query for %s from %s - not found on %s
+../source4/nbt_server/nodestatus.c:145
+Sending node status reply for %s to %s:%d
+../source4/nbt_server/nodestatus.c:150
+nbtd_node_status_reply
+nbtd_query_status
+packet->arcount == 1
+packet->additional[0].rr_type == NBT_QTYPE_NETBIOS
+packet->additional[0].rr_class == NBT_QCLASS_IP
+packet->additional[0].rdata.netbios.length == 6
+../source4/nbt_server/defense.c:74
+Defending name %s on %s against %s
+nbtd_request_defense
+../source4/nbt_server/packet.c:35
+nbtd: bad packet '%s' from %s:%d
+../source4/nbt_server/packet.c:36
+../source4/nbt_server/packet.c:166
+../source4/nbt_server/packet.c:197
+Sending name query reply for %s at %s to %s:%d
+../source4/nbt_server/packet.c:202
+../source4/nbt_server/packet.c:240
+Sending negative name query reply for %s to %s:%d
+../source4/nbt_server/packet.c:246
+../source4/nbt_server/packet.c:287
+Sending %s name registration reply for %s to %s:%d
+../source4/nbt_server/packet.c:293
+../source4/nbt_server/packet.c:333
+Sending %s name release reply for %s to %s:%d
+../source4/nbt_server/packet.c:339
+../source4/nbt_server/packet.c:380
+Sending WACK reply for %s to %s:%d
+../source4/nbt_server/packet.c:386
+struct nbt_rdata_address
+positive
+negative
+uint8_t
+nbtd_wack_reply
+nbtd_name_release_reply
+nbtd_name_registration_reply
+nbtd_negative_name_query_reply
+nbtd_name_query_reply
+nbtd_bad_packet
+struct nbtd_server
+struct getdc_state
+talloc failed
+nbtd_getdcname called
+\MAILSLOT\NET\GETDC
+\MAILSLOT\NET\NETLOGON
+../source4/nbt_server/irpc.c:77
+dgram_mailslot_ntlogon_parse failed: %s
+../source4/nbt_server/irpc.c:93
+NTLOGON_SAM_LOGON_REPLY: server: %s, user: %s, domain: %s
+../source4/nbt_server/irpc.c:100
+../source4/nbt_server/irpc.c:125
+../source4/nbt_server/irpc.c:163
+dgram_mailslot_ntlogon_send failed: %s
+nbtd failed to setup monitoring
+nbtd failed to setup getdcname handler
+nbtd failed to setup wins challenge handler
+nbtd failed to setup wins release demand handler
+getdc_recv_netlogon_reply
+nbtd_getdcname
+struct nbtd_wins_wack_state
+255.255.255.0
+wins_prepend1Bto1Cqueries
+wins_randomize1Clist
+wins_randomize1Clist_mask
+Registered Addresses: 
+propagate name releases
+wreplsrv
+struct wins_server
+tombstone_interval
+ tombstone_timeout
+local_owner
+winsdb
+../source4/nbt_server/wins/winsserver.c:410
+../source4/nbt_server/wins/winsserver.c:411
+../source4/nbt_server/wins/winsserver.c:447
+../source4/nbt_server/wins/winsserver.c:239
+WINS: denied name registration request for %s from %s:%d
+../source4/nbt_server/wins/winsserver.c:240
+../source4/nbt_server/wins/winsserver.c:109
+WINS: accepted registration of %s with address %s
+../source4/nbt_server/wins/winsserver.c:258
+WINS: record %s changed during WACK - failing registration
+../source4/nbt_server/wins/winsserver.c:274
+WINS: record %s failed to register as new during WACK
+../source4/nbt_server/wins/winsserver.c:326
+../source4/nbt_server/wins/winsserver.c:332
+../source4/nbt_server/wins/winsserver.c:358
+WINS: record %s failed to register as group type(%u) during WACK, it's still type(%u)
+../source4/nbt_server/wins/winsserver.c:149
+WINS: refreshed registration of %s at %s
+../source4/nbt_server/wins/winsserver.c:786
+../source4/nbt_server/wins/winsserver.c:816
+../source4/nbt_server/wins/winsserver.c:509
+Ignoring duplicate packet while WACK is pending from %s:%d
+../source4/nbt_server/wins/winsserver.c:533
+WINS: Attempt to register name %s as non normal group(%u) while a normal group is already there
+../source4/nbt_server/wins/winsserver.c:597
+WINS: Attempt to register name %s as non special group(%u) while a special group is already there
+../source4/nbt_server/wins/winsserver.c:180
+WINS: sgroup merge of %s at %s
+../source4/nbt_server/wins/winsserver.c:915
+WINS: silently ignoring attempted name release on %s from %s
+../source4/nbt_server/wins/winsserver.c:923
+WINS: released name %s from %s
+../source4/nbt_server/wins/winsserver.c:992
+WINS: FAILED: released name %s at %s: error:%u
+nbtd_winsserver_release
+wins_sgroup_merge
+wins_update_ttl
+wins_wack_allow
+wins_wack_deny
+wack_wins_challenge_handler
+wins_register_new
+nbtd_winsserver_register
+nbtd_wins_refresh
+wins_retry
+nbtd_wins_register_retry
+../source4/nbt_server/wins/winsclient.c:66
+../source4/nbt_server/wins/winsclient.c:190
+struct nbtd_wins_register_state
+../source4/nbt_server/wins/winsclient.c:194
+../source4/nbt_server/wins/winsclient.c:203
+../source4/nbt_server/wins/winsclient.c:204
+../source4/nbt_server/wins/winsclient.c:210
+Name register failure with WINS for %s - %s
+../source4/nbt_server/wins/winsclient.c:211
+../source4/nbt_server/wins/winsclient.c:219
+WINS server %s rejected name register of %s - %s
+../source4/nbt_server/wins/winsclient.c:221
+../source4/nbt_server/wins/winsclient.c:232
+../source4/nbt_server/wins/winsclient.c:239
+Registered %s with WINS server %s
+../source4/nbt_server/wins/winsclient.c:241
+struct nbtd_wins_refresh_state
+../source4/nbt_server/wins/winsclient.c:164
+../source4/nbt_server/wins/winsclient.c:170
+../source4/nbt_server/wins/winsclient.c:272
+../source4/nbt_server/wins/winsclient.c:279
+../source4/nbt_server/wins/winsclient.c:82
+../source4/nbt_server/wins/winsclient.c:86
+../source4/nbt_server/wins/winsclient.c:91
+Failed to refresh %s with WINS server %s
+../source4/nbt_server/wins/winsclient.c:92
+../source4/nbt_server/wins/winsclient.c:99
+Name refresh failure with WINS for %s - %s
+../source4/nbt_server/wins/winsclient.c:100
+../source4/nbt_server/wins/winsclient.c:108
+WINS server %s rejected name refresh of %s - %s
+../source4/nbt_server/wins/winsclient.c:110
+../source4/nbt_server/wins/winsclient.c:115
+Refreshed name %s with WINS server %s
+../source4/nbt_server/wins/winsclient.c:123
+../source4/nbt_server/wins/winsclient.c:128
+nbtd_wins_refresh_handler
+nbtd_wins_register_handler
+struct composite_context
+struct wins_challenge_state
+struct nbtd_proxy_wins_addr
+const char *
+struct proxy_wins_release_demand_state
+../source4/nbt_server/wins/winswack.c:193
+struct wins_release_demand_state
+../source4/nbt_server/wins/winswack.c:78
+../source4/nbt_server/wins/winswack.c:83
+struct proxy_wins_challenge_state
+../source4/nbt_server/wins/winswack.c:288
+../source4/nbt_server/wins/winswack.c:130
+../source4/nbt_server/wins/winswack.c:317
+../source4/nbt_server/wins/winswack.c:376
+../source4/nbt_server/wins/winswack.c:247
+struct wins_dns_proxy_state
+../source4/nbt_server/wins/wins_dns_proxy.c:54
+../source4/nbt_server/wins/wins_dns_proxy.c:81
+nbtd: no network interfaces configured
+nbtd: 'disable netbios = yes' set in smb.conf, shutting down nbt server
+nbtd failed to setup interfaces
+nbtd failed to start WINS server
+task[nbtd]
+nbtd: out of memory
+nbtd failed to open samdb
+nbt_server
+../source4/nbt_server/dgram/request.c:54
+General datagram request from %s:%d
+talloc_new: ../source4/nbt_server/dgram/request.c:68
+../source4/nbt_server/dgram/request.c:80
+../source4/nbt_server/dgram/request.c:88
+../source4/nbt_server/dgram/request.c:94
+../source4/nbt_server/dgram/request.c:97
+../source4/nbt_server/dgram/request.c:107
+../source4/nbt_server/dgram/request.c:114
+../source4/nbt_server/dgram/request.c:120
+../source4/nbt_server/dgram/request.c:122
+../source4/nbt_server/dgram/request.c:128
+\MAILSLOT\NET\NTLOGON
+\MAILSLOT\BROWSE
+nbtd_dgram_setup
+dgram_request_handler
+%s: 
+struct nbt_netlogon_packet
+struct nbt_netlogon_response
+netlogon
+Calculating reply failed: %s
+../source4/nbt_server/dgram/netlogon.c:268
+Could not obtain own IP address for datagram socket
+../source4/nbt_server/dgram/netlogon.c:247
+../source4/nbt_server/dgram/netlogon.c:61
+Not a PDC, so not processing LOGON_PRIMARY_QUERY
+../source4/nbt_server/dgram/netlogon.c:68
+GetDC requested for a domain %s that we don't host
+../source4/nbt_server/dgram/netlogon.c:154
+../source4/nbt_server/dgram/netlogon.c:171
+NBT netlogon query failed domain=%s sid=%s version=%d - %s
+../source4/nbt_server/dgram/netlogon.c:172
+../source4/nbt_server/dgram/netlogon.c:173
+../source4/nbt_server/dgram/netlogon.c:229
+unknown netlogon op %d from %s:%d
+../source4/nbt_server/dgram/netlogon.c:237
+../source4/nbt_server/dgram/netlogon.c:112
+../source4/nbt_server/dgram/netlogon.c:111
+../source4/nbt_server/dgram/netlogon.c:282
+../source4/nbt_server/dgram/netlogon.c:283
+nbtd_netlogon_samlogon
+nbtd_netlogon_getdc
+nbtd_netlogon_getdc
+nbtd_mailslot_netlogon_reply
+nbtd_mailslot_netlogon_reply
+nbtd_mailslot_netlogon_handler
+LocalMasterAnnouncement
+AnnouncementRequest
+Election
+GetBackupListReq
+GetBackupListResp
+BecomeBackup
+DomainAnnouncement
+ResetBrowserState
+HostAnnouncement
+struct nbt_browse_packet
+browse
+../source4/nbt_server/dgram/browse.c:70
+Browse %s (Op %d) on '%s' '%s' from %s:%d
+../source4/nbt_server/dgram/browse.c:76
+../source4/nbt_server/dgram/browse.c:82
+nbtd browse handler failed from %s:%d to %s - %s
+../source4/nbt_server/dgram/browse.c:83
+nbtd_mailslot_browse_handler
+struct winsdb_addr
+struct winsdb_handle
+type=0x%02X
+name=%s
+scope=%s
+CN=VERSION
+maxVersion
+objectClass
+winsMaxVersion
+%llu
+struct winsdb_addr *
+type
+scope
+winsRecord
+recordType
+recordState
+nodeType
+isStatic
+expireTime
+versionID
+winsOwner
+registeredBy
+struct winsdb_record
+struct nbt_name
+winsOwner:
+expireTime:
+wins.ldb
+nosync
+@MODULES
+wins_ldb
+@LIST
+talloc_new: ../source4/nbt_server/wins/winsdb.c:41
+../source4/nbt_server/wins/winsdb.c:57
+talloc_new: ../source4/nbt_server/wins/winsdb.c:73
+../source4/nbt_server/wins/winsdb.c:118
+../source4/nbt_server/wins/winsdb.c:123
+../source4/nbt_server/wins/winsdb.c:460
+../source4/nbt_server/wins/winsdb.c:466
+../source4/nbt_server/wins/winsdb.c:472
+../source4/nbt_server/wins/winsdb.c:775
+%s;winsOwner:%s;expireTime:%s;
+../source4/nbt_server/wins/winsdb.c:308
+../source4/nbt_server/wins/winsdb.c:534
+../source4/nbt_server/wins/winsdb.c:194
+../source4/nbt_server/wins/winsdb.c:616
+../source4/nbt_server/wins/winsdb.c:617
+../source4/nbt_server/wins/winsdb.c:225
+../source4/nbt_server/wins/winsdb.c:282
+../source4/nbt_server/wins/winsdb.c:681
+WINS: expiring name addr %s of %s (expired at %s)
+../source4/nbt_server/wins/winsdb.c:682
+../source4/nbt_server/wins/winsdb.c:701
+WINS: expiring name %s (because it has no active addresses)
+../source4/nbt_server/wins/winsdb.c:710
+winsdb_record: corrupted record: %s
+../source4/nbt_server/wins/winsdb.c:712
+talloc_new: ../source4/nbt_server/wins/winsdb.c:551
+../source4/nbt_server/wins/winsdb.c:570
+../source4/nbt_server/wins/winsdb.c:571
+../source4/nbt_server/wins/winsdb.c:576
+talloc_new: ../source4/nbt_server/wins/winsdb.c:786
+../source4/nbt_server/wins/winsdb.c:812
+../source4/nbt_server/wins/winsdb.c:817
+talloc_new: ../source4/nbt_server/wins/winsdb.c:829
+../source4/nbt_server/wins/winsdb.c:861
+../source4/nbt_server/wins/winsdb.c:866
+talloc_new: ../source4/nbt_server/wins/winsdb.c:877
+../source4/nbt_server/wins/winsdb.c:896
+../source4/nbt_server/wins/winsdb.c:901
+talloc_new: ../source4/nbt_server/wins/winsdb.c:914
+../source4/nbt_server/wins/winsdb.c:962
+../source4/nbt_server/wins/winsdb.c:946
+../source4/nbt_server/wins/winsdb.c:957
+../source4/nbt_server/wins/winsdb.c:967
+../source4/nbt_server/wins/winsdb.c:1011
+winsdb_record
+delete
+unknown
+%s %s %s %02x %ld
+call wins hook '%s'
+/bin/sh
+talloc_new: ../source4/nbt_server/wins/wins_hook.c:49
+../source4/nbt_server/wins/wins_hook.c:72
+../source4/nbt_server/wins/wins_hook.c:89
+../source4/nbt_server/wins/wins_hook.c:92
+../source4/nbt_server/wins/wins_hook.c:93
+FAILED: calling wins hook '%s'
+wins_hook
+GCC: (GNU) 8.2.1 20181127
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment

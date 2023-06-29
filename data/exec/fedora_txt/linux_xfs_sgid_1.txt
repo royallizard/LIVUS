@@ -1,0 +1,72 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+__errno_location
+DEBUGLEVEL_CLASS
+smb_vfs_call_mkdir
+talloc_tos
+parent_dirname
+dbghdrclass
+strerror
+dbgtext
+smb_vfs_call_stat
+_talloc_free
+smb_vfs_call_chmod
+unbecome_root
+init_samba_module
+smb_register_vfs
+libc.so.6
+_edata
+__bss_start
+_end
+linux_xfs_sgid.so
+GLIBC_2.2.5
+ATSubH
+[A\]
+T$(I
+T$(H
+modules/vfs_linux_xfs_sgid.c:31
+Calling linux_xfs_sgid_mkdir(%s)
+modules/vfs_linux_xfs_sgid.c:36
+SMB_VFS_NEXT_MKDIR returned error: %s
+modules/vfs_linux_xfs_sgid.c:41
+modules/vfs_linux_xfs_sgid.c:49
+modules/vfs_linux_xfs_sgid.c:53
+modules/vfs_linux_xfs_sgid.c:56
+modules/vfs_linux_xfs_sgid.c:65
+Could not stat just created dir %s: %s
+modules/vfs_linux_xfs_sgid.c:83
+parent_dirname failed
+NEXT_STAT(%s) failed: %s
+No SGID to inherit
+CHMOD(%s, %o) failed: %s
+linux_xfs_sgid
+linux_xfs_sgid_mkdir
+linux_xfs_sgid.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

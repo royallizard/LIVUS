@@ -1,0 +1,286 @@
+td@L
+/lib/ld-linux.so.2
+libopensc.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+sc_asn1_sig_value_rs_to_sequence
+sc_ctx_detect_readers
+sc_ctx_log_to_file
+sc_pkcs15_bind
+sc_ctx_get_reader_by_name
+sc_context_create
+sc_hex_to_bin
+sc_lock
+sc_pkcs15_verify_pin
+sc_strerror
+sc_release_context
+sc_ctx_get_reader
+sc_wait_for_event
+sc_pkcs15_find_pin_by_auth_id
+sc_pkcs15_decipher
+sc_connect_card
+sc_pkcs15_find_prkey_by_id_usage
+sc_pkcs15_unbind
+sc_unlock
+sc_ctx_get_reader_count
+sc_pkcs15_hex_string_to_id
+sc_detect_card_presence
+sc_disconnect_card
+sc_pkcs15_compute_signature
+libcrypto.so.10
+_init
+_fini
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__stpcpy_chk
+fflush
+__printf_chk
+exit
+fopen
+__strdup
+perror
+stdin
+strtol
+fgets
+calloc
+strlen
+tcsetattr
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+getpass
+__ctype_b_loc
+getenv
+optarg
+stderr
+getopt_long
+strncasecmp
+fileno
+fwrite
+fread
+__memcpy_chk
+strchr
+__vfprintf_chk
+tcgetattr
+__cxa_finalize
+__sprintf_chk
+_IO_getc
+strcmp
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.3.4
+D$l1
+T$le3
+[^_]
+[^_]
+D$4;
+[^_]
+[^_]
+[^_]
+D$<1
+T$<e3
+d$H[
+UWVS
+D$$e
+[^_]
+L$$1
+D$Dc
+D$,1
+EH;D$Du
+UWVS
+d$,[^_]
+UWVS
+|$L~U
+9l$Ht
+d$,[^_]
+UWVS
+l$pe
+D$L1
+;t$xr
+T$ )t$x
+D$Le3
+d$\[^_]
+UWVS
+L$\1
+T$$u
+Sec.
+Cont
+rolB
+yte 
+PROT
+d$ [^_
+TERM
+Sec.
+Env.f
+????
+PKCS
+#15 
+Auth
+AUTH
+UWVS
+D$ e
+[^_]
+UWVS
+t$,U
+[^_]
+signature
+decryption
+Enter PIN [%s]: 
+PIN code correct.
+read
+No input file specified.
+Compute signature failed: %s
+openssl
+sequence
+Decrypt failed: %s
+sck:r:i:o:f:Rp:vw
+pkcs15-crypt
+stderr
+Invalid AID value: '%s'
+PKCS #15 binding failed: %s
+Found %s!
+Decipher operation
+Uses reader number <arg>
+Selects the input file to use
+Outputs to file <arg>
+Outputs raw 8 bit data
+Input file is a SHA-1 hash
+Input file is a SHA-256 hash
+Input file is a SHA-384 hash
+Input file is a SHA-512 hash
+Input file is a SHA-224 hash
+Input file is a MD5 hash
+Use PKCS #1 v1.5 padding
+Wait for card insertion
+sign
+decipher
+reader
+input
+output
+signature-format
+sha-1
+sha-256
+sha-384
+sha-512
+sha-224
+pkcs1
+wait
+verbose
+Unable to find private %s key '%s': %s
+Unable to find any private %s key: %s
+Unable to find PIN code for private key: %s
+PIN code verification failed: %s
+Unable to open '%s' for writing.
+Unable to open '%s' for reading.
+Input has to be exactly %lu bytes, when using no padding.
+Deprecated non-native key detected! Upgrade your smart cards.
+Failed to convert signature to ASN1 sequence format.
+Failed to establish context: %s
+Trying to find a PKCS #15 compatible card...
+Performs digital signature operation
+Selects the private key ID to use
+Format for ECDSA signature <arg>: 'rs' (default), 'sequence', 'openssl'
+Uses password (PIN) <arg> (use - for reading PIN from STDIN)
+Specify AID of the on-card PKCS#15 application to be binded to (in hexadecimal form)
+Verbose operation. Use several times to enable debug output.
+Waiting for a reader to be attached...
+Error while waiting for a reader: %s
+Error while refreshing readers: %s
+Waiting for a card to be inserted...
+Error while waiting for a card: %s
+Reader "%s" not found (%d reader(s) detected)
+Connecting to card in reader %s...
+Failed to connect to card: %s
+No smart card readers found.
+Using reader with a card: %s
+Matched ATR in reader: %s
+Card not present.
+Using card driver %s.
+Failed to lock card: %s
+\x%02X
+%08X: 
+%02X 
+ [arg]
+Usage: %s [OPTIONS] %s
+Usage: %s [OPTIONS]
+Options:
+-%c, --%s%s
+    --%s%s
+  %-28s  %s
+NEVR
+NONE
+Ox%X
+error: 
+Aborting.
+warning: 
+env:
+;*2$"<
+pkcs15-crypt.debug
+7zXZ
+0&4P
+njW=
+A(h#
+:9B|&]o$
+nW6T
+qV*_N?^
+w|r9
+&^E(
+T,a48x7
+/+Vc
+d|Sj
+,W>l
+/+&f.
+|3Pi
+4w.J.[
+tKNH
+a-.]GB
+*b^0
+&$Lz
+DE<c
+6/:$
+hwM}VX
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

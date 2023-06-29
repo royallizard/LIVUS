@@ -1,0 +1,134 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+free
+pthread_key_create
+pthread_once
+pthread_getspecific
+ast_dummy_channel_alloc
+ast_cdr_dup
+ast_channel_cdr_set
+__ast_rwlock_rdlock
+fputs
+fflush
+fclose
+__ast_pthread_mutex_unlock
+ast_str_substitute_variables
+__ast_pthread_mutex_lock
+fopen
+__errno_location
+strerror
+ast_log
+__ast_rwlock_unlock
+__ao2_ref
+calloc
+pthread_setspecific
+__ast_pthread_mutex_destroy
+ast_config_load2
+ast_variable_browse
+__ast_calloc_with_stringfields
+__ast_string_field_ptr_build
+ast_config_AST_LOG_DIR
+__ast_pthread_mutex_init
+ast_config_destroy
+ast_cdr_unregister
+__ast_rwlock_wrlock
+ast_cdr_register
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+GLIBC_2.2.5
+5R  
+%T  
+%R  
+%J  
+%B  
+%:  
+%2  
+%*  
+%"  
+ffff.
+fffff.
+ffff.
+AVAUATUSH
+ []A\A]A^
+t)H9
+fffff.
+ATUSH
+[]A\A]
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/utils.h
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/threadstorage.h
+Unable to allocate channel for variable subsitution.
+Unable to re-open master file %s : %s
+Unable to load cdr_custom.conf. Not logging custom CSV CDRs.
+Unable to allocate memory for configuration settings.
+Mapping must have both a filename and a format at line %d
+Unable to lock sink list.  Unload failed.
+Unable to lock sink list.  Load failed.
+Customizable Comma Separated Values CDR Backend
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+cdr_custom.c
+&(&sinks)->lock
+&config->lock
+&sink->lock
+cdr_custom
+cdr_custom.conf
+mappings
+%s/%s/%s
+$Revision: 356042 $
+load_module
+load_config
+reload
+free_config
+_ast_calloc
+ast_threadstorage_get
+custom_log
+unload_module
+cdr-custom
+;*3$"
+7e188f7e8f4d83eb438971816ebcf5e0
+cdr_custom.so.debug
+7zXZ
+Ik5^
+C N:
+L%p!
+?RsBE
+A$4S$
+q+>6JA
+:FfF
+6S8\e
+2J	e
+doo`
+!nX6
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

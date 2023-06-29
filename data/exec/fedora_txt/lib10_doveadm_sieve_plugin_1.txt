@@ -1,0 +1,435 @@
+q|qf
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+array_idx_set_i
+array_idx_modifiable_i
+sieve_storage_list_deinit
+str_free
+default_pool
+sieve_storage_list_next
+str_truncate
+str_append
+str_c
+i_debug
+sieve_storage_get_last_error
+mail_storage_set_critical
+sieve_storage_active_script_is_no_link
+mail_user_plugin_getenv
+sieve_storage_free
+sieve_deinit
+sieve_script_get_stream
+i_stream_stat
+i_stream_create_from_data
+i_stream_create_concat
+sieve_script_unref
+i_stream_ref
+sieve_storage_get_last_change
+i_stream_get_name
+mail_user_get_home
+sieve_init
+sieve_storage_create
+strlen
+sieve_storage_list_init
+sieve_storage_script_init
+sieve_storage_active_script_get
+localtime
+strftime
+sieve_storage_active_script_get_name
+t_strdup_printf
+sieve_storage_active_script_get_last_change
+mail_storage_set_internal_error
+mail_storage_set_error
+ioloop_time
+sieve_storage_save_init
+i_stream_unref
+sieve_storage_save_set_mtime
+sieve_storage_save_continue
+i_stream_read
+sieve_storage_save_cancel
+__errno_location
+sieve_storage_save_finish
+sieve_storage_save_commit
+mail_index_attribute_set
+mail_index_attribute_unset
+i_stream_skip
+sieve_storage_save_as_active_script
+sieve_storage_set_modified
+sieve_storage_script_delete
+mailbox_attribute_value_to_string
+sieve_storage_script_activate
+i_stream_read_data
+sieve_storage_deactivate
+i_panic
+doveadm_sieve_plugin_init
+mail_storage_hooks_add_forced
+doveadm_sieve_plugin_deinit
+doveadm_sieve_plugin_version
+mail_user_module_register
+mail_storage_module_register
+utime
+eacces_error_get
+i_error
+sieve_script_name_is_valid
+pool_alloconly_create
+p_strdup
+t_push
+t_str_new
+str_len
+ioloop_timeval
+my_hostname
+my_pid
+dec2str
+sieve_scriptfile_from_name
+__xstat64
+umask
+open64
+sieve_storage_set_error
+strrchr
+strncmp
+sieve_storage_set_critical
+t_pop_check
+o_stream_create_fd
+o_stream_send_istream
+o_stream_destroy
+fsync
+close
+unlink
+i_warning
+sieve_storage_save_get_tempscript
+sieve_storage_script_init_from_path
+sieve_storage_save_will_activate
+strcmp
+t_strconcat
+sieve_storage_inbox_script_attribute_set
+str_append_c
+safe_mkstemp_hostpid
+eacces_error_get_creating
+t_strdup_until
+sieve_scriptfile_get_script_name
+__lxstat64
+file_copy
+i_info
+sleep
+gettimeofday
+symlink
+i_fatal
+readlink
+t_strndup
+sieve_file_script
+sieve_storage_get_error_handler
+sieve_script_init
+sieve_script_open
+sieve_storage_active_script_get_file
+sieve_storage_active_script_get_path
+sieve_storage_clear_error
+sieve_storage_script_is_active
+sieve_storage_inbox_script_attribute_unset
+sieve_storage_script_rename
+sieve_storage_inbox_script_attribute_rename
+opendir
+readdir64
+closedir
+sieve_storage_quota_validsize
+sieve_max_script_size
+sieve_storage_quota_max_script_size
+sieve_storage_quota_havespace
+mailbox_transaction_commit
+mailbox_get_storage
+mail_storage_get_last_error
+strchr
+home_expand_tilde
+getegid
+t_strdup
+sieve_setting_get_size_value
+sieve_setting_get_uint_value
+access
+unlink_old_files
+mail_namespace_find_inbox
+mailbox_alloc
+mailbox_open
+mailbox_get_last_error
+mkdir_parents_chgrp
+mailbox_free
+sieve_error_handler_unref
+sieve_error_handler_init
+i_strdup_vprintf
+t_strdup_vprintf
+i_strdup
+mailbox_transaction_begin
+libdovecot-sieve.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+lib10_doveadm_sieve_plugin.so
+/usr/lib/dovecot
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+UWVS
+,[^_]
+,[^_]
+UWVS
+Fh t
+<[^_]
+<[^_]
+<[^_]
+[^_]
+[^_]
+L$01
+[^_]
+UWVS
+[^_]
+@h ua
+[^_]
+UWVS
+D$$e
+|$(t
+[^_]
+UWVS
+D$$u
+\[^_]
+@h un
+D$Ht
+UWVS
+[^_]
+ [^_
+UWVS
+[^_]
+[^_]
+UWVS
+,[^_]
+4$tK
+[^_]
+[^_]
+,[^_]
+[^_]
+D$@%
+L[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+DT$T
+T$(1
+0[^_
+0[^_
+UWVS
+[^_]
+[^_]
+UWVS
+<[^_]
+[^_]
+UWVS
+,[^_]
+UWVS
+[^_]
+;T$$s
+UWVS
+wVsL
+[^_]
+D$,;F@
+[^_]
+D$(;F<
+UWVS
+t$49
+[^_]
+D$$1
+D$,1
+D$,1
+D$ 1
+ [^_
+UWVS
+[^_]
+[^_]
+<$t'
+0[^_
+UWVS
+<[^_]
+ [^_
+vendor/vendor.dovecot/pvt/sieve/default
+Failed to iterate sieve scripts: %s
+doveadm-sieve: Iterating Sieve mailbox attribute: %s
+vendor/vendor.dovecot/pvt/sieve/
+doveadm-sieve: Iterating Sieve mailbox attributes
+vendor/vendor.dovecot/pvt/sieve/files/
+Failed to access active sieve script: %s
+Sieve attributes are available only as streams
+Failed to access sieve script '%s': %s
+ (last change: %Y-%m-%d %H:%M:%S)
+doveadm-sieve: Retrieved value for key `%s'%s
+doveadm-sieve: Value missing for key `%s'%s
+file %s: line %d (%s): assertion failed: (%s)
+scriptname[0] == MAILBOX_ATTRIBUTE_SIEVE_DEFAULT_LINK
+Failed to deactivate Sieve: %s
+Failed to activate Sieve script '%s': %s
+Failed to deactivate sieve: %s
+Failed to save active sieve script: %s
+Invalid value for default sieve attribute
+Failed to delete Sieve script '%s': %s
+Failed to save sieve script '%s': %s
+Saving sieve script: read(%s) failed: %m
+doveadm-sieve: Assigned value for key `%s'
+%c%s
+read(%s) failed: %m
+ret > 0
+doveadm-sieve-plugin.c
+Nonexistent sieve attribute
+input->eof
+2.2.ABIv2(2.2.2)
+sieve_attribute_set_active
+sieve_attribute_set_default
+sieve_attribute_set_sieve
+utime
+sieve-storage: %s
+Invalid script name '%s'.
+sieve_save_context
+/tmp/
+%s_%s.M%sP%s.%s
+Not enough disk space
+open(%s) failed: %m
+fsync(%s) failed: %m
+close(%s) failed: %m
+write(%s) failed: %m
+ctx->output == NULL
+sieve-storage-save.c
+ctx->finished
+ctx->scriptname != NULL
+rename
+rename(%s, %s) failed: %m
+(*ctx)->output == NULL
+open
+sieve-storage: utime(%s) failed: %m
+Script name '%s' is reserved for internal use.
+o_stream_send_istream(%s) failed: %m
+sieve-storage: Unlink(%s) failed: %m
+save: Temporary script file '%s' got lost, which should not happen (possibly deleted externally).
+failed to create temporary file: %s
+failed to create temporary file: open(%s) failed: %m
+sieve_storage_save_cancel
+sieve_storage_save_commit
+dovecot.orig
+%s-new.%s.P%sM%s.%s
+gettimeofday(): %m
+Script does not exist.
+sieve_storage_script
+lstat(%s) failed: %m
+Sieve script does not exist.
+Invalid new script name '%s'.
+sieve-storage: Active sieve script symlink %s is broken: invalid scriptname (points to %s).
+sieve-storage: Active sieve script symlink %s is broken: invalid/unknown path to storage (points to %s).
+Failed to stat active sieve script symlink (%s): %m.
+sieve-storage: nothing to rescue %s.
+Active sieve script file '%s' is a regular file and copying it to the script storage as '%s' failed. This needs to be fixed manually.
+sieve-storage: Moved active sieve script file '%s' to script storage as '%s'.
+Active sieve script file '%s' is no symlink nor a regular file. This needs to be fixed manually.
+Creating symlink() %s to %s failed: %m
+Performing rename() %s to %s failed: %m
+sieve-storage: Active sieve script symlink %s is no symlink.
+Performing readlink() on active sieve symlink '%s' failed: %m
+sieve-storage: Active sieve script symlink %s points to non-existent script (points to %s).
+Active sieve script file '%s' is no symlink nor a regular file.
+Cannot delete the active sieve script.
+Performing unlink() failed on sieve file '%s': %m
+sieve_storage_deactivate(): error on unlink(%s): %m
+Stat on sieve script %s failed, but it is to be activated: %m.
+Failed to clean up old file link '%s' after rename: %m
+Failed to clean up new file link '%s' after failed rename: %m
+A sieve script with that name already exists.
+Performing link(%s, %s) failed: %m
+sieve_list_context
+closedir(%s) failed: %m
+quota: opendir(%s) failed: %m
+quota: readdir(%s) failed: %m
+sieve-storage: quota: stat(%s) failed: %m
+quota: closedir(%s) failed: %m
+sieve-storage: Failed to update INBOX attributes: %s
+sieve-storage: sieve is disabled (sieve="")
+sieve-storage: Cannot open non-file script location for active script `%s'
+sieve-storage: sieve active script path is unconfigured; using default (sieve=%s)
+sieve-storage: userdb(%s) didn't return a home directory for substitition in active script path (sieve=%s)
+sieve-storage: path to active symlink must include the link's filename. Path is: %s
+sieve-storage: root exists (%s)
+sieve-storage: access(%s, rwx): failed: %m
+sieve-storage: /sieve exists, assuming chroot
+sieve-storage: Cannot open non-file script storage `%s'
+sieve-storage: couldn't find storage root directory; sieve_dir was left unconfigured and autodetection failed
+sieve-storage: userdb(%s) didn't return a home directory for substitition in storage root directory (sieve_dir=%s)
+sieve-storage: using active sieve script path: %s
+sieve-storage: using sieve script storage directory: %s
+sieve-storage: stat(%s) failed: %m
+sieve-storage: permission lookup failed from %s
+sieve-storage: using permissions from %s: mode=0%o gid=%ld
+sieve-storage: check_tmp: stat(%s) failed: %m
+sieve-storage: mkdir_verify: %s
+sieve-storage: mkdir_verify: stat(%s) failed: %m
+sieve-storage: created storage directory %s
+sieve-storage: storage was deleted while it was being created
+sieve-storage: mkdir_parents_chgrp(%s) failed: %m
+sieve-storage: Failed to open user INBOX for attribute modifications: %s
+sieve-storage: relative path to sieve storage in active link: %s
+sieve-storage: quota: storage limit: %llu bytes
+sieve-storage: quota: script count limit: %llu scripts
+Internal error occured. Refer to server log for more information. [%Y-%m-%d %H:%M:%S]
+Internal error occured. Refer to server log for more information.
+~/.dovecot.sieve
+defaults
+/sieve
+file
+sieve_dir
+sieve_storage
+sieve-storage: HOME not set
+/tmp
+stat
+sieve-storage: check_tmp: %s
+mkdir_parents_chgrp
+INBOX
+sieve-storage
+sieve_quota_max_storage
+sieve_quota_max_scripts
+sieve_storage_ehandler
+Unknown error
+;*2$"T
+lib10_doveadm_sieve_plugin.so.debug
+7zXZ
+8G5>A
+T@G/
+`5	U">&
+c(/#O
+QYl4
+X[M)!
+da	7
+[ZEm
+bu_mJ
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

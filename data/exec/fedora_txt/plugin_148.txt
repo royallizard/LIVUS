@@ -1,0 +1,380 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+function_iterate_argument_values
+value_new_error_NA
+value_dup
+value_get_as_float
+random_weibull
+value_new_float
+value_new_error_NUM
+random_01
+random_tdist
+random_rayleigh_tail
+random_rayleigh
+random_poisson
+random_pareto
+random_normal
+value_get_as_int
+random_negbinom
+random_lognormal
+random_logistic
+random_logarithmic
+value_new_int
+random_levy_skew
+random_laplace
+random_landau
+random_hypergeometric
+random_gumbel2
+random_gumbel1
+random_geometric
+random_gaussian_tail
+random_gamma
+random_fdist
+random_exppow
+random_exponential
+value_new_error_VALUE
+collect_floats_value
+range_sum
+sheet_foreach_cell_in_range
+g_free
+cell_eval_content
+value_new_empty
+random_chisq
+random_cauchy
+random_binomial
+random_beta
+random_bernoulli
+go_plugin_depends
+go_plugin_header
+random_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+ [^]
+ [^]
+0[^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+goffice
+gnumeric
+1.6.3
+rand
+randbernoulli
+randbeta
+randbetween
+bottom,top
+randbinom
+p,trials
+randcauchy
+randchisq
+randdiscrete
+value_range,prob_range
+randexp
+randexppow
+randfdist
+nu1,nu2
+randgamma
+randnormtail
+randgeom
+randgumbel
+ff|f
+a,b,type
+randhyperg
+n1,n2,t
+randlandau
+randlaplace
+randlevy
+c,alpha,beta
+randlog
+randlogistic
+randlognorm
+zeta,sigma
+randnegbinom
+p,failures
+randnorm
+mean,stdev
+randpareto
+randpoisson
+lambda
+randrayleigh
+randrayleightail
+randtdist
+randuniform
+randweibull
+simtable
+d1,d2,...,dN
+munG
+@FUNCTION=RAND
+@SYNTAX=RAND()
+@DESCRIPTION=RAND returns a random number between zero and one.
+* This function is Excel compatible.
+@EXAMPLES=
+RAND() returns a random number greater than zero but less than one.
+@SEEALSO=RANDBETWEEN
+@FUNCTION=RANDBERNOULLI
+@SYNTAX=RANDBERNOULLI(p)
+@DESCRIPTION=RANDBERNOULLI returns a Bernoulli-distributed random number.
+* If @p < 0 or @p > 1 RANDBERNOULLI returns #NUM! error.
+@EXAMPLES=
+RANDBERNOULLI(0.5).
+@SEEALSO=RAND,RANDBETWEEN
+@FUNCTION=RANDBETA
+@SYNTAX=RANDBETA(a,b)
+@DESCRIPTION=RANDBETA returns a Beta-distributed random number.
+@EXAMPLES=
+RANDBETA(1,2).
+@SEEALSO=RAND,RANDGAMMA
+@FUNCTION=RANDBETWEEN
+@SYNTAX=RANDBETWEEN(bottom,top)
+@DESCRIPTION=RANDBETWEEN function returns a random integer number between and including @bottom and @top.
+* If @bottom or @top is non-integer, they are truncated.
+* If @bottom > @top, RANDBETWEEN returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+RANDBETWEEN(3,7).
+@SEEALSO=RAND,RANDUNIFORM
+@FUNCTION=RANDBINOM
+@SYNTAX=RANDBINOM(p,trials)
+@DESCRIPTION=RANDBINOM returns a binomially-distributed random number.
+* If @p < 0 or @p > 1 RANDBINOM returns #NUM! error.
+* If @trials < 0 RANDBINOM returns #NUM! error. 
+@EXAMPLES=
+RANDBINOM(0.5,2).
+@SEEALSO=RAND,RANDBETWEEN
+@FUNCTION=RANDCAUCHY
+@SYNTAX=RANDCAUCHY(a)
+@DESCRIPTION=RANDCAUCHY returns a Cauchy-distributed random number with scale parameter a. The Cauchy distribution is also known as the Lorentz distribution.
+* If @a < 0 RANDCAUCHY returns #NUM! error.
+@EXAMPLES=
+RANDCAUCHY(1).
+@SEEALSO=RAND
+@FUNCTION=RANDCHISQ
+@SYNTAX=RANDCHISQ(nu)
+@DESCRIPTION=RANDCHISQ returns a Chi-Square-distributed random number.
+@EXAMPLES=
+RANDCHISQ(0.5).
+@SEEALSO=RAND,RANDGAMMA
+@FUNCTION=RANDDISCRETE
+@SYNTAX=RANDDISCRETE(val_range[,prob_range])
+@DESCRIPTION=RANDDISCRETE returns one of the values in the @val_range. The probabilities for each value are given in the @prob_range.
+* If @prob_range is omitted, the uniform discrete distribution is assumed.
+* If the sum of all values in @prob_range is other than one, RANDDISCRETE returns #NUM! error.
+* If @val_range and @prob_range are not the same size, RANDDISCRETE returns #NUM! error.
+* If @val_range or @prob_range is not a range, RANDDISCRETE returns #VALUE! error.
+@EXAMPLES=
+RANDDISCRETE(A1:A6) returns one of the values in the range A1:A6.
+@SEEALSO=RANDBETWEEN,RAND
+@FUNCTION=RANDEXP
+@SYNTAX=RANDEXP(b)
+@DESCRIPTION=RANDEXP returns a exponentially-distributed random number.
+@EXAMPLES=
+RANDEXP(0.5).
+@SEEALSO=RAND,RANDBETWEEN
+@FUNCTION=RANDEXPPOW
+@SYNTAX=RANDEXPPOW(a,b)
+@DESCRIPTION=RANDEXPPOW returns a random variate from the exponential power distribution with scale parameter @a and exponent @b. The distribution is,
+	p(x) dx = {1 over 2 a Gamma(1+1/b)} exp(-|x/a|^b) dx, for x >= 0.
+* For @b = 1 this reduces to the Laplace distribution.
+* For @b = 2 it has the same form as a normal distribution with sigma = a/sqrt(2).
+@EXAMPLES=
+RANDEXPPOW(0.5,0.1).
+@SEEALSO=RAND
+@FUNCTION=RANDFDIST
+@SYNTAX=RANDFDIST(nu1,nu2)
+@DESCRIPTION=RANDFDIST returns a F-distributed random number.
+@EXAMPLES=
+RANDFDIST(1,2).
+@SEEALSO=RAND,RANDGAMMA
+@FUNCTION=RANDGAMMA
+@SYNTAX=RANDGAMMA(a,b)
+@DESCRIPTION=RANDGAMMA returns a Gamma-distributed random number.
+* If @a <= 0 RANDGAMMA returns #NUM! error.
+@EXAMPLES=
+RANDGAMMA(1,2).
+@SEEALSO=RAND
+@FUNCTION=RANDNORMTAIL
+@SYNTAX=RANDNORMTAIL(a,sigma)
+@DESCRIPTION=RANDNORMTAIL returns a random variates from the upper tail of a normal distribution with standard deviation @sigma. The values returned are larger than the lower limit @a, which must be positive. The method is based on Marsaglia's famous rectangle-wedge-tail algorithm (Ann Math Stat 32, 894-899 (1961)), with this aspect explained in Knuth, v2, 3rd ed, p139, 586 (exercise 11).
+The probability distribution for normal tail random variates is,
+	p(x) dx = {1 over N(a;sigma)} exp (- x^2/(2 sigma^2)) dx,
+for x > a where N(a;sigma) is the normalization constant, N(a;sigma) = (1/2) erfc(a / sqrt(2 sigma^2)).
+@EXAMPLES=
+RANDNORMTAIL(0.5,0.1).
+@SEEALSO=RAND
+@FUNCTION=RANDGEOM
+@SYNTAX=RANDGEOM(p)
+@DESCRIPTION=RANDGEOM returns a geometric-distributed random number. The number of independent trials with probability @p until the first success. The probability distribution for geometric variates is, 
+	p(k) =  p (1-p)^(k-1), for k >= 1.
+* If @p < 0 or @p > 1 RANDGEOM returns #NUM! error. 
+@EXAMPLES=
+RANDGEOM(0.4).
+@SEEALSO=RAND
+@FUNCTION=RANDGUMBEL
+@SYNTAX=RANDGUMBEL(a,b[,type])
+@DESCRIPTION=RANDGUMBEL returns a Type I or Type II Gumbel-distributed random number. @type is either 1 or 2 and specifies the type of the distribution (Type I or Type II).
+* If @type is neither 1 nor 2, RANDGUMBEL returns #NUM! error.
+* If @type is omitted, Type I is assumed.
+@EXAMPLES=
+RANDGUMBEL(0.5,1,2).
+@SEEALSO=RAND
+@FUNCTION=RANDHYPERG
+@SYNTAX=RANDHYPERG(n1,n2,t)
+@DESCRIPTION=RANDHYPERG returns a hypergeometric-distributed random number. The probability distribution for hypergeometric random variates is,
+	p(k) =  C(n_1,k) C(n_2, t-k) / C(n_1 + n_2,k), 
+where C(a,b) = a!/(b!(a-b)!). 
+The domain of k is max(0,t-n_2), ..., max(t,n_1).
+@EXAMPLES=
+RANDHYPERG(21,1,9).
+@SEEALSO=RAND
+@FUNCTION=RANDLANDAU
+@SYNTAX=RANDLANDAU()
+@DESCRIPTION=RANDLANDAU returns a random variate from the Landau distribution. The probability distribution for Landau random variates is defined analytically by the complex integral,
+	p(x) = (1/(2 pi i)) int_{c-i infty}^{c+i infty} ds exp(s log(s) + x s).
+For numerical purposes it is more convenient to use the following equivalent form of the integral,
+	p(x) = (1/pi) int_0^ infty dt exp(-t log(t) - x t) sin(pi t).
+@EXAMPLES=
+RANDLANDAU().
+@SEEALSO=RAND
+@FUNCTION=RANDLAPLACE
+@SYNTAX=RANDLAPLACE(a)
+@DESCRIPTION=RANDLAPLACE returns a Laplace-distributed random number. Laplace distribution is also known as two-sided exponential probability distribution.
+@EXAMPLES=
+RANDLAPLACE(1).
+@SEEALSO=RAND
+@FUNCTION=RANDLEVY
+@SYNTAX=RANDLEVY(c,alpha[,beta])
+@DESCRIPTION=RANDLEVY returns a Levy-distributed random number. If @beta is omitted, it is assumed to be 0.
+* For @alpha = 1, @beta=0, we get the Lorentz distribution.
+* For @alpha = 2, @beta=0, we get the normal distribution.
+* If @alpha <= 0 or @alpha > 2, RANDLEVY returns #NUM! error.
+* If @beta < -1 or @beta > 1, RANDLEVY returns #NUM! error.
+@EXAMPLES=
+RANDLEVY(0.5,0.1,1).
+@SEEALSO=RAND
+@FUNCTION=RANDLOG
+@SYNTAX=RANDLOG(p)
+@DESCRIPTION=RANDLOG returns a logarithmic-distributed random number.
+* If @p < 0 or @p > 1 RANDLOG returns #NUM! error.
+@EXAMPLES=
+RANDLOG(0.72).
+@SEEALSO=RAND
+@FUNCTION=RANDLOGISTIC
+@SYNTAX=RANDLOGISTIC(a)
+@DESCRIPTION=RANDLOGISTIC returns a logistic-distributed random number.  The distribution function is,
+	p(x) dx = { exp(-x/a) over a (1 + exp(-x/a))^2 } dx for -infty < x < +infty.
+@EXAMPLES=
+RANDLOGISTIC(1).
+@SEEALSO=RAND
+@FUNCTION=RANDLOGNORM
+@SYNTAX=RANDLOGNORM(zeta,sigma)
+@DESCRIPTION=RANDLOGNORM returns a lognormal-distributed random number.
+@EXAMPLES=
+RANDLOGNORM(1,2).
+@SEEALSO=RAND
+@FUNCTION=RANDNEGBINOM
+@SYNTAX=RANDNEGBINOM(p,failures)
+@DESCRIPTION=RANDNEGBINOM returns a negative binomially-distributed random number.
+* If @p < 0 or @p > 1, RANDNEGBINOM returns #NUM! error.
+* If @failures < 1, RANDNEGBINOM returns #NUM! error.
+@EXAMPLES=
+RANDNEGBINOM(0.5,2).
+@SEEALSO=RAND,RANDBETWEEN
+@FUNCTION=RANDNORM
+@SYNTAX=RANDNORM(mean,stdev)
+@DESCRIPTION=RANDNORM returns a normal-distributed random number.
+* If @stdev < 0 RANDNORM returns #NUM! error.
+@EXAMPLES=
+RANDNORM(0,1).
+@SEEALSO=RAND
+@FUNCTION=RANDPARETO
+@SYNTAX=RANDPARETO(a,b)
+@DESCRIPTION=RANDPARETO returns a Pareto-distributed random number.
+@EXAMPLES=
+RANDPARETO(1,2).
+@SEEALSO=RAND
+@FUNCTION=RANDPOISSON
+@SYNTAX=RANDPOISSON(lambda)
+@DESCRIPTION=RANDPOISSON returns a Poisson-distributed random number.
+* If @lambda < 0 RANDPOISSON returns #NUM! error.
+@EXAMPLES=
+RANDPOISSON(3).
+@SEEALSO=RAND,RANDBETWEEN
+@FUNCTION=RANDRAYLEIGH
+@SYNTAX=RANDRAYLEIGH(sigma)
+@DESCRIPTION=RANDRAYLEIGH returns a Rayleigh-distributed random number.
+@EXAMPLES=
+RANDRAYLEIGH(1).
+@SEEALSO=RAND
+@FUNCTION=RANDRAYLEIGHTAIL
+@SYNTAX=RANDRAYLEIGHTAIL(a,sigma)
+@DESCRIPTION=RANDRAYLEIGHTAIL returns  a random variate from the tail of the Rayleigh distribution with scale parameter sigma and a lower limit of a. The distribution is,
+	p(x) dx = {x over sigma^2} exp ((a^2 - x^2) /(2 sigma^2)) dx,
+for x > a.
+@EXAMPLES=
+RANDRAYLEIGHTAIL(0.3,1).
+@SEEALSO=RAND,RANDRAYLEIGH
+@FUNCTION=RANDTDIST
+@SYNTAX=RANDTDIST(nu)
+@DESCRIPTION=RANDTDIST returns a T-distributed random number.
+@EXAMPLES=
+RANDTDIST(0.5).
+@SEEALSO=RAND
+@FUNCTION=RANDUNIFORM
+@SYNTAX=RANDUNIFORM(a,b)
+@DESCRIPTION=RANDUNIFORM returns a random variate from the uniform (flat) distribution from a to b. The distribution is,
+	p(x) dx = {1 over (b-a)} dx : for a <= x < b.
+p(x) dx = 0 : for x < a or b <= x.
+* If @a > @b RANDUNIFORM returns #NUM! error.
+@EXAMPLES=
+RANDUNIFORM(1.4,4.2) returns a random number greater than or equal to 1.4 but less than 4.2.
+@SEEALSO=RANDBETWEEN,RAND
+@FUNCTION=RANDWEIBULL
+@SYNTAX=RANDWEIBULL(a,b)
+@DESCRIPTION=RANDWEIBULL returns a Weibull-distributed random number.
+@EXAMPLES=
+RANDWEIBULL(1,2).
+@SEEALSO=RAND
+@FUNCTION=SIMTABLE
+@SYNTAX=SIMTABLE(d1, d2, ..., dN)
+@DESCRIPTION=SIMTABLE returns one of the values in the given argument list depending on the round number of the simulation tool. When the simulation tool is not activated, SIMTABLE returns @d1.
+With the simulation tool and the SIMTABLE function you can test given decision variables. Each SIMTABLE function contains the possible values of a simulation variable. In most valid simulation models you should have the same number of values @dN for all decision variables.  If the simulation is run more rounds than there are values defined, SIMTABLE returns #N/A! error (e.g. if A1 contains `=SIMTABLE(1)' and A2 `=SIMTABLE(1,2)', A1 yields #N/A! error on the second round).
+The successive use of the simulation tool also requires that you give to the tool at least one input variable having RAND() or any other RAND<distribution name>() function in it. On each round, the simulation tool iterates for the given number of rounds over all the input variables to reevaluate them. On each iteration, the values of the output variables are stored, and when the round is completed, descriptive statistical information is created according to the values.
+@EXAMPLES=
+SIMTABLE(TRUE,FALSE) returns TRUE on the first simulation round and FALSE on the second round.
+SIMTABLE(223,225,227,229) returns 227 on the simulation round #3.
+@SEEALSO=
+plugin.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

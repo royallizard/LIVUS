@@ -1,0 +1,251 @@
+ # k
+dq-y
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+svn_delta_get_cancellation_editor
+svn_delta_default_editor
+apr_palloc
+svn_compat_wrap_file_rev_handler
+__assert_fail
+svn_txdelta__insert_op
+svn_txdelta_compose_windows
+svn_pool_create_ex
+svn_stringbuf_create
+svn_error__malfunction
+abort
+apr_pool_destroy
+svn_txdelta__make_window
+svn_txdelta__compose_windows
+svn_delta__get_debug_editor
+apr_file_open_stderr
+svn_error__locate
+svn_error_wrap_apr
+svn_stream_from_aprfile2
+svn_stream_printf
+svn_delta_noop_window_handler
+apr_pmemdup
+svn_delta_depth_filter_editor
+apr_array_pop
+svn_delta_path_driver
+apr_array_make
+svn_sort_compare_paths
+qsort
+svn_path_is_empty
+apr_array_push
+apr_pool_clear
+svn_path_get_longest_ancestor
+strlen
+svn_path_split
+strchr
+apr_pstrmemdup
+apr_pstrdup
+svn_stream_read
+dcgettext
+svn_error_create
+svn_txdelta_skip_svndiff_window
+svn_io_file_seek
+svn_stringbuf_ensure
+uncompress
+svn_stringbuf_appendstr
+svn_error_createf
+svn_stringbuf_ncreate
+svn_txdelta_read_svndiff_window
+svn_txdelta_to_svndiff2
+svn_txdelta_to_svndiff
+svn_txdelta_parse_svndiff
+svn_stream_create
+svn_stream_set_write
+svn_stream_set_close
+svn_stringbuf_appendbytes
+compress2
+svn_stream_write
+svn_string_create
+svn_stream_close
+svn_txdelta_next_window
+svn_txdelta_md5_digest
+svn_txdelta_send_string
+svn_txdelta_send_txstream
+svn_txdelta_stream_create
+svn_txdelta_apply
+apr_md5_init
+svn_txdelta_apply_instructions
+memcpy
+memmove
+apr_md5_update
+apr_md5_final
+svn_txdelta__apply_instructions
+svn_txdelta_target_push
+svn_txdelta
+svn_checksum_ctx_create
+svn_txdelta_send_stream
+svn_stream_empty
+svn_txdelta__xdelta
+svn_checksum_final
+svn_checksum_update
+svn_txdelta_run
+svn_txdelta_window_dup
+svn_stringbuf_create_from_string
+svn_txdelta__copy_window
+svn_delta_version
+libsvn_subr-1.so.0
+libsqlite3.so.0
+libaprutil-1.so.0
+libcrypt.so.1
+libdb-4.7.so
+libexpat.so.1
+libapr-1.so.0
+libpthread.so.0
+libdl.so.2
+libz.so.1
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libsvn_delta-1.so.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+s';M
+<[^_]
+tu9E
+l[^_]
+t$;:f
+[^_]
+,[^_]
+ ^_]
+0^_]
+0^_]
+0^_]
+0^_]
+l[^_]
+ ^_]
+[^_]
+uv9u
+L[^_]
+L[^_]
+U$+E 
+E 9} t0
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]f
+[^_]
+[^_]
+<[^_]
+|7~-
+\[^_]
+\[^_]
+\[^_]
+\[^_]
+[^_]
+F$tn)}
+,[^_]
+[^_]
+[^_]
+[^_]
+t(91t,
+v{9u
+r@9u
+|[^_]
+|[^_]
+|[^_]
+subversion/libsvn_delta/compose_delta.c
+offset < ndx->offs[ndx->length]
+ndx->offs[op] <= offset && offset < ndx->offs[op + 1]
+fix_offset + fix_limit < op->length
+fix_off + fix_limit <= op->length
+(offset >= tree->offset) || ((tree->left == ((void *)0)) && (tree->prev == ((void *)0)))
+tgt_off == target_offset + op->length
+ndx->tree->left == ((void *)0)
+op->offset < off[0]
+ptn_length > ptn_overlap
+svn_txdelta_compose_windows
+splay_range_index
+copy_source_ops
+search_offset_index
+insert_range
+subversion/libsvn_delta/debug_editor.c
+add_file : '%s' [from '%s':%ld]
+add_directory : '%s' [from '%s':%ld]
+Problem opening stderr
+close_edit
+absent_file : %s
+close_file : %s
+change_file_prop : %s
+apply_textdelta : %s
+open_file : '%s':%ld
+absent_directory : %s
+close_directory
+change_dir_prop : %s
+open_directory : '%s':%ld
+delete_entry : %s:%ld
+open_root : %ld
+set_target_revision : %ld
+subversion/libsvn_delta/depth_filter_editor.c
+db_stack && db_stack->nelts
+subversion/libsvn_delta/path_driver.c
+subversion/libsvn_delta/svndiff.c
+Unexpected end of svndiff input
+Svndiff contains corrupt window header
+Decompression of svndiff data failed
+Size of uncompressed data does not match stored original length
+Invalid diff stream: insn %d cannot be decoded
+Invalid diff stream: insn %d has non-positive length
+Invalid diff stream: insn %d overflows the target view
+Invalid diff stream: [src] insn %d overflows the source view
+Invalid diff stream: [tgt] insn %d starts beyond the target view position
+Invalid diff stream: [new] insn %d overflows the new data section
+Delta does not fill the target window
+Delta does not contain enough new data
+Svndiff has backwards-sliding source views
+Compression of svndiff data failed
+subversion
+data == insend
+Svndiff has invalid header
+val >= 0
+encode_int
+subversion/libsvn_delta/text_delta.c
+tpos + op->length <= window->tview_len
+op->offset + op->length <= window->sview_len
+op->offset + op->length <= window->new_data->len
+!"Invalid delta instruction code"
+window->sview_len == 0 || (window->sview_offset >= ab->sbuf_offset && (window->sview_offset + window->sview_len >= ab->sbuf_offset + ab->sbuf_len))
+Delta source ended unexpectedly
+op->offset < tpos
+tpos == window->tview_len
+len == window->tview_len
+!"unknown delta op."
+svn_txdelta_apply_instructions
+svn_txdelta__insert_op
+subversion/libsvn_delta/xdelta.c
+source_len != 0
+svn_txdelta__xdelta
+libsvn_delta-1.so.0.0.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

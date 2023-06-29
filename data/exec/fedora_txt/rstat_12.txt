@@ -1,0 +1,370 @@
+td@k
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+go_plugin_init
+go_plugin_shutdown
+value_get_as_float
+value_get_as_int
+qcauchy
+value_new_float
+pcauchy
+dcauchy
+qgeom
+pgeom
+dgeom
+qhyper
+phyper
+dhyper
+qnbinom
+pnbinom
+dnbinom
+qbinom
+pbinom
+dbinom
+qexp
+pexp
+dexp
+qpois
+ppois
+dpois
+qweibull
+pweibull
+dweibull
+qchisq
+pchisq
+dchisq
+qbeta
+pbeta
+dbeta
+qgamma
+pgamma
+dgamma
+qlnorm
+plnorm
+dlnorm
+qnorm
+pnorm
+dnorm
+go_plugin_depends
+go_plugin_header
+stat_functions
+go_nan
+go_finite
+expm1
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+rstat.so
+GLIBC_2.1.3
+GLIBC_2.0
+<[^_]
+<[^_]
+@[^]
+0[^]
+L[^_]
+L[^_]
+P[^]
+<[^_]
+<[^_]
+@[^]
+<[^_]
+<[^_]
+@[^]
+0[^]
+0[^]
+<[^_]
+<[^_]
+@[^]
+0[^]
+<[^_]
+<[^_]
+@[^]
+0[^]
+<[^_]
+<[^_]
+@[^]
+<[^_]
+<[^_]
+@[^]
+<[^_]
+<[^_]
+@[^]
+<[^_]
+<[^_]
+@[^]
+goffice
+gnumeric
+1.6.3
+r.dnorm
+x,mu,sigma,give_log
+r.pnorm
+x,mu,sigma,lower_tail,log_p
+r.qnorm
+p,mu,sigma,lower_tail,log_p
+r.dlnorm
+x,logmean,logsd,give_log
+r.plnorm
+r.qlnorm
+r.dgamma
+x,shape,scale,give_log
+r.pgamma
+r.qgamma
+r.dbeta
+x,a,b,give_log
+r.pbeta
+x,a,b,lower_tail,log_p
+r.qbeta
+p,a,b,lower_tail,log_p
+r.dt
+x,n,give_log
+r.pt
+x,n,lower_tail,log_p
+r.qt
+p,n,lower_tail,log_p
+r.df
+x,n1,n2,give_log
+r.pf
+x,n1,n2,lower_tail,log_p
+r.qf
+r.dchisq
+x,df,give_log
+r.pchisq
+x,df,lower_tail,log_p
+r.qchisq
+p,df,lower_tail,log_p
+r.dweibull
+r.pweibull
+r.qweibull
+r.dpois
+x,lambda,give_log
+r.ppois
+x,lambda,lower_tail,log_p
+r.qpois
+p,lambda,lower_tail,log_p
+r.dexp
+x,scale,give_log
+r.pexp
+x,scale,lower_tail,log_p
+r.qexp
+p,scale,lower_tail,log_p
+r.dbinom
+x,n,psuc,give_log
+r.pbinom
+x,n,psuc,lower_tail,log_p
+r.qbinom
+r.dnbinom
+r.pnbinom
+r.qnbinom
+p,n,psuc,lower_tail,log_p
+r.dhyper
+ffff|f
+x,r,b,n,give_log
+r.phyper
+ffff|ff
+x,r,b,n,lower_tail,log_p
+r.qhyper
+p,r,b,n,lower_tail,log_p
+r.dgeom
+x,psuc,give_log
+r.pgeom
+x,psuc,lower_tail,log_p
+r.qgeom
+p,psuc,lower_tail,log_p
+r.dcauchy
+x,location,scale,give_log
+r.pcauchy
+r.qcauchy
+x:observation.
+mu:mean of the distribution.
+R.PNORM,R.QNORM
+R.DNORM,R.QNORM
+p:probability.
+R.DNORM,R.PNORM
+R.PLNORM,R.QLNORM
+R.DLNORM,R.QLNORM
+R.DLNORM,R.PLNORM
+R.PGAMMA,R.QGAMMA
+R.DGAMMA,R.QGAMMA
+R.DGAMMA,R.PGAMMA
+R.PBETA,R.QBETA
+R.DBETA,R.QBETA
+R.DBETA,R.PBETA
+R.PT,R.QT
+R.DT,R.QT
+R.DT,R.PT
+R.PF,R.QF
+R.DF,R.QF
+R.DF,R.PF
+R.PCHISQ,R.QCHISQ
+R.DCHISQ,R.QCHISQ
+R.DCHISQ,R.PCHISQ
+R.PWEIBULL,R.QWEIBULL
+R.DWEIBULL,R.QWEIBULL
+R.DWEIBULL,R.PWEIBULL
+R.PPOIS,R.QPOIS
+R.DPOIS,R.QPOIS
+R.DPOIS,R.PPOIS
+R.PEXP,R.QEXP
+R.DEXP,R.QEXP
+R.DEXP,R.PEXP
+n:the number of trials
+R.PBINOM,R.QBINOM
+R.DBINOM,R.QBINOM
+R.DBINOM,R.PBINOM
+R.PNBINOM,R.QNBINOM
+R.DNBINOM,R.QNBINOM
+R.DNBINOM,R.PNBINOM
+r:the number of red balls
+b:the number of black balls
+n:the number of balls drawn
+R.PHYPER,R.QHYPER
+R.DHYPER,R.QHYPER
+R.DHYPER,R.PHYPER
+R.PGEOM,R.QGEOM
+R.DGEOM,R.QGEOM
+R.DGEOM,R.PGEOM
+R.PCAUCHY,R.QCAUCHY
+R.DCAUCHY,R.QCAUCHY
+R.DCAUCHY,R.PCAUCHY
+munG
+x,logmean,logsd,lower_tail,log_p
+x,shape,scale,lower_tail,log_p
+p,shape,scale,lower_tail,log_p
+x,location,scale,lower_tail,log_p
+p,location,scale,lower_tail,log_p
+R.DNORM:probability density function of the normal distribution.
+sigma:standard deviation of the distribution.
+give_log:if true, log of the result will be returned instead.  This is useful if the result would otherwise underflow to 0.  Defaults to false.
+This function returns the probability density function of the normal distribution.
+R.PNORM:cumulative distribution function of the normal distribution.
+lower_tail:if true (the default), the lower tail of the distribution is considered.
+log_p:if true, log of the probability is used.  This is useful if the probability would otherwise underflow to 0.  Defaults to false.
+This function returns the cumulative distribution function of the normal distribution.
+R.QNORM:probability quantile function of the normal distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the normal distribution.
+R.DLNORM:probability density function of the log-normal distribution.
+logmean:mean of the underlying normal distribution.
+logsd:standard deviation of the underlying normal distribution.
+This function returns the probability density function of the log-normal distribution.
+R.PLNORM:cumulative distribution function of the log-normal distribution.
+This function returns the cumulative distribution function of the log-normal distribution.
+R.QLNORM:probability quantile function of the log-normal distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the log-normal distribution.
+R.DGAMMA:probability density function of the gamma distribution.
+shape:the shape parameter of the distribution
+scale:the scale parameter of the distribution
+This function returns the probability density function of the gamma distribution.
+R.PGAMMA:cumulative distribution function of the gamma distribution.
+This function returns the cumulative distribution function of the gamma distribution.
+R.QGAMMA:probability quantile function of the gamma distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the gamma distribution.
+R.DBETA:probability density function of the beta distribution.
+a:the first shape parameter of the distribution
+b:the second scale parameter of the distribution
+This function returns the probability density function of the beta distribution.
+R.PBETA:cumulative distribution function of the beta distribution.
+This function returns the cumulative distribution function of the beta distribution.
+R.QBETA:probability quantile function of the beta distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the beta distribution.
+R.DT:probability density function of the Student t distribution.
+n:the number of degrees of freedom of the distribution
+This function returns the probability density function of the Student t distribution.
+R.PT:cumulative distribution function of the Student t distribution.
+This function returns the cumulative distribution function of the Student t distribution.
+R.QT:probability quantile function of the Student t distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the Student t distribution.
+R.DF:probability density function of the F distribution.
+n1:the first number of degrees of freedom of the distribution
+n2:the second number of degrees of freedom of the distribution
+This function returns the probability density function of the F distribution.
+R.PF:cumulative distribution function of the F distribution.
+This function returns the cumulative distribution function of the F distribution.
+R.QF:probability quantile function of the F distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the F distribution.
+R.DCHISQ:probability density function of the chi-square distribution.
+df:the number of degrees of freedom of the distribution
+This function returns the probability density function of the chi-square distribution.
+R.PCHISQ:cumulative distribution function of the chi-square distribution.
+This function returns the cumulative distribution function of the chi-square distribution.
+R.QCHISQ:probability quantile function of the chi-square distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the chi-square distribution.
+R.DWEIBULL:probability density function of the Weibull distribution.
+This function returns the probability density function of the Weibull distribution.
+R.PWEIBULL:cumulative distribution function of the Weibull distribution.
+This function returns the cumulative distribution function of the Weibull distribution.
+R.QWEIBULL:probability quantile function of the Weibull distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the Weibull distribution.
+R.DPOIS:probability density function of the Poisson distribution.
+lambda:the mean of the distribution
+This function returns the probability density function of the Poisson distribution.
+R.PPOIS:cumulative distribution function of the Poisson distribution.
+This function returns the cumulative distribution function of the Poisson distribution.
+R.QPOIS:probability quantile function of the Poisson distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the Poisson distribution.
+R.DEXP:probability density function of the exponential distribution.
+This function returns the probability density function of the exponential distribution.
+R.PEXP:cumulative distribution function of the exponential distribution.
+This function returns the cumulative distribution function of the exponential distribution.
+R.QEXP:probability quantile function of the exponential distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the exponential distribution.
+R.DBINOM:probability density function of the binomial distribution.
+psuc:the probability of success in each trial
+This function returns the probability density function of the binomial distribution.
+R.PBINOM:cumulative distribution function of the binomial distribution.
+This function returns the cumulative distribution function of the binomial distribution.
+R.QBINOM:probability quantile function of the binomial distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the binomial distribution.
+R.DNBINOM:probability density function of the negative binomial distribution.
+This function returns the probability density function of the negative binomial distribution.
+R.PNBINOM:cumulative distribution function of the negative binomial distribution.
+This function returns the cumulative distribution function of the negative binomial distribution.
+R.QNBINOM:probability quantile function of the negative binomial distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the negative binomial distribution.
+R.DHYPER:probability density function of the hypergeometric distribution.
+This function returns the probability density function of the hypergeometric distribution.
+R.PHYPER:cumulative distribution function of the hypergeometric distribution.
+This function returns the cumulative distribution function of the hypergeometric distribution.
+R.QHYPER:probability quantile function of the hypergeometric distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the hypergeometric distribution.
+R.DGEOM:probability density function of the geometric distribution.
+This function returns the probability density function of the geometric distribution.
+R.PGEOM:cumulative distribution function of the geometric distribution.
+This function returns the cumulative distribution function of the geometric distribution.
+R.QGEOM:probability quantile function of the geometric distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the geometric distribution.
+R.DCAUCHY:probability density function of the Cauchy distribution.
+location:the center of the distribution
+This function returns the probability density function of the Cauchy distribution.
+R.PCAUCHY:cumulative distribution function of the Cauchy distribution.
+This function returns the cumulative distribution function of the Cauchy distribution.
+R.QCAUCHY:probability quantile function of the Cauchy distribution.
+This function returns the probability quantile function, i.e., the inverse of the cumulative distribution function, of the Cauchy distribution.
+rstat.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

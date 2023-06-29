@@ -1,0 +1,278 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+calloc
+_x_demux_read_header
+_x_demux_check_extension
+theora_info_init
+theora_comment_init
+xine_event_new_queue
+ogg_stream_clear
+ogg_sync_clear
+theora_comment_clear
+theora_info_clear
+xine_event_dispose_queue
+ogg_sync_reset
+ogg_stream_reset
+_x_demux_flush_engine
+strlen
+strncasecmp
+__asprintf_chk
+_x_meta_info_set_utf8
+__strdup
+xine_log
+_x_demux_control_newpts
+snprintf
+__snprintf_chk
+_x_demux_send_data
+_x_meta_info_set
+xine_event_send
+memcpy
+theora_decode_header
+strncpy
+vorbis_comment_init
+vorbis_info_init
+vorbis_synthesis_headerin
+vorbis_comment_clear
+vorbis_info_clear
+strtol
+realloc
+__ctype_b_loc
+memcmp
+stderr
+ogg_sync_buffer
+ogg_sync_wrote
+ogg_sync_pageout
+ogg_page_serialno
+ogg_page_bos
+ogg_stream_init
+ogg_stream_pagein
+ogg_stream_packetout
+strncmp
+xine_hexdump
+_x_stream_info_set
+speex_packet_to_header
+speex_mode_list
+speex_decoder_init
+speex_decoder_ctl
+dcgettext
+ogg_page_granulepos
+_x_fourcc_to_buf_video
+strtoul
+_x_formattag_to_buf_audio
+strcmp
+strstr
+__fprintf_chk
+ogg_sync_init
+_x_demux_control_start
+xine_event_free
+xine_event_get
+ogg_page_eos
+_x_demux_control_end
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libvorbis.so.0
+libm.so.6
+libspeex.so.1
+libtheora.so.0
+libogg.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+xineplug_dmx_ogg.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.3.4
+GLIBC_2.0
+libtheora.so.1.0
+T$(1
+L$,1
+L$(t
+UWVS
+[^_]
+UWVS
+|$0tA
+d$l[^_]
+D$0	
+L$,9L$0
+d$l1
+[^_]
+D$8	
+D$0)t$
++T$0
+UWV1
+d$L1
+[^_]
+[^_]
+T$<u
++D$8
+D$Xtb
+D$8t
+D$X3T$l3D$h
+D$P+D$X
+T$T|
+UWVS
+|$Xe
+D$,1
+T$,e3
+d$<[^_]
+t$,1
+none
+UWVS
+T$Le
+[^_]
+t$T!
+t$L1
+|$`u
+L$l1
+t$L;0
+|$P97
+)t$H
+t$H9t$T
+|$P1
+E,tU
+;D$T
+|$T+|$H
+9|$Lw
+T$Tf
+;D$H
+t$p1
+[^_]
+T$|f
+9T$4
+|$P1
+	D$X1
+	D$X1
+	D$X
+|$P1
+	D$L1
+	D$L1
+	D$L
+	D$`1
+	D$`1
+	D$`
+T$X1
+	T$X	
+	T$X	
+	T$X	
+it$X
+	T$P
+	T$P
+	T$P
+T$Pf
+D$(f
+it$X
+UWVS
+[^_]
+D$P!
+D$p#D$t
+[^_]
+T$T1
+T$@+T$(
+!D$@
+D$P!
+D$@!
+d$0^_]
+Annodex demux plugin
+Annodex
+anx axa axv
+OGG demux plugin
+ogx ogv oga ogg spx ogm
+OggS
+channel %d
+LANGUAGE=
+CHAPTER
+NAME=
+%s / %s
+libxine1
+Speex
+video
+audio
+text
+FLAC
+demux_ogg.c
+AnxData
+Content-Type: 
+audio/x-vorbis
+audio/x-speex
+video/x-theora
+text/x-cmml
+CMML
+application/annodex: anx: Annodex media;application/x-annodex: anx: Annodex media;audio/annodex: axa: Annodex audio;audio/x-annodex: axa: Annodex audio;video/annodex: axv: Annodex video;video/x-annodex: axv: Annodex video;
+application/ogg: ogx: Ogg Stream;application/x-ogg: ogx: Ogg Stream;application/x-ogm: ogx: Ogg Stream;application/x-ogm-audio: oga: Ogg Audio;application/x-ogm-video: ogv: Ogg Video;audio/ogg: oga: Ogg Audio;audio/x-ogg: oga: Ogg Audio;video/ogg: ogv: Ogg Video;video/x-ogg: ogv: Ogg Video;
+diff=%lld (pts=%lld, last_pts=%lld)
+demux_ogg: MAX_STREAMS exceeded, aborting.
+demux_ogg: stream with no beginning!
+ogg: vorbis audio track indicated but no vorbis stream header found.
+demux_ogg: unknown audio codec type 0x%x
+Direct Show Samples embedded in Ogg
+FIXME, old audio format not handled
+old header detected but stream type is unknown
+demux_ogg: Theorastreamsupport is highly alpha at the moment
+A theora header was rejected by libtheora
+memcmp(&op->packet[0], flac_signature_1, sizeof(flac_signature_1)) == 0
+assert: %s:%d: %s: Assertion `%s' failed.
+memcmp(&op->packet[9], flac_signature_2, sizeof(flac_signature_2)) == 0
+header.length == FLAC_STREAMINFO_SIZE
+demux_ogg: unknown stream type (signature >%.8s<). hex dump of bos packet follows:
+seeking keyframe i %lld p %lld
+ALBUM=
+ARTIST=
+PUBLISHER=
+COPYRIGHT=
+DISCNUMBER=
+LICENSE=
+TITLE=
+TRACKNUMBER=
+COMPOSER=
+ARRANGER=
+LYRICIST=
+AUTHOR=
+CONDUCTOR=
+PERFORMER=
+ENSEMBLE=
+OPUS=
+PART=
+PARTNUMBER=
+GENRE=
+DATE=
+LOCATION=
+COMMENT=
+decode_flac_header
+fLaC
+FLAC
+xineplug_dmx_ogg.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

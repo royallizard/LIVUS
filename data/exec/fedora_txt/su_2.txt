@@ -1,0 +1,305 @@
+/lib/ld-linux.so.2
+#,%t
+libpam.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+pam_open_session
+pam_close_session
+pam_set_item
+pam_setcred
+pam_start
+pam_strerror
+pam_acct_mgmt
+pam_getenvlist
+pam_chauthtok
+pam_end
+pam_authenticate
+libpam_misc.so.0
+misc_conv
+libc.so.6
+_IO_stdin_used
+setuid
+strcpy
+__printf_chk
+execv
+setlocale
+strsignal
+strncmp
+dcngettext
+optind
+__strdup
+setregid
+dcgettext
+__open64_2
+getpwuid
+initgroups
+getusershell
+strncpy
+fork
+warnx
+sigprocmask
+sigfillset
+setreuid
+abort
+_exit
+getpid
+kill
+endpwent
+strtol
+isatty
+fgets
+getpwnam
+calloc
+strlen
+sigemptyset
+openlog
+warn
+__errno_location
+chdir
+__syslog_chk
+endgrent
+setgroups
+ttyname
+__fprintf_chk
+sigaddset
+getgrnam
+putenv
+stdout
+fputc
+fputs
+endusershell
+fclose
+__memmove_chk
+strtoul
+malloc
+strcasecmp
+__xstat64
+__ctype_b_loc
+getenv
+optarg
+stderr
+ioctl
+getlogin
+getuid
+getegid
+getopt_long
+execvp
+gettimeofday
+sigaction
+geteuid
+waitpid
+__fpending
+strchr
+updwtmp
+program_invocation_short_name
+setusershell
+sleep
+__cxa_finalize
+setsid
+__sprintf_chk
+errx
+fopen64
+bindtextdomain
+setgid
+strcmp
+__libc_start_main
+ferror
+setenv
+basename
+closelog
+free
+__progname
+__environ
+__cxa_atexit
+__stack_chk_fail
+_fini
+_init
+_edata
+__bss_start
+LIBPAM_MISC_1.0
+LIBPAM_1.0
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+[^_]
+D$$t
+UWVS
+8 tH
+[^_]
+UWVS
+D$,=
+D$4t
+D$Tt
+D$tf
+D$8t
+D$t<
+t$Lt$
+UWVS
+[^_]
+UWVS
+|$`e
+D$<1
+L$<e3
+d$L[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$\t
+d$ [^_
+UWVS
+d$,[1
+d$,[^_]
+UWVS
+t$,U
+[^_]
+/etc/defaults/su
+/etc/defaults/runuser
+/etc/login.defs
+su(1)
+runuser(1)
+Usage:
+Options:
+For more details see %s.
+cannot duplicate string
+cannot allocate %zu bytes
+/usr/local/bin:/usr/bin
+ENV_PATH
+ENV_ROOTPATH
+ENV_SUPATH
+failed to set PATH
+write error
+root
+/bin/sh
+su-l
+runuser-l
+(unknown)
+FAILED SU 
+FAILED RUNUSER 
+/usr/share/locale
+util-linux
+group %s does not exist
+%s from %s
+util-linux 2.27
+c:fg:G:lmps:u:hV
+no command was specified
+user %s does not exist
+/dev/
+none
+/var/log/btmp
+FAIL_DELAY
+incorrect password
+SHELL
+using restricted shell %s
+cannot set groups
+cannot open session: %s
+cannot create child process
+cannot change directory to %s
+cannot block signals
+cannot set signal handler
+ (core dumped)
+%s%s
+ ...killed.
+cannot set group id
+cannot set user id
+TERM
+HOME
+USER
+LOGNAME
+ALWAYS_SET_PATH
+failed to execute %s
+%s(to %s) %s on %s
+session-command
+fast
+preserve-environment
+shell
+supp-group
+help
+version
+ %s [options] -u <user> <command>
+ %s [options] [-] [<user> [<argument>...]]
+Run <command> with the effective user ID and group ID of <user>.  If -u is
+not given, fall back to su(1)-compatible semantics and execute standard shell.
+The options -c, -f, -l, and -s are mutually exclusive with -u.
+ -u, --user <user>             username
+Change the effective user ID and group ID to that of <user>.
+A mere - implies -l.  If <user> is not given, root is assumed.
+ -m, -p, --preserve-environment  do not reset environment variables
+ -g, --group <group>             specify the primary group
+ -G, --supp-group <group>        specify a supplemental group
+ -, -l, --login                  make the shell a login shell
+ -c, --command <command>         pass a single command to the shell with -c
+ --session-command <command>     pass a single command to the shell with -c
+                                   and do not create a new session
+ -f, --fast                      pass -f to the shell (for csh or tcsh)
+ -s, --shell <shell>             run <shell> if /etc/shells allows it
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+failed to set the %s environment variable
+specifying more than %d supplemental groups is not possible
+specifying more than %d supplemental group is not possible
+ignoring --preserve-environment, it's mutually exclusive with --login
+options --{shell,fast,command,session-command,login} and --user are mutually exclusive
+only root can specify alternative groups
+may not be used by non-root users
+Session terminated, killing shell...
+warning: cannot change directory to %s
+/etc/hushlogins
+.hushlogin
+HUSHLOGIN_FILE
+%s/%s
+%s: %s contains invalid numerical value: %s
+hush login status: restore original IDs failed
+COLUMNS
+;*2$" 
+su.debug
+7zXZ
+-yMMy
+t*i)
+*DM-6
+7"A#
+ym'&
+>H4d
+.rVx
+O80.
+F]hfP
+]ic_
+M*0'
+jt<\
+J_li.
+S#y]M
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

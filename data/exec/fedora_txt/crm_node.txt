@@ -1,0 +1,308 @@
+/lib64/ld-linux-x86-64.so.2
+libcrmcluster.so.4
+crm_log_level
+create_request_adv
+__gmon_start__
+_Jv_RegisterClasses
+qb_log_callsite_get
+crm_element_value
+crm_str_eq
+crm_system_name
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+crm_parse_int
+crm_is_callsite_active
+qb_log_real_
+cpg_local_get
+crm_element_value_int
+crm_xml_add
+crm_exit
+create_xml_node
+free_xml
+qb_log_from_external_source
+_fini
+get_local_node_name
+set_cluster_type
+crm_peer_init
+get_cluster_type
+name_for_cluster_type
+get_node_name
+libstonithd.so.2
+pcmk_strerror
+crm_ipc_destroy
+g_list_free_full
+crm_element_value_copy
+string2xml
+log_data_element
+crm_ipc_new
+mainloop_add_ipc_client
+crm_ipc_send
+crm_ipc_close
+mainloop_get_ipc_client
+crm_ipc_connect
+libcrmcommon.so.3
+crm_set_options
+crm_log_cli_init
+crm_get_option
+crm_bump_log_level
+create_hello_message
+crm_help
+libcib.so.4
+cib_delete
+cib_new
+libpe_rules.so.2
+libncurses.so.5
+libtinfo.so.5
+libcpg.so.4
+cpg_finalize
+cpg_initialize
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+quorum_finalize
+quorum_initialize
+quorum_getquorate
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+fflush
+__printf_chk
+optind
+__strdup
+__stack_chk_fail
+getpid
+strtol
+calloc
+__errno_location
+__fprintf_chk
+stdout
+fputc
+optarg
+stderr
+__snprintf_chk
+fwrite
+__cxa_finalize
+strcmp
+__libc_start_main
+free
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+g_main_loop_run
+g_list_insert_sorted
+g_main_loop_new
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+COROSYNC_CPG_1.0
+COROSYNC_QUORUM_1.0
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z. 
+%r. 
+%j. 
+%b. 
+%Z. 
+%R. 
+%J. 
+%B. 
+%:. 
+%2. 
+%*. 
+%". 
+%z- 
+%r- 
+%j- 
+%b- 
+%Z- 
+%R- 
+%J- 
+%B- 
+%:- 
+%2- 
+%*- 
+%"- 
+AWAVE1
+AUATI
+D$81
+= 1 
+L$8dH3
+H[]A\A]A^A_
+-0/ 
+T$ H
+|$01
+|$0H
+|$(1
+L$$H
+|$(H
+=O, 
+fffff.
+fffff.
+=I, 
+='' 
+=R! 
+fffff.
+=!! 
+AVAUATUSH
+=f+ 
+=&* 
+="* 
+[]A\A]A^
+=W) 
+==) 
+fffff.
+AWAVI
+AUAT1
+D$h1
+L$hdH3
+x[]A\A]A^A_
+ATAUE1
+AVE1
+\$ L
+\$ L
+t$ L
+=*! 
+=;! 
+PAT1
+ATUSH
+D$81
+D$ H
+D$(I
+T$8dH3
+@[]A\
+AWAVA
+AUATL
+[]A\A]A^A_
+quorate
+xml-blob
+crm_node.c
+message
+uname
+%u %s %s
+member
+crmd
+crm_node
+attrd
+peer-remove
+task
+attr_host
+attr_host_id
+rm_node_cache
+Removing %s from the CIB
+node_state
+nodes
+status
+stonith-ng
+pacemakerd
+poke
+command [options]
+help
+	This text
+version
+	Version information
+verbose
+	Increase debug output
+quiet
+	Essential output only
+-spacer-
+Stack:
+openais
+corosync
+heartbeat
+Commands:
+name-for-id
+epoch
+quorum
+list
+partition
+cluster-id
+Additional Options:
+force
+Connection to %s failed: %s (%d)
+Connection to %s failed: %s (%d)
+Removing %s aka. %s (%u) from the membership cache
+%s peer cache cleanup for %s (%u): %d
+Could not remove %s/%u from nodes: %s
+Could not remove %s/%u from status: %s
+Tool for displaying low-level node information
+The supplied command is considered dangerous.  To prevent accidental destruction of the cluster, the --force flag is required in order to proceed.
+Attempting to process -%c command for cluster type: %s
+Could not get local node id from the CPG API
+Could not connect to the Cluster Process Group API: %d
+Could not obtain the current Quorum API state: %d
+Could not connect to the Quorum API: %d
+Failed to connect to %s to remove node '%s'
+	Only try connecting to an OpenAIS-based cluster
+	Only try connecting to an Corosync-based cluster
+Only try connecting to a Heartbeat-based cluster
+	Display the name used by the cluster for this node
+	Display the name used by the cluster for the node with the specified id
+	Display the epoch during which this node joined the cluster
+	Display a 1 if our partition has quorum, 0 if not
+	Display all known members (past and present) of this cluster (Not available for heartbeat clusters)
+Display the members of this partition
+Display this node's cluster id
+(Advanced) Remove the (stopped) node with the specified name from Pacemaker's configuration and caches
+In the case of Heartbeat, CMAN and Corosync 2.0, requires that the node has already been removed from the underlying cluster
+node_mcp_dispatch
+node_mcp_dispatch
+try_pacemaker
+try_corosync
+main
+cib_remove_node
+tools_remove_node_cache
+tools_remove_node_cache
+;*3$"
+crm_node.debug
+7zXZ
+>n*F0
+F^8K`
+| .A
+]p}$
+8X`%^|L!r
+$#`*
+U"|T
+~?3G
+JPH%DlS
+92j0+
+[rO@
+F	;S
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

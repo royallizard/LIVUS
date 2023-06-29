@@ -1,0 +1,303 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_sdp_crypto_unregister
+ast_rtp_engine_unregister_srtp
+srtp_install_event_handler
+srtp_shutdown
+option_debug
+ast_options
+ast_debug_get_by_module
+ast_log
+ast_base64encode
+ast_base64decode
+memcmp
+strlen
+__stack_chk_fail
+RAND_bytes
+memcpy
+srtp_protect
+srtp_protect_rtcp
+__ao2_ref
+srtp_unprotect_rtcp
+ast_rtp_instance_get_stats
+srtp_unprotect
+srtp_dealloc
+ao2_container_count
+ao2_iterator_init
+__ao2_iterator_next
+srtp_create
+srtp_add_stream
+ao2_iterator_destroy
+__errno_location
+free
+__ao2_callback
+__ast_module_unref
+_ast_asprintf
+srtp_init
+ast_rtp_engine_register_srtp
+ast_sdp_crypto_register
+strsep
+sscanf
+strchr
+ast_rtp_instance_add_srtp_policy
+ast_verb_sys_level
+__ast_verbose
+__ao2_find
+srtp_remove_stream
+__ao2_unlink
+__ao2_link
+crypto_policy_set_aes_cm_256_hmac_sha1_32
+crypto_policy_set_aes_cm_256_hmac_sha1_80
+crypto_policy_set_rtp_default
+crypto_policy_set_aes_cm_128_hmac_sha1_32
+__ao2_alloc
+calloc
+__ao2_container_alloc_hash
+__ast_module_ref
+__ast_register_file
+__ast_unregister_file
+ast_module_register
+ast_module_unregister
+libsrtp.so.1
+libpthread.so.0
+libc.so.6
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+5bG 
+%dG 
+%bG 
+%ZG 
+%RG 
+%JG 
+%BG 
+%:G 
+%2G 
+%*G 
+%"G 
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+=AF 
+AWAVAUATLc
+[A\A]A^A_]
+AUATI
+6u?H
+[]A\A]
+AWAVA
+AUAT
+|$`H
+l$@H
+D$ H
+D$0L
+oD$ H
+)D$@H
+[]A\A]A^A_
+=&8 
+AUATE
+[]A\A]
+AWAVAUATI
+t1;QHL
+;SHt
+_AXL
+[A\A]A^A_]
+1tIL
+AUAT
+D$h1
+A[A\tw
+AYAZH
+_AXH
+T$hdH3
+x[]A\A]
+=D' 
+ATUA
+AVAUI
+ATUI
+=0% 
+[]A\A]A^
+]A\A]A^
+AUAT
+D$x1
+ZYtdD
+T$xdH3
+[]A\A]
+= " 
+ATUA
+AWAVI
+AUATI
+l$8H
+[]A\A]A^A_
+[]A\A]A^A_
+nothing to report
+unspecified failure
+unsupported parameter
+couldn't allocate memory
+couldn't deallocate properly
+couldn't initialize
+authentication failure
+cipher failure
+algorithm failed test routine
+unsupported operation
+no appropriate context found
+can't use key any more
+unknown
+SSRC collision
+res_srtp.c
+res_srtp
+event_key_soft_limit
+event_key_hard_limit
+event_packet_index_limit
+base64 encode/decode bad key
+local_key64 %s len %zu
+SRTP protect: %s
+Destroying policy
+SRTP try to re-create
+Unallocate policy
+Destroying container
+%d AEAD_AES_%d_GCM inline:%s
+Crypto line: a=crypto:%s
+Failed to initialize libsrtp
+%30d
+AES_CM_128_HMAC_SHA1_80
+AES_CM_128_HMAC_SHA1_32
+AES_256_CM_HMAC_SHA1_80
+AES_256_CM_HMAC_SHA1_32
+AES_CM_256_HMAC_SHA1_80
+AES_CM_256_HMAC_SHA1_32
+Unsupported crypto suite: %s
+inline
+%30u
+Could not set SRTP policies
+SRTP policy activated
+type
+SSRC
+Looking for policy
+Remove existing match policy
+Adding new policy for %s %u
+Added additional stream
+Invalid crypto suite: %u
+Allocating policy
+Created initial policy
+SRTP policy container
+Couldn't add stream
+Couldn't remove stream (%u)
+SRTP SDP list was not empty
+Secure RTP (SRTP)
+can't process as much data as requested
+replay check failed (bad index)
+replay check failed (index too old)
+unable to perform desired validation
+base64 encode/decode bad len %d != %d
+SRTP unprotect failed with %s, retrying
+SRTP destroy before re-create
+SRTP re-created with first policy
+Unreffing first policy for re-creating srtp session
+Add all the other %d policies
+Unreffing n-th policy for re-creating srtp session
+SRTP session could not be re-created after unprotect failure: %s
+Unreffing first policy after srtp_create failed
+SRTP unprotect failed with: %s %d
+%d AEAD_AES_%d_GCM_%d inline:%s
+%d AES_%d_CM_HMAC_SHA1_%d inline:%s
+%d AES_CM_%d_HMAC_SHA1_%d inline:%s
+Could not allocate memory for crypto line
+Failed to register SRTP with rtp engine
+Failed to register SDP SRTP crypto API
+Could not set remote SRTP suite
+Unrecognized crypto attribute a=%s
+Unacceptable a=crypto tag: %s
+Unsupported crypto parameters: %s
+Crypto MKI handling is not supported: ignoring attribute %s
+Failed to parse lifetime value in crypto attribute: %s
+Crypto lifetime exponent of '%u' is a bit large; using 48
+Rejecting crypto attribute '%s': lifetime '%f' too short
+Crypto attribute '%s' accepted with lifetime '%f', MKI '%s'
+SRTP crypto offer not acceptable: '%s'
+SRTP descriptions key length is '%d', not '%d'
+SRTP remote key unchanged; maintaining current policy
+Cannot replace an existing wildcard policy
+Unreffing already existing policy
+Failed to remove SRTP stream for SSRC %u
+Failed to add SRTP stream for %s %u
+Unable to allocate memory for srtp_policy
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-14.5.0/include/asterisk/utils.h
+Unable to allocate memory for srtp
+Unreffing found policy in change_source
+No SRTP key management enabled
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+srtp_event_cb
+res_srtp_init
+res_sdp_crypto_dtor
+res_sdp_crypto_build_offer
+set_crypto_policy
+ast_srtp_policy_alloc
+ast_srtp_policy_destroy
+policy_set_suite
+ast_srtp_policy_set_master_key
+crypto_activate
+res_sdp_crypto_parse_offer
+res_srtp_new
+ast_srtp_create
+ast_srtp_destroy
+ast_srtp_add_stream
+find_policy
+ast_srtp_change_source
+ast_srtp_unprotect
+ast_srtp_protect
+crypto_init_keys
+_ast_calloc
+sdp_crypto_alloc
+res_sdp_srtp_get_attr
+@w;A
+;*3$"
+68b329da9893e34099c7d8ad5cb9c940
+res_srtp.so-14.5.0-4.fc27.x86_64.debug
+7zXZ
+^:3$
+xc3#3
+"s#S
+HHZ;
+Bk4Q
+	lyA
+7L^UY
+h8+l
+	M[Q
+R_6/
+qG.H.
+2e!D
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

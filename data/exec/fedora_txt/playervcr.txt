@@ -1,0 +1,222 @@
+td =
+/lib/ld-linux.so.2
+wN I\W
+smG&
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libplayerc.so.3.0
+__gmon_start__
+playerc_client_peek
+playerc_log_set_write_state
+playerc_log_set_read_rewind
+playerc_log_create
+playerc_log_get_state
+playerc_client_create
+playerc_log_set_read_state
+playerc_client_connect
+playerc_client_disconnect
+playerc_client_destroy
+playerc_client_read
+playerc_log_destroy
+playerc_log_subscribe
+playerc_log_unsubscribe
+playerc_log_set_filename
+libplayerinterface.so.3.0
+libm.so.6
+libz.so.1
+libgeos-3.4.2.so
+libgeos_c.so.1
+libgtk-x11-2.0.so.0
+g_type_check_instance_cast
+g_idle_add
+g_signal_connect_data
+g_type_init
+g_assertion_message_expr
+gtk_label_new
+gtk_entry_new
+gtk_window_new
+gtk_vbox_new
+gtk_entry_set_max_length
+gtk_main_quit
+gtk_widget_destroy
+gtk_main
+gtk_box_pack_start
+gtk_dialog_run
+gtk_object_get_type
+gtk_dialog_new_with_buttons
+gtk_container_add
+gtk_frame_new
+gtk_entry_get_text
+gtk_init
+gtk_hbox_new
+gtk_container_get_type
+gtk_signal_connect_full
+gtk_button_new_with_label
+gtk_widget_show
+gtk_button_set_use_stock
+gtk_label_set_text
+gtk_widget_show_all
+gtk_window_set_title
+libgdk-x11-2.0.so.0
+libpangocairo-1.0.so.0
+libatk-1.0.so.0
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libgio-2.0.so.0
+libpangoft2-1.0.so.0
+libpango-1.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libfontconfig.so.1
+libfreetype.so.6
+libplayerwkb.so.3.0
+libplayercommon.so.3.0
+libplayerjpeg.so.3.0
+libjpeg.so.62
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+puts
+__assert_fail
+strtol
+__fprintf_chk
+stdout
+stderr
+__snprintf_chk
+fwrite
+__strcpy_chk
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+init_gui
+__data_start
+player_read_func
+parse_args
+_fp_hw
+button_callback
+__libc_csu_init
+init_player
+update_status_label
+fini_player
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+UWVS
+loca
+lhosf
+u/9t$D~)
+[^_]
+9t$D~
+d$,1
+[^_]
+9t$D~
+d$$[^
+UWVS
+D$,e
+[^_]
+UWVS
+D$P9
+d$<[^_]
+UWVS
+t$,U
+[^_]
+Error: Failed to peek at Player socket
+Error: Failed to read from Player
+/builddir/build/BUILD/player-3.0.2/utils/playervcr/playervcr.c
+gui_data->client = playerc_client_create(((void *)0), gui_data->hostname, gui_data->port)
+Error: Failed to connect to %s:%d
+gui_data->log = playerc_log_create(gui_data->client, gui_data->index)
+Error: Failed to subscribe to log device
+Error: Failed to get log type/state
+(gui_data->main_window = (GtkWindow*)gtk_window_new(GTK_WINDOW_TOPLEVEL))
+(gui_data->vbox = (GtkBox*)gtk_vbox_new(FALSE, 15))
+(gui_data->hbox = (GtkBox*)gtk_hbox_new(FALSE, 10))
+(gui_data->label_frame = (GtkFrame*)gtk_frame_new(NULL))
+(gui_data->label = (GtkLabel*)gtk_label_new(""))
+(gui_data->rewindbutton = (GtkButton*)gtk_button_new_with_label("gtk-go-back"))
+(gui_data->playbutton = (GtkButton*)gtk_button_new_with_label("gtk-execute"))
+(gui_data->playbutton = (GtkButton*)gtk_button_new_with_label("gtk-save"))
+(gui_data->setfilenamebutton = (GtkButton*)gtk_button_new_with_label("gtk-open"))
+(gui_data->stopbutton = (GtkButton*)gtk_button_new_with_label("gtk-stop"))
+(gui_data->quitbutton = (GtkButton*)gtk_button_new_with_label("gtk-quit"))
+USAGE: playervcr [-h <host>] [-p <port>] [-i <index>]
+Error: Failed to start playback
+Error: Failed to start logging
+Error: Failed to rewind playback
+Warning: Can't rewind while writing
+Error: Failed to stop logging
+Error: Failed to stop playback
+Changing log file name to %s....
+Can't change log filename while logging is enabled
+(dialog = (GtkDialog*)gtk_dialog_new_with_buttons("My dialog", gui_data->main_window, GTK_DIALOG_MODAL | GTK_DIALOG_DESTROY_WITH_PARENT, GTK_STOCK_OK, GTK_RESPONSE_ACCEPT, GTK_STOCK_CANCEL, GTK_RESPONSE_REJECT, NULL))
+(label = (GtkLabel*)gtk_label_new("New filename:"))
+(entry = (GtkEntry*)gtk_entry_new())
+Playback: started
+Playback: stopped
+Logging: started
+Logging: stopped
+gtk-go-back
+gtk-save
+gtk-stop
+clicked
+delete-event
+destroy-event
+playervcr -- %s:%d
+gtk-execute
+gtk-open
+gtk-quit
+gtk-cancel
+gtk-ok
+My dialog
+Failed.
+Done.
+MOO!
+New filename:
+button_callback
+init_player
+init_gui
+;*2$"
+playervcr.debug
+7zXZ
+REJT
+V6fa\B
+& @+n/
+Oyx=
+e+)rV
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,255 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+gth_browser_activate_rotate_right
+gth_browser_get_type
+g_type_check_instance_cast
+gth_file_selection_get_type
+gth_browser_get_file_list_view
+gth_file_selection_get_selected
+gth_file_list_get_type
+gth_browser_get_file_list
+gth_file_list_get_files
+gth_file_data_list_to_file_list
+gth_transform_task_new
+gth_browser_exec_task
+_g_object_list_unref
+_gtk_tree_path_list_free
+gth_browser_activate_rotate_left
+gth_browser_activate_apply_orientation
+gth_browser_activate_reset_orientation
+gth_reset_orientation_task_new
+g_free
+ir__gth_browser_construct_cb
+g_type_check_instance_is_a
+g_return_if_fail_warning
+g_malloc0
+g_object_set_data_full
+g_action_map_get_type
+g_action_map_add_action_entries
+gth_browser_get_menu_manager
+gth_menu_manager_append_entries
+ir__gth_browser_update_sensitivity_cb
+gth_file_selection_get_n_selected
+gth_window_get_type
+gth_window_enable_action
+ir__gth_browser_file_list_key_press_cb
+ir__gth_browser_activate_viewer_page_cb
+g_object_get_data
+gth_browser_get_viewer_page
+gth_image_viewer_page_get_type
+dcgettext
+gth_browser_add_header_bar_button
+ir__gth_browser_deactivate_viewer_page_cb
+gtk_widget_destroy
+g_type_class_peek_parent
+g_type_class_adjust_private_offset
+g_type_class_add_private
+g_type_check_class_cast
+gth_task_get_type
+g_list_append
+gth_task_get_cancellable
+_g_query_all_metadata_async
+gth_task_completed
+_g_object_unref
+g_file_info_get_display_name
+gth_task_progress
+gth_metadata_get_type
+g_object_new
+g_file_info_set_attribute_object
+_g_write_metadata_async
+_g_write_metadata_finish
+g_file_get_parent
+gth_main_get_default_monitor
+gth_monitor_folder_changed
+g_list_free
+gth_reset_orientation_task_get_type
+g_once_init_enter
+g_intern_static_string
+g_type_register_static_simple
+g_once_init_leave
+g_type_instance_get_private
+g_list_length
+_g_object_list_ref
+jpeg_error_quark
+g_error_matches
+g_clear_error
+gtk_window_get_type
+ask_whether_to_trim
+gth_task_dialog
+apply_transformation_async
+gth_transform_task_get_type
+gthumb_extension_activate
+gth_hook_register
+gth_hook_add_callback
+gthumb_extension_deactivate
+gthumb_extension_is_configurable
+gthumb_extension_configure
+g_file_get_parse_name
+g_strdup_printf
+_gtk_message_dialog_new
+gtk_dialog_get_type
+gtk_dialog_set_default_response
+g_signal_connect_data
+gtk_widget_show
+get_next_transformation
+g_file_info_get_attribute_object
+gth_metadata_get_raw
+strtol
+gth_file_data_get_mime_type
+g_content_type_equals
+jpegtran
+_g_file_write_async
+g_memory_input_stream_new_from_data
+gth_image_new_from_stream
+gth_image_get_cairo_surface
+_cairo_image_surface_transform
+gth_image_set_cairo_surface
+gth_image_save_to_file
+cairo_surface_destroy
+_g_object_ref
+_g_file_load_async
+libjpeg_utils.so
+libgtk-3.so.0
+libcairo.so.2
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libimage_rotation.so
+/usr/lib/gthumb/extensions
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+d$ [^_
+d$ [^_
+UWVS
+d$<[^_]
+d$<[^_]
+UWVS
+d$,[^_]
+d$ [^_
+d$ [^_
+d$ [^_
+d$ [^_
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$ [^_
+d$ [^_
+UWVS
+d$L[^_]
+UWVS
+l$pe
+L$L1
+D$<t4
+D$Le3
+d$\[^_]
+d$$[^
+GTH_IS_BROWSER (browser)
+image-rotation-browser-data
+tools.tools1
+tools.tools2
+Rotate Left
+win.rotate-left
+object-rotate-left-symbolic
+Rotate Right
+win.rotate-right
+object-rotate-right-symbolic
+data != NULL
+Rotate Physically
+win.apply-orientation
+Reset the EXIF Orientation
+win.reset-orientation
+bracketleft
+bracketright
+ir__gth_browser_deactivate_viewer_page_cb
+ir__gth_browser_activate_viewer_page_cb
+ir__gth_browser_construct_cb
+Saving images
+Exif::Image::Orientation
+GthResetOrientationTask
+GTH_IS_RESET_ORIENTATION_TASK (task)
+gth_reset_orientation_task_exec
+GthTransformTask
+GTH_IS_TRANSFORM_TASK (task)
+gth_transform_task_exec
+jpegtran-after
+gth-browser-construct
+gth-browser-update-sensitivity
+gth-browser-file-list-key-press
+gth-browser-activate-viewer-page
+gth-browser-deactivate-viewer-page
+Problem transforming the image: %s
+This transformation may introduce small image distortions along one or more edges, because the image dimensions are not multiples of 8.
+The distortion is reversible, however. If the resulting image is unacceptable, simply apply the reverse transformation to return to the original image.
+You can also choose to discard (or trim) any untransformable edge pixels. For practical use, this mode gives the best looking results, but the transformation is not strictly lossless anymore.
+_Accept distortion
+_Cancel
+_Trim
+dialog-warning-symbolic
+response
+Embedded::Image::Orientation
+image/jpeg
+;*2$"8
+libimage_rotation.so.debug
+7zXZ
+J5	IA!s
+:bbF
+zz&r
+`Y8U
+8	o'
+S-\\tU
+IxT#
+uRbP
+~71L
+6%%49l
+}PHX
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,409 @@
+td`d
+/lib/ld-linux.so.2
++z=g.yS
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+strrchr
+readlinkat
+__strdup
+dcgettext
+__fxstatat64
+closedir
+nanosleep
+strncpy
+warnx
+vfscanf
+mkdir
+rewinddir
+_exit
+strtol
+fgets
+__openat64_2
+strlen
+warn
+strstr
+__errno_location
+read
+__fxstat64
+__fprintf_chk
+stdout
+fputc
+fclose
+mkostemp64
+umask
+fdopendir
+__xstat64
+__ctype_b_loc
+getenv
+sscanf
+stderr
+ioctl
+__snprintf_chk
+readlink
+strncasecmp
+__fpending
+lseek64
+strchr
+program_invocation_short_name
+fdopen
+readdir64
+__cxa_finalize
+fcntl
+__sprintf_chk
+getdtablesize
+errx
+memmove
+uname
+fopen64
+bindtextdomain
+faccessat
+strcmp
+__asprintf_chk
+__libc_start_main
+dirfd
+ferror
+write
+basename
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.7
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+$t9Qj
+t$ j
+ ;t$
+PPUj
+D$l1
+T$81
+D$89E
+L$le3
+[^_]
+D$8;E
+D$<9D$8
+9T$<
+[^_]
+T$<uj
+T$<u
+UWVS
+[^_]
+UWVS
+8 tH
+[^_]
+d$$[^
+D$|1
+D$,1
+L$|e3
+UWVS
+D$|1
+L$|e3
+[^_]
+d$$[^
+d$([
+d$ [^_
+[^_]
+|$Ltu
+d$,[^_]
+d$([
+[^_]
+T$$u<
+D$$	
+D$$	
+l$<1
+L$80
+D$(	
+UWVS
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+D$|1
+T$|e3
+t$<t(
+d$$[^
+d$$[^
+d$ [^_
+d$ 1
+UWVS
+[^_]
+:/tk
+L$,u
+<ptI
+d$$[^
+d$$[^
+d$$[^
+UWVS
+D$ e
+9D$0
+D$81
+D$ 	
+[^_]
+D$,1
+T$,e3
+d$<[^_]
+D$l1
+T$le3
+d$|[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+/dev
+D$\%
+3|$p3D$l	
+[^_]
+/sys
+/dev
+/blof
+UWVS
+/sub
+systf
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+T$$t
+D$(	
+D$L1
+t$Le35
+d$\[^_]
+t$De
+D$,1
+u*3|$ 3t$$1
+T$,e3
+d$0[^_
+UWVS
+[^_]
+T$,t]
+T$,1
+9D$Pr
+T$,e3
+d$<[^_]
+L$L1
+L$Le3
+d$P[^_
+UWVS
+[^_]
+D$,%
+[^_]
+d$([
+UWVS
+|$Pe
+T$,1
+D$(t!
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %1$s -V
+ %1$s --report [devices]
+ %1$s [-v|-q] commands devices
+Available commands:
+ %-25s get size in 512-byte sectors
+%s: failed to initialize sysfs handler
+%s: failed to read partition start from sysfs
+%s %5ld %5d %5d %10ju %15lld   %s
+RO    RA   SSZ   BSZ   StartSec            Size   Device
+get discard zeroes support status
+get logical block (sector) size
+get physical block (sector) size
+set blocksize on file descriptor opening the block device
+get 32-bit sector count (deprecated, use --getsz)
+--getsz
+ %s %-*s %s
+ %-25s %s
+cannot open %s
+ioctl error on %s
+/proc/partitions
+ %d %d %d %200[^
+/dev/%s
+write error
+--setro
+/usr/share/locale
+util-linux
+%s from %s
+util-linux 2.27
+--help
+--report
+%lld
+could not get device size
+%s requires an argument
+%s failed.
+%s succeeded.
+%s: 
+%llu
+Unknown command: %s
+--version
+BLKROSET
+set read-only
+--setrw
+set read-write
+BLKROGET
+--getro
+get read-only
+BLKDISCARDZEROES
+--getdiscardzeroes
+BLKSSZGET
+--getss
+BLKPBSZGET
+--getpbsz
+BLKIOMIN
+--getiomin
+get minimum I/O size
+BLKIOOPT
+--getioopt
+get optimal I/O size
+BLKALIGNOFF
+--getalignoff
+get alignment offset in bytes
+BLKSECTGET
+--getmaxsect
+get max sectors per request
+BLKBSZGET
+--getbsz
+get blocksize
+BLKBSZSET
+--setbsz
+<bytes>
+BLKGETSIZE
+--getsize
+BLKGETSIZE64
+--getsize64
+get size in bytes
+BLKRASET
+--setra
+<sectors>
+set readahead
+BLKRAGET
+--getra
+get readahead
+BLKFRASET
+--setfra
+set filesystem readahead
+BLKFRAGET
+--getfra
+get filesystem readahead
+BLKFLSBUF
+--flushbufs
+flush buffers
+BLKRRPART
+--rereadpt
+reread partition table
+tape
+printer
+processor
+worm
+scanner
+mo-disk
+changer
+comm
+raid
+enclosure
+no-lun
+queue/
+/sys/dev/block/%d:%d/%s
+/sys/dev/block/%d:%d
+/dev/
+/sys/block/%s/%s/dev
+/sys/block/%s/dev
+%s/start
+%lld
+%llu
+%s/partition
+%1023[^
+slaves
+removable
+dm/uuid
+part
+LVM-
+device
+%u:%u:%u:%u
+/sys/class/%s_host/host%d/%s
+/sys/class/%s_host/host%d
+ieee1394
+pcmcia
+/sys/bus/scsi/devices/%d:%d:%d:%d/%s
+/sys/bus/scsi/devices/%d:%d:%d:%d
+%d.%d.%d
+/tmp/
+TMPDIR
+%s/%s.XXXXXX
+;*2$"
+blockdev.debug
+7zXZ
+:{Du
+#]=nxj
+L"3]
+.(>p
+D4u%
+#pY_
+a}fM
+G;Fp
+Nvf<
+#Nb]
+{4 '51
+jV(Mk!2
+D3	l
+[h?4Gs
+d+/l
+3bV%
+|l.E
+&GRL
+(k<nj
+xKL"
+$?~2e/
+rkdrq<X
+F@:@
+8swLk
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

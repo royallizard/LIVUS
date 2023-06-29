@@ -1,0 +1,393 @@
+/lib/ld-linux.so.2
+libtinfo.so.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_init
+tigetstr
+_fini
+setupterm
+putp
+tigetnum
+libc.so.6
+_IO_stdin_used
+klogctl
+__printf_chk
+_IO_putc
+setlocale
+strncmp
+optind
+__strdup
+dcgettext
+warnx
+abort
+_exit
+strspn
+strtod
+strtol
+fgetc
+calloc
+strlen
+localeconv
+warn
+strcspn
+__errno_location
+read
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+__ctype_b_loc
+getenv
+optarg
+stderr
+ioctl
+__snprintf_chk
+fwrite
+__fpending
+strchr
+program_invocation_short_name
+__cxa_finalize
+__vasprintf_chk
+errx
+fopen64
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+getopt_long_only
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+ZYPj
+|$`e
+[^_]
+T$$9T$,vJ1
+|$<)
+;T$8|
+UWVS
+[^_]
+8-ti
+8-tE
+d$,[^_]
+UWVS
+d$,[^_]
+8-t	
+[^_]
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+terminal %s does not support %s
+Set the attributes of a terminal.
+ --term          <terminal_name>   override TERM environment variable
+ --reset                           reset terminal to power-on state
+ --initialize                      display init string, and use default settings
+ --default                         use default terminal settings
+ --store                           save current terminal settings as default
+ --cursor        [on|off]          display cursor
+ --repeat        [on|off]          keyboard repeat
+ --appcursorkeys [on|off]          cursor key application mode
+ --linewrap      [on|off]          continue on a new line when a line is full
+ --inversescreen [on|off]          swap colors for the whole screen
+ --foreground    default|<color>   set foreground color
+ --background    default|<color>   set background color
+ --ulcolor       [bright] <color>  set underlined text color
+ --hbcolor       [bright] <color>  set bold text color
+                 <color>: black blue cyan green grey magenta red white yellow
+ --bold          [on|off]          bold
+ --half-bright   [on|off]          dim
+ --blink         [on|off]          blink
+ --underline     [on|off]          underline
+ --reverse       [on|off]          swap foreground and background colors
+ --clear         [all|rest]        clear screen and set cursor position
+ --tabs          [<number>...]     set these tab stop positions, or show them
+ --clrtabs       [<number>...]     clear these tab stop positions, or all
+ --regtabs       [1-160]           set a regular tab stop interval
+ --blank         [0-60|force|poke] set time of inactivity before screen blanks
+ --dump          [<number>]        write vcsa<number> console dump to file
+ --append        [<number>]        append vcsa<number> console dump to file
+ --file          <filename>        name of the dump file
+ --msg           [on|off]          send kernel messages to console
+ --msglevel      0-8               kernel console log level
+ --powersave     [on|vsync|hsync|powerdown|off]
+                                   set vesa powersaving features
+ --powerdown     [0-60]            set vesa powerdown interval in minutes
+ --blength       [0-2000]          duration of the bell in milliseconds
+ --bfreq         <number>          bell frequency in Hertz
+ --version                         show version information and exit
+ --help                            display this help and exit
+argument error: bright %s is not supported
+%s: these options are mutually exclusive:
+terminfo database cannot be found
+can not open dump file %s for output
+Usage:
+ %s [options]
+Options:
+For more details see %s.
+setterm(1)
+cannot allocate string
+black
+green
+yellow
+blue
+magenta
+cyan
+white
+default
+argument error
+argument error: %s
+duplicate use of an option
+cannot allocate %zu bytes
+too many tabs
+grey
+force
+poke
+write error
+[?7h
+[?7l
+[?8h
+[?8l
+[?1h
+[?1l
+[?5h
+[?5l
+smul
+rmul
+clear
+term
+/usr/share/locale
+util-linux
+reset
+vsync
+hsync
+powerdown
+%s from %s
+util-linux 2.27
+TERM
+$TERM is not defined.
+%s: unknown terminal type
+terminal is hardcopy
+cnorm
+civis
+--repeat
+--appcursorkeys
+sgr0
+[3%c%s
+[4%c%s
+--ulcolor
+[1;%d]
+[2;%d]
+bold
+[22m
+blink
+[25m
+[27m
+--store
+cols
+         
+%-10d
+[%dG
+--clrtabs
+[%dG
+--regtabs
+[%dC
+--blank
+[9;%d]
+cannot force blank
+cannot force unblank
+cannot get blank status
+cannot (un)set powersave mode
+[14;%d]
+/dev/vcsa%d
+/dev/vcsa
+cannot read %s
+screen.dump
+--msg
+klogctl error
+--msglevel
+--blength
+[11;%d]
+--bfreq
+[10;%d]
+ --%s
+ -%c
+initialize
+cursor
+linewrap
+foreground
+background
+hbcolor
+inversescreen
+half-bright
+reverse
+underline
+append
+file
+powersave
+version
+help
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"8
+setterm.debug
+7zXZ
+k>HJ
+ m"V
+]nl 
+4H9]
+~{j{m
+RHaPe
+:gBi
+ELjQ
+zPA}
+?@[=R
+SODW?_
+<St 
+y&pZ8
+oyQrE
+8iPK2U
+)^-L]
+4`}X>zGh
+PzYzfz
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

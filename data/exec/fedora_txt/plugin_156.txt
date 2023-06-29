@@ -1,0 +1,803 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_new_float
+value_area_get_width
+value_area_get_height
+sheet_foreach_cell_in_range
+value_terminate_err
+cell_eval_content
+g_malloc
+value_area_get_x_y
+value_get_as_float
+g_free
+value_new_error_VALUE
+matrix_determinant
+value_new_error_std
+matrix_invert
+value_new_error_NUM
+value_new_array_non_init
+mmult
+go_pow10
+go_fake_trunc
+dcgettext
+value_new_error
+g_slist_free
+value_new_error_NA
+g_slist_append
+float_range_function
+range_product
+range_multinomial
+range_sumsq
+range_sum
+range_hypot
+g_slist_length
+g_malloc0
+gnm_expr_eval
+value_area_fetch_x_y
+value_release
+value_dup
+workbook_date_conv
+parse_criteria
+sheet_cell_get
+sqrt
+value_new_int
+go_fake_floor
+go_fake_ceil
+go_fake_round
+value_get_as_int
+value_new_string
+strstr
+value_new_error_DIV0
+fmod
+log10
+log1p
+combin
+lgamma
+fact
+go_pow2
+expm1
+lbeta3
+beta
+atan2
+atanh
+atan
+asinh
+asin
+acosh
+acos
+lgamma_r
+go_plugin_depends
+go_plugin_header
+math_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.0
+,[^_]
+[^_]
+,[^_]
+,[^_]
+l[^_]
+l[^_]
+@[^]
+@[^]
+[^_]
+[^_]
+[^_]
+[^_]
+q +q
+,[^_]
+@[^]
+@[^]
+0[^]
+0[^]
+@[^]
+@[^]
+<[^_]
+<[^_]
+<[^_]
+gfff
+,[^_]
+gfff
+,[^_]
+,[^_]
+,[^_]
+P[^]
+P[^]
+P[^]
+uAz?
+@[^]
+@[^]
+@[^]
+[^_]
+[^_]
+`[^]
+`[^]
+uJzH
+ [^]
+ [^]
+@[^]
+@[^]
+@[^]
+uBz@
+@AArray version not implemented!
+@FUNCTION=ABS
+@SYNTAX=ABS(b1)
+@DESCRIPTION=ABS implements the Absolute Value function:  the result is to drop the negative sign (if present).  This can be done for integers and floating point numbers.
+* This function is Excel compatible.
+@EXAMPLES=
+ABS(7) equals 7.
+ABS(-3.14) equals 3.14.
+@SEEALSO=CEIL, CEILING, FLOOR, INT, MOD
+@FUNCTION=ACOS
+@SYNTAX=ACOS(x)
+@DESCRIPTION=ACOS function calculates the arc cosine of @x; that is the value whose cosine is @x.
+* The value it returns is in radians.
+* If @x falls outside the range -1 to 1, ACOS returns the #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+ACOS(0.1) equals 1.470629.
+ACOS(-0.1) equals 1.670964.
+@SEEALSO=COS, SIN, DEGREES, RADIANS
+@FUNCTION=ACOSH
+@SYNTAX=ACOSH(x)
+@DESCRIPTION=ACOSH  function  calculates  the inverse hyperbolic cosine of @x; that is the value whose hyperbolic cosine is @x.
+* If @x is less than 1.0, ACOSH() returns the #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+ACOSH(2) equals 1.31696.
+ACOSH(5.3) equals 2.35183.
+@SEEALSO=ACOS, ASINH, DEGREES, RADIANS 
+@FUNCTION=ASIN
+@SYNTAX=ASIN(x)
+@DESCRIPTION=ASIN function calculates the arc sine of @x; that is the value whose sine is @x.
+* If @x falls outside the range -1 to 1, ASIN returns the #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+ASIN(0.5) equals 0.523599.
+ASIN(1) equals 1.570797.
+@SEEALSO=SIN, COS, ASINH, DEGREES, RADIANS
+@FUNCTION=ASINH
+@SYNTAX=ASINH(x)
+@DESCRIPTION=ASINH function calculates the inverse hyperbolic sine of @x; that is the value whose hyperbolic sine is @x.
+* This function is Excel compatible.
+@EXAMPLES=
+ASINH(0.5) equals 0.481212.
+ASINH(1.0) equals 0.881374.
+@SEEALSO=ASIN, ACOSH, SIN, COS, DEGREES, RADIANS
+@FUNCTION=ATAN
+@SYNTAX=ATAN(x)
+@DESCRIPTION=ATAN function calculates the arc tangent of @x; that is the value whose tangent is @x.
+* Return value is in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+ATAN(0.5) equals 0,463648.
+ATAN(1) equals 0,785398.
+@SEEALSO=TAN, COS, SIN, DEGREES, RADIANS
+@FUNCTION=ATANH
+@SYNTAX=ATANH(x)
+@DESCRIPTION=ATANH function calculates the inverse hyperbolic tangent of @x; that is the value whose hyperbolic tangent is @x.
+* If the absolute value of @x is greater than 1.0, ATANH returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+ATANH(0.5) equals 0.549306.
+ATANH(0.8) equals 1.098612.
+@SEEALSO=ATAN, TAN, SIN, COS, DEGREES, RADIANS
+@FUNCTION=ATAN2
+@SYNTAX=ATAN2(b1,b2)
+@DESCRIPTION=ATAN2 function calculates the arc tangent of the two variables @b1 and @b2.  It is similar to calculating the arc tangent of @b2 / @b1, except that the signs of both arguments are used to determine the quadrant of the result.
+* The result is in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+ATAN2(0.5,1.0) equals 1.107149.
+ATAN2(-0.5,2.0) equals 1.815775.
+@SEEALSO=ATAN, ATANH, COS, SIN, DEGREES, RADIANS
+@FUNCTION=COS
+@SYNTAX=COS(x)
+@DESCRIPTION=COS function returns the cosine of @x, where @x is given in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+COS(0.5) equals 0.877583.
+COS(1) equals 0.540302.
+@SEEALSO=COSH, SIN, SINH, TAN, TANH, RADIANS, DEGREES
+@FUNCTION=BETA
+@SYNTAX=BETA(a,b)
+@DESCRIPTION=BETA function returns the value of the mathematical beta function extended to all real numbers except 0 and negative integers.
+* If @a, @b, or (@a + @b) are non-positive integers, BETA returns #NUM! error.
+@EXAMPLES=
+BETA(2,3) equals 0.083333.
+BETA(-0.5,0.5) equals #NUM!.
+@SEEALSO=BETALN,GAMMALN
+@FUNCTION=BETALN
+@SYNTAX=BETALN(a,b)
+@DESCRIPTION=BETALN function returns the natural logarithm of the absolute value of the beta function.
+* If @a, @b, or (@a + @b) are non-positive integers, BETALN returns #NUM! 
+@EXAMPLES=
+BETALN(2,3) equals -2.48.
+BETALN(-0.5,0.5) equals #NUM!.
+@SEEALSO=BETA,GAMMALN
+@FUNCTION=COSH
+@SYNTAX=COSH(x)
+@DESCRIPTION=COSH function returns the hyperbolic cosine of @x, which is defined mathematically as
+	(exp(@x) + exp(-@x)) / 2.
+* @x is in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+COSH(0.5) equals 1.127626.
+COSH(1) equals 1.543081.
+@SEEALSO=COS, SIN, SINH, TAN, TANH, RADIANS, DEGREES, EXP
+@FUNCTION=COUNTIF
+@SYNTAX=COUNTIF(range,criteria)
+@DESCRIPTION=COUNTIF function counts the number of cells in the given @range that meet the given @criteria.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 23, 27, 28, 33, and 39.  Then
+COUNTIF(A1:A5,"<=28") equals 3.
+COUNTIF(A1:A5,"<28") equals 2.
+COUNTIF(A1:A5,"28") equals 1.
+COUNTIF(A1:A5,">28") equals 2.
+@SEEALSO=COUNT,SUMIF
+@FUNCTION=CEIL
+@SYNTAX=CEIL(x)
+@DESCRIPTION=CEIL function rounds @x up to the next nearest integer.
+@EXAMPLES=
+CEIL(0.4) equals 1.
+CEIL(-1.1) equals -1.
+CEIL(-2.9) equals -2.
+@SEEALSO=CEILING, FLOOR, ABS, INT, MOD
+@FUNCTION=CEILING
+@SYNTAX=CEILING(x[,significance])
+@DESCRIPTION=CEILING function rounds @x up to the nearest multiple of @significance.
+* If @x or @significance is non-numeric CEILING returns #VALUE! error.
+* If @x and @significance have different signs CEILING returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+CEILING(2.43,1) equals 3.
+CEILING(123.123,3) equals 126.
+@SEEALSO=CEIL, FLOOR, ABS, INT, MOD
+@FUNCTION=DEGREES
+@SYNTAX=DEGREES(x)
+@DESCRIPTION=DEGREES computes the number of degrees equivalent to @x radians.
+* This function is Excel compatible.
+@EXAMPLES=
+DEGREES(2.5) equals 143.2394.
+@SEEALSO=RADIANS, PI
+@FUNCTION=EVEN
+@SYNTAX=EVEN(number)
+@DESCRIPTION=EVEN function returns the number rounded up to the nearest even integer.  Negative numbers are rounded down.
+* This function is Excel compatible.
+@EXAMPLES=
+EVEN(5.4) equals 6.
+EVEN(-5.4) equals -6.
+@SEEALSO=ODD
+@FUNCTION=EXP
+@SYNTAX=EXP(x)
+@DESCRIPTION=EXP computes the value of e (the base of natural logarithms) raised to the power of @x.
+* This function is Excel compatible.
+@EXAMPLES=
+EXP(2) equals 7.389056.
+@SEEALSO=LOG, LOG2, LOG10
+@FUNCTION=EXPM1
+@SYNTAX=EXPM1(x)
+@DESCRIPTION=EXPM1 computes EXP(@x)-1 with higher resulting precision than the direct formula.
+@EXAMPLES=
+EXPM1(0.01) equals 0.01005.
+@SEEALSO=EXP, LN1P
+@FUNCTION=FACT
+@SYNTAX=FACT(x)
+@DESCRIPTION=FACT computes the factorial of @x. ie, @x!
+* This function is Excel compatible.
+@EXAMPLES=
+FACT(3) equals 6.
+FACT(9) equals 362880.
+@SEEALSO=
+@FUNCTION=FACTDOUBLE
+@SYNTAX=FACTDOUBLE(number)
+@DESCRIPTION=FACTDOUBLE function returns the double factorial of a @number, i.e., x!!.
+* If @number is not an integer, it is truncated.
+* If @number is negative FACTDOUBLE returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+FACTDOUBLE(5) equals 15.
+@SEEALSO=FACT
+@FUNCTION=FIB
+@SYNTAX=FIB(number)
+@DESCRIPTION=FIB function computes Fibonacci numbers.
+* If @number is not an integer, it is truncated.
+* If @number is negative or zero FIB returns #NUM! error.
+@EXAMPLES=
+FIB(12) equals 144.
+@SEEALSO=
+@FUNCTION=COMBIN
+@SYNTAX=COMBIN(n,k)
+@DESCRIPTION=COMBIN computes the number of combinations.
+* Performing this function on a non-integer or a negative number returns #NUM! error.
+* If @n is less than @k COMBIN returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+COMBIN(8,6) equals 28.
+COMBIN(6,2) equals 15.
+@SEEALSO=
+@FUNCTION=FLOOR
+@SYNTAX=FLOOR(x[,significance])
+@DESCRIPTION=FLOOR function rounds @x down to the next nearest multiple of @significance.
+* @significance defaults to 1.
+* This function is Excel compatible.
+@EXAMPLES=
+FLOOR(0.5) equals 0.
+FLOOR(5,2) equals 4.
+FLOOR(-5,-2) equals -4.
+FLOOR(-5,2) equals #NUM!.
+@SEEALSO=CEIL, CEILING, ABS, INT, MOD
+@FUNCTION=GCD
+@SYNTAX=GCD(number1,number2,...)
+@DESCRIPTION=GCD returns the greatest common divisor of given numbers.
+* If any of the arguments is less than one, GCD returns #NUM! error.
+* If any of the arguments is non-integer, it is truncated.
+* This function is Excel compatible.
+@EXAMPLES=
+GCD(470,770) equals 10.
+GCD(470,770,1495) equals 5.
+@SEEALSO=LCM
+@FUNCTION=HYPOT
+@SYNTAX=HYPOT(number1,number2,...)
+@DESCRIPTION=HYPOT returns the square root of the sum of the squares of the arguments.
+@EXAMPLES=
+HYPOT(3,4) equals 5.
+@SEEALSO=MIN,MAX
+@FUNCTION=INT
+@SYNTAX=INT(a)
+@DESCRIPTION=INT function returns the largest integer that is not bigger than its argument.
+* This function is Excel compatible.
+@EXAMPLES=
+INT(7.2) equals 7.
+INT(-5.5) equals -6.
+@SEEALSO=CEIL, CEILING, FLOOR, ABS, MOD
+@FUNCTION=LCM
+@SYNTAX=LCM(number1,number2,...)
+@DESCRIPTION=LCM returns the least common multiple of integers.  The least common multiple is the smallest positive number that is a multiple of all integer arguments given.
+* If any of the arguments is less than one, LCM returns #NUM!.
+* If any of the arguments is non-integer, it is truncated.
+* This function is Excel compatible.
+@EXAMPLES=
+LCM(2,13) equals 26.
+LCM(4,7,5) equals 140.
+@SEEALSO=GCD
+@FUNCTION=LN
+@SYNTAX=LN(x)
+@DESCRIPTION=LN returns the natural logarithm of @x.
+* If @x <= 0, LN returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+LN(7) equals 1.94591.
+@SEEALSO=EXP, LOG2, LOG10
+@FUNCTION=LN1P
+@SYNTAX=LN1P(x)
+@DESCRIPTION=LN1P computes LN(1+@x) with higher resulting precision than the direct formula.
+* If @x <= -1, LN1P returns #NUM! error.
+@EXAMPLES=
+LN1P(0.01) equals 0.00995.
+@SEEALSO=LN, EXPM1
+@FUNCTION=LOG
+@SYNTAX=LOG(x[,base])
+@DESCRIPTION=LOG computes the logarithm of @x in the given base @base.  If no @base is given LOG returns the logarithm in base 10. @base must be > 0. and cannot equal 1.
+* This function is Excel compatible.
+@EXAMPLES=
+LOG(2) equals 0.30103.
+LOG(8192,2) equals 13.
+@SEEALSO=LN, LOG2, LOG10
+@FUNCTION=LOG2
+@SYNTAX=LOG2(x)
+@DESCRIPTION=LOG2 computes the base-2 logarithm of @x.
+* If @x <= 0, LOG2 returns #NUM! error.
+@EXAMPLES=
+LOG2(1024) equals 10.
+@SEEALSO=EXP, LOG10, LOG
+@FUNCTION=LOG10
+@SYNTAX=LOG10(x)
+@DESCRIPTION=LOG10 computes the base-10 logarithm of @x.
+* If @x <= 0, LOG10 returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+LOG10(7) equals 0.845098.
+@SEEALSO=EXP, LOG2, LOG
+@FUNCTION=MOD
+@SYNTAX=MOD(number,divisor)
+@DESCRIPTION=MOD function returns the remainder when @divisor is divided into @number.
+* MOD returns #DIV/0! if @divisor is zero.
+* This function is Excel compatible.
+@EXAMPLES=
+MOD(23,7) equals 2.
+@SEEALSO=CEIL, CEILING, FLOOR, ABS, INT, ABS
+@FUNCTION=MROUND
+@SYNTAX=MROUND(number,multiple)
+@DESCRIPTION=MROUND function rounds a given number to the desired multiple.
+@number is the number you want rounded and @multiple is the the multiple to which you want to round the number.
+* If @number and @multiple have different sign, MROUND returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+MROUND(1.7,0.2) equals 1.8.
+MROUND(321.123,0.12) equals 321.12.
+@SEEALSO=ROUNDDOWN,ROUND,ROUNDUP
+@FUNCTION=MULTINOMIAL
+@SYNTAX=MULTINOMIAL(value1, value2, ...)
+@DESCRIPTION=MULTINOMIAL returns the ratio of the factorial of a sum of values to the product of factorials.
+* This function is Excel compatible.
+@EXAMPLES=
+MULTINOMIAL(2,3,4) equals 1260.
+@SEEALSO=SUM
+@FUNCTION=ODD
+@SYNTAX=ODD(number)
+@DESCRIPTION=ODD function returns the @number rounded up to the nearest odd integer.  Negative numbers are rounded down.
+* This function is Excel compatible.
+@EXAMPLES=
+ODD(4.4) equals 5.
+ODD(-4.4) equals -5.
+@SEEALSO=EVEN
+@FUNCTION=POWER
+@SYNTAX=POWER(x,y)
+@DESCRIPTION=POWER returns the value of @x raised to the power @y.
+* If both @x and @y equal 0, POWER returns #NUM! error.
+* If @x = 0 and @y < 0, POWER returns #DIV/0! error.
+* If @x < 0 and @y is non-integer, POWER returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+POWER(2,7) equals 128.
+POWER(3,3.141) equals 31.523749.
+@SEEALSO=EXP
+@FUNCTION=G_PRODUCT
+@SYNTAX=G_PRODUCT(value1, value2, ...)
+@DESCRIPTION=G_PRODUCT returns the product of all the values and cells referenced in the argument list.
+* Empty cells are ignored and the empty product is 1.
+@EXAMPLES=
+G_PRODUCT(2,5,9) equals 90.
+@SEEALSO=SUM, COUNT
+@FUNCTION=QUOTIENT
+@SYNTAX=QUOTIENT(numerator,denominator)
+@DESCRIPTION=QUOTIENT function returns the integer portion of a division.  @numerator is the divided number and @denominator is the divisor.
+* This function is Excel compatible.
+@EXAMPLES=
+QUOTIENT(23,5) equals 4.
+@SEEALSO=MOD
+@FUNCTION=RADIANS
+@SYNTAX=RADIANS(x)
+@DESCRIPTION=RADIANS computes the number of radians equivalent to @x degrees.
+* This function is Excel compatible.
+@EXAMPLES=
+RADIANS(180) equals 3.14159.
+@SEEALSO=PI,DEGREES
+@FUNCTION=ROMAN
+@SYNTAX=ROMAN(number[,type])
+@DESCRIPTION=ROMAN function returns an arabic number in the roman numeral style, as text. @number is the number you want to convert and @type is the type of roman numeral you want.
+* If @type is 0 or it is omitted, ROMAN returns classic roman numbers.
+* Type 1 is more concise than classic type, type 2 is more concise than type 1, and type 3 is more concise than type 2.  Type 4 is simplified type.
+* If @number is negative or greater than 3999, ROMAN returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+ROMAN(999) equals CMXCIX.
+ROMAN(999,1) equals LMVLIV.
+ROMAN(999,2) equals XMIX.
+ROMAN(999,3) equals VMIV.
+ROMAN(999,4) equals IM.
+@SEEALSO=
+@FUNCTION=ROUND
+@SYNTAX=ROUND(number[,digits])
+@DESCRIPTION=ROUND function rounds a given number.
+@number is the number you want rounded and @digits is the number of digits to which you want to round that number.
+* If @digits is greater than zero, @number is rounded to the given number of digits.
+* If @digits is zero or omitted, @number is rounded to the nearest integer.
+* If @digits is less than zero, @number is rounded to the left of the decimal point.
+* This function is Excel compatible.
+@EXAMPLES=
+ROUND(5.5) equals 6.
+ROUND(-3.3) equals -3.
+ROUND(1501.15,1) equals 1501.2.
+ROUND(1501.15,-2) equals 1500.0.
+@SEEALSO=ROUNDDOWN,ROUNDUP
+@FUNCTION=ROUNDDOWN
+@SYNTAX=ROUNDDOWN(number[,digits])
+@DESCRIPTION=ROUNDDOWN function rounds a given @number towards 0.
+@number is the number you want rounded toward 0 and @digits is the number of digits to which you want to round that number.
+* If @digits is greater than zero, @number is rounded toward 0 to the given number of digits.
+* If @digits is zero or omitted, @number is rounded toward 0 to the next integer.
+* If @digits is less than zero, @number is rounded toward 0 to the left of the decimal point.
+* This function is Excel compatible.
+@EXAMPLES=
+ROUNDDOWN(5.5) equals 5.
+ROUNDDOWN(-3.3) equals -3.
+ROUNDDOWN(1501.15,1) equals 1501.1.
+ROUNDDOWN(1501.15,-2) equals 1500.0.
+@SEEALSO=ROUND,ROUNDUP
+@FUNCTION=ROUNDUP
+@SYNTAX=ROUNDUP(number[,digits])
+@DESCRIPTION=ROUNDUP function rounds a given number away from 0.
+@number is the number you want rounded away from 0 and @digits is the number of digits to which you want to round that number.
+* If @digits is greater than zero, @number is rounded away from 0 to the given number of digits.
+* If @digits is zero or omitted, @number is rounded away from 0 to the next integer.
+* If @digits is less than zero, @number is rounded away from 0 to the left of the decimal point.
+* This function is Excel compatible.
+@EXAMPLES=
+ROUNDUP(5.5) equals 6.
+ROUNDUP(-3.3) equals -4.
+ROUNDUP(1501.15,1) equals 1501.2.
+ROUNDUP(1501.15,-2) equals 1600.0.
+@SEEALSO=ROUND,ROUNDDOWN
+@FUNCTION=SERIESSUM
+@SYNTAX=SERIESSUM(x,n,m,coefficients)
+@DESCRIPTION=SERIESSUM function returns the sum of a power series.  @x is the base of the power series, @n is the initial power to raise @x, @m is the increment to the power for each term in the series, and @coefficients are the coefficients by which each successive power of @x is multiplied.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 1.23, 2.32, 2.98, 3.42, and 4.33.  Then
+SERIESSUM(3,1,2.23,A1:A5) equals 251416.43018.
+@SEEALSO=COUNT,SUM
+@FUNCTION=SIGN
+@SYNTAX=SIGN(number)
+@DESCRIPTION=SIGN function returns 1 if the @number is positive, zero if the @number is 0, and -1 if the @number is negative.
+* This function is Excel compatible.
+@EXAMPLES=
+SIGN(3) equals 1.
+SIGN(-3) equals -1.
+SIGN(0) equals 0.
+@SEEALSO=
+@FUNCTION=SIN
+@SYNTAX=SIN(x)
+@DESCRIPTION=SIN function returns the sine of @x, where @x is given in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+SIN(0.5) equals 0.479426.
+@SEEALSO=COS, COSH, SINH, TAN, TANH, RADIANS, DEGREES
+@FUNCTION=SINH
+@SYNTAX=SINH(x)
+@DESCRIPTION=SINH function returns the hyperbolic sine of @x, which is defined mathematically as
+	(exp(@x) - exp(-@x)) / 2.
+* This function is Excel compatible.
+@EXAMPLES=
+SINH(0.5) equals 0.521095.
+@SEEALSO=SIN, COS, COSH, TAN, TANH, DEGREES, RADIANS, EXP
+@FUNCTION=SQRT
+@SYNTAX=SQRT(x)
+@DESCRIPTION=SQRT function returns the square root of @x.
+* If @x is negative, SQRT returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+SQRT(2) equals 1.4142136.
+@SEEALSO=POWER
+@FUNCTION=SQRTPI
+@SYNTAX=SQRTPI(number)
+@DESCRIPTION=SQRTPI function returns the square root of a @number multiplied by pi.
+* This function is Excel compatible.
+@EXAMPLES=
+SQRTPI(2) equals 2.506628275.
+@SEEALSO=PI
+@FUNCTION=SUMA
+@SYNTAX=SUMA(value1, value2, ...)
+@DESCRIPTION=SUMA computes the sum of all the values and cells referenced in the argument list.  Numbers, text and logical values are included in the calculation too.  If the cell contains text or the argument evaluates to FALSE, it is counted as value zero (0). If the argument evaluates to TRUE, it is counted as one (1).
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 11, 15, 17, 21, and 43.  Then
+SUMA(A1:A5) equals 107.
+@SEEALSO=AVERAGE, SUM, COUNT
+@FUNCTION=SUMIF
+@SYNTAX=SUMIF(range,criteria[,actual_range])
+@DESCRIPTION=SUMIF function sums the values in the given @range that meet the given @criteria.  If @actual_range is given, SUMIF sums the values in the @actual_range whose corresponding components in @range meet the given @criteria.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 23, 27, 28, 33, and 39.  Then
+SUMIF(A1:A5,"<=28") equals 78.
+SUMIF(A1:A5,"<28") equals 50.
+In addition, if the cells B1, B2, ..., B5 hold numbers 5, 3, 2, 6, and 7 then:
+SUMIF(A1:A5,"<=27",B1:B5) equals 8.
+@SEEALSO=COUNTIF, SUM
+SUMPRODUCT:Multiplies components and adds the results.
+Multiplies corresponding data entries in the given arrays or ranges, and then returns the sum of those products.
+If an entry is not numeric, the value zero is used instead.
+If arrays or range arguments do not have the same dimensions, return #VALUE! error.
+SUMPRODUCTs arguments are arrays or ranges. Attempting to use A1:A5>0 will not work, implicit intersection will kick in. Instead use --(A1:A5>0)
+@FUNCTION=SUMSQ
+@SYNTAX=SUMSQ(value1, value2, ...)
+@DESCRIPTION=SUMSQ returns the sum of the squares of all the values and cells referenced in the argument list.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 11, 15, 17, 21, and 43.  Then
+SUMSQ(A1:A5) equals 2925.
+@SEEALSO=SUM, COUNT
+@FUNCTION=SUMX2MY2
+@SYNTAX=SUMX2MY2(array1,array2)
+@DESCRIPTION=SUMX2MY2 function returns the sum of the difference of squares of corresponding values in two arrays. @array1 is the first array or range of data points and @array2 is the second array or range of data points. The equation of SUMX2MY2 is SUM (x^2-y^2).
+* Strings and empty cells are simply ignored.
+* If @array1 and @array2 have different number of data points, SUMX2MY2 returns #N/A error.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 11, 15, 17, 21, and 43 and the cells B1, B2, ..., B5 hold numbers 13, 22, 31, 33, and 39.  Then
+SUMX2MY2(A1:A5,B1:B5) equals -1299.
+@SEEALSO=SUMSQ,SUMX2PY2
+@FUNCTION=SUMX2PY2
+@SYNTAX=SUMX2PY2(array1,array2)
+@DESCRIPTION=SUMX2PY2 function returns the sum of the sum of squares of corresponding values in two arrays. @array1 is the first array or range of data points and @array2 is the second array or range of data points. The equation of SUMX2PY2 is SUM (x^2+y^2).
+* Strings and empty cells are simply ignored.
+* If @array1 and @array2 have different number of data points, SUMX2PY2 returns #N/A error.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 11, 15, 17, 21, and 43 and the cells B1, B2, ..., B5 hold numbers 13, 22, 31, 33, and 39.  Then
+SUMX2PY2(A1:A5,B1:B5) equals 7149.
+@SEEALSO=SUMSQ,SUMX2MY2
+@FUNCTION=SUMXMY2
+@SYNTAX=SUMXMY2(array1,array2)
+@DESCRIPTION=SUMXMY2 function returns the sum of squares of differences of corresponding values in two arrays. @array1 is the first array or range of data points and @array2 is the second array or range of data points. The equation of SUMXMY2 is SUM (x-y)^2.
+* Strings and empty cells are simply ignored.
+* If @array1 and @array2 have different number of data points, SUMXMY2 returns #N/A error.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that the cells A1, A2, ..., A5 contain numbers 11, 15, 17, 21, and 43 and the cells B1, B2, ..., B5 hold numbers 13, 22, 31, 33, and 39.  Then
+SUMXMY2(A1:A5,B1:B5) equals 409.
+@SEEALSO=SUMSQ,SUMX2MY2,SUMX2PY2
+@FUNCTION=TAN
+@SYNTAX=TAN(x)
+@DESCRIPTION=TAN function returns the tangent of @x, where @x is given in radians.
+* This function is Excel compatible.
+@EXAMPLES=
+TAN(3) equals -0.1425465.
+@SEEALSO=TANH, COS, COSH, SIN, SINH, DEGREES, RADIANS
+@FUNCTION=TANH
+@SYNTAX=TANH(x)
+@DESCRIPTION=TANH function returns the hyperbolic tangent of @x, which is defined mathematically as 
+	sinh(@x) / cosh(@x).
+* This function is Excel compatible.
+@EXAMPLES=
+TANH(2) equals 0.96402758.
+@SEEALSO=TAN, SIN, SINH, COS, COSH, DEGREES, RADIANS
+@FUNCTION=TRUNC
+@SYNTAX=TRUNC(number[,digits])
+@DESCRIPTION=TRUNC function returns the value of @number truncated to the number of digits specified.
+* If @digits is omitted or negative then @digits defaults to zero.
+* If @digits is not an integer, it is truncated.
+* This function is Excel compatible.
+@EXAMPLES=
+TRUNC(3.12) equals 3.
+TRUNC(4.15,1) equals 4.1.
+@SEEALSO=INT
+@FUNCTION=PI
+@SYNTAX=PI()
+@DESCRIPTION=PI functions returns the value of pi.
+* This function is called with no arguments.
+* This function is Excel compatible, except that it returns pi with a better precision.
+@EXAMPLES=
+PI() equals about 3.141593.
+@SEEALSO=SQRTPI
+@FUNCTION=MMULT
+@SYNTAX=MMULT(array1,array2)
+@DESCRIPTION=MMULT function returns the matrix product of two arrays. The result is an array with the same number of rows as @array1 and the same number of columns as @array2.
+* This function is Excel compatible.
+@EXAMPLES=
+@SEEALSO=TRANSPOSE,MINVERSE
+@FUNCTION=MINVERSE
+@SYNTAX=MINVERSE(matrix)
+@DESCRIPTION=MINVERSE function returns the inverse matrix of @matrix.
+* If @matrix cannot be inverted, MINVERSE returns #NUM! error.
+* If @matrix does not contain equal number of columns and rows, MINVERSE returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+@SEEALSO=MMULT, MDETERM
+@FUNCTION=MDETERM
+@SYNTAX=MDETERM(matrix)
+@DESCRIPTION=MDETERM function returns the determinant of a given matrix.
+* If the @matrix does not contain equal number of columns and rows, MDETERM returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+Let us assume that A1, ..., A4 contain numbers 2, 3, 7, and 3, B1, ..., B4 4, 2, 4, and 1, C1, ..., C4 9, 4, 3, and 2, and D1, ..., D4 7, 3, 6, and 5. Then
+MDETERM(A1:D4) equals 148.
+@SEEALSO=MMULT, MINVERSE
+gnumeric
+CMVC
+CDXC
+CDVC
+CMXC
+XCIX
+XLIX
+CDIC
+LMVL
+CMIC
+XDIX
+XMIX
+VDIV
+VMIV
+goffice
+1.6.3
+acos
+acosh
+asin
+asinh
+atan
+atanh
+atan2
+xnum,ynum
+beta
+betaln
+countif
+range,criteria
+ceil
+ceiling
+number,significance
+degrees
+even
+expm1
+fact
+factdouble
+combin
+floor
+number,number
+hypot
+ln1p
+number,base
+log2
+log10
+numerator,denominator
+mround
+number,multiple
+multinomial
+power
+base,exponent
+g_product
+quotient
+radians
+roman
+number,type
+number,digits
+rounddown
+roundup
+seriessum
+x,n,m,coefficients
+sign
+sqrt
+sqrtpi
+suma
+number,number,
+sumif
+rS|r
+range,criteria,actual_range
+sumproduct
+range,range,
+sumsq
+sumx2my2
+array1,array2
+sumx2py2
+sumxmy2
+trunc
+mmult
+minverse
+array
+mdeterm
+array,matrix_type,bandsize
+SUM,PRODUCT,G_PRODUCT
+munG
+MDCLXVI
+plugin.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

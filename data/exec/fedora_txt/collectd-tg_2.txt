@@ -1,0 +1,155 @@
+td,.
+/lib/ld-linux.so.2
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+nanosleep
+pthread_mutex_init
+pthread_mutex_unlock
+__errno_location
+pthread_mutex_lock
+pthread_mutex_destroy
+sigaction
+libcollectdclient.so.1
+__gmon_start__
+_fini
+lcc_network_destroy
+lcc_network_create
+lcc_network_values_send
+lcc_server_create
+lcc_server_set_ttl
+libdl.so.2
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+strncpy
+time
+realloc
+__assert_fail
+strtod
+strtol
+calloc
+__posix_getopt
+__fprintf_chk
+stdout
+optarg
+stderr
+__snprintf_chk
+fwrite
+__cxa_finalize
+strerror
+__libc_start_main
+random
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.10
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+D$L1
+D$D9D$,
+D$49
+D$4u
+D$,1
+T$(9
+L$,e3
+d$<[^_]
+d$,[^_]
+V ;V$wtt4
+UWVS
+ 9F$w/
+[^_]
+UWVS
+t$,U
+[^_]
+25826
+ff18::efc0:4a42
+gauge
+derive
+n:H:p:i:d:D:h
+c_heap_create failed.
+lcc_network_create failed.
+lcc_server_create failed.
+Creating %i values ... 
+done
+malloc failed.
+calloc failed.
+host%04i
+plugin%03i
+ti%li
+Shutting down.
+%i values have been sent.
+create_value_list failed.
+collectd-tg -- collectd traffic generator
+  Usage: collectd-ng [OPTION]
+  Valid options:
+    -n <number>    Number of value lists. (Default: %i)
+    -H <number>    Number of hosts to emulate. (Default: %i)
+    -p <number>    Number of plugins to emulate. (Default: %i)
+    -i <seconds>   Interval of each value in seconds. (Default: %.3f)
+    -d <dest>      Destination address of the network packets.
+                   (Default: %s)
+    -D <port>      Destination port of the network packets.
+                   (Default: %s)
+    -h             Print usage information (this output).
+Copyright (C) 2010-2012  Florian Forster
+Licensed under the MIT license.
+Unable to parse option as a number: "%s": %s
+Unable to parse option as a number: "%s"
+Garbage after end of value: "%s"
+lcc_network_values_send failed with status %i.
+Butils_heap.c
+h->list_len <= h->list_size
+c_heap_insert
+;*2$"
+collectd-tg.debug
+7zXZ
+ <nE
+<6[K
+r\t&
+&Z)9
+YJK4
+66sD
+d3pL+v
+=0V)]
+iy4C1
+D+V0
+9<Z:
+&/)y
+F`aM
+`"51
+oXE'
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

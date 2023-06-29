@@ -1,0 +1,340 @@
+Po0@
+>SCE
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+pppoe_check_options
+lcp_allowoptions
+lcp_wantoptions
+ccp_allowoptions
+ccp_wantoptions
+ipcp_allowoptions
+ipcp_wantoptions
+connect
+close
+__errno_location
+__stack_chk_fail
+ppp_devnam
+strlcpy
+sscanf
+ppp_session_number
+socket
+remote_number
+__sprintf_chk
+discovery
+__snprintf_chk
+options_from_file
+exit
+rp_fatal
+printErr
+sendPADT
+sysErr
+fatalSys
+strerror
+plugin_init
+ppp_available
+new_style_driver
+add_options
+info
+strlen
+strncpy
+ioctl
+the_channel
+pppoe_channel
+modem
+malloc
+free
+strDup
+pppd_pppoe_service
+pppd_version
+generic_establish_ppp
+generic_disestablish_ppp
+packetIsForMe
+parseForHostUniq
+parsePacket
+waitForPADS
+select
+receivePacket
+__syslog_chk
+dumpPacket
+__fprintf_chk
+fflush
+parsePADSTags
+sendPADR
+Eth_PPPOE_Discovery
+__memcpy_chk
+memcpy
+sendPacket
+getpid
+waitForPADO
+parsePADOTags
+__printf_chk
+stderr
+strncmp
+sendPADI
+openInterface
+warn
+recv
+send
+etherType
+Eth_PPPOE_Session
+setsockopt
+bind
+parseLogErrs
+findTag
+strcpy
+__strcpy_chk
+dumpHex
+__ctype_b_loc
+gettimeofday
+localtime
+strftime
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2.5
+52F 
+%4F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+=PF 
+ATSubH
+=`A 
+%|? 
+=8? 
+fffff.
+D$(1
+T$$f
+D$(dH3
+fff.
+D$h1
+=4D 
+L$ H
+T$<H
+D$<f
+T$FH
+L$NH
+L$HH
+T$df
+T$hdH3
+=WA 
+ffff.
+fff.
+=o> 
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+=l> 
+-x> 
+-`> 
+=A> 
+%)9 
+-9> 
+-!> 
+AVLc
+AUATUSH
+l$ dH
+[]A\A]A^A_
+ffffff.
+AVLc
+AUATUSH
+T$(H
+l$0L
+[]A\A]A^A_
+T$ H
+fff.
+l$ L
+t$(L
+|$0H
+l$ 1
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+~<D9
+~<A9
+ATUSD
+[]A\
+[]A\
+fffff.
+AWAVA
+|$ H
+[]A\A]A^A_
+d$ H
+d$ H
+ffffff.
+AWAVI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+D$ f
+AVAUATI
+D;|$
+([]A\A]A^A_
+[]A\A]A^A_1
+T$XH
+|$`1
+D$`H
+L$hH
+|$xH
+D$xH
+L$XH
+fD;0
+fD;0
+Failed to disconnect PPPoE socket: %d %m
+Illegal value for rp_pppoe_sess option
+Unable to complete PPPoE Discovery
+Failed to create PPPoE socket: %m
+Failed to connect PPPoE socket: %d %m
+Linux kernel does not support PPPoE -- are you running 2.4.x?
+RP-PPPoE plugin version %s compiled against pppd %s
+Could not allocate memory for PPPoE session
+Desired PPPoE access concentrator name
+Attach to existing session (sessid:macaddr)
+Be verbose about discovered access concentrators
+%d:%x:%x:%x:%x:%x:%x
+%02X:%02X:%02X:%02X:%02X:%02X
+/etc/ppp/options.%s
+RP-PPPoE: %.256s
+RP-PPPoE: %.256s: %.256s
+2.4.4
+nic-
+Interface %s not Ethernet
+PPPoE device name
+rp_pppoe_service
+Desired PPPoE service name
+rp_pppoe_ac
+rp_pppoe_sess
+rp_pppoe_verbose
+Bogus PPPoE length field (%u)
+RCVD
+PPP session is %d
+select (waitForPADS)
+Would create too-long packet
+SENT
+select (waitForPADO)
+PADS: Service-Name: '%.*s'
+PADS: System-Error: %.*s
+PADS: System-Error: %.*s
+PADS: Generic-Error: %.*s
+PADS: Generic-Error: %.*s
+Access-Concentrator: %.*s
+       Service-Name: %.*s
+Got a cookie:
+ %02x
+Got a Relay-ID:
+Got a System-Error tag: %.*s
+PADO: System-Error: %.*s
+PADO: Generic-Error: %.*s
+Access concentrator used a session value of %x -- the AC is violating RFC 2516
+Ignoring PADO packet from broadcast MAC address
+Ignoring PADO packet with no AC-Name tag
+Ignoring PADO packet with no Service-Name tag
+--------------------------------------------------
+AC-Ethernet-Address: %02x:%02x:%02x:%02x:%02x:%02x
+PADS: Service-Name-Error: %.*s
+PADS: Service-Name-Error: %.*s
+Got a Service-Name-Error tag: %.*s
+PADO: Service-Name-Error: %.*s
+Got a Generic-Error tag: %.*s
+Timeout waiting for PADO packets
+Timeout waiting for PADS packets
+recv (receivePacket)
+send (sendPacket)
+Invalid ether type 0x%x
+socket
+setsockopt
+ioctl(SIOCGIFHWADDR)
+ioctl(SIOCGIFMTU)
+bind
+Cannot create raw socket -- pppoe must be run as root.
+Interface %.16s is not Ethernet
+Interface %.16s has broadcast/multicast MAC address??
+Interface %.16s has MTU of %d -- should be %d.  You may have serious connection problems.
+ioctl(SIOCFIGINDEX): Could not get interface index
+PADT: Service-Name-Error: %.*s
+PADT: Service-Name-Error: %.*s
+Invalid PPPoE packet length (%u)
+PADT: System-Error: %.*s
+PADT: System-Error: %.*s
+PADT: Generic-Error: %.*s
+PADT: Generic-Error: %.*s
+pppoe: %s
+Invalid PPPoE version (%d)
+Invalid PPPoE type (%d)
+Invalid PPPoE tag length (%u)
+strdup failed
+Sent PADT
+%02x 
+%H:%M:%S
+%s.%03d %s PPPoE 
+Discovery (%x) 
+Session (%x) 
+Unknown (%x) 
+PADI 
+PADO 
+PADR 
+PADS 
+PADT 
+SESS 
+sess-id %d length %d
+(PAP Authentication Frame -- Contents not dumped)
+SourceAddr %02x:%02x:%02x:%02x:%02x:%02x DestAddr %02x:%02x:%02x:%02x:%02x:%02x
+2.4.4
+rp-pppoe.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

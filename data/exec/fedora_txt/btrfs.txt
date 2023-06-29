@@ -1,0 +1,335 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ioctl
+DEBUGLEVEL_CLASS
+__errno_location
+map_nt_error_from_unix
+dbghdrclass
+dbgtext
+strerror
+lp_parm_bool
+smb_vfs_call_snap_delete
+talloc_named_const
+talloc_strdup
+dirname
+__xpg_basename
+strptime
+_talloc_free
+opendir
+dirfd
+rep_strlcpy
+closedir
+unbecome_root
+__stack_chk_fail
+smb_vfs_call_snap_check_path
+__xstat
+open
+close
+_tevent_req_data
+_talloc_get_type_abort
+tevent_req_is_nterror
+tevent_req_received
+nt_errstr
+_tevent_req_create
+vfs_offload_token_db_fetch_fsp
+_tevent_req_nterror
+smb_vfs_call_offload_write_send
+_tevent_req_nomem
+tevent_req_set_callback
+vfs_offload_token_check_handles
+vfs_stat_fsp
+init_strict_lock_struct
+smb_vfs_call_strict_lock_check
+_tevent_req_done
+tevent_req_post
+_tevent_req_callback_data
+smb_vfs_call_offload_write_recv
+_talloc_move
+vfs_offload_token_ctx_init
+smb_vfs_call_offload_read_send
+vfs_offload_token_create_blob
+vfs_offload_token_db_store_fsp
+smb_vfs_call_offload_read_recv
+smb_vfs_call_fs_capabilities
+smb_vfs_call_snap_create
+gmtime_r
+strftime
+talloc_asprintf
+_talloc_steal_loc
+samba_init_module
+smb_register_vfs
+libpthread.so.0
+libreplace-samba4.so
+libsmbd-base-samba4.so
+libsamba-debug-samba4.so
+libsamba-errors.so.1
+libtevent-util.so.0
+libsmbconf.so.0
+libsmbd-shim-samba4.so
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+btrfs.so
+SAMBA_4.7.0
+TEVENT_UTIL_0.0.1
+TEVENT_0.9.9
+SAMBA_ERRORS_1
+TALLOC_2.0.2
+SMBCONF_0
+GLIBC_2.2.5
+GLIBC_2.4
+/usr/lib64/samba
+5ZF 
+%\F 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+=!H 
+=R? 
+AUATUSH
+-uC 
+[]A\A]
+[]A\A]
+AWAVAUATI
+[]A\A]A^A_
+AUATI
+[]A\A]
+[]A\A]
+AUATUSL
+B(E1
+[]A\A]
+xUE1
+[]A\A]
+ATUH
+[]A\
+[]A\
+AWAVI
+AUATM
+t$0M
+D$0H
+T$8L
+T$0I
+T$(H
+D$0H
+D$0H
+[]A\A]A^A_
+|$8H
+H9BP
+T$`H
+t$8L
+|$8H
+ @Hc@
+|$HH
+D$@H
+D$XH
+D$PH
+D$0H
+T$0I
+T$(H
+D$0H
+t$XL
+D$HH
+L$@H
+T$PH
+t$(L
+t$0VD
+L$4H
+D$(H
+L$ 1
+AUATI
+[]A\A]
+[]A\A]
+AWAVI
+AUATI
+t$hI
+t$hD
+[]A\A]A^A_
+AVAUATUSH
+[]A\A]A^
+]A\A]A^
+AWAVI
+AUATE
+_AXH
+[]A\A]A^A_
+L$@L
+T$ H
+HcT$<
+D$<1
+t$0I
+|$8H
+L$<L
+t$ H
+L$0H
+T$ H
+L$0H
+T$ H
+../source3/modules/vfs_btrfs.c:502
+FS_IOC_GETFLAGS failed: %s, fd %d
+../source3/modules/vfs_btrfs.c:508
+../source3/modules/vfs_btrfs.c:512
+../source3/modules/vfs_btrfs.c:516
+invalid compression format 0x%x
+../source3/modules/vfs_btrfs.c:524
+FS_IOC_SETFLAGS failed: %s, fd %d
+../source3/modules/vfs_btrfs.c:750
+Btrfs snapshot manipulation disabled, passing
+talloc_new: ../source3/modules/vfs_btrfs.c:755
+../source3/modules/vfs_btrfs.c:762
+../source3/modules/vfs_btrfs.c:767
+../source3/modules/vfs_btrfs.c:777
+snapshot path %s does not match creation format
+../source3/modules/vfs_btrfs.c:778
+../source3/modules/vfs_btrfs.c:785
+snap destroy dest %s open failed: %s
+../source3/modules/vfs_btrfs.c:787
+../source3/modules/vfs_btrfs.c:794
+../source3/modules/vfs_btrfs.c:801
+subvolume name too long for SNAP_DESTROY ioctl
+../source3/modules/vfs_btrfs.c:803
+../source3/modules/vfs_btrfs.c:813
+%s(%s) BTRFS_IOC_SNAP_DESTROY failed: %s
+../source3/modules/vfs_btrfs.c:816
+../source3/modules/vfs_btrfs.c:820
+%s(%s) BTRFS_IOC_SNAP_DESTROY done
+../source3/modules/vfs_btrfs.c:823
+../source3/modules/vfs_btrfs.c:548
+../source3/modules/vfs_btrfs.c:559
+%s not a btrfs subvolume, snapshots not available
+../source3/modules/vfs_btrfs.c:461
+FS_IOC_GETFLAGS failed: %s, fd %lld
+../source3/modules/vfs_btrfs.c:400
+../source3/modules/vfs_btrfs.c:404
+server side copy chunk failed: %s
+../source3/modules/vfs_btrfs.c:410
+server side copy chunk copied %llu
+../source3/modules/vfs_btrfs.c:228
+../source3/modules/vfs_btrfs.c:237
+../source3/modules/vfs_btrfs.c:274
+../source3/modules/vfs_btrfs.c:286
+../source3/modules/vfs_btrfs.c:291
+../source3/modules/vfs_btrfs.c:297
+../source3/modules/vfs_btrfs.c:302
+../source3/modules/vfs_btrfs.c:321
+../source3/modules/vfs_btrfs.c:325
+../source3/modules/vfs_btrfs.c:350
+BTRFS_IOC_CLONE_RANGE failed: %s, length %llu, src fd: %lld off: %llu, dest fd: %d off: %llu
+../source3/modules/vfs_btrfs.c:359
+../source3/modules/vfs_btrfs.c:369
+BTRFS_IOC_CLONE_RANGE returned %d
+../source3/modules/vfs_btrfs.c:372
+../source3/modules/vfs_btrfs.c:380
+../source3/modules/vfs_btrfs.c:382
+../source3/modules/vfs_btrfs.c:388
+../source3/modules/vfs_btrfs.c:391
+../source3/modules/vfs_btrfs.c:184
+struct btrfs_offload_read_state
+../source3/modules/vfs_btrfs.c:110
+../source3/modules/vfs_btrfs.c:121
+../source3/modules/vfs_btrfs.c:128
+../source3/modules/vfs_btrfs.c:134
+../source3/modules/vfs_btrfs.c:137
+../source3/modules/vfs_btrfs.c:143
+../source3/modules/vfs_btrfs.c:153
+../source3/modules/vfs_btrfs.c:155
+../source3/modules/vfs_btrfs.c:162
+../source3/modules/vfs_btrfs.c:163
+../source3/modules/vfs_btrfs.c:170
+../source3/modules/vfs_btrfs.c:174
+../source3/modules/vfs_btrfs.c:624
+talloc_new: ../source3/modules/vfs_btrfs.c:630
+../source3/modules/vfs_btrfs.c:637
+../source3/modules/vfs_btrfs.c:651
+../source3/modules/vfs_btrfs.c:658
+../source3/modules/vfs_btrfs.c:660
+../source3/modules/vfs_btrfs.c:667
+../source3/modules/vfs_btrfs.c:674
+../source3/modules/vfs_btrfs.c:677
+../source3/modules/vfs_btrfs.c:685
+../source3/modules/vfs_btrfs.c:697
+subvolume name too long for SNAP_CREATE ioctl
+../source3/modules/vfs_btrfs.c:700
+../source3/modules/vfs_btrfs.c:711
+%s -> %s(%s) BTRFS_IOC_SNAP_CREATE_V2 failed: %s
+../source3/modules/vfs_btrfs.c:715
+../source3/modules/vfs_btrfs.c:719
+%s -> %s(%s) BTRFS_IOC_SNAP_CREATE_V2 done
+../source3/modules/vfs_btrfs.c:721
+../source3/modules/vfs_btrfs.c:722
+../source3/modules/vfs_btrfs.c:725
+../source3/modules/vfs_btrfs.c:644
+setting compression
+clearing compression
+manipulate snapshots
+btrfs
+@GMT-%Y.%m.%d-%H.%M.%S
+struct btrfs_cc_state
+struct tevent_req
+%s/%s
+snap src %s open failed: %s
+snap dest %s open failed: %s
+btrfs_offload_write_send
+btrfs_offload_write_recv
+btrfs_get_compression
+btrfs_set_compression
+btrfs_snap_check_path
+btrfs_snap_create
+btrfs_snap_delete
+;*3$"
+btrfs.so-4.7.0-12.fc27.x86_64.debug
+7zXZ
+$1aW$Z
+} 2P}
+>mkElH
+k<^:
+u	#	
+5eMh
+v<YI `
+s!pX
+G{64
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

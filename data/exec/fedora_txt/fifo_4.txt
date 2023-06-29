@@ -1,0 +1,340 @@
+td`5
+tdH>
+n.nA
+Hpd$"
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+fifo_create
+weechat_fifo_plugin
+fifo_config_file_enabled
+fifo_filename
+__xstat64
+fifo_fd
+mkfifo
+open64
+fifo_fd_cb
+fifo_fd_hook
+fifo_config_file_path
+__errno_location
+strerror
+fifo_quiet
+unlink
+fifo_remove
+close
+fifo_unterminated
+fifo_exec
+strdup
+strstr
+strlen
+malloc
+memcpy
+strchr
+weechat_plugin_init
+fifo_config_init
+fifo_config_read
+fifo_command_init
+fifo_info_init
+weechat_plugin_end
+fifo_config_write
+fifo_config_free
+weechat_plugin_priority
+weechat_plugin_license
+weechat_plugin_version
+weechat_plugin_author
+weechat_plugin_description
+weechat_plugin_api_version
+weechat_plugin_name
+fifo_command_fifo
+fifo_config_change_file_enabled
+fifo_config_change_file_path
+fifo_config_file
+fifo_info_info_fifo_filename_cb
+libc.so.6
+__stack_chk_fail
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+UWVS
+T$ RPj
+YWRPj
+D$|e3
+[^_]
+RWPj
+QRWPj
+UWVS
+[^_]
+UWVS
+[^_]
+VQUPj
+YRUPj
+[^_]
+[^_]
+[^_]
+[^_]
+YRVPj
+[^_]
+[^_]
+YVRPj
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+error
+%s%s: not enough memory (%s)
+fifo_filename
+%s: pipe opened (file: %s)
+%s: pipe closed
+%s%s: buffer "%s" not found
+%s%s: unable to open pipe (%s) for reading
+%s%s: unable to create pipe for remote control (%s): error %d %s
+%s%s: invalid text received in pipe
+%s%s: error reading pipe (%d %s), closing it
+%s%s: error opening file, closing it
+%s: pipe is disabled
+enable
+disable
+no_filter
+enable|disable|toggle
+fifo plugin configuration
+%s: pipe is enabled (file: %s)
+%sError with command "%s" (help on command: /help %s)
+ enable: enable FIFO pipe
+disable: disable FIFO pipe
+ toggle: toggle FIFO pipe
+FIFO pipe is used as remote control of WeeChat: you can send commands or text to the FIFO pipe from your shell.
+By default the FIFO pipe is in ~/.weechat/weechat_fifo
+The expected format is one of:
+  plugin.buffer *text or command here
+  *text or command here
+For example to change your freenode nick:
+  echo 'irc.server.freenode */nick newnick' >~/.weechat/weechat_fifo
+Please read the user's guide for more info and examples.
+Examples:
+  /fifo toggle
+file
+enable FIFO pipe
+boolean
+enabled
+%h/weechat_fifo
+string
+path
+path for FIFO file; "%h" at beginning of string is replaced by WeeChat home ("~/.weechat" by default); WeeChat PID can be used in path with ${info:pid} (note: content is evaluated, see /help eval)
+name of FIFO pipe
+9*2$"
+GPL3
+bastien Helleu <flashcode@flashtux.org>
+FIFO pipe for remote control
+20180812-01
+fifo
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+fifo.so-2.3-3.fc30.i386.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rel.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

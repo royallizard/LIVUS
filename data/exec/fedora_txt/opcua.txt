@@ -1,0 +1,2221 @@
+t4B(
+"4LA
+#$4	r
+FL2P@
+X`0@(
+  4D
+@l@L
+`("D0
+Cx16
+0[%27
+BCC9
+1albJ
+ .H0gNRg
+i\n_
+)[,W
+>4&x
+vYlQ
+TdU,
+I"G1
++r'V]
+I+CK
+kgRx
++G> 
+e%@{A
+yIxH
+E(l]J
+lGGi
+oX/-Wsey
+s~Qw1s
+n/G;
+N<C<*
+*Dw![
+E*+~
+?Z+hKt
+EI.<x
+sj^C
+'"AA
+l8bf9
+>8d}
+ZA>k
+Z/&%
+?9YV
+_Wfw
+W?0Kf
+yIhW
+<Oi]
+)XSH
+c6^lmv
+.WEX1y
+ol4D
+m,*(
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_register
+proto_register_opcua
+__stack_chk_fail
+plugin_reg_handoff
+proto_reg_handoff_opcua
+version
+range_foreach
+g_free
+range_copy
+create_dissector_handle
+dissector_add
+dissector_delete
+tcp_dissect_pdus
+col_set_str
+tvb_memeql
+parseHello
+proto_tree_add_item
+ett_opcua_transport
+proto_item_add_subtree
+parseAcknowledge
+parseError
+parseMessage
+parseOpenSecureChannel
+parseCloseSecureChannel
+tvb_get_letohl
+proto_register_protocol
+registerTransportLayerTypes
+registerSecurityLayerTypes
+registerApplicationLayerTypes
+registerSimpleTypes
+registerEnumTypes
+registerComplexTypes
+registerServiceTypes
+registerFieldTypes
+proto_register_subtree_array
+ep_strdup_printf
+range_convert_str
+prefs_register_protocol
+prefs_register_range_preference
+ett_opcua_extensionobject
+ett_opcua_nodeid
+proto_register_field_array
+parseString
+parseSecurityLayer
+proto_tree_add_text
+parseServiceNodeId
+dispatchService
+parseByteString
+tvb_get_guint8
+tvb_get_letohs
+g_requesttypes
+parseTestStackRequest
+ett_opcua_TestStackRequest
+parseRequestHeader
+hf_opcua_TestId
+parseUInt32
+hf_opcua_Iteration
+parseInt32
+parseVariant
+parseTestStackResponse
+ett_opcua_TestStackResponse
+parseResponseHeader
+parseTestStackExRequest
+ett_opcua_TestStackExRequest
+parseCompositeTestType
+parseTestStackExResponse
+ett_opcua_TestStackExResponse
+parseFindServersRequest
+ett_opcua_FindServersRequest
+hf_opcua_EndpointUrl
+hf_opcua_LocaleIds
+parseArraySimple
+hf_opcua_ServerUris
+parseFindServersResponse
+ett_opcua_FindServersResponse
+parseApplicationDescription
+parseArrayComplex
+parseGetEndpointsRequest
+ett_opcua_GetEndpointsRequest
+hf_opcua_ProfileUris
+parseGetEndpointsResponse
+ett_opcua_GetEndpointsResponse
+parseEndpointDescription
+parseRegisterServerRequest
+ett_opcua_RegisterServerRequest
+parseRegisteredServer
+parseRegisterServerResponse
+ett_opcua_RegisterServerResponse
+parseOpenSecureChannelRequest
+ett_opcua_OpenSecureChannelRequest
+hf_opcua_ClientProtocolVersion
+parseSecurityTokenRequestType
+parseMessageSecurityMode
+hf_opcua_ClientNonce
+hf_opcua_RequestedLifetime
+parseOpenSecureChannelResponse
+ett_opcua_OpenSecureChannelResponse
+hf_opcua_ServerProtocolVersion
+parseChannelSecurityToken
+hf_opcua_ServerNonce
+parseCloseSecureChannelRequest
+ett_opcua_CloseSecureChannelRequest
+parseCloseSecureChannelResponse
+ett_opcua_CloseSecureChannelResponse
+parseCreateSessionRequest
+ett_opcua_CreateSessionRequest
+hf_opcua_ServerUri
+hf_opcua_SessionName
+hf_opcua_ClientCertificate
+hf_opcua_RequestedSessionTimeout
+parseDouble
+hf_opcua_MaxResponseMessageSize
+parseCreateSessionResponse
+ett_opcua_CreateSessionResponse
+parseNodeId
+hf_opcua_RevisedSessionTimeout
+hf_opcua_ServerCertificate
+parseSignedSoftwareCertificate
+parseSignatureData
+hf_opcua_MaxRequestMessageSize
+parseActivateSessionRequest
+ett_opcua_ActivateSessionRequest
+parseExtensionObject
+parseActivateSessionResponse
+ett_opcua_ActivateSessionResponse
+hf_opcua_Results
+parseStatusCode
+parseDiagnosticInfo
+parseCloseSessionRequest
+ett_opcua_CloseSessionRequest
+hf_opcua_DeleteSubscriptions
+parseBoolean
+parseCloseSessionResponse
+ett_opcua_CloseSessionResponse
+parseCancelRequest
+ett_opcua_CancelRequest
+hf_opcua_RequestHandle
+parseCancelResponse
+ett_opcua_CancelResponse
+hf_opcua_CancelCount
+parseAddNodesRequest
+ett_opcua_AddNodesRequest
+parseAddNodesItem
+parseAddNodesResponse
+ett_opcua_AddNodesResponse
+parseAddNodesResult
+parseAddReferencesRequest
+ett_opcua_AddReferencesRequest
+parseAddReferencesItem
+parseAddReferencesResponse
+ett_opcua_AddReferencesResponse
+parseDeleteNodesRequest
+ett_opcua_DeleteNodesRequest
+parseDeleteNodesItem
+parseDeleteNodesResponse
+ett_opcua_DeleteNodesResponse
+parseDeleteReferencesRequest
+ett_opcua_DeleteReferencesRequest
+parseDeleteReferencesItem
+parseDeleteReferencesResponse
+ett_opcua_DeleteReferencesResponse
+parseBrowseRequest
+ett_opcua_BrowseRequest
+parseViewDescription
+hf_opcua_RequestedMaxReferencesPerNode
+parseBrowseDescription
+parseBrowseResponse
+ett_opcua_BrowseResponse
+parseBrowseResult
+parseBrowseNextRequest
+ett_opcua_BrowseNextRequest
+hf_opcua_ReleaseContinuationPoints
+hf_opcua_ContinuationPoints
+parseBrowseNextResponse
+ett_opcua_BrowseNextResponse
+parseTranslateBrowsePathsToNodeIdsRequest
+ett_opcua_TranslateBrowsePathsToNodeIdsRequest
+parseBrowsePath
+parseTranslateBrowsePathsToNodeIdsResponse
+ett_opcua_TranslateBrowsePathsToNodeIdsResponse
+parseBrowsePathResult
+parseRegisterNodesRequest
+ett_opcua_RegisterNodesRequest
+parseRegisterNodesResponse
+ett_opcua_RegisterNodesResponse
+parseUnregisterNodesRequest
+ett_opcua_UnregisterNodesRequest
+parseUnregisterNodesResponse
+ett_opcua_UnregisterNodesResponse
+parseQueryFirstRequest
+ett_opcua_QueryFirstRequest
+parseNodeTypeDescription
+parseContentFilter
+hf_opcua_MaxDataSetsToReturn
+hf_opcua_MaxReferencesToReturn
+parseQueryFirstResponse
+ett_opcua_QueryFirstResponse
+parseQueryDataSet
+hf_opcua_ContinuationPoint
+parseParsingResult
+parseContentFilterResult
+parseQueryNextRequest
+ett_opcua_QueryNextRequest
+hf_opcua_ReleaseContinuationPoint
+parseQueryNextResponse
+ett_opcua_QueryNextResponse
+hf_opcua_RevisedContinuationPoint
+parseReadRequest
+ett_opcua_ReadRequest
+hf_opcua_MaxAge
+parseTimestampsToReturn
+parseReadValueId
+parseReadResponse
+ett_opcua_ReadResponse
+parseDataValue
+parseHistoryReadRequest
+ett_opcua_HistoryReadRequest
+parseHistoryReadValueId
+parseHistoryReadResponse
+ett_opcua_HistoryReadResponse
+parseHistoryReadResult
+parseWriteRequest
+ett_opcua_WriteRequest
+parseWriteValue
+parseWriteResponse
+ett_opcua_WriteResponse
+parseHistoryUpdateRequest
+ett_opcua_HistoryUpdateRequest
+parseHistoryUpdateResponse
+ett_opcua_HistoryUpdateResponse
+parseHistoryUpdateResult
+parseCallRequest
+ett_opcua_CallRequest
+parseCallMethodRequest
+parseCallResponse
+ett_opcua_CallResponse
+parseCallMethodResult
+parseCreateMonitoredItemsRequest
+ett_opcua_CreateMonitoredItemsRequest
+hf_opcua_SubscriptionId
+parseMonitoredItemCreateRequest
+parseCreateMonitoredItemsResponse
+ett_opcua_CreateMonitoredItemsResponse
+parseMonitoredItemCreateResult
+parseModifyMonitoredItemsRequest
+ett_opcua_ModifyMonitoredItemsRequest
+parseMonitoredItemModifyRequest
+parseModifyMonitoredItemsResponse
+ett_opcua_ModifyMonitoredItemsResponse
+parseMonitoredItemModifyResult
+parseSetMonitoringModeRequest
+ett_opcua_SetMonitoringModeRequest
+parseMonitoringMode
+hf_opcua_MonitoredItemIds
+parseSetMonitoringModeResponse
+ett_opcua_SetMonitoringModeResponse
+parseSetTriggeringRequest
+ett_opcua_SetTriggeringRequest
+hf_opcua_TriggeringItemId
+hf_opcua_LinksToAdd
+hf_opcua_LinksToRemove
+parseSetTriggeringResponse
+ett_opcua_SetTriggeringResponse
+hf_opcua_AddResults
+hf_opcua_RemoveResults
+parseDeleteMonitoredItemsRequest
+ett_opcua_DeleteMonitoredItemsRequest
+parseDeleteMonitoredItemsResponse
+ett_opcua_DeleteMonitoredItemsResponse
+parseCreateSubscriptionRequest
+ett_opcua_CreateSubscriptionRequest
+hf_opcua_RequestedPublishingInterval
+hf_opcua_RequestedLifetimeCount
+hf_opcua_RequestedMaxKeepAliveCount
+hf_opcua_MaxNotificationsPerPublish
+hf_opcua_PublishingEnabled
+hf_opcua_Priority
+parseByte
+parseCreateSubscriptionResponse
+ett_opcua_CreateSubscriptionResponse
+hf_opcua_RevisedPublishingInterval
+hf_opcua_RevisedLifetimeCount
+hf_opcua_RevisedMaxKeepAliveCount
+parseModifySubscriptionRequest
+ett_opcua_ModifySubscriptionRequest
+parseModifySubscriptionResponse
+ett_opcua_ModifySubscriptionResponse
+parseSetPublishingModeRequest
+ett_opcua_SetPublishingModeRequest
+hf_opcua_SubscriptionIds
+parseSetPublishingModeResponse
+ett_opcua_SetPublishingModeResponse
+parsePublishRequest
+ett_opcua_PublishRequest
+parseSubscriptionAcknowledgement
+parsePublishResponse
+ett_opcua_PublishResponse
+hf_opcua_AvailableSequenceNumbers
+hf_opcua_MoreNotifications
+parseNotificationMessage
+parseRepublishRequest
+ett_opcua_RepublishRequest
+hf_opcua_RetransmitSequenceNumber
+parseRepublishResponse
+ett_opcua_RepublishResponse
+parseTransferSubscriptionsRequest
+ett_opcua_TransferSubscriptionsRequest
+hf_opcua_SendInitialValues
+parseTransferSubscriptionsResponse
+ett_opcua_TransferSubscriptionsResponse
+parseTransferResult
+parseDeleteSubscriptionsRequest
+ett_opcua_DeleteSubscriptionsRequest
+parseDeleteSubscriptionsResponse
+ett_opcua_DeleteSubscriptionsResponse
+parseHistoryEventFieldList
+ett_opcua_HistoryEventFieldList
+parseEventFieldList
+ett_opcua_EventFieldList
+hf_opcua_ClientHandle
+parseSimpleAttributeOperand
+ett_opcua_SimpleAttributeOperand
+parseQualifiedName
+hf_opcua_AttributeId
+hf_opcua_IndexRange
+parseArgument
+ett_opcua_Argument
+hf_opcua_Name
+hf_opcua_ValueRank
+hf_opcua_ArrayDimensions
+parseLocalizedText
+parseContentFilterElementResult
+ett_opcua_ContentFilterElementResult
+hf_opcua_StatusCode
+hf_opcua_OperandStatusCodes
+parseMonitoredItemNotification
+ett_opcua_MonitoredItemNotification
+parseRelativePathElement
+ett_opcua_RelativePathElement
+hf_opcua_IsInverse
+hf_opcua_IncludeSubtypes
+parseContentFilterElement
+ett_opcua_ContentFilterElement
+parseFilterOperator
+parseBrowsePathTarget
+ett_opcua_BrowsePathTarget
+parseExpandedNodeId
+hf_opcua_RemainingPathIndex
+parseReferenceNode
+ett_opcua_ReferenceNode
+parseReferenceDescription
+ett_opcua_ReferenceDescription
+hf_opcua_IsForward
+parseNodeClass
+parseSupportedProfile
+ett_opcua_SupportedProfile
+hf_opcua_OrganizationUri
+hf_opcua_ProfileId
+hf_opcua_ComplianceTool
+hf_opcua_ComplianceDate
+parseDateTime
+parseComplianceLevel
+hf_opcua_UnsupportedUnitIds
+parseUserTokenPolicy
+ett_opcua_UserTokenPolicy
+hf_opcua_PolicyId
+parseUserTokenType
+hf_opcua_IssuedTokenType
+hf_opcua_IssuerEndpointUrl
+hf_opcua_SecurityPolicyUri
+parseNode
+ett_opcua_Node
+hf_opcua_WriteMask
+hf_opcua_UserWriteMask
+parseObjectNode
+ett_opcua_ObjectNode
+hf_opcua_EventNotifier
+parseObjectTypeNode
+ett_opcua_ObjectTypeNode
+hf_opcua_IsAbstract
+parseVariableNode
+ett_opcua_VariableNode
+hf_opcua_AccessLevel
+hf_opcua_UserAccessLevel
+hf_opcua_MinimumSamplingInterval
+hf_opcua_Historizing
+parseVariableTypeNode
+ett_opcua_VariableTypeNode
+parseReferenceTypeNode
+ett_opcua_ReferenceTypeNode
+hf_opcua_Symmetric
+parseMethodNode
+ett_opcua_MethodNode
+hf_opcua_Executable
+hf_opcua_UserExecutable
+parseViewNode
+ett_opcua_ViewNode
+hf_opcua_ContainsNoLoops
+parseDataTypeNode
+ett_opcua_DataTypeNode
+parseTimeZoneDataType
+ett_opcua_TimeZoneDataType
+hf_opcua_Offset
+parseInt16
+hf_opcua_DaylightSavingInOffset
+parseEnumValueInfo
+ett_opcua_EnumValueInfo
+hf_opcua_Value
+parseStatusResult
+ett_opcua_StatusResult
+ett_opcua_ApplicationDescription
+hf_opcua_ApplicationUri
+hf_opcua_ProductUri
+parseApplicationType
+hf_opcua_GatewayServerUri
+hf_opcua_DiscoveryProfileUri
+hf_opcua_DiscoveryUrls
+ett_opcua_EndpointDescription
+hf_opcua_TransportProfileUri
+hf_opcua_SecurityLevel
+parseUserIdentityToken
+ett_opcua_UserIdentityToken
+parseUserNameIdentityToken
+ett_opcua_UserNameIdentityToken
+hf_opcua_UserName
+hf_opcua_Password
+hf_opcua_EncryptionAlgorithm
+parseX509IdentityToken
+ett_opcua_X509IdentityToken
+hf_opcua_CertificateData
+parseIssuedIdentityToken
+ett_opcua_IssuedIdentityToken
+hf_opcua_TokenData
+parseEndpointConfiguration
+ett_opcua_EndpointConfiguration
+hf_opcua_OperationTimeout
+hf_opcua_UseBinaryEncoding
+hf_opcua_MaxStringLength
+hf_opcua_MaxByteStringLength
+hf_opcua_MaxArrayLength
+hf_opcua_MaxMessageSize
+hf_opcua_MaxBufferSize
+hf_opcua_ChannelLifetime
+hf_opcua_SecurityTokenLifetime
+parseBuildInfo
+ett_opcua_BuildInfo
+hf_opcua_ManufacturerName
+hf_opcua_ProductName
+hf_opcua_SoftwareVersion
+hf_opcua_BuildNumber
+hf_opcua_BuildDate
+parseSoftwareCertificate
+ett_opcua_SoftwareCertificate
+hf_opcua_VendorName
+hf_opcua_VendorProductCertificate
+hf_opcua_IssuedBy
+hf_opcua_IssueDate
+ett_opcua_SignedSoftwareCertificate
+hf_opcua_Signature
+parseNodeAttributes
+ett_opcua_NodeAttributes
+hf_opcua_SpecifiedAttributes
+parseObjectAttributes
+ett_opcua_ObjectAttributes
+parseVariableAttributes
+ett_opcua_VariableAttributes
+parseMethodAttributes
+ett_opcua_MethodAttributes
+parseObjectTypeAttributes
+ett_opcua_ObjectTypeAttributes
+parseVariableTypeAttributes
+ett_opcua_VariableTypeAttributes
+parseReferenceTypeAttributes
+ett_opcua_ReferenceTypeAttributes
+parseDataTypeAttributes
+ett_opcua_DataTypeAttributes
+parseViewAttributes
+ett_opcua_ViewAttributes
+ett_opcua_AddNodesItem
+ett_opcua_AddReferencesItem
+hf_opcua_TargetServerUri
+ett_opcua_DeleteNodesItem
+hf_opcua_DeleteTargetReferences
+ett_opcua_DeleteReferencesItem
+hf_opcua_DeleteBidirectional
+ett_opcua_RequestHeader
+hf_opcua_Timestamp
+hf_opcua_ReturnDiagnostics
+hf_opcua_AuditEntryId
+hf_opcua_TimeoutHint
+ett_opcua_ResponseHeader
+hf_opcua_ServiceResult
+hf_opcua_StringTable
+parseServiceFault
+ett_opcua_ServiceFault
+parseScalarTestType
+ett_opcua_ScalarTestType
+hf_opcua_Boolean
+hf_opcua_SByte
+parseSByte
+hf_opcua_Byte
+hf_opcua_Int16
+hf_opcua_UInt16
+parseUInt16
+hf_opcua_Int32
+hf_opcua_UInt32
+hf_opcua_Int64
+parseInt64
+hf_opcua_UInt64
+parseUInt64
+hf_opcua_Float
+parseFloat
+hf_opcua_Double
+hf_opcua_String
+hf_opcua_DateTime
+hf_opcua_Guid
+parseGuid
+hf_opcua_ByteString
+hf_opcua_XmlElement
+parseXmlElement
+parseEnumeratedTestType
+parseArrayTestType
+ett_opcua_ArrayTestType
+hf_opcua_Booleans
+hf_opcua_SBytes
+hf_opcua_Int16s
+hf_opcua_UInt16s
+hf_opcua_Int32s
+hf_opcua_UInt32s
+hf_opcua_Int64s
+hf_opcua_UInt64s
+hf_opcua_Floats
+hf_opcua_Doubles
+hf_opcua_Strings
+hf_opcua_DateTimes
+hf_opcua_Guids
+hf_opcua_ByteStrings
+hf_opcua_XmlElements
+hf_opcua_StatusCodes
+parseArrayEnum
+ett_opcua_CompositeTestType
+ett_opcua_RegisteredServer
+hf_opcua_SemaphoreFilePath
+hf_opcua_IsOnline
+ett_opcua_ChannelSecurityToken
+hf_opcua_ChannelId
+hf_opcua_TokenId
+hf_opcua_CreatedAt
+hf_opcua_RevisedLifetime
+ett_opcua_SignatureData
+hf_opcua_Algorithm
+ett_opcua_AddNodesResult
+ett_opcua_ViewDescription
+hf_opcua_ViewVersion
+ett_opcua_BrowseDescription
+parseBrowseDirection
+hf_opcua_NodeClassMask
+hf_opcua_ResultMask
+ett_opcua_BrowseResult
+parseRelativePath
+ett_opcua_RelativePath
+parseQueryDataDescription
+ett_opcua_QueryDataDescription
+ett_opcua_BrowsePath
+ett_opcua_BrowsePathResult
+ett_opcua_NodeTypeDescription
+hf_opcua_IncludeSubTypes
+ett_opcua_QueryDataSet
+parseNodeReference
+ett_opcua_NodeReference
+ett_opcua_ContentFilter
+parseElementOperand
+ett_opcua_ElementOperand
+hf_opcua_Index
+parseLiteralOperand
+ett_opcua_LiteralOperand
+parseAttributeOperand
+ett_opcua_AttributeOperand
+hf_opcua_Alias
+ett_opcua_ContentFilterResult
+ett_opcua_ParsingResult
+hf_opcua_DataStatusCodes
+ett_opcua_ReadValueId
+ett_opcua_HistoryReadValueId
+ett_opcua_HistoryReadResult
+parseReadRawModifiedDetails
+ett_opcua_ReadRawModifiedDetails
+hf_opcua_IsReadModified
+hf_opcua_StartTime
+hf_opcua_EndTime
+hf_opcua_NumValuesPerNode
+hf_opcua_ReturnBounds
+parseReadAtTimeDetails
+ett_opcua_ReadAtTimeDetails
+hf_opcua_ReqTimes
+parseHistoryData
+ett_opcua_HistoryData
+parseHistoryEvent
+ett_opcua_HistoryEvent
+ett_opcua_WriteValue
+parseHistoryUpdateDetails
+ett_opcua_HistoryUpdateDetails
+parseUpdateDataDetails
+ett_opcua_UpdateDataDetails
+parseHistoryUpdateMode
+parseInsertReplaceEventDetails
+ett_opcua_InsertReplaceEventDetails
+parseDeleteRawModifiedDetails
+ett_opcua_DeleteRawModifiedDetails
+hf_opcua_IsDeleteModified
+parseDeleteAtTimeDetails
+ett_opcua_DeleteAtTimeDetails
+parseDeleteEventDetails
+ett_opcua_DeleteEventDetails
+hf_opcua_EventIds
+ett_opcua_HistoryUpdateResult
+hf_opcua_OperationResults
+ett_opcua_CallMethodRequest
+ett_opcua_CallMethodResult
+hf_opcua_InputArgumentResults
+parseDataChangeFilter
+ett_opcua_DataChangeFilter
+parseDataChangeTrigger
+hf_opcua_DeadbandType
+hf_opcua_DeadbandValue
+parseEventFilter
+ett_opcua_EventFilter
+parseUpdateEventDetails
+ett_opcua_UpdateEventDetails
+parseReadEventDetails
+ett_opcua_ReadEventDetails
+parseAggregateConfiguration
+ett_opcua_AggregateConfiguration
+hf_opcua_UseSeverCapabilitiesDefaults
+hf_opcua_TreatUncertainAsBad
+hf_opcua_PercentDataBad
+hf_opcua_PercentDataGood
+hf_opcua_SteppedSlopedExtrapolation
+parseReadProcessedDetails
+ett_opcua_ReadProcessedDetails
+hf_opcua_ResampleInterval
+parseAggregateFilter
+ett_opcua_AggregateFilter
+hf_opcua_ProcessingInterval
+parseEventFilterResult
+ett_opcua_EventFilterResult
+hf_opcua_SelectClauseResults
+parseHistoryUpdateEventResult
+ett_opcua_HistoryUpdateEventResult
+parseAggregateFilterResult
+ett_opcua_AggregateFilterResult
+hf_opcua_RevisedStartTime
+hf_opcua_RevisedProcessingInterval
+parseMonitoringParameters
+ett_opcua_MonitoringParameters
+hf_opcua_SamplingInterval
+hf_opcua_QueueSize
+hf_opcua_DiscardOldest
+ett_opcua_MonitoredItemCreateRequest
+ett_opcua_MonitoredItemCreateResult
+hf_opcua_MonitoredItemId
+hf_opcua_RevisedSamplingInterval
+hf_opcua_RevisedQueueSize
+ett_opcua_MonitoredItemModifyRequest
+ett_opcua_MonitoredItemModifyResult
+ett_opcua_NotificationMessage
+hf_opcua_SequenceNumber
+hf_opcua_PublishTime
+parseDataChangeNotification
+ett_opcua_DataChangeNotification
+parseEventNotificationList
+ett_opcua_EventNotificationList
+parseStatusChangeNotification
+ett_opcua_StatusChangeNotification
+hf_opcua_Status
+ett_opcua_SubscriptionAcknowledgement
+ett_opcua_TransferResult
+parseRedundantServerDataType
+ett_opcua_RedundantServerDataType
+hf_opcua_ServerId
+hf_opcua_ServiceLevel
+parseServerState
+parseSamplingIntervalDiagnosticsDataType
+ett_opcua_SamplingIntervalDiagnosticsDataType
+hf_opcua_MonitoredItemCount
+hf_opcua_MaxMonitoredItemCount
+hf_opcua_DisabledMonitoredItemCount
+parseServerDiagnosticsSummaryDataType
+ett_opcua_ServerDiagnosticsSummaryDataType
+hf_opcua_ServerViewCount
+hf_opcua_CurrentSessionCount
+hf_opcua_CumulatedSessionCount
+hf_opcua_SecurityRejectedSessionCount
+hf_opcua_RejectedSessionCount
+hf_opcua_SessionTimeoutCount
+hf_opcua_SessionAbortCount
+hf_opcua_CurrentSubscriptionCount
+hf_opcua_CumulatedSubscriptionCount
+hf_opcua_PublishingIntervalCount
+hf_opcua_SecurityRejectedRequestsCount
+hf_opcua_RejectedRequestsCount
+parseServerStatusDataType
+ett_opcua_ServerStatusDataType
+hf_opcua_CurrentTime
+hf_opcua_SecondsTillShutdown
+parseSessionSecurityDiagnosticsDataType
+ett_opcua_SessionSecurityDiagnosticsDataType
+hf_opcua_ClientUserIdOfSession
+hf_opcua_ClientUserIdHistory
+hf_opcua_AuthenticationMechanism
+hf_opcua_Encoding
+hf_opcua_TransportProtocol
+parseServiceCounterDataType
+ett_opcua_ServiceCounterDataType
+hf_opcua_TotalCount
+hf_opcua_ErrorCount
+parseSessionDiagnosticsDataType
+ett_opcua_SessionDiagnosticsDataType
+hf_opcua_ActualSessionTimeout
+hf_opcua_ClientConnectionTime
+hf_opcua_ClientLastContactTime
+hf_opcua_CurrentSubscriptionsCount
+hf_opcua_CurrentMonitoredItemsCount
+hf_opcua_CurrentPublishRequestsInQueue
+hf_opcua_UnauthorizedRequestCount
+parseSubscriptionDiagnosticsDataType
+ett_opcua_SubscriptionDiagnosticsDataType
+hf_opcua_PublishingInterval
+hf_opcua_MaxKeepAliveCount
+hf_opcua_MaxLifetimeCount
+hf_opcua_ModifyCount
+hf_opcua_EnableCount
+hf_opcua_DisableCount
+hf_opcua_RepublishRequestCount
+hf_opcua_RepublishMessageRequestCount
+hf_opcua_RepublishMessageCount
+hf_opcua_TransferRequestCount
+hf_opcua_TransferredToAltClientCount
+hf_opcua_TransferredToSameClientCount
+hf_opcua_PublishRequestCount
+hf_opcua_DataChangeNotificationsCount
+hf_opcua_EventNotificationsCount
+hf_opcua_NotificationsCount
+hf_opcua_LatePublishRequestCount
+hf_opcua_CurrentKeepAliveCount
+hf_opcua_CurrentLifetimeCount
+hf_opcua_UnacknowledgedMessageCount
+hf_opcua_DiscardedMessageCount
+hf_opcua_MonitoringQueueOverflowCount
+hf_opcua_NextSequenceNumber
+hf_opcua_EventQueueOverFlowCount
+parseModelChangeStructureDataType
+ett_opcua_ModelChangeStructureDataType
+hf_opcua_Verb
+parseSemanticChangeStructureDataType
+ett_opcua_SemanticChangeStructureDataType
+parseRange
+ett_opcua_Range
+hf_opcua_Low
+hf_opcua_High
+parseEUInformation
+ett_opcua_EUInformation
+hf_opcua_NamespaceUri
+hf_opcua_UnitId
+parseAnnotation
+ett_opcua_Annotation
+hf_opcua_Message
+hf_opcua_AnnotationTime
+parseProgramDiagnosticDataType
+ett_opcua_ProgramDiagnosticDataType
+hf_opcua_CreateClientName
+hf_opcua_InvocationCreationTime
+hf_opcua_LastTransitionTime
+hf_opcua_LastMethodCall
+hf_opcua_LastMethodCallTime
+parseNodeIdType
+parseDialogConditionChoice
+parseIdType
+parseAttributeWriteMask
+parseNodeAttributesMask
+parseBrowseResultMask
+parseDeadbandType
+parseRedundancySupport
+parseModelChangeStructureVerbMask
+parseExceptionDeviationFormat
+dissect_nt_64bit_time
+proto_tree_add_string
+g_snprintf
+g_arParserTable
+g_NumServices
+hf_opcua_NoOfAddDiagnosticInfos
+hf_opcua_NoOfAddResults
+hf_opcua_NoOfAggregateType
+hf_opcua_NoOfArrayDimensions
+hf_opcua_NoOfAvailableSequenceNumbers
+hf_opcua_NoOfBooleans
+hf_opcua_NoOfBrowsePath
+hf_opcua_NoOfBrowsePaths
+hf_opcua_NoOfByteStrings
+hf_opcua_NoOfClientSoftwareCertificates
+hf_opcua_NoOfClientUserIdHistory
+hf_opcua_NoOfContinuationPoints
+hf_opcua_NoOfDataDiagnosticInfos
+hf_opcua_NoOfDataStatusCodes
+hf_opcua_NoOfDataToReturn
+hf_opcua_NoOfDataValues
+hf_opcua_NoOfDateTimes
+hf_opcua_NoOfDiagnosticInfos
+hf_opcua_NoOfDiscoveryUrls
+hf_opcua_NoOfDoubles
+hf_opcua_NoOfElementDiagnosticInfos
+hf_opcua_NoOfElementResults
+hf_opcua_NoOfElements
+hf_opcua_NoOfEndpoints
+hf_opcua_NoOfEnumeratedValues
+hf_opcua_NoOfEventData
+hf_opcua_NoOfEventFields
+hf_opcua_NoOfEvents
+hf_opcua_NoOfExpandedNodeIds
+hf_opcua_NoOfExtensionObjects
+hf_opcua_NoOfFilterOperands
+hf_opcua_NoOfFloats
+hf_opcua_NoOfGuids
+hf_opcua_NoOfHistoryUpdateDetails
+hf_opcua_NoOfInputArgumentDiagnosticInfos
+hf_opcua_NoOfInputArgumentResults
+hf_opcua_NoOfInputArguments
+hf_opcua_NoOfInt16s
+hf_opcua_NoOfInt32s
+hf_opcua_NoOfInt64s
+hf_opcua_NoOfItemsToCreate
+hf_opcua_NoOfItemsToModify
+hf_opcua_NoOfLastMethodInputArguments
+hf_opcua_NoOfLastMethodOutputArguments
+hf_opcua_NoOfLinksToAdd
+hf_opcua_NoOfLinksToRemove
+hf_opcua_NoOfLocaleIds
+hf_opcua_NoOfLocalizedTexts
+hf_opcua_NoOfMethodsToCall
+hf_opcua_NoOfMonitoredItemIds
+hf_opcua_NoOfMonitoredItems
+hf_opcua_NoOfNodeIds
+hf_opcua_NoOfNodeTypes
+hf_opcua_NoOfNodesToAdd
+hf_opcua_NoOfNodesToBrowse
+hf_opcua_NoOfNodesToDelete
+hf_opcua_NoOfNodesToRead
+hf_opcua_NoOfNodesToRegister
+hf_opcua_NoOfNodesToUnregister
+hf_opcua_NoOfNodesToWrite
+hf_opcua_NoOfNotificationData
+hf_opcua_NoOfOperandDiagnosticInfos
+hf_opcua_NoOfOperandStatusCodes
+hf_opcua_NoOfOperationResults
+hf_opcua_NoOfOutputArguments
+hf_opcua_NoOfParsingResults
+hf_opcua_NoOfProfileUris
+hf_opcua_NoOfQualifiedNames
+hf_opcua_NoOfQueryDataSets
+hf_opcua_NoOfReferencedNodeIds
+hf_opcua_NoOfReferences
+hf_opcua_NoOfReferencesToAdd
+hf_opcua_NoOfReferencesToDelete
+hf_opcua_NoOfRegisteredNodeIds
+hf_opcua_NoOfRemoveDiagnosticInfos
+hf_opcua_NoOfRemoveResults
+hf_opcua_NoOfReqTimes
+hf_opcua_NoOfResults
+hf_opcua_NoOfSBytes
+hf_opcua_NoOfSelectClause
+hf_opcua_NoOfSelectClauseDiagnosticInfos
+hf_opcua_NoOfSelectClauseResults
+hf_opcua_NoOfSelectClauses
+hf_opcua_NoOfServerEndpoints
+hf_opcua_NoOfServerNames
+hf_opcua_NoOfServerSoftwareCertificates
+hf_opcua_NoOfServerUris
+hf_opcua_NoOfServers
+hf_opcua_NoOfStatusCodes
+hf_opcua_NoOfStringTable
+hf_opcua_NoOfStrings
+hf_opcua_NoOfSubscriptionAcknowledgements
+hf_opcua_NoOfSubscriptionIds
+hf_opcua_NoOfSupportedProfiles
+hf_opcua_NoOfTargets
+hf_opcua_NoOfUInt16s
+hf_opcua_NoOfUInt32s
+hf_opcua_NoOfUInt64s
+hf_opcua_NoOfUnsupportedUnitIds
+hf_opcua_NoOfUserIdentityTokens
+hf_opcua_NoOfValues
+hf_opcua_NoOfVariants
+hf_opcua_NoOfXmlElements
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+opcua.so
+GLIBC_2.4
+GLIBC_2.2.5
+=pS"
+ATSubH
+fffff.
+=CR"
+=+R"
+l$ L
+d$(L
+l$0H
+[]A\
+[]A\
+d$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+d$ H
+fffff.
+d$ H
+fffff.
+l$ L
+l$0H
+d$ H
+-)s!
+l$ L
+l$0H
+d$ H
+d$ H
+fffff.
+[]A\
+[]A\
+[]A\
+[]A\
+fff.
+fff.
+fff.
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+fffff.
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+[]A\
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+d$ H
+[]A\
+d$ H
+l$ L
+l$0H
+5YN!
+d$ L
+l$(L
+t$0H
+ffff.
+fffff.
+d$ H
+[]A\
+ffffff.
+[]A\
+ffff.
+[]A\
+ffffff.
+[]A\
+fffff.
+d$ H
+d$ H
+fffff.
+d$ H
+fffff.
+fffff.
+d$ H
+d$ H
+d$ H
+[]A\
+fff.
+d$ H
+d$ H
+d$ H
+d$ H
+ffff.
+[]A\
+[]A\
+ffffff.
+[]A\
+[]A\
+d$ H
+d$ H
+[]A\
+fffff.
+[]A\
+[]A\
+fff.
+[]A\
+[]A\
+fff.
+[]A\
+[]A\
+d$ H
+ffffff.
+[]A\
+fffff.
+fffff.
+fffff.
+ffff.
+d$ H
+[]A\
+[]A\
+ffffff.
+d$ H
+[]A\
+fffff.
+d$ H
+d$ H
+d$ H
+d$ H
+ffff.
+d$ H
+ffffff.
+fffff.
+ffff.
+[]A\
+fff.
+d$ H
+ffff.
+d$ H
+[]A\
+d$ H
+[]A\
+ffff.
+d$ H
+d$ H
+ffffff.
+d$ H
+d$ H
+ffffff.
+fffff.
+d$ H
+d$ H
+ffff.
+[]A\
+d$ H
+d$ H
+d$ H
+[]A\
+d$ H
+ffff.
+d$ H
+d$ H
+d$ H
+ffff.
+d$ H
+d$ H
+[]A\
+ffffff.
+[]A\
+fffff.
+[]A\
+[]A\
+d$ H
+ATUH
+A\A]
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+fffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+ffffff.
+d$ L
+l$(L
+t$0H
+fffff.
++u^H
+d$ L
+l$(L
+t$0H
+ATUH
+[]A\A]
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0H
+ffffff.
+d$ H
+AUATI
+[]A\A]A^
+d$ L
+l$(L
+t$0H
+ Simple L
+D$(1
+Array ofH
+D$ Type
+D$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+ Enum TyH
+Array ofdH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$(1
+D$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+AUATI
+[]A\A]A^
+Nt*9
+u+Mc
+1.0.0
+tcp.port
+OpcUa
+Invalid message
+opcua
+OpcUa Binary Protocol
+OPC UA TCP Ports
+tcp_ports
+Hello message
+Acknowledge message
+Error message
+OpenSecureChannel message
+CloseSecureChannel message
+The TCP ports for the OPC UA TCP Binary Protocol
+UA Secure Conversation Message
+Message : Encodeable Object
+TypeId : ExpandedNodeId
+Message Type
+transport.type
+Chunk Type
+transport.chunk
+Message Size
+transport.size
+transport.ver
+SecureChannelId
+transport.scid
+transport.lifetime
+ReceiveBufferSize
+transport.rbs
+SendBufferSize
+transport.sbs
+transport.mms
+MaxChunkCount
+transport.mcc
+EndPointUrl
+transport.endpoint
+Error
+transport.error
+transport.reason
+security.spu
+SenderCertificate
+security.scert
+ReceiverCertificateThumbprint
+security.rcthumb
+security.seq
+security.rqid
+Security Token Id
+security.tokenid
+Security Sequence Number
+Security RequestId
+NodeId EncodingMask
+application.nodeid.nsid
+NodeId Identifier Numeric
+application.nodeid.numeric
+Two byte encoded Numeric
+Four byte encoded Numeric
+Numeric of arbitrary length
+GUID
+UriMask
+application.nodeid.encodingmask
+TestStackRequest
+Input
+TestStackResponse
+Output
+TestStackExRequest
+TestStackExResponse
+FindServersRequest
+FindServersResponse
+GetEndpointsRequest
+GetEndpointsResponse
+RegisterServerRequest
+RegisterServerResponse
+OpenSecureChannelRequest
+OpenSecureChannelResponse
+CloseSecureChannelRequest
+CloseSecureChannelResponse
+CreateSessionRequest
+ClientDescription
+CreateSessionResponse
+AuthenticationToken
+ServerSoftwareCertificates
+ServerSignature
+ActivateSessionRequest
+ClientSignature
+ClientSoftwareCertificates
+UserTokenSignature
+ActivateSessionResponse
+CloseSessionRequest
+CloseSessionResponse
+CancelRequest
+CancelResponse
+AddNodesRequest
+AddNodesResponse
+AddReferencesRequest
+AddReferencesResponse
+DeleteNodesRequest
+DeleteNodesResponse
+DeleteReferencesRequest
+DeleteReferencesResponse
+BrowseRequest
+BrowseResponse
+BrowseNextRequest
+BrowseNextResponse
+RegisterNodesRequest
+RegisterNodesResponse
+UnregisterNodesRequest
+UnregisterNodesResponse
+QueryFirstRequest
+QueryFirstResponse
+QueryNextRequest
+QueryNextResponse
+HistoryReadRequest
+HistoryReadDetails
+HistoryReadResponse
+WriteRequest
+WriteResponse
+HistoryUpdateRequest
+HistoryUpdateResponse
+CallRequest
+CallResponse
+CreateMonitoredItemsRequest
+CreateMonitoredItemsResponse
+ModifyMonitoredItemsRequest
+ModifyMonitoredItemsResponse
+SetMonitoringModeRequest
+SetMonitoringModeResponse
+SetTriggeringRequest
+SetTriggeringResponse
+DeleteMonitoredItemsRequest
+DeleteMonitoredItemsResponse
+CreateSubscriptionRequest
+CreateSubscriptionResponse
+ModifySubscriptionRequest
+ModifySubscriptionResponse
+SetPublishingModeRequest
+SetPublishingModeResponse
+PublishRequest
+SubscriptionAcknowledgements
+PublishResponse
+RepublishRequest
+RepublishResponse
+TransferSubscriptionsRequest
+TransferSubscriptionsResponse
+DeleteSubscriptionsRequest
+DeleteSubscriptionsResponse
+TranslateBrowsePathsToNodeIdsRequest
+TranslateBrowsePathsToNodeIdsResponse
+%s : HistoryEventFieldList
+%s : EventFieldList
+%s : SimpleAttributeOperand
+TypeDefinitionId
+%s : Argument
+%s : RelativePathElement
+ReferenceTypeId
+TargetName
+%s : ContentFilterElement
+%s : BrowsePathTarget
+TargetId
+%s : ReferenceNode
+%s : ReferenceDescription
+BrowseName
+DisplayName
+TypeDefinition
+%s : SupportedProfile
+%s : UserTokenPolicy
+%s : Node
+%s : ObjectNode
+%s : ObjectTypeNode
+%s : VariableNode
+%s : VariableTypeNode
+%s : ReferenceTypeNode
+InverseName
+%s : MethodNode
+%s : ViewNode
+%s : DataTypeNode
+%s : TimeZoneDataType
+%s : EnumValueInfo
+%s : StatusResult
+%s : ApplicationDescription
+ApplicationName
+%s : EndpointDescription
+%s : UserIdentityToken
+%s : UserNameIdentityToken
+%s : X509IdentityToken
+%s : IssuedIdentityToken
+%s : EndpointConfiguration
+%s : BuildInfo
+%s : SoftwareCertificate
+%s : NodeAttributes
+%s : ObjectAttributes
+%s : VariableAttributes
+%s : MethodAttributes
+%s : ObjectTypeAttributes
+%s : VariableTypeAttributes
+%s : ReferenceTypeAttributes
+%s : DataTypeAttributes
+%s : ViewAttributes
+%s : AddNodesItem
+ParentNodeId
+RequestedNewNodeId
+%s : AddReferencesItem
+SourceNodeId
+TargetNodeId
+%s : DeleteNodesItem
+%s : DeleteReferencesItem
+%s : RequestHeader
+AdditionalHeader
+%s : ResponseHeader
+ServiceDiagnostics
+%s : ServiceFault
+%s : ScalarTestType
+%s : ArrayTestType
+%s : CompositeTestType
+Field1
+Field2
+%s : RegisteredServer
+%s : ChannelSecurityToken
+%s : SignatureData
+%s : AddNodesResult
+AddedNodeId
+%s : ViewDescription
+ViewId
+%s : BrowseDescription
+%s : BrowseResult
+%s : RelativePath
+%s : QueryDataDescription
+%s : BrowsePath
+StartingNode
+%s : BrowsePathResult
+%s : NodeTypeDescription
+TypeDefinitionNode
+%s : QueryDataSet
+%s : NodeReference
+%s : ContentFilter
+%s : ElementOperand
+%s : LiteralOperand
+%s : AttributeOperand
+%s : ContentFilterResult
+%s : ParsingResult
+%s : ReadValueId
+DataEncoding
+%s : HistoryReadValueId
+%s : HistoryReadResult
+%s : ReadRawModifiedDetails
+%s : ReadAtTimeDetails
+%s : HistoryData
+%s : HistoryEvent
+%s : WriteValue
+%s : HistoryUpdateDetails
+%s : UpdateDataDetails
+UpdateValue
+%s : DeleteRawModifiedDetails
+%s : DeleteAtTimeDetails
+%s : DeleteEventDetails
+%s : HistoryUpdateResult
+%s : CallMethodRequest
+ObjectId
+MethodId
+%s : CallMethodResult
+InputArgumentDiagnosticInfos
+%s : DataChangeFilter
+%s : EventFilter
+WhereClause
+%s : UpdateEventDetails
+%s : ReadEventDetails
+%s : AggregateConfiguration
+%s : ReadProcessedDetails
+%s : AggregateFilter
+%s : EventFilterResult
+SelectClauseDiagnosticInfos
+WhereClauseResult
+%s : HistoryUpdateEventResult
+%s : AggregateFilterResult
+RevisedAggregateConfiguration
+%s : MonitoringParameters
+ItemToMonitor
+RequestedParameters
+%s : NotificationMessage
+%s : DataChangeNotification
+%s : EventNotificationList
+%s : StatusChangeNotification
+%s : TransferResult
+%s : RedundantServerDataType
+%s : ServerStatusDataType
+ShutdownReason
+%s : ServiceCounterDataType
+TotalRequestCount
+HistoryReadCount
+WriteCount
+HistoryUpdateCount
+CallCount
+CreateMonitoredItemsCount
+ModifyMonitoredItemsCount
+SetMonitoringModeCount
+SetTriggeringCount
+DeleteMonitoredItemsCount
+CreateSubscriptionCount
+ModifySubscriptionCount
+SetPublishingModeCount
+PublishCount
+RepublishCount
+TransferSubscriptionsCount
+DeleteSubscriptionsCount
+AddNodesCount
+AddReferencesCount
+DeleteNodesCount
+DeleteReferencesCount
+BrowseCount
+BrowseNextCount
+QueryFirstCount
+QueryNextCount
+RegisterNodesCount
+UnregisterNodesCount
+Affected
+AffectedType
+%s : Range
+%s : EUInformation
+%s : Annotation
+CreateSessionId
+LastMethodSessionId
+LastMethodReturnStatus
+%s : ContentFilterElementResult
+%s : MonitoredItemNotification
+%s : SignedSoftwareCertificate
+%s : InsertReplaceEventDetails
+%s : MonitoredItemCreateRequest
+%s : MonitoredItemCreateResult
+%s : MonitoredItemModifyRequest
+%s : MonitoredItemModifyResult
+%s : SubscriptionAcknowledgement
+%s : SamplingIntervalDiagnosticsDataType
+%s : ServerDiagnosticsSummaryDataType
+%s : SessionSecurityDiagnosticsDataType
+%s : SessionDiagnosticsDataType
+TranslateBrowsePathsToNodeIdsCount
+%s : SubscriptionDiagnosticsDataType
+%s : ModelChangeStructureDataType
+%s : SemanticChangeStructureDataType
+%s : ProgramDiagnosticDataType
+opcua.NodeIdType
+opcua.DialogConditionChoice
+opcua.IdType
+opcua.NodeClass
+opcua.MessageSecurityMode
+opcua.UserTokenType
+opcua.ApplicationType
+SecurityTokenRequestType
+opcua.ComplianceLevel
+opcua.AttributeWriteMask
+opcua.NodeAttributesMask
+opcua.EnumeratedTestType
+opcua.BrowseDirection
+opcua.BrowseResultMask
+opcua.FilterOperator
+opcua.TimestampsToReturn
+opcua.HistoryUpdateMode
+opcua.MonitoringMode
+opcua.DataChangeTrigger
+opcua.DeadbandType
+opcua.RedundancySupport
+opcua.ServerState
+ModelChangeStructureVerbMask
+ExceptionDeviationFormat
+TwoByte
+FourByte
+None
+Cancel
+Abort
+Opaque
+Unspecified
+Variable
+Method
+ObjectType
+ReferenceType
+Invalid
+Sign
+SignAndEncrypt
+Anonymous
+IssuedToken
+Client
+ClientAndServer
+DiscoveryServer
+Issue
+Renew
+Untested
+Partial
+SelfTested
+Certified
+ValueForVariableType
+BaseNode
+ObjectTypeOrDataType
+Yellow
+Green
+Both
+ReferenceTypeInfo
+TargetInfo
+Equals
+IsNull
+GreaterThan
+LessThan
+GreaterThanOrEqual
+LessThanOrEqual
+Like
+Between
+InList
+Cast
+InView
+OfType
+RelatedTo
+BitwiseAnd
+BitwiseOr
+Source
+Neither
+Insert
+InsertReplace
+Disabled
+Sampling
+Reporting
+StatusValue
+StatusValueTimestamp
+Absolute
+Percent
+Cold
+Warm
+Transparent
+Running
+Failed
+NoConfiguration
+Suspended
+Test
+CommunicationFault
+Unknown
+NodeAdded
+NodeDeleted
+ReferenceAdded
+ReferenceDeleted
+DataTypeChanged
+AbsoluteValue
+PercentOfRange
+PercentOfValue
+PercentOfEURange
+opcua.SecurityTokenRequestType
+opcua.ModelChangeStructureVerbMask
+opcua.ExceptionDeviationFormat
+[OpcUa Null String]
+%s: ExpandedNodeId
+%s : ExtensionObject
+%s: NodeId
+%s: QualifiedName
+%s: DiagnosticInfo
+Inner DiagnosticInfo
+%s: LocalizedText
+Array of %s
+[%i]
+%s: Variant
+Array Dimensions
+%s: DataValue
+has symbolic id
+opcua.has_symbolic_id
+has namespace
+opcua.has_namespace
+has localizedtext
+opcua.has_localizedtext
+has additional info
+opcua.has_additional_info
+has inner statuscode
+opcua.has_inner_statuscode
+has inner diagnostic info
+has locale information
+opcua.has_locale_information
+has text
+opcua.has_text
+NodeId Namespace Id
+opcua.Locale
+opcua.Text
+opcua.Id
+opcua.Name
+has value
+opcua.has_value
+has statuscode
+opcua.has_statuscode
+has source timestamp
+opcua.has_source_timestamp
+has server timestamp
+opcua.has_server_timestamp
+has source picoseconds
+opcua.has_source_picoseconds
+has server picoseconds
+opcua.has_server_picoseconds
+Variant Type
+opcua.SourceTimestamp
+opcua.SourcePicoseconds
+opcua.ServerTimestamp
+opcua.ServerPicoseconds
+opcua.SymbolicId
+opcua.Namespace
+opcua.LocaliezdText
+opcua.AdditionalInfo
+opcua.InnerStatusCode
+has binary body
+opcua.has_binary_body
+has xml body
+opcua.has_xml_body
+opcua.ArraySize
+opcua.Uri
+opcua.ServerIndex
+Array of Null
+Array of Boolean
+Array of SByte
+Array of Byte
+Array of Int16
+Array of UInt16
+Array of Int32
+Array of UInt32
+Array of Int64
+Array of UInt64
+Array of Float
+Array of Double
+Array of String
+Array of DateTime
+Array of Guid
+Array of ByteString
+Array of XmlElement
+Array of NodeId
+Array of ExpandedNodeId
+Array of StatusCode
+Array of DiagnosticInfo
+Array of QualifiedName
+Array of LocalizedText
+Array of ExtensionObject
+Array of DataValue
+Array of Variant
+[Invalid String] Invalid length: %d
+Array length %d too large to process
+opcua.has_inner_diagnostic_code
+opcua.AccessLevel
+opcua.ActualSessionTimeout
+opcua.AddResults
+opcua.Algorithm
+opcua.Alias
+opcua.AnnotationTime
+opcua.ApplicationUri
+opcua.ArrayDimensions
+opcua.AttributeId
+opcua.AuditEntryId
+opcua.AuthenticationMechanism
+opcua.Boolean
+opcua.Booleans
+opcua.BuildDate
+opcua.BuildNumber
+opcua.Byte
+opcua.ByteString
+opcua.ByteStrings
+opcua.CancelCount
+opcua.CertificateData
+opcua.ChannelId
+opcua.ChannelLifetime
+opcua.ClientCertificate
+opcua.ClientConnectionTime
+opcua.ClientHandle
+opcua.ClientLastContactTime
+opcua.ClientNonce
+opcua.ClientProtocolVersion
+opcua.ClientUserIdHistory
+opcua.ClientUserIdOfSession
+opcua.ComplianceDate
+opcua.ComplianceTool
+opcua.ContainsNoLoops
+opcua.ContinuationPoint
+opcua.ContinuationPoints
+opcua.CreateClientName
+opcua.CreatedAt
+opcua.CumulatedSessionCount
+CumulatedSubscriptionCount
+opcua.CurrentKeepAliveCount
+opcua.CurrentLifetimeCount
+CurrentMonitoredItemsCount
+CurrentPublishRequestsInQueue
+opcua.CurrentSessionCount
+CurrentSubscriptionCount
+CurrentSubscriptionsCount
+opcua.CurrentTime
+DataChangeNotificationsCount
+opcua.DataStatusCodes
+opcua.DateTime
+opcua.DateTimes
+opcua.DaylightSavingInOffset
+opcua.DeadbandValue
+opcua.DeleteBidirectional
+opcua.DeleteSubscriptions
+opcua.DeleteTargetReferences
+opcua.DisableCount
+DisabledMonitoredItemCount
+opcua.DiscardOldest
+opcua.DiscardedMessageCount
+opcua.DiscoveryProfileUri
+opcua.DiscoveryUrls
+opcua.Double
+opcua.Doubles
+opcua.EnableCount
+opcua.Encoding
+opcua.EncryptionAlgorithm
+opcua.EndTime
+opcua.EndpointUrl
+opcua.ErrorCount
+opcua.EventIds
+opcua.EventNotificationsCount
+opcua.EventNotifier
+opcua.EventQueueOverFlowCount
+opcua.Executable
+opcua.Float
+opcua.Floats
+opcua.GatewayServerUri
+opcua.Guid
+opcua.Guids
+opcua.High
+opcua.Historizing
+opcua.IncludeSubTypes
+opcua.IncludeSubtypes
+opcua.Index
+opcua.IndexRange
+opcua.InputArgumentResults
+opcua.Int16
+opcua.Int16s
+opcua.Int32
+opcua.Int32s
+opcua.Int64
+opcua.Int64s
+opcua.InvocationCreationTime
+opcua.IsAbstract
+opcua.IsDeleteModified
+opcua.IsForward
+opcua.IsInverse
+opcua.IsOnline
+opcua.IsReadModified
+opcua.IssueDate
+opcua.IssuedBy
+opcua.IssuedTokenType
+opcua.IssuerEndpointUrl
+opcua.Iteration
+opcua.LastMethodCall
+opcua.LastMethodCallTime
+opcua.LastTransitionTime
+opcua.LatePublishRequestCount
+opcua.LinksToAdd
+opcua.LinksToRemove
+opcua.LocaleIds
+opcua.Low
+opcua.ManufacturerName
+opcua.MaxAge
+opcua.MaxArrayLength
+opcua.MaxBufferSize
+opcua.MaxByteStringLength
+opcua.MaxDataSetsToReturn
+opcua.MaxKeepAliveCount
+opcua.MaxLifetimeCount
+opcua.MaxMessageSize
+opcua.MaxMonitoredItemCount
+MaxNotificationsPerPublish
+opcua.MaxReferencesToReturn
+opcua.MaxRequestMessageSize
+opcua.MaxResponseMessageSize
+opcua.MaxStringLength
+opcua.Message
+opcua.MinimumSamplingInterval
+opcua.ModifyCount
+opcua.MonitoredItemCount
+opcua.MonitoredItemId
+opcua.MonitoredItemIds
+MonitoringQueueOverflowCount
+opcua.MoreNotifications
+opcua.NamespaceUri
+opcua.NextSequenceNumber
+opcua.NoOfAddDiagnosticInfos
+opcua.NoOfAddResults
+opcua.NoOfAggregateType
+opcua.NoOfArrayDimensions
+NoOfAvailableSequenceNumbers
+opcua.NoOfBooleans
+opcua.NoOfBrowsePath
+opcua.NoOfBrowsePaths
+opcua.NoOfByteStrings
+opcua.NoOfClientUserIdHistory
+opcua.NoOfContinuationPoints
+opcua.NoOfDataDiagnosticInfos
+opcua.NoOfDataStatusCodes
+opcua.NoOfDataToReturn
+opcua.NoOfDataValues
+opcua.NoOfDateTimes
+opcua.NoOfDiagnosticInfos
+opcua.NoOfDiscoveryUrls
+opcua.NoOfDoubles
+NoOfElementDiagnosticInfos
+opcua.NoOfElementResults
+opcua.NoOfElements
+opcua.NoOfEndpoints
+opcua.NoOfEnumeratedValues
+opcua.NoOfEventData
+opcua.NoOfEventFields
+opcua.NoOfEvents
+opcua.NoOfExpandedNodeIds
+opcua.NoOfExtensionObjects
+opcua.NoOfFilterOperands
+opcua.NoOfFloats
+opcua.NoOfGuids
+NoOfHistoryUpdateDetails
+NoOfInputArgumentResults
+opcua.NoOfInputArguments
+opcua.NoOfInt16s
+opcua.NoOfInt32s
+opcua.NoOfInt64s
+opcua.NoOfItemsToCreate
+opcua.NoOfItemsToModify
+NoOfLastMethodInputArguments
+NoOfLastMethodOutputArguments
+opcua.NoOfLinksToAdd
+opcua.NoOfLinksToRemove
+opcua.NoOfLocaleIds
+opcua.NoOfLocalizedTexts
+opcua.NoOfMethodsToCall
+opcua.NoOfMonitoredItemIds
+opcua.NoOfMonitoredItems
+opcua.NoOfNodeIds
+opcua.NoOfNodeTypes
+opcua.NoOfNodesToAdd
+opcua.NoOfNodesToBrowse
+opcua.NoOfNodesToDelete
+opcua.NoOfNodesToRead
+opcua.NoOfNodesToRegister
+opcua.NoOfNodesToUnregister
+opcua.NoOfNodesToWrite
+opcua.NoOfNotificationData
+NoOfOperandDiagnosticInfos
+opcua.NoOfOperandStatusCodes
+opcua.NoOfOperationResults
+opcua.NoOfOutputArguments
+opcua.NoOfParsingResults
+opcua.NoOfProfileUris
+opcua.NoOfQualifiedNames
+opcua.NoOfQueryDataSets
+opcua.NoOfReferencedNodeIds
+opcua.NoOfReferences
+opcua.NoOfReferencesToAdd
+opcua.NoOfReferencesToDelete
+opcua.NoOfRegisteredNodeIds
+NoOfRemoveDiagnosticInfos
+opcua.NoOfRemoveResults
+opcua.NoOfReqTimes
+opcua.NoOfResults
+opcua.NoOfSBytes
+opcua.NoOfSelectClause
+opcua.NoOfSelectClauseResults
+opcua.NoOfSelectClauses
+opcua.NoOfServerEndpoints
+opcua.NoOfServerNames
+opcua.NoOfServerUris
+opcua.NoOfServers
+opcua.NoOfStatusCodes
+opcua.NoOfStringTable
+opcua.NoOfStrings
+opcua.NoOfSubscriptionIds
+opcua.NoOfSupportedProfiles
+opcua.NoOfTargets
+opcua.NoOfUInt16s
+opcua.NoOfUInt32s
+opcua.NoOfUInt64s
+opcua.NoOfUnsupportedUnitIds
+opcua.NoOfUserIdentityTokens
+opcua.NoOfValues
+opcua.NoOfVariants
+opcua.NoOfXmlElements
+opcua.NodeClassMask
+opcua.NotificationsCount
+opcua.NumValuesPerNode
+opcua.Offset
+opcua.OperandStatusCodes
+opcua.OperationResults
+opcua.OperationTimeout
+opcua.OrganizationUri
+opcua.Password
+opcua.PercentDataBad
+opcua.PercentDataGood
+opcua.PolicyId
+opcua.Priority
+opcua.ProcessingInterval
+opcua.ProductName
+opcua.ProductUri
+opcua.ProfileId
+opcua.ProfileUris
+opcua.PublishRequestCount
+opcua.PublishTime
+opcua.PublishingEnabled
+opcua.PublishingInterval
+opcua.PublishingIntervalCount
+opcua.QueueSize
+opcua.RejectedRequestsCount
+opcua.RejectedSessionCount
+ReleaseContinuationPoint
+ReleaseContinuationPoints
+opcua.RemainingPathIndex
+opcua.RemoveResults
+opcua.RepublishMessageCount
+RepublishMessageRequestCount
+opcua.RepublishRequestCount
+opcua.ReqTimes
+opcua.RequestHandle
+opcua.RequestedLifetime
+opcua.RequestedLifetimeCount
+RequestedMaxKeepAliveCount
+RequestedMaxReferencesPerNode
+RequestedPublishingInterval
+opcua.RequestedSessionTimeout
+opcua.ResampleInterval
+opcua.ResultMask
+opcua.Results
+RetransmitSequenceNumber
+opcua.ReturnBounds
+opcua.ReturnDiagnostics
+RevisedContinuationPoint
+opcua.RevisedLifetime
+opcua.RevisedLifetimeCount
+RevisedMaxKeepAliveCount
+RevisedProcessingInterval
+RevisedPublishingInterval
+opcua.RevisedQueueSize
+opcua.RevisedSamplingInterval
+opcua.RevisedSessionTimeout
+opcua.RevisedStartTime
+opcua.SByte
+opcua.SBytes
+opcua.SamplingInterval
+opcua.SecondsTillShutdown
+opcua.SecurityLevel
+opcua.SecurityPolicyUri
+SecurityRejectedRequestsCount
+SecurityRejectedSessionCount
+opcua.SecurityTokenLifetime
+opcua.SelectClauseResults
+opcua.SemaphoreFilePath
+opcua.SendInitialValues
+opcua.SequenceNumber
+opcua.ServerCertificate
+opcua.ServerId
+opcua.ServerNonce
+opcua.ServerProtocolVersion
+opcua.ServerUri
+opcua.ServerUris
+opcua.ServerViewCount
+opcua.ServiceLevel
+opcua.ServiceResult
+opcua.SessionAbortCount
+opcua.SessionName
+opcua.SessionTimeoutCount
+opcua.Signature
+opcua.SoftwareVersion
+opcua.SpecifiedAttributes
+opcua.StartTime
+opcua.Status
+opcua.StatusCode
+opcua.StatusCodes
+SteppedSlopedExtrapolation
+opcua.String
+opcua.StringTable
+opcua.Strings
+opcua.SubscriptionId
+opcua.SubscriptionIds
+opcua.Symmetric
+opcua.TargetServerUri
+opcua.TestId
+opcua.TimeoutHint
+opcua.Timestamp
+opcua.TokenData
+opcua.TokenId
+opcua.TotalCount
+opcua.TransferRequestCount
+TransferredToAltClientCount
+TransferredToSameClientCount
+opcua.TransportProfileUri
+opcua.TransportProtocol
+opcua.TreatUncertainAsBad
+opcua.TriggeringItemId
+opcua.UInt16
+opcua.UInt16s
+opcua.UInt32
+opcua.UInt32s
+opcua.UInt64
+opcua.UInt64s
+UnacknowledgedMessageCount
+UnauthorizedRequestCount
+opcua.UnitId
+opcua.UnsupportedUnitIds
+opcua.UseBinaryEncoding
+UseSeverCapabilitiesDefaults
+opcua.UserAccessLevel
+opcua.UserExecutable
+opcua.UserName
+opcua.UserWriteMask
+opcua.Value
+opcua.ValueRank
+opcua.VendorName
+VendorProductCertificate
+opcua.Verb
+opcua.ViewVersion
+opcua.WriteMask
+opcua.XmlElement
+opcua.XmlElements
+opcua.AvailableSequenceNumbers
+opcua.CumulatedSubscriptionCount
+opcua.CurrentMonitoredItemsCount
+opcua.CurrentPublishRequestsInQueue
+opcua.CurrentSubscriptionCount
+opcua.CurrentSubscriptionsCount
+opcua.DataChangeNotificationsCount
+opcua.DisabledMonitoredItemCount
+opcua.MaxNotificationsPerPublish
+opcua.MonitoringQueueOverflowCount
+opcua.NoOfAvailableSequenceNumbers
+NoOfClientSoftwareCertificates
+opcua.NoOfClientSoftwareCertificates
+opcua.NoOfElementDiagnosticInfos
+opcua.NoOfHistoryUpdateDetails
+NoOfInputArgumentDiagnosticInfos
+opcua.NoOfInputArgumentDiagnosticInfos
+opcua.NoOfInputArgumentResults
+opcua.NoOfLastMethodInputArguments
+opcua.NoOfLastMethodOutputArguments
+opcua.NoOfOperandDiagnosticInfos
+opcua.NoOfRemoveDiagnosticInfos
+NoOfSelectClauseDiagnosticInfos
+opcua.NoOfSelectClauseDiagnosticInfos
+NoOfServerSoftwareCertificates
+opcua.NoOfServerSoftwareCertificates
+NoOfSubscriptionAcknowledgements
+opcua.NoOfSubscriptionAcknowledgements
+opcua.ReleaseContinuationPoint
+opcua.ReleaseContinuationPoints
+opcua.RepublishMessageRequestCount
+opcua.RequestedMaxKeepAliveCount
+opcua.RequestedMaxReferencesPerNode
+opcua.RequestedPublishingInterval
+opcua.RetransmitSequenceNumber
+opcua.RevisedContinuationPoint
+opcua.RevisedMaxKeepAliveCount
+opcua.RevisedProcessingInterval
+opcua.RevisedPublishingInterval
+opcua.SecurityRejectedRequestsCount
+opcua.SecurityRejectedSessionCount
+opcua.SteppedSlopedExtrapolation
+opcua.TransferredToAltClientCount
+opcua.TransferredToSameClientCount
+opcua.UnacknowledgedMessageCount
+opcua.UnauthorizedRequestCount
+opcua.UseSeverCapabilitiesDefaults
+opcua.VendorProductCertificate
+opcua.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

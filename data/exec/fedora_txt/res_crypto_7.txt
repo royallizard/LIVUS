@@ -1,0 +1,278 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_cli_unregister_multiple
+__snprintf_chk
+write
+ast_hide_password
+memset
+read
+ast_restore_tty
+strlen
+__errno_location
+strerror
+ast_log
+ast_cli
+__ast_rwlock_rdlock
+__sprintf_chk
+__ast_rwlock_unlock
+strstr
+fopen64
+MD5Init
+feof
+fgets
+MD5Update
+MD5Final
+strcasecmp
+memcmp
+rewind
+PEM_read_RSAPrivateKey
+fclose
+RSA_size
+ast_verb_sys_level
+__ast_verbose
+option_debug
+ast_options
+calloc
+stderr
+ERR_print_errors_fp
+PEM_read_RSA_PUBKEY
+ast_debug_get_by_module
+__ast_rwlock_wrlock
+ast_config_AST_KEY_DIR
+opendir
+readdir64
+closedir
+RSA_free
+ast_key_get
+strcmp
+ast_sign_bin
+SHA1
+RSA_sign
+ast_decrypt_bin
+RSA_private_decrypt
+ast_encrypt_bin
+RSA_public_encrypt
+ast_sign
+ast_base64encode
+ast_check_signature_bin
+RSA_verify
+ast_check_signature
+ast_base64decode
+ast_crypto_loaded
+ast_aes_set_encrypt_key
+AES_set_encrypt_key
+ast_aes_set_decrypt_key
+AES_set_decrypt_key
+ast_aes_encrypt
+AES_encrypt
+ast_aes_decrypt
+AES_decrypt
+ast_module_register
+ast_module_unregister
+__ast_cli_register_multiple
+__ast_module_shutdown_ref
+libcrypto.so.1.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+OPENSSL_1_1_0
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2
+GLIBC_2.1
+GLIBC_2.0
+[^_]
+jxPj
+UWVS
+L$\1
+L$\e3
+l[^_]
+|$,W
+D$,P
+D$4P
+D$@P
+D$DP
+t$ j
+ 9<$u
+t$@hE
+t$0V
+nPWU
+[^_]
+VPUh
+[^_]
+D$,P
+D$4P
+D$<P
+D$HP
+t$$Q
+t$<hu
+UWVS
+D$81
+D$$P
+D$$P
+D$$P
+D$(P
+t$ h
+t$$j
+t$$h
+D$,e3
+<[^_]
+t$ h
+t$$j
+t$ h
+t$$j
+UWVS
+D$$P
+[^_]
+UWVS
+t$PP
+,[^_]
+UWVS
+l$41
+[^_]
+UWVS
+l$ 1
++D$ 
+L$@W
+L$$=
+[^_]
+UWVS
+[^_]
+UWVS
+t$PP
+,[^_]
+UWVS
+VPWU
+[^_]
+PRIVATE
+PUBLIC
+write() failed: %s
+res_crypto.c
+read() failed: %s
+[Needs Passcode]
+[Loaded]
+keys show
+Status
+Type
+Key Name
+%-18s %-8s %-16s %-33s
+------------------
+&(&keys)->lock
+%02hhx
+%d known RSA keys.
+.pub
+.key
+%s/%s
+Loaded %s key '%s'
+Key '%s' loaded OK
+res_crypto
+Key load %s '%s' failed
+Key '%s' needs passcode.
+keys init
+Deleting key %s type %d
+Key failed verification: %s
+Displays RSA key information
+Initialize RSA key passcodes
+>>>> passcode for %s key '%s': 
+Usage: keys show
+       Displays information about RSA keys known by Asterisk
+--------------------------------
+Unable to open key file %s: %s
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Key '%s' is not expected size.
+Add the '-i' flag to the asterisk command line if you want to automatically initialize passcodes at launch.
+Usage: keys init
+       Initializes private keys (by reading in pass code from
+       the user)
+Unable to open key directory '%s'
+Please run the command 'keys init' to enter the passcodes for the keys
+Cannot sign with a public key
+RSA Signature (key %s) failed
+Unexpected signature length %d, expecting %d
+Cannot decrypt with a public key
+Tried to decrypt something not a multiple of 128 bytes
+Cannot encrypt with a private key
+How odd, encrypted size is %d
+Cannot check message signature with a private key
+Signature improper length (expect %d, got %d)
+Cryptographic Digital Signatures
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+load_module
+crypto_load
+handle_cli_keys_show
+__ast_calloc
+pw_cb
+try_load_key
+handle_cli_keys_init
+ast_check_signature
+ast_check_signature_bin
+ast_encrypt_bin
+ast_decrypt_bin
+ast_sign_bin
+ast_key_get
+;*2$"$
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+res_crypto.so-15.5.0-1.fc29.i386.debug
+7zXZ
+hd.P
+X^_*l
+\>.K
+Z0S}
+Ny:.
+i>);
+%lu85q'
+2}dc
+-Gl.
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

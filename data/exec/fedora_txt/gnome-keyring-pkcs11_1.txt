@@ -1,0 +1,424 @@
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+close
+__assert_fail
+realloc
+__errno_location
+strerror
+read
+free
+pthread_mutex_lock
+pthread_mutex_unlock
+memcpy
+__strdup
+calloc
+strncpy
+socket
+fcntl
+connect
+__ctype_b_loc
+getpid
+getenv
+strlen
+malloc
+__sprintf_chk
+stderr
+__fprintf_chk
+C_GetFunctionList
+strcmp
+strncmp
+__snprintf_chk
+__vsnprintf_chk
+memmove
+memset
+memchr
+recvmsg
+getsockopt
+fwrite
+readlink
+__strndup
+libc.so.6
+__stack_chk_fail
+gnome-keyring-pkcs11.so
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+d$,1
+[^_]
+[^_]
+[^_]
+d$,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+t{;E
+tOf1
+[^_]
+d$<[^_]
+d$<[^_]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$4[]
+d$4[]
+d$$[]
+d$$[]
+d$4[]
+d$4[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+tM8U
+[^_]
+[^_]
+[^_]
+[^_]
+wy=0
+97~Y
+d$,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+d$,[^_]
+gkm-rpc-module.c
+cs->call_status == CALL_READY
+data
+len > 0
+couldn't send data: %s
+couldn't receive data: %s
+cs->req
+cs->call_status == CALL_PREP
+cs->socket != -1
+cs->resp == ((void *)0)
+cs->req == ((void *)0)
+cs->next == ((void *)0)
+cs->socket == -1
+mech
+socket
+unrecognized argument: %s
+n_call_state_pool > 0
+no socket to connect to
+couldn't open socket: %s
+couldn't secure socket: %s
+couldn't connect to: %s: %s
+slot
+'%s' not true at %s
+pkcs11_initialized
+size
+info
+session
+!reserved
+signature_len
+digest_len
+last_part_len
+operation_state_len
+enc_part_len
+encrypted_part_len
+encrypted_data_len
+new_object
+wrapped_key_len
+count
+can't do without os locking
+GNOME_KEYRING_CONTROL
+can't malloc memory
+%s/pkcs11
+list
+cannot allocate request buffer: out of memory
+memory allocation of %lu bytes failed
+couldn't send data: socket has been closed
+couldn't send data: daemon closed connection
+couldn't receive data: session socket has been closed
+couldn't receive data: daemon closed connection
+couldn't allocate request area: out of memory
+(!(cs->req)->sigverify || (cs->req)->sigverify[0] == 0)
+couldn't allocate response buffer: out of memory
+couldn't allocate %u byte response area: out of memory
+cs->call_status == CALL_TRANSIT
+invalid error response from gnome-keyring-daemon: too short
+invalid error response from gnome-keyring-daemon: bad error code
+invalid response from gnome-keyring-daemon: call mismatch
+!(((&(cs->resp)->buffer)->failures > 0))
+cs->call_status > CALL_INVALID
+invalid response from gnome-keyring-daemon: bad argument data
+(!(cs->resp)->sigverify || (cs->resp)->sigverify[0] == 0)
+!msg->signature || gkm_rpc_message_verify_part (msg, "ay")
+!msg->signature || gkm_rpc_message_verify_part (msg, "M")
+!msg->signature || gkm_rpc_message_verify_part (msg, "au")
+couldn't send socket credentials: %s
+finalizing the daemon returned an error: %d
+!msg->signature || gkm_rpc_message_verify_part (msg, "aA")
+received an attribute array with wrong number of attributes
+attribute length does not match attribute data
+returned attributes in invalid order
+couldn't allocate memory for argument string
+couldn't parse argument string: %s
+C_Initialize called twice for same process
+PRIVATE-GNOME-KEYRING-PKCS11-PROTOCOL-V-1
+invalid set of mutex calls supplied
+C_GetFunctionList
+rpc_C_WaitForSlotEvent
+call_lookup
+call_prepare
+call_run
+call_send_recv
+call_write
+call_disconnect
+call_read
+call_done
+call_destroy
+rpc_C_CancelFunction
+rpc_C_GetFunctionStatus
+rpc_C_GenerateRandom
+proto_read_byte_array
+rpc_C_SeedRandom
+rpc_C_DeriveKey
+proto_write_mechanism
+rpc_C_UnwrapKey
+rpc_C_WrapKey
+rpc_C_GenerateKeyPair
+rpc_C_GenerateKey
+rpc_C_DecryptVerifyUpdate
+rpc_C_SignEncryptUpdate
+rpc_C_DecryptDigestUpdate
+rpc_C_DigestEncryptUpdate
+rpc_C_VerifyRecover
+rpc_C_VerifyRecoverInit
+rpc_C_VerifyFinal
+rpc_C_VerifyUpdate
+rpc_C_Verify
+rpc_C_VerifyInit
+rpc_C_SignRecover
+rpc_C_SignRecoverInit
+rpc_C_SignFinal
+rpc_C_SignUpdate
+rpc_C_Sign
+rpc_C_SignInit
+rpc_C_DigestFinal
+rpc_C_DigestKey
+rpc_C_DigestUpdate
+rpc_C_Digest
+rpc_C_DigestInit
+rpc_C_DecryptFinal
+rpc_C_DecryptUpdate
+rpc_C_Decrypt
+rpc_C_DecryptInit
+rpc_C_EncryptFinal
+rpc_C_EncryptUpdate
+rpc_C_Encrypt
+rpc_C_EncryptInit
+rpc_C_FindObjectsFinal
+rpc_C_FindObjects
+proto_read_ulong_array
+rpc_C_FindObjectsInit
+rpc_C_SetAttributeValue
+rpc_C_GetAttributeValue
+proto_read_attribute_array
+rpc_C_GetObjectSize
+rpc_C_DestroyObject
+rpc_C_CopyObject
+rpc_C_CreateObject
+rpc_C_Logout
+rpc_C_Login
+rpc_C_SetOperationState
+rpc_C_GetOperationState
+rpc_C_GetSessionInfo
+proto_read_sesssion_info
+rpc_C_CloseAllSessions
+rpc_C_CloseSession
+rpc_C_OpenSession
+rpc_C_SetPIN
+rpc_C_InitPIN
+rpc_C_InitToken
+rpc_C_GetMechanismInfo
+proto_read_mechanism_info
+rpc_C_GetMechanismList
+rpc_C_GetTokenInfo
+proto_read_token_info
+rpc_C_GetSlotInfo
+proto_read_slot_info
+rpc_C_GetSlotList
+rpc_C_GetInfo
+proto_read_info
+rpc_C_Finalize
+gkm-rpc-message.c
+msg->buffer.allocator
+type
+call_id >= GKM_RPC_CALL_ERROR
+call_id < GKM_RPC_CALL_MAX
+0 && "invalid message type"
+msg->signature
+m1 && m2
+!num || arr
+version
+buffer
+length
+string
+C_Initialize
+C_Finalize
+C_GetInfo
+vsusv
+C_GetSlotList
+C_GetSlotInfo
+ssuvv
+C_GetTokenInfo
+ssssuuuuuuuuuuuvvs
+C_GetMechanismList
+C_GetMechanismInfo
+C_InitToken
+uayz
+C_WaitForSlotEvent
+C_OpenSession
+C_CloseSession
+C_CloseAllSessions
+C_GetFunctionStatus
+C_CancelFunction
+C_GetSessionInfo
+uuuu
+C_InitPIN
+C_SetPIN
+uayay
+C_GetOperationState
+C_SetOperationState
+uayuu
+C_Login
+uuay
+C_Logout
+C_CreateObject
+C_CopyObject
+uuaA
+C_DestroyObject
+C_GetObjectSize
+C_GetAttributeValue
+uufA
+C_SetAttributeValue
+C_FindObjectsInit
+C_FindObjects
+C_FindObjectsFinal
+C_EncryptInit
+C_Encrypt
+uayfy
+C_EncryptUpdate
+C_EncryptFinal
+C_DecryptInit
+C_Decrypt
+C_DecryptUpdate
+C_DecryptFinal
+C_DigestInit
+C_Digest
+C_DigestUpdate
+C_DigestKey
+C_DigestFinal
+C_SignInit
+C_Sign
+C_SignUpdate
+C_SignFinal
+C_SignRecoverInit
+C_SignRecover
+C_VerifyInit
+C_Verify
+C_VerifyUpdate
+C_VerifyFinal
+C_VerifyRecoverInit
+C_VerifyRecover
+C_DigestEncryptUpdate
+C_DecryptDigestUpdate
+C_SignEncryptUpdate
+C_DecryptVerifyUpdate
+C_GenerateKey
+uMaA
+C_GenerateKeyPair
+uMaAaA
+C_WrapKey
+uMuufy
+C_UnwrapKey
+uMuayaA
+C_DeriveKey
+uMuaA
+C_SeedRandom
+C_GenerateRandom
+invalid message: couldn't read call identifier
+invalid message: error code in request
+invalid message: bad call id: %d
+invalid message: couldn't read signature
+invalid message: signature doesn't match
+!msg->signature || gkm_rpc_message_verify_part (msg, "fA")
+!msg->signature || gkm_rpc_message_verify_part (msg, "y")
+!msg->signature || gkm_rpc_message_verify_part (msg, "u")
+!msg->signature || gkm_rpc_message_verify_part (msg, "fy")
+!msg->signature || gkm_rpc_message_verify_part (msg, "fu")
+!msg->signature || gkm_rpc_message_verify_part (msg, "v")
+!msg->signature || gkm_rpc_message_verify_part (msg, "s")
+invalid length space padded string received: %d != %d
+!msg->signature || gkm_rpc_message_verify_part (msg, "z")
+gkm_rpc_message_write_zero_string
+gkm_rpc_message_write_space_string
+gkm_rpc_message_read_space_string
+gkm_rpc_message_write_version
+gkm_rpc_message_read_version
+gkm_rpc_message_write_ulong_array
+gkm_rpc_message_write_ulong_buffer
+gkm_rpc_message_write_byte_array
+gkm_rpc_message_write_byte_buffer
+gkm_rpc_message_write_ulong
+gkm_rpc_message_read_ulong
+gkm_rpc_message_write_byte
+gkm_rpc_message_read_byte
+gkm_rpc_message_write_attribute_array
+gkm_rpc_message_write_attribute_buffer
+gkm_rpc_message_equals
+gkm_rpc_message_parse
+gkm_rpc_message_prep
+gkm_rpc_message_reset
+gkm_rpc_message_free
+gkm_rpc_message_new
+%s: 
+WARNING
+DEBUG
+gkm-rpc-util.c
+n_mechs
+gkm_rpc_mechanism_list_purge
+credentials byte was not nul
+/proc/%d/exe
+readlink failed for file: %s
+failed to getsockopt() credentials, returned len %d/%d
+gnome-keyring-pkcs11.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

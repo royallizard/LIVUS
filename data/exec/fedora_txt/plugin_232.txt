@@ -1,0 +1,477 @@
+(!"`
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_get_as_float
+value_new_error_NUM
+value_new_int
+g_return_if_fail_warning
+value_new_error_VALUE
+value_peek_string
+g_ascii_table
+strlen
+strtol
+workbook_date_conv
+format_match_number
+value_release
+go_fake_trunc
+g_ascii_formatd
+g_string_sized_new
+g_string_set_size
+fmod
+floor
+g_string_free
+value_new_string_nocopy
+__stack_chk_fail
+float_range_function
+erfc
+value_new_float
+strcmp
+value_new_error_NA
+bessel_k
+bessel_i
+go_plugin_depends
+go_plugin_header
+engineering_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.4
+GLIBC_2.2.5
+%z[ 
+%r[ 
+%j[ 
+%b[ 
+%Z[ 
+%R[ 
+%J[ 
+%B[ 
+%:[ 
+%2[ 
+%*[ 
+%"[ 
+ATSubH
+=gF 
+fffff.
+L$HH
+D$Pf
+.D$h
+L$hf
+.L$H
+D$hH
+*D$\
+D$pHc
+D$pH)
+L$xf
+L$pf
+^D$p
+,T$ Hc
+*D$\
+*D$\
+fffff.
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ffffff.
+L$8L
+D$0H
+z#u!H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+L$(L
+D$ L
+D$8f
+T$ f
+YL$0
+YL$(f
+8FuA
+=VE 
+l$ L
+d$(L
+l$0H
+5x? 
+=qC 
+5#? 
+=|B 
+=BA 
+5o> 
+=h@ 
+5B> 
+ffffff.
+ffffff.
+%.0f
+goffice
+gnumeric
+1.8.2
+Sf|f
+text,base,length
+besseli
+xnum,ynum
+besselj
+besselk
+bessely
+bin2dec
+number
+bin2hex
+bin2oct
+convert
+number,from_unit,to_unit
+dec2bin
+dec2oct
+dec2hex
+decimal
+text,base
+delta
+lower,upper
+erfc
+gestep
+hex2bin
+hex2dec
+hex2oct
+invsuminv
+oct2bin
+oct2dec
+oct2hex
+mmHg
+Pica
+src_base > 1 && src_base <= 36
+dest_base > 1 && dest_base <= 36
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+@FUNCTION=BASE
+@SYNTAX=BASE(number,base[,length])
+@DESCRIPTION=BASE function converts a number to a string representing that number in base @base.
+* @base must be an integer between 2 and 36.
+* This function is OpenOffice.Org compatible.
+* Optional argument @length specifies the minimum result length.  Leading  zeroes will be added to reach this length.
+@EXAMPLES=
+BASE(255,16,4) equals "00FF".
+@SEEALSO=DECIMAL
+@FUNCTION=BESSELI
+@SYNTAX=BESSELI(x,y)
+@DESCRIPTION=BESSELI function returns the Neumann, Weber or Bessel function.
+@x is where the function is evaluated. @y is the order of the Bessel function, if non-integer it is truncated.
+* If @x or @y are not numeric a #VALUE! error is returned.
+* If @y < 0 a #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BESSELI(0.7,3) equals 0.007367374.
+@SEEALSO=BESSELJ,BESSELK,BESSELY
+@FUNCTION=BESSELJ
+@SYNTAX=BESSELJ(x,y)
+@DESCRIPTION=BESSELJ function returns the Bessel function with @x is where the function is evaluated. @y is the order of the Bessel function, if non-integer it is truncated.
+* If @x or @y are not numeric a #VALUE! error is returned.
+* If @y < 0 a #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BESSELJ(0.89,3) equals 0.013974004.
+@SEEALSO=BESSELI,BESSELK,BESSELY
+@FUNCTION=BESSELK
+@SYNTAX=BESSELK(x,y)
+@DESCRIPTION=BESSELK function returns the Neumann, Weber or Bessel function. @x is where the function is evaluated. @y is the order of the Bessel function, if non-integer it is truncated.
+* If @x or @y are not numeric a #VALUE! error is returned.
+* If @y < 0 a #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BESSELK(3,9) equals 397.95880.
+@SEEALSO=BESSELI,BESSELJ,BESSELY
+@FUNCTION=BESSELY
+@SYNTAX=BESSELY(x,y)
+@DESCRIPTION=BESSELY function returns the Neumann, Weber or Bessel function.
+@x is where the function is evaluated. @y is the order of the Bessel function, if non-integer it is truncated.
+* If @x or @y are not numeric a #VALUE! error is returned.
+* If @y < 0 a #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BESSELY(4,2) equals 0.215903595.
+@SEEALSO=BESSELI,BESSELJ,BESSELK
+@FUNCTION=BIN2DEC
+@SYNTAX=BIN2DEC(x)
+@DESCRIPTION=BIN2DEC function converts a binary number in string or number to its decimal equivalent.
+* This function is Excel compatible.
+@EXAMPLES=
+BIN2DEC(101) equals 5.
+@SEEALSO=DEC2BIN, BIN2OCT, BIN2HEX
+@FUNCTION=BIN2HEX
+@SYNTAX=BIN2HEX(number[,places])
+@DESCRIPTION=BIN2HEX function converts a binary number to a hexadecimal number.  @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BIN2HEX(100111) equals 27.
+@SEEALSO=HEX2BIN, BIN2OCT, BIN2DEC
+@FUNCTION=BIN2OCT
+@SYNTAX=BIN2OCT(number[,places])
+@DESCRIPTION=BIN2OCT function converts a binary number to an octal number. @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+BIN2OCT(110111) equals 67.
+@SEEALSO=OCT2BIN, BIN2DEC, BIN2HEX
+@FUNCTION=CONVERT
+@SYNTAX=CONVERT(number,from_unit,to_unit)
+@DESCRIPTION=CONVERT returns a conversion from one measurement system to another.  For example, you can convert a weight in pounds to a weight in grams.  @number is the value you want to convert, @from_unit specifies the unit of the @number, and @to_unit is the unit for the result.
+@from_unit and @to_unit can be any of the following:
+Weight and mass:
+	'g'  		Gram
+	'sg' 		Slug
+	'lbm'		Pound
+	'u'  		U (atomic mass)
+	'ozm'		Ounce
+Distance:
+	'm'   		Meter
+	'mi'  		Statute mile
+	'Nmi' 		Nautical mile
+	'in'  		Inch
+	'ft'  		Foot
+	'yd'  		Yard
+	'ang' 		Angstrom
+	'Pica'		Pica
+Time:
+	'yr'  		Year
+	'day' 		Day
+	'hr'  		Hour
+	'mn'  		Minute
+	'sec' 		Second
+Pressure:
+	'Pa'  		Pascal
+	'atm' 		Atmosphere
+	'mmHg'	mm of Mercury
+Force:
+	'N'   		Newton
+	'dyn' 		Dyne
+	'lbf' 		Pound force
+Energy:
+	'J'    		Joule
+	'e'    		Erg
+	'c'    		Thermodynamic calorie
+	'cal'  		IT calorie
+	'eV'   	Electron volt
+	'HPh'  	Horsepower-hour
+	'Wh'   	Watt-hour
+	'flb'  		Foot-pound
+	'BTU'  	BTU
+Power:
+	'HP'   	Horsepower
+	'W'    	Watt
+Magnetism:
+	'T'    		Tesla
+	'ga'   	Gauss
+Temperature:
+	'C'    		Degree Celsius
+	'F'    		Degree Fahrenheit
+	'K'    		Degree Kelvin
+Liquid measure:
+	'tsp'  		Teaspoon
+	'tbs'  		Tablespoon
+	'oz'   		Fluid ounce
+	'cup'  	Cup
+	'pt'   		Pint
+	'qt'   		Quart
+	'gal'  		Gallon
+	'l'    		Liter
+For metric units any of the following prefixes can be used:
+	'Y'  	yotta 	1E+24
+	'Z'  	zetta 	1E+21
+	'E'  	exa   	1E+18
+	'P'  	peta  	1E+15
+	'T'  	tera  		1E+12
+	'G'  	giga  	1E+09
+	'M'  	mega  	1E+06
+	'k'  	kilo  		1E+03
+	'h'  	hecto 	1E+02
+	'e'  	deka  	1E+01
+	'd'  	deci  	1E-01
+	'c'  	centi 		1E-02
+	'm'  	milli 		1E-03
+	'u'  	micro 	1E-06
+	'n'  	nano  	1E-09
+	'p'  	pico  	1E-12
+	'f'  	femto 	1E-15
+	'a'  	atto  		1E-18
+	'z'  	zepto 		1E-21
+	'y'  	yocto 		1E-24
+* If @from_unit and @to_unit are different types, CONVERT returns #N/A error.
+* This function is Excel compatible.
+@EXAMPLES=
+CONVERT(3,"lbm","g") equals 1360.7769.
+CONVERT(5.8,"m","in") equals 228.3465.
+CONVERT(7.9,"cal","J") equals 33.07567.
+@SEEALSO=
+@FUNCTION=DEC2BIN
+@SYNTAX=DEC2BIN(number[,places])
+@DESCRIPTION=DEC2BIN function converts a decimal number to a binary number. @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+DEC2BIN(42) equals 101010.
+@SEEALSO=BIN2DEC, DEC2OCT, DEC2HEX
+@FUNCTION=DEC2OCT
+@SYNTAX=DEC2OCT(number[,places])
+@DESCRIPTION=DEC2OCT function converts a decimal number to an octal number. @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+DEC2OCT(42) equals 52.
+@SEEALSO=OCT2DEC, DEC2BIN, DEC2HEX
+@FUNCTION=DEC2HEX
+@SYNTAX=DEC2HEX(number[,places])
+@DESCRIPTION=DEC2HEX function converts a decimal number to a hexadecimal number. @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+DEC2HEX(42) equals 2A.
+@SEEALSO=HEX2DEC, DEC2BIN, DEC2OCT
+@FUNCTION=DECIMAL
+@SYNTAX=DECIMAL(text,base)
+@DESCRIPTION=DECIMAL function converts a number in base @base to decimal.
+* @base must be an integer between 2 and 36.
+* This function is OpenOffice.Org compatible.
+@EXAMPLES=
+DECIMAL("A1",16) equals 161.
+@SEEALSO=BASE
+@FUNCTION=DELTA
+@SYNTAX=DELTA(x[,y])
+@DESCRIPTION=DELTA function tests for numerical equivalence of two arguments, returning 1 in case of equality.
+* @y is optional, and defaults to 0.
+* If either argument is non-numeric returns a #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+DELTA(42.99,43) equals 0.
+@SEEALSO=EXACT,GESTEP
+@FUNCTION=ERF
+@SYNTAX=ERF([lower limit,]upper_limit)
+@DESCRIPTION=ERF returns the error function.  With a single argument ERF returns the error function, defined as
+	erf(x) = 2/sqrt(pi)* integral from 0 to x of exp(-t*t) dt.
+If two arguments are supplied, they are the lower and upper limits of the integral.
+* If either @lower_limit or @upper_limit is not numeric a #VALUE! error is returned.
+* This function is upward-compatible with that in Excel. (If two arguments are supplied, Excel will not allow either to be negative.)
+@EXAMPLES=
+ERF(0.4) equals 0.428392355.
+ERF(1.6448536269515/SQRT(2)) equals 0.90.
+The second example shows that a random variable with a normal distribution has a 90 percent chance of falling within approximately 1.645 standard deviations of the mean.
+@SEEALSO=ERFC
+@FUNCTION=ERFC
+@SYNTAX=ERFC(x)
+@DESCRIPTION=ERFC function returns the complementary error function, defined as
+	1 - erf(x).
+erfc(x) is calculated more accurately than 1 - erf(x) for arguments larger than about 0.5.
+* If @x is not numeric a #VALUE! error is returned.  
+@EXAMPLES=
+ERFC(6) equals 2.15197367e-17.
+@SEEALSO=ERF
+@FUNCTION=GESTEP
+@SYNTAX=GESTEP(x[,y])
+@DESCRIPTION=GESTEP function tests if @x is >= @y, returning 1 if it is so, and 0 otherwise. @y is optional, and defaults to 0.
+* If either argument is non-numeric returns a #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+GESTEP(5,4) equals 1.
+@SEEALSO=DELTA
+@FUNCTION=HEX2BIN
+@SYNTAX=HEX2BIN(number[,places])
+@DESCRIPTION=HEX2BIN function converts a hexadecimal number to a binary number.  @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+HEX2BIN("2A") equals 101010.
+@SEEALSO=BIN2HEX, HEX2OCT, HEX2DEC
+@FUNCTION=HEX2DEC
+@SYNTAX=HEX2DEC(x)
+@DESCRIPTION=HEX2DEC function converts a hexadecimal number to its decimal equivalent.
+* This function is Excel compatible.
+@EXAMPLES=
+HEX2DEC("2A") equals 42.
+@SEEALSO=DEC2HEX, HEX2BIN, HEX2OCT
+@FUNCTION=HEX2OCT
+@SYNTAX=HEX2OCT(number[,places])
+@DESCRIPTION=HEX2OCT function converts a hexadecimal number to an octal number.  @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+HEX2OCT("2A") equals 52.
+@SEEALSO=OCT2HEX, HEX2BIN, HEX2DEC
+@FUNCTION=INVSUMINV
+@SYNTAX=INVSUMINV(x1,x2,...)
+@DESCRIPTION=INVSUMINV sum calculates the inverse of the sum of inverses.
+The primary use of this is for calculating equivalent resistance for parallel resistors or equivalent capacitance of a series of capacitors.
+* All arguments must be non-negative, or else a #VALUE! result is returned.
+* If any argument is zero, the result is zero.
+@EXAMPLES=
+INVSUMINV(2000,2000) equals 1000.
+@SEEALSO=HARMEAN
+@FUNCTION=OCT2BIN
+@SYNTAX=OCT2BIN(number[,places])
+@DESCRIPTION=OCT2BIN function converts an octal number to a binary number.  @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+OCT2BIN("213") equals 10001011.
+@SEEALSO=BIN2OCT, OCT2DEC, OCT2HEX
+@FUNCTION=OCT2DEC
+@SYNTAX=OCT2DEC(x)
+@DESCRIPTION=OCT2DEC function converts an octal number in a string or number to its decimal equivalent.
+* This function is Excel compatible.
+@EXAMPLES=
+OCT2DEC("124") equals 84.
+@SEEALSO=DEC2OCT, OCT2BIN, OCT2HEX
+@FUNCTION=OCT2HEX
+@SYNTAX=OCT2HEX(number[,places])
+@DESCRIPTION=OCT2HEX function converts an octal number to a hexadecimal number.  @places is an optional field, specifying to zero pad to that number of spaces.
+* If @places is too small or negative #NUM! error is returned.
+* This function is Excel compatible.
+@EXAMPLES=
+OCT2HEX(132) equals 5A.
+@SEEALSO=HEX2OCT, OCT2BIN, OCT2DEC
+munG
+val_to_base
+@@fffff
+.A98
+MbP?"9
+]r2<-9
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUUu?99
+UUUUUUU?I9
+/y1t?
+cAI8
+xV42?U9
+7@Y9
+v@z9
+yp\D?
+b?"9
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,507 @@
+/lib64/ld-linux-x86-64.so.2
+libaudit.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+audit_open
+audit_log_acct_message
+audit_log_user_message
+libselinux.so.1
+is_selinux_enabled
+security_getenforce
+matchpathcon
+freecon
+setfscreatecon
+selinux_check_passwd_access
+libc.so.6
+chroot
+fflush
+strcpy
+fchmod
+__printf_chk
+exit
+_IO_putc
+setlocale
+fopen
+strncmp
+optind
+strrchr
+__strdup
+setregid
+perror
+dcgettext
+strncpy
+fork
+setreuid
+__stack_chk_fail
+__lxstat
+unlink
+putspent
+realloc
+fsync
+abort
+stdin
+strtoll
+getpid
+kill
+strftime
+__assert_fail
+gmtime
+strtol
+feof
+fgets
+strlen
+openlog
+memset
+__errno_location
+fseek
+read
+__syslog_chk
+__fprintf_chk
+fchown
+stdout
+fputc
+fputs
+memcpy
+fclose
+malloc
+umask
+realpath
+__fgets_chk
+__strncpy_chk
+getgid
+__ctype_b_loc
+__open_2
+optarg
+stderr
+__snprintf_chk
+getuid
+execve
+getopt_long
+__fxstat
+fileno
+rename
+geteuid
+__memcpy_chk
+waitpid
+sgetspent
+localtime
+strchr
+utime
+mktime
+fdopen
+qsort
+__ctype_tolower_loc
+__cxa_finalize
+fcntl
+__xstat
+bindtextdomain
+_IO_getc
+ulckpwdf
+strcmp
+strerror
+__libc_start_main
+ferror
+write
+closelog
+snprintf
+putpwent
+free
+__environ
+_edata
+__bss_start
+_end
+__libc_csu_fini
+gd_char
+gd_lval
+Prog
+gd_nerrs
+__libc_csu_init
+audit_fd
+GLIBC_2.14
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.2.5
+AWAVAUATU
+D$HH
+\$@H
+D$`H
+D$XH
+D$PH
+D$hH
+D$pH
+\$@1
+D$HH
+fffff.
+D$h1
+D$hdH3
+4$E1
+ffffff.
+AWAVAUI
+ATUSH
+H;\$
+([]A\A]A^A_
+H9\$
+([]A\A]A^A_
+[]A\A]A^A_
+AWAVAUI
+[]A\A]A^A_
+AUATUSL
+[]A\A]A^
+AWAVAUA
+ATUSH
+[]A\A]A^A_
+[]A\
+]A\H
+AVAUATE1
+|$PH
+|$ H
+|$8K
+T$(M
+t$0H
+L;l$ t
+\$(H
+t$0M
+L;l$ t
+[]A\A]A^A_
+D$@H
+.u'L;D$8s
+T$@I
+t$@H
+|$LtAH
+|$Lpu
+H+T$
+|$Ldu(
+H+T$
+t$@H
+$tvH
+AWAVAUATUSH
+|$(H
+T$HD
+|$0D
+T$LA
+d$8D
+l$4D
+T$XH
+T$`H
+x[]A\A]A^A_
++L$H
+[]A\A]A^A_
+t$0D
+l$4D
+l$@D
+T$LH
+T$XH
+\$<H
+|$(H
+D$DD
+L$LD+N
+D$8+F
+D$4+F
+T$0+
+T$(H
+x[]A\A]A^A_
+ATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+d$ H
+fff.
+fff.
+=yg 
+ffffff.
+=9g 
+=)g 
+C t%H
+D$ H
+D$(H
+D$0H
+fff.
+fff.
+=fh 
+=Ih 
+=9h 
+='h 
+fff.
+fffff.
+[]A\
+t$ H
+fff.
+fff.
+|$@H
+|$@1
+D$@H
+D$@H
+D$@H
+LcL$
+P(I9
+l$ L
+t$(L
+|$0H
+AWAVI
+AUATUH
+[]A\A]A^A_
+AVAUATUSH
+[]A\A]A^A_
+ffffff.
+\$ 1
+ffffff.
+t$ H
+ffff.
+l$ L
+d$(L
+l$0H
+d$ H
+d$ H
+d$ H
+D$ H
+|$0H
+t$ H
+D$(H
+\$HH
+l$PL
+d$XL
+l$`H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+time_t: %lu
+%b %d, %Y
+%s: failed to unlock %s
+failed to unlock %s
+change age
+/usr/share/locale
+shadow
+chage
+%s: invalid date '%s'
+d:E:hI:lm:M:R:W:
+%s: Permission denied.
+%s: cannot open %s
+cannot open %s
+display aging info
+Last password change					: 
+never
+password must be changed
+Password expires					: 
+Password inactive					: 
+Account expires						: 
+Minimum Password Age
+Maximum Password Age
+%Y-%m-%d
+Password Expiration Warning
+Password Inactive
+change max age
+change min age
+change last change date
+change passwd warning
+change inactive days
+change passwd expiration
+%s: error changing fields
+change all aging information
+lastday
+expiredate
+help
+inactive
+list
+mindays
+maxdays
+warndays
+Usage: %s [options] LOGIN
+Options:
+  -d, --lastday LAST_DAY        set date of last password change to LAST_DAY
+  -E, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -h, --help                    display this help message and exit
+  -I, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -l, --list                    show account aging information
+  -m, --mindays MIN_DAYS        set minimum number of days before password
+                                change to MIN_DAYS
+  -M, --maxdays MAX_DAYS        set maximim number of days before password
+                                change to MAX_DAYS
+  -R, --root CHROOT_DIR         directory to chroot into
+  -W, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS
+%s: invalid numeric argument '%s'
+%s: do not include "l" with other flags
+%s: the shadow password file is not present
+can't find the shadow password file
+%s: cannot lock %s; try again later.
+%s: failed to drop privileges (%s)
+%s: user '%s' does not exist in %s
+Minimum number of days between password change		: %ld
+Maximum number of days between password change		: %ld
+Number of days of warning before password expires	: %ld
+Changing the aging information for %s
+Enter the new value, or press ENTER for the default
+Last Password Change (YYYY-MM-DD)
+Account Expiration Date (YYYY-MM-DD)
+%s: failed to prepare the new %s entry '%s'
+%s: failure while writing changes to %s
+failure while writing changes to %s
+changed password expiry for %s
+Cannot open audit interface - aborting.
+%s=%s
+env.c
+wlen == (int) len -1
+Environment overflow
+wlen < (int) sizeof(variable)
+You may not change $%s
+_RLD_=
+BASH_ENV=
+HOME=
+IFS=
+KRB_CONF=
+LIBPATH=
+MAIL=
+NLSPATH=
+SHELL=
+SHLIB_PATH=
+LANG=
+LANGUAGE=
+addenv
+set_env
+--root
+%s: multiple --root options
+%s: invalid chroot path '%s'
+%s: option '%s' requires an argument
+%s: cannot access chroot directory %s: %s
+%s: unable to chroot to directory %s: %s
+%s: failed to allocate memory: %s
+january
+year
+tomorrow
+a.m.
+p.m.
+february
+march
+april
+june
+july
+august
+september
+sept
+october
+november
+december
+sunday
+monday
+tuesday
+tues
+wednesday
+wednes
+thursday
+thur
+thurs
+friday
+saturday
+ahst
+idlw
+mewt
+mest
+mesz
+wast
+wadt
+east
+eadt
+nzst
+nzdt
+idle
+month
+fortnight
+week
+hour
+minute
+second
+yesterday
+today
+last
+this
+next
+first
+third
+fourth
+fifth
+sixth
+seventh
+eighth
+ninth
+tenth
+eleventh
+twelfth
+ +,!-"#$%&'0(1)
+&),#/ 
+7	%s [%s]: 
+passwd
+group
+%s.%lu
+%s.lock
+%s: %s: %s
+%s: cannot get lock %s: %s
+commonio.c
+((void *)0) != eptr
+realpath in lrename()
+%s: %s: lock file already used
+%s: existing lock file %s without a PID
+%s: existing lock file %s with an invalid PID '%s'
+%s: lock %s already used by PID %lu
+Multiple entries named '%s' in %s. Please fix this with pwck or grpck.
+write_all
+/usr/sbin/nscd
+%s: Failed to flush the nscd cache.
+%s: nscd did not terminate normally (signal %d)
+%s: nscd exited with status %d
+%s: cannot execute %s: %s
+;*3$"
+/etc/passwd
+/etc/shadow
+chage.debug
+7zXZ
+	3?c
+I2%a
+ysW`EF/
+jby\
+=y'}b=g
+fwNc
+$M-,$
+^i>]i
+aP#,
+P|&)
+#l'|I`
+v)!;
+>})t)Z
+C>WT
+Rxsq
+b,w6
+~Ta]
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

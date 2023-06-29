@@ -1,0 +1,357 @@
+;@x!
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_rtclock_get
+pa_log_level_meta
+pa_hashmap_remove_and_free
+pa_rtclock_now
+pa_core_rttime_restart
+abort
+__stack_chk_fail
+pa_rtpoll_item_get_userdata
+pa_rtpoll_item_get_pollfd
+pa_rtp_recv
+pa_memblockq_seek
+pa_once_begin
+pa_memblockq_push
+pa_memblock_unref
+pa_timeval_load
+pa_memblockq_get_write_index
+pa_bytes_to_usec
+pa_memblockq_get_read_index
+pa_sink_get_latency_within_thread
+pa_memblockq_get_length
+pa_sample_spec_valid
+pa_resampler_set_input_rate
+pa_memblockq_is_readable
+pa_sink_input_request_rewind
+pa_rtclock_from_wallclock
+pa_once_end
+pa_sink_input_type_id
+pa_sink_input_process_msg
+pa_sink_input_unlink
+pa_object_unref
+pa_memblockq_free
+pa_sdp_info_destroy
+pa_rtp_context_destroy
+pa_xfree
+pa_object_type_id
+pa_socket_cloexec
+pa_make_udp_socket_low_delay
+setsockopt
+bind
+__errno_location
+pa_cstrerror
+pa_sap_recv
+pa_sdp_parse
+pa_hashmap_get
+pa_namereg_get
+pa_xmalloc0
+pa_sink_input_new_data_init
+pa_sink_input_new_data_set_sink
+pa_proplist_sets
+pa_proplist_setf
+pa_sink_input_new_data_set_sample_spec
+pa_sink_input_new
+pa_sink_input_new_data_done
+pa_sink_input_get_silence
+pa_sink_input_set_requested_latency
+pa_usec_to_bytes
+pa_memblockq_new
+pa_frame_size
+pa_rtp_context_init_recv
+pa_hashmap_put
+pa_sink_input_put
+pa_close
+pa_rtpoll_item_new
+pa_rtpoll_item_set_work_callback
+pa_rtpoll_item_set_userdata
+pa_memblockq_flush_read
+pa_memblockq_set_maxrewind
+pa_memblockq_rewind
+pa_rtpoll_item_free
+pa_memblockq_peek
+pa_memblockq_drop
+module_rtp_recv_LTX_pa__get_author
+module_rtp_recv_LTX_pa__get_description
+module_rtp_recv_LTX_pa__get_version
+module_rtp_recv_LTX_pa__load_once
+module_rtp_recv_LTX_pa__get_usage
+module_rtp_recv_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+inet_pton
+pa_modargs_get_value_u32
+pa_modargs_free
+pa_xmalloc
+pa_xstrdup
+pa_sap_context_init_recv
+pa_idxset_string_compare_func
+pa_idxset_string_hash_func
+pa_hashmap_new_full
+pa_core_rttime_new
+module_rtp_recv_LTX_pa__done
+pa_sap_context_destroy
+pa_hashmap_free
+librtp.so
+libpulsecore-11.1.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-11.1.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+module-rtp-recv.so
+PULSE_0
+GLIBC_2.2.5
+GLIBC_2.4
+/usr/lib64/pulseaudio:/usr/lib64/pulse-11.1/modules
+%zL 
+%rL 
+%jL 
+%bL 
+%ZL 
+%RL 
+%JL 
+%BL 
+%:L 
+%2L 
+%*L 
+%"L 
+%zK 
+%rK 
+%jK 
+%bK 
+%ZK 
+%RK 
+%JK 
+%BK 
+%:K 
+%2K 
+%*K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+=IJ 
+u+UH
+ATUSH
+T$@H
+ []A\
+AWAVAUATUH
+D$81
+L$8dH3
+H[]A\A]A^A_
+d$ fD
+=vF 
+D$01
+t$|I
+t$01
+=[? 
+Y^E9
+wIE9
+AWAVM
+=l> 
+[]A\A]A^A_
+H9Z@
+=a< 
+AVAUATUSH
+D$(1
+L$(dH3
+0[]A\A]A^
+AWAVAUATUSH
+t$@H
+{Hue
+D$ A
+[]A\A]A^A_
+oL$@L
+oT$Pf
+o\$`I
+od$pf
+D$HL
+T$HH
+T$@H
+l$ L
+|$ I
+t$8L
+=*/ 
+=	. 
+AUATUSH
+D$H1
+L$HdH3
+X[]A\A]
+D$XH
+d$ L
+modules/rtp/module-rtp-recv.c
+Checking for dead streams ...
+poll() signalled bad revents.
+Detected RTP packet loop!
+Queue overrun
+Updating sample rate
+wi=%lu ri=%lu
+pa_sink_input_isinstance(o)
+./pulsecore/sink-input.h
+Freeing session '%s'
+./pulsecore/object.h
+*_head == _item
+s->userdata->n_sessions >= 1
+salen > 0
+Failed to create socket: %s
+SO_TIMESTAMP failed: %s
+SO_REUSEADDR failed: %s
+bind() failed: %s
+fd == u->sap_context.fd
+flags == PA_IO_EVENT_INPUT
+Session limit reached.
+Sink does not exist.
+stream
+media.role
+RTP Stream%s%s%s
+media.name
+rtp.session
+rtp.origin
+rtp.payload
+Failed to create sink input.
+module-rtp-recv memblockq
+New session '%s'
+s = i->userdata
+!s->rtpoll_item
+Lennart Poettering
+11.1-rebootstrapped
+224.0.0.56
+sap_address
+Invalid SAP address '%s'
+latency_msec
+Invalid latency specification
+sink
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+s = pa_rtpoll_item_get_userdata(i)
+Using artificial time instead of timestamp
+Write index deviates by %0.2f ms, expected %0.2f ms
+Estimated target rate: %.0f Hz, using average of %.0f Hz  (
+=%.3f)
+Sample rates too different, not adjusting (%u vs. %u).
+New rate of %u Hz not within 2
+ of %u Hz, forcing smaller adjustment
+pa_sample_spec_valid(&s->sink_input->sample_spec)
+Updated sampling rate to %lu Hz.
+Requesting rewind due to end of underrun
+!obj || obj->check_type(pa_object_type_id)
+Code should not be reached at %s:%u, function %s(). Aborting.
+Joining mcast group failed: %s
+pa_object_refcnt(pa_object_cast(o)) > 0
+Receive data from a network via RTP/SAP/SDP
+sink=<name of the sink> sap_address=<multicast address to listen on> latency_msec=<latency in ms> 
+failed to parse module arguments
+module_rtp_recv_LTX_pa__done
+module_rtp_recv_LTX_pa__done
+mcast_socket
+mcast_socket
+pa_sink_input_cast
+pa_sink_input_cast
+sink_input_pop_cb
+sink_input_pop_cb
+sink_input_process_rewind_cb
+sink_input_process_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_kill
+sink_input_kill
+rtpoll_work_cb
+rtpoll_work_cb
+sink_input_attach
+sink_input_attach
+sink_input_detach
+sink_input_detach
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+sink_input_suspend_within_thread
+sink_input_suspend_within_thread
+session_new
+sap_event_cb
+sap_event_cb
+pa_object_cast
+pa_object_cast
+session_free
+session_free
+check_death_event_cb
+check_death_event_cb
+module_rtp_recv_LTX_pa__init
+module_rtp_recv_LTX_pa__init
+MbP?
+;*3$"
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+module-rtp-recv.so-11.1-18.fc28.x86_64.debug
+7zXZ
+>&~0
+UcWu
++%sYI'i
+?Ua'
+|!?8
+ZO#m
+cqhc
+E#lZ
+tqOm8
+`GOJ
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

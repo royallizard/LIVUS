@@ -1,0 +1,265 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_sink_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+babl_format
+babl_format_get_n_components
+g_malloc
+gegl_buffer_get
+rgbe_save_path
+g_free
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+gegl_extension_handler_register_saver
+g_param_spec_string
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+g_value_set_string
+g_value_get_string
+g_strdup
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+g_return_if_fail_warning
+strlen
+g_str_has_suffix
+fwrite
+g_mapped_file_get_contents
+g_mapped_file_get_length
+ldexp
+rgbe_file_free
+g_mapped_file_unref
+stdout
+g_strconcat
+fclose
+fopen
+__snprintf_chk
+frexp
+g_warn_message
+g_ascii_dtostr
+rgbe_load_path
+g_mapped_file_new
+strncmp
+g_str_has_prefix
+__errno_location
+g_ascii_strtod
+g_strstr_len
+g_ascii_strtoull
+__strncpy_chk
+rgbe_get_size
+rgbe_read_scanlines
+g_malloc_n
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+rgbe-save.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5z9 
+%|9 
+%z9 
+%r9 
+%j9 
+%b9 
+%Z9 
+%R9 
+%J9 
+%B9 
+%:9 
+%29 
+%*9 
+%"9 
+%z8 
+%r8 
+%j8 
+%b8 
+%Z8 
+%R8 
+%J8 
+%B8 
+%:8 
+%28 
+%*8 
+%"8 
+=	8 
+u+UH
+=z7 
+\$`f
+D$H1
+D$@(
+D$(H
+AUATUH
+[]A\A]
+[]A\
+tgATUH
+ []A\
+ATUS
+[]A\
+ []A\
+[]A\
+[]A\
+ATUSH
+t'SH
+ATUSH
+l$0H
+[]A\A]A^A_
+/L$|
+|$,f
+ZD$|I
+ZD$xI
+AWAVAUATUSH
+([]A\A]A^A_
+{hA)
+L9t$
+AWAVAUATUSH
+D$H1
+E`D9
+T$HdH3
+X[]A\A]A^A_
+t$ H
+D$(I
+D$0I
+D$8H
+GeglChantrgbe-save.c
+RGB float
+gegl-0.2
+description
+output
+categories
+gegl:rgbe-save
+name
+.hdr
+.pic
+File
+path
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+RGBE image saver (Radiance HDR format)
+Target path and filename, use '-' for stdout.
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+?header
+GEGL-rgbe.c
+g_str_has_suffix (line, "\n")
+gegl 0.2.0
+SOFTWARE=
+FORMAT=
+EXPOSURE=
+COLORCORR=
+-Y %hu +X %hu
+pixels
+rgbe[0] != 2 || rgbe[1] != 2
+file != NULL
+file->file
+32-bit_rle_rgbe
+Invalid value for COLORCORR
+PIXASPECT=
+Invalid pixel aspect ratio
+cursor && *cursor > 0
+file->scanlines
+32-bit_rle_xyze
+GPOINTER_TO_UINT (data) > GPOINTER_TO_UINT (g_mapped_file_get_contents (f))
+header->format < FORMAT_UNKNOWN
+rgbe[0] != 1 || rgbe[1] != 1 || rgbe[2] != 1
+Unsupported color format for rgbe format
+Invalid value for exposure in radiance image file
+Cannot find a usable value for SOFTWARE, ignoring
+file %s: line %d (%s): should not be reached
+data[OFFSET_R] == 2 && data[OFFSET_G] == 2
+pixoffset[component] == pixels + RGBE_NUM_RGBE * linesize + component
+Unable to parse rgbe scanlines, fail at row %u
+rgbe_rgbe_to_float
+rgbe_read_uncompressed
+rgbe_apply_exponent
+rgbe_read_new_rle
+rgbe_read_old_rle
+rgbe_read_scanlines
+rgbe_get_size
+rgbe_header_read_orientation
+rgbe_mapped_file_remaining
+rgbe_header_read_variables
+rgbe_file_init
+rgbe_file_new
+rgbe_float_to_rgbe
+rgbe_write_uncompressed
+rgbe_write_line
+rgbe_header_write
+rgbe_header_init
+#?RADIANCE
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+rgbe-save.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+d)8S
+	q=o
+,PF@2=
+cw*u#
+HTdw]5
+FZSQ!o
+*lG;
+*-_Yc
+E$a[,
+I05-
+he)X
+[Aq&
+CcI}hI
+blBM
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

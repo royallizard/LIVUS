@@ -1,0 +1,554 @@
+/lib/ld-linux.so.2
+libreadline.so.6
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_init
+readline
+_fini
+using_history
+add_history
+libopensc.so.4
+sc_ctx_detect_readers
+sc_ctx_log_to_file
+sc_ctx_get_reader_by_name
+sc_context_create
+sc_file_add_acl_entry
+sc_asn1_print_tags
+sc_hex_to_bin
+sc_format_path
+sc_path_set
+sc_lock
+sc_strerror
+sc_release_context
+sc_append_path_id
+sc_get_data
+sc_get_version
+sc_update_binary
+sc_transmit_apdu
+sc_ctx_get_reader
+sc_wait_for_event
+sc_get_challenge
+sc_file_free
+sc_connect_card
+sc_read_binary
+sc_file_get_acl_entry
+sc_select_file
+sc_create_file
+sc_unlock
+sc_check_sw
+sc_update_record
+sc_list_files
+sc_ctx_get_reader_count
+sc_delete_file
+sc_bytes2apdu
+sc_detect_card_presence
+sc_disconnect_card
+sc_pin_cmd
+sc_put_data
+sc_file_new
+sc_card_ctl
+sc_read_record
+sc_set_card_driver
+libcrypto.so.10
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__stpcpy_chk
+fflush
+__printf_chk
+exit
+fopen
+optind
+perror
+__isoc99_sscanf
+strncpy
+putchar
+stdin
+strtol
+isatty
+feof
+fgets
+calloc
+strlen
+memset
+tcsetattr
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+strtoul
+malloc
+__ctype_b_loc
+getenv
+optarg
+stderr
+getopt_long
+strncasecmp
+fileno
+fwrite
+__fread_chk
+strchr
+__vfprintf_chk
+tcgetattr
+__ctype_tolower_loc
+__cxa_finalize
+__sprintf_chk
+_IO_getc
+__libc_start_main
+snprintf
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.3.4
+[^_]
+<"tT
+d$,[^_]
+d$,[^_]
+d$,[
+[^_]
+UWVS
+9|$@u
+d$,1
+[^_]
+UWVS
+D$,1
+[^_]
+UWVS
+[^_]
+UWVS
+D$01
+[^_]
+D$4e
+d$$[^
+d$ [^_
+UWVS
+L$l1
+L$le3
+d$|[^_]
+D$i:T$jtc
+D$i:T$ju
+:D$ku
+T$hf
+D$,1
+L$,e3
+d$<[^_]
+|$*?
+U0t%
+UWVS
+9|$$
+T$,1
+[^_]
+UWVS
+d$<1
+[^_]
+[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+L$\1
+T$\e3
+d$l[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$81
+D$(u
+D$4;
+D$4;
+UWVS
+[^_]
+D$,u
+D$41
+UWVS
+D$L1
+l$t~7
+L$Le3
+d$\[^_]
+UWVS
+[^_]
+D$|sfi:
+UWVS
+9l$,
+[^_]
+L$4f
+UWVS
+[^_]
+UWVS
+D$(@
+D$,@
+D$$1
+[^_]
+UWVS
+D$ 1
+[^_]
+D$(@
+D$,@
+UWVS
+|$<e
+D$,@
+[^_]
+L$L1
+D$dt&
+T$Le3
+d$P[^_
+[^_]
+D$L1
+t$dt'
+L$Le3
+d$P[^_
+L$L1
+|$Le3=
+d$P[^_
+D$<1
+T$<e3
+d$H[
+UWVS
+D$$e
+[^_]
+L$$1
+D$Dc
+D$,1
+EH;D$Du
+UWVS
+d$,[^_]
+UWVS
+|$L~U
+9l$Ht
+d$,[^_]
+UWVS
+l$pe
+D$L1
+;t$xr
+T$ )t$x
+D$Le3
+d$\[^_]
+UWVS
+L$\1
+T$$u
+Sec.
+Cont
+rolB
+yte 
+PROT
+d$ [^_
+TERM
+Sec.
+Env.f
+????
+PKCS
+#15 
+Auth
+AUTH
+UWVS
+D$ e
+[^_]
+UWVS
+t$,U
+[^_]
+Usage: %s %s
+error parsing %s: %s
+Invalid APDU: %s
+Sending: 
+APDU transmit failed: %s
+Failure: %s
+Success!
+unable to parse data
+Total of %d bytes written.
+ %02X%02X 
+[%02X%02X]
+	%4s
+ %5lu
+	Name: 
+Failed to erase card: %s
+open
+Not supported
+Current debug level is %d
+Debug level set to %d
+stderr
+Wrong ID length.
+%02X%02X
+Invalid ID.
+FileID	Type  Size
+(%02X%02X)
+unable to set path.
+(%02X%02X)	%s
+aid:
+Error parsing AID: %s
+Elementary File
+Dedicated File
+Unknown File
+Linear fixed
+Transparent
+Unknown
+SELECT
+READ
+unable to select file: %s
+%s  ID %04X
+, SFI %02X
+File path:
+%-15s%s
+File size:
+%-15s%lu bytes
+DF name:
+%-15s
+Linear fixed, SIMPLE-TLV
+Linear variable
+Linear variable, SIMPLE-TLV
+Cyclic
+Cyclic, SIMPLE-TLV
+EF structure:
+ACL for %s:%*s %s
+Proprietary attributes:
+%-25s
+Security attributes:
+Supported commands:
+  %s %s%*s  %s
+ACL for operation: %s
+Invalid file path
+unable to select file
+only working EFs may be read
+read failed
+in: %i; %s
+fread
+update failed
+CREATE FILE failed
+Invalid SFI: %s
+Record %d:
+Object %04x:
+Invalid type.
+Invalid key reference.
+Invalid key value.
+Incorrect code.
+PIN unblocked.
+PIN changed.
+Please enter PIN
+Please enter PIN: 
+Code correct.
+DELETE FILE failed
+in: %i; %i; %s
+Invalid record number %i
+3F00
+unable to go up: %s
+unable to select DF
+Error: file is not a DF.
+OpenSC Explorer version %s
+r:c:vwm:
+[SCRIPT]
+opensc-explorer
+Driver '%s' not found!
+unable to select file %s: %s
+unable to select MF: %s
+OpenSC [%s]> 
+Ambiguous command: %s
+UPDATE
+DELETE
+WRITE
+REHABILITATE
+INVALIDATE
+LIST FILES
+CRYPTO
+LOCK
+CREATE
+DELETE SELF
+echo
+[<string> ..]
+display arguments
+[<pattern> ..]
+list files in the current DF
+find
+[<start id> [<end id>]]
+change to another DF
+[<file id> | sfi:<sfi id>]
+print the contents of an EF
+info
+[<file id>]
+create
+<file id> <size>
+create a new EF
+mkdir
+create a new DF
+delete
+<file id>
+remove an EF/DF
+verify
+change
+change a PIN
+unblock
+unblock a PIN
+<file id> [<input file>]
+copy a local file to the card
+<file id> [<output file>]
+copy an EF to a local file
+do_get
+<hex tag> [<output file>]
+get a data object
+do_put
+<hex tag> <data>
+put a data object
+erase
+erase card
+random
+<count>
+update_record
+update record
+update_binary
+<file id> <offs> <data>
+update binary
+apdu
+<data>+
+send a custom apdu command
+asn1
+decode an ASN.1 file
+open|close
+debug
+[<value>]
+get/set the debug level
+quit
+quit this program
+exit
+show this help
+Uses reader number <arg> [0]
+Wait for card insertion
+reader
+card-driver
+wait
+verbose
+Received (SW1=0x%02X, SW2=0x%02X)%s
+Cannot put data to %04X; return %i
+unable to select parent DF: %s
+Invalid length of DF_NAME path
+only transparent file type is supported at the moment
+expecting %lu, got only %d bytes.
+EF structure should be SC_FILE_EF_TRANSPARENT
+Cannot update %04X; return %i
+Total of %d bytes written to %04X at %i offset.
+expecting %d, got only %d bytes.
+Total of %d bytes read from %s and saved to %s.
+expecting %d, wrote only %d bytes.
+A DF must be selected to read by SFI
+unable to receive file listing
+ %02X%02X unable to select file, %s
+Number must be in range 0..256
+Failed to get random bytes: %s
+Failed to get data object: %s
+Unable to unblock PIN code: %s
+Incorrect code, %d tries left.
+Unable to change PIN code: %s
+Please enter PIN on the reader's pin pad.
+No PIN entered - aborting VERIFY.
+PIN too long - aborting VERIFY.
+Unable to verify PIN code: %s
+EF structure should be SC_FILE_EF_LINEAR_VARIABLE
+Cannot read record %i; return %i
+Cannot update record %i; return %i
+Total of %d bytes written to record %i at %i offset.
+unable to go up, already in MF.
+Failed to establish context: %s
+unable to change lifecycle: %s
+find all files in the current DF
+{.. | <file id> | aid:<DF name>}
+display attributes of card file
+{CHV|KEY|AUT|PRO}<key ref> [<pin>]
+present a PIN or key to the card
+CHV<pin ref> [[<old pin>] <new pin>]
+CHV<pin ref> [<puk> [<new pin>]]
+obtain <count> random bytes from card
+<file id> <rec no> <rec offs> <data>
+call SM 'open' or 'close' handlers, if available
+Forces the use of driver <arg> [auto-detect]
+Selects path <arg> on start-up, or none if empty [3F00]
+Verbose operation. Use several times to enable debug output.
+Waiting for a reader to be attached...
+Error while waiting for a reader: %s
+Error while refreshing readers: %s
+Waiting for a card to be inserted...
+Error while waiting for a card: %s
+Reader "%s" not found (%d reader(s) detected)
+Connecting to card in reader %s...
+Failed to connect to card: %s
+No smart card readers found.
+Using reader with a card: %s
+Matched ATR in reader: %s
+Card not present.
+Using card driver %s.
+Failed to lock card: %s
+\x%02X
+%08X: 
+ <arg>
+ [arg]
+Usage: %s [OPTIONS] %s
+Usage: %s [OPTIONS]
+Options:
+-%c, --%s%s
+    --%s%s
+  %-28s  %s
+NEVR
+NONE
+Ox%X
+error: 
+Aborting.
+warning: 
+env:
+;*2$"T
+opensc-explorer.debug
+7zXZ
+^D"g>
+s-oy
+!\8bj_
+?>sc$
+rr7p
+T62Z
+Pjqf
+#ENu
+jT*#
+O*)j
+sL~!
+=CeRwV#k
+$\8M
+q&1D
+]bZ?
+%=7q
+@ZNCL5
+#>oo
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

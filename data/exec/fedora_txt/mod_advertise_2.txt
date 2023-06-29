@@ -1,0 +1,240 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+advertise_module
+apr_parse_addr_port
+apr_pstrdup
+strchr
+strtol
+strcasecmp
+strstr
+apr_pstrndup
+ap_hook_post_config
+ap_hook_child_init
+ap_register_provider
+ap_rprintf
+ap_rputs
+apr_palloc
+apr_pool_userdata_get
+apr_md5_init
+strlen
+apr_md5_update
+apr_md5_final
+apr_uuid_get
+apr_uuid_format
+ap_log_error
+apr_sockaddr_info_get
+apr_socket_create
+apr_socket_opt_set
+apr_socket_bind
+apr_mcast_join
+apr_mcast_loopback
+apr_mcast_hops
+apr_psprintf
+apr_thread_create
+apr_thread_detach
+apr_pool_create_ex
+apr_pool_cleanup_null
+apr_pool_cleanup_register
+getpid
+apr_pool_userdata_set
+__errno_location
+apr_mcast_leave
+apr_socket_close
+__stack_chk_fail
+ma_advertise_server
+__sprintf_chk
+apr_time_now
+ap_recent_rfc822_date
+ap_get_status_line
+apr_snprintf
+__strcat_chk
+apr_socket_sendto
+apr_pool_cleanup_kill
+apr_sleep
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+mod_advertise.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5:* 
+%<* 
+%:* 
+%2* 
+%** 
+%"* 
+%z) 
+%r) 
+%j) 
+%b) 
+%Z) 
+%R) 
+%J) 
+%B) 
+%:) 
+%2) 
+%*) 
+%") 
+= ) 
+ATSubH
+[A\]
+=p# 
+=V# 
+C`D[H
+ffffff.
+ffffff.
+GHHcR
+l$ H
+GHHcR
+{bD[t#H
+CbD[H
+l$ L
+d$(L
+l$0H
+ffff.
+AVAUATUH
+L$bI
+L$pI
+D$dH
+L$(H
+tsIcU
+[]A\A]A^
+ffffff.
+B`D[f
+BbD[f
+fffff.
+AVAUI
+ATUSH
+UPdH
+M;,$L
+I9,$t	H
+\$@H
+|$@H
+=n  
+=]  
+=M  
+G /H
+[]A\A]A^A_
+T$`A
+\$bH
+D$PE1
+\$.H
+t$ E1
+T$dI
+t$0I
+|$(L
+|$81
+D$bL
+fffff.
+AWAVAUA
+ATUH
+T$0H
+|$0L
+t$0H
+H+T$
+|$0H
+D$(uGH
+L$ H)
+D$dI
+L$(H
+D$(H
+D$(H
+L$01
+[]A\A]A^A_
+ATE1
+tcE1
+L9cp
+[]A\A]
+Duplicate AdvertiseBindAddress directives are not allowed
+Invalid AdvertiseBindAddress address
+Missing Ip part from AdvertiseBindAddress address
+Duplicate AdvertiseManagerUrl directives are not allowed
+Duplicate AdvertiseSecurityKey directives are not allowed
+Duplicate AdvertiseFrequency directives are not allowed
+Invalid AdvertiseFrequency value
+Duplicate AdvertiseGroup directives are not allowed
+Invalid AdvertiseGroup address
+Missing Ip part from AdvertiseGroup address
+Duplicate ServerAdvertise directives are not allowed
+ServerAdvertise must be Off or On
+Invalid ServerAdvertise Address
+ Advertising on Group %s Port %d 
+for %s://%s:%d every %ld seconds<br/>
+mod_advertise: directive in more than one VirtualHost: not supported
+mod_advertise: ma_group_join apr_sockaddr_info_get(%s:%d) failed
+mod_advertise: ma_group_join apr_sockaddr_info_get(0.0.0.0:0) failed
+mod_advertise: ma_group_join apr_socket_create failed
+mod_advertise: ma_group_join apr_socket_opt_set failed
+mod_advertise: ma_group_join apr_socket_bind failed
+mod_advertise: ma_group_join apr_mcast_join failed
+mod_advertise: ma_group_join apr_mcast_loopback failed
+mod_advertise: ma_group_join apr_mcast_hops failed
+mod_advertise: multicast join failed for %s:%d.
+mod_advertise: Invalid ServerAdvertise Address %s
+mod_advertise: ServerAdvertise Address or Port not defined, Advertise disabled!!!
+mod_advertise: parent apr_thread_create
+Advertise initialized for process %d
+HTTP/1.0 %s
+Date: %s
+Sequence: %ld
+Digest: %s
+Server: %s
+X-Manager-Address: %s:%u
+X-Manager-Url: %s
+X-Manager-Protocol: %s
+X-Manager-Host: %s
+Server advertise mode: On | Off [Address]
+Advertise frequency in seconds[.miliseconds]
+Local adress to bind to for Multicast logic
+224.0.1.105
+info
+advertise
+Server: %s 
+VirtualHost: %s:%d
+<br/>
+mod_advertise.c
+advertise_init_module_tag
+http
+0.0.0.0
+%s:%u
+0123456789abcdef
+ServerAdvertise
+AdvertiseGroup
+Multicast group address
+AdvertiseFrequency
+AdvertiseSecurityKey
+Advertise security key
+AdvertiseManagerUrl
+Advertise manager url
+AdvertiseBindAddress
+22PA
+mod_advertise.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got
+.text

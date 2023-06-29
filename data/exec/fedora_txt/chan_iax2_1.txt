@@ -1,0 +1,3131 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_log
+strcmp
+__ast_pthread_mutex_unlock
+__ast_pthread_mutex_lock
+__ast_pthread_mutex_destroy
+ast_channel_datastore_find
+ast_var_assign
+ast_var_delete
+__ast_datastore_alloc
+calloc
+__ast_pthread_mutex_init
+ast_channel_datastore_add
+ast_datastore_free
+ast_var_value
+ast_var_name
+ast_channel_tech_pvt
+ast_format_rate
+gettimeofday
+option_debug
+ast_options
+ast_tvadd
+ast_debug_get_by_module
+ast_tvsub
+ast_random
+__ast_cond_destroy
+__ao2_ref
+usleep
+ast_sched_del
+ast_channel_name
+__ast_manager_event_multichan
+_ast_sockaddr_to_sin
+__stack_chk_fail
+__ao2_callback
+ast_inet_ntoa
+__ao2_find
+__ao2_unlink
+ao2_iterator_init
+__ao2_iterator_next
+ao2_iterator_destroy
+ast_free_acl_list
+ast_variables_destroy
+__ast_string_field_init
+ast_event_unsubscribe
+strstr
+strerror
+ast_format_cap_alloc_nolock
+ast_format_cap_from_old_bitfield
+ast_getformatname_multiple
+ast_format_cap_destroy
+ast_parse_allow_disallow
+ast_format_cap_to_old_bitfield
+__ao2_lock
+__ao2_unlock
+__ao2_link
+ao2_container_count
+ast_aes_decrypt
+ast_park_call_exten
+ast_hangup
+ast_format_clear
+ast_codec_choose
+ast_format_to_old_bitfield
+ast_best_codec
+__ast_channel_alloc
+ast_channel_release
+ast_channel_callid_set
+ast_channel_tech_set
+ast_channel_nativeformats
+ast_channel_readformat
+ast_format_copy
+ast_channel_rawreadformat
+ast_channel_writeformat
+ast_channel_rawwriteformat
+ast_channel_tech_pvt_set
+ast_channel_caller
+__strdup
+ast_channel_dialed
+ast_channel_redirecting
+ast_channel_language_set
+ast_channel_accountcode_set
+ast_channel_context_set
+ast_channel_exten_set
+ast_channel_adsicpe_set
+pbx_builtin_setvar_helper
+ast_pbx_start
+ast_module_ref
+ast_channel_parkinglot_set
+ast_channel_amaflags_set
+ast_channel_flags
+ast_localtime
+__ao2_trylock
+ast_queue_control_data
+ast_queue_frame
+jb_next
+ast_sched_replace
+ast_format_from_old_bitfield
+jb_get
+ast_queue_hangup
+ast_module_unref
+__ast_cond_signal
+ast_aes_encrypt
+__ast_pthread_mutex_trylock
+setsockopt
+__ast_string_field_release_active
+__ast_string_field_empty
+__ast_string_field_ptr_grow
+__ast_string_field_alloc_space
+strchr
+ast_key_get
+ast_check_signature
+MD5Init
+MD5Update
+MD5Final
+__sprintf_chk
+strcasecmp
+ast_channel_hangupcause_set
+ast_set_hangupsource
+memcpy
+strlen
+strrchr
+__snprintf_chk
+__xstat
+__read_chk
+lseek
+mmap
+memcmp
+munmap
+__errno_location
+ast_config_AST_DATA_DIR
+opendir
+readdir
+closedir
+__ast_verbose
+ast_config_AST_SYSTEM_NAME
+_ast_sockaddr_port
+ast_sockaddr_stringify_fmt
+ast_update_realtime
+strtol
+ast_dnsmgr_lookup
+_ast_sockaddr_set_port
+pthread_join
+astman_append
+jb_getinfo
+ast_cli
+__strncat_chk
+__strcat_chk
+__vsnprintf_chk
+ast_timer_fd
+ast_io_add
+pthread_testcancel
+ast_io_wait
+ast_str_set
+ast_str_append
+regcomp
+regexec
+regfree
+astman_get_header
+astman_send_listack
+ast_channel_tech
+snprintf
+ast_null_frame
+ast_sched_add
+sendto
+__ast_cond_init
+ast_pthread_create_stack
+__ast_cond_wait
+recvfrom
+jb_getall
+jb_destroy
+strncasecmp
+ast_exists_extension
+ast_add_extension
+ast_context_remove_extension
+ast_devstate_changed
+ast_db_del
+ast_dnsmgr_release
+ast_manager_unregister
+ast_unregister_application
+ast_cli_unregister_multiple
+ast_unregister_switch
+ast_channel_unregister
+pthread_cancel
+pthread_kill
+ast_netsock_release
+__ast_data_unregister
+ast_timer_close
+ast_taskprocessor_unreference
+ast_sched_context_destroy
+ast_context_find
+ast_context_destroy
+ast_unload_realtime
+ast_custom_function_unregister
+ast_true
+ast_event_subscribe
+__ao2_alloc
+memset
+ast_append_acl
+ast_variable_new
+ast_false
+__ast_string_field_ptr_build
+ast_callerid_split
+ast_cdr_amaflags2int
+ast_load_realtime
+ast_gethostbyname
+ast_shrink_phone_number
+ast_codec_pref_convert
+_ast_sockaddr_from_sin
+ast_apply_acl
+ast_db_get
+ast_sockaddr_split_hostport
+ast_get_ip
+socket
+ast_bind
+ast_netsock_find
+ast_netsock_sockfd
+ast_sockaddr_parse
+ast_netsock_bind
+ast_netsock_unref
+inet_aton
+sscanf
+ast_timer_ack
+ast_bridged_channel
+jb_put
+jb_reset
+ast_codec_get_samples
+ast_strip_quoted
+ast_acl_list_is_empty
+jb_setoutput
+ast_sockaddr_cmp_addr
+ast_data_add_codecs
+ast_data_add_node
+__ast_data_add_structure
+ast_data_add_str
+ast_data_add_int
+ast_data_add_bool
+ast_data_search_match
+ast_data_remove_node
+ast_data_add_password
+ast_cdr_flags2str
+ast_aes_set_encrypt_key
+ast_aes_set_decrypt_key
+ast_sign
+ast_taskprocessor_push
+ast_format_id_from_old_bitfield
+realloc
+ast_format_get_video_mark
+malloc
+ast_sockaddr_ipv4
+ast_get_time_t
+ast_codec_pref_index
+ast_getformatname
+ast_format_cap_iter_start
+ast_codec_pref_prepend
+ast_format_cap_iter_next
+ast_get_ip_or_srv
+ast_format_cap_iter_end
+ast_callerid_merge
+ast_cli_complete
+jb_new
+jb_setconf
+ast_read_threadstorage_callid
+ast_channel_linkedid
+ast_format_cap_joint
+ast_format_cap_copy
+ast_translator_best_choice
+ast_format_cap_set
+ast_config_load2
+ast_variable_browse
+ast_variable_retrieve
+ast_str2tos
+ast_str2cos
+ast_category_browse
+ast_config_destroy
+ast_append_ha
+ast_copy_ha
+ast_free_ha
+ast_netsock_list_alloc
+ast_netsock_init
+ast_timer_set_rate
+ast_format_id_to_old_bitfield
+ast_context_find_or_create
+ast_dnsmgr_changed
+ast_dnsmgr_refresh
+ast_format_cap_alloc
+ast_format_cap_add_all
+__ao2_container_alloc
+ast_taskprocessor_get
+ast_sched_context_create
+ast_sched_start_thread
+io_context_create
+ast_timer_open
+__ast_data_register_multiple
+ast_cli_register_multiple
+ast_register_application2
+__ast_custom_function_register
+ast_manager_register2
+ast_channel_register
+ast_register_switch
+ast_realtime_require_field
+io_context_destroy
+ast_matchmore_extension
+ast_parking_ext_valid
+ast_ignore_pattern
+ast_canmatch_extension
+ast_format_cap_identical
+ast_waitfor_n
+ast_read
+ast_frame_free
+ast_write
+ast_check_hangup
+ast_channel_softhangup_internal_flag_add
+ast_channel_hangupcause_hash_set
+ast_moh_stop
+ast_moh_start
+ast_channel_state
+ast_channel_connected
+ast_party_id_presentation
+ast_channel_language
+ast_channel_context
+ast_channel_adsicpe
+pbx_builtin_getvar_helper
+__memcpy_chk
+ast_setstate
+pipe
+ast_channel_defer_dtmf
+ast_remaining_ms
+ast_waitfor_nandfds
+ast_channel_undefer_dtmf
+pbx_findapp
+pbx_exec
+ast_channel_hangupcause
+ast_sockaddr_cmp
+ast_db_put
+ast_event_get_cached
+ast_event_get_ie_uint
+ast_event_destroy
+ast_app_inboxcount
+ast_sha1_hash
+ast_register_file_version
+ast_unregister_file_version
+ast_callid_threadassoc_add
+ast_format_set_video_mark
+ast_party_connected_line_init
+ast_connected_line_parse_data
+ast_set_callerid
+ast_party_connected_line_free
+ast_create_callid
+ast_callid_strnprint
+ast_channel_uniqueid
+ast_channel_amaflags
+ast_channel_exten
+ast_channel_accountcode
+ast_channel_masquerade
+ast_channel_priority
+ast_channel_priority_set
+ast_do_masquerade
+ast_channel_parkinglot
+ast_pthread_create_detached_stack
+ast_swapcopy_samples
+ast_format_cap_dup
+ast_set_read_format
+ast_codec_pref_string
+ast_async_goto
+ast_set_write_format
+ast_callid_threadassoc_remove
+pthread_setcancelstate
+__ast_cond_timedwait
+pthread_self
+pthread_detach
+_Unwind_Resume
+__gcc_personality_v0
+ast_module_register
+ast_module_unregister
+strncpy
+ast_strftime
+stdout
+fputs
+stderr
+__fprintf_chk
+pthread_key_create
+ntohll
+htonll
+pthread_once
+pthread_getspecific
+pthread_setspecific
+ast_getformatbyname
+strncat
+ast_db_deltree
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3.4
+a_&	
+%zq$
+%rq$
+%jq$
+%bq$
+%Zq$
+%Rq$
+%Jq$
+%Bq$
+%:q$
+%2q$
+%*q$
+%"q$
+%zp$
+%rp$
+%jp$
+%bp$
+%Zp$
+%Rp$
+%Jp$
+%Bp$
+%:p$
+%2p$
+%*p$
+%"p$
+%zo$
+%ro$
+%jo$
+%bo$
+%Zo$
+%Ro$
+%Jo$
+%Bo$
+%:o$
+%2o$
+%*o$
+%"o$
+%zn$
+%rn$
+%jn$
+%bn$
+%Zn$
+%Rn$
+%Jn$
+%Bn$
+%:n$
+%2n$
+%*n$
+%"n$
+%zm$
+%rm$
+%jm$
+%bm$
+%Zm$
+%Rm$
+%Jm$
+%Bm$
+%:m$
+%2m$
+%*m$
+%"m$
+%zl$
+%rl$
+%jl$
+%bl$
+%Zl$
+%Rl$
+%Jl$
+%Bl$
+%:l$
+%2l$
+%*l$
+%"l$
+%zk$
+%rk$
+%jk$
+%bk$
+%Zk$
+%Rk$
+%Jk$
+%Bk$
+%:k$
+%2k$
+%*k$
+%"k$
+%zj$
+%rj$
+%jj$
+%bj$
+%Zj$
+%Rj$
+%Jj$
+%Bj$
+%:j$
+%2j$
+%*j$
+%"j$
+%zi$
+%ri$
+%ji$
+%bi$
+%Zi$
+%Ri$
+%Ji$
+%Bi$
+%:i$
+%2i$
+%*i$
+%"i$
+%zh$
+%rh$
+%jh$
+%bh$
+%Zh$
+%Rh$
+%Jh$
+%Bh$
+%:h$
+%2h$
+%*h$
+%"h$
+%zg$
+%rg$
+%jg$
+%bg$
+%Zg$
+%Rg$
+%Jg$
+%Bg$
+%:g$
+%2g$
+%*g$
+%"g$
+%zf$
+%rf$
+%jf$
+%bf$
+%Zf$
+%Rf$
+%Jf$
+%Bf$
+%:f$
+%2f$
+%*f$
+%"f$
+[]A\A]A^
+[]A\
+[]A\A]1
+AWAVI
+AUATSH
+@t8A
+4 H)
+[A\A]A^A_]
+AVAUATA
+[A\A]A^]
+AWLc
+AVAUATSH
+CHE1
+52jD
+FxLc
+	v#K
+badsecreH
+58XD
+default
+wCHc
+[A\A]A^A_]
+AWAVI
+AUATSH
+-L<$
+=ZQL
+=>QL
+[A\A]A^A_]
+AUATM
+dH34%(
+|$ H
+[]A\A]A^A_
+AVAUATMc
+	v"J
+badsecreH
+=(HL
+48H)
+D$'H
+=*?L
+[A\A]A^A_]
+J8dH
+@t.L
+L$/I
+[A\A]A^A_]
+\$ dH
+D$x1
+D9d$
+L$xdH3
+[]A\A]A^
+AWAVL
+5D3@
+AUATLc
+\$/I
+[A\A]A^A_]
+D$7H
+d$ H
+=A-L
+=+,L
+t$7I
+u)Hc
+[A\A]A^A_]
+=@&L
+ffff.
+=:$$
+fffff.
+fffff.
+ffff.
+ffff.
+ffff.
+ffff.
+t+H9{
+AVAUATUH
+([]A\A]A^A_
+ffff.
+ATUSH
+[]A\A]
+ffff.
+[]A\A]1
+[]A\A]A^
+[]A\1
+AWAVAUATI
+|$ 1
+t$(H
+D$ H
+8[]A\A]A^A_
+|$ 1
+D$ H+
+D$(H
+8[]A\A]A^A_
+D+KDD
+D+KDD
+C<A9
+ffffff.
+ffff.
+ATLc
+[]A\
+fff.
+l$ H
+0[]A\
+D$(1
+T$(dH3
+ATUSH
+D$(1
+D$(dH3
+0[]A\
+t$ H
+D$81
+D$$H
+D$8dH3
+@[]A\
+fff.
+D$0H
+D$8H
+D$@H
+D$HH
+D$ H
+ffffff.
+5A	D
+D$0H
+D$8H
+D$@H
+D$HH
+D$ H
+fffff.
+ATUSH
+[]A\A]
+[]A\A]
+[]A\A]A^
+ffff.
+ []A\A]A^
+fff.
+AVLc
+AUATUSH
+t$XH
+T$PD
+D$\H
+D$@H
+D$8H
+D$0H
+D$(H
+[]A\A]A^A_
+t$PH
+\$`H
+\$`H
+|$\H
+D$PI
+L$PI
+L$PI
+L$ H
+AVAUL
+USHc
+[]A\A]A^
+USIc
+[]A\A]
+fffff.
+ffff.
+AVAUATL
+t$PdH
+D$XH
+|$PH
+[]A\A]A^A_
+t$ L
+D$0L
+fff.
+ATUS
+[]A\
+[]A\
+fffff.
+[]A\A]
+AVE1
+ []A\A]A^
+[]A\
+ATUH
+[]A\
+td9S@
+[]A\
+AWAVAUI
+t$/f
+dH34%(
+[A\A]A^A_]
+AWAVI
+AUATSH
+=yxai
+[A\A]A^A_]
+ffff.
+ATUS
+[]A\A]
+.u"H
+ffff.
+AVE1
+AUATUH
+D$X1
+l$@L
+\$ L
+D$XdH3
+h[]A\A]A^A_
+AUATUSH
+[]A\A]A^
+AWAVAUL
+\$XD
+|$8D
+l$ D
+D$xH
+D$pH
+NTtV
+l$XD
+t$HD
+|$@D
+\$ D
+D$xH
+D$pH
+D$hH
+[]A\A]A^A_
+fffff.
+AWAVAUATI
+[]A\A]A^A_
+\$ L
+\$ L
+\$ L
+A9p`t
+fA9x^u
+fffff.
+AWAVAUATSH
+[A\A]A^A_]
+t$ H
+T$ L
+ATUH
+[]A\
+AWAVAUATI
+[A\A]A^A_]
+~!Hc
+AUATI
+[]A\A]A^
+[]A\A]D
+u3D;I
+fD;Q
+ffffff.
+AWAVAUATUSH
+[]A\A]A^A_
+y^fA
+AUATUSH
+tzH9
+[]A\A]A^
+tPH;
+AVAUATUS
+[]A\A]A^
+D$(H;
+ffff.
+AUATL
+t7H9
+@[]A\A]A^
+AWAVAUI
+ATUS1
+|$ 1
+D$ H
+D$PH
+D$(H
+D$XH
+D$0H
+D$`H
+D$8H
+D$hH
+D$@H
+[]A\A]A^A_
+fffff.
+AVAUATUH
+d$ A
+[]A\A]A^
+d$ L
+AUATLc
+[]A\A]A^A_
+[]A\A]A^A_H
+[]A\A]A^A_
+ATUSH
+~gHc
+ []A\
+[]A\
+ATUSH
+~gHc
+[]A\H
+AUATL
+[]A\A]A^H
+fffff.
+=mt#
+fffff.
+fffff.
+AWAVAUI
+ATSH
+[A\A]A^A_]
+l$pE
+D$8A
+D$`L
+L$@L
+|$@H
+t$PI
+t$HI
+L$ L
+|$ H
+L$(L
+|$(H
+L$0L
+|$0H
+D$8H
+A	D$t
+A	D$t
+t$@I
+t$0I
+t$(I
+t$ I
+L$`L
+L$`L
+t$PI
+t$HI
+L$PI
+L$`L
+|$PL
+t$PI
+t$PI
+D$PI
+D$HH
+L$HI
+L$`L
+|$`H
+L$PH
+D$`L
+|$PH
+L$HH
+D$`L
+|$HH
+t$HI
+t$HI
+D$HI
+D$PH
+L$ I
+L$`L
+t$PI
+t$ I
+L$(I
+L$`L
+L$0I
+L$`L
+t$(I
+t$0I
+L$XI
+L$`L
+L$@I
+L$`L
+t$XI
+t$@I
+L$8I
+L$`L
+t$8I
+ATE1
+[]A\A]
+fffff.
+AWAVAUATSH
+t$ I
+5iB#
+t$@I
+t$HI
+t$xI
+t$pI
+5$fK
+L$XL
+|$XH
+5-eK
+L$`L
+|$`H
+L$ L
+|$ L
+L$PL
+l$PM
+L$PL
+|$PH
+L$XL
+t$ I
+L$`L
+t$PI
+L$(L
+\$PH
+l$7I
+[A\A]A^A_]
+t$XI
+=Q^K
+t$`I
+t$(I
+t$XI
+t$`I
+L$@I
+t$@I
+L$8I
+t$8I
+L$HI
+t$HI
+t$xI
+t$pI
+D$pI
+L$xI
+|$xL
+t$xI
+L$pI
+D$pu
+t$pI
+L$xH
+|$xH
+L$pH
+|$pH
+t$xI
+L$hI
+L$0I
+t$hI
+t$0I
+='GC
+ []A\
+ H+CpLi
+H+{xH
+fff.
+AVAUATUSH
+D$PH
+=)DK
+t$0L
+D$Lf
+t$HH
+T$<D
+D$LH
+t$HH
+L$@I
+t$ H
+H9D$P
+|$@A
+\$>f
+h[]A\A]A^A_
+AWAVI
+AUATI
+-G=?
+L$(M
+l$01
+D$0I+
+D$8H
+HcL$$D
+h[]A\A]A^A_
+=H<K
+l$01
+T$(L
+T$0H
+D$8D
+=,;K
+[]A\
+=t5#
+ffffff.
+[]A\
+[]A\
+AVAUATI
+h[]A\A]A^A_
+582C
+D$0H
+D$8H
+D$@H
+D$HH
+D$ H
+h[]A\A]A^A_
+={0K
+=e0K
+ffff.
+t$AUATUSH
+([]A\A]
+AWAVAUI
+ATUSH
+|$8H
+d$0L
+l$(L
+|$(H
+T$ L
+l$(L
+L$ H
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+d$pL
+l$ M
+t,AUATUSH
+[]A\A]
+AUATUS1
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+|$01
+D$0H
+D$`H
+D$8H
+D$hH
+D$@H
+D$pH
+D$HH
+D$xH
+D$PH
+D$`H
+D$$E
+|$(E1
+|$$1
+AVAUATUSH
+[]A\A]A^A_
+-_ #
+-Q ?
+ffff.
+ffff.
+AVAUATLc
+[]A\A]A^A_
+[]A\
+AWAVI
+ATSH
+[A\A]A^A_]
+AVAUL
+ATUSH
+|$ dH
+D$ M
+D$PH
+D$(H
+D$XH
+D$0H
+D$`H
+D$8H
+D$hH
+D$@H
+D$pH
+D$PH
+[]A\A]A^A_
+?tFH
+fff.
+AWAVAUATI
+L$ D
+\$@H
+L$\D
+[]A\A]A^A_
+t$@D
+m>fA
+T$(L
+D$ H
+\$01
+\$ dH
+D$ D
+[]A\
+AVAUI
+ATUSH
+\$pI)
+[]A\A]A^A_
+d$@1
+AVAUATUHc
+[]A\A]A^
+l$ L
+|$01
+fff.
+AUATUSH
+D$h1
+D$hdH3
+x[]A\A]
+AWAVI
+AUATUH
+D$ H
+D$0H
+[]A\A]A^A_
+t$(1
+|$ L
+\$@H
+D$8H
+T$0H
+D$8H
+T$8H
+D$0M
+fff.
+AUATM
+dH34%(
+[A\A]A^A_]
+AWAVI
+ATSH
+[A\A]A^A_]
+L$@H
+L$HI
+L$0L
+|$pL
+L$xI
+L$XI
+T$`H
+l$(M
+T$ H
+L$(L
+AWAVAUATSH
+D$/I
+[A\A]A^A_]
+AWAVAUATUSH
+X[]A\A]A^A_
+[]A\A]A^A_
+B$E1
+d$ H
+[]A\A]A^A_
+AWAVAUATUSH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+AWAVAUATI
+[A\A]A^A_]
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+?au;
+AVAUA
+|$PH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+T$ I
+[]A\A]A^A_
+D$ H
+D$(H
+D$0H
+L$@H
+H+T$ L
+t$8H
+|$@I
+t$ L
+L$0L
+L$6H
+D$HH
+tJfD
+t$8H
+|$@L
+L$ H
+t$8H
+|$@I
+D$ H
+D$HH
+t$8H
+AWE1
+[A\A]A^A_]
+AWAVAUATUSH
+|$(@
+|$(H
+D$0H
+D$pH
+D$8H
+D$hH
+D$ H
+D$\H
+D$hM
+D$pH
+D$0u
+T$ E
+|$0L
+|$01
+D$`L
+d$dH
+D$pH
+D$(L
+[]A\A]A^A_
+L$dH
+D$`E
+l$ H
+D$`L
+D$`H
+|$0L
+L$(L
+L$8I
+L$8H
+|$(H
+L$(L
+L$(L
+L$(L
+T$@H
+tEL9
+t$ H
+t$ H
+t[L9
+L$0H
+L$dH
+D$HE
+d$8H
+|$HL
+|$HH
+ffffff.
+fffff.
+[]A\A]H
+ffff.
+[]A\A]H
+ffff.
+ATUSH
+l$ L
+l$ L
+dH34%(
+[]A\
+D$0H
+D$8H
+D$@H
+D$HH
+D$ H
+fffff.
+fff.
+AWAVAUATUSH
+[]A\A]A^A_
+=Tp"
+=qS"
+D$HH
+;-#m"
+;-zk"
+D$ H
+AWAVI
+|$,dH
+Lcd$,
+[]A\A]A^A_
+-W{>
+ATLc
+5{|J
+\$ 1
+[]A\A]
+ATUH
+t$,dH
+t$<D
+D$@I
+l$@H
+D$lH
+D$l1
+5HzJ
+[]A\A]A^A_
+l$@1
+AVAUI
+[A\A]A^]
+fffff.
+|$ H
+u"[]A\
+AVAUATE
+T$@H
+L$hL
+D$(A
+t$DD
+D$(K
+D$HH
+D$PH
+D$xH
+L$0K
+D$(K
+=zr>
+T$8H
+[]A\A]A^A_
+D$0f
+|$x1
+H+D$XH
+D$hH
+D$pH
+|$HE1
+T$(H
+T$(H
+L$0K
+L$(A
+|$`A
+D$hH
+D$pL
+D$hL
+D$pH
+D$pL
+D$hL
+|$`A
+AWAVI
+[]A\A]A^A_
+AVAUATSH
+L$/H
+[A\A]A^A_]
+=G]J
+AWAVAUI
+[A\A]A^A_]
+D$/I
+=^P>
+=yK>
+AWAVAUATUSH
+D$`H
+|$8H
+T$ H
+D$hL
+d$`M
+H9D$
+t$ I
+D$`H
+T$hA
+d$PL
+D$,H
+D$8L
+|$`L
+l$hH
+D$LE
+|$8H
+x[]A\A]A^A_
+D$ L
+x[]A\A]A^A_
+|$8H
+dH3<%(
+[]A\A]
+uB[L
+([]A\A]A^A_
+AWAVL
+AUATUH
+[]A\A]A^A_
+%r8"
+USHc
+t\E1
+[]A\A]
+%77"
+%r6"
+USHc
+[]A\A]
+%w5"
+[]A\A]A^A_
+ATUS
+%v3"
+ATUH
+[]A\1
+ATUS
+ffff.
+[]A\
+AWAVAUATUS
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+t$ L
+[]A\A]A^A_
+t$ M
+-S-"
+[]A\
+[]A\A]A^A_
+AUATI
+D$'H
+D$8H
+=&*B
+D$8L
+[A\A]A^A_]
+-8&B
+|$8H
+=@$B
+AWAVI
+[A\A]A^A_]
+AWAVL
+AULc
+ATSH
+[A\A]A^A_]
+AWAVAUATL
+[]A\A]A^A_
+D$<I
+T$0H
+t$8I
+T$01
+|$@1
+T$@H
+ffff.
+AWAVAUL
+[A\A]A^A_]
+R8f1
+9H8s<D
+G	Ic
+K(A8
+|	A9
+C(E1
+D;`$u
+A9L$8
+L$8t$H
+D$HA
+disabled
+I#|$0L
+disabled
+D$@H
+T$(H
+D$8H
+|$HH
+D$0H
+D$ H
+tVIc
+D$TD
+D$hL
+T$XD
+d$xD
+l$PD
+t$ H
+@TA;
+D$0H
+t$8L
+D$(H
+D$0H
+t$8L
+D$(H
+Pt$@
+L$T1
+Pt%@
+E8l$$x
+<UnspeciH
+fied>
+B0H#
+t1M;
+H#p0
+P0H#
+t$lL
+t$0I#
+x0H#
+D$0I
+C(E1
+t$\H
+<$Tu
+<t A
+disabled
+P0H#
+I#x0
+disabled
+D$@H
+d$HH
+D$8H
+|$(H
+D$0H
+D$ H
+u0I#
+x0H#
+H#p0
+t$pH
+L$hD
+D$HH
+T$@D
+l$8D
+AWAVAUATUSH
+t$,H
+t$@L
+|$@H
+D$0H
+T$8H
+|$@H
+D$0H
+T$8H
+[]A\A]A^A_
+=BY!
+ffffff.
+AWE1
+AVAUATUSH
+[]A\A]A^A_
+D$0H
+D$(H
+D$ H
+D$`H
+D$hH
+d$pL
+D$xI
+D$hL
+t$HH
+\$ M
+D$PH
+D$`H
+D$@H
+D$pH
+D$8H
+D$xH
+[]A\
+ffffff.
+tpIc
+[]A\
+$,8khf
+tGHc
+tfHc
+[]A\
+AUATU
+[]A\A]A^
+t3H9{
+ffff.
+AVAUATUSH
+%p7!
+D$(H
+L$ H
+D$$)
+;D$$
+D$$H
+D$ D
+[]A\A]A^A_
+T$ L
+L$ L
+Present
+tCHc
+t?Hc
+tDHc
+Hct$
+tRHc
+Hct$
+AVAUATL
+D$<H
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+[]A\A]A^A_
+D$ L
+9D$<
+D$Hf.
+D$HH
+tj;+u
+L$8H
+D$<)
+;D$<
+D$<H
+D$8D
+t$8L
+L$8L
+\$@L
+Present
+AUATA
+[]A\A]
+\$ D
+ffff.
+fffff.
+[]A\
+AWAVAUI
+t$`L
+t$ H
+t$XH
+dH34%(
+[]A\A]A^A_
+D$ Hc
+|$0t
+D$8H
+D$8H
+D$XH
+|$GH
+\$HL
+|$ L
+l$8I
+D$0I
+|$(H
+|$GH
+D$XI
+|$ H
+t$8I
+l$ L
+|$GH
+\$HH
+t$0H
+|$ H
+|$ M
+vIH9
+[]A\
+=y<!
+=n;!
+[]A\
+[]A\L
+ffffff.
+AWAVAUATUSH
+[]A\A]A^A_
+ffff.
+AWAVAUI
+l$LL
+D$0H
+D$PH
+D$$E
+t$ 1
+[]A\A]A^A_
+|$0H
+D$0H
+\$(I
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ffffff.
+AVAUI
+ATU1
+t7Mc
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+D$ L
+t$0L
+l$ E1
+D$h1
+$3\$
+L$hdH3
+p[]A\A]A^
+AUATA
+l$`L
+[]A\A]A^
+ffff.
+=I !
+AWAVAUATUSH
+=IfI
+53fI
+[]A\A]A^A_
+Unregistered
+Request Sent
+Auth. Sent
+Registered
+Rejected
+Timeout
+No Authentication
+Unknown
+chan_iax2.c
+&iaxsl[callno1]
+&iaxsl[callno0]
+&(oldlist)->lock
+Memory allocation error
+&(varlist)->lock
+&(newlist)->lock
+&iaxsl[callno]
+chan_iax2
+&thread->lock
+&thread->cond
+&thread->init_lock
+&thread->init_cond
+ChannelUpdate
+plaintext
+(Nothing)
+peercnts
+callno_pool
+Out of CallNumbers
+Parked on extension '%d'
+IAX2/%s-%d
+Unable to start PBX on %s
+iaxs[callno]->owner
+IAX2 JB interpolation
+&iaxsl[pvt->callno]
+&(&tpeers)->lock
+&tpeer->lock
+/var/tmp/%s-%ld
+Failed to stat '%s': %s
+Cannot open '%s': %s
+mmap failed: %s
+&(&firmwares)->lock
+%s/firmware/iax
+Loaded firmware '%s'
+regserver
+ipaddr
+iaxpeers
+regseconds
+_iax._udp
+&(&registrations)->lock
+&(list_head)->lock
+(None)
+&iaxsl[x]
+(none)
+iax2 show cache
+&(&dpcache)->lock
+Wait.
+Exp.
+Exten
+Peer/Context
+Flags
+EXISTS|
+NONEXISTENT|
+CANEXIST|
+PENDING|
+TIMEOUT|
+TRANSMITTED|
+MATCHMORE|
+UNKNOWN|
+(expired)
+aes128
+,keyrotate
+iax2 test losspct
+UNREACHABLE
+UNKNOWN
+Unmonitored
+LAGGED (%d ms)
+OK (%d ms)
+like
+Mask
+Host
+Name/Username
+Description
+Port
+ActionID
+start
+Peer status list will follow
+ActionID: %s
+ChanObjectType: peer
+IPaddress: %s
+Mask: %s
+Port: %d
+Dynamic: %s
+Trunk: %s
+Encryption: %s
+Status: %s
+ObjectName: %s
+osptoken
+peerip
+peername
+secure_signaling
+secure_media
+I should never be called!
+Sending %d on %d/%d to %s:%d
+Received error: %s
+&iaxsl[fr->callno]
+&(&idle_list)->lock
+&(&dynamic_list)->lock
+iax2_process_thread
+socket_process
+Error: %s
+&(&active_list)->lock
+&to_here->lock
+IAX2
+Noop
+PeerStatus
+IAX/Registry
+IAX2/%s
+Really destroying %d now...
+IAXpeers
+IAXpeerlist
+IAXnetstats
+IAXregistry
+IAX2Provision
+IAX2 ACL Change
+permit
+deny
+setvar
+disallow
+trunk
+auth
+forceencryption
+transfer
+mediaonly
+codecpriority
+caller
+disabled
+reqonly
+immediate
+forcejitterbuffer
+dbsecret
+fullname
+cid_number
+accountcode
+mohinterpret
+mohsuggest
+parkinglot
+language
+amaflags
+inkeys
+maxauthreq
+adsi
+connectedline
+send
+receive
+requirecalltoken
+auto
+%s;%s
+asreceived
+dynamic
+host
+iaxusers
+type
+friend
+user
+IAX2 user ACL: 
+IAX2 Network Change
+Socket: %s
+Can't bind: %s
+0.0.0.0
+default
+mailbox
+hasvoicemail
+description
+255.255.255.255
+defaultip
+sourceaddress
+mask
+regexten
+peercontext
+username
+sendani
+outkey
+qualify
+%30d
+qualifysmoothing
+qualifyfreqok
+qualifyfreqnotok
+timezone
+maxcallnumbers
+%10hu
+IAX MWI subscription
+peercnt
+Timer failed acknowledge
+&drop->lock
+iax2 show callnumber usage
+Callno Limit
+Callno Usage
+%-15s %-12s %-12s
+%-15s %-12d %-12d
+iax2 show threads
+IAX2 Thread Information
+Idle Threads:
+Active Threads:
+Dynamic Threads:
+<Unregistered>
+Registrations will follow
+iax2 show registry
+Perceived
+dnsmgr
+State
+Refresh
+%d IAX2 registrations.
+iax2 show firmware
+Size
+Version
+Device
+%-15.15s  %-15.15s %-15.15s
+%-15.15s  %-15d %-15d
+iax2 set debug trunk {on|off}
+IAX2 Trunk Debugging Enabled
+iax2 set mtu
+-no secret-
+REQ Only
+Disabled
+Caller
+iax2 show users [like]
+Def.Context
+Authen
+Secret
+Codec Pref
+Key: %-15.15s 
+iax2 show stats
+&iaxsl[i]
+    IAX Statistics
+---------------------
+iax2 show peers
+iax2 show netstats
+%d active IAX channel%s
+iax2 set debug jb {on|off}
+Call %d is already a trunk
+codecs
+status
+no secret
+REQ only
+authmethods
+value
+access-control
+codec-preferences
+Key: %s
+Can't compress subclass %lld
+Out of memory
+Still have a callno...
+&iaxsl[heldcall]
+Seeding '%s' at %s for %d
+CURRENTCHANNEL
+callerid_name
+callerid_num
+codec[
+IAX2 Peer ACL: 
+Empty registration from %s
+No such host: %s
+prepending %s to prefs
+iax2 unregister
+Peer %s unregistered
+Peer %s not found
+Peer %s not registered
+iax2 set debug {on|off|peer}
+IAX2 Debugging Enabled
+IAX2 Debugging Disabled
+<Not set>
+<Set>
+Auto
+iax2 show peer
+  * Name       : %s
+  Description  : %s
+  Secret       : %s
+  Context      : %s
+  Parking lot  : %s
+  Mailbox      : %s
+  Dynamic      : %s
+  Callnum limit: %d
+  Calltoken req: %s
+  Trunk        : %s
+  Encryption   : %s
+<unspecified>
+  Callerid     : %s
+  Expire       : %d
+  ACL          : %s
+  Addr->IP     : %s Port %d
+  Defaddr->IP  : %s Port %d
+  Username     : %s
+  Codecs       : 
+  Codec Order  : (
+none
+  Status       : 
+Peer %s not found.
+(Unspecified)
+iax2 prune realtime
+Cache flushed successfully.
+&iaxsl[dcallno]
+No more space
+Out of resources
+Unable to create call
+Unable to load config %s
+users.conf
+general
+bindport
+Ignoring bindport on reload
+pingtime
+iaxthreadcount
+iaxmaxthreadcount
+nochecksums
+maxjitterbuffer
+resyncthreshold
+maxjitterinterps
+jittertargetextra
+lagrqtime
+maxregexpire
+minregexpire
+bindaddr
+Ignoring bindaddr on reload
+Binding IAX2 to '%s'
+Binding IAX2 to '%s:%d'
+authdebug
+delayreject
+allowfwdownload
+rtcachefriends
+rtignoreregexpire
+rtupdate
+rtsavesysname
+trunktimestamps
+rtautoclear
+trunkfreq
+trunkmtu
+trunkmaxsize
+autokill
+bandwidth
+medium
+high
+iaxcompat
+regcontext
+srvlookup
+maxcallnumbers_nonvalidated
+calltokenoptional
+addr_range
+shrinkcallerid
+hasiax
+registeriax
+callnumberlimits
+Section '%s' lacks type
+invalid calltokenoptional %s
+%s:%s@%s
+Allocate call number
+&iaxsl[reg->callno]
+iax2 reload
+Failed to create I/O context
+Failed to create new thread!
+network_thread
+%d helper threads started
+IAX Ready and Listening
+iax2_transmit
+si-%s
+, forced
+iax2 provision
+Unable to start the transfer
+Indicating condition %d
+passthrough
+IAX2OSPTOKEN
+OSP token is too long
+OSP token is undefined
+&(variablelist)->lock
+%s=%s
+asdf
+write() failed: %s
+Unable to make DP cache
+IAX2/%s/%s@%s
+IAX2/%s/%s
+Executing Dial('%s')
+Dial
+DIALSTATUS
+We're hanging up %s now...
+Really destroying %s now...
+Hungup '%s'
+UNAUTHENTICATED
+No such peer '%s'
+%s:%d:%d
+Unregistered IAX2 '%s' (%s)
+Registration Refused
+No authority found
+Answering IAX2 call
+Transferring '%s' to '%s'
+Write error: %s
+guest
+%s%d%u%d
+%u?%s
+Decoding mini with length %d
+$Revision: 382234 $
+mine
+<Unknown>
+<unknown>
+Packet Decrypt Failed!
+IAX2 %s(%d)
+iaxs[fr->callno]->owner
+Received packet %d, (%d, %u)
+Acking anyway
+&iaxsl[call_to_destroy]
+I can haz IAX vars?
+IAX subclass %d received
+For call=%d, set last=%d
+Hold
+No such context/extension
+Unable to negotiate codec
+No best format in '%s'???
+       > 
+dp_lookup_thread
+Call rejected by %s: %s
+BLINDTRANSFER
+Parking call '%s'
+Parking/%s
+IAXPeer/%s
+iax_park_thread
+Format for call is %s
+JitterBufStats
+LAGRQ
+Peer %s lag measured as %dms
+No best format in %s???
+I can haz IAX vars? w00t
+Destroying call %d
+Registry error
+ with %d new messages waiting
+ with 1 new message waiting
+ with no messages waiting
+Releasing %s and %s
+Invalid transfer request
+Datalen < 0?
+Failed to park call '%s'
+Registration failure
+iax2 show channels
+ID (Lo/Rem)
+Peer
+Channel
+LastMsg
+FirstMsg
+Format
+JitBuf
+Jitter
+Seq (Tx/Rx)
+show
+res_crypto
+asterisk/channel/iax2/peers
+asterisk/channel/iax2/users
+cid_num
+cid_name
+curauthreq
+zonetag
+expiry
+lastms
+maxms
+pokefreqok
+pokefreqnotok
+historicms
+maxcallno
+Provision an IAX device
+Reload IAX configuration
+Enable/Disable IAX debugging
+Display IAX cached dialplan
+List active IAX channels
+List available IAX firmware
+List defined IAX peers
+Display IAX statistics
+List defined IAX users
+IAX Remote Dialplan Switch
+IAXPEER
+IAXVAR
+IAX2_VARIABLE
+timing_read
+start_network_thread
+start_network_thread
+addr_range_hash_cb
+iax_debug_output
+iax_error_output
+peers_data_provider_get
+iax2_prov_app
+manager_iax2_show_peer_list
+manager_iax2_show_registry
+iax.conf
+load_module
+cleanup_thread_list
+handle_cli_iax2_set_debug
+jb_error_output
+jb_warning_output
+jb_debug_output
+handle_cli_iax2_show_cache
+handle_cli_iax2_show_channels
+handle_cli_iax2_show_firmware
+ast_cli_netstats
+complete_iax2_peers
+handle_cli_iax2_show_peer
+__iax2_show_peers
+handle_cli_iax2_show_registry
+handle_cli_iax2_show_stats
+handle_cli_iax2_show_threads
+complete_iax2_unregister
+iax2_exists
+iax2_canmatch
+iax2_exec
+cache_get_callno_locked
+find_cache
+iax2_matchmore
+__unload_module
+iax2_request
+iax2_devicestate
+__auto_congest
+auto_congest
+iax2_call
+scheduled_destroy
+iax2_hangup
+iax2_answer
+iax2_read
+iax2_write
+unlock_both
+lock_both
+iax2_start_transfer
+iax2_bridge
+iax2_indicate
+iax2_fixup
+wait_for_peercallno
+iax2_setoption
+iax2_queryoption
+send_packet
+encrypt_frame
+transmit_trunk
+_ast_realloc
+iax2_trunk_queue
+__attempt_transmit
+signal_condition
+handle_deferred_full_frames
+__get_from_jb
+get_from_jb
+calc_rxstamp
+unwrap_timestamp
+schedule_delivery
+iax2_lock_owner
+iax2_queue_hangup
+iax_firmware_append
+complete_dpreply
+complete_transfer
+store_by_transfercallno
+try_transfer
+registry_rerequest
+remove_by_transfercallno
+iax2_destroy
+iax2_ack_registry
+registry_authrequest
+create_addr
+iax2_provision
+check_provisioning
+iax_check_version
+update_registry
+__auth_reject
+auth_reject
+register_verify
+iax2_ami_channelupdate
+ast_iax2_new
+ast_iax2_new
+authenticate_verify
+iax2_queue_frame
+authenticate
+authenticate_reply
+log_jitterstats
+__auto_hangup
+auto_hangup
+iax_park_thread
+iax_park
+iax_park
+set_hangup_source_and_cause
+dp_lookup
+spawn_dp_lookup
+spawn_dp_lookup
+iax2_getpeertrunk
+check_access
+make_trunk
+iax2_queue_control_data
+store_by_peercallno
+remove_by_peercallno
+decode_frame
+raw_hangup
+calltoken_required
+handle_call_token
+replace_callno
+iax2_frame_free
+sched_delay_remove
+iax2_destroy_helper
+pvt_destructor
+new_iax
+peercnt_remove
+get_unused_callno
+peercnt_add
+realtime_update_peer
+reg_source_db
+try_firmware
+reload_firmware
+iax2_do_register_s
+iax2_do_register
+build_context
+user_destructor
+build_user
+build_callno_limits
+iax2_append_register
+iax2_register
+network_change_event_sched_cb
+network_change_event_cb
+add_calltoken_ignore
+delete_users
+set_config
+set_peercnt_limit_all_cb
+reload_config
+iax.conf
+acl_change_event_cb
+check_srcaddr
+defer_full_frame
+socket_read
+peer_set_srcaddr
+peer_destructor
+build_peer
+unlink_peer
+_ast_strdup
+register_peer_exten
+addr_range_match_address_cb
+set_peercnt_limit
+peercnt_modify
+__expire_registry
+expire_registry
+realtime_peer
+iax2_getpeername
+__send_ping
+send_ping
+__send_lagrq
+send_lagrq
+__find_callno
+find_tpeer
+socket_process_meta
+__iax2_poke_noanswer
+iax2_poke_noanswer
+iax2_poke_peer
+iax2_poke_peer_s
+socket_process_helper
+insert_idle_thread
+iax2_process_thread_cleanup
+iax2_process_thread
+find_idle_thread
+find_idle_thread
+__schedule_action
+attempt_transmit
+transmit_frame
+compress_subclass
+iax2_key_rotate
+calc_timestamp
+iax2_send
+_ast_malloc
+queue_signalling
+__send_command
+send_command_locked
+iax2_transfer
+acf_channel_read
+acf_iaxvar_read
+_ast_calloc
+iax2_dup_variable_datastore
+iax2_free_variable_datastore
+acf_iaxvar_write
+Inter Asterisk eXchange Driver (Ver 2)
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/utils.h
+Unable to assign new variable '%s'
+Unable to duplicate iax2 variables
+Unable to duplicate iax2 variable '%s'
+Uh, this isn't a good sign...
+calc_timestamp: call %d/%d: Timestamp slaved to delivery time
+predicted timestamp skew (%u) > max (%u), using real ts instead.
+Unable to cancel schedule ID %d.
+Channel: %s
+Channeltype: IAX2
+IAX2-callno-local: %d
+IAX2-callno-remote: %d
+IAX2-peer: %s
+custom addr_range %d found for %s
+peercnt entry %s modified limit:%d registered:%d
+Failed to unlock mutex '%s' (%s).  I will NOT try to relock. {{{ THIS IS A BUG. }}}
+ip callno count decremented to %d for %s
+Attempted to decrement total non calltoken validated callnumbers below zero... Callno is:%d 
+NON-CallToken callnumber limit is reached. Current:%d Max:%d
+IAX Park: Transferer channel %s, Transferee %s
+No IAX2 pvt found for callno '%d' !
+Loading up the channel with IAXVARs
+Memory allocation error while processing IAX2 variables
+Auto-congesting call due to slow response
+Created trunk peer for '%s:%d'
+Call Terminated, Incoming call is unencrypted while force encrypt is enabled.
+requested inkey '%s' for RSA authentication does not exist
+Encoding full frame %d/%d with length %d
+Encoding full frame %d/%d with length %d + %d padding (15=%02x)
+Encoding mini frame with length %d
+Cannot open '%s' for writing: %s
+Only read %d of %d bytes of data :(: %s
+Only write %d of %d bytes of data :(: %s
+Unable to read firmware header in '%s'
+'%s' is not a valid firmware file
+Invalid data length in firmware '%s'
+No or invalid device type specified for '%s'
+Firmware file '%s' fails checksum
+Error opening firmware directory '%s': %s
+%s is not a valid port number at line %d
+Format for registration is user[:secret]@host[:port] at line %d
+%-20.25s %4d %4d %4d %5d %3d %5d %4d %6d %4d %4d %5d %3d %5d %4d %6d %s%s %4s%s
+%s %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %s%s %s%s
+Usage: iax2 show cache
+       Display currently cached IAX Dialplan results.
+%-20.20s %-12.12s %-9.9s %-8.8s %s
+%-20.20s %-12.12s %-9d %-8d %s
+%-20.20s %-12.12s %-9.9s %-8d %s
+Usage: iax2 test losspct <percentage>
+       For testing, throws away <percentage> percent of incoming packets
+%-15.15s  %-15.15s %s  %-15.15s  %-8s  %s %-11s %-32.32s
+Event: PeerEntry
+%sChanneltype: IAX2
+ObjectName: %s
+ChanObjectType: peer
+IPaddress: %s
+IPport: %d
+Dynamic: %s
+Trunk: %s
+Encryption: %s
+Status: %s
+Description: %s
+%-15.15s  %-15.15s %s  %-15.15s  %-5d%s  %s %-11s %-32.32s
+%d iax2 peers [%d online, %d offline, %d unmonitored]
+Event: PeerlistComplete
+EventList: Complete
+ListItems: %d
+Response: Success
+%sMessage: IAX Peer status list will follow
+Event: PeerEntry
+%sChanneltype: IAX
+Event: PeerlistComplete
+%sListItems: %d
+ObjectName: %s
+ObjectUsername: %s
+This function requires a valid IAX2 channel
+IAX, got a network change event, renewing all IAX registrations.
+Out of idle IAX2 threads for I/O, pausing!
+schedule decrement of callno used for %s in %d seconds
+This should not be called without a peer call number.
+Reset limits for peercnts table
+Expiring registration for peer '%s'
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Unregistered
+Cause: Expired
+This should not be called without a transfer call number.
+Avoiding IAX destroy deadlock
+Peer '%s' is now UNREACHABLE! Time: %d
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Unreachable
+Time: %d
+Unable to support trunking on user '%s' without a timing interface
+Invalid AMA Flags: %s at line %d
+requirecalltoken must be set to a valid value. at line %d
+Peer '%s' has too new a protocol version (%d) for me
+Unable to retrieve database password for family/key '%s'!
+Non-local or unbound address specified (%s) in sourceaddress for '%s', reverting to default
+Unable to bind to sourceaddress '%s' for '%s', reverting to default
+Using sourceaddress %s for '%s'
+Unable to support trunking on peer '%s' without a timing interface
+Qualification of peer '%s' should be 'yes', 'no', or a number of milliseconds at line %d of iax.conf
+Qualification testing frequency of peer '%s' when OK should a number of milliseconds at line %d of iax.conf
+Qualification testing frequency of peer '%s' when NOT OK should be a number of milliseconds at line %d of iax.conf
+maxcallnumbers must be set to a valid number. %s is not valid at line %d.
+ip callno count incremented to %d for %s
+maxcallnumber limit of %d for %s has been reached!
+Beginning trunk processing. Trunk queue ceiling is %d bytes per host
+ - Trunk peer (%s:%d) has %d call chunk%s in transit, %d bytes backloged and has hit a high water mark of %d bytes
+Dropping unused iax2 trunk peer '%s:%d'
+Ending trunk processing with %d peers and %d call chunks processed
+schedule_delivery: pushed forward timestamp
+schedule_delivery: pushed back timestamp
+calc_rxstamp: call=%d: rxcore set to %d.%6.6d - %dms
+calc_rxstamp: call=%d: works out as %d.%6.6d
+Out of idle IAX2 threads for scheduling!
+Usage: iax2 show callnumber usage [IP address]
+       Shows current IP addresses which are consuming iax2 call numbers
+Non-CallToken Validation Callno Limit: %d
+Non-CallToken Validated Callno Used:   %d
+Total Available Callno:                %d
+Regular Callno Available:              %d
+Trunk Callno Available:                %d
+No call number table entries for %s found
+Usage: iax2 show threads
+       Lists status of IAX helper threads
+Thread %d: state=%d, update=%d, actions=%d, func='%s'
+Thread %c%d: state=%d, update=%d, actions=%d, func='%s'
+%d of %d threads accounted for with %d dynamic threads
+Event: RegistryEntry
+%sHost: %s
+DNSmanager: %s
+Username: %s
+Perceived: %s
+Refresh: %d
+State: %s
+Event: RegistrationsComplete
+EventList: Complete
+ListItems: %d
+Usage: iax2 show registry
+       Lists all registration requests and status.
+%-20.20s  %-6.6s  %-10.10s  %-20.20s %8.8s  %s
+%-20.20s  %-6.6s  %-10.10s  %-20.20s %8d  %s
+Usage: iax2 show firmware
+       Lists all known IAX firmware images.
+Usage: iax2 set debug trunk {on|off}
+       Enables/Disables debugging of IAX trunking
+IAX2 Trunk Debugging Disabled
+Usage: iax2 set mtu <value>
+       Set the system-wide IAX IP mtu to <value> bytes net or
+       zero to disable. Disabling means that the operating system
+       must handle fragmentation of UDP packets when the IAX2 trunk
+       packet exceeds the UDP payload size. This is substantially
+       below the IP mtu. Try 1240 on ethernets. Must be 172 or
+       greater for G.711 samples.
+Trunk MTU control disabled (mtu was %d)
+Trunk MTU must be between 172 and 4000
+Trunk MTU changed from %d to %d
+Usage: iax2 show users [like <pattern>]
+       Lists all known IAX2 users.
+       Optional regular expression pattern is used to filter the user list.
+%-15.15s  %-20.20s  %-15.15s  %-15.15s  %-5.5s  %-5.10s
+%-15.15s  %-20.20s  %-15.15d  %-15.15s  %-5.5s  %-5.10s
+Usage: iax2 show stats
+       Display statistics on IAX channel driver.
+Outstanding frames: %d (%d ingress, %d egress)
+%d timed and %d untimed transmits; MTU %d/%d/%d
+Packets in transmit queue: %d dead, %d final, %d total
+Usage: iax2 show peers [registered] [like <pattern>]
+       Lists all known IAX2 peers.
+       Optional 'registered' argument lists only peers with known addresses.
+       Optional regular expression pattern is used to filter the peer list.
+Usage: iax2 show netstats
+       Lists network status for all currently active IAX channels.
+                           -------- LOCAL ---------------------  -------- REMOTE --------------------
+Channel               RTT  Jit  Del  Lost   %%  Drop  OOO  Kpkts  Jit  Del  Lost   %%  Drop  OOO  Kpkts FirstMsg    LastMsg
+Usage: iax2 set debug jb {on|off}
+       Enables/Disables jitterbuffer debugging information
+IAX2 Jitterbuffer Debugging Enabled
+IAX2 Jitterbuffer Debugging Disabled
+Can't make trunk once a call has started!
+Unable to trunk call: Insufficient space
+Made call %d into trunk call %d
+Unable to find private key '%s'
+Unable to sign challenge with key
+No way to send secret to peer '%s' (their methods: %d)
+Asked to authenticate to %s with an RSA key, but they don't allow RSA authentication
+No challenge provided for RSA authentication to %s
+No private structure for packet?
+Supposed to send packet encrypted, but no key?
+Expanded trunk '%s:%d' to %d bytes
+Maximum trunk data space exceeded to %s:%d
+Sending IAX_COMMAND_RTKEY to rotate key to '%s'
+Unable to allocate call for poking peer '%s'
+IAX/Registry astdb entry missing expiry: '%s'
+IAX/Registry astdb host:port invalid - '%s'
+Failed to parse sockaddr '%s' for ipaddr of realtime peer '%s'
+realtime_peer: Bah, '%s' is expired (%d/%d/%d)!
+realtime_peer: Registration for '%s' still active (%d/%d/%d)!
+No registration for peer '%s' (from %s)
+Peer '%s' is not dynamic (from %s)
+Host %s denied access to register peer '%s'
+Host %s failed RSA authentication with inkeys '%s'
+Host '%s' trying to do RSA authentication, but we have no inkeys
+Host %s failed MD5 authentication for '%s' (%s != %s)
+Host %s did not provide proper plaintext password for '%s'
+requested inkey '%s' does not exist
+Checking device state for device %s
+iax2_devicestate: Found peer. What's device state of %s? addr=%d, defaddr=%d maxms=%d, lastms=%d
+No peer provided in the IAX2 dial string '%s'
+Usage: iax2 unregister <peername>
+       Unregister (force expiration) an IAX2 peer from the registry.
+Peer unknown: %s. Not unregistered
+Usage: iax2 set debug {on|off|peer peername}
+       Enables/Disables dumping of IAX packets for debugging purposes.
+IAX2 peer '%s' does not exist
+IAX2 Debugging Enabled for IP: %s:%d
+Usage: iax2 show peer <name>
+       Display details on specific IAX peer
+  Qualify      : every %dms when OK, every %dms when UNREACHABLE (sample smoothing %s)
+Usage: iax2 prune realtime [<peername>|all]
+       Prunes object(s) from the cache
+Peer %s was removed from the cache.
+Peer %s is not eligible for this operation.
+User %s was removed from the cache.
+User %s is not eligible for this operation.
+%s was not found in the cache.
+Creating new call structure %d
+Unable to create translator path for %s to %s on %s
+Config file %s is in an invalid format.  Aborting.
+Unable to load config %s again
+Config file users.conf is in an invalid format.  Aborting.
+Invalid tos value, refer to QoS documentation
+Invalid cos value, refer to QoS documentation
+Ignoring any changes to iaxthreadcount during reload
+iaxthreadcount must be at least 1.
+limiting iaxthreadcount to 256
+iaxmaxthreadcount must be at least 0.
+Limiting iaxmaxthreadcount to 256
+Unable apply binding to '%s' at line %d
+trunkfreq must be between 10ms and 1000ms, using 10ms instead.
+trunkfreq must be between 10ms and 1000ms, using 1000ms instead.
+trunkmtu value out of bounds (%d) at line %d
+Nice try, but autokill has to be >0 or 'yes' or 'no' at line %d
+bandwidth must be either low, medium, or high
+Invalid tos value at line %d, refer to QoS documentation
+Invalid cos value at line %d, refer to QoS documentation
+maxcallnumbers must be set to a valid number.  %s is not valid at line %d
+maxcallnumbers_nonvalidated must be set to a valid number.  %s is not valid at line %d.
+Error %d creating calltokenoptional entry %s
+subscribe_network_change_event
+subscribe_network_change_event value %s is not valid at line %d.
+shrinkcallerid value %s is not valid at line %d.
+Unable to create network socket: %s
+Binding IAX2 to default address 0.0.0.0:%d
+Could not allocate outsock list.
+Minimum registration interval of %d is more than maximum of %d, resetting minimum to %d
+Call number limit for %s could not be added, Invalid address range
+Call number limit for %s could not be added. Invalid limit %s
+Unknown type '%s' for '%s' in %s
+Invalid calltokenoptional address range - '%s' line %d
+I was supposed to send a LAGRQ with callno %d, but no such call exists.
+I was supposed to send a PING with callno %d, but no such call exists.
+Sending registration request for '%s'
+Unable to send registration request for '%s' without IP address
+Unable to create call for registration
+Registration created on call %d
+Reloading chan_iax2 in response to ACL change event.
+Usage: iax2 reload
+       Reloads IAX configuration from iax.conf
+Failed to create scheduler thread
+Failed to create netsock list
+Unable to register channel class %s
+Unable to register IAX switch
+Unable to start network thread
+Call initiated without encryption while forceencryption=yes option is set
+Provisioning '%s' from template '%s'
+No provisioning found for template '%s'
+Service identifier '%s', we think '%08x', they think '%08x'
+Can't provision a non-IAX device!
+Can't provision something with no IP?
+Provisioned IAXY at '%s' with '%s'= %d
+Usage: iax2 provision <host> <template> [forced]
+       Provisions the given peer or IP address using a template
+       matching either 'template' or '*' if the template is not
+       found.  If 'forced' is specified, even empty provisioning
+       fields will be provisioned as empty fields.
+Unable to find peer/address '%s'
+No template (including wildcard) matching '%s'
+Provisioning '%s' with template '%s'%s
+Can't masquerade, we're different...
+Operating with different codecs [%s] [%s] , can't native bridge...
+transfers are not supported for encrypted calls at this time
+Channel is already in use (%s)?
+No address associated with '%s'
+Encryption forced for call, but not enabled
+Call terminated. No secret given and force encrypt enabled
+Found an IAX variable store on this channel
+Found IAXVAR '%s' with value '%s' (to transmit)
+peer: %s, username: %s, password: %s, context: %s
+DP still has peer field or pending or callno (flags = %d, peer = blah, callno = %d)
+Unable to generate call for '%s'
+Unable to create pipe for comm
+Timeout waiting for %s exten %s
+No more waiter positions available
+Can't execute nonexistent extension '%s[@%s]' in data '%s'
+No dial application registered
+No final packet could be sent for callno %d
+Unable to schedule iax2 callno %d destruction?!!  Destroying immediately.
+Registered IAX2 '%s' (%s) at %s:%d
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Registered
+Address: %s
+Port: %d
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Unregistered
+Restricting registration for peer '%s' to %d seconds (requested %d)
+Address %s failed CallToken hash inspection
+Too much delay in IAX2 calltoken timestamp from address %s
+Determining if address %s with username %s requires calltoken validation.  Optional = %d  calltoken_required = %d 
+Call rejected, CallToken Support required. If unexpected, resolve by placing address %s in the calltokenoptional list or setting user %s requirecalltoken=no
+Decoding full frame with length %d (padding = %d) (15=%02x)
+Max retries exceeded to host %s on %s (type = %d, subclass = %u, ts=%d, seqno=%d)
+midget packet received (%d of %d min)
+Rejecting packet from '%s.%d' that is flagged as a video frame but is too short
+midget meta trunk packet received (%d of %d min)
+Unable to accept trunked packet from '%s:%d': No matching peer
+Unknown meta trunk cmd from '%s:%d': dropping
+Received trunked frame before first full voice frame
+Rejecting packet from '%s.%d' that is flagged as a full frame but is too short
+Undecodable frame received from '%s'
+Raw Hangup %s:%d, src=%d, dst=%d
+Packet arrived out of order (expecting %d, got %d) (frametype = %d, subclass = %d)
+Cancelling transmission of packet %d
+Really destroying %d, having been acked on final message
+Received iseqno %d not within window %d->%d
+No channel, so populating IAXVARs to the pvt, as an intermediate step.
+I have IAX variables, but they were not processed
+Ooh, voice format changed to '%s'
+Neat, somebody took away the channel at a magical time but i found it!
+I can haz iaxvars, but they is no good.  :-(
+Ooh, video format changed to %s
+Status: On
+Channel: %s
+Uniqueid: %s
+Status: Off
+Channel: %s
+Uniqueid: %s
+Rejected connect attempt from %s, who was trying to reach '%s@%s'
+Rejected connect attempt.  No secret present while force encrypt enabled.
+Rejected connect attempt from %s, request '%s@%s' does not exist
+Rejected connect attempt from %s, requested '%s' incompatible with our capability '%s'.
+Rejected connect attempt from %s, requested/capability '%s'/'%s' incompatible with our capability '%s'.
+Accepting UNAUTHENTICATED call from %s:
+%srequested format = %s,
+%srequested prefs = %s,
+%sactual format = %s,
+%shost prefs = %s,
+%spriority = %s
+Accepted unauthenticated TBD call from %s
+Unable to start lookup thread!
+Immediately destroying %d, having received hangup
+Immediately destroying %d, having received reject
+Async goto of '%s' to '%s@%s' failed
+Async goto of '%s' to '%s@%s' started
+Async goto not applicable on call %d
+Call accepted by %s (format %s)
+Rejected call to %s, format %s incompatible with our capability %s.
+JB STATS:%s ping=%d ljitterms=%d ljbdelayms=%d ltotlost=%d lrecentlosspct=%d ldropped=%d looo=%d lrecvd=%d rjitterms=%d rjbdelayms=%d rtotlost=%d rrecentlosspct=%d rdropped=%d rooo=%d rrecvd=%d
+Owner: %s
+Ping: %d
+LocalJitter: %d
+LocalJBDelay: %d
+LocalTotalLost: %d
+LocalLossPercent: %d
+LocalDropped: %d
+Localooo: %d
+LocalReceived: %d
+RemoteJitter: %d
+RemoteJBDelay: %d
+RemoteTotalLost: %d
+RemoteLossPercent: %d
+RemoteDropped: %d
+Remoteooo: %d
+RemoteReceived: %d
+Peer '%s' is now REACHABLE! Time: %d
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Reachable
+Time: %d
+Peer '%s' is now TOO LAGGED (%d ms)!
+ChannelType: IAX2
+Peer: IAX2/%s
+PeerStatus: Lagged
+Time: %d
+Peer %s: got pong, lastms %d, historicms %d, maxms %d
+Call on %s is already up, can't start on it
+I don't know how to authenticate %s to %s
+Host %s failed to authenticate as %s
+We don't do requested format %s, falling back to peer capability '%s'
+Accepting AUTHENTICATED call from %s:
+%srequested format = %s,
+%srequested prefs = %s,
+%sactual format = %s,
+%shost prefs = %s,
+%spriority = %s
+Accepted AUTHENTICATED TBD call from %s
+Rejected dial attempt from %s, request '%s@%s' does not exist
+Accepting DIAL from %s, formats = %s
+Immediately destroying %d, having received INVAL
+Received VNAK: resending outstanding frames
+Registry acknowledge on unknown registry '%s'
+ with %d new and %d old messages waiting
+Registered IAX2 to '%s', who sees us as %s%s
+ChannelType: IAX2
+Domain: %s
+Status: Registered
+Registration of '%s' rejected: '%s' from: '%s'
+ChannelType: IAX2
+Username: %s
+Status: Rejected
+Cause: %s
+Can't reregister without a reg
+Channel '%s' unable to transfer
+Channel '%s' ready to transfer
+Attempting media bridge of %s and %s
+we've been told to rotate our encryption key, but this isn't an encrypted call. bad things will happen.
+Receiving IAX_COMMAND_RTKEY to rotate key to '%s'
+Peer did not understand our iax command '%d'
+Unknown IAX command %d on %d/%d
+I can haz IAX vars, but they is no good :-(
+Received mini frame before first full video frame
+Received mini frame before first full voice frame
+Received out of order packet... (type=%d, subclass %d, ts = %d, last = %d)
+Received unsolicited registry ack from '%s'
+Received unsolicited registry authenticate request from '%s'
+No secret associated with peer '%s'
+Unauthenticated call limit reached
+Usage: iax2 show channels
+       Lists all currently active IAX channels.
+%-20.20s  %-15.15s  %-10.10s  %-11.11s  %-11.11s  %-7.7s  %-6.6s  %-6.6s  %s  %s  %9s
+%-20.20s  %-15.15s  %-10.10s  %5.5d/%5.5d  %5.5d/%5.5d  %-5.5dms  %-4.4dms  %-4.4dms  %-6.6s  %s%s  %3s%s
+Inter Asterisk eXchange (Ver 2)
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Prune a cached realtime lookup
+Set the IAX systemwide trunking MTU
+Enable/Disable IAX trunk debugging
+Enable/Disable IAX jitterbuffer debugging
+List active IAX channel netstats
+Show details on specific IAX peer
+Display IAX registration status
+Display IAX helper thread info
+Set IAX2 incoming frame loss percentage
+Unregister (force expiration) an IAX2 peer from the registry
+Show current entries in IP call number limit table
+>None Specified!
+Invalid SHORT
+,11.025khz
+,16khz
+,22.05khz
+,44.1khz
+,48khz
+Invalid DATETIME format!
+%Y-%m-%d  %T
+Invalid INT
+%lu (%s)
+\x%2.2x
+WARNING: %s
+Invalid BYTE
+       %-15.15s : %s
+%d bytes
+Invalid IPADDR
+Invalid Address
+IPV4 %s:%d
+Invalid length!
+Unknown version!
+$Revision: 369013 $
+iax2-parser.c
+Unknown IE
+PING   
+NEW    
+PONG   
+ACK    
+HANGUP 
+REJECT 
+ACCEPT 
+AUTHREQ
+AUTHREP
+INVAL  
+LAGRQ  
+LAGRP  
+REGREQ 
+REGAUTH
+REGACK 
+REGREJ 
+REGREL 
+VNAK   
+DPREQ  
+DPREP  
+DIAL   
+TXREQ  
+TXCNT  
+TXACC  
+TXREADY
+TXREL  
+TXREJ  
+QUELCH 
+UNQULCH
+POKE   
+PAGE   
+MWI    
+UNSPRTD
+TRANSFR
+PROVISN
+FWDWNLD
+FWDATA 
+TXMEDIA
+RTKEY  
+CTOKEN 
+(0?)
+DTMF_E 
+VOICE  
+VIDEO  
+CONTROL
+NULL   
+IAX    
+TEXT   
+IMAGE  
+HTML   
+CNG    
+MODEM  
+DTMF_B 
+%03d
+(%d?)
+RING   
+RINGING
+ANSWER 
+BUSY   
+TKOFFHK
+OFFHOOK
+CONGSTN
+FLASH  
+WINK   
+OPTION 
+RDKEY  
+RDUNKEY
+PROGRES
+PROCDNG
+HOLD   
+UNHOLD 
+VIDUPDT
+T38    
+SRCUPDT
+TXFER  
+CNLINE 
+REDIR  
+%s%s
+Assigned (%p)%s to (%p)%s
+USEDHCP
+SUBNET
+GATEWAY
+BINDPORT
+USERNAME
+PASSWORD
+LANGUAGE
+TYPEOFSERVICE
+FLAGS
+FORMAT
+SERVERPORT
+NEWAESKEY
+PROV VERSION
+ALTSERVERIP
+CALLED NUMBER
+CALLING NUMBER
+CALLING NAME
+CALLED CONTEXT
+CAPABILITY
+CAPABILITY2
+FORMAT2
+ADSICPE
+DNID
+AUTHMETHODS
+CHALLENGE
+MD5 RESULT
+RSA RESULT
+APPARENT ADDRESS
+REFRESH
+DIALPLAN STATUS
+CALL NUMBER
+CAUSE
+UNKNOWN IAX CMD
+MESSAGE COUNT
+AUTO ANSWER REQ
+TRANSFER ID
+REFERRING DNIS
+PROVISIONING
+AES PROVISIONG
+DATE TIME
+DEVICE TYPE
+SERVICE IDENT
+FIRMWARE VER
+FW BLOCK DESC
+FW BLOCK DATA
+PROVISIONG VER
+CALLING PRESNTN
+CALLING TYPEOFNUM
+CALLING TRANSITNET
+SAMPLINGRATE
+CAUSE CODE
+ENCRYPTION
+ENCRYPTION KEY
+CODEC_PREFS
+RR_JITTER
+RR_LOSS
+RR_PKTS
+RR_DELAY
+RR_DROPPED
+RR_OUTOFORDER
+CALLTOKEN
+Total Prov IE length of %d bytes exceeds remaining prov frame length of %d bytes
+       Unknown Prov IE %03d  : Present
+%s-Frame Retry[%s] -- OSeqno: %3.3d ISeqno: %3.3d Type: %s Subclass: %s
+   Timestamp: %05lums  SCall: %5.5d  DCall: %5.5d [%s:%d]
+Total IE length of %d bytes exceeds remaining frame length of %d bytes
+   Unknown IE %03d  : Present
+Out of space for ie '%s' (%d), need %d have %d
+Information element length exceeds message size
+Expecting capability to be %d bytes long but was %d
+Expecting format to be %d bytes long but was %d
+Expecting version to be %d bytes long but was %d
+Expecting adsicpe to be %d bytes long but was %d
+Expecting samplingrate to be %d bytes long but was %d
+Expecting authmethods to be %d bytes long but was %d
+Expecting encryption to be %d bytes long but was %d
+Expecting refresh to be %d bytes long but was %d
+Expecting dpstatus to be %d bytes long but was %d
+Expecting callno to be %d bytes long but was %d
+Expecting causecode to be single byte but was %d
+Expected single byte Unknown command, but was %d long
+Expecting msgcount to be %d bytes long but was %d
+Expecting transferid to be %d bytes long but was %d
+Expecting date/time to be %d bytes long but was %d
+Expecting firmwarever to be %d bytes long but was %d
+Expected block desc to be %d bytes long but was %d
+Expected provisioning version to be %d bytes long but was %d
+Expected single byte callingpres, but was %d long
+Expected single byte callington, but was %d long
+Expecting callingtns to be %d bytes long but was %d
+Expected jitter rr to be %d bytes long but was %d
+Expected loss rr to be %d bytes long but was %d
+Expected packets rr to be %d bytes long but was %d
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/strings.h
+Expected OSP token block index to be 0~%d but was %d
+Ignoring unknown information element '%s' (%d) of length %d
+Invalid information element contents, strange boundary
+Losing frame data because destination buffer size '%d' bytes not big enough for '%d' bytes in the frame
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/threadstorage.h
+Attempt to double free frame detected
+ast_threadstorage_get
+iax_frame_new
+iax_frame_wrap
+_ast_calloc
+ast_str_create
+&provlock
+iax2-provision.c
+template
+serverport
+altserver
+pass
+$Revision: 373368 $
+<none>
+iax2 show provisioning
+== %s ==
+Base Templ:   %s
+Username:     %s
+Secret:       %s
+Language:     %s
+Bind Port:    %d
+Server:       %s
+Server Port:  %d
+Alternate:    %s
+Flags:        %s
+Format:       %s
+TOS:          0x%x
+v0x%08x
+iax/provisioning/cache
+v%30x
+iaxprov.conf
+Out of memory!
+Display iax provisioning
+secure
+heartbeat
+disablecid
+disablecw
+disablecidcw
+disable3way
+Unable to find base template '%s' for creating '%s'.  Trying '%s'
+Unable to locate default base template '%s' for creating '%s', omitting.
+Ignoring invalid %s '%s' for '%s' at line %d
+Ignoring invalid codec '%s' for '%s' at line %d
+Truncating username from '%s' to '%s' for '%s' at line %d
+Truncating password from '%s' to '%s' for '%s' at line %d
+Truncating language from '%s' to '%s' for '%s' at line %d
+Unknown keyword '%s' in definition of '%s' at line %d
+Usage: iax2 show provisioning [template]
+       Lists all known IAX provisioning templates or a
+       specific one if specified.
+No provisioning templates found
+No provisioning template matching '%s' found
+ast_db_get failed to retrieve iax/provisioning/cache/%s
+Unable to create provisioning packet for '%s'
+Retrieved cached version '%s' = '%08x'
+Loaded provisioning template '%s'
+No IAX provisioning configuration found, IAX provisioning disabled.
+iax_template_parse
+_ast_calloc
+iax_process_template
+iax_provision_reload
+iax_provision_free_templates
+iax_show_provisioning
+iax_provision_version
+iax_provision_build
+_ast_strdup
+iax_prov_complete_template
+;*3$"
+zPLR
+7e188f7e8f4d83eb438971816ebcf5e0
+chan_iax2.so.debug
+7zXZ
+D+ZE9
+4?-C
+`* V
+w0Q,
+5LS8
+o9L	a
+<bGY>*|(
+t/Y$m1
+-W;i
+>V5_
+5B	~
+$McE
+"V\E
+;@t.
+r"!D
+l}S_o
+R#!Dw
+c"Re
+D`l;
+6ivf
+IylL
+UiI!
+py(Kcq	M 
+I7 9
+)0>y"
+OjhJ
+c_BS
+1)DA
+6P$b
+r0oW
+FEUe
+?%6<
+OF1%
+"LO,
+h>sTR
+h< C
+SL1M#Q
+i?w3
+x2ws)
+K6)M
+AA9L
+|h a
+^odl
+sLBbk
+e]b-~
+D{yp
+YrY]
+#5 h
+i8z^zo
+_0u5
+Vc~@
++j\/&
+|D7^
+J	0*$R
+qFpydhYh
+nh&,
+N{'I
+uHNm
+!#3}}
+*	U.R<
+blT@
+4|U'
+~low
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

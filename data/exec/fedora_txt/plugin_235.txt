@@ -1,0 +1,226 @@
+yly9
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_malloc
+go_range_increasing
+value_area_get_width
+value_area_get_height
+value_new_error_std
+collect_floats_value_with_info
+g_slist_free
+value_get_as_float
+floor
+g_free
+gnm_slist_sort_merge
+g_array_new
+g_array_append_vals
+gnm_strip_missing
+g_array_free
+g_log
+g_malloc0
+gnm_fourier_fft
+value_new_array_non_init
+value_new_float
+go_cspline_init
+go_cspline_get_value
+go_cspline_destroy
+go_cspline_get_values
+function_iterate_argument_values
+value_release
+value_new_error_VALUE
+g_realloc
+value_new_error_NA
+value_dup
+go_cspline_get_integrals
+go_plugin_depends
+go_plugin_header
+TimeSeriesAnalysis_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+%z- 
+%r- 
+%j- 
+%b- 
+%Z- 
+%R- 
+%J- 
+%B- 
+%:- 
+%2- 
+%*- 
+%"- 
+ATSubH
+AUATE
+[]A\A]A^A_
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+H;|$
+AWAVE
+[]A\A]A^A_
+AWE1
+[]A\A]A^A_
+fffff.
+\$xH
+\$`H
+l$XI
+L$hL
+D$PI
+D$(t0H
+|$XH
+t$PL
+T$lL
+T$hH
+t$(H
+|$(H
+D$h9
+t$lH
+;D$l
+L$hHcD$lH
+T$lL
+t$lH
+L$HE1
+D$HH
+9D$l
+YD$8
+9\$l
+9D$l
+|$Xf
+D$4H
+T$hH
+9D$h
+T$lD
+D$hH
+|$(A
+l$lI
+9l$l
+ffffff.
+uhHc
+l$ L
+t$(L
+|$0H
+fffff.
+D$xI
+T$@L
+D$HH
+T$`I
+D$,H
+D$\H
+T$PH
+D$<H
+Hc|$<H
+D$,H
+D$<E
+D$<E1
+D$0J
+\$<H
+D$<1
+D$0H
+T$<H
+D$<1
+D$0H
+T$ L
+L$<E1
+D$0H
+AVAUI
+|$ A
+D$ A
+A9l$
+[]A\A]A^
+fff.
+l$ L
+t$(L
+|$0H
+This should not happen. n0=%d n1=%d
+Abscissas,Ordinates,Targets,Interpolation
+Ordinates,Filter,Abscissas,Interpolation,Number
+@FUNCTION=interpolation
+@SYNTAX=interpolation(abscissas,ordinates,targets[,interpolation])
+@DESCRIPTION= 
+interpolation returns interpolated values corresponding
+to the given abscissa targets as a one column matrix.
+@abscissas are the absicssas of the data to interpolate.
+@ordinates are the ordinates of the data to interpolate.
+* Strings and empty cells in @abscissas and @ordinates are simply ignored.
+@targets are the abscissas of the interpolated data. If several data
+are provided, they must be in the same column, in consecutive cells
+@interpolation is the method to be used for the interpolation;
+possible values are:
+- 0: linear;
+- 1: linear with averaging;
+- 2: staircase;
+- 3: staircase with averaging;
+- 4: natural cubic spline;
+- 5: natural cubic spline with averaging.
+If an averaging method is used, the number of returned values
+is one less than the number of targets since the evaluation is made by
+averaging the interpolation over the interval between two consecutive data;
+in that case, the targets values must be given in increasing order.
+@FUNCTION=periodogram
+@SYNTAX=periodogram(ordinates,[filter,[abscissas,[interpolation,[number]]]])
+@DESCRIPTION= 
+periodogram returns the periodogram of the data
+as a one column matrix.
+@ordinates are the ordinates of the data to interpolate.
+@filter gives the window function to  be used. Possible values are:
+- 0: no filter (rectangular window);
+- 1: Bartlett (triangular window);
+- 2: Hahn (cosine window);
+- 3: Welch (parabolic window);
+@abscissas are the absicssas of the data to interpolate. If no
+abscissa is given, it is supposed that the data absicssas are regularly
+spaced. Otherwise, an interpolation method will be used to evaluate
+regularly spaced data.
+* Strings and empty cells in @abscissas and @ordinates are simply ignored.
+@interpolation is the method to be used for the interpolation;
+possible values are:
+- 0: linear;
+- 1: linear with averaging;
+- 2: staircase;
+- 3: staircase with averaging;
+- 4: natural cubic spline;
+- 5: natural cubic spline with averaging.
+@number is the number of interpolated data to be used. If not given,
+a default number is automatically evaluated.
+munG
+goffice
+gnumeric
+1.8.2
+interpolation
+AAA|f
+periodogram
+A|fAff
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

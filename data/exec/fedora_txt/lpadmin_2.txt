@@ -1,0 +1,296 @@
+/lib64/ld-linux-x86-64.so.2
+libz.so.1
+__gmon_start__
+_Jv_RegisterClasses
+libcups.so.2
+httpEncryption
+cupsMarkOptions
+ippPort
+_cups_strlcpy
+_cupsStrAlloc
+cupsFilePrintf
+ppdOpenFile
+ppdClose
+_cupsSetLocale
+httpConnectEncrypt
+ippAddBoolean
+_cupsLangPrintf
+cupsSetEncryption
+_cupsLangPuts
+cupsTempFile2
+cupsDoRequest
+ippAddStrings
+cupsFileOpen
+httpClose
+ppdMarkDefaults
+httpAssembleURIf
+ippNewRequest
+ippFindAttribute
+cupsSetUser
+cupsGetOption
+cupsFileGets
+cupsGetPPD
+cupsAddOption
+cupsLastErrorString
+ippAddString
+cupsParseOptions
+cupsEncryption
+cupsSetServer
+ippAddInteger
+cupsUser
+cupsServer
+ppdFindMarkedChoice
+ippDelete
+cupsLastError
+cupsDoFileRequest
+cupsEncodeOptions2
+cupsFileClose
+libgnutls.so.26
+libgcrypt.so.11
+libdl.so.2
+libgpg-error.so.0
+libavahi-common.so.3
+libavahi-client.so.3
+libpthread.so.0
+__errno_location
+libm.so.6
+libcrypt.so.1
+libaudit.so.1
+libselinux.so.1
+libc.so.6
+__stack_chk_fail
+unlink
+stdout
+strcasecmp
+__ctype_b_loc
+stderr
+strncasecmp
+__cxa_finalize
+strcmp
+strerror
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+AWAVAUA
+D$81
+<4vMH
+T$8dH3
+H[]A\A]A^A_
+L$0H
+T$(H
+|$(H
+|$(H
+L$0H
+L$0H
+L$0H
+L$0H
+T$0I
+D$ L
+L$0H
+L$0H
+T$(H
+=0/ 
+ATSubH
+=8- 
+[A\]
+=@* 
+=&* 
+tt<@tp< vU<
+tQ</tM<#
+<@t!< v0<
+t,</f
+t&<#t"H
+AWAVI
+ATUSH
+t$0H
+L$0H
+L$0H
+L;|$(tuJ
+t:(H
+T$ u
+[]A\A]A^A_
+t$0E1
+~(E1
+|+(A
+T$(J
+D*(I
+|$0Mc
+T$(I
+t$0E1
+L$0H
+t$ H
+L$ H
+AWAVI
+ATUH
+t$0H
+L$0H
+;\$(
+L$0H
+t5Ic
+T$ H
+t$(Hc
+[]A\A]A^A_
+L$0H
+fffff.
+t$ H
+L$ H
+[]A\
+t$ H
+L$ H
+[]A\
+AVAUATA
+T$`H
+L$HdH
+t$pH
+|$hL
+L$pH
+|$hH
+L$pH
+|$8H
+t$`H
+T$PH
+|$XH
+t$`L
+|$XH
+D$@f
+t$0H
+L$0H
+t$`H
+L$dH
+t$8H
+L$(H
+DL$P
+T$PH9T$Xt
+[]A\A]A^A_
+|$8H
+t$pE1
+|$hH
+t$8H
+T$XH
+T$PH9T$Xt
+l$ L
+t$(L
+|$0H
+localhost
+/classes/%s
+printer-uri
+member-names
+/printers/%s
+member-uris
+/admin/
+lpadmin: %s
+/classes/
+printer-state
+printer-is-accepting-jobs
+printer-type
+requested-attributes
+requesting-user-name
+protocol
+port-monitor
+tbcp
+*Default
+PageRegion
+PageSize
+PaperDimension
+ImageableArea
+Custom
+*Default%s: %s
+ppd-name
+allow:
+requesting-user-name-allowed
+deny:
+requesting-user-name-denied
+device-uri
+printer-info
+printer-location
+lpadmin: Printer %s is already a member of class %s.
+lpadmin: No member names were seen!
+lpadmin: Printer %s is not a member of class %s.
+lpadmin: Unable to open PPD file "%s" - %s
+lpadmin: Unable to connect to server: %s
+lpadmin: Unable to add a printer to the class:
+         You must specify a printer name first!
+lpadmin: Expected class name after '-c' option!
+lpadmin: Class name can only contain printable characters!
+lpadmin: Expected printer name after '-d' option!
+lpadmin: Printer name can only contain printable characters!
+lpadmin: Expected hostname after '-h' option!
+lpadmin: Expected interface after '-i' option!
+lpadmin: Expected model after '-m' option!
+lpadmin: Expected name=value after '-o' option!
+lpadmin: Expected printer after '-p' option!
+lpadmin: Unable to remove a printer from the class:
+         You must specify a printer name first!
+lpadmin: Expected class after '-r' option!
+%s: Error - expected username after '-U' option!
+lpadmin: Expected allow/deny:userlist after '-u' option!
+lpadmin: Unknown allow/deny option "%s"!
+lpadmin: Expected device URI after '-v' option!
+lpadmin: Expected printer or class after '-x' option!
+lpadmin: Expected description after '-D' option!
+lpadmin: Expected file type(s) after '-I' option!
+lpadmin: Warning - content type list ignored!
+lpadmin: Expected location after '-L' option!
+lpadmin: Expected PPD after '-P' option!
+lpadmin: Unknown option '%c'!
+lpadmin: Unknown argument '%s'!
+lpadmin: Unable to set the printer options:
+         You must specify a printer name first!
+Usage:
+    lpadmin [-h server] -d destination
+    lpadmin [-h server] -x destination
+    lpadmin [-h server] -p printer [-c add-class] [-i interface] [-m model]
+                       [-r remove-class] [-v device] [-D description]
+                       [-P ppd-file] [-o name=value]
+                       [-u allow:user,user] [-u deny:user,user]
+lpadmin.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

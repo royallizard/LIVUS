@@ -1,0 +1,261 @@
+Q<<<
+rGBE
+8w83
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+curl_easy_setopt
+curl_easy_perform
+plugin_log
+__strdup
+free
+strcasecmp
+malloc
+pthread_mutex_init
+plugin_register_flush
+plugin_register_write
+time
+format_json_initialize
+format_json_finalize
+curl_easy_cleanup
+curl_easy_init
+curl_slist_append
+strlen
+ssnprintf
+pthread_mutex_lock
+pthread_mutex_unlock
+strcmp
+format_name
+escape_string
+uc_get_rate
+memcpy
+__assert_fail
+__stack_chk_fail
+format_json_value_list
+module_register
+plugin_register_complex_config
+memset
+__finite
+_Unwind_Resume
+__gcc_personality_v0
+libcurl.so.4
+libgcc_s.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+write_http.so
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+a_&	
+5jB 
+%lB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+%2B 
+%*B 
+%"B 
+%zA 
+%rA 
+%jA 
+=HA 
+ATSubH
+=7> 
+[A\]
+ffffff.
+AWAVI
+AUATUSH
+D$8H
+T$0H
+D$(H
+0D;{(}KH
+0D;{(|
+T$@H
+T$@H
+0E9f(
+[]A\A]A^A_
+E9f(
+fffff.
+fffff.
+l$ H
+AVAUATUH
+T$ H
+D;s@
+D$(D
+[]A\A]A^A_
+|$@1
+l$(H
+T$(H
+T$(H;
+T$(H
+|$(H
+t$@H
+T$(H
+T$(H;
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUATUSH
+t$81
+|$@H
+L$0D
+D$(dH
+t$8H
+|$@H
+H9D$8A
+l$P1
+D;k@
+T$0A
+[]A\A]A^A_
+T$0H
+D;k@
+d$8L+d$HH
+|$@H
+|$H1
+D;k@
+|$ A
+T$0A
+T$0A
+t$0H
+D$ H
+D$HH
+d$8H
+|$@H
+D$(L
+E;o@
+|$ A
+\$ H
+\$(H
+d$8H
+|$@1
+T$0L
+d$8H
+|$@1
+D$0L
+d$8H
+|$@H
+t$0H
+d$8H
+|$@L
+t$0H
+d$8H
+|$@L
+t$0H
+d$8H
+|$@L
+t$0H
+d$8H
+|$@L
+t$0H
+d$8H
+|$@L
+l$8H
+|$@H
+<$I)
+write_http plugin: curl_easy_perform failed with status %i: %s
+write_http plugin: The `%s' config option needs exactly one boolean argument.
+write_http plugin: The `%s' config option needs exactly one string argument.
+write_http plugin: strdup failed.
+write_http plugin: malloc failed.
+write_http plugin: Invalid format string: %s
+write_http plugin: Invalid configuration option: %s.
+write_http: wh_flush_nolock: format_json_finalize failed.
+write_http: wh_flush_nolock: Unknown format: %i
+curl plugin: curl_easy_init failed.
+Content-Type: application/json
+write_http plugin: wh_callback_init failed.
+write_http plugin: DS type does not match value list type
+write_http plugin: error with format_name
+0 == __extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (ds->type) && __builtin_constant_p (vl->type) && (__s1_len = strlen (ds->type), __s2_len = strlen (vl->type), (!((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) || __s2_len >= 4)) ? __builtin_strcmp (ds->type, vl->type) : (__builtin_constant_p (ds->type) && ((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) && (__s1_len = strlen (ds->type), __s1_len < 4) ? (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) ? __builtin_strcmp (ds->type, vl->type) : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) (vl->type); register int __result = (((__const unsigned char *) (__const char *) (ds->type))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (ds->type))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (ds->type))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (ds->type))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) && (__s2_len = strlen (vl->type), __s2_len < 4) ? (__builtin_constant_p (ds->type) && ((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) ? __builtin_strcmp (ds->type, vl->type) : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (ds->type); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) (vl->type))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) (vl->type))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) (vl->type))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) (vl->type))[3]); } } __result; }))) : __builtin_strcmp (ds->type, vl->type)))); })
+write_http plugin: uc_get_rate failed.
+write_http plugin: Unknown data source type: %i
+write_http plugin: error with wh_value_list_to_string
+write_http plugin: Command buffer too small: Need %zu bytes.
+command_len < cb->send_buffer_free
+User
+Password
+VerifyPeer
+VerifyHost
+CACert
+Format
+Command
+JSON
+StoreRates
+write_http
+collectd/4.10.3
+Accept:  */*
+Content-Type: text/plain
+Expect:
+curl plugin: malloc failed.
+%s:%s
+write_http.c
+:%llu
+:%li
+PUTVAL %s interval=%i %s
+wh_write_command
+wh_value_list_to_string
+counter
+unknown
+gauge
+derive
+absolute
+null
+"%s"
+,"time":%lu
+,"interval":%i
+host
+,"%s":%s
+plugin
+plugin_instance
+type
+type_instance
+"values":%s
+,"dstypes":%s
+,"dsnames":%s
+utils_format_json: uc_get_rate failed.
+format_json: Unknown data source type: %i
+;*3$"
+zPLR
+write_http.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.gcc_except_table
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

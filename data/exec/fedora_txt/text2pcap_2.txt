@@ -1,0 +1,404 @@
+/lib/ld-linux.so.2
+libglib-2.0.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+g_free
+g_strdup
+g_malloc
+g_strerror
+g_snprintf
+g_strlcpy
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+exit
+strncmp
+optind
+__isoc99_sscanf
+realloc
+stdin
+inet_pton
+__assert_fail
+strtol
+isatty
+strlen
+memcmp
+getopt
+clearerr
+strptime
+__fprintf_chk
+stdout
+fclose
+__memmove_chk
+strtoul
+__ctype_b_loc
+optarg
+stderr
+__memset_chk
+fileno
+fwrite
+fread
+gettimeofday
+localtime
+strchr
+mktime
+__cxa_finalize
+fopen64
+_IO_getc
+__libc_start_main
+ferror
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+__libc_csu_init
+_fp_hw
+GLIBC_2.0
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+D$T;
+[^_]
+t$Te
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+D$,1
+|$,e3=
+d$<[^_]
+T$$)
+d$([
+D$,1
+L$,e3
+t$Pe
+D$<1
+t$<e35
+d$@^_]
+UWV1
+D$\1
+L$(1
+D$LM<+
+|$\e3=
+d$`^_]
+D$\1
+T$(w
+D$(t
+T$Lf
+L$Pf
+|$\e3=
+d$l[^_]
+D$H	
+T$Hf
+D$<e
+D$l1
+t$$1
+|$le3=
+d$p^_]
+D$<1
+D$|1
+#D$L
+#D$D
+|$|e3=
+[^_]
+D$H#D$L
+D$@#D$D
+D$,1
+[^_]
+UWVS
+D$He
+D$\1
+D$Ff
+D$\e3
+d$l[^_]
+l$<1
+D$|1
+D$|e3
+[^_]
+<Iu%
+d$$[^
+d$ [^_
+d$ [^_
+UWVS
+D$L1
+t$t~k
+D$Le3
+d$\[^_]
+;D$,
+D$8)
+D$8)
+UWVS
+D$,1
+|$,e3=
+d$<[^_]
+d$ [^_
+t$0e
+;0t4
+d$$[^
+D$ e
+D$,1
+D$,e3
+d$<[^_]
+UWVS
+l$@e
+d$,[^_]
+D$,1
+D$,e3
+d$4[^
+UWVS
+D$L1
+|$Le3=
+d$\[^_]
+t$81
+L$,u$
+UWVS
+t$@e
+d$,[^_]
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+UWVS
+|$@e
+d$,[^_]
+UWVS
+d$,[^_]
+d$$[^
+d$ [^_
+d$([
+d$([
+d$([
+t$,U
+[^_]
+1.12.1
+File write error [%s] : %s
+Wrote packet of %u bytes.
+TRUE
+FALSE
+[[parse_preamble: "%s"]]
+FATAL ERROR: str is NULL
+[[append_to_preamble: "%s"]]
+(%s, %s "%s") -> (
+FATAL ERROR: Bad state (%d)
+, %s)
+PCAP-NG
+PCAP
+Bad argument for '-o': %s
+Bad argument for '-e': %s
+Bad argument for '-i': %s
+Bad src port for '-%c'
+Bad dest port for '-s'
+No tag specified for '-%c'
+Bad tag for '-%c'
+No ppi specified for '-%c'
+Bad ppi for '-%c'
+Bad src port for '-u'
+Bad dest port for '-u'
+Bad src port for '-T'
+Bad dest port for '-T'
+Bad src addr -%c '%s'
+Bad dest addr for -%c '%s'
+Standard input
+Standard output
+Input from: %s
+Output to: %s
+Output format: %s
+text2pcap.c
+input_file != ((void *)0)
+output_file != ((void *)0)
+Generated from input file %s.
+-------------------------
+Byte
+Offset
+Directive
+Text
+End-of-line
+Init
+Start-of-line
+Text2pcap %s (Git Rev Unknown from unknown)
+Generate a capture file from an ASCII hexdump of packets.
+See http://www.wireshark.org for more information.
+Usage: text2pcap [options] <infile> <outfile>
+where  <infile> specifies input  filename (use - for standard input)
+      <outfile> specifies output filename (use - for standard output)
+Input:
+  -o hex|oct|dec         parse offsets as (h)ex, (o)ctal or (d)ecimal;
+                         default is hex.
+  -t <timefmt>           treat the text before the packet as a date/time code;
+                         the specified argument is a format string of the sort
+                         supported by strptime.
+                         Example: The time "10:15:14.5476" has the format code
+                         "%%H:%%M:%%S."
+                         NOTE: The subsecond component delimiter, '.', must be
+                         given, but no pattern is required; the remaining
+                         number is assumed to be fractions of a second.
+                         NOTE: Date/time fields from the current date/time are
+                         used as the default for unspecified fields.
+  -D                     the text before the packet starts with an I or an O,
+                         indicating that the packet is inbound or outbound.
+                         This is only stored if the output format is PCAP-NG.
+  -a                     enable ASCII text dump identification.
+                         The start of the ASCII text dump can be identified
+                         and excluded from the packet data, even if it looks
+                         like a HEX dump.
+                         NOTE: Do not enable it if the input file does not
+                         contain the ASCII text dump.
+Output:
+  -l <typenum>           link-layer type number; default is 1 (Ethernet).  See
+                         http://www.tcpdump.org/linktypes.html for a list of
+                         numbers.  Use this option if your dump is a complete
+                         hex dump of an encapsulated packet and you wish to
+                         specify the exact type of encapsulation.
+                         Example: -l 7 for ARCNet packets.
+  -m <max-packet>        max packet length in output; default is %d
+Prepend dummy header:
+  -e <l3pid>             prepend dummy Ethernet II header with specified L3PID
+                         (in HEX).
+                         Example: -e 0x806 to specify an ARP packet.
+  -i <proto>             prepend dummy IP header with specified IP protocol
+                         (in DECIMAL).
+                         Automatically prepends Ethernet header as well.
+                         Example: -i 46
+  -4 <srcip>,<destip>    prepend dummy IPv4 header with specified
+                         dest and source address.
+                         Example: -4 10.0.0.1,10.0.0.2
+  -6 <srcip>,<destip>    replace IPv6 header with specified
+                         dest and source address.
+                         Example: -6 fe80:0:0:0:202:b3ff:fe1e:8329,2001:0db8:85a3:0000:0000:8a2e:0370:7334
+  -u <srcp>,<destp>      prepend dummy UDP header with specified
+                         source and destination ports (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -u 1000,69 to make the packets look like
+                         TFTP/UDP packets.
+  -T <srcp>,<destp>      prepend dummy TCP header with specified
+                         source and destination ports (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -T 50,60
+  -s <srcp>,<dstp>,<tag> prepend dummy SCTP header with specified
+                         source/dest ports and verification tag (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -s 30,40,34
+  -S <srcp>,<dstp>,<ppi> prepend dummy SCTP header with specified
+                         source/dest ports and verification tag 0.
+                         Automatically prepends a dummy SCTP DATA
+                         chunk header with payload protocol identifier ppi.
+                         Example: -S 30,40,34
+Miscellaneous:
+  -h                     display this help and exit.
+  -d                     show detailed debug of parser states.
+  -q                     generate no output at all (automatically disables -d).
+  -n                     use PCAP-NG instead of PCAP as output format.
+Start new packet (cont = %s).
+Failure processing time "%s" using time format "%s"
+   (defaulting to Jan 1,1970 00:00:00 GMT)
+timecode: %02d/%02d/%d %02d:%02d:%02d %d
+Format(%s), time(%u), subsecs(%u)
+FATAL ERROR: Bad hex number? [%s]
+--- Directive [%s] currently unsupported ---
+Inconsistent offset. Expecting %0X, got %0X. Ignoring rest of packet
+FATAL ERROR: got NULL str pointer in state (%d)
+No dest port specified for '-%c'
+No dest port specified for '-u'
+Bad source param addr for '-%c'
+No dest addr specified for '-%c'
+aDdhqe:i:l:m:no:u:s:S:t:T:4:6:
+Must specify input and output filename
+Cannot open file [%s] for reading: %s
+Cannot open file [%s] for writing: %s
+Dummy headers (-e, -i, -u, -s, -S -T) cannot be specified with link type override (-l)
+Generate dummy Ethernet header: Protocol: 0x%0X
+Generate dummy IP header: Protocol: %ld
+Generate dummy UDP header: Source port: %u. Dest port: %u
+Generate dummy TCP header: Source port: %u. Dest port: %u
+Generate dummy SCTP header: Source port: %u. Dest port: %u. Tag: %u
+Generate dummy DATA chunk header: TSN: %u. SID: %d. SSN: %d. PPID: %u
+text2pcap (Git Rev Unknown from unknown)
+Counters provided by text2pcap
+Read %u potential packet%s, wrote %u packet%s (%llu byte%s).
+main
+')uB
+*	5|z
+lEd/
+6 PQ
+pCRF
+Yg:a
+JZJ{.
+#FLR
+_QS}
+input in flex scanner failed
+bad buffer in yy_scan_bytes()
+out of dynamic memory in yyensure_buffer_stack()
+out of dynamic memory in yy_create_buffer()
+fatal flex scanner internal error--end of buffer missed
+fatal error - scanner input buffer overflow
+out of dynamic memory in yy_get_next_buffer()
+fatal flex scanner internal error--no action found
+out of dynamic memory in yy_scan_buffer()
+out of dynamic memory in yy_scan_bytes()
+;*2$"<
+text2pcap.debug
+7zXZ
++Guo
+HVg|9
+Bc%\
+V{G 
+lj<I
+gv=j
+G	v}
+l_gn:
+PRgB
+=&|@
+IghC.e
+b6rX
+:VPa
+uoTF
+#bqh
+E.Jl
+w}B\
+P>^B
+zr*p
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

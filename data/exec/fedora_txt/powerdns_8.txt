@@ -1,0 +1,350 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+llist_head
+free
+llist_destroy
+plugin_get_interval
+strcmp
+plugin_log
+plugin_get_ds
+parse_value
+hostname_g
+sstrncpy
+plugin_dispatch_values
+__stack_chk_fail
+socket
+unlink
+__errno_location
+bind
+chmod
+sstrerror
+close
+setsockopt
+connect
+strlen
+send
+recv
+malloc
+memcpy
+__assert_fail
+realloc
+__strdup
+__strtok_r
+strjoin
+strchr
+strcasecmp
+calloc
+cf_util_get_string
+llentry_create
+llist_append
+llist_create
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_shutdown
+libdl.so.2
+libc.so.6
+powerdns.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+=_D 
+=)D 
+tdUSH
+AVAUI
+ATUI
+|$@H
+D$(H
+localhosH
+D$8t
+[]A\A]A^
+5E@ 
+AWAV
+AUATI
+\$ dH
+5]@ 
+D$ L
+[]A\A]A^A_
+<$Ic
+AWAVAUATUSH
+L$ A
+[]A\A]A^A_
+AWAVAUATUSH
+l$ H
+l$(H
+[]A\A]A^A_
+HcK H
+AWAVAUATUSH
+L$81
+T$0H
+t$(H
+|$(f
+L$8dH3
+H[]A\A]A^A_
+SHOW * 
+AWAVAUATUSH
+D$81
+D$0H
+D$ D
+D$(09F(
+D$ L
+l$(H
+/var/runH
+ontrolso
+@ cketH
+/pdns_reH
+cursor.c
+D$01
+~LE1
+IcW L
+IcO I
+t$0H
+=30 
+/var/runH
+/pdns.co
+ntrolsocH
+t$8dH34%(
+H[]A\A]A^A_
+=A/ 
+-5/ 
+recursing-questions
+/var/run/collectd-powerdns
+socket
+unlink
+bind
+chmod
+setsockopt
+connect
+send
+recv
+powerdns.c
+buffer_size > 0
+malloc
+realloc
+get 
+strdup
+fields != NULL
+fields_num > 0
+Server
+Recursor
+Collect
+LocalSocket
+dns_question
+recurse
+tcp-queries
+udp-queries
+rd-queries
+recursing-answers
+dns_answer
+tcp-answers
+udp-answers
+recursion-unanswered
+udp-answers-bytes
+total_bytes
+cache_size
+packetcache-bytes
+packet-bytes
+packetcache-entries
+packet-entries
+packetcache-hit
+cache_result
+packet-hit
+packetcache-hits
+packetcache-miss
+packet-miss
+packetcache-misses
+packetcache-size
+packet
+key-cache-size
+meta-cache-size
+meta
+signature-cache-size
+signature
+query-cache-hit
+query-hit
+query-cache-miss
+query-miss
+dnsupdate-answers
+dnsupdate-answer
+dnsupdate-changes
+dnsupdate-queries
+dnsupdate-refused
+corrupt-packets
+ipt_packets
+corrupt
+deferred-cache-inserts
+counter
+cache-deferred_insert
+deferred-cache-lookup
+cache-deferred_lookup
+dont-outqueries
+qsize-a
+qsize-q
+servfail-packets
+servfail
+timedout-packets
+timeout
+udp4-answers
+udp4-queries
+queries-udp4
+udp6-answers
+udp6-queries
+queries-udp6
+security-status
+udp-do-queries
+udp-do_queries
+signatures
+noerror-answers
+dns_rcode
+NOERROR
+nxdomain-answers
+NXDOMAIN
+servfail-answers
+SERVFAIL
+sys-msec
+system
+user-msec
+user
+qa-latency
+dns_qtype
+total
+all-outqueries
+answers0-1
+answers1-10
+1_10
+answers10-100
+10_100
+answers100-1000
+100_1000
+answers-slow
+case-mismatches
+case_mismatches
+chain-resends
+chained
+client-parse-errors
+drops-client_parse_error
+concurrent-queries
+concurrent
+dlg-only-drops
+drops-delegation_only
+edns-ping-matches
+edns-ping_matches
+edns-ping-mismatches
+edns-ping_mismatches
+failed-host-entries
+entries-failed_host
+ipv6-outqueries
+outgoing-ipv6
+ipv6-questions
+incoming-ipv6
+malloc-bytes
+gauge
+malloc_bytes
+max-mthread-stack
+max_mthread_stack
+no-packet-error
+no_packet_error
+noedns-outqueries
+outgoing-noedns
+noping-outqueries
+outgoing-noping
+over-capacity-drops
+incoming-over_capacity
+negcache-entries
+negative
+nsspeeds-entries
+entries-ns_speeds
+nsset-invalidations
+ns_set_invalidation
+outgoing-timeouts
+drops-timeout_outgoing
+policy-drops
+drops-policy
+resource-limits
+drops-resource_limit
+server-parse-errors
+drops-server_parse_error
+spoof-prevents
+drops-spoofed
+tcp-client-overflow
+denied-client_overflow_tcp
+tcp-clients
+clients-tcp
+tcp-outqueries
+outgoing-tcp
+tcp-questions
+incoming-tcp
+throttled-out
+outgoing-throttled
+throttle-entries
+entries-throttle
+throttled-outqueries
+outgoing-throttle
+unauthorized-tcp
+denied-unauthorized_tcp
+unauthorized-udp
+denied-unauthorized_udp
+unexpected-packets
+unexpected
+uptime
+powerdns plugin: The lookup table returned type `%s', but I cannot find it via `plugin_get_ds'.
+powerdns plugin: type `%s' has %zu data sources, but I can only handle one.
+powerdns plugin: Cannot convert `%s' to a number.
+powerdns plugin: submit: Not found in lookup table: %s = %s;
+powerdns plugin: %s failed: %s
+powerdns plugin: Unknown socket type: %i
+get noerror-answers nxdomain-answers servfail-answers sys-msec user-msec qa-latency cache-entries cache-hits cache-misses questions
+powerdns plugin: strjoin failed.
+powerdns plugin: strdup failed.
+powerdns plugin: powerdns_get_data failed.
+powerdns plugin: powerdns_update_recursor_command failed.
+powerdns plugin: `llist_create' failed.
+powerdns plugin: `%s' needs exactly one string argument.
+powerdns plugin: calloc failed.
+powerdns plugin: The `Collect' option needs at least one argument.
+powerdns plugin: Only string arguments are allowed to the `Collect' option.
+powerdns plugin: realloc failed.
+powerdns plugin: Option `%s' not allowed here.
+powerdns plugin: socket_temp == NULL.
+powerdns plugin: llentry_create failed.
+powerdns_read_server
+powerdns_get_data_dgram
+powerdns_config_add_server
+;*3$"
+powerdns.so.debug
+7zXZ
+%gFt
+9TmAhK
+3-@}
+/@1Q=
+>\JA
+;=TI
+AsF`1
+Rt%l.O
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

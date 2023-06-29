@@ -1,0 +1,233 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+pr_log_debug
+__errno_location
+strerror
+__ctype_toupper_loc
+session
+pr_log_writefile
+dcgettext
+pr_response_add_err
+mod_create_ret
+pr_unregister_netio
+destroy_pool
+pr_alloc_netio
+pr_register_netio
+pr_response_add
+shutdown
+pr_trace_msg
+deflate
+write
+pr_signals_handle
+close
+inflateEnd
+deflateEnd
+strcasecmp
+strtol
+check_context
+pr_fs_valid_path
+add_config_param_str
+get_context_name
+pstrcat
+get_boolean
+add_config_param
+pcalloc
+read
+memcpy
+inflate
+palloc
+memset
+inflateInit2_
+deflateInit2_
+main_server
+find_config
+pr_feat_add
+pr_config_get_xfer_bufsz
+pr_signals_block
+pr_privs_root
+pr_log_openfile
+pr_privs_relinquish
+pr_signals_unblock
+pr_log_pri
+deflate_module
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+mod_deflate.so
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+ATSubH
+=h: 
+%l8 
+[A\]
+=(8 
+=#: 
+=f: 
+=N8 
+->8 
+=15 
+=_4 
+5x4 
+ATUSH
+[]A\A]A^
+[]A\A]1
+[]A\A]A^
+[]A\A]A^1
+[]A\A]A^
+fff.
+G0E1
+D$81
+l$ H
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+B I)
+59+ 
+50. 
+=e+ 
+ffffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+tpL9
+5+( 
+53* 
+-'* 
+=D' 
+fff.
+d$ H
+5	& 
+fffff.
+mod_deflate/0.5.5: using zlib 1.2.5
+declining MODE Z (wrong number of arguments: %d)
+declining MODE Z (RFC2228 mechanism '%s' in effect)
+mod_deflate/0.5.5: declining MODE Z (RFC2228 mechanism '%s' in effect)
+Unable to handle MODE Z at this time
+shutdown: pre-deflate zstream state: avail_in = %d, avail_out = %d
+shutdown: post-inflate zstream state: avail_in = %d, avail_out = %d (zerrno = %s)
+shutdown: error deflating data: [%d] %s: %s
+error writing to socket %d: %s
+%s: deflated %lu bytes to %lu bytes (%0.2lf%% compression)
+close: error closing deflating netio: [%d] %s
+error closing deflating netio: [%d] %s
+%s: inflated %lu bytes to %lu bytes (%0.2lf%% compression)
+close: error closing inflating netio: [%d] %s
+error closing inflating netio: [%d] %s
+%s: unsupported MODE Z option: %s
+%s: bad MODE Z option value: %s %s
+write: pre-deflate zstream state: avail_in = %d, avail_out = %d
+write: post-inflate zstream state: avail_in = %d, avail_out = %d (zerrno = %s)
+write: error deflating data: [%d] %s: %s
+wrote %d (of %lu) bytes of compressed of data to socket %d
+write: returning %d for %lu bytes
+read: returning %lu bytes of previously uncompressed data; no data read from client
+read: returning %lu bytes of previously uncompressed data (of %lu bytes total); no data read from client
+error reading from socket %d: %s
+read: read EOF from client, returning 0
+read: read %d bytes of compressed data from client
+read: processing %d bytes of leftover compressed data from client, plus %d additional new bytes from client
+read: processing %d bytes from client
+read: pre-inflate zstream state: avail_in = %d, avail_out = %d
+read: post-inflate zstream state: avail_in = %d, avail_out = %d (zerrno = %s)
+read: allocated new deflate buffer (size %lu)
+read: error inflating %lu bytes of data: [%d] %s: %s
+error inflating %lu bytes of data: [%d] %s
+open: error initializing for deflation: [%d] %s
+error initializing for deflation: [%d] %s
+open: error initializing for inflation: [%d] %s
+error initializing for inflation: [%d] %s
+mod_deflate/0.5.5: notice: unable to open DeflateLog '%s': %s
+mod_deflate/0.5.5: notice: unable to use DeflateLog '%s': parent directory is world-writeable
+mod_deflate/0.5.5: notice: unable to use DeflateLog '%s': cannot log to a symlink
+End of stream
+Need dictionary
+unknown
+Version error
+Buffer error
+Memory error
+Data error
+mod_deflate/0.5.5
+proftpd
+error registering netio: %s
+error unregistering netio: %s
+%s %s: unregistered netio
+unavailable
+deflate
+error deflating data: [%d] %s
+%s OK
+Bad number of parameters
+blocksize
+engine
+level
+%s: unknown MODE Z option: %s
+OPTS MODE Z OK
+missing arguments
+ context
+directive not allowed in 
+ is not a valid path
+expected Boolean parameter
+1.2.5
+DeflateEngine
+MODE Z
+DeflateLog
+none
+mod_deflate.c
+OPTS_MODE
+;*3$"
+mod_deflate.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,303 @@
+6 N*
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_shutdown
+llist_head
+free
+llist_destroy
+strcasecmp
+__strdup
+malloc
+realloc
+plugin_log
+sstrncpy
+llentry_create
+llist_append
+llist_create
+__assert_fail
+socket
+connect
+strlen
+send
+memcpy
+recv
+__errno_location
+sstrerror
+close
+__stack_chk_fail
+interval_g
+lookup_table_length
+lookup_table
+strcmp
+plugin_get_ds
+strtoll
+time
+hostname_g
+plugin_dispatch_values
+strtod
+unlink
+bind
+chmod
+__strtok_r
+strjoin
+default_server_fields_num
+default_server_fields
+strchr
+libc.so.6
+_edata
+__bss_start
+_end
+powerdns.so
+GLIBC_2.4
+GLIBC_2.2.5
+5R2 
+%T2 
+%R2 
+%J2 
+%B2 
+%:2 
+%22 
+%*2 
+%"2 
+%z1 
+%r1 
+%j1 
+%b1 
+%Z1 
+%R1 
+%J1 
+%B1 
+%:1 
+%21 
+%*1 
+%"1 
+ATSubH
+=p/ 
+ffffff.
+=s5 
+AWAVAUATUSH
+D$(1
+=~4 
+D$ 0
+T$(L
+d$ H
+/var/runI
+/pdns_reH
+cursor.cH
+ontrolsoL
+@ cket
+T$(1
+0;h(
+~UE1
+HcS H
+/var/runI
+/pdns.coI
+ntrolsocL
+8[]A\A]A^A_
+ffffff.
+AVAUATUSH
+[]A\A]A^A_
+ATUSH
+localhosH
+l$0H
+|$`H
+t$LH
+D$Tt
+T$HH
+D;|$
+D;|$
+L9l$
+D$ 1
+5b# 
+[]A\A]A^A_
+L9l$
+d$(L
+AVAUATUSH
+[]A\A]A^
+l$ H
+HcK H
+l$ H
+AWAVAUATUSH
+([]A\A]A^A_
+Server
+Recursor
+powerdns.c
+Collect
+LocalSocket
+socket
+connect
+send
+recv
+realloc
+/var/run/collectd-powerdns
+unlink
+bind
+chmod
+buffer_size > 0
+malloc
+get 
+strdup
+SHOW *
+fields != ((void *)0)
+fields_num > 0
+latencypacketcache-hit
+packetcache-miss
+packetcache-size
+query-cache-hit
+query-cache-miss
+recursing-answers
+recursing-questions
+tcp-answers
+tcp-queries
+udp-answers
+udp-queries
+dns_question
+recurse
+dns_answer
+cache_result
+packet-hit
+packet-miss
+cache_size
+packet
+query-hit
+query-miss
+corrupt-packets
+io_packets
+corrupt
+deferred-cache-inserts
+counter
+cache-deferred_insert
+deferred-cache-lookup
+cache-deferred_lookup
+qsize-a
+qsize-q
+servfail-packets
+servfail
+timedout-packets
+timeout
+udp4-answers
+udp4-queries
+queries-udp4
+udp6-answers
+udp6-queries
+queries-udp6
+noerror-answers
+dns_rcode
+NOERROR
+nxdomain-answers
+NXDOMAIN
+servfail-answers
+SERVFAIL
+sys-msec
+system
+user-msec
+user
+qa-latency
+cache-hits
+cache-misses
+dns_qtype
+total
+all-outqueries
+answers0-1
+answers1-10
+1_10
+answers10-100
+10_100
+answers100-1000
+100_1000
+answers-slow
+chain-resends
+chained
+client-parse-errors
+drops-client_parse_error
+concurrent-queries
+concurrent
+dlg-only-drops
+drops-delegation_only
+negcache-entries
+negative
+nsspeeds-entries
+gauge
+entries-ns_speeds
+nsset-invalidations
+ns_set_invalidation
+outgoing-timeouts
+drops-timeout_outgoing
+resource-limits
+drops-resource_limit
+server-parse-errors
+drops-server_parse_error
+spoof-prevents
+drops-spoofed
+tcp-client-overflow
+denied-client_overflow_tcp
+tcp-outqueries
+outgoing-tcp
+tcp-questions
+incoming-tcp
+throttled-out
+outgoing-throttled
+throttle-entries
+entries-throttle
+unauthorized-tcp
+denied-unauthorized_tcp
+unauthorized-udp
+denied-unauthorized_udp
+unexpected-packets
+unexpected
+powerdns plugin: `llist_create' failed.
+powerdns plugin: `%s' needs exactly one string argument.
+powerdns plugin: malloc failed.
+powerdns plugin: strdup failed.
+powerdns plugin: The `Collect' option needs at least one argument.
+powerdns plugin: Only string arguments are allowed to the `Collect' option.
+powerdns plugin: realloc failed.
+powerdns plugin: Option `%s' not allowed here.
+powerdns plugin: socket_temp == NULL.
+powerdns plugin: llentry_create failed.
+powerdns plugin: %s failed: %s
+powerdns plugin: submit: Not found in lookup table: %s = %s;
+powerdns plugin: The lookup table returned type `%s', but I cannot find it via `plugin_get_ds'.
+powerdns plugin: type `%s' has %i data sources, but I can only handle one.
+powerdns plugin: Cannot convert `%s' to a floating point number.
+powerdns plugin: Cannot convert `%s' to an integer number.
+powerdns plugin: Unknown socket type: %i
+get noerror-answers nxdomain-answers servfail-answers sys-msec user-msec qa-latency cache-entries cache-hits cache-misses questions
+powerdns plugin: strjoin failed.
+powerdns plugin: powerdns_get_data failed.
+powerdns plugin: powerdns_update_recursor_command failed.
+powerdns_config_add_server
+powerdns_get_data_dgram
+powerdns_read_server
+powerdns.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

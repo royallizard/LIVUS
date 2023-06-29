@@ -1,0 +1,265 @@
++i'D
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+open
+write
+_sys_siglist
+strlen
+_itoa_lower_digits
+memset
+writev
+backtrace
+__backtrace_symbols_fd
+read
+__errno_location
+close
+sigemptyset
+sigaction
+raise
+getenv
+malloc
+sigaltstack
+__strcasecmp
+__strcasestr
+__ctype_b_loc
+access
+__strdup
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libSegFault.so
+GLIBC_2.3
+GLIBC_PRIVATE
+GLIBC_2.3.3
+GLIBC_2.1.3
+GLIBC_2.1
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+D$ ]
+D$ P
+[^_]
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+Pj0Q
+[^_]
+*** 
+signal 
+Register dump:
+ EAX: 
+   EBX: 
+   ECX: 
+   EDX: 
+ ESI: 
+   EDI: 
+   EBP: 
+   ESP: 
+ EIP: 
+   EFLAGS: 
+ CS: 
+   DS: 
+   ES: 
+   FS: 
+   GS: 
+   SS: 
+ Trap: 
+   Error: 
+   OldMask: 
+ ESP/signal: 
+   CR2: 
+ FPUCW: 
+   FPUSW: 
+   TAG: 
+ IPOFF: 
+   CSSEL: 
+   DATAOFF: 
+   DATASEL: 
+ ST(0) 
+   ST(1) 
+ ST(2) 
+   ST(3) 
+ ST(4) 
+   ST(5) 
+ ST(6) 
+   ST(7) 
+Backtrace:
+/proc/self/maps
+Memory map:
+SEGFAULT_SIGNALS
+SEGFAULT_USE_ALTSTACK
+segv
+SEGFAULT_OUTPUT_NAME
+stkflt
+abrt
+;*2$"0
+GCC: (GNU) 7.1.1 20170526 (Red Hat 7.1.1-2)
+segfault.c
+catch_segfault
+fname
+install_handler
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.6576
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+stack_chk_fail_local.c
+__FRAME_END__
+__x86.get_pc_thunk.bx
+__x86.get_pc_thunk.dx
+__dso_handle
+_DYNAMIC
+__stack_chk_fail_local
+__GNU_EH_FRAME_HDR
+__TMC_END__
+_GLOBAL_OFFSET_TABLE_
+__x86.get_pc_thunk.di
+raise@@GLIBC_2.0
+read@@GLIBC_2.0
+_ITM_deregisterTMCloneTable
+_edata
+_fini
+__stack_chk_fail@@GLIBC_2.4
+__backtrace_symbols_fd@@GLIBC_2.1
+__cxa_finalize@@GLIBC_2.1.3
+_sys_siglist@@GLIBC_2.3.3
+getenv@@GLIBC_2.0
+malloc@@GLIBC_2.0
+__gmon_start__
+open@@GLIBC_2.0
+__strcasecmp@@GLIBC_2.0
+strlen@@GLIBC_2.0
+write@@GLIBC_2.0
+_itoa_lower_digits@@GLIBC_PRIVATE
+memset@@GLIBC_2.0
+writev@@GLIBC_2.0
+__strdup@@GLIBC_2.0
+_end
+__errno_location@@GLIBC_2.0
+access@@GLIBC_2.0
+__bss_start
+sigemptyset@@GLIBC_2.0
+__strcasestr@@GLIBC_2.1
+sigaction@@GLIBC_2.0
+_ITM_registerTMCloneTable
+backtrace@@GLIBC_2.1
+_init
+close@@GLIBC_2.0
+__ctype_b_loc@@GLIBC_2.3
+sigaltstack@@GLIBC_2.0
+.symtab
+.strtab
+.shstrtab
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.bss
+.comment
+.debug_aranges
+.debug_info
+.debug_abbrev
+.debug_line
+.debug_str
+.debug_loc
+.debug_ranges
+.gdb_index
+libSegFault.so.debug
+.rodata
+.symtab
+.strtab
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.got.plt
+.comment
+.plt.got
+.text
+.fini_array
+.init_array

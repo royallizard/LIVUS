@@ -1,0 +1,170 @@
+tdP.
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_custom_function_unregister
+ast_devstate_prov_del
+ast_cli_unregister_multiple
+strncasecmp
+ast_log
+ast_devstate_val
+ast_db_put
+ast_devstate_changed
+__ast_app_separate_args
+strsep
+ast_get_hint
+ast_app_parse_options
+ast_device_state
+ast_devstate_str
+ast_db_get
+ast_cli_complete
+ast_cli
+ast_db_gettree
+strrchr
+ast_db_freetree
+ast_module_register
+ast_module_unregister
+__ast_custom_function_register
+ast_devstate_prov_add
+__ast_cli_register_multiple
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+UWVS
+t$,j
+[^_]
+t$0UP
+[^_]
+t$4P
+UWVS
+,[^_]
+T$$Rj
+t$`Wj
+VPUj
+t$hW
+UWVS
+[^_]
+L$81
+[^_]
+[^_]
+yX9~
+UWVS
+Custom
+Custom:
+func_devstate.c
+Custom:%s
+default
+devstate change
+Changing %s to %s
+devstate list
+UNKNOWN
+NOT_INUSE
+BUSY
+UNAVAILABLE
+RINGING
+RINGINUSE
+ONHOLD
+func_devstate
+HINT
+DEVICE_STATE
+Change a custom device state
+The DEVICE_STATE function can only be used to set 'Custom:' device state!
+DEVICE_STATE function called with no custom device name!
+DEVICE_STATE function given invalid state value '%s'
+The HINT function requires an extension
+Usage: devstate change <device> <state>
+       Change a custom device to a new state.
+       The possible values for the state are:
+UNKNOWN | NOT_INUSE | INUSE | BUSY | INVALID | UNAVAILABLE | RINGING
+RINGINUSE | ONHOLD
+Examples:
+       devstate change Custom:mystate1 INUSE
+       devstate change Custom:mystate1 NOT_INUSE
+       
+The devstate command can only be used to set 'Custom:' device state!
+Usage: devstate list
+       List all custom device states that have been set by using
+       the DEVICE_STATE dialplan function.
+---------------------------------------------------------------------
+--- Custom Device States --------------------------------------------
+---------------------------------------------------------------------
+--- Name: 'Custom:%s'  State: '%s'
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Gets or sets a device state in the dialplan
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+List currently known custom device states
+devstate_write
+hint_read
+CustomDevstate
+;*2$"4
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+func_devstate.so-15.5.0-1.fc29.i386.debug
+7zXZ
+Fx^EO2
+R@55
+.BC_
+wD|~
+a|6o
+u>$G
+#]cmo
+i!Ib
+O0%GB$$
+:V||
+ql}fw
+F+zU
++	le
+KLa5
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

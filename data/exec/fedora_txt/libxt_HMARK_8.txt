@@ -1,0 +1,139 @@
+tdP,
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+xt_params
+puts
+__printf_chk
+xtables_ip6mask_to_cidr
+xtables_ip6mask_to_numeric
+xtables_ipmask_to_cidr
+strncasecmp
+xtables_option_parse
+strchr
+strlen
+libxt_HMARK_init
+xtables_register_targets
+libxtables.so.10
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.0
+GLIBC_2.1.3
+[^_]
+D$0f
+D$0f
+D$0f
+d$,[^_]
+N( f
+N(@f
+--hmark-mod is mandatory
+--hmark-rnd is mandatory
+ --hmark-sport-mask 0x%04x
+ --hmark-dport-mask 0x%04x
+ --hmark-spi-mask 0x%08x
+ --hmark-sport 0x%04x
+ --hmark-dport 0x%04x
+ --hmark-spi 0x%08x
+ --hmark-proto-mask 0x%02x
+ --hmark-rnd 0x%08x
+ --hmark-mod %u
+ --hmark-offset %u
+ --hmark-tuple ct
+sport-mask 0x%x 
+dport-mask 0x%x 
+spi-mask 0x%x 
+sport 0x%x 
+dport 0x%x 
+spi 0x%x 
+proto-mask 0x%x 
+rnd 0x%x 
+ --hmark-src-prefix %d
+ --hmark-dst-prefix %d
+ HMARK 
+mod %u 
++ 0x%x 
+ct, 
+src-prefix %s 
+dst-prefix %s 
+src-prefix %u 
+dst-prefix %u 
+proto
+Bad type "%s"
+libxtables.so.10
+HMARK
+hmark-tuple
+hmark-src-prefix
+hmark-dst-prefix
+hmark-sport-mask
+hmark-dport-mask
+hmark-spi-mask
+hmark-sport
+hmark-dport
+hmark-spi
+hmark-proto-mask
+hmark-rnd
+hmark-mod
+hmark-offset
+you cannot use --hmark-spi-mask and --hmark-?port-mask,at the same time
+you have to specify --hmark-tuple at least
+HMARK target options, i.e. modify hash calculation by:
+  --hmark-tuple [src|dst|sport|dport|spi|proto|ct][,...]
+  --hmark-mod value		    nfmark modulus value
+  --hmark-offset value		    Last action add value to nfmark
+  --hmark-rnd			    Random see for hashing
+ Alternatively, fine tuning of what will be included in hash calculation
+  --hmark-src-prefix length	    Source address mask CIDR prefix
+  --hmark-dst-prefix length	    Dest address mask CIDR prefix
+  --hmark-sport-mask value	    Mask src port with value
+  --hmark-dport-mask value	    Mask dst port with value
+  --hmark-spi-mask value	    For esp and ah AND spi with value
+  --hmark-sport value		    OR src port with value
+  --hmark-dport value		    OR dst port with value
+  --hmark-spi value		    For esp and ah OR spi with value
+  --hmark-proto-mask value	    Mask Protocol with value
+"--hmark-tuple" requires a list of types with no spaces, e.g. src,dst,sport,dport,proto
+;*2$"
+libxt_HMARK.so.debug
+7zXZ
+|h&T
+(0 1]
+#_3&
+EPwYk
+<7Wmxa
+x*Ef
+WTpz
+g.;!
+'gGl
+7Gr?
+2Yn]p(
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,301 @@
+/lib/ld-linux.so.2
+<QhTo
+-sxO
+libupsclient.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+select_write
+upscli_disconnect
+syslogbit_set
+xrealloc
+upscli_strerror
+upslog_with_errno
+fatal_with_errno
+sendsignalfn
+background
+sendsignal
+upsdebugx
+UPS_VERSION
+fatalx
+get_user_pwent
+_fini
+upscli_fd
+confpath
+rtrim
+altpidpath
+xmalloc
+upscli_connect
+_init
+ltrim
+upsdebug_with_errno
+become_user
+upscli_splitname
+open_syslog
+upslogx
+dflt_statepath
+upsdebug_ascii
+xstrdup
+chroot_start
+cleanpid
+snprintfcat
+xbasename
+nut_debug_level
+upscli_get
+writepid
+upsdebug_hex
+xcalloc
+select_read
+nut_log_level
+libssl.so.10
+libcrypto.so.10
+libpthread.so.0
+fork
+__errno_location
+sigaction
+libc.so.6
+_IO_stdin_used
+setuid
+chroot
+fflush
+__printf_chk
+fopen
+optind
+strrchr
+__strdup
+perror
+__fdelt_chk
+initgroups
+puts
+unlink
+putchar
+select
+_exit
+getpid
+kill
+strftime
+__assert_fail
+strtol
+fgets
+getpwnam
+strlen
+setlogmask
+sigemptyset
+openlog
+chdir
+__syslog_chk
+getopt
+__fprintf_chk
+sigaddset
+stdout
+fclose
+__vsnprintf_chk
+umask
+getenv
+optarg
+stderr
+__snprintf_chk
+seteuid
+getuid
+strncasecmp
+gethostname
+gettimeofday
+geteuid
+localtime
+difftime
+strchr
+sleep
+__cxa_finalize
+setsid
+setgid
+__libc_start_main
+snprintf
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.1.3
+GLIBC_2.3.4
+WVSQ
+2<%u
+_Zj%P
+QQPj
+QQPW
+VVPj
+WWPj
+WWPj
+<7@u
+t$(V
+[^_]
+[^_]
+Y^Pj
+t$0e
+D$ P
+8/tQ
+t$(V
+UWVS
+l$0W
+T$,)
+t$4j
+[^_]
+|$(W
+[^_]
+UWVS
+|$(W
+[^_]
+UWVS
+[^_]
+t$(V
+UWVS
+Pjdj
+t$4V
+D$|e3
+[^_]
+UWVS
+[^_]
+t$(V
+RRPj
+QQPj
+VVPj
+RRPj
+QQPj
+QVPj
+RVPj
+t	[^_
+D$(X
+D$ P
+[^_]
+D$(X
+D$ P
+[^_]
+t$,U
+[^_]
+UPS status logger.
+usage: %s [OPTIONS]
+	%%%% insert a single %%
+format string defaults to:
+INVALID
+gethostname failed
+Network UPS Tools %s %s
++hs:l:i:f:u:Vp:
+could not open logfile %s
+Can't install SIGHUP handler
+Can't install SIGINT handler
+Can't install SIGQUIT handler
+Can't install SIGTERM handler
+Signal %d: reopening log file
+logging to stdout
+could not reopen logfile %s
+Signal %d: exiting
+UPSHOST
+ETIME
+  -f <format>	- Log format.  See below for details.
+		- Use -f "<format>" so your shell doesn't break it up.
+  -i <interval>	- Time between updates, in seconds
+  -l <logfile>	- Log file name, or - for stdout
+  -p <pidbase>  - Base name for PID file (defaults to "%s")
+  -s <ups>	- Monitor UPS <ups> - <upsname>@<host>[:<port>]
+        	- Example: -s myups@server
+  -u <user>	- Switch to <user> if started as root
+Some valid format string escapes:
+	%%TIME format%% insert the time with strftime formatting
+	%%HOST%% insert the local hostname
+	%%UPSHOST%% insert the host of the ups being monitored
+	%%PID%% insert the pid of upslog
+	%%VAR varname%% insert the value of ups variable varname
+%TIME @Y@m@d @H@M@S% %VAR battery.charge% %VAR input.voltage% %VAR ups.load% [%VAR ups.status%] %VAR ups.temperature% %VAR input.frequency%
+See the upslog(8) man page for more information.
+No UPS defined for monitoring - use -s <system>
+No filename defined for logging - use -l <file>
+No format defined - but this should be impossible
+logging status of %s to %s (%is intervals)
+Error: invalid UPS definition.  Required format: upsname[@hostname[:port]]
+Warning: initial connect failed: %s
+/var/run/nut
+%s/%s.pid
+common.c
+len <= size
+: %s
+%4.0f.%06ld	
+/etc/ups
+NUT_CONFPATH
+NUT_STATEPATH
+writepid: fopen %s
+Failed to read pid from %s
+kill
+ %02x
+%s: (%d bytes) =>
+%3s 
+%02Xh 
+'%c' 
+Unable to enter background
+open /dev/null
+Startup successful
+initgroups
+setgid
+setuid
+chdir(%s)
+chroot(%s)
+chdir(/)
+chrooted into %s
+Invalid log level threshold
+user %s not found
+getpwnam(%s)
+Out of memory
+2.7.2
+vupslog: vsnprintf needed more than %d bytes
+Ignoring invalid pid number %d
+getuid gave 0, but seteuid(0) failed
+snprintfcat
+;*2$"
+upslog.debug
+7zXZ
+Q6@\
+{<X{*
+l!sul
+tr	X_
+R:-O
+TH(*.
++'&"`>_g
+nHtL
+MM0M
+<l^Ckn
+V=*a
+j3+B
++pQ2
+;rc0
+#T<<
+idwV
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

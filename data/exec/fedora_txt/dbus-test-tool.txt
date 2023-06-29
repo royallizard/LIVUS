@@ -1,0 +1,246 @@
+/lib/ld-linux.so.2
+libdbus-1.so.3
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+dbus_malloc
+dbus_bus_get
+dbus_realloc
+dbus_malloc0
+dbus_message_unref
+dbus_connection_read_write_dispatch
+dbus_connection_close
+dbus_pending_call_set_notify
+dbus_connection_send
+dbus_free
+dbus_pending_call_get_completed
+dbus_message_demarshal
+dbus_message_set_no_reply
+dbus_message_new_method_return
+dbus_shutdown
+dbus_message_copy
+dbus_connection_send_with_reply
+dbus_bus_get_unique_name
+dbus_bus_request_name
+dbus_message_append_args
+dbus_connection_add_filter
+dbus_pending_call_steal_reply
+dbus_set_error_from_message
+dbus_connection_flush
+_dbus_sleep_milliseconds
+dbus_error_init
+dbus_connection_unref
+dbus_message_get_type
+dbus_error_free
+dbus_bus_get_private
+dbus_message_new_method_call
+dbus_pending_call_unref
+libpthread.so.0
+__errno_location
+libsystemd.so.0
+libc.so.6
+_IO_stdin_used
+exit
+srand
+time
+stdin
+strtol
+memset
+strstr
+__fprintf_chk
+fputs
+strtoul
+sscanf
+stderr
+fwrite
+fread
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_fini
+_edata
+__bss_start
+_end
+LIBDBUS_PRIVATE_1.10.0
+LIBDBUS_1_3
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+[^_]
+L$<1
+T$<e3
+d$L[^_]
+UWVS
+9T$Pt,
+9T$Pu
+d$<1
+[^_]
+UWVS
+T$,9
+9l$Pt'
+9l$Pu
+d$<1
+[^_]
+UWVS
+d$,[^_]
+UWVS
+t$de
+D$<1
+D$<e3
+d$L[^_]
+UWVS
+D$Hs
+D$ 9
+D$Hs
+D$P1
+T$,9T$ 
+D$t+D$<9
+T$,9T$ 
+D$@9
+D$t+D$<9
+;|$,}!
+;l$0
+D$,9D$t
+[^_]
+D$t1
+D$`1
+;|$\}N
+D$Hs
+D$Ha
+[^_]
+[^_]
+UWVS
+UWVS
+t$,U
+[^_]
+Failed to connect to bus: %s: %s
+Usage: dbus-test-tool echo [OPTIONS]
+Respond to all method calls with an empty reply.
+Options:
+    --name=NAME   claim this well-known name first
+    --sleep=N     sleep N milliseconds before sending each reply
+    --session     use the session bus (default)
+    --system      use the system bus
+Usage: dbus-test-tool black-hole [OPTIONS]
+Receive method calls but do not reply.
+Options:
+    --name=NAME   claim this well-known name first
+    --no-read     don't read anything on the D-Bus socket
+    --session     use the session bus (default)
+    --system      use the system bus
+failed to take bus name %s
+adding message filter
+allocating reply
+sending reply
+--system
+--session
+--name=
+--sleep-ms=
+--no-read
+reading payload from stdin
+org.freedesktop.DBus
+--count=
+--ignore-errors
+--dest=
+--payload=
+--stdin
+--message-stdin
+--random-size
+ %u %n
+--empty
+--string
+--bytes
+--flood
+--no-reply
+--queue=
+--seed=
+--messages-per-conn=
+hello, world!
+copying message
+Spam
+com.example
+allocating message
+building message
+sending message
+setting pending call notifier
+Disconnected from bus
+Failed to receive reply #%d: %s: %s
+Usage: dbus-test-tool spam [OPTIONS]
+Repeatedly call com.example.Spam() on the given D-Bus service.
+Options:
+    --session     use the session bus (default)
+    --system      use the system bus
+    --ignore-errors    ignore errors
+    --dest=NAME   call methods on NAME (default org.freedesktop.DBus)
+    --count=N     send N messages (default 1)
+    --queue=N     queue up N messages at a time (default 1)
+    --flood       send all messages immediately
+    --no-reply    set the NO_REPLY flag (implies --flood)
+    --messages-per-conn=N   after sending messages-per-conn, wait
+                  for the pending replies if any, then reconnect
+                  (default: don't reconnect)
+    --string      send payload as a string (default)
+    --bytes       send payload as a byte-array
+    --empty       send an empty payload
+    --payload=S   use S as payload (default "hello, world!")
+    --stdin       read payload from stdin, until EOF
+    --message-stdin   read a complete D-Bus message from stdin
+    --random-size read whitespace-separated ASCII decimal
+                  payload sizes from stdin and pick one randomly
+                  for each message
+    --seed=SEED   seed for srand (default is time())
+Unable to demarshal template message: %s: %s
+Template message must be a method call
+allocating array of message lengths
+allocating maximum-sized payload
+OOM while %s
+echo
+black-hole
+- %s
+spam
+Usage: dbus-test-tool SUBCOMMAND [OPTIONS]
+Known SUBCOMMANDs are:
+For more information: dbus-test-tool SUBCOMMAND --help
+;*2$"<
+dbus-test-tool.debug
+7zXZ
+U.6Y&
+b+mU"
+d}-`
+5O*\
+VlRi@
+7PTu
+m:X[|
+f:&O
+#K/>
+\W4V
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

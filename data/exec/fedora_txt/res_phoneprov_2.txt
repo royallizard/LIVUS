@@ -1,0 +1,419 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_cli
+__ao2_callback_data
+__ao2_callback
+__ast_string_field_init
+free
+__ao2_alloc
+strlen
+__ao2_link
+__ao2_cleanup
+ast_log
+__ast_string_field_ptr_grow
+__ast_string_field_release_active
+__ast_string_field_empty
+__ast_string_field_alloc_space
+ast_var_delete
+ast_var_list_destroy
+strcmp
+strcasecmp
+strncmp
+__ast_calloc_with_stringfields
+ast_var_list_clone
+ast_var_find
+sscanf
+ast_get_dst_info
+__snprintf_chk
+ast_var_assign
+ast_localtime
+ast_register_file_version
+ast_unregister_file_version
+gettimeofday
+malloc
+_ast_mem_backtrace_buffer
+backtrace
+fopen64
+fseek
+ftell
+fread
+fclose
+calloc
+realloc
+__strdup
+__strndup
+__vasprintf_chk
+pthread_once
+pthread_getspecific
+pthread_setspecific
+ast_var_list_create
+__ast_app_separate_args
+strrchr
+ast_http_ftype2mtype
+__ast_string_field_ptr_build
+ast_config_load2
+ast_category_browse
+ast_variable_browse
+ast_config_destroy
+ao2_container_count
+ast_str_substitute_variables_varshead
+__ast_str_helper
+__ast_str_helper2
+__ao2_find
+ast_config_AST_DATA_DIR
+ast_build_string
+strstr
+ao2_iterator_init
+__ao2_iterator_next
+ao2_iterator_destroy
+ast_http_send
+ast_http_error
+lseek64
+getsockname
+ast_inet_ntoa
+strchr
+__ctype_toupper_loc
+ast_module_register
+ast_module_unregister
+ast_phoneprov_std_variable_lookup
+ast_phoneprov_delete_extension
+ast_phoneprov_delete_extensions
+ast_phoneprov_provider_unregister
+ast_http_uri_unlink
+ast_custom_function_unregister
+ast_cli_unregister_multiple
+__ao2_lock
+__ao2_ref
+__ao2_unlock
+ast_phoneprov_provider_register
+__ao2_container_alloc_hash
+ast_http_uri_link
+__ast_custom_function_register
+ast_cli_register_multiple
+ast_phoneprov_add_extension
+_Unwind_Resume
+__gcc_personality_v0
+ast_variable_retrieve
+ast_true
+socket
+ioctl
+__errno_location
+strerror
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.0
+GLIBC_2.2
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.3
+a_&	
+UWVS
+D$de
+|$<1
+T$8t
+|$<e3=
+d$L[^_]
+d$$[^
+d$([
+d$([
+UWVS
+d$<[^_]
+d$<[^_]
+d$$[^
+d$$1
+d$$[^
+|$ %
+@t#=
+|$ %
+@t#=
+|$ %
+@t#=
+|$ %
+@t#=
+[^_]
+T$<u"
++D$ 
++L$$
+d$ [^_
+[^_]
+d$$1
+d$$1
+UWVS
+[^_]
+[^_]
+UWVS
+d$,[^_]
+d$$[^
+D$,e
+D$<1
+T$<e3
+d$L[^_]
+d$,[^_]
+UWVS
+d$,[^_]
+d$([
+d$([
+d$([
+d$([
+d$([
+d$([
+UWVS
+[^_]
+UWVS
+L$|1
+L$|e3
+[^_]
+UWVS
+[^_]
+D$$x
+0<	v
+d$([
+d$ [^_
+UWVS
+D$\1
+T$\e3
+D$(uL
+d$l[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+T$\1
+|$\e3=
+d$l[^_]
+UWVS
+D$l1
+T$le3
+d$|[^_]
+%-20.20s %-20.20s %-40.40s  %-30.30s
+Usage: phoneprov show routes
+       Lists all registered phoneprov http routes.
+Couldn't create string fields for %s
+Unable to clone variables for extension '%s'
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/utils.h
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/threadstorage.h
+Unable to load config phoneprov.conf
+There are no provisioning profiles in phoneprov.conf.
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/strings.h
+Duplicate linenumber=%d for %s
+PP_EACH_EXTENSION requries both a macaddress and template filename.
+Could not find user with mac = '%s'
+Attempt to use unimplemented / unsupported method
+Could not get server IP, breakage likely.
+Could not create result string!
+An internal error has occured.
+Unegistered phoneprov provider '%s'.
+Unable to reload provisioning profiles.
+Reloading provider '%s' users.
+Unable to load provider '%s' users. Reload aborted.
+Provider '%s' cannot be registered: res_phoneprov not loaded.
+There is already a provider registered named '%s'.
+Unable to allocate sufficient memory for provider '%s'.
+Unable to allocate sufficient memory for provider '%s' stringfields.
+Unable to load provider '%s' users. Register aborted.
+Registered phoneprov provider '%s'.
+Provider name can't be empty.
+Unable to allocate profiles container.
+Unable to allocate routes container.
+Unable to load provisioning profiles.
+Unable to allocate users container.
+Unable to allocate providers container.
+Unable register sip/users config provider.  Others may succeed.
+Variable list can't be empty.
+Extension name can't be empty.
+Provider '%s' wasn't found in the registry.
+No profile could be found for user '%s' - skipping.
+Could not look up profile '%s' - skipping.
+Could not create extension for '%s' - skipping
+Could not add extension '%s' to user '%s'
+Created %s/%s for provider '%s'.
+MAC address '%s' was already added by provider '%s' - skipping
+Added %s/%s for provider '%s'.
+Could not create user for '%s' - skipping
+Could not create http routes for '%s' - skipping
+Unable to create default var list.
+Unable to find a valid server address or name.
+Unable to load default profile.
+autoprov set for %s, but no mac address - skipping.
+Unable to load default variables.
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Asterisk HTTP Phone Provisioning Tool
+Show registered phoneprov http routes
+%-20.20s %-40.40s  %-30.30s
+phoneprov show routes
+Static routes
+Physical location
+Relative URI
+Profile
+Dynamic routes
+Template
+Provider
+res_phoneprov.c
+LINE
+LINEKEYS
+TIMEZONE
+TZOFFSET
+DST_ENABLE
+DST_START_MONTH
+DST_START_MDAY
+DST_START_HOUR
+DST_END_MONTH
+DST_END_MDAY
+DST_END_HOUR
+$Revision: 426176 $
+text/plain
+mime_type
+setvar
+staticdir
+%s%s
+static_file
+res_phoneprov
+phoneprov.conf
+general
+%s/phoneprov/%s
+Could not load file: %s (%d)
+Not Implemented
+Content-type: %s
+SERVER
+Not Found
+Internal Error
+sipusers
+providers
+USERNAME
+MAC Address can't be empty.
+PROFILE
+5060
+serveraddr
+serveriface
+Failed to create socket: %s
+Unable to get IP of %s: %s
+serverport
+sip.conf
+bindport
+SERVER_PORT
+default_profile
+users.conf
+Unable to load users.conf
+vmexten
+VOICEMAIL_EXTEN
+localextenlength
+EXTENSION_LENGTH
+authentication
+autoprov
+HTTP Phone Provisioning
+PP_EACH_EXTENSION
+PP_EACH_USER
+macaddress
+username
+fullname
+secret
+label
+cid_number
+timezone
+linenumber
+linekeys
+DISPLAY_NAME
+SECRET
+LABEL
+CALLERID
+SERVER_IFACE
+delete_extension
+add_user_extension
+build_extension
+user_destructor
+build_user
+ast_phoneprov_add_extension
+ast_phoneprov_provider_unregister
+provider_destructor
+ast_phoneprov_provider_register
+lookup_iface
+get_defaults
+load_users
+load_module
+route_destructor
+build_route
+delete_file
+profile_destructor
+build_profile
+load_common
+reload
+phoneprov_callback
+load_file
+pp_each_extension_helper
+ast_str_make_space
+ast_str_create
+ast_threadstorage_get
+_ast_vasprintf
+_ast_strndup
+_ast_strdup
+_ast_realloc
+_ast_calloc
+_ast_malloc
+;*2$"$
+zPLR
+d10568311aa53ffbe368f9bd67b07735
+res_phoneprov.so.debug
+7zXZ
+i0|	
+]hPc
+{_ACF
+WT877
+&9US.
+NDNK
+K`L$	
+O	.E
+8+)T
+Pa]Il-s
+wV,r
+rp$0
+H6F1E
+T.cl)
++Zo6
+W$~)]
+CCH?
+b4	.k
+aC=*
+y${h
+RU('
+')\G
++@3+AT
+UiBoNL
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

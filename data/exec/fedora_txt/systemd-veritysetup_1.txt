@@ -1,0 +1,119 @@
+/lib/ld-linux.so.2
+__stack_chk_fail
+GLIBC_2.4
+libc.so.6
+crypt_set_log_callback
+CRYPTSETUP_1.0
+libcryptsetup.so.4
+crypt_init_by_name
+crypt_status
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+__bss_start
+_edata
+_end
+program_invocation_short_name
+GLIBC_2.0
+strcmp
+free
+__cxa_finalize
+GLIBC_2.1.3
+crypt_free
+crypt_deactivate
+crypt_init
+__printf_chk
+GLIBC_2.3.4
+crypt_load
+crypt_activate_by_volume_key
+crypt_set_data_device
+__gcc_personality_v0
+GCC_3.3.1
+log_set_target
+log_parse_environment
+log_open
+umask
+unhexmem
+__libc_start_main
+log_get_max_level
+log_internal
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+libpthread.so.0
+/usr/lib/systemd
+a_&	
+D$(e
+D$<1
+L$<e3
+[^_]
+L$4H
+t S1
+D$41
+UWVS
+[^_]
+src/veritysetup/veritysetup.c
+attach
+Failed to parse root hash.
+Volume %s already active.
+VERITY
+detach
+Volume %s already inactive.
+Failed to deactivate: %m
+Unknown verb %s.
+%s attach VOLUME DATADEVICE HASHDEVICE ROOTHASH
+%s detach VOLUME
+Attaches or detaches an integrity protected block device.
+This program requires at least two arguments.
+attach requires at least two arguments.
+Failed to open verity device %s: %m
+Failed to load verity superblock: %m
+Failed to configure data device: %m
+Failed to set up verity device: %m
+crypt_init_by_name() failed: %m
+log_glue
+main
+;*2$"
+zPLR
+gold 1.12
+systemd-veritysetup.debug
+7zXZ
+`8~]aM
+57?{
+:C%3
+s}!r
+*j;W
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

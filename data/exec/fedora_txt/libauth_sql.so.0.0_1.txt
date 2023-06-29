@@ -1,0 +1,307 @@
+3segn
+hk,2
+ zm@fg
+50AX
+Y/>=f
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+auth_connect
+auth_disconnect
+auth_requires_shadow_user
+auth_removealias_ext
+strlen
+g_malloc0
+db_escape_string
+_db_params
+__snprintf_chk
+g_free
+db_query
+trace
+auth_change_mailboxsize
+db_change_mailboxsize
+auth_change_username
+db_user_rename
+auth_delete_user
+db_user_delete
+auth_adduser
+db_user_create
+auth_user_exists
+db_user_exists
+auth_validate
+strncpy
+db_use_usermap
+db_usermap_resolve
+db_num_rows
+db_get_result
+strcasecmp
+db_free_result
+strcmp
+db_user_log_login
+crypt
+__stack_chk_fail
+strncmp
+dm_md5
+__assert_fail
+dm_md5_base64
+auth_md5_validate
+g_strdup_printf
+strtoull
+auth_check_user_ext
+db_get_result_set
+db_set_result_set
+dm_list_nodeadd
+g_strdup
+auth_getclientid
+auth_getmaxmailsize
+auth_getencryption
+auth_get_userid
+auth_get_users_from_clientid
+g_malloc0_n
+memset
+db_get_result_u64
+auth_change_password
+auth_addalias
+auth_addalias_ext
+auth_removealias
+auth_get_known_users
+g_list_append
+auth_get_known_aliases
+auth_change_clientid
+auth_check_userid
+auth_get_user_aliases
+g_list_foreach
+g_list_free
+auth_get_aliases_ext
+libgmodule-2.0.so.0
+libgmime-2.0.so.2
+libz.so.1
+libnsl.so.1
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libcrypt.so.1
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libauth_sql.so.0
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+5Z> 
+%\> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+ATSubH
+=`; 
+=g8 
+ffff.
+ffff.
+ffff.
+=k; 
+l$ L
+d$(L
+l$0H
+=i: 
+d$ dH
+=r8 
+\$(H
+l$0L
+d$8L
+l$@H
+D$0H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+l$$I
+L$$L
+L;l$(r
+d$ H
+d$ H
+=7/ 
+ATUH
+t'E1
+D9#w
+[]A\A]
+fff.
+d$ H
+ffff.
+=a% 
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+=@! 
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+=a  
+T$(D
+=B  
+d$ H
+[]A\
+[]A\
+[]A\
+[]A\
+out of memory allocating escaped alias
+out of memory allocating escaped deliver_to
+DELETE FROM %saliases WHERE lower(deliver_to) = lower('%s') AND lower(alias) = lower('%s')
+SELECT user_idnr, passwd, encryption_type FROM %susers WHERE user_idnr = %llu
+could not select user information
+validating using plaintext passwords
+validating using crypt() encryption
+validating using MD5 digest comparison
+validating using MD5 hash comparison
+validating using MD5 digest base64 comparison
+SELECT passwd,user_idnr FROM %susers WHERE user_idnr = %llu
+checkstring for md5 [%s] -> result [%s]
+validating md5_apop_we=[%s] md5_apop_he=[%s]
+user [%s] is validated using APOP
+user [%s] could not be validated
+too many checks. Possible loop detected.
+checking user [%s] in alias table
+out of memory allocating escaped username
+SELECT deliver_to FROM %saliases WHERE lower(alias) = lower('%s') AND lower(alias) <> lower(deliver_to)
+adding [%s] to deliver_to address
+SELECT client_idnr FROM %susers WHERE user_idnr = %llu
+could not retrieve client id for user [%llu]
+SELECT maxmail_size FROM %susers WHERE user_idnr = %llu
+could not retrieve client id for user [%llu]
+SELECT encryption_type FROM %susers WHERE user_idnr = %llu
+could not retrieve encryption type for user [%llu]
+SELECT userid FROM %susers WHERE user_idnr = %llu
+SELECT user_idnr FROM %susers WHERE client_idnr = %llu
+error gettings users for client_id [%llu]
+error allocating memory, probably out of memory
+UPDATE %susers SET passwd = '%s', encryption_type = '%s'  WHERE user_idnr=%llu
+could not change passwd for user [%llu]
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower('%s') AND deliver_to = '%llu' AND client_idnr = %llu
+query for searching alias failed
+alias [%s] for user [%llu] already exists
+INSERT INTO %saliases (alias,deliver_to,client_idnr) VALUES ('%s','%llu',%llu)
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower('%s') AND lower(deliver_to) = lower('%s') AND client_idnr = %llu
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower('%s') AND lower(deliver_to) = lower('%s') 
+alias [%s] --> [%s] already exists
+INSERT INTO %saliases (alias,deliver_to,client_idnr) VALUES ('%s','%s',%llu)
+DELETE FROM %saliases WHERE deliver_to='%llu' AND lower(alias) = lower('%s')
+SELECT userid FROM %susers ORDER BY userid
+SELECT alias FROM %saliases ORDER BY alias
+UPDATE %susers SET client_idnr = %llu WHERE user_idnr=%llu
+could not change client id for user [%llu]
+SELECT alias FROM %saliases WHERE deliver_to = '%llu' ORDER BY alias DESC
+SELECT deliver_to FROM %saliases WHERE alias = '%s' ORDER BY alias DESC
+authsql.c
+auth
+query failed
+error executing query
+user_idnr != ((void *)0)
+username or password is NULL
+__public__
+crypt
+salt   : %s
+hash   : %s
+crypt(): %s
+md5sum
+md5base64
+error calling __auth_query()
+apop_stamp=[%s], userpw=[%s]
+%s%s
+checks [%d]
+user %s not in aliases table
+into checking loop
+checking user %s to %s
+client_idnr != ((void *)0)
+maxmail_size != ((void *)0)
+got (%lld) as userid
+user has no username?
+query_result = %s
+out of memory
+returning %s as returnid
+user_ids != ((void *)0)
+num_users != ((void *)0)
+new password length is insane
+query for adding alias failed
+could not retrieve user list
+didn't find user_idnr [%llu]
+found user_idnr [%llu]
+could not retrieve  list
+auth_get_aliases_ext
+__auth_query
+auth_get_user_aliases
+auth_removealias_ext
+auth_removealias
+auth_addalias_ext
+auth_addalias
+auth_get_users_from_clientid
+auth_get_users_from_clientid
+auth_check_userid
+auth_get_userid
+auth_md5_validate
+auth_validate
+auth_validate
+auth_change_clientid
+auth_change_password
+auth_check_user_ext
+auth_getencryption
+auth_getmaxmailsize
+auth_getmaxmailsize
+auth_getclientid
+auth_getclientid
+auth_get_known_aliases
+auth_get_known_users
+libauth_sql.so.0.0.0.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

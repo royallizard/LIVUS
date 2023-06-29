@@ -1,0 +1,354 @@
+/lib64/ld-linux-x86-64.so.2
+libwrap.so.0
+__gmon_start__
+_Jv_RegisterClasses
+libtirpc.so.1
+__rpc_endconf
+nc_perror
+clnt_vc_create
+xdr_rpcblist_ptr
+rpc_broadcast
+getnetconfigent
+__rpc_setconf
+clnt_perror
+uaddr2taddr
+clnttcp_create
+clnt_pcreateerror
+taddr2uaddr
+__rpc_nconf2fd
+rpcb_unset
+xdr_rpcb
+__rpc_getconf
+xdr_pmaplist_ptr
+xdr_void
+__rpc_createerr
+freenetconfigent
+clntudp_create
+xdr_rpcb_entry_list_ptr
+clnt_tli_create
+clnt_tp_create
+clnt_sperrno
+__rpc_getconfip
+xdr_rpcb_stat_byvers
+libpthread.so.0
+close
+libc.so.6
+socket
+getrpcbyname
+__printf_chk
+exit
+gai_strerror
+optind
+getrpcbynumber
+puts
+__stack_chk_fail
+putchar
+strtol
+strlen
+getaddrinfo
+getnameinfo
+getopt
+__fprintf_chk
+inet_addr
+memcpy
+malloc
+__ctype_b_loc
+optarg
+stderr
+fwrite
+__cxa_finalize
+freeaddrinfo
+__sprintf_chk
+errx
+__strcat_chk
+strcmp
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2.5
+GLIBC_2.3.4
+5"N 
+%$N 
+%"N 
+%zM 
+%rM 
+%jM 
+%bM 
+%ZM 
+%RM 
+%JM 
+%BM 
+%:M 
+%2M 
+%*M 
+%"M 
+ATSubH
+=0J 
+=7H 
+ffffff.
+d$ H
+tAHc@
+ffff.
+l$ L
+d$(L
+l$0H
+=}F 
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+t$8H
+\$8H
+AWAVAUATUH
+D$h1
+|$PH
+L$LH
+L$0H
+L$8I
+D$hdH3
+x[]A\A]A^A_
+D$LL
+D$ f
+T$0H
+5dA 
+T$8M
+T$0H
+T$8H
+L$ L
+T$0H
+T$8H
+P H9l$(s
+t$@H
+l$DH
+D$(H
+P H;l$(
+t$XI
+D$XE1
+T$DH
+T$@H
+D$@A
+t$HH
+\$hH
+l$pL
+d$xL
+[]A\A]A^A_
+ffffff.
+/rpcbindI
+/var/runL
+.socf
+AWAVAUATU
+-9: 
+\$PL
+%5: 
+D$ <
+t$0L
+l$PM
+	t3I
+[]A\A]A^A_
+|$PM
+t$IcE
+T$ I
+T$(H
+T$ I
+L$HL
+T$(H
+d$HH
+D$HH
+0.0.0.0.I
+XXX.XXX
+D$HL
+D$PH
+D$PH
+D$PH
+D$PH
+D$PH
+AVAUATUSH
+D$8H
+L$@1
+T$8H
+L$ H
+L$ L
+|$8H
+L$0H
+D$ H
+T$0H
+t$0H
+D$ H
+D8P1
+T$0H
+T$0H
+|$ H
+L$8H
+[]A\A]A^A_
+|$ H
+|$ H
+t$ 1
+|$8H
+AWE1
+L$ H
+%n# 
+T$`H
+T$hH
+T$`H
+T$hH
+[]A\A]A^A_
+D$`<
+D$DH
+T$`H
+L$@L
+D$XI
+T$hH
+L$DH
+t$(H
+|$8A
+T$`H
+T$hM
+t$(H
+T$`H
+T$hH
+t$(H
+|$8A
+T$`H
+T$hH
+P ;l$0v
+|$(H
+|$(H
+D$`<
+t$(H
+L$`H
+L$hI
+t$pH
+D$tD
+l$xD9
+T$0H
+P 9l$0
+l$ L
+t$(L
+|$0H
+Usage: rpcinfo [-m | -s] [host]
+       rpcinfo -T netid host prognum [versnum]
+       rpcinfo -l host prognum versnum
+       rpcinfo [-n portnum] -u | -t host prognum [versnum]
+       rpcinfo -a serv_address -T netid prognum [version]
+       rpcinfo -b prognum versnum
+       rpcinfo -d [-T netid] prognum versnum
+rpcinfo: %s is illegal version number
+program %lu version %lu is not available
+program %lu version %lu ready and waiting
+rpcinfo: %s is unknown service
+rpcinfo: %s is illegal program number
+rpcinfo: no address for client handle
+rpcinfo: couldn't find a suitable transport
+prog		vers	proc	netid	indirect success failure
+prog		vers	proc	netid	success	failure
+prog		vers	netid	  success	failure
+rpcinfo: can't contact rpcbind
+rpcinfo: can't contact rpcbind: 
+No remote programs registered.
+   program version netid     address                service    owner
+   program version(s) netid(s)                         service     owner
+PORTMAP (version 2) statistics
+RPCBIND (version 3) statistics
+RPCB_RMTCALL (version 3) call statistics
+RPCB_GETADDR (version 3) call statistics
+RPCBIND (version 4) statistics
+RPCB_RMTCALL (version 4) call statistics
+RPCB_GETADDR (version 4) call statistics
+rpcinfo: %s is illegal port number
+rpcinfo: can't contact portmapper
+%s does not support portmapper.  Try rpcinfo %s instead
+   program vers proto   port  service
+rpcinfo: broadcast failed: %s
+rpcinfo: netid %s not supported
+rpcinfo: Could not delete registration for prog %s version %s
+   program vers  tp_family/name/class    address		  service
+       rpcinfo -p [host]
+rpcinfo
+program %lu is not available
+unknown
+%s	%s
+rpcbind
+portmapper
+rpcinfo: %s: %s
+%-16s
+%-16d
+%d	%d	%s	
+%d	 
+%d	%d
+%d	%s	  %-12d	%d
+rpcinfo: invalid transport
+%6ld
+%d.%d
+%10u%5u    
+%-9s 
+%-22s
+ %-10s
+%10ld  
+%-32s
+ %-11s
+rpcinfo: no memory
+NULL
+UNSET
+GETPORT
+DUMP
+CALLIT
+GETADDR
+TIME
+VERADDR
+INDRECT
+GETLIST
+GETSTAT
+%s%s
+PMAP_RMTCALL call statistics
+PMAP_GETPORT call statistics
+clts
+cots_ord
+cots
+a:bdlmn:pstT:u
+%10ld%5ld
+%7ld
+  %s
+rpcinfo: Could not find %s
+%10u%3u    
+%s/%s/%s 
+%-24s
+ %-13s
+circuit_n
+circuit_v
+datagram_v
+                                                                
+rpcinfo.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,336 @@
+/lib/ld-linux.so.2
+libz.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+compress
+crc32
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+optind
+__strdup
+dcgettext
+mmap64
+strncpy
+warnx
+realloc
+fsync
+_exit
+strspn
+strtod
+strtol
+fgetc
+calloc
+strlen
+memset
+localeconv
+warn
+strcspn
+__errno_location
+open64
+memcmp
+getpagesize
+getopt
+__fprintf_chk
+stdout
+__strtoll_internal
+fclose
+strtoul
+malloc
+__strndup
+__lxstat64
+__xstat64
+__ctype_b_loc
+optarg
+stderr
+munmap
+__snprintf_chk
+readlink
+__fpending
+strchr
+scandir64
+program_invocation_short_name
+__cxa_finalize
+errx
+memmove
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+write
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+D$`L
+:bu>
+T$P|d
+D$<@
+t$<9t$L
+|N~H
+[^_]
+UWVS
+d$,[^_]
+[^_]
+d$,1
+[^_]
+D$l1
+D$le3
+d$|[^_]
+UWVS
+d$,[^_]
+d$,[
+VSt5
+D$l1
+D$Dt
+t$le35
+d$|[^_]
+|$L%
+L$P+T$<
++T$@
+L$Tk
+UWVS
+D$0e
+9D$(
+[^_]
+L$\=
+D$h=
+9D$(
+t$H9D$(
+D$\%
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+UWVS
+1B>1
+QZ^&
+C@A1
+/+&1
+l$0	
+d$@[^_]
+UWVS
+|$H?
+d$H?
+d$,[^_]
+9T$H
+T$D)T$H
+d$,[^_]
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+usage: %s [-h] [-v] [-b blksize] [-e edition] [-N endian] [-i file] [-n name] dirname outfile
+ -h         print this help
+ -v         be verbose
+ -E         make all warnings errors (non-zero exit status)
+ -b blksize use this blocksize, must equal page size
+ -e edition set edition number (part of fsid)
+ -N endian  set cramfs endianness (big|little|host), default host
+ -i file    insert a file image into the filesystem (requires >= 2.4.0)
+ -n name    set name of cramfs filesystem
+ -p         pad by %d bytes for boot code
+ -s         sort directory entries (old option, ignored)
+ -z         make explicit holes (requires >= 2.3.39)
+ dirname    root of the filesystem to be compressed
+ outfile    output file
+AIEEE: block "compressed" to > 2*blocklength (%ld)
+invalid edition number argument
+invalid endianness given; must be 'big', 'little', or 'host'
+warning: guestimate of required size (upper bound) is %lldMB, but maximum image size is %uMB.  We might die prematurely.
+not enough space allocated for ROM image (%lld allocated, %zu used)
+ROM image write failed (%zd %zd)
+warning: filenames truncated to %u bytes.
+warning: files were skipped due to errors.
+warning: file sizes truncated to %luMB (minus 1 byte).
+warning: uids truncated to %u bits.  (This may be a security concern.)
+warning: gids truncated to %u bits.  (This may be a security concern.)
+WARNING: device numbers truncated to %u bits.  This almost certainly means
+that some device files will be wrong.
+filesystem too big.  Exiting.
+cannot allocate %zu bytes
+readlink failed: %s
+cannot open %s
+mmap
+%6.2f%% (%+ld bytes)	%s
+could not read directory %s
+stat of %s failed
+cannot duplicate string
+write error
+/usr/share/locale
+util-linux
+invalid blocksize argument
+little
+host
+%s from %s
+util-linux 2.27
+hb:Ee:i:n:N:psVvz
+ROM image map
+Including: %s
+cannot close file %s
+  %s
+'%s':
+Directory data: %zd bytes
+Everything: %zd kilobytes
+Compressed ROMFS
+Compressed
+Super block: %zd bytes
+CRC: %x
+ROM image
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"
+mkfs.cramfs.debug
+7zXZ
+S>Tji
+#s'W
+	)HX
+OL7;
+:~Lj)
+hVvE
+q`iw
+z8m?
+q&b:
+YKi+#
+Dz(hB
+W={kv
+l9'F]Nc
+[D~E
+*+p%BS
+!D"O
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

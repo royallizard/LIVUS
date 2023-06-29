@@ -1,0 +1,865 @@
+td`.
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_key_create
+ast_openstream
+ast_applystream
+ast_playstream
+ast_seekstream
+ast_join_delim
+ast_cli
+__ast_rwlock_rdlock
+strncasecmp
+__ast_rwlock_unlock
+strcasecmp
+fwrite
+fputc
+__ast_pthread_mutex_lock
+__ast_pthread_mutex_unlock
+__ast_pthread_mutex_destroy
+ast_channel_datastore_find
+calloc
+__strdup
+_ast_mem_backtrace_buffer
+backtrace
+ast_log
+ast_channel_name
+ast_json_pack
+ast_channel_publish_cached_blob
+ast_json_unref
+stasis_log_bad_type_access
+_Unwind_Resume
+__gcc_personality_v0
+astman_get_header
+astman_send_error
+ast_channel_get_by_name
+__ao2_lock
+__ao2_unlock
+__ao2_ref
+astman_send_ack
+__snprintf_chk
+stasis_message_data
+ast_manager_build_channel_state_string
+ast_manager_str_from_json_object
+ast_manager_event_blob_create
+fopen64
+__fprintf_chk
+ast_xmldoc_printable
+strchr
+fclose
+term_color
+strlen
+malloc
+ast_complete_channels
+option_debug
+ast_options
+ast_debug_get_by_module
+ast_register_file_version
+ast_unregister_file_version
+ast_agi_send
+pthread_once
+pthread_getspecific
+__ast_str_helper
+ast_carefulwrite
+__ast_verbose
+pthread_setspecific
+memset
+strtol
+ast_format_slin
+ast_set_read_format
+ast_channel_language
+ast_frame_free
+ast_channel_sched
+ast_sched_runq
+ast_sched_wait
+ast_waitfor
+ast_read
+ast_channel_stream
+ast_tellstream
+ast_stopstream
+ast_channel_streamid
+ast_channel_timingfunc
+ast_speech_results_get
+ast_speech_change_state
+ast_build_string
+ast_speech_write
+ast_speech_start
+ast_speech_grammar_deactivate
+ast_speech_grammar_activate
+ast_speech_grammar_unload
+ast_speech_grammar_load
+ast_speech_destroy
+ast_speech_change
+__ast_format_cap_alloc
+__ast_format_cap_append
+ast_speech_new
+sscanf
+ast_waitfordigit_full
+ast_verb_sys_level
+ast_channel_data
+ast_channel_setoption
+ast_control_streamfile
+pbx_builtin_setvar_helper
+ast_openvstream
+ast_waitstream_full
+ast_channel_caller
+ast_channel_exten
+ast_channel_context
+ast_findlabel_extension
+ast_explicit_goto
+ast_moh_start
+ast_moh_stop
+ast_channel_exten_set
+ast_channel_context_set
+ast_callerid_parse
+ast_shrink_phone_number
+ast_set_callerid
+ast_channel_setwhentohangup_tv
+ast_sendtext
+ast_send_image
+ast_check_hangup
+ast_get_time_t
+ast_say_date_with_format
+ast_say_time
+ast_say_date
+ast_say_phonetic_str_full
+ast_say_number_full
+ast_say_digit_str_full
+ast_say_character_str_full
+__ao2_cleanup
+ast_waitstream
+ast_writefile
+ast_indicate
+ast_channel_stream_set
+ast_truncstream
+gettimeofday
+ast_streamfile
+ast_dsp_free
+ast_stream_rewind
+ast_closestream
+ast_writestream
+ast_dsp_silence
+ast_channel_readformat
+ast_dsp_new
+ast_dsp_get_threshold_from_settings
+ast_dsp_set_threshold
+ast_recvtext
+ast_recvchar
+ast_set_hangupsource
+ast_softhangup
+pbx_retrieve_variable
+ast_func_read
+ast_channel_pbx
+ast_str_substitute_variables
+ast_app_getdata_full
+pbx_findapp
+ast_channel_flags
+pbx_exec
+ast_db_put
+ast_db_get
+realloc
+ast_db_deltree
+ast_db_del
+ast_channel_snapshot_type
+ast_channel_cache_by_name
+stasis_cache_get
+ast_channel_state
+ast_answer
+ast_sockaddr_resolve
+_ast_sockaddr_port
+socket
+fcntl
+ast_connect
+__errno_location
+poll
+getsockopt
+_ast_sockaddr_set_port
+strerror
+ast_sockaddr_stringify_fmt
+ast_srv_lookup
+ast_srv_cleanup
+ast_channel_tech
+ast_channel_uniqueid
+ast_get_version
+ast_party_id_presentation
+ast_channel_dialed
+ast_channel_redirecting
+ast_channel_priority
+ast_channel_accountcode
+pthread_self
+ast_random
+ast_module_ref
+ast_module_unref
+__ast_app_separate_args
+pbx_builtin_getvar_helper
+ast_false
+ast_true
+fdopen
+setlinebuf
+kill
+ast_waitfor_nandfds
+fgets
+feof
+ferror
+ast_config_AST_AGI_DIR
+__xstat64
+ast_safe_fork_cleanup
+waitpid
+pipe
+ast_safe_fork
+usleep
+ast_uri_http
+ast_uri_encode
+ast_check_hangup_locked
+ast_json_string_create
+ast_json_object_set
+ast_config_AST_CONFIG_DIR
+setenv
+ast_config_AST_CONFIG_FILE
+ast_config_AST_MODULE_DIR
+ast_config_AST_SPOOL_DIR
+ast_config_AST_MONITOR_DIR
+ast_config_AST_VAR_DIR
+ast_config_AST_DATA_DIR
+ast_config_AST_LOG_DIR
+ast_config_AST_KEY_DIR
+ast_config_AST_RUN_DIR
+ast_set_priority
+dup2
+ast_close_fds_above_n
+execv
+ast_child_verbose
+stdout
+fflush
+_exit
+__ast_datastore_alloc
+__ast_pthread_mutex_init
+ast_channel_datastore_add
+ast_datastore_free
+ast_format_get_name
+ast_agi_register
+__ast_rwlock_wrlock
+ast_xmldoc_build_synopsis
+ast_xmldoc_build_description
+ast_xmldoc_build_syntax
+ast_xmldoc_build_seealso
+ast_agi_unregister
+ast_agi_register_multiple
+ast_agi_unregister_multiple
+ast_cli_unregister_multiple
+ast_unregister_application
+ast_manager_unregister
+stasis_message_type_create
+ast_cli_register_multiple
+ast_register_application2
+ast_manager_register2
+ast_module_register
+ast_module_unregister
+libgcc_s.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.0
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+a_&	
+[^_]
+UWVS
+T$ t+
+[^_]
+d$L1
+[^_]
+d$L1
+[^_]
+[^_]
+[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+[^_]
+d$0[^_
+UWVS
+[^_]
+L$8uT
+[^_]
+yX9x
+D$(1
+UWV1
+D$4e
+[^_]
+D$,t
+[^_]
+UWVS
+d$<[^_]
+d$<[1
+d$<[^_]
+UWVS
+D$<1
+L$<e3
+d$L[^_]
+D$8th
+T$,u'
+UWVS
+D$H~&
+D$x+D$t;D$D
+[^_]
+T$p1
+|$$t
+D$ 1
+D$ f1
+|$$t
+D$ 1
+D$ f1
+|$$t
+D$ 1
+D$ f1
+D$,t
+D$ 1
+D$ f1
+T$,t
+D$Lt
+d$,[^_]
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+D$|1
+L$|e3
+[^_]
+T$<u
+D$<t
+UWVS
+t$`e
+T$<1
+|$<e3=
+d$L[^_]
+T$$u"
+L$$f
+T$(t
+UWVS
+D$<1
+L$<e3
+d$L[^_]
+D$8~E
+t$ ~a
+|$,f
+[^_]
+T$$u
+L$L1
+D$|t#
+|$Le3=
+d$\[^_]
+D$he
+T$<1
+l$l~]
+L$ tZ
+|$<e3=
+d$L[^_]
+D$(1
+D$,1
+|$\t!
+L$,e3
+d$<[^_]
+D$,1
+|$\t!
+L$,e3
+d$<[^_]
+d$,[^_]
+d$,1
+[^_]
+D$<1
+|$lv
+L$<e3
+d$L[^_]
+T$ u
+D$$u
+T$ t1
+UWVS
+D$<1
+t$lt&
+T$<e3
+d$L[^_]
+d$<[^_]
+~+<ltW
+t><u
+d$<1
+[^_]
+UWVS
+D$|1
+|$|e3=
+[^_]
+t$l+D$8
+D$@+L$4
+T$D9T$,
+9D$(
++|$8
++L$4
+D$T-
+D$p;D$T
+D$Ht
+[^_]
+d$<[^_]
+d$<[^_]
+UWVS
+D$<1
+|$<e3=
+d$L[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+T$,t
+|$\t
+d$<[^_]
+d$<1
+[^_]
+T$(t\
+d$ [^_
+d$ 1
+UWVS
+[^_]
+[^_]
+[^_]
+D$,~H
+;t$Xu
+d$<[^_]
+<\u\
+<	u&
+[^_]
+[^_]
+>/tB
+d$ [^_
+UWVS
+d$<[^_]
+d$<1
+[^_]
+UWVS
+[^_]
+UWVS
+P`tQ
+[^_]
+;D$(t
+UWV1
+l$4t_
+[^_]
+d;t$8u
+UWVS
+l$41
+d;|$8u
+[^_]
+UWVS
+|$,	
+d$<[^_]
+Not available
+Description
+Command
+Dead
+%5.5s %30.30s   %s
+&(&agi_commands)->lock
+res_agi.c
+&lt;
+&gt;
+&amp;
+&quot;
+&(chan_cmds)->lock
+&(agi_commands)->lock
+ResultCode
+CommandId
+{s: i, s: s, s: i, s: s}
+agi_exec_end_type
+Channel
+CommandID
+Channel %s does not exist.
+chan
+Added AGI command to queue
+%s%s
+AsyncAGIEnd
+AsyncAGIExec
+AsyncAGIStart
+AGIExecEnd
+AGIExecStart
+agi set debug [on|off]
+AGI Debugging %sabled
+agi dump html
+</TABLE>
+</BODY>
+</HTML>
+<TR><TD ALIGN="CENTER">
+</TD></TR>
+<TR><TD ALIGN="CENTER">
+<BR>
+</TABLE></TD></TR>
+Could not create file '%s'
+topic
+[Synopsis]
+[Description]
+[Runs Dead]
+[See Also]
+[Syntax]
+  -= Info about agi '%s' =- 
+No such command '%s'.
+agi show commands [topic]
+agi exec
+Channel %s does not exist.
+res_agi
+$Revision: 426362 $
+Out of memory
+<%s>AGI Tx >> %s
+speech
+dtmf
+timeout
+200 result=0
+&speech->lock
+200 result=1 (%s) endpos=%ld
+200 result=0 endpos=%ld
+none
+200 result=1
+%30d
+200 result=%d
+%s: %s
+mate
+%30ld
+USERSTOPPED
+CPLAYBACKSTATUS
+CPLAYBACKSTOPKEY
+REMOTESTOPPED
+ERROR
+CPLAYBACKOFFSET
+200 result=%d endpos=%ld
+SUCCESS
+200 result=-1 endpos=%ld
+FAILED
+%30lf
+ABdY 'digits/at' IMp
+A dBY HMS
+200 result=-1
+beep
+200 result=%d (writefile)
+200 result=1 (%s)
+200 result=%d (timeout)
+200 result=%d (hangup)
+dialplan/agi
+Unable to open %s
+200 result=%s (timeout)
+200 result=%s
+200 result=%c
+200 result=%u
+Unable to locate host '%s'
+Unable to create socket: %s
+fcntl(F_GETFL) failed: %s
+fnctl(F_SETFL) failed: %s
+Connect to '%s' failed: %s
+agi_network: yes
+Wow, connected!
+agi_network_script: %s
+_agi._tcp.
+agi://%s:%d/%s
+SRV lookup failed for %s
+unknown
+agi_request: %s
+agi_channel: %s
+agi_language: %s
+agi_type: %s
+agi_uniqueid: %s
+agi_version: %s
+agi_callerid: %s
+agi_calleridname: %s
+agi_callingpres: %d
+agi_callingani2: %d
+agi_callington: %d
+agi_callingtns: %d
+agi_dnid: %s
+agi_rdnis: %s
+agi_context: %s
+agi_extension: %s
+agi_priority: %d
+agi_enhanced: %s
+agi_accountcode: %s
+agi_threadid: %ld
+agi_arg_%d: %s
+{s: i, s: s}
+agi_exec_start_type
+Usage
+520 End of proper usage.
+Failure
+Success
+Unknown Result
+%d %s
+Invalid or unknown command
+agi:async
+{s: s}
+agi_async_start_type
+agi_async_exec_type
+agi_async_end_type
+%s/%s
+Failed to fork(): %s
+AST_CONFIG_DIR
+AST_CONFIG_FILE
+AST_MODULE_DIR
+AST_SPOOL_DIR
+AST_MONITOR_DIR
+AST_VAR_DIR
+AST_DATA_DIR
+AST_LOG_DIR
+AST_AGI_DIR
+AST_KEY_DIR
+AST_RUN_DIR
+Failed to execute '%s': %s
+failure
+Launched AGI Script %s
+AGISIGHUP
+AGIEXITONHANGUP
+HANGUP
+%s hungup
+failure
+<%s>AGI Rx << %s
+No channel, no fd?
+AGISTATUS
+FAILURE
+NOTFOUND
+&(agi_cmds_list)->lock
+hagi://
+AGI Command '%s' registered
+Command already registered!
+EAGI
+DeadAGI
+Enable/Disable AGI debugging
+answer
+asyncagi
+break
+channel
+status
+database
+deltree
+data
+full
+variable
+option
+noop
+receive
+char
+record
+file
+alpha
+digits
+number
+phonetic
+date
+datetime
+send
+image
+autohangup
+callerid
+context
+extension
+music
+priority
+stream
+control
+mode
+verbose
+wait
+digit
+create
+destroy
+grammar
+unload
+deactivate
+recognize
+AsyncAGI
+Channel %s is not setup for Async AGI.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/utils.h
+Both, Channel and Command are *required*
+Failed to add AGI command to channel %s queue
+Usage: agi set debug [on|off]
+       Enables/disables dumping of AGI transactions for
+       debugging purposes.
+Usage: agi dump html <filename>
+       Dumps the AGI command list in HTML format to the given
+       file.
+<HTML>
+<HEAD>
+<TITLE>AGI Commands</TITLE>
+</HEAD>
+<BODY>
+<CENTER><B><H1>AGI Commands</H1></B></CENTER>
+<TABLE BORDER="0" CELLSPACING="10">
+AGI HTML commands dumped to: %s
+<TR><TD><TABLE BORDER="1" CELLPADDING="5" WIDTH="100%%">
+<TR><TH ALIGN="CENTER"><B>%s - %s</B></TH></TR>
+%s%s
+%s%s
+%s%s
+%s%s
+%s%s
+Usage: agi show commands [topic] <topic>
+       When called with a topic as an argument, displays usage
+       information on the given command.  If called without a
+       topic, it provides a list of AGI commands.
+Usage: agi exec <channel name> <app and arguments> [id]
+       Add AGI command to the execute queue of the specified channel in Async AGI
+Failed to add AGI command to queue of channel %s
+Added AGI command to channel %s queue
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/threadstorage.h
+%sscore%d=%d text%d="%s" grammar%d=%s
+200 result=1 (speech) endpos=%ld results=%d %s
+200 result=1 (digit) digit=%c endpos=%ld
+Ooh, found a video stream, too
+Playing '%s' (escape_digits=%s) (sample_offset %ld)
+Unable to set to linear mode, giving up
+Unable to create silence detector :(
+200 result=%d (randomerror) endpos=%ld
+200 result=%d (waitfor) endpos=%ld
+200 result=%d (hangup) endpos=%ld
+200 result=%d (dtmf) endpos=%ld
+200 result=%d (timeout) endpos=%ld
+Unable to restore read format on '%s'
+Playing '%s' (escape_digits=%s) (timeout %d)
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/strings.h
+AGI Script Executing Application: (%s) Options: (%s)
+Could not find application (%s)
+FastAGI connection to '%s' timed out after MAX_AGI_CONNECT (%d) milliseconds.
+Connection to %s failed with error: %s
+Connecting to '%s' failed for url '%s': %s
+Connection to %s failed with unexpected error: %s
+Couldn't connect to any host.  FastAGI failed.
+An error occurred parsing the AGI URI: %s
+Specifying a port number disables SRV lookups: %s
+AGI request failed for host '%s' (%s:%d)
+Too many arguments, truncating
+Command Not Permitted on a dead channel
+520 Invalid command syntax.  Proper usage not available.
+520-Invalid command syntax.  Proper usage follows:
+Hungup channel detected, running agi in dead mode.
+Async AGI does not support Enhanced AGI yet
+Failed to start Async AGI on channel %s
+Failed to create Async AGI pipe
+Failed to read from Async AGI pipe on channel %s: %s
+Huh? Async AGI datastore disappeared on Channel %s!
+ast_waitfor returned <= 0 on chan %s
+No frame read on channel %s, going out ...
+Got HANGUP frame on channel %s, going out ...
+Failed to execute '%s': File does not exist.
+Unable to create toast pipe: %s
+unable to create fromast pipe: %s
+unable to create audio pipe: %s
+unable to set audio pipe parameters: %s
+Unable to fdopen file descriptor
+AGI Rx << temp buffer %s - errno %s
+No \n received, checking again.
+<%s>AGI Script %s completed, returning %d
+unable to send SIGHUP to AGI process %d: %s
+AGI requires an argument (script)
+Unable to allocate Async AGI commands list.
+DeadAGI has been deprecated, please use AGI in all cases!
+EAGI cannot be run on a dead/hungup channel, please use AGI.
+Unable to set channel '%s' to linear mode
+Unable to restore channel '%s' to format %s
+AGI Command '%s' unregistered
+Asterisk Gateway Interface (AGI)
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Add AGI command to a channel in Async AGI
+List AGI commands or specific help
+Dumps a list of AGI commands in HTML format
+ast_agi_unregister
+find_command
+deadagi_exec
+eagi_exec
+action_add_agi_cmd
+run_agi
+async_agi_read_frame
+parse_args
+get_agi_cmd
+add_to_agi
+launch_asyncagi
+launch_ha_netscript
+handle_connection
+launch_netscript
+launch_script
+agi_exec_full
+_ast_strdup
+agi_destroy_commands_cb
+add_agi_cmd
+handle_cli_agi_add_cmd
+help_workhorse
+_ast_malloc
+handle_cli_agi_show
+write_htmldump
+_ast_realloc
+ast_str_make_space
+handle_exec
+ast_str_create
+handle_getoption
+handle_recordfile
+handle_autohangup
+handle_streamfile
+handle_verbose
+handle_speechrecognize
+ast_agi_register
+_ast_calloc
+ast_threadstorage_get
+ast_agi_send
+;*2$"
+zPLR
+d10568311aa53ffbe368f9bd67b07735
+res_agi.so.debug
+7zXZ
+	yHg
+,z>V
+OxR.
+eiRyP
+55eh
+1u6q\k
+Z"SF
+rBPOF
+V{B.
+I[pJ
+B:ZC
+0IL0
+1oub
+\%,vI
+~Jv!
+??8%~
+3yv@
+I>=u
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

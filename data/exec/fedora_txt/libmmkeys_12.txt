@@ -1,0 +1,143 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+rb_mmkeys_plugin_get_type
+rb_debug_real
+register_rb_plugin
+bindtextdomain
+bind_textdomain_codeset
+rb_plugin_get_type
+g_type_module_register_type
+g_type_class_peek_parent
+g_type_check_class_cast
+dbus_g_proxy_call
+gdk_display
+XKeysymToKeycode
+gdk_display_get_default
+gdk_display_get_n_screens
+gdk_display_get_screen
+gdk_screen_get_root_window
+gdk_error_trap_push
+gdk_x11_drawable_get_xid
+XGrabKey
+gdk_flush
+gdk_error_trap_pop
+XUngrabKey
+gdk_window_add_filter
+gdk_window_remove_filter
+g_type_check_instance_cast
+g_object_unref
+g_log
+g_error_free
+rb_shell_player_do_next
+rb_shell_player_playpause
+rb_shell_player_stop
+rb_shell_player_pause
+rb_shell_player_do_previous
+g_object_get
+dbus_g_bus_get
+dbus_g_proxy_new_for_name_owner
+dbus_g_error_quark
+g_clear_error
+rb_marshal_VOID__STRING_STRING
+dbus_g_object_register_marshaller
+dbus_g_proxy_add_signal
+dbus_g_proxy_connect_signal
+g_signal_connect_object
+rb_shell_player_get_playback_state
+rb_shell_player_set_playback_state
+rb_shell_player_seek
+librhythmbox-core.so.0
+libdbus-glib-1.so.2
+libdbus-1.so.3
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libz.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libmmkeys.so
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.0
+l[^_]
+|[^_]
+l[^_]
+L[^_]
+L[^_]
+L[^_]
+RBMMKeysPlugin initialising
+rb-mmkeys-plugin.c
+RBMMKeysPlugin
+Registering plugin %s
+/usr/share/locale
+rhythmbox
+UTF-8
+Rhythmbox
+GrabMediaPlayerKeys
+Error grabbing key
+ReleaseMediaPlayerKeys
+undoing old-style key grabs
+shell-player
+org.gnome.SettingsDaemon
+/org/gnome/SettingsDaemon
+MediaPlayerKeyPressed
+window
+focus-in-event
+couldn't get dbus session bus
+Play
+Pause
+Stop
+Previous
+Next
+Repeat
+Shuffle
+FastForward
+Rewind
+window got focus, re-grabbing media keys
+Could not release media player keys: %s
+activating media player keys plugin
+org.gnome.SettingsDaemon.MediaKeys
+/org/gnome/SettingsDaemon/MediaKeys
+Unable to grab media player keys: %s
+trying old dbus interface/path
+created dbus proxy for org.gnome.SettingsDaemon.MediaKeys; grabbing keys
+attempting old-style key grabs
+got media key '%s' for application '%s'
+register_rb_plugin
+rb_mmkeys_plugin_init
+impl_deactivate
+grab_mmkey
+ungrab_mmkey
+impl_activate
+window_focus_cb
+media_player_key_pressed
+libmmkeys.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

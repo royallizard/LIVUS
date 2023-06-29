@@ -1,0 +1,368 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_module_check_init
+dia_plugin_check_version
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+chronoref_type
+object_register_type
+chronoline_type
+object_load_using_properties
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+element_update_handles
+distance_rectangle_point
+dia_font_ascent
+g_snprintf
+__stack_chk_fail
+dia_font_unref
+connpointline_destroy
+element_destroy
+dia_font_string_width
+ceil
+element_update_boundingbox
+connpointline_adjust_count
+connpointline_update
+connpointline_putonaline
+g_malloc0
+connpointline_create
+element_init
+dia_font_new_from_style
+color_black
+object_set_props_from_offsets
+element_move_handle
+g_assertion_message_expr
+prop_std_line_width_data
+prop_std_text_height_data
+object_copy_using_properties
+object_create_props_dialog
+object_apply_props_from_dialog
+object_apply_props
+object_save_using_properties
+g_free
+destroy_clevent_list
+g_strdup
+color_white
+reparse_clevent
+destroy_cle
+g_slist_insert_sorted
+g_slist_foreach
+g_slist_free
+g_utf8_get_char
+g_utf8_skip
+strtod
+message_warning
+libpng16.so.16
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libchronogram_objects.so
+GLIBC_2.2.5
+GLIBC_2.4
+%zZ 
+%rZ 
+%jZ 
+%bZ 
+%ZZ 
+%RZ 
+%JZ 
+%BZ 
+%:Z 
+%2Z 
+%*Z 
+%"Z 
+%zY 
+%rY 
+%jY 
+fffff.
+=Ay 
+5:y 
+fffff.
+=_W 
+fffff.
+=nV 
+fff.
+56X 
+=Q] 
+fff.
+AWAVI
+AUATUSH
+D$x1
+D$HI
+D$8M
+D$@L
+D$0s
+D$ H
+D$`H
+D$PH
+D$(L
+D$@L
+D$PL
+T$(H
+D$0L
+D$xdH3
+[]A\A]A^A_
+t$@L
+ffff.
+ATU1
+D$x1
+d$`H
+T$(f
+XK0H
+D$8H
+XD$P
+D$xdH3
+[]A\
+fffff.
+AUATI
+[]A\A]
+fff.
+=qb 
+fff.
+AUATI
+D$(1
+A9x(
+L$(dH3
+8[]A\A]
+D$(1
+A9x(
+L$(dH3
+5eQ 
+D$(1
+A9x(
+D$(dH3
+D$(1
+A;x(
+|$(dH3<%(
+AWAVAUATUSH
+T$@H
+D$HA
+D$pH
+L$pf
+T$xt
+D$(f
+L$(A
+t$pH
+l$pI
+D$0I
+\$(L
+\$(L
+D$0f
+L$0I
+T$(L
+T$(L
+L$pf
+T$xt
+T$xt
+t$ L
+D$XA
+T$`M
+D$`A
+[]A\A]A^A_
+l$pH
+AWAVI
+AUATI
+t*r`
+([]A\A]A^A_
+5)$ 
+AWAVI
+AUATI
+D$X1
+l$8L
+D$01
+l$HH
+D$4H
+D$ H
+D$@H
+L$ H
+t$8H
+T$(H
+|$PL
+D$XdH3
+h[]A\A]A^A_
+D$PI
+D$@1
+@t/v%
+ut#H
+D$0t:
+L$4H
+T$@H
+t$8H
+Chronogram diagram objects
+Chronogram
+%%.%df
+chronoref!=NULL
+chronoref.c
+handle!=NULL
+to!=NULL
+obj_pos
+point
+obj_bb
+rect
+meta
+dict
+elem_corner
+elem_width
+real
+elem_height
+mcol_chronref
+nb_begin
+mcol_col_time
+mc_col
+frame_time
+f_begin
+start_time
+end_time
+time_step
+time_lstep
+frame_time_end
+mcol_col_aspect
+frame_aspect
+colour
+main_lwidth
+length
+light_lwidth
+font
+font_size
+fontsize
+font_color
+frame_aspect_end
+mcol_chronref_end
+mc_end
+Object position
+Where the object is located
+Object bounding box
+Object meta info
+Some key/value pairs
+Element corner
+The corner of the element
+Element width
+The width of the element
+Element height
+The height of the element
+mcol_chronoref
+mc_begin
+Time data
+Start time
+End time
+Major time step
+Minor time step
+Aspect
+Line color
+Line width
+Minor step line width
+Font
+Font size
+Text color
+mcol_chronoref_end
+chronogram - reference
+22 22 2 1
+ 	c None
+.	c #000000
+                      
+ .................... 
+ .  .  .  .  .  .  .  
+ .              .     
+. .            ..     
+. .             .     
+chronoref_move_handle
+The bounding box of the object
+chronoline.c
+chronoline!=NULL
+chronoline != NULL
+nbook_std
+nbook_page_data
+nb_page
+events
+multistring
+help
+static
+nbook_page_parameters
+rise_time
+fall_time
+multibit
+bool
+nbook_page_aspect
+data_color
+data_lwidth
+nbook_std_end
+nb_end
+Data
+Data name
+Events
+Event specification
+Parameters
+Rise time
+Fall time
+Multi-bit data
+Data color
+Data line width
+chronogram - line
+22 22 4 1
+.	c #FF0000
++	c #FF8080
+@	c #000000
+ ....    ....   ....  
+ .++.    .++.   .++.  
+ @@@@@@@@@@@@@@@@@@@@ 
+i < chronoline->snap->num_connections
+@ time    set the pointer at an absolute time.
+( duration  sets the signal up, then wait 'duration'.
+) duration  sets the signal down, then wait 'duration'.
+u duration  sets the signal to "unknown" state, then wait 'duration'.
+example : @ 1.0 (2.0)1.0(2.0)
+chronoline_update_data
+chronoline_draw_really
+chronoline_draw
+chronoline_move_handle
+333333
+chronoline_event.c
+Syntax error in event string; waiting one of "()@u". string=%s
+Syntax error in event string; waiting a floating point value. string=%s
+compare_cle
+add_event
+;*3$"
+libchronogram_objects.so.debug
+7zXZ
+vcp`
+?8L<
+AL+x
+p+Mf5K<
+Y?yO
+'N(z
+4dz:|M#w
+%~Lt
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

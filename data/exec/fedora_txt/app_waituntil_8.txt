@@ -1,0 +1,84 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+gettimeofday
+sscanf
+ast_safe_sleep
+pbx_builtin_setvar_helper
+ast_log
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+ATSubH
+=O	 
+|$ H
+l$(L
+L$8H
+T$0H
+|$0H
+YD$8H
+\$HH
+l$PL
+d$XL
+l$`H
+fffff.
+WaitUntil requires an argument(epoch)
+WaitUntil called with non-numeric argument
+WaitUntil called in the past (now %ld, arg %ld)
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  WaitUntil(<epoch>): Waits until the given time.  Sets WAITUNTILSTATUS to
+one of the following values:
+  OK       Wait succeeded
+  FAILURE  Invalid argument
+  HANGUP   Channel hung up before time elapsed
+  PAST     The time specified was already past
+Wait (sleep) until the current time is the given epoch
+app_waituntil.c
+FAILURE
+WAITUNTILSTATUS
+PAST
+HANGUP
+%ld%lf
+$Revision: 137055 $
+app_waituntil
+Wait until specified time
+WaitUntil
+waituntil_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_waituntil.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

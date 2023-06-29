@@ -1,0 +1,403 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+stderr
+__fprintf_chk
+ng_debug
+ioctls_v4l1
+print_ioctl
+__errno_location
+strerror
+abort
+ng_vfmt_to_depth
+ng_malloc_video_buf
+read
+ng_release_video_buf
+ng_waiton_video_buf
+alarm
+ng_vfmt_to_desc
+ng_get_timestamp
+free
+munmap
+close
+ng_chardev_open
+mmap64
+malloc
+memset
+ng_wakeup_video_buf
+ng_init_video_buf
+perror
+ng_dev
+realloc
+strcpy
+__sprintf_chk
+__stack_chk_fail
+v4l_driver
+ng_vid_driver_register
+ng_attr_to_desc
+__strdup
+sigemptyset
+sigaction
+bits_vid_cap
+bits_chan_flags
+desc_chan_type
+bits_tuner_flags
+desc_tuner_mode
+desc_pict_palette
+bits_audio_flags
+bits_audio_mode
+desc_video_capability
+desc_video_channel
+desc_video_tuner
+desc_video_picture
+desc_video_audio
+desc_video_window
+desc_video_buffer
+desc_video_mmap
+desc_video_mbuf
+desc_int
+desc_long
+print_struct
+__strcat_chk
+exit
+__ctype_b_loc
+desc_timeval
+libpng12.so.0
+libz.so.1
+libm.so.6
+libjpeg.so.62
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+ATSubH
+=o@ 
+fff.
+l$ H
+-QB 
+5"B 
+	v0D
+v(@u 
+v0@H
+SP[H
+AVAUATUH
+C<9E
+C@9E
+CD9E
+CH9E
+[]A\A]1
+C<9E
+C@9E
+[]A\A]A^
+[]A\
+tkHc
+D$ [H
+[]A\
+fffff.
+tcHc
+AUATUSH
+-y- 
+[]A\A]
+[]A\A]
+AWAVE1
+AUATA
+D$X1
+X0E1
+T$XdH3
+h[]A\A]A^A_
+fff.
+53( 
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+v0@H
+-z% 
+v0@f
+-I# 
+AWAVAUI
+ATUSH
+t$8H
+L$@M
+D$PI
+D$@H
+|$(H
+L$(H
+D$$H
+\$8H
+[]A\A]A^A_
+L$(H
+D$$H
+|$(H
+L$(H
+D$4L
+L$4I
+t$HH
+T$HE1
+t$HI
+t$HH
+t$HH
+9K0u
+|$(H
+|$(H
+D$4H
+L$(H
+v4l: timeout (got SIGALRM), hardware/driver problems?
+utils/linux/capture/libng/plugins/drv1-v4l.c
+BUG: device not open [%s:%s:%d]
+v4l: waiting for a free buffer
+v4l: Huh? setformat: found queued buffers (%d %d)
+BUG: device still open [%s:%s:%d]
+BUG: device is open [%s:%s:%d]
+  v4l: using mapped buffers for capture
+  v4l: using read() for capture
+v4l: prehistoric bttv version found, please try to
+     upgrade the driver before mailing bug reports
+  fbuffer : base=0x%p size=%dx%d depth=%d bpl=%d
+  picture : brightness=%d hue=%d colour=%d contrast=%d
+  picture : whiteness=%d depth=%d palette=%s
+ioctl: 
+: %s
+v4l: freq: %.3f
+v4l: getimage
+v4l: getimage: fps != 0
+v4l: stopvideo
+v4l: Huh? stop: fps == 0
+v4l: setformat
+v4l: capture probe %s...	
+failed
+v4l: startvideo
+v4l: Huh? start: fps != 0
+v4l: nextframe: fps == 0
+v4l: close
+v4l: open
+  mbuf: size=%d frames=%d
+mmap
+ioctl VIDIOCGCAP
+%.32s
+/dev/
+v4l: init: %s (%s)
+  capabilities: 
+capture
+  size    : %dx%d => %dx%d
+  channels: %d
+camera 
+audio 
+tuner 
+    %s: %d %s%s %s%s
+  audios  : %d
+    %d (%s): 
+muted=%s 
+volume=%d 
+bass=%d 
+treble=%d 
+  tuner   : %s %lu-%lu
+v4l: bttv version %d.%d.%d
+UNKNOWN
+tuner
+teletext
+overlay
+chromakey
+clipping
+frameram
+scales
+monochrome
+auto
+mono
+stereo
+lang1
+lang2
+NTSC
+SECAM
+AUTO
+PAL-NC
+PAL-M
+PAL-N
+NTSC-JP
+grey
+hi240
+rgb16
+rgb24
+rgb32
+rgb15
+yuv422
+yuyv
+uyvy
+yuv420
+yuv411
+yuv422p
+yuv411p
+yuv420p
+yuv410p
+v4l_tuned
+v4l_setfreq
+v4l_getfreq
+v4l_getimage
+v4l_nextframe
+v4l_stopvideo
+v4l_startvideo
+v4l_setformat
+v4l_fini
+v4l_close
+v4l_open
+v4l_write_attr
+v4l_read_attr
+=TELETEXT
+OVERLAY
+CHROMAKEY
+CLIPPING
+FRAMERAM
+SCALES
+MONOCHROME
+SUBCAPTURE
+MPEG_DECODER
+MPEG_ENCODER
+MJPEG_DECODER
+MJPEG_ENCODER
+CAMERA
+NORM
+STEREO_ON
+RDS_ON
+MBS_ON
+GREY
+HI240
+RGB565
+RGB24
+RGB32
+RGB555
+YUV422
+YUYV
+UYVY
+YUV420
+YUV411
+YUV422P
+YUV411P
+YUV420P
+YUV410P
+MUTE
+MUTABLE
+VOLUME
+BASS
+TREBLE
+BALANCE
+MONO
+STEREO
+LANG1
+LANG2
+name
+type
+channels
+audios
+maxwidth
+maxheight
+minwidth
+minheight
+channel
+tuners
+flags
+norm
+rangelow
+rangehigh
+mode
+signal
+brightness
+colour
+contrast
+whiteness
+depth
+palette
+audio
+volume
+bass
+treble
+balance
+step
+base
+bytesperline
+frame
+format
+size
+frames
+offsets
+VIDIOCGCHAN
+VIDIOCSCHAN
+VIDIOCGTUNER
+VIDIOCSTUNER
+VIDIOCGPICT
+VIDIOCSPICT
+VIDIOCCAPTURE
+VIDIOCGWIN
+VIDIOCSWIN
+VIDIOCGFBUF
+VIDIOCSFBUF
+VIDIOCKEY
+VIDIOCGFREQ
+VIDIOCSFREQ
+VIDIOCGAUDIO
+VIDIOCSAUDIO
+VIDIOCSYNC
+VIDIOCMCAPTURE
+VIDIOCGMBUF
+VIDIOCGUNIT
+VIDIOCGCAPTURE
+VIDIOCSCAPTURE
+VIDIOCSPLAYMODE
+VIDIOCSWRITEMODE
+VIDIOCGPLAYINFO
+VIDIOCSMICROCODE
+VIDIOCGVBIFMT
+VIDIOCSVBIFMT
+%s%s
+	%-24s: 
+"%-.*s"
+%d.%d.%d
+0x%08x [%c%c%c%c]
+unknown
+0x%x [
+0x%lx [
+FIXME [type=%d]
+%s%s(
+long
+drv1-v4l.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

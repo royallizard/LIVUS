@@ -1,0 +1,345 @@
+\. d
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+sadtarrow_type
+object_register_type
+sadtbox_type
+sadtannotation_type
+g_module_check_init
+dia_plugin_check_version
+object_load_using_properties
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+neworthconn_can_add_segment
+neworthconn_can_delete_segment
+neworthconn_update_data
+neworthconn_distance_from
+color_black
+neworthconn_destroy
+neworthconn_move_handle
+neworthconn_update_boundingbox
+__assert_fail
+neworthconn_move
+g_malloc0
+neworthconn_init
+object_set_props_from_offsets
+neworthconn_delete_segment
+neworthconn_add_segment
+flow_style
+object_copy_using_properties
+object_create_props_dialog
+object_apply_props_from_dialog
+object_save_using_properties
+text_get_attributes
+text_set_cursor
+text_grab_focus
+element_update_handles
+distance_rectangle_point
+color_white
+text_draw
+text_destroy
+connpointline_destroy
+g_free
+element_destroy
+text_calc_boundingbox
+text_set_position
+element_update_boundingbox
+connpointline_update
+connpointline_putonaline
+dia_font_new_from_style
+new_text
+dia_font_unref
+g_strdup
+element_init
+connpointline_create
+apply_textattr_properties
+distance_line_point
+connpointline_remove_points
+element_move_handle
+connpointline_add_points
+connpointline_can_add_point
+connpointline_can_remove_point
+prop_std_text_align_data
+prop_std_text_height_data
+connection_update_handles
+connection_destroy
+connpoint_is_autogap
+connection_adjust_for_autogap
+connection_update_boundingbox
+rectangle_union
+connection_init
+connection_move_handle
+g_assertion_message_expr
+libpng12.so.0
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libsadt_objects.so
+GLIBC_2.2.5
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+ATSubH
+=o7 
+=W7 
+fff.
+5F; 
+=k> 
+[]A\
+t$pH
+t$xH
+D$@H
+l$@H
+D$PH
+D$XH
+d$PH
+XL$`
+d$XH
+XD$h
+[]A\
+ffffff.
+d$ H
+ffffff.
+D$8t
+l$0H
+T$ L
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+ffff.
+l$ H
+ffff.
+fff.
+t$ 1
+YH H
+D$ I
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+fffff.
+AUATA
+t$`H
+l$PL
+l$ H
+D$`H
+XL$`H
+XD$h
+D$PH
+D$XH
+L$0H
+D$HH
+D$(H
+x[]A\A]
+[]A\A]
+[]A\
+ffffff.
+[]A\
+[]A\
+fff.
+={4 
+l$ H
+$w+H
+\$HH
+l$PL
+d$XL
+l$`H
+ATUH
+D$ H
+D$ H
+D$0H
+D$(H
+D$(A
+@[]A\
+[]A\A]
+ATUD
+[]A\
+ffffff.
+SADT diagram objects
+SADT
+arrow.c
+sadtarrow!=((void *)0)
+handle!=((void *)0)
+to!=((void *)0)
+SADT - arrow
+Normal
+Dotted arrow
+disable arrow heads
+obj_pos
+obj_bb
+rect
+orth_points
+pointarray
+orth_orient
+enumarray
+arrow_style
+enum
+autogray
+bool
+Object position
+Where the object is located
+Object bounding box
+orthconn points
+orthconn orientations
+Flow style:
+Add segment
+Delete segment
+SADT Arrow
+22 22 4 1
+ 	c None
+.	c #00FC00
++	c #000000
+@	c #F88010
+                      
+   ..                 
+   ++                 
+   +++                
+    +++++@@++++       
+     ++++@@+++++      
+              +++     
+               ++     
+             ++++++   
+              ++++    
+               ..     
+Import resource (not shown upstairs)
+Imply resource (not shown downstairs)
+The bounding box of the object
+Automatically gray vertical flows:
+To improve the ease of reading, flows which begin and end vertically can be rendered gray
+sadtarrow_move_handle
+?UUUUUU
+?UUUUUU
+box.c
+box != ((void *)0)
+text
+box!=((void *)0)
+SADT - box
+elem_corner
+elem_width
+real
+elem_height
+text_alignment
+text_font
+text_height
+text_colour
+string
+cpl_north
+connpoint_line
+cpl_west
+cpl_south
+cpl_east
+Element corner
+The corner of the element
+Element width
+The width of the element
+Element height
+The height of the element
+Text padding
+Text alignment
+Font
+Font size
+Text color
+Activity/Data identifier
+Add connection point
+Delete connection point
+SADT box
+22 22 3 1
+.	c #000000
++	c #FFFFFF
+      .      .        
+     ...    ...       
+    ..............    
+    .++++++++++++.  . 
+    .++++++++++++.....
+    .+..+++.+++++.  . 
+    .+.+.+.+.++++.    
+  . .+.+.+.+.++++.    
+.....+..+++.+++++.  . 
+  . .++++++++++++.....
+           .          
+          ...         
+The identifier which appears in the lower right corner of the Box
+sadtbox_move_handle
+sadtbox_draw
+?333333
+@333333
+?annotation.c
+annotation != ((void *)0)
+annotation!=NULL
+handle!=NULL
+to!=NULL
+SADT - annotation
+conn_endpoints
+Connection endpoints
+22 22 2 1
+    ..  .   .         
+    .  . . . .        
+    .. . . . .        
+    .   .   .         
+        .             
+         .            
+          .           
+       .. .           
+       . ..           
+       .              
+annotation_move_handle
+annotation_draw
+libsadt_objects.so.debug
+1#=f
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,316 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_install_stack_functions
+ast_agi_unregister
+ast_unregister_application
+ast_custom_function_unregister
+ast_var_name
+pbx_builtin_setvar_helper
+ast_var_delete
+__ast_pthread_mutex_lock
+__ast_pthread_mutex_unlock
+__ast_pthread_mutex_destroy
+ast_channel_datastore_find
+ast_log
+strlen
+memcpy
+__ast_app_separate_args
+strtol
+__ao2_lock
+ast_str_set
+ast_true
+__ao2_unlock
+__stack_chk_fail
+ast_channel_varshead
+strcmp
+ast_var_value
+pbx_builtin_getvar_helper
+option_debug
+ast_options
+ast_debug_get_by_module
+ast_channel_context_set
+ast_channel_exten_set
+ast_channel_flags
+ast_channel_priority_set
+ast_agi_register
+ast_register_application2
+__ast_custom_function_register
+strchr
+strrchr
+malloc
+__snprintf_chk
+ast_channel_context
+ast_channel_exten
+ast_var_assign
+pbx_builtin_pushvar_helper
+ast_channel_uniqueid
+ast_channel_name
+__ast_manager_event_multichan
+ast_channel_priority
+ast_parseable_goto
+ast_channel_caller
+ast_exists_extension
+calloc
+__ast_datastore_alloc
+__ast_pthread_mutex_init
+ast_channel_datastore_add
+ast_datastore_free
+pbx_checkcondition
+__ast_verbose
+ast_channel_softhangup_internal_flag
+ast_softhangup_nolock
+ast_channel_clear_softhangup
+ast_check_hangup
+ast_spawn_extension
+sscanf
+ast_findlabel_extension
+_ast_asprintf
+ast_agi_send
+ast_channel_pbx
+ast_channel_pbx_set
+ast_pbx_run_args
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+5zR 
+%|R 
+%zR 
+%rR 
+%jR 
+%bR 
+%ZR 
+%RR 
+%JR 
+%BR 
+%:R 
+%2R 
+%*R 
+%"R 
+%zQ 
+%rQ 
+%jQ 
+%bQ 
+%ZQ 
+%RQ 
+%JQ 
+%BQ 
+%:Q 
+%2Q 
+%*Q 
+%"Q 
+%zP 
+%rP 
+%jP 
+%bP 
+%ZP 
+%RP 
+%JP 
+%BP 
+%:P 
+%2P 
+=yP 
+ffff.
+=IP 
+fffff.
+=zJ 
+=>O 
+=[Q 
+=CP 
+fffff.
+t1H9s
+ffffff.
+5wH 
+'H9u
+[]A\A]H
+[]A\A]H
+AWAVAUATSH
+[A\A]A^A_]
+AVAUATUSH
+([]A\A]A^A_
+fffff.
+[]A\A]A^A_
+ffffff.
+ATUSH
+I9l$
+A\A]A^
+A\A]A^
+=e@ 
+=3B 
+=z? 
+AUATSH
+\$'H
+[A\A]A^A_]
+\$(L
+t$ H
+[]A\A]A^A_
+5v5 
+[]A\A]A^
+fff.
+AWAVAUI
+|$'I
+D$'H
+D$'H
+d$'I
+|$'I
+5$1 
+|01H
+[A\A]A^A_]
+L$'I
+=n, 
+AWAVI
+AUATSH
+D$/H
+D$/H
+[A\A]A^A_]
+AWAVA
+AUATSH
+[A\A]A^A_]
+D$ I
+l$7I
+t$7I
+&(oldlist)->lock
+app_stack.c
+No %s stack allocated.
+chan
+%s,%s,%d
+app_stack
+GOSUB_RETVAL
+Gosub args:%s new_args:%s
+%s,%s,%s
+%s,%s,%s(%s)
+VarSet
+%s address is invalid: '%s'
+ARG%d
+Setting '%s' to '%s'
+ARGC
+%s Internal %s(%s) start
+%s exited with status %d
+No %s stack!
+%s Ending location: %s,%s,%d
+ (abnormal exit)
+%30d
+%s,%s,%d(%s)
+%s AGI %s(%s) start
+100 result=0 Trying...
+200 result=%d Gosub failed
+$Revision: 371592 $
+res_agi
+gosub
+STACK_PEEK
+LOCAL_PEEK
+LOCAL
+GOSUB
+STACK_PEEK must be called on an active channel
+STACK_PEEK must be called with a positive peek value
+STACK_PEEK called on a channel without a gosub stack
+Stack peek of '%s' is more stack frames than I have
+Unknown argument '%s' to STACK_PEEK
+LOCAL_PEEK must be called on an active channel
+%s called with no gosub stack allocated.
+%s attempted to pop special return location.
+%s called with an empty gosub stack
+Return without Gosub: stack is unallocated
+Return without Gosub: stack is empty
+Ouch.  No closing paren: '%s'?
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-11.5.1/include/asterisk/utils.h
+Channel: %s
+Variable: LOCAL(%s)
+Value: %s
+Uniqueid: %s
+Tried to set LOCAL(%s), but we aren't within a Gosub routine
+Attempt to reach a non-existent destination for %s: (Context:%s, Extension:%s, Priority:%d)
+Channel %s has no datastore, so we're allocating one.
+Unable to allocate new datastore.  %s failed.
+Unable to allocate datastore list head.  %s failed.
+%s requires an argument: %s([[context,]exten,]priority[(arg1[,...][,argN])])
+GosubIf requires an argument: GosubIf(cond?label1(args):label2(args)
+%s Original location: %s,%s,%d
+%s An async goto just messed up our execution location.
+Spawn extension (%s,%s,%d) exited with %d on '%s'
+Spawn extension (%s, %s, %d) exited non-zero on '%s'
+%s Internal %s(%s) complete GOSUB_RETVAL=%s
+%s Abnormal '%s(%s)' exit.  Popping routine return locations.
+Gosub called with %d arguments: 0:%s 1:%s 2:%s 3:%s 4:%s
+Priority '%s' not found in '%s@%s'
+200 result=-1 Gosub label not found
+503 result=-2 Memory allocation failure
+%s AGI %s(%s) complete GOSUB_RETVAL=%s
+%s Abnormal AGI %s(%s) exit.  Popping routine return locations.
+200 result=0 Gosub complete%s
+Dialplan subroutines (Gosub, Return, etc)
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+gosub_run
+_ast_malloc
+expand_gosub_args
+pop_exec
+return_exec
+gosubif_exec
+balance_stack
+gosub_allocate_frame
+_ast_calloc
+gosub_exec
+handle_gosub
+local_read
+frame_set_var
+local_write
+peek_read
+gosub_free
+stackpeek_read
+StackPop
+Return
+GosubIf
+Gosub
+;*3$"
+7e188f7e8f4d83eb438971816ebcf5e0
+app_stack.so.debug
+7zXZ
+Jj)x
+|9+D
+q#u.
+TP5d
+31/&
+i3C4
+ju48
+F|b+
+*6{.
+p@}t
+Uta0]
+n~]O>
+ J:!
+M$5@
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

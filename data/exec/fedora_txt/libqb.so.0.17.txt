@@ -1,0 +1,1471 @@
+($YD
+_WBS
+{@1h
+vVz<
+\7v=
+!Eh#
+n(kHs	EOwE
+imBG
+mBxxgHQ
+Aom1gX
+b%;2Te>
+[Kv4*
+-A:w'
+ LmkDJQ
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+qb_thread_lock_create
+malloc
+pthread_mutex_init
+pthread_spin_init
+qb_thread_lock
+pthread_mutex_lock
+pthread_spin_lock
+qb_thread_unlock
+pthread_mutex_unlock
+pthread_spin_unlock
+qb_thread_trylock
+pthread_mutex_trylock
+pthread_spin_trylock
+qb_thread_lock_destroy
+pthread_mutex_destroy
+pthread_spin_destroy
+qb_timespec_add_ms
+qb_util_nano_current_get
+clock_gettime
+__stack_chk_fail
+qb_util_nano_from_epoch_get
+qb_util_nano_monotonic_hz
+clock_getres
+qb_util_timespec_from_epoch_get
+qb_util_stopwatch_create
+calloc
+qb_util_stopwatch_free
+qb_util_stopwatch_start
+qb_util_stopwatch_stop
+qb_util_stopwatch_us_elapsed_get
+qb_util_stopwatch_sec_elapsed_get
+qb_util_stopwatch_split_ctl
+__errno_location
+qb_util_stopwatch_split
+qb_util_stopwatch_split_last
+qb_util_stopwatch_time_split_get
+qb_atomic_init
+qb_array_create
+qb_hdb_create
+qb_hdb_destroy
+qb_array_free
+qb_hdb_handle_create
+qb_atomic_int_get
+qb_array_index
+qb_array_grow
+qb_atomic_int_add
+random
+memset
+qb_hdb_handle_get
+qb_hdb_handle_get_always
+qb_hdb_handle_put
+qb_atomic_int_exchange_and_add
+qb_hdb_handle_destroy
+qb_hdb_handle_refcount_get
+qb_hdb_iterator_reset
+qb_hdb_iterator_next
+qb_hdb_base_convert
+qb_hdb_nocheck_convert
+qb_strerror_r
+qb_log_real_
+qb_rb_open_2
+sysconf
+__snprintf_chk
+qb_sys_mmap_file_open
+qb_sys_circular_mmap
+strlcpy
+qb_rb_sem_create
+munmap
+unlink
+qb_rb_open
+qb_rb_close
+qb_rb_force_close
+qb_rb_name_get
+qb_rb_shared_user_data_get
+qb_rb_refcount_get
+qb_rb_space_free
+qb_rb_space_used
+puts
+__printf_chk
+qb_rb_chunks_used
+qb_rb_chunk_alloc
+qb_rb_chunk_commit
+qb_rb_chunk_write
+memcpy
+qb_rb_chunk_reclaim
+qb_rb_chunk_peek
+qb_rb_chunk_read
+qb_rb_write_to_file
+qb_rb_create_from_file
+__assert_fail
+qb_rb_chown
+qb_rb_chmod
+sem_timedwait
+sem_trywait
+sem_wait
+sem_destroy
+sem_getvalue
+sem_post
+sem_init
+realloc
+qb_array_create_2
+qb_array_new_bin_cb_set
+qb_array_num_bins_get
+qb_array_elems_per_bin_get
+qb_loop_level_item_add
+qb_loop_level_item_del
+qb_loop_default_get
+qb_loop_create
+qb_loop_timer_create
+qb_loop_jobs_create
+qb_loop_poll_create
+qb_loop_signals_create
+qb_loop_destroy
+qb_loop_timer_destroy
+qb_loop_jobs_destroy
+qb_loop_poll_destroy
+qb_loop_signals_destroy
+qb_loop_stop
+qb_loop_run
+qb_loop_timer_msec_duration_to_expire
+sigemptyset
+sigaddset
+sigaction
+signal
+qb_poll_fds_usage_check_
+getrlimit
+qb_epoll_init
+qb_loop_poll_low_fds_event_set
+qb_loop_poll_add
+qb_loop_poll_mod
+qb_loop_poll_del
+qb_sys_fd_nonblock_cloexec_set
+qb_loop_signal_add
+sigismember
+qb_loop_signal_mod
+qb_loop_signal_del
+qb_loop_job_add
+qb_loop_job_del
+qb_loop_timer_add
+qb_loop_timer_del
+qb_loop_timer_expire_time_get
+qb_loop_timer_is_running
+qb_ipc_us_sock_error_is_disconnected
+qb_ipc_us_ready
+qb_ipcc_connect
+qb_ipcc_us_setup_connect
+qb_ipcc_us_sock_close
+qb_ipcc_us_connect
+qb_ipcc_shm_connect
+qb_ipcc_send
+qb_ipc_us_send
+qb_ipcc_fc_enable_max_set
+qb_ipcc_sendv
+qb_ipcc_recv
+qb_ipcc_sendv_recv
+qb_ipcc_fd_get
+qb_ipcc_event_recv
+qb_ipc_us_recv
+qb_ipcc_disconnect
+qb_ipcc_context_set
+qb_ipcc_context_get
+qb_ipcc_is_connected
+qb_ipcc_get_buffer_size
+qb_ipcs_dispatch_connection_request
+qb_ipcs_poll_handlers_set
+qb_ipcs_service_context_set
+qb_ipcs_service_context_get
+qb_ipcs_ref
+qb_ipcs_create
+getpid
+qb_ipcs_unref
+qb_ipcs_run
+qb_ipcs_us_init
+qb_ipcs_us_publish
+qb_ipcs_us_withdraw
+qb_ipcs_shm_init
+qb_ipcs_service_id_get
+qb_ipcs_connection_ref
+qb_ipcs_connection_first_get
+qb_ipcs_connection_next_get
+qb_ipcs_connection_alloc
+qb_ipcs_connection_unref
+qb_ipcs_request_rate_limit
+qb_ipcs_response_send
+qb_ipcs_response_sendv
+qb_ipcs_event_send
+qb_ipcs_event_sendv
+qb_ipcs_disconnect
+qb_ipcs_destroy
+qb_ipcs_context_set
+qb_ipcs_context_get
+qb_ipcs_connection_service_context_get
+qb_ipcs_connection_stats_get
+qb_ipcs_connection_stats_get_2
+qb_ipcs_stats_get
+qb_ipcs_connection_auth_set
+qb_ipcs_connection_get_buffer_size
+qb_ipcs_enforce_buffer_size
+qb_atomic_int_set
+strlen
+qb_sigpipe_ctl
+__poll_chk
+shutdown
+accept
+setsockopt
+recvmsg
+socket
+qb_socket_nosigpipe
+snprintf
+bind
+listen
+getsockopt
+socketpair
+usleep
+writev
+__strdup
+qb_ipcc_verify_dgram_max_msg_size
+strcmp
+strchrnul
+regexec
+strstr
+regfree
+qb_util_set_log_function
+qb_log_real_va_
+__vsnprintf_chk
+qb_log_thread_log_post
+qb_log_thread_log_write
+qb_log_callsite_get
+qb_log_dcs_get
+pthread_rwlock_rdlock
+pthread_rwlock_unlock
+qb_log_from_external_source_va
+qb_log_from_external_source
+qb_log_callsites_register
+pthread_rwlock_wrlock
+dlopen
+dlerror
+dlsym
+dlclose
+qb_log_callsites_dump
+qb_log_filter_ctl2
+regcomp
+qb_log_filter_fn_set
+qb_log_filter_ctl
+qb_log_init
+pthread_rwlock_init
+qb_log_format_init
+qb_log_dcs_init
+__stop___verbose
+__start___verbose
+dl_iterate_phdr
+qb_log_syslog_open
+qb_log_fini
+qb_log_thread_stop
+pthread_rwlock_destroy
+qb_log_format_fini
+qb_log_dcs_fini
+qb_log_target_alloc
+qb_log_target_free
+qb_log_format_set
+qb_log_target_get
+qb_log_target_user_data_get
+qb_log_target_user_data_set
+qb_log_custom_open
+qb_log_custom_close
+qb_log_ctl
+qb_log_stderr_open
+qb_log_blackbox_open
+pthread_exit
+qb_log_thread_priority_set
+pthread_setschedparam
+qb_log_thread_start
+pthread_create
+pthread_join
+qb_vsnprintf_serialize
+qb_log_blackbox_write_to_file
+qb_log_blackbox_print_from_file
+localtime
+strftime
+qb_vsnprintf_deserialize
+qb_log_priority2str
+perror
+qb_log_target_format
+__fprintf_chk
+fflush
+fileno
+fsync
+fclose
+fopen
+stdout
+stderr
+qb_log_file_open
+qb_log_file_close
+closelog
+openlog
+__syslog_chk
+qb_log_facility2int
+facilitynames
+qb_log_facility2str
+qb_log_tags_stringify_fn_set
+qb_log_target_format_static
+__ctype_b_loc
+strtol
+gethostname
+localtime_r
+strlcat
+qb_map_put
+qb_map_get
+qb_map_rm
+qb_map_count_get
+qb_map_iter_create
+qb_map_pref_iter_create
+qb_map_iter_next
+qb_map_iter_free
+qb_map_foreach
+qb_map_notify_add
+qb_map_notify_del
+qb_map_notify_del_2
+qb_map_destroy
+qb_skiplist_create
+srand
+qb_hashtable_create
+putchar
+qb_trie_dump
+qb_trie_create
+umask
+mkstemp
+strchr
+ftruncate
+fcntl
+qb_atomic_int_compare_and_exchange
+qb_atomic_pointer_compare_and_exchange
+qb_atomic_pointer_get
+qb_atomic_pointer_set
+epoll_wait
+epoll_ctl
+epoll_create1
+strncpy
+libdl.so.2
+librt.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libqb.so.0
+GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.9
+GLIBC_2.14
+GLIBC_2.3.2
+GLIBC_2.16
+GLIBC_2.4
+GLIBC_2.3.4
+fffff.
+fffff.
+fffff.
+fff.
+ffff.
+fffff.
+fff.
+ffff.
+AUAT1
+[]A\A]
+ffff.
+AWAVI
+AUATI
+USLc
+[]A\A]A^A_
+AUATI
+[]A\A]
+ATUI
+[]A\
+ATUI
+[]A\
+fff.
+ATUI
+[]A\
+fff.
+AVAUI
+ATUI
+[]A\A]A^
+fff.
+ffff.
+AWAVI
+AUATA
+D$(1
+4$E1
+t$8D
+[]A\A]A^A_
+|$(L
+L$ L
+fffff.
+ATUSH
+[]A\
+[]A\
+ffff.
+ffff.
+ffffff.
+ATUSH
+[]A\
+[]A\
+ATUI
+[]A\
+fffff.
+ATUH
+=B{!
+t	Hc
+[]A\
+AUATUSH
+[]A\A]
+=Sy!
+fffff.
+ffffff.
+ATUS
+[]A\
+t$ H
+=vu!
+t$ H
+=9t!
+t$ H
+=)t!
+=1t!
+t$ H
+ffff.
+ATUStwH
+[]A\
+[]A\
+[]A\
+t[USH
+AVAUI
+=Nu!
+[]A\A]A^
+ffffff.
+x#HcD$
+fffff.
+AUATLc
+~5Hc
+[]A\A]
+fff.
+AUATUSH
+[]A\A]
+[]A\A]
+fff.
+fffff.
+fffff.
+v4ATU
+[]A\
+[]A\
+AWAVHc
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+fff.
+fffff.
+AWAVAUATI
+<$E1
+[]A\A]A^A_
+AVAUI
+=id!
+9C(u
+[]A\A]A^
+=Vj!
+AVAUL
+w(ATUI
+tH9X(u
+[]A\A]A^
+=|h!
+fffff.
+AWAVAUATI
+D$(1
+d$ A
+\$4A
+t$ 1
+V8fD
+T$ A
+L$(dH3
+8[]A\A]A^A_
+D$ H
+AVAUI
+ATUSH
+5Zs!
+[]A\A]A^
+t$ H
+AVAUM
+ATUA
+A@A9
+[]A\A]A^
+=9c!
+t$ H
+=.c!
+fffff.
+AWAVM
+AUATA
+9^8t
+([]A\A]A^A_
+AVAUATUI
+$9i8u
+dH34%(
+[]A\A]A^
+ATUI
+[]A\
+fff.
+=lV!
+=aV!
+ffff.
+AWAVI
+AUATM
+[]A\A]A^A_
+A\A]A^A_
+A9Q(H
+q,t	A
+AUATI
+H;k8u
+=MZ!
+H;n8u
+[]A\A]
+fff.
+AUATI
+[]A\A]
+fff.
+t8I9H(u
+H9N(u
+AVAUATUI
+]A\A]A^
+ffff.
+ 9ZDu#H
+=ac!
+ffffff.
+AWAVI
+AUATM
+l$(M
+l$0H
+D$ u
+tHH;J
+([]A\A]A^A_
+ATUS
+[]A\
+AVAUI
+ATUH
+[]A\A]A^
+=lO!
+ATUI
+tyr7
+[]A\
+AUATUSH
+[]A\A]
+AUATI
+[]A\A]
+tkAUL
+ATUSH
+[]A\A]
+AWAVAUATI
+[]A\A]A^A_
+=/I!
+ffffff.
+AWAVAUATUSH
+[]A\A]A^A_
+=nG!
+fffff.
+ffff.
+ffff.
+tJUS1
+t.USH
+x]t"
+ffffff.
+AVAUA
+ATUI
+[]A\A]A^
+tBr 
+ffff.
+ffff.
+=3B!
+AWAVAUATI
+u{E9
+[]A\A]A^A_
+AUATI
+[]A\A]
+AUATI
+[]A\A]
+AUATUSH
+[]A\A]
+AUATUSH
+[]A\A]
+=A<!
+ffffff.
+=p;!
+t[ATUH
+fffff.
+AWAVI
+AUATUS
+dH3<%(
+[]A\A]A^A_
+t$pI
+L$pE1
+l$(H
+t$0I
+=W6!
+t$pH
+=15!
+t$0I
+t$pH
+t$pH
+=j4!
+=j4!
+ffff.
+ffff.
+AUATI
+[]A\A]
+[]A\A]
+fffff.
+AWAVAUATI
+[]A\A]A^A_
+A]A^A_
+fff.
+fffff.
+AUATI
+[]A\A]
+AWAVI
+AUATH
+\$(L
+=F-!
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+=3,!
+AVAUI
+ATU1
+[]A\A]A^
+A]A^
+ffff.
+tn~c
+=~*!
+=6*!
+AWAVI
+AUATLc
+$t@Mc
+[]A\A]A^A_
+AWAVM
+AUATI
+AVP1
+[]A\A]A^A_
+AWAVAUATUSH
+D$0H
+l$@A
+D$pH
+l$`H
+l$0H
+D$pJ
+[]A\A]A^A_
+=w"!
+L$ H
+D$ H
+ffffff.
+AUAT1
+\$@1
+L$@L
+[]A\A]
+ffffff.
+AUAT1
+[]A\A]
+AUAT
+='!!
+[]A\A]
+AWAVAUATH
+xxHc
+[A\A]A^A_]
+xEHc
+ffff.
+fff.
+AWAVI
+AUATI
+|$ H
+[]A\A]A^A_
+AWAVE1
+AUATI
+[]A\A]A^A_
+AVAUI
+ATUH
+u1Hc
+[]A\A]A^
+AVAUI
+ATUI
+g dH
+[]A\A]A^
+AWAVI
+AUATI
+|$xAV
+XZx2A
+[]A\A]A^A_
+AWAVL
+AUATI
+l$(I
+AXAY
+[]A\A]A^A_
+AUATL
+([]A\A]
+AUATL
+l$xV
+<$Hc
+[]A\A]
+AUATI
+[]A\A]
+AWAVAUATI
+[]A\A]A^A_
+AVAUATUH
+wBD8
+[]A\A]A^
+ATUA
+D$ D
+L$(tU
+[]A\
+	E []A\
+!G ]A\
+AWAVA
+AUATA
+/L;o
+\$`r
+(M9l$
+L$(L
+D$ L
+M9l$
+([]A\A]A^A_
+AWAVAUATI
+|$ L
+T$PM
+t$ H
+T$PL
+[]A\A]A^A_
+T$ L
+T$ L
+T$PM
+D$8H
+D$@H
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+AWAVA
+AUATI
+wMHc
+[]A\A]A^A_
+AWAVH
+AUATUSH
+AYAZt[D
+9x$t
+dH34%(
+([]A\A]A^A_
+-J'!
+w\Ic
+?^_L9
+XZH9
+fff.
+)D$P
+)L$`
+)T$p
+|$ H
+AWAVAUATUSH
+t-H9X
+[]A\A]A^A_
+%x$!
+wdIc
+^_I9
+ZYH9
+(I;^
+[]A\A]A^A_
+(H;]
+[]A\H
+AWAVAUATUSH
+D$ D
+t{A;]
+L$(D
+\$ D
+\$ D
+L$(u
+L$ D
+L$ I
+AVAW
+[]A\A]A^A_
+T$(L
+\$ D
+T$(H
+\$ I
+T$ D
+\$(D
+T$ L
+T$ D
+\$(t
+<$*u
+fffff.
+USL9
+(H9]
+AVAUI
+]A\A]A^1
+AUATL
+[]A\A]
+w'Hc
+fffff.
+w)Hc
+AVAUI
+ATUI
+[]A\A]A^
+A\A]A^
+fffff.
+waHc
+tIUS
+fffff.
+uZMi
+AUATH
+fff.
+AWAVI
+AUAT
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ATUSH
+[]A\
+AWAVI
+AUATI
+[]A\A]A^A_
+AWAV1
+AUATUSH
+D$8H
+D$(H
+D$@H
+|$ 1
+|$(N
+AUAWH
+L$ H
+[]A\A]A^A_
+L$8H
+[]A\A]A^A_
+AWAVI
+AUATI
+[]A\A]A^A_
+fffff.
+ffffff.
+ffff.
+AWAVI
+AUATI
+[]A\A]A^A_
+fffff.
+AWAVI
+AUATI
+X$u.H
+([]A\A]A^A_
+AWAVAUATI
+D$(1
+T$ D
+D$ L
+t$ I
+L$(dH3
+8[]A\A]A^A_
+L$pA
+L$pA
+D$ L
+AUATUS1
+([]A\A]
+AWAVA
+AUATI
+tXH9
+[]A\A]A^A_
+[]A\A]A^A_
+[%p] %b
+tKATI
+[]A\
+t"9z
+fffff.
+AWAVI
+AUATI
+D$0E1
+[]A\A]A^A_
+D$(H
+l$ L
+l$ H
+AUATI
+[]A\A]
+[%p] %b
+AWAVAUATUSL
+T$8H
+L$ dH
+L$@E1
+L$(H
+L$8H
+L$0H
+<$E1
+[]A\A]A^A_
+t$(H
+D$@HcT$PL
+D$LP
+D$XP
+D$dPH
+l$8L
+AWAVI
+AUATH
+[]A\A]A^A_
+[]A\A]A^A_
+fffff.
+AWAVL
+AUATI
+D$H1
+<$Hc
+<$Hc
+T$,D
+\$ A
+L$HdH3
+X[]A\A]A^A_
+AUATI
+[]A\A]
+fff.
+AUATI
+[]A\A]
+AWAVL
+AUATA
+[]A\A]A^A_
+~`SE1
+AWAVAUATI
+D$h1
+X(xOL
+uRIc
+|$hdH3<%(
+x[]A\A]A^A_
+A8EX|/H
+A8EX}
+AWAVAUATI
+g`dH
+D$X1
+t$(I
+tXrn
+D$XdH3
+[]A\A]A^A_
+}`E1
+D$(H
+D$XdH3
+h[]A\A]A^A_
+AUATI
+]A\A]A^
+AWAVH
+AUATI
+[]A\A]A^A_
+L9w 
+fff.
+AWAVH
+AUATI
+L9n u
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVA
+AUATL
+f(USH
+[]A\A]A^A_
+ATUI
+|$(H9
+[]A\
+ffff.
+ATUH
+[]A\
+[]A\
+AUATE1
+D;e\r
+e`L9
+[]A\A]
+[]A\
+AWAVI
+AUATE
+[]A\A]A^A_
+L9w 
+fff.
+fff.
+AVAUI
+ATUI
+]A\A]A^
+]A\A]A^
+L9v u
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+AWAVI
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+N(Hc
+m\HH
+;G0s
+ffff.
+ffff.
+AWAVAUATA
+L;,$tO
+([]A\A]A^A_
+tGUSH
+fffff.
+AWAVA
+AUATI
+H9^@L
+L9o u
+tCH9^@
+[]A\A]A^A_
+[]A\A]A^A_
+AUATI
+C@tJA
+[]A\A]
+AUAT
+n0D9
+C0D)
+S0A9
+t$\I
+|$XH
+[]A\A]
+AVHc
+AUATUI
+p0t'A
+D$ H
+D$4I
+D$@H
+T$@H
+[]A\A]A^
+AVAU
+ATUI
+I9\$`tAH
+[]A\A]A^
+C@H;
+fffff.
+L9h u
+]A\A]A^
+[]A\A]A^
+[]A\A]A^
+fff.
+ATUI
+[]A\H
+H;E`t
+[]A\
+O(Hc
+@(Hc
+u3H9
+ffff.
+ATUI
+t$`H
+AUATUSH
+ttI;D$`t
+[]A\A]
+|$`1
+ATUH
+[]A\
+[]A\H
+t`SH
+AWAVA
+AUATI
+[]A\A]A^A_
+x|L9
+ffff.
+AWAVE1
+ATUSA
+tZE1
+[]A\A]A^A_
+A\A]A^A_
+ATU1
+[]A\
+fff.
+fffff.
+fffff.
+fffff.
+fff.
+ffffff.
+AWAVA
+AUATI
+ 9hPuP
+f	P>
+dH34%(
+[]A\A]A^A_
+ATUI
+[]A\
+ATUI
+[]A\
+C4x;H
+AUATI
+[]A\A]
+AVAUI
+ATUI
+[]A\A]A^
+$tIqb-%s-header
+qb-%s-data
+Ringbuffer: 
+ ->OVERWRITE
+ ->NORMAL
+ ->write_pt [%d]
+ ->read_pt [%d]
+ ->size [%d words]
+ =>free [%zu bytes]
+ =>used [%zu bytes]
+ringbuffer.c
+n_read == sizeof(uint32_t)
+create_from_file
+read total of: %zd
+ writing total of: %zd
+sem_timedwait: %s (%d)
+reclaim_fn: %s (%d)
+ENTERING %s()
+Closing ringbuffer: %s
+Free'ing ringbuffer: %s
+couldn't create file for mmap
+qb_rb_create_from_file
+qb_rb_create_from_file
+qb_rb_write_to_file
+qb_rb_chunk_read
+qb_rb_chunk_peek
+_rb_chunk_reclaim
+qb_rb_force_close
+qb_rb_close
+qb_rb_open_2
+read %zd bytes, but expected %zu
+Unable to read blackbox file data: %s (%d)
+Wrong file header version. Expected %d got %d
+Corrupt blackbox: File header hash (%d) does not match calculated hash (%d)
+Unable to read blackbox file header: %s (%d)
+trying to recv chunk of size %d but %d available
+Force free'ing ringbuffer: %s: %s (%d)
+couldn't create circular mmap on %s
+shm size:%ld; real_size:%ld; rb->word_size:%d
+couldn't create a semaphore: %s (%d)
+couldn't create mmap for header
+my_posix_sem_timedwait
+my_posix_sem_destroy
+ringbuffer_helper.c
+error waiting for semaphore: %s (%d)
+array.c
+b < 4096
+qb_array_index
+qb_loop_run
+loop.c
+fd->poll: %s (%d)
+timer->poll: %s (%d)
+job->poll: %s (%d)
+loop_poll.c
+pe->item.type == QB_LOOP_FD
+deleting sig in JOBLIST
+deleting sig in WAITLIST
+failed to read pipe: %s (%d)
+Can't smoke pipe: %s (%d)
+Can't light pipe: %s (%d)
+getrlimit: %s (%d)
+pe->state == QB_POLL_ENTRY_JOBLIST
+qb_array_index (s->poll_entries, install_pos, (void **)&pe) == 0
+qb_array_index(s->poll_entries, install_pos, (void **)&pe) == 0
+qb_array_index(s->poll_entries, i, (void **)&pe) == 0
+got real signal [%d] sent to pipe
+failed to write signal to pipe [%d]
+adding signal [%d] to job queue %p
+poll_mod : can't modify entry already deleted
+grown poll array to %d for FD %d
+couldn't add poll entryfor FD %d: %s (%d)
+qb_loop_signal_del
+_handle_real_signal_
+_qb_signal_add_to_jobs_
+qb_loop_signals_create
+qb_loop_poll_del
+qb_loop_poll_mod
+qb_loop_poll_mod
+_get_empty_array_position_
+_poll_add_
+_qb_poll_add_to_jobs_
+qb_loop_poll_add
+_poll_dispatch_and_take_back_
+qb_poll_fds_usage_check_
+qb_poll_fds_usage_check_
+qb_loop_job_del
+loop_job.c
+deleting job in JOBLIST
+loop_timerlist.c
+timer already deleted
+timer->state == QB_POLL_ENTRY_JOBLIST
+t->state == QB_POLL_ENTRY_ACTIVE
+qb_array_index(s->timers, install_pos, (void **)&timer) == 0
+qb_array_index(my_src->timers, i, (void **)&t) >= 0
+qb_loop_timer_del
+_get_empty_array_position_
+make_job_from_tmo
+qb_loop_timer_add
+timer_dispatch
+(from socket) as a disconnect
+interpreting result
+ipcc.c
+%s %d %s: %s (%d)
+qb_ipcc_disconnect
+qb_ipcc_sendv_recv
+_check_connection_state_with
+_check_connection_state
+qb_ipcc_recv %d timeout:(%d/%d): %s (%d)
+interpreting result %d as a disconnect: %s (%d)
+ipcs.c
+c->outstanding_notifiers >= 0
+s->ref_count > 0
+not set yet
+HUP conn (%s)
+NVAL conn (%s)
+%s(%s) state:%d
+ref:%d state:%d (%s)
+%s() - destroying
+_process_request_
+qb_ipcs_dispatch_connection_request
+qb_ipcs_disconnect
+qb_ipcs_connection_unref
+qb_ipcs_connection_unref
+qb_ipcs_event_sendv
+resend_event_notifications
+new_event_notification
+qb_ipcs_event_send
+qb_ipcs_unref
+qb_ipcs_unref
+client requesting a disconnect (%s)
+recv from client connection failed (%s): %s (%d)
+request returned error (%s): %s (%d)
+error receiving from setup sock (%s): %s (%d)
+conn (%s) Nothing in q but got POLLIN on fd:%d (res2:%d)
+conn (%s) disconnected: %s (%d)
+resend_event_notifications (%s): %s (%d)
+new_event_notification (%s): %s (%d)
+%s-request-%s
+%s-response-%s
+%s-event-%s
+ipc_shm.c
+qb_rb_chmod:%s: %s (%d)
+qb_rb_chown:%s: %s (%d)
+qb_rb_open:%s: %s (%d)
+connecting to client [%d]
+setting fc to %d
+connection failed: %s (%d)
+qb_rb_open:EVENT: %s (%d)
+qb_rb_open:RESPONSE: %s (%d)
+qb_rb_open:REQUEST: %s (%d)
+qb_ipcs_shm_rb_open
+qb_ipcs_shm_connect
+qb_ipc_shm_fc_set
+qb_ipcc_shm_connect
+shm connection FAILED: %s (%d)
+Error adding socket to mainloop (%s).
+%d-%d-%d
+ipc_setup.c
+withdrawing server sockets
+Invalid IPC credentials (%s).
+socket listen failed: %s (%d)
+server name: %s
+poll(fd %d) zero revents
+poll(fd %d) got POLLNVAL
+poll(fd %d) got POLLHUP
+poll(fd %d) got POLLERR
+qb_ipcs_us_withdraw
+handle_new_connection
+qb_ipc_us_recv_msghdr
+qb_ipcs_us_connection_acceptor
+qb_ipcs_us_publish
+qb_ipc_us_ready
+Error in connection setup (%s): %s (%d)
+Denied connection, is not ready (%s)
+IPC credentials authenticated (%s)
+recv(fd %d) got 0 bytes assuming ENOTCONN
+Could not accept client connection: %s (%d)
+Could not accept client connection from fd:%d: %s (%d)
+Could not bind AF_UNIX (%s): %s (%d)
+Cannot create server socket: %s (%d)
+qb-%s-control-%s
+qb-%s-%s
+request
+response
+event-tx
+event
+ipc_socket.c
+EOF conn (%s)
+connecting to client (%s)
+socket_send:send: %s (%d)
+socket connect-on-send
+recv == 0 -> ENOTCONN
+_sock_connection_liveliness
+_sock_add_to_mainloop
+qb_ipcs_us_connect
+qb_ipcs_us_disconnect
+qb_ipc_us_fc_set
+qb_ipc_socket_send
+_finish_connecting
+qb_ipc_socket_sendv
+qb_ipc_us_recv_at_most
+qb_ipcc_us_connect
+set_sock_size
+LIVENESS: fd %d event %d conn (%s)
+Error adding setupfd to mainloop: %s (%d)
+added %d to poll loop (liveness)
+couldn't create mmap for header (%s): %s (%d)
+couldn't create file for mmap (%s): %s (%d)
+error calling connect(): %s (%d)
+socket_sendv:writev %d: %s (%d)
+socket connect-on-sendv: %s (%d)
+couldn't create mmap for header: %s (%d)
+couldn't open file for mmap: %s (%d)
+%d: getsockopt(%d, needed:%d) actual:%d
+%.*s
+__start___verbose
+__stop___verbose
+Callsite Database [%d]
+---------------------
+ start %p - stop %p
+%12s %6d %16d %16d
+log.c
+i == 0
+custom-%d
+_log_so_walk_callback
+qb_log_init
+filename    lineno targets         tags
+%d messages lost
+Log message too long to be stored in the blackbox.  Maximum is QB_LOG_MAX_LEN
+ERROR Corrupt file: blackbox header too small.
+ERROR: qb_rb_chunk_read failed
+ERROR Corrupt file: fn_size way too big %d
+ERROR Corrupt file: fn_size negative %d
+ERROR Corrupt file: msg_len out of bounds %d
+qb_log_blackbox_print_from_file: %s (%d)
+Blackbox allocation error, aborting blackbox log %s: %s (%d)
+%s-%d-blackbox
+%b %d %T
+log_blackbox.c
+len > 0
+%-7s %s %s(%u):%u: %s
+qb_log_blackbox_print_from_file
+qb_log_blackbox_print_from_file
+_blackbox_vlogger
+stderr
+stdout
+log_dcs.c
+rc == 0
+cs != ((void *)0)
+csl->cs->lineno == lineno
+_log_register_callsites
+qb_log_dcs_init
+_log_dcs_new_cs
+qb_log_dcs_get
+log_format.c
+trace
+localhost
+t->format != ((void *)0)
+%s %02d %02d:%02d:%02d
+(null)
+auth
+authpriv
+cron
+daemon
+kern
+mail
+news
+syslog
+user
+uucp
+local0
+local1
+local2
+local3
+local4
+local5
+local6
+local7
+emerg
+alert
+crit
+error
+warning
+notice
+info
+debug
+qb_log_format_set
+qb_log_format_init
+skiplist.c
+new_node != ((void *)0)
+skiplist_put
+] (%d) %s
+nodes: %d, bytes: %d
+XXXXXX
+/dev/shm/%s
+/var/run/%s
+unix.c
+qb_sys_fd_nonblock_cloexec_set
+qb_sys_mmap_file_open
+Could not set non-blocking on fd:%d
+Could not set close-on-exit on fd:%d: %s (%d)
+couldn't truncate file %s: %s (%d)
+couldn't open file %s: %s (%d)
+_add
+_mod
+_del
+_poll_and_add_to_jobs_
+loop_poll_epoll.c
+epoll_ctl(add): %s (%d)
+epoll_ctl(mod): %s (%d)
+epoll_ctl(del): %s (%d)
+can't post new event to a deleted entry.
+can't find poll entry for new event.
+;*3$"
+libqb.so.0.17.1.debug
+7zXZ
+/" Z
+&ct4
+fciH
+2E_ -
+SLOV
+CUfM
+uf^rV
+(Pr{4
+(=0u
+ 5E>
+n4S.T
+frg]
+h2U/
+-m8G^i
+ao'r["
+raF}
+i2sD
+]t=W
+x6!B
+z$}![
+;"T%
+~E.	
+Y`JD
+:8[O
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

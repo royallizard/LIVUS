@@ -1,0 +1,136 @@
+tdP$
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+saver_ps
+fopen
+__fprintf_chk
+fwrite
+fputc
+fclose
+libc.so.6
+_edata
+__bss_start
+_end
+libimlib-ps.so
+GLIBC_2.3.4
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.1
+UWVS
+L$Hf
+L$H)
+t$DPj
+VUPj
+,$VPj
+UUVPj
+Wj$j
+XZWj
+PPUj
+Wj	j
+,[^_]
+VUPj
+t$ VPj
+l$$UVPj
+Wj$j
+Y]Wj
+%%!PS-Adobe-2.0 EPSF-2.0
+%%%%Title: %s
+%%%%BoundingBox: %i %i %i %i
+%%%%Pages: 1
+%%%%DocumentFonts:
+%%%%EndComments
+%%%%EndProlog
+%%%%Page: 1 1
+/origstate save def
+20 dict begin
+/pix %i string def
+/grays %i string def
+/npixls 0 def
+/rgbindx 0 def
+%i %i translate
+%i %i scale
+%i %i 8
+[%i 0 0 -%i 0 %i]
+false 3 colorimage
+showpage
+origstate restore
+%%%%Trailer
+%%%%Creator: Imlib by The Rasterman
+/colorimage where
+{ pop }
+/colortogray {
+/rgbdata exch store
+rgbdata length 3 idiv
+/npixls exch store
+/rgbindx 0 store
+0 1 npixls 1 sub {
+grays exch
+rgbdata rgbindx       get 20 mul
+rgbdata rgbindx 1 add get 32 mul
+rgbdata rgbindx 2 add get 12 mul
+add add 64 idiv
+/rgbindx rgbindx 3 add store
+} for
+grays 0 npixls getinterval
+} bind def
+/mergeprocs {
+dup length
+3 -1 roll
+length
+5 1 roll
+3 -1 roll
+array cvx
+3 -1 roll
+0 exch
+putinterval
+4 2 roll
+putinterval
+} bind def
+/colorimage {
+pop pop
+{colortogray} mergeprocs
+image
+} bind def
+} ifelse
+{currentfile pix readhexstring pop}
+;*2$"$
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+libimlib-ps.so-1.9.15-37.fc29.i386.debug
+7zXZ
+.}Eg
+zi;%
+7By"5 
+i:B:48
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

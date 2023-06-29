@@ -1,0 +1,221 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_composer_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+g_type_check_class_cast
+gegl_operation_get_type
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_int
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+g_value_set_int
+g_value_get_int
+babl_format_get_n_components
+g_return_if_fail_warning
+g_malloc_n
+g_malloc
+g_malloc0_n
+gegl_buffer_get
+g_array_new
+g_array_append_vals
+rand
+g_array_sort
+gegl_buffer_set
+g_free
+g_array_free
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+matting-global.so
+GLIBC_2.4
+GLIBC_2.2.5
+5r/ 
+%t/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+%z. 
+%r. 
+%j. 
+%b. 
+=y. 
+=I. 
+5B. 
+u+UH
+=6* 
+\$`f
+D$H1
+D$@(
+D$(H
+[]A\
+tgATUH
+ []A\
+ATUS
+ []A\
+[]A\
+AWAVAUATUH
+[]A\A]A^A_
+l$TC
+<dHc
+L$xE1
+D$pE
+D$PE
+HcD$DA
+|$PH
+D$8H
+D$8H
+<(HcD$(H
+t$xA
+HcD$
+;t$T
+H9l$0t.H
+t$D9\$T
+|$ 1
+<$9\$T
+|$ H
+D$pD
+\$pH
+D$hL
+l$xH
+\$ H
+T$0H
+D$8E
+L$PH
+T$HI
+t$(H
+L$(f
+D+D$
+\$0E
+\$XD
+D$ A
+D$(H
+D$pE1
+l$DH
+l$0M
+\$HI
+\$XH
+\$xL
+D$hA
+9D$T~:
+l$0H
+D$pA
+T$TE
+t$TE1
+l$ L
+|$xHc
++|$DD+L$Pf
+D+D$P
++|$DE
+|$`D
+|$ 1
+|$p1
+|$ H
+GeglChantmatting-global.c
+input
+R'G'B' float
+Y u8
+R'G'B'A float
+output
+gegl-0.2
+description
+misc
+categories
+gegl:matting-global
+name
+Number of iterations
+Iterations
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+GEGL-matting-global.c
+input_buf
+aux_buf
+output_buf
+result
+Given a sparse user supplied tri-map and an input image, create a foreground alpha matte. Set white as foreground, black as background for the tri-map. Everything else will be treated as unknown and filled in.
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+babl_format_get_n_components (babl_format (FORMAT_INPUT )) == COMPONENTS_INPUT
+babl_format_get_n_components (babl_format (FORMAT_AUX )) == COMPONENTS_AUX
+babl_format_get_n_components (babl_format (FORMAT_OUTPUT)) == COMPONENTS_OUTPUT
+matting_process
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+matting-global.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+xRzI/
+~PA8eY$
+I1:J
+W8ym
+&23'5
+$apV
+dMi9Y
+,&k<9UK
+YR=7
+2h6%
+E)Oq
+	r$p
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

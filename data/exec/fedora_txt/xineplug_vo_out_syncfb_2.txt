@@ -1,0 +1,146 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dcgettext
+open64
+close
+calloc
+xine_log
+_x_alphablend_init
+ioctl
+mmap64
+XGetWindowAttributes
+XCreateGC
+_x_vo_scale_init
+XAllocNamedColor
+munmap
+XLockDisplay
+XFreeGC
+XUnlockDisplay
+_x_alphablend_free
+_x_vo_scale_translate_gui2video
+_x_blend_yuy2
+_x_blend_yuv
+pthread_mutex_init
+_x_vo_scale_compute_output_size
+malloc
+_x_vo_scale_compute_ideal_size
+_x_vo_scale_redraw_needed
+XSetForeground
+XFillRectangle
+xine_fast_memcpy
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+libm.so.6
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libX11.so.6
+libXext.so.6
+libXinerama.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_vo_out_syncfb.so
+GLIBC_2.2
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.1
+UWVS
+[^_]
+[^_]
+|$Ht
+D$$)
+D$ )
+YV12t=
+d$$[^
+d$$[^
+YV12
+YUY2
+D$H9
+YV12
+YUY2tM
+YV12
+YUY2u;
+UWVS
+d$\[^_]
+d$\[^_]
+=YV12
+=YUY2
+l$(1
+D$,;
+|$,f
+T$(1
+L$@)
+9L$4
+L$@)
+T$4tX
+9T$0}
+D$01
+9D$,|
+L$@)
+d$$[^
+SyncFB
+libxine1
+SyncFB device name
+/dev/syncfb
+video.device.syncfb_device
+black
+xine video output plugin using the SyncFB module for Matrox G200/G400 cards
+Specifies the file name for the SyncFB (TeleTux) device to be used.
+This setting is security critical, because when changed to a different file, xine can be used to fill this file with arbitrary content. So you should be careful that the value you enter really is a proper framebuffer device.
+video_out_syncfb: aborting. (unable to open syncfb device "%s")
+video_out_syncfb: aborting. (syncfb_get_caps ioctl failed)
+video_out_syncfb: aborting. (mmap of video memory failed)
+video_out_syncfb: info. (SyncFB module supports YUV 4:2:0 (3 plane))
+video_out_syncfb: info. (SyncFB module supports YUV 4:2:0 (2 plane))
+video_out_syncfb: info. (SyncFB module supports YUV 4:2:2)
+video_out_syncfb: info. (SyncFB module supports YUY2)
+video_out_syncfb: info. (SyncFB module supports RGB565)
+video_out_syncfb: aborting. (SyncFB module does not support YV12, YUY2 nor RGB565)
+video_out_syncfb: info. (brightness/contrast control won't be available because your SyncFB kernel module seems to be outdated. Please refer to README.syncfb for informations on how to update it.)
+video_out_syncfb: error. (off ioctl failed)
+video_out_syncfb: error. (get_config ioctl failed)
+video_out_syncfb: error. (unknown frame format)
+video_out_syncfb: error. (set_config ioctl failed)
+video_out_syncfb: error. (on ioctl failed)
+video_out_syncfb: error. (unable to allocate framedata because of unknown frame format: %04x)
+video_out_syncfb: error. (framedata allocation failed: out of memory)
+video_out_syncfb: error. (invalid syncfb image buffer state)
+video_out_syncfb: error. (request ioctl failed)
+video_out_syncfb: error. (syncfb module couldn't allocate image buffer)
+video_out_syncfb: error. (YUY2 not supported by your graphic card)
+video_out_syncfb: error. (YV12 not supported by your graphic card)
+video_out_syncfb: error. (commit ioctl failed)
+video_out_syncfb: error. (setting of contrast value failed)
+video_out_syncfb: error. (setting of brightness value failed)
+xineplug_vo_out_syncfb.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

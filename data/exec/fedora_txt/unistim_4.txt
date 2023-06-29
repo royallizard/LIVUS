@@ -1,0 +1,1401 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_register
+proto_register_unistim
+__stack_chk_fail
+plugin_reg_handoff
+proto_reg_handoff_unistim
+version
+dissector_add_uint
+new_create_dissector_handle
+dissector_add_handle
+dissector_delete_uint
+tvb_format_text
+proto_tree_add_text
+tvb_get_guint8
+proto_tree_add_item
+proto_item_add_subtree
+tvb_get_ipv4
+tvb_get_ntohs
+rtp_add_address
+rtcp_add_address
+tvb_get_ephemeral_string
+tvb_length_remaining
+col_set_str
+col_clear
+se_alloc
+tvb_get_ntohl
+col_add_fstr
+proto_item_set_len
+tap_queue_packet
+expert_add_info_format
+tvb_length
+g_malloc
+memcpy
+proto_tree_add_boolean
+tvb_strsize
+proto_register_protocol
+proto_register_subtree_array
+proto_register_field_array
+register_tap
+prefs_register_protocol
+prefs_register_uint_preference
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+unistim.so
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+fffff.
+fffff.
+l$ L
+d$(L
+l$0L
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+D$X1
+L$XdH3
+\$hH
+l$pL
+d$xL
+5e	!
+5o	!
+5O	!
+T$,H
+D$<H
+D$<H
+L$ H
+|$ L
+t$@H
+T$ H
+|$ L
+t$@H
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+-mk!
+AWAVAUI
+ATUH
+D$X1
+T$XdH3
+h[]A\A]A^A_
+|$0L
+|$8L
+|$@H
+D$ D
+\$ E
+D$ E
+\$ D
+t$8E
+|$0L
+Ic}|H
+IcU|I
+Ic}lH
+IcUlI
+|$0E1
+Ic}lH
+IcUlI
+Ic}|H
+IcU|I
+\$ C
+\$ C
+L$LL
+D$OD
+L$ML
+M	E1
+5c<!
+0.0.2
+udp.port
+DATA: %s
+UNISTIM
+Address Data
+Reliable UDP
+NAK for seq -   0x%X
+ACK for seq -   0x%X
+Payload seq -   0x%X
+UFTP CMD
+Unistim CMD
+Length too short
+Date %i/%i/%i
+Time %i:%i:%i
+Module Key Number: %i
+Server (S%d) Server ID: %X
+unistim
+UNISTIM Protocol
+UNISTIM port (default 5000)
+UNISTIM UDP port
+RUDP Seq Num
+unistim.num
+UNISTIM CMD Address
+unistim.add
+uftp.cmd
+UFTP Datablock Size
+uftp.blocksize
+UFTP Datablock Limit
+uftp.limit
+UFTP Filename
+uftp.filename
+UFTP Data Block
+uftp.datablock
+RUDP Pkt type
+unistim.type
+UNISTIM Payload
+unistim.pay
+UNISTIM CMD Length
+unistim.len
+FLAGS
+unistim.bit.fields
+Basic Cmd (switch)
+unistim.basic.switch
+Basic Cmd (phone)
+unistim.basic.phone
+Broadcast Cmd (switch)
+unistim.broadcast.switch
+Broadcast Cmd (phone)
+unistim.broadcast.phone
+Audio Cmd (switch)
+unistim.audio.switch
+Audio Cmd (phone)
+unistim.audio.phone
+Display Cmd (switch)
+unistim.display.switch
+Display Cmd (phone)
+unistim.display.phone
+Key Cmd (switch)
+unistim.key.switch
+Key Cmd (phone)
+unistim.key.phone
+Network Cmd (switch)
+unistim.network.switch
+Network Cmd (phone)
+unistim.network.phone
+unistim.terminal.id
+Year
+unistim.broadcast.year
+Month
+unistim.broadcast.month
+unistim.broadcast.day
+Hour
+unistim.broadcast.hour
+Minute
+unistim.broadcast.minute
+Second
+unistim.broadcast.second
+unistim.query.diagnostic
+unistim.query.managers
+unistim.query.attributes
+unistim.query.serverInfo
+Query Network Manager Options
+unistim.query.options
+Query Network Manager Sanity
+unistim.query.sanity
+Network Manager Enable DIAG
+unistim.enable.diag
+Network Manager Enable RUDP
+Download Server ID
+unistim.download.id
+Download Server Port
+unistim.download.port
+Download Server Action
+unistim.download.action
+Download Retry Count
+unistim.download.retry
+Download Failover Server ID
+unistim.download.failover
+Download Server Address
+unistim.download.address
+Watchdog Timeout
+unistim.watchdog.timeout
+Configure Network Element
+unistim.config.element
+unistim.recovery.low
+unistim.recovery.high
+Receive Buffer Overflow
+unistim.receive.overflow
+Transmit Buffer Overflow
+unistim.trans.overflow
+unistim.receive.empty
+Received Invalid MSG
+unistim.invalid.msg
+EEProm Insane
+unistim.eeprom.insane
+EEProm Unsafe
+unistim.eeprom.unsafe
+Diagnostic Command Enabled
+unistim.diag.enabled
+Reliable UDP Active
+unistim.rudp.active
+Query Basic Manager
+unistim.basic.query
+INITIAL PHONE QUERY
+unistim.basic.attrs
+Basic Query Attributes
+Query Basic Manager Options
+unistim.basic.opts
+Basic Query Options
+Query Basic Switch Firmware
+unistim.basic.fw
+Basic Query Firmware
+unistim.basic.hwid
+Basic Query Hardware ID
+unistim.basic.type
+Basic Query Phone Type
+unistim.basic.code
+unistim.basic.gray
+Basic Query Gray Market Info
+unistim.basic.secure
+Basic Element ID
+unistim.basic.element.id
+EEProm Data
+unistim.basic.eeprom.data
+unistim.static.cksum
+unistim.dynam.cksum
+unistim.netconfig.cksum
+Basic Phone Hardware ID
+unistim.basic.hw.id
+Basic Phone Firmware Version
+unistim.basic.fw.ver
+Key Name
+unistim.key.name
+Key Action
+unistim.key.action
+unistim.icon.id
+unistim.icon.state
+Icon Cadence
+unistim.icon.cadence
+unistim.audio.attr
+Query Audio Manager Options
+unistim.audio.options
+Query Audio Manager Alerting
+unistim.audio.alerting
+unistim.audio.adj.volume
+unistim.audio.def.volume
+Query Audio Manager Handset
+unistim.audio.handset
+Query Audio Manager Headset
+unistim.audio.headset
+unistim.audio.volume.id
+unistim.audio.max.tone
+Audio Manager Adjust Volume
+unistim.audio.opts.adj.vol
+unistim.audio.aa.vol.rpt
+Audio Manager Noise Squelch
+unistim.audio.squelch
+Audio Manager Mute
+unistim.audio.mute
+Audio Manager RX or TX
+unistim.audio.rx.tx
+Audio Manager Stream ID
+unistim.audio.stream.id
+unistim.audio.transducer.on
+unistim.audio.attenuated.on
+unistim.warbler.select
+Transducer Routing
+unistim.transducer.routing
+Tone Volume Range in Steps
+unistim.tone.volume.range
+unistim.cadence.select
+Special Tone Select
+unistim.special.tone.select
+Tone Level
+unistim.audio.tone.level
+Enable Visual Tones
+unistim.visual.tones
+Stream Based Tone ID
+unistim.stream.tone.id
+Stream Based Tone RX or TX
+Stream Based Tone Mute
+unistim.stream.tone.mute
+Stream Based Volume ID
+unistim.stream.volume.id
+unistim.switch.terminal.id
+IT (Phone) Type
+unistim.it.type
+unistim.basic.eng.code
+Phone Primary Server ID
+unistim.net.phone.primary.id
+unistim.server.port
+unistim.server.action.byte
+Number of times to Retry
+unistim.server.retry.count
+unistim.server.failover.id
+IP address
+unistim.server.ip.address
+APB Number
+unistim.audio.apb.number
+APB Operation Code
+unistim.audio.apb.op.code
+unistim.apb.param.len
+APB Operation Data
+unistim.apb.operation.data
+Is Address Numeric
+unistim.write.address.numeric
+Context Field in the Info Bar
+unistim.write.address.context
+Write A Line
+unistim.write.address.line
+Write a SoftKey
+unistim.write.address.softkey
+Write A Softkey Label
+Soft Key ID
+Cursor Move
+unistim.display.cursor.move
+Clear Left
+unistim.display.clear.left
+Clear Right
+unistim.display.clear.right
+Shift Left
+unistim.display.shift.left
+Shift Right
+unistim.display.shift.right
+Highlight
+unistim.display.highlight
+Tag for text
+unistim.display.text.tag
+Cursor Movement Command
+unistim.cursor.move.cmd
+Should Cursor Blink
+unistim.cursor.blink
+unistim.vocoder.id
+Vocoder Config Param
+unistim.vocoder.config.param
+Vocoder Entity
+unistim.vocoder.entity
+Enable Annex A
+unistim.enable.annexa
+Enable Annex B
+unistim.enable.annexb
+Sample Rate
+unistim.audio.sample.rate
+RTP Type
+unistim.audio.rtp.type
+Bytes Per Frame
+unistim.audio.bytes.per.frame
+Receive Stream Id
+unistim.rx.stream.id
+Transmit Stream Id
+Receive Vocoder Protocol
+Transmit Vocoder Protocol
+Frames Per Packet
+Type of Service
+unistim.audio.type.service
+Precedence
+unistim.audio.precedence
+FRF.11 Enable
+unistim.audio.frf.11
+Phone RTP Port
+unistim.local.rtp.port
+Phone RTCP Port
+unistim.local.rtcp.port
+Distant RTP Port
+unistim.far.rtp.port
+Distant RTCP Port
+unistim.far.rtcp.port
+Distant IP Address for RT[C]P
+unistim.far.ip.address
+unistim.rtcp.bucket.id
+unistim.key.icon.id
+unistim.display.clear.numeric
+Context Field in InfoBar
+unistim.display.clear.context
+Date Field
+unistim.display.clear.date
+Time Field
+unistim.display.clear.time
+Line Data
+unistim.display.clear.line
+Soft Key
+unistim.display.clear.softkey
+Soft Key Label
+Line 1
+unistim.display.clear.line1
+Line 2
+unistim.display.clear.line2
+Line 3
+unistim.display.clear.line3
+Line 4
+unistim.display.clear.line4
+Line 5
+unistim.display.clear.line5
+Line 6
+unistim.display.clear.line6
+Line 7
+unistim.display.clear.line7
+Line 8
+unistim.display.clear.line8
+Status Bar Icon 1
+Status Bar Icon 2
+Status Bar Icon 3
+Status Bar Icon 4
+Status Bar Icon 5
+Status Bar Icon 6
+Status Bar Icon 7
+Status Bar Icon 8
+Soft Key 1
+Soft Key 2
+Soft Key 3
+Soft Key 4
+Soft Key 5
+Soft Key 6
+Soft Key 7
+Soft Key 8
+Soft Key Label ID
+Clear All Soft Key Labels
+unistim.display.clear.all.sks
+LED Cadence
+unistim.key.led.cadence
+LED ID
+unistim.key.led.id
+Phone Ethernet Address
+unistim.phone.ether
+unistim.audio.rtcp.bucket.id
+Clear Bucket Counter
+unistim.clear.bucket
+Arrow Display Direction
+unistim.arrow.direction
+Audio Transducer Pair
+unistim.transducer.pairs
+RX Enable
+unistim.receive.enable
+TX Enable
+unistim.transmit.enable
+Disable Sidetone
+Destructive/Additive
+unistim.destructive.active
+Don't Force Active
+unistim.dont.force.active
+Phone Line Width
+unistim.line.width
+Number Of Lines
+unistim.number.lines
+Phone Softkey Width
+unistim.softkey.width
+Phone Softkeys
+unistim.phone.softkeys
+Phone Icon Type
+unistim.phone.icon.type
+Soft-Label Key width
+unistim.softlabel.key.width
+Phone Context Width
+unistim.context.width
+Phone Numeric Width
+unistim.numeric.width
+Phone Time Width
+unistim.time.width
+Phone Date Width
+unistim.date.width
+Number of Downloadable Chars
+unistim.number.dload.chars
+unistim.number.dload.icons
+Icon Types
+unistim.icon.types
+Character Sets
+unistim.phone.charsets
+Phone Contrast Level
+unistim.phone.contrast.level
+Numeric Index Field
+unistim.field.numeric
+Context Field
+unistim.field.context
+Text Line
+unistim.field.text.line
+Softkey Position
+unistim.position.skey
+Soft Key Id
+unistim.cursor.skey.id
+Character Position
+unistim.phone.char.pos
+Display Line Number
+unistim.display.line.number
+unistim.hilite.start.pos
+unistim.hilite.end.pos
+unistim.display.date.format
+unistim.display.time.format
+Use Time Format
+Use Date Format
+Context Info Bar Format
+Context Info Bar Field
+unistim.display.context.field
+Display Character Address
+unistim.display.char.address
+Softkey Layer Number
+unistim.softkey.layer.num
+Softkey ID
+unistim.layer.softkey.id
+All Softkeys
+unistim.layer.all.skeys
+Layer Softkey Once/Cyclic
+unistim.layer.once.cyclic
+Display Duration (20ms steps)
+Number of Programmable Keys
+unistim.num.prog.keys
+Number of Soft Keys
+unistim.num.soft.keys
+Headset Key Exists
+unistim.exist.hd.key
+Mute Key Exists
+unistim.exist.mute.key
+Quit Key Exists
+unistim.exist.quit.key
+Copy Key Exists
+unistim.exist.copy.key
+unistim.exist.mwi.key
+Number of Navigation Keys
+unistim.num.nav.keys
+Number Of Conspicuous Keys
+unistim.num.conspic.keys
+Send Key Release
+unistim.key.send.release
+Enable Volume Control
+unistim.key.enable.vol
+unistim.conspic.prog.keys
+ACD Supervisor Control
+unistim.acd.super.control
+Local Keypad Feedback
+unistim.key.feedback
+Source Description Item
+unistim.source.desc.item
+RTCP Bucket Id
+unistim.sdes.rtcp.bucket
+Desired Jitter
+unistim.audio.desired.jitter
+unistim.high.water.mark
+unistim.early.packet.thresh
+unistim.late.packet.thresh
+Resolve Phone Port
+unistim.resolve.phone.port
+Resolve Far End Port
+unistim.resolve.far.port
+Resolve Far End IP
+unistim.resolve.far.ip
+NAT Port
+unistim.audio.nat.port
+NAT IP Address
+unistim.audio.nat.ip
+Stream Direction Code
+unistim.audio.direction.codes
+Handsfree supported
+unistim.handsfree.support
+Max Volume
+unistim.max.vol
+Volume Adjustments
+unistim.audio.volume.adj
+Auto Adjust RX Volume
+unistim.auto.adj.rx.vol
+HS On Air
+unistim.audio.hs.on.air
+HD On Air
+unistim.audio.hd.on.air
+Automatic Squelch
+unistim.auto.noise.squelch
+unistim.apb.volume.rpt
+Volume Up
+unistim.audio.volume.up
+RX Volume at Floor
+unistim.audio.rx.vol.floor
+RX Volume at Ceiling
+unistim.audio.rx.vol.ceiling
+Current APB Volume Report
+unistim.current.volume.rpt
+Current RX Volume Level
+unistim.current.rx.vol.level
+Current RX Volume Range
+unistim.current.rx.vol.range
+Alerting Cadence Select
+unistim.alert.cad.sel
+Alerting Warbler Select
+unistim.alert.warb.select
+Open Stream Report
+unistim.open.audio.stream.rpt
+Report Source Description
+unistim.rpt.src.desc
+Report RTCP Bucket ID
+unistim.rpt.rtcp.buk.id
+Phone Listen Port
+unistim.phone.listen.port
+Phone Listen Address
+unistim.phone.listen.address
+Phone Address Length
+unistim.phone.address.len
+NAT Listen Port
+unistim.nat.listen.port
+NAT Listen Address
+unistim.nat.listen.address
+NAT Address Length
+unistim.nat.address.len
+Audio Stream Direction
+Audio Stream State
+unistim.audio.stream.state
+Transducer List Length
+unistim.trans.list.len
+File Transfer Mode
+unistim.net.file.xfer.mode
+Force Download
+unistim.net.force.download
+Use Custom Server Port
+unistim.net.use.server.port
+Use Custom Local Port
+unistim.net.use.local.port
+File Server Port
+unistim.net.file.server.port
+Full Pathname
+unistim.net.full_pathname
+File Identifier
+unistim.net.file_identifier
+Local XFer Port
+unistim.net.local.xfer.port
+File Server IP Address
+Admin Command
+unistim.key.icon.admin.cmd
+Logical Icon ID
+unistim.keys.logical.icon.id
+Key Repeat Timer 1 Value
+unistim.keys.repeat.time.one
+Key Repeat Timer 2 Value
+unistim.keys.repeat.time.two
+Led ID
+unistim.keys.led.id
+Phone Icon ID
+unistim.keys.phone.icon.id
+Indicator Cadence On Time
+unistim.keys.cadence.on.time
+Indicator Cadence Off Time
+unistim.keys.cadence.off.time
+User Activity Timeout Value
+Call Timer Mode
+Call Timer Reset
+Call Timer Display
+Call Timer Delay
+Call Timer ID
+unistim.display.call.timer.id
+Expansion CMD (switch)
+unistim.expansion.switch
+Expansion CMD (phone)
+unistim.expansion.phone
+Module Soft Label Number
+DATA
+unistim.generic.data
+Normal Sequence Number
+RESET Sequence Number
+Broadcast Manager Switch
+Audio Manager Switch
+Display Manager Switch
+Key/Indicator Manager Switch
+Basic Manager Switch
+Network Manager Switch
+Broadcast Manager Phone
+Audio Manager Phone
+Display Manager Phone
+Key/Indicator Manager Phone
+Basic Manager Phone
+Network Manager Phone
+Connection Granted
+Connection Denied
+File Data Block
+Connection Request
+Connection Details
+Flow Control Off
+NULL Protocol
+Aggregate Unistim
+UFTP
+Free Form Protocol
+For Following Byte
+EEprom Write
+Assign Terminal ID
+Encapsulate Command
+Reserved
+Basic Manager Attributes Info
+Basic Manager Options Report
+IT Type
+Product Engineering Code
+Grey Market Info
+Startup reason
+Accessory Sync Update
+Logical Icon Update
+Time and Date Download
+Query Audio Manager
+Mute/Unmute
+Transducer Based Tone On
+Transducer Based Tone Off
+Alerting Tone Configuration
+Special Tone Configuration
+Paging Tone Configuration
+Paging Tone Cadence Download
+Stream Based Tone On
+Stream Based Tone Off
+Select Adjustable Rx Volume
+Set APB's Rx Volume Level
+APB Download
+Open Audio Stream
+Close Audio Stream
+Connect Transducer
+Filter Block Download
+Query RTCP Statistics
+Configure Vocoder Parameters
+Resolve Port Mapping
+Port Mapping Discovery
+Query Audio Stream Status
+Handset Connected
+Handset Disconnected
+Headset Disconnected
+Supervisor Headset Connected
+Audio Manager Attributes Info
+Audio Manager Options Report
+Adjustable Rx Volume Report
+APB's Default Rx Volume Value
+Alerting Tone Select
+RTCP Statistics Report
+Open Audio Stream Report
+Audio Stream Status Report
+Query APB Response
+Arrow
+Query Status Bar Icon
+Highlight Off
+Highlight On
+Restore Time and Date
+Clear Time and Date
+Call Duration Timer
+Query Display Manager
+Disable Display Field
+Clear Field
+Cursor Control
+Status Bar Icon Update
+Month Labels Download
+Time and Date Format
+Special Character Download
+Highlighted Field Definition
+Contrast
+Caller Log Download
+Layered Softkey Text Download
+Layered Softkey Clear
+Set Visible Softkey Layer
+Layered Softkey Cadencing On
+Layered Softkey Cadencing Off
+Contrast Level Report
+Cursor Location Report
+Highlight Status On
+Timer And Date Format Report
+Status Bar Icon State Report
+Highlight Status Off
+LED Update
+Query Hookswitch
+User Activity Timer Stop
+User Activity Timer Start
+Query Key/Indicator Manager
+Key/Indicator Manager Options
+Logical Icon Mapping
+Key Repeat Timer Download
+Query LED State
+Query Phone Icon State
+Indicator Cadence Download
+User Activity Timer Download
+Free Form Icon Download
+Phone Icon Update
+Key Event
+LED Status Report
+On Hook
+Off Hook
+User Activity Timer Expired
+Hookswitch State (on hook)
+Hookswitch State (off hook)
+Phone Icon Status Report
+Soft Reset
+Hard Reset
+Query Network Manager
+QoS Configuration
+Download Server Information
+Server Switch
+Download Software Upgrade
+Set RTCP Report Interval
+Set Primary Server
+Reset Watchdog
+Soft Reset Ack
+Sanity OK
+Manager IDs
+Resume Connection with Server
+Server Information Report
+First Server
+Second Server
+Third Server
+Fourth Server
+Fifth Server
+Sixth Server
+Seventh Server
+Eighth Server
+Ninth Server
+Tenth Server
+IT IP Address
+IT Netmask
+Default Gateway IP Address
+First Server IP Address
+First Server Port Number
+Second Server IP Address
+Second Server Port Number
+First Server Action
+First Server Retry Count
+Boot Mode
+Second Server Action
+Second Server Retry Count
+8-byte User PIN
+Dial Pad 0
+Dial Pad 1
+Dial Pad 2
+Dial Pad 3
+Dial Pad 4
+Dial Pad 5
+Dial Pad 6
+Dial Pad 7
+Dial Pad 8
+Dial Pad 9
+Dial Pad *
+Dial Pad #
+Navigation Up
+Navigation Down
+Navigation Right
+Navigation Left
+Quit
+Copy
+Volume Down
+Soft Key 0
+Supervisor Access Key
+Handsfree
+Prog Key 0
+Prog Key 1
+Prog Key 2
+Prog Key 3
+Prog Key 4
+Prog Key 5
+Prog Key 6
+Prog Key 7
+Prog Key 8
+Prog Key 9
+Prog Key 10
+Prog Key 11
+Prog Key 12
+Prog Key 13
+Prog Key 14
+Prog Key 15
+Prog Key 16
+Prog Key 17
+Prog Key 18
+Prog Key 19
+Prog Key 20
+Prog Key 21
+Prog Key 22
+Prog Key 23
+Prog Key 24
+Conspicuous Key 0
+Conspicuous Key 1
+Conspicuous Key 2
+Conspicuous Key 3
+Conspicuous Key 4
+Key Released
+Key Depressed
+Key Repeated
+I-Idle
+U-Idle
+I-Ring
+U-Ring
+I-Active
+U-Active
+I-Hold
+U-Hold
+I-Group Listen
+U-Group Listen
+Feature Active
+Feature Inactive
+I-Hold Ringing
+U-Hold Ringing
+Active Audio
+Hold Audio
+Home
+Business
+Extension Number
+Pager
+Voice
+Email
+Wireless
+Internet Address
+Set-to-Set command
+Secured
+Trash Can
+In Box
+Out box
+Video
+Other/Misc
+Cadence off, On continuously
+Cadence on, Off continuously
+Flash, [1Hz]/[1/2]
+Flicker, [0.5Hz]/[13/16]
+Wink, [2Hz]/[3/4]
+Downloaded Cadence
+none
+Audio Param Bank 1
+Audio Param Bank 2
+Audio Param Bank 3
+Audio Param Bank 4
+Audio Param Bank 5
+Audio Param Bank 6
+Audio Param Bank 7
+Audio Param Bank 8
+Audio Param Bank 9
+Audio Param Bank a
+Audio Param Bank b
+Audio Param Bank c
+Audio Param Bank d
+Audio Param Bank e
+Audio Param Bank f
+Special Tones
+Paging Tones
+Handset Speaker
+Headset Speaker
+Handsfree Speaker
+cadence 4 (test cadence)
+cadence 5 (test cadence)
+ cadence 6 (test cadence)
+250Hz
+333Hz
+500Hz
+667Hz
+1000Hz
+i2004
+i2002 Basic Etherset
+Juniper 7308
+i2050 Softphone
+Meridian M6350
+Not Assigned
+Enable Rx Squelch Option
+Disable Rx Squelch Option
+Enable Rx Compressor Option
+Disable Rx Compressor Option
+Enable Tx Echo Squelch Option
+Query Audio Parameters
+Step Size setting
+Maximum Volume setting
+Minimum Volume setting
+Rx CODEC Gain Value
+Tx CODEC Gain Value
+Rx DSP Gain Value
+Tx DSP Gain Value
+Sidetone Gain Value
+Switched Loss Depth
+Length of AEC
+MCS_NOISE_THR
+LineDelayLength
+MaxReturnLossTG
+SWL_AEC_OFF
+NormDelta
+TxLevelCompHD
+TxRL_BOOT
+NoiseWaitCounter
+Whole APS
+Change Default Volume setting
+Change Current Volume setting
+Sampling Rate setting
+Cursor ON
+Cursor OFF
+No Movement command
+G.711, Mu-Law
+G.723
+G.711, A-Law
+16-bit Linear
+G.729
+8-bit Linear
+G.711, Mu-Law with PLP
+G.711, A-Law with PLP
+Disable Post Filter
+Enable Post Filter
+Disable High Pass Filter
+Enable High Pass Filter
+G.723 6.3kbps Working Rate 
+G.723 5.3kbps Working Rate 
+G.729 Annexes Selection 
+Set RTP Payload Type 
+8 kbit/sec
+16 kbit/sec
+44.1 kbit/sec
+Minimize Delay
+Maximize Throughput
+Maximize Reliability
+Minimize Monetary Cost
+Normal Service
+Routine
+Priority
+Immediate
+Flash
+Flash Override
+Critical
+Internetwork Control
+Network Control
+Flicker
+Downloadable cadence
+Message Waiting LED
+Headset LED
+Mute LED
+Handsfree Speaker/Microphone
+All Transducer Pairs
+Fixed Form Icons
+Free Form Icons
+Day first, e.g. 16Sep
+Month first, e.g. Sep16
+ Numeric standard, e.g. 09/16
+Numeric inverse, e.g. 16/09
+12-hour clock, e.g. 10:34pm
+French clock, e.g. 22h34
+24-hour clock, e.g. 22:34
+None
+Underline
+Overline
+Border
+Reverse-video
+Reverse-video with border
+Numeric Index field
+Context field
+Date field
+Time field
+no navigation keys
+two navigation keys
+four navigation keys
+not available
+Phone number of the Phone
+Phone software version
+Notice/Status information
+Invalid
+Rx Audio stream is queried
+Tx Audio stream is queried
+Audio Param Bank 10
+Audio Param Bank 11
+Audio Param Bank 12
+Audio Param Bank 13
+Audio Param Bank 14
+Audio Param Bank 15
+Stream opened successfully
+Information Not Available
+Phone number of the IT
+Geographic location of the IT
+IT software version
+Stream in use.
+Stream not in use.
+TFTP
+Future Use
+Global NIL mapping
+One-to-one mapping
+Single mapping
+RESERVED
+Query all LEDs
+Mode = start timer
+Mode = stop timer
+Reset time to zero
+Do not reset timer
+Action occurs immediately
+Display Data Write
+Expansion Key Pressed
+Query Network Manager Diagnostic
+Query Network Manager Managers
+Query Network Manager Attributes
+Query Network Manager Server Info
+unistim.enable.network.rel.udp
+Recovery Procedure Idle Low Boundary
+Recovery Procedure Idle High Boundary
+Receive Buffer Unexpectedly Empty
+Query Basic Manager Attributes
+Query Basic Manager Hardware ID
+Query Basic Manager Phone Type
+Query Basic Manager Prod Eng Code
+Basic Query Production Engineering Code
+Query Basic Manager Gray Mkt Info
+Basic Switch Options Secure Code
+Basic Phone EEProm Static Checksum
+Basic Phone EEProm Dynamic Checksum
+Basic Phone EEProm Net Config Checksum
+Query Audio Manager Attributes
+Query Audio Manager Adjustable Receive Volume
+Query Audio Manager Default Receive Volume
+Audio Manager Default Receive Volume ID
+Audio Manager Enable Max Tone Volume
+Audio Manager Auto Adjust Volume RPT
+Audio Manager Transducer Based Tone On
+Audio Manager Transducer Tone Attenuated
+unistim.stream.based.tone.rx.tx
+Terminal ID assigned by Switch
+Product Engineering Code for phone
+APB Operation Parameter Length
+unistim.write.address.softkey.label
+unistim.write.addres.softkey.id
+Character Position or Soft-Label Key ID
+unistim.display.write.address.char.pos
+unistim.write.address.line.number
+unistim.vocoder.frames.per.packet
+Numeric Index Field in InfoBar
+unistim.display.statusbar.icon
+unistim.display.clear.softkey.label
+unistim.display.clear.sbar.icon1
+unistim.display.clear.sbar.icon2
+unistim.display.clear.sbar.icon3
+unistim.display.clear.sbar.icon4
+unistim.display.clear.sbar.icon5
+unistim.display.clear.sbar.icon6
+unistim.display.clear.sbar.icon7
+unistim.display.clear.sbar.icon8
+unistim.display.clear.soft.key1
+unistim.display.clear.soft.key2
+unistim.display.clear.soft.key3
+unistim.display.clear.soft.key4
+unistim.display.clear.soft.key5
+unistim.display.clear.soft.key6
+unistim.display.clear.soft.key7
+unistim.display.clear.soft.key8
+unistim.display.clear.sk.label.id
+unistim.audio.sidetone.disable
+Number of Freeform Icon Downloads
+Display Highlight Start Position
+Display Highlight End Position
+unistim.display.use.time.format
+unistim.display.use.date.format
+unistim.display.context.format
+unistim.layer.display.duration
+Message Waiting Indicator Exists
+Conspicuous and Programmable Keys Same
+Threshold of audio frames where jitter buffer removes frames
+Threshold in x/8000 sec where packets are too early
+Threshold in x/8000 sec where packets are too late
+unistim.audio.stream.direction
+unistim.net.file.server.address
+unistim.keys.user.timeout.value
+unistim.display.call.timer.mode
+unistim.display.call.timer.reset
+unistim.display.call.timer.display
+unistim.display.call.timer.delay
+unistim.expansion.label.number
+Expansion Module-1 Manager Switch
+Expansion Module-2 Manager Switch
+Expansion Module-3 Manager Switch
+Expansion Module-4 Manager Switch
+Expansion Module-5 Manager Switch
+Expansion Module-6 Manager Switch
+Expansion Module Manager Phone
+Expansion Module-1 Manager Phone
+Expansion Module-2 Manager Phone
+Expansion Module-3 Manager Phone
+Expansion Module-4 Manager Phone
+Expansion Module-5 Manager Phone
+Expansion Module-6 Manager Phone
+Aggregate Unistim with Terminal ID
+Set Default Character Table Config
+Query Supervisor Headset Status
+Alerting Tone Cadence Download
+Transducer Based Tone Volume Level
+Visual Transducer Based Tone Enable
+Stream Based Tone Frequency Component List Download
+Stream Based Tone Cadence Download
+Change Adjustable Rx Volume (quieter)
+Change Adjustable Rx Volume (louder)
+Adjust Default Rx Volume (quieter)
+Adjust Default Rx Volume (louder)
+Query RTCP Bucket's SDES Information
+Jitter Buffer Parameters Configuration
+Supervisor Headset Disconnected
+Adjustable Rx Volume Information
+RTCP Bucket SDES Information Report
+Restore Default Character Table Configuration
+Download Call Duration Timer Delay
+Display Scroll with Data (before)
+Display Scroll with Data (after)
+Call Duration Timer Label Download
+Display Data Write address|no control|no tag|no
+Display Data Write address|yes control|no tag|no
+Display Data Write address|no control|yes tag|no
+Display Data Write address|yes control|yes tag|no
+Display Data Write address|no control|no tag|yes
+Display Data Write address|yes control|no tag|yes
+Display Data Write address|no control|yes tag|yes
+Display Data Write address|yes control|yes tag|yes
+Set Default Character Table Configuration
+Layered Softkey Cadence Download
+Display Manager Attributes Info
+Current Character Table Configuration Status
+Default Character Table Configuration Status
+Downloadable Free Form Icon Access (Hardcoded)
+Downloadable Free Form Icon Access (Downloadable)
+Key/Indicator Manager Attributes Info
+Key/Indicator Manager Options Report
+Set RTCP Source Description Item
+Query Network Configuration Element
+Set Recovery Procedure Time Interval
+Transport Reliability Layer Parameters Download
+Network Manager Attributes Info
+Network Manager Diagnostic Info
+Network Manager Options Report
+Suspend Connection with Server
+Network Configuration Element Report
+Establish UNISTIM Connection with Server
+Maximum tone volume is set equal to the physical maximum
+Maximum tone volume is one level lower than physical maximum
+Volume level adjustments are performed locally in the phone
+Volume level adjustments are not performed locally in the phone
+Adjustable Rx volume reports sent to the switch when volume keys are pressed
+Adjustable Rx volume reports not sent to the switch when volume keys are pressed Rx Volume Report
+Single tone frequency sent to Handset port while call in progress
+Single tone frequency NOT sent to Handset (HS) port while call in progress
+Single tone frequency sent to Headset (HD) port while call in progress
+Single tone frequency NOT sent to Headset (HD) port while call in progress
+Automatic noise squelching enabled
+Automatic noise squelching disabled
+Following Stream will be Muted
+Following Stream will be UnMuted
+Next Byte specifies an RX Stream ID
+Next Byte specifies an TX Stream ID
+cadence 0 (2 secs on, 4 secs off, cyclic)
+cadence 1 (0.5 secs on, 0.3 secs off, 1.2 secs on, 4 secs off, cyclic)
+cadence 2 (0.7 secs on, 0.5 secs off, 0.7 secs on, 4 secs off, cyclic)
+cadence 3 (0.5 secs on then off, one-shot)
+downloadable alerter tone cadence
+Dial Tone F1=0x0B33 - 350 Hz F2=0x0E14 - 440 Hz F3=0x00 - not present F4=0x00 - not present
+Recall Dial Tone F1=0x0B33 - 350 Hz F2=0x0E14 - 440 Hz F3=0x00 - not present F4=0x00 - not present
+Line Busy F1 = 0x0F5C - 480 Hz F2 = 0x13D7 - 620 Hz F3 = 0x00 - not present F4 = 0x00 - not present
+Reorder F1 = 0x0F5C - 480 Hz F2 = 0x13D7 - 620 Hz F3 = 0x00 - not present F4 = 0x00 - not present
+Audible Ringing F1=0x0E14 - 440 Hz F2=0x0F5C - 480 Hz F3=0x00 - not present F4=0x00 - not present
+Receiver Off Hook (ROH) F1=0x2CCC-1400 Hz F2=0x4851-2260 Hz F3=0x4E66-2450 Hz F4=0x5333 - 2600 Hz
+No Tone F1=0x00-0 Hz F2=0x00-0 Hz F3=0x00-0 Hz F4=0x00-0 Hz 0x00 C1=0x00 C2=0x00 C3=0x0 c4=0x0
+Stream ID specified in last byte is in the tx direction
+Stream ID specified in last byte is in the rx direction
+Stream Based Tone will replace Stream Data
+Stream Based tone will be summed with Stream Data
+C1=0xFF00 C2=0x00 C3=0x00 c4=0x00 Steady on.  -13 dBmO per frequency.
+C1=0x0505 C2=0x0505 C3=0x0505 c4=0xFF00 3 burst(0.1 sec on,0.1 sec off),Then steady on.-13 dBmO per frequency.
+C1=0x1919 C2=0x00 C3=0x00 c4=0x00 0.5 sec on, 0.5 sec off, repeating.  -24 dBmO per frequency.
+C1=0x64C8 C2=0x00 C3=0x00 c4=0x00 2 sec on, 4 sec off, repeating.  -19 dBmO per frequency.
+C1=0xFF00 C2=0x00 C3=0x00 c4=0x00 0.1 sec on, 0.1 sec off, repeating.  +3 to -6 dBmO/frequency.
+Nortel Conference phone 2033 (polycom)
+Establish Unistim connection with Server
+Enable Return To Default Option
+Disable Return To Default Option
+Enable Automatic Gain Control Option
+Disable Automatic Gain Control Option
+Select APB for Volume Control Option
+Deselect APB for Volume Control Option
+Enable Listener Sidetone Option
+Disable Listener Sidetone Option
+Enable Acoustic Echo Canceller (AEC) Option
+Disable Acoustic Echo Canceller (AEC) Option
+Enable Hearing Impaired (HIP) Option
+Disable Hearing Impaired (HIP) Option
+Disable Tx Echo Squelch Option
+The filter(s) to be used when the HIP is enabled
+The threshold that should be used when AGC is enabled
+The threshold that should be used when Listener Sidetone (LST) is enabled
+Set cursor at home (first character on the first text line)
+Set cursor at the address specified in the following byte
+Move the cursor by one to the left
+Move the cursor by one to the right
+Move the cursor to the left as specified by the Character Position field contained in the last byte
+Move the cursor to the right as specified by the Character Position field contained in the last byte
+Turn Off Voice Activity Detection
+Turn On Voice Activity Detection
+Turn Off Bad Frame Interpolation Algorithm
+Turn On Bad Frame Interpolation Algorithm
+Set the sampling Rate of the vocoder 
+Set number of bytes per frame 
+Configuration Parameter in byte only affects the encoder
+Configuration Parameter in byte only affects decoder
+ Configuration Parameter in byte affects the whole vocoder
+Handsfree or Supervisor Access* LED
+This will not affect the connections that were established prior
+All transducers that were connected prior will be disconnected
+The APB specified will NOT be the active one
+The APB specified will be the active one
+Marquee (combination of an overline and an underline)
+After the full cadence sequence is executed, softkey field will be updated 
+After the full cadence sequence is executed, it is restarted from the top
+The Key code will be sent when a valid key release occurs
+No command will be sent when a key is released
+Volume key depression will be sent
+Volume Key depression will not be sent
+Forces the keycode associated with conspicuous key0 to be the same as progkey0
+Conspicuous value key 0 and programmable key 0 have different keycodes
+ACD supervisor path and indicator controlled by the Switch
+ACD supervisor path and indicator controlled by the Phone
+No tone feedback provided when a dial pad key is depressed
+Short 'click' provided when a dial pad key is depressed
+Corresponding DTMF tone provided when a dial pad key is depressed
+Canonical End-Point Identifier associated with the Phone
+Name used to describe the Phone e.g. Homer Does Phone
+E-mail address associated with the Phone
+Geographic location of the Phone
+Rx and Tx Audio streams are queried
+Volume level adjustments are performed locally in the IT
+Volume level adjustments are not performed locally in the IT
+Adjustable Rx volume reports sent to the NI when volume keys are pressed
+Adjustable Rx volume reports not sent to the NI when volume keys are pressed
+Single tone frequency sent to HS port while call in progress
+Single tone frequency NOT sent to HS port while call in progress
+Single tone frequency sent to HD port while call in progress
+Single tone frequency NOT sent to HD port while call in progress
+Operation failed: Invalid Stream ID
+Operation failed: Unsupported Vocoder
+Operation failed: Stream already in use
+Operation failed: Local port already in use
+Operation failed: No streams specified
+Operation failed: Audio packet size too large based on frames per packets
+Operation failed: Invalid Frames Per Packet value
+Operation failed: Invalid Bucket ID
+Operation failed: RTP and RTCP ports Identical
+Operation failed: Inconsistent Parameters on full duplex promotion
+Operation failed: No Empty Vocoder Bins
+Operation failed: Vocoders Not Identical
+Canonical End-Point Identifier associated with the IT
+Name used to describe the IT e.g. Homer Does IT 
+E-mail address associated with the IT
+Command contains information about an Rx Audio stream
+Command contains information about a Tx Audio stream
+TFTP with active UNIStim channel
+UFTP with active UNIStim channel
+Call Duration timer is shown on the display
+Call Duration timer is not shown on the display
+Action occurs after Call Duration Timer Delay
+Next Display/Write command regards expansion module
+;*3$"
+unistim.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

@@ -1,0 +1,377 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_rtpoll_item_get_userdata
+pa_rtpoll_item_get_pollfd
+pa_rtp_recv
+pa_memblockq_seek
+pa_once_begin
+pa_rtclock_get
+pa_memblockq_push
+pa_memblock_unref
+pa_timeval_load
+pa_log_level_meta
+pa_memblockq_get_write_index
+pa_bytes_to_usec
+pa_memblockq_get_read_index
+pa_sink_get_latency_within_thread
+pa_memblockq_get_length
+pa_sample_spec_valid
+pa_resampler_set_input_rate
+pa_memblockq_is_readable
+pa_sink_input_request_rewind
+pa_rtclock_from_wallclock
+pa_once_end
+abort
+pa_sink_input_type_id
+pa_sink_input_process_msg
+pa_socket_cloexec
+pa_make_udp_socket_low_delay
+setsockopt
+bind
+__errno_location
+pa_cstrerror
+__stack_chk_fail
+pa_object_type_id
+pa_rtpoll_item_new
+pa_rtpoll_item_set_work_callback
+pa_rtpoll_item_set_userdata
+pa_sink_input_unlink
+pa_object_unref
+pa_hashmap_remove
+pa_memblockq_free
+pa_sdp_info_destroy
+pa_rtp_context_destroy
+pa_xfree
+pa_rtclock_now
+pa_core_rttime_restart
+pa_sap_recv
+pa_sdp_parse
+pa_hashmap_get
+pa_namereg_get
+pa_xmalloc0
+pa_sink_input_new_data_init
+pa_sink_input_new_data_set_sink
+pa_proplist_sets
+pa_proplist_setf
+pa_sink_input_new_data_set_sample_spec
+pa_sink_input_new
+pa_sink_input_new_data_done
+pa_sink_input_get_silence
+pa_sink_input_set_requested_latency
+pa_usec_to_bytes
+pa_memblockq_new
+pa_frame_size
+pa_rtp_context_init_recv
+pa_hashmap_put
+pa_sink_input_put
+pa_close
+pa_memblockq_rewind
+pa_rtpoll_item_free
+pa_memblockq_flush_read
+pa_memblockq_set_maxrewind
+pa_memblockq_peek
+pa_memblockq_drop
+module_rtp_recv_LTX_pa__get_author
+module_rtp_recv_LTX_pa__get_description
+module_rtp_recv_LTX_pa__get_version
+module_rtp_recv_LTX_pa__load_once
+module_rtp_recv_LTX_pa__get_usage
+module_rtp_recv_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+inet_pton
+pa_modargs_free
+pa_xmalloc
+pa_xstrdup
+pa_sap_context_init_recv
+pa_idxset_string_compare_func
+pa_idxset_string_hash_func
+pa_hashmap_new
+pa_core_rttime_new
+module_rtp_recv_LTX_pa__done
+pa_sap_context_destroy
+pa_hashmap_first
+pa_hashmap_free
+librtp.so
+libpulsecore-2.1.so
+libltdl.so.7
+libsamplerate.so.0
+libspeexdsp.so.1
+liborc-0.4.so.0
+libtdb.so.1
+libpulse.so.0
+libjson.so.0
+libpulsecommon-2.1.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libwrap.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+module-rtp-recv.so
+/usr/lib64/pulseaudio:/usr/lib64/pulse-2.1/modules
+PULSE_0
+GLIBC_2.2.5
+GLIBC_2.4
+5r? 
+%t? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+%"? 
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+=*< 
+=*5 
+fffff.
+L$PH
+t$`H
+D$p1
+|$PH
+t$HH
+\$0H
+t$ H
+|$xA
+=#4 
+Y5 #
+=D/ 
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+D$X1
+L$,A
+L$,A
+L$@A
+D$@H
+T$XdH3
+\$hH
+l$pL
+d$xL
+L$01
+H;X@
+=|( 
+ATUSH
+H;D$ }
+0[]A\
+T$/H
+D$0H
+|$0H
+D$0A
+|$`1
+|$hH
+T$pH
+|$hH
+|$hH
+|$hH
+|$hH
+|$`H
+l$@L
+|$@I
+t$8L
+L$@L
+ffff.
+t$(H
+t$(tm
+fffff.
+\$(H
+l$0H
+\$(H
+l$0H
+t$(H
+t$(tm
+ffff.
+D$X1
+T$$H
+|$ f
+D$"&
+T$XdH3
+\$hH
+l$pL
+d$xL
+T$8H
+D$2&
+s = pa_rtpoll_item_get_userdata(i)
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Using artificial time instead of timestamp
+Write index deviates by %0.2f ms, expected %0.2f ms
+Estimated target rate: %.0f Hz, using average of %.0f Hz  (
+=%.3f)
+Sample rates too different, not adjusting (%u vs. %u).
+New rate of %u Hz not within 2
+ of %u Hz, forcing smaller adjustment
+pa_sample_spec_valid(&s->sink_input->sample_spec)
+Updated sampling rate to %lu Hz.
+Requesting rewind due to end of underrun
+!obj || obj->check_type(pa_object_type_id)
+Joining mcast group failed: %s
+pa_object_refcnt(pa_object_cast(o)) > 0
+Receive data from a network via RTP/SAP/SDP
+sink=<name of the sink> sap_address=<multicast address to listen on> 
+failed to parse module arguments
+modules/rtp/module-rtp-recv.c
+poll() signalled bad revents.
+Detected RTP packet loop!
+Queue overrun
+Updating sample rate
+wi=%lu ri=%lu
+pa_sink_input_isinstance(o)
+./pulsecore/sink-input.h
+./pulsecore/object.h
+salen > 0
+Failed to create socket: %s
+SO_TIMESTAMP failed: %s
+SO_REUSEADDR failed: %s
+bind() failed: %s
+s = i->userdata
+!s->rtpoll_item
+Freeing session '%s'
+*_head == _item
+s->userdata->n_sessions >= 1
+Checking for dead streams ...
+fd == u->sap_context.fd
+flags == PA_IO_EVENT_INPUT
+Session limit reached.
+Sink does not exist.
+stream
+media.role
+RTP Stream%s%s%s
+media.name
+rtp.session
+rtp.origin
+rtp.payload
+Failed to create sink input.
+module-rtp-recv memblockq
+New session '%s'
+Lennart Poettering
+224.0.0.56
+sap_address
+Invalid SAP address '%s'
+sink
+module_rtp_recv_LTX_pa__init
+module_rtp_recv_LTX_pa__init
+check_death_event_cb
+check_death_event_cb
+session_free
+session_free
+pa_object_cast
+pa_object_cast
+sap_event_cb
+sap_event_cb
+session_new
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+sink_input_suspend_within_thread
+sink_input_suspend_within_thread
+sink_input_detach
+sink_input_detach
+sink_input_attach
+sink_input_attach
+rtpoll_work_cb
+rtpoll_work_cb
+sink_input_kill
+sink_input_kill
+sink_input_update_max_rewind_cb
+sink_input_update_max_rewind_cb
+sink_input_process_rewind_cb
+sink_input_process_rewind_cb
+sink_input_pop_cb
+sink_input_pop_cb
+pa_sink_input_cast
+pa_sink_input_cast
+mcast_socket
+mcast_socket
+module_rtp_recv_LTX_pa__done
+module_rtp_recv_LTX_pa__done
+MbP?
+;*3$"
+module-rtp-recv.so.debug
+7zXZ
+0tV9#]
+X)7tg {
+o'C)#
+5(x]HU
+j)x*z
+P@;'J
+[@<P
+Y/=a
+Mm V
+UJ"K	Wn,
+s~05
+Ks%Y
+8`^`
+[	 j
+c&U:
+S=KZ2y
+K[X]0
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,263 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_mutex_lock
+pthread_mutex_unlock
+free
+plugin_log
+uc_get_rate
+__isnan
+format_name
+__stack_chk_fail
+strlen
+meta_data_get_boolean
+lookup_search
+subst_string
+rate_to_value
+sstrncpy
+plugin_dispatch_values
+plugin_get_interval
+meta_data_create
+meta_data_add_boolean
+meta_data_destroy
+sqrt
+cdtime
+malloc
+pthread_mutex_init
+ssnprintf
+strcasecmp
+cf_util_get_boolean
+strchr
+cf_util_get_string_buffer
+cf_util_get_string
+lookup_add
+lookup_create
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_write
+regcomp
+regerror
+__assert_fail
+regexec
+strcmp
+c_avl_create
+lookup_destroy
+c_avl_pick
+c_avl_destroy
+c_avl_get
+__strdup
+c_avl_insert
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+aggregation.so
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+%z^ 
+%r^ 
+%j^ 
+%b^ 
+%Z^ 
+%R^ 
+%J^ 
+%B^ 
+%:^ 
+%2^ 
+%*^ 
+%"^ 
+%z] 
+%r] 
+%j] 
+%b] 
+%Z] 
+%R] 
+=B] 
+=7[ 
+fffff.
+=a\ 
+fffff.
+ATUH
+[]A\
+\$ H
+[]A\
+ []A\A]A^
+localhosH
+D$01
+D$8t
+|$xH
+d$ H
+[]A\
+ATU1
+[]A\
+=pR 
+AVAUI
+[]A\A]A^
+|$HH
+E@t-H
+l$@H
+l$@I
+fffff.
+AWAVAUATUSH
+|$ H
+D$ H
+D$ L
+t$0H
+D$@H
+D$PI
+D$XI
+D$HI
+t$PH
+E;~(
+0E;~(
+D$00
+L$h9H(
+x[]A\A]A^A_
+D$8L
+D$(H
+D$8H
+D$(L
+D$8H
+D$(L
+D$8H
+D$(L
+t$`D
+|$lA
+t$`D
+t$@H
+t$HH
+t$XH
+ATUH
+;/tF
+[]A\
+?wlH
+D$ H
+[]A\A]A^
+[]A\A]A^A_
+D$`H
+D$ H
+L$<A
+|$ H
+t$HH
+k []A\A]A^
+AWAVAUATUH
+D$(1
+l$ L
+t$ H
+D$(dH3
+[]A\A]A^A_
+D$(dH3
+8[]A\A]A^A_
+fff.
+AVAUATI
+=x6 
+([]A\A]A^A_
+AWAVAUI
+ATUSH
+([]A\A]A^A_
+u`E1
+aggregation plugin: The "%s" type (data set) has more than one data source. This is currently not supported by this plugin. Sorry.
+aggregation plugin: Unable to read the current rate of "%s".
+aggregation plugin: rate_to_value failed with status %i.
+aggregation plugin: meta_data_create failed.
+aggregation plugin: Reading an aggregation instance failed with status %i.
+aggregation plugin: malloc() failed.
+aggregation plugin: lookup_create failed.
+aggregation plugin: malloc failed.
+aggregation plugin: Argument %i of the "GroupBy" option is not a string.
+aggregation plugin: Grouping by type is not supported.
+aggregation plugin: The "%s" argument to the "GroupBy" option is invalid and will be ignored.
+aggregation plugin: The "%s" key is not allowed inside <Aggregation /> blocks and will be ignored.
+aggregation plugin: It appears you did not specify the required "Type" option in this aggregation. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: The "Type" may not contain the '/' character. Especially, it may not be a regex. The current value is "%s".
+aggregation plugin: An aggregation must contain at least one wildcard. This is achieved by leaving at least one of the "Host", "Plugin", "PluginInstance" and "TypeInstance" options blank or using a regular expression and not grouping by that field. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: Only wildcard fields (fields for which a regular expression is configured or which are left blank) can be specified in the "GroupBy" option. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: No aggregation function has been specified. Without this, I don't know what I should be calculating. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: lookup_add failed with status %i.
+aggregation plugin: The "%s" key is not allowed inside <Plugin aggregation /> blocks and will be ignored.
+aggregation:created
+%{aggregation}
+average
+stddev
+/.*/
+global
+aggregation
+%s-%s
+Aggregation
+Type
+SetHost
+SetPlugin
+SetPluginInstance
+SetTypeInstance
+GroupBy
+CalculateNum
+CalculateSum
+CalculateAverage
+CalculateMinimum
+CalculateMaximum
+CalculateStddev
+utils_vl_lookup.c
+status <= 0
+ptr != ((void *)0)
+sizeof (match_part->str) > len
+utils_vl_lookup: Compiling regular expression "%s" failed: %s
+__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (vl->type) && __builtin_constant_p (user_class->match.type.str) && (__s1_len = strlen (vl->type), __s2_len = strlen (user_class->match.type.str), (!((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((user_class->match.type.str) + 1) - (size_t)(const void *)(user_class->match.type.str) == 1) || __s2_len >= 4)) ? __builtin_strcmp (vl->type, user_class->match.type.str) : (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) && (__s1_len = strlen (vl->type), __s1_len < 4) ? (__builtin_constant_p (user_class->match.type.str) && ((size_t)(const void *)((user_class->match.type.str) + 1) - (size_t)(const void *)(user_class->match.type.str) == 1) ? __builtin_strcmp (vl->type, user_class->match.type.str) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (user_class->match.type.str); int __result = (((const unsigned char *) (const char *) (vl->type))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (vl->type))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (user_class->match.type.str) && ((size_t)(const void *)((user_class->match.type.str) + 1) - (size_t)(const void *)(user_class->match.type.str) == 1) && (__s2_len = strlen (user_class->match.type.str), __s2_len < 4) ? (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) ? __builtin_strcmp (vl->type, user_class->match.type.str) : (- (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (vl->type); int __result = (((const unsigned char *) (const char *) (user_class->match.type.str))[0] - __s2[0]); if (__s2_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->match.type.str))[1] - __s2[1]); if (__s2_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->match.type.str))[2] - __s2[2]); if (__s2_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (user_class->match.type.str))[3] - __s2[3]); } } __result; })))) : __builtin_strcmp (vl->type, user_class->match.type.str)))); }) == 0
+user_class->match.plugin.is_regex || (__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (vl->plugin) && __builtin_constant_p (user_class->match.plugin.str) && (__s1_len = strlen (vl->plugin), __s2_len = strlen (user_class->match.plugin.str), (!((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((user_class->match.plugin.str) + 1) - (size_t)(const void *)(user_class->match.plugin.str) == 1) || __s2_len >= 4)) ? __builtin_strcmp (vl->plugin, user_class->match.plugin.str) : (__builtin_constant_p (vl->plugin) && ((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) && (__s1_len = strlen (vl->plugin), __s1_len < 4) ? (__builtin_constant_p (user_class->match.plugin.str) && ((size_t)(const void *)((user_class->match.plugin.str) + 1) - (size_t)(const void *)(user_class->match.plugin.str) == 1) ? __builtin_strcmp (vl->plugin, user_class->match.plugin.str) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (user_class->match.plugin.str); int __result = (((const unsigned char *) (const char *) (vl->plugin))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->plugin))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->plugin))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (vl->plugin))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (user_class->match.plugin.str) && ((size_t)(const void *)((user_class->match.plugin.str) + 1) - (size_t)(const void *)(user_class->match.plugin.str) == 1) && (__s2_len = strlen (user_class->match.plugin.str), __s2_len < 4) ? (__builtin_constant_p (vl->plugin) && ((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) ? __builtin_strcmp (vl->plugin, user_class->match.plugin.str) : (- (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (vl->plugin); int __result = (((const unsigned char *) (const char *) (user_class->match.plugin.str))[0] - __s2[0]); if (__s2_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->match.plugin.str))[1] - __s2[1]); if (__s2_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->match.plugin.str))[2] - __s2[2]); if (__s2_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (user_class->match.plugin.str))[3] - __s2[3]); } } __result; })))) : __builtin_strcmp (vl->plugin, user_class->match.plugin.str)))); })) == 0
+utils_vl_lookup: malloc failed.
+utils_vl_lookup: User-provided constructor failed.
+utils_vl_lookup: The user object callback failed with status %i.
+utils_vl_lookup: c_avl_create failed.
+utils_vl_lookup: strdup failed.
+utils_vl_lookup: c_avl_insert failed.
+utils_vl_lookup: c_avl_insert("%s") failed with status %i.
+lu_handle_user_class
+lu_add_by_plugin
+lu_copy_ident_to_match_part
+lu_search_by_type
+;*3$"
+aggregation.so.debug
+7zXZ
+r^T;
+RpI/=
+,G0<
+"A)?*
+I48/W
+[cGD
+8)/$
+aA$v(
+st?OU
+A;O/
+>d{}
+/2LE
+`(+o
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

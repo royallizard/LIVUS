@@ -1,0 +1,423 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+workbook_date_conv
+value_get_as_float
+go_date_serial_to_g
+g_date_days_between
+value_new_int
+__stack_chk_fail
+datetime_value_to_g
+g_date_valid
+go_date_weeknum
+value_new_error_VALUE
+g_date_get_year
+g_date_get_month
+go_date_timet_to_serial_raw
+value_new_float
+go_format_default_date
+value_set_fmt
+value_new_error_NUM
+yearfrac
+g_date_get_weekday
+collect_floats_value
+g_free
+g_date_subtract_days
+go_date_g_to_serial
+g_date_add_days
+qsort
+time
+go_date_timet_to_serial
+datetime_value_to_serial_raw
+fmod
+go_fake_floor
+datetime_value_to_serial
+g_date_set_dmy
+g_date_compare
+gnm_date_add_months
+g_date_get_days_in_month
+g_date_set_day
+go_date_days_between_basis
+gnm_datetime_allow_negative
+g_date_clear
+gnm_date_add_days
+go_date_convention_base
+go_date_serial_to_timet
+go_fake_round
+datetime_value_to_seconds
+value_peek_string
+g_assertion_message_expr
+g_date_get_julian
+go_date_g_months_between
+go_date_g_years_between
+g_date_get_day
+g_date_set_year
+gnm_date_add_years
+g_log
+datetime_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+GLIBC_2.4
+=my 
+=?y 
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+AUATI
+zgueA
+[]A\A]
+ATUH
+[]A\
+AVAUATUH
+ []A\A]A^
+ATUH
+ []A\
+AWAVA
+AUATM
+[]A\A]A^A_
+AWAVI
+AUATUSH
+\$PH
+L$LL
+T$hI
+uEE1
+D$pH
+L;l$(t
+[]A\A]A^A_
+D$0f.
+T$ )
+|$HD9
+*\$0
+L;l$(t
+D$(I
+uKL;l$(t
+L$HL
+T$hI
+tiL;l$(
+Hct$HH
+T$HD
+D$`A
+D$0L
+D$ D
+D$0)
+L$8f
+D9D$H
+D$8D
+D$0A
+D$ tS
+D$ D
+*\$0
+AWAVAUATI
+t$PH
+u]E1
+[]A\A]A^A_
+L$LL
+t.L;T$
+uvL;T$
+L$HL
+\$(L
+T$ H
+T$ D
+L;T$
+L$0E
+|$pH
+\$0L
+T$(D
+\$@H
+|$`M
+\$@H
+|$pM
+T$ D
+L;T$
+Hct$HH
+\$ L
+D$(f
+\$8L
+l$ E1
+|$4L
+\$<M
+D9t$H~t
+\$8D
+\$<L
+l$ D
+ATUH
+ []A\
+AUATI
+([]A\A]
+AWAVAUATI
+([]A\A]A^A_
+AUATUSH
+D$(1
+T$(dH3
+8[]A\A]
+X%\1
+f={.
+ATUH
+[]A\
+ATUI
+[]A\
+AWAVAUATI
+yu#A
+duIA
+([]A\A]A^A_
+ATUI
+[]A\
+ATUI
+[]A\
+datedif_opt_md
+datedif_opt_yd
+datedif_opt_ym
+munG
+datedif is known to differ from Excel for some values.
+DAYS:difference between dates in days
+end_date:ending date serial value
+start_date:starting date serial value
+DAYS returns the positive or negative number of days from @{start_date} to @{end_date}.
+This function is OpenFormula compatible.
+=DAYS(DATE(2003,2,3),DATE(2007,4,2))
+=DAYS(DATE(2007,4,2),DATE(2003,2,3))
+=DAYS(DATE(1900,2,28),DATE(1900,3,1))
+YEARFRAC:fractional number of years between dates
+YEARFRAC calculates the number of days from @{start_date} to @{end_date} according to the calendar specified by @{basis}, which defaults to 0, and expresses the result as a fractional number of years.
+If @{basis} is 0, then the US 30/360 method is used.
+If @{basis} is 1, then actual number of days is used.
+If @{basis} is 2, then actual number of days is used within a month, but years are considered only 360 days.
+If @{basis} is 3, then actual number of days is used within a month, but years are always considered 365 days.
+If @{basis} is 4, then the European 30/360 method is used.
+=YEARFRAC(DATE(2000,1,1),DATE(2001,4,1))
+method:numbering system, defaults to 1
+WEEKNUM calculates the week number according to @{method} which defaults to 1.
+If @{method} is 1, then weeks start on Sundays and January 1 is in week 1.
+If @{method} is 2, then weeks start on Mondays and January 1 is in week 1.
+If @{method} is 150, then the ISO 8601 numbering is used.
+ISOYEAR:year corresponding to the ISO week number
+ISOYEAR calculates the year to go with week number according to the ISO 8601 standard.
+January 1 of a year is sometimes in week 52 or 53 of the previous year.  Similarly, December 31 is sometimes in week 1 of the following year.
+ISOWEEKNUM calculates the week number according to the ISO 8601 standard.  Weeks start on Mondays and week 1 contains the first Thursday of the year.
+NETWORKDAYS:number of workdays in range
+weekend:array of 0s and 1s, indicating whether a weekday (S, M, T, W, T, F, S) is on the weekend, defaults to {1,0,0,0,0,0,1}
+NETWORKDAYS calculates the number of days from @{start_date} to @{end_date} skipping weekends and @{holidays} in the process.
+If an entry of @{weekend} is non-zero, the corresponding weekday is not a work day.
+This function is Excel compatible if the last argument is omitted.
+=NETWORKDAYS(DATE(2001,1,2),DATE(2001,2,15))
+=NETWORKDAYS(DATE(2001,1,2),DATE(2001,2,15),,{0, 0, 0, 1, 1, 0, 0})
+WORKDAY adjusts @{date} by @{days} skipping over weekends and @{holidays} in the process.
+=WORKDAY(DATE(2001,12,14),2,,{0,0,0,0,0,1,1})
+months:signed number of months
+EOMONTH returns the date serial value of the end of the month specified by @{date} adjusted forward or backward the number of months specified by @{months}.
+This function is Excel compatible.
+DAYS360 returns the number of days from @{start_date} to @{end_date}.
+If @{method} is 0, the default, the MS Excel (tm) US method will be used. This is a somewhat complicated industry standard method where the last day of February is considered to be the 30th day of the month, but only for @{start_date}.
+If @{method} is 1, the European method will be used.  In this case, if the day of the month is 31 it will be considered as 30
+If @{method} is 2, a saner version of the US method is used in which both dates get the same February treatment.
+=DAYS360(DATE(2003,2,3),DATE(2007,4,2))
+The WEEKDAY function returns the day-of-week of @{date}.  The value of @{method} determines how days are numbered; it defaults to 1. 
+If @{method} is 1, then Sunday is 1, Monday is 2, etc.
+If @{method} is 2, then Monday is 1, Tuesday is 2, etc.
+If @{method} is 3, then Monday is 0, Tuesday is 1, etc.
+If @{method} is 11, then Monday is 1, Tuesday is 2, etc.
+If @{method} is 12, then Tuesday is 1, Wednesday is 2, etc.
+If @{method} is 13, then Wednesday is 1, Thursday is 2, etc.
+If @{method} is 14, then Thursday is 1, Friday is 2, etc.
+If @{method} is 15, then Friday is 1, Saturday is 2, etc.
+If @{method} is 16, then Saturday is 1, Sunday is 2, etc.
+If @{method} is 17, then Sunday is 1, Monday is 2, etc.
+DAY:the day-of-month part of a date serial value
+The DAY function returns the day-of-month part of @{date}.
+MONTH:the month part of a date serial value
+The MONTH function returns the month part of @{date}.
+YEAR:the year part of a date serial value
+The YEAR function returns the year part of @{date}.
+SECOND:compute seconds part of fractional day
+time:time of day as fractional day
+The SECOND function computes the seconds part of the fractional day given by @{time}.
+MINUTE:compute minute part of fractional day
+The MINUTE function computes the minute part of the fractional day given by @{time}.
+HOUR:compute hour part of fractional day
+The HOUR function computes the hour part of the fractional day given by @{time}.
+TIMEVALUE:the time part of a date and time serial value
+serial:date and time serial value
+TIMEVALUE returns the time-of-day part of a date and time serial value.
+ODF.TIME:create a time serial value
+The ODF.TIME function computes the time given by @{hour}, @{minute}, and @{second} as a fraction of a day.
+While the return value is automatically formatted to look like a time between 0:00 and 24:00, the underlying serial time value can be any number.
+TIME:create a time serial value
+second:second within the minute
+The TIME function computes the fractional day after midnight at the time given by @{hour}, @{minute}, and @{second}.
+While the return value is automatically formatted to look like a time between 0:00 and 24:00, the underlying serial time value is a number between 0 and 1.
+If any of @{hour}, @{minute}, and @{second} is negative, #NUM! is returned
+NOW:the date and time serial value of the current time
+The NOW function returns the date and time serial value of the moment it is computed.  Recomputing later will produce a different value.
+TODAY:the date serial value of today
+The TODAY function returns the date serial value of the day it is computed.  Recomputing on a later date will produce a different value.
+EDATE:adjust a date by a number of months
+EDATE returns @{date} moved forward or backward the number of months specified by @{months}.
+DATEDIF:difference between dates
+DATEDIF returns the distance from @{start_date} to @{end_date} according to the unit specified by @{interval}.
+If @{interval} is "y", "m", or "d" then the distance is measured in complete years, months, or days respectively.
+If @{interval} is "ym" or "yd" then the distance is measured in complete months or days, respectively, but excluding any difference in years.
+If @{interval} is "md" then the distance is measured in complete days but excluding any difference in months.
+=DATEDIF(DATE(2003,2,3),DATE(2007,4,2),"m")
+=DATEDIF(DATE(2000,4,30),DATE(2003,8,4),"d")
+=DATEDIF(DATE(2000,4,30),DATE(2003,8,4),"y")
+DATEVALUE:the date part of a date and time serial value
+DATEVALUE returns the date serial value part of a date and time serial value.
+DATE2UNIX:the Unix timestamp corresponding to a date @{d}
+The DATE2UNIX function translates a date into a Unix timestamp. A Unix timestamp is the number of seconds since midnight (0:00) of January 1st, 1970 GMT.
+UNIX2DATE:date value corresponding to the Unix timestamp @{t}
+The UNIX2DATE function translates Unix timestamps into the corresponding date.  A Unix timestamp is the number of seconds since midnight (0:00) of January 1st, 1970 GMT.
+DATE:create a date serial value
+The DATE function creates date serial values.  1-Jan-1900 is serial value 1, 2-Jan-1900 is serial value 2, and so on.  For compatibility reasons, a serial value is reserved for the non-existing date 29-Feb-1900.
+If @{month} or @{day} is less than 1 or too big, then the year and/or month will be adjusted.
+For spreadsheets created with the Mac version of Excel, serial 1 is 1-Jan-1904.
+g_date_valid (gdate1)
+functions.c
+g_date_valid (gdate2)
+datevalue
+datedif
+days360
+ff|f
+edate
+eomonth
+networkdays
+ff|?A
+odf.time
+timevalue
+today
+weekday
+workday
+yearfrac
+unix2date
+date2unix
+isoweeknum
+isoyear
+DATEDIF
+basis:calendar basis
+WEEKNUM:week number
+date:date serial value
+=WEEKNUM(DATE(2000,1,1))
+=WEEKNUM(DATE(2008,1,1))
+=ISOYEAR(DATE(2000,1,1))
+=ISOYEAR(DATE(2008,1,1))
+ISOWEEKNUM,YEAR
+ISOWEEKNUM:ISO week number
+=ISOWEEKNUM(DATE(2000,1,1))
+=ISOWEEKNUM(DATE(2008,1,1))
+ISOYEAR,WEEKNUM
+holidays:array of holidays
+WORKDAY
+WORKDAY:add working days
+days:number of days to add
+@{days} may be negative.
+=WORKDAY(DATE(2001,12,14),2)
+NETWORKDAYS
+EOMONTH:end of month
+=EOMONTH(DATE(2001,12,14),2)
+EDATE
+DAYS360:days between dates
+method:counting method
+WEEKDAY:day-of-week
+=WEEKDAY(DATE(1940,4,9))
+DATE,ISOWEEKNUM
+=DAY(TODAY())
+=DAY(DATE(1940,4,9))
+DATE,YEAR,MONTH
+=MONTH(TODAY())
+=MONTH(DATE(1940,4,9))
+DATE,YEAR,DAY
+=YEAR(TODAY())
+=YEAR(DATE(1940,4,9))
+DATE,MONTH,DAY
+=SECOND(TIME(12,30,2))
+TIME,HOUR,MINUTE
+=MINUTE(TIME(12,30,2))
+TIME,HOUR,SECOND
+=HOUR(TIME(12,30,2))
+TIME,MINUTE,SECOND
+=TIMEVALUE(NOW())
+DATEVALUE,TIME
+hour:hour
+minute:minute
+second:second
+=ODF.TIME(12,30,2)
+=ODF.TIME(25,100,-18)
+hour:hour of the day
+minute:minute within the hour
+=TIME(12,30,2)
+=TIME(25,100,18)
+ODF.TIME,HOUR,MINUTE,SECOND
+=NOW()
+=TODAY()
+=EDATE(DATE(2001,12,30),2)
+interval:counting unit
+DAYS360
+=DATEVALUE(NOW())
+TIMEVALUE,DATE
+d:date
+=DATE2UNIX(DATE(2000,1,1))
+UNIX2DATE,DATE
+t:Unix time stamp
+=UNIX2DATE(1000000000)
+DATE2UNIX,DATE
+year:year of date
+month:month of year
+day:day of month
+=DATE(2008,1,1)
+=DATE(2008,13,1)
+=DATE(2008,1,-10)
+TODAY,YEAR,MONTH,DAY
+goffice
+gnumeric
+1.12.32
+;*3$"
+plugin.so.debug
+7zXZ
+<.D.
+|_&\
+cmTK
+	ETz
+9ta9
+sfrF
+^elt
+13pO
+.O~;
+jDH(
+_B9N{
+`4XA
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

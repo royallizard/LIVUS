@@ -1,0 +1,385 @@
+/lib/ld-linux.so.2
+libgstreamer-0.10.so.0
+g_free
+g_print
+g_option_context_free
+__gmon_start__
+_Jv_RegisterClasses
+g_strdup
+g_strconcat
+g_printerr
+g_malloc
+_ITM_deregisterTMCloneTable
+g_malloc0_n
+_ITM_registerTMCloneTable
+g_strdup_printf
+g_ptr_array_free
+g_option_context_parse
+g_snprintf
+g_object_set
+g_option_context_add_group
+g_type_check_instance_is_a
+g_source_remove
+g_signal_connect_data
+g_strsplit
+g_strdup_value_contents
+g_option_context_new
+g_error_free
+g_ptr_array_new
+g_file_test
+gst_message_parse_tag
+gst_tag_list_free
+gst_pad_get_type
+gst_structure_get_string
+gst_util_get_timestamp
+gst_element_get_state
+gst_index_entry_assoc_map
+gst_caps_to_string
+gst_object_get_path_string
+gst_version_string
+gst_tag_list_get_tag_size
+gst_xml_parse_file
+gst_tag_list_get_value_index
+gst_tag_list_get_date_time_index
+__gst_debug_min
+gst_bin_get_by_name
+gst_util_set_object_arg
+gst_structure_has_name
+gst_bus_poll
+gst_xml_new
+gst_object_get_type
+gst_message_get_seqnum
+gst_date_time_get_type
+gst_bin_recalculate_latency
+gst_object_unref
+gst_message_get_structure
+gst_event_new_eos
+gst_pipeline_get_type
+gst_element_get_bus
+gst_element_set_index
+GST_CAT_DEFAULT
+gst_date_time_get_day
+gst_message_new_application
+gst_message_parse_new_clock
+gst_message_parse_info
+gst_date_time_get_month
+gst_element_set_state
+gst_debug_log
+gst_date_time_get_time_zone_offset
+gst_object_default_deep_notify
+gst_xml_write_file
+gst_message_parse_buffering
+gst_element_get_type
+gst_parse_launchv
+gst_alloc_trace_print_live
+gst_tag_list_get_string_index
+gst_element_state_get_name
+gst_structure_to_string
+gst_tag_get_nick
+gst_alloc_trace_available
+gst_date_time_get_minute
+gst_element_send_event
+gst_date_time_get_second
+gst_element_factory_make
+gst_mini_object_unref
+gst_date_time_get_hour
+gst_message_type_get_name
+gst_alloc_trace_set_flags_all
+gst_tag_list_foreach
+gst_value_get_mini_object
+gst_element_post_message
+_gst_debug_bin_to_dot_file_with_ts
+gst_index_new
+gst_init_get_option_group
+gst_buffer_get_type
+gst_message_parse_error
+gst_structure_new
+gst_bus_set_sync_handler
+gst_message_parse_warning
+gst_object_ref
+gst_xml_get_topelements
+gst_deinit
+gst_bin_add
+gst_message_parse_request_state
+gst_message_parse_state_changed
+gst_date_time_get_year
+gst_date_time_unref
+gst_tag_get_type
+libxml2.so.2
+_init
+_fini
+libm.so.6
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+g_usleep
+g_ptr_array_set_size
+g_get_tmp_dir
+g_timeout_add
+g_get_prgname
+g_option_context_add_main_entries
+glib_on_error_halt
+g_on_error_stack_trace
+g_set_prgname
+g_main_context_iteration
+libdl.so.2
+libpthread.so.0
+wait
+sigaction
+libc.so.6
+_IO_stdin_used
+exit
+dcgettext
+puts
+getpid
+bind_textdomain_codeset
+strstr
+__fprintf_chk
+stderr
+strchr
+__cxa_finalize
+fopen64
+bindtextdomain
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+[^_]
+;t$x
+D$pc
+D$tc
+D$xc
+D$`c
+D$hc
+D$Xc
+D$\c
+D$dc
+UWVS
+D$\1
+D$\e3
+d$l[^_]
+D$D!
+T$@t
+D$L)
+|$89
+|$89
+D$@+T$H
+d$ [^_
+UWVS
+T$|1
+9|$,
+D$|e3
+[^_]
+D$,e
+L$\1
+D$41
+D$,;E$
+L$\e3
+d$l[^_]
+|$Xd
+UWVS
+t$Xe
+L$,1
+;p$t%
+|$,e3=
+d$<[^_]
+t$0t`
+d$$[^
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+uZ;T$
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+id %d: describes writer %s
+gst-launch.c
+ERROR: from element %s: %s
+Additional debug info:
+unknown
+buffer of %u bytes, type: %s
+NULL buffer
+%02u-%02u-%04u
+(UTC %s%gh)
+(UTC)
+%16s: %s
+(NULL)
+NULL
+(no description)
+Got message #%u (%s): 
+no message details
+New clock: %s
+Got EOS from element "%s".
+FOUND TAG
+INFO:
+gst-launch.warning
+WARNING: from element %s: %s
+gst-launch.error
+buffering...
+%s %d%%  
+Redistribute latency...
+GstLaunchInterrupt
+missing-plugin
+name
+Missing element: %s
+%s_%s
+gst-launch.
+gst-launch
+Caught SIGQUIT
+signo:  %d
+errno:  %d
+code:   %d
+Caught interrupt -- 
+handling interrupt.
+Pipeline interrupted
+message
+tags
+verbose
+quiet
+Output messages
+exclude
+TYPE1,TYPE2,...
+output
+FILE
+no-fault
+no-sigusr-handler
+trace
+eos-on-shutdown
+index
+version
+/usr/share/locale
+gstreamer-0.10
+UTF-8
+%s-%u.%u
+PIPELINE-DESCRIPTION
+Error initializing: %s
+%s version %u.%u.%u
+gst-xmllaunch
+deep-notify
+pipeline
+entry-added
+resolver
+Pipeline is PREROLLING ...
+Pipeline is PREROLLED ...
+Waiting for EOS...
+Index statistics
+id %d, %s
+  no stats
+Setting pipeline to NULL ...
+Freeing pipeline ...
+id %d: registered format %d for %s
+received out-of-order keyframe at %u:%02u:%02u.%09u
+%04u-%02u-%02u %02u:%02u:%02u %s
+Got message #%u from element "%s" (%s): 
+Got message #%u from pad "%s:%s" (%s): 
+Got message #%u from object "%s" (%s): 
+Clock lost, selecting a new one
+FOUND TAG      : found by element "%s".
+FOUND TAG      : found by pad "%s:%s".
+FOUND TAG      : found by object "%s".
+Prerolled, waiting for buffering to finish...
+Done buffering, setting pipeline to PLAYING ...
+Buffering, setting pipeline to PAUSED ...
+Setting state to %s as requested by %s...
+Interrupt: Stopping pipeline ...
+Caught SIGUSR1 - Play request.
+Caught SIGUSR2 - Stop request.
+Caught SIGSEGV accessing address %p
+Spinning.  Please run 'gdb gst-launch %d' to continue debugging, Ctrl-C to quit, or Ctrl-\ to dump core.
+Output tags (also known as metadata)
+Output status information and property notifications
+Do not print any progress information
+Do not output status information of TYPE
+Save xml representation of pipeline to FILE and exit
+Do not install a fault handler
+Do not install signal handlers for SIGUSR1 and SIGUSR2
+Print alloc trace (if enabled at compile time)
+Force EOS on sources before shutting the pipeline down
+Gather and print index statistics
+Print version information and exit
+Error initializing: Unknown error!
+http://download.fedoraproject.org
+Trace not available (recompile with trace enabled).
+gst-xmllaunch is deprecated and broken for all but the most simple pipelines. It will most likely be removed in future. Don't use it.
+Usage: gst-xmllaunch <file.xml> [ element.property=value ... ]
+ERROR: parse of xml file '%s' failed.
+ERROR: no toplevel pipeline element in file '%s'.
+WARNING: only one toplevel element is supported at this time.
+ERROR: could not parse command line argument %d: %s.
+WARNING: element named '%s' not found.
+ERROR: pipeline could not be constructed: %s.
+ERROR: pipeline could not be constructed.
+WARNING: erroneous pipeline: %s
+Pipeline serialization to XML is deprecated and broken for all but the most simple pipelines. It will most likely be removed in future. Don't use it.
+ERROR: the 'pipeline' element wasn't found.
+Setting pipeline to PAUSED ...
+ERROR: Pipeline doesn't want to pause.
+Pipeline is live and does not need PREROLL ...
+ERROR: pipeline doesn't want to preroll.
+Setting pipeline to PLAYING ...
+ERROR: pipeline doesn't want to play.
+EOS on shutdown enabled -- Forcing EOS on the pipeline
+EOS received - stopping pipeline...
+An error happened while waiting for EOS
+Execution ended after %llu ns.
+Setting pipeline to READY ...
+  total time               = %u:%02u:%02u.%09u
+  frame/keyframe rate      = %u / %u = 
+  min/avg/max keyframe gap = %u:%02u:%02u.%09u, %u:%02u:%02u.%09u, %u:%02u:%02u.%09u
+entry_added
+;*2$"<
+gst-launch-0.10.debug
+7zXZ
+3K=?
+(k$iKu4
+&&4qd
+]nN$
+S$Eb
+1Qow*
+0Nn,
+q3hI)
+=*%_
+	vuEF
+`Wa1v
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

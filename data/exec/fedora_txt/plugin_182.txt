@@ -1,0 +1,378 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_get_as_float
+value_new_error_NUM
+float_range_function
+value_new_int
+erfc
+value_new_float
+strcmp
+value_peek_string
+value_new_error_NA
+bessel_k
+bessel_i
+fmod
+g_return_if_fail_warning
+value_new_error_VALUE
+go_fake_trunc
+value_release
+g_ascii_formatd
+g_ascii_strtoll
+g_string_sized_new
+g_string_set_size
+g_string_free
+value_new_string_nocopy
+g_ascii_table
+strlen
+workbook_date_conv
+format_match_number
+go_plugin_depends
+go_plugin_header
+engineering_functions
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+d$$[]
+d$ [^]
+d$ [^]
+[^_]
+[^_]
+[^_]
+d$l[^_]
+d$l[^_]
+d$ [^]
+d$ [^]
+d$ [^]
+d$ [^]
+zGuM
+zzux
+[^_]
+8(tC
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+d$$[]
+%.0f
+goffice
+gnumeric
+1.10.11
+base
+Sf|f
+besseli
+besselj
+besselk
+bessely
+bin2dec
+bin2hex
+bin2oct
+convert
+dec2bin
+dec2oct
+dec2hex
+decimal
+delta
+erfc
+gestep
+hex2bin
+hex2dec
+hex2oct
+invsuminv
+oct2bin
+oct2dec
+oct2hex
+mmHg
+Pica
+picapt
+pica
+n:integer
+b:base (2 
+ @{b} 
+ 36)
+=BASE(255,16,4)
+DECIMAL
+X:number
+:order (any number)
+=BESSELI(0.7,3)
+BESSELJ,BESSELK,BESSELY
+wiki:en:Bessel_function
+=BESSELJ(0.89,3)
+BESSELI,BESSELK,BESSELY
+=BESSELK(3,9)
+BESSELI,BESSELJ,BESSELY
+=BESSELY(4,2)
+BESSELI,BESSELJ,BESSELK
+=BIN2DEC(101)
+DEC2BIN,BIN2OCT,BIN2HEX
+places:number of digits
+=BIN2HEX(100111)
+=BIN2HEX(110111,4)
+HEX2BIN,BIN2OCT,BIN2DEC
+=BIN2OCT(110111)
+=BIN2OCT(110111,4)
+OCT2BIN,BIN2DEC,BIN2HEX
+x:number
+from:unit (string)
+to:unit (string)
+=CONVERT(3,"lbm","g")
+=CONVERT(5.8,"m","in")
+=CONVERT(7.9,"cal","J")
+x:integer
+=DEC2BIN(42)
+BIN2DEC,DEC2OCT,DEC2HEX
+=DEC2OCT(42)
+OCT2DEC,DEC2BIN,DEC2HEX
+=DEC2HEX(42)
+HEX2DEC,DEC2BIN,DEC2OCT
+x:number in base @{base}
+=DECIMAL("A1",16)
+=DECIMAL("A1",15)
+BASE
+x0:number
+x1:number, defaults to 0
+=DELTA(42.99,43)
+EXACT,GESTEP
+ERF:Gauss error function
+=ERF(0.4)
+=ERF(1.6448536269515/SQRT(2))
+ERFC
+wiki:en:Error_function
+=ERFC(6)
+=GESTEP(5,4)
+DELTA
+=HEX2BIN("2A")
+BIN2HEX,HEX2OCT,HEX2DEC
+=HEX2DEC("2A")
+DEC2HEX,HEX2BIN,HEX2OCT
+=HEX2OCT("2A")
+OCT2HEX,HEX2BIN,HEX2DEC
+x0:non-negative number
+x1:non-negative number
+=INVSUMINV(2000,2000)
+HARMEAN
+=OCT2BIN("213")
+BIN2OCT,OCT2DEC,OCT2HEX
+=OCT2DEC("124")
+=OCT2DEC(124)
+DEC2OCT,OCT2BIN,OCT2HEX
+=OCT2HEX(132)
+HEX2OCT,OCT2BIN,OCT2DEC
+src_base > 1 && src_base <= 36
+dest_base > 1 && dest_base <= 36
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+BASE:string of digits representing the number @{n} in base @{b}
+length:minimum length of the resulting string
+BASE converts @{n} to its string representation in base @{b}. Leading zeroes will be added to reach the minimum length given by @{length}.
+This function is OpenFormula compatible.
+BESSELI:Modified Bessel function of the first kind of order @{
+} at @{x}
+If @{x} or @{
+} are not numeric, #VALUE! is returned. If @{
+} < 0, #NUM! is returned.
+This function is Excel compatible if only integer orders @{
+} are used.
+BESSELJ:Bessel function of the first kind of order @{
+} at @{x}
+:order (any non-negative integer)
+If @{x} or @{
+} are not numeric, #VALUE! is returned. If @{
+} < 0, #NUM! is returned. If @{
+} is not an integer, it is truncated.
+This function is Excel compatible.
+BESSELK:Modified Bessel function of the second kind of order @{
+} at @{x}
+BESSELY:Bessel function of the second kind of order @{
+} at @{x}
+BIN2DEC:decimal representation of the binary number @{x}
+x:a binary number, either as a string or as a number involving only the digits 0 and 1
+BIN2HEX:hexadecimal representation of the binary number @{x}
+If @{places} is given, BIN2HEX pads the result with zeros to achieve exactly @{places} digits. If this is not possible, BIN2HEX returns #NUM!
+BIN2OCT:octal representation of the binary number @{x}
+If @{places} is given, BIN2OCT pads the result with zeros to achieve exactly @{places} digits. If this is not possible, BIN2OCT returns #NUM!
+CONVERT:a converted measurement
+CONVERT returns a conversion from one measurement system to another. @{x} is a value in @{from} units that is to be converted into @{to} units.
+If @{from} and @{to} are different types, CONVERT returns #N/A!
+@{from} and @{to} can be any of the following:
+Weight and mass:
+	'g'  			Gram
+	'sg' 			Slug
+	'lbm'		Pound
+	'u'  			U (atomic mass)
+	'ozm'		Ounce
+Distance:
+	'm'   		Meter
+	'mi'  		Statute mile
+	'Nmi' 		Nautical mile
+	'in'  			Inch
+	'ft'  			Foot
+	'yd'  		Yard
+	'ang' 		Angstrom
+	'Pica'		Pica Points
+	'picapt'		Pica Points
+	'pica'		Pica
+Time:
+	'yr'  			Year
+	'day' 		Day
+	'hr'  			Hour
+	'mn'  		Minute
+	'sec' 		Second
+Pressure:
+	'Pa'  		Pascal
+	'atm' 		Atmosphere
+	'mmHg'		mm of Mercury
+Force:
+	'N'   			Newton
+	'dyn' 		Dyne
+	'lbf' 			Pound force
+Energy:
+	'J'    			Joule
+	'e'    		Erg
+	'c'    		Thermodynamic calorie
+	'cal'  		IT calorie
+	'eV'   		Electron volt
+	'HPh'  		Horsepower-hour
+	'Wh'   		Watt-hour
+	'flb'  		Foot-pound
+	'BTU'  		BTU
+Power:
+	'HP'   		Horsepower
+	'W'    		Watt
+Magnetism:
+	'T'    		Tesla
+	'ga'   		Gauss
+Temperature:
+	'C'    		Degree Celsius
+	'F'    		Degree Fahrenheit
+	'K'    		Degree Kelvin
+Liquid measure:
+	'tsp'  		Teaspoon
+	'tbs'  		Tablespoon
+	'oz'   		Fluid ounce
+	'cup'  		Cup
+	'pt'   		Pint
+	'qt'   		Quart
+	'gal'  		Gallon
+	'l'    			Liter
+For metric units any of the following prefixes can be used:
+	'Y'  	yotta 		1E+24
+	'Z'  	zetta 		1E+21
+	'E'  	exa   		1E+18
+	'P'  	peta  		1E+15
+	'T'  	tera  		1E+12
+	'G'  	giga  		1E+09
+	'M'  	mega  		1E+06
+	'k'  	kilo  		1E+03
+	'h'  	hecto 		1E+02
+	'e'  	deca (deka)	1E+01
+	'd'  	deci  		1E-01
+	'c'  	centi 		1E-02
+	'm'  	milli 		1E-03
+	'u'  	micro 		1E-06
+	'n'  	nano  		1E-09
+	'p'  	pico  		1E-12
+	'f'  	femto 		1E-15
+	'a'  	atto  		1E-18
+	'z'  	zepto 		1E-21
+	'y'  	yocto 		1E-24
+This function is Excel compatible (except "picapt").
+DEC2BIN:binary representation of the decimal number @{x}
+If @{places} is given, DEC2BIN pads the result with zeros to achieve exactly @{places} digits. If this is not possible, DEC2BIN returns #NUM!
+DEC2OCT:octal representation of the decimal number @{x}
+If @{places} is given, DEC2OCT pads the result with zeros to achieve exactly @{places} digits. If this is not possible, DEC2OCT returns #NUM!
+DEC2HEX:hexadecimal representation of the decimal number @{x}
+If @{places} is given, DEC2HEX pads the result with zeros to achieve exactly @{places} digits. If this is not possible, DEC2HEX returns #NUM!
+DECIMAL:decimal representation of @{x}
+base:base of @{x}, (2 
+ @{base} 
+ 36)
+DELTA:Kronecker delta function
+DELTA  returns 1 if  @{x1} = @{x0} and 0 otherwise.
+If either argument is non-numeric, #VALUE! is returned.
+lower:lower limit of the integral, defaults to 0
+upper:upper limit of the integral
+ERF returns 2/sqrt(
+)* integral from @{lower} to @{upper} of exp(-t*t) dt
+This function is Excel compatible if two arguments are supplied and neither is negative.
+ERFC:Complementary Gauss error function
+ERFC returns 2/sqrt(
+)* integral from @{x} to 
+ of exp(-t*t) dt
+GESTEP:step function with step at @{x1} evaluated at @{x0}
+GESTEP returns 1 if  @{x1} 
+ @{x0} and 0 otherwise.
+HEX2BIN:binary representation of the hexadecimal number @{x}
+x:a hexadecimal number, either as a string or as a number if no A to F are needed
+If @{places} is given, HEX2BIN pads the result with zeros to achieve exactly @{places} digits. If this is not possible, HEX2BIN returns #NUM!
+HEX2DEC:decimal representation of the hexadecimal number @{x}
+HEX2OCT:octal representation of the hexadecimal number @{x}
+If @{places} is given, HEX2OCT pads the result with zeros to achieve exactly @{places} digits. If this is not possible, HEX2OCT returns #NUM!
+INVSUMINV:the reciprocal of the sum of reciprocals of the arguments
+If any of the arguments is negative, #VALUE! is returned.
+If any argument is zero, the result is zero.
+INVSUMINV sum calculates the reciprocal (the inverse) of the sum of reciprocals (inverses) of all its arguments.
+OCT2BIN:binary representation of the octal number @{x}
+x:a octal number, either as a string or as a number
+If @{places} is given, OCT2BIN pads the result with zeros to achieve exactly @{places} digits. If this is not possible, OCT2BIN returns #NUM!
+OCT2DEC:decimal representation of the octal number @{x}
+OCT2HEX:hexadecimal representation of the octal number @{x}
+If @{places} is given, OCT2HEX pads the result with zeros to achieve exactly @{places} digits. If this is not possible, OCT2HEX returns #NUM!
+munG
+val_to_base
+fffff
+mBV0
+Y@s/
+MbP?Z0
+q=k/
+]r2<e0
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUU
+UUUUUUu?n0
+UUUUUUU?~0
+/y1t?
+xV42?
+yp\D?
+b?Z0
+plugin.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

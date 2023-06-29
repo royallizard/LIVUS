@@ -1,0 +1,219 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+boot_PerlIO__encoding
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+Perl_get_sv
+Perl_Icurstackinfo_ptr
+Perl_Icurstack_ptr
+Perl_Istack_max_ptr
+Perl_Imarkstack_ptr
+Perl_get_cv
+Perl_Imarkstack_max_ptr
+Perl_call_pv
+Perl_sv_setsv_flags
+PerlIO_encode
+PerlIO_define_layer
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_sv_2pv_flags
+Perl_die
+Perl_Istderrgv_ptr
+Perl_PerlIO_stderr
+PerlIO_printf
+Perl_my_exit
+Perl_croak_nocontext
+Perl_new_stackinfo
+Perl_push_scope
+Perl_Idebug_ptr
+Perl_newSVpvn
+Perl_load_module_nocontext
+Perl_pop_scope
+Perl_markstack_grow
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_deb
+Perl_vstringify
+Perl_croak
+PerlIOEncode_dup
+PerlIOBase_dup
+PerlIO_sv_dup
+PerlIOEncode_tell
+Perl_PerlIO_flush
+Perl_PerlIO_tell
+PerlIOEncode_close
+PerlIOBase_close
+Perl_sv_free
+Perl_sv_free2
+PerlIOEncode_popped
+PerlIOEncode_flush
+Perl_PerlIO_unread
+Perl_Itmps_floor_ptr
+Perl_save_int
+Perl_Itmps_ix_ptr
+Perl_call_method
+Perl_PerlIO_write
+Perl_sv_newmortal
+Perl_sv_upgrade
+Perl_stack_grow
+Perl_free_tmps
+PerlIOEncode_write
+PerlIOBuf_write
+PerlIOEncode_get_base
+Perl_sv_grow
+Perl_warn
+abort
+Perl_newSV
+Perl_sv_setpvn
+PerlIOEncode_fill
+PerlIO_fast_gets
+Perl_PerlIO_get_cnt
+Perl_PerlIO_get_ptr
+Perl_sv_catpvn_flags
+Perl_PerlIO_set_ptrcnt
+Perl_safesysfree
+Perl_sv_2pvutf8
+Perl_PerlIO_fill
+Perl_PerlIO_error
+PerlIO_modestr
+PerlIO_perlio
+PerlIO_push
+Perl_PerlIO_eof
+PerlIOEncode_pushed
+PerlIOBuf_pushed
+Perl_warner
+__errno_location
+Perl_newSVsv
+Perl_Ierrgv_ptr
+Perl_sv_2bool
+PerlIOEncode_getarg
+Perl_Isv_undef_ptr
+PerlIOBuf_open
+PerlIOBase_fileno
+PerlIOBuf_read
+PerlIOBuf_unread
+PerlIOBuf_seek
+PerlIOBase_eof
+PerlIOBase_error
+PerlIOBase_clearerr
+PerlIOBase_setlinebuf
+PerlIOBuf_bufsiz
+PerlIOBuf_get_ptr
+PerlIOBuf_get_cnt
+PerlIOBuf_set_ptrcnt
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+\[^_]
+t	;F
+[^_]
+[^_]
+L[^_]
+L[^_]
+[^_]
+[^_]
+,[^_]
+l[^_]
+H 9M
+<[^_]
+,[^_]
+XS_VERSION
+%s::%s
+0.10
+version
+bootstrap parameter
+PerlIO::encoding::fallback
+Encode::PERLQQ
+encoding.xs
+ENTER
+%s scope %ld at %s:%d
+Encode
+LEAVE
+%s did not return a value
+panic: POPSTACK
+Close with partial character
+encode
+ ptr %p(%p)%p
+decode
+Encode::find_encoding
+Cannot find encoding "%-p"
+renew
+needs_lines
+name
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "encoding.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV
+Assertion %s failed: file "encoding.xs", line %d
+((((shplep)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV))
+Cannot tell at partial character
+((svtype)((e->dataSV)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((e->dataSV)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((e->dataSV)->sv_flags & 0xff)) != SVt_PVHV
+!((((e->dataSV)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((e->dataSV)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((e->dataSV)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((e->bufsv)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((e->bufsv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((e->bufsv)->sv_flags & 0xff)) != SVt_PVHV
+!((((e->bufsv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((e->bufsv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((e->bufsv)->sv_flags & 0xff)) == SVt_PVLV))
+panic: encode did not return a value
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((str)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((str)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((str)->sv_flags & 0xff)) != SVt_PVHV
+!((((str)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((str)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((str)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((str)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (str); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 475), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 475), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 475), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 475), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 475), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 475), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+panic: cannot push :perlio for %p
+!((e->dataSV)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (e->dataSV); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 329), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 329), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 329), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 329), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 329), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "encoding.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 329), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+panic: decode did not return a value
+Encode::find_encoding did not return a value
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+"%-p" does not support renew method
+"%-p" does not support needs_lines
+encoding.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

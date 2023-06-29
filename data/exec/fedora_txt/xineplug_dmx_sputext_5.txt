@@ -1,0 +1,263 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+calloc
+dcgettext
+free
+__ctype_b_loc
+strlen
+strncpy
+_x_demux_flush_engine
+_x_demux_control_newpts
+_x_demux_control_start
+_x_stream_info_set
+strchr
+memcpy
+memmove
+xine_log
+sscanf
+__ctype_toupper_loc
+__strncat_chk
+strcasestr
+__strcpy_chk
+__strdup
+__strndup
+strstr
+strncasecmp
+strcasecmp
+realloc
+__sprintf_chk
+__strcat_chk
+strrchr
+strtol
+xine_plugin_info
+libxine.so.1
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+xineplug_dmx_sputext.so
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.1
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.0
+UWVS
+,[^_]
+,[^_]
+T$,1
++D$(
+T$ 1
+UWVS
+D$H1
+|$l1
+|$lf
+t$<tf
+[^_]
+|$D1
+L$l1
+D$xi
+UWVS
+< t$
+kT$|d
+iT$t@~
+iD$pp
+kT$ld
+[^_]
+UWVS
+[^_]
+ti<,
+|$*<"
+UWVS
+L$,e
+[^_]
+UWVS
+D$<1
+iD$l@~
+gfffi|$hp
+kD$dd
+i|$Xp
+iD$\@~
+kD$Td
+[^_]
+UWVS
+D$D1
+iT$|@~
+iD$xp
+kT$td
+iT$l@~
+iD$hp
+kT$dd
+[^_]
+t)<|
+UWVS
+t$Ce
+|$C{u
+iD$<@~
+iT$8p
+kD$4d
+gfff
+D$C<}te<
+[^_]
+UWVS
+T$8e
+|$<d
+[^_]
+L$81
+D$H+D$@9D$<
+UWVS
+[^_]
+[^_]
+UWVS
+iD$\@~
+iT$Xp
+iL$Lp
+kD$Td
+iT$P@~
+kT$Hd
+D$,1
+|$<f
+[^_]
+UWVS
+D$ 1
+D$41
+[^_]
+UWVS
+D$ 1
+iD$D@~
+iT$@p
+kD$<d
+D$J<
+[^_]
+UWVS
+D$H1
+gfffi
+[^_]
+UWVS
+D$,e
+T$J1
+|$<f
+D$<u+
+[^_]
+UWVS
+D$*<
+D$*<
+[^_]
+UWVS
+l$C1
+gfff
+gfff
+[^_]
+sputext demuxer plugin
+sputext
+asc txt sub srt smi ssa
+libxine1
+subtitles.separate.timeout
+read failed.
+@%u @%u %1000[^
+%*d:%*d:%d
+%*d:%*d:%*d.%d
+%s %1000[^
+Too many lines in a subtitle
+%ld,%ld,
+%f %f
+>%s<
+%d:%d:%d.%d,%d:%d:%d.%d
+%d:%d:%d,%d,%d:%d:%d,%d
+[br]
+{T %d:%d:%d:%d
+seek failed.
+{%d}{}
+{%d}{%d}
+<SAMI>
+%d:%d:%d:
+<window
+rt subtitle format detected
+Dialogue: Marked
+Dialogue: 
+ssa subtitle format detected
+%d,%d,"%c
+pjs subtitle format detected
+FORMAT=%d
+FORMAT=TIM%c
+-->>
+@%d @%d
+%d:%d:%d.%d %d:%d:%d.%d
+[%d:%d:%d]
+[%d][%d]
+Read %i subtitles
+, %i bad line(s).
+.asc
+.txt
+.sub
+.srt
+.smi
+.ssa
+doesn't use
+uses
+subtitle format %s time.
+[%ld][%ld]%[^
+<clear/>
+{%ld}{}%1000[^
+{%ld}{%ld}%1000[^
+-->> %ld
+Start=
+&nbsp;
+<br>
+Some subtitle formats do not explicitly give a duration for each subtitle. For these, you can set a default duration here. Setting to zero will result in the subtitle being shown until the next one takes over.
+default duration of subtitle display in seconds
+%u:%u:%u.%u %u:%u:%u.%u %1000[^
+Dialogue: Marked=%d,%d:%d:%d.%d,%d:%d:%d.%d,%[^
+Dialogue: %d,%d:%d:%d.%d,%d:%d:%d.%d,%[^
+%d:%d:%d%*[,.]%d --> %d:%d:%d%*[,.]%d
+Too many characters in a subtitle line
+microdvd subtitle format detected
+subrip subtitle format detected
+subviewer subtitle format detected
+sami subtitle format detected
+vplayer subtitle format detected
+mpsub subtitle format detected
+aqtitle subtitle format detected
+jacobsub subtitle format detected
+subviewer 2.0 subtitle format detected
+subrip 0.9 subtitle format detected
+mpl2 subtitle format detected
+Could not determine file format
+Detected subtitle file format: %d
+read %i subtitles, %i errors.
+<Time Begin="%d:%d:%d.%d" End="%d:%d:%d.%d"
+<%*[tT]ime %*[bB]egin="%d:%d" %*[Ee]nd="%d:%d"%*[^<]<clear/>%n
+<%*[tT]ime %*[bB]egin="%d:%d" %*[Ee]nd="%d:%d.%d"%*[^<]<clear/>%n
+<%*[tT]ime %*[bB]egin="%d:%d.%d" %*[Ee]nd="%d:%d.%d"%*[^<]<clear/>%n
+<%*[tT]ime %*[bB]egin="%d:%d:%d.%d" %*[Ee]nd="%d:%d:%d.%d"%*[^<]<clear/>%n
+xineplug_dmx_sputext.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

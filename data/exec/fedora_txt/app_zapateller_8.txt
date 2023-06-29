@@ -1,0 +1,84 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+strlen
+memcpy
+ast_app_separate_args
+strcasecmp
+pbx_builtin_setvar_helper
+ast_stopstream
+ast_safe_sleep
+ast_tonepair
+ast_answer
+__stack_chk_fail
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+AWE1
+AVAUI
+ATSH
+[A\A]A^A_
+answer
+nocallerid
+NOTHING
+ZAPATELLERSTATUS
+ANSWERED
+ZAPPED
+app_zapateller.c
+$Revision: 94806 $
+app_zapateller
+Zapateller
+Block telemarketers with SIT
+Block Telemarketers with Special Information Tone
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  Zapateller(options):  Generates special information tone to block
+telemarketers from calling you.  Options is a pipe-delimited list of
+options.  The following options are available:
+    'answer'     - causes the line to be answered before playing the tone,
+    'nocallerid' - causes Zapateller to only play the tone if there is no
+                   callerid information available.  Options should be
+                   separated by , characters
+  This application will set the following channel variable upon completion:
+    ZAPATELLERSTATUS - This will contain the last action accomplished by the
+                        Zapateller application. Possible values include:
+                        NOTHING | ANSWERED | ZAPPED
+a9c98e5d177805051735cb5b0b16b0a0
+app_zapateller.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

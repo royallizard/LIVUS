@@ -1,0 +1,256 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_type_class_peek_parent
+g_type_class_add_private
+g_param_spec_string
+g_object_class_install_property
+g_param_spec_int
+gst_poll_set_flushing
+g_thread_join
+gst_poll_remove_fd
+close
+gst_poll_free
+g_free
+__errno_location
+__gst_debug_min
+gst_debug_log
+gst_clock_get_internal_time
+gst_poll_wait
+g_strerror
+gst_net_time_packet_new
+gst_net_time_packet_send
+gst_poll_fd_can_read
+gst_net_time_packet_receive
+gst_clock_add_observation
+g_mutex_lock
+g_mutex_unlock
+g_type_name
+g_value_get_int
+g_value_get_string
+g_strdup
+g_value_set_int
+g_value_set_string
+gst_net_client_clock_get_type
+g_once_init_enter
+g_intern_static_string
+gst_system_clock_get_type
+gst_type_register_static_full
+g_once_init_leave
+_gst_debug_category_new
+g_type_instance_get_private
+gst_net_client_clock_new
+g_return_if_fail_warning
+g_object_new
+gst_clock_set_calibration
+gst_clock_get_time
+gst_poll_new
+gst_object_unref
+socket
+getsockname
+inet_aton
+g_malloc
+gst_poll_add_fd
+gst_poll_fd_ctl_read
+g_thread_try_new
+g_error_free
+g_malloc0
+gst_net_time_packet_serialize
+recvfrom
+GST_CAT_DEFAULT
+sendto
+gst_clock_get_type
+g_param_spec_object
+g_param_spec_boolean
+g_value_get_boolean
+g_value_get_object
+gst_object_replace
+g_value_set_boolean
+g_value_set_object
+gst_net_time_provider_get_type
+gst_object_get_type
+gst_net_time_provider_new
+g_type_check_instance_is_a
+setsockopt
+bind
+g_object_notify
+libgstreamer-0.10.so.0
+libxml2.so.2
+libm.so.6
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+libdl.so.2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+libgstnet-0.10.so.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+[^_]
+;T$L
+|$H9
+|$P!
+;D$L
+D$~f
+D$h!
+D$~f
+;T$H
+T$(1
+T$$1
+L$ 1
+UWVS
+D$l1
+|$le3=
+|[^_]
+D$P1
+D$T1
+D$NvMf
+D$<e
+D$\1
+L$\e3
+UWVS
+D$l1
+D$@f
+T$le3
+|[^_]
+T$(1
+T$$1
+L$ 1
+UWVS
+D$\1
+L$\e3
+l[^_]
+D$T1
+T$Pf
+l$Pf
+D$Nf
+;F,t
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+127.0.0.1
+address
+port
+doing select
+gstnetclientclock.c
+select returned %d
+select error %d: %s (%d)
+stop
+timed out
+got packet back
+local_1 = %u:%02u:%02u.%09u
+remote = %u:%02u:%02u.%09u
+local_2 = %u:%02u:%02u.%09u
+shutting down
+receive error
+property
+GstNetClientClock
+Network client clock
+netclock
+remote_address != NULL
+remote_port > 0
+remote_port <= G_MAXUINT16
+self->address != NULL
+self->servaddr == NULL
+socket opened on UDP port %hd
+will communicate with %s:%d
+socket failed %d: %s (%d)
+inet_aton failed %d: %s (%d)
+could not create thread: %s
+The address of the machine providing a time server, as a dotted quad (x.x.x.x)
+The port on which the remote server is listening
+sending packet, local time = %u:%02u:%02u.%09u
+time packet receive time < send time (%u:%02u:%02u.%09u < %u:%02u:%02u.%09u)
+unhandled select return state?
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+base_time != GST_CLOCK_TIME_NONE
+unable to set the base time, expect sync problems!
+getsockname failed %d: %s (%d)
+could not create an fdset: %s (%d)
+gst_net_client_clock_observe_times
+gst_net_client_clock_do_select
+gst_net_client_clock_thread
+gst_net_client_clock_start
+gst_net_client_clock_start
+gst_net_client_clock_new
+gst_net_client_clock_new
+MbP?
+?(knN
+_receive error %d: %s (%d)
+gstnettimepacket.c
+packet != NULL
+someone sent us a short packet (%d < %d)
+gst_net_time_packet_send
+gst_net_time_packet_receive
+The port to receive the packets from, 0=allocate
+The address to bind on, as a dotted quad (x.x.x.x)
+The clock to export over the network
+TRUE if the clock will respond to queries over the network
+port >= 0 && port <= G_MAXUINT16
+invalid network address %s: %s (%d)
+0.0.0.0
+Active
+active
+gstnettimeprovider.c
+GstNetTimeProvider
+Network time provider
+nettime
+clock && GST_IS_CLOCK (clock)
+binding on port %d
+bound, on port %d
+notifying %d
+setsockopt failed %d: %s (%d)
+bind failed %d: %s (%d)
+gst_net_time_provider_thread
+gst_net_time_provider_start
+gst_net_time_provider_new
+gst_net_time_provider_new
+;*2$"
+libgstnet-0.10.so.0.30.0.debug
+7zXZ
+wG?C4
+)?Q}
+$Uaw
+$2 3U
+O`ZH
+C\e^r0
+Q}T6b$
+vSD{
+W,>C
+9k)#
+>zf@
+mi?{
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

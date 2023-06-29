@@ -1,0 +1,218 @@
+td0D
+tdDM
+)5gm
+{BL!
+,gm\W[w
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_ZN6SMTask15SuspendInternalEv
+_ZN6SMTask13GetLogContextEv
+_ZN3Job8SayFinalEv
+_ZN8SleepJob4DoneEv
+_ZN8SleepJob8ExitCodeEv
+_ZN8SleepJob21lftpMovesToBackgroundEv
+_ZN10SessionJob13GetConnectURLEv
+_ZNK10FileAccess13GetConnectURLEi
+_ZN3Job10GetCmdLineEv
+_ZN7xstring7get_tmpEv
+_ZN7xstring4nsetEPKci
+_ZN8SleepJob2DoEv
+_ZN3Job18FindDoneAwaitedJobEv
+_ZN6SMTask3nowE
+_ZN5Timer5ResetERK4Time
+_ZN6SMTask7_SetRefEPS_S0_
+_ZN3Job13RemoveWaitingEPKS_
+_ZNK5Timer7StoppedEv
+_ZN7CmdExec7FeedCmdEPKc
+_ZN3Job10AddWaitingEPS_
+_ZN6SMTask6DeleteEPS_
+_Znwj
+_ZN7CmdExecC1EP10FileAccessP14LocalDirectory
+_ZN3Job10AllocJobnoEv
+_ZN7xstring4vsetEz
+_ZN8SleepJobD2Ev
+_ZTV8SleepJob
+_ZN14LocalDirectoryD1Ev
+_ZdlPvj
+_Z5xfreePv
+_ZN5TimerD2Ev
+_ZTV10SessionJob
+_ZN11SessionPool5ReuseEP10FileAccess
+_ZN3JobD2Ev
+_ZN8SleepJobD1Ev
+_ZN8SleepJobD0Ev
+_ZN8SleepJobC2ERK12TimeIntervalP10FileAccessP14LocalDirectoryPc
+_ZN3JobC2Ev
+_ZN5TimerC2ERK12TimeInterval
+_ZN7xstring13set_allocatedEPc
+_ZN8SleepJobC1ERK12TimeIntervalP10FileAccessP14LocalDirectoryPc
+_Z9cmd_sleepP7CmdExec
+_ZN10time_tuple9normalizeEv
+_ZN13TimeIntervalR4initEPKc
+gettext
+_ZN3Job7eprintfEPKcz
+_Z10cmd_repeatP7CmdExec
+_ZN4ArgV4seekEi
+optarg
+_ZN4ArgV11getopt_longEPKcPK6optionPi
+strtol
+_ZNK4ArgV15CombineQuotedToER7xstringi
+_ZNK14LocalDirectory5CloneEv
+_ZN5Timer7re_sortEv
+_ZNK4ArgV9CombineToER7xstringii
+_ZN4ArgV7getnextEv
+_Z6cmd_atP7CmdExec
+_ZN7xstring6appendEc
+_ZN7xstring6appendEPKc
+parse_datetime
+_ZN10time_tuple4addUEli
+_ZN8SleepJob6StatusEv
+_ZNK5Timer8TimeLeftEv
+_ZNK8TimeDiff7SecondsEv
+_ZN12TimeInterval8toStringEj
+_ZN7xstring3catEPKcz
+_ZN8SleepJob12FormatStatusER7xstringiPKc
+_ZN7xstring7appendfEPKcz
+_ZN8SleepJob13ShowRunStatusERK9SMTaskRefI10StatusLineE
+_ZN3Job13ShowRunStatusERK9SMTaskRefI10StatusLineE
+_ZN10StatusLine4ShowEPKcz
+_ZN6SMTask5blockE
+_ZN7PollVec11AddTimeoutUEj
+module_init
+_ZN7CmdExec15RegisterCommandEPKcPFP3JobPS_ES1_S1_
+_ZN6SMTask14ResumeInternalEv
+_ZN3Job12PrepareToDieEv
+_ZN3Job17FormatShortStatusER7xstring
+_ZN3Job9AcceptSigEi
+_ZN10SessionJob2BgEv
+_ZN10SessionJob2FgEv
+_ZN3Job10FormatJobsER7xstringii
+_ZN3Job12top_vfprintfEP8_IO_FILEPKcPc
+_ZN3Job13GetBytesCountEv
+_ZN3Job12GetTimeSpentEv
+_ZN3Job15GetTransferRateEv
+libutil.so.1
+libtinfo.so.6
+libresolv.so.2
+libdl.so.2
+libstdc++.so.6
+libm.so.6
+libc.so.6
+__stack_chk_fail
+libgcc_s.so.1
+_edata
+__bss_start
+_end
+cmd-sleep.so
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+CXXABI_1.3.9
+GLIBCXX_3.4
+UWVS
+[^_]
+[^_]
+t$(P
+UWVS
+D$,1
+|$(W
+L$,e3
+<[^_]
+UPV1
+UWVS
+D$<1
+D$(P
+T$<e3
+L[^_]
+<$VU
+t$4P
+t$$PV
+UWVS
+D$L1
+t$41
+D$(P
+D$0P
+D$8P
+D$XPV
+T$Le3
+\[^_]
+D$0P
+D$8P
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+XZh@B
+%s: argument required. 
+%s: %s: %s. 
++c:d:
+%s: %s: %s.
+%s: date-time parse error
+Sleeping forever
+Sleep time left: 
+	Repeat count: %d
+sleep
+repeat
+delay
+count
+while-ok
+until-ok
+weak
+Try `help %s' for more information.
+%s: date-time specification missed
+Usage: sleep <time>[unit]
+Sleep for given amount of time. The time argument can be optionally
+followed by unit specifier: d - days, h - hours, m - minutes, s - seconds.
+By default time is assumed to be seconds.
+Repeat specified command with a delay between iterations.
+Default delay is one second, default command is empty.
+ -c <count>  maximum number of iterations
+ -d <delay>  delay between iterations
+ --while-ok  stop when command exits with non-zero code
+ --until-ok  stop when command exits with zero code
+ --weak      stop when lftp moves to background.
+9*2$"
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+cmd-sleep.so-4.8.4-1.fc29.i386.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rel.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

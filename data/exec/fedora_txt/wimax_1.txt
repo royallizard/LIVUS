@@ -1,0 +1,7200 @@
++\@`
+(F\,$hc
+A&Br
+Uq&QY>
+P&"0
+';}6S
+2~2T
+e[.g4
+=7Y '
+;]_3
+,yy[
+!Q/I
+6=3L
+H:L(
+V16P
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+plugin_reg_handoff
+proto_reg_handoff_wimax
+__stack_chk_fail
+plugin_register
+proto_register_wimax
+version
+global_cid_max_basic
+dissector_delete
+include_cor2_changes
+dissector_add
+proto_wimax
+create_dissector_handle
+check_col
+col_clear
+col_set_str
+is_down_link
+bs_address
+proto_reg_wimax
+find_dissector
+register_dissector
+proto_register_protocol
+proto_register_subtree_array
+proto_register_wimax_cdma
+proto_register_wimax_fch
+proto_register_wimax_pdu
+proto_register_wimax_ffb
+proto_register_wimax_hack
+proto_register_wimax_harq_map
+proto_register_wimax_phy_attributes
+proto_register_wimax_compact_dlmap_ie
+proto_register_wimax_compact_ulmap_ie
+prefs_register_protocol
+prefs_register_uint_preference
+prefs_register_bool_preference
+prefs_register_obsolete_preference
+register_dissector_table
+ett_tlv
+add_protocol_subtree
+get_tlv_value_offset
+get_tlv_length
+get_tlv_size_of_length
+get_tlv_type
+se_strdup_vprintf
+proto_tree_add_protocol_format
+proto_item_add_subtree
+proto_tree_add_text
+tvb_get_ntohl
+tvb_get_ntohs
+tvb_get_ntoh24
+tvb_get_guint8
+add_tlv_subtree
+proto_tree_add_item
+arq_enabled
+scheduling_service_type
+mac_sdu_length
+man_ofdma
+proto_register_field_array
+tvb_reported_length
+col_append_sep_str
+g_malloc
+memcpy
+proto_register_mac_header_generic
+proto_register_mac_header_type_1
+proto_register_mac_header_type_2
+wimax_mac_gen_crc32_table
+wimax_mac_gen_crc8_table
+first_gmh
+tvb_reported_length_remaining
+tvb_get_ptr
+wimax_mac_calc_crc8
+proto_item_append_text
+tvb_new_subset
+dissect_mac_header_type_2_decoder
+dissector_wimax_harq_map_decoder
+wimax_decode_dlmapc
+dissect_mac_header_type_1_decoder
+wimax_decode_dlmap_reduced_aas
+dissect_mac_header_generic_decoder
+proto_mac_header_generic_decoder
+proto_tree_get_parent
+wimax_mac_calc_crc32
+g_realloc
+fragment_add_seq
+get_service_type
+cid_padding
+cid_aas_ranging
+cid_normal_multicast
+dissect_mac_mgmt_msg_decoder
+tvb_new_real_data
+tvb_set_child_real_data_tvbuff
+add_new_data_source
+call_dissector
+proto_register_mac_mgmt_msg
+wimax_defragment_init
+register_init_routine
+fragment_table_init
+g_free
+seen_a_service_type
+max_logical_bands
+init_wimax_globals
+cid_initial_ranging
+cid_max_primary
+cid_sleep_multicast
+cid_idle_multicast
+cid_frag_broadcast
+cid_broadcast
+DL_EXT_SUBHEADER
+UL_EXT_SUBHEADER
+SCHEDULE_SERVICE_TYPE
+TYPE_I_SUBTYPE
+TYPE_II_FB_TYPE
+mgt_msg_abbrv
+col_append_str
+dissect_mac_mgmt_msg_dsd_rsp_decoder
+dissect_mac_mgmt_msg_prc_lt_ctrl_decoder
+dissect_mac_mgmt_msg_pmc_rsp_decoder
+dissect_mac_mgmt_msg_pmc_req_decoder
+dissect_mac_mgmt_msg_dsc_rsp_decoder
+dissect_mac_mgmt_msg_dsc_req_decoder
+dissect_mac_mgmt_msg_dreg_req_decoder
+dissect_mac_mgmt_msg_arq_feedback_decoder
+dissect_mac_mgmt_msg_reg_req_decoder
+dissect_mac_mgmt_msg_rng_rsp_decoder
+dissect_mac_mgmt_msg_res_cmd_decoder
+dissect_mac_mgmt_msg_dsa_req_decoder
+dissect_mac_mgmt_msg_pkm_rsp_decoder
+dissect_mac_mgmt_msg_aas_fbck_rsp_decoder
+dissect_mac_mgmt_msg_dreg_cmd_decoder
+dissect_mac_mgmt_msg_dlmap_decoder
+dissect_mac_mgmt_msg_dcd_decoder
+dissect_mac_mgmt_msg_rep_rsp_decoder
+dissect_mac_mgmt_msg_dsd_req_decoder
+dissect_mac_mgmt_msg_dsa_ack_decoder
+dissect_mac_mgmt_msg_dsa_rsp_decoder
+dissect_mac_mgmt_msg_dsx_rvd_decoder
+dissect_mac_mgmt_msg_rng_req_decoder
+dissect_mac_mgmt_msg_ulmap_decoder
+dissect_mac_mgmt_msg_pkm_req_decoder
+dissect_mac_mgmt_msg_reg_rsp_decoder
+dissect_mac_mgmt_msg_sbc_rsp_decoder
+dissect_mac_mgmt_msg_sbc_req_decoder
+dissect_mac_mgmt_msg_ucd_decoder
+dissect_mac_mgmt_msg_arq_reset_decoder
+dissect_mac_mgmt_msg_dsc_ack_decoder
+dissect_mac_mgmt_msg_clk_cmp_decoder
+dissect_mac_mgmt_msg_aas_fbck_req_decoder
+dissect_mac_mgmt_msg_rep_req_decoder
+dissect_mac_mgmt_msg_aas_beam_select_decoder
+dissect_mac_mgmt_msg_fpc_decoder
+dissect_mac_mgmt_msg_arq_discard_decoder
+proto_register_mac_mgmt_msg_dcd
+proto_register_mac_mgmt_msg_ucd
+proto_register_mac_mgmt_msg_dlmap
+proto_register_mac_mgmt_msg_ulmap
+proto_register_mac_mgmt_msg_rng_req
+proto_register_mac_mgmt_msg_rng_rsp
+proto_register_mac_mgmt_msg_reg_req
+proto_register_mac_mgmt_msg_reg_rsp
+proto_register_mac_mgmt_msg_dsa
+proto_register_mac_mgmt_msg_dsc
+proto_register_mac_mgmt_msg_dsd
+proto_register_mac_mgmt_msg_arq_feedback
+proto_register_mac_mgmt_msg_arq_discard
+proto_register_mac_mgmt_msg_arq_reset
+proto_register_mac_mgmt_msg_dreg_req
+proto_register_mac_mgmt_msg_dreg_cmd
+proto_register_mac_mgmt_msg_fpc
+proto_register_mac_mgmt_msg_sbc
+proto_register_mac_mgmt_msg_pkm
+proto_register_mac_mgmt_msg_pmc_req
+proto_register_mac_mgmt_msg_pmc_rsp
+proto_register_mac_mgmt_msg_prc_lt_ctrl
+proto_register_mac_mgmt_msg_aas_fbck
+proto_register_mac_mgmt_msg_aas_beam
+proto_register_mac_mgmt_msg_res_cmd
+proto_register_mac_mgmt_msg_rep
+proto_register_mac_mgmt_msg_clk_cmp
+proto_register_mac_mgmt_msg_dsx_rvd
+proto_register_wimax_utility_decoders
+proto_mac_mgmt_msg_dcd_decoder
+init_tlv_info
+cqich_id_size
+UL_interference_and_noise_level_IE
+PUSC_ASCA_Alloc_IE
+DL_PUSC_Burst_Allocation_in_Other_Segment_IE
+Broadcast_Control_Pointer_IE
+PHYMOD_DL_IE
+HARQ_Map_Pointer_IE
+Data_location_in_another_BS_IE
+AAS_DL_IE
+STC_Zone_IE
+STC_Zone_Matrix
+STC_Zone_Dedicated_Pilots
+Channel_Measurement_IE
+Closed_loop_MIMO_DL_Enhanced_IE
+Enhanced_DL_MAP_IE
+INC_CID
+HARQ_ACK_IE
+Skip_IE
+Macro_MIMO_DL_Basic_IE
+MIMO_in_another_BS_IE
+HO_CID_Translation_MAP_IE
+HO_Active_Anchor_DL_MAP_IE
+HO_Anchor_Active_DL_MAP_IE
+MBS_MAP_IE
+Dedicated_MIMO_DL_Control_IE
+N_layer
+Dedicated_DL_Control_IE
+proto_mac_mgmt_msg_dlmap_decoder
+proto_tree_add_uint
+harq
+fusc
+tusc
+wimax_decode_ulmap_reduced_aas
+ir_type
+wimax_mac_calc_crc16
+CID_Switch_IE
+RCID_IE
+AAS_SDMA_DL_IE
+RCID_Type
+DL_HARQ_Chase_sub_burst_IE
+MIMO_DL_STC_HARQ_sub_burst_IE
+MIMO_DL_IR_HARQ_for_CC_sub_burst_IE
+MIMO_DL_IR_HARQ_sub_burst_IE
+MIMO_DL_Chase_HARQ_sub_burst_IE
+DL_HARQ_IR_CC_sub_burst_IE
+DL_HARQ_IR_CTC_sub_burst_IE
+HARQ_DL_MAP_IE
+dissect_dlmap_ie
+wimax_decode_sub_dl_ul_map
+dissect_ulmap_ie
+wimax_decode_ulmapc
+lshift_bits
+Feedback_Polling_IE
+HARQ_ACKCH_Region_Allocation_IE
+MIMO_UL_Enhanced_IE
+UL_sounding_command_IE
+Anchor_BS_switch_IE
+HO_Active_Anchor_UL_MAP_IE
+HO_Anchor_Active_UL_MAP_IE
+CQICH_Enhanced_Allocation_IE
+UL_Allocation_Start_IE
+Fast_Ranging_IE
+UL_PUSC_Burst_Allocation_in_other_segment_IE
+ULMAP_Fast_Tracking_IE
+MIMO_UL_IE
+PHYMOD_UL_IE
+UL_Zone_IE
+CQICH_Alloc_IE
+AAS_UL_IE
+Mini_Subchannel_allocation_IE
+Power_Control_IE
+Dedicated_MIMO_UL_Control_IE
+Dedicated_UL_Control_IE
+AAS_SDMA_UL_IE
+MIMO_UL_STC_HARQ_Sub_Burst_IE
+MIMO_UL_IR_HARQ_for_CC_Sub_Burst_UIE
+MIMO_UL_IR_HARQ__Sub_Burst_IE
+MIMO_UL_Chase_HARQ_Sub_Burst_IE
+UL_HARQ_IR_CC_Sub_Burst_IE
+UL_HARQ_IR_CTC_Sub_Burst_IE
+UL_HARQ_Chase_Sub_Burst_IE
+HARQ_ULMAP_IE
+dissect_power_saving_class
+proto_mac_mgmt_msg_rng_req_decoder
+wimax_short_hmac_tuple_decoder
+wimax_common_tlv_encoding_decoder
+proto_tree_add_float_format_value
+proto_tree_add_int_format_value
+wimax_service_flow_encodings_decoder
+proto_mac_mgmt_msg_reg_req_decoder
+dissect_extended_tlv
+wimax_hmac_tuple_decoder
+wimax_cmac_tuple_decoder
+proto_mac_mgmt_msg_dsa_decoder
+proto_mac_mgmt_msg_dsd_decoder
+val_to_str
+wimax_security_negotiation_parameters_decoder
+wimax_pkm_tlv_encoded_attributes_decoder
+proto_mac_mgmt_msg_aas_fbck_decoder
+wimax_compact_dlmap_ie_decoder
+wimax_compact_ulmap_ie_decoder
+wimax_extended_diuc_dependent_ie_decoder
+cid_type
+harq_mode
+band_amc_subchannel_type
+num_of_broadcast_symbols
+num_of_dl_band_amc_symbols
+num_of_ul_band_amc_symbols
+wimax_extended_uiuc_dependent_ie_decoder
+wimax_cdma_allocation_ie_decoder
+set_service_type
+wimax_sa_descriptor_decoder
+wimax_pkm_configuration_settings_decoder
+wimax_tek_parameters_decoder
+wimax_cryptographic_suite_list_decoder
+wimax_security_capabilities_decoder
+wimax_vendor_specific_information_decoder
+get_tlv_length_type
+wimax_error_parameter_set_decoder
+wimax_convengence_service_parameter_encoding_rules_decoder
+crc16_table
+libm.so.6
+libcrypto.so.7
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+wimax.so
+GLIBC_2.4
+GLIBC_2.2.5
+%z;&
+%r;&
+%j;&
+%b;&
+%Z;&
+%R;&
+%J;&
+%B;&
+%:;&
+%2;&
+%*;&
+%";&
+%z:&
+%r:&
+%j:&
+%b:&
+%Z:&
+%R:&
+%J:&
+%B:&
+%::&
+%2:&
+%*:&
+%":&
+%z9&
+%r9&
+%j9&
+%b9&
+%Z9&
+%R9&
+%J9&
+%B9&
+%:9&
+%29&
+%*9&
+%"9&
+%z8&
+%r8&
+%j8&
+%b8&
+%Z8&
+%R8&
+%J8&
+%B8&
+%:8&
+%28&
+%*8&
+%"8&
+%z7&
+%r7&
+%j7&
+%b7&
+%Z7&
+%R7&
+%J7&
+%B7&
+%:7&
+%27&
+%*7&
+%"7&
+%z6&
+%r6&
+%j6&
+%b6&
+%Z6&
+%R6&
+%J6&
+%B6&
+%:6&
+%26&
+%*6&
+%"6&
+%z5&
+%r5&
+%j5&
+%b5&
+%Z5&
+%R5&
+%J5&
+%B5&
+%:5&
+%25&
+%*5&
+%"5&
+%z4&
+%r4&
+%j4&
+%b4&
+%Z4&
+%R4&
+%J4&
+%B4&
+%:4&
+%24&
+ATSubH
+=x+&
+fffff.
+fff.
+5"&&
+=]&&
+AWAVE
+AUATUL
+T$X1
+D$@0
+D$D0
+D$HH
+t$$L
+|$(D
+D$8H
+@ Hc
+\$7A
+L$ I
+t$0H
+T$XdH3
+[]A\A]A^A_
+T$@1
+D$(H
+@ Hc
+|$(D)`
+\$7A
+\$(I
+T$@dH3
+t$$H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+=M5&
+5B5&
+=97&
+AWAVAUATI
+5}4&
+5s4&
+5D4&
+5(4&
+[]A\A]A^A_
+=}5&
+=-5&
+=19&
+AUATI
+5d4&
+5L4&
+544&
+5x3&
+A\A]A^1
+Hc~l
+HcUlH
+[]A\A]A^
+=[6&
+5d6&
+AWAVAUI
+ATE1
+D$01
+T$ f.
+D$0dH3
+8[]A\A]A^A_
+T$0dH3
+8[]A\A]A^A_
+532&
+D$0dH3
+5d1&
+=u1&
+5R1&
+=%1&
+=A2&
+5f0&
+5;0&
+ []A\
+AWAVAUI
+ATUH
+5l/&
+5S/&
+57/&
+[]A\A]A^A_
+=S3&
+AUATI
+5j/&
+5O/&
+54/&
+[]A\A]
+AVAUATUSH
+D$H1
+T$ L
+|$ 1
+5K0&
+T$ E1
+|$P1
+5(0&
+T$ E1
+|$P1
+T$ E1
+|$P1
+T$ E1
+|$PA
+T$ E1
+|$P1
+T$ E1
+|$P1
+T$ E1
+|$P1
+T$ E1
+|$P1
+5d/&
+T$ E1
+|$P1
+5H/&
+T$ E1
+|$P1
+5,/&
+T$ E1
+|$P1
+T$ E1
+|$P1
+T$ E1
+|$P1
+T$ E1
+|$PA
+T$ E1
+D$8H
+T$ L
+5E.&
+D$8H
+T$ E1
+|$HH
+;T$@
+\$@H
+[]A\A]A^A_H
+T$ H
+T$ H
+[]A\A]A^A_
+T$ H
+[]A\A]A^A_
+t$8E
+T$8E
+;D$Du
+5uj(
+5dj(
+=mj(
+=Kj(
+=3j(
+=Uk(
+|$ H
+=Sj(
+T$4L
+t$ H
+)D$8
+|$HH
+T$ H
+[]A\A]A^A_
+|$HH
+L$4L
+T$ H
+t$4H
+|$ H
+t$4H
+5G(&
+L$4%
+T$ H
+5#(&
+L$4H
+T$ E1
+|$PA
+L$4E1
+T$ H
+|$PA
+|$HH
+T$ L
+L$4H
+L$4H
+T$ E1
+|$PA
+L$4E1
+T$ A
+L$4H
+T$ E1
+5h&&
+L$4H
+T$ E1
+5L&&
+L$4H
+T$ E1
+50&&
+L$4H
+T$ E1
+L$4H
+T$ E1
+|$PA
+L$4E1
+T$ A
+L$4E1
+T$ A
+L$4E1
+T$ A
+L$4H
+T$ E1
+|$PA
+5C%&
+5e%&
+L$4H
+T$ E1
+|$HH
+D$8L
+L$4H
+T$ H
+L$4E1
+T$ A
+|$HH
+L$0H
+5;$&
+L$`f
+|$XE1
+|$XE1
+t$4H
+\$8I
+T$D;
+9D$Dv
+T$D;
+|$HH
+L$4L
+T$ H
+t$4H
+|$ H
+%*b(
+t$4H
+t$4H
+|$ %
+5#"&
+L$4%
+L$4H
+T$ E1
+L$4E1
+T$ A
+-\a(
++D$4D
+D$4)D$8
+L$4H
+5s &
+5% &
+L$4H
+T$ H
+D$DH
+t$4H
+t$4H
+|$ %
+L$4E1
+T$ A
+5g &
+L$4E1
+T$ A
+|$ H
+t$4H
+t$4H
+|$ %
+L$4%
+|$HH
+|$PL
+D$t%
+T$xH
+D9t$x
+|$HH
+T$8H
+L$4H
+L$4E1
+T$ A
+L$4E1
+T$ H
+|$PA
+L$0)
+|$PE1
+t$4H
+L$4%
+T$ H
+|$hH
+|$XE1
+|$HH
+|$PE1
+L$8L
+t$4H
+T$ H
+L$4E1
+T$ H
+|$PA
+L$4E1
+T$ H
+|$PA
+L$PH
+5%#&
+5r#&
+5L(&
+=u2&
+5m1&
+5S1&
+581&
+5 1&
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+5*0&
+5"/&
+5j.&
+5N.&
+5B.&
+5*.&
+fff.
+=5-&
+5r-&
+=I6&
+D$ 1
+5{5&
+5c5&
+5K5&
+D$ dH3
+5\4&
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+5Y4&
+5B4&
+5'4&
+D$ dH3
+D$ dH3
+\$(H
+l$0L
+d$81
+l$@L
+|$PH
+5x2&
+5U2&
+5:2&
+5f1&
+5K1&
+501&
+5|0&
+5a0&
+5F0&
+5+0&
+5}/&
+5b/&
+5?/&
+5$/&
+5	/&
+5b/&
+5G/&
+5,/&
+5k.&
+5P.&
+55.&
+5n-&
+5S-&
+50-&
+=m+&
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@E1
+t$HL
+|$P1
+5rC&
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+T$ dH3
+\$(H
+l$0H
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ dH3
+5d.&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5i-&
+D$ dH3
+5H-&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5i,&
+5M,&
+D$ dH3
+5,,&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5M+&
+51+&
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+51*&
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+5f)&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5k(&
+D$ dH3
+5J(&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5k'&
+5O'&
+D$ dH3
+5.'&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5O&&
+53&&
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+53%&
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+5h$&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5m#&
+D$ dH3
+5L#&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5m"&
+5Q"&
+D$ dH3
+50"&
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+5Q!&
+55!&
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+55 &
+D$ dH3
+\$(H
+l$0E1
+d$8L
+l$@1
+t$HL
+|$PH
+AWAVI
+AUATUSH
+t$01
+D$x1
+D$xdH3
+[]A\A]A^A_
+D$@H
+|$HE1
+|$HE1
+T$`A
+|$(D
+D$0H
+|$HD
+D$<vl
+L$<H
+T$HH
+L$<H
+T$<D
+D9d$@
+|$(M
+L$<H
+L$<E1
+T$<D
+D9d$@
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+t$<L
+L$<H
+|$(M
+L$<E1
+L$<E1
+|$PA
+D$<H
+|$(L
+|$(A
+T$0H
+D+D$<
+L$<H
+|$PE1
+L$<E1
+T$H1
+D$<H
+|$(L
+T$0H
+D+D$<
+L$<H
+|$XE1
+L$<H
+T$HD
+L$<H
+<$E1
+T$HE
+|$(1
+t$<L
+L$<E1
+L$<E1
+D9d$D
+L$<D
+T$H1
+L$<E1
+|$HA
+|$HA
+L$<E1
+|$HA
+|$(M
+L$<H
+L$<E1
+T$<D
+D9d$@
+|$(M
+L$<H
+|$(M
+L$<H
+T$H1
+L$<E1
+L$<E1
+L$<E1
+T$<D
+D9d$@
+|$(M
+L$<H
+|$(M
+L$<H
+L$<D
+T$H1
+T$<L
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+T$H1
+L$<E1
+L$<E1
+L$<E1
+L$<E1
+L$<H
+T$HD
+L$<H
+|$(M
+L$<H
+L$<E1
+T$<D
+D9d$@
+|$(M
+L$<H
+L$<H
+T$HD
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+L$<E1
+T$<D
+D9d$@
+L$<H
+T$HD
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+|$(M
+L$<H
+D$<H
+|$(E
+T$XE
+T$XA
+T$PA
+T$PA
+D$<H
+T$PM
+|$(M
+L$<H
+fffff.
+AWAVAUI
+ATUSH
+t$01
+D$h1
+5{ &
+5l &
+|$@L
+T$PA
+|$(D
+D$0H
+|$@D
+D$hdH3
+x[]A\A]A^A_
+|$@L
+D9d$<
+|$(E
+T$@M
+|$@L
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+D9d$<
+|$(E
+T$@1
+D9d$<
+T$@H
+|$(E
+|$(E
+T$@1
+T$@H
+|$(E
+|$(E
+T$@M
+|$(E
+T$@1
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+T$@H
+|$(M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+D9d$<
+T$@H
+|$(M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+D9d$<
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@1
+T$@H
+|$(E
+|$(E
+T$@M
+|$(E
+T$@M
+|$(E
+T$@M
+T$@H
+|$(E
+|$(E
+T$@1
+T$@H
+|$(M
+|$(E
+T$@M
+D9d$<
+|$(E
+T$@M
+|$(E
+T$@M
+T$@H
+|$(E
+|$HE1
+T$HH
+|$(M
+D$8A
+|$(B
+T$HH
+T$0H
+|$HE)
+fff.
+AWAVM
+5g"&
+[]A\A]A^A_
+AWAVM
+l$-S
+T$'L
+T$:L
+T$<L
+[]A\A]A^A_
+fffff.
+AWAVM
+l$-S
+T$#L
+T$%L
+T$(L
+T$2L
+l$EE
+T$6L
+T$<L
+T$DL
+T$RL
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVM
+[]A\A]A^A_
+ffff.
+AVAUA
+[]A\A]A^A_
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AWAVA
+AUATM
+[]A\A]A^A_
+AUATI
+D$ 1
+T$ dH3
+([]A\A]A^A_
+AVAUM
+D$ 1
+T$ dH3
+([]A\A]A^A_
+fffff.
+AWAVM
+[]A\A]A^A_
+ffff.
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AWAVAUI
+D$ 1
+T$ dH3
+([]A\A]A^A_
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AWAVM
+[A\A]A^A_
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D$01
+|$ L
+|$ L
+|$ L
+T$0dH3
+8[]A\A]A^A_
+|$ L
+|$ L
+|$ L
+AWAVA
+ATUA
+D$01
+T$0dH3
+8[]A\A]A^A_
+D$$t	H
+|$$D
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+AVAUATUSH
+D$01
+L$ 1
+L$$1
+T$0dH3
+8[]A\A]A^A_
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fffff.
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+AVAUA
+D$@1
+D$$A
+L$$L
+T$$E
+|$(D
+T$%L
+L$(E
+D$49D$(
+l$	A
+L$,1
+D$49D$(
+T$09T$$
+L$@dH3
+H[]A\A]A^A_
+AVAUA
+D$01
+HcD$
+D$$9D$
+L$ L
+D$$9D$
+D+d$
+T$0dH3
+8[]A\A]A^A_
+ffff.
+AWAVAUI
+D$01
+D$ 9D$$
+D$ 9D$$
+T$0dH3
+8[]A\A]A^A_
+AVAUATA
+D$01
+HcT$
+T$	L
+T$ 9T$$
+D+d$
+T$0dH3
+8[]A\A]A^A_
+ATUD
+D$01
+T$ 9T$$
+D+l$
+T$0dH3
+8[]A\A]A^A_
+AWAVM
+AUATA
+D$ 1
+T$	L
+D+d$
+T$ dH3
+([]A\A]A^A_
+AWAVA
+ATUH
+D$01
+HcT$
+D$ 9D$$
+D$ 9D$$
+D+l$
+T$0dH3
+8[]A\A]A^A_
+AWAVA
+D$01
+HcT$
+f	D$
+D$ 9D$$
+D$ 9D$$
+D+l$
+T$0dH3
+8[]A\A]A^A_
+AUATA
+D$01
+T$ I
+|$ L
+IT$ 
+L$ L
+L$ L
+L$ L
+L$$H
+L$$H
+T$0dH3
+8[]A\A]A^A_
+L$$H
+L$$H
+L$$H
+L$$H
+L$$H
+AVAUATUSH
+D$01
+5rJ%
+|$ E
+|$ A
+5lG%
+|$ A
+5PG%
+|$ A
+56G%
+|$ A
+|$ A
+|$ A
+|$ A
+\$0dH3
+8[]A\A]A^A_
+|$ L
+AWAVI
+AUATUSH
+D$ 1
+5w@%
+5C@%
+5N?%
+55?%
+T$ dH3
+([]A\A]A^A_
+5t=%
+AWAVI
+AUATUSH
+D$ 1
+5c<%
+5Y<%
+5;<%
+D$ dH3
+([]A\A]A^A_
+D$ dH3
+[]A\A]A^A_
+AWAVAUATUH
+D$01
+5e9%
+5J9%
+5/9%
+T$$9
+5u8%
+T$0dH3
+8[]A\A]A^A_
+T$$H
+5k7%
+5o7%
+=&H%
+~*E1
+ATUSH
+D$@1
+T$ A
+L$(1
+L$,1
+L$01
+D$ A
+t$ L
+IT$ 
+\$$E
+L$(E
+D$,E
+T$@dH3
+H[]A\A]A^A_
+AWAVM
+AUATA
+D9<$
+D9<$
+[]A\A]A^A_
+AVAUM
+502%
+[]A\A]A^A_
+fff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AVAUI
+D$@1
+5r-%
+D$(9D$
+D$0A
+L$0L
+L$@dH3
+H[]A\A]A^A_
+|$4D
+D$$9D$4
+T$ 9T$
+T$,9T$0
+AVAUI
+D$ 1
+T$ dH3
+([]A\A]A^A_
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AVAUI
+ATUS
+D$ 1
+T$ dH3
+([]A\A]A^A_
+AVAUM
+[]A\A]A^
+fff.
+AWAVM
+[]A\A]A^A_
+AWAVAUM
+[]A\A]A^A_
+AWAVAUM
+ATUH
+D)|$
+[]A\A]A^A_
+fff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVM
+[]A\A]A^A_
+ffff.
+AWAVM
+D$ 1
+T$ dH3
+([]A\A]A^A_
+fffff.
+AWAVM
+D$01
+T$0dH3
+8[]A\A]A^A_
+|$$D
+D$$E
+D)d$
+D)d$ 
+L$ L
+AVAUM
+[]A\A]A^A_
+AWAVM
+AUATUH
+D$ 1
+D9d$
+T$ dH3
+([]A\A]A^A_
+AVAUI
+[]A\A]A^A_
+AVAUM
+[]A\A]A^
+AWAVM
+[]A\A]A^A_
+ffffff.
+fffff.
+AWAVI
+D$01
+D$$9D$
+T$	L
+D$$9D$
+T$ 9T$
+L$0dH3
+8[]A\A]A^A_
+AWAVA
+D$ 1
+T$	L
+u.D)
+T$ dH3
+([]A\A]A^A_
+AWAVA
+D$ 1
+T$ dH3
+([]A\A]A^A_
+AWAVM
+D$ 1
+T$ dH3
+([]A\A]A^A_
+AVAUM
+D$ 1
+T$ dH3
+([]A\A]A^A_
+ATUSH
+D$ 1
+u.D+d$
+T$ dH3
+([]A\A]A^A_
+AWAVM
+u4D+d$
+[]A\A]A^A_
+AVAUM
+u1+T$
+[]A\A]A^A_
+AWAVI
+AUATUS
+D$ 1
+D;d$
+T$ dH3
+([]A\A]A^A_
+ffff.
+AWAVI
+AUATUSH
+D$01
+T$0dH3
+8[]A\A]A^A_
+LX	1
+|$ H
+|$ H
+|$ H
+D$ 1
+T$ dH3
+([]A\A]A^A_
+ffff.
+AWAVI
+AUATI
+D$ 1
+5s}$
+5F}$
+D$ dH3
+([]A\A]A^A_
+D$ dH3
+A\A]A^A_
+AWAVAUI
+ATUD
+D$H1
+D$ A
+\$,svL
+T$ H
+D$HdH3
+X[]A\A]A^A_
+,(vd
+9l$,
+fff.
+AWAVAUI
+ATUSH
+t$(1
+D$X1
+D$XdH3
+h[]A\A]A^A_
+D$4H
+|$8E1
+D$(H
+T$8M
+,&9l$4
+T$8E
+T$8E
+L$4H
+T$8E
+T$8E
+T$8E
+T$8E
+T$8H
+t$(H
+T$8E
+T$8E
+D$(H
+T$8E
+AWAVI
+AUATUSH
+t$@1
+[]A\A]A^A_
+D$|H
+T$8H
+D$0f.
+|$8D
+D$Lt
+T$@H
+|$PH
+|$hH
+|$`H
+|$pH
+|$`H
+< vw
+|$8M
+D$LH
+D$LE
+D9d$|
+|$8E
+|$8E
+|$8M
+|$8E
+D$XH
+|$8E
+|$8M
+|$pH
+|$8M
+|$8E
+|$8E
+|$8E
+D$LH
+|$8M
+|$8E
+|$8E
+L$LD
+t$@H
+D$LH
+L$|H
+|$8M
+T$LH
+|$8E
+D9|$LH
+|$0A
+9\$L
+|$0A
+|$0A
+T$LH
+|$8H
+L$LD
+t$@H
+T$LH
+|$8H
+L$LD
+t$@H
+T$LH
+|$8H
+L$LH
+|$8E
+|$8E
+5v~$
+|$8E
+5(~$
+|$8M
+5G~$
+5+~$
+5|}$
+5c}$
+5J}$
+51}$
+5V|$
+|$8E
+5g|$
+|$0A
+T$@H
+5x{$
+|$8M
+5s{$
+|$8H
+L$0D
+D$,dH
+D$h1
+T$,L
+T$8M
+D$hdH3
+\$xH
+T$@+T$,L
+T$8H
+t$0H
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+D$0H
+D$@D+D$,E1
+L$,L
+T$8E
+T$8E
+T$8E
+|$8E1
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+T$8E
+t$0H
+5,~$
+T$HM
+D9d$D
+T$HA
+5n}$
+T$HA
+5g}$
+5N}$
+5%}$
+5z|$
+5i|$
+5H|$
+53|$
+AWAVAUI
+ATUSH
+t$ 1
+D$X1
+D$XdH3
+h[]A\A]A^A_
+D$,H
+T$ H
+5Bz$
+|$0H
+T$0E
+49\$,
+5Xy$
+T$01
+t$ H
+5wx$
+T$01
+5>x$
+T$0E
+57x$
+T$0E
+T$0E
+5dw$
+T$0M
+5Nw$
+L$ E
+|$0D
+50v$
+5$v$
+AWAVI
+AUATUSH
+t$81
+[]A\A]A^A_
+D$DH
+|$HE1
+T$pH
+D$`A
+T$0H
+|$0D
+T$8H
+|$HD
+|$HH
+D$@vd
+|$0M
+L$@H
+L$@E1
+|$@E
+D9|$D
+L$@H
+T$HM
+|$0H
+L$@H
+T$HM
+|$01
+t$@D
+t$8H
+T$DD
+T$HH
+t$8H
+L$@M
+T$H1
+T$HH
+|$0H
+L$@H
+T$@H
+L$@H
+|$0M
+T$H1
+L$@H
+T$HM
+|$0H
+D;l$@H
+|$(A
+T$PM
+|$(A
+T$PM
+|$0M
+L$@H
+L$8E
+L$@H
+|$HL
+|$(A
+T$PM
+T$PH
+|$(H
+t$8H
+T$8H
+|$HD
+4vXH
+d$ L
+l$(L
+t$0H
+AWAVAUI
+ATUSH
+t$ 1
+D$H1
+D$HdH3
+X[]A\A]A^A_
+D$(H
+t$0A
+D$ H
+$ tj
+$#D9d$(
+fff.
+AWAVI
+AUATUSH
+t$ 1
+D$H1
+<1t,H
+D$HdH3
+X[]A\A]A^A_
+D$(H
+l$0A
+D$ H
+$#D9d$(
+D$ 1
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@H
+T$ dH3
+\$(H
+l$0L
+d$8H
+l$@H
+ffff.
+D$ 1
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@H
+T$ dH3
+\$(H
+l$0L
+d$8H
+l$@H
+ffff.
+D$ 1
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@H
+T$ dH3
+\$(H
+l$0L
+d$8H
+l$@H
+fff.
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+\$ H
+l$(L
+d$0H
+l$8L
+t$@H
+D$ 1
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@H
+T$ dH3
+\$(H
+l$0L
+d$8H
+l$@H
+D$ 1
+D$ dH3
+\$(H
+l$0L
+d$8L
+l$@H
+T$ dH3
+\$(H
+l$0L
+d$8H
+l$@H
+D$X1
+t$(t
+D$XdH3
+\$hH
+l$pL
+d$xL
+D$4L
+|$8E1
+|$8E1
+|$8E1
+|$@A
+D$(H
+D$4H
+|$8E1
+,,t|
+T$8E
+D9l$4
+ffffff.
+D$X1
+t$(t
+D$XdH3
+\$hH
+l$pL
+d$xL
+D$4L
+|$8E1
+|$8E1
+t$@A
+D$(H
+D$4H
+|$8E1
+,,t|
+T$8E
+D9l$4
+ffffff.
+<#t)H
+<"t)H
+AVAUATI
+D$X1
+<!t)H
+T$XdH3
+h[]A\A]A^A_
+D$<H
+|$HD
+D$ L
+T$4D
+D$ H
+D$81
+T$8H
+D9l$8
+D9l$8
+D9t$<
+D$XdH3
+T$0H
+|$@H
+h[]A\A]A^A_H
+fffff.
+AWAVAUATUH
+D$X1
+T$XdH3
+h[]A\A]A^A_
+l$@A
+|$8D
+|$8D
+D9d$4
+T$8E
+T$8I
+T$8E
+T$8I
+T$8I
+T$8I
+T$8I
+T$8I
+T$8I
+T$8I
+5i~$
+T$8I
+T$8I
+T$8I
+5k~$
+5h|$
+T$8E
+59~$
+5)|$
+T$8I
+5_{$
+T$8I
+5Z}$
+5>}$
+5%}$
+5az$
+T$8E
+D$4H
+|$8L
+T$8I
+T$8I
+T$8I
+5Vz$
+5:z$
+5!z$
+T$8E
+5jw$
+5Qw$
+58w$
+T$8I
+5nv$
+5Uv$
+5<v$
+5#v$
+5<u$
+T$8I
+5[w$
+5?w$
+5&w$
+5Ut$
+T$8I
+5^v$
+5Iv$
+50v$
+5hu$
+5Ou$
+56u$
+T$8I
+%BU#
+5Et$
+5,t$
+T$8I
+T$8I
+T$8I
+5~r$
+5@o$
+T$8I
+5?r$
+5#r$
+T$8E
+5nn$
+D$#A
+D$"L
+D$#L
+T$$L
+T$,L
+T$8I
+T$8I
+5-l$
+T$8I
+T$8I
+5Pn$
+57n$
+5:k$
+5!k$
+AWAVAUATUH
+t$(1
+D$h1
+T$hdH3
+x[]A\A]A^A_
+5}i$
+5[i$
+l$PA
+T$(H
+|$HD
+D$(H
+5oh$
+|$HD
+D9d$D
+T$HE
+5^h$
+5|g$
+T$HI
+5gg$
+5Ng$
+55g$
+T$HE
+5{f$
+T$HI
+5jf$
+5Qf$
+58f$
+5we$
+T$HI
+5ne$
+5Ue$
+5<e$
+5#e$
+5<d$
+T$HI
+5wd$
+5^d$
+5Ed$
+T$HI
+5~c$
+T$HI
+5Pc$
+54c$
+T$HI
+5mb$
+5Tb$
+5;b$
+5"b$
+5	b$
+T$HI
+T$HI
+5`b$
+5Db$
+5+b$
+T$HI
+5A^$
+T$HI
+5`_$
+5D_$
+5+_$
+T$HE
+T$HI
+5z^$
+5a^$
+5H^$
+T$HI
+5h]$
+T$HE
+5o[$
+t$(H
+T$HI
+5u]$
+5\]$
+5oZ$
+T$HI
+5N[$
+52[$
+T$HI
+5dY$
+T$HI
+5FX$
+51X$
+T$HI
+5gW$
+5NW$
+55W$
+T$HI
+5	X$
+5pW$
+5RW$
+56W$
+5!W$
+5rV$
+5YV$
+5@V$
+5'V$
+5xU$
+5_U$
+T$HI
+5lT$
+5ST$
+T$HI
+5mS$
+5TS$
+T$HI
+5-Q$
+T$HI
+5pS$
+5TS$
+5;S$
+T$HI
+5zR$
+T$HE
+D$3A
+D$2L
+D$3L
+T$4L
+T$<L
+5vN$
+T$HI
+T$HI
+5wN$
+|$HE1
+5kM$
+5QN$
+55N$
+T$HI
+T$HI
+5pM$
+5TM$
+5KL$
+T$HI
+5~K$
+5bK$
+5IK$
+5nK$
+5#N$
+5wJ$
+5^J$
+ffff.
+5'M$
+l$ L
+d$(L
+l$0H
+l$ L
+d$(H
+l$0H
+<	t4H
+l$ L
+d$(L
+l$0H
+l$ L
+d$(H
+l$0H
+<-t=H
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+\$ H
+l$(L
+d$0L
+l$8E1
+t$@A
+<,t/H
+\$ H
+l$(L
+d$0H
+\$ H
+l$(E1
+d$0A
+AVAUATI
+<&t)H
+[]A\A]A^A_
+<?t)H
+<@t,H
+d$ H
+d$ A
+<At)H
+<.t,H
+l$ H
+l$ H
+<0t@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0E1
+t$8L
+|$@A
+</t,H
+fff.
+AWAVI
+AUATUSH
+t$ 1
+D$H1
+D$HdH3
+X[]A\A]A^A_
+l$0A
+D$ H
+$ tg
+D9d$,
+AWAVAUI
+ATUSH
+D$x1
+<%t)H
+T$xdH3
+[]A\A]A^A_
+D$ t
+D$ D
+D$ H
+T$ D
+D$ D+D$
+|$XE)
+4 vj
+T$XA
+|$XE1
+$.D9d$ 
+D$Pf
+D$ D+D$
+|$PA)
+T$PL
+|$PE1
+.9\$ 
+D$ D
+D$PA
+|$PE1
+D$Hf
+D$ D+D$
+|$HA)
+T$HA
+.9\$ 
+T$HA
+T$HM
+D$ D+D$
+|$0E)
+D$$vg
+d$$A
+D9d$ 
+t$$D
+t$$D
+d$$D
+D$@f
+D$ D+D$
+|$@A)
+T$@M
+.9\$ 
+T$@A
+T$@M
+D$8f
+D$ D+D$
+|$8A)
+T$8A
+9\$ 
+T$8M
+T$8A
+T$8M
+T$8A
+T$8M
+AWAVI
+AUATUSH
+t$01
+D$h1
+<$t,H
+D$hdH3
+x[]A\A]A^A_
+D$<t
+D$0H
+|$(M
+D$<H
+\$<D
+9\$8
+|$(M
+|$(G
+D$0H
+|$HD
+, vb
+|$(C
+T$HM
+D9d$<
+T$HH
+|$(M
+D$<H
+T$HM
+|$(M
+T$HH
+|$(M
+T$HH
+|$(M
+T$HH
+|$(A
+|$(C
+T$HM
+T$HH
+|$(M
+=u}$
+AUATI
+ []A\A]A^
+l$ H
+l$ H
+D$01
+D$0dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$$%
+T$$D
+tUE1
+T$0dH3
+\$8H
+l$@1
+d$HL
+l$PL
+t$XL
+|$`H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+l$ L
+d$(L
+l$0H
+D$@1
+L$@dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+9l$ 
+L$0L
+\$0A
+\$ f
+D$$A
+L$$B
+L$0B
+D$ 1
+T$ dH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+D;t$
+D9t$
+D;t$
+[]A\A]
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+D$@1
+T$@dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+T$0D
+D$(D
+D$0A
+T$,L
+\$4A
+T$(B
+T$0D
+D$,D
+T$(D
+fff.
+AWAVAUI
+ATUSH
+D$81
+D$8dH3
+H[]A\A]A^A_
+AVAUI
+ATUSH
+D$81
+D$8dH3
+H[]A\A]A^A_
+,(vd
+AVAUI
+ATUSH
+D$81
+D$8dH3
+H[]A\A]A^A_
+AWAVI
+AUATUSH
+D$H1
+t$ H
+D$ H
+D$HdH3
+X[]A\A]A^A_
+9\$,
+D$ H
+AWAVI
+AUATUSH
+D$X1
+t$0H
+D$0H
+D$XdH3
+h[]A\A]A^A_
+T$(M
+9\$<
+t$0H
+D$0H
+AWAVAUATI
+D$H1
+t$ H
+|$01
+D$ H
+D$HdH3
+X[]A\A]A^A_
+,(v\
+9l$,
+T$ H
+AWAVI
+AUATUSH
+D$X1
+t$0H
+D$0H
+D$XdH3
+h[]A\A]A^A_
+T$(E
+9\$<
+T$0H
+T$(E
+T$(1
+t$0H
+T$(E
+t$0H
+T$(1
+t$0H
+t$0H
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(1
+t$0H
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+t$0H
+T$(E
+T$(E
+T$(E
+AWAVAUI
+ATUSH
+D$H1
+t$ H
+D$ H
+D$HdH3
+X[]A\A]A^A_
+,89l$,
+D$ H
+u7A)
+l$ E1
+d$(L
+l$0H
+\$ H
+l$(L
+d$0L
+l$8E1
+t$@A
+ffff.
+l$ H
+d$(E1
+l$0H
+AWAVI
+AUATUSH
+D$81
+D$8dH3
+H[]A\A]A^A_
+AWAVAUI
+ATUSH
+|$<H
+T$0H
+L$(tV
+|$<k
+[]A\A]A^A_
+|$(L
+L$@H
+D$HE
+D$Dt
+D$0H
+|$HD
+|$<c
+T$(L
+L$TE1
+|$TD
+|$DD9|$@
+T$DD
+L$TH
+t$TL
+t$0H
+|$TD
+D$DL
+L$TM
+L$TL
+|$TD
+|$DD9|$TH
+l$Tf
+D$0H
+L$TH
+|$hL
+D$DL
+L$TM
+L$TL
+|$TD
+|$DD9|$TH
+l$Tf
+D$0H
+L$TH
+|$`L
+,(w`H
+T$`A
+T$`A
+T$`A
+T$`A
+T$`A
+T$`A
+T$`M
+T$`M
+T$`M
+T$`M
+T$`M
+T$`M
+T$`M
+T$`A
+|$PH
+T$`A
+D$PH
+T$`A
+T$`M
+T$`A
+T$hA
+T$hA
+T$hA
+T$hA
+T$hA
+T$hA
+L$TM
+L$TL
+|$TD
+|$DD9|$TH
+l$Tf
+T$0H
+L$TH
+|$XL
+,(t+
+T$XA
+T$XA
+T$XA
+T$0H
+AWAVI
+AUATUSH
+D$X1
+t$0H
+D$0H
+T$XdH3
+h[]A\A]A^A_
+T$(E
+9\$<
+T$0H
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(M
+T$0H
+T$(E
+T$(E
+T$(E
+T$(E
+T$(E
+T$(M
+T$(E
+T$(E
+T$(E
+T$(E
+5~~$
+T$(E
+54~$
+T$(E
+T$(E
+5C~$
+T$(E
+5T}$
+T$(E
+T$(E
+T$(E
+5W}$
+T$(M
+5Q|$
+T$(E
+56|$
+5t{$
+T$(E
+5;{$
+T$(E
+T$(E
+T$(E
+5b{$
+T$(E
+5-{$
+5Wz$
+T$(E
+T$(E
+T$(E
+T$(E
+5Yz$
+5sy$
+T$(E
+5$z$
+54y$
+T$(M
+T$(E
+T$(E
+5_y$
+5ix$
+T$(E
+5*y$
+5*x$
+T$(M
+T$(E
+5zw$
+T$(E
+5Kx$
+5;w$
+T$(M
+T$(E
+5fw$
+T$(E
+5ov$
+T$(E
+56v$
+T$(E
+T$(E
+5Rv$
+AWAVAUI
+ATUS1
+D$H1
+t$(H
+|$ E
+L$HdH3
+X[]A\A]A^A_
+T$ L
+T$ 1
+5\r$
+T$ A
+t$(H
+5mq$
+5Kq$
+T$ 1
+5 q$
+t$(H
+T$ 1
+T$(H
+5)p$
+|$ E1
+=_s$
+=so$
+=\o$
+=Eo$
+=.o$
+d$ H
+1.1.0
+wimax.max_basic_cid
+wimax.corrigendum_2_version
+WiMax
+WiMax (wmx)
+WiMax Protocol
+Maximum Basic CID
+Corrigendum 2 Version
+wimax.basic_cid_max
+Max Basic CID
+TLV type: %u
+Size of TLV length field: %u
+TLV length: %u
+TLV value: %s (0x%02x)
+TLV value: %s (0x%04x)
+TLV value: %s (0x%06x)
+TLV value: %s (0x%08x)
+TLV value: %s (0x%08x...)
+Set the maximum Basic CID used in the Wimax decoder (if other than the default of 320).  Note: The maximum Primary CID is double the maximum Basic CID.
+Set to TRUE to use the Corrigendum 2 version of Wimax message decoding. Set to FALSE to use the 802.16e-2005  version.
+wimax_ffb_burst_handler
+Fast Feedback Burst:
+Fast Feedback Burst
+wmx.ffb.burst
+Number Of Fast Feedback
+wmx.ffb.num_of_ffbs
+Fast Feedback Type
+wmx.ffb.ffb_type
+Physical Subchannel
+wmx.ffb.subchannel
+wmx.ffb.symbol_offset
+Fast Feedback Value
+wmx.ffb.ffb_value
+Fast Feedback Burst (%u bytes)
+wimax_fch_burst_handler
+DL Frame Prefix (24 bits)
+Sub-Channel Group 0
+wmx.fch.subchannel_group0
+Sub-Channel Group 1
+wmx.fch.subchannel_group1
+Sub-Channel Group 2
+wmx.fch.subchannel_group2
+Sub-Channel Group 3
+wmx.fch.subchannel_group3
+Sub-Channel Group 4
+wmx.fch.subchannel_group4
+Sub-Channel Group 5
+wmx.fch.subchannel_group5
+wmx.fch.reserved1
+Repetition Coding Indication
+wmx.fch.coding_indication
+DL Map Length
+wmx.fch.dl_map_length
+wmx.fch.reserved2
+Is Not Used
+Is Used
+No Repetition Coding
+Repetition Coding of 2 Used
+Repetition Coding of 4 Used
+Repetition Coding of 6 Used
+BTC Encoding Used
+CTC Encoding Used
+ZT CC Encoding Used
+LDPC Encoding Used
+wmx.fch.repetition_coding_indication
+CC Encoding with optional interleaver
+wimax_pdu_burst_handler
+Padding (%u bytes)
+Invalid PDU
+Invalid PDU  (%u bytes)
+MAC Header CRC error
+ - Mac Type II Header: 
+ - Mac Type I Header: 
+Values
+wmx.pdu.value
+MAC Header CRC error %X (in header) and %X (calculated)
+wimax_cdma_code_burst_handler
+CDMA Code Attribute
+Ranging Code
+wmx.cdma.ranging_code
+Ranging Symbol Offset
+Ranging Sub-Channel Offset
+CDMA Code Attribute (%u bytes)
+wmx.cdma.ranging_symbol_offset
+wmx.cdma.ranging_subchannel_offset
+wimax_hack_burst_handler
+HARQ ACK Burst:
+HARQ ACK Burst (%u bytes)
+HARQ ACK Burst
+wmx.hack.burst
+Number Of HARQ ACKs/NACKs
+wmx.hack.num_of_hacks
+wmx.hack.subchannel
+wmx.hack.symbol_offset
+Half-Slot Flag
+wmx.hack.half_slot_flag
+ACK Value
+wmx.hack.hack_value
+Even Half-Slot (tiles 0,2,4)
+Odd Half-Slot (tiles 1,3,5)
+NACK
+wimax_phy_attributes_burst_handler
+PDU Burst Physical Attributes (%u bytes)
+wmx.phy_attributes.subchannelization_type
+wmx.phy_attributes.modulation_rate
+wmx.phy_attributes.encoding_type
+wmx.phy_attributes.symbol_offset
+wmx.phy_attributes.num_of_slots
+Tail biting convolutional coding (CCTB)
+Convolutional turbo coding (CTC)
+PHY-attr
+Subchannelization Type
+Permbase
+wmx.phy_attributes.permbase
+Modulation Rate
+Encoding Type
+numRepeat
+wmx.phy_attributes.num_repeat
+Number Of Slots
+wmx.phy_attributes.subchannel
+DL PUSC
+DL FUSC
+UL PUSC
+BPSK R=1/2
+QPSK R=1/2
+QPSK R=3/4
+16-QAM R=1/2
+16-QAM R=3/4
+64-QAM R=1/2
+64-QAM R=2/3
+64-QAM R=3/4
+64-QAM R=5/6
+Error: the size of Generic MAC Header tvb is too small! (%u bytes)
+Error: extended subheader tvb is empty ! (%u bytes)
+Extended subheader group (%u bytes)
+Fast-feedback allocation (DL) subheader (%u bytes)
+Grant management (UL) subheader (2 bytes)
+: It looks like UGS is the correct Scheduling Service Type
+: It looks like Extended rtPS is the correct Scheduling Service Type
+: Cannot determine the correct Scheduling Service Type
+: It looks like Piggyback Request is the correct Scheduling Service Type
+Fragmentation subheader (%u bytes)
+Error - the frame is too short (%u bytes)
+Error: ARQ feedback payload tvb is empty ! (%u bytes)
+ - incorrect! (should be: 0x%x)
+CRC missing - the frame is too short (%u bytes)
+CRC is not included in this frame!
+WiMax Generic/Type1/Type2 MAC Header (hdr)
+WiMax Generic/Type1/Type2 MAC Header Messages
+Reassembled Data transport PDU (%u bytes)
+wmx.genericExtSubhd.DlSleepCtrlPSCID
+wmx.genericExtSubhd.DlSleepCtrlOP
+wmx.genericExtSubhd.DlSleepCtrlFSWE
+wmx.genericExtSubhd.DlSleepCtrlFSWB
+wmx.genericExtSubhd.DlSleepCtrlRsv
+wmx.genericExtSubhd.FbReqFbType
+wmx.genericExtSubhd.FbReqOfdmaSymbolOffset
+wmx.genericExtSubhd.FbReqSubchannelOffset
+wmx.genericExtSubhd.FbReqSlots
+wmx.genericExtSubhd.FbReqFrameOffset
+wmx.genericExtSubhd.SnReqRepInd1
+wmx.genericExtSubhd.SnReqRepInd2
+wmx.genericExtSubhd.MimoFbType
+wmx.genericExtSubhd.MimoFbContent
+wmx.genericExtSubhd.MiniFbType
+wmx.genericExtSubhd.MiniFbContent
+wmx.genericExtSubhd.PduSnShort
+Fragment Sequence Number (FSN)
+wmx.genericFastFbSubhd.AllocOffset
+Scheduling Service Type (Default)
+wimax.genericGrantSubhd.Default
+Scheduling Service Type (Extended rtPS)
+wimax.genericGrantSubhd.ExtendedRTPS
+Fast-feedback allocation subheader(DL)/Grant management subheader(UL) is absent
+Fast-feedback allocation subheader(DL)/Grant management subheader(UL) is present
+Fragmentation subheader is absent
+Fragmentation subheader is present
+ARQ feedback payload is absent
+ARQ feedback payload is present
+De-activate Power Saving Class
+CDMA Bandwidth Request, CDMA Ranging
+PAPR Reduction Allocation, Safety Zone
+Preferred DL Channel DIUC Feedback
+Life Span of Short-term Precoding Feedback
+Combined DL Average CINR of Active BSs
+Default Feedback with Antenna Grouping
+Antenna Selection and Reduced Codebook
+Quantized Precoding Weight Feedback
+Fast MIMO Feedback, Antenna #0
+Fast MIMO Feedback, Antenna #1
+MIMO Mode and Permutation Mode Feedback
+A slip of UL grants relative to the UL queue depth
+ - Generic MAC Header
+Generic MAC Header (%u bytes)
+Encrypted PDU (%u bytes)
+, Extended Subheader(s)
+Ext subhdrs
+Mesh subhdr
+, Mesh Subheader
+Mesh subheader (2 bytes)
+Fast-fb subhdr
+, Fast-feedback Subheader
+Grant mgmt subhdr
+, Grant Management Subheader
+Frag subhdr
+, Frag Subheader
+Packing subhdr
+, Packing Subheader
+Packing subheader (%u bytes)
+Data transport PDU (%u bytes)
+Payload Fragment (%d bytes)
+Reassembled WiMax MAC payload
+ARQ feedback payld
+, ARQ feedback payload
+ARQ feedback payload 
+ (%d map(s))
+, Padding CID
+Padding CID (%u bytes)
+, Data
+, CRC
+, No CRC
+wmx.hdr
+mac_header_generic_handler
+wmx.genericValueBytes
+MAC Header Type
+wmx.genericHt
+MAC Encryption Control
+wmx.genericEc
+MAC Sub-type Bit 0
+wmx.genericType0
+MAC Sub-type Bit 1
+wmx.genericType1
+MAC Sub-type Bit 2
+wmx.genericType2
+MAC Sub-type Bit 3
+wmx.genericType3
+MAC Sub-type Bit 4
+wmx.genericType4
+MAC Sub-type Bit 5
+wmx.genericType5
+Extended Sub-header Field
+wmx.genericEsf
+CRC Indicator
+wmx.genericCi
+Encryption Key Sequence
+wmx.genericEks
+wmx.genericRsv
+wmx.genericLen
+Connection ID
+wmx.genericCid
+Header Check Sequence
+wmx.genericHcs
+wmx.genericCrc
+wmx.genericExtSubhd.Rsv
+DL Extended Subheader Type
+wmx.genericExtSubhd.Dl
+UL Extended Subheader Type
+wmx.genericExtSubhd.Ul
+SDU Sequence Number
+wmx.genericExtSubhd.SduSn
+Power Saving Class ID
+Operation
+Final Sleep Window Exponent
+Final Sleep Window Base
+wmx.genericExtSubhd.FbReqUIUC
+OFDMA Symbol Offset
+Subchannel Offset
+Number of Slots
+First SN Report Indication
+Second SN Report Indication
+wmx.genericExtSubhd.SnReqRsv
+Feedback Content
+UL TX Power
+wmx.genericExtSubhd.UlTxPwr
+PDU Sequence Number
+wmx.genericExtSubhd.PduSnLong
+Xmt Node Id
+wmx.genericMeshSubhd
+Fragment Type
+wmx.genericFragSubhd.Fc
+wmx.genericFragSubhd.FcExt
+Block Sequence Number (BSN)
+wmx.genericFragSubhd.Bsn
+wmx.genericFragSubhd.Fsn
+wmx.genericFragSubhd.FsnExt
+wmx.genericFragSubhd.Rsv
+wmx.genericFragSubhd.RsvExt
+wmx.genericPackSubhd.Fc
+wmx.genericPackSubhd.FcExt
+First Block Sequence Number
+wmx.genericPackSubhd.Bsn
+Fragment Number
+wmx.genericPackSubhd.Fsn
+wmx.genericPackSubhd.FsnExt
+wmx.genericPackSubhd.Len
+wmx.genericPackSubhd.LenExt
+Allocation Offset
+wmx.genericFastFbSubhd.FbType
+wmx.genericGrantSubhd.Pbr
+Scheduling Service Type (UGS)
+wmx.genericGrantSubhd.UGS
+Slip Indicator
+wmx.genericGrantSubhd.Si
+Poll-Me
+wmx.genericGrantSubhd.Pm
+Frame Latency Indication
+wmx.genericGrantSubhd.Fli
+Frame Latency
+wmx.genericGrantSubhd.Fl
+wmx.genericGrantSubhd.Rsv
+Extended PiggyBack Request
+wmx.genericGrantSubhd.ExtPbr
+wmx.genericGrantSubhd.ExtFli
+wmx.genericGrantSubhd.ExtFl
+wmx.genericArq.FbIeCid
+Last IE
+wmx.genericArq.FbIeLast
+ACK Type
+wmx.genericArq.FbIeAckType
+wmx.genericArq.FbIeBsn
+Number of ACK Maps
+wmx.genericArq.FbIeMaps
+wmx.genericArq.FbIeRsvd
+Selective ACK Map
+wmx.genericArq.FbIeSelAckMap
+Sequence Format
+wmx.genericArq.FbIeSeqFmt
+Sequence ACK Map
+wmx.genericArq.FbIeSeqAckMap
+Sequence 1 Length
+wmx.genericArq.FbIeSeq1Len
+Sequence 2 Length
+wmx.genericArq.FbIeSeq2Len
+Sequence 3 Length
+wmx.genericArq.FbIeSeq3Len
+wmx.genericArq.FbIeSeqAckMap2
+wmx.genericArq.FbIeRsv
+Generic
+Signaling
+Not encrypted
+Encrypted
+Packing subheader is absent
+Packing Subheader is present
+The subheader is not extended
+The subheader is extended
+Mesh subheader is absent
+Mesh subheader is present
+Extended subheader is absent
+Extended subheader is present
+No CRC is included
+SDU_SN
+DL Sleep Control
+Feedback Request
+SN Request
+PDU SN (short)
+PDU SN (long)
+MIMO Mode Feedback
+UL TX Power Report
+Mini-feedback
+Activate Power Saving Class
+Fast-Feedback Channel
+Extended UIUC 2 IE
+CDMA Allocation IE
+CQI and MIMO Feedback
+DL average CINR
+MIMO Coefficients Feedback
+UL Transmission Power
+PHY Channel Feedback
+AMC Band Indication Bitmap
+Multiple Types of Feedback
+Long-term Precoding Feedback
+MIMO Channel Feedback
+CINR Feedback
+Close-loop MIMO Feedback
+request transmission
+Fast DL measurement
+No fragmentation
+Last fragment
+First fragment
+Continuing (middle) fragment
+No action
+Request a bandwidth poll
+Frame latency field disabled
+Frame latency field enabled
+Mac Type I Header (%u bytes)
+mac_header_type_1_handler
+BR INCREMENTAL
+BR AGGREGATE
+PHY CHANNEL_REPORT
+BR WITH UL TX POWER_REPORT
+BR AND CINR REPORT
+BR WITH UL SLEEP CONTROL
+SN REPORT
+CQICH ALLOCATION REQUEST
+wmx.type1ValueBytes
+wmx.type1Ht
+wmx.type1Ec
+MAC Sub-Type
+wmx.type1Type
+Bandwidth Request
+wmx.type1Br
+wmx.type1Br3
+wmx.type1FbType
+Preferred DIUC Index
+wmx.type1Diuc
+wmx.type1UlTxPwr
+wmx.type1UlTxPwr3
+wmx.type1HdRm
+CINR Value
+wmx.type1Cinr
+DCD Change Indication
+wmx.type1Dci
+wmx.type1PsCid
+wmx.type1Op
+Last ARQ BSN or SDU SN
+wmx.type1Last
+ARQ BSN or MAC SDU SN (1)
+wmx.type1SduSn1
+ARQ BSN or MAC SDU SN (2)
+wmx.type1SduSn2
+ARQ BSN or MAC SDU SN (3)
+wmx.type1SduSn3
+FBSS Indicator
+wmx.type1Fbssi
+wmx.type1Period
+wmx.type1Rsv2
+wmx.type1Rsv5
+wmx.type1Rsv7
+wmx.type1Cid
+wmx.type1Hcs
+Bandwidth Request Incremental
+Bandwidth Request Aggregate
+PHY Channel Report
+SN Report
+CQICH Allocation Request
+Match DCD Change Count
+Mismatch DCD Change Count
+Deactivate Power Saving Class
+First three connections
+Last three connections
+Headroom to UL Max Power Level
+Preferred CQICH Allocation Period
+Bandwidth Request with UL TX Power Report
+Bandwidth Request and CINR Report
+Bandwidth Request with Sleep Control
+Mac Type II Header (6 bytes)
+Unknown type 2 fb type
+Error - Undefined Type
+mac_header_type_2_handler
+wmx.type2ValueBytes
+wmx.type2Ht
+wmx.type2Ec
+wmx.type2Type
+CID Inclusion Indication
+wmx.type2Cii
+wmx.type2FbType
+Mimo Feedback Type
+wmx.type2MimoFbType
+CQI and Mimo Feedback Payload
+wmx.type2MimoFbPayload
+wmx.type2MimoFbRsv
+DL Average CINR
+wmx.type2DlAveCinr
+wmx.type2DlAveRsv
+Number of Index
+wmx.type2MimoCoefNi
+Occurences of Antenna Index
+wmx.type2MimoCoefAi
+MIMO Coefficients
+wmx.type2MimoCoef
+wmx.type2MimoCoefRsv
+Prefered DIUC
+wmx.type2DlChanDiuc
+wmx.type2DlChanDcd
+wmx.type2DlChanRsv
+wmx.type2UlTxPwr
+wmx.type2UlTxPwrRsv
+wmx.type2PhyDiuc
+wmx.type2PhyUlTxPwr
+UL Headroom
+wmx.type2PhyHdRm
+wmx.type2PhyRsv
+wmx.type2AmcBitmap
+CQI 1
+wmx.type2AmcCqi1
+CQI 2
+wmx.type2AmcCqi2
+CQI 3
+wmx.type2AmcCqi3
+CQI 4
+wmx.type2AmcCqi4
+Life Span of Short-term
+wmx.type2LifeSpan
+wmx.type2LifeSpanRsv
+Number of Feedback Types
+wmx.type2MtNumFbTypes
+Occurrences of Feedback Type
+wmx.type2MtOccuFbType
+Long-term Feedback Index
+wmx.type2LtFbId
+Rank of Precoding Codebook
+wmx.type2LtRank
+FEC and QAM
+wmx.type2LtFecQam
+wmx.type2CombDlAve
+wmx.type2CombDlRsv
+wmx.type2MimoDiuc
+Preferred Bandwidth Index
+wmx.type2MimoPbwi
+wmx.type2MimoSlpb
+wmx.type2MimoBpriCid
+wmx.type2MimoCid
+wmx.type2MimoBpri
+Coherent Time Index
+wmx.type2MimoCti
+Antenna 0 Indication
+wmx.type2MimoAi
+Antenna 1 Indication
+Antenna 2 Indication
+Antenna 3 Indication
+MS Matrix Indicator
+wmx.type2MimoMi
+CQI Type
+wmx.type2MimoCt
+CQI Feedback
+wmx.type2MimoCqi
+wmx.type2CinrMean
+CINR Standard Deviation
+wmx.type2CinrDevi
+Closed-Loop MIMO Type
+wmx.type2ClMimoType
+Antenna Grouping Index
+wmx.type2ClMimoAntId
+Average CQI
+wmx.type2ClMimoCqi
+wmx.type2ClMimoRsv
+Number of Streams
+wmx.type2ClMimoStreams
+wmx.type2ClMimoAntSel
+Codebook Index
+wmx.type2ClMimoCodeBkId
+wmx.type2Cid
+wmx.type2NoCid
+wmx.type2Hcs
+without CID
+with CID
+1/10
+1/12
+1/16
+1/24
+1/32
+1/48
+1/64
+1st preferred burst profile
+2nd preferred burst profile
+3rd preferred burst profile
+4th preferred burst profile
+Infinite
+1 frame
+2 frames
+3 frames
+8 frames
+14 frames
+24 frames
+Not applicable
+Applicable
+No STC
+Matrix C
+DL average feedback
+CQI feedback
+Error: the size of Mac Header Type II tvb is too small! (%u bytes)
+Starting Location of Preferred Bandwidth
+Burst Profile Ranking Indicator with CID
+Burst Profile Ranking Indicator without CID
+Antenna Selection Option Index
+Error: Mac payload tvb is empty ! (%u bytes)
+Unknown message type: %u (%u bytes)
+mac_mgmt_msg_tftp_cplt_handler
+mac_mgmt_msg_aas_beam_req_handler
+mac_mgmt_msg_aas_beam_rsp_handler
+mac_mgmt_msg_mob_slp_req_handler
+mac_mgmt_msg_mob_slp_rsp_handler
+mac_mgmt_msg_mob_trf_ind_handler
+mac_mgmt_msg_mob_nbr_adv_handler
+mac_mgmt_msg_mob_scn_req_handler
+mac_mgmt_msg_mob_scn_rsp_handler
+mac_mgmt_msg_mob_bsho_req_handler
+mac_mgmt_msg_mob_msho_req_handler
+mac_mgmt_msg_mob_bsho_rsp_handler
+mac_mgmt_msg_mob_ho_ind_handler
+mac_mgmt_msg_mob_scn_rep_handler
+mac_mgmt_msg_mob_pag_adv_handler
+mac_mgmt_msg_mob_asc_rep_handler
+Unknown message type,
+, %s
+mac_mgmt_msg_mca_req_handler
+%s (%u bytes)
+mac_mgmt_msg_mca_rsp_handler
+mac_mgmt_msg_dbpc_req_handler
+mac_mgmt_msg_dbpc_rsp_handler
+mac_mgmt_msg_tftp_rsp_handler
+mac_mgmt_msg_ncfg_handler
+mac_mgmt_msg_nent_handler
+mac_mgmt_msg_dsch_handler
+mac_mgmt_msg_csch_handler
+mac_mgmt_msg_cscf_handler
+mac_mgmt_msg_mbs_map_handler
+RNG-REQ
+RNG-RSP
+REG-RSP
+Reserved8
+PKM-REQ
+PKM-RSP
+DSA-REQ
+DSA-RSP
+DSA-ACK
+DSC-REQ
+DSC-RSP
+DSC-ACK
+DSD-REQ
+DSD-RSP
+Reserved19
+Reserved20
+MCA-REQ
+MCA-RSP
+DBPC-REQ
+DBPC-RSP
+RES-CMD
+SBC-REQ
+SBC-RSP
+CLK-CMP
+DREG-CMD
+DSX-RVD
+TFTP-CPLT
+TFTP-RSP
+ARQ-FEEDBACK
+ARQ-DISCARD
+ARQ-RESET
+REP-REQ
+REP-RSP
+MSH-NCFG
+MSH-NENT
+MSH-DSCH
+MSH-CSCH
+MSH-CSCF
+AAS-FBCK_REQ
+AAS-FBCK_RSP
+AAS-BEAM_SELECT
+AAS-BEAM_REQ
+AAS-BEAM_RSP
+DREG-REQ
+MOB-SLP-REQ
+MOB-SLP-RSP
+MOB-TRF-IND
+MOB-NBR-ADV
+MOB-SCN-REQ
+MOB-SCN-RSP
+MOB-BSHO-REQ
+MOB-MSHO-REQ
+MOB-BSHO-RSP
+MOB-HO-IND
+MOB-SCN-REP
+MOB-PAG-ADV
+MBS-MAP
+PMC-REQ
+PMC-RSP
+PRC-LT-CTRL
+MOB-ASC-REP
+wmx.values
+Unknown MAC Message Type
+wmx.unknown_type
+Downlink Channel Descriptor (DCD) (%u bytes)
+Downlink_Burst_Profile (DIUC=%u) (%u bytes)
+Default RSSI and CINR averaging parameter (%u byte(s))
+DL region definition (%u byte(s))
+ASR Slot Length (M) and Switching Period (L) (%u byte(s))
+Trigger; Type/function/action description (%u byte(s))
+ASR (Anchor Switch Report) Slot Length (M) and Switching Period (L)
+DIUC Minimum Entry Threshold (in 0.25 dB units)
+wmx.dcd.burst.diuc_entry_threshold
+DIUC Mandatory Exit Threshold (in 0.25 dB units)
+wmx.dcd.burst.diuc_exit_threshold
+Default Averaging Parameter for Physical CINR Measurements (in multiples of 1/16)
+wmx.dcd.default_physical_cinr_meas_averaging_parameter
+Default RSSI and CINR Averaging Parameter
+wmx.dcd.default_rssi_and_cinr_averaging_parameter
+Default Averaging Parameter for RSSI Measurements (in multiples of 1/16)
+wmx.dcd.default_rssi_meas_averaging_parameter
+DL AMC Allocated Physical Bands Bitmap
+wmx.dcd.dl_amc_allocated_phy_bands_bitmap
+Downlink Burst Profile for Multiple FEC Types
+wimax.dcd.dl_burst_profile_multiple_fec_types
+wmx.dcd.dl_region_definition.num_region
+wmx.dcd.dl_region_definition.num_subchannels
+wmx.dcd.dl_region_definition.num_symbols
+wmx.dcd.dl_region_definition.reserved
+wmx.dcd.dl_region_definition.subchannel_offset
+wmx.dcd.dl_region_definition.symbol_offset
+wmx.dcd.h_arq_ack_delay_ul_burst
+wmx.dcd.ho_type_support.fbss_ho
+wmx.dcd.ho_type_support.reserved
+wmx.dcd.maximum_retransmission
+TUSC1 permutation active subchannels bitmap
+TUSC2 permutation active subchannels bitmap
+wmx.dcd.paging_interval_length
+Permutation Type for Broadcast Region in HARQ Zone
+wmx.dcd.permutation_type_broadcast_region_in_harq_zone
+wmx.dcd.trigger_averaging_duration
+wmx.dcd.type_function_action.action
+wmx.dcd.type_function_action.function
+wmx.dcd.type_function_action.type
+QPSK (CC with optional interleaver) 1/2
+QPSK (CC with optional interleaver) 3/4
+16-QAM (CC with optional interleaver) 1/2
+16-QAM (CC optional interleaver) 3/4
+64-QAM (CC with optional interleaver) 2/3
+64-QAM (CC with optional interleaver) 3/4
+Conformance with IEEE Std 802.16-2001
+Conformance with IEEE Std 802.16c-2002 and its predecessors
+Conformance with IEEE Std 802.16a-2003 and its predecessors
+Conformance with IEEE Std 802.16-2004
+Conformance with IEEE Std 802.16-2004 and IEEE Std 802.16e-2005
+Respond on trigger with MOB_SCN-REP after the end of each scanning interval
+Respond on trigger with MOB_MSH-REQ
+On trigger, MS starts neighbor BS scanning process by sending MOB_SCN-REQ
+Metric of neighbor BS is greater than absolute value
+Metric of neighbor BS is less than absolute value
+Metric of neighbor BS is greater than serving BS metric by relative value
+Metric of neighbor BS is less than serving BS metric by relative value
+Metric of serving BS greater than absolute value
+Metric of serving BS less than absolute value
+DCD TLV error
+DL Burst Profile TLV error
+ kHz
+ frame offset
+HO type support (%u byte(s))
+DCD Trigger (%u bytes)
+Trigger TLV error
+Reserved (%u byte(s))
+wmx.cd
+WiMax DCD/UCD (cd)
+WiMax DCD/UCD Messages
+MAC Management Message Type
+wmx.macmgtmsgtype.dcd
+wmx.dcd.asr
+ASR Switching Period (L)
+wmx.dcd.asr.l
+ASR Slot Length (M)
+wmx.dcd.asr.m
+BS EIRP
+wmx.dcd.bs_eirp
+Base Station ID
+wmx.dcd.bs_id
+BS Restart Count
+wmx.dcd.bs_restart_count
+wmx.dcd.burst.diuc
+FEC Code Type
+wmx.dcd.burst.fec
+wmx.dcd.burst.freq
+wmx.dcd.burst.reserved
+wmx.dcd.burst.tcs
+Channel Nr
+wmx.dcd.channel_nr
+Configuration Change Count
+wmx.dcd.config_change_count
+wmx.dcd.dl_burst_profile_diuc
+wmx.dcd.dl_burst_profile_rsv
+wmx.dcd.dl_channel_id
+DL Region Definition
+wmx.dcd.dl_region_definition
+Number of Regions
+Number of Subchannels
+Number of OFDMA Symbols
+EIRXP (IR, max)
+wmx.dcd.eirxp
+Frame Duration
+wmx.dcd.frame_duration
+Frame Duration Code
+wmx.dcd.frame_duration_code
+wmx.dcd.frame_nr
+Downlink Center Frequency
+wmx.dcd.frequency
+H_add Threshold
+wmx.dcd.h_add_threshold
+H-ARQ ACK Delay for UL Burst
+H_delete Threshold
+wmx.dcd.h_delete_threshold
+HO Type Support
+wmx.dcd.ho_type_support
+FBSS HO
+wmx.dcd.ho_type_support.ho
+MDHO
+wmx.dcd.ho_type_support.mdho
+Hysteresis Margin
+wmx.dcd.hysteresis_margin
+Invalid TLV
+wmx.dcd.invalid_tlv
+MAC Version
+wmx.dcd.mac_version
+Maximum Retransmission
+Noise and Interference
+wmx.dcd.noise_interference
+Paging Group ID
+wmx.dcd.paging_group_id
+wmx.dcd.tusc1
+wmx.dcd.tusc2
+Paging Interval Length
+PHY Type
+wmx.dcd.phy_type
+Power Adjustment Rule
+wmx.dcd.power_adjustment
+wmx.dcd.rtg
+Channel Switch Frame Number
+wmx.dcd.switch_frame
+Time to Trigger Duration
+wmx.dcd.time_trigger_duration
+Trigger Averaging Duration
+Trigger Value
+wmx.dcd.trigger_value
+wmx.dcd.ttg
+Type/Function/Action
+wmx.dcd.type_function_action
+Function
+Unknown DCD Type
+wmx.dcd.unknown_tlv_value
+QPSK (CC) 1/2
+QPSK (CC) 3/4
+16-QAM (CC) 1/2
+16-QAM (CC) 3/4
+64-QAM (CC) 1/2
+64-QAM (CC) 2/3
+64-QAM (CC) 3/4
+QPSK (BTC) 1/2
+QPSK (BTC) 3/4 or 2/3
+16-QAM (BTC) 3/5
+16-QAM (BTC) 4/5
+64-QAM (BTC) 2/3 or 5/8
+64-QAM (BTC) 5/6 or 4/5
+QPSK (CTC) 1/2
+QPSK (CTC) 3/4
+16-QAM (CTC) 1/2
+16-QAM (CTC) 3/4
+64-QAM (CTC) 1/2
+64-QAM (CTC) 2/3
+64-QAM (CTC) 3/4
+64-QAM (CTC) 5/6
+QPSK (ZT CC) 1/2
+QPSK (ZT CC) 3/4
+16-QAM (ZT CC) 1/2
+16-QAM (ZT CC) 3/4
+64-QAM (ZT CC) 1/2
+64-QAM (ZT CC) 2/3
+64-QAM (ZT CC) 3/4
+QPSK (LDPC) 1/2
+QPSK (LDPC) 2/3 A code
+16-QAM (LDPC) 3/4 A code
+16-QAM (LDPC) 1/2
+16-QAM (LDPC) 2/3 A code
+64-QAM (LDPC) 1/2
+64-QAM (LDPC) 2/3 A code
+64-QAM (LDPC) 3/4 A code
+QPSK (LDPC) 2/3 B code
+QPSK (LDPC) 3/4 B code
+16-QAM (LDPC) 2/3 B code
+16-QAM (LDPC) 3/4 B code
+64-QAM (LDPC) 2/3 B code
+64-QAM (LDPC) 3/4 B code
+QPSK (LDPC) 5/6
+16-QAM (LDPC) 5/6
+64-QAM (LDPC) 5/6
+TCS disabled
+TCS enabled
+Downlink Burst Profile 1
+Downlink Burst Profile 2
+Downlink Burst Profile 3
+Downlink Burst Profile 4
+Downlink Burst Profile 5
+Downlink Burst Profile 6
+Downlink Burst Profile 7
+Downlink Burst Profile 8
+Downlink Burst Profile 9
+Downlink Burst Profile 10
+Downlink Burst Profile 11
+Downlink Burst Profile 12
+Downlink Burst Profile 13
+End of DL-MAP
+12.5
+not supported
+optional FUSC
+Preserve Peak Power
+Preserve Mean Power
+CINR metric
+RSSI metric
+RTD metric
+Uplink Channel Descriptor (UCD) (%u bytes)
+Configuration Change Count: %u
+Request Backoff Start: 2^%u = %u
+Request Backoff End: 2^%u = %u
+Uplink Burst Profile (UIUC = %u) (%u bytes)
+HO ranging start (SCa, OFDM, OFDMA (mobile only)) (%u byte(s))
+Initial Backoff Window Size for MS Performing Initial During Handover Process: 2^%u = %u
+HO ranging end (SCa, OFDM, OFDMA (mobile only)) (%u byte(s))
+Final Backoff Window Size for MS Performing Initial During Handover Process: 2^%u = %u
+Initial ranging backoff start (%u byte(s))
+Initial Ranging Backoff Start: 2^%u = %u
+Initial ranging backoff end (%u byte(s))
+Initial Ranging Backoff End: 2^%u = %u
+Bandwidth request backoff start (%u byte(s))
+Bandwidth Request Backoff Start: 2^%u = %u
+Bandwidth request backoff end (%u byte(s))
+Bandwidth Request Backoff End: 2^%u = %u
+Periodic ranging backoff start (%u byte(s))
+Periodic Ranging Backoff Start: 2^%u = %u
+Periodic ranging backoff end (%u bytes(s))
+Periodic Ranging Backoff End: 2^%u = %u
+wmx.ucd.allow_aas_beam_select_message
+Band AMC Allocation Threshold 
+wmx.ucd.band_amc.allocation_threshold
+wmx.ucd.band_amc.allocation_timer
+wmx.ucd.band_amc.release_threshold
+wmx.ucd.band_amc.release_timer
+wmx.ucd.band_status.report_max_period
+wmx.ucd.burst.ranging_data_ratio
+Bandwidth Request Opportunity Size
+CQICH Band AMC-Transition Delay
+wmx.ucd.cqich_band_amc_transition_delay
+wmx.ucd.handover_ranging_codes
+wmx.ucd.harq_ack_delay_dl_burst
+Number of Frames Between Initial Ranging Interval Allocation
+wmx.ucd.initial_ranging_interval
+Lower Bound AAS Preamble (in units of 0.25 dB)
+wmx.ucd.lower_bound_aas_preamble
+Minimum Level of Power Offset Adjustment (in units of 0.1 dB)
+wmx.ucd.min_level_power_offset_adjustment
+Maximum Level of Power Offset Adjustment (in units of 0.1 dB)
+wmx.ucd.max_level_power_offset_adjustment
+Maximum Number of Retransmission in UL-HARQ
+wmx.ucd.max_number_of_retransmission_in_ul_harq
+MS-specific Down Power Offset Adjustment Step (in units of 0.01 dB)
+wmx.ucd.ms_specific_down_power_offset_adjustment_step
+MS-specific Up Power Offset Adjustment Step (in units of 0.01 dB)
+wmx.ucd.ms_specific_up_power_offset_adjustment_step
+Normalized C/N for Channel Sounding
+wmx.ucd.normalized_cn.channel_sounding
+wmx.ucd.normalized_cn.override_2
+wmx.ucd.normalized_cn.override_first_line
+wmx.ucd.normalized_cn.override_list
+Optional permutation UL allocated subchannels bitmap 
+wmx.ucd.optional_permutation_ul_allocated_subchannels_bitmap
+wmx.ucd.periodic_ranging_codes
+Ranging Request Opportunity Size
+Contention-based Reservation Timeout
+wmx.ucd.safety_channel_release_timer
+wmx.ucd.size_of_cqich_id_field
+wmx.ucd.start_of_ranging_codes_group
+UL Allocated Subchannels Bitmap
+A p_avg (in multiples of 1/16)
+wmx.ucd.tx_power_report.a_p_avg
+A p_avg (in multiples of 1/16) when ICQCH is allocated
+wmx.ucd.tx_power_report.a_p_avg_icqch
+Interval (expressed as power of 2)
+wmx.ucd.tx_power_report.interval
+Interval When ICQCH is Allocated (expressed as power of 2)
+wmx.ucd.tx_power_report.interval_icqch
+wmx.ucd.tx_power_report.threshold
+Threshold When ICQCH is Allocated to SS (in dB)
+wmx.ucd.tx_power_report.threshold_icqch
+Uplink Burst Profile for Multiple FEC Types
+wmx.ucd.uplink_burst_profile.multiple_fec_types
+Uplink PUSC Subchannel Rotation
+wmx.ucd.uplink_burst_profile.ul_pusc_subchannel_rotation
+Relative Power Offset UL HARQ Burst
+wmx.ucd.uplink_burst_profile.relative_power_offset_ul_harq_burst
+Relative Power Offset UL Burst Containing MAC Mgmt Msg
+wmx.ucd.uplink_burst_profile.relative_power_offset_ul_burst_mac_mgmt_msg
+wmx.ucd.uplink_burst_profile.ul_initial_transmit_timing
+wmx.ucd.uplink_burst_profile.fast_feedback_region
+wmx.ucd.uplink_burst_profile.harq_ack_region
+wmx.ucd.uplink_burst_profile.ranging_region
+wmx.ucd.uplink_burst_profile.sounding_region
+Upper Bound AAS Preamble (in units of 0.25 dB)
+wmx.ucd.upper_bound_aas_preamble
+wmx.ucd.use_cqich_indication_flag
+16-QAM (CC optional interleaver) 0%00
+UCD TLV error
+UL Burst Profile error
+ frames offset
+Tx Power Report (%u bytes)
+Unknown TLV Type
+wmx.macmgtmsgtype.ucd
+Allow AAS Beam Select Message
+Band AMC Allocation Timer
+Band AMC Release Threshold
+Band AMC Release Timer
+Band AMC Retry Timer
+wmx.ucd.band_amc.retry_timer
+Band Status Report MAC Period
+Bandwidth Request Codes
+wmx.ucd.bandwidth_request
+wmx.ucd.burst.fec
+Ranging Data Ratio
+wmx.ucd.burst.reserved
+wmx.ucd.burst.uiuc
+wmx.ucd.bw_req_size
+wmx.ucd.frequency
+Handover Ranging Codes
+HARQ ACK Delay for DL Burst
+Initial Ranging Codes
+wmx.ucd.initial_ranging_codes
+wmx.ucd.invalid_tlv
+Normalized C/N Override 2
+Normalized C/N Value
+Normalized C/N Value List
+Periodic Ranging Codes
+Permutation Base
+wmx.ucd.permutation_base
+wmx.ucd.ranging_req_size
+wmx.ucd.res_timeout
+Safety Channel Release Timer
+Size of CQICH_ID Field
+Start of Ranging Codes Group
+wmx.ucd.subchan.bitmap
+wmx.ucd.subchan.codes
+wmx.ucd.subchan.num_chan
+wmx.ucd.subchan.num_sym
+Tx Power Report
+wmx.ucd.tx_power_report
+Unknown UCD Type
+wmx.ucd.unknown_tlv_type
+UL Initial Transmit Timing
+Fast Feedback Region
+HARQ ACK Region
+Ranging Region
+Sounding Region
+Use CQICH Indication Flag
+3 bits
+4 bits
+5 bits
+7 bits
+8 bits
+9 bits
+UL_interference_and_noise_level_IE
+CQI/ACK/Periodic Ranging region NI: %d
+Repetition Coding Information: %d
+DL_PUSC_Burst_Allocation_in_Other_Segment_IE
+Repetition coding indication: %d
+DCD_UCD Transmission Frame: %d
+Skip Broadcast_System_Update: %d
+Broadcast_System_Update_Type: %d
+Broadcast_System_Update_Transmission_Frame: %d
+Preamble frequency shift index: %d
+Repetition Coding Indication: %d
+Data location in another BS IE
+Next MBS_MAP_IE frame offset: %d
+Control Header (MIMO Control Info): %d
+Control Header (CQI Control Info): %d
+Control Header (Closed MIMO Control Info): %d
+Dedicated DL Control Indicator: %d
+Sub-burst offset indication: %d
+Dedicated MIMO DL Control Indicator: %d
+Repetition coding Indication: %d
+MIMO DL IR HARQ for CC sub-burst IE
+MIMO DL Chase HARQ sub-burst IE
+Rectangular Sub-Burst Indicator: %d
+(reserved Extended-2 DIUC: %d)
+Map message length - The length is limited to 735 bytes at most
+OFDMA Symbol offset of subsequent sub-bursts in this Sub-DL-UL-MAP message with reference to the start of UL sub-frame.
+wmx.dlmap.reduced_aas_private.cmi
+wmx.dlmap.reduced_aas_private.mult
+wmx.dlmap.reduced_aas_private.rsv
+wmx.dlmap.reduced_aas_private.type
+wmx.dlmap.reduced_aas_private.ulmap
+Extended DIUC: %d
+Bitmap: %d
+Optional PUSC region NI: %d
+AMC region NI: %d
+AAS region NI: %d
+Sounding region NI: %d
+MIMO region NI: %d
+PUSC_ASCA_Alloc_IE
+Short Basic CID: %d
+OFDMA Symbol offset: %d
+Subchannel offset: %d
+# OFDMA Symbols: %d
+# Symbols: %d
+Permutation ID: %d
+Reserved: %d
+Segment: %d
+IDcell: %d
+DL_PermBase: %d
+Used Subchannels: %d
+OFDMA symbol offset: %d
+# OFDMA symbols: %d
+# subchannels: %d
+Broadcast Control Pointer IE
+PHYMOD_DL_IE
+Preamble Modifier Type: %d
+Preamble Time Shift Index: %d
+Pilot Pattern Modifier: %d
+Pilot Pattern Index: %d
+HARQ_Map_Pointer_IE
+No. Slots: %d
+Map Version: %d
+Idle users: %d
+Sleep users: %d
+CID Mask Length: %d
+CID Mask: 12 bits
+CID Mask: 20 bits
+CID Mask: 36 bits
+CID Mask: 52 bits
+Extended-2 DIUC: %d
+Used subchannels: %d
+Frame Advance: %d
+OFDMA Symbol Offset: %d
+Subchannel Offset: %d
+Preamble Index: %d
+No. OFDMA Symbols: %d
+No. Subchannels: %d
+AAS_DL_IE
+Permutation: %d
+Downlink_preamble_config: %d
+Preamble type: %d
+Diversity Map: %d
+STC_Zone_IE
+Permutations: %d
+Use All SC indicator: %d
+STC: %d
+Matrix indicator: %d
+AMC type: %d
+Midamble Presence: %d
+Midamble Boosting: %d
+2/3 antenna select: %d
+Dedicated Pilots: %d
+Channel_Measurement_IE
+Channel Nr: %d
+CL_MIMO_DL_Enhanced_IE
+Enhanced_DL-MAP_IE
+Num_Assignment: %d
+N_CID: %d
+Region_ID: %d
+HARQ_ACK_IE
+(bitmap data)
+Skip_IE
+Macro_MIMO_DL_Basic_IE
+MIMO_in_another_BS_IE
+CID_Translation_MAP_IE
+HO_Active_Anchor_DL_MAP_IE
+HO_Anchor_Active_DL_MAP_IE
+MBS_MAP_IE
+MBS Zone identifier: %d
+Macro diversity enhanced: %d
+OFDMA_Symbol_Offset: %d
+DIUC_change_indication: %d
+OFDMA Symbols Offset: %d
+SLC_3_indication: %d
+Padding: %d bits
+Dedicated MIMO DL Control IE
+Length (nibbles): %d
+N_layer: %d
+Matrix: %d
+Num_Beamformed_Streams: %d
+CQICH_Num: %d
+Feedback type: %d
+Allocation index: %d
+Antenna Grouping Index: %d
+Num_stream: %d
+Antenna Selection Index: %d
+Codebook Precoding Index: %d
+Dedicated_DL_Control_IE
+Control Header: %d
+Num SDMA Layers: %d
+Reserved bits
+Reduced_AAS_Private_DL-MAP
+NUM IE: %d
+Periodicity: %d
+CID Included: %d
+DCD Count Included: %d
+PHY modification included: %d
+CQICH control indicator: %d
+Encoding Mode: %d
+Separate MCS Enabled: %d
+Report Period: %d
+Report Duration: %d
+CQI Measurement Type: %d
+DCD Count: %d
+Preamble Select: %d
+Preamble Shift Index: %d
+DL Frame Offset: %d
+Zone Symbol Offset: %d
+No. OFDMA triple symbol: %d
+No. subchannels: %d
+No. OFDMA symbols: %d
+DIUC/N(EP): %d
+DL HARQ ACK bitmap: %d
+ACK Allocation Index: %d
+ACID: %d
+AI_SN: %d
+N(SCH): %d
+SPID: %d
+CRC-16: 0x%04x
+CID_Switch_IE
+ (INC_CID = %d)
+RCID_IE
+CID3: %d
+ (CID = %d)
+Prefix: %d
+CID11: %d
+CID7: %d
+AAS_SDMA_DL_IE
+RCID_Type: %d
+Num_Burst_Region: %d
+No. OFDMA triple symbols: %d
+Number of Users: %d
+CQICH Allocation: %d
+ACKCH Allocation: %d
+Preamble Modifier Index: %d
+Pilot Pattern: %d
+ACK CH Index: %d
+Period (p): %d
+Frame offset: %d
+DL_HARQ_Chase_sub_burst_IE
+N sub burst[ISI]: %d
+N ACK channel: %d
+Sub-Burst DIUC Indicator: %d
+ACK disable: %d
+(DL HARQ Chase sub-burst IE)
+MIMO DL STC HARQ sub-burst IE
+TX Count: %d
+Sub-burst offset: %d
+ACK Disable: %d
+MU Indicator: %d
+MIMO DL IR HARQ sub-burst IE
+DL HARQ IR CC sub-burst IE
+DL HARQ IR CTC sub-burst IE
+HARQ_DL_MAP_IE
+Region_ID use indicator: %d
+Number of OFDMA symbols: %d
+Number of subchannels: %d
+Sub-burst IE Length: %d
+(reserved Mode)
+ (Extended-2)
+ (Extended)
+(reserved Extended DIUC: %d)
+ (Gap/PAPR Reduction)
+SUB-DL-UL-MAP
+Padding Nibble
+Phy Synchronization Field
+DL-MAP IEs (%d bytes)
+Padding nibble
+Compressed DL-MAP
+Compressed DL-MAP (%u bytes)
+wmx.map
+WiMax DLMAP/ULMAP (map)
+WiMax DLMAP/ULMAP Messages
+wmx.macmgtmsgtype.dlmap
+wmx.dlmap.bsid
+DCD Count
+wmx.dlmap.dcd
+FCH Expected
+wmx.dlmap.fch_expected
+DL-MAP IE
+wmx.dlmap.ie
+Boosting
+wmx.dlmap.ie.boosting
+wmx.dlmap.ie.cid
+wmx.dlmap.ie.diuc
+N_CID
+wmx.dlmap.ie.ncid
+wmx.dlmap.ie.numsub
+wmx.dlmap.ie.numsym
+wmx.dlmap.ie.offsub
+wmx.dlmap.ie.offsym
+wmx.dlmap.ie.rep
+Num OFDMA Symbols
+wmx.dlmap.ofdma_sym
+wmx.dlmap.phy_fdur
+wmx.dlmap.phy_fnum
+Compressed map indicator
+wmx.dlmapc.compr
+DL IE Count
+wmx.dlmapc.count
+Map message length
+wmx.dlmapc.len
+Operator ID
+wmx.dlmapc.opid
+wmx.dlmapc.rsv
+Sector ID
+wmx.dlmapc.secid
+PHY Synchronization Field
+wmx.dlmapc.sync
+UL-MAP appended
+wmx.dlmapc.ulmap
+wmx.dlmapc.xie_diuc
+wmx.dlmapc.xie_len
+SUB-DL-UL-MAP map indicator
+wmx.dlul.cmi
+DL HARQ ACK offset
+wmx.dlul.dl
+wmx.dlul.dlie
+HARQ ACK offset indicator
+wmx.dlul.haoi
+wmx.dlul.len
+RCID_Type
+wmx.dlul.rcid
+Subchannel offset
+wmx.dlul.subofs
+wmx.dlul.symofs
+wmx.dlul.rsv
+UL HARQ ACK offset
+wmx.dlul.ul
+Multiple IE
+Compressed Map Type
+wmx.compress_dlmap_crc
+Normal (not boosted)
++6dB
+-6dB
++9dB
++3dB
+-3dB
+-9dB
+-12dB
+Reduced_AAS_Private_UL_MAP
+Power Control included: %d
+Include Feedback Header: %d
+UL_PermBase: %d
+Preamble Indication: %d
+Padding: %d
+Zone Length: %d
+UCD Count: %d
+Pilot Pattern Index: %u
+Power Control: %d
+UL Frame Offset: %d
+Slot Offset: %d
+Slot Duration: %d
+UIUC / N(EP): %d
+Feedback_Polling_IE
+Extended-2 UIUC: %d
+Num_Allocation: %d
+Allocation Duration (d): %d
+HARQ_ACKCH_Region_IE
+MIMO_UL_Enhanced_IE
+UL_Sounding_Command_IE
+Sounding_Type: %d
+Send Sounding Report Flag: %d
+Sounding Relevance Flag: %d
+Sounding_Relevance: %d
+Num_Sounding_Symbols: %d
+Separability Type: %d
+Max Cyclic Shift Index P: %d
+Decimation Value D: %d
+Sounding symbol index: %d
+Number of CIDs: %d
+Shorted Basic CID: %d
+Power Assignment Method: %d
+Power boost: %d
+Multi-Antenna Flag: %d
+Allocation Mode: %d
+Band bit map: %d
+Starting frequency band: %d
+Number of frequency bands: %d
+Cyclic time shift index m: %d
+Decimation offset d: %d
+Num_Sounding_symbols: %d
+Shortened basic CID: %d
+Power assignment method: %d
+Anchor_BS_switch_IE
+N_Anchor_BS_switch: %d
+Reduced CID: %d
+Action Code: %d
+Action Time (A): %d
+TEMP_BS_ID: %d
+AK Change Indicator: %d
+CQICH_ID: %d (%d bits)
+Feedback channel offset: %d
+Period (=p): %d
+Duration (=d): %d
+Reserved: %d bits
+HO_Active_Anchor_UL_MAP_IE
+HO_Anchor_Active_UL_MAP_IE
+CQICH_Enhanced_Alloc_IE
+Feedback Type: %d
+CQICH Type: %d
+STTD indication: %d
+Band_AMC_Precoding_Mode: %d
+UL_Allocation_start_IE
+Extended UIUC: %d
+Fast_Ranging_IE
+HO_ID indicator: %d
+HO_ID: %d
+MAC address
+Fast_Tracking_IE
+Map Index: %d
+Power correction: %d
+Frequency correction: %d
+Time correction: %d
+MIMO_UL_Basic_IE
+PHYMOD_UL_IE
+Preamble Time Shift index: %d
+UL_ZONE_IE
+Allocation offset: %d
+Report type: %d
+CINR preamble report type: %d
+Zone permutation: %d
+Zone type: %d
+Zone PRBS_ID: %d
+Major group indicatioon: %d
+PUSC Major group bitmap: %d
+Averaging parameter: %d
+AAS_UL_IE
+AAS zone length: %d
+Uplink peramble config: %d
+Mini_subchannel_allocation_IE
+Ctype: %d
+CID(%d): %d
+UIUC(%d): %d
+Repetition(%d): %d
+Power_Control_IE
+Power measurement frame: %d
+Dedicated_MIMO_UL_Control_IE
+Dedicated_UL_Control_IE
+Num SDMA layers: %d
+AAS_SDMA_UL_IE
+Num Burst Region: %d
+Slot offset: %d
+Slot duration: %d
+Number of users: %d
+Power Adjust: %d
+Power Adjustment: %d
+MIMO_UL_STC_HARQ_Sub_Burst_IE
+Tx count: %d
+MU indicator: %d
+MIMO_UL_IR_HARQ__Sub_Burst_IE
+UL_HARQ_IR_CC_Sub_Burst_IE
+ACK_disable: %d
+UL_HARQ_IR_CTC_Sub_Burst_IE
+ACIN: %d
+UL_HARQ_Chase_Sub_Burst_IE
+HARQ_ULMAP_IE
+N sub Burst: %d
+FAST FEEDBACK Allocation IE
+UIUC: %d (Extended-2 IE)
+PAPR/Safety/Sounding Zone IE
+CDMA allocation IE
+UIUC: %d (Extended IE)
+(reserved Extended UIUC: %d)
+Data Grant Burst Profile
+Compressed UL-MAP
+UL-MAP (%u bytes)
+UL-MAP IEs (%u bytes)
+wmx.macmgtmsgtype.ulmap
+wmx.ulmap.fch.expected
+UL-MAP IE
+wmx.ulmap.ie
+wmx.ulmap.ie.cid
+wmx.ulmap.ie.uiuc
+wmx.ulmap.ofdma.sym
+wmx.ulmap.rsv
+Uplink Channel ID
+wmx.ulmap.start
+UCD Count
+wmx.ulmap.ucd
+No. subchannels
+wmx.ulmap.uiuc0.numsub
+No. OFDMA symbols
+wmx.ulmap.uiuc0.numsym
+wmx.ulmap.uiuc0.rsv
+wmx.ulmap.uiuc0.subofs
+OFDMA symbol offset
+wmx.ulmap.uiuc0.symofs
+wmx.ulmap.uiuc11.data
+Extended 2 UIUC
+wmx.ulmap.uiuc11.ext
+wmx.ulmap.uiuc11.len
+Dedicated ranging indicator
+wmx.ulmap.uiuc12.dri
+wmx.ulmap.uiuc12.dur
+Ranging Method
+wmx.ulmap.uiuc12.method
+No. Subchannels
+wmx.ulmap.uiuc12.numsub
+No. OFDMA Symbols
+wmx.ulmap.uiuc12.numsym
+Repetition Coding indication
+wmx.ulmap.uiuc12.rep
+wmx.ulmap.uiuc12.subofs
+wmx.ulmap.uiuc12.symofs
+wmx.ulmap.uiuc13.numsub
+wmx.ulmap.uiuc13.numsym
+PAPR Reduction/Safety Zone
+wmx.ulmap.uiuc13.papr
+wmx.ulmap.uiuc13.rsv
+wmx.ulmap.uiuc13.subofs
+wmx.ulmap.uiuc13.symofs
+Sounding Zone
+wmx.ulmap.uiuc13.zone
+BW request mandatory
+wmx.ulmap.uiuc14.bwr
+Ranging code
+wmx.ulmap.uiuc14.code
+wmx.ulmap.uiuc14.dur
+Frame Number Index
+wmx.ulmap.uiuc14.idx
+wmx.ulmap.uiuc14.rep
+Ranging subchannel
+wmx.ulmap.uiuc14.sub
+Ranging symbol
+wmx.ulmap.uiuc14.sym
+wmx.ulmap.uiuc14.uiuc
+wmx.ulmap.uiuc15.data
+wmx.ulmap.uiuc15.ext
+wmx.ulmap.uiuc15.len
+AAS zone configuration included: %d
+AAS zone position included: %d
+UL-MAP information included: %d
+Private Map Allocation Start Time: %u
+Dedicated UL Allocation included: %d
+Include additional feedback: %d
+Decimation offset randomization: %d
+Use same symbol for additional feedback: %d
+CQICH Allocation Indicator: %d
+CQICH_ID: n/a (size == 0 bits)
+MIMO_permutation_feedback_code: %d
+Nr_Precoders_Feedback (=N): %d
+UL_PUSC_Burst_Allocation_in_Other_Segment_IE
+Disable subchannel rotation: %d
+Report configuration included: %d
+CINR zone measurement type: %d
+Averaging parameter included: %d
+MIMO_permutation_feedback_cycle: %d
+MIMO_UL_IR_HARQ_for_CC_Sub_Burst_UIE
+Dedicated MIMO UL Control Indicator: %d
+MIMO_UL_Chase_HARQ_Sub_Burst_IE
+Dedicated MIMO ULControl Indicator: %d
+Dedicated UL Control Indicator: %d
+Allocation Start Indication: %d
+(reserved Extended-2 UIUC: %d)
+CDMA Bandwidth/Ranging Request IE
+No. Subchannels/SZ Shift Value
+Power saving class parameters (%u bytes)
+MAC Management Message, RNG-REQ (4)
+Requested Downlink Burst Profile 0x%02x
+Ranging Purpose Flags (%u byte(s))
+Requested downlink repetition coding level (%u byte(s))
+Power Saving Class Parameters (%u byte(s))
+Activation of Power Saving Class (Types 1 and 2 only)
+Definition of Power Saving Class present
+wmx.rng.power_save.definition_present
+Final-sleep window base (measured in frames)
+wmx.rng.power_save.final_sleep_window_base
+Final-sleep window exponent (measured in frames)
+wmx.rng.power_save.final_sleep_window_exp
+Start frame number for first sleep window
+wmx.rng.power_save.first_sleep_window_frame
+CID of connection to be included into the Power Saving Class.
+wmx.rng.power_save.included_cid
+wmx.rng.power_save.initial_sleep_window
+Listening window duration (measured in frames)
+wmx.rng.power_save.listening_window
+Direction for management connection added to Power Saving Class
+wmx.rng.power_save.mgmt_connection_direction
+SLPID assigned by the BS whenever an MS is instructed to enter sleep mode
+BS shall transmit at least one TRF-IND message during each listening window of the Power Saving Class
+wmx.rng.power_save.trf_ind_required
+wmx.rng_req.anomalies.max_power
+wmx.rng_req.anomalies.min_power
+wmx.rng_req.anomalies.timing_adj
+LSB of CCC of DCD associated with DIUC
+wmx.rng_req.dl_burst_profile.ccc
+wmx.rng_req.dl_burst_profile.diuc
+ID from the target BS for use in initial ranging during MS handover to it
+wmx.rng_req.power_down_indicator
+wmx.rng_req.ranging_purpose.ho_indication
+wmx.rng_req.ranging_purpose.reserved
+wmx.rng_req.ranging_purpose.loc_update_req
+wmx.rng_req.repetition_coding_level
+SS cannot receive broadcast messages
+SS can receive broadcast messages
+SS is already at maximum power
+SS is already at minimum power
+Sum of commanded timing adjustments is too large
+Sum of commanded timing adjustments is within bounds
+MS action of Idle Mode Location Update Process
+RNG-REQ TLV error
+Power Saving Class (%u byte)
+Ranging Anomalies %d
+Short HMAC Tuple (%u byte(s))
+wmx.rng
+WiMax RNG-REQ/RSP (rng)
+WiMax RNG-REQ/RSP Messages
+wmx.rng.power_save.activate
+wmx.rng.power_save.class_id
+Power Saving Class Type
+wmx.rng.power_save.class_type
+Initial-sleep window
+wmx.rng.power_save.reserved
+wmx.rng.power_save.slpid
+wmx.macmgtmsgtype.rng_req
+AAS broadcast capability
+wmx.rng_req.aas_broadcast
+Meaning
+CMAC Key Count
+wmx.rng_req.cmac_key_count
+wmx.rng_req.unknown_tlv_type
+wmx.rng_req.invalid_tlv
+wmx.rng_req.ho_id
+Power down Indicator
+MS HO indication
+Location Update Request
+Repetition coding level
+wmx.rng_req.reserved
+Former serving BS ID
+wmx.rng_req.serving_bs_id
+SS MAC Address
+wmx.rng_req.ss_mac_address
+Activate
+Deactivate
+SS is not at maximum power
+SS is not at minimum power
+No repetition
+Repetition coding of 2
+Repetition coding of 4
+Repetition coding of 6
+MAC Management Message, RNG-RSP (5)
+ (during periodic ranging shall not exceed +- 2)
+Power Level Adjust (%u byte(s))
+Offset Frequency Adjust (%u byte(s))
+SBC-RSP Encodings (%u byte(s))
+REG-RSP Encodings (%u byte(s))
+SA Challenge Tuple (%u byte(s))
+Uplink QOS Parameters (%u bytes)
+Downlink QOS Parameters (%u bytes)
+ (shall be set to 2 because Downlink Frequency Override is present)
+ (mutually exclusive with SS MAC Address!)
+ (mutually exclusive with Frame Number!)
+ (mutually exclusive with Initial Ranging Opportunity Number!)
+Configuration Change Count value of DCD defining DIUC associated burst profile
+wmx.rng_rsp.config_change_count_of_dcd
+CCC value of DCD defining the burst profile associated with DIUC
+wmx.rng_rsp.dl_op_burst_prof.ccc
+The least robust DIUC that may be used by the BS for transmissions to the SS
+wmx.rng_rsp.dl_op_burst_prof.diuc
+Downlink Operational Burst Profile
+wmx.rng_rsp.dl_op_burst_profile
+Downlink Operational Burst Profile for OFDMA
+wmx.rng_rsp.dl_op_burst_profile_ofdma
+The 8 least significant bits of the frame number of the OFDMA frame where the SS sent the ranging code
+wmx.rng_rsp.eight_bit_frame_num
+wmx.rng_rsp.ho_process_optimization
+wmx.rng_rsp.ho_process_optimization.omit_sbc_req
+wmx.rng_rsp.ho_process_optimization.perform_reauthentication
+wmx.rng_rsp.ho_process_optimization.omit_network_address
+wmx.rng_rsp.ho_process_optimization.omit_time_of_day
+wmx.rng_rsp.ho_process_optimization.omit_tftp
+wmx.rng_rsp.ho_process_optimization.transfer_or_sharing
+wmx.rng_rsp.ho_process_optimization.omit_reg_req
+wmx.rng_rsp.ho_process_optimization.unsolicited_sbc_rsp
+wmx.rng_rsp.ho_process_optimization.post_ho_reentry
+wmx.rng_rsp.ho_process_optimization.unsolicited_reg_rsp
+wmx.rng_rsp.ho_process_optimization.virtual_sdu_sn
+wmx.rng_rsp.ho_process_optimization.send_notification
+wmx.rng_rsp.ho_process_optimization.trigger_higher_layer_protocol
+wmx.rng_rsp.ho_process_optimization.reserved
+Least Robust DIUC that may be used by the BS for transmissions to the MS
+wmx.rng_rsp.location_update_response
+wmx.rng_rsp.offset_freq_adjust
+Initial ranging opportunity number
+wmx.rng_rsp.opportunity_number
+wmx.rng_rsp.paging_information
+wmx.rng_rsp.power_level_adjust
+The ranging code index that was sent by the SS
+wmx.rng_rsp.ranging_code_index
+wmx.rng_rsp.ranging_subchannel
+wmx.rng_rsp.repetition_coding_indication
+The connection information for the MS is
+wmx.rng_rsp.resource_retain_flag
+wmx.rng_rsp.service_level_prediction
+OFDMA subchannel reference used to transmit the ranging code
+wmx.rng_rsp.subchannel_reference
+OFDM time symbol reference used to transmit the ranging code
+wmx.rng_rsp.time_symbol_reference
+wmx.rng_rsp.ul_chan_id_override
+SS shall not issue contention-based Bandwidth Request
+SS may issue contention-based Bandwidth Request
+SBC-REQ management messages during current re-entry processing required
+Omit SBC-REQ management messages during current re-entry processing
+Perform re-authentication and SA-TEK 3-way handshake. BS should include SA-TEK-Update TLV in the SA-TEK-Response message. In addition, the RNG-RSP message does not include SA-TEK-Update TLV or SA Challenge Tuple TLV.
+SA-TEK-Update TLV is included in the RNG-RSP message. In this case, SA-TEK 3-way handshake is avoided and SA Challenge Tuple TLV shall not be included in the RNG-RSP message.
+Re-authentication and SA-TEK 3-way handshake is not performed. The RNG-RSP message does not include SA-TEK-Update TLV nor SA Challenge Tuple TLV. All the TEKs received from the serving BS are reused
+Network Address Acquisition management messages during current reentry processing required
+Omit Network Address Acquisition management messages during current reentry processing
+Time of Day Acquisition management messages during current reentry processing required
+Omit Time of Day Acquisition management messages during current reentry processing
+TFTP management messages during current re-entry processing required
+Omit TFTP management messages during current re-entry processing
+Full service and operational state transfer or sharing between Serving BS and Target BS required
+Omit Full service and operational state transfer or sharing between Serving BS and Target BS
+REG-REQ management message during current re-entry processing required
+Omit REG-REQ management message during current re-entry processing
+BS shall send not send an unsolicited SBC-RSP management message
+BS shall send an unsolicited SBC-RSP management message
+No post-HO re-entry MS DL data pending at target BS
+post-HO re-entry MS DL data pending at target BS
+BS shall not send an unsolicited REG-RSP management message
+BS shall send an unsolicited REG-RSP management message
+(Target) BS does not support virtual SDU SN
+(Target} BS supports virtual SDU SN
+MS shall not send a notification of MS's successful re-entry registration
+MS shall send a notification of MS's successful re-entry registration
+MS shall not trigger a higher layer protocol required to refresh its traffic IP address
+MS shall trigger a higher layer protocol required to refresh its traffic IP address
+Success of location update and DL traffic pending
+No service possible for this MS
+Some service is available for one or several service flows authorized for the MS
+For each authorized service flow, a MAC connection can be established with QoS specified by the AuthorizedQoSParamSet
+No service level prediction available
+RNG-RSP TLV error
+Timing Adjust (%u byte(s))
+ %.2f modulation symbols
+ %.2f dB
+ %d Hz
+ (may not be 0!)
+ (Ranging status is missing!)
+wmx.macmgtmsgtype.rng_rsp
+AAS broadcast permission
+wmx.rng_rsp.aas_broadcast
+AKId
+wmx.rng_rsp.akid
+wmx.rng_rsp.basic_cid
+BS_Random
+wmx.rng_rsp.bs_random
+Downlink Frequency Override
+wmx.rng_rsp.dl_freq_override
+Frame number
+wmx.rng_rsp.frame_number
+HO ID
+wmx.rng_rsp.ho_id
+HO Process Optimization
+Bit #0
+Bits #1-2
+Bit #3
+Bit #4
+Bit #5
+Bit #6
+Bit #7
+Bit #8
+Bit #9
+Bit #10
+Bit #11
+Bit #12
+Bit #13
+Bit #14: Reserved
+Bit #15: Reserved
+wmx.rng_rsp.invalid_tlv
+wmx.rng_rsp.least_robust_diuc
+Location Update Response
+Offset Frequency Adjust
+Paging Cycle
+wmx.rng_rsp.paging_cycle
+wmx.rng_rsp.paging_group_id
+Paging Information
+Paging Offset
+wmx.rng_rsp.paging_offset
+Power Level Adjust
+Primary Management CID
+wmx.rng_rsp.primary_mgmt_cid
+Ranging status
+wmx.rng_rsp.ranging_status
+Ranging code attributes
+wmx.rng_rsp.reserved
+Service Level Prediction
+wmx.rng_rsp.ss_mac_address
+Timing Adjust
+wmx.rng_rsp.timing_adjust
+wmx.rng_rsp.ul_chan_id
+Uplink channel ID Override
+wmx.rng_rsp.unknown_tlv_type
+wmx.rng_rsp.tlv_value
+Success of Location Update
+Failure of Location Update
+continue
+abort
+rerange
+No repetition coding
+Retained by the BS
+Deleted by the BS
+@wmx.reg
+WiMax REG-REQ/RSP (reg)
+WiMax REG-REQ/RSP Messages
+ (no limit)
+ (Unlimited bytes)
+Handover Support (%d)
+ARQ ACK Type 0x%02x
+BS switching timer (%d)
+CMAC Tuple (%u byte(s))
+ (HMAC Tuple is missing !)
+DHCP
+wmx.reg.alloc_sec_mgmt_dhcp
+DHCPv6
+wmx.reg.alloc_sec_mgmt_dhcpv6
+wmx.reg.alloc_sec_mgmt_ipv6
+Mobile IPv4
+wmx.reg.alloc_sec_mgmt_rsvd
+ARQ support
+wmx.reg.arq
+Cumulative ACK entry
+wmx.reg.arq_ack_type_reserved
+Selective ACK entry
+DSx flow control
+wmx.reg.dsx_flow_control
+Packet, 802.1Q VLAN
+wmx.reg.encap_802_1q
+Packet, 802.3/Ethernet
+wmx.reg.encap_802_3
+wmx.reg.encap_atm
+Packet, IPv4
+wmx.reg.encap_ipv4
+Packet, IPv6
+wmx.reg.encap_ipv6
+Packet, IPv4 over 802.1Q VLAN
+wmx.reg.encap_ipv4_802_1q
+wmx.reg.encap_ipv4_802_3
+Packet, IPv6 over 802.1Q VLAN
+wmx.reg.encap_ipv6_802_1q
+wmx.reg.encap_ipv6_802_3
+wmx.reg.encap_rsvd
+MAC extended rtPS support
+wmx.reg.ext_rtps_support
+wmx.reg.fbss_mdho_ho_disable
+Feedback header support
+wmx.reg.handover_reserved
+MS HO TEK processing time
+Idle Mode Timeout
+wmx.reg.idle_mode_timeout
+IP management mode
+wmx.reg.ip_mgmt_mode
+IP version
+wmx.reg.ip_version
+MAC Address of the SS
+wmx.reg.mac_address
+MAC CRC
+wmx.reg.mac_crc_support
+wmx.reg.max_classifiers
+wmx.reg.max_num_bursts_to_ms
+MCA flow control
+wmx.reg.mca_flow_control
+wmx.reg.mcast_polling_cids
+MDHO UL Multiple transmission
+wmx.reg.mdh_ul_multiple
+wmx.reg.mdho_dl_monitor_maps
+Mobility (handover)
+wmx.reg.mobility_handover
+Idle mode
+wmx.reg.mobility_idle_mode
+Sleep mode
+wmx.reg.mobility_sleep_mode
+wmx.reg.dl_cids_supported
+Packing support
+wmx.reg.packing.support
+wmx.reg.phs
+wmx.reg.reserved
+SDU_SN parameter
+wmx.reg.sdu_sn_parameter
+SN report header support
+SN request extended subheader
+SS management support
+wmx.reg.ss_mgmt_support
+wmx.reg.ul_cids_supported
+wmx.reg.unknown_tlv_type
+wmx.macmgtmsgtype.reg_req
+wmx.reg_req.invalid_tlv
+wmx.reg_req.max_mac_dl_data
+wmx.reg_req.max_mac_ul_data
+MS Previous IP address
+Secondary Management CID
+wmx.reg_req.sleep_recovery
+unsupported
+Disable
+IP-managed mode
+Unmanaged mode
+IPV6
+MAC CRC Support (Default)
+No MAC CRC Support
+no PHS support
+ATM PHS
+ATM and Packet PHS
+ARQ Service Flow Encodings (%u byte(s))
+Classification/PHS options and SDU encapsulation support 0x%04x
+Maximum MAC level data per frame (%u byte(s))
+Method for allocating IP address for the secondary management connection (%d)
+Mobility Features Supported (%d)
+MAC header and extended subheader support %d
+MAC Management Message, REG-REQ (6)
+Uplink Service Flow Encodings (%u byte(s))
+Downlink Service Flow Encodings (%u byte(s))
+IPv6 Stateless Address Autoconfiguration
+wmx.reg.alloc_sec_mgmt_mobile_ipv4
+wmx.reg.arq_ack_type_cumulative_ack_entry
+Cumulative ACK with Block Sequence ACK
+wmx.reg.arq_ack_type_cumulative_ack_with_block_sequence_ack
+Cumulative with Selective ACK entry
+wmx.reg.arq_ack_type_cumulative_with_selective_ack_entry
+wmx.reg.arq_ack_type_selective_ack_entry
+Bandwidth request and CINR report header support
+wmx.reg.bandwidth_request_cinr_report_header_support
+Bandwidth request and uplink sleep control header support
+wmx.reg.bandwidth_request_ul_sleep_control_header_support
+CQICH Allocation Request header support
+wmx.reg.cqich_allocation_request_header_support
+Downlink sleep control extended subheader
+wmx.reg.dl_sleep_control_extended_subheader
+Packet, IPv4 over 802.3/Ethernet
+Packet, IPv6 over 802.3/Ethernet
+Packet, 802.3/Ethernet (with optional 802.1Q VLAN tags) and ECRTP header compression
+wmx.reg.encap_packet_802_3_ethernet_and_ecrtp_header_compression
+Packet, 802.3/Ethernet (with optional 802.1Q VLAN tags) and ROHC header compression
+wmx.reg.encap_packet_802_3_ethernet_and_rohc_header_compression
+Packet, IP (v4 or v6) with ECRTP header compression
+wmx.reg.encap_packet_ip_ecrtp_header_compression
+Packet, IP (v4 or v6) with ROHC header compression
+wmx.reg.encap_packet_ip_rohc_header_compression
+FBSS/MDHO DL RF Combining with monitoring MAPs from active BSs
+wmx.reg.fbss_mdho_dl_rf_combining
+Bandwidth request and UL Tx Power Report header support
+wimax.reg.bandwidth_request_ul_tx_pwr_report_header_support
+MDHO/FBSS HO. BS ignore all other bits when set to 1
+wmx.reg.feedback_header_support
+Feedback request extended subheader
+wmx.reg.feedback_request_extended_subheader
+Handover indication readiness timer
+wmx.reg.handover_indication_readiness_timer
+MS HO connections parameters processing time
+wmx.reg.ho_connections_param_processing_time
+HO Process Optimization MS Timer
+wmx.reg.ho_process_opt_ms_timer
+wmx.reg.ho_tek_processing_time
+Maximum number of classification rules
+Maximum number of bursts transmitted concurrently to the MS
+Multicast polling group CID support
+MDHO DL soft combining with monitoring MAPs from active BSs
+MDHO DL soft Combining with monitoring single MAP from anchor BS
+wmx.reg.mdho_dl_monitor_single_map
+MIMO mode feedback request extended subheader
+wmx.reg.mimo_mode_feedback_request_extended_subheader
+Mini-feedback extended subheader
+wmx.reg.mini_feedback_extended_subheader
+Number of Downlink transport CIDs the SS can support
+PDU SN (long) extended subheader
+wmx.reg.pdu_sn_long_extended_subheader
+PDU SN (short) extended subheader
+wmx.reg.pdu_sn_short_extended_subheader
+PHY channel report header support
+wmx.reg.phy_channel_report_header_support
+SDU_SN extended subheader support
+wmx.reg.sdu_sn_extended_subheader_support
+wmx.reg.sn_report_header_support
+wmx.reg.sn_request_extended_subheader
+Number of Uplink transport CIDs the SS can support
+UL Tx power report extended subheader
+wmx.reg.ul_tx_power_report_extended_subheader
+Maximum MAC level DL data per frame
+Maximum MAC level UL data per frame
+Minimum time for inter-FA HO, default=3
+wmx.reg_req.min_time_for_inter_fa
+Minimum time for intra-FA HO, default=2
+wmx.reg_req.min_time_for_intra_fa
+MS periodic ranging timer information
+wmx.reg_req.ms_periodic_ranging_timer_info
+wmx.reg_req.ms_prev_ip_addr_v4
+wmx.reg_req.ms_prev_ip_addr_v6
+wmx.reg_req.secondary_mgmt_cid
+Frames required for the MS to switch from sleep to awake-mode
+secondary management connection
+no secondary management connection
+MAC Management Message, REG-RSP (7)
+CID update encodings (%u byte(s))
+CID Update Encodings Connection Info (%u byte(s))
+System Resource Retain Time (%u byte(s))
+ (in units of 100 milliseconds)
+ (multiple of 100 milliseconds)
+New CID after handover to new BS
+wmx.reg_rsp.secondary_mgmt_cid
+wmx.reg_rsp.system_resource_retain_time
+Message authentication failure
+REG-RSP TLV error
+wmx.macmgtmsgtype.reg_rsp
+wmx.reg_rsp.invalid_tlv
+wmx.reg_rsp.new_cid_after_ho
+wmx.reg_rsp.response
+Service flow ID
+wmx.reg_rsp.service_flow_id
+System Resource Retain Time
+wmx.reg_rsp.unknown_tlv_type
+wmx.reg_rsp.tlv_value
+MAC Management Message, DREG-CMD (29)
+DREG-CMD sub-TLV's (%u byte(s))
+MAC Management Message, DREG-REQ (49)
+DREG-REQ sub-TLV's (%u byte(s))
+Consider Paging Preference of each Service Flow in resource retention
+wmx.dreg.consider_paging_preference
+wmx.dreg.mac_hash_skip_threshold
+REQ-duration (Waiting value for the DREG-REQ message re-transmission in frames)
+Retain MS service and operation information associated with Full service
+wmx.dreg.retain_ms_full_service
+Retain MS service and operational information associated with Network Address
+wmx.dreg.retain_ms_service_network_address
+Retain MS service and operational information associated with PKM-REQ/RSP
+wmx.dreg.retain_ms_service_pkm
+Retain MS service and operational information associated with REG-REQ/RSP
+wmx.dreg.retain_ms_service_reg
+Retain MS service and operational information associated with SBC-REQ/RSP
+wmx.dreg.retain_ms_service_sbc
+Retain MS service and operational information associated with TFTP messages
+wmx.dreg.retain_ms_service_tftp
+Retain MS service and operational information associated with Time of Day
+wmx.dreg.retain_ms_service_tod
+SS shall immediately terminate service with the BS and should attempt network entry at another BS
+SS shall listen to the current channel BS but shall not transmit until an RES-CMD message or DREG-CMD with Action Code 02 or 03 is received
+SS shall listen to the BS but only transmit on the Basic, and Primary Management Connections
+SS shall return to normal operation and may transmit on any of its active connections
+SS shall terminate current Normal Operations with the BS; the BS shall transmit this action code only in response to any SS DREG-REQ message
+MS shall immediately begin de-registration from serving BS and request initiation of MS Idle Mode
+The MS may retransmit the DREG-REQ message after the time duration (REQ-duration) provided in the message
+The MS shall not retransmit the DREG-REQ message and shall wait for the DREG-CMD message. BS transmittal of a subsequent DREG-CMD with Action Code 03 shall cancel this restriction
+Only valid in response to a DREG-REQ message with DREG Code = 00.  SS shall terminate current Normal Operations with the BS
+Only valid in response to a DREG-REQ message with DREG Code = 01.  The MS may retransmit the DREG-REQ message after the REQ-duration provided in the message; BS sending a subsequent DREG-CMD message with Action Code 03 cancels this restriction
+SS De-Registration request from BS and network
+MS request for De-Registration from serving BS and initiation of Idle Mode
+MS response for the Unsolicited De-Registration initiated by BS
+Reject for the unsolicited DREG-CMD with action code 05 (idle mode request) by the BS.  Applicable only when MS has pending UL data to transmit
+DREG-CMD TLV error
+DREG-REQ TLV error
+wmx.dreg
+WiMax DREG-REQ/CMD (dreg)
+WiMax DREG-REQ/CMD Messages
+wmx.dreg.invalid_tlv
+MAC Hash Skip Threshold
+Paging Controller ID
+wmx.dreg.paging_controller_id
+PAGING CYCLE
+wmx.dreg.paging_cycle
+Paging Cycle Request
+wmx.dreg.paging_cycle_request
+Paging-group-ID
+wmx.dreg.paging_group_id
+PAGING OFFSET
+wmx.dreg.paging_offset
+wmx.dreg.req_duration
+wmx.macmgtmsgtype.dreg_cmd
+DREG-CMD Action code
+wmx.dreg_cmd.action
+wmx.dreg_cmd.action_reserved
+wmx.macmgtmsgtype.dreg_req
+DREG-REQ Action code
+wmx.dreg_req.action
+wmx.dreg_req.action_reserved
+wmx.dreg.unknown_tlv_value
+wmx.ack_type_reserved
+wmx.ds
+WiMax DSA/C/D (ds)
+WiMax DSA/C/D Messages
+wmx.macmgtmsgtype.dsa_ack
+wmx.macmgtmsgtype.dsa_req
+wmx.macmgtmsgtype.dsa_rsp
+Confirmation code
+wmx.dsa.confirmation_code
+Transaction ID
+wmx.dsa.transaction_id
+Dynamic Service Addition Acknowledge (DSA-ACK)
+Dynamic Service Addition Response (DSA-RSP)
+Dynamic Service Addition Request (DSA-REQ)
+wmx.macmgtmsgtype.dsc_ack
+wmx.macmgtmsgtype.dsc_req
+wmx.macmgtmsgtype.dsc_rsp
+wmx.dsc.confirmation_code
+wmx.dsc.transaction_id
+Dynamic Service Change Response (DSC-RSP)
+Dynamic Service Change Request (DSC-REQ)
+Dynamic Service Change Acknowledge (DSC-ACK)
+DSD RSP TLV error
+Unknown TLV (%u byte(s))
+DSD-REQ TLV error
+wmx.macmgtmsgtype.dsd_req
+wmx.macmgtmsgtype.dsd_rsp
+wmx.dsd.confirmation_code
+Service Flow ID
+wmx.dsd.service_flow_id
+wmx.dsd.transaction_id
+Dynamic Service Deletion Response (DSD-RSP)
+Dynamic Service Deletion Request (DSD-REQ)
+MAC Management Message, ARQ-Reset (35)
+MAC Management Message, ARQ-Discard (34)
+MAC Management Message, ARQ-Feedback (33)
+, CID: %u, %s ARQ feedback IE, %s, BSN: %u
+WiMax ARQ Feedback/Discard/Reset (arq)
+WiMax ARQ Feedback/Discard/Reset Messages
+Cumulative ACK with Block Sequence Ack entry
+The ID of the connection being referenced
+Last ARQ feedback IE in the list
+More ARQ feedback IE in the list
+Original message from Initiator
+ARQ_Feedback_IE
+More
+, %u ACK Map(s)
+, %u ARQ_feedback_IE(s)
+wmx.arq
+wmx.macmgtmsgtype.arq
+wmx.arq.ack_type
+wmx.arq.bsn
+wmx.arq.cid
+wmx.arq.discard_bsn
+wmx.arq.discard_cid
+wmx.arq.discard_reserved
+LAST
+wmx.arq.last
+wmx.arq.num_maps
+wmx.arq.reserved
+wmx.arq.reset_cid
+Direction
+wmx.arq.reset_direction
+wmx.arq.reset_reserved
+wmx.arq.reset_type
+wmx.arq.selective_map
+wmx.arq.seq_ack_map
+wmx.arq.seq_format
+wmx.arq.seq1_len
+wmx.arq.seq2_len
+wmx.arq.seq3_len
+wmx.ack_type.reserved
+Uplink or downlink
+Uplink
+Downlink
+Acknowledgment from Responder
+Confirmation from Initiator
+SS Basic Capability Response (SBC-RSP) (%u bytes)
+ us (ranges: TDD 0-50; H-FDD 0-100)
+Current Transmitted Power: %.2f dBm (Value: 0x%x)
+Security Negotiation Parameters (%u bytes)
+SS Basic Capability Request (SBC-REQ) (%u bytes)
+wmx.sbc.association_type_support
+Scanning Without Association: association not supported
+wmx.sbc.association_type_support.bit0
+Association Level 0: scanning or association without coordination
+wmx.sbc.association_type_support.bit1
+Association Level 1: association with coordination
+wmx.sbc.association_type_support.bit2
+Association Level 2: network assisted association
+wmx.sbc.association_type_support.bit3
+wmx.sbc.association_type_support.bit4
+wmx.sbc.association_type_support.reserved
+wmx.sbc.bw_alloc_support.duplex
+wmx.sbc.bw_alloc_support.rsvd0
+wmx.sbc.bw_alloc_support.rsvd1
+Effective CINR Measurement For A Permutation Zone From Preamble
+wmx.sbc.effective_cinr_measure_permutation_zone_preamble
+Effective CINR Measurement For A Permutation Zone From Pilot Subcarriers
+wmx.sbc.effective_cinr_measure_permutation_zone.pilot_subcarriers
+Effective CINR Measurement For A Permutation Zone From Data Subcarriers
+wmx.sbc.effective_cinr_measure_permutation_zone.data_subcarriers
+Supported Extended Subheader Format
+wmx.sbc.extension_capability.bit0
+wmx.sbc.extension_capability.reserved
+Frequency Selectivity Characterization Report
+wmx.sbc.frequency_selectivity_characterization_report
+HARQ Chase Combining And CC-IR Buffer Capability
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.aggregation_flag_dl
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.aggregation_flag_ul
+Downlink HARQ Buffering Capability For Chase Combining (K)
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.dl_harq_buffering_capability_for_chase_combining
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.reserved1
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.reserved2
+Uplink HARQ buffering capability for chase combining (K)
+wmx.sbc.harq_chase_combining_and_cc_ir_buffer_capability.ul_harq_buffering_capability_for_chase_combining
+HARQ Incremental Buffer Capability
+wmx.sbc.harq_incremental_redundancy_buffer_capability
+wmx.sbc.harq_incremental_redundancy_buffer_capability.aggregation_flag_for_dl
+wmx.sbc.harq_incremental_redundancy_buffer_capability.aggregation_flag_for_ul
+NEP Value Indicating Downlink HARQ Buffering Capability For Incremental Redundancy CTC
+wmx.sbc.harq_incremental_redundancy_buffer_capability.dl_incremental_redundancy_ctc
+wmx.sbc.harq_incremental_redundancy_buffer_capability.reserved
+wmx.sbc.harq_incremental_redundancy_buffer_capability.reserved2
+NEP Value Indicating Uplink HARQ Buffering Capability For Incremental Redundancy CTC
+wmx.sbc.harq_incremental_redundancy_buffer_capability.ul_incremental_redundancy_ctc
+wmx.sbc.ho_trigger_metric_support
+wmx.sbc.ho_trigger_metric_support.bit0
+wmx.sbc.ho_trigger_metric_support.bit1
+wmx.sbc.ho_trigger_metric_support.bit2
+wmx.sbc.ho_trigger_metric_support.bit3
+wmx.sbc.ho_trigger_metric_support.reserved
+Capabilities For Construction And Transmission Of MAC PDUs
+Ability To Receive Requests Piggybacked With Data
+Ability To Use 3-bit FSN Values Used When Forming MAC PDUs On Non-ARQ Connections
+Maximum Number Of Burst Per Frame Capability In HARQ
+wmx.sbc.max_num_bst_per_frm_capability_harq
+Maximum Numbers Of DL HARQ Bursts Per HARQ Enabled Of MS Per Frame (default(0)=1)
+wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_dl_harq_bst_per_harq_per_frm
+Maximum Number Of UL HARQ Burst Per HARQ Enabled MS Per Frame (default(0)=1)
+wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_ul_harq_bst
+Whether The Maximum Number Of UL HARQ Bursts Per Frame (i.e. Bits# 2-0) Includes The One Non-HARQ Burst
+wmx.sbc.max_num_bst_per_frm_capability_harq.max_num_ul_harq_per_frm_include_one_non_harq_bst
+Maximum Number Of Security Association Supported By The SS
+wmx.sbc.max_security_associations
+The Number Of DL HARQ ACK Channel
+wmx.sbc.number_dl_arq_ack_channel
+The Number Of UL HARQ ACK Channel
+wmx.sbc.number_ul_arq_ack_channel
+wmx.sbc.ofdma_aas_capabilities.rsvd
+AAS Diversity Map Scan (AAS DLFP)
+wmx.sbc.ofdma_aas_diversity_map_scan
+wmx.sbc.ofdma_aas_fbck_rsp_support
+wmx.sbc.ofdma_downlink_aas_preamble
+OFDMA MS Demodulator For MIMO Support In DL
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit0
+2-antenna STC Matrix B, vertical coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit1
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit2
+2-antenna STC matrix B, horizontal coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit3
+4-antenna STC Matrix B, vertical coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit4
+4-antenna STC Matrix B, horizontal coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit5
+4-antenna STC Matrix C, vertical coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit6
+4-antenna STC Matrix C, horizontal coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit7
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit8
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit9
+3-antenna STC Matrix C, vertical coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit10
+3-antenna STC Matrix C, horizontal coding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit11
+Capable Of Calculating Precoding Weight
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit12
+Capable Of Adaptive Rate Control
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit13
+Capable Of Calculating Channel Matrix
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit14
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit15
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit16
+Capable Of Codebook Based Precoding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit17
+Capable Of Long-term Precoding
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit18
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.bit19
+wmx.sbc.ofdma_ms_demodulator_for_mimo_support_in_dl.reserved
+OFDMA Multiple Downlink Burst Profile Capability
+wmx.sbc.ofdma_multiple_dl_burst_profile_support
+Downlink burst profile for multiple FEC types
+wmx.sbc.ofdma_multiple_dl_burst_profile_support.dl_bst_profile_for_multiple_fec
+wmx.sbc.ofdma_multiple_dl_burst_profile_support.reserved
+Uplink burst profile for multiple FEC types
+wmx.sbc.ofdma_multiple_dl_burst_profile_support.ul_burst_profile_for_multiple_fec_types
+OFDMA SS CINR Measurement Capability
+wmx.sbc.ofdma_ss_cinr_measure_capability
+wmx.sbc.ofdma_ss_mimo_uplink_support
+wmx.sbc.ofdma_ss_mimo_uplink_support.2_antenna_sttd
+2-antenna SM with vertical coding
+wmx.sbc.ofdma_ss_mimo_uplink_support.2_antenna_sm_with_vertical_coding
+wmx.sbc.ofdma_ss_mimo_uplink_support.single_antenna_coop_sm
+wmx.sbc.ofdma_uplink_aas_preamble
+Physical CINR Measurement From The Preamble
+wmx.sbc.phy_cinr_measure_preamble
+Physical CINR Measurement For A Permutation Zone From Pilot Subcarriers
+wmx.sbc.phy_cinr_measure_permutation_zone.pilot_subcarriers
+Physical CINR Measurement For A Permutation Zone From Data Subcarriers
+wmx.sbc.phy_cinr_measure_permutation_zone.data_subcarriers
+Power Save Class Types Capability
+wmx.sbc.power_save_class_types_capability
+wmx.sbc.power_save_class_types_capability.bit0
+wmx.sbc.power_save_class_types_capability.bit1
+wmx.sbc.power_save_class_types_capability.bit2
+Number Of Power Save Class Type Instances Supported From Class Type I and II
+wmx.sbc.power_save_class_types_capability.bits34
+Number Of Power Save Class Type Instances Supported From Class Type III
+wmx.sbc.power_save_class_types_capability.bits567
+wmx.sbc.private_map_concurrency
+wmx.sbc.private_map_dl_frame_offset
+wmx.sbc.private_map_support.ofdma_aas
+wmx.sbc.private_map_support.reduced
+wmx.sbc.private_ul_frame_offset
+wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.a
+2-antenna STC Matrix B, horizontal coding
+wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.b.horizontal
+wmx.sbc.ss_demodulator.mimo.2.antenna.stc.matrix.b.vertical
+wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.a
+wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.b.horizontal
+wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.b.vertical
+wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.c.horizontal
+wmx.sbc.ss_demodulator.mimo.4.antenna.stc.matrix.c.vertical
+wmx.sbc.ss_demodulator.mimo.reserved
+OFDMA SS Demodulator For MIMO Support
+wmx.sbc.ss_demodulator.mimo.support
+OFDMA SS uplink power control support
+wmx.sbc.ofdma_ss_uplink_power_control_support
+wmx.sbc.ofdma_ss_uplink_power_control_support.open_loop
+wmx.sbc.ofdma_ss_uplink_power_control_support.aas_preamble
+wmx.sbc.ofdma_ss_uplink_power_control_support.rsvd
+wmx.sbc.ofdma_map_capability.dl_region_definition_support
+wmx.sbc.ofdma_map_capability.extended_harq
+wmx.sbc.ofdma_map_capability.extended_harq_ie_capability
+wmx.sbc.ofdma_map_capability.harq_map_capability
+The Minimum Number Of Frames That SS Takes To Switch From The Open Loop Power Control Scheme To The Closed Loop Power Control Scheme Or Vice Versa
+wmx.sbc.ofdma_ss_uplink_power_control_support.minimum_num_of_frames
+wmx.sbc.ofdma_map_capability.reserved
+Sub MAP Capability For First Zone
+wmx.sbc.ofdma_map_capability.sub_map_capability_first_zone
+Sub MAP Capability For Other Zones
+wmx.sbc.ofdma_map_capability.sub_map_capability_other_zones
+wmx.sbc.ofdma_ms_csit_capability
+wmx.sbc.ofdma_ms_csit_capability.csit_compatibility_type_a
+wmx.sbc.ofdma_ms_csit_capability.csit_compatibility_type_b
+Max Number Of Simultaneous Sounding Instructions
+wmx.sbc.ofdma_ms_csit_capability.max_num_simultaneous_sounding_instructions
+wmx.sbc.ofdma_ms_csit_capability.power_assignment_capability
+wmx.sbc.ofdma_ms_csit_capability.reserved
+Sounding Response Time Capability
+wmx.sbc.ofdma_ms_csit_capability.sounding_response_time_capability
+SS Does Not Support P Values Of 9 And 18 When Supporting CSIT Type A
+wmx.sbc.ofdma_ms_csit_capability.type_a_support
+Support OFDMA PHY parameter set A
+wmx.sbc.ofdma_parameters_sets.phy_set_a
+Support OFDMA PHY parameter set B
+wmx.sbc.ofdma_parameters_sets.phy_set_b
+wmx.sbc.ofdma_parameters_sets.harq_parameters_set
+Support OFDMA MAC parameters set A
+wmx.sbc.ofdma_parameters_sets.mac_set_a
+Support OFDMA MAC parameters set B
+wmx.sbc.ofdma_parameters_sets.mac_set_b
+wmx.sbc.ofdma_parameters_sets.reserved
+OFDMA SS Modulator For MIMO Support
+wmx.sbc.ofdma_ss_modulator_for_mimo_support
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_adaptive_rate_control
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_beamforming
+Capable of single antenna transmission
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_single_antenna
+Capable of 2-antenna STC Matrix B, Horizontal coding
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_b_horizontal
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.two_transmit_antennas
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_transmit_diversity
+Capable of spatial multiplexing
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_spatial_multiplexing
+Capable of 2-antenna STC Matrix B, Vertical coding
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_b_vertical
+Capable of collaborative SM with one antenna
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.collaborative_sm_with_one_antenna
+Collaborative SM with two antennas
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.collaborative_sm_with_two_antennas
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.capable_of_two_antenna
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.rsvd
+Capable of 2-antenna STC Matrix A
+wmx.sbc.ofdma_ss_modulator_for_mimo_support.stc_matrix_a
+wmx.sbc.sdma_pilot_capability.reserved
+SDMA Pilot Patterns Support For AMC Zone
+wmx.sbc.sdma_pilot_capability.sdma_pilot_pattern_support_for_amc_zone
+wmx.sbc.ss_demodulator.cc_with_optional_interleaver
+wmx.sbc.ss_demodulator.dedicated_pilots
+wmx.sbc.ss_demodulator.harq.cc.ir
+wmx.sbc.ss_demodulator.harq.chase
+wmx.sbc.ss_demodulator.harq.ctc.ir
+wmx.sbc.ss_demodulator.reserved1
+wmx.sbc.ss_demodulator.reserved2
+wmx.sbc.ss_minimum_num_of_frames
+wmx.sbc.ss_mimo_ul_support.rsvd
+wmx.sbc.ss_modulator.harq_chase
+wmx.sbc.ss_permutation_support
+wmx.sbc.ss_permutation_support.amc_1x6
+wmx.sbc.ss_permutation_support.amc_2x3
+wmx.sbc.ss_permutation_support.amc_3x2
+wmx.sbc.ss_permutation_support.amc_support_harq_map
+wmx.sbc.ss_permutation_support.optimal_fusc
+wmx.sbc.ss_permutation_support.optimal_pusc
+wmx.sbc.ss_permutation_support.tusc1_support
+wmx.sbc.ss_permutation_support.tusc2_support
+Support for 2 Concurrent CQI Channels
+wmx.sbc.support_2_concurrent_cqi_channels
+Uplink Control Channel Support
+wmx.sbc.ul_ctl_channel_support
+wmx.sbc.ul_ctl_channel_support.3bit_mimo_fast_feedback
+wmx.sbc.ul_ctl_channel_support.diuc_cqi_fast_feedback
+wmx.sbc.ul_ctl_channel_support.enhanced_fast_feedback
+A Measurement Report Shall Be Performed On The Last DL Burst
+wmx.sbc.ul_ctl_channel_support.measurement_report
+Primary/Secondary FAST_FEEDBACK
+wmx.sbc.ul_ctl_channel_support.primary_secondary_fast_feedback
+wmx.sbc.ul_ctl_channel_support.reserved
+wmx.sbc.ul_ctl_channel_support.uep_fast_feedback
+wmx.sbc.ul_ctl_channel_support.ul_ack
+support SDMA pilot patterns #A and #B
+support all SDMA pilot patterns
+SBC-RSP TLV error
+Invalid SBC TLV type
+BPSK: %.2f dBm
+QPSK: %.2f dBm
+QAM16: %.2f dBm
+QAM64: %.2f dBm
+ (default - no limit)
+SBC-REQ TLV error
+wmx.sbc
+WiMax SBC-REQ/RSP (sbc)
+WiMax SBC-REQ/RSP Messages
+Association Type Support
+Desired Association Support
+Authorization Policy Support
+wmx.sbc.auth_policy
+IEEE 802.16 Privacy
+wmx.sbc.auth_policy.802_16
+wmx.sbc.auth_policy.rsvd
+Bandwidth Allocation Support
+wmx.sbc.bw_alloc_support
+Current transmitted power
+wmx.sbc.curr_transmit_power
+Extension Capability
+wmx.sbc.extension_capability
+Aggregation Flag For DL
+Aggregation Flag for UL
+Aggregation Flag for DL
+Aggregation Flag For UL
+H-ARQ MAP Capability
+wmx.sbc.harq_map_capability
+HO Trigger Metric Support
+BS CINR Mean
+BS RSSI Mean
+BS Relative Delay
+BS RTD
+wmx.sbc.invalid_tlv
+wmx.sbc.mac_pdu
+wmx.sbc.mac_pdu.bit0
+wmx.sbc.mac_pdu.bit1
+OFDMA AAS Capability
+wmx.sbc.ofdma_aas_capability
+AAS-FBCK-RSP Support
+wmx.sbc.ofdma_aas_zone
+Downlink AAS Preamble
+2-antenna STC Matrix A
+Four Receive Antennas
+4-antenna STC Matrix A
+3-antenna STC Matrix A
+3-antenna STC Matrix B
+Capable Of Antenna Grouping
+Capable Of Antenna Selection
+Capable Of MIMO Midamble
+OFDMA SS MIMO uplink support
+2-antenna STTD
+Single-antenna cooperative SM
+Uplink AAS Preamble
+PKM Flow Control
+wmx.sbc.pkm_flow_control
+Power Save Class Type I
+Power Save Class Type II
+Power Save Class Type III
+Private Map Chain Enable
+wmx.sbc.private_chain_enable
+Private Map Chain Concurrency
+Private Map DL Frame Offset
+wmx.sbc.private_map_support
+OFDMA AAS Private Map Support
+Reduced Private Map Support
+Private Map UL Frame Offset
+wmx.sbc.mac_pdu.rsvd
+Maximum Transmit Power
+wmx.sbc.max_transmit_power
+Open loop
+AAS preamble
+DL Region Definition Support
+Support For Extended HARQ
+Extended HARQ IE Capability
+HARQ MAP Capability
+OFDMA MS CSIT Capability
+CSIT Compatibility Type A
+CSIT Compatibility Type B
+Power Assignment Capability
+OFDMA parameters sets
+wmx.sbc.ofdma_parameters_sets
+HARQ parameters set
+Capable Of Beamforming
+Two transmit antennas
+Capable of transmit diversity
+Capable of two antenna
+SDMA Pilot Capability
+wmx.sbc.sdma_pilot_capability
+OFDMA SS Demodulator
+wmx.sbc.ss_demodulator
+64-QAM
+wmx.sbc.ss_demodulator.64qam
+wmx.sbc.ss_demodulator.btc
+CC with Optional Interleaver
+wmx.sbc.ss_demodulator.ctc
+Dedicated Pilots
+HARQ CC_IR
+HARQ Chase
+HARQ CTC_IR
+LDPC
+wmx.sbc.ss_demodulator.ldpc
+wmx.sbc.ss_demodulator.stc
+OFDMA SS FFT Sizes
+wmx.sbc.ss_fft_sizes
+FFT-128
+wmx.sbc.ss_fft_sizes.128
+FFT-256
+wmx.sbc.ss_fft_sizes.256
+FFT-512
+wmx.sbc.ss_fft_sizes.512
+FFT-1024
+wmx.sbc.ss_fft_sizes.1024
+FFT-2048
+wmx.sbc.ss_fft_sizes.2048
+wmx.sbc_ss_fft_sizes_rsvd1
+wmx.sbc.ss_fft_sizes.rsvd2
+SS minimum number of frames
+OFDMA SS Modulator
+wmx.sbc.ss_modulator
+wmx.sbc.ss_modulator.64qam
+wmx.sbc.ss_modulator.btc
+wmx.sbc.ss_modulator.cc_ir
+wmx.sbc.ss_modulator.ctc
+wmx.sbc.ss_modulator.ctc_ir
+wmx.sbc.ss_modulator.ldpc
+wmx.sbc.ss_modulator.stc
+OFMDA SS Permutation Support
+AMC 1x6 
+AMC 2x3 
+AMC 3x2 
+AMC Support With H-ARQ Map 
+Optional FUSC
+Optional PUSC
+TUSC1
+TUSC2
+SSRTG
+wmx.sbc.ssrtg
+SSTTG
+wmx.sbc.ssttg
+Subscriber Transition Gaps
+wmx.sbc.transition_gaps
+3-bit MIMO Fast-feedback
+DIUC-CQI Fast-feedback
+Enhanced Fast_feedback
+UEP Fast-feedback
+UL ACK
+wmx.macmgtmsgtype.sbc_req
+wmx.macmgtmsgtype.sbc_rsp
+Unknown SBC type
+wmx.sbc.unknown_tlv_type
+Half-Duplex
+Full-Duplex
+0.5ms
+0.75ms
+1.25ms
+1.5ms
+min(2, Next Frame)
+min(5, Next Frame)
+Next Frame
+HARQ set 1
+HARQ set 2
+HARQ set 3
+HARQ set 4
+HARQ set 5
+no support
+?Privacy Key Management Response (PKM-RSP) (%u bytes)
+Privacy Key Management Request (PKM-REQ) (%u bytes)
+PKMv2 Authenticated EAP-Transfer
+PKMv2 Group-Key-Update-Command
+wmx.pkm
+WiMax PKM-REQ/RSP (pkm)
+WiMax PKM-REQ/RSP Messages
+wmx.pkm.msg_code
+PKM Identifier
+wmx.pkm.msg_pkm_identifier
+wmx.macmgtmsgtype.pkm_req
+wmx.macmgtmsgtype.pkm_rsp
+SA ADD
+Auth Request
+Auth Reply
+Auth Reject
+Key Request
+Key Reply
+Key Reject
+Auth Invalid
+TEK Invalid
+Auth Info
+PKMv2 RSA-Request
+PKMv2 RSA-Reply
+PKMv2 RSA-Reject
+PKMv2 RSA-Acknowledgement
+PKMv2 EAP Start
+PKMv2 EAP-Transfer
+PKMv2 SA TEK Challenge
+PKMv2 SA TEK Request
+PKMv2 SA TEK Response
+PKMv2 Key-Request
+PKMv2 Key-Reply
+PKMv2 Key-Reject
+PKMv2 SA-Addition
+PKMv2 TEK-Invalid
+PKMv2 EAP Complete
+PKMv2 Authenticated EAP Start
+AAS Channel Feedback Response (AAS-FBCK-RSP) (%u bytes)
+AAS Channel Feedback Request (AAS-FBCK-REQ) (%u bytes)
+WiMax AAS-FEEDBACK/BEAM Messages
+Frequency Value (imaginary part)
+Frequency Measurement Resolution
+measure on downlink preamble only
+measure on downlink data (for this SS) only
+wmx.aas
+WiMax AAS-FEEDBACK/BEAM (aas)
+wmx.macmgtmsgtype.aas_fbck
+CINR Mean Value
+wmx.aas_fbck.cinr_mean_value
+Feedback Request Counter
+wmx.aas_fbck.counter
+wmx.aas_fbck.frame_number
+Frequency Value (real part)
+wmx.aas_fbck.freq_value_re
+wmx.aas_fbck.freq_value_im
+Number Of Frames
+wmx.aas_fbck.number_of_frames
+wmx.aas_fbck.resolution
+RSSI Mean Value
+wmx.aas_fbck.rssi_mean_value
+Unknown TLV type
+wmx.aas_fbck.unknown_type
+Measurement Data Type
+wmx.aas_fbck_req.data_type
+wmx.aas_fbck_req.reserved
+wmx.aas_fbck_rsp.counter
+wmx.aas_fbck_rsp.data_type
+wmx.aas_fbck_rsp.reserved
+wmx.aas_fbck_rsp.resolution
+32 subcarriers
+64 subcarriers
+128 subcarriers
+256 subcarriers
+1 subcarrier
+16 subcarriers
+MAC Management Message, FPC (38)
+Power Adjust.  Signed change in power level (incr of 0.25dB) that the SS shall apply to its current power setting
+Power measurement frame.  The 8 LSB of the frame number in which the BS measured the power corrections referred to in the message
+wmx.fpc.power_measurement_frame
+wmx.fpc
+WiMax FPC (fpc)
+WiMax FPC Message
+wmx.macmgtmsgtype.fpc
+wmx.fpc.basic_cid
+wmx.fpc.invalid_tlv
+Number of stations
+wmx.fpc.number_stations
+wmx.fpc.power_adjust
+MAC Management Message, PMC-REQ (63)
+MAC Management Message, PMC-RSP (64)
+wmx.pmc_req.power_control_mode
+UL Tx power level for the burst that carries this header (11.1.1). When the Tx power is different from slot to slot, the maximum value is reported
+Offset_BS per MS.  Signed change in power level (incr of 0.25 dB) that the MS shall apply to the open loop power control formula in 8.4.10.3.2
+Power adjust.  Signed change in power level (incr of 0.25 dB) the MS shall apply to its current transmission power. When subchannelization is employed, the SS shall interpret as a required change to the Tx power density
+Start frame.  Apply mode change from current frame when 6 LSBs of frame match this
+MS requests to change the power control mode
+MS confirms the receipt of PMC_RSP from BS
+Closed loop power control mode
+Open loop power control passive mode
+Open loop power control active mode
+Open loop power control passive mode with Offset_SSperSS retention
+Open loop power control passive mode with Offset_SSperSS reset
+wmx.pmc
+WiMax PMC-REQ/RSP (pmc)
+WiMax PMC-REQ/RSP Messages
+wmx.macmgtmsgtype.pmc_req
+Confirmation
+wmx.pmc_req.confirmation
+Power control mode change
+wmx.pmc_req.reserved
+wmx.pmc_req.ul_tx_power_level
+wmx.macmgtmsgtype.pmc_rsp
+wmx.pmc_rsp.offset_BS_per_MS
+wmx.pmc_rsp.power_adjust
+wmx.pmc_rsp.start_frame
+MAC Management Message, PRC-LT-CTRL (65)
+Setup/Tear-down long-term precoding with feedback
+BS precoding application delay
+wimax.prc_lt_ctrl.precoding_delay
+wmx.prc
+WiMax PRC-LT-CTRL (prc)
+WiMax PRC-LT-CTRL Message
+wmx.macmgtmsgtype.prc_lt_ctrl
+wmx.prc_lt_ctrl.invalid_tlv
+wimax.prc_lt_ctrl.precoding
+Turn off
+Turn on
+AAS Beam Select (AAS-BEAM-SELECT) (%u bytes)
+AAS Beam Response (AAS-BEAM-RSP) (%u bytes)
+AAS Beam Request (AAS-BEAM-REQ) (%u bytes)
+mac_mgmt_msg_aas_beam_select_handler
+wmx.aas_beam.feedback_request_number
+wmx.aas_beam.measurement_report_type
+wmx.aas_beam.resolution_parameter
+wmx.macmgtmsgtype.aas_beam
+AAS Beam Index
+wmx.aas_beam.aas_beam_index
+Beam Bit Mask
+wmx.aas_beam.beam_bit_mask
+wmx.aas_beam.cinr_mean_value
+Feedback Request Number
+wmx.aas_beam.frame_number
+wmx.aas_beam.freq_value_im
+wmx.aas_beam.freq_value_re
+Measurement Report Type
+wmx.aas_beam.reserved
+Resolution Parameter
+wmx.aas_beam.rssi_mean_value
+wmx.aas_beam.unknown_type
+BEAM_REP_IE
+report every 4th subcarrier
+report every 8th subcarrier
+report every 16th subcarrier
+report every 32nd subcarrier
+report every 64th subcarrier
+Reset Command (RES-CMD) (%u bytes)
+RES-CMD TLV error
+wmx.res
+WiMax RES-CMD (res)
+WiMax RES-CMD Message
+wmx.macmgtmsgtype.res_cmd
+wmx.res_cmd.invalid_tlv
+wmx.res_cmd.unknown_tlv_type
+Report Response (REP-RSP) (%u bytes)
+REP-RSP report subtype TLV error
+REP-RSP channel subtype TLV error
+REP-RSP zone-specific phy CINR report subtype TLV error
+REP-RSP preamble physical CINR report subtype TLV error
+REP-RSP zone-specific effective CINR report subtype TLV error
+REP-RSP preamble effective CINR report subtype TLV error
+Report Request (REP-REQ) (%u bytes)
+REP-REQ Report Request TLV error
+wmx.rep_req.channel_selectivity_report
+Include Frequency Selectivity Report
+wmx.rep_req.channel_selectivity_report.bit0
+wmx.rep_req.channel_selectivity_report.bit1_7
+wmx.rep_req.channel_type.request
+wmx.rep_req.channel_type.reserved
+Preamble Effective CINR Request
+wmx.rep_req.preamble_effective_cinr_request
+Type Of Preamble Physical CINR Measurement
+wmx.rep_req.preamble_effective_cinr_request.bit0_1
+wmx.rep_req.preamble_effective_cinr_request.bit2_7
+Preamble Physical CINR Request
+wmx.rep_req.preamble_phy_cinr_request
+wmx.rep_req.preamble_phy_cinr_request.bit0_1
+Alpha (ave) in multiples of 1/16
+wmx.rep_req.preamble_phy_cinr_request.bit2_5
+wmx.rep_req.preamble_phy_cinr_request.bit6
+wmx.rep_req.preamble_phy_cinr_request.bit7
+Alpha (ave) in multiples of 1/32
+wmx.rep_req.report_type.bit3_6
+Include Current Transmit Power Report
+The 4 least significant bits of CQICH_ID
+wmx.rep_req.zone_spec_effective_cinr_report.cqich_id_4
+The 3 least significant bits of CQICH_ID
+wmx.rep_req.zone_spec_effective_cinr_report.cqich_id
+wmx.rep_req.zone_spec_effective_cinr_report.effective_cinr
+wmx.rep_req.zone_spec_effective_cinr_report.report_type
+Zone-specific Effective CINR Request
+wmx.rep_req.zone_spec_effective_cinr_request
+Type Of Zone On Which CINR Is To Be Reported
+wmx.rep_req.zone_spec_effective_cinr_request.bit0_2
+wmx.rep_req.zone_spec_effective_cinr_request.bit3
+wmx.rep_req.zone_spec_effective_cinr_request.bit4
+wmx.rep_req.zone_spec_effective_cinr_request.bit5_6
+wmx.rep_req.zone_spec_effective_cinr_request.bit7
+wmx.rep_req.zone_spec_effective_cinr_request.bit8_13
+wmx.rep_req.zone_spec_effective_cinr_request.bit14_15
+wmx.rep_req.zone_spec_phy_cinr_report.deviation
+wmx.rep_req.zone_spec_phy_cinr_report.mean
+wmx.rep_req.zone_spec_phy_cinr_report.report_type
+wmx.rep_req.zone_spec_phy_cinr_report.reserved1
+wmx.rep_req.zone_spec_phy_cinr_report.reserved2
+Zone-specific Physical CINR Request
+wmx.rep_req.zone_spec_phy_cinr_request
+wmx.rep_req.zone_spec_phy_cinr_request.bit0_2
+wmx.rep_req.zone_spec_phy_cinr_request.bit3
+wmx.rep_req.zone_spec_phy_cinr_request.bit4
+wmx.rep_req.zone_spec_phy_cinr_request.bit5_6
+wmx.rep_req.zone_spec_phy_cinr_request.bit7
+wmx.rep_req.zone_spec_phy_cinr_request.bit8_13
+wmx.rep_req.zone_spec_phy_cinr_request.bit14_17
+wmx.rep_req.zone_spec_phy_cinr_request.bit18
+wmx.rep_req.zone_spec_phy_cinr_request.bit19_23
+wmx.rep_rsp.channel_selectivity_report
+Frequency Selectivity Report a
+wmx.rep_rsp.channel_selectivity_report.frequency_a
+Frequency Selectivity Report b
+wmx.rep_rsp.channel_selectivity_report.frequency_b
+Frequency Selectivity Report c
+wmx.rep_rsp.channel_selectivity_report.frequency_c
+wmx.rep_rsp.channel_type_report
+wmx.rep_rsp.channel_type_report.band_amc
+wmx.rep_rsp.channel_type_report.enhanced_band_amc
+wmx.rep_rsp.channel_type_report.safety_channel
+wmx.rep_rsp.channel_type_report.sounding
+wmx.rep_rsp.channel_type_report.subchannel
+Preamble Effective CINR Report
+wmx.rep_rsp.preamble_effective_cinr_report
+The Estimation Of Effective CINR Measured From Preamble For Frequency Reuse Configuration=1
+wmx.rep_rsp.preamble_effective_cinr_report.configuration_1
+The Estimation Of Effective CINR Measured From Preamble For Frequency Reuse Configuration=3
+wmx.rep_rsp.preamble_effective_cinr_report.configuration_3
+wmx.rep_rsp.preamble_phy_cinr_report
+The Estimation Of Physical CINR Measured From Preamble For Band AMC Zone
+wmx.rep_rsp.preamble_phy_cinr_report.band_amc_zone
+The Estimation Of Physical CINR Measured From Preamble For Frequency Reuse Configuration=1
+wmx.rep_rsp.preamble_phy_cinr_report.configuration_1
+The Estimation Of Physical CINR Measured From Preamble For Frequency Reuse Configuration=3
+wmx.rep_rsp.preamble_phy_cinr_report.configuration_3
+wmx.rep_rsp.report_type.basic_report
+wmx.rep_rsp.report_type.basic_report.bit0
+wmx.rep_rsp.report_type.basic_report.bit1
+Specific Spectrum User Detected
+wmx.rep_rsp.report_type.basic_report.bit2
+wmx.rep_rsp.report_type.basic_report.bit3
+wmx.rep_rsp.report_type.basic_report.reserved
+wmx.rep_rsp.report_type.channel_number
+wmx.rep_rsp.report_type.cinr_report
+wmx.rep_rsp.report_type.cinr_report_deviation
+wmx.rep_rsp.report_type.cinr_report_mean
+wmx.rep_rsp.report_type.duration
+wmx.rep_rsp.report_type.frame_number
+wmx.rep_rsp.report_type.rssi_report
+wmx.rep_rsp.report_type.rssi_report_deviation
+wmx.rep_rsp.current_transmitted_power
+wmx.rep_rsp.report_type.rssi_report_mean
+Zone-specific Effective CINR Report
+wmx.rep_rsp.zone_spec_effective_cinr_report
+wmx.rep_rsp.zone_spec_effective_cinr_report.amc_aas
+wmx.rep_rsp.zone_spec_effective_cinr_report.fusc
+wmx.rep_rsp.zone_spec_effective_cinr_report.optional_fusc
+wmx.rep_rsp.zone_spec_effective_cinr_report.pusc_sc0
+wmx.rep_rsp.zone_spec_effective_cinr_report.pusc_sc1
+Zone-specific Physical CINR Report
+wmx.rep_rsp.zone_spec_phy_cinr_report
+wmx.rep_rsp.zone_spec_phy_cinr_report.amc
+wmx.rep_rsp.zone_spec_phy_cinr_report.fusc
+wmx.rep_rsp.zone_spec_phy_cinr_report.optional_fusc
+wmx.rep_rsp.zone_spec_phy_cinr_report.pusc_sc0
+wmx.rep_rsp.zone_spec_phy_cinr_report.pusc_sc1
+wmx.rep_rsp.zone_spec_phy_cinr_report.safety_channel
+From Preamble For Frequency Reuse Configuration 1
+From Preamble For Frequency Reuse Configuration 3
+Both Mean And Standard Deviation Of CINR
+PUSC Zone with 'use all SC=1'/PUSC AAS Zone
+AMC Zone (only applicable to AAS zone)
+REP-RSP TLV error
+ (%d dBm)
+ (%.1f dBm)
+REP-REQ TLV error
+Channel Type (%u byte(s))
+wmx.rep
+WiMax REP-REQ/RSP (rep)
+WiMax REP-REQ/RSP Messages
+wmx.rep.invalid_tlv
+wmx.macmgtmsgtype.rep_req
+Channel Number
+wmx.rep_req.channel_number
+Channel Selectivity Report
+Channel Type Request
+CINR Report Type
+Report Request
+wmx.rep_req.report_request
+wmx.rep_req.report_type
+Include DFS Basic Report
+wmx.rep_req.report_type.bit0
+Include CINR Report
+wmx.rep_req.report_type.bit1
+Include RSSI Report
+wmx.rep_req.report_type.bit2
+wmx.rep_req.report_type.bit7
+Effective CINR
+Effective CINR Report
+STC Zone
+PRBS ID
+CINR Measurement Report
+PUSC Major Group Map
+Standard Deviation of CINR
+Mean of Physical CINR
+wmx.macmgtmsgtype.rep_rsp
+Channel Type Report
+Enhanced Band AMC
+Safety Channel
+Sounding
+Normal Subchannel
+Preamble Physical CINR Report
+wmx.rep_rsp.report_type
+Wireless HUMAN Detected
+Unknown Transmission Detected
+Channel Not Measured
+Start Frame
+RSSI Standard Deviation
+Current Transmitted Power
+AMC AAS Zone
+Optional FUSC Zone
+PUSC Zone (use all SC=0)
+PUSC Zone (use all SC=1)
+AMC Zone
+wmx.rep.unknown_tlv_type
+Band AMC Channel
+From Preamble For Band AMC
+Mean Of CINR Only
+From Pilot Subcarriers
+From Data Subcarriers
+PUSC Zone with 'use all SC=0'
+Safety Channel Region
+CClock Comparision (CLK-CMP) (%u bytes)
+wmx.clk
+WiMax CLK-CMP (clk)
+WiMax CLK-CMP Message
+wmx.macmgtmsgtype.clk_cmp
+Clock Count
+wmx.clk_cmp.clock_count
+Clock ID
+wmx.clk_cmp.clock_id
+Comparision Value
+wmx.clk_cmp.comparision_value
+wmx.clk_cmp.invalid_tlv
+wmx.clk_cmp.seq_number
+DSx Received (DSX-RVD) (%u bytes)
+wmx.dsx
+WiMax DSX-RVD (dsx)
+WiMax DSX-RVD Message
+wmx.macmgtmsgtype.dsx_rvd
+wmx.dsx_rvd.confirmation_code
+wmx.dsx_rvd.transaction_id
+HARQ-MAP Message: 
+HARQ-MAP Message (%u bytes)
+ - DL-MAP IEs
+,UL-MAP IEs
+,Padding
+Padding Nibble: 0x%x
+,CRC
+HARQ MAP Indicator
+wmx.harq_map.indicator
+HARQ UL-MAP Appended
+wmx.harq_map.ul_map_appended
+wmx.harq_map.reserved
+Map Message Length
+wmx.harq_map.msg_length
+wmx.harq_map.dl_ie_count
+HARQ MAP Message CRC
+wmx.harq_map.msg_crc
+DL-MAP Type
+wmx.compact_dlmap.dl_map_type
+UL-MAP Append
+wmx.compact_dlmap.reserved
+Nep Code
+wmx.compact_dlmap.nep_code
+Nsch Code
+wmx.compact_dlmap.nsch_code
+Number Of Bands
+wmx.compact_dlmap.num_bands
+Band Index
+wmx.compact_dlmap.band_index
+wmx.compact_dlmap.nb_bitmap
+Shortened UIUC
+Shortened DIUC
+Companded SC
+BIN Offset
+wmx.compact_dlmap.bin_offset
+Number Of Subchannels
+BIT MAP Length
+BIT MAP
+wmx.compact_dlmap.bit_map
+wmx.compact_dlmap.diuc
+Allocation Mode
+DL-MAP Reserved Type
+New Format Indication
+CID Type
+Safety Pattern
+Subchannel Type For Band AMC
+Max Logical Bands
+Normal CID
+Prefix
+wmx.harq_map.rcid_ie.prefix
+3 LSB Of Basic CID
+wmx.harq_map.rcid_ie.cid3
+7 LSB Of Basic CID
+wmx.harq_map.rcid_ie.cid7
+11 LSB Of Basic CID
+wmx.harq_map.rcid_ie.cid11
+Subpacket ID (SPID)
+HARQ CH ID (ACID)
+CQICH Indicator
+Allocation Index
+PERIOD
+CQI Reporting Threshold
+wmx.extension_type.subtype
+Extension Length
+wmx.extension_type.length
+Time Diversity MBS
+HARQ Mode Switch
+wmx.extension_type.harq_mode
+Unknown Extension Subtype
+STC_Zone_IE (not implemented)
+AAS_DL_IE (not implemented)
+Unknown Extended DIUC
+New format
+No new format
+RCID11 (default)
+RCID7
+RCID3
+Default Type
+1 bin x 6 symbols Type
+2 bin x 3 symbols Type
+3 bin x 2 symbols Type
+3 Bands
+6 Bands
+12 Bands (default)
+24 Bands
+Enable HARQ
+Temporary Disable HARQ
+With CQICH Control IE
+No CQICH Control IE
+wmx.compact_dlmap.ul_map_append
+Number Of Bits For Band BITMAP
+wmx.compact_dlmap.shortened_uiuc
+wmx.compact_dlmap.shortened_diuc
+wmx.compact_dlmap.companded_sc
+wmx.compact_dlmap.diuc_num_of_subchannels
+wmx.compact_dlmap.diuc_repetition_coding_indication
+wmx.compact_dlmap.diuc_reserved
+wmx.compact_dlmap.bit_map_length
+wmx.compact_dlmap.allocation_mode
+wmx.compact_dlmap.allocation_mode_rsvd
+wmx.compact_dlmap.num_subchannels
+wmx.compact_dlmap.reserved_type
+wmx.format_config_ie.dl_map_type
+wmx.format_config_ie.new_format_indication
+wmx.harq_map.format_config_ie.indicator
+wmx.harq_map.format_config_ie.cid_type
+wmx.harq_map.format_config_ie.safety_pattern
+wmx.harq_map.format_config_ie.subchannel_type
+wmx.harq_map.format_config_ie.max_logical_bands
+Number Of Symbols for Broadcast
+wmx.harq_map.format_config_ie.num_of_broadcast_symbol
+wmx.harq_map.num_of_broadcast_symbol
+wmx.harq_map.format_config_ie.num_of_dl_band_amc_symbol
+wmx.harq_map.num_of_dl_band_amc_symbol
+wmx.harq_map.format_config_ie.num_of_ul_band_amc_symbol
+wmx.harq_map.num_of_ul_band_amc_symbol
+wmx.harq_map.rcid_ie.normal_cid
+11 LSB Of Multicast, AAS or Broadcast CID
+wmx.harq_map.harq_control_ie.prefix
+HARQ ID Sequence Number(AI_SN)
+wmx.harq_map.harq_control_ie.ai_sn
+wmx.harq_map.harq_control_ie.spid
+wmx.harq_map.harq_control_ie.acid
+wmx.harq_map.harq_control_ie.reserved
+wmx.harq_map.cqich_control_ie.cqich_indicator
+wmx.harq_map.cqich_control_ie.alloc_id
+wmx.harq_map.cqich_control_ie.period
+wmx.harq_map.cqich_control_ie.frame_offset
+wmx.harq_map.cqich_control_ie.duration
+wmx.harq_map.cqich_control_ie.cqi_rep_threshold
+wmx.extension_type.dl_map_type
+wmx.extension_type.time_diversity_mbs
+wmx.extension_type.unknown_sub_type
+wmx.extended_diuc_dependent_ie.diuc
+wmx.extended_diuc_dependent_ie.length
+Channel_Measurement_IE (not implemented)
+wmx.extended_diuc_dependent_ie.channel_measurement
+wmx.extended_diuc_dependent_ie.stc_zone
+wmx.extended_diuc_dependent_ie.aas_dl
+Data_location_in_another_BS_IE (not implemented)
+wmx.extended_diuc_dependent_ie.data_location
+CID_Switch_IE (not implemented)
+wmx.extended_diuc_dependent_ie.cid_switch
+MIMO_DL_Basic_IE (not implemented)
+wmx.extended_diuc_dependent_ie.mimo_dl_basic
+MIMO_DL_Enhanced_IE (not implemented)
+wmx.extended_diuc_dependent_ie.mimo_dl_enhanced
+HARQ_Map_Pointer_IE (not implemented)
+wmx.extended_diuc_dependent_ie.harq_map_pointer
+PHYMOD_DL_IE (not implemented)
+wmx.extended_diuc_dependent_ie.phymod_dl
+DL_PUSC_Burst_Allocation_in_Other_Segment_IE (not implemented)
+wmx.extended_diuc_dependent_ie.dl_pusc_burst_allocation
+UL_interference_and_noise_level_IE (not implemented)
+wmx.extended_diuc_dependent_ie.ul_interference_and_noise_level
+wmx.extended_diuc_dependent_ie.unknown_diuc
+Same Number Of Subchannels For The Selected Bands
+Different Same Number Of Subchannels For The Selected Bands
+Total Number Of Subchannels For The Selected Bands Determined by Nsch Code and Nep Code
+UL-MAP Type
+wmx.compact_ulmap.ul_map_type
+wmx.compact_ulmap.reserved
+wmx.compact_ulmap.nep_code
+wmx.compact_ulmap.nsch_code
+wmx.compact_ulmap.num_bands
+wmx.compact_ulmap.band_index
+wmx.compact_ulmap.nb_bitmap
+wmx.compact_ulmap.bin_offset
+wmx.compact_ulmap.uiuc
+Number Of OFDMA Symbols
+HARQ Region Change Indication
+CQI Region Change Indication
+UL-MAP Reserved Type
+wmx.cdma_allocation.duration
+UIUC For Transmission
+wmx.cdma_allocation.uiuc
+Ranging Symbol
+Ranging Subchannel
+BW Request Mandatory
+wmx.cdma_allocation.bw_req
+wmx.extended_uiuc_ie.uiuc
+wmx.extended_uiuc_ie.length
+Power Control
+Power Measurement Frame
+C Type
+Repetition
+AAS_UL_IE (not implemented)
+wmx.extended_uiuc_ie.aas_ul
+UL Zone IE (not implemented)
+wmx.extended_uiuc_ie.ul_zone
+Unknown Extended UIUC
+Region Changed
+No Region Change
+wmx.compact_ulmap.shortened_uiuc
+wmx.compact_ulmap.companded_sc
+wmx.compact_ulmap.allocation_mode
+wmx.compact_ulmap.allocation_mode_rsvd
+wmx.compact_ulmap.num_subchannels
+wmx.compact_ulmap.uiuc_ofdma_symbol_offset
+wmx.compact_ulmap.uiuc_subchannel_offset
+wmx.compact_ulmap.uiuc_num_of_ofdma_symbols
+wmx.compact_ulmap.uiuc_num_of_subchannels
+wmx.compact_ulmap.uiuc_ranging_method
+wmx.compact_ulmap.uiuc_reserved
+wmx.compact_ulmap.uiuc_repetition_coding_indication
+wmx.compact_ulmap.uiuc_reserved1
+wmx.compact_ulmap.harq_region_change_indication
+wmx.compact_ulmap.cqi_region_change_indication
+wmx.compact_ulmap.reserved_type
+wmx.extension_type.ul_map_type
+wmx.cdma_allocation.allocation_repetition
+Frame Number Index (LSBs of relevant frame number)
+wmx.cdma_allocation.frame_number_index
+wmx.cdma_allocation.ranging_code
+wmx.cdma_allocation.ranging_symbol
+wmx.cdma_allocation.ranging_subchannel
+wmx.extended_uiuc_ie.power_control
+wmx.extended_uiuc_ie.power_measurement_frame
+wmx.extended_uiuc_ie.mini_subchannel_alloc.ctype
+wmx.extended_uiuc_ie.mini_subchannel_alloc.duration
+wmx.extended_uiuc_ie.mini_subchannel_alloc.cid
+wmx.extended_uiuc_ie.mini_subchannel_alloc.uiuc
+wmx.extended_uiuc_ie.mini_subchannel_alloc.repetition
+wmx.extended_uiuc_ie.mini_subchannel_alloc.padding
+CQICH Allocation IE (not implemented)
+wmx.extended_uiuc_ie.cqich_alloc
+MIMO UL Basic IE (not implemented)
+wmx.extended_uiuc_ie.mimo_ul_basic
+UL-MAP Fast Tracking IE (not implemented)
+wmx.extended_uiuc_ie.fast_tracking
+Fast Ranging IE (not implemented)
+wmx.extended_uiuc_ie.fast_ranging
+UL-MAP Physical Modifier IE (not implemented)
+wmx.extended_uiuc_ie.phymod_ul
+UL_PUSC_Burst_Allocation_in_Other_Segment_IE (not implemented)
+wmx.extended_uiuc_ie.ul_pusc_burst_allocation
+UL Allocation Start IE (not implemented)
+wmx.extended_uiuc_ie.ul_allocation_start
+wmx.extended_uiuc.unknown_uiuc
+2 Mini-subchannels (defines M=2)
+3 Mini-subchannels (defines M=3)
+6 Mini-subchannels (defines M=6)
+Invalid SA-Descriptor
+SA-Descriptor TLV error
+Invalid PKM Config Settings
+PKM Config Settings TLV error
+Invalid TEK Params
+TEK Param TLV error
+Invalid Crypto Suite List
+Crypto Suite List TLV error
+Invalid Security Capabilities
+Invalid PKM TLV
+PKM TLV error
+TEK Parameters (%u bytes)
+SA-Descriptor (%u bytes)
+Invalid Vendor Specific Info
+Invalid TLV info
+Vendor Specific Length: %u
+Short-HMAC Tuple (%u bytes)
+CMAC Tuple (%u bytes)
+Invalid Error Parameter Set
+EPS TLV error
+CSPER TLV error
+ATM Classifier TLV error
+PHS n Rule TLV error
+ (allowed values are 0-7)
+ bps
+ bytes
+ ( %d bytes )
+Invalid Common TLV encoding
+Common TLV encoding TLV error
+Vendor ID Encoding (%u bytes)
+wmx.sub
+WiMax Sub-TLV (sub)
+WiMax Sub-TLV Messages
+wmx.sfe.sf_id
+wmx.sfe.cid
+wmx.sfe.service_class_name
+MBS Service
+wmx.sfe.mbs_service
+QoS Parameter Set Type
+wmx.sfe.qos_params_set
+Provisioned Set
+Admitted Set
+Active Set
+wmx.sfe.qos_params_set.active
+wmx.sfe.qos_params_set.rsvd
+Traffic Priority
+wmx.sfe.traffic_priority
+wmx.sfe.msr
+Maximum Traffic Burst
+wmx.sfe.max_traffic_burst
+Minimum Reserved Traffic Rate
+wmx.sfe.mrr
+wmx.sfe.reserved_10
+Uplink Grant Scheduling Type
+Request/Transmission Policy
+wmx.sfe.req_tx_policy
+wmx.sfe.policy.broadcast_bwr
+wmx.sfe.policy.bit1
+wmx.sfe.policy.piggyback
+wmx.sfe.policy.fragment
+wmx.sfe.policy.headers
+wmx.sfe.policy.packing
+wmx.sfe.policy.crc
+wmx.sfe.policy.rsvd1
+Tolerated Jitter
+wmx.sfe.jitter
+Maximum Latency
+wmx.sfe.max_latency
+Fixed/Variable Length SDU
+wmx.sfe.fixed_len_sdu
+SDU Size
+wmx.sfe.sdu_size
+SAID Onto Which SF Is Mapped
+wmx.sfe.target_said
+ARQ Enable
+wmx.arq.enable
+ARQ Window Size
+wmx.arq.window_size
+wmx.arq.transmitter_delay
+wmx.arq.receiver_delay
+wmx.arq.block_lifetime
+wmx.arq.sync_loss_timeout
+ARQ Deliver In Order
+wmx.arq.deliver_in_order
+wmx.arq.rx_purge_timeout
+ARQ Block Size
+wmx.arq.block_size
+ARQ Minumum Block Size
+wmx.arq.min_block_size
+ARQ Maximum Block Size
+wmx.arq.max_block_size
+CS Specification
+wmx.sfe.cs_specification
+Time Base
+wmx.sfe.time_base
+Paging Preference
+wmx.sfe.paging_preference
+MBS Zone Identifier
+wmx.sfe.mbs_zone_identifier
+wmx.sfe.reserved_34
+Global Service Class Name
+wmx.sfe.reserved_36
+SN Feedback
+wmx.sfe.sn_feedback_enabled
+FSN Size
+wmx.sfe.fsn_size
+CID Allocation For Active BSs
+Unsolicited Grant Interval
+Unsolicited Polling Interval
+MBS contents IDs
+wmx.sfe.mbs_contents_ids
+MBS Contents ID
+wmx.sfe.mbs_contents_ids_id
+HARQ Service Flows
+wmx.sfe.harq_service_flows
+Authorization Token
+wmx.sfe.authorization_token
+HARQ Channel Mapping
+wmx.sfe.harq_channel_mapping
+HARQ Channel Index
+Unknown SFE TLV type
+wmx.sfe.unknown_type
+Classifier DSC Action
+wmx.cst.classifier_action
+Errored Parameter
+Error Code
+wmx.cst.error_set.error_code
+Error Message
+wmx.cst.error_set.error_msg
+Packet Classification Rule
+wmx.cst.pkt_class_rule
+Classification Rule Priority
+ToS-Low
+ToS-High
+ToS-Mask
+IP Masked Source Address
+IP Masked Destination Address
+IPv4 Source Address
+IPv4 Destination Address
+IPv4 Mask
+IPv6 Source Address
+IPv6 Destination Address
+IPv6 Mask
+Protocol Source Port Range
+Src-Port Low
+Src-Port High
+Dst-Port Low
+Dst-Port High
+Destination MAC Address
+Source MAC Address
+MAC Address Mask
+Ethertype
+Eprot1
+wmx.cst.pkt_class_rule.eprot1
+Eprot2
+wmx.cst.pkt_class_rule.eprot2
+Pri-Low
+Pri-High
+IEEE Std 802.1Q-1998 VLAN_ID
+Vlan_Id1
+Vlan_Id2
+Associated PHSI
+wmx.cst.pkt_class_rule.phsi
+wmx.cst.pkt_class_rule.index
+Large Context ID
+wmx.cst.large_context_id
+Short-Format Context ID
+Classifier Action Rule
+PHS DSC action
+wmx.cst.phs_dsc_action
+PHS Rule
+wmx.cst.phs_rule
+wmx.cst.phs_rule.phsi
+PHSF
+wmx.cst.phs_rule.phsf
+wmx.cst.phs_rule.phsm
+PHSS
+wmx.cst.phs_rule.phss
+PHSV
+wmx.cst.phs_rule.phsv
+wmx.cst.phs.vendor_spec
+IPv6 Flow Label
+ATM Switching Encoding
+ATM Classifier TLV
+wmx.csper.atm_classifier
+VPI Classifier
+wmx.csper.atm_classifier_vpi
+VCI Classifier
+wmx.csper.atm_classifier_vci
+Classifier ID
+wmx.csper.atm_classifier_tlv
+Unknown CSPER TLV type
+wmx.csper.unknown_type
+wmx.cst.invalid_tlv
+wmx.xmac_tuple.reserved
+Key Sequence Number
+wmx.xmac_tuple.key_sn
+HMAC Digest
+wmx.xmac_tuple.hmac_digest
+BSID
+wmx.cmac_tuple.bsid
+CMAC Value
+wmx.cmac_tuple.cmac.value
+Packet Number Counter
+PKM Version Support
+PKM version 1
+PKM version 2
+CMAC
+64-bit Short-HMAC
+80-bit Short-HMAC
+96-bit Short-HMAC
+PN Window Size
+Display String
+Auth Key
+wmx.pkm_msg.pkm_attr.auth_key
+wmx.pkm_msg.pkm_attr.tek
+Key Lifetime
+HMAC-Digest
+SAID
+wmx.pkm_msg.pkm_attr.said
+CBC IV
+wmx.pkm_msg.pkm_attr.cbc_iv
+CA Certificate
+SS Certificate
+Cryptography
+SA Type
+wmx.pkm_msg.pkm_attr.sa_type
+TEK Grace Time (in seconds)
+Nonce
+wmx.pkm_msg.pkm_attr.nonce
+SS_RANDOM
+BS_RANDOM
+Pre-PAK
+wmx.pkm_msg.pkm_attr.pre_pak
+PAK/AK Sequence Number
+BS Certificate
+SigBS
+wmx.pkm_msg.pkm_attr.sig_bs
+MS-MAC Address
+CMAC Digest
+Key Push Modes
+Key Push Counter
+GKEK
+wmx.pkm_msg.pkm_attr.gkek
+SigSS
+wmx.pkm_msg.pkm_attr.sig_ss
+AKID
+wmx.pkm_msg.pkm_attr.akid
+EAP Payload
+Auth Result Code
+SA Service Type
+GKEK Parameters
+Unknown Type
+wmx.pkm.unknown.type
+wmx.common_tlv.mac_version
+Vendor ID Encoding
+Vendor Specific Type
+Vendor Specific Length Size
+Vendor Specific Length
+Vendor Specific Value
+Unknown Common TLV Type
+wmx.common_tlv.unknown_type
+No available MBS
+Single-BS-MBS
+Multi-BS-MBS
+BE (default)
+nrtPS
+Extended rtPS
+Fixed-length SDUs
+ARQ not requested/accepted
+ARQ requested/accepted
+Packet, IEEE 802.3/Ethernet
+Packet, IEEE 802.1Q VLAN
+Continuing grant service
+Best-efforts service
+No paging generation
+Paging generation
+Is disabled (default)
+Is enabled
+3-bit FSN
+11-bit FSN (default)
+Non HARQ (default)
+HARQ connection
+DSC Add Classifier
+DSC Replace Classifier
+DSC Delete Classifier
+OK/success
+Reject-other
+Reject-not-owner
+Reject-service-flow-not-found
+Reject-service-flow-exists
+Reject-header-suppression
+Reject-unknown-transaction-id
+Reject-authentication-failure
+Reject-add-aborted
+None
+Discarded packet
+Add PHS rule
+Set PHS rule
+Delete PHS rule
+Delete all PHS rules
+Verify
+Don't verify
+VP switching
+VC switching
+All (no information)
+Auth Invalid (unsolicited)
+No data encryption
+CBC-Mode, 56-bit DES
+CCM-Mode, 128-bit AES
+CBC-Mode, 128-bit AES
+No data authentication
+3-DES EDE with 128-bit key
+RSA with 1024-bit key
+ECB mode AES with 128-bit key
+AES key wrap with 128-bit key
+Primary
+Static
+Dynamic
+GKEK update mode
+GTEK update mode
+Success
+Unicast service
+Group multicast service
+MBS service
+Security Capabilities TLV error
+Cryptographic-Suite List (%u bytes)
+Invalid Security Negotiation Parameters
+Security Negotiation Params TLV error
+Security Capabilities (%u bytes)
+PKM Configuration Settings (%u bytes)
+Vendor Specific Info TLV error
+Error Parameter Set (%u bytes)
+Convergence Service Parameter Encoding Rules (%u bytes)
+Invalid Convergence Service Parameter Encoding Rules
+Classifier Error Parameter Set (%u byte(s))
+Packet Classification Rule TLV error
+Invalid Service Flow Encodings
+Service Flow Encodings TLV error
+CS Parameter Encoding Rules (%u byte(s))
+Vendor-Specific Information (%u bytes)
+Uplink Service Flow Encodings (%u bytes)
+Downlink Service Flow Encodings (%u bytes)
+Current Transmitted Power (%u byte(s))
+MAC Version Encoding (%u byte)
+wmx.sfe.qos_params_set.provisioned
+wmx.sfe.qos_params_set.admitted
+Maximum Sustained Traffic Rate
+wmx.sfe.uplink_grant_scheduling
+The Service Flow Shall Not Use Broadcast Bandwidth Request Opportunities
+The Service Flow Shall Not Use Multicast Bandwidth Request Opportunities
+The Service Flow Shall Not Piggyback Requests With Data
+The Service Flow Shall Not Fragment Data
+The Service Flow Shall Not Suppress Payload Headers
+The Service Flow Shall Not Pack Multiple SDUs (Or Fragments) Into Single MAC PDUs
+The Service Flow Shall Not Include CRC In The MAC PDU
+ARQ Transmitter Delay (10us granularity)
+ARQ Receiver Delay (10us granularity)
+ARQ Block Lifetime (10us granularity)
+ARQ Sync Loss Timeout (10us granularity)
+ARQ Transmitter Delay (100us granularity)
+ARQ Receiver Delay (100us granularity)
+ARQ Block Lifetime (100us granularity)
+ARQ Sync Loss Timeout (100us granularity)
+ARQ RX Purge Timeout (100us granularity)
+Type of Data Delivery Services
+wmx.sfe.type_of_data_delivery_services
+SDU Inter-Arrival Interval (in the resolution of 0.5 ms)
+wmx.sfe.sdu_inter_arrival_interval
+wmx.sfe.global_service_class_name
+wmx.sfe.cid_alloc_for_active_bs
+wmx.sfe.cid_alloc_for_active_bs_cid
+wmx.sfe.unsolicited_grant_interval
+wmx.sfe.unsolicited_polling_interval
+PDU SN Extended Subheader For HARQ Reordering
+wmx.sfe.pdu_sn_ext_subheader_reorder
+wmx.sfe.harq_channel_mapping.index
+wmx.cst.error_set.errored_param
+wmx.cst.pkt_class_rule.priority
+ToS/Differentiated Services Codepoint (DSCP) Range And Mask
+wmx.cst.pkt_class_rule.range_mask
+wmx.cst.pkt_class_rule.tos-low
+wmx.cst.pkt_class_rule.tos-high
+wmx.cst.pkt_class_rule.tos-mask
+wmx.cst.pkt_class_rule.protocol
+wmx.cst.pkt_class_rule.ip_masked_src_address
+wmx.cst.pkt_class_rule.ip_masked_dest_address
+wmx.cst.pkt_class_rule.src_ipv4
+wmx.cst.pkt_class_rule.dst_ipv4
+wmx.cst.pkt_class_rule.mask_ipv4
+wmx.cst.pkt_class_rule.src_ipv6
+wmx.cst.pkt_class_rule.dst_ipv6
+wmx.cst.pkt_class_rule.mask_ipv6
+wmx.cst.pkt_class_rule.prot_src_port_range
+wmx.cst.pkt_class_rule.src_port_low
+wmx.cst.pkt_class_rule.src_port_high
+Protocol Destination Port Range
+wmx.cst.pkt_class_rule.prot_dest_port_range
+wmx.cst.pkt_class_rule.dst_port_low
+wmx.cst.pkt_class_rule.dst_port_high
+802.3/Ethernet Destination MAC Address
+wmx.cst.pkt_class_rule.dest_mac_address
+wmx.cst.pkt_class_rule.dst_mac
+802.3/Ethernet Source MAC Address
+wmx.cst.pkt_class_rule.src_mac_address
+wmx.cst.pkt_class_rule.src_mac
+wmx.cst.pkt_class_rule.mask_mac
+Ethertype/IEEE Std 802.2-1998 SAP
+wmx.cst.pkt_class_rule.ethertype
+IEEE Std 802.1D-1998 User_Priority
+wmx.cst.pkt_class_rule.user_priority
+wmx.cst.pkt_class_rule.pri-low
+wmx.cst.pkt_class_rule.pri-high
+wmx.cst.pkt_class_rule.vlan_id
+wmx.cst.pkt_class_rule.vlan_id1
+wmx.cst.pkt_class_rule.vlan_id2
+Packet Classifier Rule Index (PCRI)
+wmx.cst.short_format_context_id
+Vendor-Specific Classifier Parameters
+wmx.cst.pkt_class_rule.vendor_spec
+wmx.cst.pkt_class_rule.classifier.action.rule
+wmx.cst.pkt_class_rule.classifier.action.rule.bit0
+wmx.cst.pkt_class_rule.classifier.action.rule.reserved
+PHSM (bit x: 0-don't suppress the (x+1) byte; 1-suppress the (x+1) byte)
+Vendor-Specific PHS Parameters
+wmx.cst.pkt_class_rule.ipv6_flow_label
+wmx.csper.atm_switching_encoding
+wmx.xmac_tuple.packet_number_count
+wmx.security_negotiation_parameters.pkm_version_support
+wmx.security_negotiation_parameters.pkm_version_support.bit0
+wmx.security_negotiation_parameters.pkm_version_support.bit1
+wmx.security_negotiation_parameters.pkm_version_support.reserved
+wmx.security_negotiation_parameters.auth_policy_support
+RSA-based Authorization At The Initial Network Entry
+wmx.security_negotiation_parameters.auth_policy_support.bit0
+EAP-based Authorization At The Initial Network Entry
+wmx.security_negotiation_parameters.auth_policy_support.bit1
+Authenticated EAP-based Authorization At The Initial Network Entry
+wmx.security_negotiation_parameters.auth_policy_support.bit2
+wmx.security_negotiation_parameters.auth_policy_support.bit3
+RSA-based Authorization At Re-entry
+wmx.security_negotiation_parameters.auth_policy_support.bit4
+EAP-based Authorization At Re-entry
+wmx.security_negotiation_parameters.auth_policy_support.bit5
+Authenticated EAP-based Authorization At Re-entry
+wmx.security_negotiation_parameters.auth_policy_support.bit6
+wmx.security_negotiation_parameters.auth_policy_support.bit7
+MAC (Message Authentication Code) Mode
+wmx.security_negotiation_parameters.mac_mode
+wmx.security_negotiation_parameters.mac_mode.bit0
+wmx.security_negotiation_parameters.mac_mode.bit1
+wmx.security_negotiation_parameters.mac_mode.bit1_rsvd
+wmx.security_negotiation_parameters.mac_mode.bit2
+wmx.security_negotiation_parameters.mac_mode.bit3
+wmx.security_negotiation_parameters.mac_mode.bit4
+wmx.security_negotiation_parameters.mac_mode.bit5
+wmx.security_negotiation_parameters.mac_mode.reserved
+wmx.security_negotiation_parameters.pn_window_size
+Maximum concurrent transactions (0 indicates no limit)
+wmx.security_negotiation_parameters.max_conc_transactions
+Maximum number of security associations supported by the SS
+wmx.security_negotiation_parameters.max_suppt_sec_assns
+Unknown Security Negotiation Parameter type
+wmx.security_negotiation_parameters.unknown.type
+wmx.pkm_msg.pkm_attr.display_string
+wmx.pkm_msg.pkm_attr.key_life_time
+wmx.pkm_msg.pkm_attr.key_seq_num
+wmx.pkm_msg.pkm_attr.hmac_digest
+wmx.pkm_msg.pkm_attr.error_code
+wmx.pkm_msg.pkm_attr.ca_certificate
+wmx.pkm_msg.pkm_attr.ss_certificate
+wmx.pkm_msg.pkm_attr.crypto_suite
+Data Encryption Algorithm Identifiers
+wmx.pkm_msg.pkm_attr.crypto_suite.msb
+Data Authentication Algorithm Identifiers
+wmx.pkm_msg.pkm_attr.crypto_suite.middle
+TEK Encryption Algorithm Identifiers
+wmx.pkm_msg.pkm_attr.crypto_suite.lsb
+Authorize Wait Timeout (in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.authorize_waitout
+Reauthorize Wait Timeout (in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.reauthorize_waitout
+Authorization Grace Time (in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.grace_time
+Operational Wait Timeout (in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.operational_wait_timeout
+Rekey Wait Timeout (in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.rekey_wait_timeout
+wmx.pkm_msg.pkm_attr.config_settings.tek_grace_time
+Authorize Reject Wait Timeout(in seconds)
+wmx.pkm_msg.pkm_attr.config_settings.authorize_reject_wait_timeout
+wmx.pkm_msg.pkm_attr.ss_random
+wmx.pkm_msg.pkm_attr.bs_random
+wmx.pkm_msg.pkm_attr.pak_ak_seq_number
+wmx.pkm_msg.pkm_attr.bs_certificate
+wmx.pkm_msg.pkm_attr.ms_mac_address
+wmx.pkm_msg.pkm_attr.cmac_digest
+CMAC Packet Number counter, CMAC_PN_*
+wmx.pkm_msg.pkm_attr.cmac_digest.pn
+wmx.pkm_msg.pkm_attr.cmac_digest.value
+wmx.pkm_msg.pkm_attr.key_push_modes
+wmx.pkm_msg.pkm_attr.key_push_counter
+wmx.pkm_msg.pkm_attr.eap_payload
+wmx.pkm_msg.pkm_attr.auth_result_code
+wmx.pkm_msg.pkm_attr.sa_service_type
+wmx.pkm_msg.pkm_attr.frame_number
+Associated GKEK Sequence Number
+wmx.pkm_msg.pkm_attr.associated_gkek_seq_number
+wmx.pkm_msg.pkm_attr.gkek_params
+wmx.common_tlv.vendor_id_encoding
+wmx.common_tlv.vendor_specific_type
+wmx.common_tlv.vendor_specific_length_size
+wmx.common_tlv.vendor_specific_length
+wmx.common_tlv.vendor_specific_value
+Undefined (BS implementation-dependent)
+Variable-length SDUs (default)
+Order of delivery is not preserved
+Order of delivery is preserved
+Packet, IPv4 over IEEE 802.3/Ethernet
+Packet, IPv6 over IEEE 802.3/Ethernet
+Packet, IPv4 over IEEE 802.1Q VLAN
+Packet, IPv6 over IEEE 802.1Q VLAN
+Packet, IEEE 802.3/Ethernet with ROCH header compression
+Packet, IEEE 802.3/Ethernet with ECRTP header compression
+Packet, IP2 with ROCH header compression
+Packet, IP2 with ECRTP header compression
+Real time variable rate service
+Non-real time variable rate service
+Extended real-time variable rate service
+No support for PDU SN in this connection (default)
+PDU SN (short) extended Subheader
+PDU SN (long) extended Subheader
+Reject-unrecognized-configuration-setting
+Reject-temporary / reject-resource
+Reject-permanent / reject-admin
+Reject-required-parameter-not-present
+Reject-exceeded-dynamic-service-limit
+Reject-not-authorized-for-the-request-SAID
+Reject-fail-to-establish-the-requested-SA
+Reject-not-supported-parameter
+Reject-not-supported-parameter-value
+No switching methodology applied
+Auth Reject Auth Invalid (unauthorized SS)
+Auth Reject, Key Reject (unauthorized SAID)
+Auth Invalid, TEK Invalid (invalid key sequence number)
+Auth Invalid (message (key request) authorization failure)
+Auth Reject (permanent authorization failure)
+CTR-Mode, 128-bit AES for MBS with 8 bit ROC
+B c0
+s2R"
+b$C4 
+S6r&
+>2.Q
+P%@Fpg`
+RwbVr
+ftGd$T
+Wfvv
+F4VL
+DXeH
+uJTZ7j
+ld\EL
+n6~UNt^
+wimax.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

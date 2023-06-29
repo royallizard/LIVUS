@@ -1,0 +1,541 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_context_find
+ast_context_remove_extension2
+ast_context_destroy
+ast_context_find_or_create
+__strdup
+ast_add_extension2
+ast_register_application2
+ast_log
+pthread_mutex_unlock
+ast_hangup
+ast_cdr_failed
+ast_cdr_busy
+__manager_event
+strlen
+memcpy
+option_verbose
+ast_options
+__snprintf_chk
+ast_shrink_phone_number
+ast_privacy_check
+ast_verbose_get_by_file
+__ast_verbose
+ast_config_AST_DATA_DIR
+ast_mkdir
+ast_fileexists
+ast_dsp_get_threshold_from_settings
+ast_answer
+ast_play_and_record
+ast_streamfile
+ast_waitstream
+ast_filedelete
+strerror
+__stack_chk_fail
+ast_indicate
+__ast_string_field_ptr_grow
+__ast_string_field_alloc_space
+ast_autoservice_start
+ast_autoservice_stop
+ast_play_and_wait
+ast_moh_stop
+ast_privacy_set
+__ast_string_field_empty
+ast_moh_start
+ast_app_options2str64
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+ast_get_hint
+ast_goto_if_exists
+strchr
+strtol
+pthread_mutex_lock
+pbx_builtin_getvar_helper
+ast_true
+time
+pbx_builtin_setvar_helper
+ast_app_separate_args
+ast_app_parse_options64
+ast_cdr_reset
+dial_features_info
+ast_datastore_alloc
+malloc
+ast_channel_datastore_add
+calloc
+dialed_interface_info
+ast_channel_datastore_find
+strcasecmp
+ast_channel_datastore_remove
+ast_cdr_setdestchan
+ast_channel_supports_html
+option_debug
+ast_channel_sendurl
+pbx_findapp
+strcpy
+ast_request
+ast_rtp_make_compatible
+ast_channel_inherit_variables
+ast_channel_datastore_inherit
+ast_app_group_set_channel
+ast_call
+ast_debug_get_by_file
+ast_channel_early_bridge
+ast_check_hangup
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+pthread_mutexattr_destroy
+ast_cause2str
+ast_set_callerid
+ast_waitfor_n
+ast_cdr_noanswer
+ast_read
+ast_frame_free
+ast_channel_sendhtml
+ast_write
+ast_channel_make_compatible
+pbx_exec
+__asprintf_chk
+gettimeofday
+ast_tvadd
+ast_dtmf_stream
+ast_deactivate_generator
+strncmp
+ast_bridge_call
+ast_datastore_free
+ast_indicate_data
+ast_exists_extension
+ast_spawn_extension
+ast_parseable_goto
+ast_pbx_start
+ast_senddigit
+strncasecmp
+ast_pbx_run_args
+__errno_location
+ast_channel_setoption
+ast_waitfordigit
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.2.5
+ATSubH
+fff.
+AUATA
+[]A\A]
+ffffff.
+T$0L
+L$(H
+D$ H
+AWAVI
+\$'H
+t$'H
+[A\A]A^A_
+fffff.
+[A\A]A^A_
+fffff.
+ffff.
+AWAVI
+AUATI
+[A\A]A^A_
+D$h1
+D$hdH3
+\$pH
+l$xL
+AWAVAUI
+ATSH
+INVALIDAL
+d$'I
+[A\A]A^A_
+\$'H
+d$'I
+NOANSWERL
+ANSWH
+\$'H
+\$'H
+t$'I
+CHANUNAVH
+CHANUNAVL
+BUSY
+\$'H
+\$'H
+fff.
+AWAVAUATI
+[A\A]A^A_
+fffff.
+app_dial_gosub_virtual_context
+Dial virtual context 'app_dial_gosub_virtual_context' does not exist and unable to create
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+SubEvent: Begin
+Channel: %s
+Destination: %s
+CallerIDNum: %s
+CallerIDName: %s
+UniqueID: %s
+DestUniqueID: %s
+Dialstring: %s
+    -- Privacy DB is '%s', clid is '%s'
+    -- Privacy Screening, clid is '%s'
+    -- Privacy-- callerid is empty
+    -- CallerID set (%s); N option set; Screening should be off
+    -- CallerID blank; N option set; Screening should happen; dbval is %d
+    -- Privacy DB reports PRIVACY_DENY for this callerid. Dial reports unavailable
+privacy: can't create directory priv-callerintros: %s
+privacy: ast_filedelete didn't do its job on %s
+    -- Successfully deleted %s intro file
+    -- --Set privacy database entry %s/%s to %s
+privacy: no valid response from the callee. Sending the caller to voicemail, the callee isn't responding
+Dial does not accept L(%s), hanging up.
+    -- Setting call duration limit to %.3lf seconds.
+    -- Limit Data for this call:
+       > timelimit      = %ld
+       > play_warning   = %ld
+       > warning_freq   = %ld
+Dial requires an argument (technology/number)
+    -- Setting operator services mode to %d.
+Dial does not accept S(%s), hanging up.
+Unable to create channel datastore for dial features. Aborting!
+Unable to allocate memory for feature flags. Aborting!
+Dial argument takes format (technology/[device:]number1)
+Unable to create channel datastore for dialed interfaces. Aborting!
+Skipping dialing interface '%s' again since it has already been dialed
+Unable to create channel of type '%s' (cause %d - %s)
+Invalid timeout specified: '%s'. Setting timeout to infinite
+  == Everyone is busy/congested at this time (%d:%d/%d/%d)
+    -- No one is available to answer at this time (%d:%d/%d/%d)
+    -- Now forwarding %s to '%s/%s' (thanks to %s)
+    -- Forwarding %s to '%s/%s' prevented.
+Unable to create local channel for call forward to '%s/%s' (cause = %d)
+Failed to dial on local channel for call forward to '%s'
+    -- %s is making progress passing it to %s
+    -- %s requested a video update, passing it to %s
+    -- %s requested a source update, passing it to %s
+    -- %s is proceeding passing it to %s
+    -- Call on %s placed on hold
+    -- Call on %s left from hold
+Dunno what to do with control type %d
+    -- User hit %c to disconnect call.
+Unable to forward voice or dtmf
+    -- %s requested special control %d, passing it to %s
+    -- Nobody picked up in %d ms
+Unable to start autoservice on calling channel
+Could not find application Macro
+Could not stop autoservice on calling channel
+Could not Allocate string for Gosub arguments -- Gosub Call Aborted!
+Could not find application Gosub
+    -- Sending DTMF '%s' to the called party.
+    -- Sending DTMF '%s' to the calling party.
+Had to drop call because I couldn't make %s compatible with %s
+Spawn extension (%s,%s,%d) exited non-zero on '%s'
+  == Spawn extension (%s, %s, %d) exited non-zero on '%s'
+SubEvent: End
+Channel: %s
+UniqueID: %s
+DialStatus: %s
+RetryDial requires an argument!
+%s requires a 4th argument (dialdata)
+Announce file "%s" specified in Retrydial does not exist
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  Dial(Technology/resource[&Tech2/resource2...][,timeout][,options][,URL]):
+This application will place calls to one or more specified channels. As soon
+as one of the requested channels answers, the originating channel will be
+answered, if it has not already been answered. These two channels will then
+be active in a bridged call. All other channels that were requested will then
+be hung up.
+  Unless there is a timeout specified, the Dial application will wait
+indefinitely until one of the called channels answers, the user hangs up, or
+if all of the called channels are busy or unavailable. Dialplan executing will
+continue if no requested channels can be called, or if the timeout expires.
+  This application sets the following channel variables upon completion:
+    DIALEDTIME   - This is the time from dialing a channel until when it
+                   is disconnected.
+    ANSWEREDTIME - This is the amount of time for actual call.
+    DIALSTATUS   - This is the status of the call:
+                   CHANUNAVAIL | CONGESTION | NOANSWER | BUSY | ANSWER | CANCEL
+                   DONTCALL | TORTURE | INVALIDARGS
+  For the Privacy and Screening Modes, the DIALSTATUS variable will be set to
+DONTCALL if the called party chooses to send the calling party to the 'Go Away'
+script. The DIALSTATUS variable will be set to TORTURE if the called party
+wants to send the caller to the 'torture' script.
+  This application will report normal termination if the originating channel
+hangs up, or if the call is bridged and either of the parties in the bridge
+ends the call.
+  The optional URL will be sent to the called party if the channel supports it.
+  If the OUTBOUND_GROUP variable is set, all peer channels created by this
+application will be put into that group (as in Set(GROUP()=...).
+  If the OUTBOUND_GROUP_ONCE variable is set, all peer channels created by this
+application will be put into that group (as in Set(GROUP()=...). Unlike OUTBOUND_GROUP,
+however, the variable will be unset after use.
+  Options:
+    A(x) - Play an announcement to the called party, using 'x' as the file.
+    C    - Reset the CDR for this call.
+    c    - If DIAL cancels this call, always set the flag to tell the channel
+           driver that the call is answered elsewhere.
+    d    - Allow the calling user to dial a 1 digit extension while waiting for
+           a call to be answered. Exit to that extension if it exists in the
+           current context, or the context defined in the EXITCONTEXT variable,
+           if it exists.
+    D([called][:calling]) - Send the specified DTMF strings *after* the called
+           party has answered, but before the call gets bridged. The 'called'
+           DTMF string is sent to the called party, and the 'calling' DTMF
+           string is sent to the calling party. Both parameters can be used
+           alone.
+    e    - execute the 'h' extension for peer after the call ends. This
+           operation will not be performed if the peer was parked
+    f    - Force the callerid of the *calling* channel to be set as the
+           extension associated with the channel using a dialplan 'hint'.
+           For example, some PSTNs do not allow CallerID to be set to anything
+           other than the number assigned to the caller.
+    F(context^exten^pri) - When the caller hangs up, transfer the called party
+           to the specified context and extension and continue execution.
+    g    - Proceed with dialplan execution at the current extension if the
+           destination channel hangs up.
+    G(context^exten^pri) - If the call is answered, transfer the calling party to
+           the specified priority and the called party to the specified priority+1.
+           Optionally, an extension, or extension and context may be specified. 
+           Otherwise, the current extension is used. You cannot use any additional
+           action post answer options in conjunction with this option.
+    h    - Allow the called party to hang up by sending the '*' DTMF digit, or
+           whatever sequence was defined in the featuremap section for
+           'disconnect' in features.conf
+    H    - Allow the calling party to hang up by hitting the '*' DTMF digit, or
+           whatever sequence was defined in the featuremap section for
+           'disconnect' in features.conf
+    i    - Asterisk will ignore any forwarding requests it may receive on this
+           dial attempt.
+    k    - Allow the called party to enable parking of the call by sending
+           the DTMF sequence defined for call parking in the featuremap section of features.conf.
+    K    - Allow the calling party to enable parking of the call by sending
+           the DTMF sequence defined for call parking in the featuremap section of features.conf.
+    L(x[:y][:z]) - Limit the call to 'x' ms. Play a warning when 'y' ms are
+           left. Repeat the warning every 'z' ms. The following special
+           variables can be used with this option:
+           * LIMIT_PLAYAUDIO_CALLER   yes|no (default yes)
+                                      Play sounds to the caller.
+           * LIMIT_PLAYAUDIO_CALLEE   yes|no
+                                      Play sounds to the callee.
+           * LIMIT_TIMEOUT_FILE       File to play when time is up.
+           * LIMIT_CONNECT_FILE       File to play when call begins.
+           * LIMIT_WARNING_FILE       File to play as warning if 'y' is defined.
+                                      The default is to say the time remaining.
+    m([class]) - Provide hold music to the calling party until a requested
+           channel answers. A specific MusicOnHold class can be
+           specified.
+    M(x[^arg]) - Execute the Macro for the *called* channel before connecting
+           to the calling channel. Arguments can be specified to the Macro
+           using '^' as a delimiter. The Macro can set the variable
+           MACRO_RESULT to specify the following actions after the Macro is
+           finished executing.
+           * ABORT        Hangup both legs of the call.
+           * CONGESTION   Behave as if line congestion was encountered.
+           * BUSY         Behave as if a busy signal was encountered.
+           * CONTINUE     Hangup the called party and allow the calling party
+                          to continue dialplan execution at the next priority.
+           * GOTO:<context>^<exten>^<priority> - Transfer the call to the
+                          specified priority. Optionally, an extension, or
+                          extension and priority can be specified.
+           You cannot use any additional action post answer options in conjunction
+           with this option. Also, pbx services are not run on the peer (called) channel,
+           so you will not be able to set timeouts via the TIMEOUT() function in this macro.
+    n    - This option is a modifier for the screen/privacy mode. It specifies
+           that no introductions are to be saved in the priv-callerintros
+           directory.
+    N    - This option is a modifier for the screen/privacy mode. It specifies
+           that if callerID is present, do not screen the call.
+    o    - Specify that the CallerID that was present on the *calling* channel
+           be set as the CallerID on the *called* channel. This was the
+           behavior of Asterisk 1.0 and earlier.
+    O([x]) - "Operator Services" mode (DAHDI channel to DAHDI channel
+             only, if specified on non-DAHDI interface, it will be ignored).
+             When the destination answers (presumably an operator services
+             station), the originator no longer has control of their line.
+             They may hang up, but the switch will not release their line
+             until the destination party hangs up (the operator). Specified
+             without an arg, or with 1 as an arg, the originator hanging up
+             will cause the phone to ring back immediately. With a 2 specified,
+             when the "operator" flashes the trunk, it will ring their phone
+             back.
+    p    - This option enables screening mode. This is basically Privacy mode
+           without memory.
+    P([x]) - Enable privacy mode. Use 'x' as the family/key in the database if
+           it is provided. The current extension is used if a database
+           family/key is not specified.
+    r    - Indicate ringing to the calling party. Pass no audio to the calling
+           party until the called channel has answered.
+    S(x) - Hang up the call after 'x' seconds *after* the called party has
+           answered the call.
+    t    - Allow the called party to transfer the calling party by sending the
+           DTMF sequence defined in the blindxfer setting in the featuremap section
+           of features.conf.
+    T    - Allow the calling party to transfer the called party by sending the
+           DTMF sequence defined in the blindxfer setting in the featuremap section
+           of features.conf.
+    U(x[^arg]) - Execute via Gosub the routine 'x' for the *called* channel before connecting
+           to the calling channel. Arguments can be specified to the Gosub
+           using '^' as a delimiter. The Gosub routine can set the variable
+           GOSUB_RESULT to specify the following actions after the Gosub returns.
+           * ABORT        Hangup both legs of the call.
+           * CONGESTION   Behave as if line congestion was encountered.
+           * BUSY         Behave as if a busy signal was encountered.
+           * CONTINUE     Hangup the called party and allow the calling party
+                          to continue dialplan execution at the next priority.
+           * GOTO:<context>^<exten>^<priority> - Transfer the call to the
+                          specified priority. Optionally, an extension, or
+                          extension and priority can be specified.
+           You cannot use any additional action post answer options in conjunction
+           with this option. Also, pbx services are not run on the peer (called) channel,
+           so you will not be able to set timeouts via the TIMEOUT() function in this routine.
+    w    - Allow the called party to enable recording of the call by sending
+           the DTMF sequence defined in the automon setting in the featuremap section
+           of features.conf.
+    W    - Allow the calling party to enable recording of the call by sending
+           the DTMF sequence defined in the automon setting in the featuremap section
+           of features.conf.
+    x    - Allow the called party to enable recording of the call by sending
+           the DTMF sequence defined in the automixmon setting in the featuremap section
+           of features.conf.
+    X    - Allow the calling party to enable recording of the call by sending
+           the DTMF sequence defined in the automixmon setting in the featuremap section
+           of features.conf.
+Place a call and connect to the current channel
+  RetryDial(announce,sleep,retries,dialargs): This application will attempt to
+place a call using the normal Dial application. If no channel can be reached,
+the 'announce' file will be played. Then, it will wait 'sleep' number of
+seconds before retrying the call. After 'retries' number of attempts, the
+calling channel will continue at the next priority in the dialplan. If the
+'retries' setting is set to 0, this application will retry endlessly.
+  While waiting to retry a call, a 1 digit extension may be dialed. If that
+extension exists in either the context defined in ${EXITCONTEXT} or the current
+one, The call will jump to that extension immediately.
+  The 'dialargs' are specified in the same format that arguments are provided
+to the Dial application.
+Place a call, retrying on failure allowing optional exit extension.
+app_dial
+app_dial.c
+NoOp
+<unknown>
+NOCALLERID_%s%s
+NOCALLERID
+NOANSWER
+DONTCALL
+TORTURE
+%s/sounds/priv-callerintros
+priv-callerintros/%s
+priv-recordintro
+vm-dialout
+priv-callpending
+priv-callee-options
+screen-callee-options
+vm-sorry
+$Revision: 170571 $
+LIMIT_PLAYAUDIO_CALLER
+LIMIT_PLAYAUDIO_CALLEE
+LIMIT_WARNING_FILE
+timeleft
+LIMIT_TIMEOUT_FILE
+LIMIT_CONNECT_FILE
+       > play_to_caller = %s
+       > play_to_callee = %s
+       > start_sound    = %s
+       > warning_sound  = %s
+       > end_sound      = %s
+ANSWEREDTIME
+DIALEDTIME
+DIALSTATUS
+DIALEDPEERNUMBER
+DIALEDPEERNAME
+OUTBOUND_GROUP_ONCE
+OUTBOUND_GROUP
+Local
+AppDial
+(Outgoing Line)
+ast call on peer returned %d
+    -- Couldn't call %s
+    -- Called %s
+CONGESTION
+    -- %s answered %s
+FORWARD_CONTEXT
+%s@%s
+    -- %s is busy
+    -- %s is circuit-busy
+    -- %s is ringing
+    -- %s stopped sounds
+Unable to write frame
+Unable to send URL
+CANCEL
+EXITCONTEXT
+app_dial: sendurl=%s.
+0123456789#*ABCD
+Macro
+Macro exited with status %d
+MACRO_RESULT
+BUSY
+CHANUNAVAIL
+CONTINUE
+ABORT
+GOTO:
+Gosub
+%s,s,1(%s)
+asprintf() failed: %s
+%s,s,1
+Gosub exited with status %d
+GOSUB_RESULT
+DAHDI
+Exiting with DIALSTATUS=%s.
+Retrying
+Dialing Application
+RetryDial
+ALLOW
+DENY
+KILL
+load_module
+_ast_strdup
+retrydial_exec
+dial_exec_full
+do_timelimit
+setup_privacy_args
+_ast_calloc
+_ast_malloc
+senddialevent
+wait_for_answer
+do_forward
+do_privacy
+senddialendevent
+a9c98e5d177805051735cb5b0b16b0a0
+app_dial.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

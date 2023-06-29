@@ -1,0 +1,277 @@
+tdpA
+tdPN
+/lib/ld-linux.so.2
+libm.so.6
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libc.so.6
+_IO_stdin_used
+__printf_chk
+fopen
+strncmp
+perror
+__isoc99_sscanf
+ftell
+time
+putchar
+stdin
+__assert_fail
+strlen
+__errno_location
+fseek
+stdout
+malloc
+stderr
+fwrite
+fread
+__fread_chk
+__vfprintf_chk
+__cxa_finalize
+strerror
+__libc_start_main
+ferror
+free
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.1
+GLIBC_2.7
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+D$\1
+D$4f
+t$01
+|$<1
+|$<9
+UWV1
+L$$e
+T$L1
+D$Le3
+d$\[^_]
+UWVS
+L$Dus
+d$,[
+[^_]
+UWVS
+D$<1
+D$<e3
+d$L[^_]
+<$;D$(
+D$&f
+UWVS
+D$,1
+D$,e3
+d$<[^_]
+D$L1
+T$Le3
+d$T[^
+T$=1
+|$>zu
+|$=su
+|$>s
+D$<1
+T$<e3
+d$D[^
+|$-Hu
+|$.zu
+UWVS
+[^_]
+[^_]
+t$D~H
+d$,[^_]
+UWVS
+d$,1
+[^_]
+d$,[^_]
+UWVS
+[^_]
+UWVS
+d$,[^_]
+UWVS
+D$<1
+D$ t
+D$(f
+D$,f
+D$h 
+D$(f
+T$,f
+D$<e3
+d$L[^_]
+8-tf
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+D$<1
+|$-dti
+|$<e3=
+d$L[^_]
+|$-%u
+|$.bu
+t$De
+D$,1
+L$,e3
+d$4[^
+|$)du
+|$*bu
+|$)%u
+UWVS
+8sC1
+[^_]
+[^_]
+UWVS
+t$Dsr1
+d$,[^_]
+d$,[^_]
+t$Dr
+UWVS
+D$,tx
+d$<[^_]
+UWVS
+t$,U
+[^_]
+<stdin>
+Using file '%s' as input
+stereorize.c
+channel[i] != ((void *)0)
+<stdout>
+Using file '%s' as output
+Error reading file '%s': %s
+stereorize 1.1, November 5th 2000
+Usage: stereorize [options] infile-left infile-right outfile
+Example:
+ stereorize left.wav right.wav stereo.wav -h
+Creates stereo.wav (with WAV-header, option -h) from data in mono files
+left.wav and right.wav.
+Cannot use <stdin> for both input files
+Error opening input file '%s': %s
+Warning: '%s' is no mono file
+Error opening output file '%s': %s
+Couldn't navigate output file '%s': %s
+Error writing to file '%s': %s
+main
+%d: %d, 
+Checking for option -%s
+RIFF
+WAVEfmt 
+data
+File has no WAV header.
+filelength %d, 
+%d channels
+samplefrequency %d
+Success!
+Failure.
+Time: %d seconds
+Time: 1 second
+Try --help for help.
+Integer expected
+Time argument expected
+Volume argument expected
+No input file specified
+No output file specified
+Not enough files specified
+Error parsing option -%s:
+%30lf%1c%1c%1c
+Error parsing command line:
+Error reading input file
+Error writing to output file
+%30d%1c
+frame.c: This can't happen
+-test-usage
+-help
+%s%s
+-version
+(%s)
+frame.c
+(0==1)
+%30lf%1c
+frame.c: This can't happen.
+Couldn't allocate buffer
+File not seekable: not checking for WAV-header.
+Read WAV header: %d channels, samplefrequency %d.
+Error parsing command line. Unrecognized option:
+	-%s
+Floating point number expected
+Garbage after switch-type option
+Option -h is not useful for text-output
+No input/output file specified
+Standard in not supported here
+Standard out not supported here
+Standard in/out not supported here
+Error message not implemented. Fix me!
+Too many files on command line: '%s'.
+This can't happen. Report this as a bug
+Error code %d not implemented. Fix me!
+The following arguments were not recognized:
+Couldn't allocate memory for filename
+Options common to all mark-dsp programs:
+-h 		 create a WAV-header on output files.
+-c#		 set number of channels to # (1 or 2). Default: like input.
+-w#		 set number of bits per sample (width) to # (only 16)
+-f#		 set sample frequency to #. Default: like input.
+-V 		 verbose: talk a lot.
+-Q 		 quiet: talk as little as possible.
+In most cases, a filename of '-' means stdin or stdout.
+Bug-reports: mark@manumark.de
+frame version 1.3, June 13th 2001
+in == ((void *)0) && out == ((void *)0)
+Using file '%s' as input/output
+Error opening input/output file '%s': %s
+Option -w is only valid with value 16. Sorry.
+Option -c is only valid with values 1 or 2. Sorry.
+parsevolume: This can't happen (%d).
+parseargs
+;*2$" 
+stereorize.debug
+7zXZ
+CxGD
++KT6
+gwx~}
+K6:^
+#)eu
+T>)*P
+	x	,
+lE>	
+$-r,~\qu
+_[on
+&hY~/
+9e0-
+%z>(
+VLra
+Xw'5*
+=5:@ 
+q5f=
+qAxQ
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

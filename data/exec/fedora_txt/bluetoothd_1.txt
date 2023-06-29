@@ -1,0 +1,4675 @@
+/lib64/ld-linux-x86-64.so.2
+libbluetooth.so.3
+__gmon_start__
+_Jv_RegisterClasses
+sdp_append_to_pdu
+sdp_process
+sdp_set_info_attr
+hci_read_local_features
+str2ba
+hci_write_inquiry_mode
+sdp_uuid_extract
+sdp_close
+hci_open_dev
+sdp_data_alloc_with_length
+sdp_record_free
+hci_write_simple_pairing_mode
+baswap
+hci_read_local_version
+sdp_extract_pdu
+sdp_set_profile_descs
+sdp_get_uuidseq_attr
+sdp_extract_seqtype
+sdp_uuid16_to_uuid128
+sdp_set_notify
+hci_devba
+sdp_uuid_to_uuid128
+sdp_get_proto_desc
+sdp_data_free
+sdp_append_to_buf
+sdp_data_alloc
+hci_get_route
+sdp_set_uuidseq_attr
+hci_read_bd_addr
+sdp_service_search_attr_async
+sdp_get_socket
+sdp_uuid2strn
+sdp_seq_append
+sdp_extract_attr
+bachk
+sdp_set_lang_attr
+hci_close_dev
+sdp_gen_record_pdu
+sdp_list_append
+sdp_uuid32_to_uuid128
+hci_devid
+sdp_seq_alloc
+hci_send_req
+sdp_uuid128_cmp
+sdp_get_proto_port
+sdp_data_get
+hci_delete_stored_link_key
+bt_error
+hci_write_ext_inquiry_response
+sdp_uuid_cmp
+hci_read_simple_pairing_mode
+sdp_set_access_protos
+sdp_attr_add
+sdp_uuid16_create
+sdp_connect
+sdp_list_remove
+sdp_record_alloc
+sdp_copy_record
+sdp_attr_add_new
+sdp_list_insert_sorted
+ba2str
+sdp_uuid128_create
+sdp_list_free
+sdp_get_access_protos
+hci_send_cmd
+bt_free
+sdp_pattern_add_uuid
+sdp_attr_replace
+hci_devinfo
+sdp_uuid128_to_uuid
+libglib-2.0.so.0
+g_io_channel_unix_get_fd
+g_io_channel_write
+g_main_loop_unref
+g_child_watch_add
+g_slist_remove
+g_str_has_prefix
+g_strconcat
+g_printerr
+g_io_channel_unref
+g_strdelimit
+g_main_loop_run
+g_io_channel_set_close_on_unref
+g_string_free
+g_key_file_get_string
+g_io_channel_set_flags
+g_strsplit
+g_quark_from_static_string
+g_slist_append
+g_timeout_add
+g_key_file_load_from_file
+g_spawn_async
+g_malloc0_n
+g_option_context_new
+g_io_channel_read
+g_str_equal
+g_key_file_get_string_list
+g_slist_insert_sorted
+g_slist_length
+g_error_free
+g_slist_sort
+g_markup_parse_context_parse
+g_io_add_watch
+g_main_loop_new
+g_dir_open
+g_strv_length
+g_option_context_add_main_entries
+g_string_append_printf
+g_slist_find_custom
+g_markup_parse_context_free
+g_io_add_watch_full
+g_dir_read_name
+g_slist_foreach
+g_dir_close
+g_io_channel_shutdown
+g_io_channel_unix_new
+g_key_file_free
+g_option_context_free
+g_spawn_close_pid
+g_key_file_get_boolean
+g_io_channel_ref
+g_set_error
+g_slist_prepend
+g_strdup
+g_malloc0
+g_slist_copy
+g_main_loop_quit
+g_malloc
+g_convert
+g_string_append
+g_strdup_printf
+g_source_remove
+g_strcmp0
+g_key_file_get_groups
+g_str_has_suffix
+g_option_context_parse
+g_slist_find
+g_string_new
+g_try_malloc0
+g_key_file_get_integer
+g_idle_add
+g_ascii_strup
+g_timeout_add_seconds
+g_clear_error
+g_utf8_validate
+g_build_filename
+g_idle_add_full
+g_markup_parse_context_new
+g_key_file_set_list_separator
+g_io_channel_close
+g_key_file_new
+g_strfreev
+g_slist_free
+libdbus-1.so.3
+dbus_message_get_interface
+dbus_connection_ref
+dbus_bus_remove_match
+dbus_message_iter_init_append
+dbus_message_get_type
+dbus_connection_unregister_object_path
+dbus_watch_get_flags
+dbus_connection_send
+dbus_timeout_get_enabled
+dbus_watch_get_enabled
+dbus_connection_set_dispatch_status_function
+dbus_connection_set_timeout_functions
+dbus_set_error_from_message
+dbus_connection_send_with_reply
+dbus_connection_get_object_path_data
+dbus_connection_unref
+dbus_message_set_path
+dbus_watch_get_unix_fd
+dbus_message_iter_next
+dbus_connection_remove_filter
+dbus_error_init
+dbus_message_iter_get_basic
+dbus_message_set_no_reply
+dbus_timeout_handle
+dbus_message_is_method_call
+dbus_bus_get
+dbus_message_iter_append_basic
+dbus_connection_get_dispatch_status
+dbus_message_copy
+dbus_error_is_set
+dbus_error_free
+dbus_message_ref
+dbus_message_get_member
+dbus_message_iter_init
+dbus_bus_add_match
+dbus_message_append_args_valist
+dbus_message_get_path
+dbus_connection_set_watch_functions
+dbus_message_has_signature
+dbus_free_string_array
+dbus_message_new_error
+dbus_connection_list_registered
+dbus_connection_set_exit_on_disconnect
+dbus_bus_request_name
+dbus_message_new_signal
+dbus_message_append_args
+dbus_message_set_destination
+dbus_message_unref
+dbus_set_error
+dbus_connection_get_is_connected
+dbus_watch_set_data
+dbus_pending_call_cancel
+dbus_error_has_name
+dbus_set_error_const
+dbus_message_get_sender
+dbus_pending_call_steal_reply
+dbus_message_iter_open_container
+dbus_pending_call_set_notify
+dbus_timeout_set_data
+dbus_message_iter_close_container
+dbus_timeout_get_interval
+dbus_message_new_method_call
+dbus_pending_call_unref
+dbus_connection_add_filter
+dbus_bus_get_private
+dbus_connection_register_object_path
+dbus_message_new_method_return
+dbus_message_get_signature
+dbus_message_iter_get_arg_type
+dbus_message_iter_recurse
+dbus_connection_dispatch
+dbus_message_get_args
+dbus_watch_handle
+libpthread.so.0
+recv
+__errno_location
+accept
+fcntl
+sigaction
+fork
+sendmsg
+lseek
+recvmsg
+waitpid
+librt.so.1
+libcap-ng.so.0
+capng_clear
+capng_apply
+capng_updatev
+libudev.so.0
+udev_device_unref
+udev_new
+udev_monitor_enable_receiving
+udev_device_get_devnode
+udev_monitor_filter_add_match_subsystem_devtype
+udev_unref
+udev_device_get_action
+udev_monitor_unref
+udev_device_get_property_value
+udev_monitor_new_from_netlink
+udev_monitor_receive_device
+udev_monitor_get_fd
+libusb-1.0.so.0
+libusb_detach_kernel_driver
+libusb_get_device_list
+libusb_init
+libusb_ref_device
+libusb_release_interface
+libusb_attach_kernel_driver
+libusb_free_device_list
+libusb_control_transfer
+libusb_exit
+libusb_close
+libusb_claim_interface
+libusb_get_device_address
+libusb_unref_device
+libusb_get_bus_number
+libusb_open
+libusb_get_device_descriptor
+libusb_get_config_descriptor
+libdl.so.2
+dlclose
+dlsym
+dlopen
+dlerror
+libc.so.6
+fflush
+strcpy
+strncmp
+ftruncate
+strrchr
+pipe
+__strdup
+perror
+__isoc99_sscanf
+strncpy
+__stack_chk_fail
+daemon
+unlink
+listen
+mkdir
+strtoll
+memchr
+getpid
+kill
+strftime
+chmod
+__assert_fail
+flock
+gmtime
+strtol
+mmap
+cfsetispeed
+fdatasync
+strlen
+openlog
+memset
+strstr
+bind
+tcsetattr
+getsockopt
+poll
+__fprintf_chk
+stdout
+inet_addr
+memcpy
+__vsnprintf_chk
+strtoul
+setsockopt
+umask
+strcasecmp
+getpeername
+__strndup
+__strncpy_chk
+__ctype_b_loc
+stderr
+ioctl
+munmap
+__snprintf_chk
+__strncat_chk
+strncasecmp
+if_nametoindex
+__fxstat
+strtoull
+fileno
+gethostname
+usleep
+gettimeofday
+__memcpy_chk
+strchr
+getsockname
+__vsyslog_chk
+tcgetattr
+__ctype_toupper_loc
+__ctype_tolower_loc
+__cxa_finalize
+__sprintf_chk
+cfsetospeed
+__xstat
+__strcat_chk
+strcmp
+strerror
+__libc_start_main
+closelog
+__cxa_atexit
+g_dbus_unregister_interface
+btd_adapter_set_class
+g_dbus_add_signal_watch
+g_dbus_emit_signal_valist
+btd_device_unref
+g_dbus_register_interface
+btd_unregister_adapter_driver
+g_dbus_send_reply
+btd_adapter_unref
+g_dbus_send_message
+g_dbus_setup_private
+g_dbus_create_error_valist
+g_dbus_add_service_watch
+btd_request_authorization
+btd_cancel_authorization
+btd_start_exit_timer
+btd_manager_set_offline
+btd_register_adapter_driver
+btd_unregister_device_driver
+debug
+btd_adapter_ref
+btd_device_add_uuid
+g_dbus_add_disconnect_watch
+btd_adapter_cleanup_ops
+btd_adapter_restore_powered
+g_dbus_create_reply_valist
+btd_device_get_record
+g_dbus_request_name
+g_dbus_set_disconnect_function
+btd_adapter_any_request_path
+g_dbus_remove_watch
+g_dbus_emit_signal
+btd_adapter_switch_offline
+g_dbus_create_reply
+btd_register_adapter_ops
+g_dbus_create_error
+btd_device_ref
+g_dbus_setup_bus
+g_dbus_send_reply_valist
+btd_stop_exit_timer
+btd_adapter_any_release_path
+btd_register_device_driver
+g_dbus_remove_all_watches
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.3.4
+ATSubH
+l$ L
+d$(L
+l$0H
+fffff.
+fff.
+l$ H
+ffffff.
+$t<H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+L$HI
+D$ H
+ffff.
+T$0H
+L$8L
+D$@H)
+D$ H
+l$ H
+l$ H
+ffff.
+L$8H
+D$@L
+L$HH)
+D$ H
+fffff.
+L$8H
+D$@L
+L$HH)
+D$ H
+fff.
+d$ H
+ATUH
+(tjH
+T$ L
+[]A\A]
+[]A\A]
+D$PH
+l$ H
+d$(H
+l$0L
+t$8L
+|$@H
+T$(I
+L$(H
+|$(H
+\$(H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+\$(H
+D$xL
+L$pM
+D$(H
+D$(1
+<at-
+t~<}
+D$(dH3
+0[]A\A]A^
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+(t2H
+$tpM
+$tNH
+$t'L
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fffff.
+AUATUSH
+t$ H
+[]A\A]1
+ffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fffff.
+D$(H
+L$8L
+D$(L
+C8tFI
+[]A\
+L$,E1
+\$0H
+l$8L
+d$@H
+t+Hc
+t+Hc
+t+Hc
+t+Hc
+t1Hc
+[]A\
+[]A\
+l$ H
+ffffff.
+L$PL
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffff.
+L$ L
+D$(1
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+fffff.
+d$ dH
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+D$@A
+D$8H
+tkf.
+0;V(u
+0;V(u
+[]A\A]
+ffff.
+T$h1
+t$(tSH
+D$hdH3
+\$pH
+l$xL
+l$`H
+T$(L
+d$0H
+l$P1
+D$(H
+AVAUATUH
+P(t+H
+[]A\A]
+[]A\A]1
+AWAVAUI
+D$81
+T$ H
+D$0H
+T$8dH3
+H[]A\A]A^A_
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+fffff.
+\$(H
+l$0L
+d$8L
+l$@H
+\$(H
+l$0L
+d$8L
+l$@H
+ATUSH
+(H;]
+[]A\
+H;+u
+fffff.
+ATUSH
+(H;]
+[]A\
+\$ H
+l$(L
+d$0H
+(H;]
+D$H1
+d$@H
+D$/H
+T$ H
+D$ H
+D$HdH3
+\$PH
+l$XL
+d$`H
+H;+u
+D$H1
+d$@H
+D$/H
+T$ H
+D$ H
+D$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+ffff.
+AUATUH
+[]A\A]
+AWAVAUATUSH
+|$xL
+D$h1
+L$p1
+T$`1
+\$X1
+|$x1
+[]A\A]A^A_
+|$xH
+t$x1
+D$h1
+|$x1
+L$p1
+T$`1
+\$X1
+AWAVAUATUSH
+D$pL
+|$xH
+D$h1
+L$X1
+T$`1
+\$P1
+|$p1
+[]A\A]A^A_
+ffff.
+ffff.
+fffff.
+D$(H
+D$(H
+W092tB
+j0tnH
+l$ L
+d$(L
+l$0H
+ffff.
+ffffff.
+ffffff.
+ffff.
+D$0H
+\$ H
+l$(L
+d$0H
+l$ H
+l$ H
+D$h1
+|$@H
+l$PH
+T$PH
+|$H1
+|$8H
+D$hdH3
+\$xH
+l$H1
+|$H1
+D$8H
+|$ H
+|$8H
+D$8H
+ffffff.
+ATUH
+[]A\A]
+AUATUSH
+L$8H
+D$@L
+L$HH)
+D$ I
+[]A\A]A^
+D$0L
+fff.
+T$0H
+L$8L
+D$@H)
+D$ H
+GXt3D
+fffff.
+t5Hc
+ffff.
+l$ H
+ffff.
+fffff.
+AWAVAUATU
+}XA9
+[]A\A]A^A_
+sPu7
+fffff.
+ATUSH
+A94$u
+ A94$t
+[]A\A]
+[]A\A]
+l$ H
+t$ H
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$(H
+D$(H
+fffff.
+D$(1
+tNfD
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+h(t(H
+_(dH
+D$h1
+T$PL
+T$81
+D$HH
+5!p%
+D$ H
+T$hdH3
+\$xH
+D$HH
+d$ L
+l$(L
+t$0H
+j(dH
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+fffff.
+uHttH
+t$ H
+t$ H
+fff.
+t7fA
+d$ L
+l$(L
+t$0H
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+l$PI
+stRH
+fffff.
+=!o%
+d$ H
+d$ H
+d$ 1
+\$ H
+l$(L
+d$0H
+l$PH
+D$(H
+D$(H
+D$(H
+d$ H
+d$ H
+l$ H
+hXw1H
+l$ H
+l$ H
+l$ H
+tPwjD
+fff.
+cXvL
+1t^H
+cXvL
+1t^H
+AWAVAUATI
+ u.L
+^XtEH
+[]A\A]A^A_
+l$ H
+u=Hc
+5Hf%
+=8f%
+0t3A
+<St4H
+\$(H
+l$0L
+d$8L
+l$@H
+=6]%
+ffffff.
+52[%
+AVAUATU
+]A\A]A^
+[]A\L
+A]A^
+@umH
+=rW%
+=[W%
+ffffff.
+AWAVAUATI
+R(dH
+D$X1
+D$@L
+l$ H
+5TH%
+D$XdH3
+h[]A\A]A^A_
+ffffff.
+l$PH
+l$ H
+_HdH
+\$ H
+l$(L
+d$0H
+AUATU
+-`n%
+[]A\A]
+[]A\A]
+ffff.
+fffff.
+fff.
+l$`H
+T$(L
+d$0dH
+D$h1
+l$PM
+D$(H
+D$hdH3
+\$xH
+ffff.
+AWAVAUA
+D$pH
+|$pH
+|$xH
+T$h1
+D$P1
+L$`1
+\$X1
+|$p1
+T$h1
+t$xI
+|$pH
+|$xH
+T$h1
+D$P1
+L$`1
+\$X1
+T$h1
+|$p1
+[]A\A]A^A_
+\$HH
+l$PH
+D$8H
+D$8H
+\$HH
+l$PH
+\$HH
+l$PH
+l$ L
+d$(L
+l$0H
+L$&H
+0t:A
+D$'HA
+ffff.
+AUATUH
+[]A\A]A^
+D$81
+D$8dH3
+\$@H
+l$HL
+d$PH
+d$ H
+n`u,
+[]A\
+ffff.
+fffff.
+AWAVI
+AUATUH
+[]A\A]A^A_
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fffff.
+fffff.
+l$PH
+l$ H
+l$ H
+l$ H
+fffff.
+l$ 1
+l$ H
+l$ L
+d$(L
+l$0H
+l$ H
+l$ H
+l$ H
+fffff.
+l$ H
+l$ H
+l$ H
+l$(H
+\$ L
+d$0L
+l$8L
+t$@H
+ffffff.
+=ND%
+fff.
+l$ H
+l$ H
+fff.
+AUATU
+[]A\A]
+d$ H
+ffffff.
+ffffff.
+tFw$@
+tpwh
+t0w(
+l$PH
+l$ H
+d$(L
+l$01
+l$ H
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+fffff.
+fff.
+d$ 1
+d$ H
+d$ H
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+D$ H
+ffffff.
+=^2%
+fff.
+l$ H
+l$ H
+fff.
+AUATU
+[]A\A]
+l$ L
+d$(L
+l$0H
+l$8M
+d$ H
+ffffff.
+tFw$@
+tpwh
+t0w(
+l$PH
+l$ H
+l$ H
+d$(L
+l$01
+l$ H
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+fffff.
+fff.
+d$ 1
+d$ H
+d$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+D$ H
+fff.
+ATUH
+ []A\
+H;+u
+D9e t
+(D9e u
+[]A\
+\$(H
+l$0H
+fff.
+AUATI
+ I;\$
+T$@H
+|$8L
+D$8H
+[]A\A]1
+xi[]A\A
+E A]A^
+8H;_
+8H;_
+8H;_
+8H;_
+AUATI
+ I;\$
+T$@H
+|$8L
+D$8H
+[]A\A]1
+[]A\A
+E A]A^
+fff.
+t$ I
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+ATUH
+[]A\A]
+ffffff.
+8H;_
+d$ H
+AVAUM
+ATUH
+ I;\$
+t$4A
+l$ L
+l$ L
+ []A\A]A^
+AVAUATI
+l$PL
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATI
+l$PL
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ATUH
+ I;\$
+t$ L
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+t$ H
+ffff.
+8H;_
+ATUSH
+D$ H
+D$ A
+|$(H
+D$0H
+|$(H
+|$0H
+|$81
+|$@1
+|$(1
+|$P1
+|$01
+|$X1
+|$H1
+[]A\A]A^A_
+fff.
+AWAVAUATUH
+\$(H
+D$(H
+D$(H
+D$(H
+D$(H
+D$(H
+D$(H
+C tNE
+~%E1
+D9d$
+~!E1
+~&E1
+8[]A\A]A^A_
+ffff.
+fff.
+ffff.
+d$ H
+fff.
+@80u
+@80t
+fff.
+fff.
+fffff.
+[]A\
+ffff.
+fff.
+ffffff.
+ffff.
+fffff.
+ffff.
+fff.
+fffff.
+ffff.
+t$ H
+fffff.
+D$8H
+AWAVAUATUSH
+T$(H
+L$ t
+D$(L
+8[]A\A]A^A_
+fffff.
+w,Lc
+l$ H
+d$(L
+l$0H
+fff.
+AUATA
+[]A\A]
+[]A\
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+@"t$
+D$PA
+D$XH
+ffffff.
+ffff.
+ffffff.
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+ATUSH
+D$$I9
+d$1D
+T$0H
+[]A\A]A^A_
+|$(L
+l$/H
+|$$L
+H9L$
+T$@f
+|$$L
+X[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUA
+ATUH
+[]A\A]A^A_
+T$ E1
+ffff.
+AWAVAUATA
+l$ 1
+[]A\A]A^A_
+t$XH
+T$XA
+L$PH
+\$`H
+l$hL
+d$pL
+l$xL
+D$PH
+AVAUATU
+ []A\A]A^
+fffff.
+AUATA
+([]A\A]
+[]A\
+[]A\
+d$ H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+@:k 
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+d$ H
+fff.
+AWAVAUATI
+8[]A\A]A^A_
+\$$E
+|$@H
+I9\$XI
+|$PH
+D$PH
+|$HH
+D$HH
+|$ 1
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffffff.
+l$ H
+ffffff.
+l$ H
+d$ H
+l$ H
+l$ H
+ffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUE
+t$/E1
+:A t
+8[]A\A]A^A_
+ A:4$t
+[]A\A]A^A_
+[]A\A]A^A_
+GHE1
+[]A\A]A^A_
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+C@t	H
+D$81
+D$8dH3
+\$@H
+l$HL
+d$PH
+d$ H
+l$`H
+T$(H
+l$0dH
+D$h1
+d$PM
+D$(H
+D$hdH3
+\$xH
+ffffff.
+D$x1
+T$xdH3
+L$8L
+l$8M
+Cn:B
+D$_1A
+d$_L
+T$_H
+T$(H
+D$ H
+D$0H
+L$(L
+D;l$
+D$_L
+D$PA
+D$_1A
+T$_H
+T$(H
+D$ H
+D$0H
+L$(L
+D;l$
+D$_1A
+t$0H
+L$_H
+t$0H
+L$_H
+l$4L
+D$(H
+D$0L
+t$0H
+L$_H
+l$4L
+D$(H
+D$0L
+t$0H
+L$_H
+l$4L
+D$(H
+D$0L
+t$0H
+L$_H
+l$4L
+D$(H
+t$0H
+l$4L
+D$(H
+t$0H
+L$^H
+l$4L
+D$(H
+t$0H
+L$^H
+l$4L
+D$(H
+d$0H
+l$4L
+d$0H
+l$4L
+D$_L
+D$@A
+D$_L
+D$@A
+D$^A
+d$_L
+D$_1
+D$_1
+d$_L
+D$`L
+|$pH
+D$^#L
+D$ H
+T$0I
+L$_L
+D$^L
+D$^1
+l$4L
+D$(H
+D$^1
+D$x1
+T$xdH3
+D$x1
+D$_H
+D$@1
+D$`H
+L$(1
+CD$ H
+L$ H
+T$xdH3
+ffff.
+|$@L
+t$8L
+l$0L
+d$(H
+l$ H
+D$oL
+D$H1
+\$xH
+|$8L
+t$0L
+l$(L
+d$ H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+fff.
+fff.
+D$x1
+T$xdH3
+ffff.
+ffff.
+D8g u
+[]A\A]
+fff.
+tUws
+[]A\
+l$0L
+|$ H
+D:K 
+L9b(u
+D:J u
+T$ L
+D$ D
+D$ A
+D$/H
+T$ A
+D$oH
+D$omH
+D$PH
+D$ H
+t$01
+{(E1
+C(E1
+l$0H
+t$01
+l$0H
+C8tXH
+C(u}H
+=5o$
+=yY$
+fff.
+l$ H
+ffff.
+=$n$
+AWAVAUATI
+D$81
+d$0L
+l$ E
+=al$
+T$8dH3
+H[]A\A]A^A_
+ffffff.
+D$(1
+l$ L
+=?k$
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+fffff.
+=Fj$
+fffff.
+ATUH
+P[]A\
+l$0H
+\$ dH
+D$81
+D$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+d$0H
+D$81
+l$ M
+D$8dH3
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+ffff.
+D$H1
+D$HdH3
+\$PH
+l$XL
+d$`H
+D$,L
+d$@H
+T$ H
+l$0A
+D$ H
+t$,H
+T$,H
+UStDH
+D$`H
+D$@H
+T$ H
+D$(L
+p Ic~(
+IcV(I
+L$<H
+|$0H
+t$(H
+t$ H
+l$ H
+d$ H
+ffffff.
+ATUH
+[]A\A]
+|$(H
+|$ H
+t$ H
+l$PH
+ffff.
+-G'$
+o@dH
+\$hH
+l$pL
+d$xL
+t$XH
+T$X1
+D$XH
+|$XH
+D$XH
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+[]A\
+fff.
+l$ H
+fffff.
+L$ L
+L$ L
+T$0L
+AUATI
+\$`H
+[]A\A]A^A_
+[]A\A]A^A_
+AUATI
+L$XH
+[]A\A]A^A_
+L$PL
+[]A\A]A^A_
+*t^H
+l$ H
+AUATU
+_8dH
+\$@M
+[]A\A]
+|$(H
+|$ H
+fffff.
+ffff.
+\$XH
+l$`L
+d$hL
+l$pH
+D$HH
+D$HH
+D$HH
+|$HI
+ffff.
+f;:H
+ffff.
+AUATUH
+[]A\A]
+fff.
+D$x1
+T$xdH3
+t$@1
+L$8f
+D$EA
+L$KD
+%5>$
+d$ 1
+L$K1
+=a<$
+AWAVAUATUH
+D$H1
+T$(H
+D$0L
+|$@H
+T$HdH3
+X[]A\A]A^A_
+T$(1
+|$(1
+H;;u
+fffff.
+ffffff.
+ATUSH
+d$PH
+[]A\A]
+\$PH
+l$XL
+d$`L
+l$hL
+t$pH
+D$8H
+L$@L
+D$NH
+t$@H
+D$OD
+D$N<
+l$8H
+ffffff.
+l$PH
+l$8H
+d$P1
+t$OI
+t$@1
+D$@nef
+D$Bj
+T$(1
+D$ 1
+D$8H
+d$ dH
+D$81
+D$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+fff.
+AVAUATUSH
+d$ L
+d$ H
+[]A\A]A^A_
+D$X1
+T$XdH3
+\$hH
+l$pL
+d$xL
+=v'$
+l$pL
+ffff.
+T$ I
+D$8%
+L$ L
+\$8H
+l$@L
+d$HL
+l$PH
+L$(H
+l$(H
+l$(H
+AWAVAUATUSH
+H;2u
+H[]A\A]A^A_
+D$(H
+D$0H
+D$8H
+D$8H
+L$ H
+D$8H
+d$81
+|$81
+D$0H
+D$ H
+C(ubH
+D$0H
+D$0H
+|$0I
+\$HH
+l$PL
+d$XL
+l$`H
+ffff.
+AVAUATUH
+[]A\A]A^A_
+ffffff.
+D$X1
+L$8I
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+|$ H
+d$@L
+|$8H
+T$0H
+|$ H
+D$ I
+\$ H
+l$(L
+d$0H
+{8E1
+j8u?
+fffff.
+l$ L
+d$(L
+l$0H
+\$(H
+l$0L
+d$8L
+l$@H
+ffffff.
+([]A\A]A^A_
+[]A\A]A^A_
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+ffffff.
+AWAVAUATUSH
+([]A\A]A^A_
+[]A\A]A^A_
+fffff.
+fffff.
+D$h1
+d$@1
+T$hdH3
+\$xH
+D$<H
+D$(1
+4$fD
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+D$X1
+l$01
+t$XdH34%(
+\$`H
+l$hL
+d$pL
+l$xL
+H;:u
+f;r(u
+l$PH
+L$ H
+fffff.
+fffff.
+l$`H
+T$(H
+l$0dH
+D$h1
+d$PI
+D$(H
+D$hdH3
+\$xH
+D$PH
+D$TfA
+AWAVAUATUH
+t8fA
+t1fA
+t$~I
+t$|I
+D$0f
+|$0H
+|$8H
+t$`1
+D$`nef
+D$bj
+|$ 1
+|$(1
+[]A\A]A^A_
+L$xH
+fffff.
+AVAUATA
+D$x1
+H;+u
+fD;b(u
+T$xdH3
+[]A\A]A^
+l$pH
+L$hH
+D$H1
+D$hH
+fff.
+l$PH
+|$ I
+|$0H
+fff.
+fffff.
+t1r%f
+0fA;V(u
+ffffff.
+ffff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+d$PH
+;t%H
+{0[H
+fffff.
+l$ H
+l$ 1
+ffff.
+L$hE1
+\$xH
+T$ H
+D$`H
+C u^H
+D$`H
+D$`H
+|$`H
+B0SH
+ATUSH
+|$ H
+fD;m
+(fD;m
+[]A\A]
+[]A\A]H
+d$01
+L$ f
+l$ M
+D$ tYH
+L$,H
+fff.
+([]A\A]A^A_
+d$ H
+fffff.
+ATUSL
+[]A\L
+A]A^
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+?w9H
+AVAUATM
+t$ H
+@80u
+D$@H
+[]A\A]A^A_1
+H[]A\A]A^A_
+D$8H
+l$8H
+t$ H
+t$ H
+D$0L
+L$8H
+D$,H
+|$89_
+D$8H
+0Hc|$0H
+<:HcT$,
+T$8HcD$4H
+l$8I
+l$8H
+l$8I
+l$8I
+|$ H
+D$8H
+t$ H
+[]A\A]A^A_1
+D$8H
+ffffff.
+t$ H
+ffff.
+ffffff.
+ffffff.
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+\$ H
+D$81
+$D;(u
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+D$$f
+ATUH
+ []A\
+ATUH
+D$(1
+\$ H
+T$(dH3
+0[]A\A]A^
+AVAUATUH
+D$x1
+T$xdH3
+[]A\A]A^A_
+|$,M
+E;<$u
+D$ H
+|$ I
+T$0I
+T$8H
+T$@H
+T$HH
+l$pL
+D$df
+E;<$u
+ffffff.
+fff.
+AVAUATUSH
+|$8dH
+[]A\A]A^A_
+|$8H
+D$Xt
+|$pH
+T$HH
+T$PH
+D$@H
+T$(I
+D$`H
+L$HH
+|$XL
+|$ 1
+|$ H
+t$HL
+t$PH
+t$0H
+t$PH
+|$HH
+|$0H
+|$0E1
+|$0H
+|$ H
+t$@H
+t$(H
+t$(H
+D$`H
+L$hH
+|$(I
+T$ L
+D$|H
+t$XL
+x#E1
+ffff.
+fff.
+fff.
+D$h1
+T$hdH3
+\$xH
+y%E1
+u&E1
+ffffff.
+u&E1
+ffffff.
+l$ H
+d$ H
+D$ 3
+D$ L
+\$0H
+l$8L
+d$@H
+D$ I
+ffffff.
+\$ H
+l$(L
+d$0H
+\$ H
+l$(L
+d$0H
+l$ L
+d$(L
+l$0H
+ffff.
+ffffff.
+fffff.
+AWAVAUI
+D$(1
+t(<%tX<\u
+T$(dH3
+8[]A\A]A^A_
+<dtV<ht"<%u
+4$D9
+ATUSH
+[]A\A]
+nonaf
+T$0H
+L$8L
+D$@H)
+ffffff.
+T$0H
+t$(H
+D$@L
+L$HH
+D$ H
+fffff.
+T$0H
+t$(H
+L$8H)
+D$@L
+T$0H
+t$(H
+D$@L
+L$HH
+D$ H
+H98t
+\$(H
+l$0H
+l$ H
+ATUSH
+[]A\
+fffff.
+AVAUI
+D9#u
+[]A\A]A^
+ffffff.
+D$(1
+D$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+l$ L
+d$(L
+l$0L
+|$@fA
+t$8H
+AWAVI
+AUATA
+fE9e
+fD9"t6
+([]A\A]A^A_
+8u:H
+l$LH
+t$LH
+L$LH
+T$8H
+L$8H
+L$8H
+\$ H
+D$pL
+|$pH
+|$ L
+t$ H
+L$8H
+t$8H
+D$8<
+|$ L
+|$ L
+D;t$ |
+D9t$ 
+t$p1
+T$ A
+L$ H
+|$0H
+D$0L
+t$ H
+|$(H
+t$ L
+t$ M
+|$(L
+|$ L
+L$pL
+D;t$ |
+T$8H
+D9t$ 
+t[f=
+t$ L
+D$`D
+fffff.
+8t7H
+=Jr#
+=Ar#
+8uDH
+=Bq#
+d$ H
+AUATA
+=	o#
+[]A\A]
+=bn#
+=-n#
+$$fD
+={m#
+/var/runf
+/sdp
+AWAVAUATUD
+T$0H
+L$8H
+T$OH
+HcD$
+D+d$
+D$DMc
+D$(M
+X[]A\A]A^A_
+L$(H
+HcD$DA
+D$HA9
+D;t$
+D$ tk
+\$ A
+[]A\A]A^A_
+D$0H
+T$8A
+ffffff.
+[]A\A]
+AUATI
+t~fE9
+[]A\A]A^
+vTE1
+[]A\A]A^
+ffff.
+D$@Hc
+D$@fA
+T$H1
+l$@f
+T$Hf
+|$hH
+5s/#
+D$@fA
+T$hA
+|$XH
+|$0H
+|$hH
+|$`H
+T$hA
+|$XA
+|$hH
+t$@H
+t$@H
+o	fA
+T$hA
+|$XA
+T$`A
+,)D9
+T$XL
+|$XH
+D$XH
+D$HH
+D$XfD
+A;D$
+|$@E1
+t$@H
+T$XH
+l$@E
+D$H1
+\$XH
+|$XA
+l$(H
+|$hH
+D$HD
+\$ H
+l$(fA
+d$@L
+)L$H
+\$XM
+T$XL
+|$XE
+D$XH
+D$HH
+D$XfD
+A;D$
+|$@E1
+d$@1
+d$@H
+|$hI
+t$`L
+;D$L
+t$0L
+D;|$Hs
+l$PL
+D$PD
+|$HfD
+|$@1
+l$@H
+t$hL
+D$HA9
+t$pL
+D$pD
+l$HfD
+|$@1
+t&vwf
+AVAUA
+T$/H
+L$(L
+5c!#
+D$$E1
+D$(E
+vuMc
+D$/D
+T$$u
+[]A\A]A^A_
+ffff.
+D$H1
+D$HdH3
+fffff.
+AVAUA
+f;<$H
+0[]A\A]A^
+=kN#
+l$ L
+d$(L
+l$0H
+ffff.
+w(dH
+D$(1
+|$ L
+t6H9
+T$(dH3
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+ATUH
+D$81
+T$8dH3
+@[]A\
+ffffff.
+ffffff.
+D$(1
+T$(dH3
+0[]A\
+t9f.
+l$`f
+l$@1
+l$ 1
+ATUSH
+D$H1
+|$@H
+5WE#
+=FE#
+D$HdH3
+P[]A\
+D$81
+T$8dH3
+ffff.
+ATUSH
+D$(1
+T$(dH3
+0[]A\
+ffff.
+D$H1
+d$0H
+=XA#
+T$HdH3
+P[]A\
+ffffff.
+=\@#
+AVAUA
+ATUSH
+tYE1
+[]A\A]A^
+59?#
+t2HcS
+AVAUATA
+A\A]A^A_
+[]A\A]A^A_
+fffff.
+ffff.
+l$ H
+ffffff.
+D$H1
+< v91
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+D$.H
+D$.H
+D$.H
+D$.H
+t$0A
+AWAVAUI
+[]A\A]A^A_
+<tj@
+~<E1
+fffff.
+ATUH
+[]A\A]
+AUATUH
+D$H1
+l$ H
+T$HdH3
+P[]A\A]A^
+T$ L
+fffff.
+\$(H
+l$0L
+d$8L
+l$@H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+l$ L
+d$(L
+l$0H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\udA
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fff.
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+\$ H
+l$(L
+d$0H
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+T$0A
+D$4f
+T$@A
+D$Df
+T$ A
+AWAVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+fff.
+D$pL
+L$xH
+D$H1
+D$PH
+T$HdH3
+tsr1
+T$:I
+t$8H
+t$0H
+D$X1
+T$XdH3
+T$`L
+t$0H
+fff.
+t$@H
+L$ I
+T$(D
+D$ 0
+D$$0
+D$01
+T$VI
+T$TL
+d$pI
+ffffff.
+AWAVAUI
+D$0 
+T$8H
+[]A\A]A^A_
+|$\H
+L$pL
+D$nH
+T$XI
+t$`H
+L$ L
+L$`L
+L$PH
+D$nL
+L$nH
+D$XH
+T$\L
+|$(L
+t$`M
+T$0A
+T$0H
+T$xf
+T$0H
+T$0H
+T$0H
+L$PH
+D$0H
+DT$rf
+T$0H
+T$0H
+T$8H
+T$0H
+L$RH
+T$8H
+L$nH
+T$0A
+L$nH
+T$8H
+T$0H
+T$0H
+T$0L
+T$0H
+T$0H
+T$0H
+T$0H
+T$0H
+T$0H
+L$nH
+L$`H
+T$0H
+T$8H
+T$0H
+T$0H
+T$0H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+T$8H
+D$8H
+T$8H
+D$8H
+D$8H
+D$8H
+D$8H
+T$8H
+D$8H
+T$8H
+D$8H
+D$8H
+T$8H
+T$8H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+D$8H
+AVAUATUH
+D$`E1
+D$ H
+d$ H
+t$(H
+[]A\A]A^A_
+fff.
+AVAUATI
+u"I9
+L;t$
+[]A\A]A^A_
+t$@E1
+l$ L
+t$(L
+|$0H
+fffff.
+AVAUA
+ATUSH
+[]A\A]A^
+t$PM
+H+t$
+ATU1
+StEH
+D$81
+$t>H
+T$8dH3
+|$$H
+D$ f
+\$&f
+T$*f
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+D$0H
+|$4D
+l$:D
+d$<D
+D$,E
+D$0H
+D$0H
+fffff.
+l$ L
+d$(L
+l$0H
+ffffff.
+ffffff.
+\$0I
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+fff.
+$t=H
+ffffff.
+D$H1
+T$HdH3
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+~MHc
+AVAUI
+[]A\A]A^A_
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ATUS1
+t$0E1
+t$0L
+[]A\A]A^
+AUATI
+[]A\A]
+[]A\A]
+AUATE1
+[]A\A]
+fff.
+\$0L
+t$(A
+t$(H
+AVAUI
+ATUSH
+]A\A]A^
+[]A\A]A^
+$u H
+T$ H
+T$NI
+D$h1
+T$hdH3
+\$xH
+T$`L
+L$PH
+T$N1
+T$<H
+D$8H
+|$(D
+T$ND
+L$<L
+D$NH
+T$ f
+D$6fA
+|$(H
+fffff.
+ffffff.
+ATUSH
+d$ dH
+D$81
+D$8dH3
+H[]A\A]
+AUATUH
+l$ L
+[]A\A]A^
+t!Mc
+fffff.
+t!Mc
+fffff.
+fff.
+fff.
+AVAUATUH
+[]A\A]A^
+ffffff.
+AVAUATE1
+T$0H
+t$(H
+\$ L
+t$(H
+t$(H
+[]A\A]A^A_
+ v:H
+fff.
+AUATI
+[]A\A]
+AWAVAUATUH
+ 0000000SH
+00000000H
+00000000H
+00000000L
+e!f.
+[]A\A]A^A_
+ffffff.
+fff.
+AUATUH
+[]A\A]A^A_
+ffffff.
+AUATUH
+[]A\A]A^A_
+D$"fA
+D$$A
+AVAUI
+[]A\A]A^
+fffff.
+ATUH
+[]A\
+ffffff.
+ffffff.
+ATUH
+[]A\
+fffff.
+[]A\
+fff.
+[]A\A]
+H;r(
+fffff.
+l$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+L$,E1
+T$,1
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+\$0H
+l$8L
+d$@H
+T$ H
+T$(L
+D$ E1
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+t$@dH
+D$H1
+D$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+L$8E1
+T$81
+d$(H
+l$ L
+l$0L
+t$8L
+|$@H
+fff.
+ffffff.
+AUATUSH
+[]A\A]
+t	[H
+ffffff.
+d$ dH
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+fffff.
+l$ H
+AUATUSH
+d$PH
+[]A\A]A^
+$t.H
+fff.
+l$ H
+AVAUATUSH
+l$`H
+[]A\A]A^A_
+AWAVAUATUH
+D$(1
+l$ L
+D$(dH3
+8[]A\A]A^A_
+fffff.
+fff.
+fff.
+ffff.
+ffffff.
+D$81
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+l$ H
+ffffff.
+USt4H
+@8k(I
+d$ H
+AVAUATUSH
+D$81
+l$ L
+D$8dH3
+@[]A\A]A^
+(9w,
+d$ H
+fffff.
+AUATUSH
+d$`H
+[]A\A]
+[]A\A]
+ffff.
+D$(1
+T$(dH3
+\$0H
+l$8L
+d$@H
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+|$PH
+L$HE
+D$H1
+t$@M
+d$ L
+l$(L
+t$0H
+ATUH
+D$xb
+D$`s
+D$Hs
+D$0n
+D$pH
+D$hH
+D$XH
+D$PH
+D$@H
+D$8H
+D$(H
+D$ H
+[]A\
+fff.
+\$(H
+l$0L
+d$8L
+l$@H
+ffff.
+@8k)tw@
+D$81
+d$ H
+T$8dH3
+\$@H
+l$HL
+d$PH
+ffff.
+D$X1
+T$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+5yh"
+t"f.
+-rg"
+AUATUSH
+t,E1
+[]A\A]
+\$(H
+l$0L
+d$8L
+l$@H
+=3b"
+[]A\
+ATUSH
+[]A\
+=5`"
+\$ H
+l$(L
+d$0H
+ATUSH
+fff.
+=	\"
+ tPH
+ffff.
+d$`H
+t<E1
+AWAVI
+AUATL
+l$@L
+D$X1
+-l$"
+ucfA
+T$XdH3
+h[]A\A]A^A_
+connecta
+D$(ble
+l$ L
+l$ L
+t$(L
+|$0H
+l$PH
+ffff.
+l$ L
+d$(L
+l$0H
+fffff.
+t$PH
+stnH
+A8D$)
+t$$L
+A;t$
+A;t$$
+d$ H
+D$(H
+L$8L
+L$01
+T$0H
+T$8H
+L$0E
+\$HH
+l$PL
+d$XL
+l$`H
+d$ L
+l$(L
+t$0H
+fffff.
+D$81
+C8E8~
+D$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+ffff.
+D$81
+D$0H
+D$4H
+T$8dH3
+fff.
+|$`H
+D$`A
+l$*t
+R$@8
+A:l$)t4@
+[]A\
+|$hH
+D$hu
+|$pI
+fff.
+fff.
+|$`L
+d$ L
+l$(L
+t$0H
+|$`H
+E:l$)I
+D$`v
+|$@H
+d$ L
+l$(L
+t$0H
+D$)A
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+D$(1
+T$(dH3
+AWAVAUATA
+D$81
+D$0H
+D$4H
+T$8dH3
+H[]A\A]A^A_
+AWAVAUATUSH
+connecta
+|$ L
+[]A\A]A^A_
+	tqf
+fff.
+=R."
+ffffff.
+d$ H
+ffff.
+d$ H
+ffffff.
+t$ H
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+tAs'L
+l$ L
+t$(L
+|$0H
+fff.
+fffff.
+ffffff.
+\$(H
+l$0H
+D$?I
+L$0tmH
+L$PL
+L$0L
+D$HH
+L$?H
+D$HH
+D$HH
+D$H1
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+l$@H
+t$ H
+D$ H
+D$0H
+E@E1
+t$ H
+ffff.
+l$ L
+d$(L
+l$0H
+d$0H
+D$ H
+T$ L
+T$(L
+ffffff.
+AVAUI
+ATUSH
+t$8H
+T$(H
+T$0H
+T$0H
+T$0I
+D$(H
+\$8f
+H[]A\A]A^A_
+|$8L
+T$8H
+tBf.
+t$ H
+D$0I
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+d$PI
+st_H
+D$81
+l$0H
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+ffffff.
+[]A\H
+fff.
+[]A\H
+[]A\
+fffff.
+D$(1
+D$(dH3
+0[]A\
+l$ H
+AWAVAUATI
+D$pH
+\$ L
+t!f.
+[]A\A]A^A_
+ffffff.
+\$hH
+l$pL
+d$xL
+D$NE1
+L$NH
+T$PH
+D$@H
+L$Pf
+AWAVAUI
+ATUH
+\$pdH
+D$x1
+D$PH
+D$0L
+t$(H
+D$(H
+D$xdH3
+[]A\A]A^A_
+AWAVAUATUSH
+D$x1
+t$,H
+d$pH
+D$PL
+T$0H
+T$xdH3
+[]A\A]A^A_
+t$,H
+D$(1
+l$ L
+D$(dH3
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+AWAVI
+AUATI
+l$PH
+[]A\A]A^A_
+\$`H
+l$hL
+d$pL
+l$xL
+T$PH
+\$hH
+l$pL
+d$xL
+\$`H
+l$hL
+d$pL
+l$xL
+\$hH
+l$pL
+d$xL
+\$hH
+l$pL
+d$xL
+fffff.
+l$ H
+D$X1
+D$XdH3
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+d$ H
+D$x1
+D$xdH3
+t$`H
+t$@H
+D$,;D$
+T$ E1
+d$ H
+d$ H
+\$@H
+l$HL
+d$PH
+D$0H
+t$0@
+t$1H
+l$ L
+d$(L
+l$0H
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+D$81
+D$8dH3
+L$0H
+T$8E1
+|$8H
+|$8E1
+D$@L
+D$ D
+|$ L
+|$ L
+|$ L
+L$(H
+|$8D
+fff.
+D$(1
+D$$1
+D$&A
+T$(dH3
+\$0H
+l$8L
+d$@H
+l$ L
+d$(L
+l$0H
+L$0H
+T$(E
+T$?H
+|$01
+t$?H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+T$?H
+|$01
+t$?H
+D$?v
+ffffff.
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+fff.
+D$81
+l$0L
+|$ L
+D$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+D$ H
+D$$f
+ffffff.
+fff.
+ffffff.
+fff.
+fff.
+ATUH
+ATUSH
+[]A\
+[]A\
+[]A\H
+AUE1
+ATUSH
+[]A\A]
+[]A\A]
+ffffff.
+AUE1
+ATUSH
+[]A\A]
+[]A\A]
+AVE1
+AUATUSH
+E;l$
+[]A\A]A^
+[]A\A]A^
+ffff.
+AVE1
+AUATUSH
+E;l$
+[]A\A]A^
+[]A\A]A^
+ffff.
+[]A\A]
+AVE1
+AUATUSH
+E;l$
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+ffff.
+AVE1
+AUATUSH
+E;l$
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+fffff.
+l$ L
+t$(L
+|$0H
+org.freedesktop.DBus.Local
+Name already in use
+org.freedesktop.DBus.Introspectable
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node></node>
+			<arg type="%s" direction="%s"/>
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+			<arg type="%s"/>
+<node name="%s">
+	<interface name="%s">
+		<method name="%s"/>
+		<method name="%s">
+		</method>
+		<signal name="%s"/>
+		<signal name="%s">
+		</signal>
+	</interface>
+	<node name="%s"/>
+</node>
+Introspect
+type='signal'
+,sender='%s'
+,path='%s'
+,interface='%s'
+,member='%s'
+,arg0='%s'
+NameOwnerChanged
+org.freedesktop.DBus
+NameHasOwner
+/org/freedesktop/DBus
+/etc/bluetooth/audio.conf
+Parsing %s failed: %s
+Unable to setup unix socket
+sco_server_cb: %s
+bt_io_get: %s
+org.bluez.Headset
+org.bluez.HandsfreeGateway
+audio
+4.63
+Unable to start SCO server socket
+Refusing SCO from non-connected headset
+Refusing non-HFP SCO connect attempt from %s
+Refusing SCO from non-connected AG
+Accepted SCO connection from %s
+avrcp_server_remove
+avrcp_server_probe
+a2dp_server_remove
+a2dp_server_probe
+gateway_server_remove
+headset_server_remove
+headset_server_probe
+org.bluez.AudioSink
+org.bluez.AudioSource
+org.bluez.Control
+Found Headset record
+Found Headset AG record
+Found Handsfree record
+Found Handsfree AG record
+Found Audio Sink
+Found Audio Source
+Target
+Remote
+Found AV %s
+Unrecognized UUID: 0x%04X
+%s: path %s
+audio_adapter_ref(%p): ref=%d
+Authorization denied!
+Access denied: %s
+headset_connect_rfcomm failed
+Authorization denied: %s
+bt_io_accept: %s
+Enable
+General
+Disable
+AutoConnect
+audio.conf: %s
+MaxConnected
+Master
+Headset Audio Gateway
+Hands-Free Audio Gateway
+Hands-Free
+audio-headset
+audio-gateway
+audio-a2dp
+audio-control
+Unable to get a btd_adapter object for %s
+Unable to get btd_device object for %s
+audio_probe: unable to get a device object
+%s not detected as an UUID-128
+Could not convert %s to a UUID-16
+audio handle_uuid: server not enabled for %s (0x%04x)
+audio_adapter_unref(%p): ref=%d
+0000111E-0000-1000-8000-00805F9B34FB
+Refusing new connection since one already exists
+Allocating new GIOChannel failed!
+0000111F-0000-1000-8000-00805F9B34FB
+Accepted AG connection from %s for %s
+00001108-0000-1000-8000-00805F9B34FB
+00001112-0000-1000-8000-00805F9B34FB
+Refusing headset: too many existing connections
+Headset disconnected during authorization
+Unable to allocate new service record
+Unable to register HS AG service record
+Unable to register HF AG service record
+Unable to register HFP HS service record
+0000110D-0000-1000-8000-00805F9B34FB
+0000110A-0000-1000-8000-00805F9B34FB
+0000110B-0000-1000-8000-00805F9B34FB
+0000110C-0000-1000-8000-00805F9B34FB
+0000110E-0000-1000-8000-00805F9B34FB
+connecting
+playing
+connect(): %s
+Handfree Agent not registered
+NewConnection
+org.bluez.HandsfreeAgent
+Can not pass file descriptor
+org.bluez.Error.Failed
+Connection attempt failed
+sco connection is released
+Release
+Agent reply: %s
+sco_connect_cb(): %s
+No records found
+Unable to connect: %s
+Not supported
+org.bluez.Error.NotSupported
+RFCOMM disconnected from server before agent reply
+Agent reply: file descriptor passed successfuly
+at the begin of sco_connect_cb() in gateway.c
+Unable to get service record: %s (%d)
+Unable to get service classes from record
+Unable to get access protocols from record
+Invalid service record or not HFP
+Unable to extract RFCOMM channel from service record
+headset_send: the headset is not connected
+Failed to send to headset: %s (%d)
++CLCC: %d,%d,%d,%d,%d,"%s",%d
+telephony_report_event called but events are disabled
+"In-band ring tone capability" 
+"Attach a number to a voice tag" 
+"Extended Error Result Codes" 
+telephony_incoming_call_ind: already calling
+org.bluez.Error.ConnectionAttemptFailed
+Audio connection got disconnected
+Headset unregistered while device was connected!
+Unregistered interface %s on path %s
+%s: Connecting to %s channel %d
+Unable to accept HFP connection since the telephony subsystem isn't initialized
+HFP Service Level Connection established
+SCO socket opened for headset %s
+Invalid Headset Routing value: %s
+More than one HFP record found on device
+More than one HSP record found on device
+Invalid record passed to headset_update
+Invalid record passed to headset_init
+Registered interface %s on path %s
+Must be less than or equal to 15
+org.bluez.Error.InvalidArgument
+Invalid arguments in method call
+org.bluez.Error.InvalidArguments
+Got CancelCall method call but no call is active
+IndicateCall received when already indicating
+Refusing Headset.Play() because SCO HCI routing is enabled
+org.bluez.Error.AlreadyConnected
+org.bluez.Error.ConnectAttemptFailed
+Call waiting notification enabled for headset %p
+Call waiting notification disabled for headset %p
+CME errors enabled for headset %p
+CME errors disabled for headset %p
+Too much data to fit incomming buffer
+Badly formated or unrecognized command: %s
+Error handling command %s: %s (%d)
+Too short string for DTMF tone
+Too short string for Gain setting
+Invalid gain value received: %u
+Event reporting (CMER): mode=%d, ind=%d
+HFP AG indicators not initialized
+"Call waiting and 3-way calling" 
+"CLI presentation capability" 
+"Voice recognition activation" 
+Unable to get access protos from headset record
+Unable to get RFCOMM channel from Headset record
+Discovered Handsfree service on channel %d
+Discovered Headset service on channel %d
+No record found with UUID 0x%04x
+Rejecting non-voice call dial request
+HEADSET_STATE_PLAY_IN_PROGRESS
+audio/headset.c
+hs != ((void *)0)
++CCWA: "%s",%d
++CNUM: ,%s,%d,,%d
++CLCC: %d,%d,%d,%d,%d
+RING
++CLIP: "%s",%d
++BTRH: %d
++COPS: %d,0,"%s"
++CME ERROR: %d
+ERROR
++CIEV: %d,%d
+Telephony plugin initialized
+HFP AG features: (none)
+HFP AG features: 
+"Three-way calling" 
+"EC and/or NR function" 
+"Voice recognition function" 
+"Ability to reject a call" 
+"Enhanced call status" 
+"Enhanced call control" 
+CallTerminated
+Stopped
++VGS=%u
++VGM=%u
+State changed %s: %s -> %s
+Headset: disconnect %s
+%s: Connected to %s
+SCO fd=%d
+SCORouting
+Device not Connected
+org.bluez.Error.NotConnected
++VG%c=%u
+SpeakerGainChanged
+MicrophoneGainChanged
+Disconnected from %s, %s
+Operation not Available
+org.bluez.Error.NotAvailable
+Play in Progress
+org.bluez.Error.InProgress
+Device Already Connected
+Connect in Progress
+Telephony subsystem not ready
+org.bluez.Error.NotReady
+Too many connected devices
+org.bluez.Error.NotAllowed
+Connect Attempt Failed
+ERR or HUP on RFCOMM socket
+Received %s
+Unknown gain setting
+AnswerRequested
++CHLD: (%s)
++CIND: 
+,("%s",(%s))
+HFP HF features: (none)
+HFP HF features: 
+"Remote volume control" 
++BRSF: %u
+hs->pending != ((void *)0)
+Unable to connect: %s (%d)
+HEADSET_STATE_DISCONNECTED
+HEADSET_STATE_CONNECTING
+HEADSET_STATE_CONNECTED
+HEADSET_STATE_PLAYING
+Disconnect
+IsConnected
+IndicateCall
+CancelCall
+Play
+Stop
+IsPlaying
+GetSpeakerGain
+GetMicrophoneGain
+SetSpeakerGain
+SetMicrophoneGain
+GetProperties
+SetProperty
+PropertyChanged
+AT+VG
+AT+BRSF
+AT+CIND
+AT+CMER
+AT+CHLD
+AT+CHUP
+AT+CKPD
+AT+CLIP
+AT+BTRH
+AT+BLDN
+AT+VTS
+AT+CNUM
+AT+CLCC
+AT+CMEE
+AT+CCWA
+AT+COPS
+AT+NREC
+AT+BVRA
+send_foreach_headset
+get_record_cb
+AVRCP: closing uinput for %s
+AVCTP Disconnected
+AVCTP Connecting
+AVCTP Connected
+Invalid AVCTP state %d
+AVRCP TG
+AVRCP CT
+Too small AVCTP packet
+Too small AVRCP packet
+command
+response
+pressed
+AVRCP: %s %s
+AVRCP: Ignoring release
+OP_SUBUNITINFO
+OP_UNITINFO
+reply to %s
+Nokia CK-20W
+/dev/uinput
+/dev/input/uinput
+/dev/misc/uinput
+AVCTP: connected to %s
+VolumeUp
+VolumeDown
+PLAY
+STOP
+PAUSE
+BACKWARD
+REWIND
+FAST FORWARD
+Unable to get audio device object for %s
+Refusing unexpected connect from %s
+Unable to register AVRCP target service record
+Unable to register AVRCP controller service record
+AVRCP Target role not supported
+Got %d bytes of data for AVCTP session %p
+AVCTP transaction %u, packet type %u, C/R %u, IPID %u, PID 0x%04X
+AVRCP %s 0x%01X, subunit_type 0x%02X, subunit_id 0x%01X, opcode 0x%02X, %d operands
+AVRCP: treating key press as press + release
+AVCTP session %p got disconnected
+AVRCP: unknown button 0x%02X %s
+Can't open input device: %s (%d)
+Can't write device information: %s (%d)
+Can't create uinput device: %s (%d)
+AVRCP: failed to init uinput for %s
+AVRCP: uinput initialized for %s
+org.bluez.Audio
+Invalid audio state %d
+Not connected
+Failed to get AVDTP session
+Headset connect failed
+org.bluez.Error.ConnectFailed
+Connecting failed
+Unable to register %s on %s
+state change attempted from %s to %s
+Invalid source state %d
+Invalid channel mode %u
+Invalid sampling freq %u
+Source: disconnect %s
+Unable to get a session
+Failed to create a stream
+stream creation in progress
+Discovery complete
+No supported frequencies
+No supported channel modes
+No supported block lengths
+No supported subbands
+Stream setup failed
+Stream successfully created
+Stream setup failed : %s
+connect:connect XCASE detected
+No matching ACP and INT SEPs found
+Unable to select remote SEP capabilities
+Unable to get a local sink SEP
+Stream successfully created, after XCASE connect:connect
+Stream setup failed, after XCASE connect:connect
+Invalid sink state %d
+Sink: disconnect %s
+Unable to get a local source SEP
+SEP %p locked
+Sink %p: DelayReport_Cfm
+Source %p: DelayReport_Cfm
+Sink %p: ReConfigure_Ind
+Source %p: ReConfigure_Ind
+Sink %p: Abort_Ind
+Source %p: Abort_Ind
+Sink %p: Close_Ind
+Source %p: Close_Ind
+Sink %p: Open_Ind
+Source %p: Open_Ind
+SEP %p unlocked
+a2dp_cancel()
+setup_unref(%p): ref=%d
+setup_free(%p)
+setup_ref(%p): ref=%d
+avdtp_suspend failed
+SEP in bad state for suspend
+Sink %p: Start_Cfm
+Source %p: Start_Cfm
+Sink %p: ReConfigure_Cfm
+Source %p: ReConfigure_Cfm
+Sink %p: Open_Cfm
+Source %p: Open_Cfm
+Sink %p: Abort_Cfm
+Source %p: Abort_Cfm
+avdtp_start failed
+SEP in bad state for resume
+Sink %p: Suspend_Ind
+Source %p: Suspend_Ind
+a2dp_config: selected SEP %p
+avdtp_close failed
+avdtp_set_configuration: %s
+Configuration match: resuming
+Sink %p: Close_Cfm
+Source %p: Close_Cfm
+Sink %p: Suspend_Cfm
+Source %p: Suspend_Cfm
+Error on avdtp_open %s (%d)
+Sink %p: DelayReport_Ind
+Source %p: DelayReport_Ind
+Sink %p: Start_Ind
+Source %p: Start_Ind
+SBCSources
+A2DP
+MPEG12Sources
+SBCSinks
+MPEG12Sinks
+DelayReporting
+Sink %p: Get_Capability_Ind
+Source %p: Get_Capability_Ind
+Sink %p: Set_Configuration_Cfm
+Source %p: Set_Configuration_Cfm
+Sink %p: Get_Configuration_Ind
+Source %p: Get_Configuration_Ind
+a2dp_cancel: no matching callback with id %u
+a2dp_suspend: no stream to suspend
+SEP in bad state for requesting a new stream
+Cannot find capabilities to reconfigure
+Sink %p: Set_Configuration_Ind
+Source %p: Set_Configuration_Ind
+Unable to register A2DP service record
+avdtp_ref(%p): ref=%d
+Too small packet for seid_rej
+Too small packet for conf_rej
+avdtp_unref(%p): ref=%d
+send: %s (%d)
+Bad Packet Lenght
+Bad Header Format
+Bad Acceptor SEID
+Stream End Point in Use
+Stream End Point Not in Use
+Bad Service Category
+Bad Payload format
+Command Not Supported
+Invalid Capabilities
+Bad Recovery Type
+Bad Media Transport Format
+Bad Recovery Format
+Bad Header Compression Format
+Bad Content Protetion Format
+Bad Multiplexing Format
+Configuration not supported
+Bad State
+Unknow error
+audio/avdtp.c
+src != ((void *)0)
+dst != ((void *)0)
+avdtp_send: session is closed
+Too short getconf request
+Disconnected from %s
+Reconfigure: %s (%d)
+Open: %s (%d)
+Start: %s (%d)
+Suspend: %s (%d)
+Close: %s (%d)
+SetConfiguration: %s (%d)
+Discover: %s (%d)
+GetCapabilities: %s (%d)
+Abort: %s (%d)
+Unable to send abort request
+CONFIGURED
+IDLE
+STREAMING
+CLOSING
+ABORTING
+<unknown state>
+No reply to Open request
+No reply to Start request
+No reply to Suspend request
+No reply to Close request
+DISCOVER request succeeded
+ALL_
+Too short getcap resp packet
+seid %d type %d media %d
+RECONFIGURE request succeeded
+OPEN request succeeded
+SUSPEND request succeeded
+START request succeeded
+CLOSE request succeeded
+ABORT request succeeded
+signaling
+transport
+AVDTP imtu=%u, omtu=%u
+session_cb
+IO Channel read error
+Too few continue packets
+Got an end packet too early
+Received DISCOVER_CMD
+Too short getcap request
+Received RECONFIGURE_CMD
+Received OPEN_CMD
+Too short abort request
+Received START_CMD
+Too short start request
+Received CLOSE_CMD
+Too short close request
+Received SUSPEND_CMD
+Too short suspend request
+Received ABORT_CMD
+Received SECURITY_CONTROL_CMD
+Received DELAY_REPORT_CMD
+Reponse signal doesn't match
+Unknown message type 0x%02X
+Too small packet for stream_rej
+Timed out waiting for peer to close the transport channel
+avdtp_unref(%p): freeing session and removing from list
+Invalid capability data in getcap resp
+try_send: complete buffer not sent (%d/%zu bytes)
+SEP %p registered: type:%d codec:%d seid:%d
+err->type == AVDTP_ERROR_ERRNO
+err->type == AVDTP_ERROR_ERROR_CODE
+avdtp_send: %zu bytes split into %d fragments
+avdtp_send: first packet with %zu bytes sent
+avdtp_send: sending continue with %d bytes
+avdtp_send: sending end with %d bytes
+avdtp_set_state(): no matching audio device
+connection_lost: ref count not 1 after all callbacks
+Error changing sep state: stream not available
+stream state change failed: %s
+stream state changed: %s -> %s
+handle_unanswered_req: Abort req, returning
+No reply to Reconfigure request
+No reply to SetConfiguration request
+Timed out waiting for peer to open the transport channel
+avdtp_close: rejecting since close is already initiated
+avdtp_start: rejecting start since close is initiated
+seid %d type %d media %d in use %d
+GET_%sCAPABILITIES request succeeded
+AVDTP: stream was closed while waiting for reply
+SET_CONFIGURATION request succeeded
+DELAY_REPORT request succeeded
+Unknown signal id in accept response: %u
+avdtp_set_configuration(%p): int_seid=%u, acp_seid=%u
+AVDTP: connected %s channel to %s
+AVDTP: incoming connect from %s
+avdtp_confirm_cb: connect already in progress (XCASE connect:connect)
+Received too small packet (%zu bytes)
+Received too small single packet (%zu bytes)
+SINGLE: Invalid AVDTP packet fragmentation
+Received too small start packet (%zu bytes)
+START: Invalid AVDTP packet fragmentation
+CONTINUE: Invalid AVDTP packet fragmentation
+Continue transaction id doesn't match
+END: Invalid AVDTP packet fragmentation
+End transaction id doesn't match
+Not enough incoming buffer space!
+Received AVDTP fragment. %d to go
+Received  GET_CAPABILITIES_CMD
+Received  GET_ALL_CAPABILITIES_CMD
+Received SET_CONFIGURATION_CMD
+Unable to get a audio device object
+Unable to get a audio sink object
+Received GET_CONFIGURATION_CMD
+Too short delay report request
+Received unknown request id %u
+Unable to handle command. Disconnecting
+No pending request, ignoring message
+Transaction label doesn't match
+Unable to parse accept response
+DISCOVER request rejected: %s (%d)
+GET_CAPABILITIES request rejected: %s (%d)
+OPEN request rejected: %s (%d)
+SET_CONFIGURATION request rejected: %s (%d)
+RECONFIGURE request rejected: %s (%d)
+START request rejected: %s (%d)
+SUSPEND request rejected: %s (%d)
+CLOSE request rejected: %s (%d)
+ABORT request rejected: %s (%d)
+DELAY_REPORT request rejected: %s (%d)
+Unknown reject response signal id: %u
+Unable to parse reject response
+Received a General Reject message
+avdtp_get_internal
+avdtp_error_posix_errno
+avdtp_error_error_code
+%s: Cannot open socket: %s (%d)
+%s: connect() failed: %s (%d)
+%s: Unable to receive fd: %s (%d)
+/org/bluez/audio
+bt_audio_service_get_data_fd
+bt_audio_service_open
+BT_GET_CAPABILITIES
+BT_OPEN
+BT_SET_CONFIGURATION
+BT_NEW_STREAM
+BT_START_STREAM
+BT_STOP_STREAM
+BT_SUSPEND_STREAM
+BT_RESUME_STREAM
+BT_CONTROL
+BT_REQUEST
+BT_RESPONSE
+BT_INDICATION
+BT_ERROR
+48Khz 
+44.1Khz 
+32Khz 
+16Khz 
+JointStereo
+DualChannel 
+Mono 
+24Khz 
+22.05Khz 
+JointStereo 
+client_free(%p)
+Unix socket created: %d
+Audio API: %s -> %s
+Error %s(%d)
+accept: %s (%d)
+sending error %s(%d)
+No known services for device
+unix_device_removed(%p)
+discovery failed
+configured
+config failed
+unix_sendmsg_fd: %s(%d)
+Unable to get a SCO fd
+recv: %s (%d)
+Audio API: %s <- %s
+write
+read
+Invalid seid %d
+Unable to open seid %d
+seid %d not opened
+seid not opened
+start_resume: resume failed
+Unable to get a sep
+No matching service found
+Media Codec: SBC Channel Modes: %s%s%s%s Frequencies: %s%s%s%s Subbands: %s%s Blocks: %s%s%s%s Bitpool: %d-%d
+Media Codec: MPEG12 Channel Modes: %s%s%s%s Frequencies: %s%s%s%s%s%s Layers: %s%s%s CRC: %s
+Can't create unix socket: %s (%d)
+Can't bind unix socket: %s (%d)
+Can't listen on unix socket: %s (%d)
+Accepted new client connection on unix socket (fd=%d)
+unix_delay_report(%p): %u.%ums
+Client disconnected during discovery
+Append %s seid %d - length %d - total %d
+Unable to get stream transport
+headset_resume_complete: resume failed
+Unix client disconnected (fd=%d)
+Invalid message: length mismatch
+Unable to find a matching device
+open sco - object=%s source=%s destination=%s lock=%s%s
+open a2dp - object=%s source=%s destination=%s lock=%s%s
+Client already has an opened session
+seid %d not available or locked
+Unable to set configuration: seid %d not opened
+Audio API: received unexpected message name %d
+/org/bluez/audio
+/etc/bluetooth/input.conf
+Invalid record
+Invalid RFCOMM channel
+IdleTimeout
+input.conf: %s
+input-hid
+input-headset
+input-server
+00001124-0000-1000-8000-00805f9b34fb
+input_remove
+headset_probe
+hid_device_probe
+Failed to listen on control channel
+Failed to listen on interrupt channel
+Refusing connection: setup in progress
+Incoming connection on PSM %d
+bt_acl_encrypt(): %s(%d)
+org.bluez.Input
+Encryption failed: %s(0x%x)
+ioctl_connadd(): %s(%d)
+Already connected to a device
+Received: %s
+IO Channel write error
+AT+CKPD=200
+Input: disconnect %s
+Rejected connection from unknown device %s
+Device connection already in progress
+Hangup or error on rfcomm server socket
+Failed to register interface %s on path %s
+Can't open HIDP control socket
+Can't delete the HID device: %s(%d)
+Error setting up uinput
+PS3 Remote Controller
+Error creating uinput device
+Error enabling uinput key %i
+Got invalid key from decode
+Error opening uinput device file
+Error enabling uinput device key events
+Got a shorter packet! (size %i)
+ps3remote: unrecognized sequence [%#x][%#x][%#x][%#x] [%#x],last: [%#x][%#x][%#x][%#x]
+Error writing to uinput device
+serial
+%s: path %s: %s
+Channel out of range: %d
+serial-port
+serial-proxy
+00000003-0000-1000-8000-00805F9B34FB
+serial_remove
+serial_probe
+proxy_remove
+proxy_probe
+org.bluez.SerialProxyManager
+ProxyRemoved
+org.bluez.SerialProxy
+Invalid proxy path
+org.bluez.Error.DoesNotExist
+Permission denied
+Not allowed
+Invalid baud rate
+Invalid stop bits
+mark
+none
+space
+Invalid data bits
+even
+Invalid parity
+uuid
+Not enabled
+Allocated channel %d
+Serial Proxy
+Already enabled
+Proxy enable failed (%s)
+org.bluez.ErrorFailed
+Unregistered proxy: %s
+%s/proxy%d
+Registered proxy: %s
+Can't open TTY %s: %s(%d)
+localhost
+Invalid port '%d'.
+127.0.0.1
+localhost:
+/dev/
+Cant open TTY: %s(%d)
+ProxyCreated
+Invalid UUID
+Invalid address
+Proxy already exists
+org.bluez.Error.AlreadyExist
+Proxy creation failed (%s)
+/etc/bluetooth/serial.conf
+Address
+Invalid address.
+Proxy already exists.
+CreateProxy
+ListProxies
+RemoveProxy
+GetInfo
+SetSerialParameters
+syys
+1200
+1800
+2400
+4800
+9600
+19200
+38400
+57600
+115200
+Refusing connect from %s: Proxy already in use
+Serial Proxy: incoming connect from %s
+Refusing connect from %s: %s (%d)
+D-Bus failed to register %s path
+Unix socket(%s) create failed: %s(%d)
+Unix socket(%s) connect failed: %s(%d)
+Can't change serial settings: %s(%d)
+Address should have the form localhost:port.
+TCP socket(%s) create failed %s(%d)
+TCP socket(%s) connect failed: %s(%d)
+Failed to register %s interface to %s
+org.bluez.Serial
+No record found
+Invalid channel
+Does not match
+Port already in use
+Serial port %s released
+Could not open %s: %s (%d)
+Port does not exist
+Operation not permited
+/dev/rfcomm%d
+Serial port %s created
+Unable to get access protos from port record
+Can't release device %s: %s (%d)
+ioctl(RFCOMMCREATEDEV): %s (%d)
+D-Bus failed to register %s interface
+network
+/etc/bluetooth/network.conf
+Server
+DisableSecurity
+Interface
+PANU Role
+GN Role
+NAP Role
+bnep%d
+pan0
+pan1
+false
+true
+Can't init bnep module
+Can't init bridge module
+network-panu
+network-gn
+network-nap
+network-panu-server
+network-gn-server
+network-nap-server
+Config options: InterfacePrefix=%s, PANU_Script=%s, GN_Script=%s, NAP_Script=%s, GN_Interface=%s, NAP_Interface=%s, Security=%s
+00001115-0000-1000-8000-00805f9b34fb
+00001117-0000-1000-8000-00805f9b34fb
+00001116-0000-1000-8000-00805f9b34fb
+network_server_remove
+network_server_probe
+network_remove
+network_probe
+Unable to execute %s %s
+%d exited with status %d
+%d was killed by signal %d
+avahi-autoipd
+--kill
+kill(%d, SIGTERM): %s (%d)
+--refresh
+Could not bring up %s. %s(%d)
+--no-drop-root
+--no-chroot
+Failed to open control socket: %s (%d)
+Failed to get connection list: %s (%d)
+Failed to kill connection: %s (%d)
+Failed to add device %s: %s(%d)
+Name
+Uuid
+Enabled
+BlueZ PAN service
+org.bluez.NetworkPeer
+BlueZ PANU service
+org.bluez.NetworkHub
+BlueZ GN service
+org.bluez.NetworkRouter
+BlueZ NAP service
+Not a dict
+Key not a string
+Value not a variant
+Value not string
+Invalid name
+Value not boolean
+Server already enabled
+Property does not exist
+Can't remove GN bridge
+Can't create GN bridge
+read(): %s(%d)
+Server unavailable: (0x%x)
+Added new connection: %s
+BNEP: incoming connect from %s
+Refusing connect from %s: setup in progress
+0000000f-0000-1000-8000-00805f9b34fb
+Failed to register service record
+register_server_record: got record id 0x%x
+Service record attribute update failed
+Service record registration failed
+Hangup or error on BNEP socket
+Can't add %s to the bridge %s: %s(%d)
+bridge %s removed
+bridge %s created
+bridge %s: interface %s added
+Failed to open bridge socket: %s (%d)
+Device not connected
+Device already connected
+Network: disconnect %s
+org.bluez.Network
+%s disconnected
+bnep connect(): %s (%d)
+bnep failed
+%s could not be added
+%s connected
+bnep setup failed
+Hangup or error on l2cap server socket
+No packet received on l2cap socket
+Packet received is not bnep type
+org.bluez.Service
+remove record
+remove record 0x%x
+listner_id %d
+Not Available
+attribute
+Trouble adding attribute
+No data for attribute 0x%04x
+sequence
+alternate
+New attribute 0x%04x
+value
+encoding
+Can't parse element %s
+XML parsing error
+listener_id %d
+Not Authorized
+org.bluez.Error.NotAuthorized
+Does Not Exist
+AddRecord
+UpdateRecord
+RemoveRecord
+RequestAuthorization
+CancelAuthorization
+Parsing of XML service record failed
+Failed to update the service record
+Authorization cancelled: Client exited
+register_interface
+unregister_interface
+Cleanup cable plugin
+Setup cable plugin
+udev
+Could not get udev monitor
+ID_SERIAL
+ID_USB_DRIVER
+Found Sixaxis device
+No adapters, exiting
+libusb_get_device_list failed
+/dev/bus/usb
+%s/%03d/%03d
+Failed to get on the bus
+Can't open device
+Can't claim interface %d
+%02X:%02X:%02X:%02X:%02X:%02X
+Device Bluetooth address: %s
+PLAYSTATION(R)3 Controller
+[all]
+Adapter bdaddr %s
+%X:%X:%X:%X:%X:%X
+cable
+Sony_PLAYSTATION_R_3_Controller
+Found a Sixaxis, but couldn't find it via libusb
+libusb_get_device_descriptor() failed
+Failed to get config descriptor %d
+Getting the device Bluetooth address failed
+Failed to get the Bluetooth address from the device
+3601920900000A000100000900013503191124090004350D35061901000900113503190011090006350909656E09006A0901000900093508350619112409010009000D350F350D350619010009001335031900110901002513576972656C65737320436F6E74726F6C6C65720901012513576972656C65737320436F6E74726F6C6C6572090102251B536F6E7920436F6D707574657220456E7465727461696E6D656E740902000901000902010901000902020800090203082109020428010902052801090206359A35980822259405010904A101A102850175089501150026FF00810375019513150025013500450105091901291381027501950D0600FF8103150026FF0005010901A10075089504350046FF0009300931093209358102C0050175089527090181027508953009019102750895300901B102C0A1028502750895300901B102C0A10285EE750895300901B102C0A10285EF750895300901B102C0C0090207350835060904090901000902082800090209280109020A280109020B09010009020C093E8009020D280009020E2800
+Setting the master Bluetooth address failed
+Failed to set the master Bluetooth address
+Can't stop device hci%d: %s (%d)
+Can't init device hci%d: %s (%d)
+child_exit: unable to read child pid from pipe
+Fork failed. Can't init device hci%d: %s (%d)
+Can't open device hci%d: %s (%d)
+Can't set link mode on hci%d: %s (%d)
+Can't set link policy on hci%d: %s (%d)
+Read from control socket failed: %s (%d)
+Can't open HCI socket: %s (%d)
+Can't bind HCI socket: %s (%d)
+Can't allocate devlist buffer: %s (%d)
+Can't get device list: %s (%d)
+unable to write to child pipe
+waitpid(%d) failed
+child %d exited
+HCI dev %d registered
+child %d forked
+HCI dev %d unregistered
+HCI dev %d up
+HCI dev %d down
+pipe(): %s (%d)
+Can't set filter: %s (%d)
+hciops
+system.formfactor
+GetPropertyString
+org.freedesktop.Hal.Device
+org.freedesktop.Hal
+Failed to access HAL
+Wrong formfactor arguments
+Computer is classified as %s
+laptop
+desktop
+handheld
+/org/freedesktop/Hal/devices/computer
+Failed to create formfactor request
+Failed to send formfactor request
+Setting 0x%06x for major/minor device class
+storage
+BlueZ
+An unknown error occurred
+Can't start daemon
+Bluetooth daemon %s
+bluetoothd
+Enabling debug information
+/etc/bluetooth/main.conf
+parsing main.conf
+DiscoverableTimeout
+discovto=%d
+PairableTimeout
+pairto=%d
+PageTimeout
+pageto=%d
+name=%s
+Class
+class=%s
+DiscoverSchedulerInterval
+discov_interval=%d
+InitiallyPowered
+RememberPowered
+DeviceID
+deviceid=%s
+ReverseServiceDiscovery
+NameResolving
+Unable to get on D-Bus
+adapter_ops_setup failed
+Entering main loop
+Exit
+nodaemon
+debug
+Don't run as daemon in background
+Enable debug information output
+Run from udev mode of operation
+Stopping security manager %d
+hci_open_dev(%d): %s (%d)
+Starting security manager %d
+ISO-8859-1
+UTF-8
+manufacturers
+/var/lib/bluetooth
+Can't get conn info: %s (%d)
+HCIGETAUTHINFO failed %s (%d)
+stored link key type = 0x%02x
+IO channel not found in the io_data table
+Inquiry Failed with status 0x%02x
+Unable to find matching adapter
+Can't set filter on hci%d: %s (%d)
+Can't get device info: %s (%d)
+pin_code_request (sba=%s, dba=%s)
+link_key_request (sba=%s, dba=%s)
+kernel auth requirements = 0x%02x
+link_key_notify (sba=%s, dba=%s, type=%d)
+return_link_keys (sba=%s, dba=%s)
+io_capa_request (sba=%s, dba=%s)
+io_capa_response (sba=%s, dba=%s)
+/dev/rfkill
+RFKILL unblock for hci%d
+Failed to open RFKILL control device
+RFKILL event idx %u type %u op %u soft %u hard %u
+/sys/class/rfkill/rfkill%u/name
+Stopping SDP server
+Can't accept connection: %s
+Starting SDP server
+opening L2CAP socket: %s
+binding L2CAP socket: %s
+setsockopt: %s
+getsockopt: %s
+listen: %s
+opening UNIX socket: %s
+binding UNIX socket: %s
+listen UNIX socket: %s
+/var/run/sdp
+Server initialization failed
+Unknown seq type
+Unexpected data type : 0x%x
+Expect uint16_t or uint32_t
+getpeername: %s
+getsockname: %s
+Relocation needed
+NULL cache buffer and non-NULL continuation state
+Unknown PDU ID : 0x%x received
+src/sdpd-service.c
+nrec == orec
+Record pattern UUID %s
+Removing record with handle 0x%05x
+Adding record with handle 0x%05x
+Adding device id record for %04x:%04x
+service_update_req
+NULL RECORD LIST FATAL
+Remove : Couldn't find record for : 0x%x
+<nil/>
+<boolean value="
+" />
+<uint8 value="
+<uint16 value="
+<uint32 value="
+<uint64 value="
+0x%016jx
+<uint128 value="
+<int8 value="
+<int16 value="
+<int32 value="
+<int64 value="
+<int128 value="
+<uuid value="
+<text 
+encoding="hex" 
+<url value="
+<sequence>
+</sequence>
+<alternate>
+</alternate>
+	<attribute id="0x%04x">
+	</attribute>
+<record>
+</record>
+uint8
+uint16
+uint32
+uint64
+uint128
+text
+%02x%02x%02x%02x-%02x%02x-%02x%02x-%02x%02x-%02x%02x%02x%02x%02x%02x
+<?xml version="1.0" encoding="UTF-8" ?>
+bt-io-error-quark
+getsockname: %s (%d)
+getpeername: %s (%d)
+setsockopt(LM): %s (%d)
+rfcomm_set_master: %s (%d)
+l2cap_set_master: %s (%d)
+getsockopt(LM): %s (%d)
+HUP or ERR on socket
+poll: %s (%d)
+l2cap_bind: %s (%d)
+socket(RAW, L2CAP): %s (%d)
+rfcomm_bind: %s (%d)
+sco_bind: %s (%d)
+Unknown BtIO type %d
+Unknown option %d
+listen: %s (%d)
+getsockopt(L2CAP_LM): %s (%d)
+L2CAP_CONNINFO: %s (%d)
+RFCOMM_CONNINFO: %s (%d)
+getsockopt(SCO_OPTIONS): %s (%d)
+setsockopt(SCO_OPTIONS): %s (%d)
+Valid security level range is %d-%d
+setsockopt(BT_SECURITY): %s (%d)
+getsockopt(L2CAP_OPTIONS): %s (%d)
+setsockopt(L2CAP_OPTIONS): %s (%d)
+getsockopt(BT_SECURITY): %s (%d)
+socket(SEQPACKET, L2CAP): %s (%d)
+socket(STREAM, RFCOMM): %s (%d)
+socket(SEQPACKET, SCO): %s (%d)
+Server L2CAP RAW sockets not supported
+getsockopt(DEFER_SETUP): %s (%d)
+getsockopt(RFCOMM_LM): %s (%d)
+%s %s
+%s/%s/%s
+%.8x-%.4x-%.4x-%.4x-%.8x%.4x
+pbap
+synch
+%08x-%04hx-%04hx-%04hx-%08x%04hx
+/usr/share/hwdata/oui.txt
+Cleanup plugins
+%s.so
+Version mismatch for %s
+Loading %s plugin
+DisablePlugins
+Loading builtin plugins
+/usr/lib64/bluetooth/plugins
+Loading plugins %s
+Can't load plugin %s: %s
+bluetooth_plugin_desc
+Failed to init %s plugin
+Can't load plugin description: %s
+aliases
+%04X %04X %04X %04X
+%17s#%08X
+config
+onmode
+pairto
+discovto
+names
+trusts
+%s%s
+features
+%02hhX
+classes
+%Y-%m-%d %H:%M:%S %Z
+lastseen
+lastused
+%2.2X
+pincodes
+class
+%d %d %d
+linkkeys
+0x%2.2x%2.2x%2.2x
+0x%6.6x
+%d -1
+%d 0x%08x
+l2cap
+pairable
+profiles
+00001200-0000-1000-8000-00805f9b34fb
+DisplayPasskey
+org.bluez.Agent
+D-Bus send failed
+RequestConfirmation
+RequestPasskey
+ConfirmModeChange
+Authorize
+Cancel
+Wrong reply signature: %s
+RequestPinCode
+Invalid passkey length
+org.bluez.Error.InvalidArgs
+Releasing agent %s, %s
+Couldn't allocate D-Bus message
+Calling Agent.RequestConfirmation: name=%s, path=%s, passkey=%06u
+Calling Agent.RequestPasskey: name=%s, path=%s
+org.freedesktop.DBus.Error.UnknownMethod
+org.freedesktop.DBus.Error.NoReply
+Agent replied with an error: %s, %s
+Wrong passkey reply signature: %s
+Calling Agent.ConfirmModeChange: name=%s, path=%s, mode=%s
+authorize request was sent for %s
+Invalid passkey length from handler
+Agent exited without calling Unregister
+org.bluez.Manager
+AdapterAdded
+DefaultAdapterChanged
+AdapterRemoved
+Unregister path: %s
+00:00:00:00:00:00
+No such adapter
+org.bluez.Error.NoSuchAdapter
+/org/bluez/%d
+DefaultAdapter
+FindAdapter
+ListAdapters
+Getting device data failed: hci%d
+Unable to register adapter: hci%d already exist
+DisplayOnly
+DisplayYesNo
+KeyboardOnly
+NoInputNoOutput
+%s/any
+btd_adapter_ref(%p): ref=%d
+Unable to add connection %d
+Pairable
+org.bluez.Adapter
+Discoverable
+DeviceDisappeared
+Discovering
+DeviceFound
+Paired
+LegacyPairing
+Alias
+RSSI
+Icon
+adapter_free(%p)
+No such agent
+Agent already exists
+org.bluez.Error.AlreadyExists
+Failed to create a new agent
+connectable
+discoverable
+unknown
+limited
+Adapter is not ready
+%s/hci%d
+btd_adapter_unref(%p): ref=%d
+Removing adapter %s
+No matching adapter found
+DeviceRemoved
+Removing temporary device %s
+Adapter %s has been disabled
+adapter_create_device(%s)
+DeviceCreated
+adapter_get_device(%s)
+Mode
+session_ref(%p): ref=%d
+Device does not exist
+Device creation in progress
+Device already exists
+org.bluez.Error.NotInProgress
+Not authorized
+Switching to '%s' mode
+Stopping discovery
+session_unref(%p): ref=%d
+Invalid discovery session
+No Mode to release
+No agent registered
+Adapter %s without an address
+Adapter %s has been enabled
+RequestSession
+ReleaseSession
+StartDiscovery
+StopDiscovery
+ListDevices
+CreateDevice
+CreatePairedDevice
+CancelDeviceCreation
+RemoveDevice
+FindDevice
+RegisterAgent
+UnregisterAgent
+sa{sv}
+Changing service classes to 0x%06x
+Adapter class update failed: %s(%d)
+Changing Major/Minor class to 0x%06x
+Unable to allocate new %s.DeviceFound signal
+Agent registered for hci%d at %s:%s
+adapter_create: failed to alloc memory for %s
+Adapter interface init failed on path %s
+Sending getting name command failed: %s (%d)
+No matching connection for handle %u
+Can't write extended inquiry response: %s (%d)
+inquiry respone tx power level is %d
+%s session %p with %s activated
+Name change failed: supplied name isn't valid UTF-8
+Refusing adapter agent usage as device specific one
+Unable to create a new device object
+Device creation not in progress
+Remote name cancel failed: %s(%d)
+%s session %p with %s deactivated
+Unable to send HCI remote name req: %s (%d)
+Can't read address for hci%d: %s (%d)
+Can't open adapter %s: %s (%d)
+Can't read version info for %s: %s (%d)
+Can't read features for %s: %s (%d)
+Can't read simple pairing mode on %s: %s (%d)
+Can't write inquiry mode for %s: %s (%d)
+Stopping Inquiry at adapter startup
+btd_device_ref(%p): ref=%d
+btd_device_unref(%p): ref=%d
+org.bluez.Device
+UUIDs
+org.bluez.Error.Canceled
+Bonding in progress
+Bonding already exists
+bt_io_connect: %s
+%s: requesting bonding
+Unable to create a new agent
+Page Timeout
+Connection Timeout
+Authentication Timeout
+Repeated Attempts
+Authentication Rejected
+Authentication Canceled
+Authentication Failed
+%s: canceling bonding request
+No pending discovery
+DiscoverServices
+Probe drivers for %s
+Discover in progress
+Discovery Failed
+Trusted
+device_free(%p)
+%s/dev_%s
+Creating device %s
+DisconnectRequested
+Device is not connected
+Removing device %s
+%s: No service update
+Remove drivers for %s
+a{us}
+CancelDiscovery
+%s: canceling authentication request
+%s: requesting agent authentication
+No agent available for %u request
+Failed requesting authentication
+Temporary agent registered for %s at %s:%s
+org.bluez.Error.AuthenticationTimeout
+org.bluez.Error.RepeatedAttempts
+org.bluez.Error.AuthenticationRejected
+org.bluez.Error.AuthenticationCanceled
+org.bluez.Error.AuthenticationFailed
+setting timer for reverse service discovery
+DiscoverServices requestor exited
+probe failed with driver %s for device %s
+%s: Unable to remove connection %u, handle mismatch (%u)
+%s: Unable to add connection %u, %u already exist)
+%s: requestor exited before bonding was completed
+Unable to get connection handle: %s
+Unable to send HCI request: %s (%d)
+HCI_Authentication_Requested failed with status 0x%02x
+Skipping record with no service classes
+%s: error updating services: %s (%d)
+UUID %s was removed from device %s
+org.bluez
+Unable to allocate new %s.PropertyChanged signal
+network-wireless
+computer
+modem
+phone
+camera-video
+audio-card
+input-keyboard
+input-gaming
+input-mouse
+input-tablet
+printer
+camera-photo
+Unable to get device object!
+HCI adapter open failed: %s
+Disconnection failed: 0x%02x
+HCI device open failed: hci%d
+Unable to open hci%d
+write_link_key: %s (%d)
+auto accept of confirmation
+Can't read simple pairing mode for %s: %s(%d)
+No matching connection found for handle %u
+hcid_dbus_simple_pairing_complete: status=%02x
+hcid_dbus_bonding_process_complete: status=%02x
+hcid_dbus_bonding_process_complete: no pending auth request
+Sending read scan enable command failed: %s (%d)
+Getting scan enable failed with status 0x%02x
+HCIGETAUTHINFO failed: %s (%d)
+initial authentication requirement is 0x%02x
+Allowing no bonding in non-bondable mode
+Bonding request, but no agent present
+Allowing no bonding without agent
+No agent available for IO capability
+final authentication requirement is 0x%02x
+local auth 0x%02x and remote auth 0x%02x
+storing link key of type 0x%02x
+confirm authentication requirement is 0x%02x
+remote IO capabilities are 0x%02x
+remote authentication requirement is 0x%02x
+org.bluez.TelephonyTest
+/org/bluez/test
+disable
+enable
+VoiceDial
+DummyOperator
+callsetup
+Ignoring no-change indication
+roam
+telephony-dummy: cancel call
+signal
+battchg
+OutgoingCall
+IncomingCall
+SignalStrength
+BatteryLevel
+RoamingStatus
+RegistrationStatus
+SetSubscriberNumber
+0,1,1x,2,2x,3,4
+callheld
+telephony-dummy interface %s init failed on path %s
+telephony-dummy: device %p disconnected
+telephony-dummy: device %p connected
+telephony-dummy: got key press request for %s
+telephony-dummy: got %s voice dial request
+telephony-dummy: got %s NR and EC request
+telephony-dymmy: got call hold request %s
+telephony-dummy: list current calls request
+telephony-dummy: subscriber number request
+telephony-dummy: transmit dtmf: %c
+telephony-dummy: subscriber number set to %s
+Telephony indicator "%s" %d->%d
+telephony-dummy: dial request to %s
+telephony-dummy: incoming call to %s
+telephony-dummy: outgoing call to %s
+telephony-dummy: roaming status set to %d
+telephony-dummy: registration status set to %d
+telephony-dummy: signal strength set to %u
+telephony-dummy: battery level set to %u
+/org/bluez
+bluetoothd.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

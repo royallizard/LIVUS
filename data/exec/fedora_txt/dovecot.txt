@@ -1,0 +1,978 @@
+/lib64/ld-linux-x86-64.so.2
+&!$@
+Q5 n
+libcap.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+cap_free
+cap_set_proc
+cap_clear
+cap_init
+cap_set_flag
+libdovecot.so.0
+io_add
+hash_table_remove
+i_error
+net_gethostbyname
+hash_table_destroy
+str_printfa
+master_instance_list_init
+hash_table_iterate_deinit
+lib_signals_ignore
+master_service_settings_detach
+str_append
+close_keep_errno
+hash_table_lookup
+str_array_find
+hash_table_iterate_init
+p_strsplit_spaces
+mountpoint_list_add_missing
+lib_signal_code_to_str
+t_str_new
+env_put
+str_len
+t_abspath
+t_strsplit_spaces
+restrict_get_process_limit
+str_append_tabescaped
+t_strarray_join
+i_info
+mountpoint_list_save
+restrict_process_count
+i_getpwnam
+write_full
+lib_signals_set_handler
+p_strconcat
+net_disconnect
+master_service_init_log
+buffer_append
+t_strdup_until
+i_set_fatal_handler
+aqueue_count
+my_pid
+restrict_access
+buffer_create_dynamic
+i_fatal
+master_service_get_config_path
+dec2str
+hash_table_create_direct
+buffer_append_space_unsafe
+aqueue_append
+net_listen_full
+io_loop_set_time_moved_callback
+t_push
+t_pop_check
+ioloop_time
+fd_close_on_exec
+array_idx_modifiable_i
+restrict_access_set_env
+aqueue_clear
+timeout_remove
+buffer_append_buf
+t_askpass
+aqueue_init
+pool_datastack_create
+timeout_add_short
+mkdir_parents
+t_strcut
+mountpoint_list_iter_init
+master_service_settings_get
+my_hostname
+current_ioloop
+mountpoint_list_deinit
+master_instance_list_set_name
+i_warning
+my_hostdomain
+mountpoint_list_default_ignore_types
+net_set_nonblock
+array_sort_i
+i_getgrnam
+master_service_settings_read
+hostpid_init
+t_strconcat
+net_connect_unix
+aqueue_delete_tail
+net_accept
+restrict_get_core_limit
+execv_const
+buffer_set_used_size
+str_truncate
+t_malloc0
+i_set_failure_internal
+i_get_failure_handlers
+timeout_add
+pool_alloconly_create
+i_set_error_handler
+master_service_settings_get_others
+p_strndup
+str_c
+master_service
+safe_mkdir
+t_strsplit
+str_array_length
+mountpoint_list_iter_next
+net_listen_unix
+master_service_parse_option
+i_strconcat
+master_service_run
+safe_mkstemp
+t_strdup_vprintf
+hash_table_insert
+fd_set_nonblock
+master_service_env_clean
+i_strcmp_p
+net_gethosterror
+default_pool
+lib_signals_init
+hash_table_iterate
+master_service_deinit
+fd_send
+net_get_ip_any4
+net_get_ip_any6
+master_service_init
+buffer_free
+restrict_get_fd_limit
+master_instance_list_deinit
+t_strndup
+aqueue_deinit
+master_instance_list_update
+restrict_access_init
+i_unset_failure_prefix
+mountpoint_list_default_ignore_prefixes
+i_panic
+t_strdup_printf
+io_remove
+p_strdup
+master_service_stop
+str_append_c
+restrict_process_size
+mountpoint_list_init
+mountpoint_list_iter_deinit
+buffer_get_modifiable_data
+master_getopt
+failure_log_type_prefixes
+libc.so.6
+socket
+__printf_chk
+readdir
+execv
+strncmp
+optind
+strrchr
+pipe
+closedir
+strncpy
+puts
+fork
+__stack_chk_fail
+__lxstat
+unlink
+abort
+_exit
+socketpair
+getpid
+kill
+chmod
+strtol
+symlink
+strlen
+strstr
+__errno_location
+chdir
+memcmp
+getsockopt
+unsetenv
+shutdown
+__fprintf_chk
+lseek
+memcpy
+rand
+strtoul
+umask
+opendir
+getenv
+optarg
+stderr
+getegid
+__fxstat
+sendmsg
+usleep
+chown
+fwrite
+geteuid
+waitpid
+close
+open
+strchr
+getsockname
+__cxa_finalize
+__vasprintf_chk
+setsid
+fcntl
+__xstat
+mkfifo
+strcmp
+__libc_start_main
+closelog
+_edata
+__bss_start
+_end
+/usr/lib64/dovecot
+get_gid
+__libc_csu_fini
+service_anvil_send_log_fd
+service_anvil_process_created
+service_process_create
+service_monitor_stop
+services_log_deinit
+service_process_notify_add
+services_log_init
+service_anvil_process_destroyed
+master_uid
+service_monitor_listen_start
+service_pids_deinit
+services_get_config_socket_path
+master_settings_do_fixes
+services_throttle_time_sensitives
+services_log_dup2
+service_pids
+services_destroy
+service_process_destroy
+service_anvil_global_deinit
+service_process_notify_deinit
+service_signal
+service_login_notify
+services_monitor_reap_children
+ssl_manual_key_password
+null_fd
+__data_start
+get_uidgid
+service_anvil_global_init
+master_gid
+service_anvil_monitor_start
+core_dumps_disabled
+service_error
+_IO_stdin_used
+services_monitor_stop
+services
+service_throttle
+__libc_csu_init
+service_process_notify_init
+dup2_array
+services_monitor_start
+service_listener_listen
+drop_capabilities
+services_listen_using
+master_setting_parser_info
+service_monitor_listen_stop
+service_anvil_global
+services_create
+service_lookup_type
+process_exec
+service_pids_init
+service_process_ref
+global_master_dead_pipe_fd
+services_listen
+service_process_log_status_error
+service_process_unref
+dup2_append
+service_list_ref
+service_lookup
+service_list_unref
+service_setting_parser_info
+GLIBC_2.3.4
+GLIBC_2.8
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+AVAUATSH
+[A\A]A^A_]
+Fu#A
+t.Hc
+j`H9
+fffff.
+AVAUATE1
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+ []A\
+AUATI
+D$(1
+ATUSH
+[]A\H
+fffff.
+fffff.
+}KUH)
+fffff.
+ATUSH
+\$ 1
+D$ H
+D$(I
+[]A\A]
+[]A\
+AWAVAUATI
+AVAUI
+D$81
+T$8dH3
+@[]A\A]A^
+AUATI
+D$(1
+L$(dH3
+8[]A\A]
+ATUSH
+ET]A\
+[]A\A]D
+AWAVAUATUSH
+D$(E1
+D$ H
+D$$H
+D$H%
+L9l$
+[]A\A]A^A_
+ffff.
+AWAVI
+AUATUH
+<)/u
+[]A\A]A^A_
+AVAUATUSH
+t	;Cl
+t	;Ct
+l$pH
+|$0H
+D$ H
+[]A\A]A^A_
+D$ A
+|$0H
+D9t$(
+D$ H
+D$ H
+\$(L
+L$ A
+D$81
+|$HH
+D$ H
+D$@H
+D$`H
+{PE;~L
+NT;L$
+|$0L
+|$(I
+T$hH
+|$`L
+H;l$ 
+|$HL
+;D$8s1
+T$8H
+;D$0s'
+T$0H
+t$XH9
+L$`1
+|$0H
+|$0H
+|$HI
+|$HI
+|$HI
+D$ H
+ffff.
+fffff.
+ATUH
+[]A\
+P@t!
+ffff.
+ATUS
+;(t"H
+[]A\
+D; u
+AWAVAUATUSH
+([]A\A]A^A_
+o(E1
+AWAVAUATUSH
+GhdH
+t$H1
+l$ L
+D$ f
+t$"f
+z(9w
+R0D9
+t$HdH34%(
+X[]A\A]A^A_
+AWAVAUATI
+|$8I
+L$hH
+t$pL
+|$0H
+\$ E1
+L;|$(
+T$01
+|$8H
+H[]A\A]A^A_
+[]A\A]A^A_
+AVAUATUH
+x>H;C
+u(E1
+[]A\A]A^
+ATU1
+[]A\A]
+AUATUSH
+[]A\A]A^A_
+fff.
+[]A\A]A^A_
+ATUS
+[]A\
+G`9GXt
+fffff.
+[]A\
+ffffff.
+KX;K`t!H
+V<H9
+ATUH
+G\A9
+WXA)
+G\;BLs
+@L9C\r
+W(t	H
+C\t4H
+C`9CXu
+ffffff.
+Ed9G$
+@L9E\
+H9GH
+@L9G\s$
+@L9C\r
+AWAVAUATI
+D$hL
+D$hH
+([]A\A]A^A_
+AVAUATUH
+$toLcs
+D9h u
+G@t	I
+[]A\A]A^A_
+A9AX
+A9QdtcA
+@LA9A\v
+AUATUSH
+u5E1
+[]A\A]
+AWAVAUI
+ATUS
+[]A\A]A^A_
+fffff.
+AVAUATUSH
+D$x1
+L$xdH3
+[]A\A]A^A_
+D$0H
+L;l$
+H9D$
+D$0A
+D$4A
+D$8I
+T$h1
+\$0I
+t$ H
+t$(H
+t$0H
+ffffff.
+ATUSH
+E`9EXs
+t"[]L
+AVAUA
+Ic|$
+	wlH
+[]A\A]A^
+txIc|$
+AVAUATI
+|$ 1
+A\A]A^
+[]A\A]A^
+g USH
+[]A\
+[]A\
+[]A\
+-<v 
+[]A\A]
+[]A\A]A^
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffffff.
+ATUSH
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+T$hdH
+D$xH
+D$PH
+l$8H
+D$XH
+D$pH
+D$8H
+D$PA
+L$pI
+T$pH
+T$pI
+T$HI
+|$@H
+d$0I
+D$HH
+D$`H
+t$ u
+t$ u
+D$(H
+5im 
+5bm 
+D$8H
+L$hH
+D$(H
+D$HH9D$0
+D$PH
+D$XH9D$@
+D$PH
+D$PH
+L$PH
+[]A\A]A^A_
+:uCH
+t$`H
+D$PH
+D$PL
+D$PH
+D$PL
+D$PH
+D$PL
+t$pH
+d$ M
+T$HI
+|$@H
+|$xH
+D$hH
+D$hH
+D$hH
+D$hH
+D$hH
+tWL;c
+[]A\
+fffff.
+AWAVI
+AUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+ffff.
+AVAUATUSH
+[]A\A]A^
+ffffff.
+[]A\
+ATUSH
+ []A\
+ATUS
+L$(1
+dH34%(
+[]A\
+AVAUATA
+[]A\A]A^
+4$H9
+[]A\
+fD;d$
+fff.
+[]A\A]
+AVAUA
+</uT
+[]A\A]A^
+t$P1
+|$R@
+T$@H
+L$HL
+D$PL
+L$Xt:
+)D$`
+)L$p
+D$(1
+\$(dH3
+[]A\A]A^A_
+fd_src >= 0
+dup2-array.c
+fd_dest >= 0
+dup2(%d, %d) failed: %m
+dup(%d) failed: %m
+file %s: line %d (%s): assertion failed: (%s)
+dup2_append
+%s%s
+main.c
+close(%d[%s:%d]) failed: %m
+master: 
+master
+Config reload failed: %s
+/master-fatal.lastlog
+read(%s) failed: %m
+unlink(%s) failed: %m
+%s/%s
+dovecot-
+getpwnam(%s) failed: %m
+User doesn't exist: %s
+getgrnam(%s) failed: %m
+Group doesn't exist: %s
++Fanp
+/usr/bin/doveconf
+/usr/bin/doveadm
+version
+hostdomain
+build-options
+log-error
+log test
+help
+Unknown argument: --%s
+/dev/null
+Can't open /dev/null: %m
+pipe() failed: %m
+dup2(null_fd) failed: %m
+/master.pid
+open(%s) failed: %m
+../../src/lib/array.h
+DOVECOT_PRESERVE_ENVS=
+Failed to start listeners
+chdir(%s) failed: %m
+fork() failed: %m
+setsid() failed: %m
+write() failed in %s: %m
+/dovecot.conf
+symlink(%s, %s) failed: %m
+/mounts
+online
+/instances
+Dovecot v2.2.7 starting up
+Killed with signal %d (by pid=%s uid=%s code=%s)
+Time moved backwards by %lu seconds, waiting for %lu secs until new services are launched again.
+SIGHUP received - reloading configuration
+Can't reload configuration because we couldn't create a config process
+Error reading configuration: %s
+Last died with error (see error log for more information): %s
+Usage: dovecot [-F] [-c <config file>] [-p] [-n] [-a] [--help] [--version]
+       [--build-options] [--hostdomain] [reload] [stop]
+execv(/usr/bin/doveadm) failed: %m
+Build options: ioloop=epoll notify=inotify ipv6 openssl io_block_size=%u
+Mail storages: shared mdbox sdbox maildir mbox cydir imapc pop3c raw fail
+SQL driver plugins: mysql postgresql sqlite
+Passdb: checkpassword ldap pam passwd passwd-file shadow sql
+Userdb: checkpassword ldap(plugin) nss passwd prefetch passwd-file sql
+Writing to error logs and killing myself..
+Give the password for SSL keys: 
+Empty PID file in %s, overriding
+Dovecot is already running with PID %s (read from %s)
+idx * array->element_size < array->buffer->used
+%s is no longer mounted. See http://wiki2.dovecot.org/Mountpoints
+close(global dead pipe) failed: %m
+Dovecot v2.2.7 starting up (core dumps disabled)
+array_idx_i
+Corrected permissions for login directory %s
+Dovecot is already running? Socket already exists: %s
+You should remove base_dir prefix from unix_listener: %s
+first_valid_uid can't be larger than last_valid_uid
+first_valid_gid can't be larger than last_valid_gid
+default_login_user doesn't exist: %s
+default_internal_user doesn't exist: %s
+service(%s): drop_priv_before_exec=yes can't be used with chroot
+service(%s): process_min_avail is higher than process_limit
+service(%s): vsz_limit is too low
+service auth { client_limit=%u } is lower than required under max. load (%u)
+service anvil { client_limit=%u } is lower than required under max. load (%u)
+fd limit (ulimit -n) is lower than required under max. load (%u < %u), because of %s
+protocols: Unknown protocol: %s
+Fixing permissions of %s to be world-readable
+Corrected permissions for empty directory %s
+TZ DEBUG_OUTOFMEM LISTEN_PID LISTEN_FDS
+opendir(%s) failed: %m
+lstat(%s) failed: %m
+mkdir(%s) failed: %m
+$default_internal_user
+$default_login_user
+default_client_limit
+No services defined
+Service #%d is missing name
+config
+anvil
+startup
+Unknown service type: 
+Duplicate service name: %s
+none
+service %s { client_limit }
+auth
+%d:%s
+duplicate listener: %s
+%s is not a directory
+chmod(%s) failed: %m
+/login
+/token-login
+/empty
+/var/run/dovecot
+/var/lib/dovecot
+/usr/libexec/dovecot
+imap pop3 lmtp
+*, ::
+yes:no:required
+dovenull
+base_dir
+state_dir
+libexec_dir
+instance_name
+import_environment
+protocols
+listen
+default_process_limit
+default_idle_kill
+default_vsz_limit
+version_ignore
+first_valid_uid
+last_valid_uid
+first_valid_gid
+last_valid_gid
+protocol
+type
+executable
+privileged_group
+extra_groups
+chroot
+drop_priv_before_exec
+process_min_avail
+unix_listener
+fifo_listener
+inet_listener
+address
+reuse_port
+path
+mode
+read(anvil fd) failed: %m
+VERSION	anvil	1	0
+write(anvil) failed: %m
+write(anvil) returned EOF
+service-anvil.c
+KILL	%s
+socketpair() failed: %m
+close(anvil) failed: %m
+(size_t)ret == strlen(ANVIL_HANDSHAKE)
+write(anvil process) failed: %m
+service_anvil_global->process_count > 0
+fd_send(anvil log fd) failed: %m
+fd_send(anvil log fd) failed: disconnected
+service_anvil_process_destroyed
+anvil_send_handshake
+chown(%s, %lld, %lld) failed: %m
+dest_array->element_size == src_array->element_size
+net_listen_unix(%s) failed: %m
+systemd listens on port %d, but it's not configured in Dovecot. Closing.
+Can't change anvil's listeners on the fly
+service->process_limit > 0
+service-listen.c
+service->client_limit > 0
+Socket already exists: %s
+fd != -1
+mkfifo(%s) failed: %m
+sd_listen_fds() failed: %m
+listen(%s, %u) failed: %m
+file %s: line %d: unreached
+shutdown() failed: %m
+dup2() failed: %m
+close(listener) failed: %m
+array_append_array_i
+service_get_backlog
+service_unix_listener_listen
+%d %s BYE
+write(log process) failed: %m
+log_fd[0] == -1
+service-log.c
+close(log_fd) failed: %m
+MASTER
+write(log handshake) failed: %m
+write(log handshake) didn't write everything
+close(master log fd) failed: %m
+service_list->log_byes == NULL
+(int)(first_fd + n) == service->log_process_internal_fd
+services_log_dup2
+service_log_fds_init
+services_log_init
+service->process_avail == 0
+service-monitor.c
+service->throttle_secs > 0
+client_limit/service_count
+service->client_limit == 1
+service->process_avail > 0
+kill(%s, SIGINT) failed: %m
+/login-master-notify
+safe_mkstemp(%s) failed: %m
+close(status fd) failed: %m
+read(status) failed: EOF
+read(status) failed: %m
+command startup failed, throttling for %u secs
+service(%s): %s (%u) reached, client connections are being dropped
+service->set->process_min_avail >= service->process_avail
+process->available_count == service->client_limit
+Process %s is ignoring idle SIGINT
+close(login notify fd) failed: %m
+service sent partial status update (%d bytes)
+Ignoring invalid update from child %s (UID=%u)
+service->process_avail <= service->process_count
+waitpid() returned unknown PID %s
+close(master dead pipe) failed: %m
+service_monitor_start_count
+service_process_kill_idle
+service_status_less
+service_status_more
+service_monitor_throttle
+service_drop_timeout
+service_monitor_listen_pending
+service_drop_connections
+service_accept
+Initial status notification not received in %d seconds, killing the process
+fd == MASTER_LISTEN_FD_FIRST + (int)socket_listener_count
+ (core not dumped - add -D parameter to service %s { executable }
+ (service %s { vsz_limit=%u MB }, you may need to increase it)
+ - set DEBUG_OUTOFMEM=1 environment to get core dump
+kill(%s, SIGKILL) failed: %m
+service->status_fd[0] != -1
+service-process.c
+DOVECOT_CHILD_PROCESS=1
+CONFIG_FILE=
+DOVECONF_ENV=1
+INFO_LOG_PATH=
+DEBUG_LOG_PATH=
+LOG_TIMESTAMP=
+SYSLOG_FACILITY=
+SSL=no
+CLIENT_LIMIT=%u
+PROCESS_LIMIT=%u
+PROCESS_MIN_AVAIL=%u
+IDLE_KILL=%u
+SERVICE_COUNT=%u
+GENERATION=%u
+DOVECOT_HOSTNAME=%s
+DOVECOT_HOSTDOMAIN=%s
+DOVECOT_VERSION=2.2.7
+SSL_KEY_PASSWORD=
+ANVIL_RESTARTED=1
+service->log_fd[1] != -1
+LOG_SERVICE=1
+dup2(log fd) failed: %m
+service(%s): dup2s failed
+SSL_SOCKET_COUNT=%d
+SOCKET_NAMES=%s
+process->refcount > 0
+process->destroyed
+DEFAULT-FATAL
+Fatal failure
+exec() failed
+Internal logging error
+Can't write to log file
+Can't open log file
+service(%s): child %s 
+killed with signal %d
+ (core dumped)
+ (core dumps disabled)
+ (core not dumped)
+died with status %d
+returned error %d
+Out of memory
+DEBUG_OUTOFMEM
+ (%s)
+%d %s %s %s
+service_process_unref
+service_process_ref
+service_process_destroy
+service_dup_fds
+service_process_create
+unix
+fifo
+service(%s): %s
+services pool
+[::]
+Can't resolve address %s: %s
+No IPs for address: %s
+set->port != 0
+service.c
+Invalid port: %u
+access(%s) failed: %m
+log service not specified
+config process not specified
+service(%s) %s
+process->service == service
+kill(%s, %d) failed: %m
+SIGTERM
+SIGKILL
+lseek(notify fd) failed: %m
+service_list->refcount > 0
+%s (See service %s { %s_listener %s { %s } } setting)
+Service must have unix listeners
+%s (See service %s { user } setting)
+ (See default_internal_user setting)
+ (See default_login_user setting)
+%s (See service %s { group } setting)
+%s (See service %s { privileged_group } setting)
+Multiple log services specified
+Multiple config services specified
+Multiple anvil services specified
+%s (See service %s { extra_groups } setting)
+Processes aren't dying after reload, sending %s.
+services_get_config_socket_path
+service_list_unref
+service_list_ref
+service_signal
+service_create_one_inet_listener
+LISTEN_PID
+LISTEN_FDS
+NOTIFY_SOCKET
+/sys/fs/cgroup
+/sys/fs/cgroup/systemd
+;*3$"
+dovecot.debug
+7zXZ
+Rdyt
+WXi\Y2
+C3o#
++*kF
+3#Z0v
+:[Fy
+(<uk
+P[-T
+L;UV
+0n?8Yd
+p!eQR
+v?*1
+#"_=
+bwFh
+Q';<:
+oTnz&
+R1&=
+x|cN
+1XN`jT
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

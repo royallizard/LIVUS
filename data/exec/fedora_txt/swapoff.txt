@@ -1,0 +1,204 @@
+tdd*
+td@=
+/lib/ld-linux.so.2
+A_.U
+libmount.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+mnt_resolve_spec
+mnt_new_iter
+mnt_table_set_cache
+mnt_init_debug
+mnt_unref_cache
+mnt_fs_is_swaparea
+mnt_new_table
+mnt_table_next_fs
+mnt_table_find_source
+mnt_fs_get_source
+mnt_new_cache
+mnt_resolve_tag
+mnt_table_parse_fstab
+mnt_reset_iter
+mnt_free_iter
+mnt_table_find_next_fs
+mnt_fs_get_swaptype
+mnt_unref_table
+mnt_table_parse_swaps
+libblkid.so.1
+blkid_probe_lookup_value
+blkid_new_probe_from_filename
+blkid_probe_enable_superblocks
+blkid_do_safeprobe
+blkid_probe_filter_superblocks_type
+blkid_parse_tag_string
+blkid_probe_set_superblocks_flags
+blkid_free_probe
+libselinux.so.1
+_init
+_fini
+librt.so.1
+libuuid.so.1
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+optind
+__strdup
+dcgettext
+warnx
+realloc
+_exit
+swapoff
+warn
+__errno_location
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+optarg
+stderr
+getopt_long
+__fpending
+program_invocation_short_name
+__cxa_finalize
+errx
+bindtextdomain
+strcmp
+__libc_start_main
+ferror
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+BLKID_1.0
+BLKID_2.17
+BLKID_2.15
+GLIBC_2.3.4
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+MOUNT_2.21
+MOUNT_2.22
+MOUNT_2.24
+MOUNT_2.19
+D$L1
+T$Le3
+[^_]
+D$8u(
+UWVS
+D$ e
+t$<1
+L$<e3
+d$L[^_]
+D$$tP
+D$,1
+|$,e3=
+d$<[^_]
+UWVS
+8 tH
+[^_]
+d$$[^
+d$$[^
+UWVS
+d$,[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options] [<spec>]
+Options:
+For more details see %s.
+swapoff(8)
+file
+cannot duplicate string
+swapoff %s
+Not superuser.
+%s: swapoff failed
+write error
+/usr/share/locale
+util-linux
+%s from %s
+util-linux 2.27
+ahvVL:U:
+LABEL
+UUID
+help
+verbose
+version
+Disable devices and files for paging and swapping.
+ -a, --all              disable all swaps from /proc/swaps
+ -v, --verbose          verbose mode
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+The <spec> parameter:
+ -L <label>             LABEL of device to be used
+ -U <uuid>              UUID of device to be used
+ LABEL=<label>          LABEL of device to be used
+ UUID=<uuid>            UUID of device to be used
+ <device>               name of device to be used
+ <file>                 name of file to be used
+failed to initialize libmount iterator
+cannot find the device for %s
+cannot allocate %zu bytes
+swap
+%s: unable to probe device
+VERSION
+%s: ambiguous probing result; use wipefs(8)
+%s: not a valid swap partition
+%s: unsupported swap version '%s'
+;*2$" 
+swapoff.debug
+7zXZ
+FQ=VC
+P(?O 
+:AvC
+,yh>
+sS\!
+nQ4k
+(%_z
+nB7}
+reb3
+2)>B,=
+i	{7
+bqZ,?
+`Psn
+l3$%
+f.Nn]
+Z$cGB
+fFGp"
+SfOg
+L0'\
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

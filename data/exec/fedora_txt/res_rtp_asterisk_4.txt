@@ -1,0 +1,1089 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_rtp_instance_get_data
+memcpy
+strlen
+sscanf
+strsep
+__stack_chk_fail
+SSL_set_connect_state
+SSL_set_accept_state
+SSL_is_init_finished
+SSL_shutdown
+__ao2_unlock
+__ao2_lock
+usleep
+ast_sched_del
+ast_log
+__ao2_ref
+SSL_CTX_free
+SSL_free
+SSL_new
+BIO_s_mem
+BIO_new
+BIO_ctrl
+SSL_set_bio
+BIO_free
+pj_sock_sendto
+pj_turn_sock_sendto
+pj_sockaddr_print
+ast_sockaddr_parse
+pj_sockaddr_get_port
+_ast_sockaddr_set_port
+SSL_ctrl
+ast_sched_add
+__ast_rwlock_rdlock
+ast_apply_ha
+__ast_rwlock_unlock
+option_debug
+ast_options
+ast_rtp_instance_set_requested_target_address
+ast_debug_get_by_module
+strcmp
+ast_sockaddr_cmp
+gettimeofday
+ast_rtp_instance_get_incoming_source_address
+ast_null_frame
+ast_sockaddr_stringify_fmt
+pj_turn_sock_get_user_data
+__ast_cond_signal
+pj_turn_sock_set_user_data
+pj_ice_sess_on_rx_pkt
+ast_sendto
+pj_strerror
+pj_ioqueue_poll
+pj_timer_heap_poll
+pj_ioqueue_create
+pj_thread_join
+pj_thread_destroy
+pj_pool_release
+ast_rtp_instance_get_srtp
+ast_random
+res_srtp
+_ast_sockaddr_to_sin
+ast_stun_request
+_ast_sockaddr_from_sin
+ast_format_g722
+ast_format_cmp
+ast_format_get_sample_rate
+ast_tvsub
+ast_tvadd
+ast_set_qos
+ast_rtp_instance_get_channel_id
+__ast_rwlock_wrlock
+pthread_key_create
+ast_free_ha
+ast_variable_browse
+strcasecmp
+ast_append_ha
+strncasecmp
+ast_cli
+ast_sockaddr_split_hostport
+ast_rtp_engine_srtp_is_registered
+DTLS_method
+SSL_CTX_new
+SSL_CTX_ctrl
+EC_KEY_new_by_curve_name
+EC_KEY_free
+SSL_CTX_set_verify
+SSL_CTX_set_tlsext_use_srtp
+fopen
+PEM_read_PrivateKey
+fclose
+BIO_s_file
+PEM_read_bio_X509
+BIO_free_all
+SSL_CTX_use_certificate
+SSL_CTX_use_PrivateKey
+SSL_CTX_check_private_key
+EVP_sha256
+X509_digest
+__sprintf_chk
+EVP_PKEY_free
+X509_free
+SSL_CTX_load_verify_locations
+BIO_new_file
+PEM_read_bio_DHparams
+DH_free
+SSL_CTX_set_cipher_list
+EC_GROUP_new_by_curve_name
+EC_GROUP_set_asn1_flag
+EC_GROUP_set_point_conversion_form
+EC_KEY_new
+EC_KEY_set_group
+EC_KEY_generate_key
+EVP_PKEY_new
+EVP_PKEY_assign
+EC_GROUP_free
+X509_new
+X509_set_version
+X509_set_pubkey
+BN_new
+BN_rand
+X509_get_serialNumber
+BN_to_ASN1_INTEGER
+X509_getm_notBefore
+X509_time_adj_ex
+X509_getm_notAfter
+X509_get_subject_name
+X509_NAME_add_entry_by_NID
+X509_set_issuer_name
+X509_sign
+BN_free
+ast_verb_sys_level
+__ast_verbose
+EVP_sha1
+SSL_CTX_set_options
+__errno_location
+SSL_clear
+socket
+__ast_fd_set_flags
+setsockopt
+SSL_export_keying_material
+res_srtp_policy
+ast_rtp_instance_add_srtp_policy
+ast_rtp_instance_get_prop
+ast_channel_tech
+__snprintf_chk
+ao2_container_count
+__ao2_alloc
+strdup
+__ao2_link
+__ao2_container_alloc_hash
+calloc
+ast_format_t140_red
+ast_rtp_instance_get_local_address
+ast_ouraddrfor
+ast_rtp_instance_set_local_address
+_ast_sockaddr_port
+ast_config_load2
+pj_str
+ast_variable_retrieve
+strtol
+ast_false
+ast_true
+ast_parse_arg
+pj_strdup2_with_null
+PJ_AF_UNSPEC
+pj_sockaddr_parse
+ast_config_destroy
+ast_inet_ntoa
+pj_thread_is_registered
+pthread_once
+pthread_getspecific
+pj_thread_register
+pthread_setspecific
+pj_ice_sess_destroy
+pj_ice_sess_change_role
+pj_turn_sock_destroy
+ao2_object_get_lockaddr
+__ast_cond_timedwait
+__ast_pthread_mutex_lock
+__ast_pthread_mutex_unlock
+ast_smoother_free
+__ao2_cleanup_debug
+pj_caching_pool_destroy
+pj_shutdown
+ast_rtp_engine_unregister
+ast_cli_unregister_multiple
+pj_ice_calc_foundation
+strndup
+__ao2_find
+pj_ice_sess_add_cand
+ast_sockaddr_is_ipv4
+pj_turn_sock_cfg_default
+PJ_AF_INET
+pj_turn_sock_create
+pj_turn_sock_alloc
+pj_turn_sock_get_info
+pj_sockaddr_get_len
+PJ_AF_INET6
+pj_pool_create
+pj_timer_heap_create
+pj_lock_create_recursive_mutex
+pj_timer_heap_set_lock
+pj_thread_create
+pj_enum_ip_interface
+pj_sockaddr_cmp
+pj_sockaddr_copy_addr
+pj_sockaddr_set_port
+ast_sockaddr_is_any
+pj_sockaddr_cp
+pj_sockaddr_init
+pj_ice_sess_create
+ao2_iterator_init
+__ao2_iterator_next
+ao2_iterator_destroy
+pj_strdup2
+pj_turn_sock_set_perm
+pj_ice_sess_create_check_list
+pj_ice_sess_start_check
+ast_bind
+__ast_cond_init
+ast_sockaddr_is_ipv6
+ast_uuid_generate_str
+__memcpy_chk
+ast_rtp_instance_set_data
+ast_format_none
+pj_ice_sess_send_data
+time
+ast_rtp_instance_set_last_tx
+BIO_ctrl_pending
+BIO_read
+SSL_do_handshake
+ast_rtp_instance_set_prop
+SSL_renegotiate
+ast_recvfrom
+BIO_write
+SSL_read
+SSL_get_peer_certificate
+memcmp
+ast_rtp_instance_get_ssrc
+SSL_get_error
+ERR_get_error
+ERR_reason_error_string
+ast_sockaddr_cmp_addr
+ast_rtp_instance_get_codecs
+ast_rtp_codecs_payload_code_tx
+ast_find_ourip
+memmove
+ast_smoother_test_flag
+__ast_smoother_feed
+ast_smoother_read
+ast_format_get_name
+ast_format_can_be_smoothed
+ast_frame_free
+ast_frdup
+ast_format_get_smoother_flags
+ast_rtp_codecs_get_framing
+ast_format_get_minimum_bytes
+ast_format_get_minimum_ms
+ast_smoother_new
+ast_smoother_set_flags
+ast_format_get_default_ms
+ast_rtp_rtcp_report_alloc
+ast_json_unref
+ast_json_pack
+ast_rtp_rtcp_sent_type
+ast_rtp_publish_rtcp_message
+__gcc_personality_v0
+_Unwind_Resume
+ast_rtp_rtcp_received_type
+ast_sockaddr_ipv4_mapped
+ast_stun_handle_packet
+ast_rtp_codecs_get_stream_type
+ast_rtp_instance_get_bridged
+ast_rtp_codecs_get_payload
+ast_rtp_codecs_find_payload_code
+ast_rtp_instance_set_incoming_source_address
+ast_frisolate
+ast_format_get_type
+ast_codec_media_type2str
+ast_rtp_instance_get_requested_target_address
+ast_format_t140
+memchr
+ast_codec_samples_count
+ast_format_cache_is_slinear
+ast_swapcopy_samples
+ast_module_register
+ast_module_unregister
+ast_pjproject_max_log_level
+ast_option_pjproject_log_level
+pj_log_set_level
+pj_init
+pjlib_util_init
+pjnath_init
+pj_pool_factory_default_policy
+pj_caching_pool_init
+ast_rtp_engine_register2
+__ast_cli_register_multiple
+pj_log_get_level
+libssl.so.1.1
+libcrypto.so.1.1
+libpjnath.so.2
+libpjlib-util.so.2
+libpj.so.2
+libpthread.so.0
+libgcc_s.so.1
+libc.so.6
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+OPENSSL_1_1_0
+GCC_3.0
+GCC_3.3.1
+a_&	
+u+UH
+HcS 
+sHHcE H
+[A\A]]
+t_H9
+[]A\
+[]A\A]
+ATUH
+[]A\
+dH34%(
+[]A\A]
+L$@H
+Hc8D
+L$@1
+D$@L
+D$81
+D$8dH3
+AUATUH
+([]A\A]
+ Di,$
+ Di$$
+AUATI
+[]A\A]
+dH34%(
+AUATI
+dH34%(
+[]A\A]A^
+[]A\
+[]A\
+AVAUI
+D$x1
+D$xdH3
+[]A\A]A^A_
+AVAUI
+D$x1
+D$xdH3
+[]A\A]A^A_
+W dH
+D$(1
+L$(dH3
+AVAUATUH
+P M9
+[]A\A]A^
+ATUH
+([]A\A]
+D$(1
+D$(dH3
+0[]A\A]A^
+8[]A\
+AWAVAUATI
+!u[L
+[]A\A]A^A_
+=-}!
+5-|!
+AUATI
+[]A\A]A^
+ATUS1
+[]A\
+[]A\
+AUATI
+n dH
+dH3<%(
+[A\A]]
+AUATI
+n dH
+dH3<%(
+[A\A]]
+AWAVAUATI
+D$h1
+L$hdH3
+x[]A\A]A^A_
+|$ H
+D9t$
+K(ATH
+AUATA
+-8i!
+[]A\A]
+AVAUA
+D$x1
+\$0j
+AXAY
+D$(H
+|$ D
+T$xdH3
+[]A\A]A^A_
+D$(H
+|$ D
+[]A\A]
+A\A]
+D$(1
+t$ L
+t$ L
+T$(dH3
+0[]A\
+AVAUATUSH
+AYAZH
+[]A\A]A^
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUATI
+[]A\A]A^
+AYAZ
+AVAUATUSH
+5dc!
+=UY!
+5e`!
+=aT!
+-UT!
+[]A\A]A^A_
+=UY!
+AYAZ
+51W!
+="W!
+=;V!
+AVAUATUH
+ []A\A]A^
+B(I9
+P(I9
+T$(L;%
+D$(L;%tJ!
+ATUH
+=mM!
+=yM!
+= H!
+AWAVAUATUSH
+D$x1
+t$0L
+t$ H
+A[A_H
+|$0E1
+L$@1
+L$(L
+L$(1
+D$xdH3
+[]A\A]A^A_
+AVE1
+t$8ATL
+t$@I
+AYAZ
+AWAVA
+ATUSH
+D$@L
+|$pL
+L$(H
+D$0dH
+|$pH
+t$x1
+D$`H
+[]A\A]A^A_
+D$ H
+D$8A
+D$ H
+D$ H
+l$LL
+d$`L
+l$LH
+D$xH
+L$pH
+t$(H
+L$(1
+L$0H
+t$PH
+D$XH
+D$ E1
+T$@H
+t$PL
+d$`L
+D$ L
+t$DI
+ATAV
+d$(M
+D$$L
+<$E1
+AXAY
+=y8!
+%j8!
+D$(tfA
+AZA[
+AWAVAUATSH
+d$8M
+[A\A]A^A_]
+=[?!
+t	H)
+t_E1
+AWAW
+AWAVAUA
+D$PH
+D$XH
+D$`H
+D$xH
+D$xH
+D$0H
+T$HH
+D$XPL
+D$(M
+dH34%(
+[]A\A]A^A_
+AWAVAUATUH
+([]A\A]A^A_
+AWAVAUATUSH
+D$PH
+D$`H
+|$01
+oD$0H
+D$@L
+[]A\A]A^A_
+|$0L
+oL$0H
+D$(H
+D$p1
+D$xH
+D$p1
+D$(H
+T$`H
+A]A^
+AZA[
+AXAY
+AVAUATI
+-	 !
+[]A\A]A^A_
+AVAUI
+]A\A]A^
+Z[]A\A]A^
+^[]A\A]A^
+AWAVM
+AUATUD
+D$(1
+T$pA
+HcL$
+T$ D
+\$(dH3
+8[]A\A]A^A_
+HcL$
+T$ I
+[]A\A]A^A_
+AUATI
+t	H)
+[A\A]A^A_]
+AUATI
+[]A\A]A^
+[]A\A]A^
+o(dH
+[]A\A]
+ATUH
+ATUH
+([]A\A]
+t1H;
+AWAVI
+[]A\A]A^A_
+t$PH
+L$ L
+D$ H
+T$ L
+LcD$,H
+\$PD
+AWAVA
+t$ 1
+|$ H
+t$(1
+L$ D
+\$,1
+D$0AP
+L$4L
+[]A\A]A^A_
+AXAY
+AZA[
+AWAVAUATUH
+[]A\A]A^A_
+AWAVAUA
+D$ H
+|$01
+|$0H
+t$81
+T$ L
+D$/A
+[]A\A]A^A_
+T$0A
+D$(L
+D$ H
+D$81
+L$<L
+AUAT
+T$ I
+AWAVAUATA
+[]A\A]A^A_
+AWATj
+AVAUA
+[]A\A]A^
+AZA[
+AVAUATI
+l$0dH
+[]A\A]A^A_
+D$,L
+L$ I
+D$,P1
+W$A)
+W$A)
+AWAVAUATI
+T$ E
+IcU E
+IcU Ic
+[]A\A]A^A_
+AWAVAUATSH
+dH34%(
+[A\A]A^A_]
+AYAZf
+O XL
+ATUSH
+[]A\
+[]A\
+AWAVAUATSH
+AZA[I
+[A\A]A^A_]
+4PD;u
+D$(0
+D$@@
+D$HI
+D$HI
+AVP1
+T$PH
+M YL
+AVAWSP1
+AZA[H
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVAUL
+[A\A]A^A_]
+urA9
+AYAZ
+H;0t
+HcP(
+AZA[
+A[A]
+AUP1
+APHcQ(H
+_AXH
+AYAZ
+=mw 
+=Tw 
+=Qt 
+%02hhx
+instance
+res_rtp_asterisk.c
+instance0
+RTCP
+&ice_blacklist_lock
+res_rtp_asterisk
+BEGIN
+&rtp->cond
+&(&host_candidates)->lock
+general
+Invalid %s value: %s
+Disabled
+Enabled
+rtcp set stats {on|off}
+RTCP Stats %s
+Lookup failed for '%s'
+rtcp set debug {on|off|ip}
+RTCP Debugging Enabled
+RTCP Debugging Disabled
+rtp set debug {on|off|ip}
+RTP Debugging Enabled
+RTP Debugging Disabled
+SRTP_AES128_CM_SHA1_80
+SRTP_AES128_CM_SHA1_32
+%02hhX:
+CONTROLLED
+CONTROLLING
+Set role to %s (%p)
+EXTRACTOR-dtls_srtp
+%08lx%08lx%08lx%08lx
+rtp.conf
+rtpstart
+rtpend
+rtcpinterval
+rtpchecksums
+dtmftimeout
+strictrtp
+probation
+icesupport
+stunaddr
+turnaddr
+turnusername
+turnpassword
+ice_host_candidates
+ice_blacklist
+stun_blacklist
+Asterisk Thread
+&(&ioqueues)->lock
+127.0.0.1
+rtp%p
+pjnath-2.7.2
+&stun_blacklist_lock
+RTP candidate %s (%p)
+RTCP candidate %s (%p)
+Failed to create ICE session
+ (via ICE)
+child
+child_rtp->bundled
+parent
+Difference is %d, ms is %u
+* Sent RTCP %s to %s%s
+  Our SSRC: %u
+  Sent(NTP): %u.%06u
+  Sent(RTP): %u
+  Sent packets: %u
+  Sent octets: %u
+  Report block:
+    Their SSRC: %u
+    Fraction lost: %d
+    Cumulative loss: %u
+    Highest seq no: %u
+    IA jitter: %.4f
+    Their last SR: %u
+    DLSR: %4.4f (sec)
+from
+{s: s, s: s}
+Unknown
+Sender Report
+H.261 FUR
+PSFB
+Source Description
+Receiver Report
+RTCP from %s
+PT: %u(%s)
+Reception reports: %u
+SSRC of sender: %u
+NTP timestamp: %u.%06u
+RTP timestamp: %u
+SPC: %u	SOC: %u
+  Packets lost so far: %u
+  Sequence number cycles: %u
+  Interarrival jitter: %u
+  DLSR: %4.4f (sec)
+  RTT: %4.4f(sec)
+{s: s, s: s, s: f}
+Received an SDES from %s
+Received a BYE from %s
+Unspecified
+RTP Read too short
+instance1
+timer
+Asterisk RTP Stack
+Enable/Disable RTP debugging
+Enable/Disable RTCP debugging
+Enable/Disable RTCP stats
+Unable to cancel schedule ID %d.  This is probably a bug (%s: %s, line %d).
+Failed to allocate memory for SSL
+Failed to allocate memory for inbound SSL traffic
+Failed to allocate memory for outbound SSL traffic
+Scheduling '%s' DTLS retransmission for RTP instance [%p] failed.
+Unable to cancel schedule ID %d.
+Ignore potential DTMF echo from '%s'
+Creating %s DTMF Frame: %d (%c), at %s
+PJ ICE Rx error status code: %d '%s'.
+Changing ssrc from %u to %u due to a source change
+Changing ssrc for SRTP from %u to %u
+Bad %s configuration value line %d: %s
+Usage: rtcp set stats {on|off}
+       Enable/Disable dumping of RTCP stats.
+RTCP Debugging Enabled for address: %s
+Usage: rtcp set debug {on|off|ip host[:port]}
+       Enable/Disable dumping of all RTCP packets. If 'ip' is
+       specified, limit the dumped packets to those to and from
+       the specified 'host' with optional port.
+RTP Debugging Enabled for address: %s
+Usage: rtp set debug {on|off|ip host[:port]}
+       Enable/Disable dumping of all RTP packets. If 'ip' is
+       specified, limit the dumped packets to those to and from
+       the specified 'host' with optional port.
+SRTP support module is not loaded or available. Try loading res_srtp.so.
+DTLS DH initialized, PFS enabled
+DTLS ECDH initialized (automatic), faster PFS enabled
+DTLS ECDH initialized (secp256r1), faster PFS enabled
+Unsupported suite specified for DTLS-SRTP on RTP instance '%p'
+Failed to create ephemeral ECDSA keypair
+Failed to create ephemeral X509 certificate
+Failed to read private key from file '%s': %s
+Failed to read private key from PEM file '%s'
+Failed to close private key file '%s': %s
+Failed to allocate memory for certificate fingerprinting on RTP instance '%p'
+Failed to read certificate from file '%s'
+Specified certificate for RTP instance '%p' could not be used
+Specified private key for RTP instance '%p' could not be used
+Unsupported fingerprint hash type on RTP instance '%p'
+Could not produce fingerprint from certificate for RTP instance '%p'
+Invalid cipher specified in cipher list '%s' for RTP instance '%p'
+Invalid certificate authority file '%s' or path '%s' specified for RTP instance '%p'
+Set role failed; no ice instance (%p)
+Setting the marker bit due to a source update
+Unable to allocate %s socket: %s
+Unable to extract SRTP keying material from DTLS-SRTP negotiation on RTP instance '%p'
+Could not set key/salt information on local policy of '%p' when setting up DTLS-SRTP
+Could not set suite to '%u' on local policy of '%p' when setting up DTLS-SRTP
+Could not set key/salt information on remote policy of '%p' when setting up DTLS-SRTP
+Could not set suite to '%u' on remote policy of '%p' when setting up DTLS-SRTP
+Could not set policies when setting up DTLS-SRTP on '%p'
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.3.0/include/asterisk/utils.h
+Setting RTCP address on RTP instance '%p'
+%p -- Strict RTP learning after remote address set to: %s
+DTMF timeout of '%d' outside range, using default of '%d' instead
+Value for 'probation' could not be read, using default of '%d' instead
+Invalid STUN server address: %s
+Invalid TURN server address: %s
+Invalid local ICE host address: %s
+Invalid advertised ICE host address: %s
+Failed to allocate ICE host candidate mapping.
+Unreasonable values for RTP start/end port in rtp.conf
+RTP Allocating from port range %d -> %d
+/builddir/build/BUILD/asterisk-15.3.0/include/asterisk/threadstorage.h
+Could not get thread desc from thread-local storage. Expect awful things to occur
+Coudln't register thread with PJLIB.
+ao2_object_get_lockaddr(instance)
+Could not create a TURN client socket
+Resetting ICE for RTP instance '%p'
+Nevermind. ICE isn't ready for a reset
+Recreating ICE session %s (%d) for RTP instance '%p'
+Proposed == active candidates for RTP instance '%p'
+Failed to create replacement ICE session
+Lost %d ICE candidates. Consider increasing PJ_ICE_MAX_CAND in PJSIP (%p)
+No RTP candidates; skipping ICE checklist (%p)
+No RTCP candidates; skipping ICE checklist (%p)
+Successfully created ICE checklist (%p)
+Failed to create ICE session check list: %s (%p)
+Failed to create a new socket for RTP instance '%p'
+Allocated port %d for RTP instance '%p'
+Oh dear... we couldn't allocate a port for RTP instance '%p'
+Creating ICE session %s (%d) for RTP instance '%p'
+%p -- Strict RTP learning after ICE completion
+Received SSL traffic on RTP instance '%p' without an SSL session
+DTLS failure occurred on RTP instance '%p' due to reason '%s', terminating
+No certificate was provided by the peer on RTP instance '%p'
+Fingerprint provided by remote party does not match that of peer certificate on RTP instance '%p'
+Don't know how to represent '%c'
+Adjusting final end duration from %d to %u
+RTP Transmission error to %s: %s
+Sent RTP DTMF packet to %s%s (type %-2.2d, seq %-6.6d, ts %-6.6u, len %-6.6d)
+RTP Comfort Noise Transmission error to %s: %s
+Sent Comfort Noise RTP packet to %s%s (type %-2.2d, seq %-6.6d, ts %-6.6u, len %-6.6d)
+Ignoring duplicate RTCP property on RTP instance '%p'
+Failed to create a new socket for RTCP on instance '%p'
+Failed to setup RTCP on RTP instance '%p'
+Setup RTCP on RTP instance '%p'
+Failed to tear down RTCP on RTP instance '%p'
+Difference is %d, ms is %u (%u), pred/ts/samples %u/%d/%d
+Difference is %d, ms is %u, pred/ts/samples %u/%d/%d
+RTP Transmission error of packet %d to %s: %s
+RTP NAT: Can't write RTP to private address %s, waiting for other end to send audio...
+Starting RTCP transmission on RTP instance '%p'
+scheduling RTCP transmission failed.
+Sent RTP packet to      %s%s (type %-2.2d, seq %-6.6d, ts %-6.6u, len %-6.6d)
+No remote address on RTP instance '%p' so dropping frame
+RTCP FIR transmission error: %s
+Received frame with no data for RTP instance '%p' so dropping frame
+RTP can only send voice, video, and text
+Don't know how to send format %s packets with RTP
+Ooh, format changed from %s to %s
+Unable to create smoother: format %s ms: %u len: %u
+RTCP %s transmission error to %s, rtcp halted %s
+Got RTCP report of %zu bytes from %s
+%p -- RTCP from %s: Frame size (%u words) is too short
+%p -- RTCP from %s: Failed first packet validity check
+%p -- RTCP from %s: Failed packet version or length check
+%p -- RTCP from %s: %u(%s) skipping record
+RTCP from %s: %u(%s) skipping record
+%p -- RTCP from %s: %u(%s) length field less than expected minimum.  Min:%u Got:%u
+%p -- RTCP from %s: Skipping record, received SSRC '%u' != expected '%u'
+RTCP NAT: Got RTCP from other end. Now sending to address %s
+Internal RTCP NTP clock skew detected: lsr=%u, now=%u, dlsr=%u (%u:%03ums), diff=%u
+  Highest sequence number: %u
+  Last SR(our NTP): %lu.%010lu
+Received an RTCP Fast Update Request
+RTCP Read error: %s.  Hanging up.
+Using IPv6 mapped address %s for STUN
+Cannot do STUN for non IPv4 address %s
+RTP Read error: %s.  Hanging up.
+%p -- Strict RTP learning complete - Locking on source address %s
+%p -- Strict RTP switching to RTP target address %s as source
+%p -- Strict RTP qualifying stream type: %s
+%p -- Strict RTP switching source address to %s
+%p -- Received RTP packet from %s, dropping due to strict RTP protection. Will switch to it in %d packets.
+%p -- Received RTP packet from %s, dropping due to strict RTP protection. Qualifying new stream.
+%p -- Received RTP packet from %s, dropping due to strict RTP protection.
+RTP NAT: Got audio from other end. Now sending to address %s
+Forcing Marker bit, because SSRC has changed
+Found Zfone extension in RTP stream - zrtp - not supported.
+Found unknown RTP Extensions %x
+RTP Read too short (%d, expecting %d
+Unsupported payload type received 
+Feeding packet with duplicate timestamp to core
+Feeding packet to core until DTMF finishes
+Asymmetric RTP codecs detected (TX: %s, RX: %s) sending frame to core
+Remote address is null, most likely RTP has been stopped
+RTP Transmission error of packet to %s: %s
+Sent RTP P2P packet to %s%s (type %-2.2d, len %-6.6d)
+Got  RTP packet from    %s (type %-2.2d, seq %-6.6u, ts %-6.6u, len %-6.6d)
+Got  RTP RFC2833 from   %s (type %-2.2d, seq %-6.6u, ts %-6.6u, len %-6.6d, mark %d, event %08x, end %d, duration %-5.5u) 
+- RTP 2833 Event: %08x (len = %d)
+Ignoring RTP 2833 Event: %08x. Not a DTMF Digit.
+Dropping duplicate or out of order DTMF END frame (seqno: %u, ts %u, digit %c)
+Dropping out of order DTMF frame (seqno %u, ts %u, digit %c)
+Cisco DTMF Digit: %02x (len=%d, seq=%d, flags=%02x, power=%u, history count=%d)
+- RTP 3389 Comfort noise event: Format %s (len = %d)
+Comfort noise support incomplete in Asterisk (RFC 3389). Please turn off on client if possible. Client address: %s
+Unknown RTP codec %d received from '%s'
+Unknown or unsupported media type: %s
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+blacklist_config_load
+blacklist_clear
+rtp_reload
+ast_threadstorage_get
+pj_thread_register_check
+host_candidate_overrides_clear
+ast_rtp_new
+ast_rtp_destroy
+rtp_raw_write
+ast_rtp_write
+ast_rtp_stop
+ast_rtp_dtmf_begin
+ast_rtp_dtmf_end_with_duration
+ast_rtp_update_source
+ast_rtp_change_source
+ast_rtp_prop_set
+ast_rtp_remote_address_set
+red_write
+rtp_red_init
+rtp_instance_unlock
+_dtor_payload
+create_dtmf_frame
+process_cn_rfc3389
+process_dtmf_cisco
+process_dtmf_rfc2833
+_dtor_payload_type
+bridge_p2p_rtp_write
+ast_rtp_dtmf_continuation
+_dtor_rtcp_report
+ast_rtcp_interpret
+dtls_srtp_renegotiate
+dtls_srtp_setup
+__rtp_recvfrom
+ast_rtcp_read
+_dtor_rtcp_report
+ast_rtcp_write_report
+ast_rtcp_write
+ast_rtp_read
+ast_rtp_local_bridge
+ast_rtp_stun_request
+ast_rtp_sendcng
+dtls_srtp_add_local_ssrc
+rtp_ioqueue_thread_remove
+rtp_deallocate_transport
+create_new_socket
+rtp_allocate_transport
+ast_rtp_bundle
+ast_rtp_set_remote_ssrc
+ast_rtp_ice_add_remote_candidate
+ice_candidates_compare
+ast_rtp_ice_start
+ast_rtp_ice_stop
+ast_rtp_ice_get_local_candidates
+ast_rtp_ice_set_role
+__ast_calloc
+rtp_ioqueue_thread_get_or_create
+ast_rtp_on_turn_rx_rtp_data
+ast_rtp_on_turn_rtp_state
+ast_rtp_on_turn_rx_rtcp_data
+ast_rtp_on_turn_rtcp_state
+ast_rtp_ice_turn_request
+__ast_strdup
+__ast_strndup
+ast_rtp_ice_add_cand
+rtp_address_is_ice_blacklisted
+stun_address_is_blacklisted
+host_candidate_overrides_apply
+rtp_add_candidates_to_ice
+__rtp_sendto
+dtls_srtp_handle_rtp_timeout
+dtls_srtp_handle_rtcp_timeout
+dtls_srtp_start_timeout_timer
+update_address_with_ice_candidate
+ast_rtp_on_ice_complete
+ice_create
+ice_reset_session
+dtls_details_initialize
+create_certificate_from_file
+create_certificate_ephemeral
+configure_dhparams
+ast_rtp_dtls_set_configuration
+dtls_srtp_stop_timeout_timer
+ast_rtp_dtls_stop
+;*3$"
+zPLR
+zPLR
+	. |.
+.0k.
+. j.
+b.0\.
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.0.1 20180312
+GA*GOW
+GA!stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+res_rtp_asterisk.so-15.3.0-1.fc28.x86_64.debug
+7zXZ
+VY61
+U#^3
+P1PM
+y$-;
+b[[k
+5>.k
+Gq.J
+ cPe
+O~	wV
+2fN'
+kU+-
+E]0g
+w^7'
+"LFh~C
+JHw2
+Q^kF
+Z._y
+nsAv
+C[V&
+`d3>
+$H93"s
+W	"y
+y=-b
+Ia|[2Su
+4K#?
+P'#d:
+.m{E
+oqA,
+/N*^
+f*Aw
+wd\ 
+~\?S5
+'W3abDW
+1V|e
+'Ww7.'
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

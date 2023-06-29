@@ -1,0 +1,349 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+_tevent_req_data
+_talloc_get_type_abort
+tevent_req_is_unix_error
+_talloc_free
+_tevent_req_callback_data
+_talloc_tos
+read_packet_recv
+_tevent_req_done
+_tevent_req_error
+DEBUGLEVEL_CLASS
+timeval_add
+server_event_context
+_tevent_add_timer
+dbghdrclass
+dbgtext
+close
+smb_panic
+munmap
+smb_vfs_call_connect
+_talloc_zero
+lp_parm_bool
+aio_pending_size
+smb_vfs_call_disconnect
+sendmsg
+__stack_chk_fail
+socketpair
+talloc_named_const
+open
+mmap
+_talloc_set_destructor
+fork
+__errno_location
+strerror
+timeval_current_ofs
+files_forall
+recvmsg
+fsync
+write_data
+exit
+sys_pread
+sys_pwrite
+generate_random_buffer
+smb_msleep
+_tevent_req_create
+read_packet_send
+_tevent_req_nomem
+tevent_req_set_callback
+tevent_req_post
+samba_init_module
+smb_register_vfs
+libpthread.so.0
+libsamba-util.so.0
+libsmbd_base.so
+libtevent-util.so.0
+libsmbconf.so.0
+libsmb_transport.so
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+aio_fork.so
+/usr/lib64/samba
+TEVENT_UTIL_0.0.1
+GLIBC_2.4
+GLIBC_2.2.5
+TEVENT_0.9.9
+TALLOC_2.0.2
+SAMBA_UTIL_0.0.1
+SMBCONF_0
+SAMBA_4.0.6
+5BK 
+%DK 
+%BK 
+%:K 
+%2K 
+%*K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+fffff.
+ATUH
+[]A\
+ATUH
+[]A\
+[]A\
+ATUH
+[]A\
+[]A\
+AUATUSH
+[]A\A]
+Hct$
+[]A\A]
+AUATUSH
+[]A\A]
+Hct$
+[]A\A]
+AUATUSH
+[]A\A]
+Hct$
+[]A\A]
+ATUSH
+T$ H
+%OB 
+8[]A\A]
+4$dH
+D$h1
+T$`L
+D$P1
+d$ H
+L$hdH3
+AWAVAUI
+[]A\A]A^A_
+L$01
+D$0H
+t$(I
+|$0L
+D$4H
+D$(H
+D$PH
+D$ H
+D$@H
+D$(1
+D$ H
+D$@H
+D$pH
+t$pH
+|$pH
+T$0H
+D$`H
+L$XH
+t$0H
+AVAUATUSH
+D$$H
+[]A\A]A^
+0[]A\A]A^
+[]A\A]A^
+AWAVAUATUSH
+D$pH
+D$$H
+8[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+D$pH
+D$$H
+8[]A\A]A^A_
+[]A\A]A^A_
+../source3/modules/vfs_aio_fork.c:903
+../source3/modules/vfs_aio_fork.c:795
+../source3/modules/vfs_aio_fork.c:679
+../source3/modules/vfs_aio_fork.c:145
+../source3/modules/vfs_aio_fork.c:876
+../source3/modules/vfs_aio_fork.c:878
+../source3/modules/vfs_aio_fork.c:884
+../source3/modules/vfs_aio_fork.c:885
+../source3/modules/vfs_aio_fork.c:887
+../source3/modules/vfs_aio_fork.c:888
+../source3/modules/vfs_aio_fork.c:897
+../source3/modules/vfs_aio_fork.c:768
+../source3/modules/vfs_aio_fork.c:770
+../source3/modules/vfs_aio_fork.c:776
+../source3/modules/vfs_aio_fork.c:777
+../source3/modules/vfs_aio_fork.c:779
+../source3/modules/vfs_aio_fork.c:780
+../source3/modules/vfs_aio_fork.c:789
+../source3/modules/vfs_aio_fork.c:652
+../source3/modules/vfs_aio_fork.c:654
+../source3/modules/vfs_aio_fork.c:660
+../source3/modules/vfs_aio_fork.c:661
+../source3/modules/vfs_aio_fork.c:663
+../source3/modules/vfs_aio_fork.c:664
+../source3/modules/vfs_aio_fork.c:673
+../source3/modules/vfs_aio_fork.c:264
+../source3/modules/vfs_aio_fork.c:267
+../source3/modules/vfs_aio_fork.c:274
+../source3/modules/vfs_aio_fork.c:280
+Child %d was active since last cleanup
+../source3/modules/vfs_aio_fork.c:286
+Child %d idle for more than 30 seconds, deleting
+../source3/modules/vfs_aio_fork.c:288
+../source3/modules/vfs_aio_fork.c:298
+../source3/modules/vfs_aio_fork.c:435
+../source3/modules/vfs_aio_fork.c
+PANIC: assert failed at %s(%d): %s
+../source3/modules/vfs_aio_fork.c:438
+aio_child_destructor: removing child %d on fd %d
+../source3/modules/vfs_aio_fork.c:928
+../source3/modules/vfs_aio_fork.c:328
+../source3/modules/vfs_aio_fork.c:330
+../source3/modules/vfs_aio_fork.c:337
+%s() failed to set handle->data!
+../source3/modules/vfs_aio_fork.c:553
+no idle child found, creating new one
+../source3/modules/vfs_aio_fork.c:483
+../source3/modules/vfs_aio_fork.c:487
+../source3/modules/vfs_aio_fork.c:58
+../source3/modules/vfs_aio_fork.c:65
+../source3/modules/vfs_aio_fork.c:73
+../source3/modules/vfs_aio_fork.c:83
+../source3/modules/vfs_aio_fork.c:492
+../source3/modules/vfs_aio_fork.c:499
+../source3/modules/vfs_aio_fork.c:192
+../source3/modules/vfs_aio_fork.c:197
+../source3/modules/vfs_aio_fork.c:354
+../source3/modules/vfs_aio_fork.c:360
+aio_child_loop: %s %d bytes at %d from fd %d
+../source3/modules/vfs_aio_fork.c:375
+../source3/modules/vfs_aio_fork.c:407
+aio_child_loop: syscall returned %d
+../source3/modules/vfs_aio_fork.c:425
+could not write ret_struct: %s
+../source3/modules/vfs_aio_fork.c:511
+Child %d created with sockfd %d
+../source3/modules/vfs_aio_fork.c:528
+../source3/modules/vfs_aio_fork.c:559
+../source3/modules/vfs_aio_fork.c:827
+%s() failed to get vfs_handle->data!
+../source3/modules/vfs_aio_fork.c:829
+../source3/modules/vfs_aio_fork.c:836
+../source3/modules/vfs_aio_fork.c:845
+../source3/modules/vfs_aio_fork.c:856
+../source3/modules/vfs_aio_fork.c:858
+../source3/modules/vfs_aio_fork.c:859
+../source3/modules/vfs_aio_fork.c:865
+../source3/modules/vfs_aio_fork.c:866
+../source3/modules/vfs_aio_fork.c:711
+../source3/modules/vfs_aio_fork.c:713
+../source3/modules/vfs_aio_fork.c:720
+../source3/modules/vfs_aio_fork.c:726
+../source3/modules/vfs_aio_fork.c:737
+../source3/modules/vfs_aio_fork.c:748
+../source3/modules/vfs_aio_fork.c:750
+../source3/modules/vfs_aio_fork.c:751
+../source3/modules/vfs_aio_fork.c:757
+../source3/modules/vfs_aio_fork.c:758
+../source3/modules/vfs_aio_fork.c:595
+../source3/modules/vfs_aio_fork.c:597
+../source3/modules/vfs_aio_fork.c:604
+../source3/modules/vfs_aio_fork.c:610
+../source3/modules/vfs_aio_fork.c:621
+../source3/modules/vfs_aio_fork.c:632
+../source3/modules/vfs_aio_fork.c:634
+../source3/modules/vfs_aio_fork.c:635
+../source3/modules/vfs_aio_fork.c:641
+../source3/modules/vfs_aio_fork.c:642
+struct aio_fork_fsync_state
+struct aio_fork_pwrite_state
+struct aio_fork_pread_state
+struct tevent_req
+struct aio_child_list
+child %d currently active
+aio_child_cleanup
+assert failed: !child->busy
+struct aio_fork_config
+talloc_zero() failed
+erratic_testing_mode
+vfs_aio_fork
+READ
+WRITE
+FSYNC
+<UNKNOWN>
+struct aio_child
+socketpair() failed: %s
+fdpair = %d/%d
+struct mmap_area
+talloc failed
+/dev/zero
+open("/dev/zero") failed: %s
+mmap failed: %s
+Could not create mmap area
+fork failed: %s
+control level != SOL_SOCKET
+control type != SCM_RIGHTS
+read_fd returned %d: %s
+delaying for %u msecs
+create_aio_child failed: %s
+sending fd %d to child %d
+write_fd failed: %s
+aio_fork_connect
+aio_fork_pread_send
+aio_fork_pwrite_send
+read_fd
+aio_child_loop
+mmap_area_init
+aio_child_destructor
+create_aio_child
+aio_child_cleanup
+init_aio_children
+get_idle_child
+aio_fork_fsync_send
+;*3$"
+aio_fork.so.debug
+7zXZ
+!R#k
+Qtlt
+CkUA
+e[4=
+\{3h%
+\`Uz
+Y|)'"
+1=R\
+|w 2
+;hev?
+HP61P
+7/}/Dy
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

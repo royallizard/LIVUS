@@ -1,0 +1,400 @@
+/lib/ld-linux.so.2
+___tls_get_addr
+GLIBC_2.3
+ld-linux.so.2
+free
+GLIBC_2.0
+libc.so.6
+stpcpy
+strchr
+__snprintf_chk
+GLIBC_2.3.4
+__libc_start_main
+sscanf
+malloc
+__vsnprintf_chk
+__sprintf_chk
+memcmp
+strstr
+strlen
+strftime
+strspn
+realloc
+__stack_chk_fail
+GLIBC_2.4
+puts
+strncmp
+__printf_chk
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+__udivdi3
+_Unwind_Resume
+GCC_3.0
+getgrgid
+getgrnam
+getpwuid
+strrchr
+getpwnam
+abort
+strcmp
+secure_getenv
+GLIBC_2.17
+strcasecmp
+sigfillset
+_end
+__bss_start
+in6addr_any
+GLIBC_2.1
+_edata
+fopen64
+usleep
+getenv
+_IO_putc
+opendir
+closedir
+close
+libpthread.so.0
+stdout
+fileno
+fcntl
+stdin
+__asprintf_chk
+GLIBC_2.8
+__cxa_finalize
+GLIBC_2.1.3
+__strndup
+GLIBC_2.2
+open64
+sysconf
+fclose
+fflush
+read
+fnmatch
+GLIBC_2.2.3
+qsort
+statfs64
+getopt_long
+program_invocation_short_name
+optind
+rand
+srand
+dirname
+socket
+connect
+setsockopt
+getpid
+__errno_location
+sendmsg
+write
+__read_chk
+poll
+isatty
+localtime
+writev
+strtol
+uname
+strtoul
+clock_gettime
+librt.so.1
+feof
+fread
+_IO_getc
+prctl
+getuid
+__ctype_b_loc
+fchmod
+ferror
+fgets
+chmod
+syscall
+__strdup
+getppid
+sigemptyset
+rename
+fdopen
+__rawmemchr
+__lxstat64
+__xstat64
+getrlimit64
+ioctl
+unlink
+getpeername
+getsockopt
+inet_ntop
+access
+readdir64
+inet_pton
+__fxstat64
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+a_&	
+D$@e
+[^_]
+T$4ul
+D$LtH
+D$L<'
+L$38
+D$L8D$3
+D$X9L$\t
+D$,@
+t!S1
+D$,e
+[^_]
+T$,1
+L$,e3
+d$<[^_]
+d$ [^_
+D$,1
+T$,e3
+UWV1
+[^_]
+d$,1
+[^_]
+[^_]
+[^_]
+d$,[^_]
+[^_]
+\$$e
+L$(1
+D$ ;D$,t@
+[^_]
+8xuC
+T$$u
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+[^_]
+D$,1
+[^_]
+9T$T
++L$@
++T$,
+9D$@
+T$8w
+UWVS
+d$<[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+t$,U
+[^_]
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Failed to parse log target '%s'. Ignoring.
+Failed to parse log level '%s'. Ignoring.
+Failed to parse bool '%s'. Ignoring.
+%s [OPTIONS...]
+Detect execution in a virtualized environment.
+  -h --help             Show this help
+     --version          Show package version
+  -c --container        Only detect whether we are run in a container
+  -v --vm               Only detect whether we are run in a VM
+  -r --chroot           Detect whether we are run in a chroot() environment
+  -q --quiet            Don't output anything, just set return value
+systemd 229
++PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN
+Code should not be reached '%s' at %s:%u, function %s(). Aborting.
+Failed to check for container: %m
+Failed to check for chroot() environment: %m
+Failed to check for virtualization: %m
+/sys/class/dmi/id/product_name
+Failed to parse log color setting '%s'. Ignoring.
+Failed to parse log location setting '%s'. Ignoring.
+/sys/class/dmi/id/board_vendor
+PRIORITY=%i
+SYSLOG_FACILITY=%i
+%s%s%s%s%.*i%s%s%s%s%s%.*i%s%s%s%sSYSLOG_IDENTIFIER=%s
+xsprintf: header_priority[] must be big enough
+clock_gettime(map_clock_id(clock_id), &ts) == 0
+xsprintf: header_pid[] must be big enough
+xsprintf: location[] must be big enough
+xsprintf: buffer[] must be big enough
+emerg
+console
+/dev/kmsg
+/dev/console
+/proc/cmdline
+/etc/initrd-release
+SYSTEMD_LOG_TARGET
+src/basic/log.c
+SYSTEMD_LOG_LEVEL
+SYSTEMD_LOG_COLOR
+SYSTEMD_LOG_LOCATION
+src/detect-virt/detect-virt.c
+argc >= 0
+argv
+Unhandled option
+hqcvr
+%s takes no arguments.
+Failed to check for VM: %m
+/proc/1/root
+help
+version
+container
+chroot
+quiet
+none
+qemu
+bochs
+vmware
+oracle
+microsoft
+parallels
+vm-other
+systemd-nspawn
+lxc-libvirt
+openvz
+docker
+container-other
+console-prefixed
+kmsg
+journal
+journal-or-kmsg
+syslog
+syslog-or-kmsg
+auto
+safe
+null
+alert
+crit
+warning
+notice
+info
+debug
+src/basic/fd-util.c
+fclose_nointr(f) != EBADF
+src/basic/process-util.c
+line
+/proc/%i/cmdline
+src/basic/fileio.c
+/proc/self/stat
+ %*c %*d %*d %*d %lu 
+close_nointr(fd) != -EBADF
+/proc/xen/capabilities
+control_d
+/sys/hypervisor/type
+vendor_id	: User Mode Linux
+/proc/cpuinfo
+/proc/vz
+/proc/bc
+/run/systemd/container
+src/basic/parse-util.c
+true
+false
+systemd.log_target
+systemd.log_level
+systemd.log_color
+systemd.log_location
+XenVMMXenVMM
+KVMKVMKVM
+VMwareVMware
+Microsoft Hv
+QEMU
+VMware
+innotek GmbH
+Bochs
+Parallels
+/sys/class/dmi/id/sys_vendor
+/sys/class/dmi/id/bios_vendor
+ERRNO=
+CODE_FUNCTION=
+CODE_LINE=
+CODE_FILE=
+MESSAGE=
+buffer
+<%i>
+src/basic/time-util.c
+%h %e %T 
+[%i]: 
+(%s:%i) 
+[0;1;31m
+_value
+/proc/%i/environ
+src/basic/alloc-util.c
+allocated
+log_parse_environment
+/run/systemd/journal/socket
+/dev/log
+parse_argv
+parse_argv
+main
+parse_proc_cmdline_item
+parse_boolean
+safe_close
+safe_fclose
+read_one_line_file
+get_process_cmdline
+greedy_realloc
+getenv_for_pid
+write_to_console
+write_to_kmsg
+write_to_syslog
+log_dispatch
+log_assert
+;*2$"
+zPLR
+gold 1.11
+systemd-detect-virt.debug
+7zXZ
+	30 
+*+HJ
+)z, 
+g{hS
+PJmC)qW
+D.jO
+FJ<xV
+m/[j/
+$245
+?.W;WI
+#vi6
+]{y\9
+W5_g)=y{
+QB~?d	
+[lyHCRo
+{5 9]
+E_t?y
+g%VW
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.tdata
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

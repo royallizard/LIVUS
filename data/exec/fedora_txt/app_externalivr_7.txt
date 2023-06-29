@@ -1,0 +1,313 @@
+tdla
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_unregister_application
+strlen
+memcpy
+__ast_app_separate_args
+ast_app_parse_timelen
+ast_verb_sys_level
+__ast_verbose
+ast_dtmf_stream
+strsep
+option_debug
+ast_options
+strchr
+pbx_builtin_setvar_helper
+ast_log
+ast_debug_get_by_module
+ast_closestream
+ast_channel_stream_set
+ast_channel_language
+ast_openstream_full
+__errno_location
+strerror
+ast_channel_name
+__ast_pthread_mutex_lock
+__ast_pthread_mutex_unlock
+ast_readframe
+ast_write
+ast_frame_free
+__ast_str_helper
+__ao2_lock
+pbx_builtin_getvar_helper
+__ao2_unlock
+calloc
+time
+ast_iostream_write
+ast_iostream_get_fd
+ast_channel_flags
+ast_waitfor_nandfds
+ast_channel_state
+ast_iostream_gets
+ast_check_hangup
+ast_read
+strcasecmp
+ast_answer
+ast_activate_generator
+ast_fileexists
+ast_channel_hangupcause_set
+strrchr
+ast_app_parse_options
+ast_sockaddr_resolve
+_ast_sockaddr_port
+__memcpy_chk
+ast_tcptls_client_create
+ast_tcptls_client_start
+ast_deactivate_generator
+__ao2_ref
+_ast_sockaddr_set_port
+pipe
+ast_safe_fork
+ast_iostream_from_fd
+ast_iostream_close
+dup2
+ast_close_fds_above_n
+execv
+stderr
+__fprintf_chk
+_exit
+ast_set_priority
+ast_module_register
+ast_module_unregister
+ast_register_application2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.0
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.4
+[^_]
+[^_]
+D$$P
+D$$Pj
+L$,R
+T$,Wh
+t$(h
+UWVS
+T$(h
+L$ Q
+T$$Rh
+D$$P
+D$0P
+t$$h
+T$,W
+t$$h
+t$$h
+[^_]
+t$(j
+[^_]
+D$$1
+t$4V
+,[^_]
+[^_]
+[^_]
+UWVS
+T$De
+D$Hd
+D$LP
+D$XP
+D$XP
+D$hPj
+D$XP
+D$P9D$T
+;D$X
+D$ P
+D$(P
+D$$P
+D$(P
+t$$h
+|$dW
+t$dV
+D$\<P
+|$<<L
+l$jU
+[^_]
+D$,1
+D$,1
+D$$P
+D$$P
+D$(P
+t$$h
+D$,1
+l$jU
+l$jU
+D$$P
+D$$P
+D$(P
+t$$h
+D$,1
+l$fUP
+l$bUP
+D$$P
+D$$P
+D$(P
+t$$h@
+D$$P
+D$$P
+D$(P
+t$$h0
+T$bRP
+D$,1
+T$bRP
+PUhN
+PUhO
+T$bRP
+,j)P
+j Pj
+PQWj
+[^_]
+WPVh
+Sending DTMF: %s %d %d
+app_externalivr.c
+Setting up a variable: %s
+app_externalivr
+silence/10
+&(&u->playlist)->lock
+&(&u->finishlist)->lock
+chan
+%s=%s,
+%c,%10d
+sent '%s'
+%s: Is a zombie
+HANGUP
+Got check_hangup
+Returned no frame
+Got AST_CONTROL_HANGUP
+%s: Child process went away
+got command '%s'
+Sending DTMF: %s
+ANSWER_FAILURE
+%s: Failed to answer channel
+GENERATOR_FAILURE
+%s: Exiting: %s
+%s: Hanging up: %s
+noautoclear
+%s: stderr: %s
+%s: Wait failed (%s)
+%s%s
+Parsing options from: [%s]
+noanswer is set
+ignore_hangup is set
+run_dead is set
+ivr://
+Failed to fork(): %s
+Failed to execute '%s': %s
+%s: File '%s' could not be opened: %s
+%s: Failed to write frame: %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/strings.h
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Got check_hangup, but ignore_hangup set so sending 'I' command
+Answering channel if needed and starting generator
+%s: Running ExternalIVR with 'd'ead flag on non-hungup channel isn't supported
+%s: Failed to activate generator
+%s: Queue 'I'nterrupt called on unanswered channel
+%s: Queue re'S'et called on unanswered channel
+%s: Unknown file requested '%s'
+%s: Queue 'A'ppend called on unanswered channel
+Retriving Variables from channel: %s
+Setting Variables in channel: %s
+%s: Log message from EIVR: %s
+%s: e'X'it command is depricated, use 'E'xit instead
+%s: Option called on unanswered channel
+%s: Unknown option requested: %s
+ExternalIVR requires a command to execute
+ExternalIVR received application and arguments: %s
+ExternalIVR received options: %s
+Parse error, missing closing parenthesis
+Answering channel and starting generator
+Parsing hostname/port for socket connect from "%s"
+%s: Unable to locate host '%s'
+%s: Could not connect to any host.  ExternalIVR failed.
+%s: Could not create pipe for child input: %s
+%s: Could not create pipe for child output: %s
+%s: Could not create pipe for child errors: %s
+External IVR Interface Application
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+ast_str_create
+send_eivr_event
+ast_eivr_setvariable
+ast_eivr_getvariable
+make_entry
+ast_eivr_senddtmf
+eivr_comm
+__ast_calloc
+gen_alloc
+gen_nextfile
+gen_readframe
+gen_generate
+app_exec
+ExternalIVR
+;*2$" 
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+app_externalivr.so-15.5.0-1.fc29.i386.debug
+7zXZ
+)4Z[xT
+U-7Jr
+(dnp
+FKGy
+K^)UP
+Do]+
+^)Do
+dtT#%N
+e-)y b
+QgN+
+;C+r
+R@,^
+(C<&`
+m~"Oij
+arK:
+ ,ND
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

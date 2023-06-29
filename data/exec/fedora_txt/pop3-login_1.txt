@@ -1,0 +1,248 @@
+/lib/ld-linux.so.2
+JQ=j	C
+libdovecot-login.so.0
+str_len
+t_str_new
+t_pop_check
+pool_datastack_create
+__gmon_start__
+_Jv_RegisterClasses
+buffer_create_dynamic
+p_strdup
+t_strdup_printf
+t_push
+o_stream_nsend
+i_strdup
+t_strconcat
+t_strdup_until
+buffer_append_c
+_ITM_deregisterTMCloneTable
+str_append_c
+_ITM_registerTMCloneTable
+my_hostname
+buffer_create_from_data
+auth_client_is_connected
+default_pool
+str_printfa
+str_to_uint
+base64_encode
+str_append
+master_service
+safe_memset
+master_service_set_die_callback
+str_c
+ioloop_time
+net_addr2ip
+net_ip2addr
+auth_client_find_mech
+i_panic
+buffer_append
+hex_to_binary
+io_add
+str_sanitize
+o_stream_uncork
+i_stream_next_line
+client_unref
+login_set_roots
+client_is_tls_enabled
+client_read
+client_input
+login_proxy_get_ssl_flags
+clients_destroy_all
+auth_client
+login_binary_run
+client_send_raw_data
+client_ref
+client_proxy_finish_destroy_client
+client_auth_begin
+client_log
+client_send_raw
+client_proxy_log_failure
+client_check_plaintext_auth
+client_proxy_failed
+client_cmd_starttls
+client_destroy
+client_log_err
+sasl_server_get_advertised_mechs
+login_proxy_starttls
+login_proxy_get_ostream
+client_get_session_id
+libdovecot.so.0
+auth_client_get_connect_id
+t_str_ucase
+t_strsplit
+i_strdup_printf
+o_stream_nsend_str
+str_data
+random_fill
+o_stream_cork
+libc.so.6
+_IO_stdin_used
+strlen
+strncasecmp
+strchr
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+cmd_user
+cmd_apop
+_fp_hw
+client_send_reply
+pop3_login_setting_roots
+capability_string
+__data_start
+cmd_pass
+pop3_proxy_error
+pop3_login_service_settings
+__libc_csu_init
+pop3_client_auth_result
+cmd_auth
+pop3_proxy_parse_line
+cmd_capa
+__libc_csu_fini
+pop3_proxy_reset
+pop3_login_setting_parser_info
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+ [^_
+UWVS
+L[^_]
+L[^_]
+UWVS
+D$l1
+D$le3
+|[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
++T$T
+D$(9
+D$,9
+,[^_]
+UWVS
+ED$D
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+[^_]
+-ERR
+-ERR [SYS/TEMP]
+-ERR [AUTH]
+!client->authenticating
+client.c
+CAPA
+USER
+PASS
+AUTH
+APOP
+STLS
+QUIT
+Logging out
+Aborted login
+XCLIENT
+You are not from trusted IP
+ADDR=
+PORT=
+SESSION=
+TTL=
+Invalid parameters
+Updated
+Unknown command.
+[XCLIENT] 
+<%x.%x.%lx.%s@%s>
+pop3
+pop3-login
+file %s: line %d (%s): assertion failed: (%s)
+Too many invalid bad commands.
+Disconnected: Too many bad commands
+pop3_client_input
+STLS
+USER
+SASL
+No username given.
+PLAIN
+APOP failed: APOP not enabled
+APOP not enabled.
+Invalid parameters.
+APOP failed: Invalid parameters
+APOP failed: Invalid characters in MD5 response
+Invalid characters in MD5 response.
+Reconnected to auth server, can't do APOP
+CAPA
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+$default_login_user
+pop3s
+client->common.proxy_ttl > 1
+pop3-proxy.c
+USER 
+AUTH PLAIN
+!client->destroyed
+ [XCLIENT]
+proxy: Remote STLS failed: %s
+PASS 
+-ERR 
+Authentication failed.
+XCLIENT ADDR=%s PORT=%u SESSION=%s TTL=%u
+proxy: Remote returned invalid banner: %s
+proxy: Remote XCLIENT failed: %s
+proxy_send_login
+pop3_proxy_parse_line
+;*2$"
+pop3-login.debug
+7zXZ
+@>-G
+WSg[
+g9Mh7
+V/u?
+ENjl`
+{"Br
+*7o.
+qV=3
+k$r]Q
+tn8{
+s,bl
+k|bH
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

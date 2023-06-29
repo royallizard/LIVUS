@@ -1,0 +1,244 @@
+td,2
+/lib/ld-linux.so.2
+libuser.so.1
+is_selinux_enabled
+_ITM_deregisterTMCloneTable
+__gmon_start__
+getfilecon
+setfscreatecon
+_Jv_RegisterClasses
+freecon
+_ITM_registerTMCloneTable
+lu_uses_elevated_privileges
+lu_ent_set_string
+_fini
+_init
+lu_strerror
+lu_ent_free
+lu_ent_new
+lu_user_modify
+lu_prompt_console_quiet
+lu_start
+lu_user_lookup_name
+lu_end
+libpam.so.0
+pam_setcred
+pam_start
+pam_strerror
+pam_acct_mgmt
+pam_chauthtok
+pam_end
+pam_authenticate
+libpam_misc.so.0
+misc_conv
+libselinux.so.1
+context_user_get
+security_compute_av
+context_free
+context_new
+getprevcon
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+optind
+dcgettext
+getpwuid
+warnx
+stdin
+_exit
+strpbrk
+getpwnam
+strlen
+prctl
+warn
+__fprintf_chk
+stdout
+fputc
+fputs
+fclose
+setegid
+getgid
+__ctype_b_loc
+optarg
+stderr
+seteuid
+getuid
+getegid
+getopt_long
+__getdelim
+geteuid
+__fpending
+strchr
+secure_getenv
+program_invocation_short_name
+__cxa_finalize
+errx
+memmove
+fopen64
+bindtextdomain
+access
+strcmp
+__libc_start_main
+ferror
+__progname
+__environ
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+GLIBC_2.0
+LIBPAM_MISC_1.0
+LIBPAM_1.0
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.17
+D$L1
+lu%1
+L$0;H
+L$Le3
+[^_]
+L$89
+UWVS
+D$,1
+T$$u
+L$,e3
+d$<[^_]
+UWVS
+8 tH
+[^_]
+,:="
+d$ [^_
+T$0e
+d$ [^_
+UWVS
+D$<1
+L$<e3
+d$L[^_]
+D$<1
+L$<e3
+d$@[^_
+D$T#D$$;D$T
+d$ [^_
+UWVS
+d$,[^_]
+d$$[^
+d$$1
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options] [<username>]
+Change your login shell.
+Options:
+For more details see %s.
+chsh(1)
+/etc/shells
+No known shells.
+write error
+/bin/sh
+/usr/share/locale
+util-linux
+%s from %s
+util-linux 2.27
+s:luv
+you (user %d) don't exist.
+user "%s" does not exist.
+Unknown user context
+/etc/passwd
+"%s" does not exist
+"%s" is not executable
+%s: has illegal characters
+Shell not changed.
+pw_shell
+chsh
+Shell changed.
+New shell
+%s [%s]: 
+Changing shell for %s.
+list-shells
+help
+version
+ -s, --shell <shell>  specify login shell
+ -l, --list-shells    print list of shells and exit
+ -u, --help     display this help and exit
+ -v, --version  output version information and exit
+%s is not authorized to change the shell of %s
+can't set default context for %s
+running UID doesn't match UID of user we're altering, shell change denied
+your shell is not in %s, shell change denied
+shell must be a full path name
+Warning: "%s" is not listed in %s.
+"%s" is not listed in %s.
+Use %s -l to see list.
+Shell *NOT* changed.  Try again later.
+libuser initialization failed: %s.
+Couldn't drop group privileges
+changing user attribute failed
+user attribute not changed: %s
+_RLD_=
+LANG=
+LANGUAGE=
+BASH_ENV=
+HOME=
+IFS=
+KRB_CONF=
+LIBPATH=
+MAIL=
+NLSPATH=
+SHELL=
+SHLIB_PATH=
+;*2$" 
+chsh.debug
+7zXZ
+FvinXFL
+Mmt=\
+BpEK
+4i0>
+4WA4
+hP)W
+[dDY
+1H:#b
+f=[T
+a`[J&
+mT!w
+2gf`
++cNm$
+tgy=Y6R
+[&6jB
+B0~l`
+KuFN7
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

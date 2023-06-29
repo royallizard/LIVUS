@@ -1,0 +1,361 @@
+Ich0
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+metapost_export_filter
+filter_unregister_export
+g_module_check_init
+dia_plugin_check_version
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+filter_register_export
+message_error
+g_type_check_class_cast
+dia_renderer_get_type
+g_type_class_peek_parent
+g_ascii_formatd
+__fprintf_chk
+color_black
+color_equals
+__stack_chk_fail
+sincos
+metapost_renderer_get_type
+g_type_register_static
+fopen
+g_object_new
+g_get_user_name
+ctime
+g_type_check_instance_cast
+data_render
+g_object_unref
+__errno_location
+strerror
+dia_message_filename
+dia_image_filename
+dia_image_width
+dia_image_rowstride
+dia_image_height
+dia_image_rgb_data
+dia_image_mask_data
+g_free
+g_log
+dia_font_get_family
+dia_font_get_style
+strncmp
+text_line_get_string
+fclose
+libpng12.so.0
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libmetapost_filter.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+%z\ 
+%r\ 
+%j\ 
+%b\ 
+%Z\ 
+%R\ 
+%J\ 
+%B\ 
+%:\ 
+%2\ 
+%*\ 
+%"\ 
+ATSubH
+[A\]
+=~U 
+=1Y 
+fffff.
+|$0dH
+5KV 
+[]A\
+L$ H
+L$ H
+fff.
+D$Xf
+D$`f
+d$ H
+D$@H
+D$HH
+t$pH
+D$pH
+D$Hf
+T$pH
+\$xf
+d$xH
+d$ H
+D$XH
+Yd$h
+D$`H
+XD$P
+\$0H
+D$XH
+Y\$h
+D$`H
+XD$P
+D$hH
+L$XH
+YD$H
+D$`H
+YD$@
+XD$P
+[]A\A]
+AVAUI
+ATUH
+|$(I
+[]A\A]A^
+fff.
+AWAVAUATUH
+D$(H
+L$HdH
+*D$P
+L$(H
+D$HH
+^D$(
+D$(H
+HcD$PH
+T$xMc
+D$hH
+D$pH
+T$@H
+\$@H
+l$8E1
+D$ H
+|$8H
+|$8L
+D;l$P
+XL$(
+|$8H
+D$hH
+XL$HH
+D$8H
+D$T9D$0
+[]A\A]A^A_
+L$ ~
+D$xMc
+t$PL
+d$8H
+|$PH
+T$XE
+\$0E1
+D$ H
+XL$(
+D$8H
+XL$H
+D$T9D$P
+ffffff.
+AWAVAUI
+D$(dH
+D$(H
+D$(H
+D$(H
+[]A\A]A^A_
+ffffff.
+AWAVAUA
+ATUH
+L$8dH
+|$8H
+|$8H
+D$0H
+D$ I
+|$8H
+L$(H
+|$8H
+D$8H
+D$8H
+D$8H
+|$8H
+[]A\A]A^A_
+|$pH
+|$8H
+AWAVI
+ATUH
+D$LA
+|$8H
+|$8H
+D$8H
+D$(I
+|$8H
+L$0H
+[]A\A]A^A_
+|$pH
+|$8H
+AUATI
+\$ H
+[]A\A]
+AVAUI
+ATUH
+\$ H
+[]A\A]A^
+L$ H
+D$0H
+l$HL
+L$ H
+D$0H
+l$HL
+d$P1
+AVAUI
+d$`H
+L$0H
+d$ L
+[]A\A]A^
+L$8H
+l$pdH
+L$8H
+L$8H
+L$8H
+L$@H
+l$ H
+AWAVI
+ATUH
+[]A\A]A^A_
+ffffff.
+AWAVI
+ATUH
+[]A\A]A^A_
+fffff.
+AWAVI
+ATUH
+[]A\A]A^A_
+AVAUATUH
+[]A\A]A^
+AWAVAUI
+ATUSH
+s8E1
+[]A\A]A^A_
+9XHH
+tPr.
+9XDH
+tPr.H
+D$81
+D$8dH3
+d$ H
+TeX Metapost export filter
+Metapost
+metapost_renderer: Unsupported fill mode specified!
+    withpen pencircle scaled %sx
+    dashed dashpattern (on %sx off %sx)
+    dashed dashpattern (on %sx off %sx on %sx off %sx)
+    dashed dashpattern (on %sx off %sx on %sx off %sx on %sx off %sx)
+Can't open output file %s: %s
+%% Metapost TeX macro
+%% Title: %s
+%% Creator: Dia v%s
+%% CreationDate: %s%% For: %s
+beginfig(1);
+verbatimtex
+%%&latex
+\documentclass{minimal}
+\begin{document}
+etex
+%% Define macro for horizontal centering.
+vardef hcentered primary P =
+  P shifted -(xpart center P, 0)
+enddef;
+%% Define macro for right justification.
+vardef rjust primary P =
+  P shifted -(xpart (lrcorner P - llcorner P), 0)
+enddef;
+  pickup pensquare scaled %sx scaled %s;
+ btex {\usefont{OT1}{%s}{%s}{%s} %s} etex scaled %st shifted (%sx,%sy)
+first BezPoint must be a BEZ_MOVE_TO
+only first BezPoint can be a BEZ_MOVE_TO
+..controls (%sx,%sy) and (%sx,%sy)
+    ..(%sx,%sy)
+  fill p withcolor (%s,%s,%s);
+  path p;
+  p = (%sx,%sy)--(%sx,%sy)--(%sx,%sy)--(%sx,%sy)--cycle;
+  draw (%sx,%sy)--(%sx,%sy)--(%sx,%sy)--(%sx,%sy)--cycle
+%5.4f
+    withcolor (%s, %s, %s)
+%%metapost_arc
+center->x
+%% %s = %s
+center->y
+width
+height
+angle1
+angle2
+%% set_line_color %s, %s, %s
+  draw (%sx,%sy)..
+MetapostRenderer
+0.97
+  %% picture(%s,%s)(%s,%s)
+  x = %scm; y = %scm;
+  t = %s;
+  %% draw_image: %s
+  %% have mask
+  draw (%sx, %sy) 
+withcolor (%s, %s, %s);
+  draw
+  draw hcentered
+  draw rjust
+  path p;
+    ..cycle;
+  draw (%sx,%sy)
+  path p;
+  p = (%sx,%sy)..
+(%sx,%sy)..cycle;
+(%sx,%sy)..cycle
+%% fill_polygon
+  path p;
+  p = (%sx,%sy)
+--cycle;
+  fill p 
+--cycle
+  draw (%sx,%sy)--(%sx,%sy)
+sans
+serif
+monospace
+century schoolbook l
+linejoin:=mitered;
+linejoin:=rounded;
+linejoin:=beveled;
+linecap:=butt;
+linecap:=rounded;
+linecap:=squared;
+%% set_linewidth %s
+endfig;
+end;
+TeX Metapost macros
+arial
+helvetica
+courier
+cmtt
+courier new
+MbP?
+;*3$"
+libmetapost_filter.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

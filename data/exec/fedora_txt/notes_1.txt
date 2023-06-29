@@ -1,0 +1,307 @@
+__stack_chk_fail
+notes_start
+fopen
+feof
+fgets
+fclose
+strtol
+__sprintf_chk
+chmod
+__fprintf_chk
+unlink
+localtime
+strftime
+__strcat_chk
+strlen
+strcpy
+strchr
+strcmp
+strcat
+Tcl_AppendResult
+__strcpy_chk
+Tcl_AppendElement
+Tcl_Merge
+Tcl_Free
+libtcl8.4.so
+libm.so.6
+libpthread.so.0
+libdl.so.2
+libdns.so.40
+libnsl.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5:b 
+%<b 
+%:b 
+%2b 
+%*b 
+%"b 
+AVAUA
+ATUSH
+[]A\A]A^
+fffff.
+ffffff.
+fffff.
+fff.
+55b 
+=N^ 
+5)` 
+=&` 
+fffff.
+ffff.
+=,[ 
+53\ 
+5<] 
+5_] 
+=g] 
+=L] 
+ffff.
+AVAUI
+ATUSH
+=$^ 
+u2E1
+[]A\A]A^
+0txH
+~WE1
+D9 ~6H
+u:[]A\A]A^
+[]A\A]A^
+[]A\A]A^1
+;tAA
+t5<;t1A
+l$ L
+t$(L
+|$0H
+=FY 
+D$0H
+t|<#tx<;ttH
+t$ 1
+t$(H
+t$(A
+D;t$,
+D+L$,
+L$,H
+D+t$,D
+D$,H
+AVAUA
+[]A\A]A^A_
+==S 
+D$PL
+D$ H
+|$ L
+t$01
+D$@H
+5eQ 
+D$<I
+T$HD
+<$+t?@
+<$+tM@
+t$HH
+L$@D
+T$H1
+D$HH
+L$HL
+D$@H
+L$HL
+fffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+D9(~)H
+=7G 
+=EF 
+[]A\
+u~Hc
+[]A\
+uAHc
+AWAVAUATUSH
+=uB 
+~YE1
+D9 ~;I
+D9 ~)I
+[]A\A]A^A_
+=^? 
+l$@L
+D$(H
+5J= 
+\$$E
+L$$H
+D$8L
+D$(H
+AUATUS
+[]A\D
+A]A^
+[]E1
+A]A^
+fff.
+ATUSH
+[]A\A]
+[]A\A]
+fff.
+ATUH
+ []A\A]A^
+ []A\A]A^
+ []A\A]A^
+d$ L
+l$(L
+t$0H
+=E5 
+ffff.
+\$hH
+l$pL
+d$xL
+HcD$
+D$ H
+D$XH
+l$PE1
+D$,H
+D$PL
+l$Pu
+t$(E
+NOTESIGNA
+D$PL
+|$ L
+NOTESIGNL
+ffff.
+=l. 
+T$ H
+D$HH
+D$8t
+ED$D
+D$DH
+=k, 
+=O, 
+D$XH
+T$XH
+T$(H
+D$`H
+D$DH
+l$`I
+|$ A
+t$01
+l$`H
+D$HH
+T$0H
+T$ L
+d$0L
+tb<#t^<;tZH
+D$(H
+D$(H
+T$ H
+ffffff.
+AWAVAUATI
+H[]A\A]A^A_
+HcD$
+D$8H
+t$0L
+t$0E1
+H[]A\A]A^A_
+NOTESIGNH
+%s: note <to-whom> <message>
+NOTESIGNORE
+notes.help
+    Notes can not be stored.
+eggdrop
+NOTICE %s :%s.
+%s~new
+NOTICE %s :%s. :(
+%s %d note%s; %d %s.
+%b %d %H:%M
+### %s:
+  %2d. %s (%s)
+NOTICE %s :%2d. %s (%s)
+NOTICE %s :%2d. %s (%s): %s
+### %s
+NOTICE %s :%s: %d
+NOTICE %s :%s
+INDEX
+READ
+ERASE
+%s [%s]: %s
+NOTICE %s :%s
+* %s
+%s %s %li %s
+(%s!%s) !%s! NOTES %s %s
+%s: notes index
+       notes read <# or ALL>
+       %s
+index
+read
+erase
+#%s# notes %s %s
+%s %s %s %s
+%s!%s
+### %s
+.././notes.mod/notes.c
+#%s# noteigns %s
+.././notes.mod/cmdsnote.c
+%s: fwd <handle> [user@bot]
+#%s# fwd %s
+#%s# fwd %s %s
+#%s# -noteign %s
+ from to msg idx
+wrong # args: should be "
+<%s@%s >%s %s
+<%s@%s %s
+via %s, 
+%s %s %li %s%s
+ handle noteslist#
+ handle ?noteslist#?
+#%s# +noteign %s
+note-life
+max-notes
+allow-fwd
+notify-users
+notify-onjoin
+notefile
+erasenotes
+listnotes
+storenote
++noteign
+-noteign
+noteigns
+notes:server
+notes:irc
+    Notes can be stored in: %s
+    Using %d byte%s of memory
+This module requires Eggdrop 1.6.0 or later.
+NOTICE %s :%s /MSG %s NOTES <pass> INDEX
+NOTICE %s :%s %d note%s; %d %s.
+NOTICE %s :%s: NOTES <pass> INDEX
+NOTICE %s :NOTES <pass> TO <hand> <msg>
+NOTICE %s :NOTES <pass> READ <# or ALL>
+NOTICE %s :NOTES <pass> ERASE <# or ALL>
+NOTICE %s :Ex: NOTES mypass ERASE 2-4;8;16-
+NOTICE %s :%s: NOTES <pass> TO <hand> <message>
+NOTICE %s :%s: NOTES <pass> INDEX, READ, ERASE, TO
+       notes erase <# or ALL>
+       ex: notes erase 2-4;8;16-
+NOTICE %s :You have %d note%s waiting on %s.
+%s: -noteign [handle] <ignoremask>
+%s: +noteign [handle] <ignoremask>
+notes.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.text
+.rodata
+.eh_frame_hdr
+.eh_frame
+.dynamic
+.got.plt
+.data
+.bss
+.gnu_debuglink

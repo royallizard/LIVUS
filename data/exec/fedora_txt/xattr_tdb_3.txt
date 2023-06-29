@@ -1,0 +1,264 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+_talloc_free
+push_file_id_16
+make_tdb_data
+__stack_chk_fail
+_talloc_zero
+data_blob_const
+ndr_pull_tdb_xattrs
+ndr_pull_struct_blob
+DEBUGLEVEL_CLASS
+ndr_map_error2ntstatus
+dbghdrclass
+ndr_map_error2string
+dbgtext
+tdb_null
+talloc_tos
+ndr_push_tdb_xattrs
+ndr_push_struct_blob
+nt_errstr
+strcmp
+_talloc_realloc_array
+__errno_location
+file_id_string_tos
+strlen
+rep_strlcpy
+memcpy
+copy_smb_filename
+lp_posix_pathnames
+smb_vfs_call_stat
+smb_vfs_call_unlink
+smb_vfs_call_lstat
+smb_vfs_call_file_id_create
+map_errno_from_nt_status
+vfs_stat_smb_fname
+smb_vfs_call_rmdir
+smb_vfs_call_connect
+find_service
+state_path
+lp_parm_const_string
+db_open
+unbecome_root
+lp_do_parameter
+smb_vfs_call_fstat
+init_samba_module
+smb_register_vfs
+libc.so.6
+_edata
+__bss_start
+_end
+xattr_tdb.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+ATSubH
+[A\]
+=~9 
+|$ H
+D$81
+T$8dH3
+\$@H
+l$HL
+d$PH
+fffff.
+\$ H
+l$(L
+d$0H
+|$0H
+D$H1
+T$(H
+D$ H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+|$ L
+-08 
+\$8H
+l$@L
+d$HL
+l$PH
+t$(H
+AVAUATI
+T$(H
+d$(A
+[]A\A]A^A_
+d$(H
+AWAVAUATI
+7t<L
+[]A\A]A^A_
+AWAVI
+ATUH
+4$H9
+[]A\A]A^A_
+$@H)
+A9/H
+AUATI
+-\. 
+D;d$
+D;d$
+[]A\A]A^A_
+T$HH
+t$HH
+t$HH
+|$HH
+\$XH
+l$`L
+d$hL
+l$pH
+T$HH
+D$0H
+D$8H
+D$ H
+T$0L
+T$ H
+l$ L
+d$(L
+l$0H
+T$ I
+T$ H
+T$0H
+T$0H
+D$ H
+T$ H
+T$ H
+T$0H
+D$ H
+T$ H
+T$ I
+T$ H
+T$ I
+T$ H
+T$ I
+T$ H
+modules/vfs_xattr_tdb.c:724
+struct tdb_xattrs
+modules/vfs_xattr_tdb.c:60
+modules/vfs_xattr_tdb.c:61
+modules/vfs_xattr_tdb.c:116
+modules/vfs_xattr_tdb.c:85
+modules/vfs_xattr_tdb.c:150
+modules/vfs_xattr_tdb.c:156
+modules/vfs_xattr_tdb.c:263
+modules/vfs_xattr_tdb.c:268
+xattr_tdb_lock_attrs failed
+modules/vfs_xattr_tdb.c:277
+modules/vfs_xattr_tdb.c:278
+modules/vfs_xattr_tdb.c:285
+modules/vfs_xattr_tdb.c:297
+struct xattr_EA
+modules/vfs_xattr_tdb.c:307
+TALLOC_REALLOC_ARRAY failed
+modules/vfs_xattr_tdb.c:308
+modules/vfs_xattr_tdb.c:323
+modules/vfs_xattr_tdb.c:326
+save failed: %s
+modules/vfs_xattr_tdb.c:491
+modules/vfs_xattr_tdb.c:500
+modules/vfs_xattr_tdb.c:501
+modules/vfs_xattr_tdb.c:512
+modules/vfs_xattr_tdb.c:523
+modules/vfs_xattr_tdb.c:529
+modules/vfs_xattr_tdb.c:532
+modules/vfs_xattr_tdb.c:389
+modules/vfs_xattr_tdb.c:395
+modules/vfs_xattr_tdb.c:401
+modules/vfs_xattr_tdb.c:410
+modules/vfs_xattr_tdb.c:422
+modules/vfs_xattr_tdb.c:435
+modules/vfs_xattr_tdb.c:175
+modules/vfs_xattr_tdb.c:181
+modules/vfs_xattr_tdb.c:207
+modules/vfs_xattr_tdb.c:628
+modules/vfs_xattr_tdb.c:670
+modules/vfs_xattr_tdb.c:674
+modules/vfs_xattr_tdb.c:689
+modules/vfs_xattr_tdb.c:711
+xattr.tdb
+file
+xattr_tdb
+modules/vfs_xattr_tdb.c:605
+modules/vfs_xattr_tdb.c:610
+True
+ea support
+modules/vfs_xattr_tdb.c:748
+Could not init xattr tdb
+False
+modules/vfs_xattr_tdb.c:238
+modules/vfs_xattr_tdb.c:361
+modules/vfs_xattr_tdb.c:564
+modules/vfs_xattr_tdb.c:341
+modules/vfs_xattr_tdb.c:546
+modules/vfs_xattr_tdb.c:219
+modules/vfs_xattr_tdb.c:465
+modules/vfs_xattr_tdb.c:446
+ndr_pull_tdb_xattrs failed: %s
+ndr_push_tdb_xattrs failed: %s
+xattr_tdb_push_attrs failed: %s
+xattr_tdb_setattr called for file %s, name %s
+xattr_tdb_fetch_attrs failed: %s
+xattr_tdb_listattr: Found %d xattrs
+xattr_tdb_listattr: xattrs[i].name: %s
+xattr_tdb_getattr called for file %s, name %s
+%s() failed to get vfs_handle->data!
+xattr_tdb_fsetxattr
+xattr_tdb_setattr
+xattr_tdb_pull_attrs
+xattr_tdb_save_attrs
+xattr_tdb_push_attrs
+xattr_tdb_setxattr
+xattr_tdb_fremovexattr
+xattr_tdb_removeattr
+xattr_tdb_removexattr
+xattr_tdb_flistxattr
+xattr_tdb_listattr
+xattr_tdb_listxattr
+xattr_tdb_fgetxattr
+xattr_tdb_getattr
+xattr_tdb_getxattr
+xattr_tdb_unlink
+xattr_tdb_rmdir
+xattr_tdb_connect
+xattr_tdb.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

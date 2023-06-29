@@ -1,0 +1,231 @@
+/lib64/ld-linux-x86-64.so.2
+libcrmcommon.so.3
+__gmon_start__
+_Jv_RegisterClasses
+qb_log_callsite_get
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+qb_log_real_
+qb_log_from_external_source
+crm_xml_add
+free_xml
+crm_ipc_close
+crm_exit
+crm_ipc_new
+crm_set_options
+crm_log_cli_init
+create_xml_node
+crm_system_name
+crm_element_value
+crm_ipc_send
+safe_str_neq
+crm_get_option
+crm_bump_log_level
+attrd_update_delegate
+_fini
+crm_ipc_connect
+crm_log_args
+pcmk_strerror
+crm_help
+crm_is_callsite_active
+crm_log_level
+log_data_element
+libcib.so.4
+libpe_rules.so.2
+libncurses.so.5
+libtinfo.so.5
+libcpg.so.4
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+__printf_chk
+optind
+__strdup
+__stack_chk_fail
+__errno_location
+__fprintf_chk
+optarg
+stderr
+__cxa_finalize
+strcmp
+__libc_start_main
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z) 
+%r) 
+%j) 
+%b) 
+%Z) 
+%R) 
+%J) 
+%B) 
+%:) 
+%2) 
+%*) 
+%") 
+AWAVAUATI
+D$X1
+l$LH
+=A, 
+=), 
+;-Z+ 
+t$@L
+t$8L
+L$HL
+D$8H
+D$(H
+L$XdH3
+h[]A\A]A^A_
+PAW1
+AZA[H
+=-) 
+PAT1
+AXAYH
+D$P1
+\$PL
+=t( 
+=g( 
+D$P1
+=*' 
+=Q' 
+=M& 
+=J& 
+==& 
+=h% 
+|$PH
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+localhost
+all nodes
+attrd_updater
+Bit 0x%.8llx set by %s
+../include/crm_internal.h
+attrd_updater.c
+attrd
+attr_host
+query
+task
+attr_name
+xml-blob
+Reply
+attr_version
+node
+attr_value
+help
+	This text
+	Version information
+verbose
+	Increase debug output
+The attribute's name
+-spacer-
+Commands:
+update
+delete
+refresh
+Additional options:
+delay
+lifetime
+private
+quiet
+section
+Tool for updating cluster node attributes
+command -n attribute [options]
+User did not specify node for query, using localhost
+Sending query for value of %s on %s
+Connection to cluster attribute manager failed: %s (%d)
+Connection to cluster attribute manager failed: %s (%d)
+Could not query value of %s: %s (%d)
+Could not query value of %s: reply did not contain valid XML
+Could not query value of %s: attribute does not exist
+Could not query value of %s: reply did not contain expected identification
+name="%s" host="%s" value="%s"
+Could not query value of %s: reply had attribute name but no host values
+Could not update %s=%s: %s (%d)
+Ignoring %s tag without %s attribute in query reply
+Ignoring unexpected %s tag in query reply
+Update the attribute's value in attrd.  If this causes the value to change, it will also be updated in the cluster configuration
+	Query the attribute's value from attrd
+	Delete the attribute in attrd.  If a value was previously set, it will also be removed from the cluster configuration
+	(Advanced) Force the attrd daemon to resend all current values to the CIB
+The time to wait (dampening) in seconds for further changes before writing
+(Advanced) The attribute set in which to place the value
+Set the attribute for the named node (instead of the local one)
+Show values of the attribute for all nodes (query only)
+(Deprecated) Lifetime of the node attribute (silently ignored by cluster)
+	If this creates a new attribute, never write the attribute to the CIB
+print_attrd_values
+validate_attrd_reply
+validate_attrd_reply
+send_attrd_query
+send_attrd_query
+do_query
+crm_set_bit
+main
+;*3$"
+attrd_updater.debug
+7zXZ
+^)qW
+yi($}
+z"Vk(
+"EV]
+JWu\
+R(8hdt
+(rd-
+f,9B1`
+a78U
+M,A4
+Jf>t
+@C1W
+~^E5
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

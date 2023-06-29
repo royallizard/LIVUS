@@ -1,0 +1,373 @@
+td|[
+/lib/ld-linux.so.2
+X0=0{
+9R/Q
+libsmartcols.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+scols_table_enable_raw
+scols_print_table
+scols_init_debug
+scols_line_set_data
+scols_table_enable_noheadings
+scols_new_table
+scols_table_new_line
+scols_unref_table
+scols_table_new_column
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+dcngettext
+optind
+__strdup
+dcgettext
+warnx
+sigprocmask
+sigfillset
+fsync
+_exit
+strspn
+__assert_fail
+strtod
+strtol
+fgetc
+calloc
+strlen
+sigemptyset
+localeconv
+warn
+strcspn
+__errno_location
+open64
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+__ctype_b_loc
+optarg
+stderr
+ioctl
+__snprintf_chk
+getopt_long
+strncasecmp
+__fpending
+strchr
+program_invocation_short_name
+__cxa_finalize
+errx
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+write
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+SMARTCOLS_2.25
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+D$le
+[^_]
+|$@1
+|$@9U
+\$l1
+DD$H
+T$0tc
+9t$dt4
+|$Lt
+D$l1
+!D$L;t$4
+D$<t
+D$l1
+D$ltE
+D$lu
+UWV1
+[^_]
+[^_]
+UWV1
+[^_]
+[^_]
+;l$(t
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+CARDRESET
+unknown flag: %s
+FLAG
+unknown column: %s
+flag name
+Usage:
+ %s [options] [<device> ...]
+Options:
+The default device is %s.
+/dev/watchdog
+Available columns:
+ %13s  %s
+For more details see %s.
+wdctl(8)
+sys-utils/wdctl.c
+num < ncolumns
+write error
+/usr/share/locale
+util-linux
+invalid timeout argument
+%s from %s
+util-linux 2.27
+d:f:hFnITo:s:OrVx
+wd->device
+cannot open %s
+%s: failed to disarm watchdog
+cannot set timeout for %s
+ VERSION="%x"
+ IDENTITY=
+\x%02x
+ TIMEOUT="%i"
+ PRETIMEOUT="%i"
+ TIMELEFT="%i"
+ %s="%s"
+ %s_BOOT="%s"
+Device:
+%-15s%s
+version
+Identity:
+%-15s%s [%s %x]
+Timeout:
+%-14s %2i seconds
+%-14s %2i second
+Pre-timeout:
+Timeleft:
+%s: unknown flags 0x%x
+ -%c
+ --%s
+write failed
+flags-only
+help
+noflags
+noheadings
+noident
+notimeouts
+settimeout
+output
+oneline
+DESCRIPTION
+flag description
+flag status
+BOOT-STATUS
+flag boot status
+DEVICE
+watchdog device name
+Card previously reset the CPU
+EXTERN1
+External relay 1
+EXTERN2
+External relay 2
+FANFAULT
+Fan failed
+KEEPALIVEPING
+Keep alive ping reply
+MAGICCLOSE
+Supports magic close char
+OVERHEAT
+Reset due to CPU overheat
+POWEROVER
+Power over voltage
+POWERUNDER
+Power bad/power fault
+PRETIMEOUT
+Pretimeout (in seconds)
+SETTIMEOUT
+Set timeout (in seconds)
+ALARMONLY
+Not trigger reboot
+Show the status of the hardware watchdog.
+ -f, --flags <list>     print selected flags only
+ -F, --noflags          don't print information about flags
+ -I, --noident          don't print watchdog identity information
+ -n, --noheadings       don't print headings for flags table
+ -O, --oneline          print all information on one line
+ -o, --output <list>    output columns of the flags
+ -r, --raw              use raw output format for flags table
+ -T, --notimeouts       don't print watchdog timeouts
+ -s, --settimeout <sec> set watchdog timeout
+ -x, --flags-only       print only flags table (same as -I -T)
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+columns[num] < (int) (sizeof(infos) / sizeof((infos)[0]) + __extension__ (sizeof(struct { int:-!!(__builtin_types_compatible_p(__typeof__(infos), __typeof__(&infos[0]))); })))
+%s: these options are mutually exclusive:
+%s: watchdog already in use, terminating.
+Timeout has been set to %d seconds.
+Timeout has been set to %d second.
+%s: failed to get information about watchdog
+failed to initialize output table
+failed to initialize output column
+failed to initialize output line
+get_column_id
+read_watchdog
+set_watchdog
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"P
+wdctl.debug
+7zXZ
+DI2NO,
+qOAv
+F+`n
+RXZ5v
+z3M*
+LURM?
+fn\V
+*9BD
+!RaO
+_u6s
+i1cu
+(~#,YR
+%Rs3*
+z9CQ{D
+JGyr*&
+B5B*
+09A *
+/)/n
+~:a|
+eP(`
+V3\[
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

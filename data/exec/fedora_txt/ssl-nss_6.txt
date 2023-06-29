@@ -1,0 +1,231 @@
+tdt7
++"*,y
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+purple_ssl_get_ops
+purple_certificate_unregister_scheme
+purple_ssl_set_ops
+purple_debug_info
+g_file_get_contents
+CERT_DecodeCertFromPackage
+g_free
+g_malloc0
+purple_debug_error
+g_return_if_fail_warning
+g_slist_prepend
+strstr
+CERT_GetCertTimes
+g_byte_array_sized_new
+PK11_HashBuf
+g_byte_array_free
+strcmp
+PR_Now
+CERT_VerifySignedData
+SEC_SignedCertificateTemplate
+SEC_ASN1EncodeItem
+NSSBase64_EncodeItem
+SECITEM_FreeItem
+g_strdup_printf
+PORT_Free
+purple_util_write_data_to_file_absolute
+__errno_location
+PR_Write
+PR_GetError
+PR_Read
+PR_Close
+purple_timeout_remove
+purple_input_remove
+PR_GetErrorTextLength
+g_malloc
+PR_GetErrorText
+PR_ImportTCPSocket
+PR_SetSocketOption
+SSL_ImportFD
+SSL_OptionSet
+CERT_GetDefaultCertDB
+SSL_AuthCertificateHook
+SSL_SetURL
+SSL_ResetHandshake
+purple_input_add
+purple_timeout_add
+purple_debug_warning
+purple_ssl_close
+SSL_ForceHandshake
+SSL_PeerCertificate
+CERT_DupCertificate
+g_list_append
+CERT_FindCertIssuer
+CERT_DestroyCertificate
+purple_certificate_verify
+purple_certificate_destroy_list
+NSS_Shutdown
+PR_Cleanup
+PR_Init
+NSS_NoDB_Init
+g_strdup
+SECMOD_AddNewModule
+NSS_SetDomesticPolicy
+SSL_CipherPrefSetDefault
+PR_GetUniqueIdentity
+PR_GetDefaultIOMethods
+purple_certificate_register_scheme
+CERT_VerifyCertName
+CERT_GetCommonName
+purple_init_plugin
+purple_plugin_register
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+libdl.so.2
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+ssl-nss.so
+NSS_3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+NSS_3.3
+NSS_3.2
+d$([
+D$,1
+T$,e3
+d$0[^_
+T$$1
+UWVS
+D$,1
+T$,e3
+d$<[^_]
+t$De
+T$,1
+|$HtI
+T$,e3
+d$0[^_
+\$ e
+|$(tP
+D$,1
+T$Pt~
+T$,e3
+UWVS
+D$De
+d$,[^_]
+d$$[^
+\$ e
+UWVS
+[^_]
+UWVS
+D$\1
+D$\e3
+d$l[^_]
+DD$D
+D$0e
+d$$[^
+T$4e
+d$$[^
+D$0e
+d$([
+D$0e
+d$([
+\$ e
+|$(tP
+t$0e
+d$$[^
+\$,e
+l$8tT
+98tR
+t$4tB
+D$0e
+d$([
+ul;D$
+Loading certificate from %s
+nss/x509
+filename != NULL
+crt_dat != NULL
+-----END CERTIFICATE-----
+crt->scheme == &x509_nss
+crt_dat
+Error: hashing failed!
+issuerCert
+subjectCert
+Exporting certificate to %s
+filename
+dercrt != NULL
+b64crt
+nss_data->fd == NULL!
+nss_data->in == NUL!
+(null)
+Handshake failed %s (%d)
+could not DupCertificate
+subject=%s issuer=%s
+partial certificate chain
+Builtins
+Purple
+ssl-nss
+2.7.11-2.fc15
+http://pidgin.im/
+X.509 Certificates
+Unable to read certificate file.
+Certificate file has no contents!
+SECSuccess == CERT_GetCertTimes(crt_dat, &nss_activ, &nss_expir)
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+unable to set socket into non-blocking mode: %s (%d)
+/usr/lib/libpurple/libnssckbi.so
+x509_check_name fell through where it shouldn't have.
+Provides SSL support through Mozilla NSS.
+Christian Hammond <chipx86@gnupdate.org>
+x509_importcerts_from_file
+x509_times
+x509_check_name
+x509_common_name
+x509_issuer_dn
+x509_dn
+x509_sha1sum
+x509_signed_by
+x509_destroy_certificate
+x509_copy_certificate
+x509_export_certificate
+x509_import_from_file
+ssl-nss.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

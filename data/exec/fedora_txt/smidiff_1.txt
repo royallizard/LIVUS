@@ -1,0 +1,551 @@
+/lib/ld-linux.so.2
+V 8~
+Z,nn
+libsmi.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+smiSetFlags
+smiGetOptionLine
+smiGetRelatedNode
+smiGetNodeLine
+smiGetElementNode
+_init
+smiGetFirstNamedNumber
+smiGetNextRefinement
+smiGetNodeModule
+smiGetRefinementLine
+smiGetFlags
+smiGetNodeType
+smiGetFirstRevision
+smiLoadModule
+smiGetNextNamedNumber
+smiGetRefinementWriteType
+smiSetSeverity
+smiGetRefinementType
+smiGetOptionNode
+smiGetRevisionLine
+smiGetParentType
+smiGetFirstType
+smiGetType
+smiExit
+smiGetRefinementNode
+smiGetFirstElement
+smiGetFirstRange
+smiGetFirstNode
+smiGetNextOption
+smiGetFirstRefinement
+smiGetNodeByOID
+smiReadConfig
+smiGetModuleIdentityNode
+smiGetNextType
+smiGetModule
+smiGetNextRange
+smiGetFirstOption
+smiGetTypeLine
+smiGetNextElement
+smiGetTypeModule
+smiSetErrorLevel
+smiGetNextRevision
+smiInit
+smiGetNextNode
+_fini
+libc.so.6
+_IO_stdin_used
+fflush
+strcpy
+exit
+strncmp
+__strdup
+perror
+strncpy
+realloc
+gmtime
+strtol
+strlen
+strstr
+__errno_location
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+strtoul
+malloc
+__ctype_b_loc
+stderr
+fwrite
+strchr
+__vfprintf_chk
+__cxa_finalize
+__sprintf_chk
+__strcat_chk
+strcmp
+__libc_start_main
+ferror
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+[^_]
+D$Du
+D$Du
+D$Du
+D$Hu
+D$@	
+D$T1
+T$D1
+9T$Lt)
+D$PtL
+	D$P
+t$L	
+|$Xt<
+9D$T
+T$Pu
+9D$H
+9D$T
+L$D1
+L$D9L$Lt)
+9D$H
+9D$T
+L$@9L$Lt)
+|$L	
+D$\	
+9D$H
+9D$T
+T$<1
+9T$@t%
+T$P	
+t$8	
+9D$H
+|$L	
+T$Lu
+[^_]
+d$,1
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$,3D$@3T$<	
+D$<9D$(
+D$(1
+l$(1
+D$(1
+\$<1
+UWVS
+d$,[^_]
+d$,[^_]
+L$<u(
+d$L[^_]
+D$d	
+d$L[^_]
+D$d"
+@tV=
+[^_]
+d$<1
+t$D9
+d$,[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+[^_]
+[^_]
+[^_]
+d$,1
+[^_]
+d$,1
+UWVS
+|$D9
+[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+L$$t
+[^_]
+|$P	
+|$P!
+|$P#
+|$P$
+|$P%
+|$P&
+|$P'
+|$P(
+|$P)
+|$P*
+|$P+
+[^_]
+[^_]
+d$,[^_]
+UWVS
+d$L[^_]
+D$<1
+t$<e35
+d$L[^_]
+L$(9q
+tZ9x
+UWVS
+D$$t$
++t$$
+d$L[^_]
+[^_]
+d$<[^_]
+UWVS
+D$t	
+d$\[^_]
+[^_]
+d$\[^_]
+D$t	
+D$Pt
+|$H9MH
+|$L	
+d$l[^_]
+UWVS
+|$Hu
+d$,[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+[^_]
+D$,1
+8"t]
+D$,e3
+d$<[^_]
+9l$(
+(9l$(
+D$(9
+9l$(
+d$L[^_]
+9t$ u
+(9l$(
+d$L[^_]
+(9l$(
+9l$(
+UWVS
+t$,U
+[^_]
+smidiff:old
+smidiff:new
+%04d-%02d-%02d %02d:%02d
+%s, `%s'
+smidiff 0.4.8
+smidiff
+[%d] 
+{%s} 
+warning: 
+info: 
+node
+unknown
+scalar
+table
+column
+notification
+capabilities
+<unknown>
+current
+deprecated
+obsolete
+mandatory
+optional
+not-implemented
+not-accessible
+notify
+read-only
+read-write
+unknown construct
+implicit construct
+type assignment
+value assignment
+object definition
+object identity definition
+module identity definition
+notification definition
+trap definition
+object group definition
+notification group definition
+module compliance definition
+agent capabilities definition
+textual convention definition
+macro definition
+optional group
+object refinement
+module
+typedef
+<UNDEFINED>
+%llu
+%lld
+"%s"
+'%*s'H
+%02x
+%s..%s
+%s%s
+index
+augment
+reorder
+sparse
+expand
+implicit type
+smidiff: write error
+help
+version
+config
+level
+preload
+error-names
+severity
+ignore
+old-compliance
+new-compliance
+internal
+internal error!!!
+type-removed
+type `%s' has been deleted
+type-added
+type `%s' has been added
+node-removed
+%s `%s' has been deleted
+node-added
+%s `%s' has been added
+basetype-changed
+base type of `%s' changed
+decl-changed
+declaration changed for `%s'
+status-change
+previous-definition
+previous definition of `%s'
+description-added
+description added to `%s'
+description-removed
+description removed from `%s'
+description-changed
+ref-added
+reference added to `%s'
+ref-removed
+reference removed from `%s'
+ref-changed
+reference of `%s' changed
+format-added
+format added to `%s'
+format-removed
+format removed from `%s'
+format-changed
+format of `%s' changed
+units-added
+units added to `%s'
+units-removed
+units removed from `%s'
+units-changed
+units of `%s' changed
+access-added
+access added to `%s'
+access-removed
+access removed from `%s'
+access-changed
+name-added
+name added to `%s'
+name-removed
+name removed from `%s'
+name-changed
+to-implicit
+from-implicit
+range-added
+range-removed
+range-changed
+defval-added
+default value added to `%s'
+defval-removed
+defval-changed
+default value of `%s' changed
+organization-added
+organization added to `%s'
+organization-removed
+organization-changed
+organization of `%s' changed
+contact-added
+contact added to `%s'
+contact-removed
+contact removed from `%s'
+contact-changed
+contact of `%s' changed
+smi-version-changed
+SMI version changed
+revision-added
+revision `%s' added
+revision-removed
+revision `%s' removed
+revision-changed
+revision `%s' changed
+member-added
+member-removed
+member-changed
+object-added
+object `%s' added
+object-removed
+object `%s' removed
+object-changed
+object `%s' changed
+named-number-added
+named-number-removed
+named-number-changed
+named-bit-added-old-byte
+nodekind-changed
+node kind of `%s' changed
+indexkind-changed
+index-changed
+type-is-and-was
+type changed from %s to %s
+range `%s' added to type `%s'
+type-based-on
+type `%s' based on `%s'
+previous implicit definition
+size `%s' added to type `%s'
+status-added
+status added to `%s'
+status-removed
+status removed from `%s'
+mandatory-added
+mandatory-removed
+option-added
+option-removed
+refinement-added
+refinement-removed
+optional-removed
+optional-added
+Usage: smidiff [options] oldmodule newmodule
+  -V, --version             show version and license information
+  -c, --config=file         load a specific configuration file
+  -h, --help                show usage information
+  -i, --ignore=prefix       ignore errors matching prefix pattern
+  -l, --level=level         set maximum level of errors and warnings
+  -m, --error-names         print the name of errors in braces
+  -p, --preload=module      preload <module>
+  -s, --severity            print the severity of errors in brackets
+      --old-compliance=name name of the old compliance statement
+      --new-compliance=name name of the new compliance statement
+implicit sequence-of construct
+smidiff: missing new compliance statement name
+smidiff: missing old compliance statement name
+smidiff: cannot locate module `%s'
+smidiff: unable to find old compliance `%s'
+smidiff: unable to find new compliance `%s'
+[Revision added by libsmi due to a LAST-UPDATED clause.]
+legal status change from `%s' to `%s' for `%s'
+status change from `%s' to `%s' for `%s'
+description of %s `%s' changed
+access of `%s' changed from `%s' to `%s'
+name changed from `%s' to `%s'
+implicit type for `%s' replaces type `%s'
+type `%s' replaces implicit type for `%s'
+range `%s' added to type used in `%s'
+range `%s' removed from type used in `%s'
+range of type used in `%s' changed from `%s' to `%s'
+default value removed from `%s'
+organization removed from `%s'
+size of type used in `%s' changed from `%s' to `%s'
+size of type `%s' changed from `%s' to `%s'
+size `%s' added to type used in `%s'
+member `%s' added to group `%s'
+member `%s' removed from group `%s'
+member `%s' changed in group `%s'
+named number `%s' added to type used in `%s'
+named number `%s' removed from type used in `%s'
+named number `%s' changed to `%s' at type used in `%s'
+named bit `%s' added without starting in a new byte in type used in `%s'
+size `%s' removed from type used in `%s'
+changed kind of index from `%s' to `%s' in node `%s'
+index of `%s' changed from %s to %s
+range of type `%s' changed from `%s' to `%s'
+range `%s' removed from type `%s'
+index of `%s' changed from augmenting `%s' to augmenting `%s'
+named number `%s' removed from type `%s'
+named number `%s' added to type `%s'
+named number `%s' changed to `%s' in type `%s'
+named bit `%s' added without starting in a new byte in type `%s'
+status change from `%s' to `%s' for implicit type
+legal status change from `%s' to `%s' for implicit type
+size `%s' removed from type `%s'
+mandatory group `%s' added to `%s'
+mandatory group `%s' removed from `%s'
+mandatory group `%s::%s' added to `%s'
+mandatory group `%s::%s' removed from `%s'
+optional group `%s' added to `%s'
+optional group `%s' removed from `%s'
+optional group `%s::%s' added to `%s'
+optional group `%s::%s' removed from `%s'
+object refinement for `%s' added to `%s'
+object refinement for `%s' removed from `%s'
+object refinement for `%s::%s' added to `%s'
+object refinement for `%s::%s' removed from `%s'
+%s `%s' is mandatory under `%s' but not mandatory under `%s'
+%s `%s' is not mandatory under `%s' but mandatory under `%s'
+%s `%s' is conditionally optional under `%s' but not under `%s'
+%s `%s' is not conditionally optional under `%s' but under `%s'
+%s `%s::%s' is mandatory under `%s' but not mandatory under `%s'
+%s `%s::%s' is not mandatory under `%s' but mandatory under `%s'
+%s `%s::%s' is conditionally optional under `%s' but not under `%s'
+%s `%s::%s' is not conditionally optional under `%s' but under `%s'
+invalid number `%s'
+unrecognized option `%s'
+unrecognized option `-%c'
+number `%s' to `%s' out of range
+option `%s' requires an argument
+option `%s' doesn't allow an argument
+;*2$"
+smidiff.debug
+7zXZ
+Ipus<
+z<g$
+K#4Q.}
+TmUG
+2l(uXR
+4\>q
+6XFT;
+RzZ2
+YHa	
+E?Sd
+"$6wUe|
+wX.-
+vMZ[c
+Djrl'
+gM2;
+ar}	h
+:VAf
+_Hf!
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

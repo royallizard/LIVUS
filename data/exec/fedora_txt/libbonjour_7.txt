@@ -1,0 +1,820 @@
+l]i^x
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+purple_find_buddy
+purple_buddy_get_protocol_data
+bonjour_dns_sd_update_buddy_icon
+purple_blist_node_get_flags
+dcgettext
+purple_strequal
+purple_blist_node_set_flags
+purple_group_get_name
+bonjour_buddy_delete
+purple_buddy_set_protocol_data
+purple_buddy_get_name
+purple_debug_error
+purple_blist_remove_buddy
+purple_account_get_connection
+purple_account_get_presence
+purple_status_get_attr_string
+purple_markup_strip_html
+purple_presence_is_available
+purple_presence_is_idle
+bonjour_dns_sd_send_status
+purple_find_group
+purple_connection_get_account
+purple_blist_node_get_first_child
+purple_blist_node_get_sibling_next
+purple_blist_node_get_type
+purple_buddy_get_account
+purple_account_remove_buddy
+bonjour_dns_sd_stop
+bonjour_dns_sd_free
+bonjour_jabber_stop
+purple_blist_remove_group
+purple_xfer_cancel_local
+g_malloc0
+purple_account_get_int
+bonjour_jabber_start
+bonjour_dns_sd_new
+purple_account_get_string
+g_strdup
+purple_account_get_active_status
+bonjour_dns_sd_start
+purple_connection_set_state
+purple_connection_error_reason
+purple_value_new
+purple_status_type_new_with_attrs
+g_list_append
+purple_status_type_new_full
+g_return_if_fail_warning
+purple_buddy_get_presence
+purple_presence_get_active_status
+purple_status_get_name
+purple_notify_user_info_add_pair
+g_markup_escape_text
+purple_util_chrreplace
+bonjour_jabber_send_message
+bonjour_get_jid
+purple_init_plugin
+getuid
+getpwuid
+g_utf8_validate
+strchr
+g_strndup
+purple_account_option_int_new
+purple_account_option_string_new
+purple_plugin_register
+getlogin
+g_locale_to_utf8
+bonjour_send_file
+bonjour_new_xfer
+bonjour_buddy_new
+_mdns_init_buddy
+clear_bonjour_buddy_values
+set_bonjour_buddy_value
+bonjour_buddy_check
+bonjour_buddy_add_to_purple
+g_ascii_strcasecmp
+g_strdup_printf
+serv_got_alias
+purple_prpl_got_user_status
+purple_prpl_got_user_idle
+purple_buddy_icons_get_checksum_for_user
+purple_buddy_icons_set_for_user
+strcmp
+bonjour_dns_sd_retrieve_buddy_icon
+purple_buddy_new
+purple_blist_add_buddy
+purple_group_new
+purple_blist_add_group
+bonjour_buddy_got_buddy_icon
+purple_util_get_image_filename
+purple_debug_info
+g_memdup
+g_slist_delete_link
+_mdns_delete_buddy
+bonjour_buddy_signed_off
+strlen
+send
+__errno_location
+g_strerror
+purple_find_conversation_with_account
+time
+purple_conversation_write
+close
+g_malloc
+purple_input_add
+purple_circ_buffer_new
+bonjour_parser_setup
+bind
+listen
+purple_network_get_port_from_fd
+purple_debug_warning
+purple_account_get_proxy_info
+purple_proxy_info_set_type
+purple_proxy_connect
+purple_proxy_info_new
+purple_account_set_proxy_info
+g_slist_prepend
+bonjour_jabber_process_packet
+g_strcmp0
+xmlnode_get_child
+xmlnode_get_child_with_namespace
+xmlnode_get_attrib
+strtol
+xmlnode_to_str
+strrchr
+memmove
+g_string_new
+g_string_append_printf
+g_string_free
+xmlnode_get_data
+serv_got_im
+purple_utf8_strcasecmp
+xep_si_parse
+xep_bytestreams_parse
+socket
+setsockopt
+in6addr_any
+async_bonjour_jabber_close_conversation
+g_slist_remove
+purple_timeout_add
+purple_connections_get_all
+g_list_find
+purple_xfer_get_status
+purple_xfer_cancel_remote
+purple_circ_buffer_destroy
+purple_proxy_connect_cancel
+purple_timeout_remove
+purple_input_remove
+purple_circ_buffer_get_max_read
+purple_circ_buffer_mark_read
+bonjour_jabber_stream_started
+recv
+bonjour_parser_process
+bonjour_jabber_conv_match_by_name
+bonjour_jabber_conv_match_by_ip
+purple_find_buddies
+g_slist_foreach
+g_slist_free
+purple_circ_buffer_append
+purple_markup_html_to_xhtml
+xmlnode_new
+xmlnode_set_attrib
+xmlnode_new_child
+xmlnode_insert_data
+xmlnode_set_namespace
+xmlnode_from_str
+xmlnode_insert_child
+xmlnode_free
+xep_iq_new
+xep_iq_send_and_free
+bonjour_jabber_get_local_ips
+getifaddrs
+inet_ntop
+freeifaddrs
+g_slist_append
+append_iface_if_linklocal
+inet_pton
+__snprintf_chk
+accept
+_purple_network_set_common_socket_flags
+avahi_service_resolver_free
+avahi_service_browser_get_client
+avahi_service_resolver_new
+avahi_client_errno
+avahi_strerror
+g_slist_find_custom
+avahi_service_resolver_get_client
+g_slist_remove_link
+avahi_address_snprint
+avahi_string_list_get_pair
+avahi_free
+avahi_record_browser_get_client
+avahi_record_browser_free
+avahi_entry_group_get_client
+_mdns_init_session
+avahi_glib_allocator
+avahi_set_allocator
+avahi_glib_poll_new
+avahi_glib_poll_get
+avahi_client_new
+avahi_client_get_host_name
+bonjour_dns_sd_set_jid
+avahi_glib_poll_free
+_mdns_publish
+avahi_string_list_add_pair
+avahi_string_list_free
+avahi_entry_group_update_service_txt_strlst
+avahi_entry_group_add_service_strlst
+avahi_entry_group_commit
+avahi_entry_group_new
+_mdns_browse
+avahi_service_browser_new
+_mdns_set_buddy_icon_data
+avahi_entry_group_add_record
+avahi_entry_group_free
+_mdns_stop
+avahi_service_browser_free
+avahi_client_free
+_mdns_retrieve_buddy_icon
+avahi_record_browser_new
+__strncpy_chk
+purple_buddy_icons_find_account_icon
+purple_imgstore_get_data
+purple_imgstore_get_size
+purple_imgstore_unref
+purple_imgstore_get_filename
+purple_account_get_username
+strstr
+g_string_append_len
+g_string_append
+g_string_insert_c
+xmlStrcmp
+purple_unescape_text
+xmlnode_set_attrib_full
+xmlParseChunk
+xmlFreeParserCtxt
+xmlCreatePushParserCtxt
+purple_proxy_info_destroy
+purple_network_listen_cancel
+xmlnode_get_parent
+purple_xfer_get_type
+purple_xfer_is_completed
+purple_xfer_start
+g_snprintf
+purple_xfer_get_local_port
+getaddrinfo
+freeaddrinfo
+strncmp
+xmlnode_get_next_twin
+purple_cipher_digest_region
+purple_proxy_info_set_host
+purple_proxy_info_set_port
+purple_proxy_connect_socks5_account
+xmlnode_copy
+purple_xfer_get_remote_user
+purple_xfer_new
+purple_xfer_set_init_fnc
+purple_xfer_set_cancel_send_fnc
+purple_xfer_set_end_fnc
+purple_xfer_request_accepted
+purple_xfer_request
+purple_connection_get_protocol_data
+purple_network_listen_map_external
+purple_network_listen_range
+g_ascii_strtoll
+purple_xfer_set_filename
+purple_xfer_set_size
+purple_xfer_set_request_denied_fnc
+purple_xfer_set_cancel_recv_fnc
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+libxml2.so.2
+libavahi-common.so.3
+libavahi-client.so.3
+libavahi-glib.so.1
+libglib-2.0.so.0
+libgadu.so.3
+libm.so.6
+libnsl.so.1
+libresolv.so.2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libbonjour.so
+LIBXML2_2.4.30
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+d$L[^_]
+d$L1
+[^_]
+UWVS
+d$,[^_]
+UWVS
+D$,)
+d$<[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+UWVS
+d$,[^_]
+4$t+
+L$,t:
+[^_]
+d$<1
+[^_]
+[^_]
+d$,[^_]
+UWVS
+D$,t<
+d$L[^_]
+d$L1
+[^_]
+D$4tP
+UWVS
+[^_]
+[^_]
+UWVS
+d$L[^_]
+d$L[^_]
+T$,t"
+d$L[^_]
+UWVS
+D$\1
+L$\e3
+d$l[^_]
+;pDt(
+UWVS
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+T$$1
+T$$9
+d$<[^_]
+L$$tR
+UWVS
+t$Xe
+L$,1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+D$\1
+D$.1
+L$\e3
+d$l[^_]
+D$<1
+D$<e3
+d$@[^_
+D$,%
+UWVS
+[^_]
+UWVS
+d$L[^_]
+D$<t
+d$L[^_]
+d$L[^_]
+UWVS
+D$,tt
+[^_]
+zHwF
+t1;T$ t+
+t/;T$ t)
+[^_]
+|$@e
+D$,1
+L$,e3
+d$0[^_
+UWVS
+[^_]
+d$<1
+[^_]
+d$<1
+[^_]
+d$$[^
+d$$1
+UWVS
+[^_]
+d$L[^_]
+UWVS
+d$L[^_]
+d$L[^_]
+d$,[^_]
+D$\1
+t$\e35
+d$l[^_]
+UWVS
+UWVS
+[^_]
+d$$[^
+UWVS
+d$,[^_]
+d$([
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+D$$9D$<
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$$[^
+d$$[^
+d$$[^
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+d$$[^
+UWVS
+D$\1
+D$\e3
+d$l[^_]
+T$$t
+UWVS
+d$L[^_]
+D$<1
+L$<e3
+d$L[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+T$De
+D$(u0
+;t$$
+[^_]
+D$\%
+D$@1
+UWVS
+d$<[^_]
+d$<[^_]
+UWVS
+d$,[
+d$,1
+[^_]
+UWVS
+l$8te
+[^_]
+[^_]
+[^_]
+UWVS
+D$0ti
+d$L[^_]
+[^_]
+d$L[^_]
+d$L[^_]
+UWVS
+D$(t 
+d$<[^_]
+d$<[^_]
+d$<[^_]
+Bonjour
+pidgin
+avail
+away
+message
+port
+first
+last
+account != NULL
+Message
+available
+offline
+Idle
+Status
+First name
+Last name
+Email
+AIM Account
+XMPP Account
+Local Port
+email
+Purple Person
+prpl-bonjour
+2.10.11-10.fc22
+Bonjour Protocol Plugin
+http://pidgin.im/
+png,gif,jpeg
+Buddy '%s' manually added; removing.  Bonjour buddies must be discovered and not manually added.
+Unable to listen for incoming IM connections
+Unable to establish connection with the local mDNS server.  Is it running?
+Got tooltip request for a buddy without protocol data.
+bonjour_status_types
+nick
+node
+phsh
+status
+record_key != NULL
+%s%s%s
+(null)
+Got buddy icon for %s icon hash='%s' phsh='%s'.
+set_bonjour_buddy_value
+(unknown)
+jdata != NULL
+to != NULL
+body
+jabber:x:event
+face
+ABSZ
+ichatballooncolor
+ichattextcolor
+<font
+ face='%s'
+ size='%s'
+ color='%s'
+ back='%s'
+%s has been blocked by %s.
+error
+Unknown packet: %s
+packet != NULL
+pb != NULL
+Unable to create socket: %s
+couldn't force IPv6
+</stream:stream>
+Unable to send message.
+receive of %i error: %s
+Receive: -%s- %i bytes
+bconv->ip != NULL
+bconv->pb == NULL
+from
+chat
+type
+http://www.w3.org/1999/xhtml
+<font>%s</font>
+composing
+result
+none
+id != NULL
+getifaddrs() error: %s
+%%%d
+<?xml version="1.0" encoding="UTF-8" ?>
+<stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" from="%s" to="%s">
+Error starting stream with buddy %s at %s error: %s
+Unable to send the message, the conversation couldn't be started.
+Unable to bind to specified port %i: %s
+Not attempting random port assignment.
+Unable to bind IPv%d socket to port: %s
+Unable to listen on IPv%d socket: %s
+Bound IPv%d socket to port %d.
+Attempting to bind IPv%d socket to port %d.
+Starting conversation with %s at %s:%d
+Unable to connect to buddy (%s).
+No body or html node found, discarding message.
+No html body or regular body found.
+Failed to start listening on IPv6 socket.
+Failed to start listening on IPv4 socket.
+Unable to listen on socket: %s
+bonjour_jabber_close_conversation: couldn't send data
+Error sending message to buddy %s error: %s
+Connection closed (without stream end) by %s.
+Received conversation close notification from %s.
+Found buddy %s for incoming conversation "from" attrib.
+Matched buddy %s to incoming conversation "from" attrib and IP (%s)
+More than one buddy matched for ip %s.
+Matched buddy %s to incoming conversation using IP (%s)
+No buddies matched for ip %s.
+Error connecting to buddy %s at %s:%d (%s); Trying next IP address
+No more addresses for buddy %s. Aborting
+Error starting stream with buddy %s at %s:%d error: %s
+Can't send a message to an offline buddy (%s).
+Received incoming connection from %s.
+We don't like invisible buddies, this is not a superheroes comic
+xep_iq_new
+_find_or_start_conversation
+bonjour_jabber_conv_match_by_name
+bonjour_jabber_process_packet
+_browser_callback - Failure: %s
+_browser_callback - new service
+_browser_callback -- Error initiating resolver: %s
+_browser_callback - Remove service
+Unrecognized Service browser event: %d.
+_resolve_callback - Failure: %s
+_resolve_callback - name:%s account:%p bb:%p
+_resolve_callback - name:%s ip:%s prev_ip:%s
+Unrecognized Service Resolver event: %d.
+Error retrieving buddy icon record: %s
+Successfully registered service.
+Collision registering entry group.
+Error registering entry group: %s
+g == idata->group || idata->group == NULL
+Successfully registered buddy icon data.
+Collision registering buddy icon data.
+Error registering buddy icon data: %s.
+g == idata->buddy_icon_group || idata->buddy_icon_group == NULL
+Unable to initialize the data for the mDNS (%s).
+Failed to add the _presence._tcp. service. Error: %s
+Failed to commit _presence._tcp. service. Error: %s
+Unable to initialize service browser.  Error: %s.
+Updating existing buddy icon.
+Unable to initialize the buddy icon group (%s).
+Failed to register buddy icon. Error: %s
+Failed to commit buddy icon group. Error: %s
+Removing existing buddy icon.
+Retrieving buddy icon for '%s'.
+Unable to initialize buddy icon record browser.  Error: %s.
+bb != NULL
+r != NULL
+Error initializing Avahi: %s
+_presence._tcp.
+idata != NULL
+Setting new buddy icon.
+%s._presence._tcp.local
+_mdns_retrieve_buddy_icon
+_mdns_delete_buddy
+_buddy_icon_group_cb
+_resolver_callback
+_browser_callback
+_mdns_browse
+_entry_group_cb
+_mdns_publish
+txtvers
+port.p2pj
+libpurple
+2.10.11
+Unable to get service.
+account buddy icon returned unexpected filename (%s); unable to extract hash. Clearing buddy icon
+(null)
+jabber
+stream
+features
+element_name != NULL
+Error parsing xml.
+XML parser error for BonjourJabberConversation %p: Domain %i, code %i, level %i: %s
+bonjour_parser_element_start_libxml
+bonjour-free-xfer-null.
+bonjour-free-xfer-%p.
+B free xfer from lists(%p).
+Need close socket=%d.
+node != NULL
+Bonjour-xfer-end.
+Bonjour-xfer-cancel-send.
+Bonjour-xfer-cancel-recv.
+Look for xfer list fail
+Bonjour-xfer-init.
+http://jabber.org/protocol/si
+profile
+size
+feature
+jabber:x:data
+form
+field
+stream-method
+list-single
+option
+value
+submit
+query
+mode
+streamhost
+code
+cancel
+forbidden
+text
+Offer Declined
+item-not-found
+error_code != NULL
+sha1
+%02x
+copy != NULL
+bonjour-bytestreams-connect.
+streamhost-used
+Bonjour-xfer-request-denied.
+Bonjour-new-xfer to %s.
+gc != NULL
+who != NULL
+Bonjour-send-file to=%s.
+xep-si-parse.
+si offer Message type - SET.
+bonjour-xfer-receive.
+xfer find fail.
+Bonjour-bytestreams-init.
+pc != NULL
+xep-bytestreams-parse.
+Look for sid=%s from=%s xferlists.
+bonjour_sock5_request_cb - req_state = 0x%x
+Error accepting incoming SOCKS5 connection. (%d)
+Accepted SOCKS5 ft connection - fd=%d
+Client completed recieving; closing server socket.
+Bonjour xfer type is PURPLE_XFER_SEND.
+xep file transfer stream initialization offer-id=%d.
+http://jabber.org/protocol/si/profile/file-transfer
+http://jabber.org/protocol/feature-neg
+http://jabber.org/protocol/bytestreams
+http://jabber.org/protocol/ibb
+xep file transfer stream initialization result.
+Bonjour xfer type is PURPLE_XFER_RECEIVE.
+Bonjour-bytestreams-listen. sock=%d.
+xep file transfer stream initialization error.
+urn:ietf:params:xml:ns:xmpp-stanzas
+bytestream offer Message parse error.
+Inserting an xmlnode twin copy for %s with new host address %s
+No interface for this IPv6 link local address found: %s
+bytestream offer parsejid=%s host=%s port=%d.
+Error connecting via SOCKS5 to %s - %s
+Connected successfully via SOCKS5, starting transfer.
+Bonjour-new-xfer bd=%p data=%p.
+si offer Message type - RESULT.
+si offer Message type - ERROR.
+si offer Message type - Unknown-%s.
+rejecting unrecognized si SET offer.
+bytestream offer Message type - Unknown-%s.
+bytestream offer Message type - SET.
+Didn't find an acceptable streamhost.
+xmlnode_insert_twin_copy
+xep_bytestreams_parse
+xep_ft_si_reject
+xep_si_parse
+bonjour_send_file
+xmlnode_free_tree
+;*2$"
+libbonjour.so.debug
+7zXZ
+;CbX
+oK|n6
+`=mC
+[;%Q;\
+ZgsJ
+bYP_
+@n5&6
+fuLX
+Y`y9
+KGKf
+CpLF
+iv6<s
+0gho?
+g6Mn
+s>Q"
+Y-iyC
+7~+\t
+6 +B
+"o`u
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

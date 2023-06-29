@@ -1,0 +1,315 @@
+/lib/ld-linux.so.2
+libopensc.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+sc_ctx_detect_readers
+sc_ctx_log_to_file
+sc_ctx_get_reader_by_name
+sc_context_create
+sc_hex_to_bin
+sc_lock
+sc_strerror
+sc_release_context
+sc_transmit_apdu
+sc_ctx_get_reader
+sc_wait_for_event
+sc_connect_card
+sc_unlock
+sc_ctx_get_reader_count
+sc_detect_card_presence
+sc_disconnect_card
+sc_bin_to_hex
+sc_set_card_driver
+libcrypto.so.10
+_init
+DES_set_key
+_fini
+SHA1
+DES_ecb_encrypt
+DES_ecb3_encrypt
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+__stpcpy_chk
+fflush
+__printf_chk
+exit
+putchar
+stdin
+strtol
+calloc
+strlen
+tcsetattr
+memcmp
+__fprintf_chk
+stdout
+fputc
+fputs
+__ctype_b_loc
+getenv
+optarg
+stderr
+getopt_long
+strncasecmp
+fileno
+fwrite
+__vfprintf_chk
+tcgetattr
+__cxa_finalize
+__sprintf_chk
+_IO_getc
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+D$4P
+D$0P
+@2L0
+D$0PVW
+D$0PVR
+D$8P
+D$8P
+[^_]
+D$l1
+T$le3
+[^_]
+UWVS
+[^_]
+UWVS
+D$$<
+[^_]
+UWVS
+[^_]
+D$<1
+T$<e3
+d$H[
+UWVS
+D$$e
+[^_]
+L$$1
+D$Dc
+D$,1
+EH;D$Du
+UWVS
+d$,[^_]
+UWVS
+|$L~U
+9l$Ht
+d$,[^_]
+UWVS
+l$pe
+D$L1
+;t$xr
+T$ )t$x
+D$Le3
+d$\[^_]
+UWVS
+L$\1
+T$$u
+Sec.
+Cont
+rolB
+yte 
+PROT
+d$ [^_
+TERM
+Sec.
+Env.f
+????
+PKCS
+#15 
+Auth
+AUTH
+UWVS
+D$ e
+[^_]
+UWVS
+t$,U
+[^_]
+Card ATR:
+APDU transmit failed: %s
+Chip type: %d
+Full prom dump:
+ (that's CardOS M4.0)
+ (that's CardOS M4.01)
+ (that's CardOS M4.01a)
+ (that's CardOS M4.2)
+ (that's CardOS M4.3)
+ (that's CardOS M4.3B)
+ (that's CardOS M4.2B)
+ (that's CardOS M4.2C)
+ (that's CardOS M4.4)
+ (that's CardOS V5.0)
+ (unknown Version)
+%d (manufacturing)
+%d (physinit)
+%d (initialization)
+%d (physpers)
+%d (personalization)
+%d (administration)
+%d (operational)
+%d (erase in progress)
+%d (death)
+%d (unknown)
+ATR Status: 0x%d ROM-ATR
+ATR Status: 0x%d EEPROM-ATR
+ATR Status: 0x%d unknown
+Free eeprom memory: %d
+Info : %s
+OS Version: %d.%d
+Current life cycle: 
+Free memory : %d
+Packages installed:
+Path to current DF:
+Change StartKey APDU:
+out of memory, aborting
+Unencrypted APDU:
+Encrypted APDU:
+StartKey:
+card in manufacturing state
+card has packages installed.
+to protect you card: aborting
+Erasing EEPROM!
+Formatting!
+hifs:r:vdc:wS:
+cardos-tool
+stderr
+Driver '%s' not found!
+Print this help message
+Specify startkey for format
+Uses reader number <arg> [0]
+help
+info
+change-startkey
+reader
+card-driver
+wait
+verbose
+Some error occurred. Use '-v' several times to enable debug output.
+Serial number: %02x %02x %02x %02x %02x %02x %02x %02x
+Serial number: %02x %02x %02x %02x %02x %02x
+Ram size: %d, Eeprom size: %d, cpu type: %x, chip config: %d, chip manufacturer: %d
+Ram size: %d, Eeprom size: %d, cpu type: %x, chip config: %d
+Security Status of current DF:
+Current Maximum Data Field Length: %d
+Complete chip production data:
+System keys: PackageLoadKey (version 0x%02x, retries %d)
+System keys: StartKey (version 0x%02x, retries %d)
+did not receive version info, aborting
+currently only CardOS M4.01, M4.2B, M4.2C and M4.3B are supported, aborting
+expected 4-6 bytes form GET DATA for startkey data, but got only %zu
+startkey version is 0x%02x, currently we support only 0x00
+startkey has only %d tries left. to be safe: aborting
+can't convert startkey apdu to binary format: aborting
+change startkey apdu is wrong, checksum doesn't match
+startkey version is 0x%02x, should have been changed to 0xff.
+startkey is now 0xff, success!
+change startkey command issued with success
+output buffer too small, aborting.
+startkey option not implemented yet, aborting!
+currently only CardOS M4.2B, M4.2C, M4.3B and M4.4 are supported, aborting
+startkey version is 0x%02x, currently we support only 0xff
+card is in unknown state 0x%02x, aborting
+card in administrative state, ok
+card in operational state, need to switch to admin state
+card not in administrative state, failed
+you would loose those, and we can't re-install them.
+NB! This tool is only for Siemens CardOS based cards!
+Failed to establish context: %s
+Print information about this card
+Format this card erasing all content
+Change Startkey with given APDU command
+Forces the use of driver <arg> [auto-detect]
+Wait for a card to be inserted
+Verbose operation. Use several times to enable debug output.
+,$w<
+Waiting for a reader to be attached...
+Error while waiting for a reader: %s
+Error while refreshing readers: %s
+Waiting for a card to be inserted...
+Error while waiting for a card: %s
+Reader "%s" not found (%d reader(s) detected)
+Connecting to card in reader %s...
+Failed to connect to card: %s
+No smart card readers found.
+Using reader with a card: %s
+Matched ATR in reader: %s
+Card not present.
+Using card driver %s.
+Failed to lock card: %s
+\x%02X
+%08X: 
+%02X 
+ <arg>
+ [arg]
+Usage: %s [OPTIONS] %s
+Usage: %s [OPTIONS]
+Options:
+-%c, --%s%s
+    --%s%s
+  %-28s  %s
+NEVR
+NONE
+Ox%X
+error: 
+Aborting.
+warning: 
+env:
+;*2$"@
+cardos-tool.debug
+7zXZ
+?>(z
+Y5fH
+8%}2
+`b@f
+[H)fj
+hf$a
+&B#R
+#Yyp
+4%BI
+y&w%
+QbC2
+q\vX
+.}oW
+D~A<
+mHdI
+s}~=)!
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

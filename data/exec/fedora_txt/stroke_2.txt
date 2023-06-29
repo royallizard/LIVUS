@@ -1,0 +1,254 @@
+/lib64/ld-linux-x86-64.so.2
+libstrongswan.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+library_init
+library_deinit
+_fini
+libc.so.6
+strcpy
+__printf_chk
+optind
+strrchr
+__stack_chk_fail
+realloc
+strtol
+strlen
+__fprintf_chk
+stdout
+malloc
+getpass
+optarg
+stderr
+getopt_long
+fwrite
+__cxa_finalize
+strcmp
+__libc_start_main
+free
+__cxa_atexit
+_edata
+__bss_start
+_end
+/usr/lib64/strongswan
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+AWAVAUATUSH
+D$ H
+D$8h
+D$Xd
+[]A\A]A^A_
+=y4 
+fffff.
+=94 
+524 
+fffff.
+=!4 
+fffff.
+=i- 
+AWAVAUATUSH
+[]A\A]A^A_
+AUATI
+[]A\A]
+=$) 
+AWAVA
+AUATL
+[]A\A]A^A_
+stroke [OPTIONS] command [ARGUMENTS]
+  -h, --help             print this information.
+  -d, --daemon=NAME      name of the daemon.
+    stroke add NAME MY_ID OTHER_ID MY_ADDR OTHER_ADDR\
+    where: ID is any IKEv2 ID 
+           ADDR is a IPv4 address
+           NET is a IPv4 subnet in CIDR notation
+    where: NAME is a connection name added with "stroke add"
+  Initiate a connection without blocking:
+  Terminate a connection without blocking:
+  Terminate a connection by remote srcip:
+    stroke down-srcip START [END]
+    where: START and optional END define the clients source IP
+  Set loglevel for a logging type:
+    stroke loglevel TYPE LEVEL
+    where: TYPE is any|dmn|mgr|ike|chd|job|cfg|knl|net|asn|enc|tnc|imc|imv|pts|tls|esp|lib
+           LEVEL is -1|0|1|2|3|4
+  Show extended status information:
+  Show extended status information without blocking:
+  Show list of authority and attribute certificates:
+    stroke listcacerts|listocspcerts|listaacerts|listacerts
+  Show list of end entity certificates, ca info records  and crls:
+    stroke listcerts|listcainfos|listcrls|listall
+  Show list of supported algorithms:
+  Reload authority and attribute certificates:
+    stroke rereadcacerts|rereadocspcerts|rereadaacerts|rereadacerts
+    stroke rereadsecrets|rereadcrls|rereadall
+  Purge IKE_SAs without a CHILD_SA:
+  Export credentials to the console:
+    stroke exportconncert connname
+    stroke exportconnchain connname
+    stroke leases [POOL [ADDRESS]]
+  Set username and password for a connection:
+    stroke user-creds NAME USERNAME [PASSWORD]
+           USERNAME is the username
+           PASSWORD is the optional password, you'll be asked to enter it if not given
+    stroke listcounters [connection-name]
+stroke message exceeds maximum buffer size
+failed to connect to stroke socket '%s'
+sending stroke message failed
+reading stroke response failed
+"delete" needs a connection name
+"down" needs a connection name
+"down-srcip" needs start and optional end address
+"rekey" needs a connection name
+"route" needs a connection name
+"unroute" needs a connection name
+"logtype" needs more parameters...
+"user-creds" needs a connection name, username and optionally a password
+Options:
+Commands:
+  Add a connection:
+           MY_NET OTHER_NET
+  Delete a connection:
+    stroke delete NAME
+  Initiate a connection:
+    stroke up NAME
+    stroke up-nb NAME
+  Terminate a connection:
+    stroke down NAME
+    stroke down-nb NAME
+  Show connection status:
+    stroke status
+    stroke statusall
+    stroke statusall-nb
+    stroke listalgs
+  Reload secrets and crls:
+  Purge ocsp cache entries:
+    stroke purgeocsp
+  Purge CRL cache entries:
+    stroke purgecrls
+  Purge X509 cache entries:
+    stroke purgecerts
+    stroke purgeike
+    stroke exportx509 DN
+  Show current memory usage:
+    stroke memusage
+  Show leases of a pool:
+  Show IKE counters:
+Error: %s
+unix:///var/run/charon.ctl
+%s.plugins.stroke.socket
+Passphrase:
+Password:
+PIN:
+stroke
+help
+daemon
+invalid option
+command missing
+unknown command
+"add" needs more arguments...
+"up" needs a connection name
+--utc
+"export" needs a name
+charon
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+down
+listall
+listcrls
+listaacerts
+listcacerts
+rekey
+rereadall
+listcerts
+rereadcrls
+rereadacerts
+rereadaacerts
+rereadcacerts
+leases
+listcounters
+delete
+status
+listacerts
+statusall
+rereadsecrets
+statusallnb
+statusall-nb
+listalgs
+up-nb
+exportx509
+listplugins
+listcainfos
+exportconncert
+exportconnchain
+loglevel
+purgeocsp
+unroute
+listocsp
+down-srcip
+listpubkeys
+purgecrls
+rereadocspcerts
+listocspcerts
+memusage
+purgeike
+user-creds
+down-nb
+purgecerts
+listgroups
+resetcounters
+;*3$"
+stroke.debug
+7zXZ
+&/O|
+{	*X2
+|*ndR
+vxXTE
+$GaH
+}+Fm
+V0%G
+TpVS+c
+JB%c
+f`O<
+bmgU]^P
+X8<`I5
+~-})
+D}h?FF0
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

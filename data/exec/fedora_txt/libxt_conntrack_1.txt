@@ -1,0 +1,185 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+puts
+__printf_chk
+putchar
+xtables_ipmask_to_numeric
+xtables_ipaddr_to_anyname
+xtables_ipaddr_to_numeric
+xtables_ip6mask_to_numeric
+xtables_ip6addr_to_numeric
+xtables_ip6addr_to_anyname
+xt_params
+__stack_chk_fail
+xtables_strtoui
+strncasecmp
+optarg
+strchr
+strlen
+__ctype_tolower_loc
+xtables_parse_protocol
+xtables_param_act
+strcasecmp
+xtables_ip6parse_any
+xtables_ipparse_any
+optind
+xtables_check_inverse
+__strdup
+free
+__strcpy_chk
+__strcat_chk
+libxt_conntrack_init
+xtables_register_matches
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+=YB 
+ATSubH
+=/? 
+[A\]
+[]A\A]
+[]A\A]
+ffffff.
+R(f.
+ffff.
+ffff.
+l$ H
+1AVAUATA
+[]A\A]A^A_
+[]A\A]A^A_
+-Y/ 
+d$ H
+[]A\
+ffff.
+d$ H
+[]A\
+ffff.
+l$ H
+ATUSH
+%i! 
+ []A\A]A^
+K`H9
+Ki H
+[]A\
+SXH9
+[]A\H
+[]A\H
+fff.
+conntrack match options:
+[!] --ctstate {INVALID|ESTABLISHED|NEW|RELATED|UNTRACKED|SNAT|DNAT}[,...]
+                               State(s) to match
+[!] --ctproto proto            Protocol to match; by number or name, e.g. "tcp"
+[!] --ctorigsrc address[/mask]
+[!] --ctorigdst address[/mask]
+[!] --ctreplsrc address[/mask]
+[!] --ctrepldst address[/mask]
+                               Original/Reply source/destination address
+[!] --ctorigsrcport port
+[!] --ctorigdstport port
+[!] --ctreplsrcport port
+[!] --ctrepldstport port
+                               TCP/UDP/SCTP orig./reply source/destination port
+[!] --ctstatus {NONE|EXPECTED|SEEN_REPLY|ASSURED|CONFIRMED}[,...]
+                               Status(es) to match
+[!] --ctexpire time[:time]     Match remaining lifetime in seconds against
+                               value or range of values (inclusive)
+    --ctdir {ORIGINAL|REPLY}   Flow direction of packet
+conntrack: At least one option is required
+conntrack: rule would never match protocol
+expire min. range value "%u" greater than max. range value "%u"
+multiple IP addresses not allowed
+"--ctstate" requires a list of states with no spaces, e.g. ESTABLISHED,RELATED
+rule would never match protocol
+expire min. range value `%lu' greater than max. range value `%lu'
+%sINVALID
+%sNEW
+%sRELATED
+%sESTABLISHED
+%sUNTRACKED
+%sSNAT
+%sDNAT
+%sEXPECTED
+%sSEEN_REPLY
+%sASSURED
+%sCONFIRMED
+%sNONE
+anywhere 
+%s%s 
+%sctstate 
+%sctproto %u 
+%sctorigsrc 
+%sctorigdst 
+%sctreplsrc 
+%sctrepldst 
+%sctorigsrcport %u 
+%sctorigdstport %u 
+%sctreplsrcport %u 
+%sctrepldstport %u 
+%sctstatus 
+%sctexpire 
+%u:%u 
+%sctdir REPLY
+%sctdir ORIGINAL
+expire value invalid: "%s"
+Bad ctstate "%s"
+Bad ctstatus "%s"
+--expires
+conntrack
+--ctorigsrcport
+--ctorigdstport
+--ctreplsrcport
+--ctrepldstport
+--ctdir
+anywhere
+%sctproto 
+%lu:%lu 
+libxtables.so.5
+ctstate
+ctproto
+ctorigsrc
+ctorigdst
+ctreplsrc
+ctrepldst
+ctstatus
+ctexpire
+libxt_conntrack.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.init_array

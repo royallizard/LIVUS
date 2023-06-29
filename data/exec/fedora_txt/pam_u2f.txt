@@ -1,0 +1,471 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pam_sm_authenticate
+stderr
+stdout
+__isoc99_sscanf
+malloc
+pam_get_user
+getpwnam_r
+free_devices
+free
+pam_strerror
+_debug
+__lxstat
+fopen
+strdup
+geteuid
+get_devices_from_authfile
+gethostname
+__errno_location
+converse
+do_authentication
+getuid
+__snprintf_chk
+seteuid
+secure_getenv
+strlen
+do_manual_authentication
+__stack_chk_fail
+pam_sm_setcred
+pam_get_item
+__vsnprintf_chk
+__sprintf_chk
+__vsprintf_chk
+__fprintf_chk
+__syslog_chk
+__fxstat
+fclose
+getpwuid_r
+strcmp
+fdopen
+fgets
+strtok_r
+u2fh_global_init
+u2fh_devs_init
+u2fh_devs_discover
+u2fs_global_init
+u2fs_init
+u2fs_set_origin
+u2fs_set_appid
+u2fs_authentication_verify
+u2fs_free_auth_res
+u2fs_set_keyHandle
+u2fs_set_publicKey
+u2fs_authentication_challenge
+u2fh_authenticate
+u2fh_strerror
+u2fh_devs_done
+u2fh_global_done
+u2fs_done
+u2fs_global_done
+u2fs_strerror
+libu2f-host.so.0
+libu2f-server.so.0
+libpam.so.0
+libc.so.6
+pam_u2f.so
+U2F_HOST_0.0
+LIBPAM_1.0
+U2F_SERVER_0.0.0
+GLIBC_2.7
+GLIBC_2.4
+GLIBC_2.17
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+AWAVAUATUSH
+t$ dH
+D$(L
+L9l$
+L9l$
+t$H1
+|$HD
+t$PL
+D$@D
+t$<H
+t$<1
+[]A\A]A^A_
+T$(L
+L$01
+D$DPL
+t$XH
+AYAZ
+pam:f
+L$XH
+A^E1
+\$<E
+T$<H
+L$HL
+D$HH
+L$X1
+AZA[M
+AXAY
+D$DP
+t$XH
+T$ H
+T$<H
+t$<1
+L$`L
+D$@L
+L$ H
+L$`H
+D$01
+tgAUI
+ATUSH
+[]A\A]
+D$81
+t$ H
+T$(H
+L$8dH3
+AVAUI
+|$(1
+D$((
+D$0H
+D$,0
+D$((
+D$,0
+L$0=
+t$8Y^L
+T$0H
+L;4$t
+[]A\A]A^A_
+ATUL
+D93w
+dH34%(
+[]A\A]A^A_
+|$ 1
+3A[A]E
+t$pL
+D$`H
+D$,D
+|$(H
+l$0H
+t$,L
+t$hH
+D$ 1
+d$0L
+A9/w
+t$8H
+T$8H
+D$@H
+L$0H
+L$ I
+t$(E
+T$8H
+\$(E
+D$(H
+|$\M
+T$\B
+M;t$
+|$(D
+d$DL
+l$HH
+l$0H
+\$ E
+|$ 1
+|$ H
+AXAYE
+D$PH
+|$ D
+AYAZ
+D$PH
+|$ D
+D$PH
+|$ D
+|$(D
+\$ E
+t$ H
+|$ H
+|$(L
+|$(D
+d$DL
+l$HH
+l$0H
+\$ E
+L$@H
+|$(D
+d$DL
+l$HH
+l$0H
+\$ E
+L$@H
+|$(D
+d$DL
+l$HH
+l$0H
+\$ E
+L$@H
+|$(D
+d$DL
+l$HH
+l$0H
+\$ E
+L$@H
+AWAVAUATUSH
+D$X1
+l$,H
+|$@L
+t$HE
+|$0H
+|$8A
+|$@L
+|$0H
+|$0L
+t$PA
+t$PE1
+L$<XZ
+L$XdH3
+h[]A\A]A^A_
+|$PA
+AVAUI
+t$@H
+t$HH
+|$X1
+|$XL
+[A\A]A^A_]
+|$XL
+|$XL
+(null)
+max_devices=
+max_devices=%u
+manual
+debug
+nouserok
+openasuser
+alwaysok
+interactive
+nodetect
+authfile=
+authpending_file=
+origin=
+appid=
+prompt=
+debug_file=
+stdout
+stderr
+syslog
+argv[%d]=%s
+pam-u2f.c
+max_devices=%d
+debug=%d
+interactive=%d
+cue=%d
+nodetect=%d
+manual=%d
+nouserok=%d
+openasuser=%d
+alwaysok=%d
+authfile=%s
+authpending_file=%s
+origin=%s
+appid=%s
+prompt=%s
+Unable to get host name
+Unable to allocate memory
+Unable to access user %s
+Found user %s
+Home directory for %s is %s
+XDG_CONFIG_HOME
+%s/.config%s
+/Yubico/u2f_keys
+Variable %s set to %s
+%s%s
+Using authentication file %s
+Switched to uid %i
+Switched back to uid 0
+Found no devices. Aborting.
+do_authentication returned %d
+done. [%s]
+called.
+flags %d argc %d
+Insert your U2F device, then press ENTER.
+Origin not specified, using "%s"
+Appid not specified, using the same value of origin (%s)
+Maximum devices number not set. Using default (%d)
+Requesting authentication for user %s
+Unable to retrieve credentials for user %s, (%s)
+Variable %s is not set. Using default value ($HOME/.config/)
+Using default authentication file %s
+Unable to switch user to uid %i
+Unable to switch back to uid 0
+Found no devices but nouserok specified. Skipping authentication
+Unable to get devices from file %s
+/var/run/user/%d/pam-u2f-authpending
+Unable to allocate memory for the authpending_file, touch request notifications will not be emitted
+authpending_file is set to an empty value, touch request notifications will be disabled
+Using file '%s' for emitting touch request notifications
+Unable to emit 'authentication started' notification by opening the file '%s', (%s)
+Unable to emit 'authentication stopped' notification by closing the file '%s', (%s)
+alwaysok needed (otherwise return with %d)
+parse_cfg
+pam_sm_authenticate
+debug(pam_u2f): %s:%d (%s): 
+Cannot open file: %s (%s)
+util.c
+Cannot stat file: %s (%s)
+%s is not a regular file
+File %s is empty
+root
+fdopen: %s
+Authorization line: %s
+Matched user: %s
+Invalid hex number in key
+Device max index is %u
+Unable to set origin: %s
+Unable to set appid: %s
+Unable to set keyHandle: %s
+Unable to set publicKey %s
+Challenge: %s
+Please touch the device.
+Response: %s
+Unable to discover devices
+[%d]: 
+Unable to retrieve credentials for uid %u, (%s)
+The owner of the authentication file is neither %s nor root
+The owner of the authentication file is not root
+Found more than %d devices, ignoring the remaining ones
+KeyHandle for device number %d: %s
+Unable to allocate memory for keyHandle number %d
+Unable to retrieve publicKey number %d
+publicKey for device number %d: %s
+Length of key number %d not even
+Length of key number %d is %zu
+Unable to allocate memory for publicKey number %d
+Found %d device(s) for user %s
+Unable to initialize libu2f-host: %s
+Unable to initialize libu2f-host device handles: %s
+Unable to discover device(s), %s
+Unable to initialize libu2f-server: %s
+Unable to initialize libu2f-server context: %s
+Attempting authentication with device number %d
+Unable to produce authentication challenge: %s
+nodetect option specified, suitable key detection skipped
+Unable to communicate to the device, %s
+Device for this keyhandle is not present.
+Devices max_index has changed: %u (was %u). Starting over
+Unable to initialize libu2f-server
+Now please copy-paste the below challenge(s) to 'u2f-host -aauthenticate -o %s'
+Now, please enter the response(s) below, one per line.
+do_manual_authentication
+do_authentication
+get_devices_from_authfile
+:*3$"
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+pam_u2f.so-1.0.7-3.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

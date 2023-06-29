@@ -1,0 +1,321 @@
+ik,2
+}3 zm@
+50AX
+\>=f
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+memset
+db_params
+__snprintf_chk
+db_con_get
+Exception_stack
+pthread_getspecific
+pthread_setspecific
+_setjmp
+SQLException
+db_con_close
+db_stmt_prepare
+db_stmt_set_str
+db_stmt_query
+db_result_get
+g_strdup
+g_list_prepend
+db_result_next
+Exception_throw
+trace
+__stack_chk_fail
+auth_connect
+auth_disconnect
+auth_user_exists
+db_user_exists
+auth_get_known_users
+db_query
+g_list_append
+auth_get_known_aliases
+auth_getclientid
+db_result_get_u64
+__assert_fail
+auth_getmaxmailsize
+auth_getencryption
+auth_check_user_ext
+g_list_destroy
+strtoull
+g_malloc0
+auth_adduser
+db_user_create
+auth_delete_user
+db_user_delete
+auth_change_username
+db_user_rename
+auth_change_password
+strlen
+db_stmt_set_u64
+db_stmt_exec
+auth_change_clientid
+db_update
+auth_change_mailboxsize
+db_change_mailboxsize
+auth_validate
+Cram_getUsername
+strncpy
+db_use_usermap
+db_usermap_resolve
+db_user_active
+db_user_validate
+db_user_security_trigger
+auth_md5_validate
+db_user_log_login
+g_snprintf
+dm_md5
+strcmp
+auth_get_userid
+auth_check_userid
+auth_addalias
+db_con_clear
+auth_addalias_ext
+auth_removealias
+auth_removealias_ext
+auth_get_user_aliases
+auth_get_aliases_ext
+auth_requires_shadow_user
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+libcrypt.so.1
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libauth_sql.so.0
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5RF 
+%TF 
+%RF 
+%RF 
+%RF 
+%RF 
+%RF 
+%RF 
+%RF 
+%RF 
+%ZF 
+%ZF 
+%ZF 
+%ZF 
+%ZF 
+%ZF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%bF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%jF 
+%rF 
+%zF 
+%zF 
+%zF 
+%zF 
+=yF 
+=9F 
+52F 
+=:A 
+=	A 
+\$0L
+L$0H
+-kA 
+L$ H
+-K? 
+L$ H
+\$0H
+L$0H
+\$0H
+L$0H
+-a8 
+\$0H
+L$0H
+AWAVAUATUSH
+([]A\A]A^A_
+-d3 
+\$0H
+L$0H
+AVAUI
+ATUI
+[]A\A]A^
+AVATH
+t$8H
+L$ H
+[]A\A^
+\$@H
+|$8H
+L$8H
+|$(H
+L$@H
+t$0H
+l$(L
+\$0dH
+-e+ 
+L$0H
+\$0dH
+-F) 
+L$0H
+\$0L
+-a& 
+D$$H
+L$0H
+L$ H
+D$$H
+L$0H
+\$0dH
+L$0H
+\$0dH
+L$0H
+\$0dH
+L$ L
+|$ L
+L$0H
+\$0dH
+L$0H
+SELECT deliver_to FROM %saliases WHERE lower(alias) = lower(?) AND lower(alias) <> lower(deliver_to)
+SELECT userid FROM %susers ORDER BY userid
+SELECT alias FROM %saliases ORDER BY alias
+SELECT client_idnr FROM %susers WHERE user_idnr = %lu
+SELECT maxmail_size FROM %susers WHERE user_idnr = %lu
+SELECT encryption_type FROM %susers WHERE user_idnr = %lu
+too many checks. Possible loop detected.
+[%d] checking user [%s] in alias table
+adding [%s] to deliver_to address
+UPDATE %susers SET passwd = ?, encryption_type = ? WHERE user_idnr=?
+UPDATE %susers SET client_idnr = %lu WHERE user_idnr=%lu
+SELECT passwd FROM %susers WHERE user_idnr = %lu
+checkstring for md5 [%s] -> result [%s]
+validating md5_apop_we=[%s] md5_apop_he=[%s]
+user [%s] is validated using APOP
+user [%s] could not be validated
+SELECT userid FROM %susers WHERE user_idnr = %lu
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND deliver_to = ? AND client_idnr = ?
+alias [%s] for user [%lu] already exists
+INSERT INTO %saliases (alias,deliver_to,client_idnr) VALUES (?,?,?)
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND lower(deliver_to) = lower(?) AND client_idnr = ? 
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND lower(deliver_to) = lower(?) 
+alias [%s] --> [%s] already exists
+DELETE FROM %saliases WHERE deliver_to=? AND lower(alias) = lower(?)
+DELETE FROM %saliases WHERE lower(deliver_to) = lower(?) AND lower(alias) = lower(?)
+SELECT alias FROM %saliases WHERE deliver_to = '%lu' UNION SELECT a2.alias FROM %saliases a1 JOIN %saliases a2 ON (a1.alias = a2.deliver_to) WHERE a1.deliver_to='%lu' AND a2.deliver_to IS NOT NULL ORDER BY alias DESC
+SELECT deliver_to FROM %saliases WHERE alias = '%s' ORDER BY alias DESC
+SQLException: %s
+auth
+authsql.c
+client_idnr != NULL
+maxmail_size != NULL
+user_idnr > 0
+user %s not in aliases table
+checking user %s to %s
+new password length is insane
+user_idnr != NULL
+username or password is empty
+__public__
+spasswd
+apop_stamp=[%s], userpw=[%s]
+%s%s
+auth_get_aliases_ext
+auth_get_user_aliases
+auth_removealias_ext
+auth_removealias
+auth_addalias_ext
+auth_addalias
+auth_check_userid
+auth_get_userid
+auth_md5_validate
+auth_validate
+auth_validate
+auth_change_password
+user_get_deliver_to
+auth_check_user_ext
+auth_getencryption
+auth_getencryption
+auth_getmaxmailsize
+auth_getmaxmailsize
+auth_getclientid
+auth_getclientid
+auth_get_known_aliases
+auth_get_known_users
+;*3$"
+libauth_sql.so.0.0.0.debug
+7zXZ
+ZGZo
+!+ZU
+u]]m(
+Ovp^
+8>"?
+!0f\
+q.SFa
+nECP
+]r!C
+O&U2
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

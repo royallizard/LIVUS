@@ -1,0 +1,287 @@
+tdtD
+tdhN
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+purple_ssl_get_ops
+purple_certificate_unregister_scheme
+purple_ssl_set_ops
+CERT_GetDefaultCertDB
+PR_Now
+PORT_NewArena
+CERT_VerifyCert
+CERT_VerifyCertName
+purple_debug_error
+PORT_FreeArena
+PR_ErrorToName
+CERT_DestroyCertificate
+g_return_if_fail_warning
+purple_debug_info
+CERT_ChangeCertTrust
+CERT_IsCACert
+g_file_get_contents
+CERT_DecodeCertFromPackage
+g_free
+g_malloc0
+g_slist_prepend
+strstr
+CERT_GetCertTimes
+purple_debug_warning
+g_byte_array_sized_new
+PK11_HashBuf
+g_byte_array_free
+strcmp
+CERT_VerifySignedData
+SEC_SignedCertificateTemplate
+SEC_ASN1EncodeItem
+NSSBase64_EncodeItem
+SECITEM_FreeItem
+g_strdup_printf
+PORT_Free
+purple_util_write_data_to_file_absolute
+__errno_location
+PR_Write
+PR_GetError
+PR_Read
+PR_Close
+purple_timeout_remove
+purple_input_remove
+PR_GetErrorTextLength
+g_malloc
+PR_GetErrorText
+PR_ImportTCPSocket
+PR_SetSocketOption
+SSL_ImportFD
+SSL_OptionSet
+SSL_AuthCertificateHook
+SSL_SetURL
+SSL_ResetHandshake
+purple_input_add
+purple_timeout_add
+purple_ssl_close
+NSS_Shutdown
+PR_Cleanup
+PR_Init
+NSS_NoDB_Init
+SSL_GetImplementedCiphers
+SSL_CipherPrefSetDefault
+SSL_CipherPrefGetDefault
+SSL_GetCipherSuiteInfo
+SSL_VersionRangeGetSupported
+CERT_EnableOCSPChecking
+PR_GetUniqueIdentity
+PR_GetDefaultIOMethods
+purple_certificate_register_scheme
+SSL_VersionRangeGetDefault
+SSL_VersionRangeSetDefault
+g_strdup
+CERT_GetCommonName
+CERT_DupCertificate
+SSL_ForceHandshake
+SSL_GetChannelInfo
+SSL_PeerCertificate
+g_list_append
+CERT_FindCertIssuer
+purple_certificate_verify
+purple_certificate_destroy_list
+purple_init_plugin
+purple_plugin_register
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+libdl.so.2
+libgadu.so.3
+libm.so.6
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+ssl-nss.so
+NSS_3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+NSS_3.3
+NSS_3.2
+NSS_3.14
+NSS_3.12.6
+UWVS
+D$<e
+D$\1
+D$\e3
+d$l[^_]
+UWVS
+t$Pe
+D$,1
+L$,e3
+d$<[^_]
+D$,1
+L$,e3
+d$0[^_
+T$$1
+UWVS
+D$,1
+T$,e3
+d$<[^_]
+T$$1
+UWVS
+|$de
+t$<1
+|$<e3=
+d$L[^_]
+d$ [
+d$ 1
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+D$\1
+T$\e3
+d$l[^_]
+D$"f;D$&
+UWVS
+98t+
+[^_]
+t$$t,
+UWVS
+D$le
+[^_]
+D$P1
+UWVS
+d$,[^_]
+$uu9
+[Certificate Authority]
+CERT %d. %s %s:
+  ERROR %ld: %s
+subject name not verified
+crt->scheme == &x509_nss
+Trusting %s
+crt_dat
+nss/x509
+filename != NULL
+Loading certificate from %s
+crt_dat != NULL
+-----END CERTIFICATE-----
+Error: hashing failed!
+issuerCert
+subjectCert
+filename
+Exporting certificate to %s
+dercrt != NULL
+b64crt
+nss_data->fd == NULL!
+nss_data->in == NUL!
+Enabled
+Disabled
+Cipher - %s: %s
+Purple
+(null)
+Handshake failed %s (%d)
+could not DupCertificate
+subject=%s issuer=%s
+partial certificate chain
+ssl-nss
+2.10.11-10.fc22
+http://pidgin.im/
+X.509 Certificates
+x509_import_from_file
+x509_export_certificate
+x509_copy_certificate
+x509_destroy_certificate
+x509_signed_by
+x509_sha1sum
+x509_dn
+x509_issuer_dn
+x509_common_name
+x509_check_name
+x509_times
+x509_importcerts_from_file
+x509_register_trusted_tls_cert
+Refusing to set non-CA cert as trusted CA
+Skipping setting trust for cert in permanent DB
+Unable to read certificate file.
+Certificate file has no contents!
+Setting Activation Date to epoch to handle pre-epoch value
+Activation date past 32-bit barrier, forcing invalidity
+Setting Expiration Date to 32-bit signed max
+Setting Expiration Date to 32-bit unsigned max
+Expiration date prior to unix epoch, forcing invalidity
+SECSuccess == CERT_GetCertTimes(crt_dat, &nss_activ, &nss_expir)
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+unable to set socket into non-blocking mode: %s (%d)
+SSL_CipherPrefGetDefault didn't like value 0x%04x: %s
+SSL_GetCipherSuiteInfo didn't like value 0x%04x: %s
+TLS supported versions: 0x%04hx through 0x%04hx
+TLS versions allowed by default: 0x%04hx through 0x%04hx
+Changed allowed TLS versions to 0x%04hx through 0x%04hx
+Error setting allowed TLS versions to 0x%04hx through 0x%04hx
+x509_check_name fell through where it shouldn't have.
+SSL version %d.%d using %d-bit %s with %d-bit %s MAC
+Server Auth: %d-bit %s, Key Exchange: %d-bit %s, Compression: %s
+Cipher Suite Name: %s
+Provides SSL support through Mozilla NSS.
+Christian Hammond <chipx86@gnupdate.org>
+;*2$"
+ssl-nss.so.debug
+7zXZ
+ChWQh	
+@!_\S
+?mRp
+lLR'
+`8b1_
+F\r{
+46(O
+5wk4!
+?G4s
+7f$nI
+QtpQ6
+s=K3
+@\te
+*J_*
+tXz+<
+@}:fWG
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

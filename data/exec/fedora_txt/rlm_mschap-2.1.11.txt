@@ -1,0 +1,345 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+smbdes_mschap
+rad_digest_cmp
+radius_exec_program
+radlog_request
+memcmp
+fr_md4_calc
+strchr
+__snprintf_chk
+strlen
+pairadd
+fr_hex2bin
+__stack_chk_fail
+xlat_unregister
+free
+strncasecmp
+__ctype_b_loc
+radius_xlat
+pairfind
+__sprintf_chk
+strlcpy
+smbdes_lmpwdhash
+fr_bin2hex
+mschap_ntpwdhash
+mschap_challenge_hash
+rad_malloc
+cf_section_parse
+cf_section_name2
+__strdup
+xlat_register
+dict_valbyname
+radlog
+cf_section_name1
+radius_pairmake
+memcpy
+fr_strerror
+fr_SHA1Init
+fr_SHA1Update
+fr_SHA1Final
+mschap_add_reply
+fr_rand
+mschap_auth_response
+rlm_mschap
+__ctype_toupper_loc
+libfreeradius-radius-2.1.11.so
+libnsl.so.1
+libresolv.so.2
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+rlm_mschap-2.1.11.so
+/usr/lib64/freeradius
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.3
+5*N 
+%,N 
+%*N 
+%"N 
+%zM 
+%rM 
+%jM 
+%bM 
+%ZM 
+%RM 
+%JM 
+%BM 
+%:M 
+%2M 
+%*M 
+%"M 
+=(M 
+ATSubH
+%|G 
+[A\]
+=8G 
+L$ H
+T$ L
+|$ E1
+|$ E1
+D$ H
+t$ H
+D$ H
+|$:H
+[]A\
+t3Hc
+t$ H
+D$x1
+|$`H
+D$`H
+D$hH
+D$xdH3
+[]A\
+tOHcT$
+l$ L
+d$(L
+t$8H
+|$@H
+l$ H
+d$(L
+l$0H
+t$8L
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffff.
+D$(L
+D$(H
+D$(L
+D$(H
+T$0I
+D$(H
+|$(H
+t$(H
+|$8[
+D$(H
+D$(L
+D$(H
+D$0L
+D$0H
+D$0M
+d$PE
+|$	L
+|$,L
+D$(I
+t$0H
+t$(H
+t$PH
+D$8H
+D$8L
+D$8H
+T$(I
+L$@H
+T$HH
+T$8H
+D$8H
+T$(H
+D$0I
+T$ x\L
+D$@H
+L$HL
+t$0H
+|$8L
+D$(H
+fffff.
+D$x1
+|$`H
+D$`H
+D$xdH3
+|$`H
+|$`H
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+AUATE1
+([]A\A]
+FAILED: No NT/LM-Password.  Cannot perform authentication.
+No memory to allocate Module-Failure-Message
+Invalid output from ntlm_auth: expecting NT_KEY
+Invalid output from ntlm_auth: NT_KEY has unexpected length
+Invalid output from ntlm_auth: NT_KEY has non-hex values
+No MS-CHAP-Challenge in the request.
+MS-CHAP2-Response is required to calculate MS-CHAPv1 challenge.
+MS-CHAP-Response has the wrong format.
+User-Name is required to calculate MS-CHAPv1 Challenge.
+NT Domain delimeter found, should we have enabled with_ntdomain_hack?
+WARNING: User-Name (%s) is not the same as MS-CHAP Name (%s) from EAP-MSCHAPv2
+Creating challenge hash with username: %s
+Invalid MS-CHAP challenge length
+No MS-CHAP-Response or MS-CHAP2-Response was found in the request.
+No NT-Response in MS-CHAP-Response
+No MS-CHAP-Response was found in the request.
+No LM-Response in MS-CHAP-Response
+No User-Name was found in the request.
+setting NT-Domain to same as machine name
+No NT-Domain was found in the User-Name.
+rlm_mschap: SMB password file is no longer supported in this module.  Use rlm_passwd module instead
+Found MS-CHAP-Challenge, but no MS-CHAP-Response.
+WARNING: Auth-Type already set.  Not setting to MS-CHAP
+Found MS-CHAP attributes.  Setting 'Auth-Type  = %s'
+rlm_mschap: mppe_add_reply failed to create attribute %s: %s
+Failed to create attribute %s: %s
+SMB-Account-Ctrl says no password is required.
+No Cleartext-Password configured.  Cannot create LM-Password.
+No Cleartext-Password configured.  Cannot create NT-Password.
+ERROR: You set 'Auth-Type = MS-CHAP' for a request that does not contain any MS-CHAP attributes!
+MS-CHAP-Challenge has the wrong format.
+Told to do MS-CHAPv1 with NT-Password
+Told to do MS-CHAPv1 with LM-Password
+MS-CHAP-Response is incorrect.
+We require a User-Name for MS-CHAPv2
+ERROR: User-Name (%s) is not the same as MS-CHAP Name (%s) from EAP-MSCHAPv2
+Told to do MS-CHAPv2 for %s with NT-Password
+FAILED: MS-CHAP2-Response is incorrect
+SMB-Account-Ctrl says that the account is disabled, or is not a normal or workstatin trust account.
+SMB-Account-Ctrl says that the account is locked out.
+External script failed.
+Module-Failure-Message
+%s: External script says %s
+NT_KEY: 
+Challenge
+ mschap1: %02x
+ mschap2: %02x
+NT-Response
+LM-Response
+NT-Domain
+host/
+User-Name
+NT-Hash 
+xlat failed
+NT-Hash of %s = %s
+LM-Hash 
+LM-Hash of %s = %s
+Unknown expansion string "%s"
+MS-CHAP
+Auth-Type
+0x00000002
+0x00000001
+0x00000004
+0x00000006
+SMB-Account-CTRL
+Found LM-Password
+Invalid LM-Password
+No memory
+Found NT-Password
+Invalid NT-Password
+E=691 R=%d
+ V=3 M=%s
+MS-CHAP-Error
+MS-CHAP2-Success
+E=691 R=1
+E=647 R=0
+adding MS-CHAPv1 MPPE keys
+MS-CHAP-MPPE-Keys
+adding MS-CHAPv2 MPPE keys
+MS-MPPE-Recv-Key
+MS-MPPE-Send-Key
+MS-MPPE-Encryption-Policy
+MS-MPPE-Encryption-Types
+use_mppe
+require_encryption
+require_strong
+with_ntdomain_hack
+passwd
+ntlm_auth
+allow_retry
+retry_msg
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+This is the MPPE Master Key
+On the client side, this is the receive key; on the server side, it is the send key.
+On the client side, this is the send key; on the server side, it is the receive key.
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+Magic server to client signing constant
+Pad to make it do more than one iteration
+0123456789ABCDEF$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+$Id$
+91)!
+:2*"
+;3+#
+<4,$?7/'
+>6.&
+=5-%
+(3-!0,1'8"5.*2$
+:2*"
+<4,$
+>6.&
+@80( 
+91)!
+;3+#
+=5-%
+?7/'
+;*3$"
+KGS!@#$%rlm_mschap-2.1.11.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

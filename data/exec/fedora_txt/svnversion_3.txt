@@ -1,0 +1,173 @@
+/lib64/ld-linux-x86-64.so.2
+libsvn_wc-1.so.0
+svn_dirent_get_absolute
+_ITM_deregisterTMCloneTable
+svn_dirent_local_style
+svn_pool_create_ex
+__gmon_start__
+svn_error_clear
+apr_pool_destroy
+svn_io_check_special_path
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+svn_wc_version
+_fini
+svn_wc_context_create
+svn_wc_revision_status2
+libsvn_delta-1.so.0
+libsvn_diff-1.so.0
+svn_utf_cstring_to_utf8
+apr_getopt_long
+libsvn_subr-1.so.0
+apr_allocator_owner_set
+apr_allocator_create
+apr_allocator_max_free_set
+svn_cmdline_printf
+svn_opt_print_help3
+svn_opt_format_option
+svn_cmdline_fprintf
+svn_cmdline_fflush
+svn_ver_check_list
+svn_handle_error2
+svn_cmdline_init
+svn_cmdline_fputs
+svn_subr_version
+svn_opt__arg_canonicalize_path
+svn_cmdline_handle_exit_error
+svn_cmdline__getopt_init
+libz.so.1
+libsqlite3.so.0
+libmagic.so.1
+libaprutil-1.so.0
+libcrypt.so.1
+libexpat.so.1
+libdb-5.3.so
+libapr-1.so.0
+libpthread.so.0
+libdl.so.2
+libc.so.6
+exit
+dcgettext
+stdout
+stderr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+AVAUI
+[]A\A]A^A_
+t$`1
+|$`H
+|$hL
+|$hL
+l$pL
+L$xH
+qt5=
+T$hHcB
+L$HL
+L$0t|H
+L$0H
+d$ H
+t$HL
+t$HL
+|$x1
+D$hHcP
+D$8H
+L$PE1
+T$XH
+t$xL
+|$XH
+T$DH
+t$@L
+D$pH
+D$pH
+|$PH
+|$XL
+fffff.
+[]A\A]A^A_
+Type 'svnversion --help' for usage.
+usage: svnversion [OPTIONS] [WC_PATH [TRAIL_URL]]
+  Produce a compact 'version number' for the working copy path
+  WC_PATH.  TRAIL_URL is the trailing portion of the URL used to
+  determine if WC_PATH itself is switched (detection of switches
+  within WC_PATH does not rely on TRAIL_URL).  The version number
+  is written to standard output.  For example:
+    $ svnversion . /repos/svn/trunk
+    4168
+  The version number will be a single number if the working
+  copy is single revision, unmodified, not switched and with
+  an URL that matches the TRAIL_URL argument.  If the working
+  copy is unusual the version number will be more complex:
+   4123:4168     mixed revision working copy
+   4168M         modified working copy
+   4123S         switched working copy
+   4123P         partial working copy, from a sparse checkout
+   4123:4168MS   mixed revision, modified, switched working copy
+  If WC_PATH is an unversioned path, the program will output
+  'Unversioned directory' or 'Unversioned file'.  If WC_PATH is
+  an added or copied or moved path, the program will output
+  'Uncommitted local addition, copy or move'.
+  If invoked without arguments WC_PATH will be the current directory.
+Valid options:
+Uncommitted local addition, copy or move%s
+do not output the trailing newline
+last changed rather than current revisions
+show program version information
+no progress (only errors) to stderr
+subversion
+svnversion
+svnversion: 
+  %s
+svn: 
+Unversioned symlink%s
+Unversioned directory%s
+Unversioned file%s
+'%s' doesn't exist
+'%s' is of unknown type
+:%ld
+no-newline
+committed
+display this help
+quiet
+svn_subr
+svn_wc
+;*3$"
+svnversion.debug
+7zXZ
+D=X:
+J!}'
+86gf
+TEl%
+VrbJ
+iA>]
+>)o{
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

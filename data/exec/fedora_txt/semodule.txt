@@ -1,0 +1,267 @@
+/lib64/ld-linux-x86-64.so.2
+lL#=R$t
+libsepol.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libselinux.so.1
+_init
+_fini
+libsemanage.so.1
+semanage_module_info_get_priority
+semanage_set_disable_dontaudit
+semanage_module_info_get_name
+semanage_set_ignore_module_cache
+semanage_reload_policy
+semanage_module_key_create
+semanage_module_install_file
+semanage_select_store
+semanage_handle_destroy
+semanage_module_remove
+semanage_set_root
+semanage_set_default_priority
+semanage_set_preserve_tunables
+semanage_module_key_set_name
+semanage_module_set_enabled
+semanage_commit
+semanage_connect
+semanage_disconnect
+semanage_module_list_nth
+semanage_module_info_destroy
+semanage_is_connected
+semanage_set_reload
+semanage_module_info_get_enabled
+semanage_begin_transaction
+semanage_set_store_root
+semanage_module_key_destroy
+semanage_module_list_all
+semanage_set_rebuild
+semanage_module_list
+semanage_module_info_get_lang_ext
+semanage_set_create_store
+semanage_handle_create
+libc.so.6
+__xpg_basename
+__printf_chk
+exit
+optind
+__strdup
+signal
+puts
+realloc
+__errno_location
+__fprintf_chk
+strtoul
+optarg
+stderr
+getopt_long
+fwrite
+__cxa_finalize
+strcmp
+strerror
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.2.5
+LIBSEMANAGE_1.1
+LIBSEMANAGE_1.0
+%z' 
+%r' 
+%j' 
+%b' 
+%Z' 
+%R' 
+%J' 
+%B' 
+%:' 
+%2' 
+%*' 
+%"' 
+%z& 
+AWAVI
+AUATH
+5}' 
+=g' 
+5G' 
+5"' 
+tHHc
+=G& 
+5f% 
+=j% 
+=^% 
+=M% 
+=Y% 
+=D% 
+=#% 
+L$hA
+L$pH
+L$ H
+L$xH
+L$(D9-
+=e$ 
+=B$ 
+=1$ 
+=e# 
+=4# 
+t$ H
+\$0M
+=y" 
+;l$h|
+\$0E
+=Y" 
+=(" 
+=," 
+=r! 
+=?! 
+=/! 
+9l$h
+t$ H
+|$0D
+\$81
+d$@I
+|$xH
+|$xH
+;l$h|
+D$fL
+d$@H
+\$8D
+|$01
+D$8H
+t$0D
+t$HH
+D$HH
+T$8H
+T$HH
+T$PH
+L$fH
+D$8P
+ ;\$h
+\$8A
+\$\A
+fffff.
+fffff.
+fffff.
+fffff.
+ATUSL
+x-Hc
+AUATI
+[]A\A]A^
+AWAVA
+AUATL
+[]A\A]A^A_
+usage:  %s [options]... MODE [MODES]...
+Manage SELinux policy modules.
+  -R, --reload		    reload policy
+  -B, --build		    build and reload policy
+  -i,--install=MODULE_PKG   install a new module
+  -r,--remove=MODULE_NAME   remove existing module
+  -l,--list-modules=[KIND]  display list of installed modules
+     KIND:  standard  list highest priority, enabled modules
+            full      list all modules
+  -X,--priority=PRIORITY    set priority for following operations (1-999)
+  -e,--enable=MODULE_NAME   enable module
+  -d,--disable=MODULE_NAME  disable module
+  -s,--store	   name of the store to operate on
+  -N,-n,--noreload do not reload policy after commit
+  -h,--help        print this message and quit
+  -D,--disable_dontaudit	Remove dontaudits from policy
+  -P,--preserve_tunables	Preserve tunables in policy
+  -C,--ignore-module-cache	Rebuild CIL modules compiled from HLL files
+  -p,--path        use an alternate path for the policy root
+  -S,--store-path  use an alternate path for the policy store root
+Could not set up signal handler.
+The --base option is deprecated. Use --install instead.
+The --upgrade option is deprecated. Use --install instead.
+s:b:hi:l::vqr:u:RnNBDCPX:e:d:p:S:
+build or reload should not be used with other commands
+At least one mode must be specified.
+unknown additional arguments:
+%s:  Could not create semanage handle
+%s:  Could not connect to policy handler
+%s:  Could not begin transaction:  %s
+%s: Invalid priority %d (needs to be between 1 and 999)
+Attempting to install module '%s':
+Attempting to remove module '%s':
+Attempting to list active modules:
+Attempting to enable module '%s':
+Attempting to disable module '%s':
+MODES:
+Other options:
+  -v,--verbose     be verbose
+Out of memory!
+disabled
+list
+genhomedircon
+%s:  Could not reload policy
+standard
+No modules.
+full
+%0*u %-*s %-*s %-*s
+%s:  Unknown mode specified.
+%s:  Failed on %s!
+Ok: return value of %d.
+Committing changes:
+%s:  Failed!
+Ok: transaction number %d.
+%s:  Error disconnecting
+store
+base
+help
+install
+list-modules
+remove
+upgrade
+noreload
+build
+disable_dontaudit
+preserve_tunables
+ignore-module-cache
+priority
+enable
+disable
+store-path
+;*3$"
+semodule.debug
+7zXZ
+#2<T
+Z_of
+V4*H
+P~7u
+Bicnf
+=~:QNE
+x,bZ
+b0v3
+iyo^V\K
+ZT}.F}
+kc&q
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

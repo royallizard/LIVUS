@@ -1,0 +1,191 @@
+/lib/ld-linux.so.2
+~Ey,
+|k	C
+BnSs
+libwiretap.so.0
+g_free
+__gmon_start__
+_Jv_RegisterClasses
+g_malloc
+wtap_dump_close
+wtap_file_encap
+wtap_read
+wtap_buf_ptr
+wtap_close
+wtap_encap_string
+wtap_snapshot_length
+wtap_open_offline
+wtap_encap_short_string
+wtap_file_type_string
+wtap_dump_fdopen
+wtap_file_type
+wtap_short_string_to_file_type
+wtap_phdr
+wtap_get_num_encap_types
+wtap_short_string_to_encap
+wtap_get_num_file_types
+wtap_pseudoheader
+wtap_dump
+wtap_strerror
+wtap_file_size
+wtap_file_type_short_string
+wtap_dump_can_open
+libglib-2.0.so.0
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+exit
+optind
+strtol
+getopt
+__fprintf_chk
+fputc
+optarg
+stderr
+optopt
+fwrite
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+_fp_hw
+merge_open_in_files
+__data_start
+__libc_csu_init
+merge_select_frame_type
+merge_max_snapshot_length
+merge_close_in_files
+merge_read_packet
+merge_append_read_packet
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+L$$9
+t$(1
+;t$Lu
+T$$t
+D$<;F
+[^_]
+D$H1
+;T$L
+T$$t
+d$$[^
+UWV1
+D$<1
+D$<e3
+d$L[^_]
+UWV1
+D$<1
+D$<e3
+d$L[^_]
+UWVS
+t$hkD$
+T$ e
+T$<1
+l$,1
+l$,t
+T$<e3
+d$L[^_]
+l$,1
+UWVS
+|$De
+d$,[^_]
+UWVS
+T$Pe
+D$,1
+T$,e3
+d$<[^_]
+UWV1
+l$Te
+D$,1
+T$,e3
+d$<[^_]
+UWVS
+T$le
+D$<1
+9D$$|
+t~kD$ 
+T$<e3
+d$L[^_]
+UWVS
+D$,1
+T$,e3
+d$<[^_]
+UWVS
+[^_]
+1.4.6
+Mergecap %s
+Output:
+Miscellaneous:
+    %s - %s
+snapshot length
+hvas:T:F:w:
+mergecap: Can't open %s: %s
+(%s)
+mergecap: %s is type %s.
+Record: %u
+Merge two or more capture files into one.
+See http://www.wireshark.org for more information.
+Usage: mergecap [options] -w <outfile>|- <infile> ...
+  -a                concatenate rather than merge files.
+                    default is to merge based on frame timestamps.
+  -s <snaplen>      truncate packets to <snaplen> bytes of data.
+  -w <outfile>|-    set the output filename to <outfile> or '-' for stdout.
+  -F <capture type> set the output file type; default is libpcap.
+                    an empty "-F" option will list the file types.
+  -T <encap type>   set the output file encapsulation type;
+                    default is the same as the first input file.
+                    an empty "-T" option will list the encapsulation types.
+  -h                display this help and exit.
+  -v                verbose output.
+mergecap: The available capture file types for "F":
+mergecap: The available encapsulation types for "T":
+mergecap: "%s" isn't a valid encapsulation type
+mergecap: "%s" isn't a valid capture file type
+mergecap: The specified %s "%s" isn't a decimal number
+mergecap: The specified %s is a negative number
+mergecap: The specified %s is zero
+mergecap: an output filename must be set with -w
+          run with -h for help
+mergecap: No input files were specified
+mergecap: multiple frame encapsulation types detected
+          defaulting to WTAP_ENCAP_PER_PACKET
+          %s had type %s (%s)
+mergecap: selected frame_type %s (%s)
+mergecap: Couldn't open output file %s: %s
+mergecap: Can't open or create %s: %s
+mergecap: Error reading %s: %s
+mergecap: Error writing to outfile: %s
+mergecap.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

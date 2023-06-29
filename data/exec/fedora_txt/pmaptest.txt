@@ -1,0 +1,222 @@
+tdD3
+/lib/ld-linux.so.2
+|k	C
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+__errno_location
+libpmap.so.3.0
+__gmon_start__
+pose2_add
+omap_clear
+rmap_alloc
+omap_alloc
+rmap_add
+rmap_match
+omap_save_pgm
+_Z12logfile_freeP9logfile_t
+pmap_alloc
+pmap_set_pose
+omap_add
+rmap_interpolate
+_Z12logfile_readP9logfile_t
+pmap_update
+_Z13logfile_allocPKc
+rmap_relax
+liblodo.so.3.0
+lodo_add_scan
+lodo_alloc
+libgsl.so.0
+libgslcblas.so.0
+libplayercore.so.3.0
+librt.so.1
+libplayerinterface.so.3.0
+libplayercommon.so.3.0
+libltdl.so.7
+libdl.so.2
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+_IO_stdin_used
+fflush
+exit
+fopen
+optind
+signal
+__assert_fail
+strtod
+strtol
+__fprintf_chk
+stdout
+fputc
+fclose
+optarg
+stderr
+getopt_long
+usleep
+fwrite
+gettimeofday
+__cxa_finalize
+strerror
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+_Z9win_mouseiiii
+_Z9show_helpv
+_Z8win_idlev
+_fp_hw
+__data_start
+_Z13signal_handlei
+_Z10win_redrawv
+_Z7win_runPiPPc
+__libc_csu_init
+_Z11win_reshapeii
+__libc_csu_fini
+_Z7win_keyhii
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.1.3
+D$Le
+D$d+D$\
+[^_]
+UWVS
+D$|coar
+se.of
+D$|coar
+se.pf
+[^_]
+UWVS
+D$|fine
+.out
+D$|fine
+.pgm
+[^_]
+UWVS
+[^_]
+gfff
+UWVS
+t$,U
+[^_]
+saving %s
+error writing %s : %s
+%d %f %f %f
+position2d
+position3d
+laser
+%.3f %.3f %.3f %d %d 
+%d %d %d %d %f 
+range_count = %d
+range_max = %f
+angle_min = %f
+angle_max = %f
+angle_step = %f
+nogui
+max_scans
+range_max
+laser_x
+laser_rot
+position_index
+laser_index
+num_samples
+robot_x
+robot_y
+robot_rot
+grid_width
+grid_height
+grid_scale
+skip
+range_res
+resample_interval
+resample_sigma
+num_cycles
+help
+# Coarse trajectory for log file [%s]
+# Format is: scan_index pos_x pos_y rot
+# Fine trajectory for log file [%s]
+fine phase complete; map is ready
+coarse phase complete; switching to fine
+The pmap_test utility demonstrates the basic functionality of
+the pmap library and serves a handy mapping utility in its own
+right.  Given a Player logfile containing odometry and laser
+data, pmap_test will produce an occupancy grid map of the
+environment.
+Basic usage is as follows:
+	$ pmap_test [options] <logfilename>
+where the supported options are:
+   -g                                 disable the GUI (run in console mode
+                                      only).
+   --range_max                        maximum effective range for the laser
+                                      (m).
+   --position_index                   index of odometry device in logfile.
+   --laser_index                      index of laser device in logfile.
+   --num_samples                      number of samples in particle filter.
+   --resample_interval                number of scans between resampling
+                                      steps.
+   --resample_sigma                   width of resampling gaussian.
+   --num_cycles                       number of optimization cycles in the
+                                      fine phase.
+   --robot_x, --robot_y, --robot_rot  initial robot pose.
+   --grid_width, --grid_height        grid dimensions (m).
+   --grid_scale                       grid scale (m/cell).
+   --laser_x, --laser_rot             laser position offset.
+   --robot_hostname                   the name of the robot to verify in
+                                      the log.
+   --skip                             amount of time to skip between log
+                                      entries.
+   --range_res                        Resolution of the laser (only used in
+                                      lodo, not lodo2 which is currently
+                                      used.
+   --action_model_xx,
+   --action_model_rx,
+   --action_model_rr                  believe factors in the change of the
+                                      robot's pose.
+/builddir/build/BUILD/player-3.0.2/utils/pmap/pmap_test.cpp
+signal(2, signal_handle) != ((__sighandler_t) -1)
+%.3f m %.3f rotations %d scans %d steps in %d seconds
+%.0f msec/scan %.0f msec/step
+int main(int, char**)
+;*2$"@
+pmaptest.debug
+7zXZ
+gC]Z4
+#>f>
+S3v%L
+{%1R+y
+T)2~C
+AOQ{M
+,n7@"F
+(*7$]
+txJ|
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

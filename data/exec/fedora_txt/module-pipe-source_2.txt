@@ -1,0 +1,222 @@
+@U]G
+'PLF
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_log_level_meta
+pa_thread_mq_install
+pa_source_post
+pa_memblock_get_length
+pa_rtpoll_run
+pa_rtpoll_item_get_pollfd
+pa_memblock_acquire
+pa_read
+pa_memblock_release
+__errno_location
+pa_cstrerror
+pa_msgobject_type_id
+pa_asyncmsgq_post
+pa_asyncmsgq_wait_for
+pa_memblock_unref
+pa_memchunk_reset
+abort
+pa_pipe_buf
+pa_memblock_new
+__stack_chk_fail
+pa_source_type_id
+ioctl
+pa_bytes_to_usec
+pa_source_process_msg
+module_pipe_source_LTX_pa__get_author
+module_pipe_source_LTX_pa__get_description
+module_pipe_source_LTX_pa__get_version
+module_pipe_source_LTX_pa__load_once
+module_pipe_source_LTX_pa__get_usage
+module_pipe_source_LTX_pa__get_n_used
+pa_source_linked_by
+module_pipe_source_LTX_pa__done
+pa_source_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_rtpoll_item_free
+pa_rtpoll_free
+pa_xfree
+pa_close
+pa_object_type_id
+pa_object_unref
+module_pipe_source_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec_and_channel_map
+pa_xmalloc0
+pa_rtpoll_new
+pa_thread_mq_init
+pa_modargs_get_value
+pa_runtime_path
+mkfifo
+pa_open_cloexec
+pa_make_fd_nonblock
+__fxstat
+pa_source_new_data_init
+pa_source_new_data_set_name
+pa_proplist_sets
+pa_proplist_setf
+pa_source_new_data_set_sample_spec
+pa_source_new_data_set_channel_map
+pa_modargs_get_proplist
+pa_source_new
+pa_source_new_data_done
+pa_source_set_asyncmsgq
+pa_source_set_rtpoll
+pa_source_set_fixed_latency
+pa_rtpoll_item_new
+pa_thread_new
+pa_source_put
+pa_modargs_free
+libpulsecore-6.0.so
+libpulsecommon-6.0.so
+libpulse.so.0
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-pipe-source.so
+/usr/lib64/pulseaudio
+GLIBC_2.2.5
+GLIBC_2.4
+%z# 
+%r# 
+%j# 
+%b# 
+%Z# 
+%R# 
+%J# 
+%B# 
+%:# 
+%2# 
+%*# 
+%"# 
+%z" 
+%r" 
+%j" 
+%b" 
+%Z" 
+%R" 
+%J" 
+%B" 
+%:" 
+%2" 
+%*" 
+%"" 
+=Y" 
+fffff.
+fffff.
+fffff.
+AVAUATUSH
+[]A\A]A^
+AUATI
+	uIH
+HcD$
+([]A\A]
+ffff.
+{0E1
+AWAVAUATUSH
+[]A\A]A^A_
+modules/module-pipe-source.c
+Thread starting up
+l != 0
+FIFO shutdown.
+Thread shutting down
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+pa_source_isinstance(o)
+./pulsecore/source.h
+Lennart Poettering
+UNIX pipe source
+u = m->userdata
+./pulsecore/object.h
+pa_close(u->fd) == 0
+/tmp/music.input
+file
+mkfifo('%s'): %s
+open('%s'): %s
+fstat('%s'): %s
+'%s' is not a FIFO.
+fifo_input
+source_name
+device.string
+Unix FIFO source %s
+device.description
+source_properties
+Invalid properties
+Failed to create source.
+pipe-source
+Failed to create thread.
+format
+rate
+channels
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+pa_memblock_get_length(u->memchunk.memblock) > u->memchunk.index
+Failed to read data from FIFO: %s
+source_name=<name for the source> source_properties=<properties for the source> file=<path of the FIFO> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map>
+!obj || obj->check_type(pa_object_type_id)
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+pa_object_cast
+pa_object_cast
+module_pipe_source_LTX_pa__done
+module_pipe_source_LTX_pa__done
+module_pipe_source_LTX_pa__get_n_used
+module_pipe_source_LTX_pa__get_n_used
+pa_source_cast
+pa_source_cast
+pa_msgobject_cast
+pa_msgobject_cast
+thread_func
+thread_func
+module_pipe_source_LTX_pa__init
+module_pipe_source_LTX_pa__init
+;*3$"
+module-pipe-source.so.debug
+7zXZ
+aTkF
+n+aP
+c'Ge
+S\%}A
+%)3b
+;)V-
+)WyB
+_YgYr<]\
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

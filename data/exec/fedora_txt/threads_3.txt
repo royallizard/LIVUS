@@ -1,0 +1,322 @@
+`09 
+#={G6\
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_mutex_lock
+pthread_mutex_unlock
+Perl_croak_nocontext
+ithread_mg_dup
+boot_threads
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_threads_create
+Perl_newXS
+XS_threads_list
+XS_threads_self
+XS_threads_tid
+XS_threads_join
+XS_threads_yield
+XS_threads_detach
+XS_threads_kill
+XS_threads_DESTROY
+XS_threads_equal
+XS_threads_object
+XS_threads__handle
+XS_threads_get_stack_size
+XS_threads_set_stack_size
+XS_threads_is_running
+XS_threads_is_detached
+XS_threads_is_joinable
+XS_threads_wantarray
+XS_threads_set_thread_exit_only
+XS_threads_error
+Perl_Imodglobal_ptr
+Perl_hv_common_key_len
+Perl_newSV
+Perl_my_cxt_init
+Perl_sv_setuv
+Perl_Iperl_destruct_level_ptr
+pthread_mutex_init
+Perl_Ithreadhook_ptr
+Perl_ithread_hook
+pthread_self
+Perl_Imy_cxt_list_ptr
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_vstringify
+Perl_croak
+Perl_sv_2iv_flags
+Perl_Isv_no_ptr
+Perl_Isv_undef_ptr
+Perl_sv_isobject
+Perl_sv_2mortal
+Perl_newAV
+Perl_Iptr_table_ptr
+Perl_ptr_table_new
+Perl_ptr_table_store
+Perl_sv_dup
+Perl_sv_free2
+Perl_gv_stashpv
+Perl_sv_bless
+Perl_ptr_table_free
+Perl_sv_free
+Perl_sv_2bool
+Perl_newSViv
+Perl_sv_2uv_flags
+Perl_ckwarn
+Perl_warn
+__errno_location
+sysconf
+Perl_sv_upgrade
+Perl_looks_like_number
+Perl_newSVuv
+Perl_newSVrv
+Perl_sv_setiv
+ithread_vtbl
+Perl_sv_magicext
+Perl_sv_unmagic
+Perl_Isignals_ptr
+Perl_whichsig
+Perl_Ipsig_pend_ptr
+Perl_Isig_pending_ptr
+Perl_Gthr_key_ptr
+pthread_setspecific
+perl_destruct
+perl_free
+pthread_mutex_destroy
+pthread_detach
+ithread_mg_free
+sched_yield
+pthread_join
+Perl_av_shift
+Perl_Istack_max_ptr
+Perl_stack_grow
+Perl_mg_size
+Perl_Iop_ptr
+Perl_block_gimme
+Perl_ckwarn_d
+Perl_av_push
+Perl_newRV_noinc
+Perl_Itmps_stack_ptr
+Perl_Itmps_ix_ptr
+malloc
+Perl_PerlIO_flush
+Perl_Isrand_called_ptr
+Perl_save_bool
+perl_clone
+Perl_Iendav_ptr
+Perl_sv_copypv
+Perl_ptr_table_fetch
+Perl_Iexit_flags_ptr
+pthread_attr_setdetachstate
+pthread_attr_setscope
+pthread_create
+pthread_attr_getstacksize
+pthread_attr_setstacksize
+pthread_attr_init
+PL_no_mem
+strlen
+Perl_Istderrgv_ptr
+Perl_PerlIO_stderr
+Perl_PerlIO_fileno
+write
+Perl_my_exit
+Perl_av_len
+Perl_push_scope
+Perl_Idebug_ptr
+Perl_Itmps_floor_ptr
+Perl_save_int
+Perl_Imarkstack_max_ptr
+Perl_Itop_env_ptr
+__sigsetjmp
+Perl_av_store
+Perl_pop_scope
+Perl_Ierrgv_ptr
+Perl_newSVsv
+pthread_getspecific
+Perl_deb
+Perl_free_tmps
+Perl_call_sv
+Perl_Istatusvalue_ptr
+Perl_markstack_grow
+ithread_mg_get
+Perl_sv_backoff
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.1
+|[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+<[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+,[^_
+<[^_]
+[^_]
+[^_]
+<[^_]
+tB;w
+<[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+,[^_]
+,[^_]
+\[^_]
+L[^_]
+L[^_]
+,[^_]
+[^_]
+[^_]
+threads.xs
+XS_VERSION
+%s::%s
+version
+bootstrap parameter
+threads.c
+threads::create
+threads::list
+threads::self
+threads::tid
+threads::join
+threads::yield
+threads::detach
+threads::kill
+threads::DESTROY
+threads::equal
+threads::object
+threads::_handle
+threads::get_stack_size
+threads::set_stack_size
+threads::is_running
+threads::is_detached
+threads::is_joinable
+threads::wantarray
+threads::set_thread_exit_only
+threads::error
+threads::_pool1.67
+Usage: $thr->is_joinable()
+Usage: $thr->is_running()
+Usage: $thr->err()
+PANIC: sysconf: %s
+Stack size must be numeric
+Usage: threads->object($tid)
+Usage: threads->self()
+Usage: $thr->kill('SIG...')
+Unrecognized signal name: %s
+thread->count > 0
+thread->tid != 0
+thread->prev && thread->next
+Cannot detach a joined thread
+Thread already detached
+Usage: $thr->join()
+Thread already joined
+Cannot join a detached thread
+Cannot join self
+PANIC: underlying join failed
+Usage: threads->list(...)
+threads::thread_exit_only
+stack
+stacksize
+context
+Invalid context: %s
+scalar
+void
+exit
+ENTER
+%s scope %ld at %s:%d
+LEAVE
+main
+panic: MUTEX_LOCK (%d) [%s:%d]
+panic: MUTEX_UNLOCK (%d) [%s:%d]
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "threads.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+Assertion %s failed: file "threads.xs", line %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+panic: MUTEX_INIT (%d) [%s:%d]
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+Usage: ->set_thread_exit_only(boolean)
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+Using minimum thread stack size of %ld
+PANIC: sysconf: pagesize unknown
+Usage: threads->set_stack_size($size)
+Cannot change stack size of an existing thread
+Cannot signal threads without safe signals
+((thread->state & 4) && (thread->state & (1|2))) || (thread->state & 16)
+panic: pthread_setspecific (%d) [%s:%d]
+(thread->state & 4) && (thread->state & (1|2))
+panic: MUTEX_DESTROY (%d) [%s:%d]
+Perl exited with active threads:
+	%ld running and unjoined
+	%ld finished and unjoined
+	%ld running and detached
+Usage: threads->create(\%%specs, function, ...)
+Usage: threads->create(function, ...)
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVMG
+((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV
+((((shplep)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV))
+Thread creation failed: pthread_attr_setstacksize(%ld) returned %d
+Thread creation failed: pthread_create returned %d
+Setting up jumplevel %p, was %p
+popping jumplevel was %p, now %p
+Thread %lu terminated abnormally: %-p
+((svtype)((sv)->sv_flags & 0xff)) == SVt_IV || ((svtype)((sv)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVCV
+!((((sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((sv)->sv_flags & 0xff)) == SVt_PVLV))
+threads.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

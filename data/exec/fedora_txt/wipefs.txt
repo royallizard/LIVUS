@@ -1,0 +1,342 @@
+/lib/ld-linux.so.2
+libblkid.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+blkid_probe_lookup_value
+blkid_probe_enable_partitions
+blkid_new_probe
+blkid_new_probe_from_filename
+blkid_probe_set_partitions_flags
+blkid_probe_enable_superblocks
+blkid_probe_get_fd
+blkid_do_probe
+blkid_do_wipe
+blkid_encode_string
+blkid_probe_set_superblocks_flags
+blkid_free_probe
+blkid_probe_set_device
+blkid_probe_is_wholedisk
+libuuid.so.1
+libc.so.6
+_IO_stdin_used
+__printf_chk
+_IO_putc
+setlocale
+strncmp
+dcngettext
+optind
+__strdup
+dcgettext
+__open64_2
+nanosleep
+warnx
+fsync
+abort
+strtoll
+_exit
+strspn
+strtod
+strtol
+fgetc
+calloc
+strlen
+localeconv
+warn
+strcspn
+__errno_location
+open64
+__fxstat64
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+__ctype_b_loc
+getenv
+optarg
+stderr
+ioctl
+__snprintf_chk
+getopt_long
+__fpending
+strchr
+program_invocation_short_name
+__cxa_finalize
+__vasprintf_chk
+errx
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+write
+basename
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+BLKID_2.21
+BLKID_2.18
+BLKID_2.17
+BLKID_2.15
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.7
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+D$|e
+t*;P
+L$d 
+[^_]
+D$<%
+D$\u
+DD$L
+|$h1
+UWVS
+d$,[^_]
+[^_]
+[^_]
+UWVS
+8 tH
+[^_]
+D$<1
+L$<e3
+d$L[^_]
+t$,r
+UWVS
+d$,[^_]
+tT<,tP
+d$,[^_]
+d$,[
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options] <device>
+Options:
+For more details see %s.
+wipefs(8)
+offset               type
+0x%-17jx  %s   [%s]
+LABEL:
+%27s %s
+UUID: 
+# offset,uuid,label,type
+0x%jx,
+cannot allocate string
+cannot allocate %zu bytes
+write error
+SBMAGIC_OFFSET
+SBMAGIC
+PTTYPE
+PTMAGIC_OFFSET
+PTMAGIC
+partition table
+USAGE
+cannot duplicate string
+LABEL
+UUID
+/usr/share/locale
+util-linux
+invalid offset argument
+%s from %s
+util-linux 2.27
+afhno:pqt:V
+HOME
+%s/wipefs-%s-
+%s0x%08jx.bak
+%02x
+%s: offset 0x%jx not found
+ -%c
+ --%s
+backup
+force
+help
+no-act
+offset
+parsable
+quiet
+types
+version
+Wipe signatures from a device.
+ -a, --all           wipe all magic strings (BE CAREFUL!)
+ -b, --backup        create a signature backup in $HOME
+ -f, --force         force erasure
+ -h, --help          show this help text
+ -n, --no-act        do everything except the actual write() call
+ -o, --offset <num>  offset to erase, in bytes
+ -p, --parsable      print out in parsable instead of printable format
+ -q, --quiet         suppress output messages
+ -t, --types <list>  limit the set of filesystem, RAIDs or partition tables
+ -V, --version       output version information and exit
+error: %s: probing initialization failed
+----------------------------------------------------------------
+%s: these options are mutually exclusive:
+The --backup option is meaningless in this context
+failed to create a signature backup, $HOME undefined
+%s: ignoring nested "%s" partition table on non-whole disk device
+%s: failed to create a signature backup
+%s: failed to erase %s magic string at offset 0x%08jx
+%s: %zd bytes were erased at offset 0x%08jx (%s): 
+%s: %zd byte was erased at offset 0x%08jx (%s): 
+Use the --force option to force erase.
+%s: calling ioctl to re-read partition table: %m
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$" 
+wipefs.debug
+7zXZ
+).v=
+.=@M
+ZlP)
+qW|4
+;U+FL
+;e<khr
+ruB/
+Tbb5
+cG(uSX
+siuQO
+9n]%
+pEN0
+>aFU
+XYm9
+Hc7vD
+rZ+J
+|J@~G$S3
+GQq]
+t'X:
+GX$s
++>bYC:
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,440 @@
+/lib64/ld-linux-x86-64.so.2
+libzebra.so.0
+__gmon_start__
+_Jv_RegisterClasses
+master
+thread_master_create
+set_nonblocking
+thread_fetch
+funcname_thread_add_timer
+funcname_thread_add_write
+thread_call
+safe_strerror
+zlog_info
+zlog_notice
+zlog_warn
+funcname_thread_add_timer_msec
+signal_init
+zlog_err
+zlog_default
+pid_output
+zlog_set_level
+funcname_thread_add_read
+thread_cancel
+openzlog
+zlog_debug
+libcap.so.1
+libm.so.6
+libcrypt.so.1
+libc.so.6
+socket
+strcpy
+__printf_chk
+execv
+optind
+strrchr
+__strdup
+perror
+connect
+puts
+fork
+time
+__stack_chk_fail
+daemon
+_exit
+kill
+calloc
+strlen
+memset
+strstr
+__errno_location
+getsockopt
+__fprintf_chk
+setpgid
+sscanf
+optarg
+stderr
+__snprintf_chk
+getopt_long
+fwrite
+gettimeofday
+srandom
+waitpid
+close
+strchr
+__cxa_finalize
+memmove
+access
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/quagga
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z^ 
+%r^ 
+%j^ 
+%b^ 
+%Z^ 
+%R^ 
+%J^ 
+%B^ 
+%:^ 
+%2^ 
+%*^ 
+%"^ 
+%z] 
+%r] 
+%j] 
+%b] 
+%Z] 
+%R] 
+%J] 
+%B] 
+%:] 
+%2] 
+%*] 
+%"] 
+=+Z 
+=oT 
+|$0H
+D$HH
+|$ H
+T$@H
+D$8H
+T$(H
+D$xX
+D$p<
+=jY 
+=gY 
+=aY 
+T$(H9
+D$0M
+=MW 
+T$(I
+D$(H
+D$(H
+RpH9
+t4H9
+gfffffffL
+gfffffffL
+t1H9
+=[P 
+gfffffffL
+;XXu
+-+O 
+l$ L
+d$(L
+l$0H
+AUATUSH
+[]A\A]A^
+=#I 
+=iH 
+=jF 
+=IF 
+=GF 
+D$HI
+D$(H
+%<D 
+=MD 
+=LD 
+=_C 
+d$@M
+=hB 
+=GB 
+D$0L
+=^? 
+=@? 
+D$(L
+D$01
+gfffffffL
+D$h1
+T$hdH3
+\$xL
+l$ H
+gfffffffL
+gfffffffL
+\$0D
+\$0L
+=F7 
+gfffffffH
+T$ H;
+L$(H
+L$(H
+T$ H
+L$(H
+D$x1
+T$xdH3
+l$ L
+t$(L
+|$0H
+Try `%s --help' for more information.
+Usage : %s [OPTION...] <daemon name> ...
+Watchdog program to monitor status of quagga daemons and try to restart
+them if they are down or unresponsive.  It determines whether a daemon is
+up based on whether it can connect to the daemon's vty unix stream socket.
+It then repeatedly sends echo commands over that socket to determine whether
+the daemon is responsive.  If the daemon crashes, we will receive an EOF
+on the socket connection and know immediately that the daemon is down.
+The daemons to be monitored should be listed on the command line.
+This program can run in one of 5 modes:
+0. Mode: %s.
+  Just monitor and report on status changes.  Example:
+    %s -d zebra ospfd bgpd
+1. Mode: %s.
+  Whenever any daemon hangs or crashes, use the given command to restart
+  them all.  Example:
+    %s -dz \
+      -R '/sbin/service zebra restart; /sbin/service ospfd restart' \
+      zebra ospfd
+2. Mode: %s.
+  When any single daemon hangs or crashes, restart only the daemon that's
+  in trouble using the supplied restart command.  Example:
+    %s -dz -r '/sbin/service %%s restart' zebra ospfd bgpd
+3. Mode: %s.
+  The same as the previous mode, except that there is special treatment when
+  the zebra daemon is in trouble.  In that case, a phased restart approach
+  is used: 1. stop all other daemons; 2. restart zebra; 3. start the other
+  daemons.  Example:
+    %s -adz -r '/sbin/service %%s restart' \
+      -s '/sbin/service %%s start' \
+      -k '/sbin/service %%s stop' zebra ospfd bgpd
+4. Mode: %s.
+  This is the same as the previous mode, except that the phased restart
+  procedure is used whenever any of the daemons hangs or crashes.  Example:
+    %s -Adz -r '/sbin/service %%s restart' \
+      -s '/sbin/service %%s start' \
+      -k '/sbin/service %%s stop' zebra ospfd bgpd
+As of this writing, it is believed that mode 2 [%s]
+is not safe, and mode 3 [%s] may not be safe with some of the
+routing daemons.
+In order to avoid attempting to restart the daemons in a fast loop,
+the -m and -M options allow you to control the minimum delay between
+restart commands.  The minimum restart delay is recalculated each time
+a restart is attempted: if the time since the last restart attempt exceeds
+twice the -M value, then the restart delay is set to the -m value.
+Otherwise, the interval is doubled (but capped at the -M value).
+Options:
+-d, --daemon	Run in daemon mode.  In this mode, error messages are sent
+		to syslog instead of stdout.
+-S, --statedir	Set the vty socket directory (default is %s)
+-e, --no-echo	Do not ping the daemons to test responsiveness (this
+		option is necessary if the daemons do not support the
+		echo command)
+-l, --loglevel	Set the logging level (default is %d).
+		The value should range from %d (LOG_EMERG) to %d (LOG_DEBUG),
+		but it can be set higher than %d if extra-verbose debugging
+		messages are desired.
+-m, --min-restart-interval
+		Set the minimum seconds to wait between invocations of daemon
+		restart commands (default is %d).
+-M, --max-restart-interval
+		Set the maximum seconds to wait between invocations of daemon
+		restart commands (default is %d).
+-i, --interval	Set the status polling interval in seconds (default is %d)
+-t, --timeout	Set the unresponsiveness timeout in seconds (default is %d)
+-T, --restart-timeout
+		Set the restart (kill) timeout in seconds (default is %d).
+		If any background jobs are still running after this much
+		time has elapsed, they will be killed.
+-r, --restart	Supply a Bourne shell command to use to restart a single
+		daemon.  The command string should include '%%s' where the
+		name of the daemon should be substituted.
+		Note that -r and -R are incompatible.
+-s, --start-command
+		Supply a Bourne shell to command to use to start a single
+		daemon.  The command string should include '%%s' where the
+		name of the daemon should be substituted.
+-k, --kill-command
+		Supply a Bourne shell to command to use to stop a single
+		daemon.  The command string should include '%%s' where the
+		name of the daemon should be substituted.
+-R, --restart-all
+		When one or more daemons is down, try to restart everything
+		using the Bourne shell command supplied as the argument.
+		Note that -r and -R are incompatible.
+-z, --unresponsive-restart
+		When a daemon is unresponsive, treat it as being down for
+		restart purposes.
+-a, --all-restart
+		When zebra hangs or crashes, restart all daemons using
+		this phased approach: 1. stop all other daemons; 2. restart
+		zebra; 3. start other daemons.  Requires -r, -s, and -k.
+-A, --always-all-restart
+		When any daemon (not just zebra) hangs or crashes, use the
+		same phased restart mechanism described above for -a.
+		Requires -r, -s, and -k.
+-p, --pid-file	Set process identifier file name
+		(default is %s).
+-b, --blank-string
+		When the supplied argument string is found in any of the
+		various shell command arguments (-r, -s, -k, or -R), replace
+		it with a space.  This is an ugly hack to circumvent problems
+		passing command-line arguments with embedded spaces.
+-v, --version	Print program version
+-h, --help	Display this help and exit
+/var/run/quagga/watchquagga.pid
+phased global restart for any failure
+Phase [%s] hanging for %ld seconds, aborting phased restart
+cannot %s %s, previous pid %d still running
+postponing %s %s: elapsed time %ld < retry interval %ld
+fork failed, cannot run command [%s]: %s
+warning: setpgid(0,0) failed: %s
+execv(/bin/sh -c '%s') failed: %s
+Forked background command [pid %d]: %s
+restart %s interval is now %ld
+%s: postponing restart attempt because master %s daemon not up [%s], or phased restart in progress
+postponing phased global restart: restart already in progress [%s], or outstanding child processes [%d]
+postponing phased global restart: elapsed time %ld < retry interval %ld
+Phased restart: stopping all routing daemons.
+error: unknown restart mode %d
+%s state -> unresponsive : no response yet to ping sent %ld seconds ago
+%s: no longer unresponsive (now %s), wakeup should have been cancelled!
+Phased restart: all routing daemon stop jobs have completed.
+Phased restart: all routing daemons now down.
+Phased restart: %s restart job completed.
+Phased global restart has completed.
+SIGCHLD received, but waitpid did not reap a child
+waitpid returned status for an unknown child process %d
+warning: %s %s process %d is stopped
+%s %s process %d terminated due to signal %d
+%s %s process %d exited with non-zero status %d
+%s %s process %d exited normally
+cannot interpret %s %s process %d wait status 0x%x
+Warning: %s %s child process %d still running after %ld seconds, sending signal %d
+Ambiguous operating mode selected.
+Invalid kill command, must contain '%%s': %s
+Invalid loglevel argument: %s
+Invalid min_restart_interval argument: %s
+Invalid max_restart_interval argument: %s
+Invalid interval argument: %s
+Invalid restart command, must contain '%%s': %s
+Invalid restart-all arg, must not contain '%%s': %s
+Invalid start command, must contain '%%s': %s
+Invalid restart timeout argument: %s
+Copyright 2004 Andrew J. Schorr
+aAb:dek:l:m:M:i:p:r:R:S:s:t:T:zvh
+Option -z requires a -r or -R restart option.
+No kill/(re)start commands needed for %s mode.
+No start/kill commands needed in [%s] mode.
+Need start, kill, and restart commands in [%s] mode.
+Must specify one or more daemons to monitor.
+In mode [%s], but cannot find master daemon %s
+Mode [%s] does not make sense with only 1 daemon to watch.
+%s %s watching [%s], mode [%s]
+%s: access to socket %s denied: %s
+%s(%s): cannot make socket: %s
+%s(%s): set_nonblocking(%d) failed
+connection attempt timed out after %ld seconds
+%s state -> down : initial connection attempt failed
+write '%s' returned %d instead of %u
+unexpected read returns %d bytes: %.*s
+read returned bad echo response of %d bytes (expecting %u): %.*s
+%s state -> up : echo response received after %ld.%06ld seconds
+%s: slow echo response finally received after %ld.%06ld seconds
+%s: echo response received after %ld.%06ld seconds
+%s: check_connect: getsockopt failed: %s
+getsockopt failed checking connection success
+getsockopt reports that connection attempt failed: %s
+Waiting for other daemons to come down
+phased zebra restart
+individual daemon restart
+global restart
+monitor
+/var/run/quagga
+phase_hanging
+attempting to %s %s
+/bin/sh
+restart_kill
+stop
+wakeup_unresponsive
+Phased restart: %s is now up.
+%s state -> up : %s
+wakeup_send_echo
+waitpid failed: %s
+(unknown)
+background
+Terminating on signal
+strdup
+%d%1s
+%ld%1s
+Invalid timeout argument: %s
+0.99.6
+%s version %s
+Invalid option.
+calloc(1,%u) failed: %s
+wakeup_init
+zebra
+%s: attempting to connect
+%s/%s.vty
+%s(%s): connect failed: %s
+%s: connection in progress
+check_connect
+wakeup_connect_hanging
+handle_read
+%s state -> down : %s
+%s still down : %s
+wakeup_down
+wakeup_no_answer
+unexpected read error: %s
+read returned EOF
+delayed connect succeeded
+daemon
+statedir
+no-echo
+loglevel
+restart-timeout
+start-command
+kill-command
+restart-all
+always-all-restart
+unresponsive-restart
+min-restart-interval
+max-restart-interval
+pid-file
+blank-string
+help
+version
+None
+Stop jobs running
+Zebra restart job running
+Waiting for zebra to come up
+Start jobs running
+Init
+Down
+Connecting
+Unresponsive
+try_connect
+echo PING
+PING
+watchquagga.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

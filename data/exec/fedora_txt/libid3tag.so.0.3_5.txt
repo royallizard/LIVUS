@@ -1,0 +1,630 @@
+:JxD
+oJ c
+_	)|
+%<&m
+vWAU
+<580
+GSd9
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+id3_version
+id3_copyright
+id3_author
+id3_build
+id3_ucs4_empty
+id3_ucs4_length
+id3_ucs4_size
+id3_ucs4_latin1size
+id3_ucs4_utf16size
+id3_ucs4_utf8size
+id3_ucs4_latin1duplicate
+malloc
+id3_latin1_encode
+id3_ucs4_utf16duplicate
+id3_utf16_encode
+id3_ucs4_utf8duplicate
+id3_utf8_encode
+id3_ucs4_copy
+id3_ucs4_duplicate
+id3_ucs4_putnumber
+id3_ucs4_getnumber
+id3_latin1_length
+id3_latin1_size
+id3_latin1_copy
+id3_latin1_duplicate
+id3_latin1_ucs4duplicate
+id3_latin1_decode
+id3_latin1_decodechar
+id3_latin1_encodechar
+id3_latin1_put
+id3_latin1_get
+id3_latin1_serialize
+id3_latin1_deserialize
+free
+id3_utf16_length
+id3_utf16_size
+id3_utf16_ucs4duplicate
+id3_utf16_decode
+id3_utf16_decodechar
+id3_utf16_encodechar
+id3_utf16_put
+id3_utf16_get
+id3_utf16_serialize
+id3_utf16_deserialize
+id3_utf8_length
+id3_utf8_size
+id3_utf8_ucs4duplicate
+id3_utf8_decode
+id3_utf8_decodechar
+id3_utf8_encodechar
+id3_utf8_put
+id3_utf8_get
+id3_utf8_serialize
+__stack_chk_fail
+id3_utf8_deserialize
+id3_parse_int
+__assert_fail
+id3_parse_uint
+id3_parse_syncsafe
+id3_parse_immediate
+id3_parse_latin1
+memchr
+memcpy
+id3_parse_string
+id3_parse_binary
+id3_render_immediate
+id3_render_syncsafe
+id3_render_int
+id3_render_binary
+id3_render_latin1
+id3_render_string
+id3_render_padding
+memset
+id3_render_paddedstring
+id3_field_init
+id3_field_finish
+id3_field_type
+id3_field_parse
+realloc
+id3_field_render
+id3_field_setint
+id3_field_settextencoding
+id3_field_setlatin1
+id3_field_setfulllatin1
+id3_field_setstring
+id3_field_setfullstring
+id3_field_setstrings
+id3_field_addstring
+id3_field_setlanguage
+strlen
+strcpy
+id3_field_setframeid
+id3_frame_validid
+id3_field_setbinarydata
+id3_field_getint
+id3_field_gettextencoding
+id3_field_getlatin1
+id3_field_getfulllatin1
+id3_field_getstring
+id3_field_getfullstring
+id3_field_getnstrings
+id3_field_getstrings
+id3_field_getframeid
+id3_field_getbinarydata
+id3_frametype_text
+id3_frametype_url
+id3_frametype_experimental
+id3_frametype_unknown
+id3_frametype_obsolete
+id3_frametype_lookup
+strncmp
+id3_compat_lookup
+id3_compat_fixup
+strcmp
+id3_tag_findframe
+id3_frame_new
+id3_tag_attachframe
+id3_frame_delete
+id3_genre_index
+id3_genre_name
+id3_genre_number
+id3_frame_addref
+id3_frame_delref
+id3_frame_field
+id3_frame_parse
+id3_util_deunsynchronise
+id3_util_decompress
+id3_frame_render
+id3_util_compress
+id3_util_unsynchronise
+id3_crc_compute
+compress2
+uncompress
+id3_tag_new
+id3_tag_delete
+id3_tag_clearframes
+id3_tag_addref
+id3_tag_delref
+id3_tag_version
+id3_tag_options
+id3_tag_setlength
+id3_tag_detachframe
+id3_tag_query
+id3_tag_parse
+id3_tag_render
+fgetpos
+fread
+fsetpos
+qsort
+ftell
+fseek
+rewind
+clearerr
+strdup
+id3_file_open
+fopen
+fclose
+id3_file_fdopen
+dup2
+id3_file_close
+id3_file_tag
+fwrite
+fflush
+fileno
+ftruncate
+id3_file_update
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libid3tag.so.0
+GLIBC_2.4
+GLIBC_2.2.5
+%z.!
+%r.!
+%j.!
+%b.!
+%Z.!
+%R.!
+%J.!
+%B.!
+%:.!
+%2.!
+%*.!
+%".!
+%z-!
+%r-!
+%j-!
+%b-!
+%Z-!
+%R-!
+%J-!
+%B-!
+%:-!
+%2-!
+%*-!
+%"-!
+%z,!
+%r,!
+%j,!
+%b,!
+%Z,!
+%R,!
+%J,!
+%B,!
+%:,!
+%2,!
+%*,!
+%",!
+%z+!
+%r+!
+%j+!
+%b+!
+%Z+!
+%R+!
+%J+!
+%B+!
+%:+!
+%2+!
+%*+!
+%"+!
+ATSubH
+=(&!
+=O$!
+AVAUATSI
+u!Ic
+[A\A]A^
+AVAUATSI
+u Ic
+[A\A]A^
+Ru-H
+Cu*H
+@8;E
+@8;E
+@8;E
+@8;E
+<Tu(H
+<3t1H
+<IusH
+@(H;E
+@(;E
+@(;E
+@(;E
+ID3 Tag Library 0.15.1 (beta)
+Copyright (C) 2000-2004 Underbit Technologies, Inc.
+Underbit Technologies, Inc. <info@underbit.com>
+parse.c
+bytes >= 1 && bytes <= 4
+bytes == 4 || bytes == 5
+value
+bytes == 8 || bytes == 4 || bytes == 3
+id3_parse_immediate
+id3_parse_syncsafe
+id3_parse_uint
+id3_parse_int
+render.c
+value
+bytes == 8 || bytes == 4 || bytes == 3
+bytes == 4 || bytes == 5
+bytes >= 1 && bytes <= 4
+length <= 30
+id3_render_paddedstring
+id3_render_int
+id3_render_syncsafe
+id3_render_immediate
+field.c
+field
+XXXX
+field && encoding
+data
+field && length
+field->binary.length == 0 || field->binary.data
+id3_field_getbinarydata
+id3_field_getframeid
+id3_field_getstrings
+id3_field_getnstrings
+id3_field_getfullstring
+id3_field_getstring
+id3_field_getfulllatin1
+id3_field_getlatin1
+id3_field_gettextencoding
+id3_field_getint
+id3_field_setbinarydata
+id3_field_setframeid
+id3_field_setlanguage
+id3_field_addstring
+id3_field_setstrings
+id3_field_setfullstring
+id3_field_setstring
+id3_field_setfulllatin1
+id3_field_setlatin1
+id3_field_settextencoding
+id3_field_setint
+id3_field_render
+id3_field_parse
+id3_field_type
+id3_field_finish
+id3_field_init
+Unknown text information frame
+Unknown URL link frame
+Experimental frame
+Unknown frame
+Obsolete frame
+ENCR
+Encryption method registration
+POPM
+Popularimeter
+WCOM
+Commercial information
+SEEK
+Seek frame
+USER
+Terms of use
+GEOB
+General encapsulated object
+TCOM
+Composer
+COMR
+Commercial frame
+COMM
+Comments
+TCON
+Content type
+PCNT
+Play counter
+POSS
+Position synchronisation frame
+ETCO
+Event timing codes
+TPE2
+Band/orchestra/accompaniment
+SYTC
+Synchronised tempo codes
+TENC
+Encoded by
+TDOR
+Original release time
+OWNE
+Ownership frame
+AENC
+Audio encryption
+TDEN
+Encoding time
+TSSE
+Software/hardware and settings used for encoding
+TRSN
+Internet radio station name
+SYLT
+Synchronised lyric/text
+WOAR
+Official artist/performer webpage
+TSST
+Set subtitle
+TOWN
+File owner/licensee
+TRSO
+Internet radio station owner
+TLEN
+Length
+WPUB
+Publishers official webpage
+TSOT
+Title sort order
+TOFN
+Original filename
+TSRC
+ISRC (international standard recording code)
+TMED
+Media type
+RVRB
+Reverb
+TOLY
+Original lyricist(s)/text writer(s)
+TOPE
+Original artist(s)/performer(s)
+TPRO
+Produced notice
+TPUB
+Publisher
+WPAY
+Payment
+TPOS
+Part of a set
+WORS
+Official Internet radio station homepage
+TMOO
+Mood
+TRCK
+Track number/position in set
+TKEY
+Initial key
+TDLY
+Playlist delay
+RVA2
+Relative volume adjustment (2)
+TDRC
+Recording time
+USLT
+Unsynchronised lyric/text transcription
+WOAF
+Official audio file webpage
+TDTG
+Tagging time
+SIGN
+Signature frame
+WOAS
+Official audio source webpage
+TPE1
+Lead performer(s)/soloist(s)
+TALB
+Album/movie/show title
+TSOA
+Album sort order
+TLAN
+Language(s)
+TPE3
+Conductor/performer refinement
+WCOP
+Copyright/legal information
+TPE4
+Interpreted, remixed, or otherwise modified by
+TMCL
+Musician credits list
+TBPM
+BPM (beats per minute)
+TDRL
+Release time
+TOAL
+Original album/movie/show title
+TSOP
+Performer sort order
+ZOBS
+EQU2
+Equalisation (2)
+TCOP
+Copyright message
+LINK
+Linked information
+GRID
+Group identification registration
+PRIV
+Private frame
+TFLT
+File type
+MLLT
+MPEG location lookup table
+TEXT
+Lyricist/text writer
+UFID
+Unique file identifier
+APIC
+Attached picture
+ASPI
+Audio seek point index
+TIT2
+Title/songname/content description
+WXXX
+User defined URL link frame
+MCDI
+Music CD identifier
+TIPL
+Involved people list
+TXXX
+User defined text information frame
+RBUF
+Recommended buffer size
+TIT1
+Content group description
+TIT3
+Subtitle/description refinement
+compat.gperf
+frame->nfields == 2
+TYER
+YTYE
+TDAT
+YTDA
+TIME
+YTIM
+data
+ZOBS
+TDRC
+id3_compat_fixup
+translate_TCON
+TLEN
+ETCO
+USLT
+TFLT
+TCOM
+COMM
+WCOM
+TLAN
+TBPM
+TCOP
+TOAL
+EQUA
+TDOR
+WCOP
+TOPE
+TIT3
+TMED
+POPM
+MLLT
+RVAD
+WOAR
+SYLT
+SYTC
+TKEY
+TSRC
+TPOS
+TSSE
+AENC
+TPE4
+UFID
+TOLY
+TPUB
+MCDI
+TPE3
+WPUB
+TRDA
+TDLY
+TALB
+TSIZ
+WOAS
+TEXT
+PCNT
+TOFN
+TCON
+TRCK
+TIT2
+TORY
+TENC
+TIT1
+WOAF
+APIC
+TXXX
+WXXX
+RVRB
+TPE2
+TPE1
+RBUF
+TIPL
+GEOB
+LINK
+IPLS
+frame.c
+frame
+frame && frame->refcount > 0
+ZOBS
+id3_frame_render
+id3_frame_field
+id3_frame_delref
+id3_frame_addref
+id3_frame_delete
+MGiI
+tag.c
+tag && tag->refcount > 0
+tag && frame
+data
+COMM
+TIT2
+TPE1
+TALB
+TDRC
+TRCK
+TCON
+id3_tag_render
+id3_tag_parse
+id3_tag_query
+id3_tag_findframe
+id3_tag_detachframe
+id3_tag_attachframe
+id3_tag_clearframes
+id3_tag_setlength
+id3_tag_options
+id3_tag_version
+id3_tag_delref
+id3_tag_addref
+id3_tag_delete
+file.c
+index < file->ntags
+SEEK
+path
+file
+!data || length == 128
+!data || length > 0
+v1size == sizeof(id3v1_data)
+id3_file_update
+v2_write
+v1_write
+id3_file_tag
+id3_file_close
+id3_file_open
+del_filetag
+libid3tag.so.0.3.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

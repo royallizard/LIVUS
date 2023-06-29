@@ -1,0 +1,372 @@
+/lib64/ld-linux-x86-64.so.2
+libpam.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+pam_open_session
+pam_start
+pam_strerror
+pam_getenvlist
+pam_end
+libpolkit-gobject-1.so.0
+g_free
+g_object_unref
+g_strcmp0
+g_strdup
+g_list_foreach
+g_list_free
+g_ptr_array_add
+g_assertion_message_expr
+g_strdup_printf
+g_ptr_array_free
+g_str_has_prefix
+g_type_check_instance_cast
+g_strsplit
+g_file_get_contents
+g_strerror
+g_error_free
+g_strfreev
+g_ptr_array_new
+g_log
+polkit_action_description_get_annotation
+polkit_unix_process_get_start_time
+polkit_unix_process_get_pid
+polkit_authorization_result_get_dismissed
+polkit_details_new
+polkit_authority_check_authorization_sync
+polkit_authority_enumerate_actions_sync
+polkit_action_description_get_action_id
+polkit_action_description_get_type
+polkit_unix_process_get_type
+polkit_unix_process_new_for_owner
+polkit_authorization_result_get_is_authorized
+polkit_unix_process_get_uid
+polkit_authority_get_sync
+polkit_details_insert
+polkit_authorization_result_get_is_challenge
+libpolkit-agent-1.so.0
+g_print
+g_printerr
+g_getenv
+polkit_agent_text_listener_new
+polkit_agent_listener_register
+polkit_agent_listener_unregister
+libgobject-2.0.so.0
+g_type_init
+libglib-2.0.so.0
+g_get_user_name
+g_setenv
+g_ptr_array_foreach
+g_get_current_dir
+g_find_program_in_path
+g_get_home_dir
+g_build_filename
+g_strdup_vprintf
+g_strjoinv
+libpthread.so.0
+__errno_location
+fcntl
+libc.so.6
+execv
+setregid
+initgroups
+setreuid
+__stack_chk_fail
+clearenv
+getppid
+prctl
+openlog
+strstr
+chdir
+__syslog_chk
+setgroups
+ttyname
+putenv
+getgid
+getuid
+getegid
+getpwnam_r
+geteuid
+strchr
+__cxa_finalize
+__xstat
+access
+strcmp
+__libc_start_main
+sysconf
+_edata
+__bss_start
+__libc_csu_fini
+_IO_stdin_used
+__data_start
+__libc_csu_init
+GLIBC_2.2.5
+LIBPAM_1.0
+GLIBC_2.4
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+%z= 
+%r= 
+%j= 
+%b= 
+%Z= 
+%R= 
+%J= 
+%B= 
+%:= 
+%2= 
+%*= 
+%"= 
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+AWAVAUATLc
+5D: 
+=i: 
+=c: 
+[]A\A]A^A_
+t$pL
+8/t$H
+D$`L
+D$XH
+t$ H
+|$XH
+D$`H
+t$P1
+D$(1
+D$`H
+L$8H
+D$0H
+T$0H
+D$8H
+t$ 1
+L$ E1
+t$(H
+T$ H
+D$PH
+t$ A
+|$0H
+5[. 
+\$(H
+|$0H
+t$ L
+D$0u(H
+|$0H
+D$@A
+D$PH
+D$`H
+%#* 
+L$XH
+T$HH
+D$8H
+|$XH
+|$X1
+D$PL
+|$0H
+t$0H
+D$PL
+|$0H
+t$ L
+|$0A
+t$ L
+|$0L
+D$0M
+T$@H
+D$8;
+|$XH
+A;D$
+%P& 
+A;D$
+%=& 
+A;D$
+%*& 
+A;D$
+t$(L
+=!% 
+fffff.
+fffff.
+=w$ 
+fffff.
+ffffff.
+ATUA
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+50# 
+52# 
+[]A\
+AWAVA
+AUATL
+[]A\A]A^A_
+pkexec.c
+unknown
+pkexec
+SHELL
+LANG
+LINGUAS
+LANGUAGE
+LC_COLLATE
+LC_CTYPE
+LC_MESSAGES
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LC_ALL
+COLORTERM
+DISPLAY
+XAUTHORITY
+pkexec must be setuid root
+Error getting user name.
+Error getting cwd: %s
+--help
+--version
+--user
+polkit
+--user specified twice
+--disable-internal-agent
+0.113
+pkexec version %s
+root
+User `%s' does not exist.
+Cannot run program %s: %s
+Error accessing %s: %s
+/etc/shells
+HOME
+.Xauthority
+Error getting authority: %s
+Error enumerating actions: %s
+user.gecos
+%s (%s)
+user.display
+program
+command_line
+polkit.message
+polkit-1
+polkit.gettext_domain
+PATH
+LOGNAME
+USER
+PKEXEC_UID
+Error becoming uid 0: %s
+pam_start() failed: %s
+XDG_RUNTIME_DIR=
+Error setting groups: %s
+Executing command
+Error executing %s: %s
+argv[argc] == NULL
+subject != NULL
+exec_argv != NULL
+action_id != NULL
+%s: %s [USER=%s] [TTY=%s] [CWD=%s] [COMMAND=%s]
+http://www.freedesktop.org/wiki/Software/polkit
+http://lists.freedesktop.org/mailman/listinfo/polkit-devel
+pkexec --version |
+       --help |
+       --disable-internal-agent |
+       [--user username] [PROGRAM] [ARGUMENTS...]
+See the pkexec manual page for more details.
+Report bugs to: %s
+%s home page: <%s>
+Error getting information for user `%s': %s
+No shell configured or error retrieving pw_shell
+Error getting contents of /etc/shells: %s
+The value for environment variable %s contains suscipious content
+This incident has been reported.
+Error clearing environment: %s
+prctl(PR_SET_PDEATHSIG, SIGTERM) failed: %s
+Refusing to render service to dead parents.
+org.freedesktop.policykit.exec.path
+org.freedesktop.policykit.exec.argv1
+org.freedesktop.policykit.exec.allow_gui
+org.freedesktop.policykit.exec
+Authentication is needed to run `$(program)' as the super user
+Authentication is needed to run `$(program)' as user $(user.display)
+Error checking for authorization %s: %s
+Error creating textual authentication agent: %s
+Error registering local authentication agent: %s
+Error executing command as another user: No authentication agent found.
+Error executing command as another user: Request dismissed
+Error executing command as another user: Not authorized
+/usr/bin:/bin:/usr/sbin:/sbin:%s/bin
+/usr/sbin:/usr/bin:/sbin:/bin:%s/bin
+Error setting environment variable %s to '%s': %s
+pam_open_session() failed: %s
+Error initializing groups for %s: %s
+Error becoming real+effective uid %d and gid %d: %s
+Error changing to home directory %s: %s
+The value for the SHELL variable was not found the /etc/shells file
+polkit_unix_process_get_pid (POLKIT_UNIX_PROCESS (subject)) == pid_of_caller
+polkit_unix_process_get_uid (POLKIT_UNIX_PROCESS (subject)) >= 0
+polkit_unix_process_get_start_time (POLKIT_UNIX_PROCESS (subject)) > 0
+Error setting close-on-exec for file desriptors
+pam_conversation_function
+open_session
+main
+;*3$"
+pkexec.debug
+7zXZ
+g3i]
+r:|2
+rxiI
+:&X%d\
+|Cgpx
+pXIq
+(Umj|
+?+	S
+VP#)
+D=U~-
+@KHM
+TmN_
+2%f=#
+,smh
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

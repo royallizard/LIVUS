@@ -1,0 +1,175 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+GetTimeOfDay
+convert_timeval_to_timespec
+convert_timespec_to_time_t
+localtime
+lp_parm_const_string
+talloc_tos
+talloc_asprintf
+pdb_get_domain
+strlen
+DEBUGLEVEL_CLASS
+write_data
+dbghdrclass
+dbgtext
+str_checksum
+smb_vfs_call_pwrite
+fsp_str_dbg
+smb_vfs_call_write
+smb_vfs_call_pread
+smb_vfs_call_vfs_read
+close
+_talloc_free
+strstr
+smb_vfs_call_connect
+strcmp
+strtol
+_talloc_zero
+talloc_strdup
+getaddrinfo
+socket
+freeaddrinfo
+__errno_location
+gai_strerror
+__memcpy_chk
+open_socket_out
+rep_strlcpy
+__stack_chk_fail
+smb_vfs_call_disconnect
+init_samba_module
+smb_register_vfs
+debug_add_class
+libc.so.6
+_edata
+__bss_start
+_end
+smb_traffic_analyzer.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5j  
+%l  
+%j  
+%b  
+%Z  
+%R  
+%J  
+%B  
+%:  
+%2  
+%*  
+%"  
+ATSubH
+[A\]
+D$xH
+T$pH
+D$xA
+t$pD
+D$hD
+L$`D
+t$pD
+D$hD
+L$`D
+T$XH
+t$8H
+D$0D
+L$(M
+T$ L
+$$H)
+L$PH
+T$pH
+C uZ
+AUATUH
+fA;]
+[]A\A]A^A_
+L$@L
+\$@H
+d$PH
+|$@H
+modules/vfs_smb_traffic_analyzer.c:171
+%s() failed to get vfs_handle->data!
+modules/vfs_smb_traffic_analyzer.c:175
+smb_traffic_analyzer_send_data: socket is closed
+V1,%u,"%s","%s","%c","%s","%s","%04d-%02d-%02d %02d:%02d:%02d.%03d"
+modules/vfs_smb_traffic_analyzer.c:239
+smb_traffic_analyzer_send_data_socket: sending %s
+modules/vfs_smb_traffic_analyzer.c:242
+smb_traffic_analyzer_send_data_socket: error sending data to socket!
+modules/vfs_smb_traffic_analyzer.c:399
+smb_traffic_analyzer_pwrite: PWRITE: %s
+modules/vfs_smb_traffic_analyzer.c:383
+smb_traffic_analyzer_write: WRITE: %s
+modules/vfs_smb_traffic_analyzer.c:365
+smb_traffic_analyzer_pread: PREAD: %s
+modules/vfs_smb_traffic_analyzer.c:347
+smb_traffic_analyzer_read: READ: %s
+modules/vfs_smb_traffic_analyzer.c:263
+modules/vfs_smb_traffic_analyzer.c:309
+modules/vfs_smb_traffic_analyzer.c:121
+smb_traffic_analyzer_connect_unix_socket: Unix domain socket mode. Using %s
+modules/vfs_smb_traffic_analyzer.c:126
+smb_traffic_analyzer_connect_unix_socket: Couldn't create socket, make sure stad is running!
+modules/vfs_smb_traffic_analyzer.c:136
+smb_traffic_analyzer_connect_unix_socket: Could not connect to socket, make sure
+stad is running!
+modules/vfs_smb_traffic_analyzer.c:72
+smb_traffic_analyzer_connect_inet_socket: getaddrinfo failed for name %s [%s]
+modules/vfs_smb_traffic_analyzer.c:77
+smb_traffic_analyzer: Internet socket mode. Hostname: %s,Port: %i
+modules/vfs_smb_traffic_analyzer.c:103
+smb_traffic_analyzer: unable to create socket, error is %s
+modules/vfs_smb_traffic_analyzer.c:327
+modules/vfs_smb_traffic_analyzer.c:434
+smb_traffic_analyzer_init: Couldn't register customdebugging class!
+modules/vfs_smb_traffic_analyzer.c:438
+smb_traffic_analyzer_init: Debug class number of'smb_traffic_analyzer': %d
+total_anonymization
+smb_traffic_analyzer
+anonymize_prefix
+%s%i
+/var/tmp/stadsocket
+internet_socket
+mode
+unix_domain_socket
+localhost
+9430
+port
+struct refcounted_sock
+init_samba_module
+smb_traffic_analyzer_pwrite
+smb_traffic_analyzer_send_data
+smb_traffic_analyzer_write
+smb_traffic_analyzer_pread
+smb_traffic_analyzer_read
+smb_traffic_analyzer_connect_unix_socket
+smb_traffic_analyzer_connect_inet_socket
+smb_traffic_analyzer.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

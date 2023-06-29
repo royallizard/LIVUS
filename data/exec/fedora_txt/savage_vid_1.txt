@@ -1,0 +1,114 @@
+P8b:
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+enable_app_io
+puts
+vixGetVersion
+vixProbe
+pci_scan
+pci_device_name
+__printf_chk
+pci_info
+strerror
+vixInit
+stderr
+fwrite
+calloc
+mtrr_set_type
+vixDestroy
+unmap_phys_mem
+vixGetCapability
+vixQueryFourcc
+vixSetGrKeys
+vixPlaybackGetEq
+equal
+vixPlaybackSetEq
+vixConfigPlayback
+vixPlaybackOff
+debugout
+vixPlaybackOn
+mclk_save
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+savage_vid.so
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.0
+UWVS
+T$(u
+:3Su
+[^_]
+[^_]
+UWVS
+d$,1
+[^_]
+YUY2t6v$
+YVYUt,
+UYVYt$
+UWVS
+YUY2t0v
+YVYUt&
+UYVYt
+d$,[^_]
+YUY2
+UYVY
+YV12
+d$,1
+[^_]
+I420
+YV12
+YUY2
+Y211
+I420
+d$ [1
+YV12t 
+YUY2t
+Y211
+SavageSetColorKey disabling colour key
+[savage_vid]: warning: forcing not supported yet!
+[savage_vid] Error occurred during pci scan: %s
+[savage_vid] unable to setup MTRR: %s
+screen_x = %d, screen_y = %d, bpp = %d
+[savage_vid] colour keying disabled
+[savage_vid] set colour key 0x%x
+Unknown chip
+[savage_vid] Found chip: %s
+[savage_vid] Can't find chip
+vixInit enter 
+###### videoRam = %d
+[savage_vid] MTRR set up
+$#### destination pitch = %u
+Savage/ProSavage/Twister vidix
+Reza Jelveh <reza.jelveh@tuhh.de>
+ @ savage_vid.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

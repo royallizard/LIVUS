@@ -1,0 +1,341 @@
+hk,2
+ zm@fg
+50AX
+Y/>=f
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+_db_params
+__snprintf_chk
+db_con_get
+Exception_stack
+pthread_getspecific
+pthread_setspecific
+_setjmp
+SQLException
+db_con_close
+trace
+__assert_fail
+db_stmt_prepare
+db_stmt_set_str
+db_stmt_query
+db_result_get
+g_strdup
+g_list_prepend
+db_result_next
+Exception_throw
+__stack_chk_fail
+auth_connect
+auth_disconnect
+auth_user_exists
+db_user_exists
+auth_get_known_users
+db_query
+g_list_append
+auth_get_known_aliases
+auth_getclientid
+db_result_get_u64
+auth_getmaxmailsize
+auth_getencryption
+auth_check_user_ext
+g_list_destroy
+strtoull
+g_malloc0
+auth_adduser
+db_user_create
+auth_delete_user
+db_user_delete
+auth_change_username
+db_user_rename
+auth_change_password
+strlen
+db_stmt_set_u64
+db_stmt_exec
+auth_change_clientid
+db_update
+auth_change_mailboxsize
+db_change_mailboxsize
+auth_validate
+Cram_getUsername
+strncpy
+db_use_usermap
+db_usermap_resolve
+strcasecmp
+dm_md5
+strncmp
+g_free
+Cram_verify
+dm_tiger
+crypt
+strcmp
+db_user_log_login
+dm_md5_base64
+dm_whirlpool
+dm_sha512
+dm_sha256
+dm_sha1
+auth_md5_validate
+g_strdup_printf
+auth_get_userid
+auth_check_userid
+auth_addalias
+db_con_clear
+auth_addalias_ext
+auth_removealias
+auth_removealias_ext
+auth_get_user_aliases
+auth_get_aliases_ext
+auth_requires_shadow_user
+libgmime-2.6.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent-2.0.so.5
+libssl.so.10
+libzdb.so.7
+libcrypt.so.1
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libauth_sql.so.0
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+5*g 
+%,g 
+%*g 
+%"g 
+%zf 
+%rf 
+%jf 
+%bf 
+%Zf 
+%Rf 
+%Jf 
+%Bf 
+%:f 
+%2f 
+%*f 
+%"f 
+%ze 
+=Pe 
+ATSubH
+=`c 
+[A\]
+=@` 
+=&` 
+T$ H
+-_a 
+-a` 
+fffff.
+ffff.
+ffff.
+t$ H
+-g^ 
+-i] 
+L$ H
+t$ H
+L$ H
+t$0H
+-iX 
+L$0H
+t$0H
+-iU 
+L$0H
+t$ H
+-CR 
+L$ H
+[]A\A]A^A_
+fff.
+4$dH
+t$0H
+D$(H
+L$0H
+fff.
+fffff.
+AUATUSH
+T$'t&H
+[]A\A]
+t$@H
+|$(H
+-:G 
+L$@H
+D$<E1
+fffff.
+t$0H
+L$ dH
+t$@H
+|$0H
+L$0H
+|$(H
+D$<1
+L$@H
+L$ L
+t$ H
+t$ H
+-s; 
+-); 
+L$ H
+t$ H
+-99 
+L$ H
+-78 
+T$@H
+t$ dH
+D$8H
+D$8H
+L$ L
+T$@H
+|$ dH
+D$8H
+D$8H
+t$@1
+t$@1
+T$(L
+L$ L
+t$0H
+L$0H
+t$0H
+L$0H
+t$ H
+-w% 
+-y$ 
+L$ H
+t$ H
+L$ H
+SELECT deliver_to FROM %saliases WHERE lower(alias) = lower(?) AND lower(alias) <> lower(deliver_to)
+pthread_setspecific((Exception_stack), (&Exception_frame))==0
+pthread_setspecific((Exception_stack), (((Exception_Frame*)pthread_getspecific((Exception_stack)))->prev))==0
+SELECT userid FROM %susers ORDER BY userid
+SELECT alias FROM %saliases ORDER BY alias
+SELECT client_idnr FROM %susers WHERE user_idnr = %llu
+SELECT maxmail_size FROM %susers WHERE user_idnr = %llu
+SELECT encryption_type FROM %susers WHERE user_idnr = %llu
+too many checks. Possible loop detected.
+[%d] checking user [%s] in alias table
+adding [%s] to deliver_to address
+UPDATE %susers SET passwd = ?, encryption_type = ? WHERE user_idnr=?
+UPDATE %susers SET client_idnr = %llu WHERE user_idnr=%llu
+SELECT passwd, encryption_type FROM %susers WHERE user_idnr = %llu
+validating using plaintext passwords
+validating using crypt() encryption
+validating using MD5 digest comparison
+validating using MD5 hash comparison
+validating using MD5 digest base64 comparison
+validating using WHIRLPOOL hash comparison
+validating using SHA-512 hash comparison
+validating using SHA-256 hash comparison
+validating using SHA-1 hash comparison
+validating using TIGER hash comparison
+SELECT passwd FROM %susers WHERE user_idnr = %llu
+checkstring for md5 [%s] -> result [%s]
+validating md5_apop_we=[%s] md5_apop_he=[%s]
+user [%s] is validated using APOP
+user [%s] could not be validated
+SELECT userid FROM %susers WHERE user_idnr = %llu
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND deliver_to = ? AND client_idnr = ?
+alias [%s] for user [%llu] already exists
+INSERT INTO %saliases (alias,deliver_to,client_idnr) VALUES (?,?,?)
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND lower(deliver_to) = lower(?) AND client_idnr = ? 
+SELECT alias_idnr FROM %saliases WHERE lower(alias) = lower(?) AND lower(deliver_to) = lower(?) 
+alias [%s] --> [%s] already exists
+DELETE FROM %saliases WHERE deliver_to=? AND lower(alias) = lower(?)
+DELETE FROM %saliases WHERE lower(deliver_to) = lower(?) AND lower(alias) = lower(?)
+SELECT alias FROM %saliases WHERE deliver_to = '%llu' ORDER BY alias
+SELECT deliver_to FROM %saliases WHERE alias = '%s' ORDER BY alias DESC
+authsql.c
+SQLException: %s
+auth
+client_idnr != ((void *)0)
+maxmail_size != ((void *)0)
+user_idnr > 0
+user %s not in aliases table
+checking user %s to %s
+new password length is insane
+user_idnr != ((void *)0)
+username or password is NULL
+__public__
+crypt
+salt   : %s
+hash   : %s
+crypt(): %s
+md5sum
+md5base64
+whirlpool
+sha512
+sha256
+sha1
+tiger
+apop_stamp=[%s], userpw=[%s]
+%s%s
+auth_get_known_users
+auth_get_known_users
+auth_get_known_aliases
+auth_get_known_aliases
+auth_getclientid
+auth_getclientid
+auth_getmaxmailsize
+auth_getmaxmailsize
+auth_getencryption
+auth_getencryption
+auth_check_user_ext
+user_get_deliver_to
+user_get_deliver_to
+auth_change_password
+auth_change_password
+auth_validate
+auth_validate
+auth_md5_validate
+auth_md5_validate
+auth_get_userid
+auth_get_userid
+auth_check_userid
+auth_check_userid
+auth_addalias
+auth_addalias
+auth_addalias_ext
+auth_addalias_ext
+auth_removealias
+auth_removealias
+auth_removealias_ext
+auth_removealias_ext
+auth_get_user_aliases
+auth_get_user_aliases
+auth_get_aliases_ext
+auth_get_aliases_ext
+;*3$"
+libauth_sql.so.0.0.0.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,384 @@
+/lib64/ld-linux-x86-64.so.2
+free
+GLIBC_2.2.5
+libc.so.6
+strcmp
+__sprintf_chk
+GLIBC_2.3.4
+__libc_start_main
+fscanf
+getopt_long
+optarg
+calloc
+swapoff
+__stack_chk_fail
+GLIBC_2.4
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+mlockall
+exit
+_Unwind_Resume
+GCC_3.0
+reboot
+setsid
+__bss_start
+_edata
+_end
+fread
+open
+libpthread.so.0
+getpid
+execv
+umask
+access
+_exit
+__strdup
+fopen
+closedir
+umount2
+mount
+__lxstat
+syscall
+malloc
+ioctl
+__xmknod
+symlink
+mkfifo
+fork
+getenv
+__rawmemchr
+sync
+sigemptyset
+sigaddset
+sigprocmask
+__errno_location
+nftw
+GLIBC_2.3.3
+internal_hashmap_free
+waitpid
+getpgid
+set_iterate
+timespec_store
+sigtimedwait
+opendir
+parse_pid
+set_put
+get_ctty_devnr
+__cxa_finalize
+kill
+readdir
+internal_hashmap_size
+get_process_uid
+pid_from_same_root_fs
+get_process_comm
+internal_set_new
+internal_hashmap_remove
+log_oom_internal
+is_efi_boot
+cg_is_legacy_wanted
+cg_is_unified_wanted
+mac_smack_use
+log_parse_environment
+log_close_console
+log_open
+cg_get_root_path
+watchdog_ping
+cg_trim
+execute_directories
+in_initrd
+make_console_stdio
+wait_for_terminate_and_warn
+read_one_line_file
+freeze
+switch_root
+log_set_max_level_from_string
+log_set_target_from_string
+log_show_color_from_string
+log_show_color
+log_show_location_from_string
+log_show_location
+safe_atou8
+log_assert_failed_unreachable
+udev_device_get_devnum
+safe_close
+udev_new
+udev_enumerate_new
+udev_enumerate_add_match_subsystem
+udev_enumerate_add_match_sysname
+udev_enumerate_add_match_sysattr
+udev_enumerate_scan_devices
+udev_enumerate_get_list_entry
+udev_list_entry_get_name
+udev_device_new_from_syspath
+udev_device_get_devnode
+udev_list_entry_get_next
+udev_device_unref
+udev_unref
+udev_enumerate_unref
+endswith
+fstab_filter_options
+path_equal
+detect_container
+log_get_max_level
+log_internal
+cunescape
+path_startswith
+safe_fclose
+log_assert_failed
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-231.so
+/usr/lib/systemd
+a_&	
+AWAVAUATS
+_AXA
+AYAZ
+A[A^H
+AYAZ
+AYAZ
+CEXE
+=gE#
+=CEXE
+AVAUATSH
+[A\A]A^]
+AWAVAUATA
+[A\A]A^A_]
+StZH
+AWAVAUATSH
+_AXL
+[A\A]A^A_]
+St:H
+AWAVA
+AUATL
+[]A\A]A^A_
+fffff.
+ DM devices,
+ loop devices,
+ swap devices,
+ file systems,
+src/core/shutdown.c
+argc >= 1
+argv
+Excess arguments, ignoring
+Unhandled option code.
+Verb argument missing.
+Not executed by init (PID 1).
+reboot
+poweroff
+halt
+kexec
+exit
+Unknown action '%s'.
+WATCHDOG_USEC
+name=systemd
+/proc/self/mountinfo
+Unmounting file systems.
+src/core/umount.c
+/sys/fs/cgroup/
+/sys
+/proc
+All filesystems unmounted.
+/proc/swaps
+Deactivating swaps.
+%*s %*s %*s %*s %*s
+%ms %*s %*s %*s %*s
+ (deleted)
+Deactivating swap %s.
+All swaps deactivated.
+Detaching loop devices.
+block
+loop*
+loop/backing_file
+Detaching loopback %s.
+All loop devices detached.
+Detaching DM devices.
+dm-*
+Detaching DM %u:%u.
+major(devnum) != 0
+/dev/mapper/control
+Could not detach DM %s: %m
+All DM devices detached.
+/run/initramfs/shutdown
+/run/initramfs
+/oldroot
+/shutdown
+Rebooting with kexec.
+/run/systemd/reboot-param
+Failed to fork: %m
+/usr/sbin/kexec
+Rebooting with argument '%s'.
+Rebooting.
+Powering off.
+Halting system.
+Unknown magic
+Exiting container.
+Failed to invoke reboot(): %m
+/dev
+log-level
+log-target
+log-color
+log-location
+exit-code
+sysfs
+proc
+devtmpfs
+mode=755
+securityfs
+/sys/kernel/security
+smackfs
+/sys/fs/smackfs
+smackfsdef=*
+tmpfs
+/dev/shm
+mode=1777,smackfsroot=*
+mode=1777
+devpts
+/dev/pts
+mode=620,gid=5
+/run
+mode=755,smackfsroot=*
+cgroup
+/sys/fs/cgroup
+cgroup2
+/sys/fs/cgroup/systemd
+none,name=systemd,xattr
+none,name=systemd
+pstore
+/sys/fs/pstore
+efivarfs
+/sys/firmware/efi/efivars
+/proc/self/cmdline
+/proc/%i/cmdline
+src/core/killall.c
+sigemptyset(&mask) == 0
+kill(-1, SIGSTOP) failed: %m
+Could not kill %d: %m
+kill(-1, SIGCONT) failed: %m
+waitpid() failed: %m
+sigtimedwait() failed: %m
+head
+*_head == _item
+/usr
+Unmounting %s.
+Could not unmount %s: %m
+Failed to parse log level %s, ignoring.
+Failed to parse log target %s, ignoring
+Failed to parse log color setting %s, ignoring
+Failed to parse log location setting %s, ignoring
+Failed to parse exit code %s, ignoring
+Sending SIGTERM to remaining processes...
+Sending SIGKILL to remaining processes...
+%*s %*s %*s %*s %ms %*s%*[^-]- %*s %*s%ms%*[^
+Failed to parse /proc/self/mountinfo:%u.
+Not all file systems unmounted, %d left.
+Failed to unmount file systems: %m
+Failed to parse /proc/swaps:%u.
+Could not deactivate swap %s: %m
+Not all swaps deactivated, %d left.
+Failed to deactivate swaps: %m
+Could not detach loopback %s: %m
+Not all loop devices detached, %d left.
+Failed to detach loop devices: %m
+Not all DM devices detached, %d left.
+Failed to detach DM devices: %m
+All filesystems, swaps, loop devices, DM devices detached.
+Cannot finalize remaining%s%s%s%s continuing.
+After %u retries, couldn't finalize remaining %s%s%s%s trying again.
+Too many iterations, giving up.
+Failed to mount bind /run/initramfs on /run/initramfs: %m
+Failed to make /run/initramfs private mount: %m
+Successfully changed into root pivot.
+Returning to initrd...
+Failed to execute shutdown binary: %m
+Failed to switch root to "/run/initramfs": %m
+Failed to finalize %s%s%s%s ignoring
+Failed to read reboot parameter file: %m
+Failed to reboot with parameter, retrying without: %m
+Critical error while doing system shutdown: %m
+/usr/lib/systemd/system-shutdown
+Process %i (%s) has been marked to be excluded from killing. It is running from the root file system, and thus likely to block re-mounting of the root file system to read-only. Please consider moving it into an initrd file system instead.
+sigaddset(&mask, SIGCHLD) == 0
+sigprocmask(SIG_BLOCK, &mask, &oldmask) == 0
+Sending SIGKILL to PID %i (%s).
+sigtimedwait() returned unexpected signal.
+sigprocmask(SIG_SETMASK, &oldmask, NULL) == 0
+Remounting '%s' read-only with options '%s'.
+parse_argv
+parse_argv
+/sys/fs/selinux
+/proc/sys
+/dev/console
+/proc/kmsg
+mount_points_list_get
+swap_list_get
+swap_points_list_off
+loopback_points_list_detach
+delete_dm
+dm_points_list_detach
+switch_root_initramfs
+main
+main
+ignore_proc
+wait_for_children
+killall
+broadcast_signal
+broadcast_signal
+mount_point_free
+mount_points_list_free
+mount_points_list_umount
+mount_points_list_umount
+;*3$"
+zPLR
+.0u.
+. `.
+. a.
+gold 1.11
+systemd-shutdown.debug
+7zXZ
+{xJ5
+B}]:
+sTvr
+u|bA
+L2 ``m
+9z&@"
+oAKJ
+WkpA
+K	,g
+@l(vc
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

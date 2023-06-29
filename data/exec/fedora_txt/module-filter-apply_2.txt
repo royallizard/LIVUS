@@ -1,0 +1,314 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_idxset_string_hash_func
+strcmp
+pa_xfree
+pa_log_level_meta
+abort
+pa_idxset_isempty
+pa_hashmap_iterate
+pa_hashmap_remove
+pa_module_unload_request_by_index
+__stack_chk_fail
+pa_rtclock_now
+pa_core_rttime_new
+pa_xmalloc
+pa_xstrdup
+pa_source_output_type_id
+pa_sink_input_type_id
+pa_proplist_gets
+pa_proplist_get_stream_group
+pa_object_type_id
+pa_hashmap_size
+pa_source_type_id
+pa_proplist_sets
+pa_source_output_move_to
+pa_proplist_unset
+pa_sink_type_id
+pa_sink_input_move_to
+pa_idxset_first
+pa_idxset_next
+pa_sprintf_malloc
+pa_hashmap_get
+pa_module_load
+pa_hashmap_put
+module_filter_apply_LTX_pa__get_author
+module_filter_apply_LTX_pa__get_description
+module_filter_apply_LTX_pa__get_version
+module_filter_apply_LTX_pa__load_once
+module_filter_apply_LTX_pa__get_usage
+dcgettext
+module_filter_apply_LTX_pa__done
+pa_hook_slot_free
+pa_hashmap_steal_first
+pa_hashmap_free
+module_filter_apply_LTX_pa__init
+pa_modargs_new
+pa_xmalloc0
+pa_modargs_get_value_boolean
+pa_hashmap_new
+pa_hook_connect
+pa_modargs_free
+libpulsecore-6.0.so
+libpulsecommon-6.0.so
+libpulse.so.0
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-filter-apply.so
+/usr/lib64/pulseaudio
+GLIBC_2.4
+GLIBC_2.2.5
+52K 
+%4K 
+%2K 
+%*K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+=IJ 
+fffff.
+=	J 
+fffff.
+=RE 
+fffff.
+F(H9G(u
+fff.
+AUATUSH
+H;qh
+[]A\A]
+fffff.
+ATU1
+t6D9`
+[]A\
+fff.
+AUATI
+[]A\A]
+=cC 
+=4C 
+ATUSH
+%QB 
+[]A\
+ATUSH
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+=!? 
+Du M
+=X= 
+[]A\A]A^A_
+=R< 
+AWAVI
+AUATH
+([]A\A]A^A_
+fffff.
+AWAVAUATUSH
+D$(1
+=q8 
+d$ H
+I;_ 
+tPI;_(u
+I;_ tlA
+L$(dH3
+8[]A\A]A^A_
+=.7 
+AWAVAUATUSH
+D$(1
+= 6 
+d$ H
+tPI;_
+L$(dH3
+8[]A\A]A^A_
+={4 
+AWAVA
+AUATI
+D$H1
+SHE1
+D$,H
+t$@@
+D$0I
+T$ H
+T$ u
+|$0H
+L$HdH3
+X[]A\A]A^A_
+SHE1
+D$,1
+t$@1
+L9h u
+|$8A
+L$ u
+|$0H
+D$ L
+t$@H
+L;q`u
+D$ A
+L$0H
+t=L;q`u
+T$ H
+t$ I
+D$ A
+ATUSH
+[]A\1
+AUATUSH
+-Y) 
+[]A\A]
+[]A\A]1
+ffffff.
+ATUSH
+[]A\1
+ATUSH
+[]A\
+ATUSH
+%q% 
+[]A\
+AUATUSH
+[]A\A]
+[]A\A]
+fff.
+ATUS
+modules/module-filter-apply.c
+Housekeeping Done.
+sink || source
+filter.apply
+pa_sink_input_isinstance(o)
+./pulsecore/sink-input.h
+./pulsecore/source-output.h
+./pulsecore/object.h
+./pulsecore/core.h
+(null)
+sink-input
+source-output
+filter
+application.name
+filter.apply.moving
+pa_sink_isinstance(o)
+./pulsecore/sink.h
+pa_source_isinstance(o)
+./pulsecore/source.h
+echo-cancel
+source_master=
+sink_master=
+filter.suppress
+module-%s
+autoloaded=1 %s%s %s%s
+Unable to load %s
+Colin Guthrie
+pulseaudio
+autoclean
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+e == u->housekeeping_time_event
+Detected filter %s as no longer used. Unloading.
+pa_source_output_isinstance(o)
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Failed to move %s for "%s" to <%s>.
+Successfully moved %s for "%s" to <%s>.
+Stream appears to be playing on an appropriate sink already. Ignoring.
+Want group filtering but don't have enough streams.
+Loading %s with arguments '%s'
+sink->input_to_master != ((void *)0)
+source->output_from_master != ((void *)0)
+Load filter sinks automatically when needed
+autoclean=<automatically unload unused filters?>
+Failed to parse module arguments
+Failed to parse autoclean value
+module_filter_apply_LTX_pa__done
+module_filter_apply_LTX_pa__done
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+sink_input_unlink_cb
+sink_input_unlink_cb
+pa_sink_assert_ref
+pa_sink_assert_ref
+sink_unlink_cb
+sink_unlink_cb
+find_filters_for_module
+find_filters_for_module
+filter_new
+filter_new
+process
+housekeeping_time_callback
+housekeeping_time_callback
+trigger_housekeeping
+trigger_housekeeping
+pa_source_output_assert_ref
+pa_source_output_assert_ref
+source_output_unlink_cb
+source_output_unlink_cb
+filter_free
+filter_free
+pa_source_cast
+pa_source_cast
+pa_sink_cast
+pa_sink_cast
+move_object_for_filter
+move_object_for_filter
+pa_source_output_cast
+pa_source_output_cast
+pa_sink_input_cast
+pa_sink_input_cast
+pa_object_cast
+pa_object_cast
+pa_source_assert_ref
+pa_source_assert_ref
+pa_core_assert_ref
+pa_core_assert_ref
+source_unlink_cb
+source_unlink_cb
+module_filter_apply_LTX_pa__init
+module_filter_apply_LTX_pa__init
+;*3$"
+module-filter-apply.so.debug
+7zXZ
+a\G*
+am/=d)
+dN}I
+MVx<
+=[-=9 
+6{?b-X
+W_Ws~Q@u
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

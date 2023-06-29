@@ -1,0 +1,329 @@
+FDH@X@
+I#N@
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+MHD_get_connection_values
+MHD_get_connection_info
+MHD_lookup_connection_value
+strcasecmp
+strchr
+MHD_set_connection_value
+strlen
+__sprintf_chk
+MHD_get_response_header
+memcpy
+strcpy
+MHD_add_response_header
+time
+gmtime_r
+abort
+shutdown
+close
+memmove
+sscanf
+__errno_location
+strerror
+pthread_mutex_lock
+pthread_mutex_unlock
+MHD_queue_response
+MHD_create_response_from_data
+MHD_destroy_response
+strcat
+setsockopt
+MHD_get_daemon_info
+sigaction
+tfind
+tdelete
+free
+pthread_kill
+pthread_join
+MHD_stop_daemon
+pthread_mutex_destroy
+MHD_get_timeout
+select
+MHD_get_fdset
+send
+recv
+MHD_start_daemon_va
+malloc
+vfprintf
+stderr
+__fprintf_chk
+socket
+bind
+listen
+pthread_mutex_init
+fcntl
+pthread_create
+MHD_start_daemon
+accept
+tsearch
+MHD_run
+memset
+munmap
+mmap64
+MHD_destroy_post_processor
+__memcpy_chk
+strncasecmp
+__strdup
+strstr
+MHD_post_process
+MHD_create_post_processor
+MHD_get_response_headers
+MHD_create_response_from_callback
+strcmp
+MHD_del_response_header
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+libmicrohttpd.so.5
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+[^_]
+[^_]
+[^_]
+;NHt
+tA9w
+tZ9w
+[^_]
+B0#B4
+[^_]
+FP#FT
+[^_]
+V4+E
+@43VX3F\	
+x43P01
+G0#G4
+G$)G<)G@
+[^_]
+[^_]
+;G<u
+<	tm< ti
+d$,[^_]
+d$,[^_]
+d$,1
+[^_]
+V@9V<u
+d$|[^_]
+;Fhv
+FH;FL
+<;t 
+@d t!
+d$<[^_]
+d$<[^_]
+d$<[^_]
+9Vtw
+d$<[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+kBtx
+H<9U
+d$$[]
+[^_]
+d$<[^_]
+d$$[]
+[^_]
+V49}
+;H0t{
+d$l[^_]
+d$l1
+[^_]
+<0=u
+D7\<
+d$,[^_]
+[^_]
+d$,[^_]
+d$L[^_]
+d$L[^_]
+u	9M
+d$L[^_]
+F,ud
+[^_]
+[^_]
+[^_]
+[^_]
+d$,1
+[^_]
+[^_]
+u19u
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+d$ ^_]
+Received malformed line (no colon), closing connection.
+Date: %3s, %02u %3s %04u %02u:%02u:%02u GMT
+Received malformed HTTP request (bad chunked encoding), closing connection.
+Internal application error, closing connection.
+Error %u (`%s') processing request, closing connection.
+Closing connection (failed to create response header)
+Not enough memory to allocate header record!
+<html><head><title>Request too big</title></head><body>Your HTTP header was too big for the memory constraints of this webserver.</body></html>
+<html><head><title>Request malformed</title></head><body>Your HTTP request was syntactically incorrect.</body></html>
+Failed to create memory pool!
+<html><head><title>Internal server error</title></head><body>Some programmer needs to study the manual more carefully.</body></html>
+Not enough memory to parse cookies!
+Received `%s' request without `%s' header.
+<html><head><title>&quot;Host:&quot; header required</title></head><body>In HTTP 1.1, requests must include a &quot;Host:&quot; header, and your HTTP 1.1 request lacked such a header.</body></html>
+Failed to parse `%s' header `%s', closing connection.
+Connection
+close
+HTTP/1.1
+Transfer-Encoding
+chunked
+Content-Length
+%llu
+%s %u %s
+Date
+Not enough memory for write!
+%s: %s
+Failed to send data: %s
+HTTP/1.1 100 Continue
+Failed to receive data: %s
+HEAD
+Cookie
+Host
+Expect
+100-continue
+Unknown
+Continue
+Switching Protocols
+Processing
+Created
+Accepted
+Non-Authoritative Information
+No Content
+Reset Content
+Partial Content
+Multi Status
+Multiple Choices
+Moved Permanently
+Moved Temporarily
+See Other
+Not Modified
+Use Proxy
+Switch Proxy
+Temporary Redirect
+Bad Request
+Unauthorized
+Payment Required
+Forbidden
+Not Found
+Method Not Allowed
+Not Acceptable
+Proxy Authentication Required
+Request Time-out
+Conflict
+Gone
+Length Required
+Precondition Failed
+Request Entity Too Large
+Request-URI Too Large
+Unsupported Media Type
+Expectation Failed
+Unprocessable Entity
+Locked
+Failed Dependency
+Unordered Collection
+Upgrade Required
+Retry With
+Internal Server Error
+Not Implemented
+Bad Gateway
+Service Unavailable
+Gateway Time-out
+HTTP Version not supported
+Variant Also Negotiates
+Insufficient Storage
+Bandwidth Limit Exceeded
+Not Extended
+Requested Range Not Satisfiable
+0.4.2
+Call to socket failed: %s
+setsockopt failed: %s
+select failed: %s
+Error allocating memory: %s
+Failed to acquire IP connection limit mutex
+Failed to release IP connection limit mutex
+Failed to find previously-added IP address
+Previously-added IP address had 0 count
+Error during select (%d): `%s'
+MHD HTTPS option %d passed to MHD compiled without HTTPS support
+Invalid option %d! (Did you terminate the list with MHD_OPTION_END?)
+MHD thread pooling only works with MHD_USE_SELECT_INTERNALLY
+Failed to bind to port %u: %s
+Failed to listen for connections: %s
+MHD failed to initialize IP connection limit mutex
+Failed to create listen thread: %s
+Failed to create pool thread: %d
+Error accepting connection: %s
+Failed to add IP connection count node
+Server reached connection limit (closing inbound connection)
+Failed to create a thread: %s
+connection url received
+header partially received
+headers received
+headers processed
+continue sending
+continue sent
+body received
+footer partially received
+footers received
+headers sending
+headers sent
+normal body ready
+normal body unready
+chunked body ready
+chunked body unready
+body sent
+footers sending
+footers sent
+closed
+secure connection init
+secure hello request
+secure handshake failed
+secure handshake _complete
+unrecognized connection state
+|<%d>| %s
+Content-disposition: 
+filename
+Content-type: 
+Content-Transfer-Encoding: 
+multipart/form-data
+multipart/mixed
+boundary=
+Content-Type
+application/x-www-form-urlencoded
+libmicrohttpd.so.5.1.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

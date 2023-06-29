@@ -1,0 +1,152 @@
+/lib/ld-linux.so.2
+libpolkit-gobject-1.so.0
+g_main_loop_unref
+_ITM_deregisterTMCloneTable
+g_object_unref
+g_free
+g_variant_unref
+g_variant_builder_end
+g_assertion_message_expr
+g_variant_builder_add
+g_variant_builder_init
+g_strdup_printf
+__gmon_start__
+g_main_loop_new
+g_main_loop_run
+g_type_check_instance_cast
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+g_error_free
+polkit_unix_process_get_start_time
+polkit_unix_process_get_pid
+polkit_system_bus_name_new
+polkit_unix_process_get_type
+polkit_unix_process_new_for_owner
+polkit_unix_process_get_uid
+polkit_unix_process_new
+polkit_authority_get_sync
+polkit_unix_process_new_full
+libpolkit-agent-1.so.0
+g_print
+g_printerr
+polkit_agent_text_listener_new
+polkit_agent_listener_register_with_options
+polkit_agent_listener_unregister
+libgobject-2.0.so.0
+g_quark_to_string
+g_type_init
+libglib-2.0.so.0
+g_variant_new_boolean
+g_option_context_set_description
+g_option_context_new
+g_get_prgname
+g_option_context_add_main_entries
+g_option_context_free
+g_option_context_parse
+libpthread.so.0
+close
+libc.so.6
+_IO_stdin_used
+__isoc99_sscanf
+dcgettext
+getppid
+getuid
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+__libc_csu_fini
+_fp_hw
+__data_start
+__libc_csu_init
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.7
+[^_]
+D$P1
+9D$$
+T$$xN
+[^_]
+fallback
+notify-fd
+process
+PID[,START_TIME]
+system-bus-name
+BUS_NAME
+Show version
+polkit
+polkit-1
+%s: %s
+%s: Unexpected argument `%s'
+0.112
+pkttyagent version %s
+%i,%llu
+a{sv}
+subject != NULL
+pkttyagent.c
+Don't replace existing agent if any
+Close FD when the agent is registered
+Register the agent for the specified process
+Register the agent owner of BUS_NAME
+Report bugs to: %s
+%s home page: <%s>
+http://www.freedesktop.org/wiki/Software/polkit
+http://lists.freedesktop.org/mailman/listinfo/polkit-devel
+%s: Invalid process specifier `%s'
+Refusing to render service to dead parents.
+Error getting authority: %s (%s, %d)
+Error creating textual authentication agent: %s (%s, %d)
+Error registering authentication agent: %s (%s, %d)
+Error closing notify-fd %d: %m
+polkit_unix_process_get_pid (POLKIT_UNIX_PROCESS (subject)) == pid_of_caller
+polkit_unix_process_get_uid (POLKIT_UNIX_PROCESS (subject)) >= 0
+polkit_unix_process_get_start_time (POLKIT_UNIX_PROCESS (subject)) > 0
+main
+;*2$",
+pkttyagent.debug
+7zXZ
+Cms>
+Q)^2[
+;'?(q
+bh3mU
+kNJ-h6
+TIq(
+cpw5aSt
+wiHq}U
+hEK'
+PRcEC
+kCwDt!
+\Vde
+]2["
+R,fh
+u Ym
+.Ld-
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

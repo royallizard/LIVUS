@@ -1,0 +1,174 @@
+/lib64/ld-linux-x86-64.so.2
+libslp.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+SLPAssociateIFList
+SLPFindAttrs
+SLPFindScopes
+SLPFindSrvs
+SLPDereg
+SLPClose
+SLPFindSrvTypes
+SLPReg
+SLPFree
+SLPAssociateIP
+SLPGetProperty
+SLPOpen
+libnsl.so.1
+libresolv.so.2
+libcrypto.so.10
+libc.so.6
+__printf_chk
+__strdup
+puts
+__stack_chk_fail
+strcasecmp
+__strncpy_chk
+strncasecmp
+strchr
+__cxa_finalize
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+mySLPRegReport
+myAttrCallback
+__libc_csu_init
+mySrvUrlCallback
+mySrvTypeCallback
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z2 
+%r2 
+%j2 
+%b2 
+%Z2 
+%R2 
+%J2 
+%B2 
+%:2 
+%22 
+%*2 
+%"2 
+D$81
+L$8dH3
+=R0 
+fffff.
+=x, 
+=b, 
+ATUH
+D$x1
+|$(H
+D$xdH3
+[]A\A]
+ffff.
+AVAUI
+[]A\A]A^A_
+[]A\A]A^A_
+%s,%i
+errorcode: %i
+service:
+Invalid URL: %s
+1.2.1
+slptool version = %s
+net.slp.OpenSLPVersion
+libslp version = %s
+net.slp.OpenSLPConfigFile
+%s = %s
+--version
+--scopes
+--lang
+findsrvsusingiflist
+unicastfindsrvs
+unicastfindattrs
+findattrsusingiflist
+unicastfindsrvtypes
+findsrvtypesusingiflist
+deregister
+getproperty
+   options may be:
+      findattrs url [attrids]
+      findscopes
+      register url [attrs]
+      deregister url
+Examples:
+(de)registration errorcode %d
+libslp configuration file = %s
+Usage: slptool [options] command-and-arguments 
+      -v (or --version) displays version of slptool and OpenSLP
+      -s (or --scope) followed by a comma separated list of scopes
+      -l (or --language) followed by a language tag
+   command-and-arguments may be:
+      findsrvs service-type [filter]
+      findsrvsusingiflist interface-list service-type [filter]
+      unicastfindsrvs ip-address service-type [filter]
+      unicastfindattrs ip-address url [attrids]
+      findattrsusingiflist interface-list url [attrids]
+      findsrvtypes [authority]
+      unicastfindsrvtypes [authority]
+      findsrvtypesusingiflist interface-list [authority]
+      getproperty propertyname
+   slptool register service:myserv.x://myhost.com "(attr1=val1),(attr2=val2)"
+   slptool findsrvs service:myserv.x
+   slptool findsrvs service:myserv.x "(attr1=val1)"
+   slptool findsrvsusingiflist 10.77.13.240,192.168.250.240 service:myserv.x
+   slptool findsrvsusingiflist 10.77.13.243 service:myserv.x "(attr1=val1)"
+   slptool unicastfindsrvs 10.77.13.237 service:myserv.x
+   slptool unicastfindsrvs 10.77.13.237 service:myserv.x "(attr1=val1)"
+   slptool findattrs service:myserv.x://myhost.com
+   slptool findattrs service:myserv.x://myhost.com attr1
+   slptool unicastfindattrs 10.77.13.237 service:myserv.x
+   slptool unicastfindattrs 10.77.13.237 service:myserv.x://myhost.com attr1 
+   slptool findattrsusingiflist 10.77.13.240,192.168.250.240 service:myserv.x://myhost.com
+   slptool findattrsusingiflist 10.77.13.243 service:myserv.x://myhost.com attr1
+   slptool deregister service:myserv.x://myhost.com
+   slptool getproperty net.slp.useScopes
+;*3$"
+slptool.debug
+7zXZ
+bd2-
+Jk (M
+u!EGI
+unMz%6d[a[
+C}pk
+,T.R
+m6t>
+MA*,
+wlq&
+anr1,
+8{3[
+h,l\Z
+*pIM
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

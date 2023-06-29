@@ -1,0 +1,182 @@
+td$-
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+doveadm_mail_cmd_alloc_size
+doveadm_mail_help_name
+acl_user_module
+array_idx_modifiable_i
+mail_namespace_find
+mailbox_alloc
+mailbox_open
+i_error
+mail_storage_get_last_error
+mailbox_free
+mailbox_get_namespace
+acl_mailbox_get_aclobj
+acl_mailbox_list_get_backend
+i_info
+pool_datastack_create
+acl_object_get_my_rights
+t_strarray_join
+str_array_find
+acl_backend_nonowner_lookups_iter_init
+acl_backend_nonowner_lookups_iter_next
+strcmp
+acl_backend_nonowner_lookups_iter_deinit
+acl_lookup_dict_is_enabled
+acl_lookup_dict_iterate_visible_init
+acl_lookup_dict_iterate_visible_next
+acl_lookup_dict_iterate_visible_deinit
+t_str_new
+imap_write_flags
+str_c
+acl_backend_nonowner_lookups_rebuild
+i_fatal
+acl_lookup_dict_rebuild
+mailbox_list_get_path
+str_array_length
+doveadm_print_init
+doveadm_print_header
+doveadm_print
+acl_object_list_init
+acl_object_list_next
+t_push
+acl_backend_rights_match_me
+t_strconcat
+str_append
+str_len
+str_append_c
+t_pop_check
+acl_object_list_deinit
+i_panic
+acl_identifier_parse
+acl_object_update
+buffer_create_dynamic
+buffer_append
+all_mailbox_rights
+buffer_append_space_unsafe
+memset
+doveadm_acl_plugin_init
+doveadm_mail_register_cmd
+doveadm_acl_plugin_deinit
+doveadm_acl_plugin_version
+cmd_mailbox_status
+cmd_mailbox_unsubscribe
+cmd_mailbox_subscribe
+cmd_mailbox_rename
+cmd_mailbox_delete
+cmd_mailbox_create
+cmd_mailbox_list
+cmd_move
+cmd_altmove
+cmd_index
+cmd_import
+cmd_fetch
+cmd_search
+cmd_expunge
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+lib10_doveadm_acl_plugin.so
+GLIBC_2.1.3
+GLIBC_2.0
+mt	1
+d$ [^_
+D$,t
+[^_]
+d$<[
+d$<[
+UWVS
+D$<t
+d$L[^_]
+UWVS
+T$<1
+t$X1
+t$`1
+d$|[^_]
+acl debug
+ACL not enabled for %s
+Can't open mailbox %s: %s
+Failed to get rights
+User %s has rights: %s
+lookup
+acl_lookup_dict not enabled
+Retrying after rebuilds:
+Mailbox %s is visible in LIST
+acl delete
+acl set
+table
+acl rights
+Rights
+acl get
+Global
+global
+anyone
+authenticated
+owner
+user=
+group=
+group-override=
+doveadm-acl.c
+file %s: line %d: unreached
+ACL iteration failed
+Invalid ID: %s
+Failed to set ACL
+Invalid right '%s'
+../../../src/lib/array.h
+2.0.15
+[-m] <mailbox>
+<mailbox> <id>
+No namespace found for mailbox %s
+All message flags are shared across users in mailbox
+Per-user private flags in mailbox: %s
+User %s has no rights for mailbox
+User %s is missing 'lookup' right
+Mailbox in user's private namespace
+ACL non-owner iteration failed
+Mailbox not found from dovecot-acl-list, rebuilding
+dovecot-acl-list rebuilding failed
+Mailbox is in public namespace
+ACL shared dict iteration failed
+User %s not found from ACL shared dict, rebuilding
+ACL lookup dict rebuild failed
+User %s found from ACL shared dict
+Mailbox found from dovecot-acl-list
+Mailbox '%s' doesn't exist in %s
+ACL not enabled for user %s, mailbox can be accessed
+Mailbox %s is NOT visible in LIST
+idx * array->element_size < array->buffer->used
+file %s: line %d (%s): assertion failed: (%s)
+<mailbox> <id> <right> [<right> ...]
+array_idx_i
+;*2$"
+lib10_doveadm_acl_plugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

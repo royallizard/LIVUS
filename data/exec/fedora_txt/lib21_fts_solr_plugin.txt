@@ -1,0 +1,359 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+default_pool
+str_append
+solr_connection_http_escape
+str_append_c
+str_escape
+mail_namespace_find_prefix
+mailbox_get_virtual_uid
+mail_namespace_get_vname
+solr_connection_post
+utf8_replacement_char
+str_append_n
+uni_utf8_get_char_n
+uni_utf8_non1_bytes
+strlen
+str_printfa
+mailbox_get_status
+t_push
+t_str_new
+str_c
+t_pop_check
+buffer_append_space_unsafe
+memset
+p_strdup
+mail_namespace_update_name
+__ctype_b_loc
+mail_namespace_fix_sep
+mailbox_get_namespace
+str_len
+str_data
+solr_connection_post_more
+solr_connection_post_end
+str_free
+solr_connection_post_begin
+fts_solr_user_module
+array_idx_modifiable_i
+i_strdup
+fts_backend_solr
+mail_namespace_find_inbox
+solr_connection_init
+i_fatal
+i_panic
+str_truncate
+fts_backend_default_can_index
+pool_datastack_create
+buffer_create_dynamic
+solr_connection_select
+i_error
+mailbox_get_virtual_box_patterns
+buffer_set_used_size
+mail_user_plugin_getenv
+t_strsplit_spaces
+array_idx_set_i
+fts_solr_plugin_init
+fts_backend_register
+mail_storage_hooks_add
+fts_solr_plugin_deinit
+fts_backend_unregister
+mail_storage_hooks_remove
+fts_solr_plugin_dependencies
+mail_user_module_register
+fts_solr_plugin_version
+t_strndup
+i_strconcat
+strtod
+i_strndup
+memcpy
+XML_GetErrorCode
+XML_GetCurrentLineNumber
+XML_ErrorString
+XML_Parse
+seq_range_array_add
+curl_multi_perform
+curl_multi_info_read
+curl_multi_fdset
+curl_multi_timeout
+curl_easy_strerror
+curl_multi_strerror
+curl_multi_init
+curl_easy_init
+curl_easy_setopt
+curl_slist_append
+XML_ParserCreate
+i_fatal_status
+solr_connection_deinit
+curl_slist_free_all
+curl_multi_cleanup
+curl_easy_cleanup
+curl_easy_escape
+curl_free
+XML_ParserReset
+XML_SetElementHandler
+XML_SetCharacterDataHandler
+XML_SetUserData
+curl_easy_perform
+curl_easy_getinfo
+curl_multi_add_handle
+curl_multi_remove_handle
+lib20_fts_plugin.so
+libcurl.so.4
+libexpat.so.1
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+lib21_fts_solr_plugin.so
+/usr/lib64/dovecot
+GLIBC_2.3
+GLIBC_2.14
+GLIBC_2.2.5
+5*O 
+%,O 
+%*O 
+%"O 
+%zN 
+%rN 
+%jN 
+%bN 
+%ZN 
+%RN 
+%JN 
+%BN 
+%:N 
+%2N 
+%*N 
+%"N 
+%zM 
+%rM 
+%jM 
+%bM 
+%ZM 
+%RM 
+%JM 
+%BM 
+%:M 
+%2M 
+%*M 
+%"M 
+%zL 
+%rL 
+%jL 
+ATSubH
+=HI 
+[A\]
+fffff.
+=1L 
+AUATM
+[]A\A]A^A_
+fff.
+ffff.
+AWAVAUI
+tvE1
+([]A\A]A^A_
+5jE 
+fff.
+\$PH
+l$XL
+d$`H
+\$XH
+l$`L
+d$hL
+l$pH
+AVAUATI
+[]A\A]A^A_
+ffffff.
+ffff.
+ATUH
+%tbA
+<*tL<%tHH
+[]A\
+[]A\
+H;\$
+l$ H
+[]A\
+ATU1
+=vB 
+t#<!t,</H
+/tJ@
+ffffff.
+ATUSH
+=#@ 
+[]A\
+l$ H
+l$ H
+ffffff.
+=M< 
+l$ H
+AVAUATUH
+=>; 
+[]A\A]A^
+T$\H
+AWAVAUATI
+T$0H
+t$ H
+D$0H
+L$ 1
+t$8H
+H[]A\A]A^A_
+=k6 
+AWAVI
+ATUH
+T$ L
+T$0H
+T$,H
+=N4 
+[]A\A]A^A_
+d$xH
+=d3 
+L$pH
+AUATUSH
+[]A\A]A^A_
+ffff.
+k f.
+ t:H
+l$ H
+AUATUSH
+[]A\A]
+[]A\A]
+fffff.
+[]A\
+fffff.
+AUATUH
+D$8L
+L$@H
+T$(H
+t$0H
+T$H1
+X[]A\A]
+l$ L
+d$(L
+l$0H
+fff.
+INBOX
+&amp;
+&lt;
+&gt;
+<delete><id>
+</id></delete>
+<field name="ns">
+</field>
+<field name="box">
+</field><field name="user">
+</doc>
+</field></doc></add>
+<add>
+<field name="id">
+*box_name != '\0'
+fts-backend-solr.c
+!ctx->headers
+<field name="body">
+!ctx->field_open
+<field name="hdr">
+ -ns:[* TO *]
+ +ns:
+uidv:%u+box:
++user:
+inc_count > 0
+ OR +
+NOT (
+&fq=
+virtual
+(body:
++OR+hdr:
+&fq=%2Buser:
++%%2Buidv:%u+%%2Bbox:
+<commit waitFlush="false" waitSearcher="false"/>
+<doc><field name="uid">%u</field><field name="uidv">%u</field>
+<field name="last_uid">TRUE</field><field name="id">
+<commit waitFlush="false" waitSearcher="true"/>
+file %s: line %d (%s): assertion failed: (%s)
+fts_solr: default_ns setting points to nonexistent namespace
+fl=uid&rows=1&q=last_uid:TRUE+
+fl=uid&rows=1&sort=uid+desc&q=
+fts_solr: Last UID lookup returned multiple rows
+fl=uid,box,uidv,ns&rows=%u&q=last_uid:TRUE+user:
+fl=uid,score&rows=%u&sort=uid+asc&q=
+fl=uid,score,box,uidv,ns&rows=%u&sort=box+asc,uid+asc&q=
+(fields[i].flags & FTS_LOOKUP_FLAG_BODY) != 0
+fts_backend_solr_lookup
+fts_backend_solr_filter_mailboxes
+fts_backend_solr_build_body_begin
+fts_backend_solr_build_hdr
+fts_backend_solr_init
+fts_solr
+url=
+debug
+break-imap-search
+default_ns=
+fts_solr: Invalid setting: %s
+fts_solr: url setting missing
+2.0.15
+fts_solr: received invalid uid
+fts_solr: received invalid uidvalidity
+fts_solr: Invalid XML input at line %d: %s
+fts_solr: Query didn't return uid
+fts_solr: Query didn't return mailbox
+fts_solr: curl_multi_perform() failed: %s
+fts_solr: curl post failed: %s
+fts_solr: curl_multi_fdset() failed: %s
+fts_solr: curl_multi_timeout() failed: %s
+fts_solr: Failed to allocate curl
+fts_solr: Failed to allocate XML parser
+fts_solr: curl_multi_add_handle() failed: %s
+solr_connection_select
+solr_lookup_xml_end
+solr_lookup_xml_start
+solr_connection_post_begin
+solr_connection_post_more
+solr_connection_post_end
+ctx->depth >= (int)ctx->state
+solr-connection.c
+response
+result
+name
+score
+uidv
+maxfd >= 0
+fts_solr: select() failed: %m
+Content-Type: text/xml
+Transfer-Encoding: chunked
+Expect:
+UTF-8
+!conn->posting
+select?
+fts_solr: HTTP GET failed: %s
+fts_solr: Lookup failed: %s
+update
+post->conn->posting
+fts_solr: Indexing failed: %s
+;*3$"
+lib21_fts_solr_plugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

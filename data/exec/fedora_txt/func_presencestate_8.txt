@@ -1,0 +1,203 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_custom_function_unregister
+ast_presence_state_prov_del
+ast_cli_unregister_multiple
+strsep
+ast_presence_state_val
+strchr
+ast_log
+ast_cli_complete
+strncasecmp
+strlen
+memcpy
+ast_cli
+ast_db_put
+ast_presence_state_changed_literal
+__stack_chk_fail
+ast_base64decode
+__ast_app_separate_args
+ast_presence_state_nocache
+strcasecmp
+free
+ast_presence_state2str
+ast_base64encode
+ast_db_gettree
+strrchr
+ast_db_freetree
+ast_db_get
+strdup
+ast_module_register
+ast_module_unregister
+ast_presence_state_changed
+__ast_custom_function_register
+ast_presence_state_prov_add
+__ast_cli_register_multiple
+libpthread.so.0
+libc.so.6
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+[]A\A]A^A_
+AWAVAUATSH
+[A\A]A^A_]
+9S u
+t	H)
+AVAUATI
+[A\A]A^]
+AWAVAUATSH
+dH3<%(
+[A\A]A^A_]
+t	H)
+AVAUATUSH
+|$0dH
+D$8H
+D$XL
+d$`L
+l$8H
+D$PI
+D$ H
+D$HH
+D$DH
+|$DH
+|$PL
+D$@H
+D$0H
+dH3<%(
+[]A\A]A^A_
+D$0H
+|$0L
+)D$ L
+[]A\A]
+AYAZ
+AVAUATUSH
+([]A\A]A^A_
+CustomPresence
+func_presencestate.c
+Invalid options  '%s'
+presencestate change
+CustomPresence:
+Changing %s to %s
+PRESENCE_STATE unknown 
+subtype
+message
+value
+presencestate list
+CustomPresence:%s
+NOT_SET
+UNAVAILABLE
+AWAY
+CHAT
+func_presencestate
+PRESENCE_STATE
+Unknown presence state value %s
+Usage: presencestate change <entity> <state>[,<subtype>[,message[,options]]]
+       Change a custom presence to a new state.
+       The possible values for the state are:
+NOT_SET | UNAVAILABLE | AVAILABLE | AWAY | XA | CHAT | DND
+Optionally, a custom subtype and message may be provided, along with any options
+accepted by func_presencestate. If the subtype or message provided contain spaces,
+be sure to enclose the data in quotation marks ("")
+Examples:
+       presencestate change CustomPresence:mystate1 AWAY
+       presencestate change CustomPresence:mystate1 AVAILABLE
+       presencestate change CustomPresence:mystate1 "Away,upstairs,eating lunch"
+       
+The presencestate command can only be used to set 'CustomPresence:' presence state!
+The PRESENCE_STATE function can only set CustomPresence: presence providers.
+PRESENCE_STATE function called with no custom device name!
+Invalid arguments to PRESENCE_STATE
+PRESENCE_STATE reading requires an argument 
+PRESENCE_STATE reading requires both presence provider and presence field arguments. 
+---------------------------------------------------------------------
+--- Custom Presence States ------------------------------------------
+---------------------------------------------------------------------
+No custom presence states defined
+Invalid CustomPresence entry %s encountered
+--- Name: 'CustomPresence:%s'
+    --- State: '%s'
+    --- Subtype: '%s'
+    --- Message: '%s'
+    --- Base64 Encoded: '%s'
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Usage: presencestate list
+       List all custom presence states that have been set by using
+       the PRESENCE_STATE dialplan function.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Gets or sets a presence state in the dialplan
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+List currently know custom presence states
+Change a custom presence state
+__ast_strdup
+custom_presence_callback
+presence_read
+presence_write
+handle_cli_presencestate_list
+parse_data
+CustomPresence
+;*3$"
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+GA!stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA!stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+func_presencestate.so-15.5.0-1.fc29.x86_64.debug
+7zXZ
+k*	Ae=I
+y2 [
+7pyUT
+44Bjw?
++f]lQ2
+dJLuS*
+@vF)sl
+ku%Xb
+m)Sh
+%ZV}b`
+H"S9,
+TyLebo}
+D/.r
+eyEg
+;;6D
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

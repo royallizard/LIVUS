@@ -1,0 +1,271 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+mod_status_plugin_init
+buffer_init_string
+buffer_append_string_len
+buffer_append_string
+config_check_cond
+buffer_is_equal_string
+buffer_is_empty
+buffer_is_equal
+chunkqueue_get_append_buffer
+buffer_copy_string_len
+buffer_copy_string_buffer
+buffer_append_string_buffer
+buffer_append_long
+localtime
+strftime
+__sprintf_chk
+connection_get_short_state
+__snprintf_chk
+response_header_overwrite
+chunkqueue_written
+chunkqueue_length
+connection_get_state
+buffer_append_string_encoded
+inet_ntop_cache_get_ip
+__stack_chk_fail
+calloc
+buffer_init
+config_insert_values_global
+buffer_free
+libc.so.6
+_edata
+__bss_start
+_end
+mod_status.so
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+=h4 
+ATSubH
+=H3 
+%l1 
+='1 
+ffff.
+fffff.
+AVAUATUSH
+D$@H
+D$@H
+[]A\A]A^A_
+T$(H
+D$8H
+H;X@
+\$ht
+|$hH
+T$pH
+D$pH
+L$pH
+D$pH
+D$pf.
+D$pu
+D$pH
+D$pu
+D$pH
+H+s(
+Hcp@
+AVAUI
+D$0H
+D$PL
+T$ H
+T$8H
+[]A\A]A^
+[]A\A]A^
+fffff.
+[]A\A]
+status
+<th class="status">
+</th>
+   <tr>
+    <th colspan="2">
+   </tr>
+    <td><b>
+</b></td>
+    <td>
+status.status-url
+status.config-url
+status.enable-sort
+status.statistics-url
+auto
+Total Accesses: 
+%.0f
+Total kBytes: 
+Uptime: 
+BusyServers: 
+IdleServers: 
+Scoreboard: 
+text/plain
+Content-Type
+ </head>
+ <body>
+<h1>Server-Status</h1>
+)</td></tr>
+ days 
+ hours 
+ min 
+%Y-%m-%d %H:%M:%S
+req</td></tr>
+%.2f
+byte</td></tr>
+req/s</td></tr>
+byte/s</td></tr>
+<hr />
+<pre><b>legend</b>
+ connections</b>
+<tr>
+Client IP
+Read
+Written
+State
+Time
+Host
+File
+<tr><td class="string">
+</td><td class="int">
+</td><td class="string">
+ </body>
+</html>
+text/html
+select
+linux-sysepoll
+linux-rtsig
+Server-Features
+enabled
+RegEx Conditionals
+Network Engine
+fd-Event-Handler
+Config-File-Settings
+<br />
+Loaded Modules
+  </table>
+<th class="status"><a href="#" class="sortheader" onclick="resort(this);return false;">
+<span class="sortarrow">:</span></a></th>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>Status</title>
+  <style type="text/css">
+    table.status { border: black solid thin; }
+    td { white-space: nowrap; }
+    td.int { background-color: #f0f0f0; text-align: right }
+    td.string { background-color: #f0f0f0; text-align: left }
+    th.status { background-color: black; color: white; font-weight: bold; }
+    a.sortheader { background-color: black; color: white; font-weight: bold; text-decoration: none; display: block; }
+    span.sortarrow { color: white; text-decoration: none; }
+  </style>
+<script type="text/javascript">
+// <!--
+var sort_column;
+var prev_span = null;
+function get_inner_text(el) {
+ if((typeof el == 'string')||(typeof el == 'undefined'))
+  return el;
+ if(el.innerText)
+  return el.innerText;
+ else {
+  var str = "";
+  var cs = el.childNodes;
+  var l = cs.length;
+  for (i=0;i<l;i++) {
+   if (cs[i].nodeType==1) str += get_inner_text(cs[i]);
+   else if (cs[i].nodeType==3) str += cs[i].nodeValue;
+ return str;
+function sortfn(a,b) {
+ var at = get_inner_text(a.cells[sort_column]);
+ var bt = get_inner_text(b.cells[sort_column]);
+ if (a.cells[sort_column].className == 'int') {
+  return parseInt(at)-parseInt(bt);
+ } else {
+  aa = at.toLowerCase();
+  bb = bt.toLowerCase();
+  if (aa==bb) return 0;
+  else if (aa<bb) return -1;
+  else return 1;
+function resort(lnk) {
+ var span = lnk.childNodes[1];
+ var table = lnk.parentNode.parentNode.parentNode.parentNode;
+ var rows = new Array();
+ for (j=1;j<table.rows.length;j++)
+  rows[j-1] = table.rows[j];
+ sort_column = lnk.parentNode.cellIndex;
+ rows.sort(sortfn);
+ if (prev_span != null) prev_span.innerHTML = '';
+ if (span.getAttribute('sortdir')=='down') {
+  span.innerHTML = '&uarr;';
+  span.setAttribute('sortdir','up');
+  rows.reverse();
+ } else {
+  span.innerHTML = '&darr;';
+  span.setAttribute('sortdir','down');
+ for (i=0;i<rows.length;i++)
+  table.tBodies[0].appendChild(rows[i]);
+ prev_span = span;
+// -->
+</script>
+<table summary="status" class="status">
+<tr><td>Hostname</td><td class="string">
+<tr><td>Uptime</td><td class="string">
+<tr><td>Started at</td><td class="string">
+<tr><th colspan="2">absolute (since start)</th></tr>
+<tr><td>Requests</td><td class="string">
+<tr><td>Traffic</td><td class="string">
+<tr><th colspan="2">average (since start)</th></tr>
+<tr><th colspan="2">average (5s sliding average)</th></tr>
+. = connect, C = close, E = hard error
+r = read, R = read-POST, W = write, h = handle-request
+q = request-start,  Q = request-end
+s = response-start, S = response-end
+</pre><hr />
+<h2>Connections</h2>
+<table summary="status" class="status">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>Status</title>
+ </head>
+ <body>
+  <h1>lighttpd 1.4.19</h1>
+  <table summary="status" border="1">
+mod_status.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,183 @@
+td4.
+/lib/ld-linux.so.2
+libcollectdclient.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lcc_string_to_identifier
+_fini
+lcc_sort_identifiers
+_init
+lcc_connect
+lcc_strerror
+lcc_disconnect
+lcc_identifier_to_string
+lcc_listval
+lcc_getval
+libdl.so.2
+libc.so.6
+_IO_stdin_used
+__printf_chk
+exit
+__strdup
+__isnan
+puts
+putchar
+realloc
+__assert_fail
+strtod
+calloc
+strlen
+__errno_location
+getopt
+__fprintf_chk
+memcpy
+malloc
+strcasecmp
+optarg
+stderr
+__snprintf_chk
+fwrite
+strchr
+__cxa_finalize
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+[^_]
+t$@1
+;|$x
+t$ti
+t$ti
+D$@9D$4
+D$P1
+;|$Pu
+9t$@s
+D$p1
+;t$x
+D$tr
+D$p1
+;t$xr
+;t$@u
+D$H9D$PtP
+D$ u
+D$ u
+L$X	
+9t$@u
+;T$XtH
+L$4t
+;T$Xu
+9T$Xu
+9T$Xu
+;T$Xt6
+L$4u
+;T$Xu
+[^_]
+[^_]
+UWVS
+[^_]
+d$ [^_
+[^_]
+collectd-nagios.c
+max_ptr != ((void *)0)
+OKAY
+WARNING
+CRITICAL
+w:c:s:n:H:g:d:hm
+none
+average
+percentage
+realloc failed: %s
+cn_strdup failed: %s
+LIST
+Missing required arguments.
+unix:%s
+UNKNOWN: %s
+Host: %s
+%s/%s
+malloc failed: %s
+ %s=%f;;;;
+%s: %g average |
+%s: %g sum |
+%s: %lf percent |
+ %s=%lf;;;;
+Usage: %s <-s socket> <-n value_spec> <-H hostname> [options]
+Valid options are:
+  -s <socket>    Path to collectd's UNIX-socket.
+  -n <v_spec>    Value specification to get from collectd.
+                 Format: `plugin-instance/type-instance'
+  -d <ds>        Select the DS to examine. May be repeated to examine multiple
+                 DSes. By default all DSes are used.
+  -g <consol>    Method to use to consolidate several DSes.
+                 See below for a list of valid arguments.
+  -H <host>      Hostname to query the values for.
+  -c <range>     Critical range
+  -w <range>     Warning range
+  -m             Treat "Not a Number" (NaN) as critical (default: warning)
+Consolidation functions:
+  none:          Apply the warning- and critical-ranges to each data-source
+                 individually.
+  average:       Calculate the average of all matching DSes and apply the
+                 warning- and critical-ranges to the calculated average.
+  sum:           Apply the ranges to the sum of all DSes.
+  percentage:    Apply the ranges to the ratio (in percent) of the first value
+                 and the sum of all values.
+Unknown consolidation function `%s'.
+ERROR: Connecting to daemon at %s failed.
+ERROR: listval: Failed to convert returned identifier to a string: %s
+ERROR: Creating an identifier failed: %s.
+ERROR: Retrieving values from the daemon failed: %s.
+WARNING: No defined values found
+%s: %i critical, %i warning, %i okay
+CRITICAL: Data source "%s" is NaN
+WARNING: The first value is not defined
+WARNING: Values sum up to zero
+ERROR: DS `%s' is not available.
+parse_range
+;*2$"T
+collectd-nagios.debug
+7zXZ
+Ssa[
+,C"mI
+@lK^y2
+dqqZ
+mt"	c
+mX_}
+4G?`
+Vz9\
+&'Bp
+wf&oR
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

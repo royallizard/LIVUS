@@ -1,0 +1,255 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+g_slice_alloc0
+g_type_check_instance_cast
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_int
+g_object_class_install_property
+g_param_spec_int
+g_object_set_data_full
+g_slice_free1
+gegl_cl_is_accelerated
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_buffer_cl_iterator_next
+gegl_clSetKernelArg
+gegl_cl_errstring
+g_log
+gegl_operation_get_required_for_output
+gegl_buffer_create_sub_buffer
+gegl_buffer_get_extent
+g_malloc0_n
+gegl_buffer_get
+gegl_buffer_set
+g_free
+g_object_unref
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_object_ref
+g_type_name
+g_value_set_int
+g_value_get_int
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+snn-mean.so
+GLIBC_2.1.3
+GLIBC_2.4
+D$8$
+UWVS
+d$<[^_]
+[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+GeglChantsnn-mean.c
+RGBA float
+input
+output
+gegl-0.2
+description
+misc
+categories
+gegl:snn-mean
+name
+Radius
+radius
+Pairs
+pairs
+chant-data
+snn_mean_CL
+GEGL-snn-mean.c
+property
+../../gegl/gegl-chant.h:505
+GEGL-../../gegl/gegl-chant.h
+../../gegl/gegl-chant.h:622
+Noise reducing edge enhancing blur filter based  on Symmetric Nearest Neighbours
+Radius of square pixel region, (width and height will be radius*2+1)
+Number of pairs; higher number preserves more acute features
+float colordiff (float4 pixA,                                         
+                 float4 pixB)                                         
+{                                                                     
+    float4 pix = pixA-pixB;                                           
+    pix *= pix;                                                       
+    return pix.x+pix.y+pix.z;                                         
+}                                                                     
+                                                                      
+__kernel void snn_mean_CL (__global const   float4 *src_buf,          
+                                            int src_width,            
+                                            int src_height,           
+                           __global         float4 *dst_buf,          
+                                            int radius,               
+                                            int pairs)                
+{                                                                     
+    int gidx   =get_global_id(0);                                     
+    int gidy   =get_global_id(1);                                     
+    int offset =gidy * get_global_size(0) + gidx;                     
+                                                                      
+    __global const float4 *center_pix=                                
+        src_buf + ((radius+gidx) + (gidy+radius)* src_width);         
+    float4 accumulated=0;                                             
+                                                                      
+    int count=0;                                                      
+    if(pairs==2)                                                      
+    {                                                                 
+        for(int i=-radius;i<0;i++)                                    
+        {                                                             
+            for(int j=-radius;j<0;j++)                                
+            {                                                         
+                __global const float4 *selected_pix = center_pix;     
+                float  best_diff = 1000.0f;                           
+                                                                      
+                    int xs[4]={                                       
+                        gidx+j+radius, gidx-j+radius,                 
+                        gidx-j+radius, gidx+j+radius                  
+                    };                                                
+                    int ys[4]={                                       
+                        gidy+i+radius, gidy-i+radius,                 
+                        gidy+i+radius, gidy-i+radius};                
+                                                                      
+                    for (int k=0;k<4;k++)                             
+                    {                                                 
+                        if (xs[k] >= 0 && xs[k] < src_width &&        
+                            ys[k] >= 0 && ys[k] < src_height)         
+                        {                                             
+                            __global const float4 *tpix =             
+                                src_buf + (xs[k] + ys[k] * src_width);
+                            float diff=colordiff(*tpix, *center_pix); 
+                            if (diff < best_diff)                     
+                            {                                         
+                                best_diff = diff;                     
+                                selected_pix = tpix;                  
+                            }                                         
+                        }                                             
+                    }                                                 
+                                                                      
+                accumulated += *selected_pix;                         
+                                                                      
+                ++count;                                              
+                if (i==0 && j==0)                                     
+                    break;                                            
+            }                                                         
+        }                                                             
+        dst_buf[offset] = accumulated/count;                          
+        return;                                                       
+    }                                                                 
+    else if(pairs==1)                                                 
+    {                                                                 
+        for(int i=-radius;i<=0;i++)                                   
+        {                                                             
+            for(int j=-radius;j<=radius;j++)                          
+            {                                                         
+                __global const float4 *selected_pix = center_pix;     
+                float  best_diff = 1000.0f;                           
+                                                                      
+                /* skip computations for the center pixel */          
+                if (i != 0 && j != 0)                                 
+                {                                                     
+                    int xs[4]={                                       
+                        gidx+i+radius, gidx-i+radius,                 
+                        gidx-i+radius, gidx+i+radius                  
+                    };                                                
+                    int ys[4]={                                       
+                        gidy+j+radius, gidy-j+radius,                 
+                        gidy+j+radius, gidy-j+radius                  
+                    };                                                
+                                                                      
+                    for (i=0;i<2;i++)                                 
+                    {                                                 
+                        if (xs[i] >= 0 && xs[i] < src_width &&        
+                            ys[i] >= 0 && ys[i] < src_height)         
+                        {                                             
+                            __global const float4 *tpix =             
+                                src_buf + (xs[i] + ys[i] * src_width);
+                            float diff=colordiff (*tpix, *center_pix);
+                            if (diff < best_diff)                     
+                            {                                         
+                                best_diff = diff;                     
+                                selected_pix = tpix;                  
+                            }                                         
+                        }                                             
+                    }                                                 
+                }                                                     
+                accumulated += *selected_pix;                         
+                ++count;                                              
+                if (i==0 && j==0)                                     
+                    break;                                            
+            }                                                         
+        }                                                             
+        dst_buf[offset] = accumulated/count;                          
+        return;                                                       
+    }                                                                 
+    return;                                                           
+}                                                                     
+[OpenCL] Error in gegl:snn-mean: %s
+%s: invalid %s id %u for "%s" of type '%s' in '%s'
+;*2$"
+snn-mean.so.debug
+7zXZ
+$pFBu
++LUo
+Lr:y
+9A<1
+v~qr
+C`[=2
+R"3S
+@*A(
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

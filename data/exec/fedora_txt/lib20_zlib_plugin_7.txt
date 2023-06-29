@@ -1,0 +1,92 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+i_stream_create_zlib
+gzdopen
+_i_stream_create
+memmove
+gzread
+__errno_location
+i_panic
+pool_get_exp_grown_size
+__fxstat64
+i_stream_get_data
+i_stream_skip
+i_stream_seek
+i_error
+gzseek
+strerror
+i_stream_close
+gzclose
+zlib_plugin_init
+hook_mail_storage_created
+zlib_plugin_deinit
+mail_storage_module_id
+buffer_append_zero
+buffer_write
+buffer_get_space_unsafe
+strlen
+i_stream_unref
+mail_storage_get_mailbox_path
+open64
+default_pool
+zlib_plugin_version
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+lib20_zlib_plugin.so
+GLIBC_2.2.5
+t	H;
+t	H;
+d$ L
+l$(L
+t$0H
+gHH9
+oHH)
+l$ H
+H9kHf
+ATUSH
+[]A\
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+istream-zlib.c
+ret != 0
+stream->istream.eof
+zstream->seek_offset == stream->istream.v_offset + (stream->pos - stream->skip)
+file %s: line %d (%s): assertion failed: (%s)
+zlib_istream.fstat() failed: %m
+zlib_istream.seek() failed: %s
+_seek
+_read
+1.0.0
+lib20_zlib_plugin.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

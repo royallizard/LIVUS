@@ -1,0 +1,279 @@
+!$ieM
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_rtclock_now
+pa_smoother_pause
+pa_smoother_resume
+pa_log_level_meta
+abort
+pa_sink_type_id
+pa_rtpoll_item_new
+pa_rtpoll_item_get_pollfd
+pa_sink_process_msg
+pa_smoother_get
+pa_bytes_to_usec
+pa_socket_client_unref
+pa_iochannel_set_callback
+__errno_location
+pa_cstrerror
+pa_module_unload_request
+pa_iochannel_is_readable
+pa_iochannel_is_writable
+pa_iochannel_write
+pa_iochannel_read
+pa_xmalloc
+pa_xfree
+pa_iochannel_get_send_fd
+pa_iochannel_set_noclose
+pa_iochannel_free
+pa_make_tcp_socket_low_delay
+getsockopt
+pa_sink_set_max_request
+pa_msgobject_type_id
+pa_xmalloc0
+pa_strlcpy
+pa_asyncmsgq_post
+__stack_chk_fail
+pa_thread_mq_install
+pa_smoother_set_time_offset
+pa_rtpoll_run
+pa_memblock_unref
+pa_memchunk_reset
+pa_memblock_acquire
+pa_write
+pa_memblock_release
+ioctl
+pa_smoother_put
+pa_sink_process_rewind
+pa_sink_render
+pa_asyncmsgq_wait_for
+module_esound_sink_LTX_pa__get_author
+module_esound_sink_LTX_pa__get_description
+module_esound_sink_LTX_pa__get_version
+module_esound_sink_LTX_pa__load_once
+module_esound_sink_LTX_pa__get_usage
+module_esound_sink_LTX_pa__get_n_used
+pa_sink_linked_by
+module_esound_sink_LTX_pa__done
+pa_sink_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_object_type_id
+pa_object_unref
+pa_rtpoll_item_free
+pa_rtpoll_free
+pa_smoother_free
+pa_close
+module_esound_sink_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec
+pa_smoother_new
+pa_rtpoll_new
+pa_thread_mq_init
+pa_usec_to_bytes
+getenv
+pa_modargs_get_value
+pa_sink_new_data_init
+pa_sink_new_data_set_name
+pa_sink_new_data_set_sample_spec
+pa_proplist_sets
+pa_proplist_setf
+pa_modargs_get_proplist
+pa_sink_new
+pa_sink_new_data_done
+pa_sink_set_asyncmsgq
+pa_sink_set_rtpoll
+pa_socket_client_new_string
+pa_socket_client_set_callback
+pa_xstrdup
+pa_authkey_load
+pa_thread_new
+pa_sink_put
+pa_modargs_free
+pa_append_to_home_dir
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-esound-sink.so
+GLIBC_2.2.5
+PULSE_0
+GLIBC_2.4
+/usr/lib64/pulseaudio
+u+UH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+{xL)
+HcT$
+[]A\A]A^A_
+{(E1
+AWAVAUATUSH
+\$@H
+|$0L
+|$0H
+|$0L
+NDNEI
+[]A\A]A^A_
+modules/module-esound-sink.c
+u = s->userdata
+pa_sink_isinstance(o)
+./pulsecore/sink.h
+!u->rtpoll_item
+Connection failed: %s
+!u->io
+read() failed: %s
+Authentication failed: %s
+!u->write_data
+PulseAudio Tunnel
+write() failed: %s
+u->fd < 0
+SO_SNDBUF is %zu.
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+Thread starting up
+u->memchunk.length > 0
+l != 0
+FIFO shutdown.
+Thread shutting down
+Lennart Poettering
+ESOUND Sink
+12.2-rebootstrapped
+u = m->userdata
+./pulsecore/object.h
+/tmp/.esd/socket
+pa_thread_mq_init() failed.
+ESPEAKER
+server
+esound_out
+sink_name
+device.string
+device.api
+EsounD Output on %s
+device.description
+sink_properties
+Invalid properties
+Failed to create sink.
+Failed to connect to server.
+.esd_auth
+Failed to load cookie
+esound-sink
+Failed to create thread.
+format
+rate
+channels
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+PA_SINK_IS_OPENED(u->sink->thread_info.state)
+Connection established, authenticating ...
+u->read_index < u->read_length
+u->read_index <= u->read_length
+u->read_length == sizeof(int32_t)
+u->read_length >= sizeof(int32_t)
+Invalid latency information received from server
+Code should not be reached at %s:%u, function %s(). Aborting.
+u->write_index < u->write_length
+u->write_index <= u->write_length
+getsockopt(SO_SNDBUF) failed: %s
+Connection authenticated, handing fd to IO thread...
+Failed to write data to FIFO: %s
+sink_name=<name for the sink> sink_properties=<properties for the sink> server=<address> cookie=<filename>  format=<sample format> rate=<sample rate> channels=<number of channels>
+!obj || obj->check_type(pa_object_type_id)
+failed to parse module arguments
+invalid sample format specification
+esound sample type support is limited to mono/stereo and U8 or S16NE sample data
+pa_object_cast
+pa_object_cast
+module_esound_sink_LTX_pa__done
+module_esound_sink_LTX_pa__done
+module_esound_sink_LTX_pa__get_n_used
+module_esound_sink_LTX_pa__get_n_used
+pa_sink_cast
+pa_sink_cast
+sink_process_msg
+sink_process_msg
+sink_set_state_in_io_thread_cb
+sink_set_state_in_io_thread_cb
+do_write
+do_write
+handle_response
+handle_response
+do_read
+do_read
+io_callback
+io_callback
+on_connection
+on_connection
+pa_msgobject_cast
+pa_msgobject_cast
+thread_func
+thread_func
+module_esound_sink_LTX_pa__init
+module_esound_sink_LTX_pa__init
+;*3$"
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+module-esound-sink.so-12.2-1.fc29.x86_64.debug
+7zXZ
+xQMT
+sg1}
+0/U/
+t1hp$
+ii6sR0$
+gm7S4
+5Zjj|
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

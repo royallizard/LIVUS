@@ -1,0 +1,272 @@
+O|qo
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+http_chunk_append_mem
+log_error_write
+malloc
+li_to_base64
+__stack_chk_fail
+log_failed_assert
+gw_handle_trigger
+gw_connection_reset
+joblist_append
+buffer_free
+buffer_string_set_length
+calloc
+array_init
+buffer_init
+config_insert_values_global
+array_get_element_klen
+gw_set_defaults_backend
+gw_set_defaults_balance
+array_is_vlist
+buffer_is_equal_caseless_string
+buffer_reset
+array_free
+gw_plugin_config_free
+strncasecmp
+strchr
+strtoul
+SHA1_Init
+SHA1_Update
+SHA1_Final
+response_header_overwrite
+array_get_unused_element
+buffer_copy_string_len
+buffer_append_base64_encode
+array_insert_unique
+gw_set_transparent
+chunkqueue_length
+memcpy
+chunkqueue_mark_written
+li_MD5_Init
+li_MD5_Update
+li_MD5_Final
+chunkqueue_append_mem
+buffer_is_equal_string
+buffer_append_string_buffer
+http_response_upgrade_read_body_unknown
+chunkqueue_append_chunkqueue
+array_set_key_value
+data_string_init
+memchr
+buffer_append_string_len
+chunkqueue_get_memory
+chunkqueue_use_memory
+buffer_append_base64_decode
+config_check_cond
+gw_check_extension
+strtol
+buffer_is_equal_right_len
+mod_wstunnel_plugin_init
+buffer_init_string
+gw_handle_subrequest
+gw_handle_waitpid_cb
+libcrypto.so.1.1
+libc.so.6
+_edata
+__bss_start
+_end
+mod_wstunnel.so
+OPENSSL_1_1_0
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+AVAUATI
+D$(1
+L$(dH3
+8[]A\A]A^A_
+D$ H
+MPAT
+AVAUI
+ATUSH
+[]A\A]A^A_
+ATUL
+[]A\A]
+APPH
+AWAVAUATI
+|$0H
+|$HH
+|$`H
+T$@H
+|$pH
+D$(H
+T$XH
+t$xH
+T$ I
+T$PI
+T$hL
+[]A\A]A^A_
+BxH9
+[]A\A]
+]A\A]A^
+]A\A]A^
+AWAVAUI
+ATUSH
+d$PL
+|$@1
+[]A\A]A^A_
+L$@H
+|$0A
+l$8H
+l$(H
+d$ M
+l$(L
+|$0L
+l$(L
+|$0L
+AWAVAUATUSH
+D$X1
+D$PH
+D$ H
+D$HH
+D$(I
+|$01
+t$XdH34%(
+h[]A\A]A^A_
+|$0M
+D$HD
+T$ H
+t$(H
+|$HH
+T$ E1
+t$(H
+B H+D$PH
+L$ H
+D$(A
+D$P1
+T$HL)
+L$ L
+L+L$(I
+t$HH
+T$0H
+|$HH
+T$PH
+~tjI
+\$8H
+T$0H
+t$H1
+AWAVAUATUSH
+[]A\A]A^A_
+D$@H
+D$@I
+< v!
+\$(H
+L$ L
+\$(t
+type = text
+mod_wstunnel.c
+type = binary
+type = ping
+type = pong
+type = close
+send data to client ( fd =
+sdsx
+), frame size =
+assertion failed: mem
+timeout client ( fd =
+recv data from backend ( fd =
+), size =
+fail to send data to client
+wstunnel.server
+wstunnel.debug
+wstunnel.balance
+wstunnel.map-extensions
+wstunnel.frame-type
+wstunnel.origins
+wstunnel.ping-interval
+assertion failed: s
+1001
+send handshake response
+Sec-WebSocket-Key
+Sec-WebSocket-Key is invalid
+websocket
+Upgrade
+Sec-WebSocket-Accept
+Sec-WebSocket-Protocol
+base64
+Sec-WebSocket-Origin
+Origin header is invalid
+Sec-WebSocket-Key1
+Sec-WebSocket-Key2
+Host header does not exist
+Sec-WebSocket-Location
+https
+wss://
+ws://
+recv data from client ( fd =
+type = continue
+type is invalid
+payload was not masked
+specified payload size =
+frame size has been exceeded:
+read payload, size =
+rest of frame size =
+rest of payload size =
+BUG: invalid frame type
+BUG: invalid state
+recv close frame
+recv invalid frame
+got final payload, size =
+try to base64 decode:
+fail to base64-decode
+BUG: unknown state
+1000
+Connection
+upgrade
+invalid Sec-WebSocket-Version
+allowed origins not specified
+matches allowed origin:
+WebSocket Version = hybi-00
+WebSocket Version =
+wstunnel
+assertion failed: p->config_storage
+wstunnel.server must not define any hosts with attribute "mode" = "authorizer"
+unexpected value for wstunnel.origins; expected wstunnel.origins = ( "...", "..." )
+unexpected empty string in wstunnel.origins
+258EAFA5-E914-47DA-95CA-C5AB0DC85B11
+not supported WebSocket Version
+assertion failed: c->type == MEM_CHUNK
+got continuous payload, size =
+disconnected from client ( fd =
+send close response to client ( fd =
+does not match any allowed origins
+will recv binary data from backend
+will recv text data from backend
+:*3$"
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+mod_wstunnel.so-1.4.50-1.fc29.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

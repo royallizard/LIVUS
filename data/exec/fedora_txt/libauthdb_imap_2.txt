@@ -1,0 +1,622 @@
+v=-/
+D@`#H&
+^aBK
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+timeout_remove
+imapc_client_deinit
+auth_request_unref
+t_strconcat
+auth_default_subsystems
+auth_request_log_debug
+imapc_client_init
+auth_request_ref
+imapc_client_set_login_callback
+imapc_client_login
+t_str_new
+auth_request_var_expand
+str_c
+t_strdup
+buffer_set_used_size
+p_strsplit
+strchr
+t_strdup_until
+net_str2port
+i_fatal
+timeout_add_short
+auth_request_log_error
+strcasecmp
+auth_request_log_info
+authdb_imap_init
+passdb_register_module
+authdb_imap_deinit
+passdb_unregister_module
+imapc_connection_abort_commands
+default_pool
+imapc_connection_init
+buffer_append
+imapc_connection_get_state
+imapc_connection_get_capabilities
+pool_alloconly_create
+p_strdup
+p_strdup_empty
+buffer_create_dynamic
+ssl_iostream_context_init_client
+i_error
+i_panic
+imapc_client_ref
+imapc_client_unref
+ssl_iostream_context_deinit
+imapc_client_disconnect
+imapc_connection_deinit
+buffer_delete
+imapc_connection_get_mailbox
+imapc_client_register_untagged
+imapc_client_run
+current_ioloop
+io_loop_create
+io_loop_set_running
+imapc_connection_ioloop_changed
+imapc_connection_connect
+io_loop_is_running
+io_loop_run
+io_loop_set_current
+io_loop_destroy
+imapc_client_stop
+io_loop_stop
+imapc_client_try_stop
+imapc_client_is_running
+imapc_client_cmd
+imapc_connection_cmd
+imapc_client_logout
+imapc_connection_set_no_reconnect
+imapc_command_set_flags
+imapc_command_send
+imapc_client_mailbox_open
+imapc_msgmap_init
+imapc_client_mailbox_set_reopen_cb
+imapc_client_mailbox_can_reconnect
+imapc_client_mailbox_reconnect
+imapc_connection_try_reconnect
+imapc_client_mailbox_close
+imapc_connection_unselect
+imapc_msgmap_deinit
+imapc_connection_disconnect
+imapc_client_mailbox_cmd
+imapc_command_set_mailbox
+imapc_client_mailbox_get_msgmap
+imapc_client_mailbox_is_opened
+imapc_client_mailbox_idle
+imapc_connection_idle
+imapc_client_get_capabilities
+imapc_client_create_temp_fd
+strlen
+safe_mkstemp
+i_unlink
+close_keep_errno
+imapc_client_register_state_change_callback
+imapc_client_cmd_tag_counter
+imapc_capability_names
+imapc_command_state_names
+p_strsplit_free
+buffer_free
+buffer_get_modifiable_data
+i_stream_unref
+t_strdup_printf
+timeout_add
+imap_parser_reset
+array_idx_modifiable_i
+i_stream_ref
+o_stream_ref
+i_stream_destroy
+o_stream_destroy
+io_stream_create_ssl_client
+ssl_iostream_set_handshake_callback
+ssl_iostream_handshake
+imap_parser_set_streams
+i_debug
+iostream_rawlog_create
+ssl_iostream_get_last_error
+ssl_iostream_check_cert_validity
+buffer_append_c
+ioloop_timeval
+timeval_cmp
+timeout_reset
+o_stream_set_max_buffer_size
+o_stream_send_istream
+i_stream_is_eof
+memchr
+timeout_add_absolute
+o_stream_set_flush_pending
+o_stream_nsend
+__ctype_b_loc
+o_stream_cork
+o_stream_flush
+o_stream_uncork
+o_stream_nsend_str
+buffer_insert
+i_strdup_printf
+io_loop_move_io
+io_loop_move_timeout
+o_stream_switch_ioloop
+dns_lookup_switch_ioloop
+pool_datastack_create
+buffer_append_buf
+imapc_connection_disconnect_full
+dns_lookup_abort
+imap_parser_unref
+io_remove
+ssl_iostream_unref
+net_disconnect
+t_strdup_vprintf
+i_stream_next_line
+t_strsplit
+imap_args_to_str
+dsasl_client_free
+base64_decode
+dsasl_client_input
+dsasl_client_output
+base64_encode
+imap_parser_read_args
+imap_parser_get_literal_size
+i_stream_get_data
+buffer_append_space_unsafe
+write_full
+i_stream_skip
+imap_arg_atom_equals
+imap_arg_get_list_full
+imap_arg_get_atom
+strncasecmp
+i_strdup
+imap_parser_read_last_literal
+imap_parser_get_error
+imap_parser_ref
+i_memcasecmp
+str_to_uint32
+t_strndup
+t_strcut
+net_addr2ip
+net_gethostbyname
+dns_lookup
+net_gethosterror
+i_warning
+net_connect_ip
+i_stream_create_fd
+o_stream_create_fd
+o_stream_set_no_error_handling
+o_stream_set_flush_callback
+io_add
+imap_parser_create
+net_ip2addr
+net_geterror
+net_getsockname
+i_info
+strerror
+imapc_command_get_tag
+imapc_command_abort
+imapc_command_connection_is_selected
+str_printfa
+imapc_command_sendvf
+imap_append_quoted
+i_stream_get_size
+imapc_command_sendf
+dsasl_client_new
+dsasl_client_mech_get_name
+t_strsplit_spaces
+dsasl_client_mech_find
+dsasl_client_mech_plain
+t_strdup_noconst
+strstr
+imapc_connection_input_pending
+t_push
+t_pop_check
+imap_parser_read_word
+str_to_uint
+i_stream_read
+i_stream_get_error
+i_stream_get_data_size
+imapc_msgmap_count
+imapc_msgmap_uidnext
+imapc_msgmap_rseq_to_uid
+imapc_msgmap_uid_to_rseq
+array_bsearch_i
+imapc_msgmap_append
+imapc_msgmap_expunge
+imapc_msgmap_reset
+libdovecot.so.0
+libdl.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libauthdb_imap.so
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+/usr/lib/dovecot
+UWVS
+D$x1
+T$Tu
+[^_]
+<[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+D$\1
+L$\e3
+l[^_]
+T$,1
+<[^_]
+UWVS
+t$`e
+D$<1
+D$<e3
+L[^_]
+UWVS
+[^_]
+[^_]
+t$Pe
+D$,1
+D$,e3
+<[^_]
+[^_]
+t$Pe
+D$<1
+L$<e3
+,[^_]
+D$,1
+T$(t	
+D$,e3
+0[^_
+;Bhw\1
+D$,1
+V`t#
+D$,e3
+D$ 1
+D$$t<
+D$(uA
+D$l1
+T$<1
+|$le3=
+|[^_]
+t$De
+D$,1
+L$,e3
+,[^_]
+l$xe
+D$\1
+D$\e3
+D$L1
+L$0)
+9T$,
+D$0u
+L$4<{t
+yx@1
+|$4e
+|$L1
+D$Ht-
+D$Le3
+\[^_]
+[^_]
+L$(e
+T$L1
+D$(1
+D$Le3
+\[^_]
+;N|u}
+9F|u=
+ [^_
+ [^_
+D$,1
+|$,e3=
+@t91
+,[^_]
+D$,1
+D$,e3
+D$\1
+D$01
+|$\e3=
+9\$,
+9L$(
+D$P1
+,[^_]
+\$Le
+D$<1
+T$$1
+L$<e3
+D$L1
+D$Le3
+t	;FT
+<[^_]
+|$de
+D$L1
+D$Le3
+p$Bu-
+|$xe
+D$L1
+t$@1
+L$(<%
+D$Le3
+\[^_]
+L$@1
+UWVS
+T$\1
+D$\e3
+l[^_]
+L$T1
+@h t
+T$ e
+D$,1
+L$,e3
+D$L1
+T$81
+FD9G
+T$(1
+nD9o
+L$Le3
+\[^_]
+G-@B
+UWVS
+D$,1
+D$,e3
+<[^_]
+@;D$4u-
+D$89F
+dns-client
+lookup host=%s port=%d
+host
+port
+passdb imap: Invalid port: %s
+username
+ssl_ca_dir
+ssl_ca_file
+rawlog_dir
+imaps
+starttls
+allow_invalid_cert
+AUTHENTICATIONFAILED
+AUTHORIZATIONFAILED
+EXPIRED
+passdb-imap.c
+imap
+passdb imap: Invalid ssl mode: %s
+passdb imap: Invalid allow_invalid_cert value: %s
+passdb imap: Unknown parameter: %s
+passdb imap: Cannot verify certificate without ssl_ca_dir or ssl_ca_file setting
+passdb imap: Missing host parameter
+set->connect_retry_count == 0 || set->connect_retry_interval_msecs > 0
+file %s: line %d (%s): assertion failed: (%s)
+imapc(%s:%u): Couldn't initialize SSL context: %s
+imapc_connection_get_mailbox(conn->conn) == NULL
+idx * array->element_size < array->buffer->used
+array_count(&client->conns) == 0
+imapc: Selected mailbox changed unexpectedly
+imapc: temp_path_prefix not set, can't create temp file
+client->state_change_callback == NULL
+client->state_change_context == NULL
+imapc-client.c
+imapc client
+client->refcount > 0
+client->ioloop == NULL
+ctx->logout_count > 0
+../../src/lib/array.h
+client->login_callback
+LOGOUT
+!box->reconnecting
+!box->closing
+safe_mkstemp(%s) failed: %m
+*&fd > 0
+close(%d[%s:%d]) failed: %m
+SASL-IR
+LITERAL+
+QRESYNC
+IDLE
+UIDPLUS
+AUTH=PLAIN
+STARTTLS
+X-GM-EXT-1
+CONDSTORE
+NAMESPACE
+UNSELECT
+ESEARCH
+WITHIN
+QUOTA
+IMAP4REV1
+(auth failed)
+(disconnected)
+imapc_client_register_state_change_callback
+imapc_client_create_temp_fd
+imapc_client_mailbox_cmd
+imapc_client_mailbox_reconnect
+imapc_client_logout_callback
+imapc_client_login
+array_idx_i
+imapc_client_run_pre
+imapc_client_disconnect
+imapc_client_unref
+imapc_client_ref
+imapc_client_init
+conn->refcount > 0
+imapc-connection.c
+close(%s) failed: %m
+Authentication failed: %s
+imapc(%s): %s
+Disconnected from server
+%s: %s
+imapc(%s): No SSL context
+conn->selecting_box == NULL
+Mailbox not open
+seek_pos <= cmd->data->used
+*cmdp == cmd
+DONE
+%s:%u
+imapc(%s): Disconnected
+Unexpected '+': %s
+text[0] == '['
+Missing ']' in resp-text
+CAPABILITY
+CLOSED
+Missing text in resp-text
+Error parsing input: %s
+conn->literal.fd == -1
+FETCH
+BODY[
+Invalid untagged reply
+true
+false
+imapc(%s): %s - disconnecting
+No more IP address(es) to try
+ip != NULL
+result->ips_count > 0
+file %s: line %d: unreached
+connect(%s, %u) failed: %s
+Command '%s' timed out
+callback != NULL
+imapc command
+%u %s
+NOOP
+STARTTLS failed: %s
+{%llu}
+{%u+}
+{%u}
+cmd_fmt[i] == 's'
+AUTH=
+LOGIN %s %s
+AUTHENTICATE %1s %1s
+AUTHENTICATE %1s
+PROXYAUTH %s
+[THROTTLED]
+Invalid command tag: %s
+conn->disconnect_reason == NULL
+imapc: close(literal file) failed: %m
+imapc(%s): Starting SSL handshake
+imapc(%s): Couldn't initialize SSL client: %s
+imapc(%s): SSL handshake failed: %s
+imapc(%s): SSL handshake successful
+imapc(%s): SSL handshake successful, ignoring invalid certificate: %s
+cmd->send_pos < cmd->data->used
+stream->input->v_offset < stream->size
+stream->input->v_offset == stream->size
+cmd->send_pos != cmd->data->used
+!array_is_created(&cmd->streams) || array_count(&cmd->streams) == 0
+imapc(%s): Created new connection
+dest_array->element_size == src_array->element_size
+imapc(%s): Server sent invalid input: %s
+imapc(%s): Server capabilities: %s
+CAPABILITY list is missing IMAP4REV1
+imapc(%s): Authenticated successfully
+Server sent non-base64 input for AUTHENTICATE: %s
+imapc(%s): write(%s) failed: %m
+imapc: Missing LF from input line
+Banner doesn't begin with OK: %s
+imapc(%s): Looking up IP address (reconnect_ok=%s, last_connect=%ld)
+imapc(%s): net_gethostbyname(%s) failed: %s
+file %s: line %d: memory allocation overflow: %u * %u
+!conn->selected_box->reconnecting
+imapc(%s): %s - trying the next IP
+imapc(%s): %s - reconnecting (delay %u ms)
+conn->client->set.max_idle_time > 0
+net_connect_ip(%s:%u) failed: %m
+imapc(%s): Connecting to %s:%u
+imapc(%s): dns_lookup(%s) failed: %s
+connect(%s, %u) timed out after %u seconds
+Authentication timed out after %u seconds
+imapc(%s): Connected to %s:%u (local %s:%u)
+imapc(%s): Requested STARTTLS, but server doesn't support it
+imapc(%s): Authenticating as %s
+imapc(%s): Authenticating as %s for user %s
+Support for SASL method '%s' is missing
+IMAP server doesn't support any of the requested SASL mechanisms: %s
+imapc(%s): Failed to create initial SASL reply: %s
+imap_arg_atom_equals(imap_args, "OK")
+Failed to get capabilities: %s
+Capabilities not returned by server
+conn->selected_box == box || conn->selecting_box == box
+Invalid state in tagged reply: %u %s %s
+Unknown tag in a reply: %u %s %s
+imapc(%s): Command '%s' failed with BAD: %u %s
+Server disconnected with message: %s
+Server sent too large input (buffer full at %u)
+Server disconnected unexpectedly: %s
+imapc_connection_unselect
+imapc_command_sendvf
+imapc_command_begin
+imapc_connection_input_tagged
+imapc_connection_handle_resp_text
+imapc_connection_read_literal_init
+imapc_connection_input_banner
+imapc_command_send_finished
+imapc_command_try_send_stream
+imapc_connection_set_selecting
+imapc_command_timeout
+imapc_command_send_more
+imapc_connection_ref
+imapc_connection_connect_next_ip
+imapc_connection_dns_callback
+imapc_connection_reconnect
+array_append_array_i
+array_idx_i
+imapc_connection_unref
+rseq == imapc_msgmap_count(msgmap) + 1
+rseq <= imapc_msgmap_count(msgmap)
+imapc-msgmap.c
+uid >= msgmap->uid_next
+rseq > 0
+imapc_msgmap_expunge
+imapc_msgmap_append
+array_idx_i
+;*2$"
+libauthdb_imap.so-2.2.32-2.fc27.i386.debug
+7zXZ
+YE%r
+\s?I
+r6Yr
+1(mAQ
+~t}L
+}\mes-~
+o'H-
+[g~:&
+\]||
+W(A5H
+}>Kw
+Ur<gv
+,A7J
+./"0
+b[1Im
+`-O"
+iprF
+Pt$U3
+fR[n`-S3w
+2dbmy
+3&=q
+]<-B
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

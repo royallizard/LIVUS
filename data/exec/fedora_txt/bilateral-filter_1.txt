@@ -1,0 +1,187 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+g_slice_alloc0
+g_type_check_instance_cast
+babl_format
+gegl_operation_set_format
+g_malloc0_n
+gegl_buffer_get
+gegl_buffer_set
+g_free
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_double
+g_object_class_install_property
+g_param_spec_double
+g_object_set_data_full
+g_slice_free1
+gegl_cl_is_accelerated
+gegl_operation_get_required_for_output
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_clSetKernelArg
+gegl_buffer_cl_iterator_next
+gegl_clEnqueueNDRangeKernel
+gegl_cl_errstring
+g_log
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_object_ref
+g_type_name
+g_value_set_double
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+bilateral-filter.so
+GLIBC_2.1.3
+GLIBC_2.4
+D$@$
+d$ [^_
+[^_]
+UWVS
+d$\[^_]
+UWVS
+L$Le
+[^_]
+L$<	
+T$@t2
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+UWVS
+d$<[^_]
+d$<[^_]
+d$<[^_]
+GeglChantbilateral-filter.c
+RGBA float
+input
+output
+gegl-0.2
+description
+misc
+categories
+gegl:bilateral-filter
+name
+Blur radius
+blur_radius
+Amount of edge preservation
+Edge preservation
+edge_preservation
+chant-data
+bilateral_filter
+GEGL-bilateral-filter.c
+property
+GEGL-../../gegl/gegl-chant.h
+An edge preserving blur filter that can be used for noise reduction. It is a gaussian blur where the contribution of neighbourhood pixels are weighted by the color difference from the center pixel.
+Radius of square pixel region, (width and height will be radius*2+1).
+#define POW2(a) ((a) * (a))                                           
+kernel void bilateral_filter(global float4 *in,                       
+                             global float4 *out,                      
+                             const  float radius,                     
+                             const  float preserve)                   
+{                                                                     
+    int gidx       = get_global_id(0);                                
+    int gidy       = get_global_id(1);                                
+    int n_radius   = ceil(radius);                                    
+    int dst_width  = get_global_size(0);                              
+    int src_width  = dst_width + n_radius * 2;                        
+                                                                      
+    int u, v, i, j;                                                   
+    float4 center_pix =                                               
+        in[(gidy + n_radius) * src_width + gidx + n_radius];          
+    float4 accumulated = 0.0f;                                        
+    float4 tempf       = 0.0f;                                        
+    float  count       = 0.0f;                                        
+    float  diff_map, gaussian_weight, weight;                         
+                                                                      
+    for (v = -n_radius;v <= n_radius; ++v)                            
+    {                                                                 
+        for (u = -n_radius;u <= n_radius; ++u)                        
+        {                                                             
+            i = gidx + n_radius + u;                                  
+            j = gidy + n_radius + v;                                  
+                                                                      
+            int gid1d = i + j * src_width;                            
+            tempf = in[gid1d];                                        
+                                                                      
+            diff_map = exp (                                          
+                - (   POW2(center_pix.x - tempf.x)                    
+                    + POW2(center_pix.y - tempf.y)                    
+                    + POW2(center_pix.z - tempf.z))                   
+                * preserve);                                          
+                                                                      
+            gaussian_weight =                                         
+                exp( - 0.5f * (POW2(u) + POW2(v)) / radius);          
+                                                                      
+            weight = diff_map * gaussian_weight;                      
+                                                                      
+            accumulated += tempf * weight;                            
+            count += weight;                                          
+        }                                                             
+    }                                                                 
+    out[gidx + gidy * dst_width] = accumulated / count;               
+}                                                                     
+[OpenCL] Error in gegl:bilateral-filter: %s
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*2$"
+bilateral-filter.so.debug
+7zXZ
+PRG\
+%]d_
+U\8 t'YO}N
+v'"M
+T0c"
+X{X%A
+w)&(
+]7:eA
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

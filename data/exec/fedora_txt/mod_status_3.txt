@@ -1,0 +1,278 @@
+o2)#
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+buffer_append_string_len
+buffer_append_string
+calloc
+buffer_init
+config_insert_values_global
+__stack_chk_fail
+config_check_cond
+buffer_is_equal_string
+buffer_is_equal
+buffer_copy_string_len
+buffer_append_string_buffer
+buffer_append_int
+localtime
+strftime
+__snprintf_chk
+buffer_copy_buffer
+connection_get_short_state
+chunkqueue_append_buffer
+buffer_free
+response_header_overwrite
+connection_get_state
+chunkqueue_length
+buffer_append_string_encoded
+strtol
+memcmp
+mod_status_plugin_init
+buffer_init_string
+libc.so.6
+_edata
+__bss_start
+_end
+mod_status.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+XFpH
+AWAVAUATI
+D$x1
+|$0H
+|$@H
+D$(H
+|$HH
+D$XH
+D$PI
+T$ H
+T$8L
+|$xdH3<%(
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+@@H;H
+8json
+)D$@
+)D$P
+)D$`
+refresh=H
+|$8L
+t$/H
+D$0L
+,t$0L
+,t$0L
+,t$0L
+H;]8sZH
+Hct$pL
+H+s(
+Hcp@
+XC@L
+XC`H
+XC8H
+[]A\A]
+   <tr>
+    <th colspan="2">
+</th>
+   </tr>
+    <td><b>
+</b></td>
+    <td>
+status.status-url
+status.config-url
+status.enable-sort
+status.statistics-url
+<th class="status">
+auto
+Total Accesses: 
+%.0f
+Total kBytes: 
+Uptime: 
+BusyServers: 
+IdleServers: 
+Scoreboard: 
+text/plain
+Content-Type
+jsonp=
+	"RequestsTotal": 
+	"TrafficTotal": 
+	"Uptime": 
+	"BusyServers": 
+	"IdleServers": 
+	"RequestAverage5s":
+	"TrafficAverage5s":
+application/javascript
+ </head>
+ <body>
+<h1>Server-Status (
+)</h1>
+)</td></tr>
+ days 
+ hours 
+ min 
+%Y-%m-%d %H:%M:%S
+req</td></tr>
+%.2f
+byte</td></tr>
+req/s</td></tr>
+byte/s</td></tr>
+<hr />
+<pre>
+ connections</b>
+<table>
+</td><td>&nbsp;&nbsp;
+</table>
+<tr>
+Client IP
+Read
+Written
+State
+Time
+Host
+File
+ </body>
+</html>
+text/html
+<tr><td class="string">
+</td><td class="int">
+</td><td class="string">
+keep-alive
+Server-Features
+enabled
+RegEx Conditionals
+Network Engine
+fd-Event-Handler
+Config-File-Settings
+Loaded Modules
+  </table>
+<br />
+status
+<th class="status"><a href="#" class="sortheader" onclick="resort(this);return false;">
+<span class="sortarrow">:</span></a></th>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>Status</title>
+  <style type="text/css">
+    table.status { border: black solid thin; }
+    td { white-space: nowrap; }
+    td.int { background-color: #f0f0f0; text-align: right }
+    td.string { background-color: #f0f0f0; text-align: left }
+    th.status { background-color: black; color: white; font-weight: bold; }
+    a.sortheader { background-color: black; color: white; font-weight: bold; text-decoration: none; display: block; }
+    span.sortarrow { color: white; text-decoration: none; }
+  </style>
+<meta http-equiv="refresh" content="
+<script type="text/javascript">
+// <!--
+var sort_column;
+var prev_span = null;
+function get_inner_text(el) {
+ if((typeof el == 'string')||(typeof el == 'undefined'))
+  return el;
+ if(el.innerText)
+  return el.innerText;
+ else {
+  var str = "";
+  var cs = el.childNodes;
+  var l = cs.length;
+  for (i=0;i<l;i++) {
+   if (cs[i].nodeType==1) str += get_inner_text(cs[i]);
+   else if (cs[i].nodeType==3) str += cs[i].nodeValue;
+ return str;
+function sortfn(a,b) {
+ var at = get_inner_text(a.cells[sort_column]);
+ var bt = get_inner_text(b.cells[sort_column]);
+ if (a.cells[sort_column].className == 'int') {
+  return parseInt(at)-parseInt(bt);
+ } else {
+  aa = at.toLowerCase();
+  bb = bt.toLowerCase();
+  if (aa==bb) return 0;
+  else if (aa<bb) return -1;
+  else return 1;
+function resort(lnk) {
+ var span = lnk.childNodes[1];
+ var table = lnk.parentNode.parentNode.parentNode.parentNode;
+ var rows = new Array();
+ for (j=1;j<table.rows.length;j++)
+  rows[j-1] = table.rows[j];
+ sort_column = lnk.parentNode.cellIndex;
+ rows.sort(sortfn);
+ if (prev_span != null) prev_span.innerHTML = '';
+ if (span.getAttribute('sortdir')=='down') {
+  span.innerHTML = '&uarr;';
+  span.setAttribute('sortdir','up');
+  rows.reverse();
+ } else {
+  span.innerHTML = '&darr;';
+  span.setAttribute('sortdir','down');
+ for (i=0;i<rows.length;i++)
+  table.tBodies[0].appendChild(rows[i]);
+ prev_span = span;
+// -->
+</script>
+<table summary="status" class="status">
+<tr><td>Hostname</td><td class="string">
+<tr><td>Uptime</td><td class="string">
+<tr><td>Started at</td><td class="string">
+<tr><th colspan="2">absolute (since start)</th></tr>
+<tr><td>Requests</td><td class="string">
+<tr><td>Traffic</td><td class="string">
+<tr><th colspan="2">average (since start)</th></tr>
+<tr><th colspan="2">average (5s sliding average)</th></tr>
+<tr><td style="text-align:right">
+<td>&nbsp;&nbsp;k = keep-alive</td></tr>
+</pre><hr />
+<h2>Connections</h2>
+<table summary="status" class="status">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>Status</title>
+ </head>
+ <body>
+  <h1>
+</h1>
+  <table summary="status" border="1">
+:*3$"
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+mod_status.so-1.4.50-1.fc29.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

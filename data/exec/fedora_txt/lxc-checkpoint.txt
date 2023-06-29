@@ -1,0 +1,147 @@
+/lib64/ld-linux-x86-64.so.2
+CYj	C
+liblxc.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lxc_arguments_parse
+wait_for_pid
+lxc_container_new
+lxc_log_init
+lxc_container_put
+lxc_log_options_no_override
+libcap.so.2
+libselinux.so.1
+libseccomp.so.2
+libutil.so.1
+libpthread.so.0
+close
+waitpid
+libc.so.6
+exit
+__strdup
+perror
+fork
+__stack_chk_fail
+__fprintf_chk
+stderr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_fini
+restore
+restore_finalize
+checkpoint
+__data_start
+_IO_stdin_used
+__libc_csu_init
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+5b! 
+%d! 
+%b! 
+%Z! 
+%R! 
+%J! 
+%B! 
+%:! 
+%2! 
+%*! 
+%"! 
+=#! 
+5G! 
+=\" 
+fffff.
+fffff.
+=q! 
+fffff.
+=Y  
+ATUSH
+[]A\
+[]A\
+[]A\
+AWAVA
+AUATL
+[]A\A]A^A_
+%s: -s not compatible with -r.
+%s: -d/-F not compatible with -r.
+%s not running, not checkpointing.
+%s is running, not restoring.
+Insufficent privileges to control %s
+--name=NAME
+lxc-checkpoint checkpoints and restores a container
+  Serializes a container's running state to disk to allow restoring it in
+  its running state at a later time.
+Options :
+  -n, --name=NAME           NAME for name of the container
+  -r, --restore             Restore container
+  -D, --checkpoint-dir=DIR  directory to save the checkpoint in
+  -v, --verbose             Enable verbose criu logs
+  Checkpoint options:
+  -s, --stop                Stop the container after checkpointing.
+  Restore options:
+  -d, --daemon              Daemonize the container (default)
+  -F, --foreground          Start with the current tty attached to /dev/console
+%s: -D is required.
+Checkpointing %s failed.
+Restoring %s failed.
+fork
+none
+System error loading %s
+%s is not defined
+lxc-checkpoint
+checkpoint-dir
+stop
+verbose
+restore
+daemon
+foreground
+name
+help
+usage
+version
+quiet
+logfile
+logpriority
+lxcpath
+;*3$"
+lxc-checkpoint.debug
+7zXZ
+@^~|
+%8^?
+|^qh3
+FfB'
+Ag\*
+8i:+
+y(zl
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,291 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+g_type_check_instance_cast
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+gegl_operation_class_set_keys
+g_dgettext
+gegl_param_spec_int
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+gegl_operation_source_get_bounding_box
+gegl_cl_is_accelerated
+g_malloc0_n
+gegl_buffer_get
+gegl_buffer_set
+g_free
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_buffer_cl_iterator_next
+gegl_clCreateBuffer
+gegl_cl_get_context
+gegl_clEnqueueCopyBuffer
+gegl_cl_get_command_queue
+gegl_clEnqueueBarrier
+gegl_clSetKernelArg
+gegl_clEnqueueNDRangeKernel
+gegl_cl_errstring
+g_log
+gegl_cl_compile_and_build
+gegl_clFinish
+gegl_clReleaseMemObject
+g_type_name
+g_value_set_int
+g_value_get_int
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+noise-reduction.so
+GLIBC_2.4
+GLIBC_2.2.5
+5:< 
+%<< 
+%:< 
+%2< 
+%*< 
+%"< 
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+=i; 
+=9; 
+52; 
+u+UH
+\$`f
+D$H1
+D$@8
+D$(H
+[]A\
+AWAVAUATUSH
+t$`H
+|$`H
+t$xH
+D$PH
+D$hH
+D$ H
+D$(H
+D$pf
+D$`D
+L$@H
+T$@A
+\$HA
+D$ L
+LcW 
+H9L$(u
+\$ I
+L;D$(u
+H9|$p
+H;D$0
+l$PD;l$
+[]A\A]A^A_
+L$ H
+D$,A
+D$(PA
+D$$PH
+L$ 1
+D$,j
+D$(PA
+D$$P
+\$XH
+D$`H
+)d$PH
+D$0H
+\$8H
+D$H1
+T$(H
+T$ L
+L$ H
+T$HH
+t$0L
+T$@A
+|$xH
+D$ H
+l$pH
+D$(L
+D$HA
+o\$PH
+|$xL
+$IcF
+D$ H
+tgATUH
+ []A\
+ATUS
+ []A\
+[]A\
+GeglChantnoise-reduction.c
+R'G'B'A float
+input
+output
+description
+enhance
+categories
+gegl:noise-reduction
+name
+gegl-0.2
+Strength
+iterations
+chant-data
+noise_reduction_cl
+transfer
+GEGL-noise-reduction.c
+property
+GEGL-../../gegl/gegl-chant.h
+Anisotropic like smoothing operation
+How many iteratarions to run the algorithm with
+#define NEIGHBOURS 8                                                              
+#define AXES       (NEIGHBOURS/2)                                                 
+                                                                                  
+#define POW2(a) ((a)*(a))                                                         
+                                                                                  
+#define GEN_METRIC(before, center, after) POW2((center) * 2 - (before) - (after)) 
+                                                                                  
+#define BAIL_CONDITION(new,original) ((new) < (original))                         
+                                                                                  
+#define SYMMETRY(a)  (NEIGHBOURS - (a) - 1)                                       
+                                                                                  
+#define O(u,v) (((u)+((v) * (src_stride))))                                       
+                                                                                  
+__kernel void noise_reduction_cl (__global       float4 *src_buf,                 
+                                  int src_stride,                                 
+                                  __global       float4 *dst_buf,                 
+                                  int dst_stride)                                 
+{                                                                                 
+    int gidx = get_global_id(0);                                                  
+    int gidy = get_global_id(1);                                                  
+                                                                                  
+    __global float4 *center_pix = src_buf + (gidy + 1) * src_stride + gidx + 1;   
+    int dst_offset = dst_stride * gidy + gidx;                                    
+                                                                                  
+    int offsets[NEIGHBOURS] = {                                                   
+        O(-1, -1), O( 0, -1), O( 1, -1),                                          
+        O(-1,  0),            O( 1,  0),                                          
+        O(-1,  1), O( 0,  1), O( 1,  1)                                           
+    };                                                                            
+                                                                                  
+    float4 sum;                                                                   
+    int4   count;                                                                 
+    float4 cur;                                                                   
+    float4 metric_reference[AXES];                                                
+                                                                                  
+    for (int axis = 0; axis < AXES; axis++)                                       
+      {                                                                           
+        float4 before_pix = *(center_pix + offsets[axis]);                        
+        float4 after_pix  = *(center_pix + offsets[SYMMETRY(axis)]);              
+        metric_reference[axis] = GEN_METRIC (before_pix, *center_pix, after_pix); 
+      }                                                                           
+                                                                                  
+    cur = sum = *center_pix;                                                      
+    count = 1;                                                                    
+                                                                                  
+    for (int direction = 0; direction < NEIGHBOURS; direction++)                  
+      {                                                                           
+        float4 pix   = *(center_pix + offsets[direction]);                        
+        float4 value = (pix + cur) * (0.5f);                                      
+        int    axis;                                                              
+        int4   mask = {1, 1, 1, 0};                                               
+                                                                                  
+        for (axis = 0; axis < AXES; axis++)                                       
+          {                                                                       
+            float4 before_pix = *(center_pix + offsets[axis]);                    
+            float4 after_pix  = *(center_pix + offsets[SYMMETRY(axis)]);          
+                                                                                  
+            float4 metric_new = GEN_METRIC (before_pix,                           
+                                            value,                                
+                                            after_pix);                           
+            mask = BAIL_CONDITION (metric_new, metric_reference[axis]) & mask;    
+          }                                                                       
+        sum   += mask >0 ? value : 0;                                             
+        count += mask >0 ? 1     : 0;                                             
+      }                                                                           
+    dst_buf[dst_offset]   = (sum/convert_float4(count));                          
+    dst_buf[dst_offset].w = cur.w;                                                
+}                                                                                 
+__kernel void transfer(__global float4 * in,                                      
+              int               in_width,                                         
+              __global float4 * out)                                              
+{                                                                                 
+    int gidx = get_global_id(0);                                                  
+    int gidy = get_global_id(1);                                                  
+    int width = get_global_size(0);                                               
+    out[gidy * width + gidx] = in[gidy * in_width + gidx];                        
+}                                                                                 
+[OpenCL] Error in gegl:noise-reduction: %s
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+noise-reduction.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+EV2x}9
+NGOs
+4z,~7
+(_]&
+b(/}*4
+(QP/6
+0t.r
+	Rgi
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

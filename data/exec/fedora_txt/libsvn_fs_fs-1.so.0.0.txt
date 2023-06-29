@@ -1,0 +1,792 @@
+td@-
+!N@GC
+\W1_
+?3Wh
+	YN,E
+~&7Ny
+^,V1
+#OVy	
+{ibD0
+;rrbV
+f*4t
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+svn_fs_fs__initialize_caches
+apr_pstrcat
+svn_cache__make_memcache_from_config
+svn_config_get_bool
+svn_cache__create_memcache
+svn_cache__create_inprocess
+svn_fs_fs__dag_deserialize
+svn_fs_fs__dag_serialize
+svn_fs_fs__dir_entries_deserialize
+svn_fs_fs__dir_entries_serialize
+svn_cache__set_error_handler
+svn_fs_fs__dag_dup_for_cache
+apr_array_copy
+apr_array_make
+memcpy
+apr_palloc
+svn_fs_fs__id_copy
+apr_hash_make
+apr_hash_first
+apr_hash_this
+apr_pstrdup
+apr_hash_set
+apr_hash_next
+svn_error_clear
+svn_fs_fs__id_parse
+svn_error__locate
+dcgettext
+svn_error_create
+svn_fs_fs__id_unparse
+svn_fs_fs__dag_node_kind
+svn_fs_fs__dag_get_id
+svn_fs_fs__dag_get_created_path
+svn_fs_fs__dag_get_fs
+svn_fs_fs__dag_set_fs
+svn_fs_fs__get_node_revision
+svn_fs_fs__dag_get_copyfrom_path
+svn_fs_fs__dag_get_copyfrom_rev
+svn_fs_fs__dag_get_copyroot
+svn_fs_fs__dag_has_descendants_with_mergeinfo
+svn_fs_fs__dag_has_mergeinfo
+svn_fs_fs__dag_get_mergeinfo_count
+svn_fs_fs__dag_get_predecessor_count
+svn_fs_fs__dag_get_predecessor_id
+svn_fs_fs__dag_things_different
+svn_fs_fs__noderev_same_rep_key
+svn_fs_fs__rep_copy
+svn_fs_fs__dag_get_node
+svn_error_createf
+memchr
+svn_pool_create_ex
+svn_stringbuf_ncreate
+svn_stream_from_stringbuf
+svn_fs_fs__read_noderev
+apr_pool_destroy
+apr_pstrndup
+svn_fs_fs__dag_file_checksum
+svn_fs_fs__file_checksum
+svn_fs_fs__dag_finalize_edits
+svn_checksum_match
+svn_checksum_to_cstring_display
+svn_fs_fs__dag_file_length
+svn_fs_fs__file_length
+svn_fs_fs__dag_get_file_delta_stream
+svn_fs_fs__get_file_delta_stream
+svn_fs_fs__dag_get_contents
+svn_fs_fs__get_contents
+svn_fs_fs__set_entry
+svn_fs_fs__dag_dir_entries
+svn_fs_fs__rep_contents_dir
+svn_fs_fs__dag_open
+apr_hash_get
+svn_path_is_single_path_component
+svn_fs_fs__dag_txn_base_root
+svn_fs_fs__get_txn_ids
+svn_fs_fs__dag_txn_root
+svn_fs_fs__dag_clone_root
+svn_fs_fs__id_eq
+svn_error__malfunction
+svn_fs_fs__dag_revision_root
+svn_fs_fs__rev_get_root
+svn_fs_fs__dag_get_proplist
+svn_fs_fs__get_proplist
+svn_fs_fs__dag_get_revision
+svn_fs_fs__id_rev
+svn_fs_fs__dag_check_mutable
+svn_fs_fs__id_txn_id
+svn_stringbuf_create
+svn_stringbuf_appendcstr
+svn_fs_fs__write_noderev
+svn_fs_fs__dag_dup
+svn_fs_fs__dag_get_edit_stream
+svn_fs_fs__set_contents
+svn_fs_fs__dag_remove_node
+svn_fs_fs__delete_node_revision
+svn_fs_fs__dag_delete_if_mutable
+svn_fs_fs__dag_delete
+svn_fs_fs__dag_clone_child
+svn_path_join
+svn_fs_fs__create_successor
+svn_fs_fs__dag_set_has_mergeinfo
+svn_fs_fs__put_node_revision
+svn_fs_fs__dag_increment_mergeinfo_count
+apr_psprintf
+svn_fs_fs__dag_set_proplist
+svn_fs_fs__set_proplist
+svn_fs_fs__dag_set_entry
+svn_fs_fs__dag_copy
+svn_fs_fs__reserve_copy_id
+svn_fs_fs__id_copy_id
+svn_fs_fs__create_node
+svn_fs_fs__dag_make_dir
+svn_fs_fs__dag_make_file
+svn_fs_fs__err_corrupt_lockfile
+svn_fs_fs__err_dangling_id
+svn_fs_fs__init
+svn_ver_check_list
+apr_pool_userdata_get
+apr_thread_mutex_create
+apr_pool_userdata_set
+svn_error_wrap_apr
+svn_fs__check_fs
+svn_fs_fs__open
+svn_fs_fs__pack
+svn_fs_fs__hotcopy
+svn_io_remove_dir2
+svn_fs_fs__upgrade
+svn_fs_fs__path_current
+svn_io_file_create
+svn_fs_fs__create
+svn_fs_fs__recover
+svn_subr_version
+svn_delta_version
+svn_fs_fs__youngest_rev
+svn_fs_fs__revision_prop
+svn_fs_fs__revision_proplist
+svn_fs_fs__change_rev_prop
+svn_fs_fs__get_uuid
+svn_fs_fs__set_uuid
+svn_fs_fs__revision_root
+svn_fs_fs__begin_txn
+svn_fs_fs__open_txn
+svn_fs_fs__purge_txn
+svn_fs_fs__list_transactions
+svn_fs_fs__deltify
+svn_fs_fs__lock
+svn_fs_fs__generate_lock_token
+svn_fs_fs__unlock
+svn_fs_fs__get_lock
+svn_fs_fs__get_locks
+svn_fs_fs__fs_supports_mergeinfo
+strcmp
+__ctype_b_loc
+svn_path_local_style
+svn_io_file_open
+svn_io_read_length_line
+strtol
+svn_io_file_close
+strncmp
+apr_pool_clear
+apr_file_close
+svn_io_get_dirents2
+strlen
+apr_array_push
+svn_string_create
+svn_stream_from_aprfile2
+svn_hash_read2
+svn_stream_close
+svn_io_file_seek
+svn_stream_readline
+svn_path_join_many
+__assert_fail
+svn_cache__get
+svn_stream_open_readonly
+svn_string_create_from_buf
+apr_atoi64
+__errno_location
+svn_cache__set
+svn_io_file_read
+svn_fs_fs__path_rev_absolute
+svn_io_check_path
+apr_strtok
+svn_checksum_parse_hex
+svn_stream_create
+svn_stream_set_read
+svn_fs_fs__id_node_id
+svn_fs_fs__key_compare
+strcpy
+svn_fs_fs__id_offset
+svn_io_file_read_full
+svn_config_read
+svn_fs_fs__open_rep_cache
+svn_stringbuf_createf
+svn_io_set_file_read_only
+svn_path_dirname
+svn_io_write_unique
+svn_io_file_rename
+svn_io_make_dir_recursively
+svn_io_file_write_full
+apr_thread_mutex_lock
+apr_thread_mutex_unlock
+apr_file_unlock
+svn_checksum_ctx_create
+svn_stream_set_write
+svn_stream_printf
+svn_hash_write2
+svn_checksum_final
+svn_checksum_update
+svn_stream_write
+svn_sqlite__with_transaction
+svn_fs_fs__dup_perms
+svn_path_cstring_from_utf8
+apr_stat
+apr_file_perms_set
+svn_io_copy_file
+svn_io_file_flush_to_disk
+svn_uuid_generate
+svn_fs_fs__next_key
+svn_fs_fs__set_revision_proplist
+svn_stream_open_unique
+apr_time_now
+svn_time_to_cstring
+svn_io_dir_make
+svn_stream_open_writable
+svn_io_stat
+svn_stream_disown
+svn_stream_copy3
+svn_fs_fs__ensure_dir_exists
+svn_fs_fs__set_node_origin
+apr_pstrmemdup
+svn_string_compare
+svn_checksum_dup
+svn_txdelta_skip_svndiff_window
+svn_txdelta_read_svndiff_window
+svn_stringbuf_appendbytes
+svn_txdelta_apply_instructions
+svn_txdelta_compose_windows
+svn_io_file_lock2
+svn_fs_fs__with_write_lock
+svn_fs_fs__commit
+strchr
+apr_hash_pool_get
+svn_path_is_child
+svn_fs_fs__paths_changed
+svn_hash__clear
+svn_io_dir_file_copy
+svn_io_copy_dir_recursively
+svn_fs_fs__id_txn_create
+svn_io_remove_file
+svn_fs_fs__abort_txn
+svn_error_quick_wrap
+svn_fs_fs__create_txn
+svn_path_basename
+svn_fs_fs__get_node_origin
+memset
+svn_fs_fs__get_rep_reference
+svn_io_file_trunc
+svn_fs_fs__add_change
+svn_fs_path_change2_create
+svn_fs_fs__txn_proplist
+svn_fs_fs__txn_prop
+svn_fs_fs__get_txn
+svn_fs_fs__txn_changes_fetch
+svn_fs_fs__change_txn_props
+svn_fs_fs__change_txn_prop
+apr_file_lock
+svn_stream_set_close
+svn_stream_from_string
+svn_stream_empty
+svn_hash_read_incremental
+svn_fs_fs__id_rev_create
+svn_fs_fs__set_rep_reference
+svn_fs_fs__add_keys
+apr_hash_count
+svn_sort_compare_paths
+qsort
+svn_fs_fs__allow_locked_operation
+svn_stringbuf_set
+apr_is_empty_array
+svn_txdelta_to_svndiff2
+svn_txdelta_target_push
+svn_txdelta_stream_create
+svn_txdelta
+svn_fs_fs__commit_txn
+svn_fs_fs__txn_root
+svn_fs_fs__id_check_related
+svn_fs_fs__id_compare
+svn_string_createf
+memmove
+svn_checksum
+svn_lock_create
+svn_time_from_cstring
+svn_cstring_split
+svn_string_ncreate
+svn_path_split
+svn_stringbuf_setempty
+svn_fs__canonicalize_abspath
+svn_fs_fs__check_path
+svn_fs_fs__node_created_rev
+svn_sqlite__get_statement
+svn_checksum_to_cstring
+svn_sqlite__bindf
+svn_sqlite__step
+svn_sqlite__reset
+svn_sqlite__column_revnum
+svn_sqlite__column_int64
+svn_sqlite__insert
+svn_sqlite__open
+svn_fs__next_entry_name
+svn_mergeinfo_parse
+svn_mergeinfo_inheritable
+svn_rangelist_dup
+svn_txdelta_apply
+svn_cache__iter
+svn_path_is_ancestor
+libsvn_delta-1.so.0
+libsvn_fs_util-1.so.0
+libsvn_subr-1.so.0
+libz.so.1
+libsqlite3.so.0
+libaprutil-1.so.0
+libcrypt.so.1
+libdb-4.7.so
+libexpat.so.1
+libapr-1.so.0
+libpthread.so.0
+libdl.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libsvn_fs_fs-1.so.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.0
+[^_]
+<[^_]
+<Mtn<I
+<[^_]
+<[^_]
+H4|=~,
+}$t9
+ [^]
+L[^_]
+L[^_]
+L[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+L[^_]
+ta;Q0
+O09M
+;P0|5
+;P0|
+;P0}-
+l[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+\[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+L[^_]
+[^_]
+,[^_]
+[^_]
+F03F(1
+|j~^
+V43V,3F(	
+\[^_]
+\[^_]
+<[^_]
+} tn
+l[^_]
+[^_]
+<[^_]
+[^_]
+[^_]
+L[^_]
+[^_]
+l[^_]
+[^_]
+[^_]
+L[^_]
+[^_]
+<[^_]
+>_t*
+[^_]
+ta<z
+<[^_]
+<[^_]
+<[^_]
+L[^_]
+;B }
+ [^]
+Q ;W u
+?/t9
+:/t=
+|[^_]
+t2</t(
+L[^_]
+L[^_
+l[^_]
+|[^_]
+|[^_]
+[^_]
+|[^_]
+ [^]
+\[^_]
+F$tZ
+\[^_]
+L[^_]
+8_t-
+[^_]
+[^_]
+fsfs:
+fail-stop
+caches
+PACK-MANIFEST
+TEXT
+Bad ID in cache
+subversion
+subversion/libsvn_fs_fs/caching.c
+subversion/libsvn_fs_fs/dag.c
+Empty noderev in cache
+Kindless noderev in cache
+Unterminated ID in cache
+Bogus ID '%s' in cache
+No created path
+Unknown kind for noderev in cache: '%c'
+Unknown node type in cache: '%c'
+Attempted to get checksum of a *non*-file node
+Checksum mismatch, file '%s':
+   expected:  %s
+     actual:  %s
+Attempted to get length of a *non*-file node
+Attempted to get textual contents of a *non*-file node
+Can't get entries of non-directory
+Attempted to open non-existent child node '%s'
+Attempted to open node with an illegal name '%s'
+!svn_fs_fs__id_eq(root_id, base_root_id)
+Attempted to set textual contents of a *non*-file node
+Attempted to set textual contents of an immutable node
+Attempted removal of immutable node
+Attempted to delete entry '%s' from *non*-directory node
+Attempted to delete entry '%s' from immutable directory node
+Attempted to delete a node with an illegal name '%s'
+Delete failed--directory has no entry '%s'
+Attempted to clone child of non-mutable node
+Attempted to make a child clone with an illegal name '%s'
+Can't set mergeinfo flag on *immutable* node-revision %s
+Can't increment mergeinfo count on *immutable* node-revision %s
+Can't increment mergeinfo count on node-revision %%s to negative value %%%s
+Can't increment mergeinfo count on *file* node-revision %%s to %%%s (> 1)
+Can't set proplist on *immutable* node-revision %s
+Attempted to set entry in non-directory node
+Attempted to set entry in immutable node
+Attempted to create a node with an illegal name '%s'
+Attempted to create entry in non-directory parent
+subversion/libsvn_fs_fs/err.c
+Corrupt lockfile for path '%s' in filesystem '%s'
+Reference to non-existent node '%s' in filesystem '%s'
+Module for working with a plain file (FSFS) repository.
+Unsupported FS loader version (%d) for fsfs
+Can't create FSFS write-lock mutex
+Can't create FSFS txn list mutex
+Can't create FSFS txn-current mutex
+subversion/libsvn_fs_fs/fs.c
+svn-fsfs-shared-
+Can't fetch FSFS shared data
+Can't store FSFS shared data
+0 1 1
+svn_subr
+svn_delta
+layout 
+linear
+sharded 
+min-unpacked-rev
+Invalid revision number '%ld'
+No such revision %ld
+transactions
+ffd->max_files_per_dir
+%ld.pack
+manifest
+Manifest offset too large
+revprops
+! is_packed_rev(fs, rev)
+Missing node-id in node-rev
+Corrupt node-id in node-rev
+PLAIN
+DELTA
+Directory entry corrupt
+Missing id field in node-rev
+count
+text
+cpath
+Missing cpath in node-rev
+pred
+copyroot
+copyfrom
+is-fresh-txn-root
+minfo-cnt
+minfo-here
+format
+uuid
+fsfs.conf
+enable-rep-sharing
+layout sharded %d
+layout linear
+txn-current
+txn-current-lock
+txn-protorevs
+delete
+replace
+reset
+Invalid change type
+modify
+false
+true
+%s %s%s %s %s %s
+%ld %s
+PLAIN
+ENDREP
+Can't stat '%s'
+Can't chmod '%s'
+%ld %s %s
+pre-1.4-compatible
+pre-1.5-compatible
+pre-1.6-compatible
+write-lock
+svn:date
+%lld.pack
+node-origins
+%ld %lld %lld %lld %s
+%ld %lld %lld %lld %s %s %s
+id: %s
+type: %s
+pred: %s
+count: %d
+text: %s
+props: %s
+cpath: %s
+copyfrom: %ld %s
+copyroot: %ld %s
+is-fresh-txn-root: y
+minfo-cnt: %lld
+minfo-here: y
+rs->chunk_index <= this_chunk
+rev == min_unpacked_rev
+rep-cache.db
+node.%s.%s
+Corrupt node-revision '%s'
+.props
+.children
+next-ids
+.rev-lock
+.rev
+Transaction cleanup failed
+%ld-%s
+%s-%u.txn
+changes
+next-id file corrupt
+%s/%s
+No such transaction
+svn:check-ood
+svn:check-locks
+Corrupt representation '%s'
+%ld/%lld
+K %u
+V %u
+D %u
+%s-%ld
+Transaction out of date
+Corrupt current file
+%lld %lld
+DELTA
+DELTA %ld %lld %lld
+subversion/libsvn_fs_fs/fs_fs.c
+Expected FS format between '1' and '%d'; found format '%d'
+Format file '%s' contains an unexpected non-digit
+Can't read first line of format file '%s'
+'%s' contains invalid filesystem format option '%s'
+Found malformed header in revision file
+Revision file lacks trailing newline
+Final line in revision file missing space
+Final line in revision file longer than 64 characters
+Revision file '%s' does not exist, and r%ld is not packed
+Malformed representation header
+Malformed text representation offset line in node-rev
+Missing kind field in node-rev
+Malformed copyroot line in node-rev
+Malformed copyfrom line in node-rev
+Recovery encountered a non-directory node
+Recovery encountered a deltified directory representation
+strlen(txn_id) < sizeof(txn->txn_id)
+1 <= format && format <= SVN_FS_FS__FORMAT_NUMBER
+change->node_kind == svn_node_dir || change->node_kind == svn_node_file
+Can't grab FSFS txn list mutex
+Can't ungrab FSFS txn list mutex
+Can't unlock unknown transaction '%s'
+Can't unlock nonlocked transaction '%s'
+Can't unlock prototype revision lockfile for transaction '%s'
+Can't close prototype revision lockfile for transaction '%s'
+Expected current rev to be <= %ld but found %ld
+Revision %ld has a revs file but no revprops file
+Revision %ld has a non-file where its revprops file should be
+PLAIN
+ENDREP
+id: 0.0.r0/17
+type: dir
+count: 0
+text: 0 0 4 4 2d2977d1c96f487abe4a1e202dd03b4e
+cpath: /
+17 107
+### This file controls the configuration of the FSFS filesystem.
+[memcached-servers]
+### These options name memcached servers used to cache internal FSFS
+### data.  See http://www.danga.com/memcached/ for more information on
+### memcached.  To use memcached with FSFS, run one or more memcached
+### servers, and specify each of them as an option like so:
+# first-server = 127.0.0.1:11211
+# remote-memcached = mymemcached.corp.example.com:11212
+### The option name is ignored; the value is of the form HOST:PORT.
+### memcached servers can be shared between multiple repositories;
+### however, if you do this, you *must* ensure that repositories have
+### distinct UUIDs and paths, or else cached data from one repository
+### might be used by another accidentally.  Note also that memcached has
+### no authentication for reads or writes, so you must ensure that your
+### memcached servers are only accessible by trusted users.
+[caches]
+### When a cache-related error occurs, normally Subversion ignores it
+### and continues, logging an error if the server is appropriately
+### configured (and ignoring it with file:// access).  To make
+### Subversion never ignore cache errors, uncomment this line.
+# fail-stop = true
+[rep-sharing]
+### To conserve space, the filesystem can optionally avoid storing
+### duplicate representations.  This comes at a slight cost in performace,
+### as maintaining a database of shared representations can increase
+### commit times.  The space savings are dependent upon the size of the
+### repository, the number of objects it contains and the amount of
+### duplication between them, usually a function of the branching and
+### merging process.
+### The following parameter enables rep-sharing in the repository.  It can
+### be switched on and off at will, but for best space-saving results
+### should be enabled consistently over the life of the repository.
+# enable-rep-sharing = false
+FS format too old to pack, please upgrade.
+Node origin for '%s' exists with a different value (%s) than what we were about to store (%s)
+Reading one svndiff window read beyond the end of the representation
+svndiff data requested non-existent source
+svndiff requested position beyond end of stream
+svndiff window length is corrupt
+Checksum mismatch while reading representation:
+   expected:  %s
+     actual:  %s
+Can't grab FSFS mutex for '%s'
+Can't ungrab FSFS mutex for '%s'
+Invalid changes line in rev-file
+Invalid change kind in rev file
+Invalid text-mod flag in rev-file
+Invalid prop-mod flag in rev-file
+Missing required node revision ID
+Invalid change ordering: new node revision ID without delete
+Invalid change ordering: non-add change on deleted path
+Attempted to write to non-transaction
+Unable to create transaction directory in '%s' for revision %ld
+Copying from transactions not allowed
+Cannot write to the prototype revision file of transaction '%s' because a previous representation is currently being written by this process
+Cannot write to the prototype revision file of transaction '%s' because a previous representation is currently being written by another process
+Can't get exclusive lock on file '%s'
+Malformed svndiff data in representation
+Can't set text contents of a directory
+path_rev_packed
+path_revprops_shard
+path_rev_shard
+path_rev
+get_shared_txn
+write_change_entry
+svn_fs_fs__hotcopy
+%s.%s.%c%s
+subversion/libsvn_fs_fs/key-gen.c
+*len < 200
+svn_fs_fs__next_key
+token
+owner
+is_dav_comment
+creation_date
+expiration_date
+opaquelocktoken:
+subversion/libsvn_fs_fs/lock.c
+Can't parse lock/entries hashfile '%s'
+Cannot write lock/entries hashfile '%s'
+No lock on path '%s' in filesystem '%s'
+Lock has expired: lock-token '%s' in filesystem '%s'
+No username is currently associated with filesystem '%s'
+User '%s' is trying to use a lock owned by '%s' in filesystem '%s'
+Cannot verify lock on path '%s'; no username available
+User %s does not own lock on path '%s' (currently locked by %s)
+Cannot verify lock on path '%s'; no matching lock-token available
+'%s' is not a file in filesystem '%s'
+Path '%s' doesn't exist in HEAD revision
+Lock failed: newer version of '%s' exists
+Path '%s' is already locked by user '%s' in filesystem '%s'
+subversion/libsvn_fs_fs/rep-cache.c
+Only SHA1 checksums can be used as keys in the rep_cache table.
+Representation key for checksum '%%s' exists in filesystem '%%s' with a different value (%%ld,%%%s,%%%s,%%%s) than what we were about to store (%%ld,%%%s,%%%s,%%%s)
+select revision, offset, size, expanded_size from rep_cache where hash = ?1
+insert into rep_cache (hash, revision, offset, size, expanded_size) values (?1, ?2, ?3, ?4, ?5);
+pragma auto_vacuum = 1; create table rep_cache (hash text not null primary key,                         revision integer not null,                         offset integer not null,                         size integer not null,                         expanded_size integer not null); 
+siiii
+%ld%s
+*path == '/'
+Conflict at '%s'
+Failure opening '%s'
+svn:mergeinfo
+this_node != ((void *)0)
+'%s' is not a file
+root->is_txn_root
+subversion/libsvn_fs_fs/tree.c
+Bad merge; ancestor, source, and target not all in same fs
+Bad merge; target '%s' has id '%s', same as ancestor
+Unexpected immutable node at '%s'
+File not found: transaction '%s', path '%s'
+File not found: revision %ld, path '%s'
+child && child->parent && txn_id
+'%s' is not a directory in filesystem '%s'
+Node-revision #'%s' claims to have mergeinfo but doesn't
+Querying mergeinfo requires version %d of the FSFS filesystem schema; filesystem '%s' uses only version %d
+Node-revision '%s@%ld' claims to have mergeinfo but doesn't
+Root object must be a transaction root
+Cannot compare file contents between two different filesystems
+Cannot compare property value between two different filesystems
+File is not mutable: filesystem '%s', revision %ld, path '%s'
+Base checksum mismatch on '%s':
+   expected:  %s
+     actual:  %s
+File already exists: filesystem '%s', transaction '%s', path '%s'
+File already exists: filesystem '%s', revision %ld, path '%s'
+Cannot copy between two different filesystems ('%s' and '%s')
+Copy from mutable tree not currently supported
+The root directory cannot be deleted
+parent_path_relpath
+libsvn_fs_fs-1.so.0.0.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

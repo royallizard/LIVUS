@@ -1,0 +1,202 @@
+tdT5
+/lib/ld-linux.so.2
+libpolkit-gobject-1.so.0
+_ITM_deregisterTMCloneTable
+g_object_unref
+g_file_get_contents
+g_return_if_fail_warning
+g_strcmp0
+g_strdup_printf
+__gmon_start__
+g_object_ref
+g_strfreev
+g_log
+g_list_free
+g_type_check_instance_is_a
+g_type_check_instance_cast
+_Jv_RegisterClasses
+g_strdup
+_ITM_registerTMCloneTable
+g_list_foreach
+g_error_free
+polkit_system_bus_name_get_type
+polkit_unix_process_get_pid
+polkit_temporary_authorization_get_type
+polkit_authorization_result_get_dismissed
+polkit_details_new
+polkit_authority_check_authorization_sync
+polkit_temporary_authorization_get_id
+polkit_authority_enumerate_temporary_authorizations_sync
+polkit_temporary_authorization_get_time_expires
+polkit_system_bus_name_get_process_sync
+polkit_details_lookup
+polkit_system_bus_name_new
+polkit_unix_process_get_type
+polkit_unix_process_new_for_owner
+polkit_authorization_result_get_is_authorized
+polkit_unix_process_new
+polkit_unix_session_new_for_process_sync
+polkit_details_get_keys
+polkit_subject_to_string
+polkit_authority_get_sync
+polkit_temporary_authorization_get_time_obtained
+polkit_temporary_authorization_get_subject
+polkit_system_bus_name_get_name
+polkit_authority_revoke_temporary_authorizations_sync
+polkit_details_insert
+polkit_temporary_authorization_get_action_id
+polkit_unix_process_new_full
+polkit_authorization_result_get_is_challenge
+polkit_authorization_result_get_details
+libpolkit-agent-1.so.0
+g_string_new
+g_print
+g_printerr
+g_string_free
+g_string_insert_c
+polkit_agent_listener_register
+polkit_agent_text_listener_new
+polkit_agent_listener_unregister
+libgobject-2.0.so.0
+g_string_append_printf
+g_type_init
+libglib-2.0.so.0
+g_get_current_time
+g_get_prgname
+g_strchomp
+g_ascii_table
+g_strchug
+g_set_prgname
+libpthread.so.0
+libc.so.6
+_IO_stdin_used
+__isoc99_sscanf
+dcgettext
+getpid
+strftime
+localtime
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+_fp_hw
+__data_start
+__libc_csu_init
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.7
+GLIBC_2.0
+D$\e
+D$|1
+T$|e3
+[^_]
+D$pf
+[^_]
+D$xf
+D$|+
+[^_]
+[^_]
+from now
+%d min %d sec %s
+cannot read cmdline
+Error getting authority: %s
+Error getting session: %s
+/proc/%d/cmdline
+Error opening `%s': %s
+subject != NULL
+pkcheck
+--help
+--version
+--process
+%i,%llu,%u
+%i,%llu
+--system-bus-name
+--action-id
+--detail
+--allow-user-interaction
+--enable-internal-agent
+--list-temp
+--revoke-temp
+%s: Unexpected argument `%s'
+polkit
+0.112
+pkcheck version %s
+%s: Subject not specified
+Not authorized.
+Error revoking temporary authorizations: %s
+Error getting temporary authorizations: %s
+Error getting process for system bus name `%s': %s
+Unknown subject type passed to _polkit_subject_get_cmdline()
+authorization id: %s
+action:           %s
+subject:          %s (%s)
+obtained:         %s (%s)
+expires:          %s (%s)
+%s: Argument expected after `%s'
+%s: Invalid --process value `%s'
+%s: Two arguments expected after `--detail'
+Usage:
+  pkcheck [OPTION...]
+Help Options:
+  -h, --help                         Show help options
+Application Options:
+  -a, --action-id=ACTION             Check authorization to perform ACTION
+  -u, --allow-user-interaction       Interact with the user if necessary
+  -d, --details=KEY VALUE            Add (KEY, VALUE) to information about the action
+  --enable-internal-agent            Use an internal authentication agent if necessary
+  --list-temp                        List temporary authorizations for current session
+  -p, --process=PID[,START_TIME,UID] Check authorization of specified process
+  --revoke-temp                      Revoke all temporary authorizations for current session
+  -s, --system-bus-name=BUS_NAME     Check authorization of owner of BUS_NAME
+  --version                          Show version
+Report bugs to: %s
+%s home page: <%s>
+http://www.freedesktop.org/wiki/Software/polkit
+http://lists.freedesktop.org/mailman/listinfo/polkit-devel
+Error checking for authorization %s: %s
+Error creating textual authentication agent: %s
+Error registering local authentication agent: %s
+Authorization requires authentication but no agent is available.
+Authorization requires authentication and -u wasn't passed.
+Authentication request was dismissed.
+_polkit_subject_get_cmdline
+;*2$",
+pkcheck.debug
+7zXZ
+</{0
+8	YLP/l?
++.,g
+#;zj
+e/TE0
+v:YV
+OM}q}
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

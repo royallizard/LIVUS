@@ -1,0 +1,110 @@
+nBDe
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+msg_write
+msg_free
+msg_read
+_zlog_assert_failed
+ospf_apiclient_connect
+socket
+setsockopt
+bind
+listen
+gethostbyname
+__memcpy_chk
+getservbyname
+accept
+zcalloc
+stderr
+fwrite
+__errno_location
+safe_strerror
+__fprintf_chk
+ospf_apiclient_close
+zfree
+ospf_apiclient_register_opaque_type
+new_msg_register_opaque_type
+ospf_apiclient_sync_lsdb
+new_msg_register_event
+new_msg_sync_lsdb
+ospf_apiclient_lsa_originate
+new_msg_originate_request
+ospf_apiclient_lsa_delete
+new_msg_delete_request
+ospf_apiclient_register_callback
+ospf_apiclient_handle_async
+zmalloc
+memcpy
+libcrypt.so.1
+libcrypto.so.10
+libnetsnmp.so.20
+librt.so.1
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libospfapiclient.so.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+[^_]
+U t>
+P u7
+ospf_apiclient.c
+msg->hdr.msgtype == 10
+ospfapi
+new_msg_sync_lsdb failed
+oclient
+update_notify
+(__extension__ ({ register unsigned int __v, __x = (msg->hdr.msgseq); if (__builtin_constant_p (__x)) __v = ((((__x) & 0xff000000) >> 24) | (((__x) & 0x00ff0000) >> 8) | (((__x) & 0x0000ff00) << 8) | (((__x) & 0x000000ff) << 24)); else __asm__ ("bswap %0" : "=r" (__v) : "0" (__x)); __v; })) == reqseq
+ospf_apiclient_connect: creating async socket failed
+ospf_apiclient_connect: SO_REUSEADDR failed
+ospf_apiclient_connect: bind async socket failed
+ospf_apiclient_connect: listen: %s
+ospf_apiclient_connect: no such host %s
+ospf_apiclient_connect: creating sync socket failed
+ospf_apiclient_connect: bind sync socket failed
+ospf_apiclient_connect: sync connect failed
+ospf_apiclient_connect: accept async failed
+new_msg_register_opaque_type failed
+new_msg_register_event failed
+Cannot originate non-opaque LSA type %d
+new_msg_originate_request failed
+Cannot delete non-opaque LSA type %d
+LSA update: Cannot allocate memory for LSA
+LSA delete: Cannot allocate memory for LSA
+ospf_apiclient_read: Unknown message type: %d
+ospf_apiclient_register_callback
+ospf_apiclient_send_request
+libospfapiclient.so.0.0.0.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,121 @@
+/lib64/ld-linux-x86-64.so.2
+libgimp-2.0.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+g_log
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+gimp_locale_directory
+gimp_rgn_iterate1
+gimp_rgn_iterate2
+gimp_progress_init
+gimp_drawable_get
+gimp_drawable_is_gray
+gimp_image_set_colormap
+gimp_drawable_detach
+gimp_drawable_is_indexed
+gimp_quit
+gimp_image_get_colormap
+gimp_install_procedure
+gimp_drawable_is_rgb
+gimp_tile_width
+gimp_plugin_menu_register
+gimp_main
+gimp_displays_flush
+gimp_tile_cache_ntiles
+libgimpmath-2.0.so.0
+libm.so.6
+libgimpconfig-2.0.so.0
+libgimpcolor-2.0.so.0
+gimp_rgb_to_hsv4
+gimp_hsv_to_rgb4
+libgimpbase-2.0.so.0
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+dcgettext
+bind_textdomain_codeset
+__cxa_finalize
+bindtextdomain
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+fffff.
+fff.
+zkui
+z;u9
+\$(H
+l$0L
+d$8L
+l$@H
+L$8H
+L$0H
+t$HH
+L$0H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+t$,H
+D$8H
+T$0H
+T$,H
+~-E1
+T$,A9
+D$(H
+l$ L
+t$(L
+|$0H
+gimp20-std-plug-ins
+UTF-8
+Auto-Stretching HSV
+1997
+plug-in-autostretch-hsv
+RGB*, INDEXED*
+Stretch _HSV
+<Image>/Colors/Auto
+run-mode
+Input image
+Input drawable
+autostretch_hsv: cmap was NULL!  Quitting...
+Scott Goehring and Federico Mena Quintero
+This simple plug-in does an automatic contrast stretch.  For each channel in the image, it finds the minimum and maximum values... it uses those values to stretch the individual histograms to the full contrast range.  For some images it may do just what you want; for others it may be total crap :).  This version differs from Contrast Autostretch in that it works in HSV space, and preserves hue.
+Stretch image contrast to cover the maximum possible range
+The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }
+;*3$"
+contrast-stretch-hsv.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array

@@ -1,0 +1,223 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_log_level_meta
+pa_thread_mq_install
+__errno_location
+pa_rtpoll_run
+pa_rtpoll_item_get_pollfd
+pa_memblock_get_length
+pa_memblock_acquire
+pa_read
+pa_memblock_release
+pa_source_post
+pa_memblock_unref
+pa_memchunk_reset
+pa_msgobject_type_id
+pa_asyncmsgq_post
+pa_asyncmsgq_wait_for
+pa_pipe_buf
+pa_memblock_new
+abort
+pa_cstrerror
+__stack_chk_fail
+pa_source_type_id
+pa_source_process_msg
+ioctl
+pa_bytes_to_usec
+module_pipe_source_LTX_pa__get_author
+module_pipe_source_LTX_pa__get_description
+module_pipe_source_LTX_pa__get_version
+module_pipe_source_LTX_pa__load_once
+module_pipe_source_LTX_pa__get_usage
+module_pipe_source_LTX_pa__get_n_used
+pa_source_linked_by
+module_pipe_source_LTX_pa__done
+pa_source_unlink
+pa_asyncmsgq_send
+pa_thread_free
+pa_thread_mq_done
+pa_object_type_id
+pa_object_unref
+pa_rtpoll_item_free
+pa_rtpoll_free
+pa_xfree
+pa_close
+module_pipe_source_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_sample_spec_and_channel_map
+pa_xmalloc0
+pa_rtpoll_new
+pa_thread_mq_init
+pa_modargs_get_value
+pa_runtime_path
+mkfifo
+chmod
+pa_open_cloexec
+pa_make_fd_nonblock
+__fxstat
+pa_source_new_data_init
+pa_source_new_data_set_name
+pa_proplist_sets
+pa_proplist_setf
+pa_source_new_data_set_sample_spec
+pa_source_new_data_set_channel_map
+pa_modargs_get_proplist
+pa_source_new
+pa_source_new_data_done
+pa_source_set_asyncmsgq
+pa_source_set_rtpoll
+pa_source_set_fixed_latency
+pa_rtpoll_item_new
+pa_thread_new
+pa_source_put
+pa_modargs_free
+libpulsecore-12.2.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-12.2.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-pipe-source.so
+GLIBC_2.2.5
+PULSE_0
+GLIBC_2.4
+/usr/lib64/pulseaudio
+u+UH
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+HcT$
+{0E1
+AWAVAUATUSH
+)L$ 
+)T$0
+)\$@
+)d$P
+)l$`
+)t$p
+[]A\A]A^A_
+modules/module-pipe-source.c
+Thread starting up
+l != 0
+FIFO shutdown.
+pa_msgobject_isinstance(o)
+./pulsecore/msgobject.h
+Thread shutting down
+pa_source_isinstance(o)
+./pulsecore/source.h
+Lennart Poettering
+UNIX pipe source
+12.2-rebootstrapped
+u = m->userdata
+./pulsecore/object.h
+pa_close(u->fd) == 0
+pa_thread_mq_init() failed.
+/tmp/music.input
+file
+mkfifo('%s'): %s
+chomd('%s'): %s
+open('%s'): %s
+fstat('%s'): %s
+'%s' is not a FIFO.
+fifo_input
+source_name
+device.string
+Unix FIFO source %s
+device.description
+source_properties
+Invalid properties
+Failed to create source.
+pipe-source
+Failed to create thread.
+format
+rate
+channels
+channel_map
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+pa_memblock_get_length(u->memchunk.memblock) > u->memchunk.index
+Failed to read data from FIFO: %s
+source_name=<name for the source> source_properties=<properties for the source> file=<path of the FIFO> format=<sample format> rate=<sample rate> channels=<number of channels> channel_map=<channel map>
+!obj || obj->check_type(pa_object_type_id)
+Failed to parse module arguments.
+Invalid sample format specification or channel map
+pa_object_cast
+pa_object_cast
+module_pipe_source_LTX_pa__done
+module_pipe_source_LTX_pa__done
+module_pipe_source_LTX_pa__get_n_used
+module_pipe_source_LTX_pa__get_n_used
+pa_source_cast
+pa_source_cast
+pa_msgobject_cast
+pa_msgobject_cast
+thread_func
+thread_func
+module_pipe_source_LTX_pa__init
+module_pipe_source_LTX_pa__init
+;*3$"
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+module-pipe-source.so-12.2-1.fc29.x86_64.debug
+7zXZ
+GZZ\
+1cFg
+=UnN
+Y2]x
+nmf$
+j7QL!
+ou>'M
+ jw%
+VjH^
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

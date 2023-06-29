@@ -1,0 +1,928 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+wsgi_module
+wsgi_logio_add_bytes_out
+strcasecmp
+apr_table_make
+ap_getword_conf
+apr_table_setn
+ap_check_cmd_context
+strtol
+ap_accept_lock_mech
+apr_pstrcat
+getpid
+apr_psprintf
+ap_server_root_relative
+unixd_config
+strstr
+ap_uname2id
+getpwuid
+wsgi_daemon_list
+strcmp
+ap_gname2id
+__errno_location
+apr_array_push
+random
+apr_pstrdup
+apr_array_make
+ap_pregcomp
+ap_hook_post_config
+ap_hook_child_init
+ap_hook_translate_name
+ap_hook_handler
+ap_register_output_filter
+strlen
+apr_brigade_create
+apr_brigade_writev
+apr_is_empty_table
+apr_table_elts
+apr_brigade_write
+ap_pass_brigade
+ap_remove_output_filter
+apr_palloc
+apr_table_overlay
+apr_dynamic_fn_retrieve
+apr_dynamic_fn_register
+apr_table_set
+ap_log_rerror
+ap_no2slash
+ap_str_tolower
+apr_pstrndup
+_PyObject_New
+PyExc_RuntimeError
+PyErr_SetString
+PyThreadState_Swap
+__strdup
+ap_log_error
+PyThreadState_New
+PyImport_AddModule
+Py_BuildValue
+PyModule_AddObject
+PySys_SetObject
+PyList_New
+PyString_FromString
+PyList_Append
+PyThreadState_Clear
+PyThreadState_Delete
+PyImport_ImportModule
+PyCFunction_NewEx
+Py_NewInterpreter
+PyEval_SaveThread
+PyEval_RestoreThread
+apr_thread_mutex_lock
+PyEval_AcquireLock
+PyDict_GetItemString
+PyEval_ReleaseLock
+PyGILState_Ensure
+apr_thread_mutex_unlock
+PyEval_AcquireThread
+PyDict_SetItemString
+PyArg_ParseTuple
+_Py_NoneStruct
+PyModule_GetDict
+PyEval_CallObjectWithKeywords
+PyErr_Occurred
+PyExc_SystemExit
+PyErr_ExceptionMatches
+PyErr_Fetch
+PyErr_NormalizeException
+PyErr_Restore
+PyErr_Clear
+PyErr_Print
+Py_FlushLine
+PyThreadState_Get
+PyEval_ReleaseThread
+PyGILState_Release
+free
+PySys_GetObject
+PyObject_Free
+Py_EndInterpreter
+PyExc_IOError
+PyErr_Format
+PyList_Size
+PyList_GetItem
+PyTuple_Type
+PyType_IsSubtype
+PyTuple_Size
+PyTuple_GetItem
+PyString_Type
+ap_set_content_type
+ap_set_content_length
+apr_table_add
+PySequence_Check
+PySequence_Size
+apr_bucket_transient_create
+apr_bucket_flush_create
+apr_brigade_cleanup
+PyExc_ValueError
+PyExc_TypeError
+ap_rwrite
+PyString_AsString
+PyString_Size
+PyList_Type
+ap_getword
+PyObject_GetAttrString
+PyString_FromStringAndSize
+ap_get_client_block
+_PyString_Resize
+ap_should_client_block
+malloc
+memcpy
+memchr
+PyTuple_New
+PyExc_StopIteration
+PyErr_SetObject
+ap_md5
+PyImport_GetModuleDict
+PyDict_New
+PyBool_FromLong
+_Py_ZeroStruct
+apr_table_get
+PyObject_GetIter
+PyIter_Next
+PyObject_HasAttrString
+PyLong_AsLongLong
+PyDict_DelItemString
+fopen
+PyParser_SimpleParseFileFlags
+fclose
+PyNode_Compile
+PyNode_Free
+PyImport_ExecCodeModuleEx
+PyLong_FromLongLong
+PyErr_SetFromErrno
+strchr
+strncpy
+realloc
+strcpy
+ap_regexec
+ap_pregsub
+PyInterpreterState_Head
+PyType_Ready
+apr_thread_mutex_create
+apr_pool_cleanup_null
+apr_pool_cleanup_register
+PyOS_AfterFork
+PyDict_Clear
+Py_Finalize
+apr_proc_fork
+apr_pool_note_subprocess
+apr_proc_other_child_register
+geteuid
+umask
+chdir
+apr_proc_mutex_child_init
+apr_hash_make
+ap_listeners
+apr_hash_set
+ap_close_listeners
+apr_pool_create_ex
+apr_os_sock_put
+apr_setup_signal_thread
+apr_threadattr_create
+apr_threadattr_detach_set
+memset
+apr_thread_create
+apr_signal_thread
+apr_thread_join
+apr_pool_destroy
+setgid
+initgroups
+setuid
+apr_signal
+apr_proc_other_child_unregister
+ap_mpm_query
+unlink
+apr_array_append
+apr_array_cat
+ap_allow_options
+ap_setup_client_block
+ap_get_limit_req_body
+ap_discard_request_body
+ap_add_cgi_vars
+ap_add_common_vars
+apr_hash_get
+__stack_chk_fail
+getenv
+apr_cpystrn
+socket
+connect
+apr_sleep
+ap_get_server_port
+apr_os_pipe_put_ex
+apr_pool_cleanup_kill
+apr_file_pipe_timeout_get
+apr_file_pipe_timeout_set
+ap_get_brigade
+apr_bucket_type_eos
+apr_bucket_type_flush
+apr_file_write_full
+shutdown
+apr_bucket_pipe_create
+apr_bucket_eos_create
+ap_scan_script_header_err_brigade
+apr_pool_userdata_get
+__sprintf_chk
+ap_add_version_component
+Py_GetVersion
+strtok
+Py_IsInitialized
+ap_my_generation
+bind
+listen
+apr_proc_mutex_create
+Py_OptimizeFlag
+Py_SetProgramName
+Py_SetPythonHome
+putenv
+Py_Initialize
+__strncat_chk
+PyEval_InitThreads
+chown
+Py_GetPath
+apr_proc_mutex_name
+apr_os_proc_mutex_get
+semctl
+apr_pool_userdata_set
+apr_thread_pool_get
+apr_proc_mutex_lock
+apr_pollset_create
+apr_pollset_add
+apr_pollset_poll
+apr_proc_mutex_unlock
+apr_thread_exit
+apr_socket_accept
+apr_bucket_alloc_create
+ap_create_sb_handle
+ap_create_conn_config
+apr_socket_addr_get
+apr_sockaddr_ip_get
+apr_socket_timeout_set
+core_module
+ap_core_input_filter_handle
+ap_add_input_filter_handle
+ap_core_output_filter_handle
+ap_add_output_filter_handle
+ap_make_method_list
+ap_create_request_config
+apr_socket_recv
+apr_stat
+apr_socket_close
+apr_table_unset
+ap_update_vhost_given_ip
+ap_update_vhost_from_headers
+ap_add_input_filter
+ap_finalize_request_protocol
+ap_lingering_close
+libpython2.5.so.1.0
+libpthread.so.0
+libdl.so.2
+libutil.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+mod_wsgi.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+ATSubH
+OHHcP
+OHHcP
+OHHcP
+AWAVAUATI
+[]A\A]A^A_
+MHHcP
+KHHcP
+KHHcP
+KHHcP
+l$ H
+l$ 1
+l$ H
+MHHcP
+l$ E1
+AWAVAUATI
+t$@H
+T$@H
+D$PH
+|$@L
+X[]A\A]A^A_
+T$$t
+D$(H
+D$HH
+|$8H
+|$8L
+|$8H
+D$<D
+D$(H
+l$ H
+ffff.
+fffff.
+AVAUATUSH
+D$ H
+D$8H
+D$@H
+L$PI
+h[]A\A]A^A_
+fff.
+ffffff.
+ffffff.
+ATUSH
+[]A\A]
+tiL9
+tdHc
+uX</t
+t </t
+[]A\
+ffffff.
+AVAUATUH
+[]A\A]A^
+fffff.
+T$$H
+\$(H
+l$0L
+d$8L
+l$@H
+\$$I
+$tKI
+AVAUI
+ATUH
+T$ H
+t$(I
+|$(H
+|$ H
+0[]A\A]A^
+D$ H
+t$ H
+AVAUATUSH
+X[]A\A]A^A_
+d$HL
+L$@H
+T$HH
+t$PL
+|$PH
+|$HH
+|$@H
+d$HH
+L$PH
+T$HH
+t$@L
+D$(H
+|$@H
+|$HH
+|$PH
+T$(H
+T$(H
+D$@H
+D$HH
+D$PH
+D$HH
+T$@H
+t$HH
+T$PH
+t$HH
+fff.
+AWAVI
+AUATUSH
+D$HH
+D$PH
+D$@H
+t$HI
+\$PH
+t$HL
+\$HH
+T$HI
+T$HI
+\$$E
+Hct$$H
+[]A\A]A^A_
+t$$H
+|$(I
+Hct$$L
+l$ H
+\$8H
+L$0L
+D$(H
+D$0H
+|$(H
+H;=I
+t$8H
+D$0H
+@[]A\
+@[]A\
+[]A\
+[]A\
+AUATUSH
+T$ H
+t$ H
+L;d$ 
+T$ I
+|  L)
+([]A\A]A^A_
+([]A\A]A^A_
+[]A\A]A^A_
+t$ 1
+T$ I
+t3L9d$ 
+t3L9d$ 
+D$ H
+L9d$ 
+([]A\A]A^A_
+ffffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+t?Ic
+ffff.
+L9l$
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+]8E1
+L9l$
+t.$H
+L9l$
+~$L9
+m0L)m8M
+fffff.
+AWAVAUATUSH
+|$(HcB
+L$(HcB
+L$(H
+D$(H
+L$(H
+D$@H
+P0E;n
+L$`H
+D$XH
+|$@1
+T$PH
+L$XH
+L$@H
+|$(H
+L$8H
+[]A\A]A^A_
+T$(H;
+L$8H
+L$(HcP
+T$HI
+D$(L
+D$(L
+L$(H
+D$(L
+L$(H
+D$8H
+D$(H
+|$8H
+D$(L
+L$(H
+T$HI
+D$(L
+D$(H
+T$(H
+D$(L
+D$(L
+D$(L
+T$HI
+D$(L
+D$(1
+T$(I
+D$(L
+AWAVI
+AUATUSH
+F Ic
+[]A\A]A^A_
+[]A\A]A^A_H
+l$ L
+d$(L
+l$0H
+\$hH
+l$pL
+d$xL
+E9|$
+/t?8
+t\</
+AUATI
+=p~ 
+[]A\A]H
+fffff.
+AWAVAUATUH
+|$(H
+D$(H
+X[]A\A]A^A_
+T$(H
+|$(H
+t$(H
+T$(H
+t$(H
+|$H1
+|$(Hc@DH
+l$0E1
+D;hD
+t$HL
+D$(I
+\$ D
+D;bDH
+D$0H
+t$HL
+D$(H
+|$@H
+ffff.
+\$ H
+l$(L
+d$0H
+[]A\A]
+dH34%(
+D$@I
+}uMH
+}uMH
+5)\ 
+t$@L
+T$@H
+t$@1
+t$@1
+D$HH
+T$HI
+t$8H
+|$8H
+T$HA
+t$HH
+T$@H
+D$@L
+t$HH
+t Hc
+A;|$
+D$HH
+D$\t#H
+|$\H
+T$0L
+t$HA
+|$\L
+t$HH
+t$HH
+|$xH
+|$xH
+l$PH
+D$hH
+T$pH
+D$(H
+T$ I
+t$P1
+D$PH
+5)S 
+tnL9
+T$(H
+t$ H
+T$hH
+t$p1
+|$xI
+AUATUH
+53b 
+D$PI
+t$@H
+|$0H
+t$8H
+D$(H
+=\a 
+|$@1
+t$@A
+A;]<
+dH3<%(
+[]A\A]A^A_
+Python/
+t$LH
+D$TA
+D$X1
+AWAVAUATUSH
+|$hH
+D$xH
+D$pH
+T$HH
+L$@H
+T$0H
+L$(H
+D$8H
+t$xH
+|$H1
+|$@1
+L$8H
+=QX 
+L$0H
+|$h1
+[]A\A]A^A_
+L$pH
+|$ H
+%qW 
++IcV
+=-U 
+<$HcP
+T$PH
+D$`H
+D$`H
+D$X1
+t$XH
+T$PL
+T$`H
+L$pH
+L$hL
+Module
+%{GLOBAL}
+default
+flock
+fcntl
+sysvsem
+pthread
+' is invalid. 
+Accept mutex lock mechanism '
+%s.%d
+Invalid WSGISocketPrefix '
+user=
+group=
+processes=
+threads=
+umask=
+home=
+maximum-requests=
+shutdown-timeout=
+WSGI_HEADER
+Status:
+Content-Type
+ap_logio_add_bytes_out
+%s: %s
+error-notes
+mod_wsgi.c
+logs/wsgi
+request object has expired
+Py_NewInterpreter() failed
+mod_wsgi
+(ii)
+stderr
+sys.stdout
+sys.stdin
+argv
+:close
+iO:signal
+traceback
+print_stack
+(OOO)
+print_exception
+(OOOOO)
+log object has expired
+:flush
+threading
+currentThread
+exitfunc
+_shutdown
+response has not been started
+Content-Length
+invalid content length
+WWW-Authenticate
+client connection closed
+failed to write data
+S:write
+sO|O:start_response
+|l:readline
+request data read error
+|l:readlines
+|l:read
+_mod_wsgi_
+__mtime__
+wsgi.version
+wsgi.multithread
+wsgi.multiprocess
+wsgi.run_once
+HTTPS
+wsgi.url_scheme
+http
+wsgi.errors
+wsgi.input
+(OO)
+500 Internal Server Error
+O:writelines
+s:write
+wsgi-script
+alias-forced-type
+%s|%d
+application/x-httpd-wsgi
+%{ENV:
+%s:%u|%s
+{RESOURCE}
+{SERVER}
+%s:%u
+application
+ssl_is_https
+HTTP_AUTHORIZATION
+PATH_INFO
+SCRIPT_NAME
+mod_wsgi.process_group
+mod_wsgi.application_group
+mod_wsgi.callable_object
+mod_wsgi.script_reloading
+mod_wsgi.reload_mechanism
+mod_wsgi.output_buffering
+mod_wsgi.case_sensitivity
+mod_wsgi.listener_host
+mod_wsgi.listener_port
+%ld|%s|%s
+mod_wsgi.magic
+wsgi_init
+mod_wsgi/%s
+2.5.1
+PYTHONPATH=%s
+%s.%d.%d.sock
+%s.%d.%d.lock
+REMOTE_ADDR
+HTTP_HOST
+Host
+CONTENT_LENGTH
+HTTP_IN
+SCRIPT_FILENAME
+core.c
+mod_userdir.c
+mod_vhost_alias.c
+mod_alias.c
+mod_wsgi.Interpreter
+mod_wsgi.Restricted
+mod_wsgi.Adapter
+mod_wsgi.Input
+mod_wsgi.Log
+WSGIScriptAlias
+WSGIScriptAliasMatch
+WSGIDaemonProcess
+WSGISocketPrefix
+WSGIAcceptMutex
+WSGIPythonOptimize
+WSGIPythonExecutable
+WSGIPythonHome
+WSGIPythonPath
+Python module search path.
+WSGIRestrictStdin
+WSGIRestrictStdout
+WSGIRestrictSignal
+WSGIRestrictProcess
+WSGIProcessGroup
+WSGIApplicationGroup
+WSGICallableObject
+WSGIPassAuthorization
+WSGIScriptReloading
+WSGIReloadMechanism
+WSGIOutputBuffering
+WSGICaseSensitivity
+WSGICaseSensitivity must be one of: Off | On
+WSGIOutputBuffering must be one of: Off | On
+WSGIReloadMechanism must be one of: Module | Interpreter
+WSGIScriptReloading must be one of: Off | On
+WSGIPassAuthorization must be one of: Off | On
+WSGIRestrictSignal must be one of: Off | On
+WSGIRestrictStdout must be one of: Off | On
+WSGIRestrictStdin must be one of: Off | On
+Invalid user for WSGI daemon process.
+WSGI process blocked from running as root.
+Couldn't determine user name from uid.
+Invalid group for WSGI daemon process.
+Invalid process count for WSGI daemon process.
+Invalid thread count for WSGI daemon process.
+Invalid umask for WSGI daemon process.
+Invalid home directory for WSGI daemon process.
+Invalid request count for WSGI daemon process.
+Invalid option to WSGI daemon process definition.
+Invalid shutdown timeout for WSGI daemon process.
+Name duplicates previous WSGI daemon definition.
+Name of WSGI daemon process not supplied.
+Regular expression could not be compiled.
+mod_wsgi (pid=%d): Attach interpreter '%s'.
+mod_wsgi (pid=%d): Create interpreter '%s'.
+mod_wsgi (pid=%d): Callback registration for signal %d ignored.
+mod_wsgi (pid=%d): SystemExit exception raised by WSGI script '%s' ignored.
+mod_wsgi (pid=%d): Exception occurred within WSGI script '%s'.
+mod_wsgi (pid=%d): Destroy interpreter '%s'.
+mod_wsgi (pid=%d): Cleanup interpreter '%s'.
+mod_wsgi (pid=%d): Exception occurred within threading._shutdown().
+mod_wsgi (pid=%d): SystemExit exception raised by sys.exitfunc() ignored.
+mod_wsgi (pid=%d): Exception occurred within sys.exitfunc().
+%s access restricted by mod_wsgi
+list of tuple values expected, value of type %.200s found
+tuple of length 2 expected, length is %d
+expected string object for header name
+expected string object for header value
+header name and value must be string objects without null bytes
+response headers must be a list
+headers have already been sent
+status value is not an integer
+status message was not supplied
+mod_wsgi (pid=%d): Cannot acquire interpreter '%s'.
+mod_wsgi (pid=%d): Force reload of interpreter '%s'.
+mod_wsgi (pid=%d, process='%s', application='%s'): Reloading WSGI script '%s'.
+mod_wsgi (pid=%d, process='%s', application='%s'): Loading WSGI script '%s'.
+mod_wsgi (pid=%d, process='%s', application='%s'): Call to fopen() failed for '%s'.
+mod_wsgi (pid=%d): Target WSGI script '%s' cannot be loaded as Python module.
+sequence of string values expected, value of type %.200s found
+mod_wsgi (pid=%d): Target WSGI script '%s' does not contain WSGI application '%s'.
+mod_wsgi (pid=%d): Terminating Python.
+mod_wsgi (pid=%d): Aborting process '%s'.
+mod_wsgi: Couldn't spawn process '%s'.
+mod_wsgi (pid=%d): Starting process '%s' with uid=%ld, gid=%u and threads=%d.
+mod_wsgi (pid=%d): Starting process '%s' with threads=%d.
+mod_wsgi (pid=%d): Unable to change working directory to '%s'.
+mod_wsgi (pid=%d): Unable to set group id to gid=%d.
+mod_wsgi (pid=%d): Unable to set groups for uname=%s and gid=%u.
+mod_wsgi (pid=%d): Unable to change to uid=%ld.
+mod_wsgi (pid=%d): Couldn't intialise accept mutex in daemon process '%s'.
+mod_wsgi (pid=%d): Couldn't initialise signal thread in daemon process '%s'.
+mod_wsgi (pid=%d): Starting %d threads in daemon process '%s'.
+mod_wsgi (pid=%d): Starting thread %d in daemon process '%s'.
+mod_wsgi (pid=%d): Couldn't create worker thread %d in daemon process '%s'.
+mod_wsgi (pid=%d): Shutdown requested '%s'.
+mod_wsgi (pid=%d): Couldn't create reaper thread in daemon process '%s'.
+mod_wsgi (pid=%d): Couldn't join with worker thread %d in daemon process '%s'.
+mod_wsgi (pid=%d): Stopping process '%s'.
+mod_wsgi (pid=%d): Couldn't close unix domain socket '%s'.
+mod_wsgi (pid=%d): Couldn't unlink unix domain socket '%s'.
+mod_wsgi (pid=%d): Process '%s' has died, restarting.
+Target WSGI script not found or unable to stat
+Attempt to invoke directory as WSGI application
+AcceptPathInfo off disallows user's path
+Daemon process called '%s' cannot be accessed by this WSGI application
+No WSGI daemon process called '%s' has been configured
+mod_wsgi (pid=%d): Unable to create socket to connect to WSGI daemon process.
+mod_wsgi (pid=%d): Connection attempt #%d to WSGI daemon process '%s' on '%s' failed, sleeping before retrying again.
+mod_wsgi (pid=%d): Unable to connect to WSGI daemon process '%s' on '%s' after multiple attempts.
+mod_wsgi (pid=%d): Unable to send request details to WSGI daemon process '%s' on '%s'.
+mod_wsgi (pid=%d): Unable to get bucket brigade for request.
+Options ExecCGI is off in this directory
+mod_wsgi: Compiled for Python/%s.
+mod_wsgi: Runtime using Python/%s.
+mod_wsgi: Python module path '%s'.
+mod_wsgi: Initializing Python.
+mod_wsgi (pid=%d): Socket for '%s' is '%s'.
+mod_wsgi (pid=%d): Couldn't create unix domain socket.
+mod_wsgi (pid=%d): Couldn't bind unix domain socket '%s'.
+mod_wsgi (pid=%d): Couldn't listen on unix domain socket.
+mod_wsgi (pid=%d): Couldn't change owner of unix domain socket '%s'.
+mod_wsgi (pid=%d): Couldn't create accept lock '%s' (%d).
+mod_wsgi (pid=%d): Couldn't set permissions on accept mutex '%s' (sysvsem).
+mod_wsgi (pid=%d): Couldn't set permissions on accept mutex '%s' (flock).
+mod_wsgi (pid=%d): Couldn't acquire accept mutex '%s'. Shutting down daemon process.
+mod_wsgi (pid=%d): Unable to poll daemon socket for '%s'. Shutting down daemon process.
+mod_wsgi (pid=%d): Couldn't release accept mutex '%s'.
+mod_wsgi (pid=%d): Failed call apr_socket_addr_get(APR_LOCAL).
+mod_wsgi (pid=%d): Failed call apr_socket_addr_get(APR_REMOTE).
+mod_wsgi (pid=%d): Failed call apr_socket_timeout_set().
+mod_wsgi (pid=%d): Unable to read WSGI request.
+mod_wsgi (pid=%d): Call to apr_stat() failed for '%s'.
+mod_wsgi (pid=%d): Request origin could not be validated.
+mod_wsgi (pid=%d): Maximum requests reached '%s'.
+Map location to target WSGI script file.
+Map location pattern to target WSGI script file.
+Specify details of daemon processes to start.
+Path prefix for the daemon process sockets.
+Set accept mutex type for daemon processes.
+Set level of Python compiler optimisations.
+Python executable absolute path name.
+Python prefix/exec_prefix absolute path names.
+Enable/Disable restrictions on use of STDIN.
+Enable/Disable restrictions on use of STDOUT.
+Enable/Disable restrictions on use of signal().
+Limit selectable WSGI process groups.
+Name of the WSGI process group.
+Name of WSGI application group.
+Name of entry point in WSGI script file.
+Enable/Disable WSGI authorization.
+Enable/Disable script reloading mechanism.
+Defines what is reloaded when a reload occurs.
+Enable/Disable buffering of response.
+Define whether file system is case sensitive.
+Valid accept mutex mechanisms for this platform are: default, flock, fcntl, sysvsem, pthread.
+22PA
+mod_wsgi.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

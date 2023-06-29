@@ -1,0 +1,704 @@
+/lib/ld-linux.so.2
+@*Ck?
+!Rxz
+libdovecot-storage.so.0
+array_idx_modifiable_i
+i_panic
+buffer_free
+p_strconcat
+i_debug
+p_strdup_printf
+_ITM_deregisterTMCloneTable
+t_pop_check
+str_c
+i_snprintf
+t_malloc0
+pool_alloconly_create
+o_stream_send_str
+i_fatal
+pool_datastack_create
+str_to_uoff
+dict_unset
+t_strdup
+dict_transaction_begin
+ioloop_time
+nfs_safe_open
+buffer_set_used_size
+t_strsplit_spaces
+file_dotlock_delete
+eacces_error_get
+nfs_flush_file_handle_cache
+buffer_create_dynamic
+__gmon_start__
+master_service_init_log
+i_stream_get_size
+t_strconcat
+buffer_get_modifiable_data
+str_data
+write_full
+nfs_flush_attr_cache_unlocked
+dict_deinit
+o_stream_uncork
+buffer_append
+str_append
+o_stream_cork
+str_append_c
+restrict_access_allow_coredumps
+buffer_append_space_unsafe
+p_strdup
+str_free
+dict_set
+str_printfa
+mkdir_parents_chgrp
+buffer_delete
+dict_init
+dict_wait
+file_dotlock_open_group
+t_strdup_until
+i_warning
+str_truncate
+_Jv_RegisterClasses
+file_dotlock_replace
+unsafe_data_stack_pool
+master_service
+i_strdup
+master_service_settings_parser_get_others
+default_pool
+array_idx_set_i
+dict_lookup
+close_keep_errno
+t_strdup_printf
+t_strndup
+i_error
+_ITM_registerTMCloneTable
+t_push
+dec2str
+str_len
+t_strsplit
+p_strdup_until
+t_str_new
+mailbox_list_iter_next
+mailbox_alloc
+mail_storage_module_register
+mail_search_build_init
+mailbox_get_vname
+mail_user_plugin_getenv
+mailbox_search_next
+mailbox_list_get_root_path
+mail_search_build_add_all
+mail_search_args_unref
+mail_user_set_plugin_getenv
+mail_module_register
+mail_alloc
+mail_free
+mailbox_list_iter_deinit
+mail_namespace_find_inbox
+mail_namespace_find_prefix
+mail_user_module_register
+mail_namespace_find
+mail_storage_set_error
+mailbox_list_get_path
+mail_namespace_find_unalias
+mailbox_list_module_register
+mailbox_list_get_storage_name
+mail_get_physical_size
+mailbox_get_path_to
+mail_storage_service_deinit
+mailbox_list_get_root_permissions
+mailbox_list_get_storage
+mailbox_sync
+mailbox_transaction_commit
+mail_user_unref
+mailbox_search_deinit
+mail_storage_service_user_free
+mailbox_transaction_rollback
+mail_storage_service_init
+mail_storage_service_read_settings
+mailbox_free
+mailbox_list_iter_init
+mail_storage_hooks_add
+mailbox_search_init
+mail_storage_service_lookup_next
+mail_storage_hooks_remove
+mail_set_uid
+mailbox_get_last_mail_error
+mail_storage_set_critical
+mailbox_transaction_begin
+mail_storage_is_mailbox_file
+libdovecot.so.0
+master_service_client_connection_accept
+mountpoint_get
+dict_transaction_commit_async
+connection_deinit
+restrict_access_by_env
+connection_list_deinit
+master_service_init_finish
+net_connect_unix_with_retries
+net_set_nonblock
+i_strocpy
+master_service_client_connection_destroyed
+master_service_run
+master_service_deinit
+dict_atomic_inc
+master_service_init
+connection_init_server
+connection_list_init
+master_getopt
+libdl.so.2
+libc.so.6
+_IO_stdin_used
+strncmp
+strrchr
+authunix_create_default
+__isoc99_sscanf
+closedir
+unlink
+strtoll
+strlen
+xdr_enum
+memset
+strstr
+__errno_location
+read
+clnt_sperrno
+__fxstat64
+xdr_string
+xdr_u_int
+xdr_int
+strcasecmp
+__lxstat64
+opendir
+__xstat64
+optarg
+xdr_bool
+getegid
+strncasecmp
+strtoull
+geteuid
+quotactl
+close
+strchr
+clnt_create
+readdir64
+__ctype_toupper_loc
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+quota_root_get_name
+quota_root_add_rule
+quota_root_recalculate_relative_rules
+xdr_getquota_args
+xdr_ext_getquota_args
+quota_root_rule_find
+quota_settings_deinit
+quota_init
+quota_plugin_version
+quota_test_alloc
+quota_deinit
+quota_user_read_settings
+quota_transaction_rollback
+quota_plugin_init
+quota_backend_dirsize
+quota_user_module
+quota_transaction_begin
+quota_count
+quota_recalculate
+quota_module_id
+quota_root_is_namespace_visible
+quota_root_add_warning_rule
+xdr_setquota_rslt
+quota_mail_user_created
+__data_start
+quota_backend_fs
+quota_alloc
+quota_get_resource
+quota_transaction_commit
+xdr_rquota
+xdr_ext_setquota_args
+quota_mail_namespaces_created
+xdr_getquota_rslt
+quota_backend_maildir
+quota_mailbox_list_created
+quota_free
+__libc_csu_init
+quota_root_iter_deinit
+quota_mail_allocated
+quota_mailbox_allocated
+quota_root_iter_init
+_fp_hw
+quota_root_get_resources
+quota_add_user_namespace
+quota_remove_user_namespace
+xdr_setquota_args
+quota_root_lookup
+xdr_qr_status
+quota_plugin_deinit
+quota_set_resource
+quota_backend_dict
+xdr_sq_dqblk
+quota_try_alloc
+quota_root_iter_next
+quota_free_bytes
+quota_get_mail_user_quota
+GLIBC_2.7
+GLIBC_2.2
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3
+[^_]
+UWVS
+[^_]
+T$L1
+|$$	
+ET$$
+UWVS
+~G<M
+,[^_]
+<%t\<Bt(
+,[^_]
+UWVS
+<+tU<-t
+\[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+UWVS
+9D$ 
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+,[^_]
+UWVS
+ 9t$,
+(9t$,
+<[^_]
+<[^_]
+UWVS
+D$89
+[^_]
+\[^_]
+\[^_]
+UWVS
+D$Ptf
+l$,f
+D$P1
+l$Pf
+<[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+T$01
+T$,uq
+\[^_]
+UWVS
+D$8e
+D$l1
+;|$$u
+T$le3
+|[^_]
+L$,1
+9w<t
+ [^_
+UWVS
+D$(1
+;D$$r
+<[^_]
+[^_]
+;D$ w
+[^_]
+UWVS
+[^_]
+,[^_]
+<[^_]
+[^_]
+UWVS
+|$D1
+D$@u
+9|$@
+T$$+A
+T$<+A
+9D$,
+9T$(
+9D$$
+9D$$w"f
+9T$ s
+9D$,
+9T$(
+9D$<
+w"9T$8s
+9D$4r
+9T$0
+(;t$
+9|$@
+[^_]
+9T$ 
+9D$4
+9T$0s
+9D$<
+9T$8
+(;t$
+UWVS
+D$Ht
+D$P9
+r~9D$(rx
+|$,)
+l[^_]
++D$(
+T$,;W@
+D$P9
+9D$(vx
+|$,)
+;x(w
+D$<1
++D$(
+T$,;Q8
+[^_]
+ [^_
+UWVS
+D$(1
+[^_]
+UWVS
+;t$ 
+L[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+>ntG
+[^_]
+UWVS
+[^_]
+UWVS
+D$P1
+<[^_]
+D$P1
+UWVS
+D$@1
+[^_]
+[^_]
+[^_]
+[^_]
+<[^_]
+xVul
+[^_]
+[^_]
+UWVS
+L[^_]
+UWVS
+,[^_]
+[^_]
+t	x!
+,[^_]
+D$0%
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+u=<CtI<Su5
+<[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+D$T9G<u
+<[^_]
+UWVS
+[^_]
+[^_]
+T$(t
+T$4%
+D$(0
+T$00
+[^_]
+l$T1
+l$01
+|$L1
+wP3t$d3T$`	
+GH9D$$
+9T$ v|	
+;D$8v
+D$8t
+,[^_]
+[^_]
+D$hu
+D$h9D$`
+D$x9
+D$Lf
+L$4k
+[^_]
+;l$h
+l$(1
+FDu!
+UWVS
+D$\1
+L$\e3
+l[^_]
+8tu\
+UWVS
+[^_]
+[^_]
+UWVS
+<[^_]
+UWVS
+[^_]
+UWVS
+PHua
+[^_]
+UWVS
+<[^_]
+<[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+,[^_]
+[^_]
+UWVS
+<[^_]
+ [^_
+ [^_
+UWVS
+[^_]
+ [^_
+ [^_
+UWVS
+J|tJ
+,[^_]
+UWVS
+,[^_]
+,[^_]
+UWVS
+<[^_]
+Fh t
+<[^_]
+UWVS
+<[^_]
+UWVS
+ 9l$
+,[^_]
+[^_]
+(quota client)
+action=DUNNO
+action=DEFER_IF_PERMIT %s
+INBOX
+quota_status_overquota
+554 5.2.2 %s
+action=%s
+recipient=
+size=
+quota_status_success
+quota-status
+postfix
+Unknown -p parameter: '%s'
+Missing -p parameter
+doveadm: 
+service all settings
+quota_status_nouser
+REJECT Unknown user
+Internal quota calculation error
+Invalid percentage
+quota.c
+file %s: line %d: unreached
+Unknown unit: %s
+Rule limit cannot have '+'
+bytes
+Unknown rule limit name: %s
+Bytes limit can't be negative
+Count limit can't be negative
+init() failed
+quota root
+noenforcing
+ignoreunlimited
+Quota root %s: %s
+Invalid rule
+ignore
+backend=
+backend rule not supported
+ (%u%%)
+No command specified
+quota settings
+quota_exceeded_message
+_rule
+Invalid rule %s: %s
+%s_rule%d
+Invalid warning rule: %s
+%s_warning%d
+Invalid %s value '%s': %s
+Unknown quota backend: %s
+_warning
+_grace
+quota%d
+Invalid quota root %s: %s
+STORAGE_BYTES
+STORAGE
+MESSAGE
+Permission denied
+ctx->quota != NULL
+quota: Executing warning: %s
+net_connect_unix
+quota: %s
+VERSION	script	3	0
+noreply
+write(%s) failed: %m
+close(%s) failed: %m
+Default rule can't be a percentage
+quota root %s rule %s: obsolete configuration for rule '%s' should be changed to '%s=+%s'
+Invalid rule limit value '%s': %s
+Unknown parameter for backend %s: %s
+Quota root %s: Recalculated relative rules with bytes=%lld count=%lld. Now grace=%llu
+Quota rule: root=%s mailbox=%s ignored
+Quota rule: root=%s mailbox=%s bytes=%s%lld%s messages=%s%lld%s
+Quota warning: bytes=%llu%s messages=%llu%s reverse=%s command=%s
+Quota exceeded (mailbox for user is full)
+Quota root: name=%s backend=%s args=%s
+Quota grace: root=%s bytes=%lld%s
+file %s: line %d (%s): assertion failed: (%s)
+quota: net_connect_unix(%s) failed: %m
+quota_transaction_begin
+box=%s mount=%s match=%s
+group
+inode_per_mail
+mount=
+nfs4
+fs quota add mailbox dir = %s
+fs quota block device = %s
+fs quota mount point = %s
+fs quota mount type = %s
+files
+path != NULL
+quota-fs.c
+%d quotactl(Q_XGETQUOTA, %s) failed: %m
+quotactl(Q_GETQUOTA, %s) failed: %m
+Dovecot was compiled with Linux quota v%d support, try changing it (CPPFLAGS=-D_LINUX_QUOTA_VERSION=%d configure)
+fs quota: Invalid parameter: %s
+quota-fs: %s is not a valid NFS device path
+quota-fs: host=%s, path=%s, uid=%s, %s
+quota-fs: could not contact RPC service on %s
+quota-fs: remote rquota call failed: %s
+quota-fs: uid=%s, value=%llu, limit=%llu
+quota-fs: uid=%s, limit=unlimited
+quota-fs: permission denied to rquota service
+quota-fs: unrecognized status code (%d) from rquota service
+quota-fs: host=%s, path=%s, gid=%s, %s
+quota-fs: could not contact RPC service on %s (group)
+quota-fs: remote ext rquota call failed: %s
+quota-fs: gid=%s, value=%llu, limit=%llu
+quota-fs: gid=%s, limit=unlimited
+quota-fs: permission denied to ext rquota service
+quota-fs: unrecognized status code (%d) from ext rquota service
+do_rquota_group
+do_rquota_user
+priv/quota/storage
+priv/quota/messages
+noenforcing:
+ignoreunlimited:
+dict
+dict quota: URI missing from parameters
+dict quota: user=%s, uri=%s, noenforcing=%d
+dict quota: dict_init(%s) failed: %s
+dict quota: Quota update failed, it's now desynced
+opendir(%s) failed: %m
+lstat(%s) failed: %m
+NOQUOTA
+Invalid Maildir++ quota rule
+/new
+/cur
+quota-maildir.c
+/maildirsize
+maildir
+open(%s) failed: %m
+read(%s) failed: %m
+%lld %d
+unlink(%s) failed: %m
+default
+closedir(%s) failed: %m
+root->fd == -1
+count > 0
+mkdir_parents(%s) failed: %m
+%lluS
+%lluC
+%llu %llu
+write_full(%s) failed: %m
+%lld %d
+maildir quota: Invalid parameter: %s
+root->maildirsize_path == NULL
+root->maildirsize_path != NULL
+quota: Namespace '%s' is not Maildir, skipping for Maildir++ quota
+file_dotlock_open(%s) failed: %m
+file_dotlock_replace(%s) failed: %m
+maildirsize_write
+maildirquota_limits_init
+2.2.ABIv2(2.2.2)
+idx * array->element_size < array->buffer->used
+qbox->expunge_qt == NULL || qbox->expunge_qt->tmp_mail == NULL
+Failed to initialize quota: %s
+quota: No quota setting - plugin disabled
+../../../src/lib/array.h
+quota-storage.c
+quota: Unknown namespace: %s
+array_idx_i
+quota_mailbox_free
+;*2$"(
+quota-status.debug
+7zXZ
+|[l=MJJ
+xfC3
+zs~&*
+F%FKm
+tD'&/T/
+v:/7
+u3Ci
+dS+<
+*5Ng]
+Uq}x
+88m`v
+#*;p
++so:
+$3I>
+1TL*J
+!WI{
+a\)!
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

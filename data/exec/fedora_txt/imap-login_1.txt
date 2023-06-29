@@ -1,0 +1,268 @@
+td|\
+/lib/ld-linux.so.2
+ldOF
+N,yJ
+libdovecot-login.so.0
+str_len
+t_str_new
+t_pop_check
+pool_datastack_create
+__gmon_start__
+_Jv_RegisterClasses
+buffer_create_dynamic
+p_strdup
+t_strcut
+t_strdup_printf
+t_push
+o_stream_nsend
+i_strdup
+t_strconcat
+buffer_append_c
+_ITM_deregisterTMCloneTable
+str_append_c
+_ITM_registerTMCloneTable
+auth_client_is_connected
+default_pool
+str_printfa
+base64_encode
+str_append
+t_strdup
+safe_memset
+i_stream_get_data
+str_c
+net_addr2ip
+i_stream_skip
+net_ip2addr
+i_panic
+timeout_remove
+buffer_append
+io_add
+str_sanitize
+o_stream_uncork
+client_unref
+login_set_roots
+client_is_tls_enabled
+client_read
+login_setting_parser_info
+client_input
+login_proxy_get_ssl_flags
+clients_destroy_all
+auth_client
+login_binary_run
+client_send_raw_data
+client_ref
+client_proxy_finish_destroy_client
+client_auth_begin
+client_log
+client_send_raw
+client_proxy_log_failure
+client_check_plaintext_auth
+client_auth_read_line
+client_proxy_failed
+client_cmd_starttls
+client_destroy
+client_log_err
+sasl_server_get_advertised_mechs
+client_notify_status
+login_proxy_starttls
+login_proxy_get_ostream
+client_get_session_id
+libdovecot.so.0
+str_array_icase_find
+imap_parser_unref
+imap_parser_read_args
+imap_parser_read_word
+imap_arg_get_astring
+t_str_ucase
+imap_parser_create
+imap_arg_get_list
+imap_append_string
+imap_arg_get_string
+imap_parser_reset
+imap_url_create
+t_strsplit
+i_strdup_printf
+imap_arg_get_nstring
+str_data
+imap_id_reply_generate
+imap_parser_get_error
+imap_id_args_get_log_reply
+o_stream_cork
+i_strndup
+libc.so.6
+_IO_stdin_used
+strtol
+strlen
+strcasecmp
+strncasecmp
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+imap_proxy_error
+imap_proxy_reset
+imap_login_service_settings
+_fp_hw
+imap_login_setting_roots
+client_skip_line
+client_send_reply
+client_send_reply_code
+imap_proxy_parse_line
+cmd_authenticate
+__data_start
+__libc_csu_init
+cmd_login
+imap_client_auth_result
+__libc_csu_fini
+client_authenticate_get_capabilities
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+,[^_]
+tx<+
+UWVS
+<[^_]
+<[^_]
+[^_]
+,[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+,[^_]
+ [^_
+ [^_
+[^_]
+UWVS
+L[^_]
+L[^_]
+[^_]
+[%s] 
+ STARTTLS
+ LOGINDISABLED
+* OK 
+[CAPABILITY %s] 
+ALERT
+UNAVAILABLE
+client.c
+AUTHENTICATE
+Disconnected: 
+file %s: line %d: unreached
+LOGIN
+CAPABILITY
+* CAPABILITY 
+x-originating-ip
+x-originating-port
+x-connected-ip
+x-connected-port
+x-proxy-ttl
+x-session-id
+ID sent: %s
+* ID %s
+ID completed.
+NOOP
+NOOP completed.
+LOGOUT
+Logging out
+Logout completed.
+Aborted login
+ENABLE
+* ENABLED
+imap
+imap-login
+IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE
+Waiting for authentication process to respond..
+!client->common.authenticating
+file %s: line %d (%s): assertion failed: (%s)
+Pre-login capabilities listed, post-login capabilities have more.
+ENABLE ignored in non-authenticated state.
+First parameter in line is IMAP's command tag, not the command name. Add that before the command, like: a login user pass
+Too many invalid IMAP commands.
+Disconnected: Too many invalid commands
+Error in IMAP command received by server.
+client_handle_input
+%d%s
+AUTH=
+REFERRAL 
+AUTHORIZATIONFAILED
+PRIVACYREQUIRED
+AUTHENTICATIONFAILED
+name *
+imap_capability
+imap_id_send
+imap_id_log
+$default_login_user
+imaps
+C CAPABILITY
+L LOGIN 
+L AUTHENTICATE PLAIN 
+L AUTHENTICATE PLAIN
+!client->destroyed
+imap-proxy.c
+[CAPABILITY 
+client->common.proxy_ttl > 1
+SASL-IR
+S STARTTLS
+S OK 
+L OK 
+* CAPABILITY %s
+NO [AUTHENTICATIONFAILED]
+Authentication failed.
+NO [
+* ID 
+proxy: Remote returned invalid banner: %s
+I ID ("x-session-id" "%s" "x-originating-ip" "%s" "x-originating-port" "%u" "x-connected-ip" "%s" "x-connected-port" "%u" "x-proxy-ttl" "%u")
+proxy: Remote doesn't support STARTTLS
+proxy: Remote STARTTLS failed: %s
+proxy: Unexpected input, ignoring: %s
+proxy_write_id
+imap_proxy_parse_line
+;*2$"
+imap-login.debug
+7zXZ
+OJ;#.
+h8kEG5
+DiAF
+B4n	.
+#eC%)
+]E7T0
+',W^K#r
+[XRhl$
+d%1\
+YQ%"x
+lvz{
+{7N,
+lq6h
+uoY?V
+M3go
+iW\JZ
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,384 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_kill
+pthread_join
+plugin_unregister_init
+plugin_unregister_shutdown
+free
+fdopen
+setvbuf
+__errno_location
+fgets
+sstrncpy
+strsplit
+strcasecmp
+handle_flush
+handle_getval
+handle_getthreshold
+handle_putval
+fclose
+pthread_exit
+handle_listval
+sstrerror
+plugin_log
+__fprintf_chk
+fileno
+handle_putnotif
+fwrite
+strtol
+__strdup
+__stack_chk_fail
+pthread_create
+socket
+bind
+chmod
+listen
+getgrnam_r
+chown
+accept
+malloc
+pthread_attr_init
+pthread_attr_setdetachstate
+unlink
+module_register
+plugin_register_config
+plugin_register_init
+plugin_register_shutdown
+realloc
+strncasecmp
+parse_option
+plugin_flush
+parse_string
+sstrdup
+parse_identifier
+plugin_get_ds
+uc_get_rate_by_name
+__isnan
+__assert_fail
+ut_search_threshold
+uc_get_names
+interval_g
+strlen
+parse_values
+plugin_dispatch_values
+plugin_dispatch_notification
+libpthread.so.0
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+unixsock.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+5ZJ 
+%\J 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+%zI 
+%rI 
+%jI 
+%bI 
+%ZI 
+%RI 
+%JI 
+%BI 
+%:I 
+%2I 
+%*I 
+%"I 
+%zH 
+%rH 
+%jH 
+=jH 
+=:H 
+fffff.
+=PC 
+=:C 
+=}G 
+AVAUATUSH
+=YB 
+=)B 
+fffff.
+=JA 
+ffff.
+ATUSH
+\$01
+l$2H
+-?@ 
+5&@ 
+=|? 
+[]A\A]
+ffffff.
+ffff.
+AWAVAUATUSH
+|$@H
+t$H1
+L$@H9L$H
+T$@H
+t$8H
+l$8H
+T$@H
+t$ H
+D$(J
+~BE1
+9D$$~)H
+9D$$
+9T$ 
+|$(H
+|$01
+T$@H
+t$$H
+|$(H
+|$0H
+[]A\A]A^A_
+t$$H
+|$01
+t$ H
+|$(1
+t$(H
+l$(H
+t$0H
+|$0H
+L$XL
+D$PH
+L$HH
+T$@H
+t$8H
+L$0H
+|$0H
+T$hH
+t$`H
+D$hHc
+|$`H
+L$PH
+XH9l$h
+|$`H
+ATUSH
+t$(H
+l$(H
+t$0H
+|$0H
+L$XL
+D$PH
+L$HH
+T$@H
+t$8H
+L$0H
+[]A\
+l$`1
+t$@H
+t$HH
+t$PH
+t$XH
+L$0H
+L$@H
+H9\$(H
+|$ H
+T$(H
+t$ H
+L$(H
+D$(H
+D$ H
+H9\$(H
+H9\$(H
+H9\$(H
+H9\$(H
+H9\$(H
+|$ 1
+H9\$(H
+H9\$(H
+H9\$(H
+H9\$(H
+H9\$(H
+localhosAUATUSH
+D$x1
+[]A\A]A^
+L$@L
+D$8H
+L$0H
+T$(H
+t$ H
+d$ L
+|$0H
+|$@H
+t$(H
+t$8H
+t$0H
+t$@H
+IcD$@1
+T$PH
+t$HH
+t$HH
+l$PM
+t$X1
+T$XH
+t$HH
+|$HH
+t$`L
+|$`1
+L$8H
+AWAVAUATI
+t$(H
+\$(H
+l$@1
+T$8H
+t$0H
+\$0H
+l$8H
+[]A\A]A^A_
+-1 Internal error
+getval
+getthreshold
+putval
+listval
+putnotif
+flush
+-1 Unknown command: %s
+SocketFile
+SocketGroup
+SocketPerms
+/var/run/collectd-unixsock
+collectd
+unixsock plugin: dup failed: %s
+unixsock plugin: fdopen failed: %s
+unixsock plugin: setvbuf failed: %s
+unixsock plugin: failed to read from socket #%i: %s
+unixsock plugin: failed to write to socket #%i: %s
+unixsock plugin: pthread_create failed: %s
+unixsock plugin: socket failed: %s
+unixsock plugin: bind failed: %s
+unixsock plugin: listen failed: %s
+unixsock plugin: getgrnam_r (%s) failed: %s
+unixsock plugin: No such group: `%s'
+unixsock plugin: chown (%s, -1, %i) failed: %s
+unixsock plugin: accept failed: %s
+unixsock plugin: malloc failed: %s
+unixsock plugin: unlink (%s) failed: %s
+FLUSH
+-1 Cannot parse command.
+-1 Parsing options failed.
+plugin
+identifier
+timeout
+-1 Cannot parse option %s
+0 Done
+handle_flush: failed to write to socket #%i: %s
+-1 Invalid value for option `timeout': %s
+0 Done: %i successful, %i errors
+utils_cmd_getval.c
+command != ((void *)0)
+GETVAL
+-1 Unexpected command: `%s'.
+-1 Cannot parse identifier.
+identifier != ((void *)0)
+-1 Type `%s' is unknown.
+-1 No such value
+%u Value%s found
+%12e
+handle_getval: failed to write to socket #%i: %s
+-1 Garbage after end of command: %s
+-1 Cannot parse identifier `%s'.
+ds[%s]->ds_num = %i, but uc_get_rate_by_name returned %u values.
+-1 Error reading value from cache.
+handle_getval
+utils_cmd_getthreshold.c
+GETTHRESHOLD
+%zu Threshold found
+Host: %s
+Plugin: %s
+Plugin Instance: %s
+Type: %s
+Type Instance: %s
+Data Source: %s
+Warning Min: %g
+Warning Max: %g
+Failure Min: %g
+Failure Max: %g
+Hysteresis: %g
+Hits: %i
+handle_getthreshold: failed to write to socket #%i: %s
+-1 No threshold found for identifier %s
+-1 Error while looking up threshold: %i
+handle_getthreshold
+utils_cmd_listval.c
+LISTVAL
+-1 uc_get_names failed.
+%i Value%s found
+%u %s
+handle_listval: failed to write to socket #%i: %s
+handle_listval
+value has
+values have
+utils_cmd_putval.c
+PUTVAL
+-1 Identifier too long.
+-1 Type `%s' isn't defined.
+-1 malloc failed.
+-1 Misformatted option.
+string != ((void *)0)
+value != ((void *)0)
+interval
+-1 Misformatted value.
+handle_putval: failed to write to socket #%i: %s
+-1 Parsing the values string failed.
+0 Success: %i %s been dispatched.
+handle_putval
+utils_cmd_putnotif.c
+PUTNOTIF
+-1 Malformed option.
+severity
+Failure
+Warning
+Okay
+time
+message
+host
+plugin_instance
+type
+type_instance
+-1 Error parsing option `%s'
+-1 Option `time' missing.
+0 Success
+handle_putnotif: failed to write to socket #%i: %s
+-1 Option `severity' missing.
+-1 No message or message of length 0 given.
+handle_putnotif
+;*3$"
+unixsock.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

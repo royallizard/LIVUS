@@ -1,0 +1,304 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+div_tables
+u_GFileUnlink
+cu_strcpy
+unlink
+u_GFileRmDir
+rmdir
+u_GFileMkDir
+mkdir
+u_GFileReadable
+access
+u_GFileModifyable
+u_GFileExists
+u_GFileModifyableDir
+u_GFileIsDir
+__strcat_chk
+u_GFileIsAbsolute
+uc_strstr
+u_GFileAppendFile
+u_strlen
+galloc
+u_GFileNormalize
+u_strchr
+uc_strncmp
+u_GFileNameTail
+u_strrchr
+u_GFileReplaceName
+u_strncpy
+u_GFileBuildName
+u_GFileGetAbsoluteName
+uc_strcpy
+u_strcat
+uc_strcat
+getcwd
+__sprintf_chk
+__strcpy_chk
+_GFile_find_program_dir
+copyn
+gfree
+copy
+getenv
+GFileMakeAbsoluteName
+GImageDrawRect
+GImageDrawImage
+GImageGetWidth
+GImageGetHeight
+GImageGetUserData
+GImageSetUserData
+GImageAddImageBefore
+GImageDestroy
+GImageCreateAnimation
+gcalloc
+_GImage_Create
+GImageCreate
+_IO_getc
+GImageRead_Bmp
+fseek
+feof
+memcpy
+fread
+GImageReadBmp
+fopen
+fclose
+GImageRead
+strmatch
+GImageReadTiff
+GImageReadXpm
+GImageReadXbm
+GImageReadJpeg
+GImageReadRas
+GImageReadPng
+GImageReadGif
+GImageReadRgb
+memset
+dlopen
+dlsym
+dlclose
+dlerror
+stderr
+__fprintf_chk
+GImageRead_Jpeg
+_setjmp
+longjmp
+GImageRead_Png
+fgetc
+__fread_chk
+fscanf
+ungetc
+____utype
+fgets
+sscanf
+_IO_putc
+GImageWrite_Bmp
+fflush
+ferror
+fwrite
+GImageWriteBmp
+fputc
+GImageWriteGImage
+GImageWrite_Jpeg
+GImageWriteJpeg
+fputs
+GImageWrite_Png
+GImageWritePng
+GImageWriteXbm
+GImageWriteXpm
+sgettext
+dcgettext
+libgunicode.so.3
+libdl.so.2
+libSM.so.6
+libICE.so.6
+libX11.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libgutils.so.1
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.7
+GLIBC_2.4
+GLIBC_2.3.4
+[^_]
+[^_]
+[^_]
+[^_]
+tm;u
+[^_]
+[^_]
+tc~C1
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+L[^_]
+L[^_]
+[^_]
+[^_]
+,[^_]
+,[^_]
+[^_]
+VUUU
+[^_]
+L[^_]
+<[^_]
+<[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+|[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+%s/.
+PATH
+%.*s/%s
+%s/%s
+.bmp
+.xbm
+.xpm
+.tiff
+.tif
+.jpeg
+.jpg
+.png
+.gif
+.ras
+.rgb
+libungif.so
+libgif.so
+DGifOpenFileName
+DGifSlurp
+DGifCloseFile
+can't open %s
+Bad gif file %s
+Couldn't load needed symbol from libgif.so
+libjpeg.so
+jpeg_std_error
+jpeg_destroy_decompress
+jpeg_CreateDecompress
+jpeg_stdio_src
+jpeg_read_header
+jpeg_start_decompress
+jpeg_read_scanlines
+jpeg_finish_decompress
+Couldn't load needed symbol from libjpeg.so
+libz.so
+libpng.so
+png_create_read_struct
+png_create_info_struct
+png_destroy_read_struct
+png_init_io
+png_read_info
+png_set_strip_16
+png_set_strip_alpha
+png_set_packing
+png_set_filler
+png_read_image
+png_read_end
+1.2.24
+libtiff.so
+TIFFOpen
+TIFFGetField
+TIFFReadRGBAImage
+TIFFClose
+#define %*s %d
+#define %*s %*d
+static 
+unsigned 
+char %*s = {
+ 0x%x
+XPM2
+%d %d %d %d
+None
+%4x%4x%4x
+white
+static uint32 %s%d_data[] = {
+static GClut %s%d_clut = { %d, %d, %d,
+static struct _GImage %s%d_base = {
+GImage %s = { 0, &%s0_base };
+static struct _GImage *%s_bases = {
+GImage %s = { %d, (struct _GImage *) %s_bases };
+    
+0x%x%s
+static uint8 %s%d_data[] = {
+    it_true,
+    it_mono,
+    it_index,
+    %d,%d,%d,%d,
+    (uint8 *) %s%d_data,
+    &%s%d_clut,
+    NULL,
+    0x%x
+#include "gimage.h"
+    &%s%d_base%s
+jpeg_destroy_compress
+jpeg_CreateCompress
+jpeg_set_defaults
+jpeg_set_quality
+jpeg_simple_progression
+jpeg_start_compress
+jpeg_write_scanlines
+jpeg_finish_compress
+jpeg_stdio_dest
+png_create_write_struct
+png_destroy_write_struct
+png_write_info
+png_write_image
+png_write_end
+#define %s_width %d
+#define %s_height %d
+static unsigned char %s_bits[] = {
+!#$%&'()*+,-./0123456789;:<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~ 
+/* width height ncolors chars_per_pixel */
+/* XPM */
+static char *%s[] =
+"%d %d %d %d"
+/* colors */
+"%s c #%06x"
+/* image */
+libgutils.so.1.0.0.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

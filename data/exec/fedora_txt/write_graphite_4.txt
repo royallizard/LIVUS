@@ -1,0 +1,290 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+strlen
+swrite
+close
+__errno_location
+sstrerror
+plugin_log
+__stack_chk_fail
+strcasecmp
+getaddrinfo
+socket
+set_sock_opts
+connect
+freeaddrinfo
+__snprintf_chk
+c_do_release
+c_complain
+gai_strerror
+__assert_fail
+pthread_mutex_lock
+pthread_mutex_unlock
+strcmp
+free
+pthread_mutex_destroy
+calloc
+strdup
+pthread_mutex_init
+cf_util_get_string_buffer
+cf_util_get_string
+plugin_register_write
+plugin_register_flush
+cf_util_get_service
+cf_util_get_cdtime
+cf_util_get_boolean
+cf_util_get_flag
+module_register
+plugin_register_complex_config
+__ctype_b_loc
+strchr
+strcspn
+sstrncpy
+uc_get_rate
+libc.so.6
+write_graphite.so
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+ATUSH
+[]A\
+AUATE1
+)D$@
+[]A\A]A^
+)D$ 
+)D$0
+t$@tmH
+ATUH
+[]A\
+AUATUH
+]A\A]
+AUATI
+dH34%(
+[]A\A]A^A_
+u/H;
+AUATUSH
+E@_A
+A9^(
+l$0L
+T$ H
+[]A\A]A^
+l$0A
+AVAUL
+A9\$(~FH
+l$ L
+A9\$(
+]A\A]A^
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATM
+|$8H
+d$`D
+|$xH
+|$(H
+T$\H
+T$0H
+t$ H
+|$(D
+t$pD
+t$0D
+t$xD
+D$dL
+L$(1
+AZA[
+t$ H
+L$01
+AXAY
+t$PL
+t$0H
+HcL$
+D$@H
+Y^Hc
+HcL$XH
+D$XH
+L$8HcD$XH
+[]A\A]A^A_
+t$xL
+t$@L
+D$PL
+D$PL
+t$@L
+D$PL
+D$PL
+write_graphite plugin: send to %s:%s (%s) failed with status %zi (%s)
+write_graphite plugin: getaddrinfo (%s, %s, %s) failed: %s
+failed to connect to remote host: %s
+write_graphite plugin: Connecting to %s:%s via %s failed. The last error was: %s
+write_graphite plugin: Successfully connected to %s:%s via %s.
+write_graphite plugin: DS type does not match value list type
+write_graphite plugin: Connection closed after %.3f seconds.
+message_len < cb->send_buf_free
+write_graphite plugin: calloc failed.
+write_graphite plugin: Unknown protocol (%s)
+write_graphite plugin: Cannot use an empty string for the "EscapeCharacter" option.
+write_graphite plugin: Only the first character of the "EscapeCharacter" option ('%c') will be used.
+write_graphite plugin: Invalid configuration option: %s.
+src/write_graphite.c
+ai_list != NULL
+failed to open socket: %s
+localhost
+2003
+Carbon
+Host
+Port
+Protocol
+ReconnectInterval
+LogSendErrors
+Prefix
+Postfix
+StoreRates
+SeparateInstances
+AlwaysAppendDS
+PreserveSeparator
+DropDuplicateFields
+EscapeCharacter
+write_graphite/%s/%s/%s
+write_graphite/%s
+Node
+write_graphite
+wg_send_message
+wg_callback_init
+format_graphite: error with uc_get_rate
+!(flags & GRAPHITE_ALWAYS_APPEND_DS) || (ds_name != NULL)
+strchr(GRAPHITE_FORBIDDEN, escape_char) == NULL
+0 == strcmp(ds->type, vl->type)
+gr_format_values plugin: Unknown data source type: %i
+format_graphite: error with gr_format_values
+format_graphite: message buffer too small: Need %zu bytes.
+format_graphite: target buffer too small
+%s%c%s
+src/utils_format_graphite.c
+%s%s%s.%s.%s
+%s%s%s.%s.%s.%s
+ 	"\:!/()
+%.15g
+%llu
+%s %s %u
+gr_format_values
+escape_graphite_string
+gr_format_name
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+write_graphite.so-5.8.1-4.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

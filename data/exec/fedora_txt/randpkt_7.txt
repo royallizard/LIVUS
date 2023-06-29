@@ -1,0 +1,154 @@
+/lib/ld-linux.so.2
+(IHW
+k_Z;
+libwiretap.so.0
+__gmon_start__
+_Jv_RegisterClasses
+wtap_dump_close
+wtap_dump_open
+wtap_dump
+libpthread.so.0
+read
+__errno_location
+libc.so.6
+_IO_stdin_used
+__printf_chk
+exit
+srand
+optind
+puts
+time
+putchar
+strtol
+memset
+getopt
+__fprintf_chk
+optarg
+stderr
+fwrite
+__memcpy_chk
+__cxa_finalize
+strcmp
+strerror
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+pkt_megaco
+__libc_csu_fini
+pkt_bgp
+pkt_ncp2222
+_fp_hw
+pkt_arp
+pkt_dns
+examples
+__data_start
+pkt_syslog
+__libc_csu_init
+pkt_tcp
+pkt_tds
+pkt_giop
+pkt_icmp
+pkt_nbns
+pkt_udp
+pkt_ip
+pkt_m2m
+pkt_bvlc
+pkt_sctp
+pkt_llc
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+D$@f
+9D$<
+;D$0
+L$P)
+L$D1
+D$,9D$8
+9|$@
+9|$@~\
+D$Lf
+9|$<~
+[^_]
+UWVS
+UWVS
+[^_]
+Usage: randpkt [-b maxbytes] [-c count] [-t type] filename
+Default max bytes (per packet) is 5000
+randpkt: Internal error. Type %d has no entry in examples table.
+randpkt: Could not open /dev/urandom for reading: %s
+randpkt: Could not read from /dev/urandom: %s
+randpkt: Tried to read %lu bytes from /dev/urandom, got %ld
+randpkt: Sample packet length is %d, which is greater than or equal to
+your requested max_bytes value of %d
+Fiber Distributed Data Interface
+Internet Control Message Protocol
+WiMAX M2M Encapsulation Protocol
+Stream Control Transmission Protocol
+Universal Serial Bus with Linux specific header
+Default count is 1000.
+Types:
+	%s	%s
+randpkt: Max bytes is 65536
+randpkt: Type %s not known.
+b:c:ht:
+randpkt: Error writing to %s
+/dev/urandom
+Address Resolution Protocol
+Border Gateway Protocol
+bvlc
+BACnet Virtual Link Control
+Domain Name Service
+Ethernet
+fddi
+giop
+General Inter-ORB Protocol
+icmp
+Internet Protocol
+Logical Link Control
+megaco
+MEGACO
+nbns
+NetBIOS-over-TCP Name Service
+ncp2222
+NetWare Core Protocol
+sctp
+syslog
+Syslog message
+TDS NetLib
+Transmission Control Protocol
+Token-Ring
+User Datagram Protocol
+Universal Serial Bus
+usb-linux
+GIOP
+randpkt.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

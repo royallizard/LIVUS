@@ -1,0 +1,156 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_point_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+gegl_clSetKernelArg
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_value_set_double
+g_type_name
+g_log
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+levels.so
+GLIBC_2.4
+GLIBC_2.2.5
+%z" 
+%r" 
+%j" 
+%b" 
+%Z" 
+%R" 
+%J" 
+%B" 
+%:" 
+%2" 
+%*" 
+%"" 
+=I" 
+u+UH
+\$`f
+D$H1
+D$@(
+D$(H
+D$H1
+D$,H
+T$HdH3
+t$0H
+[]A\
+t;v!
+ATUH
+ []A\
+t$$H
+GeglChantlevels.c
+kernel_levels
+gegl-0.2
+description
+color
+categories
+gegl:levels
+name
+Low input
+in_low
+High input
+in_high
+Low output
+out_low
+High output
+out_high
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+__kernel void kernel_levels(__global const float4     *in,      
+                            __global       float4     *out,     
+                            float in_offset,                    
+                            float out_offset,                   
+                            float scale)                        
+{                                                               
+  int gid = get_global_id(0);                                   
+  float4 in_v  = in[gid];                                       
+  float4 out_v;                                                 
+  out_v.xyz = (in_v.xyz - in_offset) * scale + out_offset;      
+  out_v.w   =  in_v.w;                                          
+  out[gid]  =  out_v;                                           
+}                                                               
+Remaps the intensity range of the image
+Input luminance level to become lowest output
+Input luminance level to become white.
+Lowest luminance level in output
+Highest luminance level in output
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+levels.so-0.2.0-38.fc28.x86_64.debug
+7zXZ
+swf{
+LY;1
+"PMb
+k$<)
+B]r%
+Jj`c
+t-7m
+QW%+j
+r\Wmoj
+T[1I
+8->;UO
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

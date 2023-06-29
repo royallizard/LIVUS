@@ -1,0 +1,268 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+gtk_vbox_new
+gtk_container_get_type
+g_type_check_instance_cast
+gtk_container_set_border_width
+dcgettext
+pidgin_make_frame
+gtk_container_add
+gtk_check_button_new_with_mnemonic
+gtk_box_get_type
+gtk_box_pack_start
+purple_prefs_get_bool
+gtk_toggle_button_get_type
+gtk_toggle_button_set_active
+g_signal_connect_data
+gtk_toggle_button_get_active
+gtk_widget_set_sensitive
+pidgin_toggle_sensitive
+gtk_hbox_new
+gtk_entry_new
+gtk_entry_get_type
+gtk_entry_set_max_length
+gtk_widget_get_type
+purple_prefs_get_string
+gtk_entry_set_text
+g_object_set_data
+gtk_widget_show_all
+__stack_chk_fail
+g_snprintf
+purple_prefs_set_bool
+purple_conversation_get_data
+g_signal_handler_disconnect
+g_slist_free
+purple_conversation_set_data
+purple_get_conversations
+g_slist_append
+purple_debug_misc
+gtk_window_get_type
+pidgin_set_urgent
+g_return_if_fail_warning
+gdk_property_change
+gdk_atom_intern
+pidgin_conv_window_get_active_conversation
+purple_conversation_autoset_title
+pidgin_conv_is_hidden
+purple_conversation_present
+pidgin_conv_window_raise
+gtk_window_get_title
+gtk_window_set_title
+purple_conversation_get_type
+g_object_get
+gtk_entry_get_text
+purple_prefs_set_string
+g_object_get_data
+purple_conversations_get_handle
+pidgin_conversations_get_handle
+purple_signal_connect
+purple_account_get_connection
+purple_find_chat
+purple_find_conversation_with_account
+purple_init_plugin
+purple_prefs_add_none
+purple_prefs_add_bool
+purple_prefs_add_string
+purple_plugin_register
+libgtk-x11-2.0.so.0
+libgdk-x11-2.0.so.0
+libatk-1.0.so.0
+libgio-2.0.so.0
+libpangoft2-1.0.so.0
+libgdk_pixbuf-2.0.so.0
+libpangocairo-1.0.so.0
+libcairo.so.2
+libpango-1.0.so.0
+libfreetype.so.6
+libfontconfig.so.1
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+libnsl.so.1
+libresolv.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+notify.so
+GLIBC_2.4
+GLIBC_2.2.5
+5R: 
+%T: 
+%R: 
+%J: 
+%B: 
+%:: 
+%2: 
+%*: 
+%": 
+%z9 
+%r9 
+%j9 
+%b9 
+%Z9 
+%R9 
+%J9 
+%B9 
+%:9 
+%29 
+%*9 
+%"9 
+%z8 
+%r8 
+%j8 
+%b8 
+=89 
+ATSubH
+=W3 
+%,3 
+AVAUATUSH
+D$(1
+T$(dH3
+8[]A\A]A^A_
+fff.
+ATU1
+[]A\
+AUATUSH
+Ic4$H
+Ic4$H
+[]A\A]1
+[]A\A]
+l$ L
+d$(L
+l$0H
+[]A\
+l$ H
+l$ 1
+l$ H
+l$ H
+fff.
+d$ H
+d$ H
+d$ 1
+d$ H
+fff.
+l$ H
+AUATUH
+[]A\A]
+l$ H
+l$ H
+Notify For
+pidgin
+_IM windows
+type_im
+toggled
+C_hat windows
+type_chat
+type_chat_nick
+_Focused windows
+type_focused
+Notification Methods
+title-entry
+method_string
+focus-out-event
+method_count
+method_count_xprop
+method_urgent
+R_aise conversation window
+method_raise
+_Present conversation window
+method_present
+Notification Removal
+notify_focus
+notify_click
+notify_type
+notify_send
+/plugins/gtk/X11/notify/%s
+notify-message-count
+notify-imhtml-signals
+notify-entry-signals
+Failed to find gtkconv
+focus-in-event
+button-press-event
+key-press-event
+purplewin != NULL
+purplewin->window != NULL
+_PIDGIN_UNSEEN_COUNT
+CARDINAL
+conv != NULL
+[%d] %s
+%s%s
+has-toplevel-focus
+displayed-im-msg
+displayed-chat-msg
+conversation-switched
+sent-im-msg
+sent-chat-msg
+conversation-created
+deleting-conversation
+/plugins/gtk
+/plugins/gtk/X11
+/plugins/gtk/X11/notify
+gtk-gaim
+gtk-x11-notify
+Message Notification
+2.6.3-2.fc12
+http://pidgin.im/
+/plugins/gtk/X11/notify/type_im
+/plugins/gtk/X11/notify/type_chat
+	_Only when someone says your username
+/plugins/gtk/X11/notify/type_chat_nick
+/plugins/gtk/X11/notify/type_focused
+Prepend _string into window title:
+/plugins/gtk/X11/notify/method_string
+/plugins/gtk/X11/notify/title_string
+Insert c_ount of new messages into window title
+/plugins/gtk/X11/notify/method_count
+Insert count of new message into _X property
+/plugins/gtk/X11/notify/method_count_xprop
+Set window manager "_URGENT" hint
+/plugins/gtk/X11/notify/method_urgent
+/plugins/gtk/X11/notify/method_raise
+/plugins/gtk/X11/notify/method_present
+Remove when conversation window _gains focus
+/plugins/gtk/X11/notify/notify_focus
+Remove when conversation window _receives click
+/plugins/gtk/X11/notify/notify_click
+Remove when _typing in conversation window
+/plugins/gtk/X11/notify/notify_type
+Remove when a _message gets sent
+/plugins/gtk/X11/notify/notify_send
+/plugins/gtk/X11/notify/notify_switch
+Provides a variety of ways of notifying you of unread messages.
+Etan Reisner <deryni@eden.rutgers.edu>,
+Brian Tarricone <bjt23@cornell.edu>
+unnotify
+handle_urgent
+handle_count_xprop
+handle_count_title
+handle_string
+notify.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

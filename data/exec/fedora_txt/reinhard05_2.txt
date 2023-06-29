@@ -1,0 +1,187 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_return_if_fail_warning
+babl_format_get_n_components
+g_malloc_n
+gegl_buffer_get
+__logf_finite
+__powf_finite
+__expf_finite
+gegl_buffer_set
+g_free
+g_type_name
+g_log
+g_value_set_double
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+reinhard05.so
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.2.5
+5R  
+%T  
+%R  
+%J  
+%B  
+%:  
+%2  
+%*  
+%"  
+u+UH
+\$`f
+D$H1
+D$@(
+D$(H
+[]A\
+AWAVAUATUSH
+T$`dH
+dH34%(
+[]A\A]A^A_
+)D$p
+L$pM
+/t$p
+|$ L
+XD$p
+\$Xf
+Y\$xH
+D$H1
+L9d$H
+YD$XH
+L$PB
+\$4I
+XD$D
+YD$<
+YL$8
+YD$0
+T$_I
+L9d$H
+\$PE1
+|$`H
+tuATUH
+ []A\
+t$$H
+GeglChantreinhard05.c
+input
+RGBA float
+output
+gegl-0.2
+description
+tonemapping
+categories
+gegl:reinhard05
+name
+Brightness
+brightness
+Chromatic Adaptation
+chromatic
+Light Adaptation
+light
+chant-data
+s->num != 0.0
+GEGL-reinhard05.c
+s->max >= s->min
+result
+chrom >= 0.0 && chrom <= 1.0
+light >= 0.0 && light <= 1.0
+Y float
+world_lin.min >= 0.0
+property
+GEGL-../../gegl/gegl-chant.h
+Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This is an efficient global operator derived from simple physiological observations, producing luminance within the range 0.0-1.0
+Overall brightness of the image
+Adapation to colour variation across the image
+Adapation to light variation across the image
+babl_format_get_n_components (babl_format (OUTPUT_FORMAT)) == pix_stride
+chrom_comp >= 0.0 && chrom_comp <= 1.0
+light_comp >= 0.0 && light_comp <= 1.0
+contrast >= 0.3 && contrast <= 1.0
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+reinhard05_stats_finish
+reinhard05_stats_update
+reinhard05_stats_start
+reinhard05_process
+?ffffff
+?333333
+;*3$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+reinhard05.so-0.2.0-38.fc28.x86_64.debug
+M;xZ
+7zXZ
+31]]\
+oz+"
+yS!i
+Q"V?
+4@4+6
+/0N$v
+.^N:
+Da k
+,jh9
+2WXgo
+g8AF
+FjvTaP
+^y[.
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

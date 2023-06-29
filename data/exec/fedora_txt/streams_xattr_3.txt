@@ -1,0 +1,306 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+smb_vfs_call_lstat
+smb_vfs_call_stat
+_talloc_realloc_array
+talloc_strdup
+talloc_tos
+get_ea_value
+_talloc_free
+smb_roundup
+strchr_m
+talloc_asprintf
+strrchr_m
+strupper_m
+DEBUGLEVEL_CLASS
+dbghdrclass
+dbgtext
+vfs_memctx_fsp_extension
+__errno_location
+vfs_fetch_fsp_extension
+smb_vfs_call_fallocate
+fsp_str_dbg
+smb_vfs_call_fsetxattr
+memset
+smb_vfs_call_setxattr
+smb_vfs_call_ftruncate
+talloc_strdup_upper
+MD5Init
+MD5Update
+talloc_get_size
+MD5Final
+__stack_chk_fail
+is_ntfs_stream_smb_fname
+is_ntfs_default_stream_smb_fname
+map_errno_from_nt_status
+create_synthetic_smb_fname
+lp_posix_pathnames
+smb_vfs_call_fstat
+StrCaseCmp
+smb_vfs_call_rename
+smb_vfs_call_removexattr
+memcpy
+smb_vfs_call_pwrite
+smb_vfs_call_pread
+smb_vfs_call_open
+vfs_add_fsp_extension_notype
+smb_vfs_call_close_fn
+nt_errstr
+smb_fname_str_dbg
+smb_vfs_call_fs_capabilities
+copy_smb_filename
+smb_vfs_call_unlink
+smb_vfs_call_get_alloc_size
+get_ea_names_from_file
+map_nt_error_from_unix
+init_samba_module
+smb_register_vfs
+libc.so.6
+_edata
+__bss_start
+_end
+streams_xattr.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+%J: 
+%B: 
+%:: 
+%2: 
+%*: 
+%": 
+ATSubH
+=/6 
+[A\]
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$0H
+\$(L
+d$8L
+l$@H
+t$ H
+ffffff.
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+|$(I
+t$ H
+l$(C
+D$(E1
+L$ H
+|$ H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$(H
+|$ H
+ffffff.
+D$x1
+|$`H
+T$xdH3
+[]A\
+d$ H
+=8, 
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+d$ H
+|$ H
+|$(H
+l$8H
+\$0L
+d$@L
+l$HL
+t$PH
+T$ H
+T$(H
+t$ L
+T$(H
+T$ H
+L$ H
+D$8O
+|$0H
+D$8E1
+L$0H
+|$0H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+t$0C
+D$0H
+T$8B
+D$8H
+|$0H
+L$ L
+d$8I
+d$0H
+l$PH
+\$HL
+d$XL
+l$`L
+t$hL
+|$pH
+T$PH
+D$H1
+|$HH
+D$PL
+L$ 1
+T$PH
+L$_A
+t$PL
+l$ M
+\$hH
+l$pL
+d$xL
+T$PH
+L$_H
+T$PH
+L$_A
+T$PH
+L$_H
+t$PH
+d$ H
+AWAVAUATI
+l$ L
+D$0H
+D$PH
+[]A\A]A^A_
+struct stream_struct
+user.DosStream.
+%s%s
+%s:$DATA
+uint8
+upper_sname != NULL
+modules/vfs_streams_xattr.c
+stream_inode returns %lu
+sbuf->st_ex_size = %d
+get_ea_value returned %s
+::$DATA
+talloc failed
+streams_xattr
+modules/vfs_streams_xattr.c:90
+modules/vfs_streams_xattr.c:126
+xattr_name: %s, stream_name: %s
+modules/vfs_streams_xattr.c:153
+modules/vfs_streams_xattr.c:154
+modules/vfs_streams_xattr.c:161
+modules/vfs_streams_xattr.c:1039
+streams_xattr_fallocate called for file %s offset %.0flen = %.0f
+modules/vfs_streams_xattr.c:973
+streams_xattr_ftruncate called for file %s offset %.0f
+modules/vfs_streams_xattr.c:993
+modules/vfs_streams_xattr.c:1019
+modules/vfs_streams_xattr.c:49
+stream_inode called for %lu/%lu [%s]
+modules/vfs_streams_xattr.c:52
+PANIC: assert failed at %s(%d): %s
+modules/vfs_streams_xattr.c:63
+modules/vfs_streams_xattr.c:68
+modules/vfs_streams_xattr.c:352
+modules/vfs_streams_xattr.c:200
+streams_xattr_fstat called for %d
+modules/vfs_streams_xattr.c:226
+modules/vfs_streams_xattr.c:238
+modules/vfs_streams_xattr.c:300
+modules/vfs_streams_xattr.c:671
+modules/vfs_streams_xattr.c:672
+modules/vfs_streams_xattr.c:864
+streams_xattr_pwrite called for %d bytes
+modules/vfs_streams_xattr.c:887
+modules/vfs_streams_xattr.c:908
+modules/vfs_streams_xattr.c:928
+streams_xattr_pread: offset=%d, size=%d
+modules/vfs_streams_xattr.c:947
+streams_xattr_pread: get_ea_value returned %d bytes
+modules/vfs_streams_xattr.c:957
+modules/vfs_streams_xattr.c:369
+streams_xattr_open called for %s
+modules/vfs_streams_xattr.c:419
+modules/vfs_streams_xattr.c:438
+modules/vfs_streams_xattr.c:448
+streams_xattr_open: base file %s not around, returning ENOENT
+modules/vfs_streams_xattr.c:465
+creating attribute %s on file %s
+modules/vfs_streams_xattr.c:563
+modules/vfs_streams_xattr.c:584
+modules/vfs_streams_xattr.c:806
+modules/vfs_streams_xattr.c:834
+modules/vfs_streams_xattr.c:704
+Could not get ea %s for file %s: %s
+modules/vfs_streams_xattr.c:711
+modules/vfs_streams_xattr.c:716
+modules/vfs_streams_xattr.c:720
+modules/vfs_streams_xattr.c:723
+modules/vfs_streams_xattr.c:839
+walk_xattr_streams
+streams_xattr_fallocate
+streams_xattr_get_name
+streams_xattr_ftruncate
+stream_inode
+streams_xattr_fstat
+streams_xattr_pwrite
+streams_xattr_pread
+streams_xattr_open
+streams_xattr.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

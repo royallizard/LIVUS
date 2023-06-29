@@ -1,0 +1,277 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dcgettext
+xine_xmalloc
+memset
+xine_get_homedir
+__snprintf_chk
+ioctl
+xine_log
+strcmp
+free
+__vsnprintf_chk
+__strcat_chk
+_x_io_tcp_write
+_x_io_tcp_read_line
+sscanf
+strcpy
+_x_io_tcp_read
+__strdup
+strstr
+strchr
+__strtol_internal
+_x_io_tcp_connect
+perror
+memcpy
+strncasecmp
+xine_config_lookup_entry
+strrchr
+__sprintf_chk
+snprintf
+opendir
+readdir64
+strcasecmp
+strlen
+fopen64
+fgets
+__errno_location
+strerror
+closedir
+_x_io_tcp_connect_finish
+realloc
+strcat
+fclose
+__strsep_g
+__xstat64
+fputs
+mkdir
+_x_meta_info_set_utf8
+xine_plugin_info
+fork
+waitpid
+__printf_chk
+execl
+exit
+putchar
+fread
+libxine.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+xineplug_inp_cdda.so
+GLIBC_2.2
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.1.1
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+BD;A
+BL;A
+UWVS
+L[^_]
+UWVS
+D$(e
+[^_]
+[^_]
+T$,e
+[^_]
+kU K
+D$)i
+<[^_]
+[^_]
+D$0-
+[^_]
+D$3k
+D$6k
+D$6f
+UWVS
+BL;D$tt
+[^_]
+UWVS
+L$H1
+l$4f
+T$(9P,t
+L$He3
+L[^_]
+D$(9A,
+L$(9J,
+UWVS
+[^_]
+L$H1
+gfff)
+L$H1
+gfff)
+gfff)
+D$H9px
+gfff)
+L$Wt
+8T$W
+gfff)
+D$ft
+L$gt
+8T$f
+8T$g
+L$Vt
+8T$V
+UWVS
+[^_]
+D$$;P
+~xkR
+gfff
+;l$,u
+L$4)
+UWVS
+,[^_]
+[^_]
+[^_]
+t$T!
+T$\!
+|$d!
+T$p!
+#D$,
+t$|!
+#D$4
+#D$D
+l$8	
+#D$8
+l$<	
+l$<	
+#D$H
+l$L	
+l$L	
+#D$ 
+l$$	
+l$$	
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+t$ 1
+[^_]
+0^_]
+w	9u
+CD Digital Audio (aka. CDDA)
+libxine1
+device used for CD audio
+/dev/cdrom
+media.audio_cd.device
+query CDDB
+media.audio_cd.use_cddb
+CDDB server name
+freedb.freedb.org
+media.audio_cd.cddb_server
+CDDB server port
+media.audio_cd.cddb_port
+CDDB cache directory
+%s/.xine/cddbcache
+media.audio_cd.cddb_cachedir
+media.audio_cd.drive_slowdown
+cdda_open
+cdda_tochdr
+%*s %*s %d %d
+malloc
+cdda_tocentry %d
+%*s %*s %d %d %d %d
+CDROMREADTOCHDR
+CDROMMULTISESSION
+CDROMREADTOCENTRY
+CDROMREADRAW
+cdda_read %d %d
+cdda:/
+cdda:/%d
+DTITLE=%s
+DYEAR=%s
+TTITLE%d=%s
+EXTD=
+YEAR:
+%s: can't connect to %s:%d
+input_cdda
+<<< %s
+1.1.6
+>>> %s
+proto %d
+cddb query %08lx %d 
+cddb read %s %s
+%s/%08lx
+%02X
+%08X
+The path to the device, usually a CD or DVD drive, which you intend to use for playing audio CDs.
+Enables CDDB queries, which will give you convenient title and track names for your audio CDs.
+Keep in mind that, unless you use your own private CDDB, this information is retrieved from an internet server which might collect a profile of your listening habits.
+The CDDB server used to retrieve the title and track information from.
+This setting is security critical, because the sever will receive information about your listening habits and could answer the queries with malicious replies. Be sure to enter a server you can trust.
+The server port used to retrieve the title and track information from.
+The replies from the CDDB server will be cached in this directory.
+This setting is security critical, because files with uncontrollable names will be created in this directory. Be sure to use a dedicated directory not used for anything but CDDB caching.
+Since some CD or DVD drives make some really loud noises because of the fast disc rotation, xine will try to slow them down. With standard CD or DVD playback, the high datarates that require the fast rotation are not needed, so the slowdown should not affect playback performance.
+A value of zero here will disable the slowdown.
+slow down disc drive to this speed factor
+input_cdda: setting drive speed to %d failed
+input_cdda: setting drive speed to normal failed
+input_cdda: error writing to socket.
+input_cdda: error reading from socket.
+input_cdda: protocol error, data returned but no buffer provided.
+input_cdda: error opening remote drive.
+input_cdda: network CDROMREADTOCHDR error.
+input_cdda: network CDROMREADTOCENTRY error.
+input_cdda: fopen(%s) failed: %s.
+input_cdda: cached entry for disc ID %08lx not found.
+input_cdda: successfuly connected to cddb server '%s:%d'.
+input_cdda: failed to connect to cddb server '%s:%d' (%s).
+input_cdda: error while reading cddb welcome message.
+cddb hello unknown localhost xine %s
+input_cdda: error while sending cddb hello command.
+input_cdda: cddb hello command returned error code '%03d'.
+input_cdda: error while sending cddb protocol command.
+input_cdda: cddb protocol command returned error code '%03d'.
+input_cdda: error while sending cddb query command.
+input_cdda: cddb query command returned error code '%03d'.
+input_cdda: error while sending cddb read command.
+input_cdda: cddb read command returned error code '%03d'.
+input_cdda: mkdir(%s) failed: %s.
+input_cdda: %s is not a directory.
+input_cdda: ioctl(CDROM_MEDIA_CHANGED) failed: %s.
+/bin/umount
+input_dvd: CDROMCLOSETRAY failed: %s
+input_dvd: CDROMEJECT failed: %s
+input_dvd: CDROM_DRIVE_STATUS failed: %s
+input_dvd: Device %s failed to open during eject calls
+%02x
+SHA-1
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._
+xineplug_inp_cdda.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

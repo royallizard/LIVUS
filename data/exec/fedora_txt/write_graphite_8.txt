@@ -1,0 +1,298 @@
+rGBE
+8w83
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+strlen
+swrite
+close
+__errno_location
+sstrerror
+plugin_log
+__stack_chk_fail
+cdtime
+strcasecmp
+getaddrinfo
+socket
+connect
+freeaddrinfo
+__snprintf_chk
+c_do_release
+gai_strerror
+c_complain
+__assert_fail
+pthread_mutex_lock
+pthread_mutex_unlock
+strcmp
+format_graphite
+memcpy
+free
+pthread_mutex_destroy
+calloc
+pthread_mutex_init
+cf_util_get_string_buffer
+ssnprintf
+plugin_register_write
+plugin_register_flush
+cf_util_get_string
+cf_util_get_service
+cf_util_get_boolean
+cf_util_get_flag
+module_register
+plugin_register_complex_config
+__ctype_b_loc
+strchr
+strcspn
+sstrncpy
+uc_get_rate
+memset
+__finite
+meta_data_toc
+meta_data_type
+meta_data_get_string
+meta_data_get_unsigned_int
+meta_data_get_boolean
+meta_data_get_double
+meta_data_get_signed_int
+format_json_initialize
+format_json_finalize
+format_json_value_list
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+write_graphite.so
+GLIBC_2.3
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+%zI 
+%rI 
+%jI 
+fffff.
+=II 
+5BI 
+fffff.
+fffff.
+ATUH
+oHSH
+[]A\
+fffff.
+AWAVL
+AUAT
+|$XH
+[]A\A]A^A_
+t$ H
+D$  
+D$PL
+t$Pu
+ffffff.
+t[ATUH
+[]A\
+AWAVI
+AUATH
+ZYt4A
+[]A\A]A^A_
+fffff.
+AWAVI
+AUAT
+D$x1
+D$0E1
+0E9w(
+\$0H
+d$ H
+l$ L
+L$xdH3
+[]A\A]A^A_
+0E9w(
+\$0H
+AUATU1
+A9^(~FI
+A9^(
+]A\A]A^
+AVAUATI
+StOI
+@t3A
+[]A\A]A^
+[]A\A]A^
+AWAVAUATI
+L$pH
+T$8H
+D$xA
+L$lH
+L$(H
+L$XH
+L$ H
+L$PH
+t$8H
+t$pH
+L$XD
+D$lH
+L$PD
+D$lH
+L$ H
+D$PH
+t$8L
+L$@H
+D$`H
+D$H1
+Hc|$hH
+|$hH
+|$ 1
+t$ H
+D$`H
+L$@H
+[]A\A]A^A_
+D$`H
+L$@H
+D$`H
+L$@H
+D$`H
+L$@H
+wVH=
+AWAVAUATI
+A;\$@
+dH34%(
+[A\A]A^A_]
+A;\$@
+A;\$@
+D$HH
+A;\$@}}
+L$HA
+t7ATU
+#[]A\
+fffff.
+AWAVAUATI
+[A\A]A^A_]
+localhost
+2003
+write_graphite.c
+ai_list != ((void *)0)
+failed to open socket: %s
+Carbon
+Host
+Port
+Protocol
+LogSendErrors
+Prefix
+Postfix
+StoreRates
+SeparateInstances
+AlwaysAppendDS
+EscapeCharacter
+write_graphite/%s/%s/%s
+write_graphite/%s
+Node
+write_graphite
+write_graphite plugin: send to %s:%s (%s) failed with status %zi (%s)
+write_graphite plugin: getaddrinfo (%s, %s, %s) failed: %s
+failed to connect to remote host: %s
+write_graphite plugin: Connecting to %s:%s via %s failed. The last error was: %s
+write_graphite plugin: Successfully connected to %s:%s via %s.
+write_graphite plugin: DS type does not match value list type
+message_len < cb->send_buf_free
+write_graphite plugin: malloc failed.
+write_graphite plugin: Unknown protocol (%s)
+write_graphite plugin: Cannot use an empty string for the "EscapeCharacter" option.
+write_graphite plugin: Only the first character of the "EscapeCharacter" option ('%c') will be used.
+write_graphite plugin: Invalid configuration option: %s.
+wg_send_message
+wg_callback_init
+%s%c%s
+utils_format_graphite.c
+%s%s%s.%s.%s.%s
+%s%s%s.%s.%s
+ 	"\:!/()
+%llu
+%s %s %u
+!(flags & 0x04) || (ds_name != ((void *)0))
+(__extension__ (__builtin_constant_p (escape_char) && !__builtin_constant_p (" \t\"\\:!/()\n\r") && (escape_char) == '\0' ? (char *) __rawmemchr (" \t\"\\:!/()\n\r", escape_char) : __builtin_strchr (" \t\"\\:!/()\n\r", escape_char))) == ((void *)0)
+0 == __extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (ds->type) && __builtin_constant_p (vl->type) && (__s1_len = strlen (ds->type), __s2_len = strlen (vl->type), (!((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) || __s2_len >= 4)) ? __builtin_strcmp (ds->type, vl->type) : (__builtin_constant_p (ds->type) && ((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) && (__s1_len = strlen (ds->type), __s1_len < 4) ? (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) ? __builtin_strcmp (ds->type, vl->type) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (vl->type); int __result = (((const unsigned char *) (const char *) (ds->type))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (ds->type))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (ds->type))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (ds->type))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) && (__s2_len = strlen (vl->type), __s2_len < 4) ? (__builtin_constant_p (ds->type) && ((size_t)(const void *)((ds->type) + 1) - (size_t)(const void *)(ds->type) == 1) ? __builtin_strcmp (ds->type, vl->type) : (- (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (ds->type); int __result = (((const unsigned char *) (const char *) (vl->type))[0] - __s2[0]); if (__s2_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[1] - __s2[1]); if (__s2_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[2] - __s2[2]); if (__s2_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (vl->type))[3] - __s2[3]); } } __result; })))) : __builtin_strcmp (ds->type, vl->type)))); })
+gr_format_values plugin: Unknown data source type: %i
+format_graphite: message buffer too small: Need %zu bytes.
+format_graphite: target buffer too small
+format_graphite: error with gr_format_values
+gr_format_values
+escape_graphite_string
+gr_format_name
+counter
+gauge
+derive
+absolute
+unknown
+true
+false
+null
+"%s"
+,"time":%.3f
+,"interval":%.3f
+,"%s":%s
+plugin
+plugin_instance
+type
+type_instance
+,"%s":%li
+,"%s":%lu
+,"%s":%f
+"values":%s
+,"dstypes":%s
+,"dsnames":%s
+,"meta":%s
+utils_format_json: uc_get_rate failed.
+format_json: Unknown data source type: %i
+;*3$"
+write_graphite.so.debug
+7zXZ
+J[	J
+eXumq
+_A"O
+%T(A
+klQ#l
+{B{_
+PoeF
+"IJ*
+PNwB
+y%F?B
+37wY
+K.hj
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

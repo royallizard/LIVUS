@@ -1,0 +1,600 @@
+/lib/ld-linux.so.2
+#]1+8
+&#_y
+libdovecot-lda.so.0
+mailbox_header_lookup_unref
+i_stream_unref
+i_panic
+i_stream_get_error
+net_disconnect
+mailbox_free
+_ITM_deregisterTMCloneTable
+mail_storage_get_last_error
+i_stream_create_fd
+mailbox_alloc
+i_stream_skip
+t_pop_check
+mailbox_transaction_begin
+str_c
+o_stream_unref
+my_pid
+master_service_get_name
+o_stream_destroy
+pool_alloconly_create
+mail_alloc
+guid_128_generate
+o_stream_nsend
+mailbox_header_lookup_init
+i_fatal
+o_stream_set_no_error_handling
+t_strdup
+ioloop_time
+mailbox_transaction_rollback
+str_to_uint
+net_addr2ip
+i_info
+mail_namespace_find_inbox
+buffer_create_dynamic
+io_remove
+__gmon_start__
+mailbox_get_last_error
+i_stream_get_size
+t_strconcat
+buffer_get_modifiable_data
+str_data
+io_add
+o_stream_create_fd_file
+i_stream_ref
+o_stream_uncork
+buffer_append
+str_append
+o_stream_cork
+str_append_c
+p_strdup
+str_printfa
+t_strdup_until
+str_truncate
+_Jv_RegisterClasses
+master_service
+o_stream_create_fd
+i_strdup
+default_pool
+close_keep_errno
+o_stream_nsend_str
+t_strdup_printf
+i_error
+_ITM_registerTMCloneTable
+t_push
+str_len
+mail_free
+t_strsplit
+t_str_new
+o_stream_send
+net_ip2addr
+message_date_create
+lmtp_client_add_rcpt
+lda_setting_parser_info
+mail_deliver_session_init
+lmtp_client_deinit
+mail_deliver
+lmtp_client_connect_tcp
+mail_deliver_get_address
+lmtp_client_send_more
+lmtp_client_send
+mail_deliver_session_deinit
+lmtp_client_init
+lmtp_client_state_to_string
+lmtp_client_fail
+libdovecot-storage.so.0
+i_stream_read
+buffer_free
+i_stream_set_name
+safe_mkstemp_hostpid
+str_append_n
+settings_parse_line
+settings_var_expand
+i_set_failure_prefix
+o_stream_ref
+str_append_str
+t_strsplit_spaces
+i_stream_get_data
+master_service_init_log
+master_service_settings_read
+t_str_ucase
+base64_encode
+restrict_access_allow_coredumps
+i_stream_create_limit
+master_service_settings_get_others
+restrict_access_get_env
+i_stream_create_dot
+master_service_settings_parser_get_others
+timeout_remove
+timeout_reset
+i_stream_destroy
+i_stream_next_line
+timeout_add
+i_stream_create_from_data
+i_stream_set_init_buffer_size
+i_stream_create_concat
+i_stream_have_bytes_left
+mail_storage_service_next
+mail_storage_service_user_get_set
+raw_mailbox_alloc_stream
+mailbox_get_status
+mail_storage_service_init_settings
+mail_storage_service_user_get_mail_set
+mail_storage_service_get_auth_conn
+mail_storage_service_deinit
+mail_storage_service_get_var_expand_table
+mail_set_seq
+mail_user_unref
+mail_user_set_get_temp_prefix
+mail_storage_service_user_free
+mail_storage_service_user_get_input
+mail_storage_service_init
+mail_storage_service_read_settings
+raw_storage_create_from_set
+mail_storage_service_lookup
+mail_user_var_expand_table
+mail_storage_service_user_get_settings_parser
+libdovecot.so.0
+master_service_client_connection_accept
+o_stream_get_error
+net_parse_range
+rfc822_parser_init
+t_abspath
+str_vprintfa
+net_is_in_network
+restrict_access_by_env
+i_stream_create_sized
+master_service_init_finish
+auth_master_pass_lookup
+master_service_settings_get
+net_set_nonblock
+t_get_current_dir
+master_service_client_connection_destroyed
+master_service_run
+master_service_deinit
+process_title_set
+master_service_init
+net_ip_compare
+net_getsockname
+rfc822_parse_dot_atom
+master_getopt
+libc.so.6
+_IO_stdin_used
+strncmp
+unlink
+strtol
+strlen
+strstr
+__errno_location
+chdir
+strcasecmp
+getenv
+seteuid
+strncasecmp
+geteuid
+close
+strchr
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+client_is_trusted
+client_destroy
+client_state_set
+cmd_vrfy
+client_remote_id
+client_input_handle
+storage_service
+lmtp_settings_dup
+cmd_lhlo
+lmtp_proxy_deinit
+lmtp_setting_parser_info
+cmd_rcpt
+client_disconnect
+cmd_data
+lmtp_proxy_add_rcpt
+cmd_quit
+lmtp_proxy_mail_from
+__data_start
+cmd_noop
+clients_count
+cmd_rset
+dns_client_socket_path
+lmtp_service_settings
+client_send_line
+cmd_mail
+client_input_read
+__libc_csu_init
+lmtp_proxy_init
+base_dir
+_fp_hw
+clients_destroy
+lmtp_proxy_start
+client_create
+client_state_reset
+client_io_reset
+cmd_xclient
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+WVSQ
+Y[^_]
+D$81
+|$(W
+D$,e3
+<[^_]
+UWVS
+l$0e
+[^_]
+UWVS
+|$@e
+D$$P
+,[^_]
+UWVS
+D$Le
+T$(1
+D$ P
+D$(_
+]Xj V
+D$$P
+T$$R
+D$ P
+,[^_]
+UWVS
+F,Y_j
+D$DXZ
+D$0P
+D$(P
+D$$P
+D$$P
+vlPV
+L$|e3
+[^_]
+t$0P
+UWVS
+WRPV
+[^_]
+UWVS
+L$Pe
+D$,1
+T$,e3
+<[^_]
+>>uO
+< te
+[^_]
+[^_]
+UWVS
+|$8e
+D$<RP
+[^_]
+D$hP
+t$dP
+ZYPW
+D$d_]h
+|$\W
+D$`P
+t$DP
+D$HP
+D$0P
+D$PP
+t$,P
+D$HP
+D$LP
+T$(9T$,
+D$\t,
+D$PP
+D$TP
+D$dP
+UWVS
+t$Le
+D$(1
+vlPV
+_]PV
+,[^_]
+UWVS
+|$De
+,[^_]
+T$$Q
+Y_PV
+UWVS
+D$De
+T$PQ
+D$<1
+D$dY
+T$\R
+t$dV
+t$(P
+[^_]
+D$HP
+D$dP
+t$HPU
+t$0P
+t$<P
+ET$(
+t$HPU
+D$hXZ
+D$`P
+t$HP
+t$PV
+D$\P
+D$(XZj%V
+t$,PU
+t$@VP
+t$<P
+VVj@
+|$ W
+QQPW
+T$lR
+t$0P
+t$8PU
+D$\P
+D$\P
+t$\PU
+t$0V
+t$\PU
+D$\P
+l$8PP
+UWVS
+vpPW
+vlPW
+4$Ph6
+[^_]
+vpPW
+vlPW
+UWVS
+t$pe
+|$H1
+D$0PR
+qlPQ
+D$$PR
+D$(PR
+D$,P
+|$<e3=
+L[^_]
+UWVS
+n@9l$
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+Y^j`U
+FLXZ
+F,Y_
+F8]Xh
+UWVS
+[^_]
+UWVS
+T$\1
+|$,9O
+t$<XZ
+D$4P
+t$8P
+T$\e3
+l[^_]
+|$<XZ
+D$4P
+|$,x
+UWVS
+|$@e
+,[^_]
+t$,U
+[^_]
+DOVECOT_CHILD_PROCESS
+lmtp
+getcwd() failed: %m
+lmtp(%s): 
+dns-client
+str_c(id)[str_len(id)-2] == '='
+file %s: line %d (%s): assertion failed: (%s)
+close(mail data fd) failed: %m
+Disconnect from %s: %s (in %s)
+Disconnected: Input buffer full
+Disconnected client for inactivity
+login_trusted_networks: Invalid network '%s'
+client.c
+[idling]
+[%u clients]
+[%s]
+local
+reset
+LHLO
+MAIL
+RCPT
+DATA
+QUIT
+VRFY
+RSET
+NOOP
+XCLIENT
+502 5.5.2 Unknown command
+lmtp client
+client state
+missing
+banner
+220 %s %s
+Connect from %s
+Connection closed
+Connection closed: %s
+destroyed
+502 5.5.2
+421 4.4.2 %s
+421 4.3.2 %s
+Shutting down
+client_generate_session_id
+452 4.2.2
+552 5.2.2
+unlink(%s) failed: %m
+*&fd != -1
+commands.c
+close(%d[%s:%d]) failed: %m
+Temporary internal failure
+451 4.3.0
+<lmtp DATA>
+first_uid != 0
+mail_max_lock_timeout=%u
+file %s: line %d: unreached
+lmtp(%s, %s): 
+INBOX
+250 2.0.0 <%s> %s Saved
+451 4.2.0 <%s> %s
+%s <%s> %s
+seteuid(0) failed: %m
+seteuid() failed: %m
+501 Missing hostname
+invalid
+250-%s
+250-8BITMIME
+250-ENHANCEDSTATUSCODES
+250 PIPELINING
+503 5.5.1 MAIL already given
+FROM:
+501 5.5.4 Invalid parameters
+250 2.1.0 OK
+MAIL FROM
+501 5.5.4 Unsupported options
+ BODY=8BITMIME
+ BODY=7BIT
+RCPT TO
+503 5.5.1 MAIL needed first
+auth lookup
+host
+port
+proxy_timeout
+protocol
+smtp
+proxy: Unknown protocol %s
+destuser
+proxy: host not given
+<%s>%s
+250 2.1.5 OK
+451 4.3.0 <%s> 
+%s%s
+552 5.2.2 <%s> %s
+221 2.0.0 OK
+252 2.3.3 Try RCPT instead
+250 2.0.0 OK
+554 5.5.1 No valid recipients
+../../src/lib/array.h
+Return-Path: <%s>
+Delivered-To: %s
+Received: from %s
+for <%s>
+; %s
+client->dot_input == NULL
+354 OK
+ ([%s])
+ADDR=
+PORT=
+TTL=
+TIMEOUT=
+501 Invalid parameters
+From
+Message-ID
+Subject
+Return-Path
+Temp file creation to %s failed: %m
+Can't open delivery mail as raw: %s
+451 4.3.0 <%s> Temporary internal error
+client->state.first_saved_mail == NULL
+BUG: Saving failed to unknown storage
+250-XCLIENT ADDR PORT TTL TIMEOUT
+Proxying to <%s> appears to be looping (TTL=0)
+554 5.4.6 <%s> Proxying appears to be looping (TTL=0)
+451 4.3.0 <%s> Can't handle mixed proxy/non-proxy destinations
+451 4.4.0 Remote server not answering
+550 5.1.1 <%s> User doesn't exist: %s
+Proxying to <%s> loops to itself
+554 5.4.6 <%s> Proxying loops to itself
+451 4.3.0 <%s> Temporary user lookup failure
+Disconnect from %s: Successful quit
+idx * array->element_size < array->buffer->used
+client->state.mail_data == NULL
+	by %s (Dovecot) with LMTP id %s
+550 You are not from trusted IP
+client_deliver
+client_input_data_write_local
+client_input_add_file
+array_idx_i
+cmd_data
+451 4.4.0 Remote server not answering (timeout while waiting for reply to %s) <%s>
+%s: Sent message to <%s> at %s:%u: %s
+%s: Failed to send message to <%s> at %s:%u: %s
+i_stream_get_size(data_input) failed: %s
+rcpt->reply == NULL
+lmtp-proxy.c
+!proxy->finished
+!rcpt->rcpt_to_failed
+rcpt->reply != NULL
+set->proxy_ttl > 0
+lmtp proxy
+set->timeout_msecs > 0
+data_input->seekable
+proxy->data_input == NULL
+lmtp_proxy_start
+lmtp_proxy_get_connection
+lmtp_proxy_conn_rcpt_to
+lmtp_proxy_finish_timeout
+lmtp_proxy_conn_data
+lmtp_proxy_init
+Dovecot ready.
+lmtp_proxy
+lmtp_save_to_detail_mailbox
+lmtp_rcpt_check_quota
+lmtp_address_translate
+login_greeting
+login_trusted_networks
+;*2$"4
+lmtp.debug
+7zXZ
+k>HJ
+~FmJ
+S(u5
+X"&a
+gtgkgZ
+w@}xv
+4a'5
+S}G~
+HGer
+O7,f
+Gp[Jn
+	~D(
+c8ziC
+Lum"
+3lU{ls
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

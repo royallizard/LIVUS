@@ -1,0 +1,213 @@
+WL`f
+1\	,~
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_tevent_req_callback_data
+_talloc_get_type_abort
+samba_runcmd_recv
+_talloc_free
+debuglevel_get_class
+dbghdrclass
+dbgtext
+__stack_chk_fail
+lpcfg_dns_update_command
+lpcfg_spn_update_command
+timeval_current_ofs
+samba_runcmd_send
+tevent_req_set_callback
+_tevent_add_timer
+talloc_check_name
+close
+unlink
+map_nt_error_from_unix_common
+irpc_send_reply
+nt_errstr
+_talloc_zero
+smbd_tmp_path
+mkstemp
+_talloc_set_destructor
+talloc_asprintf
+dom_sid_string
+ldb_dn_new_fmt
+samdb_find_site_for_computer
+samdb_find_ntdsguid_for_computer
+GUID_string
+lpcfg_dnsdomain
+dsdb_search_dn
+ldb_msg_find_attr_as_string
+__dprintf_chk
+ldb_dn_get_linearized
+lpcfg_server_role
+task_server_set_title
+system_session
+samdb_connect
+lpcfg_parm_int
+irpc_add_name
+ndr_table_irpc
+irpc_register
+task_server_terminate
+samba_init_module
+register_server_service
+libsamba-security-samba4.so
+libservice-samba4.so
+libsamba-errors.so.1
+libsamdb-common-samba4.so
+libsamba-util.so.0
+libsamdb.so.0
+libsamba-hostconfig.so.0
+libndr.so.3
+libMESSAGING-samba4.so
+libndr-samba4.so
+libsamba-debug-samba4.so
+libtalloc.so.2
+libldb.so.2
+libtevent.so.0
+libc.so.6
+dns_update.so
+SAMBA_4.18.1_SAMBA4
+SAMBA_ERRORS_1.0.0
+SAMDB_0.0.1
+TEVENT_0.9.9
+TALLOC_2.0.2
+LDB_0.9.10
+SAMBA_UTIL_0.0.1
+SAMBA_HOSTCONFIG_0.0.1
+NDR_0.0.1
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.2.5
+/usr/lib/samba:/usr/lib
+u3UH
+ATUSH
+CPXZH
+[]A\
+[]A\
+ATUH
+[]A\
+AVAUI
+D$h1
+L$8H
+L$PH
+T$0L
+D$@H
+D$(d
+T$hdH+
+x[]A\A]A^A_
+D$(d
+D$(d
+D$01
+l$(M
+wDIc
+L$Hf
+} ZH
+D;8r
+l$(H
+AVQH
+ATQH
+AUATA
+[]A\A]
+[]A\A]
+../../source4/dsdb/dns/dns_update.c:74
+../../source4/dsdb/dns/dns_update.c:82
+../../source4/dsdb/dns/dns_update.c:85
+Failed DNS update with exit code %d
+../../source4/dsdb/dns/dns_update.c:88
+Completed DNS update check OK
+../../source4/dsdb/dns/dns_update.c:98
+../../source4/dsdb/dns/dns_update.c:106
+../../source4/dsdb/dns/dns_update.c:108
+../../source4/dsdb/dns/dns_update.c:108: Failed SPN update - with error code %d
+../../source4/dsdb/dns/dns_update.c:111
+Completed SPN update check OK
+../../source4/dsdb/dns/dns_update.c:124
+../../source4/dsdb/dns/dns_update.c:126
+Calling DNS name update script
+../../source4/dsdb/dns/dns_update.c:134
+../../source4/dsdb/dns/dns_update.c:134: samba_runcmd_send() failed with no memory
+../../source4/dsdb/dns/dns_update.c:141
+Calling SPN name update script
+../../source4/dsdb/dns/dns_update.c:149
+../../source4/dsdb/dns/dns_update.c:149: samba_runcmd_send() failed with no memory
+../../source4/dsdb/dns/dns_update.c:174
+dnsupdate_nameupdate_handler_te
+../../source4/dsdb/dns/dns_update.c:208
+../../source4/dsdb/dns/dns_update.c:214
+../../source4/dsdb/dns/dns_update.c:217
+../../source4/dsdb/dns/dns_update.c:217: RODC DNS Update failed: %s
+../../source4/dsdb/dns/dns_update.c:220
+../../source4/dsdb/dns/dns_update.c:220: RODC DNS Update OK
+../../source4/dsdb/dns/dns_update.c:262
+../../source4/dsdb/dns/dns_update.c:269
+Unable to create a temporary file for RODC dnsupdate
+../../source4/dsdb/dns/dns_update.c:270
+../../source4/dsdb/dns/dns_update.c:279
+../../source4/dsdb/dns/dns_update.c:286
+../../source4/dsdb/dns/dns_update.c:294
+../../source4/dsdb/dns/dns_update.c:294: Unable to find site for computer %s
+../../source4/dsdb/dns/dns_update.c:296
+../../source4/dsdb/dns/dns_update.c:305
+../../source4/dsdb/dns/dns_update.c:305: Unable to find NTDS GUID for computer %s
+../../source4/dsdb/dns/dns_update.c:307
+../../source4/dsdb/dns/dns_update.c:323
+../../source4/dsdb/dns/dns_update.c:323: Unable to find NTDS GUID for computer %s
+../../source4/dsdb/dns/dns_update.c:325
+SRV _ldap._tcp.%s._sites.%s %s %u
+SRV _ldap._tcp.%s._sites.gc._msdcs.%s %s %u
+SRV _kerberos._tcp.%s._sites.dc._msdcs.%s %s %u
+SRV _ldap._tcp.%s._sites.dc._msdcs.%s %s %u
+SRV _kerberos._tcp.%s._sites.%s %s %u
+SRV _gc._tcp.%s._sites.%s %s %u
+../../source4/dsdb/dns/dns_update.c:367
+Calling RODC DNS name update script %s
+dnsupdate_task_init: out of memory
+dnsupdate: Failed to obtain server credentials
+dnsupdate: Failed to connect to local samdb
+dnsupdate: Failed to nameupdate schedule: %s
+struct dnsupdate_service
+%s: 
+struct dnsupdate_RODC_state
+dNSHostName
+rodcdns.XXXXXX
+%s.cache
+<SID=%s>
+CNAME %s._msdcs.%s %s
+--update-cache
+--update-list
+task[dnsupdate]
+name interval
+dnsupdate
+dnsupdate_dnsupdate_RODC
+dnsupdate_RODC_callback
+dnsupdate_check_names
+dnsupdate_spnupdate_done
+dnsupdate_nameupdate_done
+dnsupdate_nameupdate_done
+GCC: (GNU) 12.2.1 20230201
+dns_update.so.debug
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment
+.gnu_debuglink

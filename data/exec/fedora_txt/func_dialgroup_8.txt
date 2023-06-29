@@ -1,0 +1,125 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+_ao2_ref
+strcmp
+_ao2_find
+ao2_iterator_init
+_ao2_iterator_next
+strlen
+ast_log
+memcpy
+realloc
+ast_db_put
+free
+ast_db_del
+__stack_chk_fail
+ast_app_separate_args
+strcasecmp
+_ao2_link
+_ao2_alloc
+strncasecmp
+_ao2_container_alloc
+_ao2_unlink
+ast_db_gettree
+strrchr
+ast_db_freetree
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+fff.
+AWAVI
+AUATM
+|$P1
+D$PH
+D$(H
+D$XH
+D$0H
+D$`H
+D$8H
+D$hH
+D$@H
+[]A\A]A^A_
+AWAVE1
+ATSH
+[A\A]A^A_
+fffff.
+tQIc
+[A\A]A^
+CPtDL
+D$X1
+T$XdH3
+`[]A\
+No such dialgroup '%s'
+func_dialgroup.c
+Unrecognized operation: %s
+$Revision: 140490 $
+func_dialgroup
+Dialgroup dialplan function
+DIALGROUP
+DIALGROUP(<group>[,op])
+Dialgroup '%s' is too large.  Truncating list.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Unable to add '%s' to dialgroup '%s'
+Interface '%s' not found in dialgroup '%s'
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Manages a group of users for dialing
+  DIALGROUP presents an interface meant to be used in concert with the Dial
+application, by presenting a list of channels which should be dialled when
+referenced.
+  When DIALGROUP is read from, the argument is interpreted as the particular
+group for which a dial should be attempted.  When DIALGROUP is written to
+with no arguments, the entire list is replaced with the argument specified.
+Other operations are as follows:
+  add - add a channel name or interface (write-only)
+  del - remove a channel name or interface (write-only)
+Functionality is similar to a queue, except that when no interfaces are
+available, execution may continue in the dialplan.  This is useful when
+you want certain people to be the first to answer any calls, with immediate
+fallback to a queue when the front line people are busy or unavailable, but
+you still want front line people to log in and out of that group, just like
+a queue.
+dialgroup_write
+dialgroup_refreshdb
+_ast_realloc
+dialgroup_read
+a9c98e5d177805051735cb5b0b16b0a0
+func_dialgroup.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

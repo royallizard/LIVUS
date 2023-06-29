@@ -1,0 +1,285 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_area_get_width
+value_new_int
+g_return_if_fail_warning
+value_dup
+value_area_get_height
+value_area_get_x_y
+value_compare
+value_area_fetch_x_y
+value_new_error_NA
+value_get_as_int
+value_get_as_checked_bool
+value_new_error_REF
+value_new_error_VALUE
+value_new_array_non_init
+g_malloc
+gnm_rangeref_normalize
+range_width
+range_height
+value_new_array
+value_array_set
+value_new_cellrange
+gnm_expr_eval
+value_coerce_to_number
+value_release
+g_slist_nth_data
+value_peek_string
+gnm_expr_conventions_default
+parse_pos_init_evalpos
+gnm_expr_parse_str
+gnm_expr_get_range
+gnm_expr_unref
+gnm_expr_conventions_r1c1
+col_parse
+g_slist_length
+g_log
+value_get_as_bool
+sheet_name_quote
+strlen
+g_free
+col_name
+__sprintf_chk
+value_new_string_nocopy
+g_strdup
+go_plugin_depends
+go_plugin_header
+lookup_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.0
+\[^_]
+\[^_]
+\[^_]
+,[^_]
+,[^_]
+,[^_]
+[^_]
+<[^_]
+L[^_]
+L[^_]
+<[^_]
+<[^_]
+[^_]
+l >= 0
+h >= 0
+h >= l
+start >= l
+start <= h
+v != NULL
+unknown expr type.
+%s%s$%s$%d
+%s%sR%dC%d
+%s%s%s$%d
+%s%sR%dC[%d]
+%s%s$%s%d
+%s%sR[%d]C%d
+%s%s%s%d
+%s%sR[%d]C[%d]
+goffice
+gnumeric
+1.6.3
+address
+ff|ffs
+areas
+reference
+choose
+index,value,
+column
+columnnumber
+colname
+columns
+hlookup
+EAf|bb
+hyperlink
+link_location, label
+indirect
+ref_string,format
+index
+A|fff
+reference,row,col,area
+EA|r
+val,range,range
+match
+EA|f
+val,range,approx
+offset
+rff|ff
+ref,row,col,height,width
+rows
+transpose
+array
+vlookup
+munG
+gnumeric_vlookup
+find_index_bisection
+find_bound_walk
+find_index_linear
+gnumeric_hlookup
+row_num,col_num,abs_num,a1,text
+val,range,col_idx,approx,as_index
+@FUNCTION=ADDRESS
+@SYNTAX=ADDRESS(row_num,col_num[,abs_num,a1,text])
+@DESCRIPTION=ADDRESS returns a cell address as text for specified row and column numbers.
+@a1 is a logical value that specifies the reference style.  If @a1 is TRUE or omitted, ADDRESS returns an A1-style reference, i.e. $D$4.  Otherwise ADDRESS returns an R1C1-style reference, i.e. R4C4.
+@text specifies the name of the worksheet to be used as the external reference.
+* If @abs_num is 1 or omitted, ADDRESS returns absolute reference.
+* If @abs_num is 2 ADDRESS returns absolute row and relative column.
+* If @abs_num is 3 ADDRESS returns relative row and absolute column.
+* If @abs_num is 4 ADDRESS returns relative reference.
+* If @abs_num is greater than 4 ADDRESS returns #VALUE! error.
+* If @row_num or @col_num is less than one, ADDRESS returns #VALUE! error.
+@EXAMPLES=
+ADDRESS(5,4) equals "$D$5".
+ADDRESS(5,4,4) equals "D5".
+ADDRESS(5,4,3,FALSE) equals "R[5]C4".
+@SEEALSO=COLUMNNUMBER
+@FUNCTION=AREAS
+@SYNTAX=AREAS(reference)
+@DESCRIPTION=AREAS returns the number of areas in @reference. 
+@EXAMPLES=
+AREAS((A1,B2,C3)) equals 3.
+@SEEALSO=ADDRESS,INDEX,INDIRECT,OFFSET
+@FUNCTION=CHOOSE
+@SYNTAX=CHOOSE(index[,value1][,value2]...)
+@DESCRIPTION=CHOOSE returns the value of index @index. @index is rounded to an integer if it is not.
+* If @index < 1 or @index > number of values, CHOOSE returns #VALUE! error.
+@EXAMPLES=
+CHOOSE(3,"Apple","Orange","Grape","Perry") equals "Grape".
+@SEEALSO=IF
+@FUNCTION=COLUMN
+@SYNTAX=COLUMN([reference])
+@DESCRIPTION=COLUMN function returns the column number of the current cell unless @reference is given. In that case, it returns an array of the column numbers of all cells in @reference. 
+* If @reference is neither an array nor a reference nor a range, COLUMN returns #VALUE! error.
+@EXAMPLES=
+COLUMN() in E1 equals 5.
+@SEEALSO=COLUMNS,ROW,ROWS
+@FUNCTION=COLUMNNUMBER
+@SYNTAX=COLUMNNUMBER(name)
+@DESCRIPTION=COLUMNNUMBER function returns an integer corresponding to the column name supplied as a string.
+* If @name is invalid, COLUMNNUMBER returns the #VALUE! error.
+@EXAMPLES=
+COLUMNNUMBER("E") equals 5.
+@SEEALSO=ADDRESS
+@FUNCTION=COLUMNS
+@SYNTAX=COLUMNS(reference)
+@DESCRIPTION=COLUMNS function returns the number of columns in area or array reference.
+* If @reference is neither an array nor a reference nor a range, COLUMNS returns #VALUE! error.
+@EXAMPLES=
+COLUMNS(H2:J3) equals 3.
+@SEEALSO=COLUMN,ROW,ROWS
+@FUNCTION=HLOOKUP
+@SYNTAX=HLOOKUP(value,range,row[,approximate,as_index])
+@DESCRIPTION=HLOOKUP function finds the col in range that has a first row cell similar to @value.  If @approximate is not true it finds the col with an exact equivalence.  If @approximate is true, then the values must be sorted in order of ascending value for correct function; in this case it finds the col with value less than @value it returns the value in the col found at a 1-based offset in @row rows into the @range.  @as_index returns the 0-based offset that matched rather than the value.
+* HLOOKUP returns #NUM! if @row < 0.
+* HLOOKUP returns #REF! if @row falls outside @range.
+@EXAMPLES=
+@SEEALSO=VLOOKUP
+@FUNCTION=HYPERLINK
+@SYNTAX=HYPERLINK(link_location[,optional_label])
+@DESCRIPTION=HYPERLINK function currently returns its 2nd argument, or if that is omitted the 1st argument.
+@EXAMPLES=
+HYPERLINK("www.gnome.org","GNOME").
+@SEEALSO=
+@FUNCTION=INDIRECT
+@SYNTAX=INDIRECT(ref_text[,format])
+@DESCRIPTION=INDIRECT function returns the contents of the cell pointed to by the @ref_text string. The string specifies a single cell reference the format of which is either A1 or R1C1 style. The style is set by the @format boolean, which defaults to the A1 style.
+* If @ref_text is not a valid reference returns #REF! 
+@EXAMPLES=
+If A1 contains 3.14 and A2 contains A1, then
+INDIRECT(A2) equals 3.14.
+@SEEALSO=AREAS,INDEX,CELL
+@FUNCTION=INDEX
+@SYNTAX=INDEX(array[,row, col, area])
+@DESCRIPTION=INDEX gives a reference to a cell in the given @array.The cell is pointed out by @row and @col, which count the rows and columns in the array.
+* If @row and @col are omitted the are assumed to be 1.
+* If the reference falls outside the range of the @array, INDEX returns a #REF! error.
+@EXAMPLES=Let us assume that the cells A1, A2, ..., A5 contain numbers 11.4, 17.3, 21.3, 25.9, and 40.1. Then INDEX(A1:A5,4,1,1) equals 25.9
+@SEEALSO=
+@FUNCTION=LOOKUP
+@SYNTAX=LOOKUP(value,vector1[,vector2])
+@DESCRIPTION=LOOKUP function finds the row index of @value in @vector1 and returns the contents of @vector2 at that row index. Alternatively a single array can be used for @vector1. If the area is longer than it is wide then the sense of the search is rotated. 
+* If LOOKUP can't find @value it uses the largest value less than @value.
+* The data must be sorted.
+* If @value is smaller than the first value it returns #N/A.
+@EXAMPLES=
+@SEEALSO=VLOOKUP,HLOOKUP
+@FUNCTION=MATCH
+@SYNTAX=MATCH(seek,vector[,type])
+@DESCRIPTION=MATCH function finds the row index of @seek in @vector and returns it.
+If the area is longer than it is wide then the sense of the search is rotated. Alternatively a single array can be used.
+* The @type parameter, which defaults to +1, controls the search:
+* If @type = 1, MATCH finds largest value <= @seek.
+* If @type = 0, MATCH finds first value == @seek.
+* If @type = -1, MATCH finds smallest value >= @seek.
+* For @type = 0, the data can be in any order.  * For @type = -1 and @type = +1, the data must be sorted.  (And in these cases, MATCH uses a binary search to locate the index.)
+* If @seek could not be found, #N/A is returned.
+@EXAMPLES=
+@SEEALSO=LOOKUP
+@FUNCTION=OFFSET
+@SYNTAX=OFFSET(range,row,col[,height[,width]])
+@DESCRIPTION=OFFSET function returns a cell range. The cell range starts at offset (@row,@col) from @range, and is of height @height and width @width.
+* If @range is neither a reference nor a range, OFFSET returns #VALUE!.
+* If either @height or @width is omitted, the height or width of the reference is used.
+@EXAMPLES=
+@SEEALSO=COLUMN,COLUMNS,ROWS,INDEX,INDIRECT,ADDRESS
+@FUNCTION=ROW
+@SYNTAX=ROW([reference])
+@DESCRIPTION=ROW function returns an array of the row numbers taking a default argument of the containing cell position.
+* If @reference is neither an array nor a reference nor a range, ROW returns #VALUE! error.
+@EXAMPLES=
+ROW() in G13 equals 13.
+@SEEALSO=COLUMN,COLUMNS,ROWS
+@FUNCTION=ROWS
+@SYNTAX=ROWS(reference)
+@DESCRIPTION=ROWS function returns the number of rows in area or array reference.
+* If @reference is neither an array nor a reference nor a range, ROWS returns #VALUE! error.
+@EXAMPLES=
+ROWS(H7:I13) equals 7.
+@SEEALSO=COLUMN,COLUMNS,ROW
+@FUNCTION=TRANSPOSE
+@SYNTAX=TRANSPOSE(matrix)
+@DESCRIPTION=TRANSPOSE function returns the transpose of the input @matrix.
+@EXAMPLES=
+@SEEALSO=MMULT
+@FUNCTION=VLOOKUP
+@SYNTAX=VLOOKUP(value,range,column[,approximate,as_index])
+@DESCRIPTION=VLOOKUP function finds the row in range that has a first column similar to @value.  If @approximate is not true it finds the row with an exact equivalence.  If @approximate is true, then the values must be sorted in order of ascending value for correct function; in this case it finds the row with value less than @value.  It returns the value in the row found at a 1-based offset in @column columns into the @range.  @as_index returns the 0-based offset that matched rather than the value.
+* VLOOKUP returns #NUM! if @column < 0.
+* VLOOKUP returns #REF! if @column falls outside @range.
+@EXAMPLES=
+@SEEALSO=HLOOKUP
+plugin.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

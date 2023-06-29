@@ -1,0 +1,114 @@
+FV7w 8
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+pam_sm_setcred
+pam_sm_open_session
+pam_sm_close_session
+pam_sm_chauthtok
+pam_get_user
+getpwnam
+geteuid
+seteuid
+pam_get_item
+asprintf
+ecryptfs_read_salt_hex_from_rc
+__syslog_chk
+from_hex
+fork
+waitpid
+free
+__stack_chk_fail
+setuid
+ecryptfs_unwrap_passphrase
+exit
+ecryptfs_wrap_passphrase
+pam_sm_authenticate
+malloc
+ecryptfs_validate_keyring
+ecryptfs_add_passphrase_key_to_keyring
+ecryptfs_set_zombie_session_placeholder
+ecryptfs_insert_wrapped_passphrase_into_keyring
+libecryptfs.so.0
+libpam_misc.so.0
+libgcrypt.so.11
+libgpg-error.so.0
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+libpam_ecryptfs.so.0
+/usr/lib64
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+ffff.
+ffff.
+ffff.
+l$pH
+ffff.
+D$H1
+t$(1
+D$(H
+T$ H
+\$0H
+T$HdH3
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+L$(H
+t$ H
+T$ H
+Error getting passwd info for user [%s]; rc = [%ld]
+Error retrieving old passphrase; rc = [%d]
+Error retrieving new passphrase; rc = [%d]
+eCryptfs PAM passphrase change module retrieved at least one NULL passphrase; nothing to do
+Unable to read salt value from user's .ecryptfsrc file; using default
+Error attempting to unwrap passphrase; rc = [%d]
+Error attempting to wrap passphrase; rc = [%d]
+waitpid() returned with error condition
+Error retrieving passphrase; rc = [%d]
+Cannot validate keyring integrity
+There is already a key in the user session keyring for the given passphrase.
+Error adding passphrase key token to user session keyring; rc = [%d]
+Error attempting to create and register zombie process; rc = [%d]
+wrapped-passphrase
+%s/.ecryptfs/%s
+Unable to allocate memory
+0011223344556677
+%s: Called
+%s: username = [%s]
+Out of memory
+NULL passphrase; aborting
+unwrap
+pam_sm_authenticate
+pam_ecryptfs.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

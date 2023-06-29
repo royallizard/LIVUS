@@ -1,0 +1,182 @@
+/lib64/ld-linux-x86-64.so.2
+[p#U6@
+libcupsppdc.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_cups_strlcpy
+cupsFileOpen
+_cupsLangPrintf
+cupsFileClose
+_ZN9ppdcArray5firstEv
+_ZN10ppdcSource11add_includeEPKc
+_ZN10ppdcSource12set_variableEPKcS1_
+_ZN10ppdcDriver14write_ppd_fileEP12_cups_file_sP11ppdcCatalogP9ppdcArrayP10ppdcSource14ppdcLineEnding
+_ZN10ppdcShared7releaseEv
+_ZN10ppdcShared6retainEv
+_ZN9ppdcArray4nextEv
+_ZN9ppdcArray3addEP10ppdcShared
+_ZN11ppdcCatalogC1EPKcS1_
+_ZN10ppdcSourceC1EPKcP12_cups_file_s
+_ZN11ppdcCatalog13load_messagesEPKc
+_ZN9ppdcArrayC1EPS_
+_ZN10ppdcSource9read_fileEPKcP12_cups_file_s
+_ZN10ppdcStringC1EPKc
+libcups.so.2
+_cupsSetLocale
+_cupsLangPuts
+cupsArrayAdd
+cupsArrayFind
+cupsArrayNew
+cupsFileOpenFd
+libgnutls.so.26
+libgcrypt.so.11
+libdl.so.2
+libgpg-error.so.0
+libavahi-common.so.3
+libavahi-client.so.3
+libpthread.so.0
+__errno_location
+fork
+close
+libcrypt.so.1
+libaudit.so.1
+libselinux.so.1
+libstdc++.so.6
+__gxx_personality_v0
+_Znwm
+_ZdlPv
+libm.so.6
+libgcc_s.so.1
+_Unwind_Resume
+libc.so.6
+exit
+pipe
+__stack_chk_fail
+mkdir
+tolower
+strdup
+execlp
+strlen
+strstr
+dup2
+stdout
+strcasecmp
+stderr
+__snprintf_chk
+strncasecmp
+strchr
+__cxa_finalize
+strcmp
+strerror
+__libc_start_main
+_edata
+__bss_start
+_end
+__libc_csu_init
+__libc_csu_fini
+GCC_3.0
+CXXABI_1.3
+GLIBCXX_3.4
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+AWAVI
+AUATUSH
+|$ H
+D$XH
+T$HH
+9l$ 
+|$(H
+D$ H
+d$ 1
+d$ D
+L$Hu
+|$XH
+L$DH
+T$0M
+-<Mv	
+9l$ ~
+|$(L
+9l$ 
+9l$ 
+|$0I
+9l$ 
+9l$ 
+T$0H
+D$(H
+|$dH
+|$XH
+|$pI
+T$HH
+[]A\A]A^A_
+|$`1
+|$0H
+|$(H
+ATSubH
+[A\]
+l$ L
+t$(L
+|$0H
+Usage: ppdc [options] filename.drv [ ... filenameN.drv ]
+Options:
+  -D name=value        Set named variable to value.
+  -I include-dir       Add include directory to search path.
+  -c catalog.po        Load the specified message catalog.
+  -d output-dir        Specify the output directory.
+  -l lang[,lang,...]   Specify the output language(s) (locale).
+  -m                   Use the ModelName value as the filename.
+  -t                   Test PPDs instead of generating them.
+  -v                   Be verbose (more v's for more verbosity).
+  -z                   Compress PPD files using GNU zip.
+  --cr                 End lines with CR (Mac OS 9).
+  --crlf               End lines with CR + LF (Windows).
+  --lf                 End lines with LF (UNIX/Linux/Mac OS X).
+ppdc: Adding include directory "%s"...
+ppdc: Loading messages from "%s"...
+ppdc: Unable to load localization file "%s" - %s
+ppdc: Writing PPD files to directory "%s"...
+ppdc: Loading messages for locale "%s"...
+ppdc: Unable to find localization for "%s" - %s
+ppdc: Loading driver information file "%s"...
+ppdc: Unable to create output directory %s: %s
+ppdc: Unable to create output pipes: %s
+ppdc: Unable to execute cupstestppd: %s
+ppdc: Warning - overlapping filename "%s".
+ppdc: Unable to create PPD file "%s" - %s.
+-crlf
+cupstestppd
+%s %s
+.PPD
+%s/%s.gz
+%s/%s
+ppdc: Writing %s...
+zPLR
+ppdc.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.gcc_except_table
+.eh_frame
+.note.ABI-tag
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.interp
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

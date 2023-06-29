@@ -1,0 +1,331 @@
+/lib/ld-linux.so.2
+free
+GLIBC_2.0
+libc.so.6
+stpcpy
+strcmp
+putgrent
+GLIBC_2.1
+__printf_chk
+GLIBC_2.3.4
+fgetsgent
+GLIBC_2.10
+__udivdi3
+libgcc_s.so.1
+strlen
+__bss_start
+_edata
+_end
+__xstat64
+GLIBC_2.2
+_Unwind_Resume
+GCC_3.0
+__stack_chk_fail
+GLIBC_2.4
+__cxa_finalize
+GLIBC_2.1.3
+futimens
+GLIBC_2.6
+putsgent
+calloc
+fopen64
+__gcc_personality_v0
+GCC_3.3.1
+__libc_start_main
+fclose
+open64
+libpthread.so.0
+__fxstat64
+log_set_target
+log_parse_environment
+log_open
+optind
+umask
+stdin
+mac_selinux_init
+conf_files_list_nulstr
+uid_range_add
+take_etc_passwd_lock
+internal_hashmap_steal_first
+internal_hashmap_first_key
+getopt_long
+internal_hashmap_size
+putpwent
+program_invocation_short_name
+fgetspent
+putspent
+fflush_and_check
+optarg
+getgrnam
+internal_hashmap_iterate
+__errno_location
+search_and_fopen_nulstr
+fgets
+ferror
+strstrip
+fgetgrent
+extract_many_words
+getpwuid
+specifier_printf
+getgrgid
+valid_gecos
+valid_home
+uid_range_add_str
+valid_user_group_name
+strv_push
+fgetpwent
+hashmap_update
+path_is_absolute
+__strdup
+path_kill_slashes
+parse_uid
+getpwnam
+fopen_temporary_label
+copy_bytes
+rename
+unlink
+safe_close
+internal_hashmap_first
+internal_hashmap_remove
+internal_hashmap_steal_first_key
+internal_hashmap_free
+fchmod
+fileno
+fchown
+strv_copy
+strv_find
+strv_extend
+strv_uniq
+strv_sort
+strv_free
+free_and_strdup
+uid_range_contains
+uid_range_next_lower
+log_oom_internal
+log_get_max_level
+log_internal
+internal_hashmap_contains
+internal_hashmap_get
+path_equal
+internal_hashmap_ensure_allocated
+hashmap_put
+safe_fclose
+strcmp_ptr
+log_assert_failed
+version
+parse_path_argument_and_warn
+log_assert_failed_unreachable
+specifier_kernel_release
+specifier_host_name
+specifier_boot_id
+specifier_machine_id
+string_hash_ops
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+D$\1
+D$<1
+D$8y
+D$@u
+D$@u
+L$\e3
+[^_]
+D$4yr
+D$8f
+t S1
+[^_]
+UWVS
+T$<1
+L$<u
+T$h1
+L$l1
+T$p1
+L$t1
+T$x1
+[^_]
+D$L1
+T$t1
+D$XtF
+[^_]
+D$Dt
+T$,1
+\$<e
+D$,1
+L$,e3
+\$Le
+D$<1
+L$<e3
+L$$1
+[^_]
+[^_]
+L$|1
+L$|e3
+[^_]
+UWVS
+T$ e
+T$L1
+L$Le3
+\[^_]
+UWVS
+T$ e
+T$L1
+L$Le3
+\[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+src/sysusers/sysusers.c
+line >= 1
+[%s:%u] Syntax error.
+[%s:%u] Trailing garbage.
+[%s:%u] Unknown modifier '%s'
+[%s:%u] Invalid UID range %s.
+Failed to parse UID: %s
+Failed to parse GID: %s
+Group %s already exists.
+Failed to verify gid %u: %m
+User %s already exists.
+Failed to verify uid %u: %m
+Unknown item type
+/etc/passwd
+/etc/group
+gshadow
+group
+/etc/gshadow
+/bin/sh
+/sbin/nologin
+/etc/shadow
+%s: User "%s" already exists.
+argc >= 0
+argv
+Unhandled option
+SELinux setup failed: %m
+.conf
+Failed to take lock: %m
+Failed to write files: %m
+help
+version
+root
+Failed to open '%s', ignoring: %m
+[%s:%u] Missing action and name columns.
+[%s:%u] Unknown command type '%c'.
+[%s:%u] Failed to replace specifiers: %s
+[%s:%u] '%s' is not a valid user or group name.
+[%s:%u] '%s' is not a valid GECOS field.
+[%s:%u] '%s' is not a valid home directory field.
+[%s:%u] Lines of type 'r' don't take a name field.
+[%s:%u] Lines of type 'r' require a ID range in the third field.
+[%s:%u] Lines of type 'r' don't take a GECOS field.
+[%s:%u] Lines of type 'r' don't take a home directory field.
+[%s:%u] Lines of type 'm' require a user name in the second field.
+[%s:%u] Lines of type 'm' require a group name in the third field.
+[%s:%u] Lines of type 'm' don't take a GECOS field.
+[%s:%u] Lines of type 'm' don't take a home directory field.
+hashmap_update(members, resolved_id, l) >= 0
+[%s:%u] Lines of type 'u' require a user name in the second field.
+[%s:%u] Lines of type 'g' require a user name in the second field.
+[%s:%u] Lines of type 'g' don't take a GECOS field.
+[%s:%u] Lines of type 'g' don't take a home directory field.
+Two or more conflicting lines for %s configured, ignoring.
+Failed to read from file %s: %m
+Failed to check if group %s already exists: %m
+Suggested group ID %u for %s already used.
+Group ID %u of file not suitable for %s.
+Group ID %u of file for %s already used.
+No free group ID available for %s.
+Creating group %s with gid %u.
+Failed to check if user %s already exists: %m
+Suggested user ID %u for %s already used.
+User ID %u of file not suitable for %s.
+User ID %u of file for %s is already used.
+No free user ID available for %s.
+Creating user %s (%s) with uid %u and gid %u.
+Failed to change mode on %s: %m
+Failed to change ownership of %s: %m
+Failed to fix access and modification time of %s: %m
+%s: Group "%s" already exists.
+%s: Detected collision for GID %u.
+%s: Detected collision for UID %u.
+%s [OPTIONS...] [CONFIGURATION FILE...]
+Creates system user accounts.
+  -h --help                 Show this help
+     --version              Show package version
+     --root=PATH            Operate on an alternate filesystem root
+Failed to enumerate sysusers.d files: %m
+Adding implicit group '%s' due to m line
+Adding implicit user '%s' due to m line
+Failed to load user database: %m
+Failed to read group database: %m
+make_backup
+putgrent_with_members
+putsgent_with_members
+write_files
+read_id_from_file
+add_group
+add_group
+add_user
+process_item
+process_item
+parse_line
+parse_line
+read_config_file
+read_config_file
+parse_argv
+add_implicit
+/etc/sysusers.d
+/run/sysusers.d
+/usr/local/lib/sysusers.d
+/usr/lib/sysusers.d
+main
+;*2$"
+zPLR
+gold 1.12
+systemd-sysusers.debug
+7zXZ
+=o\)Ba
+CaB$D	
+]<dj
+u[[=
+lP*P
+yQLZ
+@ftj
+)mYK
+~dI(
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

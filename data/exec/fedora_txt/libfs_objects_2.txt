@@ -1,0 +1,640 @@
+A Er
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_module_check_init
+dia_plugin_check_version
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+function_type
+object_register_type
+orthflow_type
+connection_save
+new_attribute
+data_add_text
+data_add_int
+text_get_attributes
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+text_set_cursor
+text_grab_focus
+connection_update_handles
+distance_line_point
+text_distance_from
+text_draw
+__stack_chk_fail
+__assert_fail
+connection_destroy
+text_destroy
+connpoint_is_autogap
+text_set_color
+connection_update_boundingbox
+text_calc_boundingbox
+rectangle_union
+connection_adjust_for_autogap
+g_malloc0
+connection_load
+connection_init
+object_find_attribute
+attribute_first_data
+data_text
+data_int
+connection_move_handle
+sqrt
+dia_font_new_from_style
+color_black
+new_text
+dia_font_unref
+object_set_props_from_offsets
+apply_textattr_properties
+connection_copy
+text_copy
+prop_std_text_align_data
+prop_std_text_height_data
+object_create_props_dialog
+object_apply_props_from_dialog
+object_apply_props
+orthconn_save
+orthconn_update_object_menu
+orthconn_delete_segment
+orthconn_add_segment
+g_free
+orthconn_update_data
+orthconn_distance_from
+orthflow_color_signal
+orthflow_color_energy
+orthflow_color_material
+orthconn_destroy
+text_get_string_copy
+text_set_string
+text_set_position
+orthconn_update_boundingbox
+orthconn_move
+orthconn_copy
+orthconn_get_middle_handle
+orthconn_move_handle
+orthconn_init
+object_add_handle
+orthconn_load
+orthconn_toggle_autorouting_callback
+element_save
+data_add_boolean
+g_malloc
+fmenu
+element_update_handles
+distance_rectangle_point
+color_white
+element_destroy
+connpoint_update
+element_update_boundingbox
+element_load
+data_boolean
+element_init
+element_copy
+strlen
+__sprintf_chk
+text_set_cursor_at_end
+libpng16.so.16
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+libfs_objects.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+5"f 
+%$f 
+%"f 
+%ze 
+%re 
+%je 
+%be 
+%Ze 
+%Re 
+%Je 
+%Be 
+%:e 
+%2e 
+%*e 
+%"e 
+%zd 
+%rd 
+%jd 
+%bd 
+%Zd 
+%Rd 
+%Jd 
+%Bd 
+%:d 
+%2d 
+%*d 
+%"d 
+fffff.
+fffff.
+=o` 
+fffff.
+=R_ 
+fffff.
+fffff.
+ATUH
+ffff.
+=1f 
+fff.
+fffff.
+ATUH
+D$81
+D$ H
+D$8dH3
+@[]A\
+D$(1
+D$(dH3
+ffffff.
+L$ f
+\$XD
+L$TD
+T$(H
+T$ H
+\$XD
+L$TD
+D$HH
+L$@H
+T$8H
+L$(D
+L$ H
+L$(f
+L$ H
+L$TD
+D$HH
+T$(H
+T$8H
+L$TD
+D$HH
+L$@H
+T$8H
+L$XD
+d$0H
+L$HH
+T$(H
+L$XfD
+D$TH
+L$HH
+T$@H
+L$0f
+AUATI
+D$(1
+L$(dH3
+8[]A\A]
+D$(1
+D$(dH3
+5IO 
+5IO 
+ffffff.
+D$(1
+D$(dH3
+5QN 
+ffffff.
+ATUI
+D$(1
+L$(dH3
+0[]A\
+5IL 
+5IL 
+ffffff.
+51P 
+D$(1
+D$(dH3
+51K 
+ffffff.
+D$(1
+T$(dH3
+5AI 
+ffffff.
+D$(1
+L$(dH3
+5AG 
+ATUH
+ffff.
+=QW 
+fff.
+AWAVAUATUSH
+D$(1
+T$ H
+=mD 
+D$(dH3
+8[]A\A]A^A_
+=TC 
+=4C 
+ATUH
+D$(1
+D$(dH3
+0[]A\
+ffffff.
+AUATI
+D$(1
+5^A 
+L$(dH3
+8[]A\A]
+5i@ 
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+5A? 
+5)? 
+D$(1
+D$(dH3
+ffffff.
+D$(1
+5f= 
+L$(dH3
+5y< 
+AUATUSH
+D$H1
+L$HdH3
+X[]A\A]
+AUATI
+D$81
+L$8dH3
+H[]A\A]
+ffffff.
+D$(1
+5t6 
+L$(dH3
+ATUH
+fff.
+5~c 
+fff.
+AVAUATUSH
+D$H1
+\$HdH3
+P[]A\A]A^
+D$ H
+D$ H
+AVAUATUH
+D$X1
+T$8L
+D$Ht~H
+L$@H
+D$XdH3
+`[]A\A]A^
+L$ A
+D$81
+T$(f
+D$8dH3
+WxfD
+AUATI
+([]A\A]
+AVAUI
+ATUH
+[]A\A]A^
+ATUH
+c([]A\
+AVAUI
+ATUH
+[]A\A]A^
+D$81
+T$(f
+T$(f
+T$8dH3
+WxfA
+Function structure diagram objects
+text
+type
+flow.c
+flow != ((void *)0)
+handle!=((void *)0)
+to!=((void *)0)
+Material
+Signal
+obj_pos
+point
+obj_bb
+meta
+dict
+enum
+text_alignment
+text_font
+text_height
+fontsize
+text_colour
+Object position
+Where the object is located
+Object bounding box
+Object meta info
+Some key/value pairs
+Type:
+Text alignment
+Font
+Font size
+FS - Flow
+22 22 3 1
+ 	c None
+.	c white
+X	c black
+                      
+ XXXX X    XX  X   X  
+ X    X   X  X X   X  
+ XXX  X   X  X X   X  
+ X    X   X  X X X X  
+ X    XXX  XX   X X   
+                 X    
+                 XX   
+ XXXXXXXXXXXXXXXXXXX  
+flow_draw
+flow_move_handle
+The bounding box of the object
+>333333
+?333333
+flow-ortho.c
+orthflow!=((void *)0)
+Add segment
+Delete segment
+Autorouting
+elem_corner
+Element corner
+The corner of the element
+elem_width
+real
+Element width
+The width of the element
+elem_height
+Element height
+The height of the element
+FS - Orthflow
+ XXXXXXXXX            
+        XX            
+        XX       X    
+        XX       XX   
+        XXXXXXXXXXXX  
+orthflow_move_handle
+MbP?
+?433333
+?is_wish
+is_user
+function.c
+pkg != ((void *)0)
+pkg->text != ((void *)0)
+pkg!=((void *)0)
+handle->id < 8
+%s%s
+Verb
+Channel
+Import
+Input
+Receive
+Allow
+Form Entrance
+Capture
+Export
+Discharge
+Eject
+Dispose
+Remove
+Transfer
+Transport
+Lift
+Move
+Transmit
+Conduct
+Convey
+Guide
+Direct
+Straighten
+Steer
+Translate
+Rotate
+Turn
+Spin
+Allow DOF
+Constrain
+Unlock
+Support
+Stop
+Insulate
+Protect
+Prevent
+Shield
+Inhibit
+Stabilize
+Steady
+Secure
+Attach
+Mount
+Lock
+Fasten
+Hold
+Position
+Orient
+Align
+Locate
+Connect
+Couple
+Join
+Assemble
+Combine
+Blend
+Pack
+Coalesce
+Branch
+Separate
+Switch
+Divide
+Release
+Detach
+Disconnect
+Polish
+Sand
+Drill
+Lathe
+Refine
+Purify
+Strain
+Filter
+Percolate
+Clear
+Distribute
+Diverge
+Scatter
+Disperse
+Diffuse
+Empty
+Dissipate
+Absorb
+Dampen
+Dispel
+Resist
+Provision
+Store
+Contain
+Collect
+Reserve
+Supply
+Fill
+Provide
+Replenish
+Expose
+Extract
+Control Magnitude
+Actuate
+Start
+Initiate
+Regulate
+Control
+Enable
+Disable
+Limit
+Interrupt
+Change
+Increase
+Decrease
+Amplify
+Reduce
+Magnify
+Normalize
+Multiply
+Scale
+Rectify
+Adjust
+Form
+Compact
+Crush
+Shape
+Compress
+Pierce
+Convert
+Transform
+Liquefy
+Solidify
+Evaporate
+Sublimate
+Condense
+Integrate
+Differentiate
+Process
+Sense
+Perceive
+Recognize
+Discern
+Check
+Verify
+Indicate
+Mark
+Display
+Measure
+Calculate
+Represent
+Noun
+Solid
+Liquid
+Human
+Hand
+Foot
+Head
+Finger
+Biological
+Mechanical
+Mech. Energy
+Translation
+Rotation
+Torque
+Random Motion
+Vibration
+Rotational Energy
+Translational Energy
+Electrical
+Electricity
+Voltage
+Current
+Hydraulic
+Pressure
+Volumetric Flow
+Thermal
+Heat
+Conduction
+Convection
+Radiation
+Pneumatic
+Chemical
+Radioactive
+Microwaves
+Radio waves
+X-Rays
+Gamma Rays
+Acoustic Energy
+Optical Energy
+Solar Energy
+Magnetic Energy
+Human Motion
+Human Force
+Status
+User/Device Fn
+Wish Fn
+wish function
+bool
+user function
+Wish function
+User function
+Text color
+FS - Function
+22 22 2 1
+.	c black
+ .................... 
+ .                  . 
+ .  .... .  . .  .  . 
+ .  .    .  . .. .  . 
+ .  ...  .  . .. .  . 
+ .  .    .  . . ..  . 
+ .  .    .... . ..  . 
+function_draw
+function_move_handle
+@333333
+?333333
+;*3$"
+libfs_objects.so.debug
+7zXZ
+2*"U
+CX9cs
+u^+Y
+)qP{*
+S`<;
+F;k8
+| H!
+euw5e
+w#}>
+bP2K!f
+s^zf
+PaBm
+\>Ha/
+Lt6G
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

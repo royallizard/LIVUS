@@ -1,0 +1,354 @@
+/lib/ld-linux.so.2
+	 3b
+libglib-2.0.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+g_free
+g_strdup
+g_malloc
+g_strerror
+g_strlcpy
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+exit
+strncmp
+optind
+__isoc99_sscanf
+stdin
+__assert_fail
+strtol
+isatty
+strlen
+getopt
+clearerr
+strptime
+__fprintf_chk
+stdout
+fclose
+strtoul
+__ctype_b_loc
+optarg
+stderr
+__memset_chk
+fileno
+fwrite
+fread
+localtime
+strchr
+mktime
+__cxa_finalize
+fopen64
+_IO_getc
+__libc_start_main
+ferror
+__stack_chk_fail
+_edata
+__bss_start
+_end
+yy_switch_to_buffer
+__libc_csu_fini
+yyrestart
+yyget_out
+yyin
+yyget_debug
+yytext
+yyrealloc
+yy_create_buffer
+yylineno
+yy_flex_debug
+yyget_text
+yyalloc
+yyfree
+yyset_lineno
+yy_scan_buffer
+__data_start
+yyout
+yy_scan_string
+yyset_in
+yy_scan_bytes
+yyget_lineno
+yyget_leng
+yypush_buffer_state
+parse_token
+yy_delete_buffer
+__libc_csu_init
+yypop_buffer_state
+yyleng
+_fp_hw
+yylex
+yy_flush_buffer
+yyget_in
+yywrap
+yyset_debug
+yyset_out
+yylex_destroy
+GLIBC_2.0
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.7
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+D$L1
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+D$4;
+|$Le3=
+[^_]
+D$,1
+d$$[^
+UWVS
+D$<1
+D$<e3
+d$L[^_]
+UWVS
+D$l1
+D$le3
+d$|[^_]
+d$ [^_
+d$ [^_
+UWVS
+D$<1
+t$d~k
+D$<e3
+d$L[^_]
+)D$(
+D$()
+D$()
+UWVS
+d$,[^_]
+d$ [^_
+t$0e
+;0t4
+d$$[^
+D$ e
+d$,[^_]
+UWVS
+l$@e
+d$,[^_]
+d$$[^
+UWVS
+D$<1
+|$<e3=
+d$L[^_]
+9L$ 
+T$ )
+L$ )
+l$$=
+UWVS
+t$@e
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+|$@e
+d$,[^_]
+UWVS
+d$,[^_]
+d$$[^
+d$ [^_
+d$([
+d$([
+d$([
+[^_]
+1.8.6
+File write error [%s] : %s
+Start new packet
+[[parse_preamble: "%s"]]
+[[append_to_preamble: "%s"]]
+(%s, %s "%s") -> (
+FATAL ERROR: Bad state (%d)
+, %s)
+Bad argument for '-o': %s
+Bad argument for '-e': %s
+Bad argument for '-i': %s
+Bad src port for '-%c'
+Bad dest port for '-s'
+No tag specified for '-%c'
+Bad tag for '-%c'
+No ppi specified for '-%c'
+Bad ppi for '-%c'
+Bad src port for '-u'
+Bad dest port for '-u'
+Bad src port for '-T'
+Bad dest port for '-T'
+Ddhqe:i:l:m:o:u:s:S:t:T:a
+Standard input
+Standard output
+Input from: %s
+Output to: %s
+text2pcap.c
+input_file != ((void *)0)
+output_file != ((void *)0)
+-------------------------
+Byte
+Offset
+Directive
+Text
+End-of-line
+Init
+Start-of-line
+Text2pcap %s (SVN Rev Unknown from unknown)
+Generate a capture file from an ASCII hexdump of packets.
+See http://www.wireshark.org for more information.
+Usage: text2pcap [options] <infile> <outfile>
+where  <infile> specifies input  filename (use - for standard input)
+      <outfile> specifies output filename (use - for standard output)
+Input:
+  -o hex|oct|dec         parse offsets as (h)ex, (o)ctal or (d)ecimal;
+                         default is hex.
+  -t <timefmt>           treat the text before the packet as a date/time code;
+                         the specified argument is a format string of the sort
+                         supported by strptime.
+                         Example: The time "10:15:14.5476" has the format code
+                         "%%H:%%M:%%S."
+                         NOTE: The subsecond component delimiter, '.', must be
+                         given, but no pattern is required; the remaining
+                         number is assumed to be fractions of a second.
+                         NOTE: Date/time fields from the current date/time are
+                         used as the default for unspecified fields.
+  -a                     enable ASCII text dump identification.
+                         It allows to identify the start of the ASCII text
+                         dump and not include it in the packet even if it
+                         looks like HEX dump.
+                         NOTE: Do not enable it if the input file does not
+                         contain the ASCII text dump.
+Output:
+  -l <typenum>           link-layer type number; default is 1 (Ethernet).
+                         See the file net/bpf.h for list of numbers.
+                         Use this option if your dump is a complete hex dump
+                         of an encapsulated packet and you wish to specify
+                         the exact type of encapsulation.
+                         Example: -l 7 for ARCNet packets.
+  -m <max-packet>        max packet length in output; default is %d
+Prepend dummy header:
+  -e <l3pid>             prepend dummy Ethernet II header with specified L3PID
+                         (in HEX).
+                         Example: -e 0x806 to specify an ARP packet.
+  -i <proto>             prepend dummy IP header with specified IP protocol
+                         (in DECIMAL).
+                         Automatically prepends Ethernet header as well.
+                         Example: -i 46
+  -u <srcp>,<destp>      prepend dummy UDP header with specified
+                         dest and source ports (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -u 1000,69 to make the packets look like
+                         TFTP/UDP packets.
+  -T <srcp>,<destp>      prepend dummy TCP header with specified
+                         dest and source ports (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -T 50,60
+  -s <srcp>,<dstp>,<tag> prepend dummy SCTP header with specified
+                         dest/source ports and verification tag (in DECIMAL).
+                         Automatically prepends Ethernet & IP headers as well.
+                         Example: -s 30,40,34
+  -S <srcp>,<dstp>,<ppi> prepend dummy SCTP header with specified
+                         dest/source ports and verification tag 0.
+                         Automatically prepends a dummy SCTP DATA
+                         chunk header with payload protocol identifier ppi.
+                         Example: -S 30,40,34
+Miscellaneous:
+  -h                     display this help and exit.
+  -d                     show detailed debug of parser states.
+  -q                     generate no output at all (automatically turns off -d).
+FATAL ERROR: Bad hex number? [%s]
+Wrote packet of %lu bytes at %u
+Failure processing time "%s" using time format "%s"
+   (defaulting to Jan 1,1970 00:00:00 GMT)
+timecode: %02d/%02d/%d %02d:%02d:%02d %d
+Format(%s), time(%u), subsecs(%u)
+--- Directive [%s] currently unsupported ---
+Inconsistent offset. Expecting %0lX, got %0lX. Ignoring rest of packet
+No dest port specified for '-%c'
+No dest port specified for '-u'
+Must specify input and output filename
+Cannot open file [%s] for reading: %s
+Cannot open file [%s] for writing: %s
+Dummy headers (-e, -i, -u, -s, -S -T) cannot be specified with link type override (-l)
+Generate dummy Ethernet header: Protocol: 0x%0lX
+Generate dummy IP header: Protocol: %ld
+Generate dummy UDP header: Source port: %ld. Dest port: %ld
+Generate dummy TCP header: Source port: %ld. Dest port: %ld
+Generate dummy SCTP header: Source port: %ld. Dest port: %ld. Tag: %ld
+Generate dummy DATA chunk header: TSN: %lu. SID: %d. SSN: %d. PPID: %lu
+Read %ld potential packet%s, wrote %ld packet%s
+main
+')uB
+*	5|z
+lEd/
+6 PQ
+pCRF
+Yg:a
+JZJ{.
+#FLR
+_QS}
+input in flex scanner failed
+bad buffer in yy_scan_bytes()
+out of dynamic memory in yyensure_buffer_stack()
+out of dynamic memory in yy_create_buffer()
+fatal flex scanner internal error--end of buffer missed
+fatal error - scanner input buffer overflow
+out of dynamic memory in yy_get_next_buffer()
+fatal flex scanner internal error--no action found
+out of dynamic memory in yy_scan_buffer()
+out of dynamic memory in yy_scan_bytes()
+;*2$",
+text2pcap.debug
+7zXZ
++!HLey
+%xS$2iu
+S!rq
+zdOwF
+ xA`d
+ET/?4
+A(["Sb
+}p0:
+6G	v
+u(:UJC
+T(LRAD
+~@!B
+,a2^
+\h+A
+C*12LM 
+|#w_
+h.MJRj
+J)A8D
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

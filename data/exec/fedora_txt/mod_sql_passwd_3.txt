@@ -1,0 +1,344 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+OpenSSL_add_all_digests
+sql_passwd_module
+pr_event_register
+sql_register_authtype
+pr_log_debug
+__errno_location
+strerror
+pr_log_pri
+ERR_get_error
+BIO_ctrl
+session
+pstrdup
+BIO_free
+BIO_s_mem
+BIO_new
+pr_signals_handle
+ERR_error_string
+BIO_printf
+__stack_chk_fail
+pcalloc
+EVP_EncodeInit
+EVP_EncodeBlock
+__sprintf_chk
+palloc
+EVP_DigestInit
+EVP_DigestUpdate
+EVP_DigestFinal
+EVP_MD_type
+OBJ_nid2ln
+sql_log
+EVP_get_digestbyname
+pr_trace_msg
+strlen
+strcmp
+mod_create_error
+mod_create_ret
+make_sub_pool
+check_context
+strcasecmp
+add_config_param
+strncasecmp
+pstrcat
+get_context_name
+strtol
+get_boolean
+main_server
+find_config
+find_config_next
+pr_privs_root
+open
+pr_privs_relinquish
+fcntl
+read
+memcpy
+close
+PKCS5_PBKDF2_HMAC
+sql_unregister_authtype
+pr_event_unregister
+pr_stash_get_symbol
+pr_str_strip
+pr_module_call
+pr_table_get
+libc.so.6
+_edata
+__bss_start
+_end
+mod_sql_passwd.so
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+fffff.
+fffff.
+=iF 
+=wD 
+=:@ 
+fffff.
+=	@ 
+ATUSH
+[]A\
+AUATI
+D$h1
+L$hdH3
+x[]A\A]
+AWAVI
+AUATI
+\$ L
+D$X1
+L$XdH3
+h[]A\A]A^A_
+AWAVAUATI
+D$81
+=O? 
+=C? 
+\$(L
+L$ L
+|$8H
+AWARAQL
+D$0I
+T$0I
+-]< 
+T$0I
+L$8dH3
+H[]A\A]A^A_
+T$<E1
+\$TH
+D$<I
+T$TH
+\$(L
+L$ L
+L$ L
+D$<H
+l$TH
+D$0H
+\$ I
+T$0H
+L$8L
+D$@L
+L$HdH
+D$pH
+D$ H
+D$pL
+P[]A\
+fffff.
+AVAUI
+ATUS
+([]A\A]A^
+]A\A]A^
+G0E1
+AVAUI
+ATUS
+([]A\A]A^
+]A\A]A^
+G0E1
+AUATUSH
+[]A\A]
+G0E1
+AWAVI
+AUATUSH
+F E1
+[]A\A]A^A_
+ffff.
+AUATUSH
+[]A\A]
+G0E1
+AUATUSH
+[]A\A]
+AWAVH
+AUAT1
+[]A\A]A^A_
+5d- 
+-U- 
+5V- 
+%(- 
+AUATI
+==+ 
+=G+ 
+Hc5:) 
+ZYt7
+[]A\A]
+[]A\A]1
+=1' 
+ATU1
+@ ]A\
+[]A\
+[]A\
+AWAVH
+AUAT1
+|$(H
+|$(H
+[]A\A]A^A_
+-g# 
+5v$ 
+fffff.
+AVAU
+ATUSH
+[]A\A]A^1
+[]A\A]A^
+C0E1
+core.module-unload
+sha1
+sha256
+sha512
+pbkdf2
+(unknown)
+  (%u) %s
+%02x
+%02X
+rounds
+round
+sql_passwd
+data after round %u: '%s'
+expected '%s', got '%s'
+wrong number of parameters
+ context
+directive not allowed in 
+name
+sql:/
+badly formatted parameter
+Append
+Prepend
+unknown salt flag '
+missing arguments
+HashPassword
+HashSalt
+HashEncodePassword
+HashEncodeSalt
+: unknown SQLPasswordOption '
+base64
+' configured
+unsupported encoding '
+expected Boolean parameter
+SQLPasswordEncoding
+SQLPasswordOptions
+SQLPasswordSaltFile
+none
+mod_sql_passwd.c
+SQLPasswordEngine
+sql_escapestr
+SQLPasswordRounds
+SQLPasswordPBKDF2
+SQLNamedQuery_
+sql_lookup
+mod_auth.orig-user
+SQLPasswordUserSalt
+insufficient length (
+PASS
+mod_sql_passwd/0.7
+mod_sql_passwd/0.7: unable to register 'md5' SQLAuthType handler: %s
+mod_sql_passwd/0.7: registered 'md5' SQLAuthType handler
+mod_sql_passwd/0.7: unable to register 'sha1' SQLAuthType handler: %s
+mod_sql_passwd/0.7: registered 'sha1' SQLAuthType handler
+mod_sql_passwd/0.7: unable to register 'sha256' SQLAuthType handler: %s
+mod_sql_passwd/0.7: registered 'sha256' SQLAuthType handler
+mod_sql_passwd/0.7: unable to register 'sha512' SQLAuthType handler: %s
+mod_sql_passwd/0.7: registered 'sha512' SQLAuthType handler
+mod_sql_passwd/0.7: unable to register 'pbkdf2' SQLAuthType handler: %s
+mod_sql_passwd/0.7: registered 'pbkdf2' SQLAuthType handler
+mod_sql_passwd/0.7: error initializing '%s' digest: %s
+mod_sql_passwd/0.7: error updating '%s' digest: %s
+mod_sql_passwd/0.7: error finishing '%s' digest: %s
+mod_sql_passwd/0.7: no such digest '%s' supported
+prepending %lu bytes of salt data
+prepending %lu bytes of %s-hashed salt data (%s)
+no salt present, ignoring HashEncodePassword SQLPasswordOption
+appending %lu bytes of salt data
+appending %lu bytes of %s-hashed salt data
+mod_sql_passwd/0.7: unable to obtain password hash: %s
+mod_sql_passwd/0.7: unsupported SQLPasswordEncoding configured
+transforming the data for another %u %s
+mod_sql_passwd/0.7: expected '%s', got '%s'
+insufficient number of rounds (
+mod_sql_passwd/0.7: unable to read SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.7: error setting blocking mode on SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.7: error reading salt data from SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.7: PBKDF2 not configured (see SQLPasswordPBKDF2 directive)
+mod_sql_passwd/0.7: no salt configured (PBKDF2 requires salt)
+mod_sql_passwd/0.7: error deriving PBKDF2 key: %s
+mod_sql_passwd/0.7: unable to find SQL hook symbol 'sql_escapestr'
+mod_sql_passwd/0.7: error executing 'sql_escapestring'
+mod_sql_passwd/0.7: unable to resolve SQLNamedQuery '%s'
+mod_sql_passwd/0.7: unable to find SQL hook symbol 'sql_lookup'
+mod_sql_passwd/0.7: error processing SQLNamedQuery '%s'
+mod_sql_passwd/0.7: SQLNamedQuery '%s' returned wrong number of columns (%d)
+mod_sql_passwd/0.7: SQLNamedQuery '%s' returned wrong number of rows (%d)
+mod_sql_passwd/0.7: SQLNamedQuery '%s' returned insufficient number of rounds: %s
+mod_sql_passwd/0.7: SQLNamedQuery '%s' returned insufficient length: %s
+;*3$"
+mod_sql_passwd.so.debug
+7zXZ
+j^mz
+/=b/
+kOnG
+kPVN\
+kfJF6
+-h'M
+5AQrnlNt.
+xX$)
+M%1vHK
+P7.H<
+0{/*
+g9I	
+M`$LP
+=(4K
+\`>Oz{
+>}RO
+x?4:
+nXTU
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

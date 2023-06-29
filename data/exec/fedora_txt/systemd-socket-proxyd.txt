@@ -1,0 +1,256 @@
+/lib64/ld-linux-x86-64.so.2
+free
+GLIBC_2.2.5
+libc.so.6
+optarg
+memcpy
+GLIBC_2.14
+getopt_long
+__progname
+gai_strerror
+__printf_chk
+GLIBC_2.3.4
+__bss_start
+_edata
+_end
+program_invocation_short_name
+getsockopt
+pipe2
+GLIBC_2.9
+strnlen
+calloc
+__stack_chk_fail
+GLIBC_2.4
+fcntl
+libpthread.so.0
+strrchr
+socket
+__cxa_finalize
+__errno_location
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+__gcc_personality_v0
+GCC_3.3.1
+optind
+accept4
+GLIBC_2.10
+strncpy
+connect
+splice
+GLIBC_2.5
+log_parse_environment
+log_open
+sd_event_default
+sd_resolve_default
+__libc_start_main
+sd_resolve_attach_event
+sd_event_set_watchdog
+sd_listen_fds
+sd_event_loop
+internal_hashmap_size
+path_is_absolute
+sd_resolve_getaddrinfo
+internal_hashmap_steal_first
+internal_hashmap_first
+internal_hashmap_free
+sd_event_unref
+sd_resolve_unref
+internal_hashmap_remove
+safe_close_pair
+sd_resolve_query_unref
+sd_event_source_set_io_events
+getpeername_pretty
+safe_close
+sd_event_exit
+internal_set_ensure_allocated
+log_oom_internal
+sd_is_socket
+fd_nonblock
+sd_event_add_io
+set_put
+sd_event_source_unref
+sd_event_source_set_enabled
+log_assert_failed
+safe_atou
+version
+log_assert_failed_unreachable
+log_get_max_level
+log_internal
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+AUATI
+D$81
+)D$ 
+t!f.
+L$8dH3
+@[]A\A]A^
+ATUS
+H;G0H
+H;G8s
+[]A\
+]A\1
+AWAVAUATUSH
+D$XL
+t$PH
+[]A\A]A^A_
+[]A\A]A^A_1
+ATUStgH
+[]A\
+[]A\1
+StjH
+StJH
+ATUS
+AVAUATSL
+Zx"H
+[A\A]A^]
+AWAVAUATSH
+[A\A]A^A_]
+ATUS
+fff.
+AVAUATUS
+I0AUL
+A AVL
+^_xGAVH
+ZYx#H
+[]A\A]A^
+AWAVI
+AUATL
+[]A\A]A^A_
+fffff.
+src/socket-proxy/socket-proxyd.c
+Failed to set up server event source: %m
+Failed to set up client event source: %m
+Failed to allocate pipe buffer: %m
+Failed to get pipe buffer size: %m
+Failed to get remote socket: %m
+Failed to add connection socket: %m
+Failed to enable oneshot event source: %m
+Failed to connect to remote host: %m
+Looking up address info for %s:%s
+Failed to resolve remote host: %m
+Hit connection limit, refusing connection.
+Failed to accept connection, ignoring: %m
+Error while re-enabling listener with ONESHOT: %m
+%1$s [HOST:PORT]
+%1$s [SOCKET]
+Bidirectionally proxy local sockets to another (possibly remote) socket.
+  -c --connections-max=  Set the maximum number of connections to be accepted
+  -h --help              Show this help
+     --version           Show package version
+Failed to parse --connections-max= argument: %s
+Failed to allocate event loop: %m
+Failed to allocate resolver: %m
+Failed to receive sockets from parent.
+Didn't get any sockets passed in.
+Failed to determine socket type: %m
+Passed in socket is not a stream socket.
+Failed to mark file descriptor non-blocking: %m
+Failed to add event source: %m
+Failed to add source to set: %m
+Failed to enable oneshot mode: %m
+from
+buffer
+buffer[0] >= 0
+buffer[1] >= 0
+full
+from_source
+to_source
+Failed to splice: %m
+r > 0
+salen
+fd >= 0
+revents & EPOLLIN
+context
+Failed to accept() socket: %m
+New connection from %s
+Failed to resolve host: %s
+Failed to issue SO_ERROR: %m
+argc >= 0
+argv
+Connection limit is too low.
+Unhandled option
+Not enough parameters.
+Too many parameters.
+Failed to attach resolver: %m
+Failed to run event loop: %m
+connections-max
+help
+version
+connection_free
+connection_create_pipes
+connection_create_pipes
+connection_shovel
+connection_shovel
+traffic_cb
+connection_enable_event_sources
+connection_enable_event_sources
+connection_complete
+connect_cb
+connect_cb
+connection_start
+connection_start
+resolve_cb
+resolve_cb
+resolve_remote
+add_connection_socket
+accept_cb
+accept_cb
+parse_argv
+parse_argv
+add_listen_socket
+main
+;*3$"
+zPLR
+gold 1.12
+systemd-socket-proxyd.debug
+7zXZ
+D[G*
+2hLh
+S8f%c
+r{B|
+eIKK
+WZYk
+:- b
+&C*<
+7kN,e
+vy~g
+;@~`
+{Q,*
+a50m
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

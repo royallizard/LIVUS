@@ -1,0 +1,319 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+free
+revocation_plugin_create
+malloc
+revocation_validator_create
+__stack_chk_fail
+chunk_empty
+identification_create_from_encoding
+ocsp_response_wrapper_create
+crl_reason_names
+certificate_is_newer
+time
+memcmp
+crl_is_newer
+spinlock_create
+libc.so.6
+libstrongswan-revocation.so
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+D$ L
+AUATUH
+W8E1
+([]A\A]
+[]A\
+ATUSH
+D$(1
+T$XL
+D$ L
+D$ L
+|$ I
+)T$ XZM
+\$(dH3
+0[]A\A]A^
+T$XE1
+ATUH
+x@j:1
+([]A\A]
+AUATUH
+[]A\A]
+[]A\A]
+T$@E
+AWAVAUATI
+D$0D
+L$<H
+T$(dH
+D$h1
+D$ H
+D$`H
+|$`1
+t$`L
+t$`L
+T$`H
+L$ 1
+T$hdH3
+x[]A\A]A^A_
+|$`1
+T$`H
+|$`M
+t$HH
+D$`L
+t$8L
+L$`L
+S`Y^
+D$LA
+S8E1
+D$0H
+AVAUATUSH
+D$$dH
+D$X1
+t$@L
+|$@H
+D$HI9
+L$XdH3
+h[]A\A]A^A_
+d$8I
+T$8H
+|$8L
+t$01
+D$(H
+D$0H
+D$0H9D$8
+t$@H
+T$HH
+t$@H
+T$$H
+D$8L
+T$$H
+t$(H
+AWAVAUI
+D$(1
+T$(dH3
+8[]A\A]A^A_
+d$ H
+AUATI
+[]A\A]A^A_
+l$`A
+T$PI
+D$`H
+l$PE
+l$`L
+t$PA
+l$PH
+D$XH
+|$XH
+l$ I
+D$`H
+D$XH
+|$`H
+\$`H
+D$hH
+D$XH
+|$hH
+D$`H
+D$ H
+L$XL
+D$NL
+D$`L
+D$`L
+D$ L
+D$ H
+L$X1
+D$NH
+T$xH
+D$ H
+L$h@
+l$?H
+L$XH
+D$(H
+|$hH
+D$`H
+l$?H
+D$ H
+l$pA
+D$pH
+t$pH
+D$pH
+|$hH
+l$TD
+t$XE1
+D$XH
+L$hL
+D$OL
+D$pL
+D$pL
+D$(L
+L$ A
+L$ L
+D$(H
+L$hL
+D$OH
+D$`H
+D$0H
+t$hL
+L$TA
+D$hH
+D$pH
+D$ I
+D$(I
+revocation
+  crl is valid: until %T
+  crl is stale: since %T
+all OCSP validation disabled
+all CRL validation disabled
+encoding ocsp request failed
+application/ocsp-request
+ocsp request to %s failed
+parsing ocsp response failed
+  fetching crl from '%s' ...
+crl fetching failed
+  crl is not valid: until %T
+  using cached crl
+CRL 
+  using cached ocsp response
+certificate status is good
+%s.plugins.revocation.enable_ocsp
+%s.plugins.revocation.enable_crl
+generating ocsp request failed
+  requesting ocsp status from '%s' ...
+crl fetched successfully but parsing failed
+  ocsp response correctly signed by "%Y"
+ocsp response verification failed, invalid signature
+ocsp response verification failed, no signer certificate '%Y' found
+certificate was revoked on %T, reason: %N
+  ocsp response contains no status on our certificate
+  ocsp response is valid: until %T
+  ocsp response is stale: since %T
+  crl correctly signed by "%Y"
+crl response verification failed
+issuer of fetched CRL '%Y' does not match CRL issuer '%Y'
+checking certificate status of "%Y"
+ocsp check skipped, no ocsp found
+ocsp information stale, fallback to crl
+ocsp check failed, fallback to crl
+issuer of fetched CRL '%Y' does not match certificate's %sissuer '%Y'
+issuer of fetched delta CRL '%Y' does not match certificate's %sissuer '%Y'
+certificate status is not available
+certificate status is unknown, crl is stale
+:*3$"
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+libstrongswan-revocation.so-5.7.2-2.fc30.x86_64.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

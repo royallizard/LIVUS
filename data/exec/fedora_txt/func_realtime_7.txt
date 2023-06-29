@@ -1,0 +1,164 @@
+tdTN
+1m""
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_custom_function_unregister
+free
+pthread_key_create
+ast_log
+__ast_app_separate_args
+ast_autoservice_start
+ast_update_realtime
+ast_autoservice_stop
+strlen
+memcpy
+ast_store_realtime
+__snprintf_chk
+pbx_builtin_setvar_helper
+__ast_str_helper
+ast_load_realtime_all
+ast_destroy_realtime
+ast_variables_destroy
+pthread_once
+pthread_getspecific
+option_debug
+ast_options
+strcasecmp
+__ast_str_helper2
+ast_debug_get_by_module
+calloc
+pthread_setspecific
+ast_module_register
+ast_module_unregister
+__ast_custom_function_register
+__ast_custom_function_register_escalating
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+UWVS
+,[^_]
+t$(P
+[^_]
+Pj j
+t$(j
+[^_]
+[^_]
+UWVS
+D$ e
+D$T1
+T$Le3
+\[^_]
+D$LPj
+L$HQ
+D$LP
+L$$Q
+D$PP
+D$LPj
+Syntax: %s(family,fieldmatch,matchvalue,updatecol) - missing argument!
+Failed to update. Check the debug log for possible data repository related entries.
+Syntax: REALTIME_STORE(family,field1,field2,...,field30) - missing argument!
+Failed to store. Check the debug log for possible data repository related entries.
+Syntax: REALTIME_DESTROY(family,fieldmatch[,matchvalue[,delim1[,delim2]]]) - missing argument!
+Failed to fetch/destroy. Realtime data is too large: need %zu, have %zu.
+Syntax: REALTIME(family,fieldmatch[,matchvalue[,delim1[,delim2]]]) - missing argument!
+Failed to fetch. Realtime data is too large: need %zu, have %zu.
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/threadstorage.h
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Syntax: %s(family,fieldmatch,matchvalue%s) - missing argument!
+Setting hash key %s to value %s
+Read/Write/Store/Destroy values from a RealTime repository
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+func_realtime.c
+RTSTOREID
+%s%s%s%s
+,fieldname
+REALTIME_FIELD
+Comparing %s to %s
+func_realtime
+Match! Value is %s
+~ODBCFIELDS~
+REALTIME_DESTROY
+REALTIME_STORE
+REALTIME_HASH
+REALTIME
+function_realtime_read
+function_realtime_store
+function_realtime_readdestroy
+function_realtime_write
+__ast_calloc
+ast_threadstorage_get
+realtimefield_read
+;*2$",
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+func_realtime.so-15.5.0-1.fc29.i386.debug
+7zXZ
+{s.>
+n}:99
+7Dzh
+>,	 +:
+/M$5
+_xU$
+b`aG
+<$Q~
+5%|\
+\p~-v$
+j5pMJ
+ z:&q
+707Ne&~
+T|g\
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

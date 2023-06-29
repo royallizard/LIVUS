@@ -1,0 +1,183 @@
+td`4
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+g_object_unref
+libusb_free_transfer
+g_free
+g_type_check_instance_cast
+g_object_get_data
+g_log
+g_strcmp0
+g_print
+g_ascii_table
+cd_buffer_write_uint32_le
+cd_usb_get_device_handle
+libusb_control_transfer
+libusb_bulk_transfer
+g_set_error_literal
+g_set_error
+cd_sensor_get_type
+libusb_cancel_transfer
+cd_usb_disconnect
+g_simple_async_result_set_from_error
+g_error_free
+g_malloc0
+libusb_submit_transfer
+cd_sensor_munki_button_state_to_string
+cd_sensor_get_mode
+cd_sensor_cap_to_string
+cd_sensor_set_mode
+cd_sensor_get_sample_async
+g_type_check_instance_is_a
+g_return_if_fail_warning
+g_slice_alloc0
+g_simple_async_result_new
+g_object_ref
+g_cancellable_connect
+g_cancellable_new
+g_object_set_data
+g_simple_async_result_get_type
+g_simple_async_result_run_in_thread
+g_simple_async_result_set_op_res_gpointer
+g_cancellable_disconnect
+g_slice_free1
+cd_sensor_set_state
+cd_sensor_unlock_async
+cd_sensor_lock_async
+cd_usb_connect
+cd_usb_attach_to_context
+cd_buffer_read_uint32_le
+g_strdup_printf
+cd_sensor_set_serial
+g_assertion_message_expr
+g_simple_async_result_set_error
+cd_sensor_button_pressed
+cd_sensor_get_sample_finish
+g_simple_async_result_propagate_error
+g_simple_async_result_get_op_res_gpointer
+cd_color_xyz_dup
+cd_sensor_lock_finish
+cd_sensor_unlock_finish
+cd_sensor_dump_device
+g_string_append_printf
+cd_sensor_coldplug
+g_object_set
+g_object_set_data_full
+cd_usb_new
+libusb_alloc_transfer
+libcolord.so.1
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgmodule-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libcolord_sensor_munki.so
+GLIBC_2.1.3
+GLIBC_2.4
+;|$@u
+d$,[^_]
+T$<1
+D$09
+T$<e3
+d$L[^_]
+d$$[^
+UWVS
+l$De
+D$l1
+D$le3
+d$|[^_]
+UWVS
+9n$v
+d$,[^_]
+priv
+cancelled munki
+request
+%c[%dm
+reply
+%02x [%c]	
+%c[%dm
+get EEPROM at 0x%04x for %i
+unknown
+failed to request eeprom: %s
+failed to get eeprom data: %s
+failed to submit transfer: %s
+did not succeed
+dial now %s, button now %s
+state
+CD_IS_SENSOR (sensor)
+submitting transfer
+%i.%i
+Chip ID	%s
+Serial number	%s
+Version	%s
+submit transfer
+error != NULL
+cd-sensor-munki.c
+ignoring button released
+dial rotate at %ims
+button pressed at %ims
+colormunki-dump-version: %i
+chip-id:%s
+version:%s
+firmware-revision:%s
+tick-duration:%i
+min-int:%i
+eeprom-blocks:%i
+eeprom-blocksize:%i
+eeprom[0x%04x]:0x%02x
+kind
+native
+did not get the correct number of bytes
+MUNKI cannot measure in projector mode
+Cannot measure ambient light in this mode (turn dial!)
+failed to attach to mainloop: %s
+failed to get firmware parameters: %s
+failed to get chip id parameters: %s
+%02x-%02x%02x%02x%02x%02x%02x%02x
+failed to get version string: %s
+Firmware	firmware_revision=%s, tick_duration=%i, min_int=%i, eeprom_blocks=%i, eeprom_blocksize=%i
+G_IS_SIMPLE_ASYNC_RESULT (res)
+error == NULL || *error == NULL
+cd_sensor_get_sample_async
+cd_sensor_get_sample_finish
+cd_sensor_munki_lock_thread_cb
+cd_sensor_lock_async
+cd_sensor_lock_finish
+cd_sensor_unlock_async
+cd_sensor_unlock_finish
+;*2$"(
+libcolord_sensor_munki.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,332 @@
+/lib64/ld-linux-x86-64.so.2
+free
+GLIBC_2.2.5
+libc.so.6
+strcmp
+__progname
+getopt_long
+__fprintf_chk
+GLIBC_2.3.4
+memcmp
+strchr
+malloc
+__bss_start
+_edata
+_end
+write
+libpthread.so.0
+open
+unlink
+access
+__strndup
+fopen
+fputc
+__errno_location
+_exit
+strlen
+execlp
+fork
+__stack_chk_fail
+GLIBC_2.4
+__printf_chk
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+__gcc_personality_v0
+GCC_3.3.1
+setlocale
+log_parse_environment
+log_open
+sigbus_install
+__libc_start_main
+sd_journal_open_directory
+sd_journal_open
+sd_journal_add_match
+set_iterate
+optarg
+journal_make_match_string
+optind
+pager_open
+stdout
+pager_close
+stderr
+fclose
+internal_hashmap_free_free
+__cxa_finalize
+sd_journal_close
+sd_journal_set_data_threshold
+program_invocation_short_name
+sd_journal_seek_head
+sd_journal_next
+path_is_absolute
+reset_all_signal_handlers
+reset_signal_mask
+wait_for_terminate
+on_tty
+fileno
+endswith
+mkostemp_safe
+sd_journal_get_data
+decompress_stream
+safe_close
+sd_journal_get_realtime_usec
+gid_to_name
+safe_atoi
+signal_to_string
+safe_atollu
+format_timestamp_relative
+format_timestamp
+colors_enabled
+parse_uid
+uid_to_name
+strreplace
+strstrip
+sd_journal_restart_data
+sd_journal_enumerate_data
+sd_journal_seek_tail
+sd_journal_previous
+log_assert_failed
+version
+log_assert_failed_unreachable
+path_make_absolute_cwd
+parse_pid
+strjoin
+internal_set_new
+log_oom_internal
+set_consume
+log_get_max_level
+log_internal
+internal_hashmap_free
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-231.so
+/usr/lib/systemd
+a_&	
+AWAVAUATI
+MESSAGE_H
+9ab34a25H
+ID=fc2e2H
+2bc6ee64
+@(0b1
+7b6b9072H
+[A\A]A^A_]
+AYAZH
+AWAVI
+AUATI
+=u(L
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATI
+[A\A]A^A_]
+A[A]H
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+fffff.
+src/coredump/coredumpctl.c
+(fd >= 0) != !!path
+!!path == !!unlink_temp
+COREDUMP_FILENAME
+File %s is not readable: %m
+.lz4
+/var/tmp/coredump-XXXXXX
+Created temporary file %s
+COREDUMP
+len >= 9
+Failed to open %s: %m
+Failed to decompress %s: %m
+Removed temporary file %s
+Failed to search journal: %m
+No match found.
+[0;1;39m
+file
+COREDUMP_PID
+COREDUMP_UID
+COREDUMP_GID
+COREDUMP_SIGNAL
+COREDUMP_EXE
+COREDUMP_COMM
+COREDUMP_CMDLINE
+COREDUMP_UNIT
+COREDUMP_USER_UNIT
+COREDUMP_SESSION
+COREDUMP_OWNER_UID
+COREDUMP_SLICE
+COREDUMP_CGROUP
+COREDUMP_TIMESTAMP
+_BOOT_ID
+_MACHINE_ID
+_HOSTNAME
+MESSAGE
+           PID: %s%s%s (%s)
+           PID: %s%s%s
+           UID: %s (%s)
+           UID: %s
+           GID: %s (%s)
+           GID: %s
+        Signal: %s (%s)
+        Signal: %s
+     Timestamp: %s (%s)
+     Timestamp: %s
+  Command Line: %s
+    Executable: %s%s%s
+ Control Group: %s
+          Unit: %s
+     User Unit: %s
+         Slice: %s
+       Session: %s
+     Owner UID: %s (%s)
+     Owner UID: %s
+       Boot ID: %s
+    Machine ID: %s
+      Hostname: %s
+      Coredump: %s
+                
+       Message: %s
+Empty coredump log entry
+TIME
+%-*s %*s %*s %*s %*s %*s %s
+PRESENT
+COREDUMP_EXE=
+COREDUMP_PID=
+COREDUMP_COMM=
+failed to add to set: %m
+argc >= 0
+argv
+writing to '%s': %m
+Unhandled option
+ho:F:1D:
+list
+dump
+info
+Unknown action '%s'
+Adding pattern: %s
+Failed to add match: %m
+Failed to open journal: %m
+Failed to add match '%s': %m
+Journal filter: %s
+No coredumps found.
+Refusing to dump core to tty.
+Coredump retrieval failed: %m
+len > strlen("COREDUMP_EXE=")
+ (deleted)
+Binary already deleted.
+Failed to retrieve core: %m
+Failed to fork(): %m
+Failed to invoke gdb: %m
+Failed to wait for gdb: %m
+Shouldn't be here
+help
+version
+no-pager
+no-legend
+output
+field
+directory
+Failed to retrieve COREDUMP_FILENAME: %m
+Failed to create temporary file: %m
+Failed to write temporary file: %m
+Short write to temporary file.
+Cannot retrieve coredump from journal or disk.
+Failed to retrieve COREDUMP field: %m
+Failed to get realtime timestamp: %m
+%s [OPTIONS...]
+List or retrieve coredumps from the journal.
+Flags:
+  -h --help          Show this help
+     --version       Print version string
+     --no-pager      Do not pipe output into a pager
+     --no-legend     Do not print the column headers.
+  -1                 Show information about most recent entry only
+  -F --field=FIELD   List all values a certain field takes
+  -o --output=FILE   Write output to FILE
+  -D --directory=DIR Use journal files from directory
+Commands:
+  list [MATCHES...]  List available coredumps (default)
+  info [MATCHES...]  Show detailed information about one or more coredumps
+  dump [MATCHES...]  Print first matching coredump to stdout
+  gdb [MATCHES...]   Start gdb for the first matching coredump
+cannot set output more than once
+cannot use --field/-F more than once
+Option --field/-F only makes sense with list
+Failed to open journals in directory: %s: %m
+More than one entry matches, ignoring rest.
+Failed to retrieve COREDUMP_EXE field: %m
+Binary is not an absolute path.
+retrieve
+print_info
+focus
+print_field
+print_list
+print_list
+print_entry
+save_core
+save_core
+new_matches
+add_match
+parse_argv
+parse_argv
+dump_list
+dump_list
+dump_core
+dump_core
+run_gdb
+run_gdb
+main
+main
+;*3$"
+zPLR
+gold 1.11
+coredumpctl.debug
+7zXZ
+tyq9
+bb&a
+)^'D
+ebkpJ
+Bx,!
+g|3:
+C"63
+JaqQ
+kgtQ
+t!=!R
+J9Xi
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

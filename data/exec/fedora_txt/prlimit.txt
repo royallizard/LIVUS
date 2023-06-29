@@ -1,0 +1,379 @@
+td0X
+td l
+/lib/ld-linux.so.2
+libsmartcols.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+scols_table_enable_raw
+scols_print_table
+scols_init_debug
+scols_line_refer_data
+scols_table_enable_noheadings
+scols_new_table
+scols_table_new_line
+scols_unref_table
+scols_table_new_column
+libc.so.6
+_IO_stdin_used
+__printf_chk
+setlocale
+strncmp
+optind
+__strdup
+dcgettext
+warnx
+_exit
+getpid
+strspn
+__assert_fail
+strtod
+strtol
+fgetc
+calloc
+strlen
+localeconv
+warn
+strcspn
+__errno_location
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+prlimit64
+__ctype_b_loc
+optarg
+stderr
+__snprintf_chk
+getopt_long
+execvp
+strncasecmp
+strtoull
+__fpending
+strchr
+program_invocation_short_name
+__cxa_finalize
+__vasprintf_chk
+errx
+bindtextdomain
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+free
+__progname
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+SMARTCOLS_2.25
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.13
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+D$\1
+|$\e3=
+[^_]
+t$D;t$<
+9L$8v
+#T$8
+;|$<
+9|$D
+t$D;t$<
+t$(;t$<
+t$D;t$<
+;l$,u
+UWVS
+[^_]
+[^_]
+UWVS
+T$$e
+D$L1
+T$Le3
+d$\[^_]
+L$H9
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options] [-p PID]
+ %s [options] COMMAND
+General Options:
+Resources Options:
+ %11s  %s
+For more details see %s.
+prlimit(1)
+sys-utils/prlimit.c
+num < ncolumns
+unknown column: %s
+%llu
+cannot allocate string
+cannot allocate %zu bytes
+unlimited
+failed to parse %s limit
+write error
+/usr/share/locale
+util-linux
+invalid PID argument
+%s from %s
+util-linux 2.27
+failed to get old %s limit
+New %s limit for pid %d: 
+<%ju
+:%s>
+:%ju>
+cannot duplicate string
+failed to execute %s
+output
+core
+data
+fsize
+memlock
+msgqueue
+nice
+nofile
+nproc
+rtprio
+rttime
+sigpending
+stack
+version
+help
+noheadings
+verbose
+DESCRIPTION
+resource description
+RESOURCE
+resource name
+SOFT
+soft limit
+HARD
+hard limit (ceiling)
+UNITS
+units
+address space limit
+CORE
+max core file size
+blocks
+CPU time
+seconds
+DATA
+max data size
+FSIZE
+max file size
+LOCKS
+max number of file locks held
+MEMLOCK
+MSGQUEUE
+max bytes in POSIX mqueues
+NICE
+NOFILE
+max number of open files
+NPROC
+max number of processes
+max resident set size
+pages
+RTPRIO
+max real-time priority
+RTTIME
+timeout for real-time tasks
+microsecs
+SIGPENDING
+max number of pending signals
+STACK
+max stack size
+Show or change the resource limits of a process.
+ -p, --pid <pid>        process id
+ -o, --output <list>    define which output columns to use
+     --noheadings       don't print headings
+     --raw              use the raw output format
+     --verbose          verbose output
+ -h, --help             display this help and exit
+ -V, --version          output version information and exit
+ -c, --core             maximum size of core files created
+ -d, --data             maximum size of a process's data segment
+ -e, --nice             maximum nice priority allowed to raise
+ -f, --fsize            maximum size of files written by the process
+ -i, --sigpending       maximum number of pending signals
+ -l, --memlock          maximum size a process may lock into memory
+ -m, --rss              maximum resident set size
+ -n, --nofile           maximum number of open files
+ -q, --msgqueue         maximum bytes in POSIX message queues
+ -r, --rtprio           maximum real-time scheduling priority
+ -s, --stack            maximum stack size
+ -t, --cpu              maximum amount of CPU time in seconds
+ -u, --nproc            maximum number of user processes
+ -v, --as               size of virtual memory
+ -x, --locks            maximum number of file locks
+ -y, --rttime           CPU time in microseconds a process scheduled
+                        under real-time scheduling
+Available columns (for --output):
+option --pid may be specified only once
++c::d::e::f::i::l::m::n::q::r::s::t::u::v::x::y::p:o:vVh
+options --pid and COMMAND are mutually exclusive
+the soft limit %s cannot exceed the hard limit
+failed to set the %s resource limit
+failed to get the %s resource limit
+failed to initialize output table
+columns[num] < (int) (sizeof(infos) / sizeof((infos)[0]) + __extension__ (sizeof(struct { int:-!!(__builtin_types_compatible_p(__typeof__(infos), __typeof__(&infos[0]))); })))
+failed to initialize output column
+failed to initialize output line
+max locked-in-memory address space
+max nice prio allowed to raise
+get_column_id
+column_name_to_id
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+;*2$"$
+prlimit.debug
+7zXZ
+FCLL
+6Y*n#
+-d73%`b
+%14H
+~m(u:7
+gs3\
+Vv79
+}|K}
+dfM-iZ
+EH8e
+9,?D
+wcK~
+oJJs
+Fh6E
+l)[FcI
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

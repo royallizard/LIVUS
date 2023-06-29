@@ -1,0 +1,6018 @@
+?0_D
+#B	G
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dcgettext
+xine_xmalloc
+vdlGetVersion
+vdlOpen
+vdlGetCapability
+xine_log
+strerror
+pthread_mutex_init
+_x_alphablend_init
+_x_vo_scale_init
+vdlPlaybackGetEq
+vdlPlaybackSetEq
+_x_vo_scale_compute_output_size
+vdlPlaybackOff
+memset
+vdlConfigPlayback
+vdlPlaybackOn
+XLockDisplay
+XSetForeground
+XFillRectangle
+XFlush
+XUnlockDisplay
+_x_vo_scale_redraw_needed
+vdlClose
+XFreeGC
+_x_alphablend_free
+pthread_mutex_lock
+pthread_mutex_unlock
+XSync
+_x_vo_scale_translate_gui2video
+XCreateGC
+_x_blend_yuy2
+_x_blend_yuv
+vdlQueryFourcc
+ioctl
+vdlSetGrKeys
+__errno_location
+XGetWindowAttributes
+_x_vo_scale_compute_ideal_size
+vdlPlaybackFrameSelect
+xine_fast_memcpy
+yuy2_to_yuy2
+yv12_to_yuy2
+yv12_to_yv12
+xine_plugin_info
+XAllocColor
+XFreePixmap
+XFreeColormap
+XDestroyWindow
+XCreateWindow
+XSelectInput
+XCreatePixmap
+XCreateColormap
+XResizeWindow
+XShapeCombineMask
+XCopyArea
+XUnmapWindow
+XMapRaised
+XSetErrorHandler
+XShapeQueryExtension
+XSetBackground
+vdlPlaybackCopyFrame
+vdlQueryDMAStatus
+vdlGetGrKeys
+vdlPlaybackGetDeint
+vdlPlaybackSetDeint
+vdlQueryNumOemEffects
+vdlGetOemEffect
+vdlSetOemEffect
+vdlFreeOemFxS
+vdlFreeDmaS
+vdlFreeDeinterlaceS
+vdlFreeVideoEqS
+vdlFreeGrKeyS
+vdlFreeRectS
+vdlFreeYUVS
+vdlFreePlaybackS
+vdlFreeFourccS
+vdlFreeCapabilityS
+vdlAllocOemFxS
+dlclose
+vdlAllocCapabilityS
+vdlAllocFourccS
+vdlAllocYUVS
+vdlAllocRectS
+vdlAllocPlaybackS
+vdlAllocGrKeyS
+vdlAllocVideoEqS
+vdlAllocDeinterlaceS
+vdlAllocDmaS
+strchr
+strncpy
+strlen
+__strncat_chk
+strrchr
+dlopen
+__strcat_chk
+dlsym
+dlerror
+__printf_chk
+opendir
+readdir64
+strstr
+closedir
+puts
+unmap_phys_mem
+munmap
+perror
+mmap64
+libdha_exit
+bm_virt_to_bus
+bm_virt_to_phys
+bm_unlock_mem
+munlock
+bm_lock_mem
+mlock
+bm_free_pci_shmem
+bm_alloc_pci_shmem
+bm_close
+bm_open
+OUTPORT32
+OUTPORT16
+OUTPORT8
+INPORT32
+INPORT16
+INPORT8
+disable_app_io
+iopl
+enable_app_io
+pci_vendor_name
+pci_device_name
+pci_config_write
+pci_config_read
+pci_scan
+cpu_flush
+mtrr_set_type
+fopen64
+__sprintf_chk
+__fprintf_chk
+fclose
+hwirq_wait
+hwirq_uninstall
+hwirq_install
+libxine.so.1
+libX11.so.6
+libXext.so.6
+libXinerama.so.1
+libdl.so.2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+xineplug_vo_out_vidix.so
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.2
+GLIBC_2.3.4
+[^_]
+YV12
+YV12
+YUY2
+FDt21
+=YV12
+=YUY2
+YV12
+D$$1
+D$ )
+YV12tD
+YUY2
+YV12
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+tz~4
+UWVS
+=YV12
+=YUY2
+l[^_]
+t$P1
+L$h1
+YV12
+YUY2tJ
+YV12
+YUY2u<
+D$<9
+UWVS
+D$09
+9t$,
+9T$,
+D$4)
+D$D8
+D$T 
+D$D1
+D$Hf
+D$Tf
+D$Lx
+;D$@|@
+D$D.
+D$,9B
+|$8)|$4
+t$(9w
+[^_]
+9T$,
+D$4)
+[^_]
+[^_]
+L$<t
+BGRt
+RGBt
+BGRt
+RGBt
+UWVS
+[^_]
+D$ t
+T$$1
+f92u
+t0f90u
+t f9
+UWVS
+[^_]
+D$(f
+T$*f
+;T$p
+D$(f
+D$0f1
+;T$p
+vidix
+vidixfb
+libxine1
+red intensity
+green intensity
+blue intensity
+enable double buffering
+framebuffer device name
+/dev/fb0
+video.device.vidixfb_device
+xine video output plugin using libvidix for linux frame buffer
+xine video output plugin using libvidix for x11
+video_out_vidix: You have wrong version of VIDIX library
+/usr/lib/xine/plugins/1.1.6/vidix/
+video_out_vidix: Couldn't find working VIDIX driver
+video_out_vidix: Couldn't get capability: %s
+video_out_vidix: using driver: %s by %s
+video_out_vidix: couldn't get equalizer capabilities: %s
+The intensity of the red colour components.
+video.output.vidix_red_intensity
+The intensity of the green colour components.
+video.output.vidix_green_intensity
+The intensity of the blue colour components.
+video.output.vidix_blue_intensity
+video_out_vidix: can't set rgb intensity: %s
+Double buffering will synchronize the update of the video image to the repainting of the entire screen ("vertical retrace"). This eliminates flickering and tearing artifacts, but will use more graphics memory.
+video.device.vidix_double_buffer
+video_out_vidix: Can't configure playback: %s
+video_out_vidix: error. (unknown frame format: %04x)
+video_out_vidix: adaptor supports the yuy2 format
+video_out_vidix: adaptor supports the yv12 format
+Specifies the file name for the framebuffer device to be used.
+This setting is security critical, because when changed to a different file, xine can be used to fill this file with arbitrary content. So you should be careful that the value you enter really is a proper framebuffer device.
+video_out_vidix: unable to open frame buffer device "%s": %s
+video_out_vidix: error in ioctl FBIOGET_VSCREENINFO: %s
+The colour key is used to tell the graphics card where to overlay the video image. Try different values, if you experience windows becoming transparent.
+video overlay colour key red component
+video.device.vidix_colour_key_red
+video overlay colour key green component
+video.device.vidix_colour_key_green
+video overlay colour key blue component
+video.device.vidix_colour_key_blue
+video_out_vidix: can't set hue: %s
+video_out_vidix: can't set saturation: %s
+video_out_vidix: can't set brightness: %s
+video_out_vidix: can't set contrast: %s
+video_out_vidix: error. (unknown frame format %04x)
+video_out_vidix: error. (framedata allocation failed: out of memory)
+x11osd: XShape extension not available. unscaled overlay disabled.
+x11osd: error creating window. unscaled overlay disabled.
+x11osd: error creating pixmap. unscaled overlay disabled.
+x11osd: unscaled overlay created (%s mode).
+XShape
+Colorkey
+vidixlib: dlopen error: %s
+vixGetVersion
+vixProbe
+vixInit
+vixDestroy
+vixGetCapability
+vixQueryFourcc
+vixConfigPlayback
+vixPlaybackOn
+vixPlaybackOff
+vixPlaybackFrameSelect
+vixPlaybackGetEq
+vixPlaybackSetEq
+vixGetGrKeys
+vixSetGrKeys
+vixPlaybackGetDeint
+vixPlaybackSetDeint
+vixPlaybackCopyFrame
+vixQueryDMAStatus
+vixQueryNumOemEffects
+vixGetOemEffect
+vixSetOemEffect
+vidixlib: PROBING: %s
+vidixlib: %s not driver: %s
+vidixlib: %s probed o'k
+vidixlib: will use %s driver
+vidixlib: Incomplete driver: some of essential features are missed in it.
+vidixlib: %s has wrong version
+vidixlib: %s has no function definition
+vidixlib: Found %s but has no required capability
+vidixlib: Attempt to initialize driver at: %p
+vidixlib: Can't init driver: %s
+vidixlib: '%s'successfully loaded
+libdha: munmap() failed
+/dev/dhahelper
+/dev/mem
+libdha: open(/dev/mem) failed
+libdha: FATAL: %s
+libdha: Pure virtual function call - bm_free_pci_shmem()
+libdha: Pure virtual function call - bm_alloc_pci_shmem()
+libdha: You have wrong version (%i) of /dev/dhahelper
+libdha: Please upgrade your driver up to ver=%i
+libdha: Can't open /dev/dhahelper
+Gammagraphx, Inc.
+Ascend Communications, Inc.
+Paradyne corp.
+Lockheed Martin-Marietta Corp
+Hauppauge computer works Inc.
+Nebula Electronics Ltd.
+Ncipher Corp Ltd
+LevelOne
+Compaq Computer Corporation
+Davicom Semiconductor, Inc.
+SpeedStream
+TTTech AG
+CyberDoor
+Dynalink
+Arris
+BREA Technologies Inc
+ASCII Corporation
+HaSoTec GmbH
+LSI Logic / Symbios Logic
+Kolter Electronic
+ATI Technologies Inc
+ULSI Systems
+VLSI Technology Inc
+Avance Logic Inc. [ALI]
+Reply Group
+NetFrame Systems Inc
+Epson
+Phoenix Technologies
+Tseng Labs Inc
+AST Research Inc
+Weitek
+Video Logic, Ltd.
+Digital Equipment Corporation
+Micronics Computers Inc
+Cirrus Logic
+LSI Logic Corp of Canada
+ICL Personal Systems
+SPEA Software AG
+Unisys Systems
+Elitegroup Computer Systems
+AT&T GIS (NCR)
+Vitesse Semiconductor
+Western Digital
+American Megatrends Inc.
+PictureTel
+Hitachi Computer Products
+Advanced Micro Devices [AMD]
+Trident Microsystems
+Zenith Data Systems
+Acer Incorporated [ALI]
+Dell
+Siemens Nixdorf IS
+LSI Logic
+Matrox Graphics, Inc.
+Chips and Technologies
+Wyse Technology Inc.
+Olivetti Advanced Technology
+Toshiba America
+TMC Research
+Miro Computer Products AG
+Compaq
+NEC Corporation
+Framatome Connectors USA Inc.
+Comp. & Comm. Research Lab
+Future Domain Corp.
+Hitachi Micro Systems
+AMP, Inc
+Seiko Epson Corporation
+Tatung Co. of America
+Hewlett-Packard Company
+Solliday Engineering
+Synopsys/Logic Modeling Group
+Accelgraphics Inc.
+Computrend
+Micron
+ASUSTeK Computer Inc.
+Adaptec (formerly DPT)
+OPTi Inc.
+IPC Corporation, Ltd.
+Genoa Systems Corp
+Elsa AG
+Fountain Technologies, Inc.
+STMicroelectronics
+BusLogic
+Texas Instruments
+Sony Corporation
+Oak Technology, Inc
+Co-time Computer Ltd
+Winbond Electronics Corp
+Anigma, Inc.
+?Young Micro Systems
+Hitachi, Ltd
+Efar Microsystems
+Motorola
+Promise Technology, Inc.
+Foxconn International, Inc.
+Wipro Infotech Limited
+Number 9 Computer Company
+Vtech Computers Ltd
+Infotronic America Inc
+United Microelectronics [UMC]
+I.I.T.
+Maspar Computer Corp
+Ocean Office Automation
+Alcatel
+Texas Microsystems
+PicoPower Technology
+Mitsubishi Electric
+Diversified Technology
+Mylex Corporation
+Aten Research Inc
+Apple Computer Inc.
+Hynix Semiconductor
+Sequent Computer Systems
+DFI, Inc
+City Gate Development Ltd
+Daewoo Telecom Ltd
+Mitac
+GIT Co Ltd
+Yamaha Corporation
+NexGen Microsystems
+Chaintech Computer Co. Ltd
+QLogic Corp.
+Cyrix Corporation
+I-Bus
+NetWorth
+Gateway 2000
+LeadTek Research Inc.
+Interphase Corporation
+Data Technology Corporation
+Contaq Microsystems
+Supermac Technology
+EFA Corporation of America
+Forex Computer Corporation
+Parador
+Tulip Computers Int.B.V.
+J. Bond Computer Systems
+Cache Computer
+Microcomputer Systems (M) Son
+Data General Corporation
+SBS Technologies
+Oakleigh Systems Inc.
+Olicom
+Systemsoft
+Encore Computer Corporation
+Intergraph Corporation
+Diamond Multimedia Systems
+National Instruments
+Alacron
+Appian Technology
+Quantum Designs (H.K.) Ltd
+Samsung Electronics Co., Ltd
+Packard Bell
+Gemlight Computer Ltd.
+Megachips Corporation
+Zida Technologies Ltd.
+Brooktree Corporation
+Trigem Computer Inc.
+Meidensha Corporation
+Juko Electronics Ind. Co. Ltd
+Quantum Corporation
+Everex Systems Inc
+Globe Manufacturing Sales
+Smart Link Ltd.
+Informtech Industrial Ltd.
+Benchmarq Microelectronics
+Sierra Semiconductor
+Silicon Graphics, Inc.
+ACC Microelectronics
+Digicom
+Honeywell IAC
+Symphony Labs
+Cornerstone Technology
+Micro Computer Systems Inc
+CardExpert Technology
+Cabletron Systems Inc
+Raytheon Company
+Databook Inc
+STB Systems Inc
+PLX Technology, Inc.
+Madge Networks
+3Com Corporation
+ALi Corporation
+Mitsubishi Electric Corp.
+Dapha Electronics Corporation
+Advanced Logic Research
+Surecom Technology
+Tseng Labs International Co.
+Most Inc
+Boca Research Inc.
+ICM Co., Ltd.
+Auspex Systems Inc.
+Samsung Semiconductors, Inc.
+Xerox Corporation
+Rambus Inc.
+Media Vision
+Neomagic Corporation
+Dataexpert Corporation
+Fujitsu Microelectr., Inc.
+Omron Corporation
+Mai Logic Incorporated
+Advanced System Products, Inc
+Radius
+Fujitsu Limited.
+FuturePlus Systems Corp.
+Molex Incorporated
+Jabil Circuit Inc
+Hualon Microelectronics
+Autologic Inc.
+Cetia
+Advanced Peripherals Labs
+Macronix, Inc. [MXIC]
+Compaq IPG-Austin
+Rohm LSI Systems, Inc.
+CERN/ECP/EDU
+Evans & Sutherland
+nVidia Corporation
+Emulex Corporation
+Tekram Technology Co.,Ltd.
+Aptix Corporation
+Tundra Semiconductor Corp.
+Tandem Computers
+Micro Industries Corporation
+Vadem
+Applied Micro Circuits Corp.
+Alps Electric Co., Ltd.
+Intergraphics Systems
+Artists Graphics
+Ascii Corporation
+Xilinx Corporation
+Peritek Corporation
+Tyan Computer
+Achme Computer, Inc.
+Alaris, Inc.
+S-MOS Systems, Inc.
+NKK Corporation
+Altos India Ltd
+PC Direct
+Truevision
+I-O Data Device, Inc.
+Soyo Computer, Inc
+Fast Multimedia AG
+NCube
+Jazz Multimedia
+Initio Corporation
+Creative Labs
+Triones Technologies, Inc.
+RasterOps Corp.
+Sigma Designs, Inc.
+VIA Technologies, Inc.
+Stratus Computers
+Proteon, Inc.
+Siemens Nixdorf AG
+Chromatic Research Inc.
+Mini-Max Technology, Inc.
+Znyx Advanced Systems
+CPU Technology
+Ross Technology
+Powerhouse Systems
+Santa Cruz Operation
+Osicom Technologies Inc
+Accton Technology Corporation
+Atmel Corporation
+3D Labs
+Data Translation
+Datacube, Inc
+Berg Electronics
+Efficient Networks, Inc
+Teledyne Electronic Systems
+Tricord Systems Inc.
+Eldec
+Precision Digital Images
+EMC Corporation
+Zilog
+Multi-tech Systems, Inc.
+Excellent Design, Inc.
+Leutron Vision AG
+Eurocore
+Vigra
+FORE Systems Inc
+Firmworks
+Linotype - Hell AG
+Ravicad
+Imaging Technology Inc
+Computervision
+Philips Semiconductors
+Mitel Corp.
+Eicon Networks Corporation
+Mercury Computer Systems
+Fuji Xerox Co Ltd
+Momentum Data Systems
+Cisco Systems Inc
+Ziatech Corporation
+Dynamic Pictures, Inc
+FWB Inc
+Network Computing Devices
+Cyclone Microsystems, Inc.
+Leading Edge Products Inc
+Equinox Systems, Inc.
+Intervoice Inc
+Crest Microsystem Inc
+NetPower, Inc
+Cincinnati Milacron
+Workbit Corporation
+Force Computers
+Interface Corp
+SysKonnect
+Win System Corporation
+VMIC
+Canopus Co., Ltd
+Annabooks
+IC Corporation
+Nikon Systems Inc
+Digi International
+Thinking Machines Corp
+JAE Electronics Inc.
+Megatek
+Land Win Electronic Corp
+Melco Inc
+Pine Technology Ltd
+Periscope Engineering
+Avsys Corporation
+Voarx R & D Inc
+Mutech Corp
+Harlequin Ltd
+Parallax Graphics
+Photron Ltd.
+Xircom
+Peer Protocols Inc
+Maxtor Corporation
+Megasoft Inc
+PFU Limited
+OA Laboratory Co Ltd
+Rendition
+Imagraph Corporation
+ServerWorks
+Mutoh Industries Inc
+Thine Electronics Inc
+Polaris Communications
+Connectware Inc
+Martin-Marietta
+Electronics for Imaging
+Workstation Technology
+Inventec Corporation
+Loughborough Sound Images Plc
+Altera Corporation
+Adobe Systems, Inc
+Bridgeport Machines
+Mitron Computer Inc.
+SBE Incorporated
+Silicon Engineering
+Alfa, Inc.
+Toshiba America Info Systems
+A-Trend Technology
+L G Electronics, Inc.
+Atto Technology
+Becton & Dickinson
+T/R Systems
+Integrated Circuit Systems
+Ricoh Co Ltd
+Telmatics International
+Fujikura Ltd
+Forks Inc
+Dataworld International Ltd
+D-Link System Inc
+Matsushita Electronics Co Ltd
+Hilevel Technology
+Hypertec Pty Limited
+Corollary, Inc
+BitFlow Inc
+Hermstedt GmbH
+Green Logic
+Tripace
+Artop Electronic Corp
+Densan Company Ltd
+Zeitnet Inc.
+Toucan Technology
+Ratoc System Inc
+Hytec Electronics Ltd
+Gage Applied Sciences, Inc.
+Lambda Systems Inc
+Attachmate Corporation
+Mind Share, Inc.
+Omega Micro Inc.
+Information Technology Inst.
+Bug, Inc. Sapporo Japan
+Fujitsu Microelectronics Ltd.
+Bull HN Information Systems
+Convex Computer Corporation
+Hamamatsu Photonics K.K.
+Barco Graphics NV
+Microunity Systems Eng. Inc
+Pure Data Ltd.
+Power Computing Corp.
+Systech Corp.
+InnoSys Inc.
+Actel
+Marvell Technology Group Ltd.
+Lite-On Communications Inc
+Aztech System Ltd
+Avid Technology Inc.
+V3 Semiconductor Inc.
+Apricot Computers
+Eastman Kodak
+Barr Systems Inc.
+Radstone Technology Plc
+United Video Corp
+XPoint Technologies, Inc
+Pathlight Technology Inc.
+Videotron Corp
+Pyramid Technology
+Network Peripherals Inc
+Pinnacle Systems Inc.
+Astrodesign, Inc.
+Hewlett Packard
+Sand Microelectronics
+Document Technologies, Inc
+Shiva Corporation
+Dainippon Screen Mfg. Co. Ltd
+D.C.M. Data Systems
+Magma
+LSI Systems, Inc
+Specialix Research Ltd.
+HAL Computer Systems, Inc.
+Netaccess
+Auravision
+Intercom Inc.
+Trancell Systems Inc
+Analog Devices
+Ikon Corporation
+Tekelec Telecom
+Trenton Technology, Inc.
+TEC Corporation
+Novell
+Sega Enterprises Ltd
+Questra Corporation
+Crosfield Electronics Limited
+Zoran Corporation
+New Wave PDG
+Cray Communications A/S
+GEC Plessey Semi Inc.
+Quicklogic Corporation
+Second Wave Inc
+IIX Consulting
+Mitsui-Zosen System Research
+Highwater Designs Ltd.
+Elsag Bailey
+Formation Inc.
+Coreco Inc
+Mediamatics
+Dome Imaging Systems Inc
+Nicolet Technologies B.V.
+Compu-Shack
+Symbios Logic Inc
+Picture Tel Japan K.K.
+Keithley Metrabyte
+Kinetic Systems Corporation
+Compex
+Scientific Atlanta
+PMC-Sierra Inc.
+I-Cube Inc
+Datel Inc
+Silicon Magic
+High Street Consultants
+Comtrol Corporation
+Scion Corporation
+CSS Corporation
+Vista Controls Corp
+Network General Corp.
+Array Corporation
+Amdahl Corporation
+Parsytec GmbH
+SCI Systems Inc
+Synaptel
+Adaptive Solutions
+Technical Corp.
+Compression Labs, Inc.
+Cyclades Corporation
+Essential Communications
+Hyperparallel Technologies
+Braintech Inc
+Kingston Technology Corp.
+Interware Co., Ltd
+Purup Prepress A/S
+O2 Micro, Inc.
+Hybricon Corp.
+First Virtual Corporation
+3Dfx Interactive, Inc.
+Nippon Texaco., Ltd
+CSPI
+Arcus Technology, Inc.
+Ariel Corporation
+Contec Co., Ltd
+Ancor Communications, Inc.
+Interactive Images
+Power I/O, Inc.
+Tech-Source
+Norsk Elektro Optikk A/S
+Data Kinesis Inc.
+Integrated Telecom
+Sican GmbH
+Xyratex
+Andrew Corporation
+Fishcamp Engineering
+Woodward McCoach, Inc.
+GPT Limited
+Bus-Tech, Inc.
+Risq Modular Systems, Inc.
+Sigma Designs Corporation
+Alta Technology Corporation
+Adtran
+3DO Company
+Visicom Laboratories, Inc.
+Seeq Technology, Inc.
+Century Systems, Inc.
+Engineering Design Team, Inc.
+Simutech, Inc.
+C-Cube Microsystems
+Marathon Technologies Corp.
+DSC Communications
+JNI Corporation
+Delphax
+A.P.D., S.A.
+Dipix Technologies, Inc.
+Xylon Research, Inc.
+Central Data Corporation
+Samsung Electronics Co., Ltd.
+AEG Electrocom GmbH
+SBS/Greenspring Modular I/O
+Solitron Technologies, Inc.
+Stallion Technologies, Inc.
+Cylink
+Infotrend Technology, Inc.
+VLSI Solutions Oy
+Guzik Technical Enterprises
+Linear Systems Ltd.
+Optibase Ltd
+Perceptive Solutions, Inc.
+Vertex Networks, Inc.
+Gilbarco, Inc.
+Allied Telesyn International
+ABB Power Systems
+Asix Electronics Corporation
+Aurora Technologies, Inc.
+ESS Technology
+Specialvideo Engineering SRL
+Concurrent Technologies, Inc.
+Intersil Corporation
+ES Computer Company, Ltd.
+Sonic Solutions
+Aval Nagasaki Corporation
+Casio Computer Co., Ltd.
+Microdyne Corporation
+S. A. Telecommunications
+Tektronix
+Thomson-CSF/TTM
+Lexmark International, Inc.
+Adax, Inc.
+Northern Telecom
+Splash Technology, Inc.
+Silicon Motion, Inc.
+Olympus Optical Co., Ltd.
+GW Instruments
+Telematics International
+Hughes Network Systems
+Ensoniq
+Network Appliance Corporation
+Comstream
+Transmeta Corporation
+Rockwell International
+Pixera Corporation
+Crosspoint Solutions, Inc.
+Vela Research
+Winnov, L.P.
+Fujifilm
+Photoscript Group Ltd.
+Yokogawa Electric Corporation
+Sahara Networks, Inc.
+Platform Technologies, Inc.
+Mazet GmbH
+M-Pact, Inc.
+Timestep Corporation
+AVC Technology, Inc.
+Asante Technologies, Inc.
+Transwitch Corporation
+Retix Corporation
+G2 Networks, Inc.
+Tateno Dennou, Inc.
+Sord Computer Corporation
+NCS Computer Italia
+Tritech Microelectronics Inc
+Media Reality Technology
+Rhetorex, Inc.
+Imagenation Corporation
+Kofax Image Products
+Knowledge Technology Lab.
+VMetro, inc.
+Image Access
+Jaycor
+Compcore Multimedia, Inc.
+Victor Company of Japan, Ltd.
+OEC Medical Systems, Inc.
+Allen-Bradley Company
+Simpact Associates, Inc.
+Newgen Systems Corporation
+Lucent Technologies
+Vision Dynamics Ltd.
+Scalable Networks, Inc.
+AMO GmbH
+News Datacom
+Xiotech Corporation
+SDL Communications, Inc.
+Measurex Corporation
+Multidata GmbH
+Alteon Networks Inc.
+TDK USA Corp
+Jorge Scientific Corp
+GammaLink
+General Signal Networks
+Inter-Face Co Ltd
+FutureTel Inc
+Granite Systems Inc.
+Natural Microsystems
+Korg
+BittWare, Inc.
+Nippon Unisoft Corporation
+Array Microsystems
+Computerm Corp.
+Anchor Chips Inc.
+Fujifilm Microdevices
+Infimed
+GMM Research Corp
+Mentec Limited
+Holtek Microelectronics Inc
+Connect Tech Inc
+Picture Elements Incorporated
+Mitani Corporation
+Dialogic Corp
+G Force Co, Ltd
+Gigi Operations
+Integrated Computing Engines
+Antex Electronics Corporation
+Aims Lab
+Netspeed Inc.
+Prophet Systems, Inc.
+GDE Systems, Inc.
+PSITech
+Vingmed Sound A/S
+Ulticom (Formerly DGM&S)
+Equator Technologies Inc
+Analogic Corp
+Biotronic SRL
+Pericom Semiconductor
+Aculab PLC
+True Time Inc.
+Annapolis Micro Systems, Inc
+Management Graphics
+Rainbow Technologies
+SBS Technologies Inc
+Chase Research
+Nintendo Co, Ltd
+Brooktrout Technology Inc
+Apex Semiconductor Inc
+Cirel Systems
+Sunsgroup Corporation
+Crisc Corp
+GE Spacenet
+Zuken
+Aureal Semiconductor
+3A International, Inc.
+Optivision Inc.
+Orange Micro
+Vienna Systems
+Pentek
+Sorenson Vision Inc
+Radstone Technology
+Megatel
+Forks
+Dawson France
+Cognex
+Electronic Design GmbH
+Four Fold Ltd
+Spectrum Signal Processing
+Capital Equipment Corp
+Lexicon
+Computer Sciences Corp
+Innovative Integration
+Juniper Networks
+Netphone, Inc
+Duet Technologies
+Measurement Computing
+Jato Technologies Inc.
+AB Semiconductor Ltd
+Ambex Technologies, Inc
+Accelerix Inc
+Yamatake-Honeywell Co. Ltd
+Advanet Inc
+Gespac
+Videoserver, Inc
+Acuity Imaging, Inc
+Yaskawa Electric Co.
+Teradyne Inc
+Linksys
+Packet Engines Inc.
+Fortemedia, Inc
+Finisar Corp.
+Sysmic, Inc.
+Xinex Networks Inc
+Siig Inc
+Crypto AG
+Arcobel Graphics BV
+MTT Co., Ltd
+Dome Inc
+Sphere Communications
+Salix Technologies, Inc
+Seachange international
+Voss scientific
+quadrant international
+Productivity Enhancement
+Microcom Inc.
+Broadband Technologies
+Micrel Inc
+MMC Networks
+Radisys Corp.
+Micro Memory
+Redcreek Communications, Inc
+Videomail, Inc
+Third Planet Publishing
+BT Electronics
+Vtel Corp
+Softcom Microsystems
+Holontech Corp
+SS Technologies
+Virtual Computer Corp
+SCM Microsystems
+Atalla Corp
+Kyoto Microcomputer Co
+Promax Systems Inc
+Phylon Communications Inc
+Arescom Inc
+Odetics
+DTC Technology Corp.
+ARK Research Corp.
+Chori Joho System Co. Ltd
+PCTel Inc
+CSTI
+Algo System Co Ltd
+Systec Co. Ltd
+Sonix Inc
+Thales Idatys
+Dwave System Inc
+Kratos Analytical Ltd
+The Logical Co
+Prisa Networks
+Brain Boxes
+Giganet Inc
+Quatech Inc
+ABB Network Partner AB
+Sealevel Systems Inc
+I-Data International A-S
+Meinberg Funkuhren
+Soliton Systems K.K.
+Fujifacom Corporation
+Phoenix Technology Ltd
+ATM Communications Inc
+Hypercope GmbH
+Teijin Seiki Co. Ltd
+Hitachi Zosen Corporation
+Skyware Corporation
+Digigram
+High Soft Tech
+Kawasaki Steel Corporation
+Adtek System Science Co Ltd
+Gigalabs Inc
+Applied Magic Inc
+ATL Products
+CNet Technology Inc
+Silicon Vision Inc
+Silicom Ltd
+Argosystems Inc
+Telemann Co. Ltd
+Mark of the Unicorn Inc
+PPT Vision
+Iwatsu Electric Co Ltd
+Dynachip Corporation
+Japan Satellite Systems Inc
+Sanritz Automation Co Ltd
+Brains Co. Ltd
+Controlnet Inc
+Netgear
+Video Domain Technologies
+Systran Corp
+Applicom International
+Fusion Micromedia Corp
+Tokimec Inc
+Silicon Reality
+Future Techno Designs pte Ltd
+Basler GmbH
+Patapsco Designs Inc
+Concept Development Inc
+Development Concepts Inc
+Medialight Inc
+Moxa Technologies Co Ltd
+Level One Communications
+Ambicom Inc
+Cipher Systems Inc
+Cologne Chip Designs GmbH
+Clarion co. Ltd
+Rios systems Co Ltd
+Alacritech Inc
+Quantum 3d Inc
+EPL limited
+Media4
+Aethra s.r.l.
+Crystal Group Inc
+Kawasaki Heavy Industries Ltd
+Ositech Communications Inc
+Hifn Inc.
+Rascom Inc
+Audio Digital Imaging Inc
+Videonics Inc
+Teles AG
+Exar Corp.
+Broadband Networks Inc
+Arcom Control Systems Ltd
+Motion Media Technology Ltd
+Nexus Inc
+ALD Technology Ltd
+T.Sqware
+Maxspeed Corp
+Tamura corporation
+Techno Chips Co. Ltd
+Lanart Corporation
+Wellbean Co Inc
+Dlog GmbH
+Logic Devices Inc
+Nokia Telecommunications oy
+Elecom Co Ltd
+Oxford Instruments
+Sanyo Technosound Co Ltd
+Bitran Corporation
+Sharp corporation
+Miroku Jyoho Service Co. Ltd
+Sharewave Inc
+Microgate Corporation
+3ware Inc
+Janz Computer AG
+Phase Metrics
+Alphi Technology Corp
+Condor Engineering Inc
+Blue Chip Technology Ltd
+Apptech Inc
+Eaton Corporation
+Iomega Corporation
+Yano Electric Co Ltd
+Metheus Corporation
+Cocom A/S
+Studio Audio & Video Ltd
+Techsan Electronics Co Ltd
+Abocom Systems Inc
+Shark Multimedia Inc
+IMC Networks
+Graphics Microsystems Inc
+Media 100 Inc
+K.I. Technology Co Ltd
+Phobos corporation
+Apex PC Solutions Inc
+Intresource Systems pte Ltd
+Netboost Corporation
+Multimedia Bundle Inc
+ABB Robotics Products AB
+E-Tech Inc
+GVC Corporation
+Dynamics Research Corporation
+Nest Inc
+Calculex Inc
+Telesoft Design Ltd
+Argosy research Inc
+NAC Incorporated
+Chip Express Corporation
+Intraserver Technology Inc
+Dallas Semiconductor
+Hauppauge Computer Works Inc
+Zydacron Inc
+Raytheion E-Systems
+Coppercom Inc
+Sundance Technology Inc
+Oce' - Technologies B.V.
+Ford Microelectronics Inc
+Mcdata Corporation
+Troika Networks, Inc.
+Kansai Electric Co. Ltd
+C-Media Electronics Inc
+Wildfire Communications
+Ad Lib Multimedia Inc
+NTT Advanced Technology Corp.
+Pentland Systems Ltd
+Aydin Corp
+Micro Science Inc
+Advantech Co. Ltd
+Silicon Spice Inc
+Artx Inc
+CR-Systems A/S
+Meilhaus Electronic GmbH
+Ascor Inc
+Fundamental Software Inc
+Excalibur Systems Inc
+Oce' Printing Systems GmbH
+Lava Computer mfg Inc
+Aloka Co. Ltd
+Timedia Technology Co Ltd
+DSP Research Inc
+Ramix Inc
+Elmic Systems Inc
+Matsushita Electric Works Ltd
+Goepel Electronic GmbH
+Salient Systems Corp
+Midas lab Inc
+Ikos Systems Inc
+VIA Technologies Inc.
+Addonics
+Microsoft Corporation
+Oxford Semiconductor Ltd
+Multiwave Innovation pte Ltd
+Convergenet Technologies Inc
+Excel Switching Corp
+Apache Micro Peripherals Inc
+Zoom Telephonics Inc
+Digitan Systems Inc
+Fanuc Ltd
+Visiontech Ltd
+Psion Dacom plc
+Ads Technologies Inc
+Ygrec Systems Co Ltd
+Custom Technology Corp.
+Videoserver Connections
+Chelsio Communications Inc
+Storage Technology Corp.
+Better On-Line Solutions
+Edec Co Ltd
+Unex Technology Corp.
+Kingmax Technology Inc
+Radiolan
+Minton Optic Industry Co Ltd
+Pix stream Inc
+Vitec Multimedia
+Radicom Research Inc
+Gilat Satellite Networks
+Edimax Computer Co.
+Eltec Elektronik GmbH
+Real Time Devices US Inc.
+CIS Technology Inc
+Nissin Inc Co
+Atmel-dream
+Stargate Solutions Inc
+Amlogic Inc
+Tamarack Microelectronics Inc
+Jones Futurex Inc
+ALGOL Corp.
+AGIE Ltd
+Phoenix Contact GmbH & Co.
+Unibrain S.A.
+Logical DO Ltd
+Graphin Co Ltd
+AIM GmBH
+Alesis Studio Electronics
+TUT Systems Inc
+Adlink Technology
+Catalina Research Inc
+Samsung Electronics Co Ltd
+OLITEC
+Askey Computer Corp.
+Octave Communications Ind.
+SP3D Chip Design GmBH
+MYCOM Inc
+Altiga Networks
+Logic Plus Plus Inc
+Nuera Communications Inc
+Giga-byte Technology
+DOOIN Electronics
+Escalate Networks Inc
+PRAIM SRL
+Cryptek
+Gallant Computer Inc
+Aashima Technology B.V.
+Baldor Electric Company
+DYNARC INC
+Avermedia Technologies Inc
+Fast Corporation
+GN NETTEST Telecom DIV.
+Designpro Inc.
+DIGICOM SPA
+AMBIT Microsystem Corp.
+Cleveland Motion Controls
+Parascan Technologies Ltd
+Ruby Tech Corp.
+Tachyon, INC.
+Bay Networks
+DAIKIN Industries, Ltd
+ZAPEX Technologies Inc
+Doug Carson & Associates
+PICAZO Communications
+MORTARA Instrument Inc
+Net Insight
+DIATREND Corporation
+TORAY Industries Inc
+FORMOSA Industrial Computing
+ABIT Computer Corp.
+AWARE, Inc.
+Interworks Computer Products
+NIHON UNISYS, Ltd.
+SCII Telecom
+BIOPAC Systems Inc
+LABWAY Corporation
+ERMA - Electronic GmBH
+MARQUETTE Medical Systems
+KONTRON Electronik GmBH
+KYE Systems Corporation
+OPTO
+INNOMEDIALOGIC Inc.
+C.P. Technology Co. Ltd
+DIGICOM Systems, Inc.
+OSI Plus Corporation
+Plant Equipment, Inc.
+Stone Microsystems PTY Ltd.
+ZEAL Corporation
+Time Logic Corporation
+MAKER Communications
+WINTOP Technology, Inc.
+JOYTECH Computer Co., Ltd.
+SMA Regelsysteme GmBH
+TEWS Datentechnik GmBH
+EMTEC CO., Ltd
+ANDOR Technology Ltd
+SEIKO Instruments Inc
+OVISLINK Corp.
+NEWTEK Inc
+Mapletree Networks Inc.
+LECTRON Co Ltd
+SOFTING GmBH
+Systembase Co Ltd
+Millennium Engineering Inc
+Maverick Networks
+GVC/BCM Advanced Research
+INOVA Computers GmBH & Co KG
+MYTHOS Systems Inc
+HIVERTEC Inc
+Advanced MOS Technology Inc
+Mentor Graphics Corp.
+Novaweb Technologies Inc
+Time Space Radio AB
+CTI, Inc
+Guillemot Corporation
+Nextcom K.K.
+ENNOVATE Networks Inc
+XPEED Inc
+Creamware GmBH
+Quantum Data Corp.
+PROXIM Inc
+Techsoft Technology Co Ltd
+INTERNIX Inc.
+SEMTECH Corporation
+Globespan Semiconductor Inc.
+CARDIO Control N.V.
+L3 Communications
+SPIDER Communications Inc.
+COMPAL Electronics Inc
+MYRICOM Inc.
+DTK Computer
+MEDIATEK Corp.
+Automation Products AB
+Data Race Inc
+Turbocomm Tech. Inc.
+ODIN Telesystems Inc
+PE Logic Corp.
+Billionton Systems Inc
+NAKAYO Telecommunications Inc
+Universal Scientific Ind.
+Whistle Communications
+TEK Microsystems Inc.
+Ericsson Axe R & D
+Computer Hi-Tech Co Ltd
+Titan Electronics Inc
+CIRTECH (UK) Ltd
+Panacom Technology Corp
+Nitsuko Corporation
+Accusys Inc
+Hirakawa Hewtech Corp
+HOPF Elektronik GmBH
+AFAVLAB Technology Inc
+Amplicon Liveline Ltd
+Boulder Design Labs Inc
+ASIC Communications Corp
+INVERTEX
+INFOLIBRIA
+AMTELCO
+Broadcom Corporation
+Pixelfusion Ltd
+SHINING Technology Inc
+RAYCER Inc
+GARNETS System CO Ltd
+Planex Communications, Inc
+SEIKO EPSON Corp
+ACQIRIS
+DATAKINETICS Ltd
+MASPRO KENKOH Corp
+CARRY Computer ENG. CO Ltd
+CANON RESEACH CENTRE FRANCE
+Conexant
+MOBILITY Electronics
+BroadLogic
+SOPAC Ltd
+COYOTE Technologies LLC
+WOLF Technology Inc
+AUDIOCODES Inc
+AG COMMUNICATIONS
+WANDEL & GOCHERMANN
+TRANSAS MARINE (UK) Ltd
+Quadrics Ltd
+JAPAN Computer Industry Inc
+ARCHTEK TELECOM Corp
+TWINHEAD INTERNATIONAL Corp
+DELTA Electronics, Inc
+BANKSOFT CANADA Ltd
+KAWASAKI LSI USA Inc
+KAISER Electronics
+CHAMELEON Systems Inc
+Motorola ?? / HTEC
+FORVUS RESEARCH Inc
+YAMASHITA Systems Corp
+KYOPAL CO Ltd
+WARPSPPED Inc
+C-PORT Corp
+INTEC GmbH
+BEHAVIOR TECH Computer Corp
+CENTILLIUM Technology Corp
+ROSUN Technologies Inc
+Raychem
+TFL LAN Inc
+Advent design
+MYSON Technology Inc
+ECHOTEK Corp
+PEP MODULAR Computers GmbH
+Globetek
+COMBOX Ltd
+DIGITAL AUDIO LABS Inc
+MATRIX Corp
+TOPIC SEMICONDUCTOR Corp
+CHAPLET System Inc
+BELL Corp
+MainPine Ltd
+MUSIC Semiconductors
+ENE Technology Inc
+IMPACT Technologies
+ISS, Inc
+SOLECTRON
+ACKSYS
+AMERICAN MICROSystems Inc
+QUICKTURN DESIGN Systems
+FLYTECH Technology CO Ltd
+MACRAIGOR Systems LLC
+QUANTA Computer Inc
+MELEC Inc
+PHILIPS - CRYPTO
+ACQIS Technology Inc
+CHRYON Corp
+ECHELON Corp
+BALTIMORE
+ROAD Corp
+EVERGREEN Technologies Inc
+DATALEX COMMUNCATIONS
+ARALION Inc
+ONO SOKKI
+TERRATEC Electronic GmbH
+ANTAL Electronic
+FILANET Corp
+TECHWELL Inc
+MIPS DENMARK
+PROVIDEO MULTIMEDIA Co Ltd
+MACHONE Communications
+VIVID Technology Inc
+SILICON Laboratories
+DCM DATA Systems
+VISIONTEK
+IOI Technology Corp
+MITUTOYO Corp
+JET PROPULSION Laboratory
+MAX Technologies Inc
+COMPUTEX Co Ltd
+VISUAL Technology Inc
+SERVOTEST Ltd
+STRATABEAM Technology
+OPEN NETWORK Co Ltd
+RACAL AIRTECH Ltd
+CHICONY Electronics Co Ltd
+PROLINK Microsystems Corp
+GESYTEC GmBH
+PLD APPLICATIONS
+MEDIASTAR Co Ltd
+CLEVO/KAPOK Computer
+SI LOGIC Ltd
+INNOMEDIA Inc
+PROTAC INTERNATIONAL Corp
+Cemax-Icon Inc
+Mac System Co Ltd
+LP Elektronik GmbH
+Perle Systems Ltd
+Viewgraphics Inc
+Symbol Technologies
+A-Trend Technology Co Ltd
+Biostar Microtech Int'l Corp
+Ardent Technologies Inc
+Jungsoft
+DDK Electronics Inc
+Palit Microsystems Inc.
+Avtec Systems
+2wire Inc
+Vidac Electronics GmbH
+Alpha-Top Corp
+Alfa Inc
+Lecroy Corp
+Contemporary Controls
+Otis Elevator Company
+Lattice - Vantis
+Fairchild Semiconductor
+Viewcast COM
+HITT
+Dual Technology Corp
+Japan Elecronics Ind Inc
+Star Multimedia Corp
+Eurosoft (UK)
+Gemflex Networks
+Transition Networks
+PX Instruments Technology Ltd
+Primex Aerospace Co
+SEH Computertechnik GmbH
+Cytec Corp
+Inet Technologies Inc
+Uniwill Computer Corp
+Logitron
+Lancast Inc
+Konica Corp
+Solidum Systems Corp
+Atlantek Microsystems Pty Ltd
+Digalog Systems Inc
+Allied Data Technologies
+Point Multimedia Systems
+Lara Technology Inc
+Ditect Coop
+3pardata Inc
+Syba Tech Ltd
+Bops Inc
+Netgame Ltd
+Diva Systems Corp
+Folsom Research Inc
+Memec Design Services
+Granite Microsystems
+Delta Electronics Inc
+General Instrument
+Faraday Technology Corp
+Stratus Computer Systems
+A-Max Technology Co Ltd
+Galea Network Security
+Compumaster SRL
+Geocast Network Systems
+Catalyst Enterprises Inc
+Italtel
+X-Net OY
+Toyota Macs Inc
+SSE Telecom Inc
+Moreton Bay
+Bluesteel Networks Inc
+North Atlantic Instruments
+VMware Inc
+Amersham Pharmacia Biotech
+Zoltrix International Ltd
+Source Technology Inc
+Mosaid Technologies Inc
+Mellanox Technologies
+CCI/TRIAD
+Cimetrics Inc
+Texas Memory Systems Inc
+Sandisk Corp
+ADDI-DATA GmbH
+Impacct Technology Corp
+Portwell Inc
+Agilent Technologies
+DFI Inc
+Sola Electronics
+High Tech Computer Corp (HTC)
+BVM Ltd
+Quantel
+Newer Technology Inc
+Taiwan Mycomp Co Ltd
+EVSX Inc
+Procomp Informatics Ltd
+Penta Media Co Ltd
+Serome Technology Inc
+Bitboys OY
+AG Electronics Ltd
+Hotrail Inc
+Dreamtech Co Ltd
+Genrad Inc
+Hilscher GmbH
+Infineon Technologies AG
+NDS Technologies Israel Ltd
+Iwill Corp
+Tatung Co
+Entridia Corp
+Rockwell-Collins Inc
+Cybernetics Technology Co Ltd
+Super Micro Computer Inc
+Cyberfirm Inc
+Applied Computing Systems Inc
+Litronic Inc
+Sigmatel Inc
+Malleable Technologies Inc
+Infinilink Corp
+Cacheflow Inc
+Voice Technologies Group Inc
+Quicknet Technologies Inc
+Networth Technologies Inc
+VSN Systemen BV
+Valley technologies Inc
+Agere Inc
+Get Engineering Corp
+National Datacomm Corp
+Pacific Digital Corp
+Tokyo Denshi Sekei K.K.
+Drsearch GmbH
+Beckhoff GmbH
+Macrolink Inc
+In Win Development Inc
+Intelligent Paradigm Inc
+B-Tree Systems Inc
+Times N Systems Inc
+Diagnostic Instruments Inc
+Digitmedia Corp
+Valuesoft
+Power Micro Research
+Extreme Packet Device Inc
+Banctec
+Koga Electronics Co
+Zenith Electronics Corp
+J.P. Axzam Corp
+Zilog Inc
+N-CUBED.NET
+Kinpo Electronics Inc
+Fastpoint Technologies Inc
+Northrop Grumman - Canada Ltd
+Tenta Technology
+Prosys-tec Inc
+Nokia Wireless Communications
+Pairgain Technologies
+Europop AG
+Scimetric Instruments Inc
+Telesynergy Research Inc.
+FarSite Communications Ltd
+Rioworks
+TDK Semiconductor Corp.
+Kongsberg Spacetec AS
+Epix Inc
+Worldspace Corp.
+Actiontec Electronics Inc
+Bernecker + Rainer
+Hercules
+CastleNet Technology Inc.
+Atheros Communications, Inc.
+Global Sun Technology Inc
+Safenet Inc
+Aspex Semiconductor Ltd
+Creatix Polymedia GmbH
+CENATEK Inc
+Densitron Technologies
+PIKA Technologies Inc.
+European Space Agency
+U.S. Robotics
+Sycron N. V.
+Jetway Information Co., Ltd.
+Vweb Corp
+VideoTele.com, Inc.
+Digital First, Inc.
+NetOctave
+YottaYotta Inc.
+Accelerated Encryption
+Fujitsu Siemens Computer GmbH
+Altima (nee Broadcom)
+Peppercon AG
+RLX Technologies
+PC Partner Limited
+WellX Telecom SA
+AudioScience Inc
+Sanera Systems, Inc.
+Research Centre Juelich
+JumpTec h, GMBH
+Belkin
+Genesys Logic, Inc
+Hawking Technologies
+Indra Networks, Inc.
+Wistron Corp.
+Newisys, Inc.
+NetChip Technology, Inc
+S2io Inc.
+Connect Components Ltd
+Ambient Technologies Inc
+RaLink
+InfiniCon Systems Inc.
+Twinhan Technology Co. Ltd
+SiteCom Europe BV
+Credence Systems Corporation
+MikroM GmbH
+ASRock Incorporation
+Microtune, Inc.
+Anritsu Corp.
+Topspin Communications
+Varisys Ltd
+KNC One
+Astute Networks Inc.
+DViCO Corporation
+Info-Tek Corp.
+Cray Inc
+ARVOO Engineering BV
+XGI - Xabre Graphics Inc
+MPL AG
+Commtech, Inc.
+Resilience Corporation
+Sierra semiconductor
+Jaton Corp
+Symphony
+Tumsan Oy
+Temporal Research Ltd
+21st Century Computer Corp.
+Racore
+Kingston Technologies
+Xantel Corporation
+AVID Technology Inc.
+3D Vision(?)
+Hansol Electronics Inc.
+Post Impression Systems.
+Hint Corp
+Quantum Designs (H.K.) Inc
+ARCOM Control Systems Ltd
+eVga.com. Corp.
+4Links
+3DLabs
+Avance Logic Inc.
+Addtron Technology Co, Inc.
+Digital Equipment Corp
+Alpha Data
+Aladdin Knowledge Systems
+Internext Compression Inc
+Bridgeport machines
+Cogetec Informatique Inc
+Umax Computer Corp
+RedCreek Communications Inc
+Growth Networks
+ACCES I/O Products, Inc.
+Axil Computer Inc
+NetVin
+Buslogic Inc.
+LUNG HWA Electronics
+Seanix Technology Inc
+MediaQ Inc.
+Microtechnica Co Ltd
+ILC Data Device Corp
+GemTek Technology Corporation
+Voyetra Technologies
+S S Technologies
+Qualcomm Inc
+Ensoniq (Old)
+Animation Technologies Inc.
+Alliance Semiconductor Corp.
+S3 Inc.
+Teralogic Inc
+Technische University Berlin
+Cnet Technologies, Inc.
+Dunord Technologies
+Genroco, Inc
+VoiceTronix Pty Ltd
+Netpower
+Exacq Technologies
+UltraStor
+Logitec Corp.
+O.N. Electronic Co Ltd.
+MIDAC Corporation
+PowerTV
+Quancom Electronic GmbH
+Asustek Computer, Inc.
+Intel Corp.
+TRENDware International Inc.
+T-Square Design Inc.
+Winbond
+Computone Corporation
+Adaptec
+Atronics
+Gigapixel Corp
+Holtek
+Omni Media Technology Inc
+NetMos Technology
+Stargen Inc.
+AOPEN Inc.
+UNISYS Corporation
+Hewlett Packard GmbH PL24-MKT
+Sony
+Scitex Digital Video
+Actuality Systems
+Shiva Europe Limited
+TSI Telsys
+Micron/Crucial Technology
+Motion Engineering, Inc.
+Varian Australia Pty Ltd
+Chrysalis-ITS
+Catapult Communications
+Tyzx, Inc.
+Dy4 Systems Inc
+I+ME ACTIA GmbH
+Exsys
+Indigita Corporation
+Tiger Jet Network Inc.
+EKF Elektronik GmbH
+Essence Technology, Inc.
+Eagle Technology
+Belkin Corporation
+ARK Logic Inc
+AJA Video
+Interagon AS
+Ultraview Corp.
+Broadcom Inc (nee Epigram)
+Fedetec Inc.
+VMWare Inc
+Illegal Vendor ID
+WinTV PVR-350
+WinTV PVR-250 (v1)
+WinTV PVR-250
+WinTV PVR-250 MCE
+TTP-Monitoring Card V2.0
+CBD516
+IS64PH ISDN Adapter
+CM 200E Cable Modem
+Trance Vibrator
+Smart Array 64xx
+NC7132 Gigabit Upgrade Module
+NC6136 Gigabit Server Adapter
+NC7770 1000BaseTX
+NC6770 1000BaseTX
+NC7780 1000BaseTX
+NC7760
+NC7771
+NC7781
+NC7772
+NC7782
+NC7783
+NC7761
+Netelligent 4/16 Token Ring
+QVision 1280/p
+4000 [Triflex]
+SMART-2/P
+SMART-2SL
+Smart Array 3200
+Smart Array 3100ES
+Smart Array 221
+Integrated Array
+Compaq Raid LC2
+Smart Array 4200
+Smart Array 4250ES
+Smart Array 431
+Smart Array 5300
+Smart Array 5i
+Smart Array 532
+Smart Array 5312
+Smart Array 6i
+Smart Array 641
+Smart Array 642
+Smart Array 6400
+Smart Array 6400 EM
+HotPlug PCI Bridge 6010
+Fibre Channel Host Controller
+Triflex PCI to ISA Bridge
+PCI Hotplug Controller
+ZFMicro Chipset USB
+FibreChannel HBA Tachyon
+Smart-2/P RAID Controller
+MIS-L
+MIS-E
+System Management Controller
+Netelligent 10/100 TX PCI UTP
+Triflex Dual EIDE Controller
+Netelligent 10 T PCI UTP
+Integrated NetFlex-3/P
+CETUS-L
+Northstar
+NorthStar CPU to PCI Bridge
+NC3120 Fast Ethernet NIC
+NC3122 Fast Ethernet NIC
+NC1120 Ethernet NIC
+Netelligent 10/100 TX UTP
+Smart Array 5300 Controller
+NC3161 Fast Ethernet NIC
+NC3160 Fast Ethernet NIC
+NC3121 Fast Ethernet NIC
+NC3131 Fast Ethernet NIC
+NC3132 Fast Ethernet Module
+NC6132 Gigabit Module
+NC6133 Gigabit Module
+NC3133 Fast Ethernet Module
+NC6134 Gigabit NIC
+NC3163 Fast Ethernet NIC
+NC3162 Fast Ethernet NIC
+NC3123 Fast Ethernet NIC
+NC3134 Fast Ethernet NIC
+Smart Array 5i/532
+NC7131 Gigabit Server Adapter
+Memory Hot-Plug Controller
+NetFlex-3/P ThunderLAN 1.0
+NetFlex-3/P ThunderLAN 2.3
+53c810
+53c820
+53c825
+53c815
+53c810AP
+53c860
+53c1510
+53C896/897
+53c895
+53c885
+53c875
+53C1510
+53c895a
+53c875a
+53c1010 Ultra3 SCSI Adapter
+53c875J
+MegaRAID
+FC909 Fibre Channel Adapter
+FC929 Fibre Channel Adapter
+FC929 LAN
+FC919 Fibre Channel Adapter
+FC919 LAN
+FC929X Fibre Channel Adapter
+FC929X LAN
+FC919X Fibre Channel Adapter
+FC919X LAN
+SA2010
+SA2010ZC
+SA2020
+SA2020ZC
+61C102
+63C815
+PCI-AD/DA Analogue I/O board
+PCI-MFB Analogue I/O board
+PROTO-3 PCI Prototyping board
+INI-9100/9100W SCSI Host
+M24 1P [Radeon Mobility X600]
+M24 1T [FireGL M24 GL]
+RV380 0x3e50 [Radeon X600]
+RV380 0x3e54 [FireGL V3200]
+RV380 [Radeon X600] Secondary
+Radeon IGP 320 M
+Radeon IGP330/340/350
+R300 AD [Radeon 9500 Pro]
+R300 AE [Radeon 9700 Pro]
+R300 AF [Radeon 9700 Pro]
+R300 AG [FireGL Z1/X1]
+R350 AH [Radeon 9800]
+R350 AI [Radeon 9800]
+R350 AJ [Radeon 9800]
+R350 AK [Fire GL X2]
+RV350 AP [Radeon 9600]
+RV350 AQ [Radeon 9600]
+RV350 AR [Radeon 9600]
+RV350 AS [Radeon 9600 AS]
+RV350 AT [Fire GL T2]
+RV350 AU [Fire GL T2]
+RV350 AV [Fire GL T2]
+RV350 AW [Fire GL T2]
+68800AX [Mach32]
+Radeon 7000 IGP
+Radeon Mobility U1
+Radeon IGP 330M/340M/350M
+IXP150 AC'97 Audio Controller
+EHCI USB Controller
+OHCI USB Controller #1
+OHCI USB Controller #2
+IXP AC'97 Modem
+ATI SMBus
+215CT [Mach64 CT]
+210888CX [Mach64 CX]
+Radeon Mobility 7000 IGP
+210888ET [Mach64 ET]
+Mach64 VT
+3D Rage Pro AGP 1X/2X
+3D Rage Pro AGP 1X
+3D Rage Pro
+Rage XC
+Rage XL AGP 2X
+Rage XC AGP
+Rage XL
+3D Rage Pro 215GP
+3D Rage Pro 215GQ
+3D Rage IIC AGP
+210888GX [Mach64 GX]
+3D Rage IIC
+Radeon RV250 Id [Radeon 9000]
+Radeon RV250 Ie [Radeon 9000]
+Radeon RV250 If [Radeon 9000]
+Radeon RV250 Ig [Radeon 9000]
+R420 JH [Radeon X800]
+R420 JI [Radeon X800PRO]
+R420 JJ [Radeon X800SE]
+R420 JK [Radeon X800]
+R420 JL [Radeon X800]
+R420 JM [FireGL X3]
+M18 JN [Radeon Mobility 9800]
+R420 JP [Radeon X800XT]
+R420 [X800XT-PE] (Secondary)
+3D Rage LT Pro AGP-133
+3D Rage LT Pro AGP-66
+Rage Mobility M3 AGP
+Rage Mobility M3 AGP 2x
+3D Rage LT-G 215LG
+3D Rage LT Pro
+Rage Mobility P/M AGP 2x
+Rage Mobility L AGP 2x
+Rage Mobility P/M
+Rage Mobility L
+264LT [Mach64 LT]
+Radeon Mobility M6 LY
+Radeon Mobility M6 LZ
+Radeon R250 Lf [FireGL 9000]
+Rage Mobility M4 AGP
+RV350 NF [Radeon 9600]
+Radeon R300 NG [FireGL X1]
+Radeon R350 [Radeon 9800 Pro]
+Radeon R350 [Radeon 9800]
+RV350 NJ [Radeon 9800 XT]
+R350 NK [Fire GL X2]
+M10 NQ [Radeon Mobility 9600]
+M10 NS [Radeon Mobility 9600]
+M10 NT [FireGL Mobility T2]
+M11 NV [FireGL Mobility T2e]
+Rage 128 PA/PRO
+Rage 128 PB/PRO AGP 2x
+Rage 128 PC/PRO AGP 4x
+Rage 128 PD/PRO TMDS
+Rage 128 PE/PRO AGP 2x TMDS
+Rage 128 PF/PRO AGP 4x TMDS
+Rage 128 PG/PRO
+Rage 128 PH/PRO AGP 2x
+Rage 128 PI/PRO AGP 4x
+Rage 128 PJ/PRO TMDS
+Rage 128 PK/PRO AGP 2x TMDS
+Rage 128 PL/PRO AGP 4x TMDS
+Rage 128 PM/PRO
+Rage 128 PN/PRO AGP 2x
+Rage 128 PO/PRO AGP 4x
+Rage 128 PQ/PRO AGP 2x TMDS
+Rage 128 PR/PRO AGP 4x TMDS
+Rage 128 PS/PRO
+Rage 128 PT/PRO AGP 2x
+Rage 128 PU/PRO AGP 4x
+Rage 128 PV/PRO TMDS
+Rage 128 PW/PRO AGP 2x TMDS
+Rage 128 PX/PRO AGP 4x TMDS
+Radeon R100 QD [Radeon 7200]
+Radeon R100 QE
+Radeon R100 QF
+Radeon R100 QG
+Radeon R200 QH [Radeon 8500]
+Radeon R200 QI
+Radeon R200 QJ
+Radeon R200 QK
+Radeon R200 QM [Radeon 9100]
+R200 QT [Radeon 8500]
+R200 QU [Radeon 9100]
+Radeon RV200 QW [Radeon 7500]
+Radeon RV200 QX [Radeon 7500]
+Radeon R200 Qh
+Radeon R200 Qi
+Radeon R200 Qj
+Radeon R200 Qk
+Radeon R200 Ql
+Rage 128 RE/SG
+Rage 128 RF/SG AGP
+Rage 128 RG
+Rage 128 RK/VR
+Rage 128 RL/VR AGP
+Rage 128 SE/4x
+Rage 128 SF/4x AGP 2x
+Rage 128 SG/4x AGP 4x
+Rage 128 SH
+Rage 128 SK/4x
+Rage 128 SL/4x AGP 2x
+Rage 128 SM/4x AGP 4x
+Rage 128 4x
+Mach 64 VT
+Rage 128 Pro Ultra TF
+Rage 128 Pro Ultra TL
+Rage 128 Pro Ultra TR
+Rage 128 Pro Ultra TS
+Rage 128 Pro Ultra TT
+Rage 128 Pro Ultra TU
+M22 [Radeon Mobility M300]
+M22 [FireGL GL]
+R423 UH [Radeon X800 (PCIE)]
+R423 UQ [FireGL V7200 (PCIE)]
+R423 UR [FireGL V5100 (PCIE)]
+R423 UT [FireGL V7100 (PCIE)]
+264VT [Mach64 VT]
+264VT3 [Mach64 VT3]
+264VT4 [Mach64 VT4]
+RS300 Host Bridge
+Radeon 9100 IGP Host Bridge
+Radeon 9100 IGP
+Radeon 9100 IGP AGP Bridge
+RV280 [Radeon 9200 SE (PCI)]
+RV280 [Radeon 9200 PRO]
+RV280 [Radeon 9200]
+RV280 [Radeon 9200 SE]
+PCI Bridge [IGP 320M]
+PCI Bridge [IGP 340M]
+Radeon 9100 PRO IGP
+Radeon Mobility 9200 IGP
+RV350 AQ [Radeon 9600 SE]
+AGP Bridge [IGP 320M]
+US201
+82C592-FC1
+82C593-FC1
+82C594-AFC2
+82C596/7 [Wildcat]
+82C597-AFC2
+82C541 [Lynx]
+82C543 [Lynx]
+82C532
+82C534 [Eagle]
+82C538
+82C535
+82C147
+82C975
+82C925
+QSound ThunderBird PCI Audio
+Thunderbird
+VAS96011 [Golden Gate II]
+Tollgate
+ALG2032/2064
+ALG2364A
+ALG2301
+ALG2302
+ALG2364
+ALG2564A/25128A
+DP83810
+87415/87560 IDE
+87560 Legacy I/O
+CS5535 Host bridge
+CS5535 ISA bridge
+CS5535 IDE
+CS5535 Audio
+CS5535 USB
+CS5535 Video
+SCx200 Bridge
+SCx200 SMI
+SCx200 IDE
+SCx200 Audio
+SCx200 Video
+SCx200 XBus
+SC1100 Bridge
+SC1100 SMI
+SC1100 XBus
+87410 IDE
+ET4000/W32p rev A
+ET4000/W32p rev B
+ET4000/W32p rev C
+ET4000/W32p rev D
+ET6000
+ET6300
+P9000 Viper
+P9100 Viper Pro/SE
+DECchip 21050
+DECchip 21040 [Tulip]
+DECchip 21030 [TGA]
+NVRAM [Zephyr NVRAM]
+KZPSA [KZPSA]
+DECchip 21140 [FasterNet]
+21230 Video Codec
+PBXGB [TGA2]
+DEFPA
+DECchip 21041 [Tulip Pass 3]
+DGLPB [OPPO]
+DECchip 21142/43
+DECchip 21052
+DECchip 21150
+DECchip 21152
+DECchip 21153
+DECchip 21154
+56k Modem Cardbus
+DECchip 21553
+DECchip 21554
+StrongARM DC21285
+GD 7548
+GD 5430/40 [Alpine]
+GD 5432 [Alpine]
+GD 5434-4 [Alpine]
+GD 5434-8 [Alpine]
+GD 5436 [Alpine]
+GD 5440
+GD 5446
+GD 5480
+GD 5462
+GD 5462 [Laguna I]
+GD 5464 [Laguna]
+GD 5464 BD [Laguna]
+GD 5465 [Laguna]
+GD 5436U
+CL 6729
+PD 6832 PCMCIA/CardBus Ctrlr
+PD 6834 PCMCIA/CardBus Ctrlr
+PD 6833 PCMCIA/CardBus Ctrlr
+GD 7542 [Nordic]
+GD 7543 [Viking]
+GD 7541 [Nordic Light]
+CD 4400
+Crystal CS4281 PCI Audio
+PCI to MCA Bridge
+Alta Lite
+Alta MP
+Fire Coral
+TR Auto LANstreamer
+GXT-150P
+Carrera
+82G2675
+GXT1000 Graphics Adapter
+IBM27-82351
+Python
+SCSI RAID Adapter [ServeRAID]
+2 Port Serial Adapter
+Miami
+82660 CPU to PCI Bridge
+SSA Adapter
+MPIC interrupt controller
+Warhead SCSI Controller
+ATM Controller (14104e00)
+ATM Controller (14104f00)
+ATM Controller (14105000)
+25 MBit ATM Controller
+MPEG PCI Bridge
+i82557B 10/100
+GXT800P Graphics Adapter
+ATM Controller (14107c00)
+3780IDSP [MWave]
+EADS PCI to PCI Bridge
+GXT3000P Graphics Adapter
+GXT 3000P
+20H2999 PCI Docking Bridge
+ATM Controller (1410a500)
+GXT2000P Graphics Adapter
+Gigabit Ethernet-SX Adapter
+Yotta Video Compositor Input
+Yotta Video Compositor Output
+405GP PLB to PCI Bridge
+622Mbps ATM PCI Adapter
+64bit/66MHz PCI ATM 155 MMF
+GXT4000P Graphics Adapter
+GXT6000P Graphics Adapter
+GXT300P Graphics Adapter
+Snipe chipset SCSI controller
+EADS-X PCI-X to PCI-X Bridge
+ServeRAID Controller
+64bit/66MHz PCI ATM 155 UTP
+Cryptographic Accelerator
+10/100 Mbps Ethernet
+Multiport Serial Adapter
+GXT6500P Graphics Adapter
+GXT4500P Graphics Adapter
+GXT135P Graphics Adapter
+PCI-X Dual Channel SCSI
+Winnipeg PCI-X Host Bridge
+MPIC-2 interrupt controller
+SPEA 3D Accelerator
+100VG ethernet
+33C193A
+33C196A
+33C197A
+33C296A
+7193
+7197
+34C296
+Pipeline 9710
+Pipeline 9712
+EIDE & SCSI Controller
+Multimedia card
+MegaRAC
+79c970 [PCnet32 LANCE]
+79c978 [HomePNA]
+Am 1771 MBW [Alchemy]
+53c974 [PCscsi]
+79c974
+ELanSC520 Microcontroller
+AMD-751 [Irongate] AGP Bridge
+AMD-IGR4 PCI to PCI Bridge
+AMD-760 [IGD4-1P] AGP Bridge
+AMD-755 [Cobra] ISA
+AMD-755 [Cobra] IDE
+AMD-755 [Cobra] ACPI
+AMD-755 [Cobra] USB
+AMD-756 [Viper] ISA
+AMD-756 [Viper] IDE
+AMD-756 [Viper] ACPI
+AMD-756 [Viper] USB
+AMD-766 [ViperPlus] ISA
+AMD-766 [ViperPlus] IDE
+AMD-766 [ViperPlus] ACPI
+AMD-766 [ViperPlus] USB
+AMD-768 [Opus] ISA
+AMD-768 [Opus] IDE
+AMD-768 [Opus] ACPI
+AMD-768 [Opus] Audio
+AMD-768 [Opus] PCI
+AMD-768 [Opus] USB
+AMD-8131 PCI-X Bridge
+AMD-8131 PCI-X APIC
+AMD-8151 System Controller
+AMD-8151 AGP Bridge
+AMD-8111 PCI
+AMD-8111 USB
+AMD-8111 Ethernet
+AMD-8111 LPC
+AMD-8111 IDE
+AMD-8111 SMBus 2.0
+AMD-8111 ACPI
+AMD-8111 AC97 Audio
+AMD-8111 MC97 Modem
+82C194
+4DWave DX
+4DWave NX
+CyberBlade XP4m32
+CyberBlade/i7
+CyberBlade/i7d
+CyberBlade/i1
+CyberBlade i1
+CyberBlade XPAi1
+TGUI 9320
+Flat panel GUI Accelerator
+Cyber 9382 [Reference design]
+Cyber 9383 [Reference design]
+Cyber 9385 [Reference design]
+Cyber 9386
+Cyber 9388
+Cyber 9397
+Cyber 9397DVD
+TGUI 9420
+TGUI 9430
+TGUI 9440
+TGUI 9460
+TGUI 9470
+Cyber 9520
+Cyber 9525
+Cyber 9540
+TGUI 9660/938x/968x
+TGUI 9680
+TGUI 9682
+TGUI 9683
+ProVIDIA 9685
+3DImage 9750
+TGUI 9753
+TGUI 9754
+TGUI 975
+TGUI 9783
+TGUI 9785
+3DImage 9850
+Blade 3D PCI/AGP
+CyberBlade/XP
+CyberBlade/XPm
+M1435
+M1445
+M1449
+M1451
+M1461
+M1489
+M1511
+ALI M1512 Aladdin
+M1513
+ALI M1523 ISA Bridge
+M1533 PCI-to-ISA Bridge
+M1541 Northbridge [Aladdin V]
+M1542 Northbridge [Aladdin V]
+M1561 Northbridge [Aladdin 7]
+Northbridge [CyberALADDiN-P4]
+M3141
+M3143
+M3145
+M3147
+M3149
+M3151
+M3307 MPEG-I Video Controller
+M4803
+ALI PCI EIDE Controller
+M5217H
+M5219
+M5225
+M5229
+M5235
+M5237 PCI USB Host Controller
+General Purpose Controller
+PCI to PCI Bridge Controller
+Floppy Disk Controller
+M1541 PCI to PCI Bridge
+M5251 P1394 Controller
+PCI to AGP Bridge
+Remote Access Card III
+Remote Access Card 4
+HYDRA
+ASPEN
+AIC-7899P U160/m
+MGA-I [Impression?]
+MGA 1064SG [Mystique]
+MGA-II [Athena]
+MGA 2064W [Millennium]
+MGA 2164W [Millennium II]
+MGA 1064SG [Mystique] AGP
+MGA 2164W [Millennium II] AGP
+MGA G200
+MGA G200 AGP
+MGA G400 AGP
+MGA Parhelia AGP
+MGA Ultima/Impression
+MGA G100 [Productiva]
+MGA G100 [Productiva] AGP
+MGA Mistral
+MGA G550 AGP
+MGA G650 AGP
+VIA Framegrabber
+F64310
+F69000 HiQVideo
+F65545
+F65548
+F65550
+F65554
+F65555 HiQVPro
+F68554
+F68554 HiQVision
+F68555
+F69030
+3328 Audio
+r4x00
+ATM Meteor 155
+TC86C001 [goku-s] IDE
+DC20 ASIC
+Media 3D
+MiroVideo DC10/DC30+
+PCI to 486-like bus Bridge
+PCI to VL98 Bridge
+R4000 PCI Bridge
+PC-9800 Graphic Accelerator
+PCI to UX-Bus Bridge
+PCI to VL Bridge
+[Nile II]
+Vrc4373 [Nile I]
+PowerVR PCX1
+PowerVR 3D
+Star Alpha 2
+PCI to C-bus Bridge
+NAPCCARD Cardbus Controller
+PowerVR PCX2 [midas]
+Vrc5074 [Nile 4]
+Firewarden
+PowerVR Neon 250 Chipset
+56k Voice Modem
+Vrc5476
+VRC4173
+VRC5477 AC97
+IEEE 1394 Host Controller
+Vr4131
+VR7701
+TMC-18C30 [36C70]
+SG86C202
+85C501/2/3
+SiS85C503/5513 (LPC Bridge)
+SiS961/2 SMBus Controller
+SiS SATA
+5597/5598/6326 VGA
+82C204
+SG86C205
+85C501/2
+85C496
+530 Host
+540 Host
+550 Host
+5513C
+85C601
+620 Host
+630 Host
+633 Host
+635 Host
+SiS 645xx
+650/M650 Host
+651 Host
+655 Host
+660 Host
+661FX/M661FX/M661MX Host
+730 Host
+733 Host
+735 Host
+740 Host
+741/741GX/M741 Host
+745 Host
+746 Host
+755 Host
+760/M760 Host
+SiS900 PCI Fast Ethernet
+SiS961 [MuTIOL Media IO]
+SiS962 [MuTIOL Media IO]
+SiS963 [MuTIOL Media IO]
+SiS964 [MuTIOL Media IO]
+SiS965 [MuTIOL Media IO]
+83C602
+5107
+SiS540 PCI Display Adapter
+486 PCI Chipset
+5511/5512
+5513 [IDE]
+5517
+5571
+5581 Pentium Chipset
+5582
+5591/5592 Host
+5596 Pentium Chipset
+5597 [SiS5582]
+5600 Host
+VGA Controller
+6236 3D-AGP
+86C326 5598/6326
+USB 1.0 Controller
+USB 2.0 Controller
+Sound Controller
+SiS PCI Audio Accelerator
+SiS7019 Audio Accelerator
+A4977A Visualize EG
+Visualize FX6
+Visualize FX4
+Visualize FX2
+J2973A DeskDirect 10BaseT NIC
+J2585B DeskDirect 10/100 NIC
+PCI Local Bus Adapter
+Visualize FXe
+NetServer Smart IRQ Router
+TopTools Remote Control
+82557B 10/100 NIC
+NetServer SMIC Controller
+zx1 System Bus Adapter
+zx1 I/O Controller
+zx1 Local Bus Adapter
+sx1000 I/O Controller
+Auxiliary Diva Serial Port
+E2910A PCIBus Exerciser
+PC Tech RZ1000
+PC Tech RZ1001
+Samurai_0
+Samurai_1
+Samurai_IDE
+ISDNLink P-IN100-ST-D
+v7100 SDRAM [GeForce2 MX]
+v8200 GeForce 3
+Domino RAID Engine
+SmartRAID V Controller
+92C264
+92C178
+82X556 [Viper]
+82C557 [Viper-M]
+82C558 [Viper-M ISA+IDE]
+82C750 [Vendetta], device 0
+82C750 [Vendetta], device 1
+82C621 [Viper-M/N+]
+82C700 [FireStar]
+82C701 [FireStar Plus]
+82C814 [Firebridge 1]
+82C822
+82C824
+82C825 [Firebridge 2]
+82C832
+82C861
+82C895
+IDE [FireStar]
+Gladiac MX
+QuickStep 1000
+QuickStep 3000
+Gloria XL
+STG 2000X
+STG 1764X
+STPC Atlas ISA Bridge
+STPC Consumer S Southbridge
+STPC Consumer IIA Southbridge
+STPC Client Northbridge
+MPEG-II decoder card
+STPC Client Southbridge
+Flashpoint LT
+100 MBit LAN Controller
+Eagle i/f AS
+TVP4010 [Permedia]
+TVP4020 [Permedia 2]
+PCI4410 FireWire Controller
+PCI4451 IEEE-1394 Controller
+PCI4510 IEEE-1394 Controller
+TDC1570
+TDC1561
+TMS320C6205 Fixed Point DSP
+PCI1050
+PCI1053
+PCI1130
+PCI1031
+PCI1131
+PCI1250
+PCI1220
+PCI1260
+PCI1221
+PCI1210
+PCI1450
+PCI1225
+PCI1251A
+PCI1211
+PCI1251B
+TI 2030
+PCI2031
+PCI2032 PCI Docking Bridge
+PCI2250 PCI-to-PCI Bridge
+PCI2050 PCI-to-PCI Bridge
+PCI1420
+PCI1620 PC Card Controller
+PCI 7620
+PCI7420 CardBus Controller
+FireWire Host Controller
+CXD1947Q i.LINK Controller
+CXD3222 i.LINK Controller
+Rockwell HCF 56K modem
+OTI-64017
+OTI-107 [Spitfire]
+Video Adapter
+OTI-64111 [Spitfire]
+OTI-64217
+OTI-64317
+NE2000
+W83769F
+W82C105
+W89C840
+W89C940
+W89C940F
+W6692
+W99200F MPEG-1 Video Encoder
+W9970CF
+SLC90E66 [Victory66] IDE
+SLC90E66 [Victory66] ISA
+SLC90E66 [Victory66] USB
+SLC90E66 [Victory66] ACPI
+MPC105 [Eagle]
+MPC106 [Grackle]
+MPC8240 [Kahlua]
+MPC107
+MPC8245 [Unity]
+MPC8540
+MPC8560
+MC145575 [HFC-PCI]
+KTI829c 100VG
+MPC8265A/MPC8266
+MPC8271/MPC8272
+Raven
+Falcon
+Hawk
+CPX8216
+20268
+SM56 PCI Modem
+MPC5200
+20263
+20275
+PDC20318 (SATA150 TX4)
+PDC20319 (FastTrak S150 TX4)
+PDC20375 (SATA150 TX2plus)
+PDC20376 (FastTrak 376)
+20246
+PDC20262 (FastTrak66/Ultra66)
+PDC20268 (Ultra100 TX2)
+20269
+PDC20276 (MBFastTrak133 Lite)
+DC5300
+PDC20271 (FastTrak TX2000)
+PDC20618 (Ultra 618)
+PDC20619 (FastTrak TX4000)
+PDC20277 (SBFastTrak133 Lite)
+Imagine 128
+Imagine 128-II
+Revolution 4
+UM82C881
+UM82C886
+UM8673F
+UM8881
+UM8886F
+UM8891A
+UM886A
+UM8886BF
+EIDE Master/DMA
+UM8710
+UM8886A
+UM8881F
+UM9017F
+UM9018
+UM9026
+UM8881N
+UM8886N
+UM8891N
+AGX016
+IIT3204/3501
+PT80C826
+AccelGraphics AccelECLIPSE
+DAC960P
+DAC960PD
+DAC960PG
+DAC960LA
+Bandit PowerPC host bridge
+Grand Central I/O
+Control Video
+PlanB Video-In
+O'Hare I/O
+Hydra Mac I/O
+Heathrow Mac I/O
+Paddington Mac I/O
+UniNorth FireWire
+UniNorth Internal PCI
+UniNorth PCI
+UniNorth AGP
+UniNorth GMAC (Sun GEM)
+KeyLargo Mac I/O
+KeyLargo/Pangea Mac I/O
+KeyLargo/Pangea USB
+UniNorth/Pangea AGP
+UniNorth/Pangea PCI
+UniNorth/Pangea Internal PCI
+UniNorth 1.5 AGP
+UniNorth 1.5 PCI
+UniNorth 1.5 Internal PCI
+UniNorth/Pangea FireWire
+UniNorth 2 FireWire
+UniNorth 2 GMAC (Sun GEM)
+UniNorth 2 ATA/100
+UniNorth 2 AGP
+UniNorth 2 PCI
+UniNorth 2 Internal PCI
+UniNorth/Intrepid ATA/100
+KeyLargo/Intrepid Mac I/O
+KeyLargo/Intrepid USB
+K2 KeyLargo USB
+K2 KeyLargo Mac/IO
+K2 FireWire
+K2 ATA/100
+K2 HT-PCI Bridge
+U3 AGP
+K2 GMAC (Sun GEM)
+Shasta Mac I/O
+Shasta IDE
+Shasta (Sun GEM)
+Shasta Firewire
+Shasta PCI Bridge
+U3L AGP Bridge
+PowerPC ISA/PCI Motherboard
+100-BaseT LAN
+Mitac 8060B Mobile Platform
+3D GUI Accelerator
+YMF-740
+YMF-724
+DS1 Audio
+DS1L Audio
+DS-1 Audio
+DS2416 Digital Mixing Card
+82c500/1
+ISP1020 Fast-wide SCSI
+ISP1022 Fast-wide SCSI
+ISP1080 SCSI Host Adapter
+ISP1240 SCSI Host Adapter
+ISP1280 SCSI Host Adapter
+QLA2312 Fibre Channel Adapter
+5510 [Grappa]
+PCI Master
+5520 [Cognac]
+5530 Legacy [Kahlua]
+5530 SMI [Kahlua]
+5530 IDE [Kahlua]
+5530 Audio [Kahlua]
+5530 Video [Kahlua]
+ZFMicro PCI Bridge
+ZFMicro Chipset SMI
+ZFMicro Chipset IDE
+ZFMicro Expansion Bus
+P86C850
+WinFast 3D S320 II
+5515 ATM Adapter [Flipper]
+100 VG AnyLan Controller
+5535-4P-BRI-ST
+5535-4P-BRI-U
+5535-1P-SR
+5535-1P-SR-ST
+5535-1P-SR-U
+5535-1P-PRI
+5535-2P-PRI
+5536-4P-BRI-ST
+5536-4P-BRI-U
+5536-1P-PRI
+5536-2P-PRI
+SL82C105
+82C599
+Cypress CY82C691
+82c693
+Radius PCI to NuBUS Bridge
+FR710
+VME Bridge Model 617
+VME Bridge Model 618
+dataBLIZZARD
+VME Bridge Model 2706
+16/4 Token Ring
+OC-2315
+OC-2325
+OC-2183/2185
+OC-2326
+Happy Meal
+RIO EBUS
+RIO GEM
+RIO 1394
+RIO USB
+Simba Advanced PCI Bridge
+SunPCI Co-processor
+Psycho PCI Bus Module
+Schizo PCI Bus Module
+Ultra IIi
+Ultra IIe
+Tomatillo PCI Bus Module
+Cassini 10/100/1000
+3D graphics processor
+3D graphics frame buffer
+Proprietary bus bridge
+Powerstorm 4D50T
+Motion JPEG codec
+Speedstar Pro SE
+Speedstar 64
+Viper V550
+Supra 2260 Modem
+SupraExpress 56i Pro
+Viper V330
+Maximum DVD
+Stealth SE
+Stealth 64/SE
+Stealth
+Stealth 64
+PCI-DIO-96
+PCI-MIO-16XE-50
+PCI-MIO-16XE-10
+PCI-MIO-16E-1
+PCI-MIO-16E-4
+PCI-6031E
+PCI-6071E
+PCI-6110
+PCI-6111
+PCI-6503
+PCI-6713
+PCI-6711
+PCI-6052E
+PCI-6733
+PCI-6036E
+PCI-6023E
+PCI-6024E
+PCI-6025E
+PCI-6035E
+PCI-6034E
+IMAQ-PCI-1408
+IMAQ-PXI-1408
+IMAQ-PCI-1424
+IMAQ-PCI-1413
+IMAQ-PCI-1407
+IMAQ-PXI-1407
+IMAQ-PCI-1411
+IMAQ-PCI-1422
+IMAQ-PXI-1422
+IMAQ-PXI-1411
+PCI-GPIB
+PCI-GPIB bridge
+PCI0640
+PCI0643
+PCI0646
+PCI0647
+PCI0648
+PBC0650A
+USB0670
+USB0673
+QD-8500
+QD-8580
+Bt848 Video Capture
+Bt849A Video capture
+Bt878 Video Capture
+Bt879(?) Video Capture
+Bt879 Video Capture
+Bt880 Video Capture
+Bt878 Audio Capture
+Bt879 Audio Capture
+Bt880 Audio Capture
+BtV 2164
+BtV 2165
+Bt8472
+Bt8474
+SmartPCI562 56K Modem
+SmartPCI561 modem
+STB Horizon 64
+Crosstalk to PCI Bridge
+Linc I/O controller
+IOC3 I/O controller
+O2 MACE
+RAD Audio
+HPCEX
+RPCEX
+DiVO VIP
+AceNIC Gigabit Ethernet
+AMP Video I/O
+GRIP
+SGH PSHAC GSN
+Magic Carpet
+Lithium
+Dual JPEG 1
+Dual JPEG 2
+Dual JPEG 3
+Dual JPEG 4
+Dual JPEG 5
+Cesium
+IOC4 I/O controller
+Fibre Channel
+ASDE
+O2 1394
+G-net NT
+ACCM 2188
+SL82C103
+SL82c103
+SL82c105
+W83C553
+DB87144
+Velocity 128 3D
+i960 PCI bus interface
+Thales PCSM Security Card
+PCI <-> IOBus Bridge Hot Swap
+9036
+PCI <-> IOBus Bridge
+Francois
+9060
+9060SD
+9060ES
+9080
+Smart 16/4 PCI Ringnode
+Smart 16/4 PCI Ringnode Mk2
+Smart 16/4 PCI Ringnode Mk3
+Smart 16/4 PCI Ringnode Mk1
+16/4 Cardbus Adapter
+Presto PCI Adapter
+Smart 100/16/4 PCI Ringnode
+16/4 CardBus Adapter Mk2
+3c985 1000BaseSX (SX/TX)
+3C910-A01
+Mini PCI 56k Winmodem
+3c339 TokenLink Velocity
+3c359 TokenLink Velocity XL
+3c450 HomePNA [Tornado]
+3c555 Laptop Hurricane
+3cCFE575CT CardBus [Cyclone]
+3c590 10BaseT [Vortex]
+3c595 100BaseTX [Vortex]
+3c595 100BaseT4 [Vortex]
+3c595 100Base-MII [Vortex]
+3c597 EISA Fast Demon/Vortex
+3c556B CardBus [Tornado]
+3cCFE656 CardBus [Cyclone]
+3cSOHO100-TX Hurricane
+3c803 FDDILink UTP Controller
+3c804 FDDILink SAS Controller
+3c805 FDDILink DAS Controller
+3c940B 10/100/1000Base-T
+Token ring
+3c900 10BaseT [Boomerang]
+3c900B-FL 10base-FL [Cyclone]
+3c905 100BaseTX [Boomerang]
+3c905 100BaseT4 [Boomerang]
+3c905B 100BaseTX [Cyclone]
+3c905C-TX/TX-M [Tornado]
+3CSOHO100B-TX 910-A01 [tulip]
+3C990-TX [Typhoon]
+3CR990-TX-95 [Typhoon 56-bit]
+3C990SVR [Typhoon Server]
+FDC 37c665
+FDC 37C922
+SMC2802W [EZ Connect g]
+83C170QF
+SMC34C90
+CMI8338/C3DX PCI Audio Device
+Multi-IO Card
+M1511 [Aladdin]
+M1512 [Aladdin]
+M1513 [Aladdin]
+M1521 [Aladdin III]
+M1523
+M1531 [Aladdin IV]
+M1541
+M1543
+M1621
+M1632M Northbridge+Trident
+M1646 Northbridge+Trident
+M3307
+M3309
+M3325 Video/Audio Decoder
+MS4803
+M5229 IDE
+USB 1.1 Controller
+M1541 PCI to AGP Controller
+AGP8X Controller
+M5249 HTT to PCI Bridge
+M5261 Ethernet Controller
+M5263 Ethernet Controller
+M5457 AC'97 Modem Controller
+M5471 Memory Stick Controller
+M5473 SD-MMC Controller
+NE-34
+NM2070 [MagicGraph 128]
+NM2090 [MagicGraph 128V]
+NM2093 [MagicGraph 128ZV]
+NM2160 [MagicGraph 128XD]
+NM2200 [MagicGraph 256AV]
+NM2360 [MagicMedia 256ZX]
+NM2380 [MagicMedia 256XL+]
+NM2230 [MagicGraph 256AV+]
+NM2093 [MagicGraph 128ZV+]
+Articia S Host Bridge
+Articia S PCI Bridge
+ASC1100
+ABP940-U / ABP960-U
+ABP940-UW
+ABP940-U2W
+mb86605
+MX98713
+MX987x5
+MX86250
+MX86200
+TC4048 Token Ring 4/16
+Tl3c3x9
+STAR/RD24 SCI-PCI (PMC)
+HIPPI destination
+HIPPI source
+ATT2C15-3 FPGA
+NV1 [EDGE 3D]
+NV2 [Mutara V08]
+NV4 [RIVA TNT]
+NV5 [RIVA TNT2/TNT2 Pro]
+NV5 [RIVA TNT2 Ultra]
+NV5 [Riva TnT2]
+NV6 [Vanta/Vanta LT]
+NV6 [Vanta]
+MCP04 SMBus
+MCP04 IDE
+MCP04 Serial ATA Controller
+MCP04 Ethernet Controller
+MCP04 AC'97 Audio Controller
+MCP04 USB Controller
+MCP04 PCI Bridge
+nv40 [GeForce 6800 Ultra]
+NV40 [GeForce 6800]
+NV40.2
+NV40.3
+NV40 [GeForce 6800 GT]
+NV40GL
+NV40GL [Quadro FX 4000]
+CK804 SMBus
+CK804 IDE
+CK804 Serial ATA Controller
+CK804 Ethernet Controller
+CK804 AC'97 Audio Controller
+CK804 USB Controller
+CK804 PCI Bridge
+CK804 PCIE Bridge
+CK804 Memory Controller
+nForce2 ISA Bridge
+nForce2 SMBus (MCP)
+nForce2 IDE
+nForce2 Ethernet Controller
+nForce2 USB Controller
+nForce2 External PCI Bridge
+nForce2 PCI Bridge
+MCP2A SMBus
+MCP2A IDE
+MCP2A Ethernet Controller
+MCP2A USB Controller
+MCP2S AC'97 Audio Controller
+MCP2A PCI Bridge
+nForce2 Serial ATA Controller
+NV5 [Aladdin TNT2]
+NV41.0
+NV41.1
+NV41.2
+NV41.8
+NV41GL
+nForce3 LPC Bridge
+nForce3 Host Bridge
+nForce3 AGP Bridge
+nForce3 SMBus
+nForce3 IDE
+nForce3 Ethernet
+nForce3 USB 1.1
+nForce3 USB 2.0
+nForce3 Audio
+nForce3 PCI Bridge
+CK8S Ethernet Controller
+nForce3 250Gb Host Bridge
+CK8S USB Controller
+NV43 [GeForce 6600 GT]
+NV45GL [Quadro FX 3400]
+NV40 [GeForce 6800 Ultra]
+NV36 [GeForce PCX 5750]
+NV35 [GeForce PCX 5900]
+NV37GL [Quadro FX 330]
+NV38GL [Quadro FX 1300]
+NV18 [GeForce PCX 4300]
+NV10 [GeForce 256 SDR]
+NV10DDR [GeForce 256 DDR]
+NV10GL [Quadro]
+NV11 [GeForce2 MX/MX 400]
+NV11 [GeForce2 Go]
+NV11GL [Quadro2 MXR/EX]
+NV15 [GeForce2 GTS/Pro]
+NV15DDR [GeForce2 Ti]
+NV15GL [Quadro2 Pro]
+NV17 [GeForce4 MX 460]
+NV17 [GeForce4 MX 440]
+NV17 [GeForce4 MX 420]
+NV17 [GeForce4 MX 440-SE]
+NV17 [GeForce4 440 Go]
+NV17 [GeForce4 420 Go]
+NV17 [GeForce4 420 Go 32M]
+NV17 [GeForce4 460 Go]
+NV17GL [Quadro4 550 XGL]
+NV17 [GeForce4 440 Go 64M]
+NV17GL [Quadro4 200/400 NVS]
+NV17GL [Quadro4 550 GoGL]
+NV17 [GeForce4 410 Go 16M]
+NV18 [GeForce4 MX 440 AGP 8x]
+NV18 [GeForce4 MX 420 AGP 8x]
+NV18M [GeForce4 448 Go]
+NV18M [GeForce4 488 Go]
+NV18GL [Quadro4 580 XGL]
+NV18GL [Quadro4 NVS AGP 8x]
+NV18GL [Quadro4 380 XGL]
+nForce CPU bridge
+nForce Audio
+nForce ISA Bridge
+nForce PCI System Management
+nForce AGP to PCI Bridge
+nForce PCI-to-PCI bridge
+nForce IDE
+nForce AC'97 Modem Controller
+nForce USB Controller
+nForce Ethernet Controller
+nForce2 AGP
+nForce2 Memory Controller 0
+nForce2 Memory Controller 1
+nForce2 Memory Controller 2
+nForce2 Memory Controller 3
+nForce2 Memory Controller 4
+nForce2 Memory Controller 5
+NV20 [GeForce3]
+NV20 [GeForce3 Ti 200]
+NV20 [GeForce3 Ti 500]
+NV20DCC [Quadro DCC]
+NV25 [GeForce4 Ti 4600]
+NV25 [GeForce4 Ti 4400]
+NV25 [GeForce4 Ti]
+NV25 [GeForce4 Ti 4200]
+NV25GL [Quadro4 900 XGL]
+NV25GL [Quadro4 750 XGL]
+NV25GL [Quadro4 700 XGL]
+NV28 [GeForce4 Ti 4800]
+NV28 [GeForce4 Ti 4800 SE]
+NV28GL [Quadro4 980 XGL]
+NV28GL [Quadro4 780 XGL]
+NV28GLM [Quadro4 700 GoGL]
+NV30 [GeForce FX]
+NV30 [GeForce FX 5800 Ultra]
+NV30 [GeForce FX 5800]
+NV30GL [Quadro FX 2000]
+NV30GL [Quadro FX 1000]
+NV31 [GeForce FX 5600 Ultra]
+NV31 [GeForce FX 5600]
+NV31
+NV31 [GeForce FX 5600XT]
+NV31M [GeForce FX Go 5600]
+NV31M [GeForce FX Go5650]
+NVIDIA Quadro FX 700 Go
+NV34 [GeForce FX 5200]
+NV34 [GeForce FX 5200 Ultra]
+NV34 [GeForce FX 5200LE]
+NV34M [GeForce FX Go 5200]
+NV34M [GeForce FX Go5250]
+NV34 [GeForce FX 5500]
+NV34 [GeForce FX 5100]
+NV34M [GeForce FX Go5200]
+NV34GL [Quadro NVS 280 PCI]
+NV34GLM [GeForce FX Go 5300]
+NV34 [GeForce FX Go5100]
+NV34
+NV35 [GeForce FX 5900 Ultra]
+NV35 [GeForce FX 5900]
+NV35 [GeForce FX 5900XT]
+NV38 [GeForce FX 5950 Ultra]
+NV35 [GeForce FX 5900ZT]
+NV35GL [Quadro FX 3000]
+NV35GL [Quadro FX 700]
+NV36.2 [GeForce FX 5700]
+NV36 [GeForce FX 5700LE]
+NV36.4 [GeForce FX 5700VE]
+NV36.5
+NV36 [GeForce FX Go5700]
+NV36
+NV36 [Quadro FX Go1000]
+NV36GL [Quadro FX 1100]
+NV36GL
+LP1150e
+LP850 Fibre Channel Adapter
+LP952 Fibre Channel Adapter
+LP982 Fibre Channel Adapter
+LP1050
+LP1150
+LP11000e
+LP9802 Fibre Channel Adapter
+LP101
+LP11000
+IMS5026/27/28
+IMS5027
+IMS5028
+IMS8849
+IMS8853
+IMS9128 [Twin turbo 128]
+TRM-S1040
+DC-690c
+DC-290
+CA91C042 [Universe]
+CA91C860 [QSpan]
+CA91C862A [QSpan-II]
+S5930 [Matchmaker]
+S5920
+S5933_PARASTATION
+S5933 [Matchmaker]
+S5933_HEPC3
+PCI-9112
+PCI-9118
+PCI-9812
+PCI-IEEE1355-DS-DE Interface
+Multimedia video controller
+AJA HDNTV HD SDI Framestore
+IGA-1680
+IGA-1682
+IGA-1683
+CyberPro 2000
+CyberPro 2000A
+CyberPro 5000
+CyberPro 5050
+CyberPro 5202
+CyberPro5252
+Twist3 Frame Grabber
+RTL-8029(AS)
+RTL-8129
+RTL-8139/8139C/8139C+
+RTL-8169 Gigabit Ethernet
+RTL8180L 802.11b MAC
+SmartLAN56 56K Modem
+V7310
+RME Digi96
+RME Digi96/8
+RME Digi96/8 Pro
+RME Digi96/8 Pad
+RME Digi9652 (Hammerfall)
+RME Hammerfall DSP
+RME Hammerfall DSP MADI
+Ellips Santos Frame Grabber
+M815x Token Ring Adapter
+NDR4000 [NR4600 Bridge]
+TARGA 1000
+TH 6255
+Cardbus IDE Controller
+Cardbus SCSI CBSC II
+INI-A100U2W
+INI-9100/9100W
+INI-940
+INI-950
+360P
+SB Live! EMU10k1
+SB Audigy
+[SB Live! Value] EMU10k1X
+SB Audigy LS
+SB0400 Audigy2 Value
+SB Audigy FireWire Port
+SB Live! MIDI/Game Port
+SB Audigy MIDI/Game port
+SB Audigy LS MIDI/Game port
+SB0100 [SBLive! 5.1 OEM]
+Ectiva EV1938
+HPT343
+HPT366/368/370/370A/372
+HPT372A
+HPT302
+HPT371
+HPT374
+HPT372N
+VT6305 1394.A Controller
+VT8363/8365 [KT133/KM133]
+VT8371 [KX133]
+VT8501 [Apollo MVP4]
+VT82C505
+VT82C576MV
+VT82C576 3V [Apollo Master]
+VT82C585VP [Apollo VP1/VPX]
+VT82C595 [Apollo VP2]
+VT82C596 ISA [Mobile South]
+VT82C597 [Apollo VP3]
+VT82C598 [Apollo MVP3]
+VT8601 [Apollo ProMedia]
+VT8605 [ProSavage PM133]
+VT82C680 [Apollo P6]
+VT82C686 [Apollo Super South]
+VT82C693 [Apollo Pro Plus]
+VT82C693A [Apollo Pro133 AGP]
+VT82C926 [Amazon]
+VT82C570MV
+VT82C576M/VT82C586
+VT82C595/97 [Apollo VP2/97]
+CLE266
+VT82C586B ACPI
+VT86C100A [Rhine]
+VT82C596 Power Management
+VT6105M [Rhine-III]
+VT82C686 [Apollo Super ACPI]
+VT6102 [Rhine-II]
+VT8233 PCI to ISA Bridge
+VT8633 [Apollo Pro266]
+VT8653 Host Bridge
+VT8662 Host Bridge
+VT8615 Host Bridge
+VT6105 [Rhine-III]
+S3 Unichrome Pro VGA Adapter
+VT8233C PCI to ISA Bridge
+VT8361 [KLE133] Host Bridge
+VT8623 [Apollo CLE266]
+VT8753 [P4X266 AGP]
+VT3133 Host Bridge
+VT8233A ISA Bridge
+P4M266 Host Bridge
+P/KN266 Host Bridge
+VT6410 ATA133 RAID controller
+VT8235 ISA Bridge
+K8M800
+VT82C596 ACPI [Apollo PRO]
+VT85C100A [Rhine II]
+VT8231 [PCI-to-ISA Bridge]
+VT8235 ACPI
+VT8363/8365 [KT133/KM133 AGP]
+VT8371 [KX133 AGP]
+VT8501 [Apollo MVP4 AGP]
+VT82C596 [Apollo PRO AGP]
+VT82C597 [Apollo VP3 AGP]
+VT8601 [Apollo ProMedia AGP]
+VT8605 [PM133 AGP]
+VT82C691 [Apollo Pro]
+VT8633 [Apollo Pro266 AGP]
+VT8653 AGP Bridge
+VT8362 AGP Bridge
+VT8615 AGP Bridge
+VT8361 [KLE133] AGP Bridge
+VT8235 PCI Bridge
+VT8237 PCI Bridge
+p1690plus_AA
+p1690plus_AB
+P1690Plus
+EM110TX [EX110TX]
+Pirahna 2-port
+FSC PINC (I/O-APIC)
+DSCC4 WAN adapter
+FPGA I-Bus Tracer for MBD
+SZB6120
+Mpact Media Processor
+Mpact 2
+FDDI Adapter
+4 Port Fast Ethernet Adapter
+SMC2-1211TX
+EN-1216 Ethernet Adapter
+EN-1217 Ethernet Adapter
+10Mbps Network card
+SMC 1244TX v3
+DT3001
+DT3002
+DT3003
+DT3004
+DT3005
+DT3001-PGL
+DT3003-PGL
+Max-1C SVGA card
+Max-1C image processing
+GDT 6000/6020/6050
+GDT 6000B/6010
+GDT 6110/6510
+GDT 6120/6520
+GDT 6530
+GDT 6550
+GDT 6117/6517
+GDT 6127/6527
+GDT 6537
+GDT 6557/6557-ECC
+GDT 6115/6515
+GDT 6125/6525
+GDT 6535
+GDT 6555
+GDT 6555/6555-ECC
+GDT 6117RP/6517RP
+GDT 6127RP/6527RP
+GDT 6537RP
+GDT 6557RP
+GDT 6111RP/6511RP
+GDT 6121RP/6521RP
+GDT 6117RD/6517RD
+GDT 6127RD/6527RD
+GDT 6537RD
+GDT 6557RD
+GDT 6111RD/6511RD
+GDT 6121RD/6521RD
+GDT 6118RD/6518RD/6618RD
+GDT 6128RD/6528RD/6628RD
+GDT 6538RD/6638RD
+GDT 6558RD/6658RD
+GDT 6117RP2/6517RP2
+GDT 6127RP2/6527RP2
+GDT 6537RP2
+GDT 6557RP2
+GDT 6111RP2/6511RP2
+GDT 6121RP2/6521RP2
+GDT 6113RS/6513RS
+GDT 6123RS/6523RS
+GDT 6118RS/6518RS/6618RS
+GDT 6128RS/6528RS/6628RS
+GDT 6538RS/6638RS
+GDT 6558RS/6658RS
+GDT 6533RS/6633RS
+GDT 6543RS/6643RS
+GDT 6553RS/6653RS
+GDT 6563RS/6663RS
+GDT 7113RN/7513RN/7613RN
+GDT 7123RN/7523RN/7623RN
+GDT 7118RN/7518RN/7518RN
+GDT 7128RN/7528RN/7628RN
+GDT 7538RN/7638RN
+GDT 7558RN/7658RN
+GDT 7533RN/7633RN
+GDT 7543RN/7643RN
+GDT 7553RN/7653RN
+GDT 7563RN/7663RN
+GDT 4x13RZ
+GDT 4x23RZ
+GDT 8x13RZ
+GDT 8x23RZ
+GDT 8x33RZ
+GDT 8x43RZ
+GDT 8x53RZ
+GDT 8x63RZ
+GDT 6519RD/6619RD
+GDT 6529RD/6629RD
+GDT 7519RN/7619RN
+GDT 7529RN/7629RN
+GDT MAXRP
+GDT NEWRX
+155P-MF1 (FPGA)
+155P-MF1 (ASIC)
+ENI-25P ATM
+SpeedStream (LANAI)
+SpeedStream ADSL
+Powerbis Bridge
+Frame capture bus interface
+ForeRunner PCA-200 ATM
+PCA-200PC
+ForeRunner PCA-200EPC ATM
+ForeRunnerHE ATM Adapter
+MVC IC-PCI
+USB 1.1 Host Controller
+USB 2.0 Host Controller
+SmartPCI56(UCB1500) 56K Modem
+TriMedia TM1000/1100
+TriMedia TM-1300
+SAA7134
+SAA7145
+SAA7146
+EiconCard S90
+EiconCard S91
+EiconCard S94
+EiconCard P92
+Diva Pro 2.0 S/T
+Diva 2.0 S/T PCI
+Diva Pro 2.0 U
+Diva 2.0 U PCI
+Diva 2.01 S/T PCI
+Diva CT S/T PCI
+Diva CT U PCI
+Diva CT Lite S/T PCI
+Diva CT Lite U PCI
+Diva ISDN+V.90 PCI
+Diva 2.02 PCI S/T
+Diva 2.02 PCI U
+Diva ISDN Pro 3.0 PCI
+Diva ISDN+CT S/T PCI Rev 2
+Diva Server BRI-2M PCI
+Diva Server BRI S/T Rev 2
+Diva Server 4BRI-8M PCI
+Diva Server 4BRI Rev 2
+Diva Server PRI-30M PCI
+DIVA Server PRI Rev 2
+Diva Server Voice 4BRI PCI
+Diva Server Voice 4BRI Rev 2
+Diva Server BRI-2M 2.0 PCI
+Diva Server Voice PRI Rev 2
+Diva Server 2FX
+Diva Server PRI Rev 3
+Diva Server 2PRI
+Diva Server 4PRI
+Diva Server Analog-4P
+Diva Server Analog-8P
+Raceway Bridge
+Dual PCI to RapidIO Bridge
+Printer controller
+8905 [STD 32 Bridge]
+VGA Compatable 3D Graphics
+PCI-9060 i960 Bridge
+PCI-913
+SST-64P Adapter
+SST-128P Adapter
+SST-16P DB Adapter
+SST-16P RJ Adapter
+SST-16P Adapter
+SST-4P Adapter
+SST-8P Adapter
+AP6410
+ProVideo 6422
+ProVideo 6424
+ProMotion AT25
+ProMotion AT3D
+Noservo controller
+NinjaSCSI-32 Workbit
+NinjaSCSI-32 KME
+NinjaSCSI-32 Logitec
+NinjaSCSI-32 Melco
+Token Ring adapter
+VMIC PCI 7755 FPGA
+VMIVME-7587
+AccelePort EPC
+RightSwitch SE-6
+AccelePort Xem
+AccelePort Xr
+AccelePort Xr,C/X
+AccelePort Xr/J
+AccelePort EPC/J
+DataFirePRIme T1 (1-port)
+SyncPort 2-Port (x.25/FR)
+AccelePort 8r EIA-232 (IBM)
+AccelePort 8r EIA-422
+AccelePort EPC/X
+AccelePort C/X
+DataFirePRIme E1 (1-port)
+AccelePort C/X (IBM)
+DataFire RAS T1/E1/PRI
+AccelePort RAS
+DataFire RAS B4 ST/U
+AccelePort 4r 920
+AccelePort Xr 920
+ClassicBoard 4
+ClassicBoard 8
+AccelePort 2r 920
+DataFire DSP T1/E1/PRI cPCI
+AccelePort Xp
+AccelePort 2p
+AccelePort 4p
+AccelePort 8p
+AccelePort 16p
+AccelePort 32p
+Datafire Micro V (Europe)
+Digi Neo 4
+Digi Neo 8
+Digi Neo 2 DB9
+Digi Neo 2 DB9 PRI
+Digi Neo 2 RJ45
+Digi Neo 2 RJ45 PRI
+ClassicBoard 4 422
+ClassicBoard 8 422
+Avanstar
+Tokenet/vg 1001/10m anylan
+Lanfleet/Truevalue
+MV-1000
+Cardbus Ethernet 10/100
+Mini-PCI V.90 56k Modem
+Mini-PCI K56Flex Modem
+Cardbus 56k modem
+Cardbus Ethernet + 56k Modem
+Verite 1000
+Verite V2000/V2100/V2200
+CMIC-LE
+CNB20-LE Host Bridge
+CNB20HE Host Bridge
+CNB20LE Host Bridge
+CIOB30
+CMIC-HE
+CNB20-HE Host Bridge
+CMIC-GC Host Bridge
+GCNB-LE Host Bridge
+CIOB-X2 PCI-X I/O Bridge
+OSB4 South Bridge
+CSB5 South Bridge
+CSB6 South Bridge
+OSB4 IDE Controller
+CSB5 IDE Controller
+CSB6 RAID/IDE Controller
+CSB6 IDE Controller
+OSB4/CSB5 OHCI USB Controller
+CSB6 OHCI USB Controller
+CSB5 LPC bridge
+GCLE-2 Host Bridge
+K2 SATA
+Bus/Tag Channel
+Escon Channel
+EX-IDE Type-B
+DVD Decoder card
+Tecra Video Capture device
+DVD Decoder card (Version 2)
+ToPIC95
+ToPIC97
+FIR Port
+SD TypA Controller
+FIR Port Type-DO
+RL5c465
+RL5c466
+RL5c475
+RL5c476 II
+RL5c477
+RL5c478
+R5C522 IEEE 1394 Controller
+R5C551 IEEE 1394 Controller
+R5C552 IEEE 1394 Controller
+DC21041
+DL10050 Sundance Ethernet
+RTL8139 Ethernet
+DFE-690TXD CardBus PC Card
+DFE-680TXD CardBus PC Card
+DRP-32TXD Cardbus PC Card
+DWL-G650+ CardBus PC Card
+DL2000-based Gigabit Ethernet
+Gigabit Ethernet Adapter
+Raptor-PCI framegrabber
+SCSI Cache Host Adapter
+ATP8400
+ATP850UF
+ATP860 NO-BIOS
+ATP860
+ATP865 NO-ROM
+ATP865
+AEC6710 SCSI-2 Host Adapter
+AEC6712UW SCSI
+AEC6712U SCSI
+AEC6712S SCSI
+AEC6712D SCSI
+AEC6712SUW SCSI
+82C092G
+FireStream 155
+FireStream 50
+W8300 802.11 Adapter (rev 07)
+Marvell W8300 802.11 Adapter
+Gigabit Ethernet Controller
+Fast Ethernet Controller
+GT-64115 System Controller
+GT-48001
+LNE100TX
+[Cinema]
+V300PSC
+V292PBC [Am29030/40 Bridge]
+V96xPBC
+V96DPC
+Quad PeerMaster
+SSA Controller
+NP-PCI
+LT WinModem
+WinModem 56k
+V90 WildWire Modem
+Venus Modem (V90, 56KFlex)
+V.92 56K WinModem
+V.92 56k WinModem
+USS-312 USB Controller
+USS-344S USB Controller
+FW323
+WL60010 Wireless LAN MAC
+ORiNOCO PCI Adapter
+Agere Wireless PCI Adapter
+PSB32 SCI-Adapter D31x
+PSB64 SCI-Adapter D32x
+PSB66 SCI-Adapter D33x
+16-line serial port w/- DMA
+4-line serial port w/- DMA
+PCI_9050
+SUPI_1
+T225
+VxP524
+Blackfin BF535 processor
+SM56 PCI modem
+AD1889 sound chip
+10115
+10117
+ZR36120
+PC Watchdog
+FDDI
+FASTline UTP Quattro
+FASTline FO
+FASTline UTP
+FASTline-II UTP
+FASTline-II FO
+GIGAline
+CAMAC controller
+ENet100VG4
+FreedomLine 100
+ReadyLink 2000
+RL100-ATX 10/100
+RL100TX Fast Ethernet
+PM7375 [LASAR-155 ATM SAR]
+RocketPort Plus 4 port
+RocketPort Plus 8 port
+RocketModem 6 port
+RocketModem 4-port
+RocketPort Plus 2 port RS232
+RocketPort Plus 2 port RS422
+RocketModem III 8 port
+RocketModem III 4 port
+RocketPort 4-port UART 16954
+AG-5
+HS-Link Device
+Cyclom-Y below first megabyte
+Cyclom-Y above first megabyte
+PC300/RSV or /X21 (2 ports)
+PC300/RSV or /X21 (1 port)
+PC300/TE (2 ports)
+PC300/TE (1 port)
+PC300/TE-M (2 ports)
+PC300/TE-M (1 port)
+PC400
+Roadrunner serial HIPPI
+OZ6729
+OZ6730
+OZ6812 Cardbus Controller
+OZ6922 Cardbus Controller
+OZ6933 Cardbus Controller
+OZ6912 Cardbus Controller
+OZ6933E CardBus Controller
+Voodoo
+Voodoo 2
+Voodoo Banshee
+Voodoo Banshee [Velocity 100]
+Voodoo 3
+Voodoo 4 / Voodoo 5
+Voodoo 3/3000 [Avenger]
+PM/Link
+PM/T1
+PM/E1
+PM/SLS
+BajaSpan Resource Target
+BajaSpan Section 0
+BajaSpan Section 1
+BajaSpan Section 2
+BajaSpan Section 3
+PM/PPC
+Raptor GFX 8P
+368DSP
+Trident PCI288-Q3DII (NX)
+RealMagic64/GX
+REALmagic 64/GX (SD 6425)
+EasyConnect 8/32
+EasyConnect 8/64
+EasyIO
+MPEG
+Cinemaster C 3.0 DVD Decoder
+B1 ISDN
+C4 ISDN
+A1 ISDN [Fritz]
+Fritz!PCI v2.0 ISDN
+C2 ISDN
+T1 ISDN
+Fritz!Card DSL SL
+Fritz!Card DSL v2.0
+EasyConnection 8/32
+EasyConnection 8/64
+EasyConnection/RA
+MPEG Forge
+MPEG Fusion
+VideoPlex
+VideoPlex CC
+VideoQuest
+PCI-2220I
+PCI-2240I
+PCI-2000
+RTL81xx Fast Ethernet
+ALFA GFC2204 Fast Ethernet
+Saturn 4520P
+Aries 16000P
+Solo?
+ES1968 Maestro 2
+ES1969 Solo-1 Audiodrive
+ES1978 Maestro 2E
+ES1988 Allegro-1
+ESS Modem
+ES2838/2839 SuperLink Modem
+ES2898 Modem
+Prism 2.5 Wavelan chipset
+NE10/100 Adapter (i82557B)
+PCR2101
+Telsat Turbo
+10/100BaseTX [RTL81xx]
+SM501 VoyagerGX
+SM710 LynxEM
+SM712 LynxEM+
+SM720 Lynx3DM
+SM731 Cougar3DR
+SM810 LynxE
+SM811 LynxE
+SM820 Lynx3D
+SM910
+DirecPC
+ES1371 [AudioPCI-97]
+ES1370 [AudioPCI]
+5880 AudioPCI
+TPE3/TM3 PowerPC Node
+TPE5 PowerPC PCI board
+LongRun Northbridge
+SDRAM controller
+BIOS scratchpad
+HCF 56k Data/Fax Modem
+HCF 56k Data/Fax/Voice Modem
+HCF 56k Modem
+HCF 56k Volcano PCI Modem
+HSF 56k Data/Fax Modem
+HSF 56k Data/Fax/Voice Modem
+Riptide HSF 56k PCI Modem
+Riptide PCI Audio Controller
+Riptide HCF 56k PCI Modem
+Riptide PCI Game Controller
+RapidFire 616X ATM155 Adapter
+Ethernet 100/10 MBit
+IT8330G
+IT8889F PCI to ISA Bridge
+LS220D DVD Decoder
+LS220C DVD Decoder
+ST128 WSS/SB
+ST128 SAM9407
+ST128 Game Port
+ST128 MPU Port
+ST128 Ctrl Port
+PBT-615 PCI-X Bus Analyzer
+T8105 H100 Digital Switch
+MPG-200C PCI DVD Decoder Card
+USR 56k Internal WinModem
+56K FaxModem Model 5610
+AN3041Q CO-MEM
+AN3042Q CO-MEM Lite
+PCI NE2K Ethernet
+Video Simulator/Sender
+THR2 Multi-scale Thresholder
+DAC64
+Riva128
+Riva128ZX
+UTNT2
+VTNT2
+ITNT2
+T1 Card
+cPCI Prosody
+Aculab E1/T1 PCI card
+CryptoSwift CS200
+ST16C654 Quad UART
+Vortex 1
+Vortex 2
+Vortex 56k Software Modem
+VideoMaker
+PCI-DAS1602/16
+PCI-DIO48H
+PCI-PDISO8
+PCI-PDISO16
+PCI-DAS1200
+PCI-DAS1602/12
+PCI-DIO24H
+PCI-DIO24H/CTR3
+PCI-DIO48H/CTR15
+PCI-DIO96H
+PCI-CTR05
+PCI-DAS1200/JR
+PCI-DAS1001
+PCI-DAS1002
+PCI-DAS1602JR/16
+PCI-DAS6402/16
+PCI-DAS6402/12
+PCI-DAS16/M1
+PCI-DDA02/12
+PCI-DDA04/12
+PCI-DDA08/12
+PCI-DDA02/16
+PCI-DDA04/16
+PCI-DDA08/16
+PCI-DAC04/12-HS
+PCI-DAC04/16-HS
+PCI-DIO24
+PCI-DAS08
+PCI-INT32
+PCI-DUAL-AC5
+PCI-DAS-TC
+PCI-DAS64/M1/16
+PCI-DAS64/M2/16
+PCI-DAS64/M3/16
+PCI-DAS1000
+PCI-QUAD04
+PCI-DAS4020/12
+PCI-DAS6025
+NetCelerator Adapter
+HSP MicroModem 56
+Xwave QS3000A [FM801]
+FM801 PCI Audio
+FM801 PCI Joystick
+CyberSerial (1-port) 16550
+CyberSerial (1-port) 16650
+CyberSerial (1-port) 16850
+Duet 1S(16550)+1P
+Duet 1S(16650)+1P
+Duet 1S(16850)+1P
+CyberParallel (1-port)
+CyberParallel (2-port)
+CyberSerial (2-port) 16550
+CyberSerial (2-port) 16650
+CyberSerial (2-port) 16850
+Trio 2S(16550)+1P
+Trio 2S(16650)+1P
+Trio 2S(16850)+1P
+CyberSerial (4-port) 16550
+CyberSerial (4-port) 16650
+CyberSerial (4-port) 16850
+Trio 1S(16550)+2P
+Trio 1S(16650)+2P
+Trio 1S(16850)+2P
+CyberSerial (8-port) ST16654
+ENP-2611
+82600 Host Bridge
+82600 IDE
+82600 USB
+82600 PCI Bridge
+Domex 536
+Domex DMX3194UP SCSI Adapter
+HSP56 MicroModem
+2304WT V.92 MDC Modem
+Proserver
+PCI-FUT
+PCI-S0
+PCI-FUT-S0
+QSC-100
+DSC-100
+DSC-200/300
+QSC-200/300
+ESC-100D
+ESC-100M
+QSCLP-100
+DSCLP-100
+SSCLP-100
+QSCLP-200/300
+DSCLP-200/300
+SSCLP-200/300
+Dual Port RS-232 Interface
+Four Port RS-232 Interface
+Eight Port RS-232 Interface
+8001 Digital I/O Adapter
+PCI32 DCF77 Radio Clock
+PCI509 DCF77 Radio Clock
+PCI510 DCF77 Radio Clock
+GPS167PCI GPS Receiver
+GPS168PCI GPS Receiver
+GPS169PCI GPS Receiver
+TCR510PCI IRIG Receiver
+KL5A72002 Motion JPEG
+GigaCard Network Adapter
+PCI-324 Audiowire Interface
+ARC88 audio recording card
+WG311T
+GA620 Gigabit Ethernet
+GA622
+GA630 Gigabit Ethernet
+FA310TX
+Smartio C104H/PCI
+Industrio CP-114
+Smartio C168H/PCI
+Intellio CP-204J
+Intellio C218 Turbo PCI
+Intellio C320 Turbo PCI
+LXT1001 Gigabit Ethernet
+7751 Security Processor
+6500 Public Key Processor
+7811 Security Processor
+7951 Security Processor
+78XX Security Processor
+8065 Security Processor
+8165 Security Processor
+8154 Security Processor
+XR17C154 Quad UART
+XR17C158 Octal UART
+SyncLink Adapter v1
+SyncLink SCC Adapter
+SyncLink Multiport Adapter
+SyncLink Adapter v2
+CEI-520 A429 Card
+CEI-620 A429 Card
+CEI-820 A429 Card
+PCI56RVP Modem
+ST201 Sundance Ethernet
+Zentai Fibre Channel Adapter
+CMI8738
+CM8338A
+CM8338B
+CM8738
+PCI-1752
+PCI-1754
+PCI-1756
+9432 TX
+Lava Dual Serial
+Lava Quatro A
+Lava Quatro B
+Quattro-PCI A
+Quattro-PCI B
+Lava Octo A
+Lava Octo B
+Lava Port Plus
+Lava Quad A
+Lava Quad B
+Lava Quattro PCI Ports A/B
+Lava Quattro PCI Ports C/D
+Lava Single Serial
+Lava Port 650
+Lava Parallel
+Lava Dual Parallel port A
+Lava Dual Parallel port B
+BOCA Research IOPPAR
+PCI2S550 (Dual 16550 UART)
+OXCB950 Cardbus 16950 UART
+OX16PCI952 (Dual 16950 UART)
+PCI-7296
+PCI-7432
+PCI-7433
+PCI-7434
+PCI-7841
+PCI-8133
+PCI-8164
+PCI-8554
+PCI-9111
+PCI-9113
+PCI-9114
+NextMove PCI
+PCI Card wireless 11g [PC54G]
+TPCI200
+Video Toaster for PC
+3D Prophet II MX
+DSL NIC
+Scope
+Pulsar
+PulsarSRB
+Pulsar2
+DSP-Board
+Symphony 4110
+PC4800
+PC4500
+Cisco Aironet Mini PCI b/g
+TK9902
+PCI230
+PCI242
+PCI244
+PCI247
+PCI248
+PCI249
+PCI260
+PCI224
+PCI234
+PCI236
+PCI272
+PCI215
+Sentry5 PCI Bridge
+Sentry5 Ethernet Controller
+Sentry5 Crypto Accelerator
+BCM3302 Sentry5 MIPS32 CPU
+BCM4401-B0 100Base-TX
+NetXtreme BCM5901 100Base-TX
+BCM3352
+BCM3360
+BCM4210 iLine10 HomePNA 2.0
+BCM4212 v.90 56k modem
+BCM4307 V.90 56k Modem
+BCM4307 Ethernet Controller
+BCM4310 UART
+BCM4310 Ethernet Controller
+BCM4310 USB Controller
+BCM4306 UART
+BCM4309 802.11a/b/g
+BCM43xG 802.11b/g
+BCM4401 100Base-T
+BCM4402 V.90 56k Modem
+BCM4413 iLine32 HomePNA 2.0
+BCM4413 V.90 56k modem
+BCM4412 10/100BaseT
+BCM4432 CardBus 10/100BaseT
+BCM4704 PCI to SB Bridge
+BCM4704 Crypto Accelerator
+BCM47xx V.92 56k modem
+Sentry5 USB Controller
+BCM4712 MIPS CPU
+BCM5365P Sentry5 Host Bridge
+BCM5820 Crypto Accelerator
+BCM5821 Crypto Accelerator
+BCM5822 Crypto Accelerator
+BCM5823 Crypto Accelerator
+BCM5824 Crypto Accelerator
+BCM5840 Crypto Accelerator
+BCM5841 Crypto Accelerator
+BCM5850 Crypto Accelerator
+RTL81xx RealTek Ethernet
+HSF 56k Modem
+HSF 56k HSFi Modem
+HSF 56k HSFi Data/Fax
+Winfast TV2000 XP
+EV1000 bridge
+EV1000 Parallel port
+EV1000 Serial port
+EV1000 Keyboard controller
+EV1000 Mouse controller
+2030 DVB-S Satellite Reciever
+QsNet Elan3 Network Adapter
+QsNetII Elan4 Network Adapter
+PCI-1002
+PCI-1004
+PCI-1008
+CB1211 Cardbus Controller
+CB1225 Cardbus Controller
+CB1410 Cardbus Controller
+CB-710/2/4 Cardbus Controller
+CB-712/4 Cardbus Controller
+CB1420 Cardbus Controller
+CB-720/2/4 Cardbus Controller
+CB-722/4 Cardbus Controller
+Aureon 5.1
+Aureon 5.1 Sky
+Intel 537 [Winmodem]
+Si3036 MC'97 DAA
+CCSI PCI20-485 ARCnet
+CCSI PCI20-485D ARCnet
+CCSI PCI20-485X ARCnet
+CCSI PCI20-CXB ARCnet
+CCSI PCI20-CXS ARCnet
+CCSI PCI20-FOG-SMA ARCnet
+CCSI PCI20-FOG-ST ARCnet
+CCSI PCI20-TB5 ARCnet
+CCSI PCI20-5-485 5Mbit ARCnet
+CCSI PCI22-485 10Mbit ARCnet
+CCSI PCI22-485D 10Mbit ARCnet
+CCSI PCI22-485X 10Mbit ARCnet
+CCSI PCI22-CHB 10Mbit ARCnet
+CCSI PCI22-THB 10Mbit ARCnet
+Parallel Port Card 2xEPP
+Virtual SVGA
+MT21108 InfiniBridge
+MT23108 InfiniHost
+MT23108 PCI Bridge
+MT25208 InfiniHost III Ex
+Wireless PCI Card
+FC5102
+Format synchronizer v3.0
+Fast Universal Data Output
+SmartPCI561 Modem
+Mini-PCI bridge
+WLAN 802.11b card
+AR5210 802.11a NIC
+AR5211 802.11ab NIC
+AR5212 802.11abg NIC
+GL24110P
+SafeXcel-1141
+Rocket Drive DL
+LEON2FT Processor
+UMIO communication card
+VW2010
+WMP54G Wireless Pci Card
+WMP54GS Wireless Pci Card
+Gigabit Network Adapter
+AC1000 Gigabit Ethernet
+AC1001 Gigabit Ethernet
+AC9100 Gigabit Ethernet
+AC1003 Gigabit Ethernet
+SIS1100 [Gigabit link]
+Counter Timer
+CAMAC Controller
+PROFIBUS
+AMCC HOTlink
+Wireless PCI Card - F5D6001
+Wireless PDA Card - F5D6060
+Wireless PCI Card - F5D7000
+GL880S USB 1.1 controller
+GL880S USB 2.0 controller
+PN672TX 10/100 Ethernet
+HaM controllerless modem
+HaM plus Data Fax Modem
+ISDN PCI DC-105V2
+MVC100 DVI
+MVC101 SDI
+MVC102 DVI+Audio
+MT23108 PCI-X HCA
+MT23108 PCI-X HCA bridge
+VMFX1 FPGA PMC module
+VSM2 dual PMC carrier
+FusionHDTV 3 Gold
+Volari V8
+Fastcom ESCC-PCI-335
+Fastcom 422/4-PCI-335
+Fastcom 422/2-PCI-335
+Fastcom IGESCC-PCI-ISO/1
+Fastcom 232/4-PCI-335
+SC15064
+82C101
+PM2x24/PM3224
+DC-390
+DC290
+E2200 Dual E1/Rawpipe Card
+8142 100VG/AnyLAN
+HB2 PCI-PCI Bridge
+E.Band [AudioTrak Inca88]
+VXPro II Chipset
+VXPro II IDE
+GLINT 300SX
+GLINT 500TX
+GLINT Delta
+Permedia
+GLINT MX
+3D Extreme
+GLINT Gamma G1
+Permedia II 2D+3D
+GLINT R3
+GLINT R3 [Oxygen VX1]
+GLint R4 rev A
+GLint R4 rev B
+GLint R5 rev A
+GLint R5 rev B
+VP10 visual processor
+VP9 visual processor
+Wildcat III 6210
+Wildcat IV 7210
+Glint VGA
+ALS300 PCI Audio Device
+ALS300+ PCI Audio Device
+PCI Input Controller
+ALG-2064
+ALG-2064i
+ALG-2364A GUI Accelerator
+ALG-2301
+ALG-2302
+AVG-2302 GUI Accelerator
+ALG-2364A
+ALG-2464
+ALG-2564A/25128A
+ALS4000 Audio Chipset
+ALC200/200P
+AladdinCARD
+iTVC15 MPEG-2 Encoder
+RedCreek PCI adapter
+LPCI-COM-8SM
+NV5000SC
+PLUSTEST device
+PLUSTEST-MM device
+MQ-200
+PCI Radio
+Daytona Audio Adapter
+Concert AudioPCI
+ProMotion aT3D
+Plato/PX (system)
+86c325 [ViRGE]
+86c866 [Vision 866]
+86c964 [Vision 964]
+86c764_0 [Trio 32 vers 0]
+86c764/765 [Trio32/64/64V+]
+86cM65 [Aurora64V+]
+86c764_3 [Trio 32/64 vers 3]
+86c767 [Trio 64UV+]
+86cM65 [Aurora 128]
+86c988 [ViRGE/VX]
+FireGL
+86c755 [Trio 64V2/DX]
+Plato/PX
+Trio 3D business multimedia
+Trio 64 3D
+Trio 64V+ family
+ViRGE/DX or /GX
+ViRGE/GX2
+86c368 [Trio 3D/2X]
+86c794 [Savage 3D]
+86c390 [Savage 3D/MV]
+Savage 4
+ProSavage PM133
+ProSavage KM133
+ViRGE/M3
+ViRGE/MX
+ViRGE/MX+
+ViRGE/MX+MV
+86C270-294 Savage/MX-MV
+82C270-294 Savage/MX
+86C270-294 Savage/IX-MV
+86C270-294 Savage/IX
+SuperSavage MX/128
+SuperSavage MX/64
+SuperSavage MX/64C
+SuperSavage IX/128 SDR
+SuperSavage IX/128 DDR
+SuperSavage IX/64 SDR
+SuperSavage IX/64 DDR
+SuperSavage IX/C SDR
+SuperSavage IX/C DDR
+86C380 [ProSavageDDR K4M266]
+VT8751 [ProSavageDDR P4M266]
+86C410 Savage 2000
+SonicVibes
+TL880-based HDTV/ATSC tuner
+S5933
+I-30xx Scanner Interface
+TURBOstor HFP-832 [HiPPI NIC]
+OpenSwitch12
+GPPCI
+PCCOM4
+PCCOM8
+WDOG1 [PCI-Watchdog 1]
+PWDOG2 [PCI-Watchdog 2]
+82379AB
+21145 Fast Ethernet
+82437FX
+80332 [Dobson] I/O processor
+80331 [Lindsay] I/O processor
+82375EB/SB PCI to EISA Bridge
+82437FX [Triton FX]
+E8870 Processor bus control
+E8870 Memory controller
+E8870 Scalability Port 0
+E8870 Scalability Port 1
+E8870IO RAS registers
+80303 I/O Processor
+80960RM [i960RM Bridge]
+82559 Ethernet Controller
+82559 InBusiness 10/100
+536EP Data Fax Modem
+PRO/10GbE LR Server Adapter
+82551QM Ethernet Controller
+82815 815 Chipset AGP Bridge
+82092AA PCI to PCMCIA Bridge
+82092AA IDE Controller
+SAA7116
+82452KX/GX [Orion]
+82596 PRO/10 PCI
+82865 EtherExpress PRO/100A
+82557/8/9 [Ethernet Pro 100]
+82371FB PIIX ISA [Triton I]
+82371FB PIIX IDE [Triton I]
+DSVD Modem
+440FX - 82441FX PMC [Natoma]
+82371FB PIIX IDE Interface
+82806AA PCI64 Hub PCI Bridge
+82870P2 P64H2 Hub PCI Bridge
+82870P2 P64H2 I/OxAPIC
+82801AA ISA Bridge (LPC)
+82801AA IDE
+82801AA USB
+82801AA SMBus
+82801AA AC'97 Audio
+82801AA AC'97 Modem
+82801AA PCI Bridge
+82801AB ISA Bridge (LPC)
+82801AB IDE
+82801AB USB
+82801AB SMBus
+82801AB AC'97 Audio
+82801AB AC'97 Modem
+82801AB PCI Bridge
+82801BA ISA Bridge (LPC)
+82801BA/BAM USB (Hub #1)
+82801BA/BAM SMBus
+82801BA/BAM USB (Hub #2)
+82801BA/BAM AC'97 Audio
+82801BA/BAM AC'97 Modem
+82801 Mobile PCI Bridge
+82801BAM IDE U100
+82801BA IDE U100
+82801BAM ISA Bridge (LPC)
+82801 PCI Bridge
+82801E ISA Bridge (LPC)
+82801E USB
+82801E SMBus
+82801E Ethernet Controller 0
+82801E IDE U100
+82801E Ethernet Controller 1
+82801E PCI Bridge
+82801CA/CAM USB (Hub #1)
+82801CA/CAM SMBus Controller
+82801CA/CAM USB (Hub #2)
+82801CA/CAM USB (Hub #3)
+82801CAM IDE U100
+82801CAM ISA Bridge (LPC)
+82801DB (ICH4) IDE Controller
+E7500 Memory Controller Hub
+E7501 Memory Controller Hub
+E7505 Memory Controller Hub
+E7505/E7205 PCI-to-AGP Bridge
+E7205 Memory Controller Hub
+82865G/PE/P PCI to CSA Bridge
+925X/XE Memory Controller Hub
+925X/XE PCI Express Root Port
+Mobile Memory Controller Hub
+Mobile Graphics Controller
+6300ESB SMBus Controller
+6300ESB Watchdog Timer
+6300ESB 64-bit PCI-X Bridge
+6300ESB SATA RAID Controller
+Server Hub Interface
+Server Hub IMI Registers
+Server Hub RAS Registers
+Server Hub Reserved Registers
+External Memory Bridge
+Integrated RAID
+GD31244 PCI-X SATA HBA
+82830 830 Chipset Host Bridge
+82830 830 Chipset AGP Bridge
+E7520 Memory Controller Hub
+E7320 Memory Controller Hub
+E7520 DMA Controller
+E7520 PCI Express Port B1
+E7520 PCI Express Port C
+E7520 PCI Express Port C1
+E7525 Memory Controller Hub
+PRO/Wireless 2200BG
+80310 IOP [IO Processor]
+430TX - 82439TX MTXC
+82371AB/EB/MB PIIX4 ISA
+82371AB/EB/MB PIIX4 IDE
+82371AB/EB/MB PIIX4 USB
+82371AB/EB/MB PIIX4 ACPI
+82440MX Host Bridge
+82440MX ISA Bridge
+82440MX EIDE Controller
+440GX - 82443GX Host bridge
+440GX - 82443GX AGP bridge
+82372FB PIIX5 ISA
+82372FB PIIX5 IDE
+82372FB PIIX5 USB
+82372FB PIIX5 SMBus
+IXP2400 Network Processor
+IXP2800 Network Processor
+21152 PCI-to-PCI Bridge
+21154 PCI-to-PCI Bridge
+Video assistent component
+W89C940 misprogrammed [ne2k]
+ET32P2
+AHA-2940U_CN
+AIC-7810
+AIC-7821
+AHA-2930CU
+AHA-4844W/4844UW
+AIC-755x
+AHA-7850
+AIC-7851
+AIC-7852
+AIC-7850
+AVA-2930
+AIC-7855
+ANA-7711 TCP Offload Engine
+AIC-7856
+AIC-5800
+AIC-3860
+AIC-1480 / APA-1480
+AIC-7860
+AIC-7861
+AIC-786x
+ANA620xx/ANA69011A
+AHA-294x / AIC-7870
+AHA-2940/2940W / AIC-7871
+AHA-3940/3940W / AIC-7872
+AHA-3985 / AIC-7873
+AHA-2944/2944W / AIC-7874
+AHA-3944/3944W / AIC-7875
+AHA-4944W/UW / AIC-7876
+AIC-787x
+AHA-2930
+AHA-2940
+AHA-3940
+AHA-3980
+AHA-2944
+AIC-7880P
+AIC-7890
+AIC-789x
+AIC-7880U
+AHA-2940U/UW/D / AIC-7881U
+AHA-3940U/UW/UWD / AIC-7882U
+AHA-3940U/UW / AIC-7883U
+AHA-2944UW / AIC-7884U
+AHA-3944U/UWD / AIC-7885
+AHA-4944UW / AIC-7886
+AHA-2940UW Pro / AIC-788x
+AHA-2930UW / AIC-7888
+ABA-1030
+AHA-4944W/UW
+AHA-2940U2/U2W
+AHA-2930U2
+78902
+AHA-2940U2/U2W / 7890/7891
+AHA-3940U2x/395U2x
+AHA-3950U2D
+AIC-7896 SCSI Controller
+AIC-7896U2/7897U2
+AIC-7892A U160/m
+AIC-7892B U160/m
+AIC-7892D U160/m
+AIC-7892P U160/m
+AHA-3960D / AIC-7899A U160/m
+AIC-7899B U160/m
+AIC-7899D U160/m
+RAID subsystem HBA
+ServeRAID 6M
+AAC-RAID
+AAC-RAID (Rocket)
+ASC-29320A U320
+AIC-7901 U320
+ASC-39320 U320
+ASC-32320D U320
+ASC-29320 U320
+ASC-29320B U320
+ASC-29320LP U320
+ASC-39320B U320
+ASC-39320A U320
+ASC-29320ALP U320
+ASC-39320D U320
+AIC-7902B U320
+AIC-7901A U320
+AIC-7902 U320
+ASC-29320A U320 w/HostRAID
+AIC-7901 U320 w/HostRAID
+ASC-39320 U320 w/HostRAID
+ASC-39320D U320 w/HostRAID
+ASC-29320 U320 w/HostRAID
+ASC-29320B U320 w/HostRAID
+ASC-29320LP U320 w/HostRAID
+ASC-39320(B) U320 w/HostRAID
+ASC-39320A U320 w/HostRAID
+ASC-29320ALP U320 w/HostRAID
+ASC-39320D(B) U320 w/HostRAID
+AIC-7902(B) U320 w/HostRAID
+AIC-7901A U320 w/HostRAID
+AIC-7902 U320 w/HostRAID
+IDE-2015PL
+6565
+USB IRDA-port
+PCI 9815 Multi-I/O Controller
+PCI 9835 Multi-I/O Controller
+PCI 9845 Multi-I/O Controller
+PCI 9855 Multi-I/O Controller
+3CRPAG175 Wireless PC Card
+PCI Mezzanine Card
+Tiger3XX Modem/ISDN interface
+Tiger100APC ISDN chipset
+Digi32
+Digi32 Pro
+Digi32/8
+DAG 3.10 OC-3/OC-12
+DAG 3.2x OC-3/OC-12
+DAG 3.2E Fast Ethernet
+DAG 3.4E Fast Ethernet
+DAG 3.41E Fast Ethernet
+DAG 3.5 OC-3/OC-12
+DAG 3.5ECM Fast Ethernet
+DAG 4.10 OC-48
+DAG 4.11 OC-48
+DAG 4.2 OC-48
+F5D6000
+Gina24_301
+Gina24_361
+Layla24
+Mona_301_80
+Mona_301_66
+Mona_361
+1000PV [Stingray]
+2000PV [Stingray]
+2000MT
+2000MI
+KONA SD SMPTE 259M I/O
+KONA HD SMPTE 292M I/O
+PMC [Pattern Matching Chip]
+BCM4230 iLine10 HomePNA 2.0
+TABIC PCI v3
+Virtual SVGA 4.0
+Tiger Jet Network Inc. (Wrong ID)
+Silicon Image, Inc. (Wrong ID)
+VIA Technologies, Inc. (Wrong ID)
+National Semiconductor Corporation
+OKI Electric Industry Co. Ltd.
+Silicon Integrated Systems [SiS]
+Electronics & Telecommunications RSH
+Teknor Industrial Computers Inc
+Advanced Integrations Research
+LG Electronics [Lucky Goldstar Co. Ltd]
+Sun Microsystems Computer Corp.
+First International Computers [FIC]
+Silicon Image, Inc. (formerly CMD Technology Inc)
+Standard Microsystems Corp [SMC]
+Award Software International Inc.
+Integrated Micro Solutions Inc.
+Gainbery Computer Products Inc.
+Realtek Semiconductor Co., Ltd.
+Racore Computer Products, Inc.
+Creative Electronic Systems SA
+Matsushita Electric Industrial Co., Ltd.
+Thesys Gesellschaft f
+r Mikroelektronik mbH
+Cogent Data Technologies, Inc.
+ICP Vortex Computersysteme GmbH
+Integrated Device Technology, Inc.
+Hermes Electronics Company, Ltd.
+Infomedia Microelectronics Inc.
+Sanyo Electric Co - Computer Engineering Dept
+Alliance Semiconductor Corporation
+Advanced Peripherals Technologies
+Centre for Development of Advanced Computing
+Intelligent Resources Integrated Systems
+Advanced Technology Laboratories, Inc.
+Shima Seiki Manufacturing Ltd.
+Sierra Research and Technology
+Deuretzbacher GmbH & Co. Eng. KG
+Canon Information Systems Research Aust.
+Leitch Technology International
+International Microcircuits Inc
+Agere Systems (former Lucent Microelectronics)
+Dolphin Interconnect Solutions AS
+Michels & Kleberhoff Computer GmbH
+Pioneer Electronic Corporation
+Lockheed Martin Federal Systems-Manassas
+Image Technologies Development
+Samsung Information Systems America
+Toshiba America, Elec. Company
+Digital Processing Systems Inc.
+Computing Devices International
+Kasan Electronics Company, Ltd.
+Bayer Corporation, Agfa Division
+Lattice Semiconductor Corporation
+Applied Intelligent Systems, Inc.
+Performance Technologies, Inc.
+Advanced Telecommunications Modules
+Lippert Automationstechnik GmbH
+Artesyn Communication Products
+LG Industrial Systems Co., Ltd
+AVM Audiovisuelles MKTG & Computer System GmbH
+Hitachi Microcomputer System Ltd
+Matsushita-Kotobuki Electronics Industries, Ltd.
+Sumitomo Metal Industries, Ltd.
+Switched Network Technologies, Inc.
+Transtech Parallel Systems Ltd.
+Integrated Technology Express, Inc.
+Hoontech Corporation/Samho Multi Tech Ltd.
+Holco Enterprise Co, Ltd/Shuttle Computer
+Spellcaster Telecommunications Inc.
+NTT Electronics Technology Company
+Yuan Yuan Enterprise Co., Ltd.
+Cognex Modular Vision Systems Div. - Acumen Inc.
+3Com Corp, Modem Division (formerly US Robotics)
+Pluto Technologies International
+NVidia / SGS Thomson (Joint Venture)
+Symicron Computer Communication Ltd.
+Datum Inc. Bancomm-Timing Division
+Imation Corp - Medical Imaging Systems
+ESD Electronic System Design GmbH
+Harman International Industries Inc
+Mitsubishi Electric Microcomputer
+Colorgraphic Communications Corp
+Nippon Electro-Sensory Devices Corp
+Integrated Silicon Solution, Inc.
+Sumitomo Electric Industries, Ltd.
+Electronic Equipment Production & Distribution GmbH
+Asahi Kasei Microsystems Co Ltd
+Patriot Scientific Corporation
+Marian - Electronic & Software
+Reality Simulation Systems Inc
+Hitachi Information Technology Co Ltd
+Mediasonic Multimedia Systems Ltd
+Siemens Medical Systems, Ultrasound Group
+Technotrend Systemtechnik GmbH
+Compatible Systems Corporation
+Toshiba Engineering Corporation
+Janich & Klass Computertechnik GmbH
+Silicom Multimedia Systems Inc
+Hayes Microcomputer Products Inc
+Computer Peripherals International
+Kyushu electronics systems Inc
+ITT Aerospace/Communications Division
+Outsource Engineering & Mfg. Inc
+Canon Research Center, America
+Lightwell Co Ltd - Zax Division
+Loronix Information Systems Inc
+Advanced Hardware Architectures
+Micro-Star International Co., Ltd.
+Interactive Circuits & Systems Ltd
+Williams Electronics Games, Inc.
+Multi Dimensional Consulting Inc
+Integrated Telecom Express Inc
+Matsushita Graphic Communication Systems, Inc.
+ISYTEC - Integrierte Systemtechnik GmBH
+L3 Communications Telemetry & Instrumentation
+TOKAI Communications Industry Co. Ltd
+XIONICS Document Technologies Inc
+FEATRON Technologies Corporation
+BST Communication Technology Ltd
+PHILIPS Business Electronics B.V.
+AIRONET Wireless Communications
+IWASAKI Information Systems Co Ltd
+Modular Technology Holdings Ltd
+National Aerospace Laboratories
+Applied Integration Corporation
+TOKYO Electronic Industry CO Ltd
+MITSUBISHI ELECTRIC LOGISTICS SUPPORT Co Ltd
+ITA INGENIEURBURO FUR TESTAUFGABEN GmbH
+HONDA CONNECTORS/MHOTRONICS Inc
+FIRST INTERNATIONAL Computer Inc
+TELEFON AKTIEBOLAGET LM Ericsson
+Fujitsu Computer Products Of America
+ATELIER INFORMATIQUES et ELECTRONIQUE ETUDES S.A.
+INTERCONNECT Systems Solutions
+PAN INTERNATIONAL Industrial Corp
+SMART Electronic DEVELOPMENT GmBH
+Terayon Communications Systems
+Yamakatsu Electronics Industry Co Ltd
+M-Systems Flash Disk Pioneers Ltd
+Voltaire Advanced Data Security Ltd
+Hitachi Semiconductor & Devices Sales Co Ltd
+Ningbo Harrison Electronics Co Ltd
+Sunlight Ultrasound Technologies Ltd
+Shanghai Communications Technologies Center
+Maestro Digital Communications
+Technical University of Budapest
+Tateyama System Laboratory Co Ltd
+FIC (First International Computer Inc)
+Central System Research Co Ltd
+Lava Semiconductor Manufacturing Inc
+Automated Wagering International
+Brocade Communications Systems, Inc.
+Hsing Tech. Enterprise Co., Ltd.
+Internet Machines Corporation (IMC)
+Hightech Information System Ltd.
+Linksys, A Division of Cisco Systems
+B&B Electronics Manufacturing Company, Inc.
+Hercules Computer Technology Inc
+c't Magazin f
+r Computertechnik
+Decision Computer International Co.
+Digital Receiver Technology Inc
+Adrienne Electronics Corporation
+Pinnacle Systems, Inc. (Wrong ID)
+Endace Measurement Systems, Ltd
+Echo Digital Audio Corporation
+Ultra ATA/133 IDE RAID CONTROLLER CARD
+FPC-0106TX misprogrammed [RTL81xx]
+HNE-300 (RealTek RTL8139c) [iPaq Networking]
+DM9102A(DM9102AE, SM9102AF) Ethernet 100/10 MBit(Rev 40)
+1012 PCMCIA 10/100 Ethernet Card [RTL81xx]
+Triflex/Pentium Bridge, Model 1000
+Triflex/Pentium Bridge, Model 2000
+Advanced System Management Controller
+Netelligent Dual 10/100 TX PCI UTP
+Netelligent Integrated 10/100 TX UTP
+Netelligent 10/100 TX Embedded UTP
+Netelligent 10 T/2 PCI UTP/Coax
+10/100 TX PCI Intel WOL UTP Controller
+NC3165 Fast Ethernet Upgrade Module
+Integrated Lights Out Controller
+Integrated Lights Out  Processor
+53c1010 66MHz  Ultra3 SCSI Adapter
+53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI
+53c1030ZC PCI-X Fusion-MPT Dual Ultra320 SCSI
+53c1035 PCI-X Fusion-MPT Dual Ultra320 SCSI
+1030ZC_53c1035 PCI-X Fusion-MPT Dual Ultra320 SCSI
+53C1035ZC PCI-X Fusion-MPT Dual Ultra320 SCSI
+83C885 NT50 DigitalScape Fast Ethernet
+Yellowfin G-NIC gigabit ethernet
+PCI 1616 Measurement card with 32 digital I/O lines
+OPTO-PCI Opto-Isolated digital I/O board
+PCI-OPTO-RELAIS Digital I/O board with relay outputs
+PCI-Counter/Timer Counter Timer board
+PCI-DAC416 Analogue output board
+R300 AD [Radeon 9500 Pro] (Secondary)
+R300 AE [Radeon 9700 Pro] (Secondary)
+R300 AF [Radeon 9700 Pro] (Secondary)
+Radeon R350 [Radeon 9800] (Secondary)
+RV350 AP [Radeon 9600] (Secondary)
+RV350 AQ [Radeon 9600] (Secondary)
+RV350 AR [Radeon 9600] (Secondary)
+RV350 ?? [Radeon 9550] (Secondary)
+R200 BB [Radeon All in Wonder 8500DV]
+R200 BC [Radeon All in Wonder 8500]
+3D Rage I/II 215GT [Mach64 GT]
+3D Rage II+ 215GTB [Mach64 GTB]
+3D Rage IIC 215IIC [Mach64 GT IIC]
+Radeon RV250 [Radeon 9000] (Secondary)
+Radeon Mobility M7 LW [Radeon Mobility 7500]
+Radeon RV200 LX [Mobility FireGL 7800 M7]
+Radeon R250 Ld [Radeon Mobility 9000 M9]
+Radeon R250 Le [Radeon Mobility 9000 M9]
+Radeon R250 Lg [Radeon Mobility 9000 M9]
+Radeon R250 Ln [Radeon Mobility 9000 M9] [Secondary]
+Radeon R300 ND [Radeon 9700 Pro]
+Radeon R300 NE [Radeon 9500 Pro]
+RV350 [Mobility Radeon 9600 M10]
+Radeon R300 [Radeon 9700 Pro] (Secondary)
+Radeon R300 [Radeon 9500 Pro] (Secondary)
+RV350 NF [Radeon 9600] (Secondary)
+Radeon R300 [FireGL X1] (Secondary)
+Radeon R350 [Radeon 9800 Pro] (Secondary)
+RV350 NJ [Radeon 9800 XT] (Secondary)
+Rage 128 PP/PRO TMDS [Xpert 128]
+Radeon R200 QL [Radeon 8500 LE]
+Radeon R200 QN [Radeon 8500LE]
+Radeon R200 QO [Radeon 8500LE]
+Radeon RV100 QY [Radeon 7000/VE]
+Radeon RV100 QZ [Radeon 7000/VE]
+R423 UI [Radeon X800PRO (PCIE)]
+R423 UJ [Radeon X800LE (PCIE)]
+R423 UK [Radeon X800SE (PCIE)]
+Radeon R423 UK (PCIE) [X800 SE] (Secondary)
+RS300M AGP [Radeon Mobility 9100IGP]
+RV280 [Radeon 9200] (Secondary)
+RV370 5B60 [Radeon X300 (PCIE)]
+RV370 5B62 [Radeon X600 (PCIE)]
+RV370 5B64 [FireGL V3100 (PCIE)]
+RV370 5B65 [FireGL D1100 (PCIE)]
+M9+ 5C61 [Radeon Mobility 9200 (AGP)]
+M9+ 5C63 [Radeon Mobility 9200 (AGP)]
+RV280 [Radeon 9200 SE] (Secondary)
+R423 5F57 [Radeon X800XT (PCIE)]
+RS200/RS200M AGP Bridge [IGP 340M]
+QSound ThunderBird PCI Audio Gameport
+QSound ThunderBird PCI Audio Support Registers
+NS87560 National PCI System I/O
+DP83815 (MacPhyter) Ethernet Controller
+DP83820 10/100/1000 Ethernet Controller
+DP83065 [Saturn] 10/100/1000 Ethernet Controller
+PV-PCI Graphics Controller (ZLXp-L)
+Farallon PN9000SX Gigabit Ethernet
+GD 7555 Flat Panel GUI Accelerator
+GD 7556 Video/Graphics LCD/CRT Ctrlr
+CS 4610/11 [CrystalClear SoundFusion Audio Accelerator]
+CS 4614/22/24 [CrystalClear SoundFusion Audio Accelerator]
+GXT250P/GXT255P Graphics Adapter
+16/4 Token ring UTP/STP controller
+GXT500P/GXT550P Graphics Adapter
+Chukar chipset SCSI controller
+PCI 4758 Cryptographic Accelerator
+ATM 155MBPS MM Controller (1410a600)
+256-bit Graphics Rasterizer [Fire GL1]
+ATM 622MBPS Controller (1410be00)
+Advanced Systems Management Adapter (ASMA)
+CPC710 Dual Bridge and Memory Controller (PCI-64)
+CPC710 Dual Bridge and Memory Controller (PCI-32)
+Remote Supervisor Adapter (RSA)
+Gigabit Ethernet-SX Adapter (PCI-X)
+10/100/1000 Base-TX Ethernet Adapter (PCI-X)
+ZISC 036 Neural accelerator card
+MegaRAID 428 Ultra RAID Controller
+MegaRAID 434 Ultra GT RAID Controller
+K8 [Athlon64/Opteron] HyperTransport Technology Configuration
+K8 [Athlon64/Opteron] Address Map
+K8 [Athlon64/Opteron] DRAM Controller
+K8 [Athlon64/Opteron] Miscellaneous Control
+AMD-751 [Irongate] System Controller
+AMD-IGR4 AGP Host to PCI Bridge
+AMD-760 MP [IGD4-2P] System Controller
+AMD-760 MP [IGD4-2P] AGP Bridge
+AMD-760 [IGD4-1P] System Controller
+AMD-768 [Opus] MC97 Modem (Smart Link HAMR5600 compatible)
+ALI M1521 Aladdin III CPU Bridge
+M1531 Northbridge [Aladdin IV/IV+]
+M1535 PCI Bridge + Super I/O + FIR
+M1543 PCI-to-ISA Bridge + Super I/O + FIR
+M1621 Northbridge [Aladdin-Pro II]
+M1631 Northbridge+3D Graphics [Aladdin TNT2]
+M1641 Northbridge [Aladdin-Pro IV]
+M1647 [MaGiK1] PCI North Bridge
+M1671 Northbridge [ALADDiN-P4]
+M3309 MPEG-II Video w/ Software Audio Decoder
+M3321 MPEG-II Audio/Video Decoder
+M5451 PCI AC-Link Controller Audio Device
+M5453 PCI AC-Link Controller Modem Device
+M7101 PCI PMU Power Management Controller
+PowerEdge Expandable RAID Controller 2/Si
+PowerEdge Expandable RAID Controller 3/Di
+PowerEdge Expandable RAID Controller 3/Si
+Remote Access Card III: BMC/SMIC device not present
+Embedded Remote Access or ERA/O
+Embedded Remote Access: BMC/SMIC device
+PowerEdge Expandable RAID controller 4/Di
+Remote Access Card 4 Daughter Card
+Remote Access Card 4 Daughter Card Virtual UART
+PowerEdge Expandable RAID controller 4
+Remote Access Card 4 Daughter Card SMIC interface
+AHA-2940U2/U2W /7890/7891 SCSI Controllers
+AIC-7899 U160/m SCSI Controller
+Shark 10/100 Multiport SwitchNIC
+TX3927 MIPS RISC PCI Controller
+TC35815CF PCI 10/100 Mbit Ethernet Controller
+TC35815CF PCI 10/100 Mbit Ethernet Controller with WOL
+TC86C001 [goku-s] USB 1.1 Host
+TC86C001 [goku-s] USB Device Controller
+TC86C001 [goku-s] I2C/SIO/GPIO Controller
+TX4927/38 MIPS RISC PCI Controller
+TX4925 MIPS RISC PCI Controller
+TX4937 MIPS RISC PCI Controller
+Video I/O & motion JPEG compressor
+Vr4181A USB Host or Function Control Unit
+PCI to PC9800 Core-Graph Bridge
+IEEE 1394 [OrangeLink] Host Controller
+uPD72874 IEEE1394 OHCI 1.1 3-port PHY-Link Ctrlr
+uPD6113x Multimedia Decoder/Processor [EMMA2]
+Virtual PCI-to-PCI bridge (AGP)
+RAID bus controller 180 SATA/PATA  [SiS]
+300/305 PCI/AGP VGA Display Adapter
+315H PCI/AGP VGA Display Adapter
+315 PCI/AGP VGA Display Adapter
+315PRO PCI/AGP VGA Display Adapter
+330 [Xabre] PCI/AGP VGA Display Adapter
+SiS645 Host & Memory & AGP Controller
+SiS645DX Host & Memory & AGP Controller
+550 PCI/AGP VGA Display Adapter
+Video decoder & MPEG interface
+630/730 PCI/AGP VGA Display Adapter
+530/620 PCI/AGP VGA Display Adapter
+65x/M650/740 PCI/AGP VGA Display Adapter
+661/741/760 PCI/AGP VGA Display Adapter
+SiS7016 PCI Fast Ethernet Adapter
+Tach TL Fibre Channel Host Adapter
+Tach XL2 Fibre Channel Host Adapter
+Tach TS Fibre Channel Host Adapter
+J2585A DeskDirect 10/100VG NIC
+J2585B HP 10/100VG PCI LAN Adapter
+J2970A DeskDirect 10BaseT/2 NIC
+Diva Serial [GSP] Multiport UART
+79C970 PCnet Ethernet Controller
+NetServer PCI Hot-Plug Controller
+NetServer Legacy COM Port Decoder
+NetServer PCI COM Port Decoder
+E2925A 32 Bit, 33 MHzPCI Exerciser & Analyzer
+v7100 Combo Deluxe [GeForce2 MX + TV tuner]
+v8240 PAL 128M [P4T] Motherboard
+v9280/TD [Geforce4 TI4200 8X With TV-Out and DVI]
+v9180 Magic/T [GeForce4 MX440 AGP 8x 64MB TV-out]
+SmartCache/Raid I-IV Controller
+82C750 [Vendetta] USB Controller
+82C579 [Viper XPress+ Chipset]
+EV1935 ECTIVA MachOne PCIAudio
+Quadro4 900XGL [ELSA GLoria4 900XGL]
+STG4000 [3D Prophet Kyro Series]
+STPC Consumer/Industrial North- and Southbridge
+STPC Atlas/ConsumerS/Consumer IIA Northbridge
+ST70137 [Unicorn] ADSL DMT Transceiver
+21x4x DEC-Tulip compatible 10/100 Ethernet
+BT-946C (old) [multimaster  01]
+BT-946C (BA80C30) [MultiMaster 10]
+TMS380C2X Compressor Interface
+PCI1510 PC card Cardbus Controller
+PCILynx/PCILynx2 IEEE 1394 Link Layer Controller
+TSB12LV23 IEEE-1394 Controller
+TSB12LV26 IEEE-1394 Controller (Link)
+TSB43AA22 IEEE-1394 Controller (PHY/Link Integrated)
+TSB43AB22 IEEE-1394a-2000 Controller (PHY/Link)
+TSB43AB22/A IEEE-1394a-2000 Controller (PHY/Link)
+TSB43AB23 IEEE-1394a-2000 Controller (PHY/Link)
+TSB82AA2 IEEE-1394b Link Layer Controller
+TSB43AB21 IEEE-1394a-2000 Controller (PHY/Link)
+PCI7x20 1394a-2000 OHCI Two-Port PHY/Link-Layer Controller
+PCI1620 Firmware Loading Function
+ACX 100 22Mbps Wireless Interface
+Wireless Interface (of unknown type)
+ACX 111 54Mbps Wireless Interface
+TNETA1575 HyperSAR Plus w/PCI Host i/f & UTOPIA i/f
+PCI1260 PC card Cardbus Controller
+PCI4450 PC card Cardbus Controller
+PCI4410 PC card Cardbus Controller
+PCI4451 PC card Cardbus Controller
+PCI4510 PC card Cardbus Controller
+PCI4520 PC card Cardbus Controller
+PCI1410 PC card Cardbus Controller
+PCI1451 PC card Cardbus Controller
+PCI1421 PC card Cardbus Controller
+PCI1520 PC card Cardbus Controller
+PCI2040 PCI to DSP Bridge Controller
+PCI7420/PCI7620 Dual Socket CardBus and Smart Card Cont. w/ 1394a-2000 OHCI Two-Port  PHY/Link-Layer Cont. and SD/MS-Pro Sockets
+12C01A FireWire Host Controller
+W99200F/W9922PF MPEG-1/2 Video Encoder
+DSP56301 Digital Signal Processor
+MPC190 Security Processor (S1 family, encryption)
+MPC184 Security Processor (S1 family)
+PDC20265 (FastTrak100 Lite/Ultra100)
+PDC20371 (FastTrak S150 TX2plus)
+PDC20378 (FastTrak 378/SATA 378)
+PDC20579 SATAII 150 IDE Controller
+PDC20518 SATAII 150 IDE Controller
+PDC20267 (FastTrak100/Ultra100)
+PDC20270 (FastTrak100 LP/TX2/TX4)
+PDC20621 (FastTrak S150 SX4/FastTrak SX4000 lite)
+PDC20621 [SATA150 SX4] 4 Channel IDE RAID Controller
+Imagine 128 T2R [Ticket to Ride]
+PT86C521 [Vesuvius v1] Host Bridge
+PT86C523 [Vesuvius v3] PCI-ISA Bridge Master
+PT86C524 [Nile] PCI-to-PCI Bridge
+PT86C525 [Nile-II] PCI-to-PCI Bridge
+National PC87550 System Controller
+PT86C523 [Vesuvius v3] PCI-ISA Bridge Slave
+AccelGALAXY A2100 [OEM Evans & Sutherland]
+Tornado 3000 [OEM Evans & Sutherland]
+VG500 [VolumePro Volume Rendering Accelerator]
+AcceleRAID 352/170/160 support Device
+Gemstone chipset SCSI controller
+eXtremeRAID 1100 support Device
+eXtremeRAID 2000/3000 support Device
+UniNorth/Pangea GMAC (Sun GEM)
+Tigon3 Gigabit Ethernet NIC (BCM5701)
+Dual Pentium ISA/PCI Motherboard
+Dual Window Graphics Accelerator
+YGV615 [RPA3 3D-Graphics Controller]
+YMF-740C [DS-1L Audio Controller]
+YMF-724F [DS-1 Audio Controller]
+YMF-744B [DS-1S Audio Controller]
+YMF-754 [DS-1E Audio Controller]
+ISP10160 Single Channel Ultra3 SCSI Processor
+ISP12160 Dual Channel Ultra3 SCSI Processor
+ISP2020A Fast!SCSI Basic Adapter
+QLA2100 64-bit Fibre Channel Adapter
+QLA2200 64-bit Fibre Channel Adapter
+QLA2300 64-bit Fibre Channel Adapter
+[GeForce FX 5900] WinFast A350 TDH MyViVo
+5526 Fibre Channel Host Adapter
+x526 Fibre Channel Host Adapter
+5525/5575 ATM Adapter (155 Mbit) [Atlantic]
+Token-Ring 16/4 PCI Adapter (3136/3137)
+RapidFire 3139 Token-Ring 16/4 PCI Adapter
+GoCard 3250 Token-Ring 16/4 CardBus PC Card
+OC-3530 RapidFire Token-Ring 100
+RapidFire 3141 Token-Ring 16/4 PCI Fiber Adapter
+RapidFire 3540 HSTR 100/16/4 PCI Adapter
+OC-2327/2250 10/100 Ethernet Adapter
+OC-6151/6152 [RapidFire ATM 155]
+3D graphics processor w/Texturing
+Sun Expert3D-Lite Graphics Accelerator
+Sun Expert3D Graphics Accelerator
+DMD-I0928-1 "Monster sound" sound chip
+Adaptec AAR-1210SA SATA HostRAID Controller
+SiI 0649 Ultra ATA/100 PCI to ATA Host Controller
+PCI0680 Ultra ATA-133 Host Controller
+SiI 3112 [SATALink/SATARaid] Serial ATA Controller
+SiI 3114 [SATALink/SATARaid] Serial ATA Controller
+SiI 3124 PCI-X Serial ATA Controller
+SiI 3512 [SATALink/SATARaid] Serial ATA Controller
+BtV 2115 Mediastream controller
+BtV 2125 Mediastream controller
+Bt8230 ATM Segment/Reassembly Ctrlr (SRC)
+VScom 800 8 port serial adaptor
+VScom 400 4 port serial adaptor
+VScom 210 2 port serial and 1 port parallel adaptor
+VScom 200 2 port serial adaptor
+VScom 010 1 port parallel adaptor
+VScom 020 2 port parallel adaptor
+B&B 3PCIOSD1A Isolated PCI Serial
+Smart 100/16/4 PCI-HS Ringnode
+RapidFire 3140V2 16/4 TR Adapter
+Collage 25/155 ATM Client Adapter
+Collage 155 ATM Server Adapter
+AR5212 802.11abg NIC (3CRDAG675)
+MINI PCI type 3B Data Fax Modem
+3c982-TXM 10/100baseTX Dual Port A [Hydra]
+3c982-TXM 10/100baseTX Dual Port B [Hydra]
+3c940 10/100/1000Base-T [Marvell]
+3c575 Megahertz 10/100 LAN CardBus [Boomerang]
+3cCFE575BT Megahertz 10/100 LAN CardBus [Cyclone]
+3c592 EISA 10mbps Demon/Vortex
+3c595 Megahertz 10/100 LAN CardBus [Boomerang]
+3CRSHPW796 [OfficeConnect Wireless CardBus]
+3com 3CRWE154G72 [Office Connect Wireless LAN Adapter]
+3c556 Hurricane CardBus [Cyclone]
+3cCFEM656 10/100 LAN+56K Modem CardBus
+3cCFEM656B 10/100 LAN+Winmodem CardBus [Cyclone]
+3cCFEM656B 10/100 LAN+56K Modem CardBus
+3cXFEM656C 10/100 LAN+Winmodem CardBus [Tornado]
+3CRWE777 PCI(PLX) Wireless Adaptor [Airconnect]
+3c900 10Mbps Combo [Boomerang]
+3c900B-TPO Etherlink XL [Cyclone]
+3c900B-Combo Etherlink XL [Cyclone]
+3c900B-TPC Etherlink XL [Cyclone]
+3c905B-T4 Fast EtherLink XL [Cyclone]
+3c905B Deluxe Etherlink 10/100/BNC [Cyclone]
+3c905B-FX Fast Etherlink XL FX 100baseFx [Cyclone]
+3C920B-EMB Integrated Fast Ethernet Controller [Tornado]
+3Com 3C920B-EMB-WNM Integrated Fast Ethernet Controller
+3C920B-EMB-WNM Integrated Fast Ethernet Controller
+3c980-TX Fast Etherlink XL Server Adapter [Cyclone]
+3c980-C 10/100baseTX NIC [Python-T]
+3CR990-TX-97 [Typhoon 168-bit]
+3C990B-TX-M/3C990BSVR [Typhoon2]
+3CR990-FX-95/97/95 [Typhon Fiber]
+3CR990SVR95 [Typhoon Server 56-bit]
+3CR990SVR97 [Typhoon Server 168-bit]
+83c170 EPIC/100 Fast Ethernet Adapter
+83c175 EPIC/100 Fast Ethernet Adapter
+C-Media CMI8738/C3DX Audio Device (OEM)
+M1533 PCI to ISA Bridge [Aladdin IV]
+M1563 HyperTransport South Bridge
+ALI M1631 PCI North Bridge Aladdin Pro III
+ALI M1641 PCI North Bridge Aladdin Pro IV
+M1644/M1644T Northbridge+Trident
+M1647 Northbridge [MAGiK 1 / MobileMAGiK 1]
+M1651/M1651T Northbridge [Aladdin-Pro 5/5M,Aladdin-Pro 5T/5TM]
+M1671 Super P4 Northbridge [AGP4X,PCI and SDR/DDR]
+M1672 Northbridge [CyberALADDiN-P4]
+M1681 P4 Northbridge [AGP8X,HyperTransport and SDR/DDR]
+M1687 K8 Northbridge [AGP8X and HyperTransport]
+M1689 K8 Northbridge [Super K8 Single Chip]
+M5251 P1394 OHCI 1.0 Controller
+M5253 P1394 OHCI 1.1 Controller
+ALi M5281 Serial ATA / RAID Host Controller
+Lucent Technologies Soft Modem AMR
+M5455 PCI AC-Link Controller Audio Device
+SmartLink SmartPCI561 56K Modem
+SmartLink SmartPCI563 56K Modem
+M7101 Power Management Controller [PMU]
+Smartether100 SC1100 LAN Adapter (i82557B)
+NM2200 [MagicMedia 256AV Audio]
+NM2360 [MagicMedia 256ZX Audio]
+NM2380 [MagicMedia 256XL+ Audio]
+ASC1200 [(abp940) Fast SCSI-II]
+NV5M64 [RIVA TNT2 Model 64/Model 64 Pro]
+nForce2 AC97 Audio Controler (MCP)
+nForce MultiMedia audio [Via VT82C686B]
+nForce2 FireWire (IEEE 1394) Controller
+nForce3 250Gb AGP Host to PCI Bridge
+CK8S Serial ATA Controller (v2.5)
+nForce 250Gb PCI System Management
+CK8S Parallel ATA Controller (v2.5)
+nForce3 250Gb AC'97 Audio Controller
+nForce3 250Gb PCI-to-PCI Bridge
+NV40 [GeForce 6800/GeForce 6800 Ultra]
+NV43 [GeForce 6600/GeForce 6600 GT]
+NV37GL [Quadro FX 330/GeForce PCX 5300]
+NV11DDR [GeForce2 MX 100 DDR/200 DDR]
+NV15BR [GeForce2 Ultra, Bladerunner]
+NV18 [GeForce4 MX 440SE AGP 8x]
+NV18 [GeForce4 MX 4000 AGP 8x]
+NVCrush11 [GeForce2 MX Integrated Graphics]
+nForce 420 Memory Controller (DDR)
+nForce 220/420 Memory Controller
+nForce2 AGP (different version?)
+NV18 [GeForce4 MX - nForce GPU]
+NV28 [GeForce4 Ti 4200 AGP 8x]
+NV28 [GeForce4 Ti 4200 Go AGP 8x]
+NV34GL [Quadro FX 500/600 PCI]
+NV36.1 [GeForce FX 5700 Ultra]
+LP6000 Fibre Channel Host Adapter
+LP 8000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
+LP 8000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:2-3)
+LightPulse Fibre Channel Adapter
+LP7000 Fibre Channel Host Adapter
+LP 7000EFibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
+LP8000 Fibre Channel Host Adapter
+LP9000 Fibre Channel Host Adapter
+LP 9000 Fibre Channel Host Adapter Alternate ID (JX1:2-3, JX2:1-2)
+LP 9802 Fibre Channel Host Adapter Alternate ID
+LP10000 Fibre Channel Host Adapter
+CA91L8200B [Dual PCI PowerSpan II]
+CA91L8260B [Single PCI PowerSpan II]
+INES GPIB-PCI (AMCC5920 based)
+Q-Motion Video Capture/Edit board
+LANai4.x [Myrinet LANai interface chip]
+Kongsberg Spacetec Format Synchronizer
+Kongsberg Spacetec Serial Output Board
+Fastcom ESCC-PCI (Commtech, Inc.)
+S5933 [Matchmaker] (Chipset Development Tool)
+Fastcom 232/8-PCI (Commtech, Inc.)
+Fastcom 422/4-PCI (Commtech, Inc.)
+Fastcom 422/2-PCI (Commtech, Inc.)
+Fastcom IG422/1-PCI (Commtech, Inc.)
+Fastcom IG232/2-PCI (Commtech, Inc.)
+Fastcom 232/4-PCI (Commtech, Inc.)
+Fastcom DIO24H-PCI (Commtech, Inc.)
+S5933 on Innes Corp FM Radio Capture card
+RT8139 (B/C) Cardbus Fast Ethernet Adapter
+Initio INI-9100UW Ultra Wide SCSI Controller INIC-950P chip
+[SB Live! Value] Input device controller
+REALmagic Xcard MPEG 1/2/3/4 DVD Decoder
+REALmagic Hollywood Plus DVD Decoder
+EM840x REALmagic DVD/MPEG-2 Audio/Video Decoder
+EM8401 REALmagic DVD/MPEG-2 A/V Decoder
+EM8470 REALmagic DVD/MPEG-4 A/V Decoder
+EM8471 REALmagic DVD/MPEG-4 A/V Decoder
+EM8475 REALmagic DVD/MPEG-4 A/V Decoder
+EM8476 REALmagic DVD/MPEG-4 A/V Decoder
+EM8485 REALmagic DVD/MPEG-4 A/V Decoder
+EM8486 REALmagic DVD/MPEG-4 A/V Decoder
+Embedded VIA Ethernet Controller
+VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE
+VT82C586/A/B PCI-to-ISA [Apollo VP]
+VT82C693A/694x [Apollo PRO133x]
+VT82xxxxx UHCI USB 1.1 Controller
+VT82C686 AC97 Audio Controller
+VT8233/A/8235/8237 AC97 Audio Controller
+VT8366/A/7 [Apollo KT266/A/333]
+VT8375 [KM266/KL266] Host Bridge
+VT6120/VT6121/VT6122 Gigabit Ethernet Adapter
+VT8623 [Apollo CLE266] integrated CastleRock graphics
+VIA VT6420 SATA RAID Controller
+VT8374 P4X400 Host Controller/AGP Bridge
+VT8385 [K8T800 AGP] Host Bridge
+VT8377 [KT400/KT600 AGP] Host Bridge
+VT8378 [KM400/A] Chipset Host Bridge
+VT8237 ISA bridge [KT600/K8T800 South]
+VIA VT6420 (ATA133) Controller
+VT8378 [S3 UniChrome] Integrated Video
+VT82C598/694x [Apollo MVP3/Pro133x AGP]
+VT82C693 [Apollo Pro Plus] PCI Bridge
+VT8366/A/7 [Apollo KT266/A/333 AGP]
+VT8237 PCI bridge [K8T800 South]
+VT8237 Integrated Fast Ethernet Controller
+VIA VT82C570MV [Apollo] (Wrong vendor ID!)
+Tulip controller, power management, switch extender
+FSC Multiprocessor Interrupt Controller
+FSC Copernicus Management Controller
+FSC Remote Service Controller, mailbox device
+FSC Remote Service Controller, shared memory device
+FSC Remote Service Controller, SMIC device
+Eicon Diva 2.02 compatible passive ISDN card
+SIMATIC NET CP 5613A1 (Profibus Adapter)
+SIMATIC NET CP 5512 (Profibus and MPI Cardbus Adapter)
+SIMATIC NET CP 5613A2 (Profibus Adapter)
+Firepower Powerized SMP I/O ASIC
+EN-1207D Fast Ethernet Adapter
+21x4x DEC-Tulip compatible Fast Ethernet
+CPWNA100 (Philips wireless PCMCIA)
+802.11b Wireless Network Adaptor (at76c506)
+SpeedStream 1023 Wireless PCI Adapter
+IDT77201/77211 155Mbps ATM SAR Controller [NICStAR]
+IDT77222/77252 155Mbps ATM MICRO ABR SAR Controller
+IDT77V252 155Mbps ATM MICRO ABR SAR Controller
+IDT77V222 155Mbps ATM MICRO ABR SAR Controller
+Precision MX Video engine interface
+MVC IM-PCI Video frame grabber/processor
+SAA7130 Video Broadcast Decoder
+SAA713X Audio+video broadcast decoder
+SAA7135 Audio+video broadcast decoder
+Diva Server Voice BRI-2M 2.0 PCI
+PCI-SDK [PCI i960 Evaluation Platform]
+PCI-911 [i960Jx-based Intelligent I/O Controller]
+PCI-912 [i960CF-based Intelligent I/O Controller]
+PCI-914 [I/O Controller w/ secondary PCI bus]
+SK-98xx Gigabit Ethernet Server Adapter
+SK-98xx V2.0 Gigabit Ethernet Adapter
+SK-9Dxx Gigabit Ethernet Adapter
+SK-9Mxx Gigabit Ethernet Adapter
+SK-9Exx 10/100/1000Base-T Adapter
+VMIPCI-5579 (Reflective Memory Card)
+VMIPCI-5587 (Reflective Memory Card)
+Datafire Micro V IOM2 (Europe)
+Datafire Micro V IOM2 (North America)
+Datafire Micro V (North America)
+Motion TPEG Recorder/Player with audio
+CMIC-WS Host Bridge (GC-LE chipset)
+CMIC-LE Host Bridge (GC-LE chipset)
+CIOB-E I/O Bridge with Gigabit Ethernet
+ToPIC95 PCI to CardBus Bridge for Notebooks
+ToPIC100 PCI to Cardbus Bridge with ZV Support
+CPU to PCI and PCI to ISA bridge
+TC6371AF SmartMedia Controller
+AirPlus Xtreme G DWL-G650 Adapter
+AirXpert DWL-AG650 Wireless Cardbus Adapter
+AirPlus Xtreme G DWL-G520 Adapter
+DWL-510 2.4GHz Wireless PCI Adapter
+AirPro DWL-A650 Wireless Cardbus Adapter(rev.B)
+AirPro DWL-AB650 Multimode Wireless Cardbus Adapter
+AirPro DWL-AB520 Multimode Wireless PCI Adapter
+AirXpert DWL-AG520 Wireless PCI Adapter
+AirXpert DWL-AG650 Wireless Cardbus Adapter(rev.B)
+AirXpert DWL-AG520 Wireless PCI Adapter(rev.B)
+AirPlus DWL-G650 Wireless Cardbus Adapter(rev.C)
+AirPlus DWL-G520 Wireless PCI Adapter(rev.B)
+AirPremier DWL-AG530 Wireless PCI Adapter
+AirXpert DWL-AG660 Wireless Cardbus Adapter
+D-Link DWL-650+ CardBus PC Card
+PCIB [C-bus II to PCI bus host bridge chip]
+Intel 8-way XEON Profusion Chipset [Cache Coherency Filter]
+Model 12 Road Runner Frame Grabber
+Model 14 Road Runner Frame Grabber
+Model 24 Road Runner Frame Grabber
+Model 44 Road Runner Frame Grabber
+TP-910/920/940 PCI Ultra(Wide) SCSI Adapter
+CompuScope 82G 8bit 2GS/s Analog Input Card
+AMCC S933Q Intelligent Serial Card
+GT-64010/64010A System Controller
+GT-64120/64120A/64121A System Controller
+MV88SX5040 4-port SATA I PCI-X Controller
+MV88SX5041 4-port SATA I PCI-X Controller
+MV88SX5080 8-port SATA I PCI-X Controller
+MV88SX5081 8-port SATA I PCI-X Controller
+MV88SX6041 4-port SATA II PCI-X Controller
+MV88SX6081 8-port SATA II PCI-X Controller
+MV64360/64361/64362 System Controller
+GT-64010 Primary Image Piranha Image Generator
+LNE100TX [Linksys EtherFast 10/100]
+F-1156IV WinModem (V90, 56KFlex)
+WL60040 Multimode Wireles LAN MAC
+Hermes2 Mini-PCI WaveLAN a/b/g
+ZR36057PQC Video cutting chipset
+ReadyLink 100TX (Winbond W89C840)
+RocketPort 32 port w/external I/F
+RocketPort 8 port w/external I/F
+RocketPort 16 port w/external I/F
+RocketPort 4 port w/quad cable
+RocketPort 8 port w/octa cable
+RocketPort 8 port w/RJ11 connectors
+RocketPort 4 port w/RJ11 connectors
+RocketPort 8 port w/ DB78 SNI (Siemens) connector
+RocketPort 16 port w/ DB78 SNI (Siemens) connector
+RocketPort UPCI 32 port w/external I/F
+RocketPort UPCI 8 port w/external I/F
+RocketPort UPCI 16 port w/external I/F
+RocketPort UPCI 8 port w/octa cable
+RocketPort Compact PCI 16 port w/external I/F
+Cyclom-4Y below first megabyte
+Cyclom-4Y above first megabyte
+Cyclom-8Y below first megabyte
+Cyclom-8Y above first megabyte
+Cyclades-Z below first megabyte
+Cyclades-Z above first megabyte
+OZ6832/6833 Cardbus Controller
+OZ6836/6860 Cardbus Controller
+OZ711Mx MultiMediaBay Accelerator
+OZ711EC1/M1 SmartCardBus MultiMediaBay Controller
+OZ711EC1 SmartCardBus Controller
+OZ711M1 SmartCardBus MultiMediaBay Controller
+OZ711E2 SmartCardBus Controller
+OZ711M2 SmartCardBus MultiMediaBay Controller
+OZ711M3 SmartCardBus MultiMediaBay Controller
+AMCC 5933 TMS320C80 DSP/Imaging board
+JNIC-1560 PCI-X Fibre Channel Controller
+FCI-1063 Fibre Channel Adapter
+FCX2-6562 Dual Channel PCI-X Fibre Channel Adapter
+FCX-6562 PCI-X Fibre Channel Adapter
+PCI-40A or cPCI-200 Quad IndustryPack carrier
+IFT-2000 Series RAID Controller
+AT-2560 Fast Ethernet Adapter (i82557B)
+ES336H Fax Modem (Early Model)
+ES1983S Maestro-3i PCI Audio Accelerator
+ES1983S Maestro-3i PCI Modem Accelerator
+ES336H Fax Modem (Later Model)
+ISL3886 [Prism Javelin/Prism Xbow]
+Intersil ISL3890 [Prism GT/Prism Duette]
+HMP8130 NTSC/PAL Video Decoder
+HMP8131 NTSC/PAL Video Decoder
+NE2000Plus (RT8029) Ethernet Adapter
+802.11b Wireless Ethernet Adapter
+ES1373 [AudioPCI] (also Creative Labs CT5803)
+HCF 56k Data/Fax/Voice/Spkp (w/Handset) Modem
+HCF 56k PCI Speakerphone Modem
+HSF 56k Data/Fax/Voice/Spkp (w/Handset) Modem
+HSF 56k Data/Fax/Voice/Spkp Modem
+IT/ITE8212 Dual channel ATA RAID controller (PCI version seems to be IT8212, embedded seems to be ITE8212)
+IT8874F PCI Dual Serial Port Controller
+IT8888F PCI to ISA Bridge with SMB
+AGOGO sound chip (aka ESS Maestro 1)
+AU8830 [Vortex2] Based Sound Card With A3D Support
+AceNIC Gigabit Ethernet (Copper)
+Farallon PN9100-T Gigabit Ethernet
+Imaging/Scanning Subsystem Engine
+PCIVST [Grayscale Thresholding Engine]
+AU8810 Vortex Digital Audio Processor
+NC100 Network Everywhere Fast Ethernet 10/100
+ADMtek ADM8211 802.11b Wireless Interface
+GNIC-II PCI Gigabit Ethernet [Hamachi]
+Xwave QS3000A [FM801 game port]
+MM-5415CN PCI Memory Module with Battery Backup
+MM-5425CN PCI 64/66 Memory Module with Battery Backup
+MPAC-100 Syncronous Serial Card (Zilog 85230)
+Route 56.PCI - Multi-Protocol Serial Interface (Zilog Z16C32)
+Single Port RS-232/422/485/530
+Dual Port RS-232/422/485 Interface
+Four Port RS-422/485 Interface
+Marc-8 MIDI 8 channel audio card
+802.11b Wireless Adapter (MA301)
+MA311 802.11b wireless adapter
+WAG511 802.11a/b/g Dual Band Wireless PC Card
+WAG311 802.11a/g Wireless PCI Adapter
+WG311v2 54 Mbps Wireless PCI Adapter
+PCI1500PFB [Intelligent fieldbus adaptor]
+ISDN network controller [HFC-PCI]
+Quad Port 10/100 Server Accelerator
+Single Port 10/100 Server Accelerator
+Single Port Gigabit Server Accelerator
+3ware Inc 3ware 5xxx/6xxx-series PATA-RAID
+3ware Inc 3ware 7xxx/8xxx-series PATA/SATA-RAID
+3ware Inc 3ware 9xxx-series SATA-RAID
+B2C2 FlexCopII DVB chip / Technisat SkyStar2 DVB card
+B2C2 FlexCopIII DVB chip / Technisat SkyStar2 DVB card
+ADMtek Centaur-C rev 17 [D-Link DFE-680TX] CardBus Fast Ethernet Adapter
+RTL8139 [FE2000VX] CardBus Fast Ethernet Attached Port Adapter
+PCI-1240 4-channel stepper motor controller card w.  Nova Electronics MCX314
+PCI-1612 4-port RS-232/422/485 PCI Communication Card
+Dual parallel port controller A
+ICE1712 [Envy24] PCI Multi-Channel I/O Controller
+VT1720/24 [Envy24PT/HT] PCI Multi-Channel Audio Controller
+VScom 011H-EP1 1 port parallel adaptor
+OX16PCI954 (Quad 16950 UART) function 0
+EXSYS EX-41092 Dual 16950 Serial adapter
+OX16PCI954 (Quad 16950 UART) function 1
+Gold Card NetGlobal 56k+10/100Mb CardBus (Ethernet part)
+Gold Card NetGlobal 56k+10/100Mb CardBus (Modem part)
+VM2-2 [Video Maker 2] MPEG1/2 Encoder
+NVIDIA NV25 [GeForce4 Ti 4600] VGA Adapter
+NVIDIA NV28 [GeForce4 Ti 4800] VGA Adapter
+NVIDIA NV31 [GeForce FX 5600XT] VGA Adapter
+FE-1430TX Fast Ethernet PCI Adapter
+Cisco Aironet 340 802.11b Wireless LAN Adapter/Aironet PC4800
+Cisco Aironet Wireless 802.11b
+Cisco Aironet CB20a 802.11a Wireless LAN Adapter
+Myrinet 2000 Scalable Cluster Interconnect
+VScom 010L 1 port parallel adaptor
+VScom 020L 2 port parallel adaptor
+VScom 100L 1 port serial adaptor
+VScom 110L 1 port serial and 1 port parallel adaptor
+VScom 200L 1 port serial adaptor
+VScom 210L 2 port serial and 1 port parallel adaptor
+VScom 400L 4 port serial adaptor
+VScom 800L 8 port serial adaptor
+VScom 010H 1 port parallel adaptor
+VScom 100H 1 port serial adaptor
+VScom 400H 4 port serial adaptor
+VScom 400HF1 4 port serial adaptor
+VScom 200H 2 port serial adaptor
+VScom 010HV2 1 port parallel adaptor
+VScom 100HV2 1 port serial adaptor
+VScom 200HV2 2 port serial adaptor
+AP1011/SP1011 HyperTransport-PCI Bridge [Sturgeon]
+AS90L10204/10208 HyperTransport to PCI-X Bridge
+Sentry5 Chipcommon I/O Controller
+Sentry5 DDR/SDR RAM Controller
+Sentry5 External Interface Core
+NetXtreme BCM5700 Gigabit Ethernet
+NetXtreme BCM5701 Gigabit Ethernet
+NetXtreme BCM5702 Gigabit Ethernet
+NetXtreme BCM5703 Gigabit Ethernet
+NetXtreme BCM5704 Gigabit Ethernet
+NetXtreme II BCM5706 Gigabit Ethernet
+NetXtreme BCM5702FE Gigabit Ethernet
+NetXtreme BCM5705 Gigabit Ethernet
+NetXtreme BCM5705_2 Gigabit Ethernet
+NetXtreme BCM5721 Gigabit Ethernet PCI Express
+NetXtreme BCM5705M Gigabit Ethernet
+NetXtreme BCM5705M_2 Gigabit Ethernet
+570x 10/100 Integrated Controller
+NetXtreme BCM5751 Gigabit Ethernet PCI Express
+NetXtreme BCM5751M Gigabit Ethernet PCI Express
+NetXtreme BCM5751F Fast Ethernet PCI Express
+NetXtreme BCM5782 Gigabit Ethernet
+NetXtreme BCM5788 Gigabit Ethernet
+NetLink BCM5789 Gigabit Ethernet PCI Express
+NetXtreme BCM5702X Gigabit Ethernet
+NetXtreme BCM5703X Gigabit Ethernet
+NetXtreme BCM5704S Gigabit Ethernet
+NetXtreme II BCM5706S Gigabit Ethernet
+NetXtreme BCM5702A3 Gigabit Ethernet
+NetLink BCM5781 Gigabit Ethernet PCI Express
+NetXtreme BCM5753 Gigabit Ethernet PCI Express
+NetXtreme BCM5753M Gigabit Ethernet PCI Express
+NetXtreme BCM5753F Fast Ethernet PCI Express
+BCM4211 iLine10 HomePNA 2.0 + V.90 56k modem
+BCM4303 802.11b Wireless LAN Controller
+BCM4307 802.11b Wireless LAN Controller
+BCM4310 Chipcommon I/OController
+BCM4306 802.11b/g Wireless LAN Controller
+BCM4306 802.11a Wireless LAN Controller
+BCM4307 Chipcommon I/O Controller?
+BCM4402 Integrated 10/100BaseT
+BCM44xx CardBus iLine32 HomePNA 2.0
+BCM4610 Sentry5 PCI to SB Bridge
+BCM4610 Sentry5 iLine32 HomePNA 1.0
+BCM4610 Sentry5 V.90 56k Modem
+BCM4610 Sentry5 Ethernet Controller
+BCM4610 Sentry5 External Interface
+BCM4610 Sentry5 USB Controller
+BCM4704 Sentry5 802.11b Wireless LAN Controller
+BCM4704 Sentry5 Ethernet Controller
+BCM4704 Sentry5 USB Controller
+BCM4710 Sentry5 PCI to SB Bridge
+BCM47xx Sentry5 iLine32 HomePNA 2.0
+BCM47xx Sentry5 External Interface
+BCM47xx Sentry5 USB Host Controller
+BCM47xx Sentry5 USB Device Controller
+BCM5600 StrataSwitch 24+2 Ethernet Switch Controller
+BCM5605 StrataSwitch 24+2 Ethernet Switch Controller
+BCM5615 StrataSwitch 24+2 Ethernet Switch Controller
+BCM5625 StrataSwitch 24+2 Ethernet Switch Controller
+BCM5645 StrataSwitch 24+2 Ethernet Switch Controller
+BCM5670 8-Port 10GE Ethernet Switch Fabric
+BCM5680 G-Switch 8 Port Gigabit Ethernet Switch Controller
+BCM5690 12-port Multi-Layer Gigabit Ethernet Switch
+BCM5691 GE/10GE 8+2 Gigabit Ethernet Switch Controller
+FNW-3603-TX CardBus Fast Ethernet
+HCF 56k Data/Fax/Voice/Spkp Modem
+HCF 56k Data/Fax Modem (Worldwide)
+HCF 56k Data/Fax/Voice Modem (Worldwide)
+HCF 56k Data/Fax/Voice/Spkp (w/Handset) Modem (Worldwide)
+HCF 56k Data/Fax/Voice/Spkp Modem (Worldwide)
+ADSL AccessRunner PCI Arbitration Device
+AccessRunner PCI ADSL Interface Device
+ADSL AccessRunner V2 PCI Arbitration Device
+AccessRunner V2 PCI ADSL Interface Device
+AccessRunner V2 PCI ADSL Yukon WAN Adapter
+HSF 56k Data/Fax Modem (WorldW SmartDAA)
+HSF 56k Data/Fax/Voice Modem (WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/Handset) Modem (WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp Modem (WorldW SmartDAA)
+HSF 56k Data/Fax Modem (SmartDAA)
+HSF 56k Data/Fax/Voice Modem (SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/Handset) Modem (SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp Modem (SmartDAA)
+HSF 56k Data/Fax/Cell Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Cell Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS)/Cell Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp/Cell Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Cell Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Cell Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS)/Cell Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp/Cell Modem (Mob SmartDAA)
+HSF 56k Data/Fax CardBus Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice CardBus Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS) CardBus Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp CardBus Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax CardBus Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice CardBus Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS) CardBus Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp CardBus Modem (Mob SmartDAA)
+HSF 56k Data/Fax Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS) Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp Modem (Mob WorldW SmartDAA)
+HSF 56k Data/Fax Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp (w/HS) Modem (Mob SmartDAA)
+HSF 56k Data/Fax/Voice/Spkp Modem (Mob SmartDAA)
+RS8234 ATM SAR Controller [ServiceSAR Plus]
+2050 DVB-T Terrestrial (Cable) Reciever
+2060 ATSC Terrestrial (Cable) Reciever
+TP-240 dual span E1 VoIP PCI card
+MTD-8xx 100/10M Ethernet PCI Adapter
+SURECOM EP-320X-S 100/10M Ethernet PCI Adapter
+TP560 Data/Fax/Voice 56k modem
+CB710 Memory Card Reader Controller
+PCI Smart Card Reader Controller
+ARS106S Ultra ATA 133/100/66 Host Controller
+Philips Semiconductors SAA7134 (rev 01) [Terratec Cinergy 600 TV]
+CCSI PCI20-5-485D 5Mbit ARCnet
+CCSI PCI20-5-485X 5Mbit ARCnet
+CCSI PCI20-5-FOG-ST 5Mbit ARCnet
+CCSI PCI20-5-FOG-SMA 5Mbit ARCnet
+CCSI PCI22-FOG_ST 10Mbit ARCnet
+Fix2000 PCI Y2K Compliance Card
+TA700 PCI Bus Analyzer/Exerciser
+[VMware SVGA II] PCI Display Adapter
+VMware High-Speed Virtual NIC [vmxnet]
+MT23108 [Infinihost HCA Flash Recovery]
+MT24204 [InfiniHost III Lx HCA]
+MT24204 [InfiniHost III Lx HCA Flash Recovery]
+MT25208 InfiniHost III Ex (Tavor compatibility mode)
+MT25208 [InfiniHost III Ex HCA Flash Recovery]
+64 Bit, 133MHz PCI-X Exerciser & Protocol Checker
+64 Bit, 66MHz PCI Exerciser & Analyzer
+64 Bit, 133MHz PCI-X Analyzer & Exerciser
+1394b - 1394 Firewire 3-Port Host Adapter Card
+Tateyama C-PCI PLC/NC card Rev.01A
+Argus 300 PCI Cryptography Module
+ADMA-100 DiscStaQ ATA Controller
+FC3101 Profibus DP 1 Channel PCI
+FarSync T2P (2 port X.21/V.35/V.24)
+FarSync T4P (4 port X.21/V.35/V.24)
+Linksys 802.11b WMP11 PCI Wireless card
+SMC2602W EZConnect / Addtron AWA-100 / Eumitcom PCI WL11000
+SmartLink SmartPCI562 56K Modem
+PIXCI(R) CL1 Camera Link Video Capture Board [custom QL5232]
+PIXCI(R) D2X Digital Video Capture Board [custom QL5232]
+PIXCI(R) D3X Digital Video Capture Board [custom QL5232]
+SiByte BCM1125/1125H/1250 System-on-a-Chip PCI
+SiByte BCM1125H/1250 System-on-a-Chip HyperTransport
+5LS172.6 B&R Dual CAN Interface Card
+5LS172.61 B&R Dual CAN Interface Card
+Hercules 3d Prophet II Ultra 64MB [ 350 MHz NV15BR core, 128-bit DDR @ 460 MHz, 1.5v AGP4x  ]
+AR5000 802.11a Wireless Adapter
+PLX9052 PCMCIA-to-PCI Wireless LAN
+PCMCIA-to-PCI Wireless Network Bridge
+USR997900 10/100 Mbps PCI Network Card
+Wireless Access PCI Adapter Model 022415
+NSP2000-SSL crypto accelerator
+VSC7174 PCI/PCI-X Serial ATA Host Bus Controller
+ROL/F-100 Fast Ethernet Adapter with ROL
+Wireless PCMCIA Card - F5D6020
+WebEnhance 100 GZIP Compression Card
+[AirConn] INPROCOMM IPN 2220 Wireless LAN Adapter (rev 01)
+Wireless PCI Adpator RT2400 / RT2460
+Ralink RT2500 802.11 Cardbus Reference Card
+MT23108 PCI-X HCA flash recovery
+VS14x series PowerPC PCI board
+VS24x series PowerPC PCI board
+OSCI [Octal Serial Communication Interface]
+HiNT HC4 PCI to ISDN bridge, Multimedia audio controller
+HiNT HC4 PCI to ISDN bridge, Network controller
+HB6 Universal PCI-PCI bridge (transparent mode)
+HB6 Universal PCI-PCI bridge (non-transparent mode)
+HiNT HB4 PCI-PCI Bridge (PCI6150)
+Sun XVR-500 Graphics Accelerator
+iTVC16 (CX23416) MPEG-2 Encoder
+DD-42924I5-300 (ARINC 429 Data Bus)
+BU-65570I1 MIL-STD-1553 Test and Simulation
+BU-65570I2 MIL-STD-1553 Test and Simulation
+BU-65572I1 MIL-STD-1553 Test and Simulation
+BU-65572I2 MIL-STD-1553 Test and Simulation
+BU-65570T1 MIL-STD-1553 Test and Simulation
+BU-65570T2 MIL-STD-1553 Test and Simulation
+BU-65572T1 MIL-STD-1553 Test and Simulation
+BU-65572T2 MIL-STD-1553 Test and Simulation
+BU-65565C1 MIL-STD-1553 Data Bus
+BU-65565C2 MIL-STD-1553 Data Bus
+BU-65565C3 MIL-STD-1553 Data Bus
+BU-65565C4 MIL-STD-1553 Data Bus
+BU-65569I1 MIL-STD-1553 Data Bus
+BU-65569I2 MIL-STD-1553 Data Bus
+BU-65569I3 MIL-STD-1553 Data Bus
+BU-65569I4 MIL-STD-1553 Data Bus
+86c868 [Vision 868 VRAM] vers 0
+86c868 [Vision 868 VRAM] vers 1
+86c868 [Vision 868 VRAM] vers 2
+86c868 [Vision 868 VRAM] vers 3
+86c928 [Vision 928 VRAM] vers 0
+86c928 [Vision 928 VRAM] vers 1
+86c928 [Vision 928 VRAM] vers 2
+86c928 [Vision 928 VRAM] vers 3
+86c864 [Vision 864 DRAM] vers 0
+86c864 [Vision 864 DRAM] vers 1
+86c864 [Vision 864-P DRAM] vers 2
+86c864 [Vision 864-P DRAM] vers 3
+86c964 [Vision 964 VRAM] vers 0
+86c964 [Vision 964 VRAM] vers 1
+86c964 [Vision 964-P VRAM] vers 2
+86c964 [Vision 964-P VRAM] vers 3
+86c968 [Vision 968 VRAM] rev 0
+86c968 [Vision 968 VRAM] rev 1
+86c968 [Vision 968 VRAM] rev 2
+86c968 [Vision 968 VRAM] rev 3
+86c775/86c785 [Trio 64V2/DX or /GX]
+VT8636A [ProSavage KN133] AGP4X VGA Controller (TwisterK)
+VT8375 [ProSavage8 KM266/KL266]
+Extended Express System Support Controller
+80303 I/O Processor PCI-to-PCI Bridge
+80312 I/O Companion Chip PCI-to-PCI Bridge
+6700/6702PXH I/OxAPIC Interrupt Controller A
+6700PXH I/OxAPIC Interrupt Controller B
+6700PXH PCI Express-to-PCI Bridge A
+6700PXH PCI Express-to-PCI Bridge B
+6702PXH PCI Express-to-PCI Bridge A
+41210 [Lanai] Serial to Parallel PCI Bridge
+82424TX/ZX [Saturn] CPU to PCI bridge
+82378ZB/IB, 82379AB (SIO, SIO.A) PCI to ISA Bridge
+82425EX/ZX [Aries] PCIset with ISA bridge
+82434LX/NX [Mercury/Neptune] Processor to PCI bridge
+E8870IO Hub Interface Port 0 registers (8-bit compatibility port)
+E8870IO Hub Interface Port 1 registers
+E8870IO Hub Interface Port 2 registers
+E8870IO Hub Interface Port 3 registers
+E8870IO Hub Interface Port 4 registers
+E8870IO General SIOH registers
+E8870SP Scalability Port 0 registers
+E8870SP Scalability Port 1 registers
+E8870SP Scalability Port 2 registers
+E8870SP Scalability Port 3 registers
+E8870SP Scalability Port 4 registers
+E8870SP Scalability Port 5 registers
+E8870SP Interleave registers 0 and 1
+E8870SP Interleave registers 2 and 3
+80960RP [i960 RP Microprocessor/Bridge]
+82542 Gigabit Ethernet Controller
+82543GC Gigabit Ethernet Controller (Fiber)
+Pro 100 LAN+Modem 56 Cardbus II
+82543GC Gigabit Ethernet Controller (Copper)
+82544EI Gigabit Ethernet Controller (Copper)
+82544EI Gigabit Ethernet Controller (Fiber)
+82544GC Gigabit Ethernet Controller (Copper)
+82544GC Gigabit Ethernet Controller (LOM)
+82540EM Gigabit Ethernet Controller
+82545EM Gigabit Ethernet Controller (Copper)
+82546EB Gigabit Ethernet Controller (Copper)
+82545EM Gigabit Ethernet Controller (Fiber)
+82546EB Gigabit Ethernet Controller (Fiber)
+82541EI Gigabit Ethernet Controller (Copper)
+82541ER Gigabit Ethernet Controller
+82540EM Gigabit Ethernet Controller (LOM)
+82540EP Gigabit Ethernet Controller (LOM)
+82541EI Gigabit Ethernet Controller
+82547EI Gigabit Ethernet Controller (LOM)
+82546EB Gigabit Ethernet Controller
+82540EP Gigabit Ethernet Controller (Mobile)
+82545GM Gigabit Ethernet Controller
+82801CAM (ICH3) PRO/100 VE (LOM) Ethernet Controller
+82801CAM (ICH3) PRO/100 VE Ethernet Controller
+82801CAM (ICH3) PRO/100 VM (LOM) Ethernet Controller
+82801CAM (ICH3) PRO/100 VM Ethernet Controller
+82801CAM (ICH3)/82562EH (LOM)  Ethernet Controller
+82801CAM (ICH3) 82562EH Ethernet Controller
+82801CAM (ICH3) Chipset Ethernet Controller
+82801CAM (ICH3) PRO/100 VM (KM) Ethernet Controller
+82801DB PRO/100 VE (LOM) Ethernet Controller
+82801DB PRO/100 VE (CNR) Ethernet Controller
+82801DB PRO/100 VM (LOM) Ethernet Controller
+82801DB PRO/100 VM (CNR) Ethernet Controller
+82801DB PRO/100 VE (MOB) Ethernet Controller
+82801DB PRO/100 VM (MOB) Ethernet Controller
+PRO/Wireless LAN 2100 3B Mini PCI Adapter
+82562EZ 10/100 Ethernet Controller
+82801EB/ER (ICH5/ICH5R) integrated LAN Controller
+82562ET/EZ/GT/GZ - PRO/100 VE (LOM) Ethernet Controller
+82562ET/EZ/GT/GZ - PRO/100 VE Ethernet Controller
+82562 EM/EX/GX - PRO/100 VM (LOM) Ethernet Controller
+82562 EM/EX/GX - PRO/100 VM Ethernet Controller
+82562ET/EZ/GT/GZ - PRO/100 VE (LOM) Ethernet Controller Mobile
+82562 EM/EX/GX - PRO/100 VM (LOM) Ethernet Controller Mobile
+82562G 	- PRO/100 VE (LOM) Ethernet Controller
+82562G 	- PRO/100 VE Ethernet Controller Mobile
+82547GI Gigabit Ethernet Controller
+82541GI/PI Gigabit Ethernet Controller
+82541GI Gigabit Ethernet Controller
+82546GB Gigabit Ethernet Controller
+PRO/1000 MF Server Adapter (LX)
+82815 815 Chipset Host Bridge and Memory Controller Hub
+82815 CGC [Chipset Graphics Controller]
+82806AA PCI64 Hub Advanced Programmable Interrupt Controller
+Xscale 80200 Big Endian Companion Chip
+Intel IXP1200 Network Processor
+8255xER/82551IT Fast Ethernet Controller
+82556 EtherExpress PRO/100 Smart
+430FX - 82437FX TSC [Triton I]
+430MX - 82371MX Mobile PCI I/O IDE Xcelerator (MPIIX)
+430MX - 82437MX Mob. System Ctrlr (MTSC) & 82438MX Data Path (MTDP)
+82380PB PCI to PCI Docking Bridge
+82380AB (MISA) Mobile PCI-to-ISA Bridge
+683053 Programmable Interrupt Device
+82466GX (IHPC) Integrated Hot-Plug Controller
+82466GX Integrated Hot-Plug Controller (IHPC)
+82752 (752) AGP Graphics Accelerator
+82380FB (MPCI2) Mobile Docking Controller
+430HX - 82439HX TXC [Triton II]
+82806AA PCI64 Hub Controller (HRes)
+82870P2 P64H2 Hot Plug Controller
+80960RP [i960RP Microprocessor]
+80960RM [i960RM Microprocessor]
+82840 840 (Carmel) Chipset Host Bridge (Hub A)
+82840 840 (Carmel) Chipset AGP Bridge
+82840 840 (Carmel) Chipset PCI Bridge (Hub B)
+82845 845 (Brookdale) Chipset Host Bridge
+82845 845 (Brookdale) Chipset AGP Bridge
+82801BA/BAM/CA/CAM Ethernet Controller
+82801CA LPC Interface Controller
+82801CA/CAM AC'97 Audio Controller
+82801CA/CAM AC'97 Modem Controller
+82801CA Ultra ATA Storage Controller
+82801DB/DBL (ICH4/ICH4-L) LPC Interface Bridge
+82801DBL (ICH4-L) IDE Controller
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) USB UHCI Controller #1
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) SMBus Controller
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) USB UHCI Controller #2
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Audio Controller
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller
+82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) USB UHCI Controller #3
+82801DBM (ICH4-M) IDE Controller
+82801DBM (ICH4-M) LPC Interface Bridge
+82801DB/DBM (ICH4/ICH4-M) USB2 EHCI Controller
+82801EB/ER (ICH5/ICH5R) LPC Interface Bridge
+82801EB (ICH5) SATA Controller
+82801EB/ER (ICH5/ICH5R) USB UHCI Controller #1
+82801EB/ER (ICH5/ICH5R) SMBus Controller
+82801EB/ER (ICH5/ICH5R) USB UHCI Controller #2
+82801EB/ER (ICH5/ICH5R) AC'97 Audio Controller
+82801EB/ER (ICH5/ICH5R) AC'97 Modem Controller
+82801EB/ER (ICH5/ICH5R) USB UHCI #3
+82801EB/ER (ICH5/ICH5R) IDE Controller
+82801EB (ICH5) LPC Interface Bridge
+82801EB/ER (ICH5/ICH5R) USB2 EHCI Controller
+82801EB/ER (ICH5/ICH5R) USB UHCI Controller #4
+82801ER (ICH5R) SATA Controller
+82820 820 (Camino) Chipset Host Bridge (MCH)
+82820 820 (Camino) Chipset Host Bridge
+82820 820 (Camino) Chipset AGP Bridge
+82805AA MTH Memory Translator Hub
+82804AA MRH-S Memory Repeater Hub for SDRAM
+82850 850 (Tehama) Chipset Host Bridge (MCH)
+82860 860 (Wombat) Chipset Host Bridge (MCH)
+82850 850 (Tehama) Chipset AGP Bridge
+82860 860 (Wombat) Chipset AGP Bridge
+82860 860 (Wombat) Chipset PCI Bridge
+E7500/E7501 Host RASUM Controller
+E7500/E7501 Hub Interface B PCI-to-PCI Bridge
+E7500/E7501 Hub Interface B RASUM Controller
+E7500/E7501 Hub Interface C PCI-to-PCI Bridge
+E7500/E7501 Hub Interface C RASUM Controller
+E7500/E7501 Hub Interface D PCI-to-PCI Bridge
+E7500/E7501 Hub Interface D RASUM Controller
+E7505/E7205 Series RAS Controller
+E7505 Hub Interface B PCI-to-PCI Bridge
+E7505 Hub Interface B PCI-to-PCI Bridge RAS Controller
+82845G/GL[Brookdale-G]/GE/PE DRAM Controller/Host-Hub Interface
+82845G/GL[Brookdale-G]/GE/PE Host-to-AGP Bridge
+82845G/GL[Brookdale-G]/GE Chipset Integrated Graphics Device
+82865G/PE/P DRAM Controller/Host-Hub Interface
+82865G/PE/P PCI to AGP Controller
+82865G Integrated Graphics Device
+82865G/PE/P Processor to I/O Memory Interface
+82875P/E7210 Memory Controller Hub
+82875P Processor to AGP Controller
+82875P/E7210 Processor to PCI to CSA Bridge
+82875P/E7210 Processor to I/O Memory Interface
+915G/P/GV Processor to I/O Controller
+915G/P/GV PCI Express Root Port
+82915G Express Chipset Family Graphics Controller
+E7220/E7221 Memory Controller Hub
+E7220/E7221 PCI Express Root Port
+E7221 Integrated Graphics Controller
+Mobile Memory Controller Hub PCI Express Port
+6300ESB LPC Interface Controller
+6300ESB PATA Storage Controller
+6300ESB SATA Storage Controller
+6300ESB AC'97 Audio Controller
+6300ESB AC'97 Modem Controller
+6300ESB USB Universal Host Controller
+6300ESB I/O Advanced Programmable Interrupt Controller
+6300ESB USB2 Enhanced Host Controller
+Server Hub PCI Express x4 Port D
+Server Hub PCI Express x4 Port C0
+Server Hub PCI Express x4 Port C1
+Server Hub PCI Express x4 Port B0
+Server Hub PCI Express x4 Port B1
+Server Hub PCI Express x4 Port A0
+Server Hub PCI Express x4 Port A1
+Server Hub PCI Express x8 Port C
+Server Hub PCI Express x8 Port B
+Server Hub PCI Express x8 Port A
+Server Hub System Bus, Boot, and Interrupt Registers
+Server Hub Address Mapping Registers
+Server Hub Miscellaneous Registers
+External Memory Bridge Control Registers
+External Memory Bridge Memory Interleaving Registers
+External Memory Bridge DDR Initialization and Calibration
+External Memory Bridge Reserved Registers
+82801FB/FR (ICH6/ICH6R) LPC Interface Bridge
+82801FBM (ICH6M) LPC Interface Bridge
+82801FW/FRW (ICH6W/ICH6RW) LPC Interface Bridge
+82801FB/FW (ICH6/ICH6W) SATA Controller
+82801FR/FRW (ICH6R/ICH6RW) SATA Controller
+82801FBM (ICH6M) SATA Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1
+82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #2
+82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #3
+82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #4
+82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 1
+82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 2
+82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 3
+82801FB/FBM/FR/FW/FRW (ICH6 Family) PCI Express Port 4
+82801FB/FBM/FR/FW/FRW (ICH6 Family) High Definition Audio Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) SMBus Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) LAN Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Modem Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller
+82801FB/FBM/FR/FW/FRW (ICH6 Family) IDE Controller
+82855PM Processor to I/O Controller
+82855PM Processor to AGP Controller
+82830 CGC [Chipset Graphics Controller]
+82852/82855 GM/GME/PM/GMV Processor to I/O Controller
+82852/82855 GM/GME/PM/GMV Processor to AGP Controller
+82852/855GM Integrated Graphics Device
+E7525/E7520 Error Reporting Registers
+E7320 Error Reporting Registers
+E7525/E7520/E7320 PCI Express Port A
+E7525/E7520/E7320 PCI Express Port A1
+E7525/E7520 PCI Express Port B
+E7525/E7520/E7320 Extended Configuration Registers
+PRO/Wireless 2915ABG MiniPCI Adapter
+EtherExpress PRO/100 Intelligent Server
+82371SB PIIX3 ISA [Natoma/Triton II]
+82371SB PIIX3 IDE [Natoma/Triton II]
+82371SB PIIX3 USB [Natoma/Triton II]
+430VX - 82437VX TVX [Triton VX]
+Intel Intercast Video Capture Card
+82810 GMCH [Graphics Memory Controller Hub]
+82810 CGC [Chipset Graphics Controller]
+82810 DC-100 GMCH [Graphics Memory Controller Hub]
+82810 DC-100 CGC [Chipset Graphics Controller]
+82810E DC-133 GMCH [Graphics Memory Controller Hub]
+82810E DC-133 CGC [Chipset Graphics Controller]
+82810 DC-133 System and Graphics Controller
+82810-M DC-100 System and Graphics Controller
+82810-M DC-133 System and Graphics Controller
+440LX/EX - 82443LX/EX Host bridge
+440LX/EX - 82443LX/EX AGP bridge
+440BX/ZX/DX - 82443BX/ZX/DX Host bridge
+440BX/ZX/DX - 82443BX/ZX/DX AGP bridge
+440BX/ZX/DX - 82443BX/ZX/DX Host bridge (AGP disabled)
+82440MX AC'97 Audio Controller
+82440MX AC'97 Modem Controller
+82440MX USB Universal Host Controller
+82440MX Power Management Controller
+440GX - 82443GX Host bridge (AGP disabled)
+82740 (i740) AGP Graphics Accelerator
+450KX/GX [Orion] - 82454KX/GX PCI bridge
+450KX/GX [Orion] - 82453KX/GX Memory controller
+450NX - 82451NX Memory & I/O Controller
+450NX - 82454NX/84460GX PCI Expander Bridge
+460GX - 84460GX System Address Controller (SAC)
+460GX - 84460GX System Data Controller (SDC)
+460GX - 84460GX AGP Bridge (GXB function 2)
+460GX - 84460GX Memory Address Controller (MAC)
+460GX - 84460GX Memory Data Controller (MDC)
+460GX - 82466GX Wide and fast PCI eXpander Bridge (WXB)
+460GX - 84460GX AGP Bridge (GXB function 1)
+IXP4XX - Intel Network Processor family. IXP420, IXP421, IXP422, IXP425 and IXC1100
+IXP2000 Family Network Processor
+21555 Non transparent PCI-to-PCI Bridge
+450NX/GX [Orion] - 82453KX/GX Memory controller [BUG]
+AIC-1160 [Family Fibre Channel Adapter]
+ANA-5910/5930/5940 ATM155 & 25 LAN Adapter
+ANA-5910A/5930A/5940A ATM Adapter
+ANA-7711F Network Accelerator Card (NAC) - Optical
+ANA-7711C Network Accelerator Card (NAC) - Copper
+AIC-7815 RAID+Memory Controller IC
+AHA-2940U/UW / AHA-39xx / AIC-7895
+SG2010 PCI over Starfabric Bridge
+SG2010 PCI to Starfabric Gateway
+SG1010 Starfabric Switch and PCI Bridge
+DeepSea 1 High Speed Stereo Vision Frame Grabber
+DeepSea 2 High Speed Stereo Vision Frame Grabber
+DAG 4.2E Dual Gigabit Ethernet
+libdha_pci: wrong length to read: %u
+write-protect
+write-back
+uncachable
+write-combining
+write-through
+/proc/mtrr
+base=0x%08X size=0x%08X type=%s
+xineplug_vo_out_vidix.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

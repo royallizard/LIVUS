@@ -1,0 +1,296 @@
+/lib64/ld-linux-x86-64.so.2
+libstrongswan.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+host_create_from_string
+library_init
+mem_cred_create
+traffic_selector_create_from_cidr
+library_deinit
+auth_cfg_create
+chunk_create_clone
+debug_names
+backtrace_create
+identification_create_from_string
+traffic_selector_create_from_string
+_fini
+callback_job_create_with_prio
+callback_cred_create_shared
+key_type_names
+linked_list_create
+traffic_selector_create_dynamic
+thread_current_id
+return_false
+enum_from_name_as_int
+shared_key_create
+libhydra.so.0
+libhydra_init
+libhydra_deinit
+libcharon.so.0
+ike_cfg_create
+libcharon_deinit
+proposal_create_default
+proposal_create_from_string
+child_cfg_create
+charon
+proposal_create_default_aead
+controller_cb_empty
+peer_cfg_create
+libcharon_init
+libm.so.6
+libpthread.so.0
+pthread_sigmask
+sigaction
+sigwait
+libdl.so.2
+libc.so.6
+__printf_chk
+optind
+sigprocmask
+__stack_chk_fail
+abort
+getpid
+kill
+strtol
+strlen
+sigemptyset
+__fprintf_chk
+sigaddset
+stdout
+fputc
+malloc
+getpass
+getenv
+optarg
+stderr
+__snprintf_chk
+getopt_long
+__vfprintf_chk
+__cxa_finalize
+uname
+__libc_start_main
+free
+__cxa_atexit
+_edata
+__bss_start
+_end
+/usr/lib64/strongswan
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5Z@ 
+%\@ 
+%Z@ 
+%R@ 
+%J@ 
+%B@ 
+%:@ 
+%2@ 
+%*@ 
+%"@ 
+%z? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+%"? 
+=r> 
+[]A\
+5AE 
+fffff.
+=iC 
+5bC 
+fffff.
+=yC 
+=b4 
+fffff.
+=14 
+AWAV1
+AUATA
+D$8H
+[]A\A]A^A_
+AWAVI
+AUATUSH
+D$h1
+d$ H
+t$ H
+L$hdH3
+x[]A\A]A^A_
+|$ 1
+t$ E1
+D$ 0*
+D$0,
+AVAU
+ATUS
+[]A\A]A^
+AVAUATUS9w 
+[]A\A]A^
+]A\A]A^
+AVAU
+ATUSH
+P@j61
+T$HL
+ []A\A]A^
+T$0H
+ffffff.
+fffff.
+=y2 
+fffff.
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+=*1 
+AWAVAUATI
+-B0 
+[A\A]A^A_]
+AWAV
+AUATA
+[]A\A]A^A_
+=g- 
+AWAVA
+AUATL
+[]A\A]A^A_
+help
+version
+debug
+level
+host
+hostname
+eap-identity
+xauth-username
+remote-identity
+cert
+path
+agent
+socket
+local-ts
+subnet
+remote-ts
+ike-proposal
+esp-proposal
+ah-proposal
+profile
+print this usage information and exit
+show version information and exit
+set the default log level (-1..4, default: 1)
+DNS name or address to connect to
+identity the client uses for the IKE exchange
+identity the client uses for EAP authentication
+username the client uses for XAuth authentication
+server identity to expect, defaults to host
+certificate for authentication or trust chain validation
+RSA private key to use for authentication
+PKCS#12 file with private key and certificates to use for 
+authentication and trust chain validation
+use SSH agent for authentication. If socket is not specified
+it is read from the SSH_AUTH_SOCK environment variable
+additional traffic selector to propose for our side
+traffic selector to propose for remote side
+a single IKE proposal to offer instead of the default
+a single ESP proposal to offer instead of the default
+a single AH proposal to offer instead of the default
+authentication profile to use, where name is one of:
+  ikev2-pub, ikev2-eap, ikev2-pub-eap
+  ikev1-pub[-am], ikev1-xauth[-am],
+  ikev1-xauth-psk[-am], ikev1-hybrid[-am]
+unable to initiate, missing --host option
+unable to initiate, missing --identity option
+missing private key for profile %N
+unknown connection profile: %s
+0.0.0.0
+255.255.255.255
+invalid traffic selector: %s
+ikev2-pub
+ikev2-eap
+ikev2-pub-eap
+ikev1-pub
+ikev1-pub-am
+ikev1-xauth
+ikev1-xauth-am
+ikev1-xauth-psk
+ikev1-xauth-psk-am
+ikev1-hybrid
+ikev1-hybrid-am
+EAP password: 
+Preshared Key: 
+Password: 
+PIN: 
+SSH_AUTH_SOCK
+no ssh-agent socket defined
+loading certificate from '%s' failed
+loading %N private key from '%s' failed
+loading PKCS#12 file '%s' failed
+failed to load private key from ssh-agent
+failed to load public key from ssh-agent
+failed to create certificate for ssh-agent public key
+thread %u received %d
+00[%N] 
+Usage: %s
+  --%s%s%s%s
+%s%-*s%s
+%-*s%s
+5.3.2
+charon-cmd
+%s, strongSwan %s
+charon-cmd.port
+charon-cmd.port_nat_t
+charon-cmd.load
+killing ourself, received critical signal
+aes des rc2 sha1 sha2 md4 md5 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 sshkey pem openssl fips-prf gmp xcbc cmac hmac ctr ccm curl kernel-libipsec kernel-netlink resolve socket-default eap-identity eap-md5 eap-gtc eap-mschapv2 eap-tls eap-ttls eap-peap xauth-generic
+Starting charon-cmd IKE client (strongSwan %s, %s %s, %s)
+error %d while waiting for a signal
+signal of type SIGHUP received. Reloading configuration
+reloading config failed, keeping old
+signal of type SIGINT received. Shutting down
+signal of type SIGTERM received. Shutting down
+unknown signal %d received. Ignored
+;*3$"
+charon-cmd.debug
+7zXZ
+R^lr"
+ [GA
+C;jM
+0Sp{
+QYNCl
+(Ni&
+{6V>
+`b~-
+3xMpI
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

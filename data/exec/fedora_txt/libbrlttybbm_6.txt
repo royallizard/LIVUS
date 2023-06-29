@@ -1,0 +1,363 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+__errno_location
+disconnectBrailleResource
+free
+logMessage
+writeBraillePacket
+__stack_chk_fail
+mempcpy
+enqueueKeyEvent
+rescaleInteger
+memset
+readBraillePacket
+gioReadByte
+logShortPacket
+logIgnoredByte
+logDiscardedByte
+logTruncatedPacket
+logInputPacket
+logPartialPacket
+logUnknownPacket
+awaitBrailleInput
+translateOutputCells
+cellsHaveChanged
+validateChoice
+validateYesNo
+calloc
+gioInitializeDescriptor
+gioReconfigureResource
+gioDiscardInput
+asyncWait
+logMallocError
+gioGetApplicationData
+makeOutputTable
+__memset_chk
+memcmp
+strlen
+logUnexpectedPacket
+strpbrk
+strtol
+dcgettext
+__snprintf_chk
+enqueueKey
+dotsTable_ISO11548_1
+brl_ktb_bm
+brl_version_bm
+brl_driver_bm
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zp 
+%rp 
+%jp 
+%bp 
+%Zp 
+%Rp 
+%Jp 
+%Bp 
+%:p 
+%2p 
+%*p 
+%"p 
+%Bn 
+=yo 
+=QV 
+~2Hc
+tS~9
+dH3<%(
+ATSI
+[A\]
+AUATI
+A*M H
+5jk 
+[]A\A]
+5<k 
+5xk 
+AVAUA
+ATUI
+[]A\A]A^
+dH34%(
+W dH
+dH34%(
+ATSH
+[A\]
+AWAVAUATI
+[A\A]A^A_]
+ATUH
+[]A\
+ATUH
+ []A\
+ATUH
+ []A\
+AWAVHc
+AUATI
+`<`t
+([]A\A]A^A_
+D9|$
+ATUA
+ []A\
+AWAVI
+AUATI
+~tq@
+([]A\A]A^A_
+ATUA
+[]A\
+AWAVI
+AUATI
+D$(H
+L$H1
+D$0H
+[]A\A]A^A_
+=QY 
+t~rd
+=/V 
+AWAVAUATL
+r7E87u
+[]A\A]A^A_
+AVAUH
+ATU1
+ []A\A]A^
+AVAUI
+ATUI
+[]A\A]A^
+fD;h
+AWAVAUATL
+wu<"
+[A\A]A^A_]
+<Pt`H
+AUATUSH
+[]A\A]
+]A\A]
+AWAVL
+AUATL
+D$(1
+v1<4
+D$(dH3
+8[]A\A]A^A_
+AWAVAUATUSH
+D$_L
+|$`H
+D$^H
+D$]H
+T$`Hc
+=4I 
+M E1
+[]A\A]A^A_
+D$bH
+5ZF 
+D$bH
+T$aI
+A\A]
+D$]H
+5<E 
+AYAZ
+t$a1
+D$a1
+A[[H
+t$aH
+t$eH
+5!C 
+D$GI
+D$8I
+D$GI
+D$8I
+D$ L
+|$HA
+D9l$0w
+D9l$0w
+L$01
+T$(H
+D$GH
+D$gj
+AYAZ
+AWAVAUATUSH
+D$81
+D$0L
+d$/H
+D$8dH3
+H[]A\A]A^A_
+AVAUL
+ATUL
+-s> 
+[]A\A]A^
+%s: %.*s
+Modular 40
+Modular 80
+invalid protocol setting
+%s: %s
+invalid vario keys setting
+probing with %s protocol
+DM80P
+Baum Device Identity: %s
+Inka
+Refreshabraille 
+BrailleConnect
+unexpected cell count: %d
+Baum Device Identity
+Baum Serial Number
+123456789
+unsupported request
+Powerdown
+Baum
+%s %s
+%c %s
+driver request
+power switch
+idle timeout
+battery low
+default
+escape
+hid1
+hid2
+PowerBraille
+HandyTech
+Baum HID2
+Baum HID1
+Baum Escape
+Brailliant
+Conny
+PocketVario
+Pronto
+Refreshabraille
+SuperVario
+SVario
+Vario 40
+VarioConnect
+VarioUltra
+dm80p
+inka
+ultra
+pronto
+conny
+connect
+ScaledLeftSensor
+ScaledRightSensor
+HorizontalSensor
+RoutingKey
+StatusButton1
+StatusButton2
+StatusButton3
+StatusButton4
+StatusKey1
+StatusKey2
+StatusKey3
+StatusKey4
+FirstWheelUp
+FirstWheelDown
+FirstWheelPress
+SecondWheelUp
+SecondWheelDown
+SecondWheelPress
+ThirdWheelUp
+ThirdWheelDown
+ThirdWheelPress
+FourthWheelUp
+FourthWheelDown
+FourthWheelPress
+Left
+Right
+Dot1
+Dot2
+Dot3
+Dot4
+Dot5
+Dot6
+Dot7
+Dot8
+Back1
+Back2
+Back3
+Back4
+Back5
+Back6
+Back7
+Back8
+Back9
+Back10
+Front1
+Front2
+Front3
+Front4
+Front5
+Front6
+Front7
+Front8
+Front9
+Front10
+Command7
+Command6
+Command5
+Command4
+Command3
+Command2
+Command1
+Display7
+Display6
+Display5
+Display4
+Display3
+Display2
+Display1
+Dave Mielke <dave@mielke.cc>
+Jul 19 2016
+06:53:07
+variokeys
+Cell Count: %d (%d text, %d status)
+Baum emulation: PowerBraille Version: %c%c%c%c
+Baum emulation: HandyTech Model: %02X -> %s
+Baum emulation: unknown HandyTech identity code: %02X
+unexpected %s packet verification state: %u
+unknown module identifier: %04X
+unsupported data register configuration: %u
+BrailleConnect 12/24/32/40/64/80, Brailliant 24/32/40/64/80, Conny 12, DM80 Plus, EcoVario 24/32/40/64/80, Inka, PocketVario 24, Pronto! V3 18/40, Pronto! V4 18/40, RBT 40/80, Refreshabraille 18, SuperVario 32/40/64/80, Vario 40/80, VarioConnect 12/24/32/40/64/80, VarioPro 40/64/80, VarioUltra 20/32/40
+;*3$"
+libbrlttybbm.so.debug
+7zXZ
+Dv'*
+7bV.
+/5[^&
+Kz]N
+IGJ4v
+lwF+BD
+j}e6
+=EZ*2
+_$j 
+eQWL?1P
+rsI)
+r\'Vs
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

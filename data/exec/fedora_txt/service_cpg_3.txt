@@ -1,0 +1,113 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+cpg_service_engine
+logsys_single_id
+logsys_loggers
+_logsys_log_printf2
+__assert_fail
+memcpy
+free
+realloc
+malloc
+lcr_component_register
+logsys_config_subsys_get
+_logsys_subsys_create
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+service_cpg.lcrso
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+,[^_]
+[^_]
+l[^_]
+|[^_]
+|[^_]
+[^_]
+\[^_]
+[^_]
+L[^_]
+[^_]
+L[^_]
+@[^]
+@[^]
+[^_]
+L[^_]
+cpg.c
+logsys_subsys_id != -1
+confchg, sent downlist
+lib_init_fn: conn=%p, pi=%p
+downlist left_list: %d
+got membership request on %p
+sending joinlist to cluster
+got trackstop request on %p
+got trackstart request on %p
+got mcast request on %p
+got leave request on %p
+exit_fn for conn=%p
+corosync_cpg
+confchg, low nodeid=%d, us = %d
+confchg, build downlist: %d nodes
+Sending new joinlist (%d elements) to clients
+Unable to allocate removed group struct. CPG callbacks will be junk.
+Unable to realloc removed group struct. CPG callbacks will be junk.
+Unable to allocate group_list struct
+Unable to allocate group_info struct
+Unable to allocate process_info struct
+got joinlist message from node %d
+got procjoin message from cluster node %d
+got procleave message from cluster node %d
+got join request on %p, pi=%p, pi->pid=%d
+corosync cluster closed process group service v1.01
+message_handler_req_exec_cpg_downlist
+remove_node_from_groups
+notify_lib_joinlist
+message_handler_req_exec_cpg_mcast
+get_group
+message_handler_req_exec_cpg_joinlist
+do_proc_join
+message_handler_req_exec_cpg_procleave
+message_handler_req_exec_cpg_procjoin
+send_group_list_callbacks
+message_handler_req_lib_cpg_trackstop
+message_handler_req_lib_cpg_trackstart
+message_handler_req_lib_cpg_membership
+message_handler_req_lib_cpg_mcast
+message_handler_req_lib_cpg_leave
+message_handler_req_lib_cpg_join
+cpg_exec_send_joinlist
+cpg_confchg_fn
+cpg_lib_exit_fn
+cpg_lib_init_fn
+service_cpg.lcrso.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

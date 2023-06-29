@@ -1,0 +1,334 @@
+nlf&
+@@B-
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+sharedsv_scalar_mg_dup
+sharedsv_array_mg_dup
+Perl_croak_nocontext
+sharedsv_array_mg_copy
+sharedsv_elem_vtbl
+Perl_sv_magicext
+recursive_lock_release
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_cond_signal
+Perl_sv_2iv_flags
+sharedsv_elem_mg_dup
+Perl_sharedsv_find
+Perl_mg_find
+sharedsv_array_vtbl
+sharedsv_scalar_vtbl
+Perl_sv_derived_from
+XS_threads__shared__refcnt
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSViv
+Perl_sv_2mortal
+Perl_ckwarn
+Perl_warner
+Perl_Isv_undef_ptr
+Perl_croak
+XS_threads__shared__id
+Perl_newSVuv
+sharedsv_scalar_store
+PL_sharedsv_lock
+PL_sharedsv_space
+Perl_Gthr_key_ptr
+pthread_setspecific
+Perl_push_scope
+Perl_Idebug_ptr
+Perl_Itmps_floor_ptr
+Perl_save_int
+Perl_Itmps_ix_ptr
+Perl_sv_setsv_flags
+Perl_newSVpv
+Perl_pop_scope
+Perl_sv_upgrade
+pthread_getspecific
+Perl_Iscopestack_ix_ptr
+Perl_deb
+Perl_free_tmps
+Perl_sv_free
+Perl_sv_free2
+Perl_sharedsv_cond_timedwait
+pthread_cond_timedwait
+Perl_sharedsv_associate
+Perl_newSV
+Perl_sv_setref_iv
+Perl_sv_unmagic
+Perl_sv_2pv_flags
+Perl_gv_stashpvn
+recursive_lock_acquire
+pthread_cond_wait
+Perl_save_destructor_x
+XS_threads__shared_bless
+Perl_sv_bless
+Perl_Icurcop_ptr
+Perl_gv_stashpv
+XS_threads__shared__tie_NEXTKEY
+Perl_hv_iternext_flags
+Perl_hv_iterkey
+XS_threads__shared__tie_FIRSTKEY
+Perl_hv_iterinit
+XS_threads__shared__tie_EXISTS
+Perl_hv_common_key_len
+Perl_Isv_no_ptr
+Perl_Isv_yes_ptr
+Perl_av_exists
+XS_threads__shared__tie_STORESIZE
+Perl_av_fill
+XS_threads__shared__tie_EXTEND
+Perl_av_extend
+XS_threads__shared__tie_SHIFT
+Perl_av_shift
+Perl_sv_newmortal
+XS_threads__shared__tie_POP
+Perl_av_pop
+XS_threads__shared__tie_UNSHIFT
+Perl_av_unshift
+Perl_av_store
+Perl_newSVsv
+XS_threads__shared__tie_PUSH
+Perl_av_push
+sharedsv_array_mg_free
+sharedsv_scalar_mg_free
+sharedsv_array_mg_CLEAR
+Perl_hv_clear
+Perl_av_clear
+sharedsv_array_mg_FETCHSIZE
+Perl_hv_placeholders_get
+Perl_av_len
+sharedsv_elem_mg_STORE
+Perl_av_fetch
+sharedsv_elem_mg_FETCH
+sharedsv_scalar_mg_local
+sharedsv_scalar_mg_set
+sharedsv_scalar_mg_get
+sharedsv_elem_mg_DELETE
+Perl_av_delete
+Perl_sharedsv_share
+Perl_mg_set
+XS_threads__shared_share
+Perl_newRV
+recursive_lock_destroy
+pthread_mutex_destroy
+pthread_cond_destroy
+sharedsv_userlock_free
+recursive_lock_init
+pthread_mutex_init
+pthread_cond_init
+malloc
+sharedsv_userlock_vtbl
+XS_threads__shared_cond_broadcast
+pthread_cond_broadcast
+XS_threads__shared_cond_signal
+XS_threads__shared_cond_timedwait
+Perl_Iop_ptr
+Perl_sv_setiv
+Perl_pad_sv
+Perl_sv_2nv
+XS_threads__shared_cond_wait
+Perl_sharedsv_lock
+Perl_sharedsv_locksv
+Perl_sharedsv_unlock
+Perl_sharedsv_init
+perl_alloc
+perl_construct
+Perl_Ilockhook_ptr
+Perl_Isharehook_ptr
+boot_threads__shared
+Perl_new_version
+Perl_vcmp
+Perl_newXS
+Perl_newXS_flags
+Perl_Iunitcheckav_ptr
+Perl_call_list
+Perl_form
+Perl_get_sv
+Perl_vstringify
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.3.2
+[^_]
+[^_]
+[^_]
+,[^_]
+,[^_]
+,[^_]
+<[^_]
+~ ;E
+[^_]
+<[^_]
+<[^_]
+<[^_]
+L[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+L[^_]
+L[^_]
+,[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+=LU~
+<[^_]
+[^_]
+[^_]
+L[^_]
+,[^_]
+[^_]
+l[^_]
+mg->mg_flags & 0x10
+shared.xs
+threads::shared::tie
+myref
+threads::shared::_refcnt
+Usage: %s(%s)
+%-p is not shared
+threads::shared::_id
+ENTER
+%s scope %ld at %s:%d
+LEAVE
+panic: cond_timedwait
+my_perl != PL_sharedsv_space
+my_perl
+panic: COND_WAIT (%d) [%s:%d]
+myref, ...
+threads::shared::bless
+obj, oldkey
+threads::shared::tie::NEXTKEY
+obj, index
+threads::shared::tie::EXISTS
+obj, count
+threads::shared::tie::EXTEND
+threads::shared::tie::SHIFT
+threads::shared::tie::POP
+obj, ...
+threads::shared::tie::UNSHIFT
+threads::shared::tie::PUSH
+saggregate
+mg->mg_ptr == 0
+mg->mg_ptr != 0
+Cannot share globs yet
+Cannot share subs yet
+threads::shared::share
+my_perl == PL_sharedsv_space
+panic: COND_INIT (%d) [%s:%d]
+threads::shared::cond_signal
+ref_cond, abs, ref_lock= 0
+ref_cond, ref_lock= 0
+threads::shared::cond_wait
+XS_VERSION
+%s::%s
+1.14
+version
+bootstrap parameter
+shared.c
+\[$@%];\[$@%]
+\[$@%]$;\[$@%]
+Assertion %s failed: file "shared.xs", line %d
+panic: MUTEX_LOCK (%d) [%s:%d]
+panic: COND_SIGNAL (%d) [%s:%d]
+panic: MUTEX_UNLOCK (%d) [%s:%d]
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+PL_sharedsv_lock.owner == my_perl
+panic: pthread_setspecific (%d) [%s:%d]
+((svtype)((ssv)->sv_flags & 0xff)) >= SVt_RV
+((svtype)((ssv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((ssv)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((ssv)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((ssv)->sv_flags & 0xff)) != SVt_PVFM
+!((((ssv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((ssv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((ssv)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVMG
+((svtype)((sobj)->sv_flags & 0xff)) >= SVt_PVMG
+((svtype)((ssv)->sv_flags & 0xff)) >= SVt_PVMG
+Invalid value for shared scalar
+Perl_sharedsv_find(my_perl, sv) == ssv
+((svtype)((sv)->sv_flags & 0xff)) >= SVt_RV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVFM
+!((((sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((sv)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((obj)->sv_flags & 0xff)) >= SVt_PVMG
+Attempt to bless into a reference
+Explicit blessing to '' (assuming package main)
+threads::shared::tie::FIRSTKEY
+threads::shared::tie::STORESIZE
+Assertion %s failed: file "shared.c", line %d
+!(((_svi)->sv_flags & (0x40000000|0x00040000)) == (0x40000000|0x00040000))
+Argument to share needs to be passed as ref
+panic: MUTEX_DESTROY (%d) [%s:%d]
+panic: COND_DESTROY (%d) [%s:%d]
+panic: MUTEX_INIT (%d) [%s:%d]
+threads::shared::cond_broadcast
+Argument to cond_broadcast needs to be passed as ref
+cond_broadcast can only be used on shared values
+cond_broadcast() called on unlocked variable
+panic: COND_BROADCAST (%d) [%s:%d]
+Argument to cond_signal needs to be passed as ref
+cond_signal can only be used on shared values
+cond_signal() called on unlocked variable
+threads::shared::cond_timedwait
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+Argument to cond_timedwait needs to be passed as ref
+cond_timedwait can only be used on shared values
+cond_timedwait lock needs to be passed as ref
+cond_timedwait lock must be a shared value
+You need a lock before you can cond_wait
+Argument to cond_wait needs to be passed as ref
+cond_wait can only be used on shared values
+cond_wait lock needs to be passed as ref
+cond_wait lock must be a shared value
+lock can only be used on shared values
+%s object version %-p does not match %s%s%s%s %-p
+(knN
+shared.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

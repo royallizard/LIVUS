@@ -1,0 +1,296 @@
+/lib64/ld-linux-x86-64.so.2
+libcmap.so.4
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+cmap_set_string
+cmap_dispatch
+cmap_set
+cmap_set_int16
+cmap_get_uint64
+cmap_set_float
+_fini
+cmap_set_uint32
+cmap_get_int32
+cmap_set_int8
+cmap_get_string
+cmap_iter_finalize
+cmap_get_uint8
+cmap_get_uint32
+cmap_get_int8
+cmap_set_double
+cmap_set_uint16
+cmap_get_int16
+cmap_delete
+cmap_set_int64
+cmap_get_float
+cmap_fd_get
+cmap_iter_next
+cmap_initialize
+cmap_get_double
+cmap_get_uint16
+cmap_track_add
+cmap_set_int32
+cmap_iter_init
+cmap_get
+cmap_finalize
+cmap_set_uint64
+cmap_get_int64
+cmap_set_uint8
+libcorosync_common.so.4
+cs_strerror
+libc.so.6
+__printf_chk
+exit
+fopen
+optind
+perror
+puts
+__stack_chk_fail
+putchar
+realloc
+stdin
+strtok
+fgets
+getopt
+poll
+__fprintf_chk
+stdout
+fputc
+memcpy
+fclose
+malloc
+__ctype_b_loc
+sscanf
+optarg
+stderr
+fwrite
+fread
+sleep
+__cxa_finalize
+access
+strcmp
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+COROSYNC_CMAP_1.0
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+5J6 
+%L6 
+%J6 
+%B6 
+%:6 
+%26 
+%*6 
+%"6 
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+%z4 
+%r4 
+%j4 
+%b4 
+AUE1
+X[]A\A]A^A_
+|$0H
+|$01
+|$0H
+l$0H
+t$ L
+D$ H
+d$@L
+|$0L
+d$ H
+|$01
+L$ H
+T$@H
+=R. 
+fffff.
+=j( 
+AUATUSH
+[]A\A]
+fffff.
+ATE1
+D$(H
+D$ A
+[]A\A]A^A_
+T$ H
+T$pH
+T$`H
+T$PH
+T$0H
+T$@H
+L$(E1
+, u3
+L$pH
+L$`H
+L$PH
+L$@H
+L$0H
+AUATUH
+t$0L
+d$8L
+t []A\A]A^H
+D$HH
+L$XH
+T$PH
+[]A\A]A^
+AWAVAUATUSH
+L;0t
+[]A\A]A^A_
+AWAVI
+5|" 
+5u" 
+5n" 
+5g" 
+5`" 
+5Y" 
+5R" 
+T$0H
+T$ H
+H[]A\A]A^A_
+T$ H
+T$ H
+T$ L
+D$0L
+AVAUATI
+[]A\A]A^
+AVE1
+AUE1
+D$(H
+L$(E1
+[]A\A]A^A_
+T$ H
+T$pH
+T$`H
+T$PH
+T$0H
+T$@H
+L$0H
+,0u3
+L$pH
+L$`H
+L$PH
+L$@H
+ffff.
+AUATUSH
+d$ H
+T$ H
+[]A\A]
+[]A\A]A^A_
+Failed to initialize iteration. Error %s
+Can't delete key %s. Error %s
+Can't get value of %s. Error %s
+%s is not valid %s type value
+Failed to set key %s. Error %s
+usage:  corosync-cmapctl [-b] [-dghsTtp] [params...]
+    corosync-cmapctl -s key_name type value
+    where type is one of ([i|u][8|16|32|64] | flt | dbl | str | bin)
+    for bin, value is file name (or - for stdin)
+    corosync-cmapctl -p filename
+    the format of the file is:
+    corosync-cmapctl -d key_name...
+Delete multiple keys with prefix:
+    corosync-cmapctl -D key_prefix...
+    corosync-cmapctl [-b] -g key_name...
+Display keys with prefix key_name:
+    corosync-cmapctl [-b] key_name...
+Track changes on keys with key_name:
+    corosync-cmapctl [-b] -t key_name
+Track changes on keys with key prefix:
+    corosync-cmapctl [-b] -T key_prefix
+Failed to initialize the cmap API. Error %s
+Failed to add tracking function. Error %s
+Failed to get file handle. Error %s
+At least 3 parameters are expected for set
+Failed to finalize the cmap API. Error %s
+Can't alloc memory
+%s) = %d
+%s) = %u
+%s) = %ld
+%s) = %lu
+%s) = %f
+%s) = %lf
+%s) = %s
+\x%02X
+*empty*
+%s (
+create> 
+delete> 
+modify> 
+unknown change> 
+Can't open input file
+Unknown type %s
+%s is not valid i8 integer
+%s is not valid i16 integer
+%s is not valid i32 integer
+%s is not valid u8 integer
+%s is not valid u16 integer
+%s is not valid u32 integer
+Couldn't access file.
+Couldn't open file.
+    -b show binary values
+Set key:
+Load settings from a file:
+    <key_name> <type> <value>
+Delete key:
+Get key:
+Display all keys:
+    corosync-cmapctl [-b]
+hgsdDtTbp:
+Expected key after options
+Can't get key %s. Error %s
+Type "q" to finish
+poll
+Dispatch error %s
+;*3$"
+corosync-cmapctl.debug
+7zXZ
+"XkQ
+}MqNl
+:7G76
+_KY|
+ 7L Y	
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

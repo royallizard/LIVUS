@@ -1,0 +1,403 @@
+/lib64/ld-linux-x86-64.so.2
+libgettextsrc-0.19.6.so
+__gmon_start__
+_Jv_RegisterClasses
+freea
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+xconcatenated_filename
+xmmalloca
+xmalloc
+xstrdup
+xrealloc
+_init
+message_page_width_set
+output_format_po
+message_print_style_uniforum
+msgdomain_list_print
+handle_color_option
+message_alloc
+message_print_style_escape
+message_print_style_indent
+handle_style_option
+input_format_po
+message_list_append
+output_format_properties
+output_format_stringtable
+msgdomain_list_alloc
+read_catalog_stream
+message_list_alloc
+msgdomain_list_sort_by_msgid
+color_test_mode
+message_page_width_ignore
+formatstring_parsers
+_fini
+libgettextlib-0.19.6.so
+execute_csharp_program
+execute_java_class
+create_pipe_in
+close_stdout
+maybe_print_progname
+shell_quote_argv
+wait_subprocess
+set_program_name
+proper_name
+libcroco-0.6.so.3
+libglib-2.0.so.0
+libxml2.so.2
+libncurses.so.5
+libtinfo.so.5
+libunistring.so.2
+libdl.so.2
+libc.so.6
+__printf_chk
+setlocale
+fopen
+optind
+dcgettext
+error_print_progname
+__stack_chk_fail
+putchar
+abort
+stdin
+strtol
+feof
+strlen
+__errno_location
+__fprintf_chk
+fputs
+memcpy
+fclose
+getenv
+optarg
+stderr
+getopt_long
+fileno
+fread
+strchr
+fdopen
+__cxa_finalize
+__sprintf_chk
+bindtextdomain
+__libc_start_main
+ferror
+basename
+free
+__cxa_atexit
+libgomp.so.1
+libpthread.so.0
+_edata
+__bss_start
+_end
+/usr/lib64
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5bQ 
+%dQ 
+%bQ 
+%ZQ 
+%RQ 
+%JQ 
+%BQ 
+%:Q 
+%2Q 
+%*Q 
+%"Q 
+%zP 
+%rP 
+%jP 
+%bP 
+%ZP 
+%RP 
+%JP 
+%BP 
+%:P 
+%2P 
+%*P 
+%"P 
+AWAVE1
+AUATA
+D$(1
+D$ H
+-.O 
+=|N 
+=kN 
+-ON 
+H9L$ 
+=FO 
+=&N 
+=rM 
+=OM 
+=-M 
+=hM 
+=CM 
+D;%IK 
+~;Hc
+=TL 
+=<L 
+=8K 
+fffff.
+=iH 
+5bH 
+fffff.
+fffff.
+-*I 
+ATUH
+tDH9
+w?H9G
+AWAVAUATI
+I9D$
+[]A\A]A^A_
+AWAVI
+AUATUSH
+t$8H
+D$HdH
+D$x1
+|$PA
+d$@L
+|$(H
+D$(H
+|$0H
+\$ H
+|$ L
+|$(L
+t$8H
+L$(H
+|$ H
+D$HH
+L$xdH3
+[]A\A]A^A_
+fff.
+AWAVAUATI
+t$@1
+D$xH
+D$p1
+d$pH
+D$`L
+l$hE1
+t$ H
+D$`D
+H;D$`L
+D$@H;
+[]A\A]A^A_
+D$`H
+D$XH
+L$0H
+D$HH
+D$HH
+L$0H
+D$XL
+T$8L
+H;D$XH
+l$`I
+D$(M
+|$XH
+|$`L9
+D$(I
+t$(H
+AVAUI
+ATUH
+XZt*H
+[]A\A]A^
+D$(1
+T$(dH3
+$u=H
+AVAUI
+ATUH
+XZt*H
+[]A\A]A^
+ATUH
+D$H1
+d$ H
+l$(H
+\$0H
+L$ H
+\$HdH3
+P[]A\
+sr-S
+-Latf
+-Cyrf
+AVAUE1
+ATUA
+XZt*H
+[]A\A]A^
+AUATI
+D$81
+t$ H
+L$ H
+ZYuhH
+D$8dH3
+H[]A\A]
+AWAVAUATI
+XZt8A
+[A\A]A^A_]
+AWAVA
+AUATL
+[]A\A]A^A_
+Try '%s --help' for more information.
+Convert binary message catalog to Uniforum style .po file.
+Mandatory arguments to long options are mandatory for short options too.
+  -j, --java                  Java mode: input is a Java ResourceBundle class
+      --csharp                C# mode: input is a .NET .dll file
+      --csharp-resources      C# resources mode: input is a .NET .resources file
+      --tcl                   Tcl mode: input is a tcl/msgcat .msg file
+  FILE ...                    input .mo files
+If no input file is given or if it is -, standard input is read.
+Input file location in Java mode:
+  -r, --resource=RESOURCE     resource name
+  -l, --locale=LOCALE         locale name, either language or language_COUNTRY
+The class name is determined by appending the locale name to the resource name,
+separated with an underscore.  The class is located using the CLASSPATH.
+Input file location in C# mode:
+  -d DIRECTORY                base directory for locale dependent .dll files
+The -l and -d options are mandatory.  The .dll file is located in a
+subdirectory of the specified directory whose name depends on the locale.
+Input file location in Tcl mode:
+  -d DIRECTORY                base directory of .msg message catalogs
+The -l and -d options are mandatory.  The .msg file is located in the
+specified directory.
+  -o, --output-file=FILE      write output to specified file
+The results are written to standard output if no output file is specified
+or if it is -.
+      --color                 use colors and other text attributes always
+      --color=WHEN            use colors and other text attributes if WHEN.
+                              WHEN may be 'always', 'never', 'auto', or 'html'.
+      --style=STYLEFILE       specify CSS style rule file for --color
+  -e, --no-escape             do not use C escapes in output (default)
+  -E, --escape                use C escapes in output, no extended chars
+      --force-po              write PO file even if empty
+  -i, --indent                write indented output style
+      --strict                write strict uniforum style
+  -p, --properties-output     write out a Java .properties file
+      --stringtable-output    write out a NeXTstep/GNUstep .strings file
+  -w, --width=NUMBER          set output page width
+      --no-wrap               do not break long message lines, longer than
+                              the output page width, into several lines
+  -s, --sort-output           generate sorted output
+  -h, --help                  display this help and exit
+  -V, --version               output version information and exit
+  -v, --verbose               increase verbosity level
+Report bugs to <bug-gnu-gettext@gnu.org>.
+Copyright (C) %s Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+%s and %s are mutually exclusive
+%s and explicit file names are mutually exclusive
+%s requires a "-l locale" specification
+%s requires a "-d directory" specification
+%s is only valid with %s or %s
+Usage: %s [OPTION] [FILE]...
+Operation mode:
+Input file location:
+Output file location:
+Output details:
+Informative output:
+/usr/share/locale
+gettext-tools
+bison-runtime
+d:eEhijl:o:pr:svVw:
+0.19.6
+%s (GNU %s) %s
+1995-1998, 2000-2010
+Ulrich Drepper
+Written by %s.
+--java
+--csharp
+--tcl
+--resource
+--locale
+--csharp-resources
+color
+force-po
+help
+indent
+no-escape
+no-wrap
+output-file
+properties-output
+sort-output
+strict
+stringtable-output
+style
+verbose
+version
+width
+file "%s" is truncated
+sysdep_segment[%u]
+/dev/stdin
+error while reading "%s"
+read-mo.c
+file "%s" contains a not NUL terminated string
+file "%s" is not in GNU .mo format
+file "%s" contains a not NUL terminated string, at %s
+error while opening "%s" for reading
+/dev/null
+fdopen() failed
+(pipe)
+Messages
+GETTEXTJAR
+gnu.gettext.DumpResource
+%s subprocess failed with exit code %d
+/usr/share/gettext/gettext.jar
+/usr/lib64/gettext
+/usr/lib64
+sr-CS
+@latin
+@cyrillic
+sr-SP
+sr-SP-Latn
+uz-UZ
+uz-UZ-Latn
+GETTEXTCSHARPEXEDIR
+GETTEXTCSHARPLIBDIR
+.exe
+msgunfmt.net
+/usr/share/gettext
+GETTEXTDATADIR
+msgunfmt.tcl
+.msg
+tclsh
+;*3$"
+msgunfmt.debug
+7zXZ
+wN8U
+;c0L
+*k1N\J
+Iz?v;
+FvB^c
+F[@/
+Td"xv
+Z?	h
+	H'7
+$[b/
+Camg
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

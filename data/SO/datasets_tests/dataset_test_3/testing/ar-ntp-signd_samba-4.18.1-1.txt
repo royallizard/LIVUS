@@ -1,0 +1,241 @@
+C>?~
+1\	,~
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+talloc_check_name
+stream_terminate_connection
+_tevent_req_callback_data
+_talloc_get_type_abort
+tstream_writev_queue_recv
+_talloc_free
+strerror
+talloc_asprintf
+__stack_chk_fail
+_talloc_zero
+_tevent_queue_create
+socket_get_fd
+_tstream_bsd_existing_socket
+packet_full_request_u32
+tstream_read_pdu_blob_send
+tevent_req_set_callback
+geteuid
+lpcfg_ntp_signd_socket_directory
+directory_create_or_exist_strict
+task_server_set_title
+talloc_named_const
+system_session
+samdb_connect
+lpcfg_socket_options
+stream_setup_socket
+task_server_terminate
+debuglevel_get_class
+dbghdrclass
+nt_errstr
+dbgtext
+data_blob_named
+ndr_push_signed_reply
+ndr_push_struct_blob
+ndr_map_error2ntstatus
+ndr_pull_sign_request
+ndr_pull_struct_blob_all
+samdb_domain_sid
+dom_sid_add_rid
+ldap_encode_ndr_dom_sid
+ldb_get_default_basedn
+ldb_search
+dump_data
+ldb_msg_find_attr_as_uint
+samdb_result_hash
+data_blob_talloc_named
+memcpy
+gnutls_hash_init
+gnutls_hash
+gnutls_hash_deinit
+ldb_errstring
+dom_sid_str_buf
+ldb_dn_get_linearized
+_gnutls_error_to_ntstatus
+tstream_read_pdu_blob_recv
+tstream_writev_queue_send
+tsocket_address_string
+samba_init_module
+register_server_service
+libndr.so.3
+libsamba-sockets-samba4.so
+libsamdb.so.0
+libservice-samba4.so
+libsamba-errors.so.1
+libsamba-util.so.0
+libauthkrb5-samba4.so
+libsamba-security-samba4.so
+libsamba-hostconfig.so.0
+libsamdb-common-samba4.so
+libcli-ldap-common-samba4.so
+libndr-samba4.so
+libsamba-debug-samba4.so
+libcli-ldap-samba4.so
+libtalloc.so.2
+libldb.so.2
+libgnutls.so.30
+libtevent.so.0
+libc.so.6
+ntp_signd.so
+SAMBA_4.18.1_SAMBA4
+SAMBA_UTIL_0.0.1
+LDB_0.9.10
+TEVENT_0.9.9
+SAMBA_HOSTCONFIG_0.0.1
+NDR_0.0.1
+GLIBC_2.4
+GLIBC_2.14
+GLIBC_2.2.5
+TALLOC_2.0.2
+SAMDB_0.0.1
+SAMBA_ERRORS_1.0.0
+GNUTLS_3_4
+/usr/lib/samba:/usr/lib
+u3UH
+ATUSH
+[]A\
+|$8H
+\$(L
+[]A\
+[]A\
+AUATUSH
+7AUUPj
+[]A\A]
+[]A\A]
+[]A\A]
+D$(1
+T$(dH+
+AVfI
+T$0H
+D$`H
+)D$P
+T$<H
+T$8L
+[]A\A]A^A_
+D$8H
+D$HH
+T$ H
+D$(H
+T$HH
+T$ H
+D$HH
+L$=H
+T$ H
+L$>H
+T$ H
+L$>H
+T$ H
+T$HH
+t$@H
+D$HH
+T$ H
+t$pH
+t$pH
+t$pH
+t$pH
+t$pH
+t$pH
+AVAUI
+ATUS
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+struct ntp_signd_connection
+ntp_signd_recv: called
+ntp_signd_send: called
+struct ntp_signd_call
+struct ntp_signd_server
+ntp_signd_accept
+task[ntp_signd]
+ntp_signd: out of memory
+%s/socket
+unix
+Failed to bind to %s - %s
+unicodePwd
+userAccountControl
+ntp_signd_process failed: %s
+ntp_signd
+ntp_signd_call_writev_done: tstream_writev_queue_recv() failed
+../../source4/ntp_signd/ntp_signd.c:419
+../../source4/ntp_signd/ntp_signd.c:425
+ntp_signd_call_writev_done: tstream_writev_queue_recv() - %d:%s
+../../source4/ntp_signd/ntp_signd.c:443
+ntp_signd_accept: out of memory
+../../source4/ntp_signd/ntp_signd.c:464
+../../source4/ntp_signd/ntp_signd.c:472
+../../source4/ntp_signd/ntp_signd.c:474
+ntp_signd_accept: no memory for tstream_read_pdu_blob_send
+Cannot create NTP signd pipe directory: %s
+ntp_signd failed to open samdb
+ntp_signd out of memory in talloc_asprintf()
+../../source4/ntp_signd/ntp_signd.c:570
+DATA_BLOB: ../../source4/ntp_signd/ntp_signd.c:87
+../../source4/ntp_signd/ntp_signd.c:93
+failed to push ntp error reply
+../../source4/ntp_signd/ntp_signd.c:126
+failed to parse ntp signing request
+../../source4/ntp_signd/ntp_signd.c:161
+(&(objectSid=%s)(objectClass=user))
+../../source4/ntp_signd/ntp_signd.c:176
+Failed to search for SID %s in SAM for NTP signing: %s
+../../source4/ntp_signd/ntp_signd.c:187
+Failed to find SID %s in SAM for NTP signing
+../../source4/ntp_signd/ntp_signd.c:194
+Found SID %s %u times in SAM for NTP signing
+../../source4/ntp_signd/ntp_signd.c:208
+Account %s for SID [%s] is disabled
+../../source4/ntp_signd/ntp_signd.c:215
+Account %s for SID [%s] is not a trust account
+../../source4/ntp_signd/ntp_signd.c:223
+No unicodePwd found on record of SID %s for NTP signing
+DATA_BLOB: ../../source4/ntp_signd/ntp_signd.c:235
+../../source4/ntp_signd/ntp_signd.c:252
+../../source4/ntp_signd/ntp_signd.c:260
+../../source4/ntp_signd/ntp_signd.c:267
+../../source4/ntp_signd/ntp_signd.c:279
+../../source4/ntp_signd/ntp_signd.c:321
+ntp_signd_call_loop: no memory for ntp_signd_call
+../../source4/ntp_signd/ntp_signd.c:338
+ntp_signd_call_loop: tstream_read_pdu_blob_recv() - %s
+../../source4/ntp_signd/ntp_signd.c:353
+Received NTP TCP packet of length %lu from %s
+ntp_signd_call_loop: no memory for tstream_writev_queue_send
+ntp_signd_call_loop: no memory for tstream_read_pdu_blob_send
+signing_failure
+ntp_signd_task_init
+ntp_signd_call_loop
+ntp_signd_process
+GCC: (GNU) 12.2.1 20230201
+ntp_signd.so.debug
+.shstrtab
+.note.gnu.property
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment
+.gnu_debuglink

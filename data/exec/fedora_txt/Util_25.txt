@@ -1,0 +1,228 @@
+x::^
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+boot_List__Util
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_List__Util_min
+Perl_newXS
+Perl_sv_setpv
+XS_List__Util_sum
+Perl_newXS_flags
+XS_List__Util_minstr
+XS_List__Util_reduce
+XS_List__Util_first
+XS_List__Util_shuffle
+XS_Scalar__Util_dualvar
+XS_Scalar__Util_blessed
+XS_Scalar__Util_reftype
+XS_Scalar__Util_refaddr
+XS_Scalar__Util_weaken
+XS_Scalar__Util_isweak
+XS_Scalar__Util_readonly
+XS_Scalar__Util_tainted
+XS_Scalar__Util_isvstring
+XS_Scalar__Util_looks_like_number
+XS_Scalar__Util_set_prototype
+Perl_gv_stashpvn
+Perl_hv_common_key_len
+Perl_Isv_yes_ptr
+Perl_sv_setsv_flags
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_croak_nocontext
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_gv_init
+Perl_gv_SVadd
+Perl_vstringify
+Perl_croak
+Perl_sv_setpvn
+Perl_Iop_ptr
+Perl_sv_newmortal
+Perl_looks_like_number
+Perl_sv_setiv
+Perl_mg_set
+Perl_pad_sv
+Perl_Isv_no_ptr
+Perl_mg_find
+Perl_sv_tainted
+Perl_sv_rvweaken
+Perl_sv_setuv
+Perl_mg_get
+Perl_Isv_undef_ptr
+Perl_sv_reftype
+Perl_sv_isobject
+Perl_sv_2nv
+Perl_Itainting_ptr
+Perl_sv_upgrade
+Perl_sv_2iv_flags
+Perl_sv_magic
+Perl_sv_backoff
+Perl_sv_2uv_flags
+Perl_Isrand_called_ptr
+Perl_Ireentrant_buffer_ptr
+drand48_r
+Perl_seed
+srand48_r
+Perl_sv_2cv
+Perl_push_scope
+Perl_Idebug_ptr
+Perl_Itop_env_ptr
+Perl_Itmps_floor_ptr
+Perl_save_int
+Perl_Itmps_ix_ptr
+Perl_save_vptr
+Perl_Icurstackinfo_ptr
+Perl_cxinc
+Perl_Icurcop_ptr
+Perl_Imarkstack_ptr
+Perl_Icurpm_ptr
+Perl_pad_push
+Perl_Isavestack_ix_ptr
+Perl_Isavestack_max_ptr
+Perl_Isavestack_ptr
+Perl_Icomppad_ptr
+Perl_Icurpad_ptr
+Perl_Idefgv_ptr
+Perl_save_sptr
+Perl_Irunops_ptr
+Perl_deb
+Perl_pop_scope
+PL_block_type
+Perl_PerlIO_stderr
+PerlIO_printf
+Perl_save_freesv
+Perl_savestack_grow
+Perl_sv_2bool
+Perl_sv_free
+Perl_sv_free2
+Perl_gv_fetchpv
+Perl_sv_cmp
+Perl_sv_setnv
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.0
+\[^_]
+[^_]
+,[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+<[^_]
+<[^_]
+<[^_]
+,[^_]
+l[^_]
+l[^_]
+,[^_]
+,[^_]
+<[^_]
+<[^_]
+XS_VERSION
+%s::%s
+1.19
+version
+bootstrap parameter
+Util.c
+List::Util::max
+List::Util::min
+List::Util::sum
+List::Util::minstr
+List::Util::maxstr
+List::Util::reduce
+List::Util::first
+List::Util::shuffle
+Scalar::Util::dualvar
+Scalar::Util::blessed
+Scalar::Util::reftype
+Scalar::Util::refaddr
+Scalar::Util::weaken
+Scalar::Util::isweak
+Scalar::Util::readonly
+Scalar::Util::tainted
+Scalar::Util::isvstring
+Scalar::Util::set_prototype
+List::Util
+REAL_MULTICALL
+subref, proto
+Usage: %s(%s)
+num, str
+block, ...
+Util.xs
+ENTER
+%s scope %ld at %s:%d
+Entering block %ld, type %s
+POPBLOCK
+Leaving block %ld, type %s
+LEAVE
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "Util.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+Scalar::Util::looks_like_number
+((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV
+Assertion %s failed: file "Util.xs", line %d
+((((shplep)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+set_prototype: not a subroutine reference
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+set_prototype: not a reference
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_NV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVNV
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) == SVt_NV || ((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) >= SVt_PVNV
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) != SVt_PVAV
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) != SVt_PVHV
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) != SVt_PVCV
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) != SVt_PVFM
+!(((((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) == SVt_PVGV || ((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) == SVt_IV || ((svtype)(((*Perl_Istack_base_ptr(((PerlInterpreter *)pthread_getspecific((*Perl_Gthr_key_ptr(((void *)0)))))))[ax + (0)])->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_cv)->sv_flags & 0xff)) == SVt_PVCV || ((svtype)((_cv)->sv_flags & 0xff)) == SVt_PVFM
+Pad 0x%lx[0x%lx] set_cur    depth=%d
+Util.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

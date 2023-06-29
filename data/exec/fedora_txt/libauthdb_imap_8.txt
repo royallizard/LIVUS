@@ -1,0 +1,862 @@
+n(~|
+t[eK
+'OCE
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+t_strconcat
+t_str_new
+auth_request_get_var_expand_table
+var_expand
+str_c
+t_strdup
+str_truncate
+auth_request_log_debug
+imapc_client_init
+imapc_client_login
+p_strsplit
+strchr
+t_strdup_until
+str_to_uint
+i_fatal
+imapc_client_deinit
+auth_request_log_error
+strcasecmp
+auth_request_log_info
+authdb_imap_init
+passdb_register_module
+authdb_imap_deinit
+passdb_unregister_module
+imapc_connection_abort_commands
+i_panic
+default_pool
+imapc_connection_init
+buffer_append
+pool_alloconly_create
+p_strdup
+p_strdup_empty
+buffer_create_dynamic
+t_strdup_printf
+ssl_iostream_context_init_client
+i_error
+imapc_client_ref
+imapc_client_unref
+ssl_iostream_context_deinit
+buffer_get_modifiable_data
+imapc_connection_get_mailbox
+imapc_connection_deinit
+buffer_set_used_size
+imapc_client_register_untagged
+imapc_client_run
+current_ioloop
+io_loop_create
+io_loop_set_running
+imapc_connection_ioloop_changed
+imapc_connection_connect
+io_loop_is_running
+io_loop_run
+io_loop_destroy
+imapc_client_stop
+io_loop_stop
+imapc_client_is_running
+imapc_client_cmd
+imapc_connection_cmd
+imapc_client_mailbox_open
+imapc_msgmap_init
+imapc_client_mailbox_set_reopen_cb
+imapc_client_mailbox_reconnect
+imapc_connection_disconnect
+imapc_client_mailbox_close
+imapc_connection_unselect
+imapc_msgmap_deinit
+imapc_client_mailbox_cmd
+imapc_command_set_mailbox
+imapc_client_mailbox_get_msgmap
+imapc_client_mailbox_is_opened
+imapc_connection_get_state
+imapc_client_mailbox_idle
+imapc_connection_idle
+imapc_client_get_capabilities
+imapc_connection_get_capabilities
+imapc_client_create_temp_fd
+str_append
+safe_mkstemp
+unlink
+imapc_capability_names
+i_stream_unref
+array_idx_modifiable_i
+i_stream_ref
+o_stream_ref
+i_stream_destroy
+o_stream_destroy
+io_stream_create_ssl
+ssl_iostream_set_handshake_callback
+ssl_iostream_handshake
+imap_parser_set_streams
+i_debug
+__xstat
+iostream_rawlog_create
+ssl_iostream_get_last_error
+o_stream_send_str
+str_append_c
+base64_encode
+ssl_iostream_has_valid_client_cert
+ssl_iostream_cert_match_name
+ssl_iostream_has_broken_client_cert
+i_stream_close
+imap_parser_reset
+buffer_delete
+p_strsplit_free
+buffer_free
+timeout_reset
+o_stream_set_max_buffer_size
+o_stream_send_istream
+i_stream_is_eof
+memchr
+o_stream_send
+o_stream_set_flush_pending
+__ctype_b_loc
+o_stream_cork
+o_stream_flush
+o_stream_uncork
+timeout_add
+buffer_insert
+i_strdup_printf
+io_loop_move_io
+io_loop_move_timeout
+o_stream_switch_ioloop
+pool_datastack_create
+timeout_remove
+buffer_append_buf
+net_connect_ip
+i_stream_create_fd
+o_stream_create_fd
+o_stream_set_flush_callback
+io_add
+imap_parser_create
+net_ip2addr
+memcpy
+imap_parser_unref
+io_remove
+ssl_iostream_unref
+net_disconnect
+t_strdup_vprintf
+i_stream_next_line
+t_strsplit
+imap_args_to_str
+imap_parser_read_args
+imap_parser_get_literal_size
+i_stream_get_data
+buffer_append_space_unsafe
+write_full
+i_stream_skip
+imap_parser_read_last_literal
+imap_arg_atom_equals
+imap_arg_get_list_full
+imap_arg_get_atom
+strncasecmp
+i_strdup
+imap_parser_get_error
+imap_parser_ref
+i_memcasecmp
+str_to_uint32
+t_strndup
+t_strcut
+t_strdup_noconst
+net_geterror
+strerror
+dns_lookup
+net_addr2ip
+net_gethostbyname
+__stack_chk_fail
+net_gethosterror
+imapc_connection_input_pending
+t_pop_check
+t_push
+imap_parser_read_word
+i_stream_read
+imapc_command_set_flags
+imapc_command_send
+strlen
+str_printfa
+imapc_command_sendvf
+imap_dquote_append
+i_stream_get_size
+str_len
+imapc_command_sendf
+imapc_msgmap_count
+imapc_msgmap_uidnext
+imapc_msgmap_rseq_to_uid
+imapc_msgmap_uid_to_rseq
+array_bsearch_i
+imapc_msgmap_append
+imapc_msgmap_expunge
+imapc_msgmap_reset
+ASN1_STRING_length
+ASN1_STRING_data
+o_stream_get_buffer_avail_size
+BIO_read
+BIO_ctrl_pending
+o_stream_unref
+BIO_free
+SSL_free
+SSL_get_ex_data_X509_STORE_CTX_idx
+X509_STORE_CTX_get_ex_data
+dovecot_ssl_extdata_index
+SSL_get_ex_data
+X509_get_subject_name
+X509_NAME_oneline
+X509_verify_cert_error_string
+i_info
+SSL_state_string_long
+i_warning
+SSL_alert_desc_string_long
+SSL_alert_type_string_long
+SSL_new
+BIO_new_bio_pair
+SSL_set_bio
+SSL_set_ex_data
+strcmp
+OBJ_txt2nid
+i_stream_create_ssl
+SSL_set_verify
+SSL_set_info_callback
+SSL_set_cipher_list
+BIO_new_mem_buf
+PEM_read_bio_X509
+SSL_use_certificate
+ERR_peek_error
+X509_free
+ssl_iostream_load_key
+SSL_use_PrivateKey
+EVP_PKEY_free
+ssl_iostream_get_use_certificate_error
+ssl_iostream_error
+ssl_iostream_key_load_error
+ssl_iostream_bio_sync
+BIO_write
+BIO_ctrl_get_write_guarantee
+i_stream_read_data
+SSL_get_error
+__errno_location
+ssl_iostream_handle_error
+ssl_iostream_handle_write_error
+openssl_cert_match_name
+SSL_get_peer_certificate
+X509_get_ext_d2i
+sk_num
+sk_value
+ASN1_STRING_type
+GENERAL_NAME_free
+sk_pop_free
+X509_NAME_get_index_by_NID
+X509_NAME_get_entry
+X509_NAME_ENTRY_get_data
+SSL_accept
+SSL_connect
+ssl_iostream_more
+ssl_iostream_is_handshaked
+ssl_iostream_get_peer_name
+X509_NAME_get_text_by_NID
+t_malloc
+ssl_iostream_get_security_string
+SSL_get_current_cipher
+SSL_CIPHER_get_bits
+SSL_get_current_compression
+SSL_COMP_get_name
+SSL_CIPHER_get_name
+SSL_get_version
+ENGINE_finish
+ENGINE_cleanup
+EVP_cleanup
+ERR_free_strings
+RSA_generate_key
+SSL_library_init
+SSL_load_error_strings
+OPENSSL_add_all_algorithms_noconf
+SSL_get_ex_new_index
+RAND_bytes
+ENGINE_load_builtin_engines
+ENGINE_by_id
+ENGINE_init
+ENGINE_set_default_RSA
+ENGINE_set_default_DSA
+ENGINE_set_default_ciphers
+i_strocpy
+ERR_get_error
+ERR_error_string_n
+i_fatal_status
+PEM_read_bio_PrivateKey
+safe_memset
+strstr
+SSL_CTX_ctrl
+SSL_CTX_set_tmp_rsa_callback
+SSL_CTX_set_tmp_dh_callback
+SSL_CTX_set_cipher_list
+SSL_CTX_use_certificate
+SSL_CTX_use_PrivateKey
+SSL_CTX_get_cert_store
+PEM_X509_INFO_read_bio
+sk_new_null
+X509_STORE_add_cert
+X509_NAME_dup
+sk_push
+X509_STORE_add_crl
+X509_INFO_free
+X509_STORE_set_flags
+SSL_CTX_set_client_CA_list
+SSL_CTX_load_verify_locations
+ERR_peek_last_error
+ERR_clear_error
+SSL_CTX_free
+ssl_iostream_context_free_params
+ssl_iostream_context_init_server
+SSLv23_server_method
+SSL_CTX_new
+SSLv23_client_method
+ssl_iostream_generate_params
+DH_generate_parameters
+i2d_DHparams
+DH_free
+buffer_append_zero
+ssl_iostream_context_import_params
+d2i_DHparams
+i_stream_get_buffer_space
+SSL_read
+i_stream_create
+SSL_write
+o_stream_close
+o_stream_create
+libdovecot.so.0
+libssl.so.10
+libcrypto.so.10
+librt.so.1
+libc.so.6
+__cxa_atexit
+_edata
+__bss_start
+_end
+libauthdb_imap.so
+/usr/lib64/dovecot
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2.5
+fffff.
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+T$hH
+D$0L
+l$ H
+x[]A\A]
+ffffff.
+AWAVAUATUH
+D$xE1
+|$pH
+\$pH
+[]A\A]A^A_
+;suK
+fff.
+l$ L
+d$(L
+l$0H
+fffff.
+ffff.
+ATUH
+[]A\A]
+D$BH
+D$81
+ffffff.
+ATUSH
+tMf.
+[]A\A]
+fff.
+AVAUI
+ATUSH
+[]A\A]A^
+[]A\
+ATUSH
+fffff.
+D$0H
+fff.
+AUATUSH
+{(H;{ L
+k0t6
+[]A\A]
+fff.
+D$ H
+ffffff.
+AUATI
+[]A\A]
+[]A\1
+0L9`(H
+[]A\A]A^
+t:f.
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+D$8H
+D$@H
+fffff.
+ffffff.
+[]A\
+D$(H
+D$0H
+H[]A\A]
+ATUSH
+[]A\
+[]A\
+[]A\
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+ffff.
+AVAUATUSH
+@t81
+[]A\A]A^A_
+D$xH
+t$ H
+[t"E
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+H+|$
+[]A\
+ATUSH
+l$ L
+t$0L
+D$(H
+D$@H
+D$8H
+D$XH
+`[]A\
+[]A\
+fff.
+AUATUH
+\$ H
+El9C
+Ul9S
+8[]A\A]
+[]A\A]
+t$ H
+t$ H
+D$81
+D$8dH3
+T$ H
+T$(H
+AUATUSH
+[]A\A]
+ChIc
+ffffff.
+l$ H
+fff.
+AWAVAUI
+tF<%u
+[]A\A]A^A_
+<st<<uu
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ATUSH
+M0[]L
+@t/H
+ffffff.
+t?H9
+fffff.
+-Ss 
+fff.
+t.H+
+ffff.
+l$ H
+fffff.
+fffff.
+AUE1
+\$0H
+|$ H
+|$0H
+xVH9
+[]A\A]
+D$PA
+L$p 
+u8Hc
+l$ I
+l$ H
+l$ H
+AWAVM
+T$0H
+|$(1
+D$0H
+t$(I
+D$$I
+|$$A
+H[]A\A]A^A_
+[]A\A]A^A_
+T$8H
+ffffff.
+AUE1
+ATUSH
+H;t$
+[]A\A]
+fff.
+t$ H
+AWAVAUATUSH
+[]A\A]A^A_
+5Wb 
+59b 
+fffff.
+fff.
+t$ H
+ffffff.
+d$ L
+l$(L
+t$0H
+=Ug 
+5wf 
+=(f 
+t)Hc
+D$(H
+d$ L
+l$(L
+t$0H
+lt	[
+ffffff.
+AWAVAUI
+ATUH
+([]A\A]A^A_
+l$ L
+d$(L
+l$0H
+l$ L
+d$(L
+l$0H
+Hct$
+[]A\A]
+fff.
+fffff.
+AUATUSH
+vGHcZ
+[]A\A]A^
+[]A\A]A^
+ffff.
+Ol H
+fff.
+d$ H
+ATUH
+|~tJH
+[]A\
+[]A\
+[]A\
+fffff.
+AWAVAUI
+Lct$$I
+8[]A\A]A^A_
+D$(H
+D$(H
+dns-client
+lookup host=%s port=%d
+imap
+host
+port
+passdb imap: Invalid port: %s
+username
+ssl_ca_dir
+rawlog_dir
+imaps
+starttls
+AUTHENTICATIONFAILED
+AUTHORIZATIONFAILED
+EXPIRED
+passdb imap: Invalid ssl mode: %s
+passdb imap: Unknown parameter: %s
+passdb imap: Missing host parameter
+imapc-client.c
+imapc client
+%s:%u
+client->refcount > 0
+client->ioloop == NULL
+../../src/lib/array.h
+!box->reconnecting
+!box->closing
+safe_mkstemp(%s) failed: %m
+unlink(%s) failed: %m
+SASL-IR
+LITERAL+
+QRESYNC
+IDLE
+UIDPLUS
+AUTH=PLAIN
+STARTTLS
+X-GM-EXT-1
+CONDSTORE
+IMAP4REV1
+file %s: line %d (%s): assertion failed: (%s)
+imapc(%s): Couldn't initialize SSL context
+imapc_connection_get_mailbox((*connp)->conn) == NULL
+idx * array->element_size < array->buffer->used
+array_count(&client->conns) == 0
+imapc: Selected mailbox changed unexpectedly
+imapc: temp_path_prefix not set, can't create temp file
+imapc_client_ref
+imapc_client_unref
+imapc_client_deinit
+imapc_client_run_pre
+array_idx_i
+imapc_client_login
+imapc_client_mailbox_reconnect
+imapc_client_reconnect_cb
+imapc_client_mailbox_cmd
+close(%s) failed: %m
+imapc(%s): No SSL context
+imapc(%s): 
+Disconnected from server
+conn->refcount > 0
+imapc-connection.c
+DONE
+conn->selecting_box == NULL
+Mailbox not open
+seek_pos <= cmd->data->used
+p != NULL
+*cmdp == cmd
+result->ips_count > 0
+imapc(%s): Disconnected
+Unexpected '+': %s
+text[0] == '['
+Missing ']' in resp-text
+CAPABILITY
+CLOSED
+Missing text in resp-text
+Error parsing input: %s
+conn->literal.fd == -1
+FETCH
+BODY[
+Invalid untagged reply
+file %s: line %d: unreached
+conn->login_callback == NULL
+Invalid command tag: %s
+callback != NULL
+imapc command
+%u %s
+NOOP
+{%lu}
+{%lu+}
+{%lu}
+cmd_fmt[++i] == 's'
+LOGIN %s %s
+AUTHENTICATE PLAIN %1s
+AUTHENTICATE PLAIN
+STARTTLS failed: %s
+imapc(%s): Starting SSL handshake
+imapc(%s): Couldn't initialize SSL client
+imapc(%s): SSL handshake failed: %s
+imapc(%s): SSL certificate not received
+imapc(%s): Received invalid SSL certificate
+imapc(%s): SSL certificate doesn't match host name
+imapc(%s): SSL handshake successful
+imapc: close(literal file) failed: %m
+cmd->send_pos < cmd->data->used
+stream->input->v_offset < stream->size
+stream->input->v_offset == stream->size
+cmd->send_pos != cmd->data->used
+!array_is_created(&cmd->streams) || array_count(&cmd->streams) == 0
+dest_array->element_size == src_array->element_size
+conn->client->set.max_idle_time > 0
+imapc(%s): Connecting to %s:%u
+imapc(%s): dns_lookup(%s) failed: %s
+imapc(%s): Command '%s' timed out, disconnecting
+imapc(%s): Server sent invalid input: %s
+imapc(%s): Server capabilities: %s
+CAPABILITY list is missing IMAP4REV1
+imapc(%s): write(%s) failed: %m
+imapc: Missing LF from input line
+Banner doesn't begin with OK: %s
+imapc(%s): Authentication failed: %s
+imapc(%s): Authenticated successfully
+Invalid state in tagged reply: %u %s %s
+Unknown tag in a reply: %u %s %s
+imapc(%s): Command '%s' failed with BAD: %u %s
+imapc(%s): connect(%s, %u) timed out after %u seconds
+imapc(%s): Authentication timed out after %u seconds
+imapc(%s): connect(%s, %u) failed: %s
+imapc(%s): Looking up IP address
+imapc(%s): net_gethostbyname(%s) failed: %s
+imapc(%s): Server disconnected unexpectedly
+imapc(%s): Server disconnected: %s
+imapc(%s): Authenticating as %s
+imapc(%s): Authenticating as %s for user %s
+imapc(%s): Requested STARTTLS, but server doesn't support it
+imap_arg_atom_equals(imap_args, "OK")
+Failed to get capabilities: %s
+Capabilities not returned by server
+conn->selected_box == box || conn->selecting_box == box
+imapc_connection_unref
+array_idx_i
+array_append_array_i
+imapc_connection_connect
+imapc_connection_dns_callback
+imapc_connection_connect_next_ip
+imapc_connection_ref
+imapc_command_send_more
+imapc_connection_set_selecting
+imapc_command_try_send_stream
+imapc_command_send_finished
+imapc_connection_input_banner
+imapc_connection_handle_resp_text
+imapc_connection_read_literal_init
+imapc_connection_input_tagged
+imapc_command_begin
+imapc_command_timeout
+imapc_command_sendvf
+imapc_connection_unselect
+rseq == imapc_msgmap_count(msgmap) + 1
+rseq <= imapc_msgmap_count(msgmap)
+imapc-msgmap.c
+uid >= msgmap->uid_next
+rseq > 0
+array_idx_i
+imapc_msgmap_append
+imapc_msgmap_expunge
+ret == (int)bytes
+iostream-openssl.c
+sent == (ssize_t)bytes
+Invalid certificate: %s: %s
+Valid certificate: %s
+SSL_new() failed: %s
+BIO_new_bio_pair() failed: %s
+BIO_new_mem_buf() failed: %s
+%s: Can't load ssl_cert: %s
+ssl_io->refcount > 0
+ret == (ssize_t)size
+SSL BIO buffer size too small
+errno != 0
+%s syscall failed: %s
+%s failed: %s
+cert != NULL
+entry != NULL
+str != NULL
+!ssl_io->handshaked
+SSL_connect()
+SSL_accept()
+x509 != NULL
+ssl_io->plain_output->stream_errno != 0
+%s: SSL alert: where=0x%x, ret=%d: %s %s
+%s: SSL failed: where=0x%x: %s
+%s: SSL: where=0x%x, ret=%d: %s
+%s: Can't set cipher list to '%s': %s
+%s: Can't load SSL private key: %s
+%s: Invalid cert_username_field: %s
+SSL ostream buffer size not unlimited
+%s failed: unknown failure %d (%s)
+%s with cipher %s (%d/%d bits)%s
+ssl_iostream_unref
+ssl_iostream_bio_output
+ssl_iostream_bio_input
+ssl_iostream_handle_error_full
+openssl_cert_match_name
+get_cname
+ssl_iostream_handshake
+ssl_iostream_get_peer_name
+Unknown ssl_crypto_device: %s
+Unknown error
+OpenSSL malloc() failed
+There is no certificate.
+PRIVATE KEY---
+ssl iostream context
+BIO_new_mem_buf() failed
+%s: Couldn't parse ssl_ca: %s
+SSL_CTX_new() failed: %s
+%s: SSL private key file is password protected, but password isn't given
+%s: SSL private key password is too long
+Key is for a different cert than ssl_cert
+%s: Couldn't parse private SSL key: %s
+The file contains a private key (you've mixed ssl_cert and ssl_key settings)
+%s: Can't load SSL certificate: %s
+sk_X509_NAME_new_null() failed
+%s: Can't load CA certs from directory %s: %s
+%s: Can't verify remote certs without CA
+DH_generate_parameters(bits=%d, gen=%d) failed: %s
+i2d_DHparams() failed: %s
+len == len2
+iostream-openssl-params.c
+generate_dh_parameters
+istream-openssl.c
+SSL_read
+i_stream_ssl_read
+SSL_write
+;*3$"
+dovecot
+libauthdb_imap.so.debug
+7zXZ
+!(SD-
+jF'Sn
+d.&c
+}mFQA.
+.->F
+e[6O'x
+_tfZ_
+u-['z5
+1)DZ
+j:&i
+)^"b
+a\9{
+^Mm]
+IL,y~[
+-3O:
+,5o2X
+"YY'S
+'Q#xa
+qWn'
+j?D8:gb4SS
+	9xg
+7 p7
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

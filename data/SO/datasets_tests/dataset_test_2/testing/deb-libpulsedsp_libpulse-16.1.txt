@@ -1,0 +1,386 @@
+|wT<
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+strcmp
+__stack_chk_guard
+getenv
+strtol
+stderr
+__vfprintf_chk
+__stack_chk_fail
+pthread_key_create
+pthread_mutex_lock
+pthread_mutex_unlock
+dlsym
+pa_threaded_mainloop_unlock
+pthread_setspecific
+pa_frame_size
+pa_bytes_per_second
+pa_sample_spec_snprint
+pthread_mutex_init
+pa_context_disconnect
+pa_context_unref
+pa_stream_unref
+pa_stream_disconnect
+pa_threaded_mainloop_get_api
+__assert_fail
+strncpy
+pa_threaded_mainloop_lock
+pa_cvolume_equal
+pa_context_set_source_volume_by_index
+pa_context_get_state
+pa_threaded_mainloop_wait
+pa_operation_get_state
+pa_operation_unref
+pa_context_set_sink_volume_by_index
+pa_context_errno
+pa_strerror
+pa_stream_cork
+pa_stream_get_state
+pa_threaded_mainloop_signal
+pa_stream_readable_size
+pa_stream_writable_size
+pa_context_get_sink_info_by_index
+read
+pa_frame_align
+pa_stream_write
+memmove
+__errno_location
+pa_stream_peek
+pa_stream_drop
+pthread_once
+pthread_getspecific
+ioctl
+pa_sample_spec_valid
+pa_stream_get_latency
+pa_sample_size
+pa_stream_get_time
+pa_usec_to_bytes
+abort
+pa_stream_drain
+pa_threaded_mainloop_stop
+pa_threaded_mainloop_free
+pthread_mutex_destroy
+pa_cvolume_set
+socketpair
+pa_threaded_mainloop_new
+pa_context_new
+pa_context_set_state_callback
+pa_context_connect
+pa_threaded_mainloop_start
+pa_get_binary_name_malloc
+__snprintf_chk
+pa_xfree
+pa_log_level_meta
+pa_stream_trigger
+pa_stream_new
+pa_stream_set_state_callback
+pa_stream_set_read_callback
+pa_stream_set_latency_update_callback
+pa_stream_connect_record
+setsockopt
+pa_stream_set_write_callback
+pa_stream_connect_playback
+pa_get_temp_dir
+pa_sprintf_malloc
+umask
+mkstemp
+unlink
+lseek
+fcntl
+shutdown
+pa_context_set_subscribe_callback
+pa_context_subscribe
+pa_context_get_sink_info_by_name
+pa_context_get_source_info_by_name
+__open_2
+access
+stat64
+stat
+getuid
+getgid
+__open64_2
+fopen
+fdopen
+fopen64
+fclose
+fileno
+__register_atfork
+libpulsecommon-16.1.so
+libpulse.so.0
+libc.so.6
+ld-linux-aarch64.so.1
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_end
+libpulsedsp.so
+GLIBC_2.17
+GLIBC_2.34
+PULSE_0
+/usr/lib/aarch64-linux-gnu/pulseaudio
+`"@9@
+5`6@
+T`2@
+5`6@
+R!@"
+T`2@
+Tb:@
+T`6@
+T`:@
+T`6@
+T`>@
+5`6@
+R@0@
+R@0@
+T`>@
+Tb*@
+Tb*@
+R! &
+T`>@
+T`>@
+T`*@
+Tb*@
+T`R@
+R`:@
+7`R@
+Tb*@
+R! *
+Ta*@
+R!@+
+R! &
+T`6@
+k!|@
+R!`:
+R! &
+4`2@
+7`:@
+T`:@
+T`2@
+5`6@
+6`B@
+6`N@
+7`2@
+7`2@
+T`2@
+T`:@
+T`2@
+5`6@
+*B|@
+6`:@
+6`>@
+)`Z@
+5`>@
+7e*@
+)`Z@
+5`:@
+7e*@
+TcR@
+R! *
+R!@,
+/dev/dsp
+/dev/adsp
+/dev/audio
+/dev/sndstat
+/dev/mixer
+PADSP_DEBUG
+__padsp_disabled__
+../src/utils/padsp.c: atfork_parent() enter
+../src/utils/padsp.c: atfork_parent() exit
+../src/utils/padsp.c: sample spec: %s
+../src/utils/padsp.c: fixated metrics to %i fragments, %li bytes each.
+../src/utils/padsp.c: atfork_child() enter
+close
+../src/utils/padsp.c: atfork_child() exit
+../src/utils/padsp.c
+NULL
+../src/utils/padsp.c: SOUND_MIXER_READ_DEVMASK
+../src/utils/padsp.c: SOUND_MIXER_READ_RECMASK
+../src/utils/padsp.c: SOUND_MIXER_READ_STEREODEVS
+../src/utils/padsp.c: SOUND_MIXER_READ_RECSRC
+../src/utils/padsp.c: SOUND_MIXER_WRITE_RECSRC
+../src/utils/padsp.c: SOUND_MIXER_READ_CAPS
+../src/utils/padsp.c: SOUND_MIXER_READ_PCM
+../src/utils/padsp.c: SOUND_MIXER_READ_IGAIN
+../src/utils/padsp.c: SOUND_MIXER_WRITE_PCM
+../src/utils/padsp.c: SOUND_MIXER_WRITE_IGAIN
+../src/utils/padsp.c:Failed set volume: %s
+../src/utils/padsp.c: Not connected: %s
+../src/utils/padsp.c: Failed to set volume: %s
+../src/utils/padsp.c: SOUND_MIXER_INFO
+PULSEAUDIO
+PulseAudio Virtual OSS
+../src/utils/padsp.c: unknown ioctl 0x%08lx
+../src/utils/padsp.c: pa_stream_cork(): %s
+i->ref >= 1
+../src/utils/padsp.c: pa_stream_writable_size(): %s
+../src/utils/padsp.c: pa_stream_readable_size(): %s
+../src/utils/padsp.c: Failed to get sink info: %s
+../src/utils/padsp.c: malloc() failed.
+../src/utils/padsp.c: read(): %s
+../src/utils/padsp.c: pa_stream_write(): %s
+n >= (size_t) to_write
+../src/utils/padsp.c: pa_stream_peek(): %s
+../src/utils/padsp.c: pa_stream_drop(): %s
+n >= len
+../src/utils/padsp.c: write(): %s
+(size_t)r <= len - i->rec_offset
+n >= (size_t) r
+../src/utils/padsp.c: ref++, now %i
+../src/utils/padsp.c: atfork_prepare() enter
+../src/utils/padsp.c: atfork_prepare() exit
+../src/utils/padsp.c: ioctl()
+ioctl
+../src/utils/padsp.c: got ioctl 0x%08lx in fatal error state
+../src/utils/padsp.c: SNDCTL_DSP_SETFMT: %i
+../src/utils/padsp.c: SNDCTL_DSP_SPEED: %i
+../src/utils/padsp.c: ss: %s
+../src/utils/padsp.c: SNDCTL_DSP_STEREO: %i
+../src/utils/padsp.c: SNDCTL_DSP_CHANNELS: %i
+../src/utils/padsp.c: SNDCTL_DSP_GETBLKSIZE
+../src/utils/padsp.c: SNDCTL_DSP_SETFRAGMENT: 0x%08x
+../src/utils/padsp.c: SNDCTL_DSP_CAPS
+../src/utils/padsp.c: SNDCTL_DSP_GETODELAY
+../src/utils/padsp.c: pa_stream_get_latency(): %s
+../src/utils/padsp.c: SIOCINQ failed: %s
+../src/utils/padsp.c: ODELAY: %i
+../src/utils/padsp.c: SNDCTL_DSP_RESET
+../src/utils/padsp.c: SNDCTL_DSP_GETFMTS
+../src/utils/padsp.c: SNDCTL_DSP_POST
+../src/utils/padsp.c: SNDCTL_DSP_GETTRIGGER
+../src/utils/padsp.c: SNDCTL_DSP_SETTRIGGER: 0x%08x
+../src/utils/padsp.c: SNDCTL_DSP_SYNC
+../src/utils/padsp.c: SNDCTL_DSP_GETOSPACE
+../src/utils/padsp.c: SNDCTL_DSP_GETISPACE
+../src/utils/padsp.c: fragsize=%i, fragstotal=%i, bytes=%i, fragments=%i
+../src/utils/padsp.c: SOUND_PCM_READ_RATE
+../src/utils/padsp.c: SOUND_PCM_READ_CHANNELS
+../src/utils/padsp.c: SOUND_PCM_READ_BITS
+../src/utils/padsp.c: SNDCTL_DSP_GETOPTR
+../src/utils/padsp.c: GETOPTR bytes=%i, blocks=%i, ptr=%i
+../src/utils/padsp.c: invalid ioctl SNDCTL_DSP_GETIPTR
+../src/utils/padsp.c: SNDCTL_DSP_SETDUPLEX
+../src/utils/padsp.c: SIOCINQ: %s
+../src/utils/padsp.c: Draining.
+../src/utils/padsp.c: Really draining.
+../src/utils/padsp.c: pa_stream_drain(): %s
+../src/utils/padsp.c: pa_stream_drain() 2: %s
+../src/utils/padsp.c: ref--, now %i
+../src/utils/padsp.c: freeing fd info (fd=%i)
+../src/utils/padsp.c: fd_info_new()
+../src/utils/padsp.c: socket() failed: %s
+../src/utils/padsp.c: pa_threaded_mainloop_new() failed
+PADSP_CLIENT_NAME
+OSS Emulation[%s]
+../src/utils/padsp.c: pa_context_new() failed
+../src/utils/padsp.c: pa_context_connect() failed: %s
+../src/utils/padsp.c: pa_threaded_mainloop_start() failed
+*_head == _item
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+../src/utils/padsp.c: Triggering.
+../src/utils/padsp.c: pa_stream_trigger(): %s
+../src/utils/padsp.c: close()
+Audio Stream
+PADSP_STREAM_NAME
+../src/utils/padsp.c: pa_stream_new() failed: %s
+../src/utils/padsp.c: creating stream corked
+../src/utils/padsp.c: pa_stream_connect_playback() failed: %s
+../src/utils/padsp.c: pa_stream_connect_record() failed: %s
+../src/utils/padsp.c: stream established.
+open
+PADSP_NO_DSP
+PULSE_INTERNAL
+../src/utils/padsp.c: dsp_open()
+../src/utils/padsp.c: dsp_open() failed
+../src/utils/padsp.c: dsp_open() succeeded, fd=%i
+PADSP_NO_MIXER
+../src/utils/padsp.c: mixer_open()
+../src/utils/padsp.c: Failed to subscribe to events: %s
+../src/utils/padsp.c:Failed to subscribe to events: %s
+../src/utils/padsp.c: Failed to get source info: %s
+../src/utils/padsp.c: mixer_open() succeeded, fd=%i
+../src/utils/padsp.c: mixer_open() failed
+PADSP_NO_SNDSTAT
+%s/padsp-sndstat-XXXXXX
+../src/utils/padsp.c: sndstat_open()
+../src/utils/padsp.c: bad access!
+../src/utils/padsp.c: mkstemp() failed: %s
+../src/utils/padsp.c: write() failed: %s
+../src/utils/padsp.c: lseek() failed: %s
+../src/utils/padsp.c: open(%s)
+../src/utils/padsp.c: open64(%s)
+open64
+../src/utils/padsp.c: __open_2(%s)
+__open_2
+../src/utils/padsp.c: access(%s)
+access
+../src/utils/padsp.c: access(%s, %x) = EACCESS
+../src/utils/padsp.c: access(%s, %x) = OK
+../src/utils/padsp.c: stat64(%s)
+stat64
+../src/utils/padsp.c: stat(%s)
+/dev
+../src/utils/padsp.c: unable to stat "/dev"
+../src/utils/padsp.c: __open64_2(%s)
+__open64_2
+../src/utils/padsp.c: fopen(%s)
+fopen
+../src/utils/padsp.c: fopen64(%s)
+fopen64
+../src/utils/padsp.c: fclose()
+fclose
+free_streams
+stream_latency_update_cb
+fd_info_ref
+stream_success_cb
+context_success_cb
+stream_request_cb
+context_state_cb
+fd_info_copy_data
+fd_info_add_to_list
+fd_info_unref
+fd_info_remove_from_list
+fd_info_remove_from_list
+fd_info_shutdown
+stream_state_cb
+Sound Driver:3.8.1a-980706 (PulseAudio Virtual OSS)
+Kernel: POSIX
+Config options: 0
+Installed drivers:
+Type 255: PulseAudio Virtual OSS
+Card config:
+PulseAudio Virtual OSS
+Audio devices:
+0: PulseAudio Virtual OSS
+Synth devices: NOT ENABLED IN CONFIG
+Midi devices:
+Timers:
+Mixers:
+0: PulseAudio Virtual OSS
+c10bc7038480c65cf17cff515358e26f53cc30.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink

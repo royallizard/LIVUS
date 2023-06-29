@@ -1,0 +1,375 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+apr_pstrdup
+ap_hook_post_config
+ap_hook_check_user_id
+__vsnprintf_chk
+ap_log_rerror
+__stack_chk_fail
+gss_display_status
+apr_pstrcat
+gss_release_buffer
+krb5_init_context
+krb5_cc_resolve
+krb5_cc_destroy
+krb5_free_context
+apr_psprintf
+mkstemp
+error_message
+unlink
+__errno_location
+strerror
+krb5_cc_initialize
+apr_table_setn
+apr_pool_cleanup_null
+apr_pool_cleanup_register
+ap_auth_name
+apr_table_add
+apr_palloc
+krb5_cc_get_principal
+__snprintf_chk
+krb5_cc_copy_creds
+krb5_free_principal
+krb5_cc_close
+ap_add_version_component
+getenv
+krb5_rc_resolve_full
+krb5_rc_destroy
+malloc
+putenv
+krb5_cc_new_unique
+krb5_free_data_contents
+krb5_auth_con_free
+krb5_free_creds
+krb5_cc_store_cred
+krb5_unparse_name
+krb5_kt_close
+krb5_principal_compare
+krb5_get_credentials
+krb5_mk_req_extended
+krb5_auth_con_init
+krb5_kt_default
+krb5_auth_con_setflags
+krb5_rd_req
+strchr
+strncpy
+gss_nt_krb5_name
+gss_import_name
+ap_get_server_name
+gss_nt_service_name
+gss_display_name
+gss_acquire_cred
+gss_release_name
+strlen
+__sprintf_chk
+gss_release_cred
+gss_delete_sec_context
+ap_getword_white
+apr_base64_decode_len
+memset
+apr_base64_decode
+gss_accept_sec_context
+apr_base64_encode_len
+apr_base64_encode
+krb5_parse_name
+gss_krb5_copy_ccache
+auth_kerb_module
+ap_auth_type
+strcasecmp
+apr_table_get
+apr_pool_userdata_get
+strcmp
+apr_pool_userdata_set
+krb5_aname_to_localname
+ap_pbase64decode
+ap_getword_nulls_nc
+krb5_kt_resolve
+krb5_sname_to_principal
+ap_find_token
+krb5_get_init_creds_opt_init
+krb5_get_init_creds_password
+krb5_kt_start_seq_get
+krb5_kt_end_seq_get
+krb5_free_cred_contents
+krb5_kt_next_entry
+ap_set_flag_slot
+ap_set_string_slot
+ap_set_file_slot
+libgssapi_krb5.so.2
+libkrb5.so.3
+libk5crypto.so.3
+libcom_err.so.2
+libresolv.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+mod_auth_kerb.so
+gssapi_krb5_2_MIT
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+krb5_3_MIT
+%zH 
+%rH 
+%jH 
+%bH 
+%ZH 
+%RH 
+%JH 
+%BH 
+%:H 
+%2H 
+%*H 
+%"H 
+%zG 
+%rG 
+%jG 
+%bG 
+%ZG 
+%RG 
+%JG 
+%BG 
+%:G 
+%2G 
+%*G 
+%"G 
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+=PF 
+ATSubH
+%\> 
+fffff.
+\$0M
+ATUSH
+d$8H
+H[]A\A]A^A_
+L$(H
+L$(I
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+t<Hc
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+fffff.
+tuHc
+tMHc
+KRB5RCACI
+HETYPE=n
+T$ 1
+|$0I
+l$ L
+l$,L
+T$,H
+t$ 1
+T$,H
+t$ 1
+T$,H
+T$XH
+t$`H
+D$pH
+L$pH
+D$HH
+L$HL
+D$@H
+|$@H
+D$ H
+|$`H
+t$xH
+D$PH
+T$8H
+T$81
+T$`H
+t$hH
+L$8H
+D$PL
+D$`I
+|$@1
+t$HH
+|$@A
+t$hH
+|$hH
+|$@L
+tvHc
+t5Hc
+|$0H
+|$,E
+t$0H
+\$0E
+-p& 
+|$0H
+D$XH
+t$ H
+t$8H
+twHc
+t$xH
+T$@H
+D$pH
+|$HH
+T$XH
+T$XH
+|$PH
+|$@H
+t$PH
+T$pH
+t$@E1
+T$HL
+T$HL
+t$@H
+DD$d
+T$@M
+L$HH
+T$HL
+l$|D
+t$xH
+T$hH
+T$@M
+l$|M
+t$xH
+D$(H
+T$PH
+t}Hc
+T$@H
+L$8H
+src/mod_auth_kerb.c
+/tmp
+FILE:%s/krb5cc_apache_XXXXXX
+mkstemp() failed: %s
+krb5_cc_resolve() failed: %s
+KRB5CCNAME
+WWW-Authenticate
+Proxy-Authenticate
+Negotiate 
+Basic realm="
+mod_auth_kerb/5.4
+KRB5RCACHETYPE
+none:
+MEMORY
+HTTP
+%s@%s
+gss_import_name() failed
+gss_display_name() failed
+Acquiring creds for %s
+gss_acquire_cred() failed
+KRB5_KTNAME=%s
+didn't delegate
+delegated
+Client %s us their credential
+NTLMSSP
+gss_krb5_copy_ccache
+(NULL)
+Kerberos
+KerberosV5
+KerberosV4
+Proxy-Authorization
+matched previous auth request
+krb5_parse_name() failed: %s
+Trying to get TGT for user %s
+KrbAuthRealms
+KrbAuthRealm
+Alias for KrbAuthRealms.
+KrbSaveCredentials
+KrbVerifyKDC
+KrbServiceName
+KrbAuthoritative
+KrbDelegateBasic
+Krb5Keytab
+KrbMethodNegotiate
+KrbMethodK5Passwd
+KrbLocalUserMapping
+GSS-API major_status:%8.8x, minor_status:%8.8x
+Cannot initialize krb5 ccache %s: krb5_cc_initialize() failed: %s
+krb5_cc_get_principal() failed: %s
+Failed to store credentials: %s
+krb5_cc_resolve() failed when verifying KDC
+krb5_cc_initialize() failed when verifying KDC
+krb5_unparse_name() failed when verifying KDC
+Trying to verify authenticity of KDC using principal %s
+krb5_get_credentials() failed when verifying KDC
+krb5_mk_req_extended() failed when verifying KDC
+krb5_auth_con_init() failed when verifying KDC
+krb5_rd_req() failed when verifying KDC
+malloc() failed: not enough memory
+No Authorization parameter in request from client
+ap_pcalloc() failed (not enough memory)
+Verifying client data using KRB5 GSS-API %s
+GSS-API token of length %d bytes will be sent back
+Warning: received token seems to be NTLM, which isn't supported by the Kerberos module. Check your IE configuration.
+gss_accept_sec_context() failed
+Cannot initialize krb5 context
+Cannot parse delegated username (%s)
+Cannot create krb5 ccache (%s)
+Cannot store delegated credential (%s)
+kerb_authenticate_user entered with user %s and auth_type %s
+mod_auth_kerb::connection::%s::%ld
+Cannot initialize Kerberos5 context (%d)
+empty passwords are not accepted
+Error parsing server name (%s): %s
+krb5_unparse_name() failed: %s
+Using %s as server principal for password verification
+Specified realm `%s' not allowed by configuration
+krb5_get_init_creds_password() failed: %s
+failed to verify krb5 credentials: %s
+generating new memory ccache failed: %s
+krb5_cc_initialize() failed: %s
+krb5_cc_store_cred() failed: %s
+kerb_authenticate_user_krb5pwd ret=%d user=%s authtype=%s
+krb5_aname_to_localname() failed: %s
+krb5_aname_to_localname() found no mapping for principal %s
+kerb_authenticate_a_name_to_local_name %s -> %s
+Realms to attempt authentication against (can be multiple).
+Save and store credentials/tickets retrieved during auth.
+Verify tickets against keytab to prevent KDC spoofing attacks.
+Full or partial service name to be used by Apache for authentication.
+Set to 'off' to allow access control to be passed along to lower modules iff the UserID is not known to this module.
+Always offer Basic authentication regardless of KrbMethodK5Pass and pass on authentication to lower modules if Basic headers arrive.
+Location of Kerberos V5 keytab file.
+Enable Negotiate authentication method.
+Enable Kerberos V5 password authentication.
+Set to 'on' to have Kerberos do auth_to_local mapping of principal names to system user names.
+22PA
+mod_auth_kerb.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

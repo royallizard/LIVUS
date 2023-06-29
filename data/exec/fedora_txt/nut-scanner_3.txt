@@ -1,0 +1,189 @@
+tdT/
+/lib/ld-linux.so.2
+libnutscan.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+nutscan_avail_xml_http
+nutscan_scan_ipmi
+nutscan_avail_avahi
+nutscan_display_ups_conf
+nutscan_avail_ipmi
+nutscan_avail_usb
+_fini
+nutscan_display_parsable
+nutscan_scan_snmp
+nutscan_scan_usb
+nutscan_free
+nutscan_free_device
+nutscan_avail_nut
+nutscan_init
+nutscan_scan_xml_http
+nutscan_cidr_to_ip
+nutscan_scan_avahi
+nutscan_avail_snmp
+nutscan_scan_eaton_serial
+nutscan_scan_nut
+libpthread.so.0
+pthread_create
+pthread_join
+libc.so.6
+_IO_stdin_used
+__printf_chk
+exit
+__strdup
+puts
+strtol
+__fprintf_chk
+stdout
+optarg
+stderr
+getopt_long
+__vfprintf_chk
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.1
+GLIBC_2.4
+GLIBC_2.1.3
+GLIBC_2.3.4
+WVSQ
+Y[^_]
+t$,U
+[^_]
+Illegal timeout value, using default %ds
+Unknown authentication type (%s). Defaulting to MD5
+nut-scanner : detecting available power devices.
+  -C, --complete_scan: Scan all available devices (default).
+  -U, --usb_scan: Scan USB devices.
+  -S, --snmp_scan: Scan SNMP devices.
+  -M, --xml_scan: Scan XML/HTTP devices.
+  -O, --oldnut_scan: Scan NUT devices (old method).
+  -A, --avahi_scan: Scan NUT devices (avahi method).
+  -I, --ipmi_scan: Scan IPMI devices.
+  -E, --eaton_serial <serial ports list>: Scan serial Eaton devices (XCP, SHUT and Q1).
+  -t, --timeout <timeout in seconds>: network operation timeout (default %d).
+  -s, --start_ip <IP address>: First IP address to scan.
+  -e, --end_ip <IP address>: Last IP address to scan.
+  -m, --mask_cidr <IP address/mask>: Give a range of IP using CIDR notation.
+  -c, --community <community name>: Set SNMP v1 community name (default = public)
+  -l, --secLevel <security level>: Set the securityLevel used for SNMPv3 messages (allowed values: noAuthNoPriv,authNoPriv,authPriv)
+  -u, --secName <security name>: Set the securityName used for authenticated SNMPv3 messages (mandatory if you set secLevel. No default)
+  -w, --authProtocol <authentication protocol>: Set the authentication protocol (MD5 or SHA) used for authenticated SNMPv3 messages (default=MD5)
+  -W, --authPassword <authentication pass phrase>: Set the authentication pass phrase used for authenticated SNMPv3 messages (mandatory if you set secLevel to authNoPriv or authPriv)
+  -x, --privProtocol <privacy protocol>: Set the privacy protocol (DES or AES) used for encrypted SNMPv3 messages (default=DES)
+  -X, --privPassword <privacy pass phrase>: Set the privacy pass phrase used for encrypted SNMPv3 messages (mandatory if you set secLevel to authPriv)
+IPMI over LAN specific options:
+  -b, --username <username>: Set the username used for authenticating IPMI over LAN connections (mandatory for IPMI over LAN. No default)
+  -B, --password <password>: Specify the password to use when authenticationg with the remote host (mandatory for IPMI over LAN. No default)
+  -d, --authType <authentication type>: Specify the IPMI 1.5 authentication type to use (NONE, STRAIGHT_PASSWORD_KEY, MD2, and MD5) with the remote host (default=MD5)
+  -D, --cipher_suite_id <cipher suite id>: Specify the IPMI 2.0 cipher suite ID to use, for authentication, integrity, and confidentiality (default=3)
+  -p, --port <port number>: Port number of remote NUT upsd
+  -N, --disp_nut_conf: Display result in the ups.conf format
+  -P, --disp_parsable: Display result in a parsable format
+  -V, --version: Display NUT version
+  -a, --available: Display available bus that can be scanned
+  -q, --quiet: Display only scan result. No information on currently scanned bus is displayed.
+No start IP, skipping NUT bus (old connect method)
+Scanning NUT bus (old connect method).
+Scanning NUT bus (avahi method).
+Scanning serial bus for Eaton devices.
+NONE
+STRAIGHT_PASSWORD_KEY
+2.7.2
+Network UPS Tools - %s
+OLDNUT
+SNMP
+AVAHI
+IPMI
+EATON_SERIAL
+OPTIONS:
+Network specific options:
+SNMP v1 specific options:
+SNMP v3 specific options:
+NUT specific options:
+display specific options:
+Miscellaneous options:
+Scanning USB bus.
+No start IP, skipping SNMP
+Scanning SNMP bus.
+Scanning XML/HTTP bus.
+Scanning IPMI bus.
+timeout
+start_ip
+end_ip
+eaton_serial
+mask_cidr
+community
+secLevel
+secName
+authPassword
+privPassword
+authProtocol
+privProtocol
+username
+password
+authType
+cipher_suite_id
+port
+complete_scan
+usb_scan
+snmp_scan
+xml_scan
+oldnut_scan
+avahi_scan
+ipmi_scan
+disp_nut_conf
+disp_parsable
+quiet
+help
+version
+available
+?ht:s:e:E:c:l:u:W:X:w:x:p:b:B:d:D:CUSMOAm:NPqIVa
+;*2$" 
+nut-scanner.debug
+7zXZ
+k>HJ
+~0+h
+<s@)R
+$N{Bo
+dltJ
+8#dV
+a>JX
+5{ P
+`2, I
+!f	{
+FR<6A
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

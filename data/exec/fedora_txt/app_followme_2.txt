@@ -1,0 +1,299 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_unregister_application
+__ast_rwlock_wrlock
+__ast_rwlock_unlock
+strcasecmp
+ast_log
+calloc
+__ast_pthread_mutex_init
+_ast_mem_backtrace_buffer
+backtrace
+strlen
+strchr
+option_debug
+ast_options
+ast_debug_get_by_module
+ast_config_load2
+ast_variable_retrieve
+ast_category_browse
+__ast_pthread_mutex_lock
+ast_variable_browse
+strtol
+sscanf
+__ast_pthread_mutex_unlock
+ast_config_destroy
+__ao2_lock
+ast_channel_get_up_time
+__snprintf_chk
+pbx_builtin_setvar_helper
+ast_channel_get_duration
+__ao2_unlock
+ast_hangup
+ast_party_connected_line_free
+ast_register_application2
+ast_verb_sys_level
+ast_channel_language
+ast_streamfile
+ast_channel_stream
+ast_channel_sched
+ast_sched_runq
+ast_sched_wait
+ast_waitfor_n
+ast_read
+ast_stopstream
+strcmp
+ast_frame_free
+ast_channel_timingfunc
+ast_channel_name
+__ast_verbose
+memmove
+ast_channel_publish_dial
+ast_indicate_data
+ast_party_connected_line_set_init
+ast_connected_line_parse_data
+ast_channel_hangupcause_set
+ast_party_connected_line_set
+__ast_app_separate_args
+__ast_rwlock_rdlock
+ast_app_parse_options
+ast_channel_state
+ast_indicate
+ast_channel_caller
+ast_connected_line_copy_from_caller
+ast_check_hangup
+ast_answer
+ast_deactivate_generator
+ast_channel_make_compatible
+ast_bridge_call
+unlink
+ast_waitstream
+ast_moh_start
+ast_autoservice_start
+ast_exists_extension
+ast_channel_nativeformats
+ast_request
+sched_yield
+__ao2_trylock
+ast_channel_connected
+ast_channel_inherit_variables
+ast_channel_datastore_inherit
+ast_channel_language_set
+ast_channel_req_accountcodes
+ast_channel_musicclass
+ast_channel_musicclass_set
+ast_pre_call
+ast_autoservice_stop
+ast_call
+ast_moh_stop
+ast_cause2str
+ast_replace_subargument_delimiter
+ast_app_exec_sub
+ast_app_expand_sub_args
+ast_channel_connected_line_sub
+ast_channel_connected_line_macro
+ast_channel_update_connected_line
+ast_channel_uniqueid
+ast_config_AST_SPOOL_DIR
+ast_dsp_get_threshold_from_settings
+ast_play_and_record
+ast_fileexists
+ast_stream_and_wait
+ast_load_realtime
+ast_false
+ast_autoservice_chan_hangup_peer
+ast_variables_destroy
+ast_load_realtime_multientry
+ast_str_set
+__ast_pthread_mutex_destroy
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.1
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+UWVS
+d$<1
+[^_]
+t$@t
+d$,[^_]
+d$,[^_]
+d$<[^_]
+[^_]
+[^_]
+UWVS
+|$<e
+[^_]
+[^_]
+[^_]
+FollowMe
+&(&followmes)->lock
+app_followme.c
+musicclass
+musiconhold
+music
+context
+takecall
+declinecall
+call-from-prompt
+call_from_prompt
+followme-norecording-prompt
+norecording_prompt
+followme-options-prompt
+options_prompt
+followme-pls-hold-prompt
+pls_hold_prompt
+followme-status-prompt
+status_prompt
+followme-sorry-prompt
+sorry_prompt
+&f->lock
+app_followme
+default
+followme.conf
+featuredigittimeout
+general
+New profile %s.
+%30d
+chan
+ANSWEREDTIME
+DIALEDTIME
+Unable to playback %s.
+%s received a hangup frame.
+CANCEL
+%s answered %s
+Starting playback of %s
+%s is busy
+BUSY
+%s is circuit-busy
+CONGESTION
+%s is ringing
+%s is making progress
+%s requested a video update
+%s requested a source update
+%s is proceeding
+%s placed call on hold
+%s removed call from hold
+%s stopped sounds
+DTMF received: %c
+DTMF string: %s
+Match to take the call!
+Declined to take the call.
+NOANSWER
+timed out waiting for action
+active
+&new_follower->lock
+ordinal LIKE
+followme_numbers
+phonenumber
+ordinal
+%s/followme.%s
+vm-rec-name
+No more steps left.
+Number(s) %s timeout %ld
+%s@%s%s
+Local
+caller
+outbound
+calling Local/%s
+$Revision: 419592 $
+Find-Me/Follow-Me Application
+Unknown keyword in profile '%s': %s at line %d of followme.conf
+Unknown keyword in profile '%s': %s
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/utils.h
+Created a number, %s, order of , %d, with a timeout of %ld.
+No follow me config file (followme.conf), so no follow me
+Config file followme.conf is in an invalid format.  Aborting.
+Logging parameter %s with value %s from lineno %d
+<%s> We've been waiting for digits longer than we should have.
+<%s> Playback of the call-from file appears to be done.
+<%s> Unable to playback %s. Maybe the caller didn't record their name?
+<%s> Playback of name file appears to be done.
+<%s> Playback of the next step file appears to be done.
+No live channels left for this step.
+We've hit our timeout for this step. Dropping unanswered calls and starting the next step.
+The calling channel hungup. Need to drop everyone.
+%s connected line has changed. Saving it until we have a winner.
+Connected line update from %s prevented.
+%s connected line has changed. Saving it until answer.
+Dunno what to do with control type %d from %s
+we didn't get a frame. hanging up.
+/builddir/build/BUILD/asterisk-13.1.1/include/asterisk/strings.h
+Extension '%s@%s' doesn't exist
+Unable to allocate a channel for Local/%s cause: %s
+couldn't reach at this number.
+Had to drop call because I couldn't make %s compatible with %s
+%s requires an argument (followmeid)
+Profile requested, %s, not found in the configuration.
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+wait_for_winner
+findmeexec
+ast_str_create
+find_realtime
+end_bridge_callback
+app_exec
+profile_set_param
+create_followme_number
+_ast_calloc
+alloc_profile
+reload_followme
+unload_module
+;*2$"
+followme/sorry
+followme/status
+followme/pls-hold-while-try
+followme/options
+followme/no-recording
+followme/call-from
+d10568311aa53ffbe368f9bd67b07735
+app_followme.so.debug
+7zXZ
+$!l*,
+G,i~
+ReWR
+T:w{
+cFF:
+"?&:(
+`1p,r~|
+8\ IaI.
+9gnQ
+cJd0
+T,t$
+=MWF
+jU3h
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

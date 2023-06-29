@@ -1,0 +1,206 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+pthread_mutex_unlock
+pthread_mutex_lock
+strcasecmp
+ast_log
+ast_getformatname
+ast_state2str
+transfercapability_table
+ast_print_group
+__stack_chk_fail
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+ast_channel_walk_locked
+strlen
+strcat
+regexec
+regcomp
+regerror
+regfree
+__ast_string_field_ptr_grow
+memcpy
+__ast_string_field_empty
+ast_get_indication_zone
+__ast_string_field_alloc_space
+ast_get_group
+sscanf
+ast_channel_setoption
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+5r) 
+%t) 
+%r) 
+%j) 
+%b) 
+%Z) 
+%R) 
+%J) 
+%B) 
+%:) 
+%2) 
+%*) 
+%") 
+=x* 
+ATSubH
+=@' 
+%L% 
+=8) 
+=l) 
+[]A\A]A^
+=1# 
+=^# 
+ffff.
+AWAVM
+h[]A\A]A^A_
+[]A\A]A^A_
+d$ L
+l$(L
+t$0H
+audionativeformat
+videonativeformat
+audioreadformat
+audiowriteformat
+tonezone
+language
+musicclass
+parkinglot
+state
+channeltype
+transfercapability
+callgroup
+func_channel.c
+$Revision: 168565 $
+txgain
+%hhd
+rxgain
+SPEECH
+RESTRICTED_DIGITAL
+3K1AUDIO
+DIGITAL_W_TONES
+VIDEO
+func_channel
+CHANNEL
+CHANNEL(item)
+CHANNELS
+CHANNEL([regular expression])
+Unknown or unavailable item requested: '%s'
+Error compiling regular expression for %s(%s): %s
+Number of channels exceeds the available buffer space.  Output will be truncated!
+Unknown country code '%s' for tonezone. Check indications.conf for available country codes.
+Channel information dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Gets/sets various pieces of information about the channel.
+Gets/set various pieces of information about the channel.
+Standard items (provided by all channel technologies) are:
+R/O	audioreadformat    format currently being read
+R/O	audionativeformat  format used natively for audio
+R/O	audiowriteformat   format currently being written
+R/W	callgroup          call groups for call pickup
+R/O	channeltype        technology used for channel
+R/W	language           language for sounds played
+R/W	musicclass         class (from musiconhold.conf) for hold music
+R/W	parkinglot         parkinglot for parking
+R/W	rxgain             set rxgain level on channel drivers that support it
+R/O	state              state for channel
+R/W	tonezone           zone for indications played
+R/W	txgain             set txgain level on channel drivers that support it
+R/O	videonativeformat  format used natively for video
+chan_sip provides the following additional options:
+R/O    peerip             Get the IP address of the peer
+R/O    recvip             Get the source IP address of the peer
+R/O    from               Get the URI from the From: header
+R/O    uri                Get the URI from the Contact: header
+R/O    useragent          Get the useragent
+R/O    peername           Get the name of the peer
+R/O    t38passthrough     1 if T38 is offered or enabled in this channel, otherwise 0
+R/O    rtpqos             Get QOS information about the RTP stream
+       This option takes two additional arguments:
+  Argument 1:
+    audio                 Get data about the audio stream
+    video                 Get data about the video stream
+    text                  Get data about the text stream
+  Argument 2:
+    local_ssrc            Local SSRC (stream ID)
+    local_lostpackets     Local lost packets
+    local_jitter          Local calculated jitter
+    local_maxjitter       Local calculated jitter (maximum)
+    local_minjitter       Local calculated jitter (minimum)
+    local_normdevjitter   Local calculated jitter (normal deviation)
+    local_stdevjitter     Local calculated jitter (standard deviation)
+    local_count           Number of received packets
+    remote_ssrc           Remote SSRC (stream ID)
+    remote_lostpackets    Remote lost packets
+    remote_jitter         Remote reported jitter
+    remote_maxjitter      Remote calculated jitter (maximum)
+    remote_minjitter      Remote calculated jitter (minimum)
+    remote_normdevjitter  Remote calculated jitter (normal deviation)
+    remote_stdevjitter    Remote calculated jitter (standard deviation)
+    remote_count          Number of transmitted packets
+    rtt                   Round trip time
+    maxrtt                Round trip time (maximum)
+    minrtt                Round trip time (minimum)
+    normdevrtt            Round trip time (normal deviation)
+    stdevrtt              Round trip time (standard deviation)
+    all                   All statistics (in a form suited to logging, but not for parsing)
+R/O    rtpdest            Get remote RTP destination information
+       This option takes one additional argument:
+  Argument 1:
+    audio                 Get audio destination
+    video                 Get video destination
+chan_iax2 provides the following additional options:
+R/W    osptoken           Get or set the OSP token information for a call
+R/O    peerip             Get the peer's ip address
+R/O    peername           Get the peer's username
+Additional items may be available from the channel driver providing
+the channel; see its documentation for details.
+Any item requested that is not available on the current channel will
+return an empty string.
+Gets the list of channels, optionally filtering by a regular expression.
+Gets the list of channels, optionally filtering by a regular expression.  If
+no argument is provided, all known channels are returned.  The regular
+expression must correspond to the POSIX.2 specification, as shown in
+regex(7).  The list returned will be space-delimited.
+func_channels_read
+func_channel_write
+func_channel_read
+a9c98e5d177805051735cb5b0b16b0a0
+func_channel.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

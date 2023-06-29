@@ -1,0 +1,173 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+value_new_bool
+value_get_as_bool
+value_new_error_VALUE
+value_release
+gnm_expr_eval
+value_error_classify
+value_dup
+function_iterate_argument_values
+value_equal
+value_new_error_NA
+g_dgettext
+value_new_error
+logical_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.4
+\$ e
+|$8tP
+\$ e
+|$8tZ
+\$ e
+|$8t[
+UWVS
+|$`e
+L$<1
+t$,~}H1
+;l$(t#1
+L$<e3
+L[^_]
+D$,1
+T$,e3
+UWVS
+9t$D~|
+D$@9t$D
+[^_]
+D$,1
+T$,e3
+D$,1
+T$,e3
+Type Mismatch
+gnumeric-1.12.35
+iferror
+ifna
+switch
+true
+false
+FALSE:the value FALSE
+=FALSE()
+TRUE,IF
+wiki:en:Logical_value
+TRUE:the value TRUE
+TRUE returns the value TRUE.
+=TRUE()
+FALSE,IF
+SWITCH:multi-branch selector
+ref:value
+choice1:first choice value
+value1:first result value
+choice2:second choice value
+value2:second result value
+IF,IFS
+IFS:multi-branch conditional
+cond1:condition
+cond2:condition
+=IFS(false,1/0,true,42)
+IFNA:test for #NA! error
+y:alternate value
+=IFNA(12,14)
+=IFNA(1/0,14)
+=IFNA(NA(),14)
+IF,ISERROR
+IFERROR:test for error
+x:value to test for error
+=IFERROR(1/0,14)
+b0:logical value
+b1:logical value
+=XOR(TRUE,FALSE)
+=XOR(0,1)
+=XOR(TRUE,NA())
+OR,AND,NOT,IF
+wiki:en:Exclusive_disjunction
+OR:logical disjunction
+=OR(TRUE,FALSE)
+=OR(0,1)
+=OR(TRUE,NA())
+AND,XOR,NOT,IF
+wiki:en:Logical_disjunction
+NOT:logical negation
+b:logical value
+=NOT(FALSE)
+=NOT(1)
+AND,OR,IF
+wiki:en:Negation
+AND:logical conjunction
+=AND(TRUE,FALSE)
+=AND(0,1)
+=AND(FALSE,NA())
+wiki:en:Logical_conjunction
+goffice
+gnumeric
+FALSE returns the value FALSE.
+This function is Excel compatible.
+This function compares the reference value, @{ref}, against the choice values, @{choice1} etc., and returns the corresponding result value when it finds a match.  The choices may be followed by a default value to use.  If there are no choices that match and no default value, #NA! is return.
+=SWITCH(WEEKDAY(TODAY()),0,"Sunday",1,"Saturday","not weekend")
+value1:value if @{condition1} is true
+value2:value if @{condition2} is true
+This function returns the value after the first true contional.  If no conditional is true, #VALUE! is returned.
+x:value to test for #NA! error
+This function returns the first value, unless that is #NA!, in which case it returns the second.
+This function returns the first value, unless that is an error, in which case it returns the second.
+XOR:logical exclusive disjunction
+XOR calculates the logical exclusive disjunction of its arguments @{b0},@{b1},...
+If an argument is numerical, zero is considered FALSE and anything else TRUE.
+Strings and empty values are ignored.
+If no logical values are provided, then the error #VALUE! is returned.
+This function is strict: if any argument is an error, the result will be the first such error.
+OR calculates the logical disjunction of its arguments @{b0},@{b1},...
+NOT calculates the logical negation of its argument.
+If the argument is numerical, zero is considered FALSE and anything else TRUE.
+AND calculates the logical conjunction of its arguments @{b0},@{b1},...
+munG
+;*2$"
+plugin.so-1.12.35-3.fc27.i386.debug
+7zXZ
+c70r
+2./M
+k.^c
+]4d>
+'?[|
+Vde!
+oN\,
+_6x<$
+:,\Z.
+?JkE!
+H7f$@
+F	m!
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,6271 @@
+/lib64/ld-linux-x86-64.so.2
+^)u)*
+^o9C:
+}95p-
+libselinux.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+setcon
+libpkcs11-helper.so.1
+pkcs11h_certificate_enumCertificateIds
+pkcs11h_setLogHook
+pkcs11h_logout
+pkcs11h_openssl_session_getX509
+pkcs11h_engine_setSystem
+pkcs11h_certificate_getCertificateBlob
+pkcs11h_setPINPromptHook
+pkcs11h_openssl_freeSession
+pkcs11h_setForkMode
+pkcs11h_forkFixup
+pkcs11h_initialize
+pkcs11h_certificate_freeCertificateId
+pkcs11h_setTokenPromptHook
+pkcs11h_setProtectedAuthentication
+pkcs11h_openssl_session_getRSA
+pkcs11h_certificate_serializeCertificateId
+pkcs11h_addProvider
+pkcs11h_setLogLevel
+pkcs11h_terminate
+pkcs11h_certificate_deserializeCertificateId
+pkcs11h_setPINCachePeriod
+pkcs11h_certificate_create
+pkcs11h_openssl_createSession
+pkcs11h_openssl_getX509
+pkcs11h_certificate_freeCertificateIdList
+pkcs11h_certificate_freeCertificate
+pkcs11h_getMessage
+libssl.so.10
+TLSv1_client_method
+SSL_CTX_use_RSAPrivateKey
+SSL_CTX_free
+SSL_set_accept_state
+SSL_alert_desc_string_long
+SSL_state_string_long
+SSL_CTX_set_client_CA_list
+SSL_CTX_set_default_passwd_cb
+SSL_CTX_ctrl
+SSL_CTX_get_cert_store
+SSL_CTX_use_PrivateKey_file
+SSL_set_bio
+SSL_CTX_load_verify_locations
+SSL_library_init
+SSL_get_cipher_list
+SSL_get_ex_new_index
+SSL_set_connect_state
+SSL_CTX_use_PrivateKey
+SSL_get_current_cipher
+SSL_get_ex_data_X509_STORE_CTX_idx
+SSL_CTX_check_private_key
+SSL_CIPHER_get_version
+SSL_set_ex_data
+TLSv1_server_method
+SSL_CIPHER_get_name
+SSL_CTX_use_certificate_chain_file
+SSL_CTX_use_certificate_file
+SSL_get_peer_certificate
+SSL_load_client_CA_file
+SSL_CTX_set_verify
+SSL_get_version
+TLSv1_method
+SSL_free
+SSL_load_error_strings
+SSL_CTX_set_info_callback
+BIO_f_ssl
+SSL_get_ex_data
+SSL_alert_type_string_long
+SSL_new
+SSL_CTX_new
+SSL_CTX_set_cipher_list
+SSL_CTX_add_client_CA
+SSL_CTX_set_tmp_rsa_callback
+SSL_CTX_use_certificate
+libcrypto.so.10
+X509_free
+EVP_PKEY_free
+X509_STORE_set_flags
+X509_NAME_get_entry
+PKCS12_free
+EVP_MD_size
+ENGINE_get_next
+HMAC_CTX_init
+EVP_get_digestbyname
+X509_STORE_add_cert
+EVP_MD_CTX_cleanup
+sk_free
+MD5_Final
+MD4_Init
+X509_NAME_get_index_by_NID
+BIO_ctrl
+EVP_CIPHER_CTX_block_size
+ENGINE_ctrl_cmd_string
+OBJ_txt2nid
+OBJ_obj2txt
+X509_NAME_ENTRY_get_data
+sk_num
+ERR_free_strings
+BIO_write
+HMAC_CTX_cleanup
+X509_LOOKUP_hash_dir
+EVP_CIPHER_block_size
+EVP_CIPHER_CTX_key_length
+X509_CRL_free
+EVP_CIPHER_iv_length
+PEM_read_bio_DHparams
+sk_new_null
+EVP_cleanup
+X509_get_ext_d2i
+BIO_push
+EVP_CIPHER_flags
+EVP_CIPHER_CTX_set_key_length
+sk_pop_free
+X509_get_issuer_name
+RAND_bytes
+EVP_CIPHER_key_length
+EVP_DigestFinal
+OBJ_nid2sn
+EVP_get_cipherbyname
+EVP_CipherInit
+DES_ecb_encrypt
+BIO_test_flags
+PEM_read_bio_PrivateKey
+X509_NAME_cmp
+HMAC_Final
+ASN1_INTEGER_cmp
+MD4_Final
+OPENSSL_add_all_algorithms_noconf
+ASN1_BIT_STRING_get_bit
+d2i_PKCS12_bio
+BIO_free
+RSA_free
+ENGINE_register_all_complete
+MD4_Update
+PEM_read_bio_X509
+DES_check_key_parity
+PEM_read_bio_X509_CRL
+X509_get_subject_name
+i2a_ASN1_INTEGER
+BIO_read
+ERR_error_string
+sk_find
+EVP_CIPHER_CTX_iv_length
+ERR_get_error
+sk_value
+DH_free
+PKCS12_parse
+X509_verify_cert_error_string
+EVP_sha1
+BIO_s_file
+DES_is_weak_key
+EVP_CIPHER_nid
+d2i_PKCS12_fp
+X509_NAME_free
+ENGINE_load_builtin_engines
+ENGINE_get_first
+EVP_DigestUpdate
+HMAC_Update
+DH_size
+ERR_peek_error
+X509_NAME_entry_count
+MD5_Init
+BIO_free_all
+BN_num_bits
+RAND_pseudo_bytes
+X509_get_pubkey
+X509_NAME_ENTRY_get_object
+X509_get_serialNumber
+ENGINE_get_id
+EVP_DigestInit
+OBJ_obj2nid
+ENGINE_cleanup
+PEM_write_X509
+ENGINE_get_name
+EVP_CIPHER_CTX_flags
+ERR_clear_error
+ENGINE_free
+EVP_CIPHER_CTX_nid
+EVP_CipherUpdate
+EVP_CIPHER_CTX_init
+X509_NAME_oneline
+EVP_md5
+BIO_new_file
+BIO_new
+X509_STORE_CTX_get_current_cert
+EVP_CipherFinal
+RSA_generate_key
+ASN1_BIT_STRING_free
+X509_STORE_add_lookup
+CRYPTO_free
+BIO_s_mem
+X509_STORE_CTX_get_ex_data
+HMAC_Init_ex
+MD5_Update
+EVP_MD_type
+EVP_MD_block_size
+DES_set_odd_parity
+sk_new
+X509_LOOKUP_ctrl
+EVP_CIPHER_CTX_cleanup
+ENGINE_by_id
+X509_NAME_dup
+sk_push
+BIO_new_mem_buf
+ENGINE_set_default
+HMAC_Init
+ASN1_OBJECT_free
+DES_set_key_unchecked
+BIO_f_base64
+ASN1_STRING_to_UTF8
+liblzo2.so.2
+lzo1x_decompress_safe
+lzo1x_1_15_compress
+__lzo_init_v2
+libdl.so.2
+dlclose
+dlsym
+dlopen
+dlerror
+libc.so.6
+epoll_create
+setuid
+chroot
+socket
+__res_init
+fflush
+strcpy
+__printf_chk
+exit
+fopen
+strncmp
+ftruncate
+strrchr
+connect
+__fdelt_chk
+inet_ntoa
+epoll_wait
+signal
+strncpy
+fork
+__stack_chk_fail
+daemon
+unlink
+putchar
+listen
+select
+stdin
+socketpair
+getpid
+flock
+strtol
+fgetc
+fgets
+getpwnam
+strlen
+send
+openlog
+memset
+writev
+__errno_location
+bind
+chdir
+memcmp
+__syslog_chk
+getsockopt
+setgroups
+dup2
+poll
+__fprintf_chk
+ctime
+getgrnam
+putenv
+stdout
+fputc
+recv
+fputs
+lseek
+memcpy
+fclose
+__vsnprintf_chk
+setsockopt
+malloc
+getpass
+strcat
+umask
+strcasecmp
+getpeername
+__strncpy_chk
+__ctype_b_loc
+getenv
+sscanf
+recvfrom
+nice
+stderr
+ioctl
+system
+gethostbyname
+__memset_chk
+readv
+execve
+sendmsg
+usleep
+fwrite
+gettimeofday
+epoll_ctl
+__memcpy_chk
+srandom
+mlockall
+waitpid
+strchr
+getsockname
+sendto
+accept
+__ctype_toupper_loc
+__strcpy_chk
+__cxa_finalize
+fcntl
+__h_errno_location
+__xstat
+setgid
+__strcat_chk
+strcmp
+recvmsg
+strerror
+__libc_start_main
+stpcpy
+closelog
+_edata
+__bss_start
+_end
+siginfo_static
+port_share
+script_security
+x_msg_prefix
+script_method
+title_string
+x_msg_line_num
+mroute_addr_hash_function
+ping_string
+now_usec
+x_cs_err_delay_ms
+x_debug_level
+inetd_socket_descriptor
+x_cs_verbose_level
+x_session_id_zero
+management
+link_read_bytes_global
+iproute_path
+__libc_csu_init
+management_show_net_callback
+x509_username_field
+x_cs_info_level
+occ_magic
+__libc_csu_fini
+x_msg_virtual_output
+link_write_bytes_global
+proto_overhead
+mroute_addr_compare_function
+GLIBC_2.2.5
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.14
+GLIBC_2.3.2
+GLIBC_2.3
+GLIBC_2.3.4
+%zL(
+%rL(
+%jL(
+%bL(
+%ZL(
+%RL(
+%JL(
+%BL(
+%:L(
+%2L(
+%*L(
+%"L(
+%zK(
+%rK(
+%jK(
+%bK(
+%ZK(
+%RK(
+%JK(
+%BK(
+%:K(
+%2K(
+%*K(
+%"K(
+%zJ(
+%rJ(
+%jJ(
+%bJ(
+%ZJ(
+%RJ(
+%JJ(
+%BJ(
+%:J(
+%2J(
+%*J(
+%"J(
+%zI(
+%rI(
+%jI(
+%bI(
+%ZI(
+%RI(
+%JI(
+%BI(
+%:I(
+%2I(
+%*I(
+%"I(
+%zH(
+%rH(
+%jH(
+%bH(
+%ZH(
+%RH(
+%JH(
+%BH(
+%:H(
+%2H(
+%*H(
+%"H(
+%zG(
+%rG(
+%jG(
+%bG(
+%ZG(
+%RG(
+%JG(
+%BG(
+%:G(
+%2G(
+%*G(
+%"G(
+%zF(
+%rF(
+%jF(
+%bF(
+%ZF(
+%RF(
+%JF(
+%BF(
+%:F(
+%2F(
+%*F(
+%"F(
+%zE(
+%rE(
+%jE(
+%bE(
+%ZE(
+%RE(
+%JE(
+%BE(
+%:E(
+%2E(
+%*E(
+%"E(
+%zD(
+%rD(
+%jD(
+%bD(
+%ZD(
+%RD(
+%JD(
+%BD(
+%:D(
+%2D(
+%*D(
+%"D(
+%zC(
+%rC(
+%jC(
+%bC(
+%ZC(
+%RC(
+%JC(
+%BC(
+%:C(
+%2C(
+%*C(
+%"C(
+AQtOH
+tTAXH
+t6YH
+[]A\A]
+AZ[]A\A]
+AUATUS
+]A\A]A^
+[]A\A]A^H
+[]A\A]L
+[]A\A]A^
+<nu>
+<fuY
+[]A\A]A^
+|8t6ATI
+[]A\
+[]A\
+USt1H
+[]A\
+[]A\
+AWAVL
+AUATA
+C(HcS H
+9C ttH
+8[]A\A]A^A_
+AWAVAUATUS
+|$,H
+|$\1
+t$pH
+D$,f
+L$*f
+D$hI
+D$0L
+D$`A
+D$du
+t$`L
+T$`L
+A;G4t
+t#E;~4t
+/t-H
+L$ H9L$
+[]A\A]A^A_
+HcT$
+ []A\
+AVAUI
+ATUS1
+HcT$
+([]A\A]A^A_
+-1/(
+[]A\A]A^
+=d+(
+fffff.
+VUUU
+5h+(
+[]A\
+fffff.
+-L*(
+=+*(
+[]A\A]
+t,D8
+[]D)
+A\A]
+x[Hcu
+xPIc
+l$ L
+t$(L
+|$0H
+xIHcv
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+|vttH
+fff.
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+t$ H
+Hc;Hc
+ffffff.
+x6HcO
+ffffff.
+x|Hco
+l$ H
+l$ H
+d$ L
+l$(L
+t$0H
+ffffff.
+d$ H
+fff.
+D$ H
+0[]A\A]A^
+ffff.
+t,HcO
+@80t
+fffff.
+|FHcW
+;7|	
+fffff.
+[]A\
+fff.
+fffff.
+ffff.
+HcT$
+8]A\
+l$ H
+d$(L
+l$0H
+fff.
+x(Hc{
+|#t!Hc
+fffff.
+=tS1
+|TtRD
+l$ L
+t$(L
+|$0H
+[]A\A]
+[]A\A]
+AWAVAUATA
+[]A\A]A^A_
+l$ H
+fff.
+[]A\
+ffff.
+fffff.
+t	;G
+l$0H
+\$(L
+d$8L
+l$@H
+fffff.
+ffff.
+ffff.
+AWAVAUE1
+ATE1
+[]A\A]A^A_
+ATUSH
+t[Ic
+[]A\A]
+fff.
+ffffff.
+l$pH
+T$,L
+D;t$,t
+l$pH
+x%Hc
+l$@H
+T$0L
+L$01
+HcT$,
+l$`L
+l$@H
+t$PD
+t$XL
+l$@H
+xAHc
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$ H
+d$(L
+t$8L
+|$@1
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffffff.
+ffff.
+u&H9
+[]A\
+tkH9
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+AVAUA
+([]A\A]A^A_
+fffff.
+d$ L
+l$(L
+t$0H
+AVAUATI
+T$,H
+HcD$(
+T$|H
+|$p1
+T$HD
+D$0L
+d$8E
+\$4E
+[]A\A]A^A_
+L$0A
+D$P1
+D$XH
+D$`H
+\$@H
+L$0H
+T$@H
+L$0H
+T$@H
+t$@H
+[]A\A]A^
+fffff.
+AWAVAUA
+ATUSH
+|$ H
+|$ 1
+\$`E1
+|$ H
+|$ 1
+|$@D
+|$ D
+[]A\A]A^A_
+l$ L
+d$(L
+l$0H
+fff.
+l$0H
+t$ H
+HcD$
+A9,$~_
+A9,$
+[]A\A]A^
+ffffff.
+[]A\
+E8,$D
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+E8|$
+fff.
+[]A\A]A^
+ffffff.
+fffff.
+ffff.
+ffffff.
+AVAUATI
+@[]A\A]A^
+@[]A\A]A^
+AWAVAUI
+ATUH
+D$0A
+D;l$8
+T$(H
+L$0H
+T$$E
+x Ic
+H=?B
+D$$D
+D9|$8
+D$(D
+[]A\A]A^A_
+t$<H
+|$0H
+L$P1
+D$8H
+;D$Lt
+T$8D
+Lc|$<H
+T$hH
+T$0H
+|$0L
+D$<H
+D$pH
+t$pH
+|$`1
+T$LO
+Hct$L
+T$$H
+T$LL
+D$LD
+|$$A
+9D$<t
+|$`H
+L$hH
+D$<E
+D9l$<
+D+l$<D
+HcT$<H
+t$<H
+D$$D
+AWAVAUATUSH
+|$HH
+|$pH
+t$ H
+T$`Hc
+D$tH
+T$`Hc
+T$`Hc
+t$ H
+T$`Hc
+T$pH
+D$[H
+;\$D
+Hcl$PH
+t$TH
+t$0H
+x)Lc
+T$ H
+t$HH
+t$HH
+T$ H
+D$0H
+,8E8
+L$(H
+[]A\A]A^A_
+;\$D
+T$(H
+Hcl$P
+H3D$
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+~gIc
+fff.
+ffff.
+fffff.
+fff.
+ffff.
+ffffff.
+AWAVAUA
+ATUSH
+T$PH
+L$XL
+D$`L
+L$ht=
+)D$p
+T$ 1
+T$ 1
+L$(M
+D$0H
+D$,0
+tQE1
+[]A\A]A^A_
+t$ D
+L$ L
+ffffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$ H
+t$ D
+t$ D
+xXHcT$
+A9(L
+fffff.
+AUATI
+Icv@I
+A9F@
+A9n@
+T$ L
+T$ L
+\$(t
+\$(L
+[]A\A]A^A_
+T$ L
+T$ L
+\$(L
+d$ L
+l$(L
+t$0H
+U(Lc
+d$ H
+l$(L
+ffffff.
+AVAUATUH
+[]A\D
+A]A^
+ffffff.
+AWAVAUATI
+|$(H
+L$ D
+T$(H
+[]A\A]A^A_
+d$ L
+l$(L
+t$0H
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+[]A\
+fffff.
+l$ H
+ffff.
+HcsD1
+HcsD1
+C8tZHcsD1
+[]A\
+M0A9
+;MD}lH
+U0Hc
+t$ H
+U@;UD
+t$ 1
+M0Hc
+C ~z1
+C8tzHcs01
+x+HcT$
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+t	H9
+|LtJH
+Hc|$
+xoHcT$
+t$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffff.
+t$ H
+t$ H
+t$ H
+t$ H
+ffffff.
+AVAUATUSH
+D$(t7H
+H[]A\A]A^A_
+|$xH
+D$xI
+z$A9
+v(A;
+z$A9
+T$0H
+t$0I
+H=?B
+w\[H
+x)HcL$
+fff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+LccHA
+G$E1
+~	D9
+%k~'
+d$ H
+%;y'
+ATUH
+-.w'
+x$Hc
+t![]A\
+H=?B
+H-@B
+AUATU
+-+o'
+X[]A\A]
+@t"H
+h(E1
+ffffff.
+t$(D
+t$(D
+oPS1
+oPATU1
+4BHc
+D$ u
+4BHc
+4BHc
+ []A\A]A^
+L$0tg
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+%og'
+l$P)
+9D$4
+L$4A
+L$PL
+L$,A;H
+D$,1
+l$,Ic@
+l$8A
+D$ L
+D$ L
+E;h ~
+L$8H
+l$TH
+\$@L
+|$<A
+t$Hf
+|$<H
+\$@L
+t$Hw
+D$ L
+L$8D
+L$0D
+ffffff.
+AUATUSH
+C(A9
+K$D)
+C(Hc
+[]A\A]
+[]A\A]
+[]A\A]
+fff.
+t$ H
+x!Hc
+LcC$F
+D;K 
+t$ H
+t$ 1
+ffffff.
+[]A\
+-J\'
+(Hc,
+x HcK
+t$ H
+x~HcK
+xWHcS
+HcT$
+ffff.
+x\HcT$
+\$ H
+l$(L
+d$0H
+HcT$
+x"HcT$
+d$ H
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+|$ H
+|$ 1
+T$(H
+Hct$$H
+|$ H
+|$ H
+T$(H
+Hct$$H
+Hct$
+fff.
+t$pH
+|$pL
+|$ H
+|$ H
+|$ H
+t$ H
+|$ H
+|$ H
+|$ H
+|$ H
+t$ H
+|$ H
+\$ H
+l$(L
+d$0H
+fffff.
+ffff.
+l$ L
+HcD$
+HcD$
+D$ H
+T$Xt
+D$TH
+D$xH
+-s3'
+ffffff.
+ffffff.
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+D$8D
+L$8H
+T$ H
+d$(E
+T$@D
+T$@D
+L$0H
+T$ H
+|$(E
+L$8H
+ffff.
+|$(H
+tm[]A\
+fffff.
+fff.
+HcT$
+ffff.
+fffff.
+l$ H
+l$ H
+L$ H
+[]A\
+l$(D+
+T$ H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+L$8L
+L$8A
+T$ H
+l$(H
+fffff.
+[[]H
+4BHc
+4BHc
+4BHc
+4BHc
+4BHc
+4BHc
+4BHc
+|ZtXH
+[]A\
+[]A\
+D$ H
+AWAVAUE1
+ATUSH
+[]A\A]A^A_
+D$`H
+D$XH
+D$PH
+D$(H
+D$ H
+[]A\
+P([]A\
+fffff.
+[]A\A]
+C tR
+[]A\A]A^
+ATUSH
+G ~;E1
+[]A\A]
+[]A\A]A^A_
+fff.
+[]A\A]A^A_
+[]A\A]A^A_
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+fffff.
+l$ H
+t#H9
+ffff.
+u0Hc{
+fff.
+ffff.
+L$pD
+d$tD
+|$xL
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+H=?B
+gfff
+L$(D
+t$(t
+t$(D
+EHHc
+L$pD
+d$tH
+D$pD
+t$xL
+D$xH
+l$`D
+d$dD
+l$hL
+|$pH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+l$`I
+d$dH
+D$`M
+D$hL
+|$pL
+D$hH
+fffff.
+ffff.
+ATUH
+[]A\A]
+[]A\A]
+ffff.
+td;D$
+tM;D$
+ffffff.
+AWAVAUATUSH
+ta~_H
+[]A\A]A^A_
+[]A\A]A^A_1
+AVAUI
+ATE1
+[]A\I
+A]A^
+ffffff.
+fffff.
+|$ H
+\$ E1
+=utA
+T$ H
+[]A\
+l$ H
+D$H1
+L$ H
+D$HdH3
+D$H1
+D$ H
+D$HdH3
+t$ H
+ffffff.
+\$(H
+l$0H
+\$(H
+l$0H
+AVAUATUSH
+A\A]A^
+[]A\A]A^
+fffff.
+ffff.
+ tgH
+ffff.
+IcL$
+A;4$|%L
+[]A\A]
+ffff.
+x{HcS
+xWHc
+xoHcs
+HcT$
+ []A\
+x'HcT$
+fffff.
+fffff.
+t$ H
+Hc+H
+AVAUI
+ATUS
+ []A\A]A^
+ffff.
+|DtBHc@
+D$0H
+L$,H
+T$P1
+T$P1
+{0E1
+T$hH
+D$hH
+L$`H
+|$`H
+|$hH
+t$XL
+t$,L
+T$,H
+t$XH
+ffff.
+ffff.
+[]A\A]
+[]A\A]
+|$0I
+T$ I
+|$01
+T$8H
+HcT$4H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+|$01
+ATUSH
+ []A\
+ []A\
+fffff.
+D$H1
+ u>H
+D$HdH3
+\$XH
+l$`L
+d$hL
+l$pH
+d$4H
+l$2f
+T$ 1
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+|$x1
+l$8H
+T$(H
+D$ t
+\$HH
+l$PL
+d$XL
+l$`H
+\$0H
+l$8L
+d$@H
+l$(D
+l$ H
+t$$H
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+fff.
+ffff.
+AUATUH
+[]A\A]
+AWAVI
+AUATI
+,$E1
+[]A\A]A^A_
+ffffff.
++tQM
+l$ I
+x;HcT$
+\$ H
+l$(L
+d$0H
+|$ H
+D$ H
+D$(H
+D$01
+T$(H
+xHHcT$$H
+\$HH
+l$PL
+d$XL
+l$`H
+H;8t
+H;8t
+fffff.
+[]A\
+l$ H
+AVAUI
+ATUSH
+[]A\A]A^
+fff.
+fffff.
+<$3|$
+fff.
+HcT$
+[]A\
+ffff.
+ffff.
+|$pH
+T$hL
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+tfSH
+D$h1
+D$ H
+xWHct$
+D$hdH3
+D$H1
+D$HdH3
+\$XH
+l$`H
+D$H1
+D$HdH3
+\$XH
+l$`H
+D$H1
+D$HdH3
+\$XH
+l$`H
+tkSH
+fffff.
+l$ H
+ffff.
+l$ H
+fff.
+D$(1
+|$ E1
+x9Hc\$
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+xDHcT$
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+fffff.
+AWAVI
+D$H1
+|$0E1
+Hct$
+T$HdH3
+X[]A\A]A^A_
+ffff.
+l$ H
+\$(H
+l$0L
+d$8L
+l$@H
+t!<Eu
+x#Hc|$
+fff.
+|$@L
+\$hH
+l$pL
+d$xL
+|$@L
+T$HH
+Hc|$DH
+|$ L
+|$@1
+T$(H
+Hc|$$H
+D$PL
+T$HH
+Hc|$DH
+t$ H
+-4M&
+l$ L
+d$(L
+l$0H
+AUATUH
+[]A\A]A^
+\$(H
+l$0L
+d$8L
+l$@H
+l$ L
+d$(L
+l$0H
+tGHc
+d$ H
+l$(H
+t$0H
+[]A\
+[]A\L
+[]A\
+ffff.
+ATUH
+[]A\A]A^
+D$ H
+l$0H
+D$(H
+l$81
+D$8t
+|$81
+D$ H
+D$(H
+D$0H
+D$8H
+[]A\
+AUE1
+ATE1
+[]A\A]A^A_
+l$ H
+l$ H
+ffffff.
+d$ H
+fff.
+AWAVAUATUH
+D$HL
+l$8H
+D$ L
+[]A\A]A^A_
+D$0H
+t$@E1
+t$@L
+D$(H
+T$(H
+T$(L
+|$(H
+H+L$
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+fff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffffff.
+AUATUSH
+T$4H
+|$ H
+t$(D
+D$0H
+D$8L
+T$0H
+t$4H
+|$(L
+L$0H
+|$P1
+t$4H
+|$(H
+T$P1
+T$8H
+D$0H
+T$ H
+|$PE
+|$PH
+[]A\A]A^A_
+0[]A\
+~.f.
+0[]A\
+HcT$
+=z6&
+fff.
+ffffff.
+D$81
+D$ H
+T$(A
+HcT$
+T$8dH3
+\$@H
+l$HL
+d$PL
+l$XL
+t$`H
+D$#1
+T4$H
+T$#H
+xdHcE
+AWAVA
+AUATUSH
+t:D)
+[]A\A]A^A_
+w{fD
+$t*H
+x'A9
+x"Hc
+%#)&
+\$(H
+l$0L
+d$8L
+l$@H
+%b(&
+[]A\
+fffff.
+fffff.
+AVAUI
+ATU1
+8[]A\A]A^A_
+L;l$(t
+D$ L
+|$ I
+5B &
+$uHA
+AWAVAUATI
+[]A\A]A^A_
+|$P1
+T$@H
+T$PH
+L$@)
+L$H)
++t-A
+A;l$
+|$`1
+T$PH
+|$`1
+|$`1
+|$`1
+|$`1
+T$ A
+T$ H
+|$`A
+D$ L
+|$`1
+|$`1
+$t0H
+T$ H
+L$(L
+|$ H
+4BHc
+t@+C
+\$(H
+l$0H
+d$8L
+\$(H
+l$0L
+d$8L
+l$@H
+t.;C
+d$ H
+d$ H
+0[]A\
+T$ H
+ytOH
+AWAVA
+AUATUSH
+|$@H
+l$ L
+D$pH
+|$@1
+T$HH
+HcT$DH
+[]A\A]A^A_
+|$@1
+|$@1
+|$@1
+|$@1
+|$@1
+|$@1
+|$@1
+|$@1
+|$@1
+AVAUATUSH
+[]A\A]A^
+d$@H
+T$HH
+|$ D
+|$HM
+|$ D
+|$ D
+fff.
+D$81
+T$ L
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+|$ 1
+t$ H
+fff.
+fffff.
+fPUH
+[]A\
+KX+K
+\$0H
+L$PH
+\$0H
+|$ H
+fff.
+ffffff.
+L$ H
+ffff.
+ffff.
+u>E1
+l$ L
+t$(L
+|$0H
+D$@H
+AWAVAUA
+X[]A\A]A^A_
+D$HH
+C(H;
+fffff.
+3;0|
+AWAVAUA
+C|t:A
+[]A\A]A^A_
+x&Hc\$
+|$8H
+AUATUH
+[]A\A]
+A#L$
+T$ L
+A#L$
+T$ L
+A#L$
+T$ L
+[]A\A]
+ffffff.
+AWAVI
+AUATUSH
+[]A\A]A^A_
+D$xL
+T$hL
+D$pH
+T$xH
+\$`L
+T$hH
+L$X1
+\$@D
+D$HH
+T$8A
+\$0L
+\$ L
+19u$u
+E(H;
+L$XL
+\$`L
+T$hH
+\$(1
+L$0L
+\$ A
+L$XH
+L$pH
+19s$u
+C(H;
+L$XH
+ffff.
+Ox9H
+AVAUI
+X[]A\A]A^A_
+fff.
+A9J$
+GZ8E
+A9VD
+l$@H
+\$8L
+d$HL
+l$PL
+t$XL
+|$`H
+B(H;
+W[8U
+A:GX
+A9VD}
+T$ 1
+t$ I
+ffff.
+AWAVA
+AUATI
+WZdH
+D$81
+t$HA
+|$ H
+D$ H
+D$(H
+D$0A
+D$HH
+C(H;
+T$8dH3
+H[]A\A]A^A_
+T$HHcR
+S(H9
+O[8N
+|$ H
+D$81
+\$#H
+T$ 1
+T$ D
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+ffff.
+AWAVAUATUH
+T$0H
+T$0H
+L$@1
+[]A\A]A^A_
+|$PE1
+T$0H
+d$,L
+t$,L
+|$PL
+T$0H
+t$pE1
+d$,L
+T$01
+T$01
+T$01
+T$01
+d$,L
+T$@1
+T$@1
+T$@1
+T$@E
+T$01
+T$01
+T$01
+T$01
+AUATUSH
+8[]A\A]
+|$ %
+HcT$
+8[]A\A]
+ffffff.
+|ltjf
+l$ H
+D$x1
+|8t6H
+T$xdH3
+d$ 1
+D$ L
+t$@M
+Sx9P
+T$ L
+t$@H
+D$x1
+T$xdH3
+|2t0I
+t$@I
+|$ L
+t$@H
+L$`H
+|$ 1
+T$ 1
+t$`H
+AVAUATI
+Ut9P
+[]A\A]A^
+t$DH
+|$PH
+t$@f
+D$h1
+T$hdH3
+x[]A\A]
+l$TH
+Sb8T$Ru
+Cc8D$Su
+T$P:S`u
+ATE1
+[]A\A]
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+fffff.
+HcT$
+AUATUSH
+D$,@
+|$0H
+t$0H
+l$,L
+NTLMSSP
+t$,H
+[]A\A]A^A_
+l$,H
+NTLMSSP
+ATUSH
+x$Hc
+xFHc
+}4Hc
+[]A\
+<2;}
+|%t#
+d~J;
+twHc
+D$ D
+Hc|$
+fffff.
+ot'1
+l$ H
+tJf.
+d$ L
+l$(L
+t$0H
+fff.
+AWAVI
+t$ 1
+|$(H
+[]A\A]A^A_
+t$ H
+T$(H
+D$(I
+l$0L
+|$ H
+t$(H
+t$(H
+D$ 1
+l$ L
+t$(L
+|$0H
+nu'A
+cu A
+T$ H
+T$(H
+T$0H
+;?~&H
+fffff.
+\$ H
+Hc|$
+[]A\A]
+fff.
+l$HH
+\$@L
+d$PL
+l$XL
+t$`H
+<$<u
+|$ H
+D$ H
+D$(H
+D$01
+T$(H
+x3Hct$$H
+|$ H
+ffffff.
+AWAVAUI
+ATUSH
+D$ L
+L$(H
+D$PH
+D$XH
+T$0H
+t$@H
+D$pI
+D$xI
+T$@1
+t$@H
+D;8w
+t$@H
+t$@L
+L$ L
+D$(H
+[]A\A]A^A_
+t$@H
+t$@H
+t$@L
+L$(H
+L$ H
+\$XH
+l$`L
+d$hL
+l$pH
+|$0H
+|$0L
+L$0H
+T$01
+ffff.
+fffff.
+D$0H
+D$(H
+[]A\H
+[]A\
+[]A\
+fff.
+fff.
+AUATUSH
+[]A\A]A^
+[]A\
+ffffff.
+fffff.
+|$ 1
+|$ H
+|$ 1
+$A+T$
+|$ 1
+|$ H
+|$ H
+|$@H
+|$ H
+|$ H
+|$ 1
+|$ 1
+|$ 1
+|$ 1
+T$(H
+HcT$$H
+`[]A\A]A^
+|$ H
+|$ 1
+|$ 1
+|$ 1
+|$ 1
+|$ 1
+|$ 1
+d$ H
+ffff.
+Hc\$
+:pu#
+ffff.
+t!~"
+fff.
+ffff.
+ffff.
+AWAVAUATUH
+[]A\A]A^A_
+ParameteH
+ specifiH
+ed in TLH
+r %s canH
+S-mode, H
+ only beH
+i.e. wheH
+re --tlsH9
+-server I
+or --tlsI
+-client H
+is also I
+specifieH
+AWAVAUATUH
+x[]A\A]A^A_
+T$@H
+T$HH
+T$XH
+T$h;+
+T$`H
+T$LHc
+\$HL
+D$TM
+T$ I
+T$`H
+T$$A
+T$(A
+T$,A
+T$0A
+T$4A
+T$8A
+T$<A
+T$PI
+T$@I
+T$HA
+T$TI
+T$XA
+T$hI
+T$`A
+[]A\A]A^A_
+AVAUATUH
+L$$dH
+L$@H
+t$0H
+D$8D
+D$HH
+D$(E1
+"u	E
+l$$H
+[]A\A]A^A_
+T$0Hc
+t$PL
+"u	E
+l$$H
+D$LH
+L$@H
+|$H1
+l$$H
+D$LH
+L$@H
+|$H1
+l$$H
+D$PD
+D$LH
+L$@H
+|$HH
+l$$H
+D$LH
+L$@H
+|$H1
+L$LL
+D$@H
+|$HD
+AWAVI
+AUATUSH
+|$ H
+L$(D
+D$,L
+L$0H
+D$8dH
+l$XL
+|$PH
+\$pE1
+L$(H
+|$@L
+D$8D
+L$(E1
+D$0H
+[]A\A]A^A_
+L$0E
+D$0L
+D$8uSA
+euLA
+vuEA
+L$(u>H
+L$(u>H
+L$(uRH
+L$(tyH
+L$(urH
+L$(uuH
+?~}H
+L$(uKH
+L$(uNH
+L$(uCH
+L$(upH
+L$(t`H
+L$(uwH
+L$(u>H
+D$<uYA
+duRA
+L$(ulH
+L$(u>H
+|$4uuvA
+puoA
+L$(uhH
+|$4l
+L$(t|H
+L$(t
+L$(uNH
+L$(uNH
+L$(uNH
+L$(thH
+L$(uCH
+L$(tkH
+L$(uCH
+L$(uCH
+L$(thH
+L$(umH
+|$hL
+T$hH
+|$hL
+T$hH
+L$(uzH
+L$(uNH
+L$(uNH
+L$(t
+t$LA
+t$LA
+t$LA
+t$LA
+L$(tiH
+t$LA
+L$(uVH
+L$(uhH
+L$(u>H
+L$(u>H
+L$(tuH
+L$(uTH
+L$(uqH
+L$(t_H
+L$(u>H
+L$(u>H
+T$`H
+|$p1
+L$xH
+Hct$tH
+L$(u+H
+L$(u+H
+L$(uuH
+@vsH
+L$(uuH
+L$(ujH
+|$4ku
+euxA
+yuqA
+L$(ujH
+L$(upH
+L$(u>H
+L$(u>H
+L$(u^H
+L$(uCH
+L$(uCH
+L$(uCH
+L$(uCH
+L$(uCH
+L$(uCH
+L$(uUH
+L$(toH
+L$(u>H
+L$0L
+AVAUATUD
+T$,H
+D$0H
+D$8dH
+\$PL
+|$@L
+D$8D
+D$,E
+D$0H
+\$PL
+[]A\A]A^A_
+L;0t
+|$ H
+D$ H
+AWAVAUATUS
+L$$D
+D$8L
+l$@A
+D$@H
+T$<;
+T$0G
+L$$H
+|$(E1
+D$8H
+[]A\A]A^A_
+l$@L
+T$HH
+L$$H
+|$(E1
+D$@H
+D$0H
+T$8H
+|$$H
+\$0H
+T$(L
+<$E1
+[]A\A]A^A_
+\$@H
+l$HL
+d$PH
+L$8L
+D$0L
+L$8L
+D$0L
+L$(t
+L$(L
+fffff.
+-Uz$
+H;-Iz$
+HcT$
+fff.
+|$ H
+T$(H
+xhHcT$$H
+|$ 1
+ffff.
+l$ H
+ffffff.
+t$ H
+AVAUI
+ATUSH
+~lD9
+[]A\A]A^A_
+[]A\A]A^A_
+fff.
+AWAVAUI
+ATUSH
+H9D$
+|AD9
+[]A\A]A^A_
+t$ H
+xPLcN
+xIHcT$
+\$ H
+l$(L
+d$0H
+tOH;C 
+;S(tA
+\$(H
+l$0H
+\$(H
+l$0H
+T$8H
+t$@D
+T$8H
+t$@D
+D$(t
+T$8H
+t$@D
+D$(L
+T$8H
+t$@D
+D$(L
+fffff.
+ffff.
+UStdH
+\$ H
+[]A\
+AWAVAUATUSH
+T$ I
+T$0H
+D$@M
+T$a1
+D$`<#t
+T$8L
+D$`H
+[]A\A]A^A_
+|$(E
+t$0L
+t$(H
+D$\ 
+T$\H
+T$8H
+T$PD
+T$@H
+D$@H
+|$\ 
+|$(H
+t$PD
+D$(H
+T$8H
+T$8H
+T$8H
+T$P1
+L$\L
+D$(H
+T$8H
+T$P)
+T$8H
+OD$HH
+\$ H
+D$(H
+T$8H
+T$8L
+D$`H
+T$8H
+T$8L
+D$`H
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+L$8D
+L$8D
+D$0tXH
+T$@H
+L$(H
+L$8D
+L$(t
+T$@M
+L$(H
+T$@1
+D$0H
+L$8H
+D$(E
+L$(L
+T$ H
+ffffff.
+t$ H
+fffff.
+ffffff.
+fffff.
+AWAVAUA
+-pT$
+|$(H
+t$0L
+t$ M
+x[]A\A]A^A_
+T$ M
+T$ 1
+T$ H
+L$,A
+T$(H
+D$0D
+fffff.
+fffff.
+H9D$X
+D$XH
+x$Hc
+AVAUI
+ATUS
+t>Hc
+[]A\A]A^
+l$ H
+l$ I
+[]A\A]
+fffff.
+E;,$v:
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+AWAVAUI
+ATUSH
+%tC$
+([]A\A]A^A_
+AVAUATUSH
+T$0H
+D$ H
+D$ ;E
+T$ H
+x[]A\A]A^A_
+T$@H
+|$PH
+T$$t
+D$`D
+D$(M
+T$XH
+x@Lct$TI
+AWAVAUATUH
+t$0H
+T$(t
+T$<A
+|$<A
+[]A\A]A^A_
+T$@1
+D$ M
+L;|$
+t$(H
+|$`H
+L$ H
+T$4A
+ED$8I
+L;|$
+@"l$
+L$ H
+t$ H
+AUATUH
+uT[H
+]A\A]A^
+}~Hc
+]A\A]A^
+[]A\A]A^
+AUATUSH
+[]A\A]A^A_
+ATE1
+~Rf.
+[]A\A]
+AUATU
+%@4$
+A;,$
+A;,$Ic
+vvE1
+A;,$v H
+[]A\A]A^A_
+A9D$
+[]A\A]
+l$ H
+d$(L
+l$0H
+d$ L
+l$(L
+t$0H
+ffff.
+UStT
+A9\$
+[]A\
+AWAVI
+AUATA
+[]A\A]A^A_
+L$ B
+L$ H
+T$(D
+ffff.
+fffff.
+ffff.
+AWAVAUATUH
+T$ E
+D$(H
+HcD$$
+H[]A\A]A^A_
+!~kHc~
+AVAUI
+t4<"
+[]A\A]A^
+|$@L
+fff.
+AWAVAUATI
+D$<Hc
+L$0L
+D$`I
+t$pH
+HcL$
+|$`E
+|$8L
+D$PH
+L$P1
+T$O~
+|$pM
+Hct$d
+<0;|$`|K
+D$ht
+L$<E
+[]A\A]A^A_
+\$<E
+T$0H
+D$`H
+D$hH
+D$pH
+T$OH
+Hc|$
+HcL$
+Hc\$
+fff.
+T$ H
+T$(H
+AUATM
+L$tL
+D$tH
+L$PH
+[]A\A]A^A_
+D$tH
+L$PH
+D$XtGH
+D$8H
+D$XH
+L$HL
+D$@H
+T$hH
+t$`H
+L$HH
+t$@L
+L$PH
+D$XH
+L$@L
+D$hH
+l$ H
+D$(H
+D$HH
+T$xA
+D$@H
+T$XH
+D$Pf
+L$@E1
+|$P1
+l$xH
+D$tH
+L$PH
+L$PH
+d$xA
+D$8H
+T$8H
+d$x=
+|$X1
+T$HH
+fff.
+l$@1
+D$ t3H
+T$0H
+D$8H
+\$`A
+-<	$
+l$0H
+\$(L
+d$8L
+l$@H
+fff.
+x8HcO
+d$ H
+d$ H
+HcT$
+xzHct$
+\$8H
+l$@L
+d$HL
+l$PH
+ffffff.
+AVAUATI
+|$ H
+T$ 1
+|$ 1
+|$ 1
+t$01
+T$(H
+|$ 1
+T$(H
+Hct$$H
+|$ 1
+T$(H
+H[]A\A]A^A_
+D$(H
+|$ 1
+T$(H
+Hct$$H
+[]A\A]A^A_
+Hct$$H
+|$ 1
+|$ H
+fff.
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+x%Ic
+fff.
+\$ H
+l$(L
+d$0H
+xeIcT$
+x$IcT$
+AWAVI
+AUATUSH
+l$@L
+d$0L
+t$@H
+[]A\A]A^A_
+t$HH
+L$(E1
+t$PH
+L$(D
+t.HcO
+~%;w
+t7H9
+fffff.
+ATUSH
+ []A\
+fff.
+AVAUATI
+D$@D
+l$0Hcl$4D
+|$8H
+d$(M
+4$;t$
+X[]A\A]A^A_
+T$ H
+D$(D
+AWAVA
+ATUSH
+D$(1
+HcT$
+T$(dH3
+8[]A\A]A^A_
+ttHcK
+|$ L
+AVLc
+A9,$
+~]Hc
+D$ H
+A9,$
+0[]A\A]A^
+fff.
+AVAUI
+ATE1
+[]A\A]A^
+d$ H
+fffff.
+t@Hc
+ffff.
+ATUSH
+[]A\
+t$H;i
+ffff.
+8~Z1
+ffff.
+\$8H
+l$@L
+d$HL
+l$PH
+xXHct$
+\$8H
+l$@L
+d$HL
+l$PH
+fff.
+ffff.
+}DHc
+t$ H
+ffffff.
+ffffff.
+E;,$v+
+l$ L
+t$(L
+|$0H
+AWAVAUATUH
+D;(v
+H[]A\A]A^A_
+|$ L
+T$(H
+x8HcT$$H
+T$ H
+|$ 1
+A9D$X~|f
+A9D$X
+8[]A\A]
+Hct$
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+ffff.
+AWAVI
+ATUH
+t$Hc
+ u#A
+[]A\A]A^A_
+able to I
+redirectI
+ defaultI
+ gatewayAVI
+NOTE: unSH
+D$H1
+L$ L
+T$(L
+D$8 --
+D$HdH3
+X[]A\A]A^A_
+9]X~
+AUATUS1
+|$`H
+L$DL
+D$LH
+L$HH
+T$@H
+|$`1
+d$@D
+T$DD
+D$L9D$8
+T$P1
+L$<H
+[]A\A]A^A_
+L$LH
+T$PD
+T$P1
+D$(D
+T$P1
+L$ L
+L$(H
+AWAVI
+T$pH
+D$ H
+T$(H
+|$ H
+L$<L
+D$xM
+D$pIc
+T$hH
+T$pH
+T$xH
+~AE9oT
+[]A\A]A^A_
+L$<E1
+L$<E1
+|$ H
+T$xH
+L$<L
+T$@1
+L$<E1
+T$P1
+ t2D
+ffff.
+\$0H
+D$  
+HcD$ H
+\$(H9
+d$ H
+I;l$(
+I;l$ 
+H;](L
+t8H;] tjH
+t$ H
+t$ H
+t;H;X tGH;X(t%H
+[]A\
+I;\$
+ATUSH
+[]A\A]
+ffffff.
+ffffff.
+uZHc
+ffffff.
+ffffff.
+t$ H
+t$ H
+t$ 1
+t$ 1
+ffffff.
+ffffff.
+l$ L
+d$(L
+l$0H
+ffffff.
+D$<H
+t$0L
+gfffA
+D$0t
+X[]A\A]A^A_
+t$@L
+D$0u
+t$(L
+ffff.
+fffff.
+ffffff.
+l$0H
+D$ 1
+xVHcT$
+ []A\
+[]A\
+;C8~
+l$ L
+d$(L
+l$0H
+HcC<
+Cht	;C0
+fff.
+xCHcT$
+\$(H
+l$0L
+d$8L
+l$@H
+fff.
+fff.
+d$ H
+d$ H
+AVAUATI
+A;D$
+t$ L
+8[]A\A]A^A_
+t$ L
+L$xH
+t$ L
+fffff.
+D$81
+HcT$
+T$8dH3
+\$HH
+l$PL
+d$XL
+l$`H
+|$ 1
+fff.
+\$ H
+l$(L
+d$0H
+fff.
+AVAUATI
+\$@H
+E9t$
+D$01
+[]A\A]A^A_
+t$ L
+L$,M
+ t	D
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+t$0H
+D$,t
+fff.
+AUATUSH
+H[]A\A]A^A_
+H[]A\A]A^A_
+L$,A
+D$XA
+\$LE
+~0t	
+\$hH
+l$pL
+d$xL
+T$XL
+L$XE
+D$ A
+D$LH
+T$LL
+L$PH
+T$XH
+t3IcF$H
+L$LH
+T$XL
+l$LE1
+D$0I
+D$8A
+L$XE
+D$ A
+|$(L
+F0u'A
+ffff.
+x?HcT$
+|$0I
+|$0H
+[]A\
+|$0H
+T$01
+x%HcT$
+fffff.
+-Tn#
+HcT$
+ []A\
+t7~?
+t$ 1
+D$0H
+D$`H
+|$(H
+D$@H
+|$0HcC
+x_Hcs
+l$ H
+D$x1
+D$ H
+T$xdH3
+fff.
+l$ H
+d$(L
+l$0H
+ffff.
+d$ L
+l$(L
+t$0H
+fffff.
+AWAVAUATI
+D$01
+T$/A
+[]A\A]A^A_
+T$/D
+T$/A
+l$PLc
+D$@1
+D$/B
+D$0I
+l$@H
+D$01
+D, H
+t$ H
+l$ H
+<$HcT$
+~_Ic
+fff.
+ffff.
+ffffff.
+fffff.
+l$ H
+ffffff.
+l$ L
+d$(L
+l$0H
+ffff.
+ATUSH
+[]A\
+d$ H
+|$PH
+|$0H
+fffff.
+AWAVMc
+|$pA
+|$pH
+|$pL
+|$pH
+|$pL
+|$pE1
+|$pH
+|$pL
+|$pH
+[]A\A]A^A_
+L$ 1
+L$ 1
+L$ 1
+4QHc
+Hc@LH
+AUATUH
+[]A\A]
+ffff.
+t$ H
+t$ 1
+fffff.
+AUATI
+[]A\A]
+L$0H
+|$0H
+D$PE
+T$DD
+D$0H
+D$8H
+D$@H
+D$(H
+\$XH
+l$`L
+d$hL
+t$xL
+l$pH
+fffff.
+trE9
+tFHcs
+t$ H
+AUATM
+|$ H
+|$@H
+t$HH
+LcD$DF
+D;L$@~
+t$Ht
+D$HH
+Hct$D
+|0 ;|$@
+D$HH
+Hct$D
+|0 ;|$@
+D$HH
+HcL$D
+;t$@~
+D$Ht
+D$HH
+HcL$D
+;t$@~
+D$Ht
+l$HH
+Lcd$DI
+T$01
+t$ H
+t$ H
+h[]A\A]A^A_
+D$HH
+D$HH
+L$01
+ATUH
+\$ L
+[]A\A]A^A_
+|$@I
+\$`H
+l$hL
+d$pH
+D$@1
+D$HH
+D$PH
+T$0H
+t$0L
+t$0L
+tuHcO
+fffff.
+5gb#
+=CR#
+ffff.
+fffff.
+=~Q#
+AUATUSH
+-J.#
+[]A\A]A^
+AVAUA
+ATE1
+wpA9
+[]A\A]A^A_
+wRE1
+AWAVAUI
+ATUSH
+|$0H
+|$PdH
+T$4H
+|$HL
+L$4H
+T$HH
+|$8L
+l$(A
+|$HH
+l$HH
+tbIc
+D$ H
+[]A\A]A^A_
+T$ H
+L$@L
+t$pH
+t$pL
+=0##
+t$ H
+T$ H
+=i!#
+T$ H
+T$@L
+D$ A
+|$P1
+|$PH
+L$ H
+D$ A
+|$P1
+|$PH
+L$ H
+T$ H
+L$ H
+|$P1
+T$P1
+L$ H
+L$ H
+T$ H
+L$ I
+T$ H
+L$ H
+L$ H
+fffff.
+t$ H
+ffff.
++E A9
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+@thA
+t$(D
+T$ 1
+fffff.
+l$ H
+ffff.
+ffff.
+AWAVAUATUH
+d$(H
+L$ H
+|$01
+L$ H
+t$0M
+[]A\A]A^A_
+t$ H
+d$(f
+t$(H
+|$(H
+|$(H
+d$(E1
+|$(H
+|$(H
+|$(D
+|$(D
+ATUS
+l$ H
+fffff.
+AWAVAUI
+t$@H
+T$pH
+L$XL
+D$HdH
+t$xH
+|$`A
+|$`H
+L$H)
+d$PL
+l$`H
+t$XI
+u"f9
+t$XI
+d$P1
+t$@A
+DD$h
+D$hH
+T$pA
+L$H)
+A+E A9
+ED$hH
+dH3<%(
+[]A\A]A^A_
+HcP`
+T$`HcPX
+Hc@\
+|$PH
+VPHc
+L$XH
+|$`+
+L$H1
+x$A9
+t$H1
+d$PA
+d$PI
+<0A;
+x?Hc
+d$PE
+d$PH
+t$@H
+P$A9
+d$PE
+|$81
+x#Hc
+d$PI
+d$PH
+T$PH
+|$PH
+T$ tlA
+|$PH
+L$xH
+d$PE
+t$@H
+|$HH
+|$PH
+L$ H
+d$PH
+L$HH
+d$PA
+d$PA
+D$xI
+|$PI
+|$PH
+l$ H
+d$PA
+|$PH
+|$xH
+fff.
+L$(H
+t$`L
+l$XI
+A+L$ 1
+|$PH
+|$PH
+L$PE
+|$PE9Q
+T$<I
+t$`L
+l$XI
+|$PH
+T$8H
+l$XH
+|$PH
+T$PH
+L$8H
+T$`H
+t$PH
+t$PE1
+A+D$ A
+T$PH
+L$(D
+T$0E0
+t$XD
+t$XD
+T$0H
+t$XD
+t$PA
+|$PH
+L$(usA
+|$PH
+D$@E
+|$PH
+T$8H
+L$8A
+T$PI
+L$8A
+T$`H
+L$8u;L
+L$8t
+|$PH
+|$PH
+T$0H
+D$hL
+|$PH
+T$HH
+D$8H
+T$hH
+L$(H
+\$@L
+D$HH
+t$|H
+L$8uTI
+|$PH
+L$(H
+L$8u
+L$8H
+xtHcu
+L$8I
+T$|D
+|$PH
+|$PH
+T$0H
+L$8A
+L$8H
+T$0H
+|$PH
+\$`H
+l$hL
+d$pH
+uiD;ED
+|$ H
+t$@H
+|$ L
+D$@H
+D$HH
+D$PH
+fff.
+T$hH
+l$ L
+d$(L
+l$0H
+tmIc
+McD$
+D$0H
+T$@H
+Hc|$4H
+HcT$
+HcL$4
+t$4D
+T$@H
+HcL$4
+D$8A
+t$4H
+D$8A9
+L$@H
+Hct$4H
+|$PD)
+D$8A
+T$4Ic
+D$@H
+HcT$4
+|$PL
+|$P1
+l$@H
+\$8L
+d$HL
+l$PL
+t$XL
+|$`H
+D$ H
+ffff.
+l$ L
+AUE1
+ATUSH
+K0E1
+|at_
+0D;E
+Hcs$
+[]A\A]
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+T$01
+T$01
+T$01
+T$01
+T$01
+T$01
+T$01
+T$01
+T$01
+L$ L
+D$(H
+ffffff.
+fff.
+\$0H
+l$8L
+d$@L
+l$HL
+t$PH
+T$ 1
+T$ 1
+T$ 1
+T$ 1
+ffff.
+HcT$
+\$(H
+l$0L
+d$8L
+l$@H
+{(#{$H
+fff.
+xVHcT$
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+|$0H
+T$ 1
+T$ 1
+K$E1
+|$0E
+|$0L
+|$0L
+T$ 1
+fffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$pA
+T$ 1
+AUATUSL
+D$X1
+D$XdH3
+h[]A\A]
+D$@1
+l$8H
+\$0L
+d$@H
+\$0H
+l$8L
+d$@H
+ffffff.
+D$xI
+|$pH
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+T$pH
+T$pH
+t$ Hc
+t$ Hc
+-?~"
+%0~"
+l$ L
+t$(L
+|$0H
+attemped allocation of excessively large array
+fatal buffer size error, size=%lu
+Write error on file '%s'
+[more...]
+%02x
+buffer.c
+[%s]
+[NULL]
+crypto.c
+DES-
+DESX-
+CRYPTO INFO: n_DES_cblocks=%d
+%s: missing IV info
+DECRYPT IV: %s
+%s: missing payload
+%s: cipher init failed
+%s: buffer overflow
+%s: cipher update failed
+%s: cipher final failed
+DECRYPT TO: %s
+%s: error reading packet-id
+[null-cipher]
+[null-digest]
+EVP cipher init #1
+EVP set key size
+EVP cipher init #2
+%s: CIPHER KEY: %s
+%s: HMAC KEY: %s
+Cipher source entropy: %s
+HMAC source entropy: %s
+%s (cipher): %s
+%s (hmac): %s
+[[INLINE]]
+Read error on key file ('%s')
+variable
+fixed
+%s %d bit default key (%s)
+%s %d bit digest size
+OpenSSL Crypto Engines
+%s [%s]
+auto
+SO_PATH
+LOAD
+PRNG init md=%s size=%d
+packet_id.h
+ENCRYPT IV: %s
+ENCRYPT FROM: %s
+ENCRYPT TO: %s
+Message hash algorithm '%s' not found
+Message hash algorithm '%s' uses a default hash size (%d bytes) which is larger than OpenVPN's current maximum hash size (%d bytes)
+%s: missing authentication info
+%s: packet HMAC authentication failed
+%s: error reading CBC packet-id
+%s: error reading CFB/OFB packet-id
+%s: bad packet ID (may be a replay): %s -- see the man page entry for --no-replay and --replay-window for more info or silence this warning with --mute-replay-warnings
+Cipher algorithm '%s' not found
+Cipher algorithm '%s' uses a default key size (%d bytes) which is larger than OpenVPN's current maximum key size (%d bytes)
+Cipher '%s' uses a mode not supported by OpenVPN in your current configuration.  CBC mode is always supported, while CFB and OFB modes are supported only when using SSL/TLS authentication and key exchange mode, and when OpenVPN has been built with ALLOW_NON_CBC_CIPHERS.
+******* WARNING *******: null cipher specified, no encryption will be used
+******* WARNING *******: null MAC specified, no authentication will be used
+%s: Cipher '%s' initialized with %d bit key
+%s: CIPHER block_size=%d iv_size=%d
+%s: Using %d bit message hash '%s' for HMAC authentication
+%s: HMAC size=%d block_size=%d
+CRYPTO INFO: WARNING: zero key detected
+CRYPTO INFO: check_key_DES: insufficient key material
+CRYPTO INFO: check_key_DES: weak key detected
+CRYPTO INFO: check_key_DES: bad parity detected
+CRYPTO INFO: fixup_key_DES: insufficient key material
+CRYPTO INFO: fixup_key: before=%s after=%s
+--no-replay or --no-iv cannot be used with a CFB or OFB mode cipher
+ERROR: Random number generator cannot obtain entropy for key generation
+Cannot open file key file '%s'
+Key file ('%s') can be a maximum of %d bytes
+Insufficient key material or header text not found in file '%s' (%d/%d/%d bytes found/min/max)
+Footer text not found in file '%s' (%d/%d/%d bytes found/min/max)
+Cannot open passphrase file: '%s'
+Read error on passphrase file: '%s'
+Passphrase file '%s' is too small (must have at least %d characters)
+Cannot open shared secret file '%s' for write
+# %d bit OpenVPN static key
+Close error on shared secret file %s
+Key file '%s' used in --%s contains insufficient key material [keys found=%d required=%d] -- try generating a new key file with 'openvpn --genkey --secret [file]', or use the existing key file in bidirectional mode by specifying --%s without a key direction parameter
+Unknown key direction '%s' -- must be '0' or '1'
+Control Channel Authentication: tls-auth using INLINE static key file
+INLINE tls-auth file lacks the requisite 2 keys
+Control Channel Authentication: using '%s' as a OpenVPN static key file
+Control Channel Authentication: using '%s' as a free-form passphrase file
+Outgoing Control Channel Authentication
+Incoming Control Channel Authentication
+Key #%d in '%s' is bad.  Try making a new key with --genkey.
+TLS Error: error reading key from remote
+TLS Error: key length mismatch, local cipher/hmac %d/%d, remote cipher/hmac %d/%d
+The following ciphers and cipher modes are available
+for use with OpenVPN.  Each cipher shown below may be
+used as a parameter to the --cipher option.  The default
+key size is shown as well as whether or not it can be
+changed with the --keysize directive.  Using a CBC mode
+is recommended.
+The following message digests are available for use with
+OpenVPN.  A message digest is used in conjunction with
+the HMAC function, to authenticate received packets.
+You can specify a message digest as parameter to
+the --auth option.
+Initializing OpenSSL auto engine support
+OpenSSL error: cannot load engine '%s'
+OpenSSL error: ENGINE_set_default failed on engine '%s'
+Initializing OpenSSL support for engine '%s'
+ERROR: Random number generator cannot obtain entropy for PRNG
+ENCRYPT: buffer size error, bc=%d bo=%d bl=%d wc=%d wo=%d wl=%d cbs=%d
+Entering OpenVPN crypto self-test mode.
+TESTING ENCRYPT/DECRYPT of packet length=%d
+SELF TEST FAILED, src.len=%d buf.len=%d
+SELF TEST FAILED, pos=%d in=%d out=%d
+OpenVPN crypto self-test mode SUCCEEDED.
+Authenticate/Decrypt packet error
+-----BEGIN OpenVPN Static key V1-----
+-----END OpenVPN Static key V1-----
+Non-Hex character ('%c') found at line %d in key file '%s' (%d/%d/%d bytes found/min/max)
+Non-Hex, unprintable character (0x%02x) found at line %d in key file '%s' (%d/%d/%d bytes found/min/max)
+Extracted DHCP router address: %s
+OpenVPN: Out of Memory
+openvpn
+%s: %s (errno=%d)
+%s (OpenSSL)
+Options error: %s
+%s %s%s%s%s
+Exiting
+NOTE: --mute triggered...
+%s %s returned %d
+%s %s [%s]: %s (code=%d)
+%s %s: %s (code=%d)
+Assertion failed at %s:%d
+%d variation(s) on previous %d message(s) suppressed by --mute
+Warning: Error redirecting stdout/stderr to --log file: %s
+--log file redirection error on stdout
+--log file redirection error on stderr
+event.c
+PO_DEL ev=%d
+SE_RESET
+[scalable]
+SE_DEL ev=%d
+EP_DEL ev=%d
+PO_WAIT[%d,%d] fd=%d rev=0x%08x rwflags=0x%04x arg=0x%08lx %s
+Error: poll: unknown revents=0x%04x
+SE_CTL rwflags=0x%04x ev=%d fast=%d cap=%d maxfd=%d arg=0x%08lx
+Error: select: too many I/O wait events, fd=%d cap=%d
+Error: select/se_del: too many I/O wait events
+EP_WAIT[%d] rwflags=0x%04x ev=0x%08x arg=0x%08lx
+SE_WAIT[%d,%d] rwflags=0x%04x arg=0x%08lx
+SE_WAIT_FAST maxfd=%d tv=%d/%d
+SE_WAIT_SCALEABLE maxfd=%d tv=%d/%d
+EP_CTL fd=%d rwflags=0x%04x ev=0x%08x arg=0x%08lx
+EVENT: epoll_ctl EPOLL_CTL_ADD failed
+EVENT: epoll_ctl EPOLL_CTL_MOD failed
+PO_INIT maxevents=%d flags=0x%08x
+PO_CTL rwflags=0x%04x ev=%d arg=0x%08lx
+Error: poll: too many I/O wait events
+EP_INIT maxevents=%d flags=0x%08x
+Note: sys_epoll API is unavailable, falling back to poll/select API
+Set socket to non-blocking mode failed
+Set FD_CLOEXEC flag on file descriptor failed
+I/O WAIT %s|%s|%s|%s %s
+auth-control-exit
+tls-error
+AUTH_FAILED
+PUSH_
+RESTART
+inactive
+server_poll
+Delayed exit in %d seconds
+delayed-exit
+forward.c
+socket.h
+connection-reset-inetd
+connection-reset
+read
+port-share-redirect
+%s READ [%d] from %s: %s
+decryption-error
+RECEIVED PING PACKET
+read from TUN/TAP
+TUN READ [%d]
+%s WRITE [%d] to %s: %s
+write
+shaper.h
+TUN WRITE [%d]
+write to TUN/TAP
+RANDOM USEC=%d
+event_wait
+I/O WAIT status=0x%04x
+Fatal TLS error (check_tls_errors_co), restarting
+WARNING: Received unknown control message: %s
+WARNING: Receive control message failed
+SENT CONTROL [%s]: '%s' (status=%d)
+Inactivity timeout (--inactive), exiting
+Server poll timeout, restarting
+Connection reset, inetd/xinetd exit [%d]
+Connection reset during exit notification period, ignoring [%d]
+Connection reset, restarting [%d]
+Fatal decryption error (process_incoming_link), restarting
+TCP/UDP packet was truncated/expanded on write to %s (tried=%d,actual=%d)
+TCP/UDP packet too large on write to %s (tried=%d,max=%d)
+TUN/TAP packet was destructively fragmented on write to %s (tried=%d,actual=%d)
+tun packet too large on write (tried=%d,max=%d)
+TIMER: coarse timer wakeup %d seconds
+FRAG_OUT len=%d type=%d seq_id=%d frag_id=%d frag_size=%d flags=0x%08x
+FRAG_IN buf->len=%d type=FRAG_WHOLE flags=0x%08x
+FRAG_IN len=%d type=%d seq_id=%d frag_id=%d size=%d flags=0x%08x
+FRAG_IN error flags=0x%08x: %s
+FRAG: outgoing buffer is not empty, len=[%d,%d]
+too many fragments would be required to send datagram
+FRAG_OUT error, len=%d frag_size=%d MAX_FRAGS=%d: %s
+fragment.c
+flags not found in packet
+spurrious FRAG_WHOLE flags
+bad fragment size
+fragment buffer overflow
+FRAG_TEST not implemented
+unknown fragment type
+integer.h
+FRAG TTL expired i=%d
+gremlin.c
+GREMLIN: Random packet drop
+GREMLIN: CONNECTION GOING %s FOR %d SECONDS
+GREMLIN: Packet Corruption, method=%d
+%s %d
+helper.c
+route %s %s
+route %s
+%s (/%d)
+route-gateway %s
+--server-bridge
+topology %s
+route-gateway dhcp
+ping-restart
+socket-flags TCP_NODELAY
+%s IP addresses %s and %s are not in the same %s subnet
+--server and --client cannot be used together
+--server and --server-bridge cannot be used together
+--server and --secret cannot be used together (you must use SSL/TLS keys)
+--server already defines an ifconfig-pool, so you can't also specify --ifconfig-pool explicitly
+--server directive only makes sense with --dev tun or --dev tap
+--server directive network/netmask combination is invalid
+--server directive netmask is invalid
+--server directive netmask allows for too many host addresses (subnet must be %s or higher)
+--server directive when used with --dev tun must define a subnet of %s or lower
+--server directive when used with --dev tap must define a subnet of %s or lower
+--server-bridge and --client cannot be used together
+--server-bridge already defines an ifconfig-pool, so you can't also specify --ifconfig-pool explicitly
+--server-bridge and --secret cannot be used together (you must use SSL/TLS keys)
+--server-bridge directive only makes sense with --dev tap
+--client requires --key-method 2
+--keepalive parameters must be > 0
+the second parameter to --keepalive (restart timeout=%d) must be at least twice the value of the first parameter (ping interval=%d).  A ratio of 1:5 or 1:6 would be even better.  Recommended setting is --keepalive 10 60.
+--keepalive conflicts with --ping, --ping-exit, or --ping-restart.  If you use --keepalive, you don't need any of the other --ping directives.
+md5-sess
+auth-int
+%s link set addr %s dev %s
+ERROR: Unable to set link layer address.
+TUN/TAP link layer address set to %s
+NOTE: chroot %s
+NOTE: UID/GID downgrade %s
+setcon to '%s' succeeded
+NOTE: setcon %s
+init.c
+Static Encrypt
+Static Decrypt
+private-key-password-failure
+Re-using SSL/TLS context
+daemon() failed
+Closing TUN/TAP interface
+init
+TUN/TAP device (--dev)
+[%s] 
+SUCCESS
+%s With Errors
+script_type
+--route-up
+Restart pause, %d second(s)
+NEED_LATER
+NEED_NOW
+Control Channel MTU parms
+TLS-Auth MTU parms
+Data Channel MTU parms
+Fragmentation MTU parms
+Local Options String: '%s'
+init_instance
+setcon to '%s' failed; is /proc accessible?
+ERROR: Sorry, this command is currently only implemented on Windows
+Re-using pre-shared static key
+Error: private key password verification failed
+shared secret output file (--secret)
+Randomly generated %d bit key written to %s
+options --mktun or --rmtun should only be used together with --dev
+WARNING: route-up plugin call failed
+WARNING: Failed running command (%s)
+Preserving previous TUN/TAP instance: %s
+OPTIONS IMPORT: --verb and/or --mute level changed
+OPTIONS IMPORT: timers and/or timeouts modified
+OPTIONS IMPORT: --explicit-exit-notify can only be used with --proto udp
+OPTIONS IMPORT: explicit notify parm(s) modified
+OPTIONS IMPORT: LZO parms modified
+OPTIONS IMPORT: traffic shaper enabled
+OPTIONS IMPORT: --sndbuf/--rcvbuf options modified
+OPTIONS IMPORT: --socket-flags option modified
+OPTIONS IMPORT: --persist options modified
+OPTIONS IMPORT: --ifconfig/up options modified
+OPTIONS IMPORT: route options modified
+OPTIONS IMPORT: route-related options modified
+OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+OPTIONS IMPORT: environment modified
+NOTE: Pulled options changed on restart, will need to close and reopen TUN/TAP device.
+Signal received from management interface, exiting
+OpenVPN started by inetd/xinetd cannot restart... Exiting.
+No usable connection profiles are present
+IMPORTANT: OpenVPN's default port number is now %d, based on an official port number assignment by IANA.  OpenVPN 2.0-beta16 and earlier used 5000 as the default port.
+WARNING: --ping should normally be used with --ping-restart or --ping-exit
+WARNING: you are using user/group/chroot/setcon without persist-tun -- this may cause restarts to fail
+WARNING: you are using user/group/chroot/setcon without persist-key -- this may cause restarts to fail
+WARNING: you are using chroot without specifying user and group -- this may cause the chroot jail to be insecure
+WARNING: using --pull/--client and --ifconfig together is probably not what you want
+NOTE: when bridging your LAN adapter with the TAP adapter, note that the new bridge adapter will often take on its own IP address that is different from what the LAN adapter was previously set to
+WARNING: using --duplicate-cn and --client-config-dir together is probably not what you want
+WARNING: --ifconfig-pool-persist will not work with --duplicate-cn
+WARNING: --keepalive option is missing from server config
+WARNING: You have disabled Replay Protection (--no-replay) which may make OpenVPN less secure
+WARNING: You have disabled Crypto IVs (--no-iv) which may make OpenVPN less secure
+WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+WARNING: Make sure you understand the semantics of --tls-remote before using it (see the man page).
+NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+NOTE: OpenVPN 2.1 requires '--script-security 2' or higher to call user-defined scripts or executables
+NOTE: --script-security method='system' is deprecated due to the fact that passed parameters will be subject to shell expansion
+NOTE: --fast-io is disabled since we are not using UDP
+NOTE: --fast-io is disabled since we are using --shaper
+******* WARNING *******: all encryption and authentication features disabled -- all data will be tunnelled as cleartext
+WARNING: using --fragment and --mtu-test together may produce an inaccurate MTU test result
+WARNING: normally if you use --mssfix and/or --fragment, you should also set --tun-mtu %d (currently it is %d)
+Expected Remote Options String: '%s'
+Local Options hash (VER=%s): '%s'
+Expected Remote Options hash (VER=%s): '%s'
+Fatal error: Port sharing failed
+Initialization Sequence Completed
+will be delayed because of --client, --pull, or --up-delay
+.Alist.c
+Cannot initialize LZO compression library
+lzo_adaptive_compress_test: comp=%d total=%d
+LZO compression buffer overflow
+Bad LZO decompression header byte: %d
+LZO compression initialized
+lzo.c
+Adaptive compression state %s
+LZO compression error: %d
+LZO decompression error: %d
+decompress %d -> %d
+pre-compress bytes,%llu
+post-compress bytes,%llu
+pre-decompress bytes,%llu
+post-decompress bytes,%llu
+>INFO:OpenVPN Management Interface Version %d -- type 'help' for more info
+SUCCESS: proxy-fallback command succeeded
+ERROR: proxy-fallback command failed
+ERROR: The proxy-fallback command is not supported by the current daemon mode
+ERROR: the '%s' command requires %s%d parameter%s
+%s UID of socket peer (%d) doesn't match required value (%d) as given by --management-client-user
+%s GID of socket peer (%d) doesn't match required value (%d) as given by --management-client-group
+%s cannot get UID/GID of socket peer
+SUCCESS: client-auth command succeeded
+ERROR: client-auth command failed
+ERROR: The client-auth command is not supported by the current daemon mode
+SUCCESS: client-pf command succeeded
+ERROR: client-pf command failed
+ERROR: The client-pf command is not supported by the current daemon mode
+SUCCESS: '%s' %s entered, but not yet verified
+ERROR: %s of type '%s' entered, but we need one of type '%s'
+ERROR: no %s is currently needed at this time
+MANAGEMENT: unix domain socket listening on %s
+MANAGEMENT: TCP Socket listening on %s
+validation failed on peer_info line received from client
+>PASSWORD:Verification Failed: '%s' ['%s']
+>PASSWORD:Verification Failed: '%s'
+MANAGEMENT: Client disconnected
+MANAGEMENT: Triggering management signal
+MANAGEMENT: Triggering management exit
+SUCCESS: real-time %s notification set to ON
+SUCCESS: real-time %s notification set to OFF
+ERROR: %s parameter must be 'on' or 'off' or some number n or 'all'
+MAN: client connection rejected after %d failed password attempts
+MANAGEMENT: CMD 'password [...]'
+auth-retry t           : Auth failure retry mode (none,interact,nointeract).
+bytecount n            : Show bytes in/out, update every n secs (0=off).
+echo [on|off] [N|all]  : Like log, but only show messages in echo buffer.
+exit|quit              : Close management session.
+forget-passwords       : Forget passwords entered so far.
+help                   : Print this message.
+hold [on|off|release]  : Set/show hold flag to on/off state, or
+                         release current hold and start tunnel.
+kill cn                : Kill the client instance(s) having common name cn.
+kill IP:port           : Kill the client instance connecting from IP:port.
+load-stats             : Show global server load stats.
+log [on|off] [N|all]   : Turn on/off realtime log display
+                         + show last N lines or 'all' for entire history.
+mute [n]               : Set log mute level to n, or show level if n is absent.
+needok type action     : Enter confirmation for NEED-OK request of 'type',
+                         where action = 'ok' or 'cancel'.
+needstr type action    : Enter confirmation for NEED-STR request of 'type',
+                         where action is reply string.
+net                    : (Windows only) Show network info and routing table.
+password type p        : Enter password p for a queried OpenVPN password.
+pid                    : Show process ID of the current OpenVPN process.
+pkcs11-id-count        : Get number of available PKCS#11 identities.
+pkcs11-id-get index    : Get PKCS#11 identity at index.
+client-auth CID KID    : Authenticate client-id/key-id CID/KID (MULTILINE)
+client-auth-nt CID KID : Authenticate client-id/key-id CID/KID
+client-deny CID KID R [CR] : Deny auth client-id/key-id CID/KID with log reason
+                             text R and optional client reason text CR
+client-kill CID        : Kill client instance CID
+env-filter [level]     : Set env-var filter level
+client-pf CID          : Define packet filter for client CID (MULTILINE)
+signal s               : Send signal s to daemon,
+                         s = SIGHUP|SIGTERM|SIGUSR1|SIGUSR2.
+state [on|off] [N|all] : Like log, but show state history.
+status [n]             : Show current daemon status info using format #n.
+test n                 : Produce n lines of output for testing/debugging.
+username type u        : Enter username u for a queried OpenVPN username.
+verb [n]               : Set log verbosity level to n, or show if n is absent.
+version                : Show current version number.
+http-proxy-fallback <server> <port> [flags] : Enter dynamic HTTP proxy fallback info.
+http-proxy-fallback-disable : Disable HTTP proxy fallback.
+ERROR: The nclients command is not supported by the current daemon mode
+ERROR: signal '%s' is currently ignored
+ERROR: signal '%s' is not a known signal type
+SUCCESS: nclients=%d,bytesin=%llu,bytesout=%llu
+ERROR: The 'status' command is not supported by the current daemon mode
+SUCCESS: %d client(s) at address %s:%d killed
+ERROR: client at address %s:%d not found
+ERROR: port number is out of range: %s
+ERROR: error parsing IP address: %s
+SUCCESS: common name '%s' found, %d client(s) killed
+ERROR: common name '%s' not found
+ERROR: The 'kill' command is not supported by the current daemon mode
+ERROR: verb level is out of range
+ERROR: mute level is out of range
+SUCCESS: auth-retry parameter changed
+ERROR: bad auth-retry parameter
+SUCCESS: Passwords were forgotten
+ERROR: The 'net' command is not supported by the current daemon mode
+SUCCESS: hold release succeeded
+ERROR: bad hold command parameter
+SUCCESS: bytecount interval changed
+SUCCESS: client-kill command succeeded
+ERROR: client-kill command failed
+ERROR: The client-kill command is not supported by the current daemon mode
+SUCCESS: client-deny command succeeded
+ERROR: client-deny command failed
+ERROR: The client-deny command is not supported by the current daemon mode
+>PKCS11ID-ENTRY:'%d', ID:'%s', BLOB:'%s'
+[%d] The purpose of this command is to generate large amounts of output.
+ERROR: unknown command, enter 'help' for more options
+Need password(s) from management interface, waiting...
+Need hold release from management interface, waiting...
+>HOLD:Waiting for hold release
+MANAGEMENT: connect to unix socket %s failed: %s
+MANAGEMENT: connect to %s failed: %s
+MANAGEMENT: failed to write peer info to file %s
+Connected to management server at
+at least 
+manage.c
+ERROR: cannot parse CID
+ERROR: cannot parse KID
+>CLIENT:ENV,%s
+>CLIENT:ENV,END
+MANAGEMENT
+MANAGEMENT: listen() failed
+n_clients
+MANAGEMENT: TCP %s error: %s
+>BYTECOUNT:%s,%s
+>BYTECOUNT_CLI:%lu,%s,%s
+REAUTH
+>CLIENT:%s,%lu,%u
+>CLIENT:ESTABLISHED,%lu
+>CLIENT:DISCONNECT,%lu
+>CLIENT:ADDRESS,%lu,%s,%d
+management-disconnect
+management-exit
+WAIT
+GET_CONFIG
+ASSIGN_IP
+ADD_ROUTES
+CONNECTED
+RECONNECTING
+EXITING
+RESOLVE
+TCP_CONNECT
+>FATAL:
+>LOG:
+>ECHO:
+>STATE:
+MANAGEMENT: %s
+state
+Client connected from
+SUCCESS: password is correct
+ERROR: bad password
+load-stats
+MANAGEMENT: CMD '%s'
+quit
+help
+Management Interface for %s
+Commands:
+OpenVPN Version: %s
+Management Version: %d
+SUCCESS: pid=%d
+nclients
+SUCCESS: nclients=%d
+env-filter
+SUCCESS: env_filter_level=%d
+SUCCESS: signal %s thrown
+status
+ERROR: kill parse
+verb
+SUCCESS: verb level changed
+SUCCESS: verb=%d
+mute
+SUCCESS: mute level changed
+SUCCESS: mute=%d
+auth-retry
+SUCCESS: auth-retry=%s
+echo
+username
+forget-passwords
+needok
+needok-confirmation
+needstr
+needstr-string
+SUCCESS: hold flag set to ON
+SUCCESS: hold flag set to OFF
+release
+SUCCESS: hold=%d
+bytecount
+client-kill
+client-deny
+client-auth-nt
+pkcs11-id-count
+>PKCS11ID-COUNT:%d
+pkcs11-id-get
+>PKCS11ID-ENTRY:'%d'
+http-proxy-fallback
+http-proxy-fallback-disable
+recv
+send
+NEED-OK
+NEED-STR
+PASSWORD
+username/password
+>%s:Need '%s' %s
+ MSG:%s
+ENTER PASSWORD:
+MANAGEMENT: %s %s
+management-connect-failed
+Management
+MANAGEMENT: client_uid=%d
+MANAGEMENT: client_gid=%d
+tunnel
+>PROXY:%s,%s
+>PROXY:%s
+username=
+password=
+X509_0_CN=
+tls_serial_0=
+untrusted_ip=
+ifconfig_local=
+ifconfig_netmask=
+daemon_start_time=
+daemon_pid=
+dev=
+ifconfig_pool_remote_ip=
+ifconfig_pool_netmask=
+time_duration=
+bytes_sent=
+bytes_received=
+MANAGEMENT: unix domain socket client connection rejected --
+[[BLANK]]
+mbuf.c
+MBUF: mbuf packet dropped
+MBUF: dereferenced queued packet
+misc.c
+%s=%s
+chroot to '%s' failed
+cd to '%s' failed
+setuid('%s') failed
+UID set to %s
+setgid('%s') failed
+GID set to %s
+setgroups('%s') failed
+WARNING: nice %d failed: %s
+nice %d succeeded
+Open error on pid file %s
+Close error on pid file %s
+WARNING: mlockall call failed
+mlockall call succeeded
+/dev/null
+external program fork failed
+putenv('%s') failed
+OPENVPN_%s
+%u.%u.%u.%u
+TEST FILE '%s' [%d]
+%s-0x%s.%s
+openvpn_%s_%s.tmp
+/dev/tty
+CRV1
+stdin
+NEED-OK|%s|%s:
+CHALLENGE: %s
+Response:
+CRV1::%s::%s
+Enter %s Username:
+Enter %s Password:
+ERROR: %s username is empty
+ENV [%d] '%s'
+SYSTEM[%u] '%s'
+SYSTEM return=%u
+make_arg_array
+SCRIPT-ARGV
+%s%sc
+script_context
+tun_mtu
+link_mtu
+%sc %s %d %d %s %s %s
+--up/--down
+/sbin/ip
+chroot to '%s' and cd to '%s' succeeded
+failed to find UID for user %s
+failed to find GID for group %s
+INETD_SOCKET_DESCRIPTOR dup(%d) failed
+WARNING: cannot stat file '%s'
+WARNING: file '%s' is group or others accessible
+external program did not exit normally
+external program exited normally
+could not execute external program
+external program exited with error status: %d
+setenv_str_safe: name overflow
+Failed to create temporary filename and path
+Could not create temporary file '%s': %s
+Failed to create temporary file after %i attempts
+Note: previous '%s' credentials failed
+previous auth credentials failed
+ERROR: could not read %s username/password/ok/string from management interface
+ERROR: could not read %s ok-confirmation from stdin
+ERROR: could not read challenge response from stdin
+ERROR: received malformed challenge request from server
+ERROR: could not read %s username from stdin
+ERROR: could not not read %s password from stdin
+Error opening '%s' auth file: %s
+Error reading password from %s authfile: %s
+Error reading username and password (must be on two consecutive lines) from %s authfile: %s
+ERROR: username from %s authfile '%s' is empty
+WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+WARNING: External program may not be called unless '--script-security 2' or higher is enabled.  Use '--script-security 3 system' for backward compatibility with 2.1_rc8 and earlier.  See --help text or man page for detailed info.
+openvpn_execve: called with empty argv
+ERROR: up/down plugin call failed
+MROUTE CIDR netlen:
+ /%d
+mroute.c
+ARP/
+IPV6
+UNKNOWN
+IPv6 in tun mode is not supported in OpenVPN 2.2
+mss.c
+MSS: %d -> %d
+TA_UNDEF
+TA_SOCKET_READ
+TA_SOCKET_READ_RESIDUAL
+TA_SOCKET_WRITE
+TA_SOCKET_WRITE_READY
+TA_SOCKET_WRITE_DEFERRED
+TA_TUN_READ
+TA_TUN_WRITE
+TA_INITIAL
+TA_TIMEOUT
+TA_TUN_WRITE_TIMEOUT
+mtcp.c
+multi.h
+MULTI TCP: instance added: %s
+MULTI TCP: queuing deferred packet
+MULTI TCP: TCP client address is undefined
+MULTI: TCP INIT maxclients=%d maxevents=%d
+MULTI TCP: multi_tcp_post %s -> %s
+MULTI TCP: multi_tcp_action a=%s p=%d
+MULTI TCP: multi_tcp_wait_lite a=%s mi=0x%08lx
+MULTI TCP: multi_tcp_wait_lite, unhandled action=%d
+MULTI TCP: I/O wait required blocking in multi_tcp_action, action=%d
+MULTI TCP: multi_tcp_dispatch a=%s mi=0x%08lx
+MULTI TCP: transmitting previously deferred packet
+MULTI TCP: multi_tcp_dispatch, unhandled action=%d
+MULTI TCP: new incoming client address matches existing client address -- new client takes precedence
+MULTI TCP: new client instance failed
+mtu.c
+ L:%d
+ D:%d
+ EF:%d
+ EB:%d
+ ET:%d
+ EL:%d
+ AF:%u/%d
+MTU is too small
+maybe
+NO-INFO|
+CMSG=%d|
+ETIMEDOUT|
+EMSGSIZE Path-MTU=%d|
+ECONNREFUSED|
+EPROTO|
+EHOSTUNREACH|
+ENETUNREACH|
+EACCES|
+UNKNOWN|
+MTU DYNAMIC mtu=%d, flags=%u, %d -> %d
+TUN MTU value (%d) must be at least %d
+Error setting IP_MTU_DISCOVER type=%d on TCP/UDP socket
+invalid --mtu-disc type: '%s' -- valid types are 'yes', 'maybe', or 'no'
+Note: enable extended error passing on TCP/UDP socket failed (IP_RECVERR)
+mudp.c
+[succeeded]
+[created]
+GET INST BY REAL: %s %s
+MULTI: Connection from %s would exceed new connection frequency limit as controlled by --connect-freq
+ifconfig_pool_local_ip
+ifconfig_pool_remote_ip
+ifconfig_pool_netmask
+multi.c
+%sc %s %s
+--learn-address
+bytes_received
+bytes_sent
+time_duration
+--client-disconnect
+MULTI: REAP range %d -> %d
+MULTI: REAP DEL %s
+delete
+OpenVPN CLIENT LIST
+Updated,%s
+%s,%s,%llu,%llu,%s
+ROUTING TABLE
+%s%s,%s,%s,%s
+GLOBAL STATS
+TITLE%c%s
+TIME%c%s%c%u
+UNDEF_I
+bcast_c2c
+bcast_src_addr
+MULTI: C2C/MCAST/BCAST
+MULTI: Learn%s: %s -> %s
+update
+GET INST BY VIRT: %s [failed]
+common_name
+time_ascii
+time_unix
+%sc %s
+--client-connect
+client-instance
+tun_tap_src_addr
+tun_c2c
+tun_dest_addr
+tap_c2c
+tap_dest_addr
+WARNING: learn-address plugin call failed
+WARNING: client-disconnect plugin call failed
+MULTI: connection rejected: %s, CLI:%s
+MULTI: multi_init called, r=%d v=%d
+MULTI: no --ifconfig-pool netmask parameter is available to push to %s
+MULTI: no free --ifconfig-pool addresses are available
+MULTI: problem deleting temporary file: %s
+MULTI: multi_close_instance called
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+Virtual Address,Common Name,Real Address,Last Ref
+Max bcast/mcast queue length,%d
+HEADER%cCLIENT_LIST%cCommon Name%cReal Address%cVirtual Address%cBytes Received%cBytes Sent%cConnected Since%cConnected Since (time_t)
+CLIENT_LIST%c%s%c%s%c%s%c%llu%c%llu%c%s%c%u
+HEADER%cROUTING_TABLE%cVirtual Address%cCommon Name%cReal Address%cLast Ref%cLast Ref (time_t)
+ROUTING_TABLE%c%s%s%c%s%c%s%c%s%c%u
+GLOBAL_STATS%cMax bcast/mcast queue length%c%d
+ERROR: bad status format version number
+MULTI: packet dropped due to output saturation (multi_add_mbuf)
+PF: client[%s] -> client[%s] packet dropped by BCAST packet filter
+PF: addr[%s] -> client[%s] packet dropped by BCAST packet filter
+MULTI ROUTE: route quota (%d) exceeded for %s (see --max-routes-per-client option)
+GET INST BY VIRT: %s -> %s via %s
+MULTI: new connection by client '%s' will cause previous active sessions by this client to be dropped.  Remember to use the --duplicate-cn option if you want multiple clients using the same certificate or username to concurrently connect.
+WARNING: client-connect plugin call failed
+WARNING: client-connect-v2 plugin call failed
+MULTI: client has been rejected due to 'disable' directive
+MULTI: no dynamic or static remote --ifconfig address is available for %s
+MULTI ERROR: primary virtual IP for %s (%s) violates tunnel network/netmask constraint (%s/%s)
+MULTI: primary virtual IP for %s: %s
+MULTI: internal route %s/%d -> %s
+MULTI: internal route %s -> %s
+MULTI: --iroute options rejected for %s -- iroute only works with tun-style tunnels
+GREMLIN_FLOOD_CLIENTS: flooding clients with %d packets of size %d
+MULTI: Outgoing TUN queue full, dropped packet len=%d
+PF: addr[%s] -> client packet dropped by packet filter
+MULTI: packet dropped due to output saturation (multi_process_incoming_tun)
+MULTI: bad source address from client [%s], packet dropped
+PF: client -> client[%s] packet dropped by TUN packet filter
+PF: client -> addr[%s] packet dropped by TUN packet filter
+PF: client -> client[%s] packet dropped by TAP packet filter
+PF: client -> addr[%s] packet dropped by TAP packet filter
+MULTI: multi_create_instance called
+MULTI: new incoming connection would exceed maximum number of clients (%d)
+MULTI: unable to add real address [%s] to iterator hash table
+MULTI: signal occurred during client instance initialization
+TlRMTVNTUAABAAAAAgIAAA==
+ntlm.c
+Warning: Username or domain too long
+NOTE: failed to obtain options consistency info from peer -- this could occur if the remote peer is running a version of OpenVPN before 1.5-beta8 or if there is a network connectivity problem, and will not necessarily prevent OpenVPN from running (%llu bytes received from peer, %llu bytes authenticated data channel traffic) -- you can disable the options consistency check with --disable-occ.
+NOTE: Beginning empirical MTU test -- results should be available in 3 to 4 minutes.
+NOTE: failed to empirically measure MTU (requires OpenVPN 1.5 or higher at other end of connection).
+SENT OCC_MTU_LOAD min_int(%d-%d-%d-%d,%d) size=%d
+NOTE: Empirical MTU test completed [Tried,Actual] local->remote=[%d,%d] remote->local=[%d,%d]
+NOTE: This connection is unable to accomodate a UDP packet size of %d. Consider using --fragment or --mssfix options as a workaround.
+occ.c
+SENT OCC_REQUEST
+SENT OCC_REPLY
+SENT OCC_MTU_REQUEST
+SENT OCC_MTU_REPLY
+SENT OCC_MTU_LOAD_REQUEST
+SENT OCC_EXIT
+RECEIVED OCC_REQUEST
+RECEIVED OCC_MTU_REQUEST
+RECEIVED OCC_MTU_LOAD_REQUEST
+RECEIVED OCC_REPLY
+RECEIVED OCC_MTU_REPLY
+RECEIVED OCC_EXIT
+remote-exit
+pkcs11.c
+cancel
+Please insert %s token
+token-insertion-request
+pkcs11-id-request
+PKCS#11: Cannot get X509
+PKCS#11: Cannot create BIO
+Please enter '%s' token PIN or 'cancel': 
+Cannot read password from stdin
+PKCS#11: pkcs11_initialize - entered
+PKCS#11: Cannot initialize system engine %ld-'%s'
+PKCS#11: Cannot initialize %ld-'%s'
+PKCS#11: Cannot set hooks %ld-'%s'
+PKCS#11: Cannot set fork mode %ld-'%s'
+PKCS#11: Cannot set protected authentication mode %ld-'%s'
+PKCS#11: Cannot set Pcache period %ld-'%s'
+PKCS#11: pkcs11_initialize - return %ld-'%s'
+PKCS#11: pkcs11_terminate - entered
+PKCS#11: pkcs11_terminate - return
+PKCS#11: pkcs11_addProvider - entered - provider='%s', private_mode=%08x
+PKCS#11: Adding PKCS#11 provider '%s'
+PKCS#11: Cannot initialize provider '%s' %ld-'%s'
+PKCS#11: pkcs11_addProvider - return rv=%ld-'%s'
+PKCS#11: pkcs11_management_id_count - entered
+PKCS#11: Cannot get certificate list %ld-'%s'
+PKCS#11: pkcs11_management_id_count - return count=%d
+PKCS#11: pkcs11_management_id_get - entered index=%d
+PKCS#11: pkcs11_management_id_get - no certificate at index=%d
+PKCS#11: Cannot serialize certificate id %ld-'%s'
+PKCS#11: Cannot allocate memory
+PKCS#11: Cannot get certificate %ld-'%s'
+PKCS#11: Cannot get certificate blob %ld-'%s'
+PKCS#11: Cannot encode certificate
+PKCS#11: pkcs11_management_id_get - return success=%d, id='%s'
+PKCS#11: SSL_CTX_use_pkcs11 - entered - ssl_ctx=%p, pkcs11_id_management=%d, pkcs11_id='%s'
+Please specify PKCS#11 id to use
+PKCS#11: Cannot deserialize id %ld-'%s'
+PKCS#11: Cannot initialize openssl session
+PKCS#11: Unable get rsa object
+PKCS#11: Unable get certificate object
+PKCS#11: Cannot set private key for openssl
+PKCS#11: Cannot set certificate for openssl
+PKCS#11: SSL_CTX_use_pkcs11 - return ok=%d, rv=%ld
+PKCS#11: Cannot set protected authentication %ld-'%s'
+PKCS#11: Cannot set PIN hook %ld-'%s'
+PKCS#11: Cannot add provider '%s' %ld-'%s'
+PKCS#11: Cannot enumerate certificates %ld-'%s'
+The following objects are available for use.
+Each object shown below may be used as parameter to
+--pkcs11-id option please remember to use single quote mark.
+PKCS#11: Cannot serialize certificate %ld-'%s'
+PKCS#11: Cannot create certificate %ld-'%s'
+Certificate
+       DN:             %s
+       Serial:         %s
+       Serialized id:  %s
+Fopenvpn.c
+OpenVPN-Autoproxy/1.0
+[UNDEF]
+ENABLED
+DISABLED
+  proto = %s
+  local = '%s'
+  local_port = %d
+  remote = '%s'
+  remote_port = %d
+  remote_float = %s
+  bind_defined = %s
+  bind_local = %s
+  connect_retry_seconds = %d
+  connect_timeout = %d
+  connect_retry_max = %d
+BEGIN http_proxy
+  server = '%s'
+  port = %d
+  auth_method_string = '%s'
+  auth_file = '%s'
+  retry = %s
+  timeout = %d
+  http_version = '%s'
+  user_agent = '%s'
+END http_proxy
+  socks_proxy_server = '%s'
+  socks_proxy_port = %d
+  socks_proxy_retry = %s
+options.c
+</%s>
+version %s
+BF-CBC
+SHA1
+TMPDIR
+/tmp
+proto
+local_port
+remote_port
+http_proxy_server
+http_proxy_port
+socks_proxy_server
+socks_proxy_port
+daemon
+daemon_log_redirect
+daemon_start_time
+daemon_pid
+Current Parameter Settings:
+  config = '%s'
+  mode = %d
+  persist_config = %s
+  persist_mode = %d
+  show_ciphers = %s
+  show_digests = %s
+  show_engines = %s
+  genkey = %s
+  key_pass_file = '%s'
+  show_tls_ciphers = %s
+Connection profiles [%d]:
+Connection profiles END
+  remote_random = %s
+  ipchange = '%s'
+  dev = '%s'
+  dev_type = '%s'
+  dev_node = '%s'
+  lladdr = '%s'
+  topology = %d
+  tun_ipv6 = %s
+  ifconfig_local = '%s'
+  ifconfig_noexec = %s
+  ifconfig_nowarn = %s
+  shaper = %d
+  tun_mtu = %d
+  tun_mtu_defined = %s
+  link_mtu = %d
+  link_mtu_defined = %s
+  tun_mtu_extra = %d
+  tun_mtu_extra_defined = %s
+  fragment = %d
+  mtu_discover_type = %d
+  mtu_test = %d
+  mlock = %s
+  keepalive_ping = %d
+  keepalive_timeout = %d
+  inactivity_timeout = %d
+  ping_send_timeout = %d
+  ping_rec_timeout = %d
+  ping_timer_remote = %s
+  remap_sigusr1 = %d
+  persist_tun = %s
+  persist_local_ip = %s
+  persist_remote_ip = %s
+  persist_key = %s
+  mssfix = %d
+  passtos = %s
+  resolve_retry_seconds = %d
+  username = '%s'
+  groupname = '%s'
+  chroot_dir = '%s'
+  cd_dir = '%s'
+  selinux_context = '%s'
+  writepid = '%s'
+  up_script = '%s'
+  down_script = '%s'
+  down_pre = %s
+  up_restart = %s
+  up_delay = %s
+  daemon = %s
+  inetd = %d
+  log = %s
+  suppress_timestamps = %s
+  nice = %d
+  verbosity = %d
+  mute = %d
+  gremlin = %d
+  status_file = '%s'
+  status_file_version = %d
+  occ = %s
+  rcvbuf = %d
+  sndbuf = %d
+  sockflags = %d
+  fast_io = %s
+  lzo = %d
+  route_script = '%s'
+  route_default_metric = %d
+  route_noexec = %s
+  route_delay = %d
+  route_delay_window = %d
+  route_delay_defined = %s
+  route_nopull = %s
+  route_gateway_via_dhcp = %s
+  max_routes = %d
+  allow_pull_fqdn = %s
+  management_addr = '%s'
+  management_port = %d
+  management_user_pass = '%s'
+  management_flags = %d
+  shared_secret_file = '%s'
+  key_direction = %d
+  ciphername_defined = %s
+  ciphername = '%s'
+  authname_defined = %s
+  authname = '%s'
+  prng_hash = '%s'
+  prng_nonce_secret_len = %d
+  keysize = %d
+  engine = %s
+  replay = %s
+  mute_replay_warnings = %s
+  replay_window = %d
+  replay_time = %d
+  packet_id_file = '%s'
+  use_iv = %s
+  test_crypto = %s
+  tls_server = %s
+  tls_client = %s
+  key_method = %d
+  ca_file = '%s'
+  ca_path = '%s'
+  dh_file = '%s'
+  cert_file = '%s'
+  priv_key_file = '%s'
+  pkcs12_file = '%s'
+  cipher_list = '%s'
+  tls_verify = '%s'
+  tls_export_cert = '%s'
+  tls_remote = '%s'
+  crl_file = '%s'
+  ns_cert_type = %d
+  remote_cert_ku[i] = %d
+  remote_cert_eku = '%s'
+  tls_timeout = %d
+  renegotiate_bytes = %d
+  renegotiate_packets = %d
+  renegotiate_seconds = %d
+  handshake_window = %d
+  transition_window = %d
+  single_session = %s
+  push_peer_info = %s
+  tls_exit = %s
+  tls_auth_file = '%s'
+  pkcs11_providers = %s
+  pkcs11_private_mode = %08x
+  pkcs11_cert_private = %s
+  pkcs11_id = '%s'
+  pkcs11_id_management = %s
+  server_network = %s
+  server_netmask = %s
+  server_bridge_ip = %s
+  server_bridge_netmask = %s
+  server_bridge_pool_end = %s
+  push_entry = '%s'
+  ifconfig_pool_defined = %s
+  ifconfig_pool_start = %s
+  ifconfig_pool_end = %s
+  ifconfig_pool_netmask = %s
+  n_bcast_buf = %d
+  tcp_queue_limit = %d
+  real_hash_size = %d
+  virtual_hash_size = %d
+  learn_address_script = '%s'
+  client_config_dir = '%s'
+  ccd_exclusive = %s
+  tmp_dir = '%s'
+  push_ifconfig_defined = %s
+  push_ifconfig_local = %s
+  enable_c2c = %s
+  duplicate_cn = %s
+  cf_max = %d
+  cf_per = %d
+  max_clients = %d
+  max_routes_per_client = %d
+  ssl_flags = %d
+  port_share_host = '%s'
+  port_share_port = %d
+  client = %s
+  pull = %s
+  auth_user_pass_file = '%s'
+http-proxy-override
+,dev-type %s
+,link-mtu %d
+,tun-mtu %d
+,proto %s
+,tun-ipv6
+,ifconfig %s
+,comp-lzo
+,mtu-dynamic
+,keydir %s
+,cipher %s
+,auth %s
+,keysize %d
+,secret
+,no-replay
+,no-iv
+,tls-auth
+,key-method %d
+,tls-server
+,tls-client
+net30
+subnet
+undef
+unknown
+nointeract
+none
+You must define %s
+key file (--secret)
+--client-cert-not-required %s
+--username-as-common-name %s
+--auth-user-pass-optional %s
+DH file (--dh)
+CA file (--ca)
+ca_file
+ca_path
+dh_file
+cert_file
+priv_key_file
+pkcs12_file
+cipher_list
+tls_verify
+tls_export_cert
+tls_remote
+tls_timeout
+renegotiate_bytes
+renegotiate_packets
+renegotiate_seconds
+handshake_window
+transition_window
+tls_auth_file
+single_session
+push_peer_info
+tls_exit
+crl_file
+key_method
+ns_cert_type
+remote_cert_ku[0]
+remote_cert_eku
+pkcs11_providers[0]
+pkcs11_private_mode[0]
+pkcs11_id
+pkcs11_id_management
+--pull
+ERROR: 
+[CMD-LINE]
+ECHO-PULL
+ECHO
+Compile time defines: %s
+parameter
+%s:%s
+management-client-user
+management-client-group
+management-query-passwords
+management-hold
+management-signal
+management-forget-disconnect
+management-client
+management-client-auth
+management-client-pf
+management-log-cache
+plugin
+plugin add failed: %s
+Bad --mode parameter: %s
+dev-type
+dev-node
+lladdr
+topology
+iproute
+ifconfig
+ifconfig-noexec
+ifconfig-nowarn
+remote-random
+connection
+[CONNECTION-OPTIONS]
+remote-ip-hint
+resolv-retry
+infinite
+connect-retry
+connect-timeout
+connect-retry-max
+float
+gremlin
+chroot
+setcon
+writepid
+down-pre
+up-delay
+up-restart
+syslog
+nowait
+suppress-timestamps
+log-append
+mlock
+multihome
+errors-to-stderr
+status-version
+remap-usr1
+SIGHUP
+SIGTERM
+link-mtu
+udp-mtu
+tun-mtu
+tun-mtu-extra
+fragment
+mtu-disc
+mtu-test
+nice
+rcvbuf
+sndbuf
+socket-flags
+unknown socket flag: %s
+txqueuelen
+shaper
+Bad port number: %s
+lport
+Bad local port number: %s
+rport
+Bad remote port number: %s
+nobind
+fast-io
+proto-force
+auto-proxy
+PROXY: %s
+show-proxy-settings
+HTTP Server: %s
+HTTP Port: %d
+SOCKS Server: %s
+SOCKS Port: %d
+Proxy error: %s
+http-proxy
+auto-nct
+basic
+http-proxy-retry
+http-proxy-timeout
+http-proxy-option
+VERSION
+AGENT
+socks-proxy
+socks-proxy-retry
+keepalive
+ping-exit
+ping-timer-rem
+explicit-exit-notify
+persist-tun
+persist-key
+persist-local-ip
+persist-remote-ip
+max-routes
+route-gateway
+route-metric
+route-delay
+route-noexec
+route-nopull
+allow-pull-fqdn
+redirect-gateway
+redirect-private
+autolocal
+def1
+bypass-dhcp
+bypass-dns
+unknown --%s flag: %s
+remote-random-hostname
+setenv
+REMOTE_RANDOM_HOSTNAME
+GENERIC_CONFIG
+SERVER_POLL_TIMEOUT
+FORWARD_COMPATIBLE
+setenv-safe
+script-security
+execve
+system
+mssfix
+disable-occ
+nopool
+push-reset
+ifconfig-pool
+ifconfig-pool-persist
+ifconfig-pool-linear
+hash-size
+connect-freq
+max-clients
+max-routes-per-client
+client-cert-not-required
+username-as-common-name
+auth-user-pass-optional
+no-name-remapping
+opt-verify
+via-env
+via-file
+tmp-dir
+client-config-dir
+ccd-exclusive
+bcast-buffers
+tcp-queue-limit
+port-share
+client-to-client
+duplicate-cn
+iroute
+ifconfig-push
+ifconfig-push-constraint
+tcp-nodelay
+push-continuation
+server-poll-timeout
+auth-user-pass
+dhcp-option
+foreign_option_%d
+route-method
+passtos
+adaptive
+comp-noadapt
+show-ciphers
+show-digests
+show-engines
+key-direction
+genkey
+prng
+replay-window
+mute-replay-warnings
+replay-persist
+test-crypto
+engine
+keysize
+Bad keysize: %s
+show-tls
+capath
+pkcs12
+askpass
+auth-nocache
+single-session
+push-peer-info
+tls-exit
+tls-cipher
+crl-verify
+tls-verify
+tls-export-cert
+tls-remote
+ns-cert-type
+remote-cert-ku
+remote-cert-eku
+remote-cert-tls
+TLS Web Server Authentication
+TLS Web Client Authentication
+tls-timeout
+reneg-bytes
+reneg-pkts
+reneg-sec
+hand-window
+tran-window
+key-method
+show-pkcs11-ids
+pkcs11-providers
+pkcs11-private-mode
+pkcs11-cert-private
+pkcs11-pin-cache
+pkcs11-id
+pkcs11-id-management
+rmtun
+mktun
+2.2.2
+nogw
+[PUSH-OPTIONS]
+[CONFIG-STRING]
+Bad http-proxy port number: %s
+Multiple --%s scripts defined.  The previously configured script is overridden.
+option '%s' cannot be used in this context
+Note: option %s ignored because no TCP-based connection profiles are defined
+Maximum number of 'connection' options (%d) exceeded
+  To pass a list of arguments as one of the parameters, try enclosing them in double quotes ("").
+the --%s directive should have at most %d parameter%s.%s
+WARNING: '%s' is used inconsistently, %s='%s', %s='%s'
+WARNING: '%s' is present in %s config but missing in %s config, %s='%s'
+Connection profiles [default]:
+  ifconfig_remote_netmask = '%s'
+  ping_rec_timeout_action = %d
+  explicit_exit_notification = %d
+  status_file_update_freq = %d
+  route_default_gateway = '%s'
+  management_log_history_cache = %d
+  management_echo_buffer_size = %d
+  management_write_peer_info_file = '%s'
+  management_client_user = '%s'
+  management_client_group = '%s'
+  pkcs11_protected_authentication = %s
+  pkcs11_pin_cache_period = %d
+  server_bridge_pool_start = %s
+  ifconfig_pool_persist_filename = '%s'
+  ifconfig_pool_persist_refresh_freq = %d
+  client_connect_script = '%s'
+  client_disconnect_script = '%s'
+  push_ifconfig_remote_netmask = %s
+  auth_user_pass_verify_script = '%s'
+  auth_user_pass_verify_script_via_file = %s
+NOTE: Options consistency check may be skewed by version differences
+--topology must be net30, p2p, or subnet
+--auth-retry method must be 'interact', 'nointeract', or 'none'
+Use --help for more information.
+--proto tcp is ambiguous in this context.  Please specify --proto tcp-server or --proto tcp-client
+only one of --daemon or --inetd may be specified
+--local or --remote cannot be used with --inetd
+--proto tcp-client cannot be used with --inetd
+--inetd nowait can only be used with --proto tcp-server
+--inetd nowait can only be used in TLS mode
+--inetd nowait only makes sense in --dev tap mode
+--lladdr can only be used in --dev tap mode
+--connect-retry doesn't make sense unless also used with --proto tcp-client
+--connect-timeout doesn't make sense unless also used with --proto tcp-client
+only one of --tun-mtu or --link-mtu may be defined (note that --ifconfig implies --link-mtu %d)
+--mtu-test only makes sense with --proto udp
+--remote and --local addresses are the same
+--local and --remote addresses must be distinct from --ifconfig addresses
+--local addresses must be distinct from --ifconfig addresses
+local and remote/netmask --ifconfig addresses must be different
+--bind and --nobind can't be used together
+--local and --nobind don't make sense when used together
+--lport and --nobind don't make sense when used together
+--nobind doesn't make sense unless used with --remote
+--management is not specified, however one or more options which modify the behavior of --management were specified
+--management-client-(user|group) can only be used on unix domain sockets
+--fragment can only be used with --proto udp
+--remote MUST be used in TCP Client mode
+--http-proxy or --auto-proxy MUST be used in TCP Client mode (i.e. --proto tcp-client)
+--http-proxy can not be used together with --socks-proxy
+--socks-proxy can not be used in TCP Server mode
+TCP server mode allows at most one --remote address
+--mode server only works with --dev tun or --dev tap
+--pull cannot be used with --mode server
+--mode server currently only supports --proto udp or --proto tcp-server
+--port-share only works in TCP server mode (--proto tcp-server)
+--mode server requires --tls-server
+--remote cannot be used with --mode server
+--nobind cannot be used with --mode server
+--http-proxy cannot be used with --mode server
+--socks-proxy cannot be used with --mode server
+<connection> cannot be used with --mode server
+--tun-ipv6 cannot be used with --mode server
+--shaper cannot be used with --mode server
+--inetd cannot be used with --mode server
+--ipchange cannot be used with --mode server (use --client-connect instead)
+--connect-freq only works with --mode server --proto udp.  Try --max-clients instead.
+The third parameter to --ifconfig-pool (netmask) is only valid in --dev tap mode
+--explicit-exit-notify cannot be used with --mode server
+--redirect-gateway cannot be used with --mode server (however --push "redirect-gateway" is fine)
+--route-delay cannot be used with --mode server
+--up-delay cannot be used with --mode server
+--ifconfig-pool-persist must be used with --ifconfig-pool
+--auth-user-pass cannot be used with --mode server (it should be used on the client side only)
+--ccd-exclusive must be used with --client-config-dir
+--mode server requires --key-method 2
+must be used with --management-client-auth, an --auth-user-pass-verify script, or plugin
+--script-security method='system' cannot be combined with --no-name-remapping
+--ifconfig-pool/--ifconfig-pool-persist requires --mode server
+--hash-size requires --mode server
+--learn-address requires --mode server
+--client-connect requires --mode server
+--client-disconnect requires --mode server
+--client-config-dir/--ccd-exclusive requires --mode server
+--client-to-client requires --mode server
+--duplicate-cn requires --mode server
+--connect-freq requires --mode server
+--client-cert-not-required requires --mode server
+--username-as-common-name requires --mode server
+--auth-user-pass-optional requires --mode server
+--no-name-remapping requires --mode server
+--opt-verify requires --mode server
+--tcp-nodelay requires --mode server
+--auth-user-pass-verify requires --mode server
+--port-share requires TCP server mode (--mode server --proto tcp-server)
+--replay-window only makes sense with --proto udp
+--replay-window doesn't make sense when replay protection is disabled with --no-replay
+specify only one of --tls-server, --tls-client, or --secret
+Parameter --pkcs11-id cannot be used when --pkcs11-id-management is also specified.
+Parameter --pkcs11-id or --pkcs11-id-management should be specified.
+Parameter --cert cannot be used when --pkcs11-provider is also specified.
+Parameter --key cannot be used when --pkcs11-provider is also specified.
+Parameter --pkcs12 cannot be used when --pkcs11-provider is also specified.
+Parameter --capath cannot be used when --pkcs12 is also specified.
+Parameter --cert cannot be used when --pkcs12 is also specified.
+Parameter --key cannot be used when --pkcs12 is also specified.
+You must define CA file (--ca) or CA path (--capath)
+No client-side authentication method is specified.  You must use either --cert/--key, --pkcs12, or --auth-user-pass
+If you use one of --cert or --key, you must use them both
+certificate file (--cert) or PKCS#12 file (--pkcs12)
+private key file (--key) or PKCS#12 file (--pkcs12)
+--auth-user-pass requires --pull
+%sOptions warning: Bad backslash ('\') usage in %s:%d: remember that backslashes are treated as shell-escapes and if you need to pass backslash characters as part of a Windows filename, you should use double backslashes such as "c:\\openvpn\\static.key"
+%sOptions error: Parameter at %s:%d is too long (%d chars max): %s
+%sOptions error: No closing quotation (") in %s:%d
+%sOptions error: No closing single quotation (') in %s:%d
+%sOptions error: Residual parse state (%d) in %s:%d
+Originally developed by James Yonan
+Copyright (C) 2002-2010 OpenVPN Technologies, Inc. <sales@openvpn.net>
+  $ ./configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --program-prefix= --disable-dependency-tracking --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --enable-pthread --enable-password-save --enable-iproute2 --with-iproute-path=/sbin/ip
+ ENABLE_CLIENT_SERVER ENABLE_DEBUG ENABLE_EUREPHIA ENABLE_FRAGMENT ENABLE_HTTP_PROXY ENABLE_MANAGEMENT ENABLE_MULTIHOME ENABLE_PASSWORD_SAVE ENABLE_PORT_SHARE ENABLE_SOCKS USE_CRYPTO USE_LIBDL USE_LZO USE_PKCS11 USE_SSL
+echo/parameter option overflow
+port number associated with --management directive is out of range
+--management-log-cache parameter is out of range
+lladdr parm '%s' must be a MAC address
+ifconfig parms '%s' and '%s' must be valid addresses
+Each 'connection' block must contain exactly one 'remote' directive
+remote: port number associated with host %s is out of range
+remote: bad protocol associated with host %s: '%s'
+Maximum number of 'remote' options (%d) exceeded
+WARNING: Multiple --daemon directives specified, ignoring --daemon %s. (Note that initscripts sometimes add their own --daemon directive.)
+when --inetd is used with two parameters, one of them must be 'wait' or 'nowait' and the other must be a daemon name to use for system logging
+--status-version must be 1 to 3
+--remap-usr1 parm must be 'SIGHUP' or 'SIGTERM'
+--mtu-dynamic has been replaced by --fragment
+Bad shaper value, must be between %d and %d
+Bad protocol: '%s'.  Allowed protocols with --proto option: %s
+Bad --proto-force protocol: '%s'
+http-proxy port number not defined
+Bad http-proxy-option or missing parameter: '%s'
+Bad socks-proxy port number: %s
+route parameter network/IP '%s' must be a valid address
+route parameter netmask '%s' must be an IP address
+route parameter gateway '%s' must be a valid address
+--max-routes parameter is out of range
+route-gateway parm '%s' must be a valid address
+this is a generic configuration and cannot directly be used
+unknown --script-security method: %s
+error parsing --server parameters
+error parsing --server: %s is not a recognized flag
+error parsing --server-bridge parameters
+error parsing --ifconfig-pool parameters
+--hash-size sizes must be >= 1 (preferably a power of 2)
+--connect-freq parms must be > 0
+--max-clients must be at least 1
+second parm to --auth-user-pass-verify must be 'via-env' or 'via-file'
+--auth-user-pass-verify requires a second parameter ('via-env' or 'via-file')
+--bcast-buffers parameter must be > 0
+--tcp-queue-limit parameter must be > 0
+port number associated with --port-share directive is out of range
+in --iroute %s %s : Bad network/subnet specification
+cannot parse --ifconfig-push addresses
+cannot parse --ifconfig-push-constraint addresses
+foreign_option: name/value overflow
+bad comp-lzo option: %s -- must be 'yes', 'no', or 'adaptive'
+prng parameter nonce_secret_len must be between %d and %d
+replay-window window size parameter (%d) must be between %d and %d
+replay-window time window parameter (%d) must be between %d and %d
+replay-window option is missing window size parameter
+--ns-cert-type must be 'client' or 'server'
+--remote-cert-tls must be 'client' or 'server'
+key_method parameter (%d) must be >= %d and <= %d
+pkcs11-protected-authentication
+Unrecognized option or missing parameter(s) in %s:%d: %s (%s)
+In %s:%d: Error opening configuration file: %s
+In %s:%d: Maximum recursive include levels exceeded in include attempt of file %s -- probably you have a configuration file that tries to include itself.
+I'm trying to parse "%s" as an --option parameter but I don't see a leading '--'
+OPTIONS IMPORT: reading client specific options from: %s
+OpenVPN 2.2.2 x86_64-redhat-linux-gnu [SSL] [LZO2] [EPOLL] [PKCS11] [eurephia] built on Sep 26 2012
+General Options:
+--config file   : Read configuration options from file.
+--help          : Show options.
+--version       : Show copyright and version information.
+Tunnel Options:
+--local host    : Local host name or ip address. Implies --bind.
+--remote host [port] : Remote host name or ip address.
+--remote-random : If multiple --remote options specified, choose one randomly.
+--remote-random-hostname : Add a random string to remote DNS name.
+--mode m        : Major mode, m = 'p2p' (default, point-to-point) or 'server'.
+--proto p       : Use protocol p for communicating with peer.
+                  p = udp (default), tcp-server, or tcp-client
+--proto-force p : only consider protocol p in list of connection profiles.
+--connect-retry n : For --proto tcp-client, number of seconds to wait
+                    between connection retries (default=%d).
+--connect-timeout n : For --proto tcp-client, connection timeout (in seconds).
+--connect-retry-max n : Maximum connection attempt retries, default infinite.
+--auto-proxy    : Try to sense proxy settings (or lack thereof) automatically.
+--show-proxy-settings : Show sensed proxy settings.
+--http-proxy s p [up] [auth] : Connect to remote host
+                  through an HTTP proxy at address s and port p.
+                  If proxy authentication is required,
+                  up is a file containing username/password on 2 lines, or
+                  'stdin' to prompt from console.  Add auth='ntlm' if
+                  the proxy requires NTLM authentication.
+--http-proxy s p 'auto[-nct]' : Like the above directive, but automatically
+                  determine auth method and query for username/password
+                  if needed.  auto-nct disables weak proxy auth methods.
+--http-proxy-retry     : Retry indefinitely on HTTP proxy errors.
+--http-proxy-timeout n : Proxy timeout in seconds, default=5.
+--http-proxy-option type [parm] : Set extended HTTP proxy options.
+                                  Repeat to set multiple options.
+                  VERSION version (default=1.0)
+                  AGENT user-agent
+--socks-proxy s [p] [up] : Connect to remote host through a Socks5 proxy at
+                  address s and port p (default port = 1080).
+                  If proxy authentication is required,
+                  up is a file containing username/password on 2 lines, or
+                  'stdin' to prompt for console.
+--socks-proxy-retry : Retry indefinitely on Socks proxy errors.
+--resolv-retry n: If hostname resolve fails for --remote, retry
+                  resolve for n seconds before failing (disabled by default).
+                  Set n="infinite" to retry indefinitely.
+--float         : Allow remote to change its IP address/port, such as through
+                  DHCP (this is the default if --remote is not used).
+--ipchange cmd  : Execute shell command cmd on remote ip address initial
+                  setting or change -- execute as: cmd ip-address port#
+--port port     : TCP/UDP port # for both local and remote.
+--lport port    : TCP/UDP port # for local (default=%d). Implies --bind.
+--rport port    : TCP/UDP port # for remote (default=%d).
+--bind          : Bind to local address and port. (This is the default unless
+                  --proto tcp-client or --http-proxy or --socks-proxy is used).
+--nobind        : Do not bind to local address and port.
+--dev tunX|tapX : tun/tap device (X can be omitted for dynamic device.
+--dev-type dt   : Which device type are we using? (dt = tun or tap) Use
+                  this option only if the tun/tap device used with --dev
+                  does not begin with "tun" or "tap".
+--dev-node node : Explicitly set the device node rather than using
+                  /dev/net/tun, /dev/tun, /dev/tap, etc.
+--lladdr hw     : Set the link layer address of the tap device.
+--topology t    : Set --dev tun topology: 'net30', 'p2p', or 'subnet'.
+--tun-ipv6      : Build tun link capable of forwarding IPv6 traffic.
+--iproute cmd   : Use this command instead of default /sbin/ip.
+--ifconfig l rn : TUN: configure device to use IP address l as a local
+                  endpoint and rn as a remote endpoint.  l & rn should be
+                  swapped on the other peer.  l & rn must be private
+                  addresses outside of the subnets used by either peer.
+                  TAP: configure device to use IP address l as a local
+                  endpoint and rn as a subnet mask.
+--ifconfig-noexec : Don't actually execute ifconfig/netsh command, instead
+                    pass --ifconfig parms by environment to scripts.
+--ifconfig-nowarn : Don't warn if the --ifconfig option on this side of the
+                    connection doesn't match the remote side.
+--route network [netmask] [gateway] [metric] :
+                  Add route to routing table after connection
+                  is established.  Multiple routes can be specified.
+                  netmask default: 255.255.255.255
+                  gateway default: taken from --route-gateway or --ifconfig
+                  Specify default by leaving blank or setting to "nil".
+--max-routes n :  Specify the maximum number of routes that may be defined
+                  or pulled from a server.
+--route-gateway gw|'dhcp' : Specify a default gateway for use with --route.
+--route-metric m : Specify a default metric for use with --route.
+--route-delay n [w] : Delay n seconds after connection initiation before
+                  adding routes (may be 0).  If not specified, routes will
+                  be added immediately after tun/tap open.  On Windows, wait
+                  up to w seconds for TUN/TAP adapter to come up.
+--route-up cmd  : Execute shell cmd after routes are added.
+--route-noexec  : Don't add routes automatically.  Instead pass routes to
+                  --route-up script using environmental variables.
+--route-nopull  : When used with --client or --pull, accept options pushed
+                  by server EXCEPT for routes.
+--allow-pull-fqdn : Allow client to pull DNS names from server for
+                    --ifconfig, --route, and --route-gateway.
+--redirect-gateway [flags]: Automatically execute routing
+                  commands to redirect all outgoing IP traffic through the
+                  VPN.  Add 'local' flag if both OpenVPN servers are directly
+                  connected via a common subnet, such as with WiFi.
+                  Add 'def1' flag to set default route using using 0.0.0.0/1
+                  and 128.0.0.0/1 rather than 0.0.0.0/0.  Add 'bypass-dhcp'
+                  flag to add a direct route to DHCP server, bypassing tunnel.
+                  Add 'bypass-dns' flag to similarly bypass tunnel for DNS.
+--redirect-private [flags]: Like --redirect-gateway, but omit actually changing
+                  the default gateway.  Useful when pushing private subnets.
+--push-peer-info : (client only) push client info to server.
+--setenv name value : Set a custom environmental variable to pass to script.
+--setenv FORWARD_COMPATIBLE 1 : Relax config file syntax checking to allow
+                  directives for future OpenVPN versions to be ignored.
+--script-security level mode : mode='execve' (default) or 'system', level=
+                  0 -- strictly no calling of external programs
+                  1 -- (default) only call built-ins such as ifconfig
+                  2 -- allow calling of built-ins and scripts
+                  3 -- allow password to be passed to scripts via env
+--shaper n      : Restrict output to peer to n bytes per second.
+--keepalive n m : Helper option for setting timeouts in server mode.  Send
+                  ping once every n seconds, restart if ping not received
+                  for m seconds.
+--inactive n [bytes] : Exit after n seconds of activity on tun/tap device
+                  produces a combined in/out byte count < bytes.
+--ping-exit n   : Exit if n seconds pass without reception of remote ping.
+--ping-restart n: Restart if n seconds pass without reception of remote ping.
+--ping-timer-rem: Run the --ping-exit/--ping-restart timer only if we have a
+                  remote address.
+--ping n        : Ping remote once every n seconds over TCP/UDP port.
+--multihome     : Configure a multi-homed UDP server.
+--fast-io       : (experimental) Optimize TUN/TAP/UDP writes.
+--remap-usr1 s  : On SIGUSR1 signals, remap signal (s='SIGHUP' or 'SIGTERM').
+--persist-tun   : Keep tun/tap device open across SIGUSR1 or --ping-restart.
+--persist-remote-ip : Keep remote IP address across SIGUSR1 or --ping-restart.
+--persist-local-ip  : Keep local IP address across SIGUSR1 or --ping-restart.
+--persist-key   : Don't re-read key files across SIGUSR1 or --ping-restart.
+--passtos       : TOS passthrough (applies to IPv4 only).
+--tun-mtu n     : Take the tun/tap device MTU to be n and derive the
+                  TCP/UDP MTU from it (default=%d).
+--tun-mtu-extra n : Assume that tun/tap device might return as many
+                  as n bytes more than the tun-mtu size on read
+                  (default TUN=0 TAP=%d).
+--link-mtu n    : Take the TCP/UDP device MTU to be n and derive the tun MTU
+                  from it.
+--mtu-disc type : Should we do Path MTU discovery on TCP/UDP channel?
+                  'no'    -- Never send DF (Don't Fragment) frames
+                  'maybe' -- Use per-route hints
+                  'yes'   -- Always DF (Don't Fragment)
+--mtu-test      : Empirically measure and report MTU.
+--fragment max  : Enable internal datagram fragmentation so that no UDP
+                  datagrams are sent which are larger than max bytes.
+                  Adds 4 bytes of overhead per datagram.
+--mssfix [n]    : Set upper bound on TCP MSS, default = tun-mtu size
+                  or --fragment max value, whichever is lower.
+--sndbuf size   : Set the TCP/UDP send buffer size.
+--rcvbuf size   : Set the TCP/UDP receive buffer size.
+--txqueuelen n  : Set the tun/tap TX queue length to n (Linux only).
+--mlock         : Disable Paging -- ensures key material and tunnel
+                  data will never be written to disk.
+--up cmd        : Shell cmd to execute after successful tun device open.
+                  Execute as: cmd tun/tap-dev tun-mtu link-mtu \
+                              ifconfig-local-ip ifconfig-remote-ip
+                  (pre --user or --group UID/GID change)
+--up-delay      : Delay tun/tap open and possible --up script execution
+                  until after TCP/UDP connection establishment with peer.
+--down cmd      : Shell cmd to run after tun device close.
+                  (post --user/--group UID/GID change and/or --chroot)
+                  (script parameters are same as --up option)
+--down-pre      : Call --down cmd/script before TUN/TAP close.
+--up-restart    : Run up/down scripts for all restarts including those
+                  caused by --ping-restart or SIGUSR1
+--user user     : Set UID to user after initialization.
+--group group   : Set GID to group after initialization.
+--chroot dir    : Chroot to this directory after initialization.
+--setcon context: Apply this SELinux context after initialization.
+--cd dir        : Change to this directory before initialization.
+--daemon [name] : Become a daemon after initialization.
+                  The optional 'name' parameter will be passed
+                  as the program name to the system logger.
+--syslog [name] : Output to syslog, but do not become a daemon.
+                  See --daemon above for a description of the 'name' parm.
+--inetd [name] ['wait'|'nowait'] : Run as an inetd or xinetd server.
+                  See --daemon above for a description of the 'name' parm.
+--log file      : Output log to file which is created/truncated on open.
+--log-append file : Append log to file, or create file if nonexistent.
+--suppress-timestamps : Don't log timestamps to stdout/stderr.
+--writepid file : Write main process ID to file.
+--nice n        : Change process priority (>0 = lower, <0 = higher).
+--echo [parms ...] : Echo parameters to log output.
+--verb n        : Set output verbosity to n (default=%d):
+                  (Level 3 is recommended if you want a good summary
+                  of what's happening without being swamped by output).
+                : 0 -- no output except fatal errors
+                : 1 -- startup info + connection initiated messages +
+                       non-fatal encryption & net errors
+                : 2,3 -- show TLS negotiations & route info
+                : 4 -- show parameters
+                : 5 -- show 'RrWw' chars on console for each packet sent
+                       and received from TCP/UDP (caps) or tun/tap (lc)
+                : 6 to 11 -- debug messages of increasing verbosity
+--mute n        : Log at most n consecutive messages in the same category.
+--status file n : Write operational status to file every n seconds.
+--status-version [n] : Choose the status file format version number.
+                  Currently, n can be 1, 2, or 3 (default=1).
+--disable-occ   : Disable options consistency check between peers.
+--gremlin mask  : Special stress testing mode (for debugging only).
+--comp-lzo      : Use fast LZO compression -- may add up to 1 byte per
+                  packet for uncompressible data.
+--comp-noadapt  : Don't use adaptive compression when --comp-lzo
+                  is specified.
+--management ip port [pass] : Enable a TCP server on ip:port to handle
+                  management functions.  pass is a password file
+                  or 'stdin' to prompt from console.
+                  To listen on a unix domain socket, specific the pathname
+                  in place of ip and use 'unix' as the port number.
+--management-client : Management interface will connect as a TCP client to
+                      ip/port rather than listen as a TCP server.
+--management-query-passwords : Query management channel for private key
+                  and auth-user-pass passwords.
+--management-hold : Start OpenVPN in a hibernating state, until a client
+                    of the management interface explicitly starts it.
+--management-signal : Issue SIGUSR1 when management disconnect event occurs.
+--management-forget-disconnect : Forget passwords when management disconnect
+                                 event occurs.
+--management-log-cache n : Cache n lines of log file history for usage
+                  by the management channel.
+--management-client-user u  : When management interface is a unix socket, only
+                              allow connections from user u.
+--management-client-group g : When management interface is a unix socket, only
+                              allow connections from group g.
+--management-client-auth : gives management interface client the responsibility
+                           to authenticate clients after their client certificate
+			      has been verified.
+--management-client-pf : management interface clients must specify a packet
+                         filter file for each connecting client.
+--plugin m [str]: Load plug-in module m passing str as an argument
+                  to its initialization function.
+Multi-Client Server options (when --mode server is used):
+--server network netmask : Helper option to easily configure server mode.
+--server-bridge [IP netmask pool-start-IP pool-end-IP] : Helper option to
+                    easily configure ethernet bridging server mode.
+--push "option" : Push a config file option back to the peer for remote
+                  execution.  Peer must specify --pull in its config file.
+--push-reset    : Don't inherit global push list for specific
+                  client instance.
+--ifconfig-pool start-IP end-IP [netmask] : Set aside a pool of subnets
+                  to be dynamically allocated to connecting clients.
+--ifconfig-pool-linear : Use individual addresses rather than /30 subnets
+                  in tun mode.  Not compatible with Windows clients.
+--ifconfig-pool-persist file [seconds] : Persist/unpersist ifconfig-pool
+                  data to file, at seconds intervals (default=600).
+                  If seconds=0, file will be treated as read-only.
+--ifconfig-push local remote-netmask : Push an ifconfig option to remote,
+                  overrides --ifconfig-pool dynamic allocation.
+                  Only valid in a client-specific config file.
+--iroute network [netmask] : Route subnet to client.
+                  Sets up internal routes only.
+                  Only valid in a client-specific config file.
+--disable       : Client is disabled.
+                  Only valid in a client-specific config file.
+--client-cert-not-required : Don't require client certificate, client
+                  will authenticate using username/password.
+--username-as-common-name  : For auth-user-pass authentication, use
+                  the authenticated username as the common name,
+                  rather than the common name from the client cert.
+--auth-user-pass-verify cmd method: Query client for username/password and
+                  run script cmd to verify.  If method='via-env', pass
+                  user/pass via environment, if method='via-file', pass
+                  user/pass via temporary file.
+--opt-verify    : Clients that connect with options that are incompatible
+                  with those of the server will be disconnected.
+--auth-user-pass-optional : Allow connections by clients that don't
+                  specify a username/password.
+--no-name-remapping : Allow Common Name and X509 Subject to include
+                      any printable character.
+--client-to-client : Internally route client-to-client traffic.
+--duplicate-cn  : Allow multiple clients with the same common name to
+                  concurrently connect.
+--client-connect cmd : Run script cmd on client connection.
+--client-disconnect cmd : Run script cmd on client disconnection.
+--client-config-dir dir : Directory for custom client config files.
+--ccd-exclusive : Refuse connection unless custom client config is found.
+--tmp-dir dir   : Temporary directory, used for --client-connect return file and plugin communication.
+--hash-size r v : Set the size of the real address hash table to r and the
+                  virtual address table to v.
+--bcast-buffers n : Allocate n broadcast buffers.
+--tcp-queue-limit n : Maximum number of queued TCP output packets.
+--tcp-nodelay   : Macro that sets TCP_NODELAY socket flag on the server
+                  as well as pushes it to connecting clients.
+--learn-address cmd : Run script cmd to validate client virtual addresses.
+--connect-freq n s : Allow a maximum of n new connections per s seconds.
+--max-clients n : Allow a maximum of n simultaneously connected clients.
+--max-routes-per-client n : Allow a maximum of n internal routes per client.
+--port-share host port : When run in TCP mode, proxy incoming HTTPS sessions
+                  to a web server at host:port.
+Client options (when connecting to a multi-client server):
+--client         : Helper option to easily configure client mode.
+--auth-user-pass [up] : Authenticate with server using username/password.
+                  up is a file containing username/password on 2 lines,
+                  or omit to prompt from console.
+--pull           : Accept certain config file options from the peer as if they
+                  were part of the local config file.  Must be specified
+                  when connecting to a '--mode server' remote host.
+--auth-retry t  : How to handle auth failures.  Set t to
+                  none (default), interact, or nointeract.
+--server-poll-timeout n : when polling possible remote servers to connect to
+                  in a round-robin fashion, spend no more than n seconds
+                  waiting for a response before trying the next server.
+--explicit-exit-notify [n] : On exit/restart, send exit signal to
+                  server/remote. n = # of retries, default=1.
+Data Channel Encryption Options (must be compatible between peers):
+(These options are meaningful for both Static Key & TLS-mode)
+--secret f [d]  : Enable Static Key encryption mode (non-TLS).
+                  Use shared secret file f, generate with --genkey.
+                  The optional d parameter controls key directionality.
+                  If d is specified, use separate keys for each
+                  direction, set d=0 on one side of the connection,
+                  and d=1 on the other side.
+--auth alg      : Authenticate packets with HMAC using message
+                  digest algorithm alg (default=%s).
+                  (usually adds 16 or 20 bytes per packet)
+                  Set alg=none to disable authentication.
+--cipher alg    : Encrypt packets with cipher algorithm alg
+                  (default=%s).
+                  Set alg=none to disable encryption.
+--prng alg [nsl] : For PRNG, use digest algorithm alg, and
+                   nonce_secret_len=nsl.  Set alg=none to disable PRNG.
+--keysize n     : Size of cipher key in bits (optional).
+                  If unspecified, defaults to cipher-specific default.
+--engine [name] : Enable OpenSSL hardware crypto engine functionality.
+--no-replay     : Disable replay protection.
+--mute-replay-warnings : Silence the output of replay warnings to log file.
+--replay-window n [t]  : Use a replay protection sliding window of size n
+                         and a time window of t seconds.
+                         Default n=%d t=%d
+--no-iv         : Disable cipher IV -- only allowed with CBC mode ciphers.
+--replay-persist file : Persist replay-protection state across sessions
+                  using file.
+--test-crypto   : Run a self-test of crypto features enabled.
+                  For debugging only.
+TLS Key Negotiation Options:
+(These options are meaningful only for TLS-mode)
+--tls-server    : Enable TLS and assume server role during TLS handshake.
+--tls-client    : Enable TLS and assume client role during TLS handshake.
+--key-method m  : Data channel key exchange method.  m should be a method
+                  number, such as 1 (default), 2, etc.
+--ca file       : Certificate authority file in .pem format containing
+                  root certificate.
+--capath dir    : A directory of trusted certificates (CAs and CRLs).
+--dh file       : File containing Diffie Hellman parameters
+                  in .pem format (for --tls-server only).
+                  Use "openssl dhparam -out dh1024.pem 1024" to generate.
+--cert file     : Local certificate in .pem format -- must be signed
+                  by a Certificate Authority in --ca file.
+--key file      : Local private key in .pem format.
+--pkcs12 file   : PKCS#12 file containing local private key, local certificate
+                  and optionally the root CA certificate.
+--tls-cipher l  : A list l of allowable TLS ciphers separated by : (optional).
+                : Use --show-tls to see a list of supported TLS ciphers.
+--tls-timeout n : Packet retransmit timeout on TLS control channel
+                  if no ACK from remote within n seconds (default=%d).
+--reneg-bytes n : Renegotiate data chan. key after n bytes sent and recvd.
+--reneg-pkts n  : Renegotiate data chan. key after n packets sent and recvd.
+--reneg-sec n   : Renegotiate data chan. key after n seconds (default=%d).
+--hand-window n : Data channel key exchange must finalize within n seconds
+                  of handshake initiation by any peer (default=%d).
+--tran-window n : Transition window -- old key can live this many seconds
+                  after new key renegotiation begins (default=%d).
+--single-session: Allow only one session (reset state on restart).
+--tls-exit      : Exit on TLS negotiation failure.
+--tls-auth f [d]: Add an additional layer of authentication on top of the TLS
+                  control channel to protect against DoS attacks.
+                  f (required) is a shared-secret passphrase file.
+                  The optional d parameter controls key directionality,
+                  see --secret option for more info.
+--askpass [file]: Get PEM password from controlling tty before we daemonize.
+--auth-nocache  : Don't cache --askpass or --auth-user-pass passwords.
+--crl-verify crl: Check peer certificate against a CRL.
+--tls-verify cmd: Execute shell command cmd to verify the X509 name of a
+                  pending TLS connection that has otherwise passed all other
+                  tests of certification.  cmd should return 0 to allow
+                  TLS handshake to proceed, or 1 to fail.  (cmd is
+                  executed as 'cmd certificate_depth X509_NAME_oneline')
+--tls-export-cert [directory] : Get peer cert in PEM format and store it 
+                  in an openvpn temporary file in [directory]. Peer cert is 
+                  stored before tls-verify script execution and deleted after.
+--tls-remote x509name: Accept connections only from a host with X509 name
+                  x509name. The remote host must also pass all other tests
+                  of verification.
+--ns-cert-type t: Require that peer certificate was signed with an explicit
+                  nsCertType designation t = 'client' | 'server'.
+--remote-cert-ku v ... : Require that the peer certificate was signed with
+                  explicit key usage, you can specify more than one value.
+                  value should be given in hex format.
+--remote-cert-eku oid : Require that the peer certificate was signed with
+                  explicit extended key usage. Extended key usage can be encoded
+                  as an object identifier or OpenSSL string representation.
+--remote-cert-tls t: Require that peer certificate was signed with explicit
+                  key usage and extended key usage based on RFC3280 TLS rules.
+                  t = 'client' | 'server'.
+PKCS#11 Options:
+--pkcs11-providers provider ... : PKCS#11 provider to load.
+--pkcs11-protected-authentication [0|1] ... : Use PKCS#11 protected authentication
+                              path. Set for each provider.
+--pkcs11-private-mode hex ...   : PKCS#11 private key mode mask.
+                              0       : Try  to determind automatically (default).
+                              1       : Use Sign.
+                              2       : Use SignRecover.
+                              4       : Use Decrypt.
+                              8       : Use Unwrap.
+--pkcs11-cert-private [0|1] ... : Set if login should be performed before
+                                  certificate can be accessed. Set for each provider.
+--pkcs11-pin-cache seconds      : Number of seconds to cache PIN. The default is -1
+                                  cache until token is removed.
+--pkcs11-id-management          : Acquire identity from management interface.
+--pkcs11-id serialized-id 'id'  : Identity to use, get using standalone --show-pkcs11-ids
+SSL Library information:
+--show-ciphers  : Show cipher algorithms to use with --cipher option.
+--show-digests  : Show message digest algorithms to use with --auth option.
+--show-engines  : Show hardware crypto accelerator engines (if available).
+--show-tls      : Show all TLS ciphers (TLS used only as a control channel).
+Generate a random key (only for non-TLS static key encryption mode):
+--genkey        : Generate a random key to be used as a shared secret,
+                  for use with the --secret option.
+--secret file   : Write key to file.
+Tun/tap config mode (available with linux 2.4+):
+--mktun         : Create a persistent tunnel.
+--rmtun         : Remove a persistent tunnel.
+--dev tunX|tapX : tun/tap device
+--dev-type dt   : Device type.  See tunnel options above for details.
+--user user     : User to set privilege to.
+--group group   : Group to set privilege to.
+PKCS#11 standalone options:
+--show-pkcs11-ids provider [cert_private] : Show PKCS#11 available ids.
+                                            --verb option can be added *BEFORE* this.
+[%d/%d]
+ us=%d
+otime.c
+PID packet_id_init seq_backtrack=%d time_backtrack=%d
+Assertion Failed: Array index=%d out of bounds for array size=%d in %s:%d
+Replay-window backtrack occurred [%d]
+Close error on --replay-persist file %s
+Cannot write to --replay-persist file %s
+Cannot seek to beginning of --replay-persist file %s
+Cannot open --replay-persist file %s for read/write
+Cannot obtain exclusive lock on --replay-persist file %s
+Read error on --replay-persist file %s
+packet_id.c
+PID packet_id_free
+PID TEST %lu:%u %lu:%u
+[ #%u
+ / time = (%u) %s
+PID Persist Write to %s: %s
+PID Persist Read from %s: %s
+ACCEPT
+DROP
+DEST
+PF: %s/%s/%s %s %s
+pf.c
+[clients accept]
+[clients drop]
+[subnets accept]
+[subnets drop]
+[kill]
+PF: %s/%d unknown tag: '%s'
+PF: %s: missing [end]
+PF: %s: cannot open
+PF: %s/%s %s %s %s
+PF_CN_MATCH
+PF_CN_DEFAULT
+PF_CN_FAULT
+PF_ADDR_MATCH
+PF_ADDR_DEFAULT
+PF_ADDR_FAULT
+[SERVER-PF]
+enabled=%d
+filename='%s'
+file_last_mod=%u
+n_check_reload=%u
+reload=[%d,%u,%u]
+ ----- struct pf_set -----
+ kill=%d
+  default_allow=%s
+   %s/%s %s
+   %s %s
+  ----------
+   %s LOOKUP FAILED
+--------------------
+pf_file
+pf_init_context#1
+pf_init_context#2
+pf-kill
+pf_check_reload
+PF: %s/%s/%s %s %s rule=[%s %s]
+PF: %s/%d: no data after +/-: '%s'
+PF: %s/%d: bad '/n' subnet specifier: '%s'
+PF: %s/%d: bad '/n' subnet specifier: must be between 0 and 32: '%s'
+PF: %s/%d: bad network address: '%s'
+WARNING: PF: %s/%d: incorrect subnet %s/%d changed to %s/%d
+PF: %s/%d line must begin with '+', '-', or '[' : '%s'
+PF: %s: duplicate common name in [clients] section: '%s'
+PF: %s rejected due to %d error(s)
+PF: %s/%s %s %s %s rule=[%s/%s %s]
+----- %s : struct pf_context -----
+  ----- struct pf_subnet_set -----
+  ----- struct pf_cn_set -----
+WARNING: OPENVPN_PLUGIN_ENABLE_PF disabled
+%sInactivity timeout (--ping-exit), exiting
+%sInactivity timeout (--ping-restart), restarting
+ping.c
+SENT PING
+HPLUGIN_UP
+PLUGIN_DOWN
+PLUGIN_ROUTE_UP
+PLUGIN_IPCHANGE
+PLUGIN_TLS_VERIFY
+PLUGIN_AUTH_USER_PASS_VERIFY
+PLUGIN_CLIENT_CONNECT
+PLUGIN_CLIENT_DISCONNECT
+PLUGIN_LEARN_ADDRESS
+PLUGIN_TLS_FINAL
+OPENVPN_PLUGIN_ENABLE_PF
+PLUGIN_???
+%s[%d] = '%s'
+  plugin[%d] %s '%s'
+plugin.c
+openvpn_plugin_open_v1
+openvpn_plugin_open_v2
+openvpn_plugin_func_v1
+openvpn_plugin_func_v2
+openvpn_plugin_close_v1
+openvpn_plugin_abort_v1
+[RETLIST]
+PLUGIN_INIT: PRE
+ENVP
+PLUGIN_CALL: PRE type=%s
+PLUGIN_CLOSE: %s
+PLUGIN_RETURN_PRINT %s
+PLUGIN #%d (%s)
+[%d] '%s' -> '%s'
+PLUGIN: could not find required symbol '%s' in plugin shared object %s: %s
+PLUGIN_INIT: could not load plugin shared object %s: %s
+openvpn_plugin_client_constructor_v1
+openvpn_plugin_client_destructor_v1
+openvpn_plugin_min_version_required_v1
+openvpn_plugin_select_initialization_point_v1
+PLUGIN: symbol openvpn_plugin_open_vX is undefined in plugin: %s
+PLUGIN: symbol openvpn_plugin_func_vX is undefined in plugin: %s
+PLUGIN_INIT: plugin needs interface version %d, but this version of OpenVPN only supports version %d: %s
+WARNING: plugin '%s' specified by a relative pathname -- using an absolute pathname would be more secure
+PLUGIN_INIT: POST %s '%s' intercepted=%s %s
+PLUGIN_INIT: plugin %s expressed interest in unsupported plugin types: [want=0x%08x, have=0x%08x]
+PLUGIN_INIT: plugin initialization function failed: %s
+PLUGIN_CALL: POST %s/%s status=%d
+PLUGIN_CALL: plugin function %s failed with status %d: %s
+PLUGIN_CLOSE: dlclose() failed on plugin: %s
+pool.c
+IFCONFIG POOL LIST
+--ifconfig-pool start IP [%s] is greater than end IP [%s]
+--ifconfig-pool address range is too large [%s -> %s].  Current maximum is %d addresses, as defined by IFCONFIG_POOL_MAX variable.
+IFCONFIG POOL: base=%s size=%d
+HTTP Proxy
+proxy.c
+ntlm
+ntlm2
+CONNECT %s:%d HTTP/%s
+Send to HTTP proxy: '%s'
+Host: %s
+User-Agent: %s
+Proxy-Authorization: Basic %s
+Proxy-Connection: Keep-Alive
+Proxy-Authorization: NTLM %s
+HTTP proxy returned: '%s'
+%*s %d
+Proxy requires authentication
+%%*s NTLM %%%ds
+auth string: '%s'
+realm
+nonce
+algorithm
+opaque
+, opaque="%s"
+00000001
+%s %s HTTP/%s
+Proxy-Authenticate: 
+Basic 
+PROXY AUTH BASIC: '%s'
+Digest 
+PROXY AUTH DIGEST: '%s'
+NTLM
+PROXY AUTH HTLM: '%s'
+HTTP proxy authenticate '%s'
+recv_line: TCP port read timeout expired
+recv_line: TCP port read failed on select()
+recv_line: TCP port read failed on recv()
+recv_line: Non-ASCII character (%d) read on recv()
+send_line: TCP port write failed on send()
+HTTP_PROXY: server not specified
+ERROR: unknown HTTP authentication method: '%s'
+Attempting Basic Proxy-Authorization
+Attempting NTLM Proxy-Authorization phase 1
+Received NTLM Proxy-Authorization phase 2 response
+Attempting NTLM Proxy-Authorization phase 3
+NTLM Proxy-Authorization phase 3 failed: received corrupted data from proxy server
+Proxy-Authorization: Digest username="%s", realm="%s", nonce="%s", uri="%s", qop=%s, nc=%s, cnonce="%s", response="%s"%s
+HTTP proxy: support for basic auth and other cleartext proxy auth methods is disabled
+HTTP proxy: do not recognize the authentication method required by proxy
+HTTP proxy: no support for proxy authentication method
+HTTP proxy returned bad status
+PROXY: automatic detection not supported on this OS
+PORT SHARE PROXY: unexpected status=%d
+PORT SHARE PROXY: delete sd=%d
+PORT SHARE PROXY: partial write[%d], tried=%d got=%d
+PORT SHARE: sendmsg sd=%d len=%d
+PORT SHARE: sendmsg failed (unable to communicate with background process)
+PORT SHARE PROXY: proxy starting
+PORT SHARE PROXY: RECEIVED sd=%d
+PORT SHARE PROXY: connect to port-share server failed
+PORT SHARE PROXY: connect to port-share server succeeded
+PORT SHARE PROXY: NEW CONNECTION [c=%d s=%d]
+PORT SHARE PROXY: RECEIVED COMMAND_EXIT
+PORT SHARE PROXY: event_wait failed
+PORT SHARE PROXY: proxy exiting
+PORT SHARE: waiting for background process to exit
+PORT SHARE: background process exited
+PORT SHARE: socketpair call failed
+PUSH OPTION FAILED (illegal comma (',') in string): '%s'
+AUTH: Received AUTH_FAILED control message
+Connection reset command was pushed by server
+server-pushed-connection-reset
+PUSH: Received control message: '%s'
+WARNING: Received bad push/pull message: %s
+push.c
+auth-failure
+AUTH_FAILED,
+Auth
+AUTH_FAILED,CRV1:
+PUSH_REQUEST
+,push-continuation 2
+--push option is too long
+,ifconfig %s %s
+,push-continuation 1
+PUSH_REPLY
+255.255.255.255
+[PUSH_ROUTE_REMOVE]
+REMOVE PUSH ROUTE: '%s'
+AUTH_FAILED
+[%u]
+ACK read ID %u (buf->len=%d)
+reliable.c
+ sid=%s
+ACK %u is a replay: %s
+ACK reliable_schedule_now
+ACK read ID FAILED (buf->len=%d)
+ACK acknowledge ID %u (ack->len=%d)
+ACK acknowledge ID %u FAILED (ack->len=%d)
+ACK read BAD SESSION-ID FROM REMOTE, local=%s, remote=%s
+ACK write ID %u (ack->len=%d, n=%d)
+ACK received for pid %u, deleting from send buffer
+ACK no free receive buffer available: %s
+ACK %u breaks sequentiality: %s
+ACK RWBS rel->size=%d rel->packet_id=%08x id=%08x ret=%d
+ACK output sequence broken: %s
+ACK reliable_can_send active=%d current=%d : %s
+ACK reliable_send ID %u (size=%d to=%d)
+ACK reliable_send_timeout %d %s
+ACK mark active incoming ID %u
+ACK mark active outgoing ID %u
+default
+vpn_gateway
+net_gateway
+remote_host
+%s route del %s/%d
+route_%s_%d
+route_%s
+  route %s/%s/%s/%s
+ metric %d
+network
+route_metric_%d
+%s route add %s/%d via %s
+/proc/net/route
+%*s	%x	%x	%*s	%*s	%*s	%d	%x
+GDG: route[%d] %s/%s/%s m=%u
+GDG: best=%s[%d] lm=%u
+ROUTE default_gateway=%s
+ROUTE: default_gateway=UNDEF
+GDGMA: socket() failed
+GDGMA: %s
+OpenVPN ROUTE: vpn_gateway undefined
+OpenVPN ROUTE: net_gateway undefined -- unable to get default gateway from system
+OpenVPN ROUTE: remote_host undefined
+ERROR: Linux route delete command failed
+OpenVPN ROUTE: (copy) number of route options in src (%d) is greater than route list capacity in dest (%d)
+OpenVPN ROUTE: cannot add more than %d routes -- please increase the max-routes option in the client configuration file
+  [redirect_default_gateway local=%d]
+ROUTE network %s netmask %s gateway %s
+OpenVPN ROUTE: omitted no-op route: %s/%s -> %s
+ERROR: Linux route add command failed
+%s VPN gateway parameter (--route-gateway or --ifconfig) is missing
+%s Cannot read current default gateway from system
+%s Cannot obtain current remote host address
+ROUTE: bypass_host_route[%d]=%s
+OpenVPN ROUTE: failed to parse/resolve default gateway: %s
+OpenVPN ROUTE: OpenVPN needs a gateway parameter for a --route option and no default was specified by either --route-gateway or --ifconfig options
+OpenVPN ROUTE: route metric for network %s (%s) must be >= 0
+OpenVPN ROUTE: failed to parse/resolve route for host/network: %s
+OpenVPN ROUTE: routes dropped because number of expanded routes is greater than route list capacity (%d)
+GDGMA: get_default_gateway failed
+GDGMA: ioctl(SIOCGIFCONF) failed
+GDGMA: SIOCGIFFLAGS(%s) failed
+GDGMA: interface %s is down or loopback
+GDGMA: SIOCGIFNETMASK(%s) failed
+GDGMA: gwip=0x%08x ina=0x%08x mask=0x%08x
+GDGMA: couldn't find gw interface
+GDGMA: SIOCGIFHWADDR(%s) failed
+SCHEDULE: %s wakeup=[%s] pri=%u
+SCHEDULE: %s NULL
+schedule.c
+schedule_add_modify
+schedule_find_least
+Output Traffic Shaping initialized at %d bytes per second
+hard
+soft
+process
+Unknown signal received
+OpenVPN STATISTICS
+TUN/TAP read bytes,%llu
+TUN/TAP write bytes,%llu
+TCP/UDP read bytes,%llu
+TCP/UDP write bytes,%llu
+Auth read bytes,%llu
+sig.c
+exit-with-notification
+SIGINT
+sigint
+sigterm
+sighup
+SIGUSR1
+sigusr1
+SIGUSR2
+sigusr2
+%s[%s,%s] received, %s exiting
+%s[%s,%s] received, %s restarting
+Unknown signal %d [%s,%s] received by %s
+SIGTERM received, sending exit notification to peer
+NOTE: setsockopt SO_SNDBUF=%d failed
+NOTE: setsockopt SO_RCVBUF=%d failed
+Socket Buffers: R=[%d->%d] S=[%d->%d]
+NOTE: setsockopt TCP_NODELAY=%d failed
+Socket flags: TCP_NODELAY=%d succeeded
+RESOLVE: Cannot resolve host address: %s: %s
+RESOLVE: Cannot resolve host address: %s: %s (I would have retried this name query if you had specified the --resolv-retry option.)
+[HOST_NOT_FOUND] The specified host is unknown.
+[NO_DATA] The requested name is valid but does not have an IP address.
+[NO_RECOVERY] A non-recoverable name server error occurred.
+[TRY_AGAIN] A temporary error occurred on an authoritative name server.
+RESOLVE: Cannot parse IP address: %s
+RESOLVE: Ignored SIGUSR1 signal received during DNS resolution attempt
+RESOLVE: Sorry, but we only accept IPv4 DNS names: %s
+RESOLVE: NOTE: %s resolves to %d addresses
+RESOLVE: signal received during DNS resolution attempt
+TCP: Cannot setsockopt SO_REUSEADDR on TCP socket
+TCP: Received strange incoming connection with unknown address length=%d
+TCP/UDP: No outgoing address to send packet
+Non-OpenVPN client protocol detected
+WARNING: Bad encapsulated packet length from peer (%d), which must be > 0 and <= %d -- please ensure that --tun-mtu or --link-mtu is equal on both peers -- this condition could also indicate a possible active attack on the TCP link -- [Attempting restart...]
+STREAM: ADD returned TRUE, buf_len=%d, residual_len=%d
+STREAM: ADD returned FALSE (have=%d need=%d)
+STREAM: SET NEXT, buf=[%d,%d] next=[%d,%d] len=%d maxlen=%d
+STREAM: RESIDUAL FULLY FORMED [%s], len=%d
+TCP/UDP: Close Socket (ctrl_sd) failed
+Listening for incoming TCP connection on %s
+%s: Socket bind failed on local address %s: %s
+Attempting to establish TCP connection with %s [nonblock]
+TCP: connect to %s failed, will try again in %d seconds: %s
+TCP connection established with %s
+TCP/UDP: Incoming packet rejected from %s[%d], expected peer address: %s (allow this incoming source address/port by removing --remote or adding --float)
+TCP NOTE: Rejected connection attempt from %s due to --remote setting
+TCP: close socket failed (new_sd)
+RESOLVE_REMOTE flags=0x%04x phase=%d rrs=%d sig=%d status=%d
+TCP/UDP: Preserving recently used remote address: %s
+TCP/UDP: Dynamic remote address changed during TCP connection establishment
+Peer Connection Initiated with %s
+WARNING: ipchange plugin call failed
+ERROR: received strange incoming packet with an address length of %d -- we only accept address lengths of %d.
+Cannot create unix domain socket
+%s: Socket bind[%d] failed on unix domain socket %s: %s
+[unknown h_errno value]
+socket.c
+Cannot create TCP socket
+TCP: getpeername() failed
+TCP: accept(%d) failed
+STREAM: RESET
+STREAM: INIT maxlen=%d
+STREAM: ADD length_added=%d
+TCP/UDP: Closing socket
+TCP/UDP: Close Socket failed
+[undef]
+TCP: listen() failed
+TCP Client
+ (via %s)
+TCP: select() failed
+TCP: close socket failed (sd)
+UDP: Cannot create UDP socket
+SOCKS
+[unknown protocol]
+ (bound)
+%s link local: [inetd]
+%s link local%s: %s
+%s link remote: %s
+%s_ip
+%s_port
+--ipchange
+STREAM: GET NEXT len=%d
+STREAM: GET FINAL len=%d
+STREAM: WRITE %d offset=%d
+UDPv4
+tcp-server
+TCPv4_SERVER
+tcp-client
+TCPv4_CLIENT
+TCPv4
+recv_socks_reply: TCP port read timeout expired
+recv_socks_reply: TCP port read failed on select()
+recv_socks_reply: TCP port read failed on recv()
+recv_socks_reply: Socks proxy returned bad address type
+recv_socks_reply: Socks proxy returned bad reply
+SOCKS username and/or password exceeds 255 characters.  Authentication not possible.
+socks_username_password_auth: TCP port write failed on send()
+socks_username_password_auth: TCP port read timeout expired
+socks_username_password_auth: TCP port read failed on select()
+socks_username_password_auth: TCP port read failed on recv()
+socks_username_password_auth: server refused the authentication
+socks_handshake: TCP port read timeout expired
+socks_handshake: TCP port read failed on select()
+socks_handshake: TCP port read failed on recv()
+socks_handshake: Socks proxy returned bad status
+socks_handshake: server asked for username/login auth but we were not provided any credentials
+socks_handshake: unknown SOCKS auth method
+socks_handshake: TCP port write failed on send()
+establish_socks_proxy_passthru: TCP port write failed on send()
+SOCKS Proxy
+%c%s%c%s
+socks.c
+S_UNDEF
+S_INITIAL
+S_PRE_START
+S_ERROR
+S_???
+P_CONTROL_SOFT_RESET_V1
+P_CONTROL_V1
+P_ACK_V1
+P_DATA_V1
+P_???
+ssl.c
+untrusted
+TLS ERROR: BIO write %s error
+BIO write %s %d bytes
+Error creating %s BIO
+TLS_ERROR: BIO read %s error
+BIO read %s %d bytes
+undefined
+accept
+SSL state (%s): %s
+SSL alert (%s): %s: %s
+Control Channel:
+%s %s, cipher %s %s
+, %d bit RSA
+, %d bit DSA
+%s pre_master: %s
+%s random1: %s
+%s random2: %s
+tls1_P_hash sec: %s
+tls1_P_hash seed: %s
+tls1_P_hash out: %s
+SSL_new failed
+ssl_bio
+ct_in
+ct_out
+TLS: tls_session_init: entry
+TM_ACTIVE
+TM_UNTRUSTED
+TM_LAME_DUCK
+TM_???
+TLS: move_session: exit
+--auth-user-pass-verify
+tls1_PRF out[%d]: %s
+Server
+OpenVPN master secret
+OpenVPN key expansion
+Master Decrypt
+Master Encrypt
+Data Channel Encrypt
+Data Channel Decrypt
+struct session *
+Private Key
+X509_%d_%s
+tls_id_%d
+tls_digest_%d
+tls_serial_%d
+VERIFY OK: nsCertType=%s
+VERIFY KU OK
+VERIFY KU ERROR
+VERIFY EKU OK
+VERIFY EKU ERROR
+VERIFY X509NAME OK: %s
+peer_cert
+%sc %d %s
+TLS: executing verify command
+--tls-verify script
+CRL: BIO err
+CRL: cannot read: %s
+CRL CHECK OK: %s
+VERIFY OK: depth=%d, %s
+SSL_CTX_set_tmp_dh
+Error opening file %s
+Error reading PKCS#12 file %s
+OpenSSL ERROR code: %d
+Cannot use certificate
+Cannot use private key
+Problem with cipher list: %s
+Cannot create SSL_CTX object
+Cannot create SSL object
+Available TLS Ciphers,
+[CN SET]
+deferred
+semi-
+STATE S_NORMAL_OP
+STATE S_START
+STATE S_ACTIVE
+tls_write_plaintext_const
+Reliable -> TCP/UDP
+tls_write_ciphertext
+Incoming Ciphertext -> TLS
+tls_read_plaintext
+TLS -> Incoming Plaintext
+TLS Error: write_key failed
+IV_VER=%s
+IV_PLAT=linux
+IV_HWADDR=%s
+STATE S_SENT_KEY
+auth_control_file
+STATE S_GOT_KEY
+tls_write_plaintext
+Outgoing Plaintext -> TLS
+tls_read_ciphertext
+Dedicated ACK -> TCP/UDP
+DATA UNDEF len=%d
+ tls_hmac=%s
+ pid=%s
+ DATA %s
+ DATA len=%d
+%s kid=%d
+ pid=%u
+P_CONTROL_HARD_RESET_CLIENT_V1
+P_CONTROL_HARD_RESET_SERVER_V1
+P_CONTROL_HARD_RESET_CLIENT_V2
+P_CONTROL_HARD_RESET_SERVER_V2
+ [key#%d state=%s id=%d sid=%s]
+Generating temp (%d bit) RSA key
+TLS ERROR: BIO write %s incomplete %d/%d
+TLS: tls_session_init: new session object, sid=%s
+TLS: move_session: dest=%s src=%s reinit_src=%d
+TLS Auth Error: could not write username/password to file: %s
+TLS Auth Error: could not create write username/password to temp file
+TLS Auth Error: peer provided a blank username
+ERROR: Random number generator cannot obtain entropy for key generation [SSL]
+TLS Error: Bad dynamic key generated
+TLS Error: cannot locate HMAC in incoming packet from %s
+TLS Error: incoming packet authentication failed from %s
+Certificate does not have extended key usage extension
+Validating certificate extended key usage
+++ Certificate has EKU (str) %s, expects %s
+++ Certificate has EKU (oid) %s, expects %s
+Certificate does not have key usage extension
+Validating certificate key usage
+++ Certificate has key usage  %04x, expects %04x
+Unable to get peer certificate from current context
+Failed to open temporary file : %s
+Failed to write peer certificate in PEM format
+VERIFY ERROR: depth=%d, could not extract X509 subject string from certificate
+VERIFY ERROR: could not extract %s from X509 subject string ('%s') -- note that the username length is limited to %d characters
+VERIFY ERROR: depth=%d, error=%s: %s
+TLS Error: Convoluted certificate chain detected with depth [%d] greater than %d
+CALLBACK: Cannot create BIO (for tls_serial_%d)
+CALLBACK: Error reading/writing BIO (for tls_serial_%d)
+VERIFY nsCertType ERROR: %s, require nsCertType=%s
+VERIFY X509NAME ERROR: %s, must be %s
+VERIFY PLUGIN OK: depth=%d, %s
+VERIFY PLUGIN ERROR: depth=%d, %s
+VERIFY SCRIPT OK: depth=%d, %s
+VERIFY SCRIPT ERROR: depth=%d, %s
+CRL: cannot read CRL from file %s
+CRL: CRL %s is from a different issuer than the issuer of certificate %s
+CRL CHECK FAILED: %s is REVOKED
+SSL_CTX_new TLSv1_server_method
+Cannot open memory BIO for inline DH parameters
+Cannot open %s for DH parameters
+Cannot load DH parameters from %s
+Diffie-Hellman initialized with %d bit key
+SSL_CTX_new TLSv1_client_method
+Error reading inline PKCS#12 file
+Private key does not match the certificate
+Cannot add certificate to certificate chain (X509_STORE_add_cert)
+Cannot add certificate to client CA list (SSL_CTX_add_client_CA)
+Cannot load certificate "%s" using PKCS#11 interface
+Cannot load inline certificate file
+Cannot load certificate file %s
+Cannot load private key file %s
+Cannot load CA certificate file %s path %s (SSL_CTX_load_verify_locations)
+WARNING: experimental option --capath %s
+Cannot get certificate store (SSL_CTX_get_cert_store)
+Cannot load CA certificate file %s (SSL_load_client_CA_file)
+Cannot load certificate chain file %s (SSL_use_certificate_chain_file)
+WARNING: POTENTIALLY DANGEROUS OPTION --client-cert-not-required may accept clients which do not present a certificate
+listed in order of preference:
+TLS: tls_multi_process: i=%d state=%s, mysid=%s, stored-sid=%s, stored-ip=%s
+TLS: soft reset sec=%d bytes=%llu/%d pkts=%llu/%d
+TLS: tls_process: killed expiring key
+TLS: tls_process: chg=%d ks=%s lame=%s to_link->len=%d wakeup=%d
+TLS: Initial Handshake, sid=%s
+TLS Error: TLS key negotiation failed to occur within %d seconds (check your network connectivity)
+TLS Error: Incoming Ciphertext -> TLS object write error
+TLS Error: TLS object -> incoming plaintext read error
+TLS Error: Bad encrypting key generated
+TLS Error: KM1 write options failed
+TLS Error: server generate_key_expansion failed
+TLS Error: Key Method #2 write failed
+TLS Error: Certificate verification failed (key-method 1)
+TLS Error: Error reading data channel key from plaintext buffer
+TLS Error: Bad decrypting key received from peer
+TLS Error: Missing options string
+TLS ERROR: Unknown key_method/flags=%d received from remote host
+TLS Error: Error reading remote data channel key source entropy from plaintext buffer
+TLS Error: Failed to read required OCC options string
+TLS Error: Auth Username/Password was not provided by peer
+TLS Auth Error (verify_user_pass_management): peer provided a blank username
+TLS Auth Error (verify_user_pass_plugin): peer provided a blank username
+TLS Auth Error: --username-as-common name specified and username is longer than the maximum permitted Common Name length of %d characters
+TLS Auth Error: username attempted to change from '%s' to '%s' -- tunnel disabled
+TLS: Username/Password authentication %s for username '%s' %s
+TLS Auth Error: Auth Username/Password verification failed for peer
+TLS Error: Certificate verification failed (key-method 2)
+TLS Auth Error: TLS object CN attempted to change from '%s' to '%s' -- tunnel disabled
+TLS Auth Error: TLS object CN=%s client-provided SSL certs unexpectedly changed during mid-session reauth
+TLS Auth Error: --client-config-dir authentication failed for common name '%s' file='%s'
+Option inconsistency warnings triggering disconnect due to --opt-verify
+TLS Error: client generate_key_expansion failed
+TLS ERROR: Outgoing Plaintext -> TLS object write error
+TLS Error: Ciphertext -> reliable TCP/UDP transport read error
+Outgoing Ciphertext -> Reliable
+TLS: tls_process: timeout set to %d
+TLS Error: TLS handshake failed
+TLS: tls_multi_process: killed expiring key
+TLS: tls_multi_process: untrusted session promoted to %strusted
+TLS: tls_pre_decrypt, key_id=%d, IP=%s
+TLS Error: local/remote TLS keys are out of sync: %s [%d]
+TLS Error: unknown opcode received from %s op=%d
+TLS Error: client->client or server->server connection attempted from %s
+TLS: control channel, op=%s, IP=%s
+TLS Error: session-id not found in packet from %s
+TLS: initial packet test, i=%d state=%s, mysid=%s, rec-sid=%s, rec-ip=%s, stored-sid=%s, stored-ip=%s
+TLS ERROR: received control packet with stale session-id=%s
+TLS: found match, session[%d], sid=%s
+TLS ERROR: initial packet local/remote key_method mismatch, local key_method=%d, op=%s
+TLS Error: Cannot accept new session request from %s due to session context expire or --single-session [1]
+TLS: Initial packet from %s, sid=%s
+TLS Error: Cannot accept new session request from %s due to session context expire or --single-session [2]
+TLS ERROR: new session local/remote key_method mismatch, local key_method=%d, op=%s
+TLS: new session incoming connection from %s
+TLS Error: Unroutable control packet received from %s (si=%d op=%s)
+TLS Error: Received control packet from unexpected IP addr: %s
+TLS: received P_CONTROL_SOFT_RESET_V1 s=%d sid=%s
+TLS: received control channel packet s#=%d sid=%s
+TLS Error: Existing session control channel packet from unknown IP address: %s
+TLS ERROR: local/remote key IDs out of sync (%d/%d) ID: %s
+TLS Error: reading acknowledgement record from packet
+TLS State Error: No TLS state for client %s, opcode=%d
+TLS State Error: Unknown key ID (%d) received from %s -- 0 was expected
+TLS State Error: Large packet (size %d) received from %s -- a packet no larger than %d bytes was expected
+TLS: tls_pre_encrypt: key_id=%d
+TLS Warning: no data channel send key available: %s
+READ/WRITE
+status.c
+Note: cannot open %s for %s
+Failed to truncate status file: %s
+WARNING: --%s address [%s] conflicts with --ifconfig address pair [%s, %s]. %s
+WARNING: potential conflict between --%s address [%s] and --ifconfig address pair [%s, %s] -- this is a warning only that is triggered when local/remote addresses exist within the same /24 subnet as --ifconfig endpoints. %s
+WARNING: --%s address [%s] conflicts with --ifconfig subnet [%s, %s] -- local and remote addresses cannot be inside of the --ifconfig subnet. %s
+WARNING: potential %s subnet conflict between local LAN [%s/%s] and remote VPN [%s/%s]
+NOTE: your local LAN uses the extremely common subnet address 192.168.0.x or 192.168.1.x.  Be aware that this might create routing conflicts if you connect to the VPN server from public locations such as internet cafes that use the same subnet.
+Error: problem with tun vs. tap setting
+%s addr add dev %s local %s peer %s
+%s addr add dev %s %s/%d broadcast %s
+WARNING: Since you are using --dev tun with a point-to-point topology, the second argument to --ifconfig must be an IP address.  You are using something (%s) that looks more like a netmask. %s
+WARNING: Since you are using --dev tap, the second argument to --ifconfig must be a netmask, for example something like 255.255.255.0. %s
+Note: Cannot open TUN/TAP dev %s
+I don't recognize device %s as a tun or tap device
+Note: Cannot ioctl TUNSETIFF %s
+TUN/TAP TX queue length set to %d
+Note: Cannot set tx queue length on %s
+Note: Cannot open control socket on %s
+%s addr del dev %s local %s peer %s
+Cannot ioctl TUNSETPERSIST(%d) %s
+Cannot ioctl TUNSETOWNER(%s) %s
+tun.c
+[unknown-dev-type]
+%s link set dev %s up mtu %d
+Linux ip link set failed
+Linux ip addr add failed
+TUN/TAP adapter
+ifconfig_local
+ifconfig_remote
+ifconfig_netmask
+ifconfig_broadcast
+/dev/net/tun
+TUN/TAP device %s opened
+%s addr del dev %s %s/%d
+Linux ip addr del failed
+Cannot get user entry for %s
+Cannot get group entry for %s
+Persist state set to: %s
+(silence this warning with --ifconfig-nowarn)
+;*3$"
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+PUSH_REPLY
+openvpn.debug
+7zXZ
+SGUe
+TH>xm"q
+n&h$
+Q%6:
+<eOX
+\ o	*3n
+,k>r
+_hE&
+_~]U
+$E-%
+i90?
+0xP>
+^+b.
+g2Ir
+{L;|&
+AMm&.m
+=;"{
+EYk3u
+BLF,
+`WI	
+,Be{
+H#AL
+mVjbQ
+9&d:
+.-)tn
+Qpr;
+!WMl
+&pM|
+}Jx>t
+`,Dj
+MtMLM
+f:{'@2t
+r8N|M
+d/WR
+G=,K
+4(..
+Lj#Z@
+:d1tv
+1="L
+d4p:
+RHl{/
+u@J#
+~/|qg
+Qt-R
+Gfc!
+Q|Hb
+f0Bt
+QO|p	r
+Gn1K
+AvzO
+~|\T
+&zQVV
+}ScA
+Ukqem
+1~n*Z
+UpPy
+<Tl\
+XJ>WyC\n
+LuCk
+4"z)
+1"e~
+_Lt!
+4DEL
+S|%.
+3.h{\
+12 	
+ -SXk
+#Aty!
+@Xh7
+5]A90
+_ZfC}
+"5%v
+aVY?
+jQnqY
+!SVx
+_6W.u
+!QW1
+ww V
+L&3!;
+<{d[\
+)uM"/L
+Xq	4
+=5>9
+F(iU	
+M,A7
+tyVb
+EBz?|
+auY 
+p	2GY^
+\K#P+
+zpV6at
+6V0FBk
+nP*TA
+0?k5
+}^Rl
+4GxTJ+
+MY`6b
+a*[j0I
+8:Z^
+;#39
+V	\p}
+u.L<fL
+9[B/
+tE_[Z
+NW~S#
+)"F#8
+Yg0]
+`bd}LI
+m3zi
+roG2X#
+JIfY	
+p"O!<
+`]'LE
+f')8
+E	kZe
+S8 +(
+dwQ%
+{H6,
+W]7d9l
+W8a&
+Px)&
+Wr%g{?
+Aqr/
+xuxP
+@-:1
+hS\16&
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,315 @@
+__gmon_start__
+__cxa_finalize
+_Jv_RegisterClasses
+cherokee_plugin_rrd_init
+cherokee_collector_rrd_new
+malloc
+cherokee_collector_init_base
+cherokee_buffer_init
+cherokee_config_node_read_int
+cherokee_config_node_get
+cherokee_find_exec_in_path
+cherokee_buffer_add_buffer
+cherokee_buffer_add
+pthread_create
+stderr
+__fprintf_chk
+getenv
+cherokee_error_log
+cherokee_trace_do_trace
+pipe
+fork
+dup2
+close
+execv
+__errno_location
+cherokee_error_errno_log
+exit
+fcntl
+cherokee_buffer_move_to_begin
+write
+cherokee_buffer_clean
+waitpid
+kill
+cherokee_buffer_read_from_fd
+cherokee_buffer_prepend
+cherokee_buffer_add_char
+strlen
+__xstat
+cherokee_bogonow_now
+sleep
+cherokee_buffer_add_ullong10
+cherokee_buffer_add_va
+cherokee_collector_vsrv_init_base
+cherokee_config_node_read_bool
+access
+mkdir
+cherokee_buffer_drop_ending
+strrchr
+cherokee_buffer_replace_string
+cherokee_buffer_add_long10
+cherokee_list_add_tail_content
+cherokee_buffer_mrproper
+cherokee_rrd_info
+libcrypto.so.10
+libdl.so.2
+libc.so.6
+libplugin_rrd.so
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z9 
+%r9 
+%j9 
+%b9 
+%Z9 
+%R9 
+%J9 
+%B9 
+%:9 
+%29 
+%*9 
+%"9 
+%z8 
+%r8 
+%j8 
+%b8 
+%Z8 
+%R8 
+%J8 
+%B8 
+%:8 
+ATSubH
+=X6 
+%\4 
+fffff.
+ffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$(H
+t$(L
+t$(L
+\$HH
+l$PH
+|$01
+fffff.
+ATUH
+[]A\
+fff.
+[]A\
+ATUH
+D$XH9
+[]A\
+ffff.
+AUATUSH
+|$0H
+D$0H
+T$0H
+L$0H
+\$0H
+D$XH
+T$PH
+D$@I
+T$0H
+L$0H
+L$0H
+L;|$(H
+H9D$
+L;|$(H
+t$@H
+t$PH
+=@, 
+|$8I
+|$ H
+|$8I
+L$0Hc
+D$ H
+\$HH
+D+L$@H
+H9D$
+=)( 
+l$PL
+l$PL
+t$PL
+T$0Hc
+t$XH
+L$0H
+D$0H
+T$0H
+L$0H
+|$0H
+D$0H
+T$0H
+ffff.
+d$ H
+ffff.
+fffff.
+ATUH
+[]A\A]
+ATUH
+[]A\
+collector_rrd.c
+n != NULL
+render_elapse
+rrdtool_path
+rrdtool
+PATH
+database_dir
+/var/lib/cherokee/graphs
+/server.rrd
+collector,rrd
+Sending to RRDtool: %s
+Refreshing images: %s
+RRDtool empty response
+%s:%d - %s
+ERROR
+%s:%d - RRDtool: %s
+.png
+update 
+/images/server_accepts
+graph 
+COMMENT:"\n" 
+AREA:accepts_min#ffffff: 
+/images/server_timeouts
+--title "Timeouts: %s" 
+AREA:timeouts_min#ffffff: 
+LINE1.5:timeouts#900:Average 
+/images/server_traffic
+--title "Traffic: %s" 
+DEF:rx=%s:RX:AVERAGE 
+DEF:rx_max=%s:RX:MAX 
+DEF:tx=%s:TX:AVERAGE 
+DEF:tx_max=%s:TX:MAX 
+VDEF:tx_total=tx,TOTAL 
+VDEF:rx_total=rx,TOTAL 
+CDEF:rx_r=rx,-1,* 
+AREA:tx#4477BB:Out 
+LINE1:tx#224499 
+AREA:rx_r#C007 
+LINE1:rx_r#990000:In 
+/images/vserver_traffic_
+--title "Traffic, %s: %s" 
+DEF:srv_tx=%s:TX:AVERAGE 
+LINE1:srv_tx#ADE:"Global" 
+draw_srv_traffic
+/images
+%s:%d - Cannot write in '%s'
+Creating RRDtool database: %s
+/vserver_
+create 
+ --step 
+DS:RX:ABSOLUTE:%d:U:U 
+DS:TX:ABSOLUTE:%d:U:U 
+RRA:AVERAGE:0.5:1:600 
+RRA:AVERAGE:0.5:6:700 
+RRA:AVERAGE:0.5:24:775 
+RRA:AVERAGE:0.5:288:797 
+RRA:MAX:0.5:1:600 
+RRA:MAX:0.5:6:700 
+RRA:MAX:0.5:24:775 
+RRA:MAX:0.5:288:797 
+RRA:MIN:0.5:1:600 
+RRA:MIN:0.5:6:700 
+RRA:MIN:0.5:24:775 
+RRA:MIN:0.5:288:797 
+DS:Accepts:ABSOLUTE:%d:U:U 
+DS:Timeouts:ABSOLUTE:%d:U:U 
+1 Hour
+6 Hours
+1 Day
+1 Week
+1 Month
+file %s: line %d (%s): assertion `%s' failed
+%s:%d - Couldn't find rrdtool in PATH=%s
+%s:%d - Couldn't create the RRD working thread: error=%d
+Spawning a new RRDtool instance: %s -
+%s:%d - execv failed cmd='%s': ${errno}
+%s:%d - Fork failed pid=%d: ${errno}
+%s:%d - Couldn't spawn rrdtool (%s)
+Worker thread created.. sleeping %dsecs
+Worker thread: Starting new iteration (now=%d)
+/images/server_accepts_%s.png 
+--imgformat PNG --width 580 --height 340 --start -%s 
+--title "Accepted Connections: %s" 
+--vertical-label "conn/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+DEF:accepts=%s:Accepts:AVERAGE 
+DEF:accepts_min=%s:Accepts:MIN 
+DEF:accepts_max=%s:Accepts:MAX 
+VDEF:accepts_total=accepts,TOTAL 
+CDEF:accepts_minmax=accepts_max,accepts_min,- 
+COMMENT:"  Current          Average          Maximum             Total\n" 
+GPRINT:accepts:LAST:"%8.2lf%s" 
+GPRINT:accepts:AVERAGE:"%8.2lf%s" 
+GPRINT:accepts_max:MAX:"%8.2lf%s" 
+GPRINT:accepts_total:"%8.2lf%s" 
+STACK:accepts_minmax#4477BB:Connections 
+LINE1.5:accepts#224499:Average 
+/images/server_timeouts_%s.png 
+--vertical-label "timeouts/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+DEF:timeouts=%s:Timeouts:AVERAGE 
+DEF:timeouts_min=%s:Timeouts:MIN 
+DEF:timeouts_max=%s:Timeouts:MAX 
+VDEF:timeouts_total=timeouts,TOTAL 
+CDEF:timeouts_minmax=timeouts_max,timeouts_min,- 
+COMMENT:"  Current           Average           Maximum             Total\n" 
+GPRINT:timeouts:LAST:"%8.2lf%s" 
+GPRINT:timeouts:AVERAGE:"%8.2lf%s" 
+GPRINT:timeouts_max:MAX:"%8.2lf%s" 
+GPRINT:timeouts_total:"%8.2lf%s" 
+STACK:timeouts_minmax#C007:Timeouts 
+/images/server_traffic_%s.png 
+--vertical-label "bytes/s" -c BACK#FFFFFF -c SHADEA#FFFFFF -c SHADEB#FFFFFF 
+GPRINT:tx:LAST:"     Current\:%8.2lf%s" 
+GPRINT:tx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:tx_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:tx_total:"   Total\:%8.2lf%s\n" 
+GPRINT:rx:LAST:"      Current\:%8.2lf%s" 
+GPRINT:rx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:rx_max:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:rx_total:"   Total\:%8.2lf%s\n" 
+/images/vserver_traffic_%s_%s.png 
+GPRINT:tx:LAST:"    Current\:%8.2lf%s" 
+GPRINT:rx:LAST:"     Current\:%8.2lf%s" 
+VDEF:srv_tx_total=srv_tx,TOTAL 
+GPRINT:srv_tx:LAST:" Current\:%8.2lf%s" 
+GPRINT:srv_tx:AVERAGE:" Average\:%8.2lf%s" 
+GPRINT:srv_tx:MAX:" Maximum\:%8.2lf%s" 
+GPRINT:srv_tx_total:"   Total\:%8.2lf%s\n" 
+Worker thread: Finished iteration (elapse %d secs, sleeping %d secs)
+%s:%d - Cannot write in %s: ${errno}
+cherokee_collector_rrd_new
+rrd_thread_worker_func
+update_generic
+spawn_rrdtool
+command_rrdtool
+vsrv_new
+check_and_create_db
+libplugin_rrd.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

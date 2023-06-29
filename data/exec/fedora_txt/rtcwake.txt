@@ -1,0 +1,433 @@
+/lib/ld-linux.so.2
+libc.so.6
+_IO_stdin_used
+fflush
+gmtime_r
+__printf_chk
+execv
+_IO_putc
+setlocale
+strncmp
+__strdup
+dcgettext
+nanosleep
+warnx
+putchar
+realloc
+strtoll
+_exit
+strspn
+__assert_fail
+localtime_r
+strtod
+gmtime
+strtol
+fgetc
+fgets
+calloc
+strlen
+localeconv
+warn
+strcspn
+__errno_location
+read
+memcmp
+asctime
+strptime
+__fprintf_chk
+stdout
+fputc
+__strtoll_internal
+fputs
+fclose
+strtoul
+malloc
+__strndup
+tzset
+__ctype_b_loc
+optarg
+stderr
+ioctl
+__snprintf_chk
+getopt_long
+strncasecmp
+__fpending
+localtime
+strchr
+mktime
+program_invocation_short_name
+__cxa_finalize
+__vasprintf_chk
+errx
+fopen64
+bindtextdomain
+sync
+strcmp
+__strtoull_internal
+__libc_start_main
+ferror
+stpcpy
+setenv
+free
+__progname
+__timezone
+__tzname
+__daylight
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+_end
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.2
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.3.4
+|$\e
+9t$Lu
+[^_]
+T$l9
++T$p
+D$T1
+T$t1
++D$p
+T$t1
+T$t1
+UWVS
+[^_]
+[^_]
+UWVS
+8 tH
+[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+|$,e
+|$L1
+|$ <i
+VUUU
+D$ d
+T$$wFr
+D$01
+;\$ t
+;l$$
+\$Le3
+d$\[^_]
+;|$,
+D$41
+9t$$t(
+L$89
+D$,1
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+UWVS
+|$De
+d$,[^_]
+|$4e
+d$ [^_
+d$$[^
+UWVS
+[^_]
+UWVS
+D$|1
+D$W 
+t$|e35
+[^_]
+gfff
+D$<1
+L$@!
+L$D!
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+t$<te
+wT<+t@
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$Te
+L$,1
+-t"1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+9D$Hwd
+[^_]
+D$Xe
+T$,1
+L$,e3
+d$<[^_]
+UWVS
+|$L1
+|$Le3=
+d$\[^_]
+T$H9
+UWVS
+[^_]
+;T$\
+T$49
+UWVS
+[^_]
+[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+L$,1
+L$,e3
+d$<[^_]
+UWVS
+d$,[^_]
+[^_]
+UWVS
+d$,1
+[^_]
+[^_]
+d$,[^_]
+d$,[^_]
+d$$[^
+d$$[^
+d$$[^
+d$$[^
+UWVS
+[^_]
+d$$[^
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+t$,U
+[^_]
+Usage:
+ %s [options]
+Options:
+/etc/adjtime
+For more details see %s.
+rtcwake(8)
+/sys/power/state
+/dev/%s
+cannot allocate string
+write error
+/dev/rtc0
+adjfile
+suspend
+/usr/share/locale
+util-linux
+could not read: %s
+invalid seconds argument
+invalid time argument
+invalid time value "%s"
+%s from %s
+util-linux 2.27
+A:ahd:lm:ns:t:uVv
+LOCAL
+Using UTC time.
+Using local time.
+/dev
+cannot duplicate string
+%s: unable to find device
+/dev/
+cannot open %s
+enabled
+read rtc time failed
+read system time failed
+convert rtc time failed
+	delta   = %ld
+	tzone   = %ld
+	tzname  = %s
+	systime = %ld, (UTC) %s
+	rtctime = %ld, (UTC) %s
+set rtc wake alarm failed
+%s: wakeup using %s at %s
+suspend mode: no; leaving
+/sbin/shutdown
+failed to execute %s
+rtc read failed
+... %s: %03lx
+read rtc alarm failed
+alarm: off
+convert time failed
+alarm: on  %s
+ -%c
+ --%s
+auto
+dry-run
+local
+verbose
+version
+help
+mode
+seconds
+date
+list-modes
+disable
+show
+Enter a system sleep state until a specified wakeup time.
+ -a, --auto               reads the clock mode from adjust file (default)
+ -A, --adjfile <file>     specifies the path to the adjust file
+                            the default is %s
+     --date <timestamp>   date time of timestamp to wake
+ -d, --device <device>    select rtc device (rtc0|rtc1|...)
+ -n, --dry-run            does everything, but suspend
+ -l, --local              RTC uses local timezone
+     --list-modes         list available modes
+ -m, --mode <mode>        standby|mem|... sleep mode
+ -s, --seconds <seconds>  seconds to sleep
+ -t, --time <time_t>      time to wake
+ -u, --utc                RTC uses UTC
+ -v, --verbose            verbose messages
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+%s: these options are mutually exclusive:
+unexpected third line in: %s: %s
+must provide wake time (see --seconds, --time and --date options)
+/sys/class/rtc/%s/device/power/wakeup
+%s not enabled for wakeup events
+alarm %ld, sys_time %ld, rtc_time %ld, seconds %u
+time doesn't go backward to %s
+%s: wakeup from "%s" using %s at %s
+suspend mode: off; executing %s
+suspend mode: on; reading rtc
+suspend mode: disable; disabling alarm
+suspend mode: show; printing alarm info
+suspend mode: %s; suspending system
+disable rtc alarm interrupt failed
+unrecognized suspend state '%s'
+%s: assuming RTC uses UTC ...
+KMGTPEYZ
+kmgtpeyz
+%s: '%s'
+BKMGTPE
+%d%s%jd%s
+%d%s
+$tIlib/timeutils.c
+usec
+Sunday
+today
+yesterday
+tomorrow
+ ago
+%y-%m-%d %H:%M:%S
+%Y-%m-%d %H:%M:%S
+%y-%m-%d %H:%M
+%Y-%m-%d %H:%M
+%y-%m-%d
+%Y-%m-%d
+%Y%m%d%H%M%S
+second
+minutes
+minute
+months
+month
+msec
+hours
+hour
+days
+weeks
+week
+years
+year
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+parse_sec
+parse_timestamp
+lib/strv.c
+strv_remove
+strv_split
+;*2$"<
+zKLd
+zKLd
+rtcwake.debug
+ ]%'
+7zXZ
+k>HJ
+;|8:
+L}d;
+H*]g
+[tRl%
+!%>F
+`K]s
+4ob]
+NBxP!kY
+t"te
+<%dA
+W+HH$Y
+[]V:q
+y)q<
+`=m*
+. nd
+zsLO
+|S5mr
+n?f?]]
+irgbgP
+Cjrm
+,tWE|Zb
+\-^xV
+@XTMk
+i+/+
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

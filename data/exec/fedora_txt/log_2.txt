@@ -1,0 +1,225 @@
+/lib/ld-linux.so.2
+libdovecot.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+io_add
+i_error
+hash_table_destroy
+str_printfa
+master_service_client_connection_accept
+hash_table_iterate_deinit
+net_ip2addr
+hash_table_lookup
+array_idx_clear_i
+hash_table_iterate_init
+t_str_new
+str_len
+i_stream_read
+i_malloc
+str_append_tabescaped
+i_stream_get_data
+lib_signals_set_handler
+i_stream_unref
+restrict_access_allow_coredumps
+o_stream_destroy
+master_service_init_log
+hash_table_try_remove
+restrict_access_by_env
+buffer_create_dynamic
+i_fatal
+hash_table_create_direct
+net_addr2ip
+t_push
+t_pop_check
+i_strdup
+failure_log_type_names
+master_service_settings_read_simple
+master_service_init_finish
+t_strcut
+i_stream_create_fd
+o_stream_create_fd
+master_service_set_die_with_master
+t_strconcat
+i_stream_skip
+i_set_failure_file
+str_truncate
+master_service
+i_failure_parse_line
+master_service_client_connection_destroyed
+o_stream_flush
+o_stream_set_flush_pending
+array_idx_set_i
+master_service_run
+hash_table_insert
+default_pool
+hash_table_iterate
+master_service_deinit
+o_stream_set_flush_callback
+master_service_init
+buffer_free
+str_data
+i_stream_next_line
+i_panic
+t_strdup_printf
+io_remove
+str_append_c
+i_strndup
+i_log_type
+o_stream_send
+i_set_failure_prefix
+master_getopt
+libc.so.6
+_IO_stdin_used
+strtol
+strlen
+memcpy
+gettimeofday
+close
+localtime
+strchr
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+log_error_buffer_iter_next
+log_connection_create
+doveadm_connection_create
+log_service_settings
+__data_start
+__libc_csu_init
+_fp_hw
+log_connections_deinit
+log_error_buffer_deinit
+log_connections_init
+log_error_buffer_init
+log_error_buffer_iter_deinit
+log_error_buffer_iter_init
+log_error_buffer_add
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+WVSQ
+Y[^_]
+UWVS
+XZj	V
+[^_]
+UWVS
+D$$1
+t$ P
+,[^_]
+UWVS
+l$Te
+L$,1
+T$(Q
+D$,e3
+<[^_]
+UWVS
+l$Te
+D$,1
+T$ PWU
+D$,e3
+<[^_]
+UWVS
+D$l1
+D$@Y_j V
+XZj W
+D$<P
+D$,PV
+L$<t
+t$0Q
+D$DP
+D$DP
+D$HP
+D$le3
+|[^_]
+UWVS
+L$He
+D$$1
+0j(P
+4$PhF
+t$PP
+,[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+t$,U
+[^_]
+close(doveadm connection) failed: %m
+%s	%ld	
+close(log connection fd) failed: %m
+file %s: line %d (%s): assertion failed: (%s)
+Missing prefix data in handshake
+Received master prefix in handshake from non-master fd %d
+Received invalid input from master: %s
+Received master input for invalid service_fd %d: %s
+Received unknown command from master: %s
+failure.log_type < LOG_TYPE_COUNT
+log: 
+%s [last ip=%s]
+master: 
+read(log pipe) failed: %m
+size >= sizeof(handshake)
+log-connection.c
+MASTER
+gettimeofday() failed: %m
+key not found from hash
+DEFAULT-FATAL 
+prefix=
+!log->input->closed
+log_it
+log_connection_handshake
+log_connection_input
+buf->head != NULL
+log-error-buffer.c
+log_error_buffer_delete_head
+log-errors
+Unknown listener name: %s
+/dev/stderr
+Error reading configuration: %s
+;*2$"P
+log.debug
+7zXZ
+>Bp&
+Rp]JQ 
+S @o7
+[6	-
+iO\|uE
+]wN;
+'U>7
+d0;K:Z
+8C)^
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

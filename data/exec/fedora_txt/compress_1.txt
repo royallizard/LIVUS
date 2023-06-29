@@ -1,0 +1,111 @@
+compress_start
+gzopen
+gzread
+gzclose
+fopen
+fread
+ferror
+fclose
+__stack_chk_fail
+fwrite
+__errno_location
+strerror
+strlen
+strcpy
+strcat
+fileno
+__fxstat
+mmap
+gzwrite
+munmap
+strtol
+libz.so.1
+libtcl8.5.so
+libm.so.6
+libdl.so.2
+libc.so.6
+libnsl.so.1
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+ffff.
+D$x1
+\$@H
+T$xdH3
+D$@:
+ffff.
+ATUH
+[]A\
+fffff.
+t$0H
+~6E1
+T$0H
+t$09
+l$ L
+d$(L
+l$0H
+ffff.
+AWAVAUA
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+    %u file%s compressed
+    %u file%s uncompressed
+compress.help
+compress
+eggdrop
+share
+ compressed-file
+wrong # args: should be "
+.././compress.mod/compress.c
+ src-file ?target-file?
+wb%d
+Compressing user file for %s.
+unknown option `
+share-compressed
+compress-level
+uncompressfile
+iscompressed
+    Using %d byte%s of memory
+This module requires Eggdrop 1.6.0 or later.
+This module requires share module 2.3 or later.
+Failed to uncompress file `%s': not a file.
+Failed to uncompress file `%s': gzopen failed.
+Failed to uncompress file `%s': open failed: %s.
+Failed to uncompress file `%s': gzread failed.
+Failed to uncompress file `%s': fwrite failed: %s.
+Failed to uncompress file `%s': fclose failed: %s.
+Failed to uncompress file `%s': gzclose failed.
+Uncompressing user file from %s.
+Failed to compress file `%s': not a file.
+Failed to compress file `%s': open failed: %s.
+Failed to compress file `%s': gzopen failed.
+Failed to compress file `%s': fread failed: %s
+Failed to compress file `%s': gzwrite failed.
+Failed to compress file `%s': gzclose failed.
+ ?options...? src-file ?target-file?
+option `-level' needs parameter
+expecting src-filename as parameter
+trailing, unexpected parameter to command
+compress.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.text
+.rodata
+.eh_frame_hdr
+.eh_frame
+.dynamic
+.got.plt
+.data
+.bss
+.gnu_debuglink

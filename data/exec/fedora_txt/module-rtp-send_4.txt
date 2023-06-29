@@ -1,0 +1,318 @@
+|"g,
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+pa_sap_send
+pa_rtclock_now
+pa_core_rttime_restart
+pa_log_level_meta
+abort
+pa_source_output_type_id
+pa_source_output_process_msg
+pa_memblockq_get_length
+pa_bytes_to_usec
+pa_object_type_id
+pa_memblockq_push
+pa_rtp_send
+pa_module_unload_request
+pa_source_output_unlink
+pa_object_unref
+module_rtp_send_LTX_pa__get_author
+module_rtp_send_LTX_pa__get_description
+module_rtp_send_LTX_pa__get_version
+module_rtp_send_LTX_pa__load_once
+module_rtp_send_LTX_pa__get_usage
+module_rtp_send_LTX_pa__init
+pa_modargs_new
+pa_modargs_get_value
+pa_namereg_get
+pa_modargs_get_value_boolean
+pa_rtp_sample_spec_fixup
+pa_modargs_get_sample_spec
+pa_rtp_sample_spec_valid
+pa_channel_map_init_auto
+pa_rtp_payload_from_sample_spec
+pa_frame_align
+pa_modargs_get_value_u32
+pa_frame_size
+rand
+pa_modargs_free
+inet_pton
+pa_socket_cloexec
+bind
+connect
+setsockopt
+pa_make_fd_nonblock
+pa_make_udp_socket_low_delay
+pa_source_output_new_data_init
+pa_proplist_sets
+pa_proplist_setf
+pa_source_output_new_data_set_source
+pa_source_output_new_data_set_sample_spec
+pa_source_output_new_data_set_channel_map
+pa_source_output_new
+pa_source_output_new_data_done
+pa_source_output_set_requested_latency
+pa_xmalloc
+pa_memblockq_new
+getsockname
+pa_get_fqdn
+pa_sprintf_malloc
+pa_sdp_build
+pa_xfree
+pa_rtp_context_init_send
+pa_sap_context_init_send
+pa_core_rttime_new
+pa_source_output_put
+__errno_location
+pa_cstrerror
+pa_close
+__stack_chk_fail
+module_rtp_send_LTX_pa__done
+pa_rtp_context_destroy
+pa_sap_context_destroy
+pa_memblockq_free
+librtp.so
+libpulsecore-11.1.so
+libltdl.so.7
+liborc-0.4.so.0
+libtdb.so.1
+libspeexdsp.so.1
+libsoxr.so.0
+libpulse.so.0
+libpulsecommon-11.1.so
+libX11-xcb.so.1
+libX11.so.6
+libxcb.so.1
+libICE.so.6
+libSM.so.6
+libXtst.so.6
+libsystemd.so.0
+libsndfile.so.1
+libasyncns.so.0
+libdbus-1.so.3
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-rtp-send.so
+GLIBC_2.2.5
+PULSE_0
+GLIBC_2.4
+/usr/lib64/pulseaudio:/usr/lib64/pulse-11.1/modules
+%z2 
+%r2 
+%j2 
+%b2 
+%Z2 
+%R2 
+%J2 
+%B2 
+%:2 
+%22 
+%*2 
+%"2 
+%z1 
+%r1 
+%j1 
+%b1 
+%Z1 
+%R1 
+%J1 
+%B1 
+%:1 
+%21 
+%*1 
+%"1 
+=	1 
+u+UH
+=>* 
+	C<[
+AWAVM
+[]A\A]A^A_
+=9, 
+ATUSH
+[]A\
+AWAVAUATUSH
+5c# 
+T$CH
+d$dL
+D$dA
+oG|L
+t$l@:
+T$HH
+l$HE
+|$XH
+\$XH
+[]A\A]A^A_
+T$LH
+D$pH
+D$rf
+oL$p
+L$H1
+L$D1
+L$L1
+|$(1
+|$(L
+|$(H
+|$(H
+|$X	
+|$XM
+|$HI
+D$`M
+D$hI
+D$XH
+t$8H
+QATD
+D$TH
+L$8H
+D$0^_H
+T$ D
+D$lP
+D$tP1
+t$HD
+L$ 1
+T$ H
+t$8AP
+D$TH
+L$8H
+D$0AYAZ
+modules/rtp/module-rtp-send.c
+./pulsecore/source-output.h
+./pulsecore/object.h
+u = o->userdata
+Lennart Poettering
+11.1-rebootstrapped
+Source does not exist.
+loop
+inhibit_auto_suspend
+always
+never
+only_with_non_monitor_sources
+Invalid MTU.
+0.0.0.0
+source_ip
+Invalid source address '%s'
+224.0.0.56
+destination_ip
+Invalid destination '%s'
+socket() failed: %s
+bind() failed: %s
+connect() failed: %s
+IP_MULTICAST_LOOP failed: %s
+IP_MULTICAST_TTL failed: %s
+RTP Monitor Stream
+media.name
+rtp.source
+rtp.destination
+rtp.mtu
+rtp.port
+rtp.ttl
+module-rtp-send memblockq
+PulseAudio RTP Stream on %s
+SDP-Data:
+format
+channels
+rate
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+Code should not be reached at %s:%u, function %s(). Aborting.
+pa_source_output_isinstance(o)
+u = PA_SOURCE_OUTPUT(o)->userdata
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Failed to push chunk into memblockq.
+Read data from source and send it to the network via RTP/SAP/SDP
+source=<name of the source> format=<sample format> channels=<number of channels> rate=<sample rate> destination_ip=<destination IP address> source_ip=<source IP address> port=<port number> mtu=<maximum transfer unit> loop=<loopback to local host?> ttl=<ttl value> inhibit_auto_suspend=<always|never|only_with_non_monitor_sources>
+Failed to parse module arguments
+Failed to parse "loop" parameter.
+Failed to parse the "inhibit_auto_suspend" parameter.
+Failed to parse sample specification
+Specified sample type not compatible with RTP
+port= expects a numerical argument between 1 and 65535.
+Port number not even as suggested in RFC3550!
+ttl= expects a numerical argument between 1 and 255.
+IP_MULTICAST_TTL (sap) failed: %s
+failed to create source output.
+Configured source latency of %llu ms.
+(r = getsockname(fd, (struct sockaddr*) &sa_dst, &k)) >= 0
+RTP stream initialized with mtu %u on %s:%u from %s ttl=%u, SSRC=0x%08x, payload=%u, initial sequence #%u
+module_rtp_send_LTX_pa__done
+module_rtp_send_LTX_pa__done
+get_dont_inhibit_auto_suspend_flag
+get_dont_inhibit_auto_suspend_flag
+pa_source_output_cast
+pa_source_output_cast
+source_output_process_msg
+source_output_process_msg
+source_output_push_cb
+source_output_push_cb
+source_output_moving_cb
+source_output_moving_cb
+pa_object_cast
+pa_object_cast
+pa_source_output_assert_ref
+pa_source_output_assert_ref
+source_output_kill_cb
+source_output_kill_cb
+sap_event_cb
+sap_event_cb
+module_rtp_send_LTX_pa__init
+module_rtp_send_LTX_pa__init
+;*3$"
+gcc 8.0.1 20180222
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA*cet status
+module-rtp-send.so-11.1-18.fc28.x86_64.debug
+7zXZ
+q=rGf|
+j*8;
+0X\,
+*-h<
+t(P,
+\/-b
+Yuu%]
+z{&v
+-zZWT
+jXVB
+mM>\#
+r'-r
+FIXO^c-^
+Qhvq
+=QAi
+O7$H
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

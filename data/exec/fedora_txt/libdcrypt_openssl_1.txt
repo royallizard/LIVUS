@@ -1,0 +1,652 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+buffer_append
+EC_KEY_get0_public_key
+EC_KEY_get0_group
+EC_POINT_point2hex
+EVP_MD_size
+t_strdup
+default_pool
+t_strsplit
+str_array_length
+i_strdup
+i_panic
+EVP_PKEY_new
+EVP_PKEY_base_id
+EVP_PKEY_get1_EC_KEY
+EC_KEY_set_asn1_flag
+EVP_PKEY_set1_EC_KEY
+EC_KEY_free
+EVP_PKEY_get0_RSA
+RSAPublicKey_dup
+EVP_PKEY_set1_RSA
+RSA_free
+random_fill
+HMAC_CTX_free
+__stack_chk_fail
+memcpy
+EVP_CIPHER_block_size
+EVP_CIPHER_CTX_free
+EVP_CIPHER_iv_length
+EVP_CIPHER_key_length
+dovecot_openssl_common_global_set_engine
+ERR_get_error
+ERR_error_string
+t_strdup_printf
+EVP_PKEY_get0_EC_KEY
+strlen
+SHA256
+CRYPTO_free
+BIO_s_mem
+BIO_new
+i2d_PUBKEY_bio
+BIO_vfree
+BIO_ctrl
+EVP_MD_CTX_new
+EVP_DigestInit_ex
+EVP_DigestUpdate
+EVP_MD_CTX_free
+EC_KEY_set_conv_form
+EVP_DigestFinal_ex
+OBJ_txt2obj
+OBJ_length
+buffer_append_space_unsafe
+i2d_ASN1_OBJECT
+ASN1_OBJECT_free
+EVP_PKEY_CTX_new
+EVP_PKEY_size
+EVP_PKEY_decrypt_init
+EVP_PKEY_CTX_ctrl
+EVP_PKEY_CTX_free
+EVP_PKEY_decrypt
+EVP_PKEY_encrypt_init
+EVP_PKEY_encrypt
+EVP_PKEY_CTX_new_id
+EVP_PKEY_paramgen_init
+EVP_PKEY_paramgen
+EVP_PKEY_keygen_init
+EVP_PKEY_free
+EVP_PKEY_keygen
+OBJ_sn2nid
+EVP_get_digestbyname
+PKCS5_PBKDF2_HMAC
+EC_GROUP_get_curve_name
+EVP_PKEY_derive_init
+EVP_PKEY_derive_set_peer
+EVP_PKEY_derive
+BN_CTX_new
+EC_POINT_point2oct
+BN_CTX_free
+EC_POINT_new
+EC_POINT_oct2point
+EC_POINT_free
+EC_KEY_new
+EC_KEY_set_group
+EC_KEY_set_public_key
+EC_KEY_check_key
+HMAC_Final
+EVP_CIPHER_CTX_ctrl
+EVP_CipherFinal_ex
+buffer_set_used_size
+EVP_CIPHER_CTX_new
+EVP_CipherInit_ex
+EVP_CIPHER_CTX_set_padding
+EVP_CipherUpdate
+BIO_f_base64
+BIO_puts
+BIO_push
+i2d_EC_PUBKEY_bio
+BIO_pop
+i2d_PUBKEY
+buffer_append_c
+binary_to_hex_append
+pool_datastack_create
+buffer_create_dynamic
+binary_to_hex
+PEM_write_bio_PUBKEY
+BIO_new_mem_buf
+PEM_read_bio_PUBKEY
+buffer_create_from_data
+hex_to_binary
+d2i_PUBKEY
+strcmp
+BIO_gets
+str_to_int
+EC_KEY_new_by_curve_name
+EC_POINT_hex2point
+d2i_EC_PUBKEY_bio
+d2i_ASN1_OBJECT
+OBJ_obj2nid
+OBJ_nid2sn
+HMAC_Update
+HMAC_CTX_new
+HMAC_Init_ex
+pool_alloconly_create
+EVP_get_cipherbyname
+buffer_free_without_data
+buffer_get_modifiable_data
+safe_memset
+buffer_append_buf
+PEM_write_bio_PrivateKey
+i2d_RSAPrivateKey
+EVP_PKEY_id
+OBJ_nid2obj
+OBJ_obj2txt
+EC_KEY_get0_private_key
+BN_bn2mpi
+strncasecmp
+t_str_lcase
+buffer_create_from_const_data
+dcrypt_rsa_encrypt
+BN_bin2bn
+str_to_uint
+PEM_read_bio_PrivateKey
+OBJ_txt2nid
+EVP_PKEY_type
+BN_new
+BN_mpi2bn
+EC_KEY_set_private_key
+EC_KEY_precompute_mult
+EC_POINT_mul
+BN_free
+BN_hex2bn
+dcrypt_ctx_sym_destroy
+RSA_new
+d2i_RSAPrivateKey
+RSA_check_key
+dcrypt_openssl_init
+dovecot_openssl_common_global_ref
+dcrypt_set_vfs
+dcrypt_openssl_deinit
+dovecot_openssl_common_global_unref
+libssl_iostream_openssl.so
+libssl.so.1.1
+libcrypto.so.1.1
+libc.so.6
+_edata
+__bss_start
+_end
+libdcrypt_openssl.so
+/usr/lib64/dovecot
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+OPENSSL_1_1_0
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%"w 
+%*w 
+%*w 
+%*w 
+%*w 
+%*w 
+%*w 
+%*w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%2w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+%:w 
+=Qx 
+=bo 
+AWAVH
+AUATUSH
+[]A\A]A^A_
+T$pH
+L$ L
+L$(A
+D$ H
+Hct$
+D$ L
+L$ L
+L$(A
+D$ H
+ATUS
+[]A\
+k0[]A\
+k@[]A\
+[]A\H
+[]A\
+{ Hc
+[]A\
+St:H
+St:H
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+AWAVAUATI
+[A\A]A^A_]
+ATUSH
+[]A\
+AWAVAUATSH
+~'E1
+[A\A]A^A_]
+AWAVAUATSH
+~'E1
+[A\A]A^A_]
+AUATI
+[]A\A]
+ATUSH
+ []A\
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AWAVAUATSH
+[A\A]A^A_]
+AVAUI
+ATUH
+[]A\A]A^
+AVAUATUI
+[]A\A]A^
+Hct$
+AUATI
+[]A\A]H
+[]A\A]
+AUATI
+[]A\A]H
+[]A\A]
+AVAUATUSH
+ []A\A]A^
+AWAVAUATSH
+ZYtO
+[A\A]A^A_]
+ATUSH
+[]A\
+[]A\
+StJH
+StJH
+S E1
+AUATI
+[]A\A]
+[]A\A]
+AVAUI
+ATUA
+[]A\A]A^
+[]A\A]A^
+AWAVI
+AUATI
+[]A\A]A^A_
+Hct$
+t9USH
+s Hc
+t9USH
+AWAVAUATM
+USE1
+l$8H
+D$ dH
+D$H1
+L$HdH3
+X[]A\A]A^A_
+D$@H
+D$8H
+D$,H
+D$8H
+D$<P
+t$XH
+D$ D
+D$(I
+|$@I
+D$8H
+D$8H
+D$8H
+|$8H
+u2E1
+|$8I
+|$8H
+|$ H
+AWAVAUATUSH
+[]A\A]A^A_
+t$HH
+L$H1
+t$HH
+|$ Hc
+D$PH
+t$0H
+T$ H
+t$XH
+t$ 1
+D$ L
+t$HH
+|$ Hc
+T$0H
+T$ UPH
+D$8h
+t$XH
+|$`L
+|$`1
+T$8H
+T$(L
+\$0H
+AWAVI
+AUATI
+([]A\A]A^A_
+AWAVAUATUSH
+t$LH
+T$PI
+L$TAPj
+ZYt]
+t$`H
+[]A\A]A^A_
+t$h1
+T$hH
+d$PH
+t$\H
+t$XH
+|$ I
+t$`L
+T$`L
+L$(H
+|$ H
+|$(L
+AUj L
+t$0I
+L$`M
+|$p1
+L$`M
+D$`H
+T$ht0H
+t$hH
+|$`H
+D$pL
+D$(H
+L$0L
+T$ L
+D$xM
+u(PAVL
+Lcd$
+t$`H
+Lcd$
+D$hL
+|$hH
+T$(L
+T$(L
+L$0H
+D$ L
+D$0L
+\$8H
+t$ L
+L$(L
+D$0L
+L$(tGL
+D$pM
+T$@H
+key_data != NULL
+dcrypt-openssl.c
+-----BEGIN 
+RSA 
+ENCRYPTED 
+PRIVATE KEY-----
+Unknown/invalid PEM key type
+Unknown key format
+Invalid dovecot v1 encoding
+Invalid dovecot v2 encoding
+Invalid dovecot key version
+pk != NULL
+file %s: line %d: unreached
+key != NULL && key->ref > 0
+Only EC key supported
+name != NULL
+Object has no OID assigned
+pair_r != NULL
+bits >= 256
+Unknown EC curve %s
+rounds > 0
+result_len > 0
+result != NULL
+Invalid digest %s
+Only ECC key can be used
+ctx->ctx != NULL
+ctx->tag == NULL
+data authentication failed
+ctx->key != NULL
+ctx->iv != NULL
+ctx->ctx == NULL
+Unknown cipher %s
+sha256
+-----BEGIN PUBLIC KEY-----
+-----END PUBLIC KEY-----
+key_r != NULL
+key is not public
+Corrupted data
+Key id mismatch after load
+-----BEGIN PUBLIC KEY-----
+Missing public key header
+oid != NULL
+key != NULL && *key != NULL
+_key->ref > 0
+keypair != NULL
+ctx->md != NULL
+dcrypt openssl
+Invalid cipher %s
+Object identifier too long
+ecdh-
+enc_key != NULL
+password == NULL
+enc_key == NULL
+password != NULL
+2:%s:%d:
+aes-256-ctr
+key is not private
+password missing
+decrypt key missing
+Invalid key data
+No private key available
+file %s: line %d (%s): assertion failed: (%s)
+RSA private key format not supported, convert it to PKEY format with openssl pkey
+Dovecot v1 key format uses tab to separate fields
+Dovecot v2 key format uses colon to separate fields
+priv_key != NULL && pub_key_r != NULL
+key != NULL && key->key != NULL
+Key type not supported in this build
+peer_key != NULL && peer_key->key != NULL
+local_key != NULL && local_key->key != NULL
+enc_key == NULL && password == NULL
+dcrypt_openssl_ctx_sym_init
+dcrypt_openssl_ctx_sym_update
+dcrypt_openssl_ctx_sym_final
+dcrypt_openssl_ctx_hmac_init
+dcrypt_openssl_ecdh_derive_secret_local
+dcrypt_openssl_ecdh_derive_secret_peer
+dcrypt_openssl_pbkdf2
+dcrypt_openssl_generate_rsa_key
+dcrypt_openssl_generate_keypair
+dcrypt_openssl_load_private_key
+dcrypt_openssl_load_public_key
+dcrypt_openssl_store_private_key_dovecot
+dcrypt_openssl_store_private_key
+dcrypt_openssl_store_public_key
+dcrypt_openssl_private_to_public_key
+dcrypt_openssl_key_string_get_info
+dcrypt_openssl_unref_keypair
+dcrypt_openssl_unref_public_key
+dcrypt_openssl_unref_private_key
+dcrypt_openssl_ref_public_key
+dcrypt_openssl_ref_private_key
+dcrypt_openssl_rsa_encrypt
+dcrypt_openssl_rsa_decrypt
+dcrypt_openssl_oid2name
+dcrypt_openssl_name2oid
+dcrypt_openssl_private_key_type
+dcrypt_openssl_public_key_type
+dcrypt_openssl_public_key_id
+dcrypt_openssl_public_key_id_old
+dcrypt_openssl_private_key_id
+dcrypt_openssl_private_key_id_old
+;*3$"
+libdcrypt_openssl.so.debug
+7zXZ
+AFa!
+JeD'Z
+vy`'d
+sW5z-
+=%}[
+7W{m
+J+\!?)g
+:JWy'2SR:
+p4;GC
+(\5a	
+/T,*U
+.IUm
+YXS{C
+F-@~B8
+-+4F9u
+&VXH
+s*h?
+XiIp*
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

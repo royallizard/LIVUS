@@ -1,0 +1,222 @@
+td$3
+/lib/ld-linux.so.2
+d[K6
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libplayerc.so.3.0
+__gmon_start__
+playerc_blobfinder_destroy
+playerc_camera_unsubscribe
+playerc_blobfinder_create
+playerc_client_set_transport
+playerc_blobfinder_subscribe
+playerc_camera_destroy
+playerc_error_str
+playerc_client_create
+playerc_client_connect
+playerc_client_disconnect
+playerc_client_destroy
+playerc_client_set_replace_rule
+playerc_blobfinder_unsubscribe
+playerc_camera_decompress
+playerc_camera_create
+playerc_client_datamode
+playerc_client_read
+playerc_camera_subscribe
+libplayerinterface.so.3.0
+libm.so.6
+libz.so.1
+libgeos-3.4.2.so
+libgeos_c.so.1
+libgtk-x11-2.0.so.0
+gdk_pixbuf_fill
+gdk_pixbuf_composite
+gdk_pixbuf_new_from_data
+g_type_check_instance_cast
+gdk_pixbuf_scale_simple
+g_signal_connect_data
+g_print
+gdk_draw_pixbuf
+gdk_pixbuf_new
+gtk_drawing_area_new
+gtk_window_new
+gtk_vbox_new
+gtk_main_quit
+gtk_widget_get_type
+gtk_widget_set_size_request
+gtk_main
+gtk_box_pack_start
+gtk_idle_add
+gtk_object_get_type
+gtk_container_add
+gtk_widget_add_events
+gtk_init
+gtk_box_get_type
+gtk_container_get_type
+gtk_window_get_type
+gtk_widget_show
+gtk_widget_show_all
+gtk_window_set_title
+libgdk-x11-2.0.so.0
+libpangocairo-1.0.so.0
+libatk-1.0.so.0
+libcairo.so.2
+libgdk_pixbuf-2.0.so.0
+gdk_pixbuf_unref
+libgio-2.0.so.0
+libpangoft2-1.0.so.0
+libpango-1.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libfontconfig.so.1
+libfreetype.so.6
+libplayerwkb.so.3.0
+libplayercommon.so.3.0
+libplayerjpeg.so.3.0
+libjpeg.so.62
+libc.so.6
+_IO_stdin_used
+__printf_chk
+exit
+puts
+realloc
+__assert_fail
+strtol
+memset
+getopt
+__fprintf_chk
+strcasecmp
+optarg
+stderr
+fwrite
+__memcpy_chk
+__strcpy_chk
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+allocated_size
+player_init
+g_client
+g_img
+__libc_csu_fini
+g_blob_count
+g_blobfinder_index
+get_options
+g_window_width
+__data_start
+g_camera_index
+g_width
+g_blobs
+resize
+g_transport
+player_update
+g_camera
+_fp_hw
+player_quit
+__libc_csu_init
+g_height
+g_rate
+g_blobfinder
+print_usage
+g_pixbuf
+g_hostname
+render_camera
+g_port
+g_window_height
+click
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.3.4
+[^_]
+d$ [^_
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+d$<1
+[^_]
+d$ 1
+UWVS
+[^_]
+UWVS
+t$,U
+[^_]
+[%i, %i] = 
+[%i]
+[%i %i %i]
+unknown transport "%s"
+i:h:p:r:b:t:
+camera error: %s
+blobfinder error: %s
+blobfinder: [w %d h %d]
+g_width>0
+g_height>0
+Unknown camera format: %i
+PlayerCam
+delete_event
+destroy
+size-allocate
+player_update
+player_init
+ playercam - camera test utility for a player camera
+USAGE:  playercam [options] 
+Where [options] can be:
+  -help          : print this message.
+  -h <hostname>  : host that is running player
+  -p <port>      : the port number of the host
+  -i <index>     : the index of the camera
+  -b <index>     : the index of the blobfinder
+  -r <rate>      : the refresh rate of the video
+  -t <transport> : transport to use (either "tcp" or "udp")
+Currently supports RGB888 and 8/16-bit grey scale images.
+playercam will attempt to continue without a camera
+playercam will attempt to continue without a blobfinder
+we need either a camera or blobfinder! aborting
+camera: [w %d h %d d %d] [%d/%d bytes]
+/builddir/build/BUILD/player-3.0.2/utils/playercam/playercam.c
+allocated_size >= g_camera->image_count
+camera and blobfinder height or width do not match %d,%d != %d,%d
+ERROR reading player g_client
+;*2$"
+localhost
+playercam.debug
+7zXZ
+k>HJ
+QioP3
+z}Q=WQ
+ubJ.VG
+X1?S}l
+8~HH
+eK=U7reA
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,260 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+array_free
+buffer_free
+array_get_element_klen
+http_auth_match_rules
+config_check_cond
+buffer_is_equal_string
+strncmp
+strncasecmp
+http_auth_require_free
+calloc
+buffer_init
+array_init
+config_insert_values_global
+http_auth_backend_get
+array_is_kvarray
+array_is_kvstring
+http_auth_scheme_get
+http_auth_require_init
+buffer_copy_buffer
+strchr
+memchr
+log_error_write
+array_insert_unique
+strlen
+data_string_init
+buffer_copy_string_len
+__stack_chk_fail
+log_failed_assert
+http_auth_scheme_set
+buffer_append_string_buffer
+buffer_append_string_len
+response_header_insert
+buffer_append_base64_decode
+buffer_string_set_length
+http_auth_setenv
+li_MD5_Init
+li_itostrn
+li_MD5_Update
+li_rand_pseudo
+li_MD5_Final
+li_tohex_lc
+buffer_append_uint_hex_lc
+buffer_append_string
+strcasecmp
+get_http_method_name
+memcmp
+strcmp
+hex2int
+mod_auth_plugin_init
+buffer_init_string
+libc.so.6
+_edata
+__bss_start
+_end
+mod_auth.so
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+[]A\A]
+AWAVAUATI
+L$(H
+D$ H
+D$(I
+L;t$
+M@fA
+D$(H
+([]A\A]A^A_
+[]A\A]A^A_
+AVAUATUSH
+t$ dH
+D$PH
+D$`H
+D$hH
+D$xH
+D$PL
+D$(L
+D$pI
+D$ H
+T$XH
+T$(H
+D$@H
+|$HH
+L$8H
+E@L9x
+D$0H
+D$ I
+D$@H
+\$@H
+t$@H
+|$0H
+D$HL
+D$@H
+L$8H
+@@H9H
+|$ H
+[]A\A]A^A_
+user
+host
+t$8H
+|$ H
+valid-usI
+|$ H
+grou
+t$@H
+t$@H
+[]A\A]A^A_
+[]A\A]A^A_
+ATUSH
+T$pL
+[]A\A]A^A_
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+[]A\A]A^A_
+t$(I
+l$ M
+<	u!
+Ic.L
+d$XL
+l$ L
+t$(M
+\$`H
+D$hH
+D$ H
+l$pH
+D$(H
+D$xH
+D$0H
+D$8H
+L$HL
+D$@H
+L$HM
+|$(1
+D$@I
+|$0H
+t$8H
+t$ L
+t$(H
+l$ 1
+t$ H
+t$0H
+|$@H
+REMOTE_USER
+auth.backend
+auth.require
+auth.extern-authn
+auth.backend not supported:
+mod_auth.c
+realm
+the field is unknown in:
+ssbs
+" <- => "..." ) )
+a string was expected for:
+unknown method
+valid-user
+sssbss
+error near:
+error value:
+field value:
+group
+sssb
+Basic realm="
+", charset="UTF-8"
+WWW-Authenticate
+Authorization
+Basic 
+decoding base64-string failed
+missing ':' in
+Basic
+password doesn't match for
+sbsBsB
+username:
+Digest realm="
+", charset="UTF-8", nonce="
+", qop="auth"
+, stale=true
+username=
+realm=
+uri=
+algorithm=
+qop=
+cnonce=
+response=
+Digest 
+digest: missing field
+digest: realm mismatch
+md5-sess
+auth-int
+assertion failed: m
+sbsssB
+), IP:
+digest: auth failed for 
+: wrong password, IP:
+Digest
+auth
+extern
+digest
+basic
+auth.require = ( "urlpath" => ( "option" => "value" ) )
+unexpected value for auth.require; expected 
+auth.require = ( "..." => ( ..., -> "
+auth.require = ( "..." => ( ..., "method" => "..." ) )
+the method field is missing or blank in:
+auth.require = ( "..." => ( ..., "method" => "...") )
+(e.g. "basic", "digest" or "extern") in
+auth.require = ( "..." => ( ..., "realm" => "..." ) )
+the realm field is missing in:
+auth.require = ( "..." => ( ..., "require" => "..." ) )
+the require field is missing or blank in:
+assertion failed: NULL != dauth
+(expecting "valid-user" or "user=a|user=b|group=g|host=h").
+error parsing auth.require 'require' field: missing '='
+error parsing auth.require 'require' field: missing token after '='
+warning parsing auth.require 'require' field: 'host' not implemented;
+error parsing auth.require 'require' field: valid user can not be combined with other require rules
+error parsing auth.require 'require' field: invalid/unsupported token
+auth.backend not configured for
+digest: (md5-sess: missing field
+digest: qop=auth-int not supported
+digest: auth failed: uri mismatch (
+:*3$"
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+mod_auth.so-1.4.50-1.fc29.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

@@ -1,0 +1,265 @@
+/lib64/ld-linux-x86-64.so.2
+libgettextsrc-0.19.6.so
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+xmalloc
+xstrdup
+msgdomain_list_sublist
+_init
+message_page_width_set
+output_format_po
+msgdomain_list_sort_by_filepos
+message_print_style_uniforum
+msgdomain_list_print
+dir_list_append
+handle_filepos_comment_option
+handle_color_option
+message_print_style_escape
+message_print_style_indent
+handle_style_option
+message_print_style_filepos
+input_format_po
+read_catalog_file
+input_format_stringtable
+message_list_search
+output_format_properties
+output_format_stringtable
+input_format_properties
+msgdomain_list_sort_by_msgid
+color_test_mode
+message_list_remove_if_not
+message_page_width_ignore
+_fini
+libgettextlib-0.19.6.so
+close_stdout
+maybe_print_progname
+set_program_name
+proper_name
+libcroco-0.6.so.3
+libglib-2.0.so.0
+libxml2.so.2
+libncurses.so.5
+libtinfo.so.5
+libunistring.so.2
+libdl.so.2
+libc.so.6
+__printf_chk
+setlocale
+optind
+dcgettext
+error_print_progname
+error
+putchar
+strtol
+memset
+__fprintf_chk
+fputs
+optarg
+stderr
+getopt_long
+__cxa_finalize
+bindtextdomain
+__libc_start_main
+basename
+free
+__cxa_atexit
+libgomp.so.1
+libpthread.so.0
+_edata
+__bss_start
+_end
+/usr/lib64
+GLIBC_2.3.4
+GLIBC_2.2.5
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+AWAVE1
+AUATA
+D$H1
+=P4 
+D$@H
+D$(f
+-'4 
+t$(H
+=+3 
+H9L$@
+=z2 
+D$(H
+|$(1
+ thI
+L$0H
+L$01
+D$0H
+D$0H
+$I;D$
+t$ L
+=&/ 
+fffff.
+5z, 
+fffff.
+=)- 
+fffff.
+fff.
+AWAVA
+AUATL
+[]A\A]A^A_
+Try '%s --help' for more information.
+Usage: %s [OPTION] [INPUTFILE]
+Filters the messages of a translation catalog according to their attributes,
+and manipulates the attributes.
+Mandatory arguments to long options are mandatory for short options too.
+  INPUTFILE                   input PO file
+  -D, --directory=DIRECTORY   add DIRECTORY to list for input files search
+If no input file is given or if it is -, standard input is read.
+  -o, --output-file=FILE      write output to specified file
+The results are written to standard output if no output file is specified
+or if it is -.
+      --translated            keep translated, remove untranslated messages
+      --untranslated          keep untranslated, remove translated messages
+      --no-fuzzy              remove 'fuzzy' marked messages
+      --only-fuzzy            keep 'fuzzy' marked messages
+      --no-obsolete           remove obsolete #~ messages
+      --only-obsolete         keep obsolete #~ messages
+      --set-fuzzy             set all messages 'fuzzy'
+      --clear-fuzzy           set all messages non-'fuzzy'
+      --set-obsolete          set all messages obsolete
+      --clear-obsolete        set all messages non-obsolete
+      --previous              when setting 'fuzzy', keep previous msgids
+                              of translated messages.
+      --clear-previous        remove the "previous msgid" from all messages
+      --empty                 when removing 'fuzzy', also set msgstr empty
+      --only-file=FILE.po     manipulate only entries listed in FILE.po
+      --ignore-file=FILE.po   manipulate only entries not listed in FILE.po
+      --fuzzy                 synonym for --only-fuzzy --clear-fuzzy
+      --obsolete              synonym for --only-obsolete --clear-obsolete
+  -P, --properties-input      input file is in Java .properties syntax
+      --stringtable-input     input file is in NeXTstep/GNUstep .strings syntax
+      --color                 use colors and other text attributes always
+      --color=WHEN            use colors and other text attributes if WHEN.
+                              WHEN may be 'always', 'never', 'auto', or 'html'.
+      --style=STYLEFILE       specify CSS style rule file for --color
+  -e, --no-escape             do not use C escapes in output (default)
+  -E, --escape                use C escapes in output, no extended chars
+      --force-po              write PO file even if empty
+  -i, --indent                write the .po file using indented style
+      --no-location           do not write '#: filename:line' lines
+  -n, --add-location          generate '#: filename:line' lines (default)
+      --strict                write out strict Uniforum conforming .po file
+  -p, --properties-output     write out a Java .properties file
+      --stringtable-output    write out a NeXTstep/GNUstep .strings file
+  -w, --width=NUMBER          set output page width
+      --no-wrap               do not break long message lines, longer than
+                              the output page width, into several lines
+  -s, --sort-output           generate sorted output
+  -F, --sort-by-file          sort output by file location
+  -h, --help                  display this help and exit
+  -V, --version               output version information and exit
+Report bugs to <bug-gnu-gettext@gnu.org>.
+Copyright (C) %s Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+at most one input file allowed
+%s and %s are mutually exclusive
+Input file location:
+Output file location:
+Message selection:
+Attribute manipulation:
+Input file syntax:
+Output details:
+Informative output:
+/usr/share/locale
+gettext-tools
+bison-runtime
+D:eEFhino:pPsVw:
+0.19.6
+%s (GNU %s) %s
+2001-2010
+Bruno Haible
+Written by %s.
+--sort-by-file
+--sort-output
+add-location
+clear-fuzzy
+clear-obsolete
+clear-previous
+empty
+color
+directory
+force-po
+help
+ignore-file
+indent
+no-escape
+no-fuzzy
+no-location
+no-obsolete
+no-wrap
+only-file
+only-fuzzy
+only-obsolete
+output-file
+properties-input
+properties-output
+set-fuzzy
+set-obsolete
+stringtable-input
+stringtable-output
+strict
+style
+untranslated
+version
+width
+;*3$"
+msgattrib.debug
+7zXZ
+;i H
+0Kg}
+n[;@
+h/5y
+9EYz
+sHSp
+qu=a
+MPLk
+~4GXY<1
+j+`P
+W:jV
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

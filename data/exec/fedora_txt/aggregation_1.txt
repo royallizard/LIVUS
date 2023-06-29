@@ -1,0 +1,248 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pthread_mutex_lock
+pthread_mutex_unlock
+free
+plugin_log
+uc_get_rate
+__isnan
+format_name
+__stack_chk_fail
+meta_data_get_boolean
+lookup_search
+ssnprintf
+rate_to_value
+sstrncpy
+plugin_dispatch_values_secure
+plugin_get_interval
+meta_data_create
+meta_data_add_boolean
+meta_data_destroy
+sqrt
+cdtime
+malloc
+pthread_mutex_init
+strcasecmp
+cf_util_get_boolean
+cf_util_get_string_buffer
+strchr
+lookup_add
+lookup_create
+module_register
+plugin_register_complex_config
+plugin_register_read
+plugin_register_write
+strcmp
+__assert_fail
+c_avl_create
+lookup_destroy
+c_avl_pick
+c_avl_destroy
+c_avl_get
+__strdup
+c_avl_insert
+memmove
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+aggregation.so
+GLIBC_2.4
+GLIBC_2.2.5
+%zo 
+%ro 
+%jo 
+%bo 
+%Zo 
+%Ro 
+%Jo 
+%Bo 
+%:o 
+%2o 
+%*o 
+%"o 
+=zn 
+=Yn 
+fffff.
+=xj 
+=bj 
+fffff.
+ATUH
+[]A\
+\$ H
+[]A\
+fffff.
+ []A\A]A^
+ []A\A]1
+AVAUATI
+localhosH
+D$p1
+D$xt
+d$`H
+dH34%(
+[]A\A]A^
+ATU1
+=jc 
+[]A\
+=Pc 
+t$ H
+D$`H
+[]A\A]
+fffff.
+AWAVAUATUSH
+=F_ 
+=a_ 
+t$(H
+L$XH
+L$`H
+D$HH
+t$XH
+0A;n(}@L
+A;n(|
+D$(0
+L$$9H(
+x[]A\A]A^A_
+t$hA
+|$8H
+D$@L
+L$0H
+D$8H
+|$@H
+D$@L
+L$0H
+D$8H
+=dX 
+t$HH
+t$PH
+t$`H
+D$@L
+L$0H
+D$8H
+D$ H
+[]A\A]A^
+AVAUI
+ATUH
+|$0H
+t$8H
+D$PH
+t$ L
+t$ I
+t$(I
+t$HI
+D$@I
+t$@H
+D$0L
+|$8H
+t$XI
+D$0I
+[]A\A]A^A_
+fffff.
+=KO 
+k []A\A]A^
+AWAVAUATUH
+[]A\A]A^A_
+([]A\A]A^A_
+AWAVI
+ATUH
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+'[]A\A]A^A_
+[]A\A]A^A_
+aggregation plugin: The "%s" type (data set) has more than one data source. This is currently not supported by this plugin. Sorry.
+aggregation plugin: Unable to read the current rate of "%s".
+aggregation plugin: rate_to_value failed with status %i.
+aggregation plugin: meta_data_create failed.
+aggregation plugin: Reading an aggregation instance failed with status %i.
+aggregation plugin: malloc() failed.
+aggregation plugin: lookup_create failed.
+aggregation plugin: malloc failed.
+aggregation plugin: Argument %i of the "GroupBy" option is not a string.
+aggregation plugin: Grouping by type is not supported.
+aggregation plugin: The "%s" argument to the "GroupBy" option is invalid and will be ignored.
+aggregation plugin: The "%s" key is not allowed inside <Aggregation /> blocks and will be ignored.
+aggregation plugin: It appears you did not specify the required "Type" option in this aggregation. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: The "Type" may not contain the '/' character. Especially, it may not be a wildcard. The current value is "%s".
+aggregation plugin: An aggregation must contain at least one wildcard. This is achieved by leaving at least one of the "Host", "Plugin", "PluginInstance" and "TypeInstance" options blank and not grouping by that field. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: No aggregation function has been specified. Without this, I don't know what I should be calculating. (Host "%s", Plugin "%s", PluginInstance "%s", Type "%s", TypeInstance "%s")
+aggregation plugin: lookup_add failed with status %i.
+aggregation plugin: The "%s" key is not allowed inside <Plugin aggregation /> blocks and will be ignored.
+aggregation:created
+%s-%s
+/all/
+global
+aggregation
+average
+stddev
+/any/
+Aggregation
+Host
+Plugin
+PluginInstance
+Type
+TypeInstance
+GroupBy
+CalculateNum
+CalculateSum
+CalculateAverage
+CalculateMinimum
+CalculateMaximum
+CalculateStddev
+utils_vl_lookup.c
+status <= 0
+ptr != ((void *)0)
+__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (vl->type) && __builtin_constant_p (user_class->ident.type) && (__s1_len = strlen (vl->type), __s2_len = strlen (user_class->ident.type), (!((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((user_class->ident.type) + 1) - (size_t)(const void *)(user_class->ident.type) == 1) || __s2_len >= 4)) ? __builtin_strcmp (vl->type, user_class->ident.type) : (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) && (__s1_len = strlen (vl->type), __s1_len < 4) ? (__builtin_constant_p (user_class->ident.type) && ((size_t)(const void *)((user_class->ident.type) + 1) - (size_t)(const void *)(user_class->ident.type) == 1) ? __builtin_strcmp (vl->type, user_class->ident.type) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (user_class->ident.type); register int __result = (((const unsigned char *) (const char *) (vl->type))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->type))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (vl->type))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (user_class->ident.type) && ((size_t)(const void *)((user_class->ident.type) + 1) - (size_t)(const void *)(user_class->ident.type) == 1) && (__s2_len = strlen (user_class->ident.type), __s2_len < 4) ? (__builtin_constant_p (vl->type) && ((size_t)(const void *)((vl->type) + 1) - (size_t)(const void *)(vl->type) == 1) ? __builtin_strcmp (vl->type, user_class->ident.type) : (__extension__ ({ const unsigned char *__s1 = (const unsigned char *) (const char *) (vl->type); register int __result = __s1[0] - ((const unsigned char *) (const char *) (user_class->ident.type))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((const unsigned char *) (const char *) (user_class->ident.type))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((const unsigned char *) (const char *) (user_class->ident.type))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((const unsigned char *) (const char *) (user_class->ident.type))[3]); } } __result; }))) : __builtin_strcmp (vl->type, user_class->ident.type)))); }) == 0
+((__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (user_class->ident.plugin) && __builtin_constant_p ("/any/") && (__s1_len = strlen (user_class->ident.plugin), __s2_len = strlen ("/any/"), (!((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("/any/") + 1) - (size_t)(const void *)("/any/") == 1) || __s2_len >= 4)) ? __builtin_strcmp (user_class->ident.plugin, "/any/") : (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) && (__s1_len = strlen (user_class->ident.plugin), __s1_len < 4) ? (__builtin_constant_p ("/any/") && ((size_t)(const void *)(("/any/") + 1) - (size_t)(const void *)("/any/") == 1) ? __builtin_strcmp (user_class->ident.plugin, "/any/") : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) ("/any/"); register int __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("/any/") && ((size_t)(const void *)(("/any/") + 1) - (size_t)(const void *)("/any/") == 1) && (__s2_len = strlen ("/any/"), __s2_len < 4) ? (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) ? __builtin_strcmp (user_class->ident.plugin, "/any/") : (__extension__ ({ const unsigned char *__s1 = (const unsigned char *) (const char *) (user_class->ident.plugin); register int __result = __s1[0] - ((const unsigned char *) (const char *) ("/any/"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((const unsigned char *) (const char *) ("/any/"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((const unsigned char *) (const char *) ("/any/"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((const unsigned char *) (const char *) ("/any/"))[3]); } } __result; }))) : __builtin_strcmp (user_class->ident.plugin, "/any/")))); }) == 0) || (__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (user_class->ident.plugin) && __builtin_constant_p ("/all/") && (__s1_len = strlen (user_class->ident.plugin), __s2_len = strlen ("/all/"), (!((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) || __s1_len >= 4) && (!((size_t)(const void *)(("/all/") + 1) - (size_t)(const void *)("/all/") == 1) || __s2_len >= 4)) ? __builtin_strcmp (user_class->ident.plugin, "/all/") : (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) && (__s1_len = strlen (user_class->ident.plugin), __s1_len < 4) ? (__builtin_constant_p ("/all/") && ((size_t)(const void *)(("/all/") + 1) - (size_t)(const void *)("/all/") == 1) ? __builtin_strcmp (user_class->ident.plugin, "/all/") : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) ("/all/"); register int __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (user_class->ident.plugin))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p ("/all/") && ((size_t)(const void *)(("/all/") + 1) - (size_t)(const void *)("/all/") == 1) && (__s2_len = strlen ("/all/"), __s2_len < 4) ? (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) ? __builtin_strcmp (user_class->ident.plugin, "/all/") : (__extension__ ({ const unsigned char *__s1 = (const unsigned char *) (const char *) (user_class->ident.plugin); register int __result = __s1[0] - ((const unsigned char *) (const char *) ("/all/"))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((const unsigned char *) (const char *) ("/all/"))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((const unsigned char *) (const char *) ("/all/"))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((const unsigned char *) (const char *) ("/all/"))[3]); } } __result; }))) : __builtin_strcmp (user_class->ident.plugin, "/all/")))); }) == 0)) || (__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (vl->plugin) && __builtin_constant_p (user_class->ident.plugin) && (__s1_len = strlen (vl->plugin), __s2_len = strlen (user_class->ident.plugin), (!((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) || __s2_len >= 4)) ? __builtin_strcmp (vl->plugin, user_class->ident.plugin) : (__builtin_constant_p (vl->plugin) && ((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) && (__s1_len = strlen (vl->plugin), __s1_len < 4) ? (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) ? __builtin_strcmp (vl->plugin, user_class->ident.plugin) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (user_class->ident.plugin); register int __result = (((const unsigned char *) (const char *) (vl->plugin))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->plugin))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (vl->plugin))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (vl->plugin))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (user_class->ident.plugin) && ((size_t)(const void *)((user_class->ident.plugin) + 1) - (size_t)(const void *)(user_class->ident.plugin) == 1) && (__s2_len = strlen (user_class->ident.plugin), __s2_len < 4) ? (__builtin_constant_p (vl->plugin) && ((size_t)(const void *)((vl->plugin) + 1) - (size_t)(const void *)(vl->plugin) == 1) ? __builtin_strcmp (vl->plugin, user_class->ident.plugin) : (__extension__ ({ const unsigned char *__s1 = (const unsigned char *) (const char *) (vl->plugin); register int __result = __s1[0] - ((const unsigned char *) (const char *) (user_class->ident.plugin))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((const unsigned char *) (const char *) (user_class->ident.plugin))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((const unsigned char *) (const char *) (user_class->ident.plugin))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((const unsigned char *) (const char *) (user_class->ident.plugin))[3]); } } __result; }))) : __builtin_strcmp (vl->plugin, user_class->ident.plugin)))); }) == 0)
+utils_vl_lookup: malloc failed.
+utils_vl_lookup: User-provided constructor failed.
+utils_vl_lookup: The user object callback failed with status %i.
+utils_vl_lookup: c_avl_create failed.
+utils_vl_lookup: strdup failed.
+utils_vl_lookup: c_avl_insert failed.
+utils_vl_lookup: c_avl_insert("%s") failed with status %i.
+lu_handle_user_class
+lu_add_by_plugin
+lu_search_by_type
+;*3$"
+aggregation.so.debug
+7zXZ
+D*J,
+*wQy
+&\e9
+,)=M
+=?WB%
+tMw6
+$0Vj
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

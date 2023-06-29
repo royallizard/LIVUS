@@ -1,0 +1,93 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+free
+malloc
+strcasecmp
+plugin_log
+sstrdup
+time
+sstrncpy
+subst_string
+ssnprintf
+uc_get_rate
+plugin_dispatch_notification
+__stack_chk_fail
+module_register
+fc_register_target
+libc.so.6
+_edata
+__bss_start
+_end
+target_notification.so
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+[A\]
+St,H
+AWAVI
+AUATI
+t$(H
+|$ H
+0A9l$(A
+[]A\A]A^A_
+0A9l$(
+AWAVAUATUH
+|$ 1
+D$(H
+D9u@
+[]A\A]A^A_
+L$ H
+T$(H
+D$0H
+tn_create: malloc failed.
+Message
+Severity
+FAILURE
+CRITICAL
+WARNING
+WARN
+OKAY
+%{host}
+%{plugin}
+%{plugin_instance}
+%{type}
+%{type_instance}
+%%{ds:%s}
+unknown
+notification
+Target `notification': The `%s' option requires exactly one string argument.
+Target `notification': The `%s' option does not accept empty strings.
+tn_config_add_string: sstrdup failed.
+Target `notification': Unknown severity `%s'. Will use `FAILURE' instead.
+Target `notification': The `%s' configuration option is not understood and will be ignored.
+Target `notification': No `Message' option has been specified. Without it, the `Notification' target is useless.
+Target `notification': Invoke: `data' is NULL.
+;*3$"
+target_notification.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

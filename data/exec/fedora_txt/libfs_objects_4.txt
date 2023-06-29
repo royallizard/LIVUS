@@ -1,0 +1,556 @@
+9Xo!Er
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+function_type
+object_register_type
+orthflow_type
+g_module_check_init
+dia_plugin_check_version
+connection_save
+new_attribute
+data_add_text
+data_add_int
+g_malloc0
+text_get_attributes
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+text_set_cursor
+text_grab_focus
+connection_update_handles
+distance_line_point
+text_distance_from
+text_draw
+__assert_fail
+connection_destroy
+text_destroy
+connpoint_is_autogap
+text_set_color
+connection_update_boundingbox
+text_calc_boundingbox
+rectangle_union
+connection_adjust_for_autogap
+connection_load
+connection_init
+object_find_attribute
+attribute_first_data
+data_text
+data_int
+object_set_props_from_offsets
+apply_textattr_properties
+sqrt
+connection_move_handle
+connection_copy
+text_copy
+dia_font_new_from_style
+color_black
+new_text
+dia_font_unref
+object_create_props_dialog
+object_apply_props_from_dialog
+object_apply_props
+prop_std_text_align_data
+prop_std_text_height_data
+orthconn_save
+orthconn_update_object_menu
+orthconn_delete_segment
+orthconn_add_segment
+g_free
+orthconn_update_data
+orthconn_distance_from
+orthflow_color_signal
+orthflow_color_energy
+orthflow_color_material
+orthconn_destroy
+text_set_position
+orthconn_update_boundingbox
+orthconn_load
+object_add_handle
+text_get_string_copy
+text_set_string
+orthconn_get_middle_handle
+orthconn_move_handle
+orthconn_move
+orthconn_copy
+orthconn_init
+orthconn_toggle_autorouting_callback
+element_save
+data_add_boolean
+g_malloc
+fmenu
+element_update_handles
+distance_rectangle_point
+color_white
+element_destroy
+connpoint_update
+element_update_boundingbox
+element_load
+data_boolean
+element_init
+element_copy
+strlen
+__sprintf_chk
+text_set_cursor_at_end
+libpng12.so.0
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+libfs_objects.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zN 
+%rN 
+%jN 
+%bN 
+%ZN 
+%RN 
+%JN 
+%BN 
+%:N 
+%2N 
+%*N 
+%"N 
+%zM 
+%rM 
+%jM 
+%bM 
+%ZM 
+%RM 
+%JM 
+%BM 
+%:M 
+%2M 
+%*M 
+%"M 
+%zL 
+%rL 
+%jL 
+%bL 
+ATSubH
+=hI 
+=WG 
+%,G 
+=EH 
+fffff.
+fffff.
+fffff.
+5BJ 
+fffff.
+ATUH
+T$ H
+t$0I
+D$0H
+D$8H
+D$ H
+D$(A
+@[]A\
+5iC 
+5qC 
+ffffff.
+ffffff.
+.-`)
+T$hH
+L$0D
+T$pD
+L$PD
+D$XH
+L$`H
+L$0f
+T$hH
+T$pD
+D$XD
+L$PfD
+D$XH
+L$`H
+T$hH
+L$0D
+T$pD
+L$Pf
+D$XH
+L$`H
+($$H
+|$ f
+[]A\
+z$u"f
+fff.
+[]A\A]
+5RC 
+=;G 
+l$ H
+L$ H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+ffff.
+5"4 
+433333
+433333
+l$ H
+fffff.
+D$(H
+\$8H
+l$@L
+d$HL
+l$PH
+433333
+[]A\A]
+ffffff.
+52Y 
+AWAVAUATUSH
+[]A\A]A^A_
+%,_ 
+ffffff.
+D$(A
+D$(H
+XT$8
+XL$0
+t$@L
+l$PH
+\$hH
+l$pL
+d$xL
+t$@L
+l$PH
+D$ A
+=o& 
+D$(H
+XD$X
+XD$@
+D$(H
+D$ f
+D$8H
+L$8H
+L$8H
+D$8H
+L$8H
+5^N 
+([]A\A]
+fff.
+l$ L
+t$(L
+|$0H
+Function structure diagram objects
+text
+type
+flow.c
+flow != ((void *)0)
+handle!=((void *)0)
+to!=((void *)0)
+FS - Flow
+obj_pos
+point
+obj_bb
+meta
+dict
+enum
+text_alignment
+text_font
+text_height
+fontsize
+text_colour
+Object position
+Where the object is located
+Object bounding box
+Object meta info
+Some key/value pairs
+Type:
+Text alignment
+Font
+Font size
+Material
+Signal
+22 22 3 1
+ 	c None
+.	c white
+X	c black
+                      
+ XXXX X    XX  X   X  
+ X    X   X  X X   X  
+ XXX  X   X  X X   X  
+ X    X   X  X X X X  
+ X    XXX  XX   X X   
+                 X    
+                 XX   
+ XXXXXXXXXXXXXXXXXXX  
+The bounding box of the object
+flow_move_handle
+flow_draw
+?333333
+flow-ortho.c
+orthflow!=((void *)0)
+FS - Orthflow
+elem_corner
+Element corner
+The corner of the element
+elem_width
+real
+Element width
+The width of the element
+elem_height
+Element height
+The height of the element
+Add segment
+Delete segment
+Autorouting
+ XXXXXXXXX            
+        XX            
+        XX       X    
+        XX       XX   
+        XXXXXXXXXXXX  
+orthflow_move_handle
+MbP?
+?is_wish
+is_user
+function.c
+pkg!=((void *)0)
+handle->id < 8
+pkg != ((void *)0)
+pkg->text != ((void *)0)
+%s%s
+FS - Function
+Verb
+Channel
+Import
+Input
+Receive
+Allow
+Form Entrance
+Capture
+Export
+Discharge
+Eject
+Dispose
+Remove
+Transfer
+Transport
+Lift
+Move
+Transmit
+Conduct
+Convey
+Guide
+Direct
+Straighten
+Steer
+Translate
+Rotate
+Turn
+Spin
+Allow DOF
+Constrain
+Unlock
+Support
+Stop
+Insulate
+Protect
+Prevent
+Shield
+Inhibit
+Stabilize
+Steady
+Secure
+Attach
+Mount
+Lock
+Fasten
+Hold
+Position
+Orient
+Align
+Locate
+Connect
+Couple
+Join
+Assemble
+Combine
+Blend
+Pack
+Coalesce
+Branch
+Separate
+Switch
+Divide
+Release
+Detach
+Disconnect
+Polish
+Sand
+Drill
+Lathe
+Refine
+Purify
+Strain
+Filter
+Percolate
+Clear
+Distribute
+Diverge
+Scatter
+Disperse
+Diffuse
+Empty
+Dissipate
+Absorb
+Dampen
+Dispel
+Resist
+Provision
+Store
+Contain
+Collect
+Reserve
+Supply
+Fill
+Provide
+Replenish
+Expose
+Extract
+Control Magnitude
+Actuate
+Start
+Initiate
+Regulate
+Control
+Enable
+Disable
+Limit
+Interrupt
+Change
+Increase
+Decrease
+Amplify
+Reduce
+Magnify
+Normalize
+Multiply
+Scale
+Rectify
+Adjust
+Form
+Compact
+Crush
+Shape
+Compress
+Pierce
+Convert
+Transform
+Liquefy
+Solidify
+Evaporate
+Sublimate
+Condense
+Integrate
+Differentiate
+Process
+Sense
+Perceive
+Recognize
+Discern
+Check
+Verify
+Indicate
+Mark
+Display
+Measure
+Calculate
+Represent
+Noun
+Solid
+Liquid
+Human
+Hand
+Foot
+Head
+Finger
+Biological
+Mechanical
+Mech. Energy
+Translation
+Rotation
+Torque
+Random Motion
+Vibration
+Rotational Energy
+Translational Energy
+Electrical
+Electricity
+Voltage
+Current
+Hydraulic
+Pressure
+Volumetric Flow
+Thermal
+Heat
+Conduction
+Convection
+Radiation
+Pneumatic
+Chemical
+Radioactive
+Microwaves
+Radio waves
+X-Rays
+Gamma Rays
+Acoustic Energy
+Optical Energy
+Solar Energy
+Magnetic Energy
+Human Motion
+Human Force
+Status
+User/Device Fn
+Wish Fn
+wish function
+bool
+user function
+Wish function
+User function
+Text color
+22 22 2 1
+.	c black
+ .................... 
+ .                  . 
+ .  .... .  . .  .  . 
+ .  .    .  . .. .  . 
+ .  ...  .  . .. .  . 
+ .  .    .  . . ..  . 
+ .  .    .... . ..  . 
+function_move_handle
+function_draw
+333333
+@333333
+libfs_objects.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

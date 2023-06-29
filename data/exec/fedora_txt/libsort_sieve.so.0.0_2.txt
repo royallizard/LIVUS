@@ -1,0 +1,328 @@
+td`M
+ 8bP
+$:Y`W
+ju%*/
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+sort_getbody
+sort_discard
+sort_errexec
+sieve2_getvalue_string
+sort_debugtrace
+sieve2_getvalue_int
+sort_notify
+dbmail_message_get_header
+p_string_str
+sort_redirect
+send_mail
+sort_reject
+g_string_new
+sort_getheader
+dbmail_message_get_header_repeated
+g_list_length
+g_malloc0_n
+dbmail_iconv_decode_text
+g_list_prepend
+g_list_first
+g_list_free
+sieve2_setvalue_stringlist
+sort_getenvelope
+dbmail_message_get_envelope_recipient
+sieve2_setvalue_string
+sort_getsize
+dbmail_message_get_size
+sieve2_setvalue_int
+sort_getsubaddress
+__strdup
+strchr
+config_get_value
+strcasecmp
+__assert_fail
+g_list_destroy
+sieve2_free
+sieve2_errstr
+sieve2_alloc
+sort_callbacks
+sieve2_callbacks
+debug_callbacks
+g_malloc0
+vacation_callbacks
+notify_callbacks
+sort_vacation
+dm_md5
+db_replycache_validate
+db_replycache_register
+dbmail_message_new
+dbmail_message_construct
+dbmail_message_set_header
+dbmail_message_free
+sort_fileinto
+sieve2_getvalue_stringlist
+g_strjoinv
+g_strsplit
+imap_flag_desc
+strrchr
+g_strcasestr
+g_strfreev
+sort_deliver_to_mailbox
+g_strdup
+g_list_append
+sort_getscript
+dm_sievescript_getbyname
+send_alert
+g_strconcat
+g_strdup_printf
+auth_get_userid
+dbmail_message_store
+db_delete_message
+sort_errparse
+g_string_append_printf
+sort_listextensions
+sieve2_listextensions
+g_strchug
+g_strchomp
+sort_validate
+sieve2_validate
+sort_process
+dm_sievescript_get
+sieve2_execute
+sort_free_result
+g_string_free
+sort_get_cancelkeep
+sort_get_mailbox
+sort_get_reject
+sort_get_rejectmsg
+sort_get_error
+sort_get_errormsg
+libgmodule-2.0.so.0
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+libsieve.so.1
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libsort_sieve.so.0
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+d$(1
+d$(1
+UWVS
+d$L1
+[^_]
+d$ 1
+UWVS
+d$,[^_]
+d$,[^_]
+UWVS
+d$,1
+[^_]
+UWVS
+D$,t7
+d$<1
+[^_]
+UWVS
+d$,1
+[^_]
+d$$1
+UWVS
+d$,[1
+[^_]
+D$,1
+L$,e3
+d$<[^_]
+D$L1
+L$Le3
+d$\[^_]
+UWVS
+[^_]
+UWVS
+D$l1
+L$le3
+d$|[^_]
+UWVS
+[^_]
+UWVS
+T$4e
+[^_]
+UWVS
+d$,[1
+D$<1
+T$<e3
+d$@[^_
+UWVS
+T$$e
+D$<1
+L$<e3
+d$L[^_]
+UWVS
+D$De
+L$L1
+D$Ht
+t$Le35
+d$\[^_]
+Action is DISCARD.
+sort
+message
+level
+function
+file
+module
+sieve: [%s,%s,%s: [%s]
+fromaddr
+Delivered-To
+Reply-To
+Return-Path
+address
+header
+body
+from [%s], to [%s]
+from
+Getting message size [%d]
+size
+user
+detail
+localpart
+domain
+sortsieve.c
+sieve_config != NULL
+DELIVERY
+SIEVE_VACATION
+SIEVE_NOTIFY
+SIEVE_DEBUG
+s2c != NULL
+sc != NULL
+Sieve vacation enabled.
+Sieve debugging enabled.
+days
+subject
+hash
+X-Dbmail-Vacation
+vacation loop detected [%s]
+X-DBMail-Vacation
+INBOX
+mailbox
+flags
+set baseflag [%s]
+set keyword [%s]
+path
+name
+script
+DBMAIL-MAILER@dbmail
+%llu
+send_alert
+DBMAIL
+POSTMASTER
+lineno
+Parse error on line [%d]: %s
+Sieve script parse error
+Error is EXEC: Message is [%s]
+Notification from [%s] to [%s] was not sent as notify is not supported in this release.
+Action is REDIRECT: REDIRECT destination is [%s].
+both To and From addresses must be specified
+Action is REJECT: REJECT message is [%s].
+Getting header [%s] returning value [%s]
+Error [%d] when calling sieve2_free: [%s]
+Error [%d] when calling sieve2_alloc: [%s]
+Error [%d] when calling sieve2_callbacks: [%s]
+Sieve notify is not supported in this release.
+Sending vacation to [%s] from [%s] handle [%s] repeat days [%d]
+Vacation suppressed to [%s] from [%s] handle [%s] repeat days [%d]
+Action is FILEINTO: mailbox is [%s] flags are [%s]
+Could not file message into mailbox; not cancelling keep.
+Include requested from [%s] named [%s]
+Getting default script named [%s]
+sort_getscript: read_file() returns %d
+Already sent alert [%s] to user [%llu] today
+Sending alert [%s] to user [%llu]
+no config value for POSTMASTER
+Unable to deliver alert [%s] to user [%llu]
+Error is PARSE: Line is [%d], Message is [%s]
+Your Sieve script [%s] failed to parse correctly.
+Messages will be delivered to your INBOX for now.
+The error message is:
+Error %d when calling sieve2_validate: %s
+Error [%d] when calling db_getactive_sievescript
+User doesn't have any active sieve scripts.
+Error [%d] when calling sieve2_execute: [%s]
+No actions taken; message must be kept.
+sort_process
+sort_teardown
+sort_teardown
+sort_startup
+sort_startup
+sort_validate
+sort_sieve_get_config
+sort_listextensions
+sort_debugtrace
+sort_getsize
+sort_getenvelope
+sort_getheader
+sort_getscript
+sort_errexec
+sort_errparse
+sort_fileinto
+sort_discard
+sort_reject
+send_redirect
+sort_redirect
+sort_notify
+send_vacation
+sort_vacation
+send_alert
+;*2$"
+libsort_sieve.so.0.0.0.debug
+7zXZ
+.FpLG
+72	B
+>n\I
++yM7=
+x%y	
+Cbbh/
+!Rsw
+wPBH
+sjS^
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

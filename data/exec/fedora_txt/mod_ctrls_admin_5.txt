@@ -1,0 +1,377 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+permanent_pool
+make_sub_pool
+pr_pool_tag
+ctrls_admin_module
+pcalloc
+pr_ctrls_init_acl
+pr_ctrls_register
+__errno_location
+strerror
+pr_log_pri
+pr_event_register
+destroy_pool
+strcmp
+pr_ipbind_find
+pr_netaddr_get_ipstr
+pr_ctrls_log
+pr_ipbind_open
+pr_ctrls_add_response
+pr_ipbind_add_binds
+SocketBindTight
+pr_ipbind_get_listening_conn
+pr_ctrls_check_acl
+strchr
+pr_trace_parse_levels
+pr_trace_set_levels
+pr_trace_get_table
+pr_table_rewind
+pr_table_next
+pr_signals_handle
+pr_table_get
+__stack_chk_fail
+child_count
+sleep
+child_update
+pr_ctrls_flush_response
+raise
+pr_privs_root
+child_signal
+pr_privs_relinquish
+strtol
+pr_scoreboard_scrub
+pr_getopt_reset
+getopt
+optarg
+optopt
+optind
+pr_rewind_scoreboard
+pr_scoreboard_entry_read
+pr_restore_scoreboard
+pr_log_debug
+pr_scoreboard_entry_kill
+pr_netaddr_get_addr
+pr_stash_get_symbol2
+main_server
+find_config
+qsort
+pr_netaddr_clear_cache
+pr_str_is_boolean
+ServerUseReverseDNS
+pr_log_setdebuglevel
+pstrdup
+strrchr
+pstrndup
+pr_parser_prepare
+pr_parser_server_ctxt_push
+remove_config
+pr_parser_cleanup
+pstrcat
+strlen
+pr_parser_parse_line
+pr_config_remove
+pr_parser_server_ctxt_get
+pr_parser_config_ctxt_get
+pr_module_call
+pr_config_merge_down
+xaset_insert_end
+pr_open_scoreboard
+pr_event_unregister
+pr_ctrls_unregister
+strcasecmp
+pr_ipbind_get
+pr_gmtime
+pr_ipbind_close
+check_context
+get_boolean
+get_context_name
+mod_create_ret
+pr_ctrls_parse_acl
+pr_ctrls_unregister_module_actions
+pr_ctrls_set_module_acls
+libc.so.6
+_edata
+__bss_start
+mod_ctrls_admin.so
+GLIBC_2.4
+GLIBC_2.2.5
+=IO 
+=	O 
+=jG 
+AUATSH
+=6L 
+=_M 
+[A\A]]
+=8M 
+AWAVAUATI
+[A\A]A^A_]
+AWAVAUATI
+5HH 
+8[A\A]A^A_]
+AWAVAUATI
+D$`L
+D$ H
+D$ L
+dH34%(
+[A\A]A^A_]
+AUATSA
+[A\A]]
+AWAVAUATA
+56B 
+[A\A]A^A_]
+AWAVAUATI
+-94 
+[A\A]A^A_]
+D$`H
+AUATSI
+546 
+[A\A]]
+[A\A]]
+AVAUI
+[A\A]A^]
+AWAVAUATI
+|$@1
+[A\A]A^A_]
+|$@H
+AWAVAUATI
+|$@1
+([A\A]A^A_]
+|$@1
+|$@I
+|$@H
+[A\]
+AVAUATSI
+[A\A]A^]
+AWAVAUATI
+|$@H
+t[E1
+8[A\A]A^A_]
+AWAVAUATI
+|$@H
+t'E1
+8[A\A]A^A_]
+[A\A]A^]
+5b( 
+ARAQD
+[A\A]A^]
+[A\A]A^]
+AUATSI
+[A\A]]
+[A\A]]
+[A\A]]
+AWAVAUATI
+|$@H
+t,E1
+8[A\A]A^A_]
+AUATSH
+[A\A]]
+G0E1
+5?" 
+=   
+G0E1
+mod_ctrls_admin/0.9.9
+core.module-unload
+core.restart
+core.startup
+up: %s#%u already enabled
+mod_ctrls_admin.c
+up: %s#%u enabled
+trace
+access denied
+info
+Level
+Channel
+%-10s %-6s
+---------- ------
+%10s %-6d
+trace: no info available
+shutdown
+shutting down
+graceful
+wrong number of parameters
+clean
+scrub
+scrubbed scoreboard
+kick
+missing required parameters
+user
+bad number: %s
+unsupported option: '%c'
+error kicking user '%s': %s
+kicked user '%s' (%d clients)
+kicked user '%s'
+user '%s' not connected
+host
+kicked host '%s' (%d clients)
+kicked host '%s'
+host '%s' not connected
+class
+bad client number: %s
+error kicking class '%s': %s
+kicked class '%s'
+class '%s' not connected
+config
+%s: not retrievable
+%s: directive not found
+%s: missing parameters
+%s (mod_%s.c)
+cache
+clear
+dns: netaddr cache cleared
+debug
+debug: level set to %d
+debug level set to %d
+unknown debug action: '%s'
+config: no such server: %s
+config set: %s
+config set: %s configured
+remove
+config remove: %s removed
+error opening scoreboard: %s
+DOWN
+status: checking %s#%u
+status: %s#%u %s
+status
+status: checking all servers
+status: no such server: %s#%u
+times
+time
+restarted server
+count
+unsupported parameter '%s'
+down: disabling %s#%u
+down: no such server: %s#%u
+down: %s#%u already disabled
+down: %s#%u disabled
+down: all servers disabled
+ context
+directive not allowed in 
+: unknown action: '
+allow
+deny
+group
+AdminControlsACLs
+AdminControlsEngine
+set config directives
+set debugging level
+list configuration data
+clean the ScoreboardFile
+shutdown the daemon
+display status of servers
+set trace levels
+ctrls_admin
+mod_ctrls_admin/0.9.9: error registering '%s' control: %s
+up: no server associated with %s#%u
+up: attempting to enable %s#%u
+%s:%d: notice: unable to open ipbind '%s': %s
+up: no server listening on %s#%u
+%s:%d: notice: unable to add binds to ipbind '%s': %s
+trace: missing required parameters
+trace: badly formatted parameter: '%s'
+trace: error setting channel '%s' to levels %d-%d: %s
+trace: set channel '%s' to levels %d-%d
+trace: error parsing level '%s' for channel '%s': %s
+shutdown: waiting %u seconds before shutting down
+shutdown: %u seconds elapsed, ending %lu remaining sessions
+shutdown: waiting for %lu sessions to end
+shutdown: error flushing response: %s
+shutdown: flushed to %s/%s client: return value: 0
+shutdown: flushed to %s/%s client: '%s'
+unknown scoreboard action '%s'
+kick user: missing required user name(s)
+error rewinding scoreboard: %s
+error restoring scoreboard: %s
+mod_ctrls_admin/0.9.9: kicked user '%s' (%d clients)
+mod_ctrls_admin/0.9.9: kicked user '%s'
+kick host: missing required host(s)
+kick host: error resolving '%s': %s
+mod_ctrls_admin/0.9.9: kicked host '%s' (%d clients)
+mod_ctrls_admin/0.9.9: kicked host '%s'
+kick class: missing required class name(s)
+kicked class '%s' (%d clients)
+mod_ctrls_admin/0.9.9: kicked class '%s' (%d clients)
+mod_ctrls_admin/0.9.9: kicked class '%s'
+unknown kick type requested: '%s'
+get: missing required parameters
+%s: wrong number of parameters
+unknown get type requested: '%s'
+dns: missing required parameters
+dns: wrong number of parameters
+dns: error: expected 'clear' command: '%s'
+dns: error: expected Boolean parameter: '%s'
+dns: UseReverseDNS set to '%s'
+debug: missing required parameters
+debug: wrong number of parameters
+debug level must not be negative
+config: badly formatted IPv6 address: %s
+config: missing required parameters
+config set: missing required parameters
+config set: error preparing parser: %s
+config set: error adding server to parser stack: %s
+config set: error parsing config data: %s
+config set: unknown configuration directive '%s'
+config remove: missing required parameters
+config remove: wrong number of parameters
+config remove: error preparing parser: %s
+config remove: error adding server to parser stack: %s
+config remove: %s not found in configuration
+config: unknown config action: '%s'
+error opening scoreboard: bad/corrupted file
+error opening scoreboard: bad version (too old)
+error opening scoreboard: bad version (too new)
+status: no server associated with %s#%u
+up: missing required parameters
+up: unable to resolve address for '%s'
+status: missing required parameters
+server restarted %u %s since %04d-%02d-%02d %02d:%02d:%02d GMT
+error obtaining GMT timestamp: %s
+down: missing required parameters
+second parameter must be 'allow' or 'deny'
+third parameter must be 'user' or 'group'
+set UseReverseDNS configuration
+disable an individual virtual server
+disconnect a class, host, or user
+restart the daemon (similar to using HUP)
+enable a downed virtual server
+;*3$"
+mod_ctrls_admin.so.debug
+7zXZ
+M<{h.};GB!m
+ pV:
+1m\,t{
+|Z	g
+KnRT
+"W[w&
+!}%BO
+/0j:cc
+1 #"=
+oq|1G
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

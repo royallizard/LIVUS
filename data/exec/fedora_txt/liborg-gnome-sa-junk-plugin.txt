@@ -1,0 +1,213 @@
+tdD@
+^A`M
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+org_gnome_sa_use_remote_tests
+dcgettext
+g_strdup_printf
+gtk_check_button_new_with_mnemonic
+gtk_label_new
+gtk_label_get_type
+g_type_check_instance_cast
+gtk_label_set_markup
+g_free
+gtk_vbox_new
+gtk_widget_get_type
+gtk_box_get_type
+gtk_box_pack_start
+gtk_toggle_button_get_type
+gtk_toggle_button_set_active
+g_signal_connect_data
+gtk_table_attach
+gtk_widget_show_all
+gtk_toggle_button_get_active
+gconf_client_set_bool
+e_plugin_lib_enable
+pthread_mutex_lock
+pthread_mutex_unlock
+gconf_client_get_default
+gconf_client_add_dir
+gconf_client_get_bool
+gconf_client_get_string
+gconf_client_notify_add
+em_junk_sa_spamc_gconf_binary
+em_junk_sa_spamd_gconf_binary
+open
+read
+strtol
+kill
+camel_debug
+waitpid
+stderr
+__fprintf_chk
+g_object_unref
+gconf_entry_get_key
+gconf_entry_get_value
+strrchr
+gconf_value_get_string
+g_strdup
+gconf_value_get_bool
+g_return_if_fail_warning
+camel_debug_start
+g_find_program_in_path
+pipe
+fork
+camel_stream_fs_new_with_fd
+camel_data_wrapper_get_type
+camel_object_cast
+camel_data_wrapper_write_to_stream
+camel_stream_flush
+camel_stream_close
+camel_object_unref
+camel_stream_mem_new
+camel_stream_mem_set_byte_array
+camel_stream_write_to_stream
+g_byte_array_append
+__printf_chk
+putchar
+camel_debug_end
+dup2
+setsid
+sysconf
+fcntl
+execvp
+_exit
+__errno_location
+strerror
+strlen
+camel_write
+e_mktemp
+nanosleep
+__xstat
+em_junk_sa_validate_binary
+g_byte_array_new
+g_ascii_table
+g_byte_array_free
+em_junk_sa_check_junk
+time
+g_log
+g_byte_array_set_size
+em_junk_sa_report_junk
+camel_mime_message_get_subject
+g_print
+em_junk_sa_report_non_junk
+em_junk_sa_commit_reports
+libc.so.6
+__cxa_atexit
+__stack_chk_fail
+_edata
+__bss_start
+liborg-gnome-sa-junk-plugin.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.0
+\[^_]
+\[^_]
+[^_]
+[^_]
+,[^_]
+\[^_]
+\[^_]
+,[^_]
+ [^]
+This will make Spamassasin more reliable, but slower
+/apps/evolution/mail/junk/sa/local_only
+/apps/evolution/mail/junk/sa/use_daemon
+/apps/evolution/mail/junk/sa/socket_path
+/apps/evolution/mail/junk/sa/spamc_binary
+/apps/evolution/mail/junk/sa/spamd_binary
+em_junk_sa_finalize send SIGTERM to daemon with pid %d
+gconf_entry_get_key (entry) != NULL
+program not found, returning %d
+failed to create a pipe (for use with spamassassin: %s
+child process output: %s len: %d
+wait for child %d termination
+child %d terminated with result %d status %d exited %d exitstatus %d
+test if spamd is running (system %d) or using socket path %s
+looks like spamd is not running
+trying to run %s with socket path %s
+ps ax|grep -v grep|grep -E 'spamd.*(\-L|\-\-local)'|grep -E -v '\ \-p\ |\ \-\-port\ '
+there's no system spamd with -L/--local parameter running
+false alert, spamd still running
+going to kill old spamd and start new one
+em_junk_sa_check_respawn_too_fast: %d
+respawning of spamd too fast => fallback to use spamassassin directly
+em_junk_sa_check_junk rv = %d
+    <small>%s</small>
+I_nclude remote tests
+toggled
+/apps/evolution/mail/junk/sa
+junk
+em_junk_sa_finalize
+tkey != NULL
+local_only
+use_daemon
+socket_path
+pipe_to_sa 
+/dev/null
+From test@127.0.0.1
+failed
+success
+result: %d (%s)
+spamd-socket-path-XXXXXX
+spamd-pid-file-XXXXXX
+--socketpath
+--local
+--max-children=1
+--pidfile
+success
+waiting for spamd to come up
+socket created
+waiting is over (after %dms)
+spamassassin
+--version
+/bin/sh
+use spamd: %s
+sa-learn
+em_junk_sa_check_junk
+--exit-code
+em_junk_sa_respawn_spamd
+--no-sync
+--no-rebuild
+--spam
+--single
+report junk?? %s
+em_junk_sa_report_junk
+--ham
+em_junk_sa_report_notjunk
+--sync
+--rebuild
+em_junk_sa_commit_reports
+/usr/sbin/spamc
+/usr/sbin/spamd
+em_junk_sa_setting_notify
+liborg-gnome-sa-junk-plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

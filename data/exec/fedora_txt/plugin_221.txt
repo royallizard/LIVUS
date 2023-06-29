@@ -1,0 +1,496 @@
+03hG
+w4:yhG
+ruhG
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_peek_string
+complex_from_string
+value_get_as_float
+value_new_float
+value_new_error_VALUE
+__sprintf_chk
+complex_to_string
+value_new_string_nocopy
+gsl_complex_arccoth
+gsl_complex_arccsch
+gsl_complex_arcsech
+gsl_complex_arctanh
+gsl_complex_arccosh
+gsl_complex_arcsinh
+gsl_complex_arccot
+gsl_complex_arccsc
+gsl_complex_arcsec
+gsl_complex_arctan
+gsl_complex_arccos
+gsl_complex_arcsin
+gsl_complex_coth
+gsl_complex_csch
+gsl_complex_sech
+gsl_complex_tanh
+gsl_complex_cosh
+gsl_complex_sinh
+gsl_complex_inverse
+complex_div
+function_iterate_argument_values
+complex_mul
+abort
+gsl_complex_negative
+complex_sqrt
+value_dup
+value_new_error_DIV0
+atan2
+hypot
+complex_pow
+go_plugin_depends
+go_plugin_header
+complex_functions
+acosh
+atan
+log1p
+asin
+acos
+atanh
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.4
+u%z#
+P[^]
+P[^]
+@[^]
+@[^]
+udzb
+ [^]
+ [^]
+@[^]
+@[^]
+P[^]
+P[^]
+uQzO
+uQzO
+u$z"
+P[^]
+ukzi
+P[^]
+P[^]
+u9z7
+P[^]
+P[^]
+uaz_
+%%.%dg
+goffice
+gnumeric
+1.6.3
+complex
+ff|s
+real,im,suffix
+imabs
+imaginary
+imargument
+imconjugate
+imcos
+imdiv
+inumber,inumber
+imexp
+imln
+imlog10
+imlog2
+impower
+imreal
+imsin
+imsqrt
+imsub
+imsum
+iminv
+imneg
+imtan
+improduct
+imsec
+imcsc
+imcot
+imsinh
+imcosh
+imtanh
+imsech
+imcsch
+imcoth
+imarcsin
+imarccos
+imarctan
+imarcsec
+imarccsc
+imarccot
+imarcsinh
+imarccosh
+imarctanh
+imarcsech
+imarccsch
+imarccoth
+?munG
+@FUNCTION=COMPLEX
+@SYNTAX=COMPLEX(real,im[,suffix])
+@DESCRIPTION=COMPLEX returns a complex number of the form x + yi.
+@real is the real and @im is the imaginary part of the complex number.  @suffix is the suffix for the imaginary part.  If it is omitted, COMPLEX uses 'i' by default.
+* If @suffix is neither 'i' nor 'j', COMPLEX returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+COMPLEX(1,-1) equals 1-i.
+@SEEALSO=
+@FUNCTION=IMABS
+@SYNTAX=IMABS(inumber)
+@DESCRIPTION=IMABS returns the absolute value of a complex number.
+* If @inumber is not a valid complex number, IMABS returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMABS("2-j") equals 2.23606798.
+@SEEALSO=IMAGINARY,IMREAL
+@FUNCTION=IMAGINARY
+@SYNTAX=IMAGINARY(inumber)
+@DESCRIPTION=IMAGINARY returns the imaginary part of a complex number.
+* If @inumber is not a valid complex number, IMAGINARY returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMAGINARY("132-j") equals -1.
+@SEEALSO=IMREAL
+@FUNCTION=IMARGUMENT
+@SYNTAX=IMARGUMENT(inumber)
+@DESCRIPTION=IMARGUMENT returns the argument theta of a complex number, i.e. the angle in radians from the real axis to the representation of the number in polar coordinates.
+* If @inumber is not a valid complex number, IMARGUMENT returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMARGUMENT("2-j") equals -0.463647609.
+@SEEALSO=
+@FUNCTION=IMCONJUGATE
+@SYNTAX=IMCONJUGATE(inumber)
+@DESCRIPTION=IMCONJUGATE returns the complex conjugate of a complex number.
+* If @inumber is not a valid complex number, IMCONJUGATE returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMCONJUGATE("1-j") equals 1+j.
+@SEEALSO=IMAGINARY,IMREAL
+@FUNCTION=IMCOS
+@SYNTAX=IMCOS(inumber)
+@DESCRIPTION=IMCOS returns the cosine of a complex number.
+* If @inumber is not a valid complex number, IMCOS returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMCOS("1+j") equals 0.833730-0.988898j.
+@SEEALSO=IMSIN,IMTAN
+@FUNCTION=IMDIV
+@SYNTAX=IMDIV(inumber1,inumber2)
+@DESCRIPTION=IMDIV returns the quotient of two complex numbers.
+* If @inumber1 or @inumber2 are not valid complex numbers, IMDIV returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMDIV("2-j","2+j") equals 0.6-0.8j.
+@SEEALSO=IMPRODUCT
+@FUNCTION=IMEXP
+@SYNTAX=IMEXP(inumber)
+@DESCRIPTION=IMEXP returns the exponential of a complex number.
+* If @inumber is not a valid complex number, IMEXP returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMEXP("2-j") equals 3.992324-6.217676j.
+@SEEALSO=IMLN
+@FUNCTION=IMLN
+@SYNTAX=IMLN(inumber)
+@DESCRIPTION=IMLN returns the natural logarithm of a complex number.
+The result will have an imaginary part between -pi and +pi.  The natural logarithm is not uniquely defined on complex numbers. You may need to add or subtract an even multiple of pi to the imaginary part.
+* If @inumber is not a valid complex number, IMLN returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMLN("3-j") equals 1.15129-0.32175j.
+@SEEALSO=IMEXP,IMLOG2,IMLOG10
+@FUNCTION=IMLOG10
+@SYNTAX=IMLOG10(inumber)
+@DESCRIPTION=IMLOG10 returns the logarithm of a complex number in base 10.
+* If @inumber is not a valid complex number, IMLOG10 returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMLOG10("3-j") equals 0.5-0.13973j.
+@SEEALSO=IMLN,IMLOG2
+@FUNCTION=IMLOG2
+@SYNTAX=IMLOG2(inumber)
+@DESCRIPTION=IMLOG2 returns the logarithm of a complex number in base 2.
+* If @inumber is not a valid complex number, IMLOG2 returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMLOG2("3-j") equals 1.66096-0.46419j.
+@SEEALSO=IMLN,IMLOG10
+@FUNCTION=IMPOWER
+@SYNTAX=IMPOWER(inumber1,inumber2)
+@DESCRIPTION=IMPOWER returns a complex number raised to a power.  @inumber1 is the complex number to be raised to a power and @inumber2 is the power to which you want to raise it.
+* If @inumber1 or @inumber2 are not valid complex numbers, IMPOWER returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMPOWER("4-j",2) equals 15-8j.
+@SEEALSO=IMSQRT
+@FUNCTION=IMREAL
+@SYNTAX=IMREAL(inumber)
+@DESCRIPTION=IMREAL returns the real part of a complex number.
+* If @inumber is not a valid complex number, IMREAL returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+imreal("132-j") equals 132.
+@SEEALSO=IMAGINARY
+@FUNCTION=IMSIN
+@SYNTAX=IMSIN(inumber)
+@DESCRIPTION=IMSIN returns the sine of a complex number.
+* If @inumber is not a valid complex number, IMSIN returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMSIN("1+j") equals 1.29846+0.63496j.
+@SEEALSO=IMCOS,IMTAN
+@FUNCTION=IMSQRT
+@SYNTAX=IMSQRT(inumber)
+@DESCRIPTION=IMSQRT returns the square root of a complex number.
+* If @inumber is not a valid complex number, IMSQRT returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMSQRT("1+j") equals 1.09868+0.4550899j.
+@SEEALSO=IMPOWER
+@FUNCTION=IMSUB
+@SYNTAX=IMSUB(inumber1,inumber2)
+@DESCRIPTION=IMSUB returns the difference of two complex numbers.
+* If @inumber1 or @inumber2 are not valid complex numbers, IMSUB returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMSUB("3-j","2+j") equals 1-2j.
+@SEEALSO=IMSUM
+@FUNCTION=IMSUM
+@SYNTAX=IMSUM(inumber1,inumber2)
+@DESCRIPTION=IMSUM returns the sum of two complex numbers.
+* If @inumber1 or @inumber2 are not valid complex numbers, IMSUM returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMSUM("2-4j","9-j") equals 11-5j.
+@SEEALSO=IMSUB
+@FUNCTION=IMINV
+@SYNTAX=IMINV(inumber)
+@DESCRIPTION=IMINV returns the the inverse, or reciprocal, of the complex number z (@inumber), where
+	1/z = (x - i y)/(x^2 + y^2).
+* If @inumber is not a valid complex number, IMINV returns #VALUE! error.
+@EXAMPLES=
+IMINV("1-j") equals 0.5+0.5j.
+@SEEALSO=
+@FUNCTION=IMNEG
+@SYNTAX=IMNEG(inumber)
+@DESCRIPTION=IMNEG returns the negative of the complex number z (@inumber), where
+	-z = (-x) + i(-y).
+* If @inumber is not a valid complex number, IMNEG returns #VALUE! error.
+@EXAMPLES=
+IMNEG("1-j") equals -1+j.
+@SEEALSO=
+@FUNCTION=IMTAN
+@SYNTAX=IMTAN(inumber)
+@DESCRIPTION=IMTAN returns the tangent of a complex number.
+* If @inumber is not a valid complex number, IMTAN returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMTAN("2-j") equals -0.2434582-1.1667363j.
+@SEEALSO=IMSIN,IMCOS
+@FUNCTION=IMPRODUCT
+@SYNTAX=IMPRODUCT(inumber1[,inumber2,...])
+@DESCRIPTION=IMPRODUCT returns the product of given complex numbers.
+* If any of the @inumbers are not valid complex numbers, IMPRODUCT returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+IMPRODUCT("2-j","4-2j") equals 6-8j.
+@SEEALSO=IMDIV
+@FUNCTION=IMSEC
+@SYNTAX=IMSEC(inumber)
+@DESCRIPTION=IMSEC returns the complex secant of the complex number z (@inumber), where
+	sec(z) = 1/cos(z).
+* If @inumber is not a valid complex number, IMSEC returns #VALUE! error.
+@EXAMPLES=
+IMSEC("2-j") equals -0.413149-0.687527j.
+@SEEALSO=IMCSC,IMCOT
+@FUNCTION=IMCSC
+@SYNTAX=IMCSC(inumber)
+@DESCRIPTION=IMCSC returns the complex cosecant of the complex number z (@inumber), where
+	csc(z) = 1/sin(z).
+* If @inumber is not a valid complex number, IMCSC returns #VALUE! error.
+@EXAMPLES=
+IMCSC("2-j") equals 0.635494-0.221501j.
+@SEEALSO=IMSEC,IMCOT
+@FUNCTION=IMCOT
+@SYNTAX=IMCOT(inumber)
+@DESCRIPTION=IMCOT returns the complex cotangent of the complex number z (@inumber), where
+	cot(z) = 1/tan(z).
+* If @inumber is not a valid complex number, IMCOT returns #VALUE! error.
+@EXAMPLES=
+IMCOT("2-j") equals -0.171384+0.821330j.
+@SEEALSO=IMSEC,IMCSC
+@FUNCTION=IMSINH
+@SYNTAX=IMSINH(inumber)
+@DESCRIPTION=IMSINH returns the complex hyperbolic sine of the complex number z (@inumber), where
+	sinh(z) = (exp(z) - exp(-z))/2.
+* If @inumber is not a valid complex number, IMSINH returns #VALUE! error.
+@EXAMPLES=
+IMSINH("1+j") equals 0.63496+1.29846j.
+@SEEALSO=IMCOSH,IMTANH
+@FUNCTION=IMCOSH
+@SYNTAX=IMCOSH(inumber)
+@DESCRIPTION=IMCOSH returns the complex hyperbolic cosine of the complex number z (@inumber), where
+	cosh(z) = (exp(z) + exp(-z))/2.
+* If @inumber is not a valid complex number, IMCOSH returns #VALUE! error.
+@EXAMPLES=
+IMCOSH("1+j") equals 0.83373+0.988898j.
+@SEEALSO=IMSINH,IMTANH
+@FUNCTION=IMTANH
+@SYNTAX=IMTANH(inumber)
+@DESCRIPTION=IMTANH returns the complex hyperbolic tangent of the complex number z (@inumber), where
+	tanh(z) = sinh(z)/cosh(z).
+* If @inumber is not a valid complex number, IMTANH returns #VALUE! error.
+@EXAMPLES=
+IMTANH("1+j") equals 1.083923+0.2717526j.
+@SEEALSO=IMSINH,IMCOSH
+@FUNCTION=IMSECH
+@SYNTAX=IMSECH(inumber)
+@DESCRIPTION=IMSECH returns the complex hyperbolic secant of the complex number z (@inumber), where
+	sech(z) = 1/cosh(z).
+* If @inumber is not a valid complex number, IMSECH returns #VALUE! error.
+@EXAMPLES=
+IMSECH("1+j") equals 0.498337-0.5910838j.
+@SEEALSO=IMCSCH,IMCOTH
+@FUNCTION=IMCSCH
+@SYNTAX=IMCSCH(inumber)
+@DESCRIPTION=IMCSCH returns the complex hyperbolic cosecant of the complex number z (@inumber), where
+	csch(z) = 1/sinh(z).
+* If @inumber is not a valid complex number, IMCSCH returns #VALUE! error.
+@EXAMPLES=
+IMCSCH("1+j") equals 0.303931-0.621518j.
+@SEEALSO=IMSECH,IMCOTH
+@FUNCTION=IMCOTH
+@SYNTAX=IMCOTH(inumber)
+@DESCRIPTION=IMCOTH returns the complex hyperbolic cotangent of the complex number z (@inumber) where,
+	coth(z) = 1/tanh(z).
+* If @inumber is not a valid complex number, IMCOTH returns #VALUE! error.
+@EXAMPLES=
+IMCOTH("1+j") equals 0.868014-0.217622j.
+@SEEALSO=IMSECH,IMCSCH
+@FUNCTION=IMARCSIN
+@SYNTAX=IMARCSIN(inumber)
+@DESCRIPTION=IMARCSIN returns the complex arcsine of the complex number @inumber. The branch cuts are on the real axis, less than -1 and greater than 1.
+* If @inumber is not a valid complex number, IMARCSIN returns #VALUE! error.
+@EXAMPLES=
+IMARCSIN("1+j") equals 0.6662394+1.061275j.
+@SEEALSO=IMARCCOS,IMARCTAN
+@FUNCTION=IMARCCOS
+@SYNTAX=IMARCCOS(inumber)
+@DESCRIPTION=IMARCCOS returns the complex arccosine of the complex number @inumber. The branch cuts are on the real axis, less than -1 and greater than 1.
+* If @inumber is not a valid complex number, IMARCCOS returns #VALUE! error.
+@EXAMPLES=
+IMARCCOS("1+j") equals 0.9045569-1.061275j.
+@SEEALSO=IMARCSIN,IMARCTAN
+@FUNCTION=IMARCTAN
+@SYNTAX=IMARCTAN(inumber)
+@DESCRIPTION=IMARCTAN returns the complex arctangent of the complex number @inumber. The branch cuts are on the imaginary axis, below -i and above i.
+* If @inumber is not a valid complex number, IMARCTAN returns #VALUE! error.
+@EXAMPLES=
+IMARCTAN("1+j") equals 1.0172220+0.4023595j.
+@SEEALSO=IMARCSIN,IMARCCOS
+@FUNCTION=IMARCSEC
+@SYNTAX=IMARCSEC(inumber)
+@DESCRIPTION=IMARCSEC returns the complex arcsecant of the complex number z (@inumber), where
+	arcsec(z) = arccos(1/z).
+* If @inumber is not a valid complex number, IMARCSEC returns #VALUE! error.
+@EXAMPLES=
+IMARCSEC("1+j") equals 1.1185179+0.5306375j.
+@SEEALSO=IMARCCSC,IMARCCOT
+@FUNCTION=IMARCCSC
+@SYNTAX=IMARCCSC(inumber)
+@DESCRIPTION=IMARCCSC returns the complex arccosecant of the complex number z (@inumber), where
+	arccsc(z) = arcsin(1/z).
+* If @inumber is not a valid complex number, IMARCCSC returns #VALUE! error.
+@EXAMPLES=
+IMARCCSC("1+j") equals 0.45227845-0.5306375j.
+@SEEALSO=IMARCSEC,IMARCCOT
+@FUNCTION=IMARCCOT
+@SYNTAX=IMARCCOT(inumber)
+@DESCRIPTION=IMARCCOT returns the complex arccotangent of the complex number z (@inumber), where
+	arccot(z) = arctan(1/z).
+* If @inumber is not a valid complex number, IMARCCOT returns #VALUE! error.
+@EXAMPLES=
+IMARCCOT("1+j") equals 0.553574+0.4023595j.
+@SEEALSO=IMARCSEC,IMARCCSC
+@FUNCTION=IMARCSINH
+@SYNTAX=IMARCSINH(inumber)
+@DESCRIPTION=IMARCSINH returns the complex hyperbolic arcsine of the complex number @inumber. The branch cuts are on the imaginary axis, below -i and above i.
+* If @inumber is not a valid complex number, IMARCSINH returns #VALUE! error.
+@EXAMPLES=
+IMARCSINH("1+j") equals 1.061275+0.6662394j.
+@SEEALSO=IMARCCOSH,IMARCTANH
+@FUNCTION=IMARCCOSH
+@SYNTAX=IMARCCOSH(inumber)
+@DESCRIPTION=IMARCCOSH returns the complex hyperbolic arccosine of the complex number @inumber. The branch cut is on the real axis, less than 1.
+* If @inumber is not a valid complex number, IMARCCOSH returns #VALUE! error.
+@EXAMPLES=
+IMARCCOSH("1+j") equals 1.06127506+0.904557j.
+@SEEALSO=IMARCSINH,IMARCTANH
+@FUNCTION=IMARCTANH
+@SYNTAX=IMARCTANH(inumber)
+@DESCRIPTION=IMARCTANH returns the complex hyperbolic arctangent of the complex number @inumber. The branch cuts are on the real axis, less than -1 and greater than 1.
+* If @inumber is not a valid complex number, IMARCTANH returns #VALUE! error.
+@EXAMPLES=
+IMARCTANH("1+j") equals 0.4023595+1.0172220j.
+@SEEALSO=IMARCSINH,IMARCCOSH
+@FUNCTION=IMARCSECH
+@SYNTAX=IMARCSECH(inumber)
+@DESCRIPTION=IMARCSECH returns the complex hyperbolic arcsecant of the complex number z (@inumber), where
+	arcsech(z) = arccosh(1/z).
+* If @inumber is not a valid complex number, IMARCSECH returns #VALUE! error.
+@EXAMPLES=
+IMARCSECH("1+j") equals 0.5306375-1.118518j.
+@SEEALSO=IMARCCSCH,IMARCCOTH
+@FUNCTION=IMARCCSCH
+@SYNTAX=IMARCCSCH(inumber)
+@DESCRIPTION=IMARCCSCH returns the complex hyperbolic arccosecant of the complex number z (@inumber), where
+	arccsch(z) = arcsinh(1/z).
+* If @inumber is not a valid complex number, IMARCCSCH returns #VALUE! error.
+@EXAMPLES=
+IMARCCSCH("1+j") equals 0.5306375-0.452278j.
+@SEEALSO=IMARCSECH,IMARCCOTH
+@FUNCTION=IMARCCOTH
+@SYNTAX=IMARCCOTH(inumber)
+@DESCRIPTION=IMARCCOTH returns the complex hyperbolic arccotangent of the complex number z (@inumber), where
+	arccoth(z) = arctanh(1/z).
+* If @inumber is not a valid complex number, IMARCCOTH returns #VALUE! error.
+@EXAMPLES=
+IMARCCOTH("1+j") equals 0.40235948-0.5535744j.
+@SEEALSO=IMARCSECH,IMARCCSCH
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

@@ -1,0 +1,193 @@
+YzK<CE
+Y0;m	
+-5"[
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+tcps_sessInitialize
+tcps_sessDebugPrint
+tcps_sessQueryInterface
+tcps_sessConstruct
+tcps_sessDestruct
+tcps_sessClassExit
+tcps_sessClassInit
+objGetObjInterface
+free
+__strdup
+__ctype_b_loc
+parseAndSubmitMessage
+dbgprintf
+close
+pthread_setcancelstate
+calloc
+tcpsrvInitialize
+tcpsrvDebugPrint
+tcpsrvQueryInterface
+tcpsrvConstruct
+tcpsrvDestruct
+tcpsrvClassExit
+tcpsrvClassInit
+modInit
+accept
+__errno_location
+__stack_chk_fail
+option_DisallowWarning
+Debug
+select
+family
+getaddrinfo
+malloc
+setsockopt
+bind
+listen
+socket
+freeaddrinfo
+gai_strerror
+libc.so.6
+_edata
+__bss_start
+_end
+lmtcpsrv.so
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2.5
+%z3 
+%r3 
+%j3 
+%b3 
+%Z3 
+%R3 
+%J3 
+%B3 
+%:3 
+%23 
+%*3 
+%"3 
+=@5 
+ATSubH
+=p1 
+%l/ 
+='/ 
+fffff.
+ffff.
+503 
+=}2 
+5\2 
+fffff.
+AWAVL
+AUATI
+C(M9
+[]A\A]A^A_
+fffff.
+ffff.
+5,+ 
+=<* 
+d$ H
+fffff.
+fff.
+e []A\
+AWAVAUATI
+D$(1
+[]A\A]A^A_
+|$(H
+l$ L
+T$0H
+D$pH
+D$(H
+AUATUSH
+t$ dH
+A9(~RA
+F(E1
+F(Ic
+V(Hc
+t6Hc
+E9 ~/D
+~(Hc
+[]A\
+E(Hc
+AWAVAUI
+ATUSH
+L$P1
+D$PE1
+D$XL
+t$\A
+gfffH
+D$HH
+|$PH
+D$HH
+h[]A\A]A^A_
+errmsg
+tcps_sess.c
+tcps_sess
+TCP Message with octet-counter, size %d.
+Framing Error in received TCP message: delimiter is not SP but has ASCII value %d.
+Framing Error: invalid octet count
+Framing Error in received TCP message: invalid octet count %d.
+truncating message with %d octets - MAXLINE is %d
+received oversize message: size is %d bytes, MAXLINE is %d, truncating...
+error: message received is larger than MAXLINE, we split it
+Incomplete frame at end of stream in session %d - ignoring extra data (a message may be lost).
+Extra data at end of stream in legacy syslog/tcp message - processing
+tcpsrv.c
+conf
+lmnet
+tcpsrv
+objGetObjInterface
+modExit
+modGetID
+getType
+Closing socket %d.
+%s is not an allowed sender
+Adding TCP Session %d
+create_tcp_socket(), socket
+TCP setsockopt
+TCP setsockopt(REUSEADDR)
+TCP setsockopt(BSDCOMPAT)
+TCP bind
+entry point '%s' not present in module
+Invalid TCP listen port %s - changed to 514.
+tcp accept, ignoring error and connection request
+too many tcp sessions - dropping incoming request
+TCP message from disallowed sender %s discarded
+--------<TCPSRV> calling select, active file descriptors (max %d): 
+New connect on TCP inetd socket: #%d
+tcp session socket with new data: #%d
+TCP session %d will be closed, error ignored
+Tearing down TCP Session %d - see previous messages for reason(s)
+creating tcp socket on port %s
+couldn't allocate memory for TCP listen sockets, suspending TCP message reception.
+listen with a backlog of %d failed - retrying with default of 32.
+TCP listen, suspending tcp inet
+We could initialize %d TCP listen sockets out of %d we received - this may or may not be an error indication.
+No TCP listen socket could successfully be initialized, message reception via TCP disabled.
+Allocating buffer for %d TCP sessions.
+Error: TCPSessInit() could not alloc memory for TCP session table.
+Could not initialize TCP session table, suspending TCP message reception.
+lmtcpsrv.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

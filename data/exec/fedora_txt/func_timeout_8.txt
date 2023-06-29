@@ -1,0 +1,110 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+sscanf
+ast_log
+option_verbose
+ast_options
+ast_channel_setwhentohangup_tv
+ast_verbose_get_by_file
+__ast_verbose
+gettimeofday
+ast_tvadd
+ast_localtime
+ast_strftime
+__stack_chk_fail
+__snprintf_chk
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+|$`1
+T$`H
+L$hH
+L$xH
+t$ H
+1v9L
+[]A\
+[]A\
+[]A\
+ffff.
+Must specify type of timeout to set.
+    -- Response timeout set to %.3f
+    -- Digit timeout set to %.3f
+Unknown timeout type specified.
+Must specify type of timeout to get.
+Channel timeout dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Gets or sets timeouts on the channel. Timeout values are in seconds.
+Gets or sets various channel timeouts. The timeouts that can be
+manipulated are:
+absolute: The absolute maximum amount of time permitted for a call.  A
+          setting of 0 disables the timeout.
+digit:    The maximum amount of time permitted between digits when the
+          user is typing in an extension.  When this timeout expires,
+          after the user has started to type in an extension, the
+          extension will be considered complete, and will be
+          interpreted.  Note that if an extension typed in is valid,
+          it will not have to timeout to be tested, so typically at
+          the expiry of this timeout, the extension will be considered
+          invalid (and thus control would be passed to the 'i'
+          extension, or if it doesn't exist the call would be
+          terminated).  The default timeout is 5 seconds.
+response: The maximum amount of time permitted after falling through a
+          series of priorities for a channel in which the user may
+          begin typing an extension.  If the user does not type an
+          extension in this amount of time, control will pass to the
+          't' extension if it exists, and if not the call would be
+          terminated.  The default timeout is 10 seconds.
+func_timeout.c
+%ld%lf
+Channel hangup cancelled.
+%Y-%m-%d %H:%M:%S.%3q %Z
+Channel will hangup at %s.
+%.3f
+$Revision: 166275 $
+func_timeout
+TIMEOUT
+TIMEOUT(timeouttype)
+timeout_write
+timeout_read
+a9c98e5d177805051735cb5b0b16b0a0
+func_timeout.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

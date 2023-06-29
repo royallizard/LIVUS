@@ -1,0 +1,334 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+strrchr
+pa_startswith
+pa_xfree
+pa_log_level_meta
+abort
+inotify_init1
+inotify_add_watch
+__errno_location
+pa_close
+pa_cstrerror
+pa_sprintf_malloc
+access
+dcgettext
+pa_namereg_get
+opendir
+dirfd
+fpathconf
+pa_xmalloc
+readdir_r
+udev_new
+udev_device_new_from_syspath
+udev_device_get_sysattr_value
+pa_xstrdup
+udev_device_unref
+udev_unref
+closedir
+fclose
+pa_fopen_cloexec
+fgets
+pa_card_suspend
+pa_ratelimit_test
+pa_module_load
+__stack_chk_fail
+pa_read
+pa_hashmap_iterate
+strcmp
+udev_device_get_property_value
+udev_device_get_devpath
+udev_device_get_action
+pa_hashmap_get
+pa_hashmap_remove
+pa_module_unload_request_by_index
+pa_xmalloc0
+pa_namereg_make_valid_name
+pa_strbuf_new
+pa_strbuf_printf
+pa_strbuf_tostring_free
+pa_hashmap_put
+udev_monitor_receive_device
+module_udev_detect_LTX_pa__get_author
+module_udev_detect_LTX_pa__get_description
+module_udev_detect_LTX_pa__get_version
+module_udev_detect_LTX_pa__load_once
+module_udev_detect_LTX_pa__get_usage
+module_udev_detect_LTX_pa__done
+udev_monitor_unref
+pa_hashmap_free
+module_udev_detect_LTX_pa__init
+pa_modargs_new
+pa_idxset_string_compare_func
+pa_idxset_string_hash_func
+pa_hashmap_new_full
+pa_modargs_get_value_boolean
+pa_modargs_get_value
+pa_modargs_get_value_u32
+udev_monitor_new_from_netlink
+udev_monitor_filter_add_match_subsystem_devtype
+udev_monitor_enable_receiving
+udev_monitor_get_fd
+udev_enumerate_new
+udev_enumerate_add_match_subsystem
+udev_enumerate_scan_devices
+udev_enumerate_get_list_entry
+udev_list_entry_get_name
+udev_list_entry_get_next
+udev_enumerate_unref
+pa_hashmap_size
+pa_modargs_free
+libpulsecore-6.0.so
+libpulsecommon-6.0.so
+libpulse.so.0
+libudev.so.1
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-udev-detect.so
+/usr/lib64/pulseaudio
+LIBUDEV_183
+GLIBC_2.2.5
+GLIBC_2.9
+GLIBC_2.4
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+%z@ 
+%r@ 
+%j@ 
+%b@ 
+%Z@ 
+%R@ 
+%J@ 
+%B@ 
+%:@ 
+%2@ 
+%*@ 
+%"@ 
+%z? 
+%r? 
+%j? 
+%b? 
+fffff.
+=Y? 
+5R? 
+fffff.
+=	? 
+=r9 
+fffff.
+=99 
+St*H
+fff.
+AWAVAUATUSH
+_AXL
+[]A\A]A^A_
+AYAZL
+l$hM
+|$0H
+T$PH
+D$(H
+|$(L
+|$(H
+T$PH
+D$hH
+t$@H
+D$ t
+|$hH
+D$hH
+t$ H
+|$8H
+t$8H
+|$HH
+AYAZ
+t$PH
+_AXH
+L$0H
+AWAVAUATM
+D$PH
+D$HH
+|$4H
+l$ L
+l$ L
+l$ L
+l$ L
+[]A\A]A^A_
+\$HH
+AWAVAUATUSH
+[]A\A]A^A_1
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+t$(H
+L$8L
+ATUStGI
+[]A\
+[]A\
+AVAUH
+5e! 
+ATUH
+5/& 
+=9& 
+[]A\A]A^
+/card
+modules/module-udev-detect.c
+inotify_init1() failed: %s
+/dev/snd
+Suspending
+Resuming
+/dev/snd/controlC%s
+pulseaudio
+%s is accessible: %s
+/proc/asound/card%s
+Failed to open %s: %s
+readdir_r() failed: %s
+pcmC%sD%s/pcm_class
+name
+/sys/class/sound/card%s
+Failed to get card object.
+modem
+%s/%s/status
+Failed to read from %s: %s
+closed
+%s is busy: %s
+module-alsa-card
+Card %s (%s) module loaded.
+%s/%s
+read() too short.
+Payload missing.
+controlC
+pcmC
+pcmC%sD
+PULSE_IGNORE
+SOUND_CLASS
+remove
+Card %s removed.
+change
+SOUND_INITIALIZED
+PULSE_NAME
+ID_ID
+ID_PATH
+alsa_card.%s
+ tsched_buffer_size=%u
+Lennart Poettering
+tsched
+tsched_buffer_size
+fixed_latency_range
+ignore_dB
+deferred_volume
+use_ucm
+udev
+Failed to initialize monitor.
+sound
+Failed to enable monitor: %s
+Failed to match to subsystem.
+Failed to scan for devices.
+Found %u cards.
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+/dev/snd/ is apparently not existing yet, retrying to create inotify watch later.
+You apparently ran out of inotify watches, probably because Tracker/Beagle took them all away. I wished people would do their homework first and fix inotify before using it for watching whole directory trees which is something the current inotify is certainly not useful for. Please make sure to drop the Tracker/Beagle guys a line complaining about their broken use of inotify.
+inotify_add_watch() failed: %s
+u->inotify_io = u->core->mainloop->io_new(u->core->mainloop, u->inotify_fd, PA_IO_EVENT_INPUT, inotify_cb, u)
+Failed to allocate udev context.
+Loading module-alsa-card with arguments '%s'
+Card %s (%s) failed to load module.
+Tried to configure %s (%s) more often than %u times in %llus
+%s all sinks and sources of card %s.
+read() from inotify failed: %s
+Ignoring %s, because marked so.
+Ignoring %s, because it is a modem.
+device_id="%s" name="%s" card_name="%s" namereg_fail=false tsched=%s fixed_latency_range=%s ignore_dB=%s deferred_volume=%s use_ucm=%s card_properties="module-udev-detect.discovered=1"
+Failed to get udev device object from monitor.
+Detect available audio hardware and load matching drivers
+tsched=<enable system timer based scheduling mode?> tsched_buffer_size=<buffer size when using timer based scheduling> fixed_latency_range=<disable latency range changes on underrun?> ignore_dB=<ignore dB information from the device?> deferred_volume=<syncronize sw and hw volume changes in IO-thread?> use_ucm=<use ALSA UCM for card configuration?>
+Failed to parse module arguments
+Failed to parse tsched= argument.
+Failed to parse tsched_buffer_size= argument.
+Failed to parse fixed_latency_range= argument.
+Failed to parse ignore_dB= argument.
+Failed to parse deferred_volume= argument.
+Failed to parse use_ucm= argument.
+Failed to initialize udev library.
+Failed to subscribe to sound devices.
+Most likely your kernel is simply too old and allows only privileged processes to listen to device events. Please upgrade your kernel to at least 2.6.30.
+Failed to get udev monitor fd.
+u->udev_io = u->core->mainloop->io_new(u->core->mainloop, fd, PA_IO_EVENT_INPUT, monitor_cb, u)
+Failed to initialize udev enumerator.
+Failed to get udev device object from udev.
+module_udev_detect_LTX_pa__done
+module_udev_detect_LTX_pa__done
+process_path
+inotify_cb
+setup_inotify
+setup_inotify
+device_free
+device_free
+card_get_sysattr
+card_get_sysattr
+is_card_busy
+is_card_busy
+verify_access
+verify_access
+remove_card
+process_device
+process_device
+monitor_cb
+monitor_cb
+module_udev_detect_LTX_pa__init
+module_udev_detect_LTX_pa__init
+;*3$"
+module-udev-detect.so.debug
+7zXZ
+p{rW`
+o:D-
+*!dBi
+M30C
+O'"*
+4 O!
+BK]Q
+d])n"+a
+CFR[`LLV8
+M3^K
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

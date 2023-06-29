@@ -1,0 +1,161 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+PyList_New
+PyList_Append
+PyString_FromString
+PyArg_ParseTuple
+PyEval_SaveThread
+inotify_rm_watch
+PyEval_RestoreThread
+_Py_NoneStruct
+PyExc_OSError
+PyErr_SetFromErrno
+inotify_add_watch
+PyInt_FromLong
+PyErr_SetFromErrnoWithFilename
+inotify_init
+close
+PyInt_AsLong
+_PyString_Join
+PyString_AsString
+PyString_Repr
+PyString_FromFormat
+PyDict_SetItem
+init_inotify
+PyType_Ready
+Py_InitModule4_64
+PyModule_GetDict
+read_events
+fpathconf
+PyTuple_New
+PyObject_CallObject
+ioctl
+PyExc_ValueError
+PyErr_Format
+__stack_chk_fail
+libpython2.6.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+5"  
+%$  
+%"  
+=(* 
+ATSubH
+t Hc
+x H;=
+uSE1
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+x(H;=
+ffff.
+l$ H
+l$ H
+fff.
+fffff.
+<<Ic?
+i:decode_mask
+iI:remove_watch
+isI:add_watch
+:init
+event(wd=%d, mask=%s)
+_inotify
+IN_ACCESS
+IN_MODIFY
+IN_ATTRIB
+IN_CLOSE_WRITE
+IN_CLOSE_NOWRITE
+IN_OPEN
+IN_MOVED_FROM
+IN_MOVED_TO
+IN_CLOSE
+IN_MOVE
+IN_CREATE
+IN_DELETE
+IN_DELETE_SELF
+IN_MOVE_SELF
+IN_UNMOUNT
+IN_Q_OVERFLOW
+IN_IGNORED
+IN_ONLYDIR
+IN_DONT_FOLLOW
+IN_MASK_ADD
+IN_ISDIR
+IN_ONESHOT
+IN_ALL_EVENTS
+i|O:read
+bufsize must be at least %d
+_inotify.event
+watch descriptor
+event mask
+cookie
+file name
+event(wd=%d, mask=%s, name=%s)
+event(wd=%d, mask=%s, cookie=0x%x, name=%s)
+event(wd=%d, mask=%s, cookie=0x%x)
+rename cookie, if rename-related event
+Low-level inotify interface wrappers.
+event: Structure describing an inotify event.
+init() -> fd
+Initialise an inotify instance.
+Return a file descriptor associated with a new inotify event queue.
+add_watch(fd, path, mask) -> wd
+Add a watch to an inotify instance, or modify an existing watch.
+        fd: file descriptor returned by init()
+        path: path to watch
+        mask: mask of events to watch for
+Return a unique numeric watch descriptor for the inotify instance
+mapped by the file descriptor.
+remove_watch(fd, wd)
+        fd: file descriptor returned by init()
+        wd: watch descriptor returned by add_watch()
+Remove a watch associated with the watch descriptor wd from the
+inotify instance associated with the file descriptor fd.
+Removing a watch causes an IN_IGNORED event to be generated for this
+watch descriptor.
+read(fd, bufsize[=65536]) -> list_of_events
+Read inotify events from a file descriptor.
+        fd: file descriptor returned by init()
+        bufsize: size of buffer to read into, in bytes
+Return a list of event objects.
+If bufsize is > 0, block until events are available to be read.
+Otherwise, immediately return all events that can be read without
+blocking.
+decode_mask(mask) -> list_of_strings
+Decode an inotify mask value into a list of strings that give the
+name of each bit set in the mask.
+_inotify.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

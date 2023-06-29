@@ -1,0 +1,381 @@
+HS.3o6G
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+value_dup
+value_get_as_float
+random_weibull
+value_new_float
+random_01
+random_tdist
+random_skew_tdist
+random_rayleigh_tail
+random_rayleigh
+random_pareto
+value_new_error_NUM
+floor
+random_negbinom
+random_lognormal
+random_logistic
+random_logarithmic
+random_levy_skew
+random_laplace
+random_landau
+random_hypergeometric
+random_geometric
+random_gaussian_tail
+random_fdist
+random_exppow
+random_exponential
+collect_floats_value
+g_free
+go_range_min
+go_range_sum
+__stack_chk_fail
+random_chisq
+random_binomial
+random_beta
+random_bernoulli
+function_iterate_argument_values
+value_new_error_NA
+random_cauchy
+random_gamma
+random_gumbel2
+random_gumbel1
+random_poisson
+random_skew_normal
+random_normal
+ceil
+random_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+GLIBC_2.4
+5rZ 
+%tZ 
+%rZ 
+%jZ 
+%bZ 
+%ZZ 
+%RZ 
+%JZ 
+%BZ 
+%:Z 
+%2Z 
+%*Z 
+%"Z 
+%zY 
+%rY 
+%jY 
+%bY 
+%ZY 
+%RY 
+%JY 
+%BY 
+%:Y 
+%2Y 
+%*Y 
+%"Y 
+=9Y 
+fffff.
+fffff.
+=R9 
+fffff.
+=!9 
+fffff.
+fffff.
+fffff.
+AVAU
+ATUI
+l$ H
+D$81
+T$8dH3
+@[]A\A]A^
+T$(H
+.L$(
+T$0H
+D$ 1
+dH34%(
+ffffff.
+rand
+randbernoulli
+randbeta
+randbetween
+randbinom
+randcauchy
+randchisq
+randdiscrete
+randexp
+randexppow
+randfdist
+randgamma
+randnormtail
+randgeom
+randgumbel
+ff|f
+randhyperg
+randlandau
+randlaplace
+randlevy
+randlog
+randlogistic
+randlognorm
+randnegbinom
+randnorm
+randpareto
+randpoisson
+randrayleigh
+randrayleightail
+randsnorm
+|fff
+randstdist
+randtdist
+randuniform
+randweibull
+simtable
+df:degrees of freedom
+=RANDSTDIST(5,-2)
+=RANDSTDIST(5,2)
+RANDTDIST,RANDSNORM
+=RANDSNORM(-3,0,1)
+RANDNORM,RANDSTDIST
+d1:first value
+d2:second value
+=SIMTABLE(223,225,227,229)
+a:lower limit of the tail
+=RANDNORMTAIL(0.5,0.1)
+=RANDLANDAU()
+=RANDEXPPOW(0.5,0.1)
+=RANDLEVY(0.5,0.1,1)
+=RANDGUMBEL(0.5,1,2)
+=RANDTDIST(5)
+=RANDCHISQ(0.5)
+RAND,RANDGAMMA
+p:probability
+=RANDLOG(0.72)
+=RANDHYPERG(21,1,9)
+=RANDGEOM(0.4)
+=RANDLOGISTIC(1)
+=RANDBETA(1,2)
+=RANDFDIST(1,2)
+=RANDPARETO(1,2)
+=RANDGAMMA(1,2)
+=RANDRAYLEIGHTAIL(0.3,1)
+RAND,RANDRAYLEIGH
+=RANDRAYLEIGH(1)
+=RANDLAPLACE(1)
+=RANDWEIBULL(1,2)
+=RANDLOGNORM(1,2)
+=RANDCAUCHY(1)
+:mean of the distribution
+=RANDNORM(0,1)
+p:probability of success
+=RANDBERNOULLI(0.5)
+RAND,RANDBETWEEN
+n:number of failures
+=RANDNEGBINOM(0.5,5)
+bottom:lower limit
+top:upper limit
+=RANDBETWEEN(3,7)
+RAND,RANDUNIFORM
+n:number of trials
+=RANDBINOM(0.5,10)
+=RANDPOISSON(30)
+=RANDPOISSON(2)
+=RANDEXP(0.5)
+=RANDDISCRETE({1;3;5;7})
+RANDBETWEEN,RAND
+=RANDUNIFORM(1.4,4.2)
+=RAND()
+goffice
+gnumeric
+1.12.23
+RANDSTDIST:random variate from a skew-t distribution
+:shape parameter of the skew-t distribution, defaults to 0
+The mean of a skew-t distribution is not 0.
+The standard deviation of a skew-t distribution is not 1.
+The skewness of a skew-t distribution is in general not @{
+RANDSNORM:random variate from a skew-normal distribution
+:shape parameter of the skew-normal distribution, defaults to 0
+:location parameter of the skew-normal distribution, defaults to 0
+:scale parameter of the skew-normal distribution, defaults to 1
+The random variates are drawn from a skew-normal distribution with shape parameter @{
+}. When @{
+}=0, the skewness vanishes, and we obtain the standard normal density; as 
+ increases (in absolute value), the skewness of the distribution increases; when @{
+} approaches infinity  the density converges to the so-called half-normal (or folded normal) density function; if the sign of @{
+} changes, the density is reflected on the opposite side of the vertical axis.
+The mean of a skew-normal distribution with location parameter @{
+}=0 is not 0.
+The standard deviation of a skew-normal distribution with scale parameter @{
+}=1 is not 1.
+The skewness of a skew-normal distribution is in general not @{
+If @{
+} < 0, RANDSNORM returns #NUM!
+SIMTABLE:one of the values in the given argument list depending on the round number of the simulation tool
+SIMTABLE returns one of the values in the given argument list depending on the round number of the simulation tool. When the simulation tool is not activated, SIMTABLE returns @{d1}.
+With the simulation tool and the SIMTABLE function you can test given decision variables. Each SIMTABLE function contains the possible values of a simulation variable. In most valid simulation models you should have the same number of values @{dN} for all decision variables.  If the simulation is run more rounds than there are values defined, SIMTABLE returns #N/A! error (e.g. if A1 contains `=SIMTABLE(1)' and A2 `=SIMTABLE(1,2)', A1 yields #N/A! error on the second round).
+The successive use of the simulation tool also requires that you give to the tool at least one input variable having RAND() or any other RAND<distribution name>() function in it. On each round, the simulation tool iterates for the given number of rounds over all the input variables to reevaluate them. On each iteration, the values of the output variables are stored, and when the round is completed, descriptive statistical information is created according to the values.
+RANDNORMTAIL:random variate from the upper tail of a normal distribution with mean 0
+:standard deviation of the normal distribution
+The method is based on Marsaglia's famous rectangle-wedge-tail algorithm (Ann Math Stat 32, 894-899 (1961)), with this aspect explained in Knuth, v2, 3rd ed, p139, 586 (exercise 11).
+RANDLANDAU:random variate from the Landau distribution
+RANDEXPPOW:random variate from an exponential power distribution
+a:scale parameter of the exponential power distribution
+b:exponent of the exponential power distribution
+For @{b} = 1 the exponential power distribution reduces to the Laplace distribution.
+For @{b} = 2 the exponential power distribution reduces to the normal distribution with 
+ = a/sqrt(2)
+RANDLEVY:random variate from a L
+vy distribution
+c:parameter of the L
+vy distribution
+:parameter of the L
+vy distribution
+:parameter of the L
+vy distribution, defaults to 0
+For @{
+} = 1, @{
+}=0, the L
+vy distribution reduces to the Cauchy (or Lorentzian) distribution.
+For @{
+} = 2, @{
+}=0, the L
+vy distribution reduces to the normal distribution.
+If @{
+ 0 or @{
+} > 2, RANDLEVY returns #NUM!
+If @{
+} < -1 or @{
+} > 1, RANDLEVY returns #NUM!
+RANDGUMBEL:random variate from a Gumbel distribution
+a:parameter of the Gumbel distribution
+b:parameter of the Gumbel distribution
+type:type of the Gumbel distribution, defaults to 1
+If @{type} is neither 1 nor 2, RANDGUMBEL returns #NUM!
+RANDTDIST:random variate from a Student t distribution
+RANDCHISQ:random variate from a Chi-square distribution
+RANDLOG:random variate from a logarithmic distribution
+If @{p} < 0 or @{p} > 1 RANDLOG returns #NUM!
+RANDHYPERG:random variate from a hypergeometric distribution
+n1:number of objects of type 1
+n2:number of objects of type 2
+t:total number of objects selected
+RANDGEOM:random variate from a geometric distribution
+p:probability of success in a single trial
+If @{p} < 0 or @{p} > 1 RANDGEOM returns #NUM!
+RANDLOGISTIC:random variate from a logistic distribution
+a:parameter of the logistic distribution
+RANDBETA:random variate from a Beta distribution
+a:parameter of the Beta distribution
+b:parameter of the Beta distribution
+RANDFDIST:random variate from an F distribution
+df1:numerator degrees of freedom
+df2:denominator degrees of freedom
+RANDPARETO:random variate from a Pareto distribution
+a:parameter of the Pareto distribution
+b:parameter of the Pareto distribution
+RANDGAMMA:random variate from a Gamma distribution
+a:shape parameter of the Gamma distribution
+b:scale parameter of the Gamma distribution
+If @{a} 
+ 0, RANDGAMMA returns #NUM!
+RANDRAYLEIGHTAIL:random variate from the tail of a Rayleigh distribution
+:scale parameter of the Rayleigh distribution
+RANDRAYLEIGH:random variate from a Rayleigh distribution
+RANDLAPLACE:random variate from a Laplace distribution
+a:parameter of the Laplace distribution
+RANDWEIBULL:random variate from a Weibull distribution
+a:parameter of the Weibull distribution
+b:parameter of the Weibull distribution
+RANDLOGNORM:random variate from a lognormal distribution
+:parameter of the lognormal distribution
+:standard deviation of the distribution
+If @{
+} < 0, RANDLOGNORM returns #NUM!
+RANDCAUCHY:random variate from a Cauchy or Lorentz distribution
+a:scale parameter of the distribution
+If @{a} < 0 RANDCAUCHY returns #NUM!
+RANDNORM:random variate from a normal distribution
+If @{
+} < 0, RANDNORM returns #NUM!
+RANDBERNOULLI:random variate from a Bernoulli distribution
+If @{p} < 0 or @{p} > 1 RANDBERNOULLI returns #NUM!
+RANDNEGBINOM:random variate from a negative binomial distribution
+If @{p} < 0 or @{p} > 1 RANDNEGBINOM returns #NUM!
+If @{n} < 1 RANDNEGBINOM returns #NUM!
+RANDBETWEEN:a random integer number between and including @{bottom} and @{top}
+If @{bottom} > @{top}, RANDBETWEEN returns #NUM!
+This function is Excel compatible.
+RANDBINOM:random variate from a binomial distribution
+If @{p} < 0 or @{p} > 1 RANDBINOM returns #NUM!
+If @{n} < 0 RANDBINOM returns #NUM!
+RANDPOISSON:random variate from a Poisson distribution
+:parameter of the Poisson distribution
+If @{
+} < 0 RANDPOISSON returns #NUM!
+RANDEXP:random variate from an exponential distribution
+b:parameter of the exponential distribution
+RANDDISCRETE:random variate from a finite discrete distribution
+val_range:possible values of the random variable
+prob_range:probabilities of the corresponding values in @{val_range}, defaults to equal probabilities
+RANDDISCRETE returns one of the values in the @{val_range}. The probabilities for each value are given in the @{prob_range}.
+If the sum of all values in @{prob_range} is not one, RANDDISCRETE returns #NUM!
+If @{val_range} and @{prob_range} are not the same size, RANDDISCRETE returns #NUM!
+If @{val_range} or @{prob_range} is not a range, RANDDISCRETE returns #VALUE!
+RANDUNIFORM:random variate from the uniform distribution from @{a} to @{b}
+a:lower limit of the uniform distribution
+b:upper limit of the uniform distribution
+If @{a} > @{b} RANDUNIFORM returns #NUM!
+RAND:a random number between zero and one
+munG
+;*3$"
+plugin.so.debug
+7zXZ
+v&*v
+fG3j
+qi\q>
+~!<e
+Qe	0
+qv*Y
+t`tO?f
+s@%s
+DX[K=q
+LYj~TI
+	pWHG
+:y+{
+#I}(
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

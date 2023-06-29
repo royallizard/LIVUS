@@ -1,0 +1,225 @@
+/lib64/ld-linux-x86-64.so.2
+libnutscan.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+nutscan_scan_xml_http
+nutscan_scan_usb
+nutscan_display_parsable
+nutscan_free
+nutscan_display_ups_conf
+nutscan_avail_ipmi
+_fini
+nutscan_init
+nutscan_avail_snmp
+nutscan_free_device
+nutscan_scan_nut
+nutscan_cidr_to_ip
+nutscan_avail_usb
+nutscan_avail_avahi
+nutscan_avail_xml_http
+nutscan_scan_avahi
+nutscan_avail_nut
+nutscan_scan_ipmi
+nutscan_scan_snmp
+libltdl.so.7
+libssl.so.10
+libcrypto.so.10
+libpthread.so.0
+pthread_create
+pthread_join
+libc.so.6
+__printf_chk
+exit
+__strdup
+puts
+strtol
+__fprintf_chk
+stdout
+optarg
+stderr
+getopt_long
+__vfprintf_chk
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z- 
+%r- 
+%j- 
+%b- 
+%Z- 
+%R- 
+%J- 
+%B- 
+%:- 
+%2- 
+%*- 
+%"- 
+AVE1
+AUATA
+|$@H
+[]A\A]A^A_
+-v* 
+-K* 
+- * 
+-3) 
+-_( 
+|$(H
+5z' 
+=(' 
+|$0H
+L$8H
+|$0H
+=n& 
+=c% 
+\$ H
+=~% 
+=u% 
+=q% 
+=h% 
+=d% 
+=[% 
+=_% 
+=V% 
+=B% 
+=9% 
+|$0H
+=L$ 
+|$0H
+=0$ 
+|$0H
+|$0H
+5u" 
+|$0H
+|$0H
+=2" 
+=_! 
+fffff.
+5g! 
+=h! 
+ffff.
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+[]A\A]A^A_
+Illegal timeout value, using default %ds
+nut-scanner : detecting available power devices.
+  -C, --complete_scan: Scan all available devices (default).
+  -U, --usb_scan: Scan USB devices.
+  -S, --snmp_scan: Scan SNMP devices.
+  -M, --xml_scan: Scan XML/HTTP devices.
+  -O, --oldnut_scan: Scan NUT devices (old method).
+  -A, --avahi_scan: Scan NUT devices (avahi method).
+  -I, --ipmi_scan: Scan IPMI devices.
+  -t, --timeout <timeout in seconds>: network operation timeout (default %d).
+  -s, --start_ip <IP address>: First IP address to scan.
+  -e, --end_ip <IP address>: Last IP address to scan.
+  -m, --mask_cidr <IP address/mask>: Give a range of IP using CIDR notation.
+  -c, --community <community name>: Set SNMP v1 community name (default = public)
+  -l, --secLevel <security level>: Set the securityLevel used for SNMPv3 messages (allowed values: noAuthNoPriv,authNoPriv,authPriv)
+  -u, --secName <security name>: Set the securityName used for authenticated SNMPv3 messages (mandatory if you set secLevel. No default)
+  -w, --authProtocol <authentication protocol>: Set the authentication protocol (MD5 or SHA) used for authenticated SNMPv3 messages (default=MD5)
+  -W, --authPassword <authentication pass phrase>: Set the authentication pass phrase used for authenticated SNMPv3 messages (mandatory if you set secLevel to authNoPriv or authPriv)
+  -x, --privProtocol <privacy protocol>: Set the privacy protocol (DES or AES) used for encrypted SNMPv3 messages (default=DES)
+  -X, --privPassword <privacy pass phrase>: Set the privacy pass phrase used for encrypted SNMPv3 messages (mandatory if you set secLevel to authPriv)
+  -p, --port <port number>: Port number of remote NUT upsd
+  -N, --disp_nut_conf: Display result in the ups.conf format
+  -P, --disp_parsable: Display result in a parsable format
+  -V, --version: Display NUT version
+  -a, --available: Display available bus that can be scanned
+  -q, --quiet: Display only scan result. No information on currently scanned bus is displayed.
+No start IP, skipping NUT bus (old connect method)
+Scanning NUT bus (old connect method).
+Scanning NUT bus (avahi method).
+2.6.5
+Network UPS Tools - %s
+OLDNUT
+SNMP
+AVAHI
+IPMI
+OPTIONS:
+SNMP v1 specific options:
+SNMP v3 specific options:
+NUT specific options:
+display specific options:
+Miscellaneous options:
+Scanning USB bus.
+No start IP, skipping SNMP
+Scanning SNMP bus.
+Scanning XML/HTTP bus.
+Scanning IPMI bus.
+timeout
+start_ip
+end_ip
+mask_cidr
+community
+secLevel
+secName
+authPassword
+privPassword
+authProtocol
+privProtocol
+port
+complete_scan
+usb_scan
+snmp_scan
+xml_scan
+oldnut_scan
+avahi_scan
+ipmi_scan
+disp_nut_conf
+disp_parsable
+quiet
+help
+version
+available
+?ht:s:e:c:l:u:W:X:w:x:p:CUSMOAm:NPqIVa
+;*3$"
+nut-scanner.debug
+7zXZ
+xETf
+$E&.
+d3o"
+pcd*
+3;L^
+>T`v~
+t@O6
+ffv-
+2w^gu
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,296 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+initxs
+PyType_Ready
+Py_InitModule4_64
+PyExc_RuntimeError
+PyErr_NewException
+PyModule_AddObject
+_Py_NoneStruct
+PyErr_SetFromErrno
+__errno_location
+xs_daemon_close
+PyList_GetItem
+PyList_Size
+PySequence_SetItem
+PyList_New
+PyArg_ParseTupleAndKeywords
+xs_daemon_open_readonly
+xs_daemon_open
+Py_FindMethod
+PyArg_ParseTuple
+__strtoul_internal
+PyEval_SaveThread
+xs_get_permissions
+PyEval_RestoreThread
+Py_BuildValue
+PyList_SetItem
+free
+xs_write
+xs_rm
+xs_mkdir
+xs_directory
+PyString_FromString
+xs_read
+PyString_FromStringAndSize
+xs_get_domain_path
+xs_introduce_domain
+xs_release_domain
+xs_read_watch
+sscanf
+xs_transaction_start
+__sprintf_chk
+__stack_chk_fail
+xs_resume_domain
+PyList_Type
+PyType_IsSubtype
+calloc
+PyTuple_New
+xs_set_permissions
+xs_transaction_end
+_Py_TrueStruct
+_Py_ZeroStruct
+xs_watch
+PyList_Append
+xs_unwatch
+libxenctrl.so.3.0
+libxenguest.so.3.0
+libxenstore.so.3.0
+libpython2.5.so.1.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+%z* 
+%r* 
+%j* 
+%b* 
+%Z* 
+%R* 
+%J* 
+%B* 
+%:* 
+%2* 
+%** 
+%"* 
+%z) 
+%r) 
+%j) 
+%b) 
+=p- 
+ATSubH
+=h' 
+=g% 
+=@, 
+ATUH
+[]A\A]A^
+]A\A]A^
+=u* 
+=s' 
+L$ H
+[]A\
+T$ H
+L$,H
+T$,I
+9D$,w
+[]A\
+[]A\
+\$ H
+l$(H
+d$0H
+d$ L
+l$(L
+t$0H
+ATSH
+L$$L
+t$$I
+[A\H
+ATSH
+L$$L
+t$$I
+ATE1
+[]A\
+[]A\
+L$$H
+t$$H
+L$ H
+t$ H
+[A\H
+[A\H
+[A\H
+[A\H
+AWAVAUATUH
+H;D$
+[]A\A]A^A_
+AVAUATUH
+[]A\A]A^
+=/! 
+[A\H
+[A\H
+L$8H
+T$(L
+D$0H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+|$(1
+|$0H
+D$ H
+D$DL
+|$@E1
+|$0L
+T$8H
+t$ H
+d$ H
+ATUH
+T$(1
+T$(dH3
+8[]A\A]
+T$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+xen.lowlevel.xs
+xen.lowlevel.xs.Error
+write
+read
+{s:i,s:i,s:i}
+(sO)
+xen.lowlevel.xs.xs
+Xenstore connections
+mkdir
+get_permissions
+set_permissions
+read_watch
+unwatch
+transaction_start
+transaction_end
+introduce_domain
+resume_domain
+release_domain
+close
+get_domain_path
+transaction
+abort
+i|ii
+sss#
+readonly
+Read data from a path.
+ transaction [string]: transaction handle
+ path [string]:        xenstore path
+Returns: [string] data read.
+         None if key doesn't exist.
+Raises xen.lowlevel.xs.Error on error.
+Write data to a path.
+ transaction [string]: transaction handle
+ path   [string] : xenstore path to write to
+. data   [string] : data to write.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+List a directory.
+ transaction [string]: transaction handle
+ path [string]:        path to list.
+Returns: [string array] list of subdirectory names.
+         None if key doesn't exist.
+Raises xen.lowlevel.xs.Error on error.
+Make a directory.
+ path [string]: path to directory to create.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Remove a path.
+ transaction [string]: transaction handle
+ path [string] : path to remove
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Get the permissions for a path
+ transaction [string]: transaction handle
+ path [string]:        xenstore path.
+Returns: permissions array.
+Raises xen.lowlevel.xs.Error on error.
+Set the permissions for a path
+ transaction [string]: transaction handle
+ path  [string]      : xenstore path.
+ perms               : permissions.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Watch a path, get notifications when it changes.
+ path     [string] : xenstore path.
+ token    [string] : returned in watch notification.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Read a watch notification.
+Returns: [tuple] (path, token).
+Raises xen.lowlevel.xs.Error on error.
+Stop watching a path.
+ path  [string] : xenstore path.
+ token [string] : token from the watch.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Start a transaction.
+Returns transaction handle on success.
+Raises xen.lowlevel.xs.Error on error.
+End the current transaction.
+Attempts to commit the transaction unless abort is true.
+ abort [int]: abort flag (default 0).
+Returns True on success, False if you need to try again.
+Raises xen.lowlevel.xs.Error on error.
+Tell xenstore about a domain so it can talk to it.
+ dom  [int]   : domain id
+ page [long]  : address of domain's xenstore page
+ port [int]   : port the domain is using for xenstore
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Tell xenstore to clear its shutdown flag for a domain.
+This ensures that a subsequent shutdown will fire the
+appropriate watches.
+ dom [int]: domain id
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Tell xenstore to release its channel to a domain.
+Unless this is done the domain will not be released.
+ dom [int]: domain id
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Close the connection to xenstore.
+Returns None on success.
+Raises xen.lowlevel.xs.Error on error.
+Return store path of domain, whether or not the domain exists.
+ domid [int]: domain id
+Returns: [string] domain store path.
+Raises xen.lowlevel.xs.Error on error.
+xs.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

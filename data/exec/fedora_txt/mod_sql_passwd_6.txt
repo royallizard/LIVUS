@@ -1,0 +1,276 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+make_sub_pool
+pcalloc
+check_context
+strcasecmp
+add_config_param
+pstrdup
+palloc
+mod_create_ret
+strncasecmp
+pstrcat
+get_context_name
+strtol
+get_boolean
+main_server
+find_config
+pr_privs_root
+open
+pr_privs_relinquish
+fcntl
+read
+pr_signals_handle
+session
+memcpy
+close
+__errno_location
+strerror
+pr_log_debug
+__stack_chk_fail
+sql_passwd_module
+pr_event_register
+sql_register_authtype
+pr_log_pri
+EVP_DigestInit
+EVP_DigestUpdate
+EVP_DigestFinal
+EVP_EncodeInit
+EVP_EncodeBlock
+__sprintf_chk
+OpenSSL_add_all_digests
+EVP_get_digestbyname
+pr_trace_msg
+strlen
+strcmp
+mod_create_error
+sql_log
+pr_stash_get_symbol
+pr_table_get
+pr_module_call
+pr_str_strip
+sql_unregister_authtype
+pr_event_unregister
+libc.so.6
+_edata
+__bss_start
+_end
+mod_sql_passwd.so
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+ATSubH
+=H9 
+%T7 
+[A\]
+T$0H
+L$8L
+D$@L
+D$pH
+D$ H
+[]A\
+AWAVAUATUH
+[]A\A]A^A_
+G0E1
+AWAVAUATUSH
+[]A\A]A^A_
+G0E1
+fffff.
+AWAVAUATUSH
+C E1
+[]A\A]A^A_
+ffff.
+D$81
+l$ H
+G0E1
+D$81
+l$ H
+D$81
+l$ H
+G0E1
+fff.
+AVAUATUSH
+[]A\A]A^A_
+5r/ 
+-[/ 
+%B- 
+=u* 
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+fff.
+AUATI
+D$h1
+T$hdH3
+x[]A\A]
+AWAVAUI
+D$@1
+l$HH
+L$HL
+l$XL
+D$@L
+T$XH
+=y' 
+T$XH
+t$8H
+L$8H
+T$8H
+h[]A\A]A^A_
+T$\H
+\$\H
+-l' 
+h[]A\A]A^A_
+h[]A\A]A^A_
+T$(L
+\$0L
+T$(L
+D$\H
+D$\H
+L$@H
+L$HH
+-0& 
+D$\H
+T$(L
+d$\L
+T$(L
+T$(L
+\$0L
+-W% 
+\$0I
+t$@H
+5E$ 
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+%y  
+|$(H
+wrong number of parameters
+ context
+directive not allowed in 
+name
+sql:/
+badly formatted parameter
+Append
+Prepend
+unknown salt flag '
+HashPassword
+HashSalt
+HashEncodePassword
+HashEncodeSalt
+: unknown SQLPasswordOption '
+missing arguments
+expected Boolean parameter
+base64
+' configured
+unsupported encoding '
+SQLPasswordEngine
+SQLPasswordEncoding
+SQLPasswordOptions
+SQLPasswordSaltFile
+none
+mod_sql_passwd.c
+core.module-unload
+sha1
+sha256
+sha512
+%02x
+%02X
+rounds
+round
+no such digest '%s' supported
+sql_passwd
+data after round %u: '%s'
+expected '%s', got '%s'
+SQLPasswordRounds
+SQLPasswordUserSalt
+mod_auth.orig-user
+SQLNamedQuery_
+sql_lookup
+sql_escapestr
+mod_sql_passwd/0.4
+PASS
+insufficient number of rounds (
+mod_sql_passwd/0.4: unable to read SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.4: error setting blocking mode on SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.4: error reading salt data from SQLPasswordSaltFile '%s': %s
+mod_sql_passwd/0.4: unable to register 'md5' SQLAuthType handler: %s
+mod_sql_passwd/0.4: registered 'md5' SQLAuthType handler
+mod_sql_passwd/0.4: unable to register 'sha1' SQLAuthType handler: %s
+mod_sql_passwd/0.4: registered 'sha1' SQLAuthType handler
+mod_sql_passwd/0.4: unable to register 'sha256' SQLAuthType handler: %s
+mod_sql_passwd/0.4: registered 'sha256' SQLAuthType handler
+mod_sql_passwd/0.4: unable to register 'sha512' SQLAuthType handler: %s
+mod_sql_passwd/0.4: registered 'sha512' SQLAuthType handler
+prepending %lu bytes of salt data
+prepending %lu bytes of %s-hashed salt data (%s)
+no salt present, ignoring HashEncodePassword SQLPasswordOption
+appending %lu bytes of salt data
+appending %lu bytes of %s-hashed salt data
+unsupported SQLPasswordEncoding configured
+transforming the data for another %u %s
+mod_sql_passwd/0.4: expected '%s', got '%s'
+mod_sql_passwd/0.4: unable to resolve SQLNamedQuery '%s'
+mod_sql_passwd/0.4: unable to find SQL hook symbol 'sql_lookup'
+mod_sql_passwd/0.4: unable to find SQL hook symbol 'sql_escapestr'
+mod_sql_passwd/0.4: error executing 'sql_escapestring'
+mod_sql_passwd/0.4: error processing SQLNamedQuery '%s'
+mod_sql_passwd/0.4: SQLNamedQuery '%s' returned wrong number of rows (%d)
+;*3$"
+mod_sql_passwd.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,326 @@
+/lib64/ld-linux-x86-64.so.2
+libcrypt.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libgmodule-2.0.so.0
+g_strdup_printf
+g_strdup
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+g_realloc
+g_malloc0
+libgio-2.0.so.0
+g_list_length
+libgobject-2.0.so.0
+libglib-2.0.so.0
+g_list_first
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+libdbmail.so.0
+dm_sievescript_rename
+yes_to_all
+dm_sievescript_delete
+sort_validate
+sort_get_errormsg
+SetTraceLevel
+dm_sievescript_deactivate
+config_read
+auth_connect
+config_get_file
+dm_sievescript_get
+no_to_all
+dm_sievescript_isactive_byname
+db_connect
+dm_sievescript_list
+GetDBParams
+auth_disconnect
+dm_sievescript_add
+verbose
+dm_sievescript_getbyname
+dm_sievescript_activate
+sort_get_error
+reallyquiet
+auth_user_exists
+configFile
+db_disconnect
+config_free
+sort_free_result
+g_list_destroy
+libldap-2.4.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+fflush
+__printf_chk
+fopen
+tempnam
+strncpy
+__stack_chk_fail
+unlink
+stdin
+fgetc
+openlog
+getopt
+__fprintf_chk
+stdout
+fputs
+fclose
+getenv
+optarg
+stderr
+system
+__fxstat
+fileno
+fwrite
+__cxa_finalize
+setvbuf
+__sprintf_chk
+__xstat
+opterr
+strerror
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/dbmail
+__libc_csu_fini
+__data_start
+__libc_csu_init
+_IO_stdin_used
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%z4 
+%r4 
+%j4 
+%b4 
+%Z4 
+%R4 
+%J4 
+%B4 
+%:4 
+%24 
+%*4 
+%"4 
+%z3 
+%r3 
+%j3 
+%b3 
+%Z3 
+%R3 
+%J3 
+ATUI
+=xC 
+5SC 
+=JC 
+5%C 
+ []A\
+AWAVAUATI
+=1B 
+=lA 
+=|@ 
+=F@ 
+=9@ 
+=o? 
+=W? 
+=J? 
+=-? 
+= ? 
+([]A\A]A^A_
+AWAVI
+AUATI
+=L> 
+5'> 
+=x= 
+=[= 
+=T< 
+=)< 
+H9D$xu=H
+H9D$Pu.E1
+[]A\A]A^A_
+AWAVE1
+AUATL
+D$H1
+=y8 
+=R8 
+=S' 
+L$HdH3
+X[]A\A]A^A_
+=q6 
+=b6 
+=L% 
+=q5 
+T$,I
+T$,I
+L$$u
+=54 
+|$8L
+|$8L
+|$8L
+=U3 
+|$8L
+=.3 
+|$8H
+t$@H
+|$@H
+D$@H
+|$@H
+l$8H
+|$@1
+=Z1 
+l$8H
+t$@H
+\$@H
+=w0 
+=+0 
+l$8H
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+Database error when fetching active script!
+Database error when fetching script!
+Could not determine if a script by that name already exists.
+A script by that name already exists. Use -y option to overwrite it.
+Error inserting temporary script into the database!
+Script could not be validated.
+Error inserting script [%s] into the database!
+Script [%s] successfully updated and remains active!
+Script [%s] successfully updated and remains inactive!
+Script [%s] successfully inserted and marked inactive!
+No EDITOR environment variable.
+Could not make temporary file name: %s
+Could not open temporary file [%s]: %s
+Could not dump script [%s] to temporary file.
+Execution of EDITOR [%s] returned non-zero [%d].
+Could not save script to [%s]: %s
+dbmail-users: -f requires a filename
+-n switch is not supported in this version.
+Copyright (C) 1999-2004 IC & S, dbmail@ic-s.nl
+Copyright (C) 2001-2007 Aaron Stone, aaron@serendipity.cx
+Copyright (C) 2004-2013 NFG Net Facilities Group BV, support@nfg.nl
+Please see the AUTHORS and THANKS files for additional contributors.
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*** dbmail-sievecmd ***
+Use this program to manage your users' Sieve scripts.
+See the man page for more info. Summary:
+     -u username            Username of script user 
+     -l                     List scripts belonging to user 
+     -a scriptname          Activate the named script 
+                            (only one script can be active; 
+                             deactivates any others) 
+     -d [scriptname]        Deactivate the named script 
+     -c [scriptname]        Print the contents of the named script
+     -e [scriptname]        Edit the contents of the named script
+                            (if no script is given, the active 
+                             script is printed) 
+     -i scriptname file     Insert the named script from file 
+                            (a single dash, -, indicates input 
+                             from STDIN) 
+     -r scriptname          Remove the named script 
+                            (if script was active, no script is 
+                             active after deletion) 
+Common options for all DBMail utilities:
+     -f file   specify an alternative config file
+     -q        quietly skip interactive prompts
+               use twice to suppress error messages
+     -n        show the intended action but do not perform it, no to all
+     -y        perform all proposed actions, as though yes to all
+     -v        verbose details
+     -V        show the version
+     -h        show this help message
+Failed. Unable to read config file %s
+Failed. Could not connect to database (check log)
+Failed. Could not connect to authentication (check log)
+Must give the name of a script to activate.
+Error activating script [%s].
+It is possible that no script is currently active!
+Script [%s] is now active. All others are inactive.
+Database error when fetching active script.
+Error deactivating script [%s].
+Script [%s] is now deactivated. No scripts are currently active.
+Error retrieving Sieve script list.
+No active script found!
+Script not found!
+Could not open file [%s]: %s
+@!temp-script!@
+Script [%s] has errors: %s.
+Script [%s] already exists.
+EDITOR
+dbmail
+%s %s
+Stat failed: [%s]
+File not modified, canceling.
+dbmail-invalid.%d.sieve
+Saved script to [%s]
+dbmail-invalid.xxx.sieve
+dbmail/sievecmd
+-a::d::i:c::r:u:le::f:qnyvVh
+dbmail 3.2.3
+This is %s
+DBMAIL
+User [%s] does not exist!
+Error deleting script [%s].
+Script [%s] deleted.
+No active script found.
+Found %u scripts:
+No scripts found!
+  + 
+  - 
+;*3$"
+dbmail-sievecmd.debug
+7zXZ
+t3zoD
+H|v3
+,BfG
+?>m^|
+OuFO]
+3[S1d
+0R5=`
+};P*
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

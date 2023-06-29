@@ -1,0 +1,3185 @@
+$P@@
+ A D
+qtX.!
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+C_GetFunctionList
+calloc
+pthread_mutex_init
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutex_destroy
+C_GetInfo
+sc_do_log
+C_GetSlotList
+memcpy
+sc_ctx_detect_readers
+C_GetSlotInfo
+gettimeofday
+__stack_chk_fail
+C_GetMechanismList
+C_GetMechanismInfo
+C_InitToken
+C_WaitForSlotEvent
+sc_wait_for_event
+C_Finalize
+sc_notify_close
+sc_cancel
+sc_ctx_get_reader
+sc_ctx_get_reader_count
+sc_release_context
+C_Initialize
+getpid
+sc_notify_init
+sc_context_create
+C_GetTokenInfo
+C_InitPIN
+C_SetPIN
+C_OpenSession
+C_CloseSession
+C_CloseAllSessions
+C_GetSessionInfo
+C_GetOperationState
+C_SetOperationState
+C_Login
+C_Logout
+C_CreateObject
+C_CopyObject
+C_DestroyObject
+C_GetObjectSize
+C_GetAttributeValue
+C_SetAttributeValue
+C_FindObjectsInit
+C_FindObjects
+C_FindObjectsFinal
+C_EncryptInit
+C_Encrypt
+C_EncryptUpdate
+C_EncryptFinal
+C_DecryptInit
+C_Decrypt
+C_DecryptUpdate
+C_DecryptFinal
+C_DigestInit
+C_Digest
+C_DigestUpdate
+C_DigestKey
+C_DigestFinal
+C_SignInit
+C_Sign
+C_SignUpdate
+C_SignFinal
+C_SignRecoverInit
+C_SignRecover
+C_VerifyInit
+C_Verify
+C_VerifyUpdate
+C_VerifyFinal
+C_VerifyRecoverInit
+C_VerifyRecover
+C_DigestEncryptUpdate
+C_DecryptDigestUpdate
+C_SignEncryptUpdate
+C_DecryptVerifyUpdate
+C_GenerateKey
+C_GenerateKeyPair
+C_WrapKey
+C_UnwrapKey
+C_DeriveKey
+C_SeedRandom
+C_GenerateRandom
+C_GetFunctionStatus
+C_CancelFunction
+sc_strerror
+__snprintf_chk
+realloc
+memcmp
+memset
+strlen
+strcmp
+sc_mem_clear
+sc_get_conf_block
+scconf_get_int
+scconf_get_bool
+scconf_get_str
+strdup
+strtok
+sc_disconnect_card
+sc_detect_card_presence
+sc_pkcs15_get_application_by_type
+sc_connect_card
+sc_match_atr_block
+_sc_delete_reader
+EVP_MD_CTX_md
+EVP_MD_size
+EVP_DigestFinal
+EVP_DigestUpdate
+EVP_MD_CTX_new
+EVP_DigestInit
+EVP_MD_CTX_free
+malloc
+ENGINE_by_id
+ENGINE_set_default
+ENGINE_free
+EVP_sha1
+EVP_sha224
+EVP_sha256
+EVP_sha384
+EVP_sha512
+EVP_md5
+EVP_ripemd160
+OBJ_nid2sn
+EVP_get_digestbyname
+ENGINE_ctrl_cmd_string
+OPENSSL_init_crypto
+d2i_PUBKEY
+EVP_VerifyFinal
+EVP_PKEY_free
+EVP_PKEY_new
+EVP_PKEY_set_type
+EVP_PKEY_CTX_free
+EVP_PKEY_CTX_new
+EVP_PKEY_CTX_ctrl_str
+EVP_PKEY_paramgen_init
+EVP_PKEY_paramgen
+EVP_PKEY_get0
+EC_KEY_get0_group
+d2i_ASN1_OCTET_STRING
+BN_bin2bn
+ASN1_OCTET_STRING_free
+EC_POINT_new
+EC_POINT_set_affine_coordinates_GFp
+BN_free
+EC_KEY_set_public_key
+EC_POINT_free
+EVP_PKEY_verify_init
+EVP_PKEY_verify
+EVP_PKEY_get1_RSA
+RSA_size
+RSA_public_decrypt
+RSA_free
+RSA_verify_PKCS1_PSS_mgf1
+sc_pkcs15_change_pin
+sc_pkcs15_find_so_pin
+sc_pkcs15_unblock_pin
+sc_pkcs15_pincache_clear
+sc_logout
+sc_unlock
+sc_pkcs15_get_objects
+sc_pkcs15_print_id
+sc_pkcs15_compare_id
+sc_pkcs15_dup_pubkey
+sc_pkcs15_bind
+sc_notify_id
+strnlen
+sc_get_challenge
+sc_lock
+sc_card_ctl
+sc_pkcs15init_bind
+sc_pkcs15init_finalize_profile
+sc_pkcs15init_set_callbacks
+sc_pkcs15init_erase_card
+sc_pkcs15init_unbind
+sc_pkcs15init_add_app
+sc_pkcs15_get_name_from_dn
+sc_bin_to_hex
+scconf_find_blocks
+snprintf
+sc_pkcs15init_store_pin
+sc_pkcs15_find_pin_by_auth_id
+sc_reset_retry_counter
+sc_pkcs15_read_certificate
+sc_pkcs15_pubkey_from_cert
+sc_asn1_skip_tag
+sc_pkcs15_unbind
+sc_pkcs15init_delete_object
+sc_pkcs15_free_pubkey
+sc_pkcs15_free_certificate
+sc_pkcs15init_change_attrib
+__memcpy_chk
+sc_select_file
+sc_pkcs15_derive
+sc_pkcs15_decipher
+sc_pkcs15_compute_signature
+sc_pkcs15_encode_pubkey_as_spki
+sc_pkcs15_encode_pubkey
+sc_pkcs15_encode_pubkey_ec
+sc_valid_oid
+sc_asn1_encode_object_id
+sc_pkcs15_read_data_object
+sc_pkcs15init_store_certificate
+sc_pkcs15_read_pubkey
+sc_pkcs15init_store_public_key
+sc_init_oid
+sc_asn1_decode_object_id
+sc_pkcs15init_store_data_object
+sc_pkcs15init_set_p15card
+sc_pkcs15init_generate_key
+sc_pkcs15_find_pubkey_by_id
+sc_mem_reverse
+sc_pkcs15init_store_private_key
+sc_pkcs15_verify_pin
+sc_pkcs15_search_objects
+sc_pkcs15_get_pin_info
+sc_pkcs15_find_pin_by_flags
+sc_pkcs15init_get_manufacturer
+sc_pkcs15init_get_serial
+__sprintf_chk
+__fprintf_chk
+fputc
+fwrite
+fputs
+d2i_X509_NAME
+BIO_s_file
+BIO_new
+BIO_ctrl
+X509_NAME_print
+BIO_free
+dlopen
+dlsym
+dlerror
+dlclose
+rand
+libopensc.so.6
+libz.so.1
+libcrypto.so.1.1
+libdl.so.2
+libpthread.so.0
+libc.so.6
+opensc-pkcs11.so
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3.4
+OPENSSL_1_1_0
+u+UH
+ATSH
+AWAVAUATUSH
+t	L9
+_AXL
+([]A\A]A^A_
+D$ H
+AYAZH
+D$ H
+AWAVAUATUSH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+AYAZH
+Hit$
+AUATUH
+ ]A\A]
+AUATUH
+ ]A\A]
+ATUH
+[]A\A]A^A_
+$H9P
+AWAVAUATA
+4$dH
+D$81
+L$8dH3
+H[]A\A]A^A_
+AYAZ
+D$ L
+|$(H
+t$0H
+D$0H
+L$(1
+AUATA
+[]A\A]
+[]A\A]
+AUATI
+D$(1
+T$(dH3
+8[]A\A]
+[]A\
+[]A\
+AWAVAUATA
+[]A\A]A^A_
+AZA[L
+_AXL
+AUE1
+L9"u
+[]A\A]
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+]A\A]A^
+AWAVAUI
+[]A\A]A^A_
+AYAZ
+[]A\A]A^A_
+xWH9
+ATSH
+AVAUATI
+[]A\A]A^
+[]A\A]A^
+AXAYM
+[]A\A]A^
+AWAVAUI
+[]A\A]A^A_
+[]A\A]A^A_
+_AXH
+[]A\A]A^
+]A\A]A^
+ATUH
+ []A\
+G`PH
+D$H1
+D$8H
+L$HdH3
+X]A\
+L$(H
+T$ L
+t$(H
+|$ H
+T$0H
+t$(H
+AWAVAUATUSH
+t$ dH
+dH3<%(
+[]A\A]A^A_
+L$8H
+T$0L
+t$0H
+t$01
+|$@M
+d$(H
+H;D$
+t$8H
+|$0H
+D$(A
+H;D$
+AUATUSH
+D$(1
+\$(dH3
+8[]A\A]
+L$ H
+t$ H
+t{E1
+t$ H
+AWAVAUI
+D$h1
+D$XH
+L$hdH3
+x[]A\A]A^A_
+D$ H
+t$@L
+D$ H
+|$@H
+L$HH
+D$ H
+D$@H
+D$,H
+|$@H
+T$PL
+|$@L
+T$XAXAYHcBX
+AZA[
+\$XHcs`H
+T$XH
+Ch^H
+Jh_H
+tOHcBX
+@XP1
+AVAUATUSH
+ []A\A]A^
+IcF\IcVXI
+NhH)
+ATUH
+AUATUSH
+[]A\A]
+D$(1
+\$(dH3
+8[]A\A]A^A_
+T$ 1
+D$ I9E
+ATUH
+]A\A]A^
+ATUH
+]A\A]A^
+AVAUATUH
+D$X1
+D$(H
+D$HH
+L$XdH3
+h]A\A]A^
+T$@H
+ATUH
+([]A\A]A^A_
+ATUH
+]A\A]A^
+ATUH
+(]A\A]A^
+tjI9E
+AVAUATUH
+D$x1
+D$(H
+D$HH
+D$hH
+L$xdH3
+]A\A]A^
+T$`H
+T$@H
+ATUH
+[]A\A]A^A_
+AWAVAUATUSH
+D$pH
+D$xH
+D$(1
+D$ H
+\$(dH3
+8[]A\A]A^A_
+AWAVAUATUSH
+D$x1
+D$HH
+D$ H
+D$hH
+\$xdH3
+[]A\A]A^A_
+|$(H
+L$0L
+t$0H
+|$(H
+t$0H
+|$(H
+T$`H
+L$8L
+D$(H
+D$(H
+t$@H
+L$0H
+T$@H
+ATUH
+]A\A]A^
+AVAUATUH
+D$81
+D$(H
+L$8dH3
+H]A\A]A^
+T$ A
+ATUH
+[]A\A]A^A_
+ATUH
+]A\A]A^
+ATUH
+]A\A]A^
+AVAUI
+ATUH
+t$ H;s
+[]A\A]A^
+D$0L
+T$ H9S
+T$ H9S
+[]A\
+[]A\
+AVAUATUS
+[]A\A]A^
+dwIH
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+]A\A]A^
+A\A]H
+]A\A]A^
+ATUS
+[]A\
+AVAUATUSH
+[]A\A]A^
+]A\A]A^
+t'AUATUH
+]A\A]
+AUATUH
+[]A\A]A^
+$[]A\A]A^
+]A\A]A^
+[]A\
+w"Hc
+t_w%H
+\$0I
+]A\A]A^
+]A\A]A^
+s H9
+AUATUSH
+([]A\A]
+\$0I
+]A\A]A^
+]A\A]A^
+AVAUATUH
+[]A\A]A^A_
+g@USH
+Cj[]A\
+[]A\
+AWAVAUATUH
+L$,L
+T$0L
+D$(1
+t$8H
+L$@H
+|$HL
+D$PL
+|$lH
+t$`H)
+D$pL
+L$xL
+D$(H
+D$ H
+|$lH
+D$0H
+D$8H
+D$HH
+D$PH
+D$XH
+D$`H
+D$pH
+D$xH
+[]A\A]A^A_
+tWUH
+[]A\A]A^
+]A\A]A^
+9]@w
+[]A\A]
+AUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+_AXI
+A[A^M
+AYAZI
+E8@t
+_AXL
+<$Y^H
+A[A^L
+/L9|$
+D$$H
+AYAZH
+AYAZ
+_AXL
+A[A^
+A9\$
+[]A\
+Z[]A\
+[]A\
+@8 us
+[]A\A]
+[]A\A]A^A_
+[]A\A]A^A_
+HAQH
+[]A\A]
+XZHc
+[]A\A]
+ATUSH
+D$H1
+T$0H
+D$8H
+L$HdH3
+X[]A\A]
+AUATI
+\$PH
+AZA[H
+|$HD
+P0^_I
+([]A\A]A^A_
+AXAY
+mPA[XH
+AYIc
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+D$HH
+D$`P
+l$hH
+D$p	
+T$@H
+D$ H
+t$ I
+[]A\A]A^A_
+D$(L
+0u$H
+SPAT
+t$PL
+T$ H
+tWUH
+H90u
+|$HI
+|$HI
+l$P1
+[]A\A]
+XZHc
+[]A\A]
+[]A\A]
+AUATI
+[]A\A]A^A_
+PAWL
+AZA[
+ATUH
+[]A\A]A^
+udE1
+[]A\A]
+ATUH
+]A\A]A^
+AYAZ
+AUATI
+H9h 
+[]A\A]A^A_
+ubE1
+[]A\A]A^
+AVAUI
+[]A\A]A^A_
+ugE1
+[]A\
+AVAUATUSH
+M9n t
+[]A\A]A^
+u"Hc
+]A\A]
+]A\A]
+AWAVAUATUSH
+L9p t'H
+[]A\A]A^A_
+[]A\A]A^
+AWAVAUATUSH
+D$81
+L9h t+H
+\$8dH3
+H[]A\A]A^A_
+D$0I
+D$(H
+[]A\A]A^
+AWAVI
+D$(1
+L$(dH3
+8[]A\A]A^A_
+AUATI
+[]A\A]
+[]A\A]
+tgATUSH
+[]A\
+oS f
+o[0f
+oc@f
+os`f
+ATUH
+AWAVAUATU
+D$x1
+\$xdH3
+[]A\A]A^A_
+|$ I
+D$(H
+|$(1
+T$0H
+t$(H
+t$ 1
+:vbL
+u$Hc
+$H=U
+l$0H
+T$(L
+D$(L
+|$(A
+ u4f
+t.Ic
+D$81
+D$$H
+D$,H
+|$8dH3<%(
+t$ dH
+D$X1
+l$XL
+|$@H
+D$8H
+T$0H
+L$(H
+T$0L
+\$XdH3
+h[]A\A]A^A_
+l$PH
+L$@L
+|$P	
+T$HH
+0H92
+AUATI
+[]A\A]
+H9^@tUH
+[]A\A]
+AYAZtRM
+Z[]A\A]A^
+Y^H9]
+[]A\A]A^
+AWAVAUATUSH
+D$(1
+D$ H
+\$ RH
+wiI9
+\$(dH3
+8[]A\A]A^A_
+t$ I
+t$ H
+D$0_AX
+t$ I
+ATSH
+uAE1
+AUATUH
+[]A\A]A^
+AWAVAUATE1
+G(ZYH
+[]A\A]A^A_
+GPE1
+u	I9
+o0AZA[H
+_AXE
+o@XZ
+_8Y^
+AWAVAUATU1
+D$H1
+|$HdH3<%(
+X[]A\A]A^A_
+t-E1
+t$0E1
+|$0A
+t$8L
+D$@A
+t$0E1
+t$0E1
+t$0E1
+t$0E1
+t$0E1
+D$@E1
+D$@H
+D$0H
+4$E1
+[]A\
+vBH=p
+[]A\
+t&L;
+ATSH
+D$x1
+t$ L
+l$(L
+\$xdH3
+[]A\A]A^A_
+t$@L
+d$@H
+)D$hH
+)D$XL
+l$PL
+A\A]D
+A^A_
+C(Y^
+AVAUI
+D$0L
+)D$ H
+[]A\A]A^A_
+AWAVAUATI
+[]A\A]A^A_
+SATH
+t$ 1
+[]A\A]A^
+ATUH
+]A\A]
+ []A\A]A^
+L$PH
+L$PH
+L$PH
+L$PH
+[]A\
+vzH=
+[]A\
+t\H9S
+t!H9S
+AVE1
+ATE1
+A\A]A^
+AWAVAUATUSH
+[]A\A]A^A_
+}PXZ
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+tzH=
+[]A\A]A^A_
+u^AUATE1
+[]A\A]
+AVAUM
+t$`H
+t$8AWATH
+w(E1
+D$(H
+[]A\A]A^A_
+([]A\A]A^A_
+[]A\A]A^A_
+AYAZ
+AVAUM
+"u;H
+[]A\A]A^A_
+\$0H
+\$0H
+T$(E
+AYAZL
+AWAVI
+AUATI
+D$`1
+\$XdH3
+h[]A\A]A^A_
+AZA[A
+\$XdH3
+D$XdH3
+h[]A\A]A^A_
+D$ Hc
+D$(H
+D$DH
+D$L1
+D$XdH3
+_AXA
+tRH=p
+wZH=
+([]A\A]
+ATUH
+ []A\A]A^
+AWAVAUI
+ATUSH
+[]A\A]A^A_
+d$(AT
+AVAUATUS
+?w]H
+[]A\A]A^
+AVAUI
+ATUH
+D$(1
+t$ H
+t$ H
+\$(dH3
+0[]A\A]A^
+AWAVI
+AUATUH
+l$@L
+d$8M
+[]A\A]A^A_
+L$0L
+t$0H
+t$(H
+ATUH
+ []A\A]A^
+AWAVAUI
+ATUH
+d$@L
+L$8E1
+t$8M
+ w/IcD
+L$0L
+t$0H
+t$(H
+dH34%(
+[]A\A]A^A_
+AWAVAUI
+ATUH
+dH34%(
+[]A\A]A^A_
+wiIc
+t$8H
+T$0H
+ATUSH
+l$@H
+wQIc
+[]A\A]A^A_
+L$8H
+t$8H
+t$0H
+AWAVI
+D$ dH
+$AXAYH
+D$ H
+D$@H
+t$@H
+D$pH
+|$@L
+[]A\A]A^A_
+A[A\
+AYAZ
+|$(H
+D$0H
+D$hH
+L$0H
+D$hH
+_AXA
+\$ H
+|$@H
+L$xH
+D$HH
+T$(H
+D$HL
+T$PH
+t$HH
+|$ H
+D$p0
+t$0M
+|$(L
+t$PH
+|$ H
+t$XH
+t$`H
+D$`H
+T$XH
+AUATUSH
+d$PL
+D$HH
+D$(I
+t$ A
+dH34%(
+[]A\A]A^A_
+D$(H
+D$(H
+t$ H
+D$HH
+L$@L
+t$@H
+T$8L
+t$8L
+|$H0
+D$(H
+AWAVAUATUSH
+D$(1
+L$ L
+t/Lc
+\$(dH3
+8[]A\A]A^A_
+D$ H
+D$ H
+AWAVAUATUSH
+D$h1
+_AXI
+\$hdH3
+x[]A\A]A^A_
+t$ 1
+)D$ H
+D$ 6
+)D$0
+)D$@
+)D$P
+_AX1
+AVAUATI
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+I9_@u
+`PATH
+AXAYE9
+C(E1
+[]A\A]A^A_
+T$(H
+t$ H
+[]A\A]A^A_
+[]A\A]A^A_
+D$pH
+AUATUH
+D$ 1
+A\A^H
+([]A\A]A^A_
+AXAYH
+T$ XY
+AZA[
+ []A\
+AUATI
+I9V8
+L$(L
+T$ H
+T$(H
+L$ L
+L$ L
+T$(RH
+|$P1
+A[XE
+D$HH
+D$HI
+D$8M9
+D$8I
+D$8L
+dH34%(
+[]A\A]A^A_
+t$@1
+t$@L
+D$HA^A_H
+t$HAXAYM
+D$(H
+D$8H
+D$@L
+D$@I
+D$8L
+D$HI
+AZA[
+ []A\
+ATUSH
+t$H1
+)D$0H
+D$ H
+L$(L
+L$HdH3
+X[]A\A]
+AUATA
+[]A\A]
+AWAVI
+\$PL
+[]A\A]A^A_
+D$PH
+[]A\A]A^A_
+t#H9
+AWAVAUATUH
+ t6H
+[]A\A]A^A_
+AWAVAUI
+ATUH
+\$x1
+D$xdH3
+[]A\A]A^A_
+)D$(QH
+\$@L
+/L9$$
+AUATI
+[]A\A]
+H90u
+AUATUH
+[]A\A]
+]A\A]
+AUATI
+D$81
+l$0H
+D$(1
+D$8dH3
+@[]A\A]A^
+AUATI
+[]A\A]A^
+AUATUH
+[]A\A]
+]A\A]
+AWAVAUATI
+t$ L
+|$(H
+T$0L
+D$8H
+AVAUATSAS
+ARWH
+[]A\A]A^A_
+H9;u
+L9|$
+[]A\A]A^A_
+RAVAUL
+H9:u
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+]A\A]
+AWAVAUATUSH
+tlI9
+T$@A
+T$@A
+T$@A
+([]A\A]A^A_
+T$@A
+ATSH
+AVAUATU
+[]A\A]A^
+[]A\A]A^
+ATSH
+AWAVA
+AUATA
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+U(I9
+9](w
+AUATUSH
+tFH9
+t[E1
+[]A\A]
+L9+t
+tcATUH
+[]A\
+AWAVAUATUSH
+D+l$
+[]A\A]A^A_
+AUATUSH
+[]A\A]
+C_GetInfo()
+pkcs11-global.c
+OpenSC Project
+OpenSC smartcard framework
+returned %lu slots
+C_GetSlotList(token=%d, %s)
+plug-n-play
+refresh
+C_GetSlotInfo(0x%lx)
+C_GetSlotInfo() flags 0x%lX
+C_GetSlotInfo(0x%lx) = %s
+C_WaitForSlotEvent(block=%d)
+C_WaitForSlotEvent
+free reader states
+C_WaitForSlotEvent() = %s
+C_Finalize()
+C_Initialize() = %s
+was only a size inquiry (%lu)
+buffer was too small (needed %lu)
+C_GetSlotInfo() get slot rv %lu
+C_GetSlotInfo() card detect rv 0x%lX
+C_InitToken(pLabel='%s') called
+C_InitToken() get token error 0x%lX
+C_InitToken() not supported by framework
+C_InitToken(pLabel='%s') returns 0x%lX
+C_WaitForSlotEvent() reader_states:%p
+sc_wait_for_event() returned %d
+C_Initialize(): Cryptoki already initialized
+C_WaitForSlotEvent
+C_InitToken
+C_GetSlotInfo
+C_GetSlotList
+C_GetInfo
+C_Finalize
+C_Initialize
+real C_CloseSession(0x%lx)
+pkcs11-session.c
+C_OpenSession(0x%lx)
+C_OpenSession handle: 0x%lx
+C_OpenSession() = %s
+C_CloseAllSessions(0x%lx)
+C_GetSessionInfo(slot:0x%lx)
+C_GetSessionInfo(0x%lx) = %s
+C_Login(0x%lx, %lu)
+C_Login() slot->login_user %i
+C_Login() userType %li
+fLogin() rv %li
+C_Logout(hSession:0x%lx)
+C_InitPIN() called, pin '%s'
+<null>
+Could not delete session from list!
+C_OpenSession handle 0x%lx already exists
+real C_CloseAllSessions(0x%lx) %d
+C_GetSessionInfo(hSession:0x%lx)
+C_InitPIN() init-pin result %li
+Changing PIN (session 0x%lx; login user %d)
+C_SetPIN
+C_InitPIN
+C_Logout
+C_Login
+C_GetSessionInfo
+C_CloseAllSessions
+C_CloseSession
+sc_pkcs11_close_session
+sc_pkcs11_close_all_sessions
+C_OpenSession
+called
+pkcs11-object.c
+returning with: %d (%s)
+returning with: %d
+C_CreateObject()
+Object %lu
+C_SetAttributeValue
+C_FindObjectsInit()
+Object with handle 0x%lx
+Object %lu/%lu matches
+realloc for %d handles
+%d matching objects
+C_DigestInit(hSession=0x%lx)
+C_DigestInit() = %s
+C_Digest(hSession=0x%lx)
+C_Digest() = %s
+C_DigestUpdate() == %s
+C_DigestFinal() = %s
+C_SignInit() = %s
+C_Sign() = %s
+C_SignUpdate() = %s
+C_SignFinal() = %s
+C_DecryptInit() = %s
+C_Decrypt() = %s
+C_GenerateRandom() = %s
+C_VerifyInit() = %s
+C_Verify() = %s
+C_VerifyUpdate() = %s
+C_VerifyFinal() = %s
+freeing %d handles used %d  at %p
+C_DestroyObject(hSession=0x%lx, hObject=0x%lx)
+C_GetAttributeValue(hSession=0x%lx, hObject=0x%lx) = %s
+C_FindObjectsInit(slot = %lu)
+Object %lu/%lu: Private object and not logged in.
+Object %lu/%lu: Attribute 0x%lx does NOT match.
+Object %lu/%lu: Attribute 0x%lx matches.
+C_GenerateKeyPair(), PrivKey attrs
+C_GenerateKeyPair(), PubKey attrs
+C_VerifyFinal
+C_VerifyUpdate
+C_Verify
+C_VerifyInit
+C_GenerateRandom
+C_GenerateKeyPair
+C_Decrypt
+C_DecryptInit
+C_SignFinal
+C_SignUpdate
+C_Sign
+C_SignInit
+C_DigestFinal
+C_DigestUpdate
+C_Digest
+C_DigestInit
+sc_find_release
+C_FindObjectsInit
+C_SetAttributeValue
+C_GetAttributeValue
+C_DestroyObject
+sc_create_object_int
+C_GenerateKeyPair
+misc.c
+Error deleting login state
+Session 0x%lx, type %d
+onepin-opensc-pkcs11
+max_virtual_slots
+slots_per_card
+atomic
+lock_login
+init_sloppy
+user_pin_unblock_style
+set_pin_in_unlogged_session
+set_pin_in_specific_context
+init_pin_in_so_session
+create_puk_slot
+create_slots_for_pins
+user
+C_Sign
+C_Decrypt
+libopensc return value: %d (%s)
+PKCS#11 options: max_virtual_slots=%d slots_per_card=%d lock_login=%d atomic=%d pin_unblock_style=%d create_slots_flags=0x%X
+load_pkcs11_parameters
+session_get_operation
+session_start_operation
+pop_login_state
+sc_to_cryptoki_error_common
+Virtual hotplug slot
+slot.c
+slot_token_removed(0x%lx)
+%s: card removed
+<anonymous>
+%s: Detecting smart card
+%s: failed, %s
+%s: card absent
+%s: Card changed
+%s: First seen the card 
+%s: Connecting ... 
+%s: SC connect card error %i
+%s: Connected SC card %p
+generic
+%s: generic application %s
+pkcs15
+pkcs11_enable_InitToken
+%s: Creating 'generic' token.
+%s: Binding %s token.
+%s: bind %s token error Ox%lX
+%s: Creating %s token.
+%s: Detection ended
+<none>
+Reader '%s' initialized
+Slot(id=0x%lX): get token
+Slot-get-token returns OK
+Detect all cards
+All cards detected
+Initializing slot with id 0x%lx
+Allocated slot 0x%lx for card in reader %s
+%s: Detecting Framework. %i on-card applications
+%s: Try to bind 'generic' token.
+%s: 'InitToken' enabled -- accept non-binded card
+%s: cannot bind 'generic' token: rv 0x%lX
+%s: create 'generic' token error 0x%lX
+%s: create %s token error 0x%lX
+%s: Detected framework %d. Creating tokens.
+Initialize reader '%s': detect SC card presence
+Initialize reader '%s': detect PKCS11 card presence
+Slot(id=0x%lX): get token: now detect card
+card detected, but slot not presenting token
+slot 0x%lx token: %lu events: 0x%02X
+mask: 0x%02X events: 0x%02X result: %d
+slot_find_changed
+slot_token_removed
+slot_get_token
+slot_allocate
+card_detect_all
+card_detect
+card_removed
+initialize_reader
+create_slot
+mechanism.c
+data length %u
+%u bytes to sign
+data part length %li
+mechanism 0x%lX, key-type 0x%lX
+sc_pkcs11_register_sign_and_hash_mechanism
+sc_pkcs11_signature_init
+sc_pkcs11_signature_update
+sc_pkcs11_signature_final
+sc_pkcs11_signature_size
+sc_pkcs11_verify_init
+sc_pkcs11_decrypt_init
+sc_pkcs11_sign_size
+sc_pkcs11_sign_final
+sc_pkcs11_sign_update
+sc_pkcs11_sign_init
+sc_pkcs11_md_final
+sc_pkcs11_md_update
+sc_pkcs11_md_init
+Provided buffer too small: %lu < %d
+EVP_VerifyFinal(): Signature invalid
+EVP_VerifyFinal() returned %d
+Trying to verify using low-level API
+RSA_public_decrypt() returned %d
+PSS mechanism requires parameter
+openssl.c
+gost
+dynamic
+SO_PATH
+LOAD
+paramset
+Trying to verify using EVP
+Returning %lu
+sc_pkcs11_verify_data
+sc_pkcs11_openssl_md_final
+Slot:%lX Setting object handle of 0x%lx to 0x%lx
+pkcs15_release_token() not implemented
+pkcs11_get_pin_callback() auth-method %X
+pkcs11_get_pin_callback() PIN flags %X
+pkcs11_get_pin_callback() secret '%s'
+pkcs15-login: find SO PIN: rc %i
+Change '%.*s' (ref:%i,type:%i)
+PIN unlock is not allowed in unlogged session
+PIN unlock is not allowed with CKU_CONTEXT_SPECIFIC login
+cannot change PIN: non supported login type: %i
+Looking for objects related to object %d
+Object is a private key and has id %s
+Associating object %d as public key
+Object is a certificate and has id %s
+Associating object %d (id %s) as issuer
+Associating object %d as private key
+cannot register mechanisms; CKR 0x%lX
+pkcs15_skey_get_attribute() called
+Get 'enable-InitToken' card configuration option
+Try card specific token initialize procedure
+Using generic token initialize procedure
+No erase for the non-initialized card
+pkcs15init: create application on '%s' card
+pkcs15init: create application returns %i
+pkcs15_cert_extract_label() called. Current label: %s
+pkcs15_cert_extract_label(): Name from DN is %.*s
+Initialized token '%s' in slot 0x%lx
+Init PIN: pin %p:%lu; unblock style %i
+Create slot (p11card %p, fw_data %p, auth %p, app_info %p)
+pkcs15_cert_cmp_attribute() called
+pkcs15_cert_cmp_attribute() returns SC_ERROR_INTERNAL
+pkcs15_cert_cmp_attribute() returns CKA_ISSUER matched
+pkcs15_cert_cmp_attribute() returns CKA_SUBJECT matched
+pkcs15_cert_cmp_attribute() returns not matched
+pkcs15_cert_get_attribute() called
+C_SetAttributeValue: pkcs15init bind failed: %i
+C_SetAttributeValue: cannot finalize profile: %i
+derivation %p %p %p %p %lu %p %lu
+Derivation complete. Result %d.
+Decryption complete. Result %d.
+Initiating signing operation, mechanism 0x%lx.
+Selected flags %X. Now computing signature for %lu bytes. %lu bytes reserved.
+Invalid data lenght for the selected PSS parameters
+pkcs15_pubkey_get_attribute() called
+pkcs15_dobj_get_attribute() called
+data_get_attr(): encode OID error %i
+data_value_to_attr(): data(%p,len:%zu)
+Add objects related to PIN('%.*s',ID:%s)
+Slot:%p, obj:%p  Adding private key %d to PIN '%.*s'
+Slot:%p Adding data object %d to PIN '%.*s'
+Slot:%p Adding cert object %d to PIN '%.*s'
+__pkcs15_create_pubkey_object() called, pubkey %p, data %p
+Get pubkey from PKCS#15 object
+__pkcs15_create_pubkey_object() returns pubkey object %p
+Keypair generation, mech = 0x%0lx
+get_X509_usage_privk(): invalid typ = 0x%0lx
+get_X509_usage_pubk(): invalid typ = 0x%0lx
+sc_pkcs15_find_pubkey_by_id returned %d
+sc_pkcs15init_generate_key returned %d
+__pkcs15_create_pr/pubkey_object returned %d
+Try on-card key pair generation
+Template to store the RSA key is incomplete
+Template to store the GOST key is incomplete
+pkcs15-login: userType 0x%lX, PIN length %li
+context specific login returns %d
+Check if pkcs15 object list can be completed.
+Setting SC_AC_CONTEXT_SPECIFIC
+pkcs15_prkey_get_attribute() called
+found friend certificate's public key %p
+C_GetTokenInfo() get token: rv 0x%lX
+C_GetTokenInfo() auth. object %p, token-info flags 0x%lX
+C_GetTokenInfo(%lx) returns 0x%lX
+create PKCS#15 tokens; fws:%p,%p,%p
+Flags:0x%X; Auth User/Sign PINs %p/%p
+Found %d authentication objects
+Found authentication object '%.*s'
+Create slot for User PIN '%.*s'
+Create slot for Sign PIN '%.*s'
+Now create slot without AUTH object
+Created slot without AUTH object: %p
+Use FW data with index %i; fw_data->p15_card %p
+Create slot for the non-binded card
+framework-pkcs15.c
+C_SetPin
+PIN change returns %d
+C_SetPIN
+C_Logout
+Found %d %s%s
+Bind PKCS#15 '%s' application
+sc_pkcs15_bind failed: %d
+C_GenerateRandom
+Failed to lock card (%d)
+C_Login
+C_InitToken
+pkcs15init bind error %i
+finalize profile error %i
+set pkcs15init callbacks
+pkcs15init erase card
+pkcs15init unbind
+Cannot finalize profile: %i
+pkcs15init: unset callbacks
+pkcs15init: unbind
+init token error %i
+remove card error 0x%lX
+detect all card error 0x%lX
+Called
+model
+PKCS#15 emulated
+PKCS#15
+%.*s (%s)
+C_InitPin
+C_InitPIN
+User PIN
+C_GetAttributeValue
+C_DestroyObject
+Found related pubkey %p
+Found related p15 object %p
+Found pub_data %p
+reselect application df
+Initiating derivation
+C_DeriveKey
+Initiating decryption.
+DEE - need EC for %lu
+Sign complete. Result %d.
+check_cert_data_read
+ObjID(%p,%.*s,%x):%s
+Ignoring object %d
+Slot:%p Object %d skipped
+C_CreateObject
+No pubkey
+Use emulated pubkey
+No SOPIN found; returns %d
+context specific login %d
+new object found: type=0x%03X
+PKCS15 verify PIN returned %d
+found friend public key %p
+C_GetTokenInfo(%lx)
+C_GetTokenInfo
+UserPIN
+SignPIN
+UserPUK
+SignPUK
+SoPIN
+create slots flags 0x%X
+RSA private key
+RSA public key
+EC private key
+EC public key
+GOSTR3410 private key
+GOSTR3410 public key
+certificate
+data object
+found %i FW objects
+Found %d FW objects objects
+User/Sign PINs %p/%p
+slot %p, sign-slot %p
+Add public objects to slot %p
+%i public objects to process
+Add public object(%p,%.*s,%x)
+All tokens created
+pkcs15_skey_get_attribute
+data_value_to_attr
+pkcs15_dobj_get_attribute
+pkcs15_pubkey_get_attribute
+pkcs15_prkey_get_attribute
+pkcs15_prkey_sign
+pkcs15_prkey_decrypt
+reselect_app_df
+pkcs15_prkey_derive
+pkcs15_set_attrib
+pkcs15_cert_get_attribute
+pkcs15_cert_cmp_attribute
+pkcs15_any_destroy
+pkcs15_bind
+_add_public_objects
+pkcs15_create_slot
+_add_pin_related_objects
+__pkcs15_cert_bind_related
+__pkcs15_prkey_bind_related
+pkcs15_bind_related_objects
+pkcs15_create_pkcs11_objects
+_pkcs15_create_typed_objects
+pkcs15_create_tokens
+pkcs15_release_token
+lock_card
+pkcs15_login
+pkcs15_change_pin
+pkcs11_get_pin_callback
+pkcs15_initialize
+pkcs15_init_slot
+pkcs15_init_pin
+pkcs15_cert_extract_label
+pkcs15_create_private_key
+pkcs15_create_object
+pkcs15_add_object
+__pkcs15_create_pubkey_object
+get_X509_usage_pubk
+get_X509_usage_privk
+pkcs15_gen_keypair
+C_GetTokenInfo
+Unknown
+PKCS #15 SCard
+%02X
+FALSE
+TRUE
+<error>
+<size inquiry>
+%s: empty template
+%s: Attribute 0x%lx = %s
+%s: %s = %s
+CKA_CLASS
+CKA_TOKEN
+CKA_PRIVATE
+CKA_LABEL
+CKA_APPLICATION
+CKA_VALUE
+CKA_OBJECT_ID
+CKA_CERTIFICATE_TYPE
+CKA_ISSUER
+CKA_SERIAL_NUMBER
+CKA_AC_ISSUER
+CKA_OWNER
+CKA_ATTR_TYPES
+CKA_TRUSTED
+CKA_KEY_TYPE
+CKA_SUBJECT
+CKA_ID
+CKA_SENSITIVE
+CKA_ENCRYPT
+CKA_DECRYPT
+CKA_WRAP
+CKA_UNWRAP
+CKA_SIGN
+CKA_SIGN_RECOVER
+CKA_VERIFY
+CKA_VERIFY_RECOVER
+CKA_DERIVE
+CKA_START_DATE
+CKA_END_DATE
+CKA_MODULUS
+CKA_MODULUS_BITS
+CKA_PUBLIC_EXPONENT
+CKA_PRIVATE_EXPONENT
+CKA_PRIME_1
+CKA_PRIME_2
+CKA_EXPONENT_1
+CKA_EXPONENT_2
+CKA_COEFFICIENT
+CKA_PRIME
+CKA_SUBPRIME
+CKA_BASE
+CKA_PRIME_BITS
+CKA_SUB_PRIME_BITS
+CKA_VALUE_BITS
+CKA_VALUE_LEN
+CKA_EXTRACTABLE
+CKA_LOCAL
+CKA_NEVER_EXTRACTABLE
+CKA_ALWAYS_SENSITIVE
+CKA_KEY_GEN_MECHANISM
+CKA_MODIFIABLE
+CKA_ECDSA_PARAMS
+CKA_EC_PARAMS
+CKA_EC_POINT
+CKA_SECONDARY_AUTH
+CKA_AUTH_PIN_FLAGS
+CKA_HW_FEATURE_TYPE
+CKA_RESET_ON_INIT
+CKA_HAS_RESET
+CKA_VENDOR_DEFINED
+CKA_ALWAYS_AUTHENTICATE
+CKA_GOSTR3410_PARAMS
+CKK_RSA
+CKK_DSA
+CKK_DH
+CKK_ECDSA
+CKK_EC
+CKK_RC2
+CKK_RC4
+CKK_RC5
+CKK_DES
+CKK_DES3
+CKK_CAST
+CKK_CAST3
+CKK_CAST128
+CKK_IDEA
+CKK_AES
+CKC_X_509
+CKC_X_509_ATTR_CERT
+CKO_DATA
+CKO_CERTIFICATE
+CKO_PUBLIC_KEY
+CKO_PRIVATE_KEY
+CKO_SECRET_KEY
+CKO_HW_FEATURE
+CKO_DOMAIN_PARAMETERS
+CKF_RNG                          
+CKF_WRITE_PROTECTED              
+CKF_LOGIN_REQUIRED               
+CKF_USER_PIN_INITIALIZED         
+CKF_RESTORE_KEY_NOT_NEEDED       
+CKF_CLOCK_ON_TOKEN               
+CKF_PROTECTED_AUTHENTICATION_PATH
+CKF_DUAL_CRYPTO_OPERATIONS       
+CKF_TOKEN_INITIALIZED            
+CKF_SECONDARY_AUTHENTICATION     
+CKF_USER_PIN_COUNT_LOW           
+CKF_USER_PIN_FINAL_TRY           
+CKF_USER_PIN_LOCKED              
+CKF_USER_PIN_TO_BE_CHANGED       
+CKF_SO_PIN_COUNT_LOW             
+CKF_SO_PIN_FINAL_TRY             
+CKF_SO_PIN_LOCKED                
+CKF_SO_PIN_TO_BE_CHANGED         
+Value %lX not found for type %s
+      cryptokiVersion:         %d.%d
+      manufacturerID:         '%32.32s'
+      flags:                   %0lx
+      libraryDescription:     '%32.32s'
+      libraryVersion:          %d.%d
+CKF_TOKEN_PRESENT                
+CKF_REMOVABLE_DEVICE             
+CKF_HW_SLOT                      
+      slotDescription:        '%32.32s'
+                              '%32.32s'
+      hardwareVersion:         %d.%d
+      firmwareVersion:         %d.%d
+      label:                  '%32.32s'
+      model:                  '%16.16s'
+      serialNumber:           '%16.16s'
+      ulMaxSessionCount:       %ld
+      ulSessionCount:          %ld
+      ulMaxRwSessionCount:     %ld
+      ulRwSessionCount:        %ld
+      ulMaxPinLen:             %ld
+      ulMinPinLen:             %ld
+      ulTotalPublicMemory:     %ld
+      ulFreePublicMemory:      %ld
+      ulTotalPrivateMemory:    %ld
+      ulFreePrivateMemory:     %ld
+      time:                   '%16.16s'
+( %s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s)
+      slotID:                  %ld
+      state:                  '%32.32s'
+CKF_RW_SESSION                   
+CKF_SERIAL_SESSION               
+      ulDeviceError:           %0lx
+CKA_JAVA_MIDP_SECURITY_DOMAIN 
+CKA_HASH_OF_SUBJECT_PUBLIC_KEY 
+CKA_HASH_OF_ISSUER_PUBLIC_KEY 
+CKA_NETSCAPE_URL(Netsc)                         
+CKA_NETSCAPE_EMAIL(Netsc)                     
+CKA_NETSCAPE_SMIME_INFO(Netsc)           
+CKA_NETSCAPE_SMIME_TIMESTAMP(Netsc) 
+CKA_NETSCAPE_PKCS8_SALT(Netsc)           
+CKA_NETSCAPE_PASSWORD_CHECK(Netsc)   
+CKA_NETSCAPE_EXPIRES(Netsc)                 
+CKA_NETSCAPE_KRL(Netsc)                         
+CKA_NETSCAPE_PQG_COUNTER(Netsc)         
+CKA_NETSCAPE_PQG_SEED(Netsc)               
+CKA_NETSCAPE_PQG_H(Netsc)                     
+CKA_NETSCAPE_PQG_SEED_BITS(Netsc)     
+CKA_TRUST_DIGITAL_SIGNATURE(Netsc)   
+CKA_TRUST_NON_REPUDIATION(Netsc)       
+CKA_TRUST_KEY_ENCIPHERMENT(Netsc)     
+CKA_TRUST_DATA_ENCIPHERMENT(Netsc)   
+CKA_TRUST_KEY_AGREEMENT(Netsc)           
+CKA_TRUST_KEY_CERT_SIGN(Netsc)           
+CKA_TRUST_CRL_SIGN(Netsc)                     
+CKA_TRUST_SERVER_AUTH(Netsc)               
+CKA_TRUST_CLIENT_AUTH(Netsc)               
+CKA_TRUST_CODE_SIGNING(Netsc)             
+CKA_TRUST_EMAIL_PROTECTION(Netsc)     
+CKA_TRUST_IPSEC_END_SYSTEM(Netsc)     
+CKA_TRUST_IPSEC_TUNNEL(Netsc)             
+CKA_TRUST_IPSEC_USER(Netsc)                 
+CKA_TRUST_TIME_STAMPING(Netsc)           
+CKA_CERT_SHA1_HASH(Netsc)                     
+CKA_CERT_MD5_HASH(Netsc)                       
+CKR_KEY_FUNCTION_NOT_PERMITTED
+CKR_SESSION_PARALLEL_NOT_SUPPORTED
+CKR_SESSION_READ_WRITE_SO_EXISTS
+CKR_UNWRAPPING_KEY_HANDLE_INVALID
+CKR_UNWRAPPING_KEY_TYPE_INCONSISTENT
+CKR_USER_ANOTHER_ALREADY_LOGGED_IN
+CKR_WRAPPING_KEY_HANDLE_INVALID
+CKR_WRAPPING_KEY_TYPE_INCONSISTENT
+CKR_CRYPTOKI_ALREADY_INITIALIZED
+CKO_NETSCAPE_CRL               
+CKO_NETSCAPE_SMIME             
+CKO_NETSCAPE_TRUST             
+CKO_NETSCAPE_BUILTIN_ROOT_LIST
+True
+False
+%0*lx / %lu
+    
+EMPTY
+    %08X  %s %s
+%02X 
+NULL [size : 0x%lX (%ld)]
+    DN: 
+%s returned:  %ld %s
+Slot %ld
+Count is %ld
+        %s
+%30s 
+ Unknown Mechanism (%08lx)  
+Unknown 
+Compress 
+Uncompress 
+NamedCurve 
+EcParams 
+F(2^M) 
+F(P) 
+Derive 
+Unwrap 
+Wrap 
+KeyPair 
+Generate 
+VerRecov 
+Verify 
+SigRecov 
+Sign 
+Digest 
+Decrypt 
+Encrypt 
+Hardware 
+%s : 
+Unknown Mechanism (%08lx) : 
+min:%lu max:%lu flags:0x%lX 
+    %s 
+    CKA_? (0x%08lx)    
+CKA_CLASS            
+CKA_TOKEN            
+CKA_PRIVATE          
+CKA_LABEL            
+CKA_APPLICATION      
+CKA_VALUE            
+CKA_OBJECT_ID        
+CKA_CERTIFICATE_TYPE 
+CKA_ISSUER           
+CKA_SERIAL_NUMBER    
+CKA_AC_ISSUER        
+CKA_OWNER            
+CKA_ATTR_TYPES       
+CKA_TRUSTED          
+CKA_CERTIFICATE_CATEGORY 
+CKA_URL              
+CKA_CHECK_VALUE      
+CKA_KEY_TYPE         
+CKA_SUBJECT          
+CKA_ID               
+CKA_SENSITIVE        
+CKA_ENCRYPT          
+CKA_DECRYPT          
+CKA_WRAP             
+CKA_UNWRAP           
+CKA_SIGN             
+CKA_SIGN_RECOVER     
+CKA_VERIFY           
+CKA_VERIFY_RECOVER   
+CKA_DERIVE           
+CKA_START_DATE       
+CKA_END_DATE         
+CKA_MODULUS          
+CKA_MODULUS_BITS     
+CKA_PUBLIC_EXPONENT  
+CKA_PRIVATE_EXPONENT 
+CKA_PRIME_1          
+CKA_PRIME_2          
+CKA_EXPONENT_1       
+CKA_EXPONENT_2       
+CKA_COEFFICIENT      
+CKA_PRIME            
+CKA_SUBPRIME         
+CKA_BASE             
+CKA_PRIME_BITS       
+CKA_SUB_PRIME_BITS   
+CKA_VALUE_BITS       
+CKA_VALUE_LEN        
+CKA_EXTRACTABLE      
+CKA_LOCAL            
+CKA_ALWAYS_SENSITIVE 
+CKA_MODIFIABLE       
+CKA_ECDSA_PARAMS     
+CKA_EC_PARAMS        
+CKA_EC_POINT         
+CKA_SECONDARY_AUTH   
+CKA_AUTH_PIN_FLAGS   
+CKA_ALWAYS_AUTHENTICATE 
+CKA_WRAP_WITH_TRUSTED 
+CKA_WRAP_TEMPLATE    
+CKA_UNWRAP_TEMPLATE  
+CKA_GOSTR3410_PARAMS 
+CKA_GOSTR3411_PARAMS 
+CKA_GOST28147_PARAMS 
+CKA_HW_FEATURE_TYPE  
+CKA_RESET_ON_INIT    
+CKA_HAS_RESET        
+CKA_PIXEL_X          
+CKA_PIXEL_Y          
+CKA_RESOLUTION       
+CKA_CHAR_ROWS        
+CKA_CHAR_COLUMNS     
+CKA_COLOR            
+CKA_BITS_PER_PIXEL   
+CKA_CHAR_SETS        
+CKA_ENCODING_METHODS 
+CKA_MIME_TYPES       
+CKA_MECHANISM_TYPE   
+CKA_REQUIRED_CMS_ATTRIBUTES 
+CKA_DEFAULT_CMS_ATTRIBUTES 
+CKA_SUPPORTED_CMS_ATTRIBUTES 
+CKA_ALLOWED_MECHANISMS 
+CK_CERTIFICATE_TYPE
+CK_OBJECT_CLASS
+CK_KEY_TYPE
+CK_MECHANISM_TYPE
+CK_RSA_PKCS_MGF_TYPE
+CK_USER_TYPE
+CK_STATE
+CK_RV
+CKS_RO_PUBLIC_SESSION
+CKS_RO_USER_FUNCTIONS
+CKS_RW_PUBLIC_SESSION
+CKS_RW_USER_FUNCTIONS
+CKS_RW_SO_FUNCTIONS
+CKU_SO
+CKU_USER
+CKU_CONTEXT_SPECIFIC
+CKR_OK
+CKR_CANCEL
+CKR_HOST_MEMORY
+CKR_SLOT_ID_INVALID
+CKR_GENERAL_ERROR
+CKR_FUNCTION_FAILED
+CKR_ARGUMENTS_BAD
+CKR_NO_EVENT
+CKR_NEED_TO_CREATE_THREADS
+CKR_CANT_LOCK
+CKR_ATTRIBUTE_READ_ONLY
+CKR_ATTRIBUTE_SENSITIVE
+CKR_ATTRIBUTE_TYPE_INVALID
+CKR_ATTRIBUTE_VALUE_INVALID
+CKR_DATA_INVALID
+CKR_DATA_LEN_RANGE
+CKR_DEVICE_ERROR
+CKR_DEVICE_MEMORY
+CKR_DEVICE_REMOVED
+CKR_ENCRYPTED_DATA_INVALID
+CKR_ENCRYPTED_DATA_LEN_RANGE
+CKR_FUNCTION_CANCELED
+CKR_FUNCTION_NOT_PARALLEL
+CKR_FUNCTION_NOT_SUPPORTED
+CKR_KEY_HANDLE_INVALID
+CKR_KEY_SIZE_RANGE
+CKR_KEY_TYPE_INCONSISTENT
+CKR_KEY_NOT_NEEDED
+CKR_KEY_CHANGED
+CKR_KEY_NEEDED
+CKR_KEY_INDIGESTIBLE
+CKR_KEY_NOT_WRAPPABLE
+CKR_KEY_UNEXTRACTABLE
+CKR_MECHANISM_INVALID
+CKR_MECHANISM_PARAM_INVALID
+CKR_OBJECT_HANDLE_INVALID
+CKR_OPERATION_ACTIVE
+CKR_OPERATION_NOT_INITIALIZED
+CKR_PIN_INCORRECT
+CKR_PIN_INVALID
+CKR_PIN_LEN_RANGE
+CKR_PIN_EXPIRED
+CKR_PIN_LOCKED
+CKR_SESSION_CLOSED
+CKR_SESSION_COUNT
+CKR_SESSION_HANDLE_INVALID
+CKR_SESSION_READ_ONLY
+CKR_SESSION_EXISTS
+CKR_SESSION_READ_ONLY_EXISTS
+CKR_SIGNATURE_INVALID
+CKR_SIGNATURE_LEN_RANGE
+CKR_TEMPLATE_INCOMPLETE
+CKR_TEMPLATE_INCONSISTENT
+CKR_TOKEN_NOT_PRESENT
+CKR_TOKEN_NOT_RECOGNIZED
+CKR_TOKEN_WRITE_PROTECTED
+CKR_UNWRAPPING_KEY_SIZE_RANGE
+CKR_USER_ALREADY_LOGGED_IN
+CKR_USER_NOT_LOGGED_IN
+CKR_USER_PIN_NOT_INITIALIZED
+CKR_USER_TYPE_INVALID
+CKR_USER_TOO_MANY_TYPES
+CKR_WRAPPED_KEY_INVALID
+CKR_WRAPPED_KEY_LEN_RANGE
+CKR_WRAPPING_KEY_SIZE_RANGE
+CKR_RANDOM_SEED_NOT_SUPPORTED
+CKR_RANDOM_NO_RNG
+CKR_DOMAIN_PARAMS_INVALID
+CKR_BUFFER_TOO_SMALL
+CKR_SAVED_STATE_INVALID
+CKR_INFORMATION_SENSITIVE
+CKR_STATE_UNSAVEABLE
+CKR_CRYPTOKI_NOT_INITIALIZED
+CKR_MUTEX_BAD
+CKR_MUTEX_NOT_LOCKED
+CKR_VENDOR_DEFINED
+CKG_MGF1_SHA1  
+CKG_MGF1_SHA224
+CKG_MGF1_SHA256
+CKG_MGF1_SHA384
+CKG_MGF1_SHA512
+CKM_RSA_PKCS_KEY_PAIR_GEN    
+CKM_RSA_PKCS                 
+CKM_RSA_9796                 
+CKM_RSA_X_509                
+CKM_MD2_RSA_PKCS             
+CKM_MD5_RSA_PKCS             
+CKM_SHA1_RSA_PKCS            
+CKM_SHA256_RSA_PKCS          
+CKM_SHA384_RSA_PKCS          
+CKM_SHA512_RSA_PKCS          
+CKM_RIPEMD128_RSA_PKCS       
+CKM_RIPEMD160_RSA_PKCS       
+CKM_RSA_PKCS_OAEP            
+CKM_RSA_X9_31_KEY_PAIR_GEN   
+CKM_RSA_X9_31                
+CKM_SHA1_RSA_X9_31           
+CKM_RSA_PKCS_PSS             
+CKM_SHA1_RSA_PKCS_PSS        
+CKM_SHA256_RSA_PKCS_PSS      
+CKM_SHA384_RSA_PKCS_PSS      
+CKM_SHA512_RSA_PKCS_PSS      
+CKM_DSA_KEY_PAIR_GEN         
+CKM_DSA                      
+CKM_DSA_SHA1                 
+CKM_DH_PKCS_KEY_PAIR_GEN     
+CKM_DH_PKCS_DERIVE           
+CKM_X9_42_DH_KEY_PAIR_GEN    
+CKM_X9_42_DH_DERIVE          
+CKM_X9_42_DH_HYBRID_DERIVE   
+CKM_X9_42_MQV_DERIVE         
+CKM_RC2_KEY_GEN              
+CKM_RC2_ECB                  
+CKM_RC2_CBC                  
+CKM_RC2_MAC                  
+CKM_RC2_MAC_GENERAL          
+CKM_RC2_CBC_PAD              
+CKM_RC4_KEY_GEN              
+CKM_RC4                      
+CKM_DES_KEY_GEN              
+CKM_DES_ECB                  
+CKM_DES_CBC                  
+CKM_DES_MAC                  
+CKM_DES_MAC_GENERAL          
+CKM_DES_CBC_PAD              
+CKM_DES2_KEY_GEN             
+CKM_DES3_KEY_GEN             
+CKM_DES3_ECB                 
+CKM_DES3_CBC                 
+CKM_DES3_MAC                 
+CKM_DES3_MAC_GENERAL         
+CKM_DES3_CBC_PAD             
+CKM_CDMF_KEY_GEN             
+CKM_CDMF_ECB                 
+CKM_CDMF_CBC                 
+CKM_CDMF_MAC                 
+CKM_CDMF_MAC_GENERAL         
+CKM_CDMF_CBC_PAD             
+CKM_MD2                      
+CKM_MD2_HMAC                 
+CKM_MD2_HMAC_GENERAL         
+CKM_MD5                      
+CKM_MD5_HMAC                 
+CKM_MD5_HMAC_GENERAL         
+CKM_SHA_1                    
+CKM_SHA_1_HMAC               
+CKM_SHA_1_HMAC_GENERAL       
+CKM_SHA256                   
+CKM_SHA256_HMAC              
+CKM_SHA256_HMAC_GENERAL      
+CKM_SHA384                   
+CKM_SHA384_HMAC              
+CKM_SHA384_HMAC_GENERAL      
+CKM_SHA512                   
+CKM_SHA512_HMAC              
+CKM_SHA512_HMAC_GENERAL      
+CKM_RIPEMD128                
+CKM_RIPEMD128_HMAC           
+CKM_RIPEMD128_HMAC_GENERAL   
+CKM_RIPEMD160                
+CKM_RIPEMD160_HMAC           
+CKM_RIPEMD160_HMAC_GENERAL   
+CKM_CAST_KEY_GEN             
+CKM_CAST_ECB                 
+CKM_CAST_CBC                 
+CKM_CAST_MAC                 
+CKM_CAST_MAC_GENERAL         
+CKM_CAST_CBC_PAD             
+CKM_CAST3_KEY_GEN            
+CKM_CAST3_ECB                
+CKM_CAST3_CBC                
+CKM_CAST3_MAC                
+CKM_CAST3_MAC_GENERAL        
+CKM_CAST3_CBC_PAD            
+CKM_CAST5_KEY_GEN            
+CKM_CAST128_KEY_GEN          
+CKM_CAST5_ECB                
+CKM_CAST128_ECB              
+CKM_CAST5_CBC                
+CKM_CAST128_CBC              
+CKM_CAST5_MAC                
+CKM_CAST128_MAC              
+CKM_CAST5_MAC_GENERAL        
+CKM_CAST128_MAC_GENERAL      
+CKM_CAST5_CBC_PAD            
+CKM_CAST128_CBC_PAD          
+CKM_RC5_KEY_GEN              
+CKM_RC5_ECB                  
+CKM_RC5_CBC                  
+CKM_RC5_MAC                  
+CKM_RC5_MAC_GENERAL          
+CKM_RC5_CBC_PAD              
+CKM_IDEA_KEY_GEN             
+CKM_IDEA_ECB                 
+CKM_IDEA_CBC                 
+CKM_IDEA_MAC                 
+CKM_IDEA_MAC_GENERAL         
+CKM_IDEA_CBC_PAD             
+CKM_GENERIC_SECRET_KEY_GEN   
+CKM_CONCATENATE_BASE_AND_KEY 
+CKM_CONCATENATE_BASE_AND_DATA
+CKM_CONCATENATE_DATA_AND_BASE
+CKM_XOR_BASE_AND_DATA        
+CKM_EXTRACT_KEY_FROM_KEY     
+CKM_SSL3_PRE_MASTER_KEY_GEN  
+CKM_SSL3_MASTER_KEY_DERIVE   
+CKM_SSL3_KEY_AND_MAC_DERIVE  
+CKM_SSL3_MASTER_KEY_DERIVE_DH
+CKM_TLS_PRE_MASTER_KEY_GEN   
+CKM_TLS_MASTER_KEY_DERIVE    
+CKM_TLS_KEY_AND_MAC_DERIVE   
+CKM_TLS_MASTER_KEY_DERIVE_DH 
+CKM_SSL3_MD5_MAC             
+CKM_SSL3_SHA1_MAC            
+CKM_MD5_KEY_DERIVATION       
+CKM_MD2_KEY_DERIVATION       
+CKM_SHA1_KEY_DERIVATION      
+CKM_PBE_MD2_DES_CBC          
+CKM_PBE_MD5_DES_CBC          
+CKM_PBE_MD5_CAST_CBC         
+CKM_PBE_MD5_CAST3_CBC        
+CKM_PBE_MD5_CAST5_CBC        
+CKM_PBE_MD5_CAST128_CBC      
+CKM_PBE_SHA1_CAST5_CBC       
+CKM_PBE_SHA1_CAST128_CBC     
+CKM_PBE_SHA1_RC4_128         
+CKM_PBE_SHA1_RC4_40          
+CKM_PBE_SHA1_DES3_EDE_CBC    
+CKM_PBE_SHA1_DES2_EDE_CBC    
+CKM_PBE_SHA1_RC2_128_CBC     
+CKM_PBE_SHA1_RC2_40_CBC      
+CKM_PKCS5_PBKD2              
+CKM_PBA_SHA1_WITH_SHA1_HMAC  
+CKM_KEY_WRAP_LYNKS           
+CKM_KEY_WRAP_SET_OAEP        
+CKM_SKIPJACK_KEY_GEN         
+CKM_SKIPJACK_ECB64           
+CKM_SKIPJACK_CBC64           
+CKM_SKIPJACK_OFB64           
+CKM_SKIPJACK_CFB64           
+CKM_SKIPJACK_CFB32           
+CKM_SKIPJACK_CFB16           
+CKM_SKIPJACK_CFB8            
+CKM_SKIPJACK_WRAP            
+CKM_SKIPJACK_PRIVATE_WRAP    
+CKM_SKIPJACK_RELAYX          
+CKM_KEA_KEY_PAIR_GEN         
+CKM_KEA_KEY_DERIVE           
+CKM_FORTEZZA_TIMESTAMP       
+CKM_BATON_KEY_GEN            
+CKM_BATON_ECB128             
+CKM_BATON_ECB96              
+CKM_BATON_CBC128             
+CKM_BATON_COUNTER            
+CKM_BATON_SHUFFLE            
+CKM_BATON_WRAP               
+CKM_EC_KEY_PAIR_GEN          
+CKM_ECDSA                    
+CKM_ECDSA_SHA1               
+CKM_ECDH1_DERIVE             
+CKM_ECDH1_COFACTOR_DERIVE    
+CKM_ECMQV_DERIVE             
+CKM_JUNIPER_KEY_GEN          
+CKM_JUNIPER_ECB128           
+CKM_JUNIPER_CBC128           
+CKM_JUNIPER_COUNTER          
+CKM_JUNIPER_SHUFFLE          
+CKM_JUNIPER_WRAP             
+CKM_FASTHASH                 
+CKM_AES_KEY_GEN              
+CKM_AES_ECB                  
+CKM_AES_CBC                  
+CKM_AES_MAC                  
+CKM_AES_MAC_GENERAL          
+CKM_AES_CBC_PAD              
+CKM_AES_CTR                  
+CKM_AES_GCM                  
+CKM_AES_CCM                  
+CKM_AES_CTS                  
+CKM_BLOWFISH_KEY_GEN         
+CKM_BLOWFISH_CBC             
+CKM_TWOFISH_KEY_GEN          
+CKM_TWOFISH_CBC              
+CKM_GOSTR3410_KEY_PAIR_GEN   
+CKM_GOSTR3410                
+CKM_GOSTR3410_WITH_GOSTR3411 
+CKM_GOSTR3410_KEY_WRAP       
+CKM_GOSTR3410_DERIVE         
+CKM_GOSTR3411                
+CKM_GOSTR3411_HMAC           
+CKM_GOST28147_KEY_GEN        
+CKM_GOST28147_ECB            
+CKM_GOST28147                
+CKM_GOST28147_MAC            
+CKM_GOST28147_KEY_WRAP       
+CKM_DSA_PARAMETER_GEN        
+CKM_DH_PKCS_PARAMETER_GEN    
+CKM_X9_42_DH_PARAMETER_GEN   
+CKM_VENDOR_DEFINED           
+CKK_RSA            
+CKK_DSA            
+CKK_DH             
+CKK_EC             
+CKK_X9_42_DH       
+CKK_KEA            
+CKK_GENERIC_SECRET 
+CKK_RC2            
+CKK_RC4            
+CKK_DES            
+CKK_DES2           
+CKK_DES3           
+CKK_CAST           
+CKK_CAST3          
+CKK_CAST128        
+CKK_RC5            
+CKK_IDEA           
+CKK_SKIPJACK       
+CKK_BATON          
+CKK_JUNIPER        
+CKK_CDMF           
+CKK_AES            
+CKK_BLOWFISH       
+CKK_TWOFISH        
+CKK_GOSTR3410      
+CKK_GOSTR3411      
+CKK_GOST28147      
+CKO_DATA             
+CKO_CERTIFICATE      
+CKO_PUBLIC_KEY       
+CKO_PRIVATE_KEY      
+CKO_SECRET_KEY       
+CKO_HW_FEATURE       
+CKO_VENDOR_DEFINED   
+                
+:*3$"
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e871
+gcc 9.0.1 20190227
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+opensc-pkcs11.so-0.19.0-6.fc30.x86_64.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

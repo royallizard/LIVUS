@@ -1,0 +1,262 @@
+td,;
+td`<
+/lib/ld-linux.so.2
+free
+GLIBC_2.0
+libc.so.6
+__printf_chk
+GLIBC_2.3.4
+strlen
+__bss_start
+_edata
+_end
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+strftime
+__cxa_finalize
+GLIBC_2.1.3
+__stack_chk_fail
+GLIBC_2.4
+__udivdi3
+_Unwind_Resume
+GCC_3.0
+strcmp
+setlocale
+log_parse_environment
+log_open
+__libc_start_main
+bus_connect_transport
+sd_bus_flush_close_unref
+pager_close
+bus_map_all_properties
+parse_timestamp
+parse_boolean
+sd_bus_call_method
+bus_error_message
+sd_bus_error_free
+polkit_agent_open
+optind
+getenv
+optarg
+time
+program_invocation_short_name
+gmtime_r
+localtime_r
+setenv
+unsetenv
+getopt_long
+__errno_location
+libpthread.so.0
+tzset
+colors_enabled
+get_timezones
+pager_open
+strv_print
+strv_free
+log_get_max_level
+log_internal
+log_assert_failed
+version
+log_assert_failed_unreachable
+bus_standard_errors
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+D$<1
+D$$1
+T$<e3
+[^_]
+L$()
+T$,;P
+T$,;P
+T$,;P
+t S1
+D$,1
+|$81
+T$,e3
+\$de
+D$<1
+D$01
+D$41
+D$$1
+L$<e3
+D$8e
+D$L1
+D$@1
+L$Le3
+D$8e
+D$L1
+D$@1
+L$Le3
+D$8e
+D$\1
+D$P1
+D$T1
+D$?um
+D$4y\
+L$\e3
+D$?1
+[^_]
+D$l1
+D$,yP
+L$le3
+UWVS
+[^_]
+src/timedate/timedatectl.c
+args
+n == 1
+n == 2
+SetTimezone
+org.freedesktop.timedate1
+/org/freedesktop/timedate1
+Failed to set time zone: %s
+SetNTP
+Failed to set ntp: %s
+SetLocalRTC
+Failed to set local RTC: %s
+SetTime
+Failed to set time: %s
+[0;1;39m
+      Local time: %s
+  Universal time: %s
+%a %Y-%m-%d %H:%M:%S %Z
+      Local time: %.*s
+%a %Y-%m-%d %H:%M:%S UTC
+  Universal time: %.*s
+%a %Y-%m-%d %H:%M:%S
+        RTC time: %.*s
+        RTC time: %s
+%Z, %z
+Failed to query server: %s
+argc >= 0
+argv
+Unhandled option
+hH:M:
+help
+Unknown operation %s
+Invalid number of arguments.
+Too few arguments.
+Too many arguments.
+Unknown comparison operator.
+Timezone
+LocalRTC
+CanNTP
+NTPSynchronized
+TimeUSec
+RTCTimeUSec
+version
+no-pager
+host
+machine
+no-ask-password
+adjust-system-clock
+status
+set-time
+set-timezone
+list-timezones
+set-local-rtc
+set-ntp
+Failed to read list of time zones: %m
+Failed to parse NTP setting: %s
+Failed to parse local RTC setting: %s
+Failed to parse time specification: %s
+Failed to set TZ environment variable, ignoring: %m
+Could not get time from timedated and not operating locally, ignoring.
+xstrftime: a[] must be big enough
+       Time zone: %s (%.*s)
+ Network time on: %s
+NTP synchronized: %s
+ RTC in local TZ: %s
+%sWarning: The system is configured to read the RTC time in the local time zone.
+         This mode can not be fully supported. It will create various problems
+         with time zone changes and daylight saving time adjustments. The RTC
+         time is never updated, it relies on external facilities to maintain it.
+         If at all possible, use RTC in UTC by calling
+         'timedatectl set-local-rtc 0'.%s
+%s [OPTIONS...] COMMAND ...
+Query or change system time and date settings.
+  -h --help                Show this help message
+     --version             Show package version
+     --no-pager            Do not pipe output into a pager
+     --no-ask-password     Do not prompt for password
+  -H --host=[USER@]HOST    Operate on remote host
+  -M --machine=CONTAINER   Operate on local container
+     --adjust-system-clock Adjust system clock when changing local RTC mode
+Commands:
+  status                   Show current time settings
+  set-time TIME            Set system time
+  set-timezone ZONE        Set system time zone
+  list-timezones           Show known time zones
+  set-local-rtc BOOL       Control whether RTC is in local time
+  set-ntp BOOL             Enable or disable network time synchronization
+Failed to create bus connection: %m
+print_status_info
+print_status_info
+show_status
+show_status
+set_time
+set_time
+set_timezone
+set_timezone
+set_local_rtc
+set_local_rtc
+set_ntp
+set_ntp
+list_timezones
+list_timezones
+parse_argv
+timedatectl_main
+timedatectl_main
+main
+;*2$"
+zPLR
+gold 1.12
+timedatectl.debug
+7zXZ
+7>rd
+3{}V
+<4e4p
+=_ <
+p""&
+N^<"7
+~?r7
+d&t|vA
+B@un@
+nS["
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

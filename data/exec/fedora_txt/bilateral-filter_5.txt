@@ -1,0 +1,290 @@
+ ?7(
+|{.1
+CdoCE
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_area_filter_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+g_type_check_instance_cast
+babl_format
+gegl_operation_set_format
+g_malloc0_n
+gegl_buffer_get
+_ZGVbN2v___exp_finite
+gegl_buffer_set
+g_free
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+gegl_operation_filter_get_type
+g_dgettext
+gegl_operation_class_set_keys
+gegl_param_spec_double
+g_object_class_install_property
+g_param_spec_double
+g_object_set_data_full
+g_slice_free1
+gegl_cl_is_accelerated
+gegl_operation_get_required_for_output
+gegl_operation_get_format
+gegl_buffer_cl_iterator_new
+gegl_buffer_cl_iterator_add_2
+gegl_buffer_cl_iterator_next
+gegl_clSetKernelArg
+gegl_cl_errstring
+g_log
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+g_object_ref
+g_value_set_double
+g_type_name
+g_value_get_double
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+_ZGVbN2v___log_finite
+_ZGVbN2v_log
+_ZGVcN4v___log_finite
+_ZGVcN4v_log
+_ZGVdN4v___log_finite
+_ZGVdN4v_log
+_ZGVeN8v___log_finite
+_ZGVeN8v_log
+_ZGVbN4v___logf_finite
+_ZGVbN4v_logf
+_ZGVcN8v___logf_finite
+_ZGVcN8v_logf
+_ZGVdN8v___logf_finite
+_ZGVdN8v_logf
+_ZGVeN16v___logf_finite
+_ZGVeN16v_logf
+_ZGVbN2v_exp
+_ZGVcN4v___exp_finite
+_ZGVcN4v_exp
+_ZGVdN4v___exp_finite
+_ZGVdN4v_exp
+_ZGVeN8v___exp_finite
+_ZGVeN8v_exp
+_ZGVbN4v___expf_finite
+_ZGVbN4v_expf
+_ZGVcN8v___expf_finite
+_ZGVcN8v_expf
+_ZGVdN8v___expf_finite
+_ZGVdN8v_expf
+_ZGVeN16v___expf_finite
+_ZGVeN16v_expf
+_ZGVbN2vv___pow_finite
+_ZGVbN2vv_pow
+_ZGVcN4vv___pow_finite
+_ZGVcN4vv_pow
+_ZGVdN4vv___pow_finite
+_ZGVdN4vv_pow
+_ZGVeN8vv___pow_finite
+_ZGVeN8vv_pow
+_ZGVbN4vv___powf_finite
+_ZGVbN4vv_powf
+_ZGVcN8vv___powf_finite
+_ZGVcN8vv_powf
+_ZGVdN8vv___powf_finite
+_ZGVdN8vv_powf
+_ZGVeN16vv___powf_finite
+_ZGVeN16vv_powf
+libmvec.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+bilateral-filter.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.15
+GLIBC_2.22
+%21 
+%21 
+%:1 
+%:1 
+%J1 
+%Z1 
+%b1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%j1 
+%r1 
+%r1 
+%r1 
+%r1 
+%r1 
+%r1 
+%r1 
+%z1 
+%z1 
+=y1 
+=91 
+521 
+=B, 
+\$Pf
+T$0f
+L$2H
+D$ H
+D$81
+T$PH
+AWAVAUATI
+[A\A]A^A_]
+ATUI
+[]A\
+AWAVAUATUSH
+t$@dH
+|$8H
+T$HH
+L$ H
+D$(w
+T$ H
+|$8H
+D$(H
+L$ H
+T$HH
+dH34%(
+[]A\A]A^A_
+|$8H
+|$ I
+|$HH
+E(PA
+E$PH
+t$`E
+D$(H
+D$XH
+D$pH
+t$XH
+D$PH
+D$xH
+D$xH
+T$lH
+T$pH
+D$pH
+t$PH
+ATUH
+ []A\
+t$$H
+GeglChantbilateral-filter.c
+RGBA float
+input
+output
+gegl-0.2
+description
+misc
+categories
+gegl:bilateral-filter
+name
+Blur radius
+blur_radius
+Amount of edge preservation
+Edge preservation
+edge_preservation
+chant-data
+bilateral_filter
+GEGL-bilateral-filter.c
+property
+GEGL-../../gegl/gegl-chant.h
+An edge preserving blur filter that can be used for noise reduction. It is a gaussian blur where the contribution of neighbourhood pixels are weighted by the color difference from the center pixel.
+Radius of square pixel region, (width and height will be radius*2+1).
+#define POW2(a) ((a) * (a))                                           
+kernel void bilateral_filter(global float4 *in,                       
+                             global float4 *out,                      
+                             const  float radius,                     
+                             const  float preserve)                   
+{                                                                     
+    int gidx       = get_global_id(0);                                
+    int gidy       = get_global_id(1);                                
+    int n_radius   = ceil(radius);                                    
+    int dst_width  = get_global_size(0);                              
+    int src_width  = dst_width + n_radius * 2;                        
+                                                                      
+    int u, v, i, j;                                                   
+    float4 center_pix =                                               
+        in[(gidy + n_radius) * src_width + gidx + n_radius];          
+    float4 accumulated = 0.0f;                                        
+    float4 tempf       = 0.0f;                                        
+    float  count       = 0.0f;                                        
+    float  diff_map, gaussian_weight, weight;                         
+                                                                      
+    for (v = -n_radius;v <= n_radius; ++v)                            
+    {                                                                 
+        for (u = -n_radius;u <= n_radius; ++u)                        
+        {                                                             
+            i = gidx + n_radius + u;                                  
+            j = gidy + n_radius + v;                                  
+                                                                      
+            int gid1d = i + j * src_width;                            
+            tempf = in[gid1d];                                        
+                                                                      
+            diff_map = exp (                                          
+                - (   POW2(center_pix.x - tempf.x)                    
+                    + POW2(center_pix.y - tempf.y)                    
+                    + POW2(center_pix.z - tempf.z))                   
+                * preserve);                                          
+                                                                      
+            gaussian_weight =                                         
+                exp( - 0.5f * (POW2(u) + POW2(v)) / radius);          
+                                                                      
+            weight = diff_map * gaussian_weight;                      
+                                                                      
+            accumulated += tempf * weight;                            
+            count += weight;                                          
+        }                                                             
+    }                                                                 
+    out[gidx + gidy * dst_width] = accumulated / count;               
+}                                                                     
+[OpenCL] Error in gegl:bilateral-filter: %s
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+bilateral-filter.so.debug
+7zXZ
+A:p5
+v"~ 
+E,.Z]
+3Q0L=+
+;2C&&bMy
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

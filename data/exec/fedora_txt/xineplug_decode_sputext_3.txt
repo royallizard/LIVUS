@@ -1,0 +1,190 @@
+rY*X
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+calloc
+dcgettext
+strncpy
+xine_guess_spu_encoding
+free
+strlen
+memcpy
+sscanf
+strchr
+xine_log
+strcmp
+strcasecmp
+__strncat_chk
+stderr
+__fprintf_chk
+_x_spu_decoder_sleep
+xine_usec_sleep
+xine_get_status
+_x_get_current_info
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+libm.so.6
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+xineplug_decode_sputext.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+UWVS
+d$L[
+T$4e
+L$\1
+T$,9T$8rO
+T$,9T$8s
+L$\e3
+d$l[^_]
++D$4
+T$de
+t$D9
+;D$@
+L$H~
+< u,
+;D$@
+T$49
+T$D9T$4tz
+9L$D|
+;D$@~{
+D$<1
+l$L1
+L$<9M(
+;D$8t 
+9D$\
+9T$X
+[^_]
+ED$@
+T$@)
+|$@)
+L$|1
+;D$@
+9t$4
+t$41
++T$4t
+L$4)
+L$4;D$@
+)t$D
+UWVS
+T$4~O
+;r(|
+|$49|$8
+d$l[^_]
+|$4t
+T0,1
+9D$4
+T$T+t$8
+D$D9D$4xC
+t$4)
+T$,+t$8k
+ul;D$
+sputext
+libxine1
+subtitle size
+subtitle vertical offset
+font for subtitles
+sans
+subtitles.separate.font
+encoding of the subtitles
+use unscaled OSD if possible
+</b>
+</i>
+<font>
+</font>
+{\b%d}
+{\i%d}
+utf-8
+libsputext: spu_font = %s
+this->renderer != NULL
+xine_sputext_decoder.c
+\pos(%d,%d)
+\a%d
+\an%d
+tiny
+small
+normal
+very large
+huge
+external subtitle decoder plugin
+You can adjust the subtitle size here. The setting will be evaluated relative to the window size.
+subtitles.separate.subtitle_size
+You can adjust the vertical position of the subtitle. The setting will be evaluated relative to the window size.
+subtitles.separate.vertical_offset
+A font from the xine font directory to be used for the subtitle text.
+The encoding of the subtitle text in the stream. This setting is used to render non-ASCII characters correctly. If non-ASCII characters are not displayed as you expect, ask the creator of the subtitles what encoding was used.
+subtitles.separate.src_encoding
+The unscaled OSD will be rendered independently of the video frame and will always be sharp, even if the video is magnified. This will look better, but does not work with all graphics hardware. The alternative is the scaled OSD, which will become blurry, if you enlarge a low resolution video to fullscreen, but it works with all graphics cards.
+subtitles.separate.use_unscaled_osd
+libsputext: spu_src_encoding = %s
+assert: %s:%d: %s: Assertion `%s' failed.
+libsputext: position : (%d, %d), max width : %d, alignment : %d
+libsputext: Line too long: %d > %d, split at max size.
+libsputext: Can't fit with keeping existing line, we have to rebuild all the subtitle
+libsputext: Can't wrap line: a word is too long, abort.
+libsputext: decoder data [%s]
+libsputext: mode %d timing %d->%d
+libsputext: discarding subtitle with invalid timing
+libsputext: discarding old subtitle
+draw_subtitle
+SJIS
+CP932
+EUC-KR
+JOHAB
+BIG5
+BIG5HKSCS
+EUC-JP-MS
+EUC-JP
+EUC-CN
+GBBIG5
+GBGBK
+EUC-TW
+ISO-2022-JP
+ISO-2022-JP-2
+ISO-2022-JP-3
+ISO-2022-KR
+ISO-2022-CN
+ISO-2022-CN-EXT
+GB18030
+EUC-JISX0213
+SHIFT_JISX0213
+UUUUUUe?
+xineplug_decode_sputext.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

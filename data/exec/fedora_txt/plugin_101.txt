@@ -1,0 +1,429 @@
+x-6\]qI
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+workbook_date_conv
+datetime_value_to_g
+g_date_valid
+value_new_error_VALUE
+datetime_weeknum
+g_date_get_year
+g_date_get_month
+value_new_int
+value_get_as_float
+datetime_serial_to_timet
+go_fake_round
+go_format_default_date
+value_set_fmt
+value_new_float
+datetime_timet_to_serial_raw
+value_get_as_int
+value_new_error_NUM
+yearfrac
+g_date_get_weekday
+dcgettext
+value_new_error
+g_date_subtract_days
+g_date_add_days
+datetime_g_to_serial
+time
+datetime_timet_to_serial
+datetime_value_to_serial_raw
+go_add_epsilon
+floor
+datetime_value_to_serial
+datetime_serial_to_g
+value_area_foreach
+value_dup
+g_date_add_months
+g_date_subtract_months
+g_date_get_days_in_month
+g_date_set_day
+days_between_basis
+g_date_get_day
+value_peek_string
+datetime_g_months_between
+datetime_g_years_between
+g_date_add_years
+g_date_set_year
+datetime_g_days_between
+g_log
+g_assert_warning
+g_date_clear
+g_date_set_dmy
+gnm_date_convention_base
+go_plugin_depends
+go_plugin_header
+datetime_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+52\ 
+%4\ 
+%2\ 
+%*\ 
+%"\ 
+%z[ 
+%r[ 
+%j[ 
+%b[ 
+%Z[ 
+%R[ 
+%J[ 
+%B[ 
+%:[ 
+%2[ 
+%*[ 
+%"[ 
+ATSubH
+%tJ 
+=/J 
+d$ H
+d$ H
+d$ H
+d$ H
+fffff.
+ffffff.
+l$ L
+d$(L
+l$0H
+fffff.
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+l$ L
+d$(L
+l$0H
+ffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+ffffff.
+d$ H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+l$ L
+d$(L
+l$0H
+ffffff.
+d$ L
+l$(L
+t$0H
+ffff.
+l$ H
+d$(L
+l$0H
+ucE1
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+ffffff.
+D$(f
+\$HH
+l$PL
+d$XL
+l$`H
+D$ z
+f={.
+@Unimplemented
+gnumeric
+g_date_valid (gdate1)
+functions.c
+g_date_valid (gdate2)
+goffice
+1.6.3
+year,month,day
+datevalue
+date_str
+datedif
+date1,date2,interval
+days360
+ff|f
+date1,date2,method
+edate
+eomonth
+start_date,months
+hour
+minute
+networkdays
+ff|?
+start_date,end_date,holidays
+second
+hours,minutes,seconds
+timevalue
+timetext
+today
+weekday
+workday
+date,days,holidays
+yearfrac
+unix2date
+unixtime
+date2unix
+serial
+isoweeknum
+isoyear
+datedif is known to differ from Excel for some values.
+@FUNCTION=DATE
+@SYNTAX=DATE (year,month,day)
+@DESCRIPTION=DATE returns the number of days since the 1st of January of 1900(the date serial number) for the given year, month and day.
+* If @month < 1 or @month > 12, the year will be corrected.  A similar correction takes place for days.
+* The @years should be at least 1900.  If @years < 1900, it is assumed to be 1900 + @years.
+* If the given date is not valid, DATE returns #NUM! error.
+* This function is Excel compatible.
+@EXAMPLES=
+DATE(2001, 3, 30) returns 'Mar 30, 2001'.
+@SEEALSO=TODAY, NOW
+@FUNCTION=DATEVALUE
+@SYNTAX=DATEVALUE(date_str)
+@DESCRIPTION=DATEVALUE returns the serial number of the date.  @date_str is the string that contains the date. The value depends on the date convention.  The MS Excel 1900 convention dates things from Jan 1 1900 while the 1904 convention uses Jan 1 1904.
+* This function is Excel compatible.
+@EXAMPLES=
+DATEVALUE("1/1/1999") equals 36161 (in the 1900 convention).
+@SEEALSO=DATE
+@FUNCTION=DATEDIF
+@SYNTAX=DATEDIF(date1,date2,interval)
+@DESCRIPTION=DATEDIF returns the difference between two dates.  @interval is one of six possible values:  "y", "m", "d", "ym", "md", and "yd".
+The first three options will return the number of complete years, months, or days, respectively, between the two dates specified.
+  "ym" will return the number of full months between the two dates, not including the difference in years.
+  "md" will return the number of full days between the two dates, not including the difference in months.
+  "yd" will return the number of full days between the two dates, not including the difference in years.
+* This function is Excel compatible.
+@EXAMPLES=
+DATEDIF(DATE(2000,4,30),DATE(2003,8,4),"d") equals 1191.
+DATEDIF(DATE(2000,4,30),DATE(2003,8,4),"y") equals 3.
+@SEEALSO=DATE
+@FUNCTION=DAY
+@SYNTAX=DAY (date)
+@DESCRIPTION=DAY converts a serial number to a day of month.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+DAY("10/24/1968") equals 24.
+@SEEALSO=MONTH, TIME, NOW, YEAR
+@FUNCTION=DAYS360 
+@SYNTAX=DAYS360 (date1,date2,method)
+@DESCRIPTION=DAYS360 returns the number of days from @date1 to @date2 following a 360-day calendar in which all months are assumed to have 30 days.
+* If @method is 1, the European method will be used.  In this case, if the day of the month is 31 it will be considered as 30.
+* If @method is 0 or omitted, the MS Excel (tm) US method will be used.  This is a somewhat complicated industry standard method where the last day of February is considered to be the 30th day of the month, but only for the first date.
+* If @method is 2, a saner version of the US method is used in which both dates get the same February treatment.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is mostly Excel compatible.
+@EXAMPLES=
+DAYS360(DATE(2003, 2, 3), DATE(2007, 4, 2)) equals 1499.
+@SEEALSO=MONTH, TIME, NOW, YEAR
+@FUNCTION=EDATE
+@SYNTAX=EDATE(date,months)
+@DESCRIPTION=EDATE returns the serial number of the date that is the specified number of months before or after a given date.  @date is the serial number of the initial date and @months is the number of months before (negative number) or after (positive number) the initial date.
+* If @months is not an integer, it is truncated.
+* This function is Excel compatible.
+@EXAMPLES=
+EDATE(DATE(2001,12,30),2) returns 'Feb 28, 2002'.
+@SEEALSO=DATE
+@FUNCTION=EOMONTH
+@SYNTAX=EOMONTH (start_date,months)
+@DESCRIPTION=EOMONTH returns the last day of the month which is @months from the @start_date.
+* EOMONTH returns #NUM! if @start_date or @months are invalid.
+* This function is Excel compatible.
+@EXAMPLES=
+If A1 contains 12/21/00 then EOMONTH(A1,0)=12/31/00, EOMONTH(A1,5)=5/31/01, and EOMONTH(A1,2)=2/28/01
+@SEEALSO=MONTH
+@FUNCTION=HOUR
+@SYNTAX=HOUR (date)
+@DESCRIPTION=HOUR converts a serial number to an hour.  The hour is returned as an integer in the range 0 (12:00 A.M.) to 23 (11:00 P.M.).
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+HOUR(0.128472) equals 3.
+@SEEALSO=MINUTE, NOW, TIME, SECOND
+@FUNCTION=MINUTE
+@SYNTAX=MINUTE (date)
+@DESCRIPTION=MINUTE converts a serial number to a minute.  The minute is returned as an integer in the range 0 to 59.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+MINUTE(0.128472) equals 5.
+@SEEALSO=HOUR, NOW, TIME, SECOND
+@FUNCTION=MONTH
+@SYNTAX=MONTH (date)
+@DESCRIPTION=MONTH converts a serial number to a month.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+MONTH(DATE(2003, 4, 30)) equals 4.
+@SEEALSO=DAY, TIME, NOW, YEAR
+@FUNCTION=NETWORKDAYS
+@SYNTAX=NETWORKDAYS (start_date,end_date[,holidays])
+@DESCRIPTION=NETWORKDAYS returns the number of non-weekend non-holidays between @start_date and @end_date including these dates. Holidays are optionally supplied in @holidays.
+* NETWORKDAYS returns #NUM! if @start_date or @end_date are invalid.
+* This function is Excel compatible.
+@EXAMPLES=
+NETWORKDAYS(DATE(2001,1,2),DATE(2001,2,15)) equals 33.
+@SEEALSO=WORKDAY
+@FUNCTION=NOW
+@SYNTAX=NOW ()
+@DESCRIPTION=NOW returns the serial number for the date and time at the time it is evaluated.
+Serial Numbers in Gnumeric are represented as follows: The integral part is the number of days since the 1st of January of 1900.  The decimal part represent the fraction of the day and is mapped into hour, minutes and seconds.
+For example: .0 represents the beginning of the day, and 0.5 represents noon.
+* This function is Excel compatible.
+@EXAMPLES=
+NOW().
+@SEEALSO=TODAY
+@FUNCTION=SECOND
+@SYNTAX=SECOND (date)
+@DESCRIPTION=SECOND converts a serial number to a second.  The second is returned as an integer in the range 0 to 59.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+SECOND(0.600613) equals 53.
+@SEEALSO=HOUR, MINUTE, NOW, TIME
+@FUNCTION=TIME
+@SYNTAX=TIME (hours,minutes,seconds)
+@DESCRIPTION=TIME returns a fraction representing the time of day.
+* This function is Excel compatible.
+@EXAMPLES=
+TIME(3, 5, 23) equals 3:05AM.
+@SEEALSO=HOUR
+@FUNCTION=TIMEVALUE
+@SYNTAX=TIMEVALUE (timetext)
+@DESCRIPTION=TIMEVALUE returns a fraction representing the time of day, a number between 0 and 1.
+* This function is Excel compatible.
+@EXAMPLES=
+TIMEVALUE("3:05") equals 0.128472.
+TIMEVALUE("2:24:53 PM") equals 0.600613.
+@SEEALSO=HOUR,MINUTE
+@FUNCTION=TODAY
+@SYNTAX=TODAY()
+@DESCRIPTION=TODAY returns the serial number for today (the number of days elapsed since the 1st of January of 1900).
+* This function is Excel compatible.
+@EXAMPLES=
+TODAY() returns 'Nov 6, 2001' on that particular day.
+@SEEALSO=NOW
+@FUNCTION=WEEKDAY
+@SYNTAX=WEEKDAY (date[, method])
+@DESCRIPTION=WEEKDAY converts a serial number to a weekday.
+This function returns an integer indicating the day of week.
+@METHOD indicates the numbering system.  It defaults to 1.
+  For @METHOD=1: Sunday is 1, Monday is 2, etc.
+  For @METHOD=2: Monday is 1, Tuesday is 2, etc.
+  For @METHOD=3: Monday is 0, Tuesday is 1, etc.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+WEEKDAY("10/24/1968") equals 5 (Thursday).
+@SEEALSO=DAY, MONTH, TIME, NOW, YEAR
+@FUNCTION=WEEKNUM
+@SYNTAX=WEEKNUM (date[,method])
+@DESCRIPTION=WEEKNUM returns the week number of @date according to the given @method.
+@method defaults to 1.
+  For @method=1, week starts on Sunday, and days before first Sunday are in week 0.
+  For @method=2, week starts on Monday, and days before first Monday are in week 0.
+  For @method=150, the ISO 8601 week number is returned.
+* WEEKNUM returns #NUM! if @date or @method is invalid.
+* This function is Excel compatible, except that Excel does not support ISO 8601 week numbers.
+@EXAMPLES=
+If A1 contains 12/21/00 then WEEKNUM(A1,2)=51
+@SEEALSO=ISOWEEKNUM
+@FUNCTION=WORKDAY
+@SYNTAX=WORKDAY (start_date,days[,holidays])
+@DESCRIPTION=WORKDAY returns the date which is @days working days from the @start_date.  Weekends and holidays optionally supplied in @holidays are respected.
+* WORKDAY returns #NUM! if @start_date or @days are invalid.
+* This function is Excel compatible.
+@EXAMPLES=
+DAY(WORKDAY(DATE(2001,1,5),30)) equals 16 and
+MONTH(WORKDAY(DATE(2001,1,5),30)) equals 2.
+@SEEALSO=NETWORKDAYS
+@FUNCTION=YEAR
+@SYNTAX=YEAR (date)
+@DESCRIPTION=YEAR converts a serial number to a year.
+* Note that Gnumeric will perform regular string to serial number conversion for you, so you can enter a date as a string.
+* This function is Excel compatible.
+@EXAMPLES=
+YEAR(DATE(2003, 4, 30)) equals 2003.
+@SEEALSO=DAY, MONTH, TIME, NOW
+@FUNCTION=YEARFRAC
+@SYNTAX=YEARFRAC (start_date, end_date [,basis])
+@DESCRIPTION=YEARFRAC returns the number of full days between @start_date and @end_date according to the @basis.
+@EXAMPLES=
+@SEEALSO=DATEDIF
+@FUNCTION=UNIX2DATE
+@SYNTAX=UNIX2DATE(unixtime)
+@DESCRIPTION=UNIX2DATE converts a unix time into a spreadsheet date and time.
+A unix time is the number of seconds since midnight January 1, 1970.
+@EXAMPLES=
+@SEEALSO=NOW, DATE, DATE2UNIX
+@FUNCTION=DATE2UNIX
+@SYNTAX=DATE2UNIX(serial)
+@DESCRIPTION=DATE2UNIX converts a spreadsheet date and time serial number into a unix time.
+A unix time is the number of seconds since midnight January 1, 1970.
+@EXAMPLES=
+DATE2UNIX("01/01/2000") equals 946656000.
+@SEEALSO=NOW, DATE, UNIX2DATE
+@FUNCTION=ISOWEEKNUM
+@SYNTAX=ISOWEEKNUM (date)
+@DESCRIPTION=ISOWEEKNUM returns the ISO 8601 week number of @date.
+An ISO 8601 week starts on Monday. Weeks are numbered from 1. A week including days from two different years is assigned to the year which includes the most days. This means that Dec 31 could be in week 1 of the following year, and Jan 1 could be in week 52 or 53 of the previous year. ISOWEEKNUM returns the week number.
+* ISOWEEKNUM returns #NUM! if date is invalid.
+@EXAMPLES=
+If A1 contains 12/21/00 then ISOWEEKNUM(A1)=51
+@SEEALSO=WEEKNUM, ISOYEAR
+@FUNCTION=ISOYEAR
+@SYNTAX=ISOYEAR (date)
+@DESCRIPTION=ISOYEAR returns the year of the ISO 8601 week number of @date.
+An ISO 8601 week starts on Monday. Weeks are numbered from 1. A week including days from two different years is assigned to the year which includes the most days. This means that Dec 31 could be in week 1 of the following year, and Jan 1 could be in week 52 or 53 of the previous year. ISOYEAR returns the year the week is assigned to.
+* ISOYEAR returns #NUM! if date is invalid.
+@EXAMPLES=
+If A1 contains 12/31/2001 then ISOYEAR(A1)=2002
+@SEEALSO=ISOWEEKNUM
+munG
+datedif_opt_ym
+datedif_opt_yd
+datedif_opt_md
+plugin.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

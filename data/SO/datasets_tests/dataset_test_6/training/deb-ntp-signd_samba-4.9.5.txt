@@ -1,0 +1,222 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+geteuid
+lpcfg_ntp_signd_socket_directory
+directory_create_or_exist_strict
+task_server_set_title
+talloc_named_const
+system_session
+samdb_connect
+talloc_asprintf
+lpcfg_socket_options
+stream_setup_socket
+task_server_terminate
+DEBUGLEVEL_CLASS
+dbghdrclass
+nt_errstr
+dbgtext
+talloc_check_name
+stream_terminate_connection
+_talloc_zero
+_tevent_queue_create
+_talloc_free
+socket_get_fd
+_tstream_bsd_existing_socket
+packet_full_request_u32
+tstream_read_pdu_blob_send
+tevent_req_set_callback
+_tevent_req_callback_data
+_talloc_get_type_abort
+tstream_writev_queue_recv
+strerror
+__stack_chk_fail
+data_blob_named
+ndr_push_signed_reply
+ndr_push_struct_blob
+ndr_map_error2ntstatus
+tstream_read_pdu_blob_recv
+ndr_pull_sign_request
+ndr_pull_struct_blob_all
+samdb_domain_sid
+dom_sid_add_rid
+ldap_encode_ndr_dom_sid
+ldb_get_default_basedn
+ldb_search
+dump_data
+tstream_writev_queue_send
+tsocket_address_string
+ldb_msg_find_attr_as_uint
+ldb_errstring
+dom_sid_string
+ldb_dn_get_linearized
+samdb_result_hash
+data_blob_talloc_named
+memcpy
+MD5Init
+MD5Update
+MD5Final
+samba_init_module
+register_server_service
+libservice.so.0
+libsamdb.so.0
+libsamba-sockets.so.0
+libndr.so.0
+libndr-samba4.so.0
+libsamba-hostconfig.so.0
+libsamba-util.so.0
+libsamdb-common.so.0
+libcli-ldap-common.so.0
+libauthkrb5.so.0
+libsamba-errors.so.1
+libsamba-security.so.0
+libsamba-debug.so.0
+libcli-ldap.so.0
+libbsd.so.0
+libldb.so.1
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+ntp_signd.so
+SAMBA_4.9.5_DEBIAN
+SAMBA_HOSTCONFIG_0.0.1
+NDR_0.0.1
+LIBBSD_0.0
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+SAMDB_0.0.1
+TEVENT_0.9.9
+SAMBA_ERRORS_1
+TALLOC_2.0.2
+LDB_0.9.10
+SAMBA_UTIL_0.0.1
+/usr/lib/x86_64-linux-gnu/samba
+u/UH
+AUATUSH
+AUUPj
+[]A\A]
+[]A\A]
+A\A]
+[]A\
+ATUSH
+[]A\
+D$(1
+L$(dH3
+AWAVAUATI
+T$ H
+D$`H
+t$hH
+D$pH
+\$$L
+T$ E
+T$,H
+AXAY
+T$(L
+[]A\A]A^A_
+D$(H
+D$HH
+D$8H
+D$PH
+T$XH
+t$0H
+T$8L
+T$PH
+D$8L
+T$PH
+L$.H
+T$PH
+L$/H
+D$8H
+T$8H
+t$0L
+D$8H
+T$PL
+T$@H
+Cannot create NTP signd pipe directory: %s
+ntp_signd failed to open samdb
+../source4/ntp_signd/ntp_signd.c:542
+ntp_signd_accept: out of memory
+../source4/ntp_signd/ntp_signd.c:441
+../source4/ntp_signd/ntp_signd.c:448
+../source4/ntp_signd/ntp_signd.c:452
+ntp_signd_accept: no memory for tstream_read_pdu_blob_send
+ntp_signd_call_writev_done: tstream_writev_queue_recv() failed
+../source4/ntp_signd/ntp_signd.c:396
+../source4/ntp_signd/ntp_signd.c:401
+ntp_signd_call_writev_done: tstream_writev_queue_recv() - %d:%s
+../source4/ntp_signd/ntp_signd.c:419
+DATA_BLOB: ../source4/ntp_signd/ntp_signd.c:84
+../source4/ntp_signd/ntp_signd.c:90
+failed to push ntp error reply
+../source4/ntp_signd/ntp_signd.c:298
+ntp_signd_call_loop: no memory for ntp_signd_call
+../source4/ntp_signd/ntp_signd.c:314
+ntp_signd_call_loop: tstream_read_pdu_blob_recv() - %s
+../source4/ntp_signd/ntp_signd.c:331
+Received NTP TCP packet of length %lu from %s
+../source4/ntp_signd/ntp_signd.c:122
+failed to parse ntp signing request
+../source4/ntp_signd/ntp_signd.c:157
+(&(objectSid=%s)(objectClass=user))
+../source4/ntp_signd/ntp_signd.c:175
+Failed to search for SID %s in SAM for NTP signing: %s
+../source4/ntp_signd/ntp_signd.c:184
+Failed to find SID %s in SAM for NTP signing
+../source4/ntp_signd/ntp_signd.c:191
+Found SID %s %u times in SAM for NTP signing
+../source4/ntp_signd/ntp_signd.c:205
+Account %s for SID [%s] is disabled
+../source4/ntp_signd/ntp_signd.c:212
+Account %s for SID [%s] is not a trust account
+../source4/ntp_signd/ntp_signd.c:219
+No unicodePwd found on record of SID %s for NTP signing
+DATA_BLOB: ../source4/ntp_signd/ntp_signd.c:231
+../source4/ntp_signd/ntp_signd.c:255
+ntp_signd_call_loop: no memory for tstream_writev_queue_send
+ntp_signd_call_loop: no memory for tstream_read_pdu_blob_send
+task[ntp_signd]
+struct ntp_signd_server
+ntp_signd: out of memory
+%s/socket
+unix
+Failed to bind to %s - %s
+struct ntp_signd_connection
+ntp_signd_send: called
+ntp_signd_recv: called
+ntp_signd_accept
+struct ntp_signd_call
+unicodePwd
+userAccountControl
+ntp_signd_process failed: %s
+ntp_signd
+signing_failure
+ntp_signd_process
+ntp_signd_call_loop
+ntp_signd_task_init
+;*3$"
+5ce7f48bb31f88368d86cb5a73ed4d336c863c.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink

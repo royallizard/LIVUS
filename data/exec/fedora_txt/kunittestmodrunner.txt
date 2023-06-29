@@ -1,0 +1,110 @@
+/lib/ld-linux.so.2
+libkunittest.so.4
+_Jv_RegisterClasses
+_Z5qFreePv
+_ZN10QByteArrayC1EPKc
+_ITM_deregisterTMCloneTable
+_ZN10QByteArray11shared_nullE
+__gmon_start__
+_ITM_registerTMCloneTable
+_ZN7QString4freeEPNS_4DataE
+_ZN9KUnitTest6Runner4selfEv
+_ZN9KUnitTest6Runner24setDebugCapturingEnabledEb
+_ZN9KUnitTest6Runner8runTestsEv
+_ZNK9KUnitTest6Runner19numberOfFailedTestsEv
+_ZNK9KUnitTest6Runner24numberOfExpectedFailuresEv
+_ZN9KUnitTest6Runner11loadModulesERK7QStringS3_
+libkdecore.so.5
+_ZN10KAboutDataC1ERK10QByteArrayS2_RK16KLocalizedStringS2_S5_NS_10LicenseKeyES5_S5_S2_S2_
+_ZNK12KCmdLineArgs5isSetERK10QByteArray
+_ZNK12KCmdLineArgs9getOptionERK10QByteArray
+_ZN16KLocalizedStringC1Ev
+_ZN12KCmdLineArgs10parsedArgsERK10QByteArray
+_ZN10KAboutDataD1Ev
+_ZN12KCmdLineArgs4initEiPPcPK10KAboutData6QFlagsINS_13StdCmdLineArgEE
+_Z5ki18nPKc
+_ZN12KCmdLineArgs17addCmdLineOptionsERK15KCmdLineOptionsRK16KLocalizedStringRK10QByteArrayS8_
+_ZN14KComponentDataD1Ev
+_ZN15KCmdLineOptionsD1Ev
+_ZN16KLocalizedStringD1Ev
+_ZN15KCmdLineOptions3addERK10QByteArrayRK16KLocalizedStringS2_
+_ZN14KComponentDataC1ERK10QByteArrayS2_NS_25MainComponentRegistrationE
+_ZN15KCmdLineOptionsC1Ev
+libQtDBus.so.4
+libQtCore.so.4
+libpthread.so.0
+libstdc++.so.6
+_ZNSt8ios_base4InitD1Ev
+_ZNSt8ios_base4InitC1Ev
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+_IO_stdin_used
+__cxa_atexit
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__data_start
+_fp_hw
+__libc_csu_init
+GLIBCXX_3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+Y[^_]
+UWVS
+t$,U
+[^_]
+modrunner
+^kunittest_.*\.la$
+query [regexp]
+folder [folder]
+enable-dbgcap
+Jeroen.Wijnhout@kdemail.net
+(C) 2005 Jeroen Wijnhout
+KUnitTest ModRunner
+KUnitTest Module Runner
+query
+folder
+A command-line application that can be used to run KUnitTest modules.
+Only run modules whose filenames match the regexp.
+Only run tests modules which are found in the folder. Use the query option to select modules.
+Disables debug capturing. You typically use this option when you use the GUI.
+;*2$"(
+kunittestmodrunner.debug
+7zXZ
+!r9*
+S	@F
+M(HP
+ L6<p
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

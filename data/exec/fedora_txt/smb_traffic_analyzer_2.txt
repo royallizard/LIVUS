@@ -1,0 +1,297 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+lp_parm_const_string
+talloc_asprintf
+str_checksum
+lp_const_servicename
+talloc_strdup
+dom_sid_string
+strlen
+_talloc_free
+talloc_asprintf_append
+DEBUGLEVEL_CLASS
+dump_data
+dbghdrclass
+dbgtext
+write_data
+GetTimeOfDay
+localtime
+talloc_tos
+secrets_fetch
+unbecome_root
+samba_AES_set_encrypt_key
+_talloc_array
+samba_AES_encrypt
+__stack_chk_fail
+smb_vfs_call_chdir
+smb_vfs_call_rename
+smb_vfs_call_recvfile
+fsp_str_dbg
+smb_vfs_call_sendfile
+smb_vfs_call_pwrite
+smb_vfs_call_write
+smb_vfs_call_pread
+smb_vfs_call_vfs_read
+smb_vfs_call_close_fn
+smb_vfs_call_open
+smb_vfs_call_rmdir
+smb_vfs_call_mkdir
+close
+strstr
+smb_vfs_call_connect
+strcmp
+strtol
+_talloc_zero
+getaddrinfo
+socket
+freeaddrinfo
+__errno_location
+__memcpy_chk
+open_socket_out
+rep_strlcpy
+smb_vfs_call_disconnect
+gai_strerror
+init_samba_module
+smb_register_vfs
+debug_add_class
+libc.so.6
+_edata
+__bss_start
+_end
+smb_traffic_analyzer.so
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zK 
+%rK 
+%jK 
+%bK 
+%ZK 
+%RK 
+%JK 
+%BK 
+%:K 
+%2K 
+%*K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+=pM 
+ATSubH
+[A\]
+=pE 
+=VE 
+l$ L
+d$(1
+l$0H
+l$ L
+d$(L
+l$01
+AUATUH
+D$pH
+L$hL
+D$pH
+t$xH
+L$HD
+D$8D
+t$(H
+t$@H
+\$0L
+l$ D
+[]A\A]A^A_
+t$ H
+t$ H
+AWAVA
+ATUSH
+t$XH
+t$XH
+|$hL
+D$xD
+t$XH
+|$hL
+D$xD
+L$0H
+t$8H
+|$@D
+[]A\A]A^A_
+	vRH
+T$`H
+T$`H
+........I
+........H
+T$`H
+T$`H
+T$`H
+T$`H
+T$`H
+ffff.
+l$ H
+\$ H
+l$(L
+d$0H
+fff.
+d$ H
+l$ H
+d$ H
+C ub
+ffffff.
+AUATUH
+-:4 
+fA;]
+[]A\A]A^A_
+L$@L
+-`2 
+5|, 
+\$@H
+d$PH
+|$@H
+5d* 
+total_anonymization
+smb_traffic_analyzer
+anonymize_prefix
+%s%i
+00017
+%04u%s
+V2.%s%017u
+protocol_version
+smb_traffic_analyzer_key
+char
+/var/tmp/stadsocket
+internet_socket
+mode
+unix_domain_socket
+localhost
+9430
+port
+struct refcounted_sock
+%04d-%02d-%02d %02d:%02d:%02d.%03d
+%s%04u%s%04u%s%04u%s%04u%s%04u%s%04u%s%04u%s
+modules/vfs_smb_traffic_analyzer.c:375
+modules/vfs_smb_traffic_analyzer.c:206
+smb_traffic_analyzer_send_data_socket: created Header:
+modules/vfs_smb_traffic_analyzer.c:226
+smb_traffic_analyzer_send_data_socket: error sending the header over the socket!
+modules/vfs_smb_traffic_analyzer.c:228
+smb_traffic_analyzer_write_data: sending data:
+modules/vfs_smb_traffic_analyzer.c:233
+smb_traffic_analyzer_write_data: error sending crypted data to socket!
+modules/vfs_smb_traffic_analyzer.c:431
+%s() failed to get vfs_handle->data!
+modules/vfs_smb_traffic_analyzer.c:435
+smb_traffic_analyzer_send_data: socket is closed
+V1,%u,"%s","%s","%c","%s","%s","%04d-%02d-%02d %02d:%02d:%02d.%03d"
+modules/vfs_smb_traffic_analyzer.c:499
+smb_traffic_analyzer_send_data_socket: error sending V1 protocol data to socket!
+modules/vfs_smb_traffic_analyzer.c:570
+smb_traffic_analyzer: error! wrong VFS operation id detected!
+modules/vfs_smb_traffic_analyzer.c:578
+smb_traffic_analyzer_send_data: unable to create string to send!
+modules/vfs_smb_traffic_analyzer.c:593
+smb_traffic_analyzer_send_data_socket: a key was found, encrypting data!
+modules/vfs_smb_traffic_analyzer.c:182
+smb_traffic_analyzer_send_data_socket: created %s as filling block.
+modules/vfs_smb_traffic_analyzer.c:601
+smb_traffic_analyzer_send_data_socket: header created for crypted data: %s
+modules/vfs_smb_traffic_analyzer.c:715
+smb_traffic_analyzer_chdir: CHDIR: %s
+modules/vfs_smb_traffic_analyzer.c:731
+smb_traffic_analyzer_rename: RENAME: %s / %s
+modules/vfs_smb_traffic_analyzer.c:791
+smb_traffic_analyzer_recvfile: recvfile(w): %s
+modules/vfs_smb_traffic_analyzer.c:773
+smb_traffic_analyzer_sendfile: sendfile(r): %s
+modules/vfs_smb_traffic_analyzer.c:856
+smb_traffic_analyzer_pwrite: PWRITE: %s
+modules/vfs_smb_traffic_analyzer.c:840
+smb_traffic_analyzer_write: WRITE: %s
+modules/vfs_smb_traffic_analyzer.c:823
+smb_traffic_analyzer_pread: PREAD: %s
+modules/vfs_smb_traffic_analyzer.c:806
+smb_traffic_analyzer_read: READ: %s
+modules/vfs_smb_traffic_analyzer.c:888
+smb_traffic_analyzer_close: CLOSE: %s
+modules/vfs_smb_traffic_analyzer.c:873
+smb_traffic_analyzer_open: OPEN: %s
+modules/vfs_smb_traffic_analyzer.c:742
+smb_traffic_analyzer_rmdir: RMDIR: %s
+modules/vfs_smb_traffic_analyzer.c:754
+smb_traffic_analyzer_mkdir: MKDIR: %s
+modules/vfs_smb_traffic_analyzer.c:632
+modules/vfs_smb_traffic_analyzer.c:678
+modules/vfs_smb_traffic_analyzer.c:126
+smb_traffic_analyzer_connect_unix_socket: Unix domain socket mode. Using %s
+modules/vfs_smb_traffic_analyzer.c:131
+smb_traffic_analyzer_connect_unix_socket: Couldn't create socket, make sure stad is running!
+modules/vfs_smb_traffic_analyzer.c:141
+smb_traffic_analyzer_connect_unix_socket: Could not connect to socket, make sure
+stad is running!
+modules/vfs_smb_traffic_analyzer.c:78
+smb_traffic_analyzer_connect_inet_socket: getaddrinfo failed for name %s [%s]
+modules/vfs_smb_traffic_analyzer.c:83
+smb_traffic_analyzer: Internet socket mode. Hostname: %s,Port: %i
+modules/vfs_smb_traffic_analyzer.c:109
+smb_traffic_analyzer: unable to create socket, error is %s
+modules/vfs_smb_traffic_analyzer.c:696
+modules/vfs_smb_traffic_analyzer.c:930
+smb_traffic_analyzer_init: Couldn't register customdebugging class!
+modules/vfs_smb_traffic_analyzer.c:934
+smb_traffic_analyzer_init: Debug class number of'smb_traffic_analyzer': %d
+000000
+init_samba_module
+smb_traffic_analyzer_chdir
+smb_traffic_analyzer_send_data
+smb_traffic_analyzer_encrypt
+smb_traffic_analyzer_create_header
+smb_traffic_analyzer_write_data
+smb_traffic_analyzer_rename
+smb_traffic_analyzer_recvfile
+smb_traffic_analyzer_sendfile
+smb_traffic_analyzer_pwrite
+smb_traffic_analyzer_write
+smb_traffic_analyzer_pread
+smb_traffic_analyzer_read
+smb_traffic_analyzer_close
+smb_traffic_analyzer_open
+smb_traffic_analyzer_rmdir
+smb_traffic_analyzer_mkdir
+smb_traffic_analyzer_connect_unix_socket
+smb_traffic_analyzer_connect_inet_socket
+smb_traffic_analyzer.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

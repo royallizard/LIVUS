@@ -1,0 +1,10846 @@
+/lib/ld-linux.so.2
+l(9c
+f|XPi{
+!(:i*;l
+|X_*
+@ecW}b
+LR%4
+g?'_c
+libprelude.so.2
+_ITM_deregisterTMCloneTable
+pthread_sigmask
+__gmon_start__
+pthread_join
+pthread_create
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+idmef_alert_new_target
+prelude_client_destroy
+idmef_message_destroy
+idmef_impact_set_severity
+idmef_target_new_node
+prelude_client_send_idmef
+idmef_node_new_address
+idmef_alert_new_source
+idmef_alert_set_create_time
+prelude_string_set_ref
+prelude_string_set_ref_fast
+idmef_alert_new_additional_data
+idmef_classification_new_text
+idmef_service_set_ip_version
+prelude_client_get_analyzer
+idmef_alert_set_analyzer
+idmef_analyzer_new_model
+idmef_reference_set_origin
+idmef_target_new_service
+idmef_analyzer_new_manufacturer
+idmef_reference_new_url
+idmef_analyzer_new_class
+idmef_analyzer_new_version
+idmef_alert_new_classification
+idmef_message_new_alert
+idmef_additional_data_set_integer
+idmef_classification_new_reference
+idmef_additional_data_new_meaning
+idmef_reference_new_name
+idmef_alert_new_detect_time
+idmef_address_new_address
+prelude_client_new
+idmef_action_set_category
+idmef_message_new
+prelude_client_start
+idmef_source_new_service
+idmef_impact_new_description
+prelude_client_get_flags
+idmef_time_new_from_gettimeofday
+idmef_analyzer_ref
+prelude_perror
+idmef_source_new_node
+idmef_reference_new_meaning
+idmef_service_set_iana_protocol_number
+idmef_service_set_port
+idmef_alert_new_assessment
+idmef_action_new
+idmef_classification_new_ident
+idmef_time_set_from_timeval
+prelude_string_sprintf
+idmef_additional_data_set_byte_string_ref
+idmef_assessment_new_impact
+idmef_assessment_set_action
+prelude_client_set_flags
+prelude_init
+libgnutls.so.26
+libgcrypt.so.11
+libgpg-error.so.0
+_fini
+libdl.so.2
+libhtp-0.2.so.1
+table_getc
+htp_tx_get_response_headers_raw
+htp_config_register_request
+htp_utf8_validate_path
+htp_parse_content_length
+htp_config_register_response_body_data
+htp_connp_destroy_all
+htp_config_register_request_body_data
+htp_config_register_request_uri_normalize
+htp_tx_destroy
+htp_normalize_uri_path_inplace
+htp_config_destroy
+htp_tx_set_user_data
+htp_connp_create
+htp_config_register_response
+htp_connp_res_data
+htp_config_set_path_case_insensitive
+htp_connp_req_data
+table_iterator_reset
+htp_connp_open
+htp_decode_path_inplace
+htp_utf8_decode_path_inplace
+htp_connp_set_user_data
+htp_tx_get_request_headers_raw
+htp_config_create
+htp_config_set_generate_request_uri_normalized
+htp_config_set_server_personality
+table_iterator_next
+htp_tx_get_user_data
+libz.so.1
+libmagic.so.1
+magic_buffer
+magic_open
+magic_error
+magic_close
+strlcat
+magic_load
+strlcpy
+libnss3.so
+HASH_Create
+HASH_Begin
+HASH_End
+HASH_Destroy
+NSS_NoDB_Init
+HASH_Update
+libnspr4.so
+PR_Init
+libcap-ng.so.0
+capng_clear
+capng_change_id
+capng_apply
+capng_updatev
+libpcap.so.1
+pcap_set_buffer_size
+pcap_open_dead
+pcap_geterr
+pcap_compile_nopcap
+pcap_close
+pcap_activate
+pcap_breakloop
+pcap_open_offline
+pcap_dump_close
+pcap_dump_open
+pcap_setfilter
+pcap_set_promisc
+pcap_findalldevs
+pcap_create
+pcap_set_snaplen
+pcap_dispatch
+pcap_dump
+pcap_datalink
+pcap_compile
+pcap_freealldevs
+pcap_set_timeout
+pcap_stats
+libnet.so.1
+libnet_init
+libnet_write
+libnet_build_tcp
+libnet_destroy
+libnet_build_ipv4
+libnet_geterror
+libnet_build_icmpv4_unreach
+libnetfilter_queue.so.1
+nfnl_fd
+nfq_get_indev
+nfq_set_mode
+nfq_set_verdict
+nfq_unbind_pf
+nfq_create_queue
+nfq_set_verdict2
+nfq_get_msg_packet_hdr
+nfq_get_payload
+nfq_open
+nfq_nfnlh
+nfq_get_nfmark
+nfq_get_outdev
+nfq_handle_packet
+nfq_destroy_queue
+nfq_set_queue_maxlen
+nfq_bind_pf
+nfq_get_timestamp
+libnfnetlink.so.0
+nfnl_rcvbufsiz
+libpthread.so.0
+pthread_self
+waitpid
+fork
+pthread_mutex_init
+pthread_spin_unlock
+connect
+pthread_cond_broadcast
+pthread_cond_wait
+pthread_mutex_unlock
+pthread_cond_signal
+recvmsg
+pthread_spin_lock
+pthread_cond_init
+__errno_location
+recv
+pthread_attr_init
+pthread_cond_timedwait
+pthread_attr_setdetachstate
+pthread_mutex_lock
+pthread_mutex_trylock
+pthread_mutex_destroy
+pthread_exit
+pthread_spin_init
+sigaction
+pthread_spin_destroy
+libyaml-0.so.2
+yaml_parser_delete
+yaml_parser_parse
+yaml_event_delete
+yaml_parser_set_input_file
+yaml_parser_set_input_string
+yaml_parser_initialize
+libpcre.so.1
+pcre_study
+pcre_free_substring
+pcre_free
+pcre_exec
+pcre_get_substring
+pcre_compile2
+pcre_compile
+pcre_fullinfo
+pcre_free_substring_list
+libgcc_s.so.1
+_Unwind_Resume
+__gcc_personality_v0
+libc.so.6
+_IO_stdin_used
+socket
+fflush
+__printf_chk
+fopen
+strncmp
+optind
+__strdup
+getpwuid
+ftell
+inet_ntop
+sigprocmask
+sigfillset
+unlink
+putchar
+mkdir
+realloc
+abort
+strtoll
+memchr
+getpid
+kill
+inet_pton
+__assert_fail
+localtime_r
+strtod
+strtof
+strtok
+endpwent
+strtol
+mmap
+feof
+fgetc
+fgets
+sched_setaffinity
+getpwnam
+getppid
+calloc
+strlen
+prctl
+sigemptyset
+openlog
+getaddrinfo
+memset
+strstr
+bind
+fseek
+memcmp
+getpagesize
+__syslog_chk
+endgrent
+getsockopt
+dup2
+rand_r
+poll
+__fprintf_chk
+sigaddset
+getgrnam
+stdout
+fputc
+__strtoll_internal
+fputs
+memcpy
+fclose
+strtoul
+setsockopt
+malloc
+umask
+strcasecmp
+remove
+__ctype_b_loc
+getenv
+sscanf
+nice
+optarg
+stderr
+ioctl
+setrlimit64
+__snprintf_chk
+getopt_long
+index
+strncasecmp
+strtoull
+usleep
+fwrite
+fread
+__memcpy_chk
+difftime
+strchr
+__strtok_r
+fdopen
+__ctype_toupper_loc
+__ctype_tolower_loc
+__cxa_finalize
+syscall
+freeaddrinfo
+setsid
+getrlimit64
+getprotobyname
+__xstat
+strcmp
+strerror
+__libc_start_main
+ferror
+closelog
+snprintf
+sysconf
+__stack_chk_fail
+_edata
+__bss_start
+_end
+tmqh_table
+thread_affinity
+sc_log_global_log_level
+flow_flags_sc_atomic__
+tmm_modules
+host_config
+NFQGetThread
+host_memuse_sc_atomic__
+debuglog_enabled
+engine_mode
+DecodePPP
+nfq_config
+need_htp_request_file
+DecodeRaw
+stream_inline
+already_seen_warning
+mpm_table
+flow_spare_q
+smtp_mpm_thread_ctx
+trans_q
+file_id_sc_atomic__
+alp_proto_ctx
+host_hash
+flow_manager_mutex
+sc_log_module_initialized
+need_htp_response_body
+ra_memuse_sc_atomic__
+rep_ctx
+g_u8_lowercasetable
+default_packet_size
+max_pending_packets
+sc_log_fg_filters_present
+flow_manager_cond
+flow_prune_idx_sc_atomic__
+suricata_ctl_flags
+known_proto
+al_proto_table
+num_tags_sc_atomic__
+flow_proto
+flow_memuse_sc_atomic__
+run_mode
+threading_set_cpu_affinity
+sm_fp_support_smlist_list
+host_prune_idx_sc_atomic__
+unified2_event_id_sc_atomic__
+host_counter_sc_atomic__
+tv_root
+tv_root_lock
+sc_set_caps
+DecodeSll
+ssl_config
+flow_hash
+need_htp_request_multipart_hdr
+engine_analysis
+data_queues
+sigmatch_table
+threading_detect_ratio
+conf_filename
+need_htp_request_body
+stream_config
+engine_stage_sc_atomic__
+DecodeEthernet
+flow_config
+SignalHandlerSigusr2
+sc_log_fd_filters_present
+NSS_3.2
+NSS_3.4
+GCC_3.0
+GCC_3.3.1
+GLIBC_2.1
+GLIBC_2.2
+GLIBC_2.3.2
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+a_&	
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+l$()
+|$()
+l$()
+|$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+t$()
+c:TD
+hi:l
+:q:d
+:r:u
+s:S:
+U:VFf
+L$@)
+|$0tA
+UWV1
+|$,	
+	D$(
+[^_]
+[^_]
+[^_]
+d$,1
+t$()
+UWVS
+;l$,
+d$<[^_]
+work
+D$8)
+|$8)
+T$ tu
+	v;1
+D$8)
+|$8)
+|$8)
+|$8)
+L$$)
+t$8)
+L$ t-
+D$8)
+|$8)
+|$8)
+|$8)
+T$()
+T$()
+UWVS
+D$8)
+[^_]
+D$8)
+D$8)
+D$8)
+|$8)
+D$8)
+|$ t%
+D$()
+D$()
+D$()
+D$()
+UWVS
+[^_]
++D$,=
+D$,)
++D$,=
++T$,
+D$P~w
+|$P+|$,
++T$,
+D$0u1
+OD$01
+T$<f
+9|$0~#
+Detef
+T$69
+9l$0
+D$,+T$(1
+[^_]
+D$`)
+|$`)
+|$`)
+T$$)
+D$`)
+D$()
+UWVS
+T$8e
+D$4u,
+OD$4
+D$41
+Detef
+9|$4
+D$,)
+[^_]
+D$X)
+D$X)
+|$X)
+|$X)
+T$()
+UWVS
+[^_]
+T$8=
+|$8)
+D$8)
+UWVS
+[^_]
+|$H)
+D$H)
+|$H)
+D$H)
+d$([
+d$([
+d$([
+D$0u1
+OD$01
+T$<f
+9|$0~#
+Detef
+L$69
+9l$0
+D$,+T$(1
+[^_]
+D$`)
+|$`)
+|$`)
+T$$)
+D$`)
+D$()
+D$()
+D$()
+D$()
+D$()
+D$()
+D$()
+D$()
+UWVS
+T$01
+T$01
+T$01
+T$01
+[^_]
+T$0)
+L$(1
+T$0)
+T$0)
+T$0)
+T$0)
+T$41
+T$0)
++D$0=
++D$0=
+|$(f
+T$01
+T$0)
+T$01
++T$0
+T$0)
+T$0)
+T$01
++T$0
+T$0)
+T$0)
+T$01
+t$`+t$0
++T$0
+|$P1
+T$8u
+D$()
+UWVS
+[^_]
+D$<)
+UWVS
+[^_]
+T$8)
+l$8)
+UWVS
+T$L1
+d$,[^_]
+d$,1
+[^_]
+d$,1
+[^_]
+UWVS
+D$(1
+T$,1
+[^_]
++D$,=
+D$,)
++D$,=
+T$,)
+T$,1
+T$,1
++D$,=
++T$,
+T$,1
++D$,=
+T$,)
+t$@+t$,
+T$,)
+T$,)
++T$,
+T$,)
++T$,
++T$,
++T$,
+D$@~.
+T$,e
+D$8)
+D$8)
+|$8)
+l$8)
+t$8)
+t$()
+t$()
+l$()
+d$,1
+[^_]
+[^_]
+#FH	
+T$8)
+l$8)
+T$Pxh
+T$P1
+T$P1
+|$p1
+D$t1
++D$@
+|$l)
+UWVS
+D$01
+T$,1
+[^_]
++D$,=
+T$,)
+T$,0
+T$,)
++D$,=
+|$H+|$,
+D$,)
+|$H+|$,
++D$,=
++D$,=
+|$H+|$,
+T$,1
+|$H+|$,
+T$,1
+|$H+|$,
+T$81
+T$,)
+|$H+|$,
+D$,)
+|$H+|$,
+T$,1
+t$H+t$,
++T$,
+UWVS
+[^_]
+D$H)
+D$,1
+D$8u{
+T$4)
+|$H+|$4
+|$H)
+|$H)
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+d$<1
+[^_]
+UWVS
+D$$1
+[^_]
+D$8)
+T$(1
+D$8)
+T$8=
+T$8=
+D$8)
+D$8)
+D$8)
+UWVS
+[^_]
+D$()
+|$()
+UWVS
+d$,[^_]
+d$,[^_]
+d$,[^_]
+l$()
+l$()
+|$@f
+t$8)
+t$8)
+|$8)
+D$8)
+|$8)
+UWVS
+D$Df
+|$Hf
+[^_]
+D$,1
+D$ ti
+D$4)
+D$4)
+l$()
+l$()
+l$8)
+T$<u
++D$8
+UWVS
+D$he
+D$` 
+L$jf
+L$`1
+CD$\
+T$,1
+[^_]
+|$@)
+D$<f
+D$<1
+|$@)
+D$<f
+UWVS
+L$4t>
+L$4u
+D$8t
+L$`1
+L$`1
+d$L[^_]
+D$8f
+D$8f
+T$,1
+|$8)
+|$8)
+|$8)
+T$Te
+T$P1
+[^_]
+T$D9
+D$H1
+t$t+t$D
++T$D
+T$D)
+T$D)
+t$t+t$D
+D$D)
+T$D)
+|$t+|$D
+L$T)
++T$D
+T$D)
+t$t+t$D
+t$t+t$D
+D$D)
+T$P1
+T$D)
++T$D
+T$D)
+L$P1
++T$D
+T$D)
+L$T)
++T$D
+|$t+|$D
+t$t+t$D
++T$D
+T$P1
++T$D
+D$H1
++T$D
+|$t+|$D
+t$t+t$D
++T$D
+T$D)
+T$P1
++T$D
+|$t+|$D
+T$D)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+|$8)
+|$8)
+UWVS
+D$Bf
+8 tWf
+ t}1
+,$t_
+T$8)
+[^_]
+L$8)
+T$8)
+D$8)
+D$<|
+|$8)
+D$8)
+L$,t|
+|$8)
+D$8)
+UWVS
+[^_]
+D$@e
+T$,1
+D$,e3
+d$8[
+|$()
+D$()
+D$(f
+t~f=
+t@f=
+T$,f
+L$,f
+vvf=3
+#ttf
+%tnf
+t6w,<
+t.<	t*
+#tlf
+%tff
+VtxvF
+UWVS
+d$\[^_]
+9D$D
+d$\[^_]
+d$\[^_]
+d$\[^_]
+d$\[^_]
+d$\[^_]
+d$\[^_]
+f9D$B
+f;D$B
+f)D$B
+f;D$B
+|$0vO
+L$tf
+L$tf
+L$tf
+<'w%
++D$0f
+<'w+
+T$6f+t$6
+T$<w7
+D$6w3
+T$<tU
+|$@f
+8T$<
+L$@1
+UWVS
+D$`f
+f9D$,f
+L$#w
+D$,f+D$.f
+d$<[^_]
+r)to
+UWVS
+[^_]
+[^_]
+B(f;B*t
+f;F 
+UWVS
+d$L[^_]
+D$L1
+D$X)
++D$@
+L$l=
+D$$ 
+D$@)
+D$0u
++D$@
+L$l=
+D$  
+[^_]
++T$@
+T$@)
+L$@)
++T$@
+t$l+t$@
+D$l)
+T$@)
++T$@
+t$l+t$@
+UWVS
+t$,9~
+d$<[^_]
+L$Hf
+[^_]
+L$Hf
+UWVS
+[^_]
+d$,1
+UWVS
+L$H;J
+d$\[^_]
+d$\[^_]
+UWVS
+[^_]
+D$()
+D$()
+D$()
+D$()
+D$()
+D$()
+UWVS
+[^_]
+UWVS
+T$d9T$ 
+d$L[^_]
+l$`1
+UWVS
+T$4)
++D$4=
+D$\1
+D$()
+D$()
+|$()
+w	;A
+UWVS
+F(f9
+D$@f
+;F$t
+F 9G
+V*f9W u
+n(f9o"u
+F,f9G$u
+V*f9
+T$@f
+n$9o
+n 9o
+n(9o 
+F 9G
+F 9B
+|$,;z
+~*f9z 
+F(f9B"
+~$9z
+~ 9z
+~(9z 
+~,f9z$
+|$,;x
+f9B"
+f9z 
+F-8B%
+d$l[
+V*f9
+D$Xf
+T$<f
+9l$,
+l$,;h
+f9G"
+f9W 
+V-8W%
+V$9W
+V 9W
+V(9W 
+[^_]
+T$Xf
+f9W 
+f9W"
+V-8W%
+f9B 
+f9z"
+F-8B%
+D$@f
+T$@f
+|$8)
+D$8)
+t(v.
+D$$f
+UWVS
+[^_]
+D$8)
+|$8)
+UWVS
+[^_]
+D$()
+|$()
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+D$$f
+T$(f
+T$$t@
+D$8)
+|$8)
+UWVS
+d$,[^_]
+p<;Q
+l$8t9
+UWVS
+D$X)
+L$x=
+D$$ 
+L$x=
+D$  
+[^_]
+D$x)
+t$x)
+D$x)
+D$x)
+t$x)
+UWVS
+t$(9~
+d$<[^_]
+D$ f
+;V(t=
+9F$u
+9F u
+P8;u
+t`;F(u
+9V$u
+9V u
+P8;w
+D$()
+D$()
+|$()
+UWVS
+T$$;2
+T$(;2
+d$<[^_]
+T$(;2
+D$8)
+D$8)
+|$8)
+|$()
+D$()
+UWVS
+d$,[^_]
+UWV1
+[^_]
+t$()
+D$()
+|$()
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$()
+|$()
+|$()
+|$()
+UWVS
+d$,1
+[^_]
+[^_]
+9}`u
+[^_]
+T$<1
+T$<1
+T$<1
+D$H)
+|$H)
+|$H)
+|$H)
+T$4)
+[^_]
+@u\%
+D$H)
+D$H)
+|$H)
+|$H)
+T$0)
+T$(1
+T$(1
+D$8)
+T$(1
+|$8)
+|$8)
+t$8)
+L$,)
+UWVS
+;8t$
+d$<[^_]
+UWVS
+l$$+l$0
+[^_]
+D$H)
+D$H)
+|$H)
+UWVS
+L$df
+L$`t&
+L$d1
+l$Tf
+L$<"N
+f9L$dt
+G<;D$Pf
+d$|[^_]
+L$<"
+L$<B
+T$\1
+L$\t
+T$gf
+L$(uG
+9Ppu
+9Htu
+UWVS
+T$4e
+[^_]
+T$41
+T$L1
+T$L1
+D$X)
+|$X)
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+T$L9
+d$,[^_]
+d$,1
+[^_]
+UWVS
+T$,e
+[^_]
+;t$(t?
+UWVS
+T$$9U
+[^_]
+d$L1
+[^_]
+UWVS
+T$09U
+L$@9L$4
+T$0u`
+T$@9T$<
+[^_]
+d$l1
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+d$,[^_]
+UWVS
+T$HtP
+9Ppt
+d$,[^_]
+UWVS
+[^_]
+UWVS
+D$<t
+T$L9T$H
+d$l1
+[^_]
+UWVS
+[^_]
+D$8)
+UWVS
+D$H1
+D$@1
+[^_]
+T$d)
+D$\+D$@
+D$d)
+D$H1
+T$d=
+|$d)
+UWVS
+[^_]
+)9.u
+)9.u
+?97}
+)9.u
+)9.u
+)9.u
+)9.u
+UWVS
+d$,[^_]
+T$@9j$tX
+[^_]
+D$8)
+|$8)
+|$8)
+|$8)
+19.u
+[^_]
+D$()
+D$()
+|$()
+d$ ^_]
+UWVS
+[^_]
+UWVS
+9D$(
+9D$(
+d$L[^_]
+L$(f
+D$()
+D$()
+UWVS
+[^_]
+UWVS
+T$(f
+D$0u
+[^_]
+T$(<
+D$(f
+D$41
+D$(f
+D$(f
+D$(f
+D$(f
+D$(f
+D$(f
+D$(f
+D$(f
+D$X)
+D$X)
+D$X)
+|$X)
+UWVS
+l$$f
+[^_]
+T$(1
+T$(1
+D$8)
+T$(1
+T$(1
+|$8)
+|$8)
+|$8)
+|$8)
+UWVS
+[^_]
+D$()
+l$()
+t$()
+UWVS
+D$41
+T$0~31
+;l$4}
+[^_]
+D$81
+;l$,t`
+;l$,u
+9l$8u
++D$,=
+D$,)
++T$,
+T$,)
++T$,
++L$,
++L$,
++L$,
+|$D+|$,
++T$,
+l$()
+t$()
+UWVS
+D$$e
+[^_]
+|$4)
+D$4)
+D$4)
+D$4)
+D$4)
+D$4)
+|$4)
+|$4)
+UWVS
+D$ P
+[^_]
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+l$()
+t$()
+UWVS
+D$(9
+[^_]
+|$4)
+D$4)
+D$4)
+|$4)
+l$()
+t$@f
+ t7f9
+d$,[^_]
+|$$t
+UWVS
+[^_]
+[^_]
+UWVS
+T$ e
+|$<!
+#T$`
+#L$d
+D$h#T$8
+L$$~8
+[^_]
+D$D)
+|$D)
+L$()
+UWVS
+[^_]
+d$<[
+d$<1
+d$<1
+|$()
+D$()
+UWVS
+T$4e
+T$Lf
+D$<9L$<
+wI9t$0vC=
+9t$0
+|$T)
+[^_]
++D$<
+L$(9
+;|$8
+D$81
+D$T)
+D$T)
+L$\1
+L$\1
+D$T)
+D$T)
+|$T)
+|$T)
+L$@)
+L$@)
+UWVS
+|$()
+[^_]
+|$()
+~49u
+w<9P
+w-9H
+UWVS
+[^_]
+D$8)
+D$(1
+[^_]
+UWVS
+P t&
+d$,[^_]
+UWVS
+D$8e
+t	;)u
+[^_]
+D$01
+D$01
+D$H)
+D$H)
+T$,tr
+D$\1
+D$\1
+l$Pf
+L$`1
+tH< 
+D$()
+[^_]
+t$01
+UWVS
+[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+UWVS
+d$,[^_]
+d$,1
+[^_]
+t$@f
+t';J
+UWVS
+d$|[^_]
+D$ @
+L$ 1
+d$|1
+[^_]
+T$09
+D$4;D$T
+L$8;L$X
+|$<;|$\
+D$0;D$P
+;L$T
+;T$X
+;|$\
+|$`9|$@
+|$d9|$D
+|$h9|$H
+|$l9|$L
+D$ ?
+T$`9T$@
+D$d9D$D
+T$h9T$H
+L$l9L$L
+UWVS
+d$<[^_]
+|$()
+D$()
+291t
+s)f9
+s%f9
+t>f9
+UWVS
+d$<[^_]
+d$<[^_]
+d$<1
+[^_]
+L$$1
+D$.tP
+9D$$
+D$,f
+D$(f
+D$*f
+D$.f
+9D$$
+D$(f
+D$,f
+D$.f
+D$*f
+D$,f
+D$(f
+D$.f
+D$*f
+D$(f
+D$,f
+D$*f
+D$.f
+D$(f
+D$*f
+D$(f
+D$*f
+D$.f
+D$,f
+D$,f
+D$.f
+D$*f
+t$$tY
+t,f;
+|$8)
+D$8)
+L$,)
+T$8)
+D$8)
+UWVS
+|$`e
+T$41
+9t$4
+[^_]
+T$\u_
+T$\t
+D$X)
+D$X)
+D$X)
+D$X)
+D$X)
+<[t <]
+DD$<
+|$X)
+|$X)
+L$@)
+L$<)
+UWVS
+D$ u
+[^_]
+D$()
+UWVS
+[^_]
+D$8)
+D$8)
+d$(^
+T$ t-
+T$,1
+T$,1
+D$8)
+|$8)
+t$8)
+|$8)
+D$8)
+UWVS
+[^_]
+UWVS
+[^_]
+Fhf9B
+UWVS
+[^_]
+UWVS
+[^_]
+D$8)
+|$8)
+UWVS
+[^_]
+D$8)
+|$8)
+UWVS
+[^_]
+D$8)
+|$8)
+UWVS
+T$,tK
+;D$,u
+[^_]
+D$8)
+|$8)
+UWVS
+;L$$w
+[^_]
+D$8)
+|$8)
+9Jpt
+T$$vC
+L$ 1
+D$,vLf
+L$4t]
+d$$[^
+d$$[^
+d$$[^
+d$$[^
+B<@t
+d$<[^_]
+F<@t;
+T$ t
+F<@t8
+d$<[^_]
+D$,@
+T$ 	
+T$,f
+d$<[^_]
+|$()
+BDtT
+t$0<
+BDtD
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+BDtI
+t$8k
+d$$[^
+d$$[^
+UWVS
+d$L[^_]
+UWVS
+[^_]
+T$ k
+T$ k
+|$()
+D$()
+|$()
+D$()
+[^_]
+UWVS
+D$,e
+D$,f
+9D$0
+D$(t
+T$@1
+98t$
+9D$4
+L$ w|u
+;D$8
+[^_]
+D$X)
+D$X)
+|$X)
+UWVS
+;|$P
+D$$	
+D$,	
+D$4	
+D$<	
+D$D	
+d$l1
+[^_]
+d$l1
+[^_]
+|$()
+D$()
+T$,1
+T$,1
+D$8)
+|$8)
+t$8)
+T$,1
+T$,1
+D$8)
+|$8)
+t$8)
+L$$f
+D$8)
+D$8)
+|$8)
+|$8)
+L$()
+UWVS
+d$,[^_]
+D$8)
+T$,1
+D$8)
+T$,1
+|$8)
+|$8)
+D$8)
+T$,1
+D$8)
+T$,1
+t$8)
+|$8)
+D$D)
+|$D)
+L$4)
+l$()
+UWVS
+T$De
+9t$0w
+[^_]
+L$(;L$8
+D$<9
+D$T)
+D$T)
+|$T)
+|$T)
+L$L)
+L$8)
+<$uU
+|$()
+D$8)
+D$8)
+|$8)
+D$8)
+|$8)
+UWVS
+T$,9V
+d$L[^_]
+UWVS
+[^_]
+L$0f
+D$H)
+L$0f
+L$0f
+D$H)
+L$0f
+D$H)
+L$0f
+D$H)
+L$0f
+L$0f
+L$0f
+D$H)
+;GHw0
+UWVS
+T$He
+[^_]
+l$H1
+DD$X
+L$dt1
+D$d1
+EL$@;
++|$H
+T$Df
+L$@)
+D$d9
+l$09
+T$x)
+T$01
+9T$d
+d$4[^
+d$8[
+UWVS
+l$hf
+D$0t$
+9t$4
+OD$0
+d$L[^_]
+L$Oe
+T$,)
+9D$8
+9D$@
+D$@9D$D
+D$<t
+D$01
+3E 	
+D$(	
+|$4r6w
+v0+D$0
+D$81
+D$<1
+[^_]
+T$0	
+T$8f
+l$01
+T$01
+D$X)
+|$X)
+|$X)
+T$81
+l$<)
+UWVS
+[^_]
+UWVS
+d$L[^_]
+L$Oe
+T$,)
+9D$8
+9D$@
+D$@9D$D
+D$<t
+D$01
+3EH	
+D$(	
+|$4r6w
+v0+D$0
+D$81
+D$<1
+[^_]
+T$0	
+T$8f
+l$01
+T$01
+D$X)
+|$X)
+|$X)
+T$81
+l$<)
+UWVS
+[^_]
+UWVS
+d$L[^_]
+L$Ge
+L$@)
+[^_]
+9D$8
+D$89D$L
+D$@f
+T$,1
+T$,1
+D$X)
+T$,1
+|$X)
+|$X)
+|$X)
+L$0)
+UWVS
+t$@f
+[^_]
+[^_]
+UWVS
+T$pf
+d$L[^_]
+|$ f
+UWVS
+d$,[^_]
+UWVS
+D$<tO
+9t$DtF
+d$\[^_]
+UWVS
+[^_]
+UWVS
+l$hf
+D$0t
+9t$4
+d$L[^_]
+UWVS
+9t$$tM
+9t$$u
+[^_]
+UWVS
+D$8t\
+9t$<tS
+d$\[^_]
+UWVS
+d$,[^_]
+UWVS
+l$hf
+D$0t
+9t$4
+d$L[^_]
+UWVS
+d$,[^_]
+UWVS
+l$hf
+D$0t
+9t$4
+d$L[^_]
+UWVS
+d$,[^_]
+UWVS
+l$hf
+D$0t
+9t$4
+d$L[^_]
+UWVS
+9t$ u
+[^_]
+UWVS
+D$0t
+9t$4
+d$L[^_]
+|$()
+D$()
+UWVS
+f+L$0f9
+f+L$0)
+L$\f
+d$l[^_]
+L$T9L$P
+T$T9T$Pt
+ET$T
+DD$P
+D$PtW
+ET$T
+L$P@
+ET$T
+ET$T
+ET$T
+DD$P
+DD$P
+ET$T
+D$PtU
+ED$T
+L$P 
+ET$T
+L$P@
+ET$T
+DD$P
+D$PtW
+ET$T
+ET$T
+ET$T
+DD$P
+T$P9T$T
+d$l[^_]
+T$T9T$P
+L$T1
+D$Tf
+UWVS
+T$0f
+L$^f
+t$lt
+d$|1
+[^_]
+d$|1
+[^_]
+T$hf
+T$Xf
+D$\f9A
+|$df
+L$P9L$T
+T$P	U
+T$P9T$T
+ED$T
+t$H1
+L$T9L$P
+ED$T
+ED$T
+EL$P
+t$nf
+ED$T
+ED$T
+ED$T
+L$H1
+t$T9t$P
+ED$T
+t$lf
+ET$P
+ET$P
+ET$P
+L$T@
+ET$P
+L$T 
+ET$P
+ET$P
+EL$P
+EL$P
+ED$P
+ET$P
+L$T@
+ET$P
+L$T 
+ET$P
+UWVS
+R*f9U
+T$89T$H
+d$\[^_]
+DD$@
+DT$@
+l$()
+t$()
+|$D)
+t=|?
+D$8)
+T$p	
+L$8u
+L$l	
+[^_]
+ET$4
+DL$0
+DT$T
+qp9rpt
+At9Bt
+t$()
+|$()
+D$()
+UWV1
+[^_]
+UWVS
+T$8e
+[^_]
+;l$,u
+L$01
+D$?t
+|$@)
+D$@)
+L$01
+T$(u
+|$@)
+D$@)
+q$9D
+t':J
+8f9>v
+[^_]
+D$()
+D$()
+D$()
+<$u1
+t)f;B
+D$8)
+|$$u<
+D$()
+UWVS
+L$(e
+;|$,u
+[^_]
+D$@)
+D$@)
+|$@)
+|$@)
+L$,)
+|$()
+D$()
+UWVS
+[^_]
+UWVS
+T$le
+f9Vhs
+f9Vjs
+[^_]
+T$d%
+D$x)
+|$df
+|$x)
+D$x)
+D$x)
+D$x)
+D$x)
+D$x)
+D$x)
+|$x)
+|$x)
+L$d)
+L$d)
+D$x)
+|$x)
+|$x)
+L$d)
+L$d)
+D$,1
+D$8)
+UWVS
+@x9Ax
+|$@1
+[^_]
+|$0)
+|$0)
+D$0)
+|$0)
+UWVS
+;t$ 
+|$X)
+[^_]
+Dl$>f
+T$>f
+D$X)
+D$X)
+T$01
+D$X)
+T$01
+|$X)
+|$X)
+T$01
+T$01
+T$01
+|$X)
+|$X)
+|$X)
+UWVS
+T$@e
+"th1
+[^_]
+t$\f
+L$@f
+;t$,
+T$@f
+T$h=
+|$H)
+uP<AtL<atH<BtD<bt@<Ct<<cf
+t6<Dt2<dt.<E
+t&<et"<Ft
+T$4f
+D$h)
+L$Tf
+DL$Xf
+D$h)
+D$h)
+|$h)
+|$<)
+D$@f
+D$H)
+|$H)
+UWVS
+T$,t
+D$(1
+[^_]
+T$,1
+D$8)
+T$,1
+|$8)
+|$8)
+|$8)
+D$8)
+D$@f
+D$H)
+|$H)
+t$8)
+UWVS
+9t$$u
+[^_]
+T$(1
+[^_]
+UWVS
+T$,e
+[^_]
+|$@)
+|$@)
+T$$f
+T$,1
+D$@)
+D$@)
+D$@)
+|$@)
+l$()
+l$()
+t$()
+UWVS
+T$8e
+f9t$(v(
+f9t$(
+T$,f
+[^_]
+|$P)
+T$(1
+T$(1
+D$P)
+D$P)
+T$(1
+|$P)
+|$P)
+T$(1
+|$P)
+|$P)
+l$()
+t$()
+D$,1
+|$8)
+|$8)
+UWVS
+T$(e
+[^_]
+t$P)
+t$P)
+t$P)
+D$P)
+D$P)
+D$P)
+|$P)
+L$4)
+|$P)
+|$P)
+L$4)
+d$$[^
+d$$[^
+UWVS
+T$4e
+f9t$<v*
+f9t$<
+[^_]
+t$P)
+D$P)
+D$P)
+|$P)
+|$P)
+t$P)
+|$P)
+l$()
+t$()
+UWVS
+[^_]
+D$0=
+D$0=
+|$,)
+|$,)
+UWVS
+T$4e
+|$41
+T$81
+[^_]
+D$P)
+|$P)
+D$P)
+|$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+|$P)
+|$P)
+L$(tT
+T$@=
+L$<f
+D$@)
+|$@)
+T$,)
+l$8)
+T$,1
+t$8)
+D$8)
+l$8)
+D$8)
+l$8)
+D$8)
+D$8)
+D$8)
+UWVS
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+[^_]
+T$pt-
+L$t)
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+|$x)
+|$x)
+|$x)
+D$x)
+D$x)
+UWVS
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+[^_]
+T$|f
+92t"
+[^_]
+D$()
+D$()
+|$()
+l$()
+t$()
+|$0f
+|$()
+|$()
+|$()
+|$()
+D$()
+l$()
+t$()
+D$<)
+T$(;T$Dr?w
+t$,;t$@r3
+T$(;T$Dr
+t$,;t$@v
+D$,3T$D3D$@	
+T$(#D$@#T$D	
+D$,3T$D3D$@	
+T$(;T$D
+t$,;t$@
+T$(;T$D
+t$,;t$@
+D$<)
+t$41
+D$X;t$4
+[^_]
+|$\)
+|$\)
+;T$4
+|$8t
+D$\)
+T$,u
+T$,u
+D$\)
+D$\)
+D$\)
+L$0)
+D$\)
+D$\)
+D$\)
+D$\)
+D$\)
+D$\)
+D$\)
+|$\)
+|$\)
+|$\)
+UWVS
+ t2f
+[^_]
+|$H)
+|$Pf
+D$H)
+|$H)
+|$H)
+D$H)
+D$H)
+D$H)
+L$4f
+D$*1
+L$4;
+f9D$*
+L$4f
+9D$0
+D$L)
+D$L)
+l$()
+t$()
+9|$4
+t$Tt
+t$0)
+9D$,
+D$L)
+D$L)
+t$te
+[^_]
+T$H=
+;l$,
+;T$4
+D$H)
+D$H)
+T$$u
+T$$u
+T$$u
+D$H)
+D$H)
+D$H)
+D$@1
+D$H)
+D$H)
+T$$uF
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+|$H)
+|$H)
+T$,)
+T$H)
+T$H)
+T$H)
+|$Pf
+D$H)
+D$H)
+J$9J
+J 9J
+UWVS
+[^_]
+|$P)
+T$0	
+T$4	
+D$P)
+D$P)
+ D=<
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+|$P)
+l$()
+t$()
+UWVS
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+	th1
+[^_]
+tK<	
+L$t)
+UWVS
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+	th1
+[^_]
+T$x)
+T$t)
+UWVS
+D$`	
+D$X	
+D$P	
+D$H	
+D$@	
+D$8	
+D$0	
+D$(	
+D$ 	
+[^_]
+T$tt0
+T$|)
+T$x)
+L$(1
+|$8)
+D$8)
+|$8)
+l$0)
+t$0)
+t$0)
+l$()
+t$()
+L$(1
+|$8)
+D$8)
+|$8)
+UWVS
+[^_]
+t$@)
+t$@)
+t$@)
+|$@)
+D$@)
+T$(u
+|$@)
+D$@)
+l$()
+t$()
+l$()
+t$()
+T$,e
+[^_]
+t$@)
+|$@)
+t$@)
+t$@)
+D$@)
+|$@)
+|$@)
+l$()
+t$()
+UWVS
+|$De
+[^_]
++D$,=
+D$,)
++D$,=
+D$,)
++D$,=
++D$,=
++D$,=
++T$,
+T$(u
+T$(u
++T$,
+T$,)
+T$(u
++T$,
++T$,
+T$,)
++T$,
+|$4+|$,
+T$Pe
+T$41
+[^_]
+D$L)
+l$,1
+T$$;|$,
+D$L)
+D$L)
+|$L)
+|$L)
+L$()
+D$()
+l$()
+t$()
+UWVS
+D$,t|
+[^_]
+|$H)
+D$H)
+|$H)
+L$0)
+|$H)
+|$H)
+L$0)
+T$0)
+l$()
+t$()
+|$@)
+|$@)
+|$@)
+D$@)
+|$@)
+|$@)
+L$,)
+l$()
+t$()
+UWVS
+T$,1
+;|$,}
+[^_]
+9|$$
+|$D)
+9|$$u
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+D$D)
+|$D)
+D$D)
+l$()
+l$()
+t$()
+UWVS
+[^_]
+|$@)
+t$@)
+D$@)
+D$@)
+t$@)
+D$@)
+D$@)
+D$@)
+D$@)
+D$@)
+D$@)
+|$@)
+|$8)
+D$8)
+T$,u
+D$8)
+l$()
+t$()
+|$()
+D$$)
+t$()
+D$$)
+|$$)
+<$+D$
+l$()
+t$()
+UWVS
+[^_]
+|$@)
+tg<<
+t$@)
+t$@)
+D$(1
+D$@)
+L$@)
+D$@)
+|$@)
+UWVS
+[^_]
+l$()
+t$()
+UWVS
+|$<u
+[^_]
+t$@)
+|$@)
+t$@)
+D$@)
+|$@)
+D$L1
+stre
+T$Le3
+l$()
+t$()
+UWVS
+|$0)
+[^_]
+D$0)
+|$0)
+D$,u 
+;l$(
+[^_]
+D$(1
+|$4)
+t$4)
+;t$(u
+D$4)
+D$4)
+|$4)
+l$()
+t$()
+;l$,
+[^_]
+|$8)
+D$8)
+t$8)
+D$8)
+|$8)
+l$()
+t$()
+l$()
+t$()
+UWVS
+T$8f
+;|$(
+[^_]
+|$4)
+|$4)
+D$4)
+D$4)
+|$4)
+T$@)
+t$@)
+l$()
+t$()
+#BH	
+T$<9
+l$<9
+[^_]
++D$,=
++L$,
++D$,=
++D$,=
++D$,=
+D$,)
++D$,=
++L$,
++D$,=
++L$,
+|$@+|$,
+|$@+|$,
+l$()
+t$()
+D$()
+z,:t
+d$,^_]
+d$,1
+D$8)
+|$8)
+|$8)
+L$,)
+L$,)
+|$8)
+D$8)
+|$8)
+D$8)
+|$8)
+D$8)
+|$8)
+D$8)
+|$8)
+D$8)
+|$8)
+D$8)
+|$8)
+D$8)
+l$()
+t$()
+UWVS
+T$(1
+[^_]
+|$@)
+|$@)
+D$@)
+|$@)
+D$@)
+D$@)
+|$@)
+l$()
+t$()
+UWVS
+D$4)
+t$(1
+;t$(t
+[^_]
+|$4)
+|$4)
+D$4)
+D$4)
+D$4)
+|$4)
+l$()
+t$()
+UWVS
+D$4)
+t$(1
+;t$(t
+[^_]
+|$4)
+|$4)
+D$4)
+D$4)
+D$4)
+|$4)
+UWVS
+[^_]
+|$8)
+D$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+D$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+D$()
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+t$@)
+D$@)
+|$@)
+D$@)
+|$@)
+|$@)
+|$@)
+T$,)
+T$,)
+t$@)
+D$@)
+|$@)
+D$@)
+|$@)
+|$@)
+|$@)
+T$,)
+T$,)
+l$81
+l$81
+UWVS
+[^_]
+|$()
+|$()
+l$81
+@Hf9
+l$()
+t$()
+T$@=
+T$@=
+D$@)
+D$@)
+|$@)
+|$@)
+T$,)
+T$8)
+t$01
+82t5
+l$()
+t$()
+t$@)
+t$@)
+D$@)
+|$@)
+|$@)
+T$,)
+T$8)
+l$81
+l$()
+t$()
+t$@)
+t$@)
+D$@)
+|$@)
+|$@)
+T$,)
+T$8)
+l$()
+t$()
+UWVS
+|$Hf
+;|$(
+[^_]
+|$D)
+|$D)
+D$D)
+D$D)
+D$D)
+D$D)
+|$D)
+l$()
+t$()
+UWVS
+|$Hf
+;|$(
+[^_]
+|$D)
+|$D)
+D$D)
+D$D)
+D$D)
+|$D)
+[^_]
+IHf9
+tXw"
+UWVS
+T$4e
+T$Lf
+1<-t
+[^_]
+T$<1
+|$P)
+t$P)
+|$P)
+D$P)
+D$P)
+|$P)
+T$8f
+D$P)
+D$P)
+T$,u
+|$P)
+D$P)
+d$4[^
+UWVS
+T$<e
+D$L1
+T$01
+[^_]
+T$<1
+D$P)
+D$,1
+t$P)
+|$P)
+D$P)
+D$P)
+T$01
+T$01
+D$P)
+|$P)
+t$P)
+l$()
+t$()
+l$()
+d$4[^
+UWVS
+d$,[^_]
+UWVS
+L$,1
+[^_]
+|$P)
+t$P)
+D$P)
+D$P)
+t$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+D$P)
+|$P)
+l$()
+t$()
+UWVS
+D$8e
+T$01
+[^_]
+T$L1
+T$$;t$4
+T$ ~~
+T$ ~J
+D$H)
+D$H)
+D$H)
+|$H)
+D$H)
+|$H)
+L$()
+|$()
+|$()
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+D$8)
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+|$Hf
+[^_]
+;x$ro
+f9T$
+[^_]
+?9|$
+UWVS
+D$H)
+D$H)
+[^_]
+D$H)
+D$H)
+D$H)
+|$H)
+*f9z
+|$()
+D$()
+T$8)
+*f9z
+|$()
+D$()
+T$8)
+|$@)
+|$@)
+D$@)
+D$@)
+|$@)
+l$()
+t$()
+UWVS
+t$\f
+T$X1
+D$&f
+D$&f
+d$<1
+[^_]
+D$&f
+|$,tD
+UWVS
+T$,f
+[^_]
+|$8)
+D$8)
+D$T1
+H*f9J
+|$()
+D$()
+T$8)
+UWVS
+D$8)
+[^_]
+|$P1
+|$8)
+l$8)
+D$8)
+|$8)
+T$8)
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+D$8)
+tQwcf
+l$()
+t$()
+UWVS
+T$0e
+[^_]
+9t$4
+|$L)
+D$L)
+D$L)
+D$L)
+|$L)
+|$L)
+L$,)
+T$8)
+l$(1
+T$@1
+T$@1
+|$()
+|$()
+UWVS
+T$,e
+[^_]
+|$8)
+|$8)
+T$,)
+D$8)
+D$8)
+D$8)
+D$8)
+D$8)
+|$8)
+T$8)
+UWVS
+[^_]
+D$xP
+D$X	
+D$PP
+D$0	
+D$(P
+l$()
+t$()
+l$01
+9L$0
+l$TtD
+L$$	
+|$<)
+|$()
+|$0t
+9D$(
+l$L)
+D$L)
+[^_]
+D$4)
+D$4)
+|$4)
+D$4)
+UWVS
+[^_]
+D$()
+UWVS
+f97t]
+f92tK
+[^_]
+|$()
+|$()
+D$()
+UWVS
+tAf90u
+[^_]
+D$8)
+D$8)
+f;D$>
+t$H)
+t$H)
+|$H)
+D$H)
+D$H)
+D$H)
+T$$u
+|$H)
+D$H)
+U(8U
+|$()
+D$()
+UWVS
+[^_]
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+D$8)
+|$8)
+L$,)
+D$89D$<
+[^_]
+l$@)
+t$@)
+t$@)
+t$@)
+D$@)
+D$@)
+D$@)
+d$$[^
+d$$[^
+d$$[^
+d$$[^
+|$@e
+;|$$u
+[^_]
+UWVS
+l$X1
+Fl$,
+;|$$u
+d$<[^_]
+|$@e
+;l$$t
+[^_]
+|$@e
+D$ 1
+;|$$t5
+[^_]
+UWVS
+;t$(ti
+@tf<"tb<\
+T$X)
+9D$Xv
+;t$(
+d$<[^_]
+D$X)
+T$X)
+UWVS
+9T$H
+;t$H
+;t$H
+9|$H
+9|$H
+9T$H
+d$,[^_]
+9T$H
+UWVS
+T$h)
+9D$hw
+T$,1
+9T$p
+to;|$p
+T$h)
+9D$hv
+D$h)
+9D$h
+;|$p
+FD$8
+9t$$
+9|$p
+D$h)
+9D$h
+D$h)
+9D$h
+9|$p
+T$,9T$p
+T$h)
+9D$h
+d$L[^_]
+D$h)
+9D$hw
+t$$1
+FD$4
+9|$$
+9L$p
+T$,9T$p
+T$h)
+9D$hw
+d$L[^_]
+UWVS
+[^_]
+T$,f
+t$8)
+t$8)
+t$()
+t$()
+D$()
+t$H)
+L$H)
+t$H)
+t$H)
+UWVS
+L$4e
+t$,~:1
+;l$,
+T$0f
+[^_]
+D$H)
+D$,f
+D$H)
+|$H)
+|$H)
+|$H)
+L$0)
+|$H)
+|$H)
+L$0)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+t#9H
+|$()
+D$()
+D$()
+|$()
+UWVS
+[^_]
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+T$(k
+L$(f
+D$,e
+D$,e
+|$8)
+D$8)
+|$8)
+D$8)
+l$8f
++L$89
+tW;|$
+d$ ^_]
+d$ 1
+UWVS
++L$X)
+l$ )
+9|$,
+9|$ th
+d$<[^_]
+t$8f
+[^_]
+l$8f
++T$89
+D$8:H
+UWVS
++L$X)
+t$(9t$
+D$,|
+9t$ tX
+[^_]
+d$<[
+UWVS
+l$:)
+;|$0
+f90u
+[^_]
+D$H)
+|$H)
+L$0)
+D$8)
+D$8)
+T$,1
+D$8)
+T$,1
+|$8)
+t$8)
+L$$)
+t$4f
+[^_]
+UWVS
+T$8+
+Pth;t$
+[^_]
+UWVS
+|$<1
+l$:)
+9T$0
+D$(|	
+f90u
+[^_]
+D$H)
+|$H)
+|$0)
+T$0)
+<y+|$
+UWVS
+L$L)
+A+D$
+d$,1
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+T$`f
+9tDf
+L$Pf
+d$<[^_]
+D$,w
+9l$,r
+UWVS
+D$ s
+9L$ 
++D$,)
++D$,
+l$(1
+9L$ 
+d$L[^_]
++D$,
++D$,
+t$$f
++T$,
+T$(f9W
+T$ +T$$9
+T$ +T$$9
+UWVS
+|$H1
+yf91v
+l$D;o
+L$H1
+f9L$Ds
+D$<;F
+T$H1
+Of91v
+t$@f
+T$H1
+[^_]
+L$@f
+D$X)
+|$X)
+|$X)
+L$@)
+L$@)
+|$X)
+|$X)
+L$@)
+L$@)
+|$X)
+L$@)
+UWVS
+D$ s
+9L$ 
++D$,)
++D$,
+l$(1
+9L$ 
+d$L[^_]
++D$,
++D$,
+t$$f
++T$,
+T$(f9W
+T$ +T$$9
+T$ +T$$9
+UWVS
+D$ s
+9L$ 
++D$,)
++D$,
+l$(1
+9L$ 
+d$L[^_]
++D$,
++D$,
+t$$f
++T$,
+T$(f9W
+T$ +T$$9
+T$ +T$$9
+UWVS
+D$ s
+9L$ 
++D$,)
++D$,
+l$(1
+9L$ 
+d$L[^_]
++D$,
++D$,
+t$$f
++T$,
+T$(f9W
+T$ +T$$9
+T$ +T$$9
+UWVS
+D$ s
+9L$ 
++D$,)
++D$,
+l$(1
+9L$ 
+d$L[^_]
++D$,
++D$,
+t$$f
++T$,
+T$(f9W
+T$ +T$$9
+T$ +T$$9
+UWVS
+|$Df
+d$,[^_]
+t$ tH
+UWVS
+d$,[^_]
+UWVS
+T$0e
+D$81
+[^_]
+L$4f
+t9f;w
+T$,f
+D$H)
+D$,1
+|$H)
+|$H)
+L$4)
+|$H)
+L$4)
+UWVS
+d$,[^_]
+D$8)
+|$8)
+|$8)
+d$(^
+UWVS
+[^_]
+UWVS
+9L$|
+9l$D
+L$@f
+d$\[^_]
+d$\[^_]
+UWVS
+D$4+D$$
+D$4+D$(;D$$
+d$L[^_]
+T$4+T$$
+L$(tE
+D$ ;
+[^_]
+D$H)
+|$H)
+|$H)
+UWVS
+T$ +W
+|$<)
+9|$0
+d$L[^_]
+D$,tF
+t$ tG
+UWVS
+d$,[^_]
+T$0u&
+[^_]
+D$<f
+T$<f
+l$,1
+|$P1
+D$H)
+|$P1
+|$H)
+|$H)
+L$<)
+L$<)
+|$H)
+|$H)
+L$<)
+UWVS
+T$(1
+;D$ rH
+L$ +L$$f
+;D$$
+[^_]
+D$8)
+|$8)
+UWVS
+t$P1
+T$Xf
+T$Pf
+t$L;r
+T$T1
+[^_]
+D$h)
+|$h)
+|$h)
+L$T)
+L$T)
+|$h)
+|$h)
+L$T)
+L$T)
+UWVS
+[^_]
+UWVS
+9L$|
+9l$D
+d$\[^_]
+d$\[^_]
+d$\[^_]
+UWVS
+9T$|
+L$89
+9|$D
+d$\[^_]
+d$\[^_]
+d$\[^_]
+UWVS
+9l$|
+;l$H
+9l$H
+d$\[^_]
+UWVS
+L$,	
+t$(f
+D$4+D$$
+D$4+D$0;D$$
+d$L[^_]
+T$4+T$$
+T$0tX
+UWVS
+9T$ 
+L$|f
+L$,	
+T$ +Q
+L$L)
+;D$(
+9T$8
+d$\[^_]
+;D$(
+T$$t`
+L$09
+;D$(w
+t$ tH
+UWVS
+d$,[^_]
+D$81
+[^_]
+D$4f
+tAf;w
+T$,f
+D$H)
+|$P1
+|$H)
+|$H)
+L$4)
+|$H)
+L$4)
+UWVS
+T$41
+;D$,rb
+L$(f
+L$,+L$(f
+;D$(
+[^_]
+D$H)
+|$H)
+UWVS
+|$@1
+T$@f
+D$<;B
+t$<;u
+[^_]
+D$X)
+|$X)
+|$X)
+L$D)
+L$D)
+|$X)
+|$X)
+L$D)
+L$D)
+|$X)
+L$D)
+UWVS
+d$<[^_]
+D$8)
+|$8)
+|$8)
+d$(^
+UWVS
+d$,1
+[^_]
+UWVS
+[^_]
+UWVS
+D$pf
+9T$l
+9l$4
+d$L[^_]
+UWVS
+9D$,
+t$<9
+L$$+N
+t$@+t$$
+t$0	
+;D$(
+t$ t2
+9D$ r
+9t$8
+d$\[^_]
+l$H1
+L$4;t$(
+UWVS
+T$0)
+T$0)
+[^_]
+UWVS
+D$(e
+[^_]
+D$H)
+|$H)
+D$,u
+UWVS
+|$4uD
+L$01
+[^_]
+t$$u!
+T$4e
+T$,f
+D$L)
+|$L)
+L$0)
+D$8)
+|$8)
+L$()
+UWVS
+T$Xe
+|$8	
++L$4
+t$D	
++L$4
+L$,f
+L$Jf9L$Ht$
++L$4
+L$P	4
+t$ f9t$HtCf9t$Jt<
++L$4
+T$$	
+f9T$J
+f9T$H
++L$4
+;D$<r	
+[^_]
+D$h)
+|$h)
+UWVS
+L$`f
+f9L$Tf
+L$\tA
+f9L$Tf
+t$hf
+f9T$\t-f9T$`t&f9T$Tt
+|$Hf
+l$`f
+|$@1
+f9T$@w
++T$P
+T$h;P
+T$P9
+T$Lt
+79t$d
+;t$L
+D$@u
+T$H;P
+L$@8H
+f9t$~
+f;t$~
+f9L$\
+[^_]
+L$@)
+L$@)
+L$@)
+L$@)
+L$d)
+d$(^
+UWVS
+[^_]
+UWVS
+D$pf
+9T$l
+9l$4
+d$L[^_]
+UWVS
+T$(1
+[^_]
+D$H)
+|$H)
+|$H)
+|$H)
+D$,u
+D$$u
+UWVS
+D$p9
+|$$	
+L$8)
+9|$,
+d$L[^_]
+;t$ 
+;T$ wK
+t$(;
+UWVS
+t$4+t$$9
+t$ s;
+D$4+D$(;D$$
+d$L[^_]
+l$(1
+9D$ 
+L$(;L
+f;/r"
+d$,[^_]
+d$,[^_]
+t$ t)
+UWVS
+d$,[^_]
+D$41
+[^_]
+D$0f
+T$0f
+T$4f
+D$,f;p
+T$,f
+|$4f
+D$H)
+|$H)
+|$H)
+L$0)
+UWVS
+t$L1
+t$DuP
++L$D
+D$Tf
++L$D
+D$8	
+D$,f
+L$Hf9L$^t:
++L$D
+T$4	
+D$,f
+f9L$^f
+L$XtKf9L$HtD
++L$D
+T$0	
+t$hf
+f9T$H
+f9T$X
+f9T$^
++L$D
+;T$Lr	
+[^_]
+D$x)
+|$x)
+UWVS
+|$De
+l$D1
+D$Df
+|$<f
+f9L$Tf
+L$Pt
+f9|$T
+L$`f
+f9T$Pt
+f9T$Tt
+D$Df
+|$<;x
+f9|$P
+|$<;}(
+L$H1
+|$@f
+L$@9
+f9T$Z
+L$@t
+f;T$Z
+D$<r
+[^_]
+D$x)
+|$x)
+L$H)
+|$x)
+|$x)
+L$@)
+L$H)
+UWVS
+T$H9T$0
+T$ y
+;t$4
+|$Lf
+;t$0tPf
+;t$0u
+T$H9T$ 
+d$\[^_]
+D$,1
+D$8)
+|$8)
+|$8)
+[^_]
+t$H)
+D$<f
+T$<f
+l$41
+L$01
+|$P1
+D$H)
+|$P1
+|$H)
+|$H)
+T$<)
+|$H)
+|$H)
+T$<)
+T$<)
+UWVS
+T$De
+;L$Dt,1
+9T$0}"
+l$0;L
+9D$0
+D$@)
+D$@)
+|$@)
+[^_]
+|$@)
+L$$)
+;t$Dt
+9L$0t
+D$<1
+t69L$0
+D$0;T
+[^_]
+;T$Dt
+tz;D$4~$
+L$4;t
+;D$4
+D$@)
+D$@)
+|$@)
+|$@)
+L$4)
+L$4)
+UWVS
+d$,[^_]
+UWVS
+|$<9w
+|$D1
+;l$4|
+|$T;9t<1
+t$P;q
+;l$4
+D$h)
+l$\1
+|$81
+l$8;n
+D$@;G
+[^_]
+D$h)
+|$h)
+|$h)
+|$h)
+L$8)
+L$8)
+|$81
+l$8;n
+|$h)
+|$h)
+L$8)
+|$h)
+|$h)
+|$h)
+UWVS
++D$<
+;t$ tT
+;t$ u
+l$49l$,
+d$L[^_]
+T$8f
++L$4
+l$<9l$,
+T$ %
+L$(t
+T$ %
+:T$ 
+:T$ 
+8T$ w
+|$<%
+l$41
+t<8T$
+UWVS
+D$@e
+|$<1
+t$8f
+t$.f
+|$<1
+t$8f
+t$.f
+|$Hf
+[^_]
+D$X)
+T$<1
+D$X)
+t$X)
+t$<1
+t$<1
+|$X)
+|$X)
+T$<1
+t$X)
+t$@)
+t$@)
+D$,1
+D$8)
+|$8)
+|$8)
+[^_]
+t$H)
+D$<f
+T$<f
+l$41
+L$01
+D$H)
+|$P1
+|$P1
+|$H)
+|$H)
+T$<)
+T$<)
+D$H)
+|$H)
+|$H)
+T$<)
+UWVS
+T$De
+;L$Dt,1
+9T$0}"
+l$0;L
+9D$0
+D$@)
+D$@)
+|$@)
+[^_]
+D$@)
+|$@)
+L$$)
+UWVS
+d$,[^_]
+UWVS
+T$<9r
+t$D1
+;|$4|
+|$T;9t<1
+t$P;q
+;|$4
+D$h)
+|$\1
+[^_]
+D$h)
+|$h)
+|$h)
+|$h)
+L$8)
+L$8)
+|$Ltz
+D$4f
+D$81
+T$4f
+;D$8u
+D$@;E
+|$h)
+|$h)
+L$8)
+T$d)
+|$h)
+UWVS
+D$Lf
+T$X%
+D$0f9
+D$0f
+;t$@
+T$X%
+D$DxN
+D$0f
+l$L9l$,
+d$l[^_]
+;t$,tQ
+;t$,u
+l$L9l$0
+d$l[^_]
+D$,1
+D$8)
+|$8)
+|$8)
+[^_]
+t$H)
+D$<f
+T$<f
+l$41
+L$01
+|$P1
+D$H)
+|$P1
+|$H)
+|$H)
+T$<)
+|$H)
+|$H)
+T$<)
+T$<)
+UWVS
+T$De
+;L$Dt,1
+9T$0}"
+l$0;L
+9D$0
+D$@)
+D$@)
+|$@)
+[^_]
+|$@)
+L$$)
+;t$Dt
+9L$0t
+D$<1
+t69L$0
+D$0;T
+[^_]
+;T$Dt
+tz;D$4~$
+L$4;t
+;D$4
+D$@)
+D$@)
+|$@)
+|$@)
+L$4)
+L$4)
+UWVS
+d$,[^_]
+UWVS
+t$d1
+l$H1
+T$\9r
+|$`1
+;l$@|
+|$h;9t<1
+t$X;q
+;l$@
+D$x)
+[^_]
+|$H1
+l$H;n
+;l$T
+D$Pu
+l$hf
+|$D1
+f34Af
+l$T;o
+L$D;O
+L$d1
+;l$T
+T$Pu
+t$P;q
+D$x)
+|$x)
+t$Pf
+T$H1
+|$x)
+|$x)
+T$H)
+L$D)
+|$x)
+|$x)
+|$x)
+L$H)
+L$H)
+L$H)
+|$x)
+|$x)
+L$D)
+T$H)
+|$H1
+l$H;n
+|$x)
+|$x)
+|$x)
+T$$f;T$,u
+L$$t]
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+UWVS
+d$,[^_]
+L$,tb
+D$8)
+|$8)
+UWVS
+[^_]
+d$,1
+[^_]
+d$,[1
+T$$f;T$,u
+T$$ti1
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+UWVS
+d$,[^_]
+D$8)
+|$8)
+UWVS
+d$,[^_]
+d$,1
+[^_]
+UWVS
+[^_]
+UWVS
+L$ )
+[^_]
+UWVS
+[^_]
+|$8)
+|$8)
+|$8)
+|$8)
+D$8)
+T$,)
+UWVS
+[^_]
+d$,1
+|$8)
+t$8)
+D$8)
+|$8)
+T$,)
+UWVS
+[^_]
+T$,t]
+t$8)
+t$8)
+D$8)
+|$8)
+D$8)
+T$()
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+d$ ^_]
+L$ tt
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+8F	vP
+8F	w
+8F	v\
+8F	w
+UWVS
+8F	vE
+8F	w
+[^_]
+[^_]
+[^_]
+UWVS
+D$49
+[^_]
+V tM1
+D$H)
+|$H)
+|$H)
+|$H)
+D$()
+|$()
+T$,tQ
+D$8)
+|$8)
+T$,)
+t$ t+
+d$(^
+#t6v
+UWVS
+[^_]
+D$8)
+|$8)
+|$8)
+L$,)
+D$8)
+|$8)
+|$8)
+L$,)
+l$ f
+D$$1
+l$ f
+D$$1
+l$ f
+D$$1
+D$0)
+|$0)
+|$0)
+|$,)
+T$0f
+T$4u8
+|$,)
+T$4u2
+|$,)
+D$<9
+|$@)
+|$@)
+D$@)
+9|$4u7
+|$,)
+|$,)
+|$,)
+UWVS
+[^_]
+[^_]
+[^_]
+T$,e
+D$8)
+D$8)
+l$8)
+T$$td
+D$8)
+D$8)
+|$8)
+L$()
+UWVS
+[^_]
+D$8)
+D$8)
+|$8)
+|$()
+D$()
+UWVS
+T$$t
+T$$t#
+[^_]
+D$8)
+ED$(
+D$8)
+|$8)
+|$8)
+L$()
+|$8)
+L$,)
+UWVS
+[^_]
+UWVS
+[^_]
+T$81
+D$H)
+T$81
+D$H)
+|$H)
+D$H)
+T$81
+|$H)
+|$H)
+T$0)
+|$H)
+T$0)
+UWVS
+T$4t
+CT$4
+[^_]
+|$H)
++T$,
++T$,
+T$,)
+D$H)
++T$,
+T$,)
+|$H+|$,
++T$,
+|$H+|$,
++T$,
++L$,
+UWVS
+d$,[^_]
+d$,[^_]
+[^_]
+UWVS
+d$,[^_]
+UWVS
+[^_]
+d$,[
+UWVS
+[^_]
+t9;h
+|$8)
+D$8)
+UWVS
+d$,[^_]
+t1;~
+d$,[^_]
+d$,[^_]
+d$,[^_]
+UWVS
+[^_]
+T$$tg
+D$8)
+|$8)
+|$8)
+L$,)
+D$8)
+D$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+L$,)
+L$,)
+D$8)
+D$8)
+|$8)
+|$8)
+|$8)
+L$,)
+D$()
+D$()
+|$()
+UWVS
+D$/u
+T$X9
+L$Xu
+d$<[^_]
+UWVS
+d$,[^_]
+d$,[^_]
+t$()
+t$()
+|$()
+D$()
+|$8)
+|$8)
+D$8)
+|$8)
+|$8)
+L$$)
+t!:U
+[^_]
+t$8)
+D$8)
+D$8)
+|$8)
+t$8)
+T$(u
+|$8)
+D$8)
+D$()
+UWVS
+T$*)
+[^_]
+D$$u5
+[^_]
+D$()
+UWVS
+d$,[^_]
+UWVS
+[^_]
+d$<[^_]
+D$ t
+L$+:H
+T$+u
+tK9j
+T$Ge
+|$,f
+D$()
+9l$(}
+D$(f
+uIf9
+T$X1
+;T$X
+D$(2
+T$W9
+|$,9
+T$$)
+|$G 
+9D$P
+L$P~
+8L$G
+:L$(
+[^_]
+T$G:P
+D$(8H
+|$G 
+9D$P
+8L$Gr(
+8L$Gs
+|$W 
++L$H
+|$G 
++L$H
+|$, 
+D$H)
++T$H
+T$H)
++T$H
+|$pf
++T$H
++T$H
+9D$(
+|$W 
++T$H
++T$H
+T$H1
++T$H
+T$H)
+T$H1
+|$h+|$H
+t$h+t$H
+L$@)
++T$H
++T$H
+T$H1
+T$H1
+|$h+|$H
+t$h+t$H
+D$ f
+[^_]
+|$ u
+T$ t
+2T<M
+T$0f
+d$4f
+l$$f
+;D$ u
+T$02D
+D$4u.
+T$$;W
+D$()
+D$()
+|$()
+D$()
+D$()
+|$()
+9,$}
+D$()
+D$()
+|$()
+D$L1
+T$Le3
+UWVS
+d$,[^_]
+l$ t4
+D$()
+D$()
+|$()
+t$8)
+|$8)
+D$8)
+UWVS
+T$,)
+[^_]
+D$H)
+D$,)
+|$, 
+D$01
+D$,1
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+|$H)
+|$H)
+L$0)
+D$()
+UWVS
+[^_]
+D$8)
++D$,=
+|$8~B
+|$8+|$,
++T$,
+T$()
+[^_]
+|$$!
+l$(!
+D$()
+D$()
+D$()
+|$()
+|$()
+UWVS
+L$01
+[^_]
+T$0tE
+UWVS
+[^_]
+l$8)
+l$8)
+UWVS
+T$(e
+[^_]
+D$8)
+D$8)
+|$8)
+|$8)
+|$8)
+L$,)
+L$,)
+UWVS
+D$<1
+[^_]
+|$@)
+[^_]
+d$([
+UWVS
+[^_]
++D$,=
++L$,
+L$,)
++D$,=
++L$,
++L$,
+L$,)
++L$,
+L$,)
++L$,
++L$,
++L$,
+T$`1
++L$,
++L$,
+L$|9Nt
+T$4u
+T$X1
++L$,
++L$,
++|$,
+L$,)
++L$,
++|$,
+L$,)
++L$,
++L$,
++L$,
++L$,
+L$,)
+L$,)
++L$,
+L$,)
+L$,)
++L$,
+L$,)
++L$,
+L$,)
++|$,
++L$,
+L$,)
++|$,
++|$,
++L$,
++|$,
++L$,
+UWVS
+9|$@s`
++l$@9
+[^_]
+[^_]
+UWVS
+[^_]
++L$(
+t$@1
+L$()
++L$(
+D$8~P
+T$ 1
+D$8+D$(=
+t$8+t$(
+UWVS
+[^_]
+t$8)
+T$8)
+D$8)
+UWVS
+L$01
+[^_]
+T$0tE
+UWVS
+[^_]
+D$8)
+D$8)
+|$8)
+|$8)
+|$8)
+L$$)
+L$,)
+UWVS
+D$@)
+|$@)
+[^_]
+D$@)
+D$@)
+D$D#D$H
+9D$$
+9T$ 
+T$\#T$`
+T$,1
+T$,1
+D$<#D$@
+T$,1
+T$,1
+D$@9D$$
+9T$ 
+;D$Hr
+;T$D
+T$$t
+D$H9D$@
+9T$<
+T$,1
+T$,1
+UWVS
+[^_]
+D$()
+D$()
+T$(1
+D$8)
+D$8)
+D$()
+d$([
+N;1r
+q$+P
+d$,[^_]
+T$8=
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+T$,t
+D$8)
+|$8)
+UWVS
+utf9
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+T$$t
+;t$4u
+|$H)
+D$H)
+T$()
+T$,9
+t$,1
+9D$,u
+|$8)
+D$8)
+L$(9
+l$()
+l$(1
+9D$(u
+|$8)
+D$8)
+L$,)
+UWVS
+t$<e
+D$01
++D$0
+D$4+t$<
+[^_]
+t$<1
+D$H)
+|$H)
+L$()
+|$8)
+D$8)
+T$,)
+L$()
+|$8)
+D$8)
+T$,)
+t$P	
+D$,)
+D$ 9D$
+|$ 1
+L$$)
+9t$ w
+[^_]
+[^_]
+L$T1
+80t|
+UWVS
+|$H	
+d$,[^_]
+UWVS
+|$H	
+d$,[^_]
+|$()
+D$()
+|$()
+D$()
+UWVS
+T$4e
+[^_]
+D$0;D$D
+D$09D$D
+T$(u
+D$H)
+9|$D
+D$H)
+D$H)
+D$H)
+D$H)
+UWV1
+d$,1
+[^_]
+d$,[^_]
+UWVS
+iD$,,
+iD$,,
+D$4td
+T$()
+T$()
+T$()
+[^_]
++T$(
++T$(
++T$(
+T$()
++T$(
+T$$e
+T$(1
+[^_]
+L$()
+L$@1
++D$(=
+|$8~B
+UWVS
+|$D#t
+D$(t
+T$ tV
+[^_]
+T$ u
+D$@)
+|$@)
+|$@)
+L$,)
+L$()
+D$8)
+|$8)
+|$8)
+L$,)
+UWVS
+[^_]
+D$()
+UWVS
+D$(u
+[^_]
+d$$1
+UWVS
+D$/e
+;|$4
+[^_]
+D$T)
+D$T)
+D$T)
+D$T)
+D$T)
+D$T)
+D$T)
+D$T)
+D$T)
+|$T)
+T$()
+UWVS
+T$Te
+D$81
+D$@9D$0
+T$<1
++D$<=
+OD$8
+Detef
+9l$8
++T$<
++T$<
+T$<)
+[^_]
+T$<)
++T$<
+D$<)
++T$<
+D$<)
++T$<
++T$<
++T$<
+T$<)
+T$<1
++T$<
++T$<
+T$<)
+T$<1
++T$<
+T$<1
+|$x+|$<
+t$x+t$<
+T$<1
++T$<
+|$x+|$<
++T$<
++T$<
++T$<
++T$<
++T$<
+D$Xu,
+OD$X
+D$X1
+Ot$X
+D$`1
+;t$4
+D$l9D$T
+l$01
+Detef
+9|$X
++T$P
+D$`1
+;|$0
+[^_]
+T$P)
++T$P
+T$P)
++T$P
++T$P
+T$P)
++T$P
+T$P1
++T$P
+T$P)
++t$L
+T$P1
++T$P
++T$P
++T$P
+T$P1
+T$P1
++T$P
++t$P
++T$P
+T$P)
++T$P
++|$P
++T$P
++t$L
+T$P1
++t$L
+T$P1
++|$P
++|$P
+T$P1
+UWVS
+;t$$tj
+[^_]
+D$H)
+D$H)
+|$H)
+D$8)
+UWVS
+T$8e
+;|$<
+D$0)
+OD$8
+D$81
+Detef
+9l$8
+D$0)
+;l$<
+D$h)
+[^_]
+|$h)
+|$h)
+T$,)
+|$h)
+|$h)
+T$,)
+T$,)
+T$Tf
+D$<u,
+OD$<
+t$D1
+;|$8
+D$h)
+Detef
+9|$<
+D$h)
+;|$8
+[^_]
+D$h)
+D$h)
+D$h)
+D$h)
+D$h)
+D$h)
+D$h)
+D$0)
+|$h)
+|$h)
+T$,)
+T$,)
+|$h)
+|$h)
+T$,)
+UWVS
+;|$,
+[^_]
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+D$H)
+|$H)
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+t$8)
+D$(1
+D$8)
+|$8)
+|$8)
+T$$)
+t$()
+|$()
+D$()
+t!f9~
+t$8)
+|$8)
+D$8)
+UWV1
+[^_]
+l$()
+UWV1
+[^_]
+|$()
+D$()
+|$()
+D$()
+UWVS
+|$@tU
+[^_]
+d$,1
+[^_]
+UWVS
+T$(k
+d$<[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+l$()
+UWVS
+d$<[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+|$8)
+D$8)
+UWVS
+[^_]
+[^_]
+|$()
+t$()
+UWVS
+[^_]
+UWVS
+D$ t
+[^_]
+D$8)
+UWVS
+[^_]
+D$H)
+UWVS
+[^_]
+|$He
+D$<1
+T$<e3
+D$()
+D$()
+D$8)
+D$8)
+D$8)
+D$8)
+|$8)
+|$8)
+UWVS
+T$<e
+[^_]
+T$H=
+D$H)
+|$H)
+UWVS
++T$$
+D$8~x
+UWVS
++T$8
+T$8)
++D$8=
+UWVS
+l$<e
+D$$tt
+D$8)
+UWVS
++T$,
+UWVS
++T$,
+UWVS
+l$<e
+D$8)
+[^_]
+[^_]
+[^_]
+|$8)
+|$8)
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+D$()
+UWVS
+D$8e
+D$<3T$43D$0	
+[^_]
+D$H)
+D$H)
+|$H)
+Q(ub
+UWVS
+d$,[^_]
+n(uk
+D$D1
+[^_]
+L$H)
+T$$t(
+T$,1
+T$,1
+D$8)
+T$,1
+t$8)
+|$8)
+|$8)
+UWVS
+T$$u$
+D$(f
+[^_]
+D$8)
+|$8)
+|$8)
+L$,)
+D$()
+D$()
+[^_]
+[^_]
+UWVS
+[^_]
+DD$<
+DT$p
++D$d
+l$l1
+[^_]
+UWVS
+[^_]
+T$\u!
+UWVS
+[^_]
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+d$$[^
+d$$[^
+d$$1
+T$@1
+D$8)
+|$8)
+|$8)
+t$()
+UWVS
+D$@ 
+L$@1
+T$<1
+l$@f
+L$Lf
+L$L)
+L$Df
+[^_]
+D$l)
+T$p1
+T$<f
+T$Lf
+l$\f
+l$\)
+l$Pf
+T$p1
+D$l)
+D$4 
+L$41
+D$H)
+|$@)
+|$@)
+D$@)
+UWVS
+[^_]
+|$H)
+D$H)
+D$H)
+D$H)
+|$H)
+|$H)
+L$<)
+D$()
+|$()
+UWVS
+[^_]
+;H(r"w
+;P$v
+f;D$
+f;D$
+D$] 
+d$l1
+UWV1
+T$8e
+T$8f
+[^_]
+T$81
+;x(r'w
+;p$v 
+T$(1
+T$8f
+f;D$6
+f9D$6
+|$D)
+UWVS
+[^_]
+|$8)
+D$8)
+|$8)
+[^_]
+D$|1
+T$|e3
+[^_]
+UWVS
+T$<u'1
+[^_]
+D$K]
+DL$8
+UWVS
+[^_]
+L$,)
+|$8)
++T$,
+|$8+|$,
+UWVS
+d$L1
+[^_]
+d$L1
+[^_]
+t$8)
+D$8)
+|$8)
+|$8)
+T$8x
+T$Xf
+T$@9T$D
+T$Xf
+UWVS
++T$D
+T$D)
+T$D1
+[^_]
+D$@1
++L$D
+T$D)
+T$D1
++T$D
+T$<t
+D$D)
++T$D
++T$D
++T$D
+T$D)
+T$D1
++L$D
++T$D
+T$D1
++T$D
++L$D
++T$D
+T$D1
++T$D
+T$D1
++T$D
+T$D1
+T$D1
+t$`+t$D
+|$`+|$D
+t$`+t$D
+t$`+t$D
+|$Xt{
+UWVS
+[^_]
+D$D)
++T$4
+D$D~G
+T$<1
+T$<1
+D$D~
++T$4
+T$<1
+t$D+t$4
+t$D+t$4
+T$<1
+D$D)
+|$D+|$4
+|$D)
+L$8)
+t$8)
+T$8)
+D$<e
+|$01
+|$01
+D$()
+|$()
+UWVS
+T$Te
+[^_]
+D$ )
+D$ )
+|$ )
+[^_]
+|$()
+UWVS
+T$$1
+[^_]
+T$$)
+T$$1
+T$$1
+T$$)
+D$ 1
+T$$)
+T$$)
+T$$1
+T$$0
+L$41
+T$$)
++T$$
+t$8+t$$
+UWVS
+T$Pe
+L$4u
+D$Hto
+T$4f
+[^_]
+|$()
+D$()
+|$()
+|$()
+UWVS
+T$(f
+T$(f
+T$(f
+[^_]
+|$8)
+D$8)
+UWVS
+[^_]
+UWVS
+[^_]
+l$Pe
+|$`1
+l$ 1
+l$ 1
+[^_]
+|$`1
+l$ 1
+D$L)
+D$L)
+D$L)
+D$L)
+D$L)
+D$L)
+d$0^_]
++t$,
+9J8v
++t$,
+tn+VH
++FP+FD
+d$ ^_]
+d$ ^_]
+L$ ~	
++GH+GP
+L$ ~	
+L$,~	
++D$(
+L$ ~
++D$(
+;VDtx
++D$(
+l$$~	
++FP+FH
+l$$~
+l$$~	
++FP+FH
+l$$~
+9FDy
++NH+NP
+l$$~
++FP+FH
+;FDu
+9FDy
+l$$~	
+9FDxc
+UWVS
+[^_]
+[^_]
+9E@t
+T$4f
+T$4f
+D$<f
+|$Lf
+|$@f
+D$<f
+T$<f
+L$8)
+OD$8
+T$4f
+T$4f
+D$8f
+D$<f
+l$Hf
+|$@f
+D$<f
+D$<f
+L$8)
+OD$8
++L$8
+L$D~
+;D$8
++L$8
+L$D~
+;D$8
+MD9L$@
+T$<9T$@
+;EHtk
++L$8
+L$D~	
+~b;D$8t\
++L$8
++L$8
+9EDy
++L$8
+9EDy
++L$8
+L$D~	
+~%;D$8t
++L$8
+L$4+L$<
+L$H~
+L$4+ML
+L$<9L$4
+T$@;U
+UHt	
++L$<
++L$8
+L$D~	
+~%;D$8t
++L$8
+UWV1
+[^_]
+[^_]
+|$0tl
+T$,1
+D$8)
+|$@1
+T$,1
+|$8)
+|$8)
+l$(tG
+UWVS
+T$4e
+[^_]
+|$.t
+D$()
+L$()
+f9D$D
+f+D$0f9
+f;t$.
+T$.f
+T$Df
+T$.f;U
+T$.f;U
+f+t$.
+T$ t
++T$(
+t$<f
+D$4f
+UWVS
+L$4y
+[^_]
+L$&f
++L$H
+T$8)
+9|$4f
+f9D$H
+f+t$@f9
+D$Htm
+<9D$0
+9D$0
+<9D$0
+9D$0
+t$Hf
+T$4f;Q
+T$4f;Q
+f+t$4
+9|$4
+T$X)
+T$4x
+f+l$H
+l$4tlf
++D$8
+L$Df
+t$ 1
+d$<1
+[^_]
+UWV1
+d$,[^_]
+|$()
+D$()
+UWVS
+D$ 1
+[^_]
+y<te
+u ;|$
+d$ ^_]
+d$ ^_]
+UWVS
+d$L[^_]
++A$9
+T$p1
++D$,
++D$$
++t$,
+T$$)
+T$$f
+D$>)
+D$lf
+D$,f)D$(9
+f9D$,
+f;D$(f
+GD$(f
+L$$=
+T$>f9T$(
+<9D$l
+<9D$l
+9D$l
+L$>f
+t$(f
+L$,f+t$>
+tRf9
+t$,)
+D$,f;A
+T$lf
+f+D$>
+f+L$,;T$$
+L$,f;M
+T$(+P
+D$l1
+UWV1
+[^_]
+UWVS
+T$\f
+t$X)
+D$Xf+E
+tff;E
+s`f;w
++T$(
+d$<[^_]
+d$<[^_]
+f+T$X;D$X
+UWVS
+d$L[^_]
++T$8
+;D$8
+l$6)
+f+L$6f
+T$h;z,
+|$0	
+L$8)
+;D$8
+t$4t
+D$09
+|$/	
+L$ u
+d$L[^_]
+L$6+M
+D$$)
+f+l$$
+T$$)
+f+D$$
+T$h;z,
+L$$1
+L$d)
+T$$)
+f;D$$
+f+T$ 
+D$$+D$<
+T$h;z,
+f+t$4
+t$$f+t$4
+T$h;z,
+f+t$ 
+f+t$ 
+T$h;z,
+L$/t
++T$$)
+l$lf+G
+T$$f
+f+D$$
+t$(f+t$ )
+T$6f+T$8
+f+T$$
+l$()
+l$T9
+T$\f
+;D$,x
+UWVS
+;D$|
+D$8)
++L$@
+D$@;D$8
+L$|f
+;D$8
+L$<+T$$
++D$(
++L$@
+L$@)
+L$@)
+9T$8f
+f9D$0
+f+D$,f9
+ND$$
+f9t$(
+D$(;D$$
+D$$+D$<
++D$,
+d$\1
+[^_]
+L$(f
+L$0f
+l$(f;o
+ND$$
+f+L$(
+T$ f
+L$,f
+l$(f;o
+9T$8f
+t$8)
+t$8)
+[^_]
+D$$+D$<
+l$8tA
+T$D)
+[^_]
+D$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+d$ ^_]
+UWVS
+T$Pe
+t$h)
+[^_]
+l$h)
+l$h)
+t$h)
+|$Nf
+l$h)
+t$le
+t$h)
+t$h)
+t$h)
+l$h)
+t$h)
+[^_]
+D$()
+UWVS
+[^_]
+D$8)
+|$8)
+UWVS
+[^_]
+D$8)
+|$8)
+|$(1
+D$4f
+|$(1
+D$4f
+UWVS
+T$4e
+[^_]
+L$0tR
+D$H)
+|$H)
+|$H)
+L$8)
+L$8)
+|$H)
+|$H)
+L$8)
+L$8)
+UWVS
+[^_]
+T$(1
+T$(1
+D$8)
+T$(1
+|$8)
+|$8)
+t$8)
+L$,)
+UWV1
+T$<e
+T$Lt,
+T$L1
+D$P)
+[^_]
+|$@1
+|$81
+L$P=
+D$P)
+|$P)
+|$41
+|$P)
+L$8)
+|$P)
+|$P)
+|$P)
+L$8)
+L$8)
+|$P)
+L$8)
+UWVS
+[^_]
+D$ )
+D$ )
+UWVS
+[^_]
+stdof
+D$8)
+T$,1
+D$8)
+D$8)
+T$,1
+D$8)
+D$8)
+T$,1
+D$8)
+t$8)
+t$8)
+T$,1
+t$8)
+L$Pf
+T$L)
+L$H)
+L$0)
+[^_]
+D$t)
+|$t)
+T$H)
+T$0e
+[^_]
+t$P)
+D$P)
+D$P)
+|$P)
+|$P)
+T$,)
+|$P)
+|$P)
+T$,)
+T$,)
+9l$,
+D$P)
+|$P)
+|$P)
+|$P)
+T$,)
+|$P)
+L$(t 
+T$0tEf
+D$4;P
+tB;P
+T$0tAf
+t<;P
+,$9n
+D$0t`f
+tc;P
+D$()
+D$()
+y<t6
+D$,	
+T$$t|
+L$,tF
+T$$td
+T$,1
+T$,1
+D$8)
+T$,1
+T$,1
+|$8)
+|$8)
+|$8)
+|$8)
+UWVS
+L$$f9~
+v f9~
+D$,f;F
+[^_]
+D$8)
+|$8)
+|$8)
+T$()
+t<f;Q
+@ f9P
+UWVS
+|$8	
+t$4tK1
+D$((
+|$,9~
+d$|[^_]
+l$41
+t?;P
+UWVS
+[^_]
+|$ )
+D$ )
+UWVS
+[^_]
+l$81
+FZuN
+D$Hf
+L$Pf
+|$Dt7
+L$,u
+T$$tj
+D$,f
+D$8)
+D$8)
+|$8)
+UWVS
+t$Pf
+T$\f
+T$df
+T$*k
+L$(f
+L$(f
+T$(f;
+d$<[^_]
+d$<[^_]
+UWVS
+d$,[^_]
+UWVS
+[^_]
+l$8)
+D$8)
+|$8)
+UWVS
+L$df
+L$ k
+f9D$,f
+FD$,
+f;.u
+f9T$,r
+f9L$,r
+T$ ;B
+[^_]
+tI9n
+d$ ^_]
+T$$f
+T$$f
+T$$f
+T$$td
+D$8)
+|$8)
+d$,[^_]
+UWVS
+l$,k
+L$ f
+[^_]
+D$()
+D$Hf
+t$$f
+T$41
+T$41
++T$4
++T$4
+T$41
+t$H+t$4
+|$H+|$4
+|$H+|$4
+T$,1
+T$,1
+D$8)
+D$8)
+T$,1
+t$8)
+|$8)
+|$8)
+l$<e
+L$09
+L$,9
++T$0
+T$81
+T$81
+D$H)
+T$81
+D$H)
+t$H+t$0
+l$81
++T$0
+|$H+|$0
+|$H+|$0
+|$H+|$0
+[^_]
+|$()
+D$()
+T$"1
+f+w(f
+T$41
+T$"f
+f9w$f
+d$\[^_]
+d$ [^_
+UWVS
+<>f;W
+D$0f
+L$,t
+D$4f;
+T$,th
+[^_]
+T$41
+kT$0,
+D$H)
+T$41
+D$H)
+|$H)
+t$H)
+UWVS
+d$<[^_]
+UWVS
+T$,u
+T$.f9V
+T$,f9V
+L$(9N
+[^_]
+T$.f
+D$8)
+D$8)
+D$8)
+D$8)
+|$8)
+UWVS
+T$8f
+T$Lf9T$B
+t;f9}
+T$(f
+[^_]
+t$X)
+D$X)
+D$X)
+D$X)
+|$X)
+l$O1
+D$X)
+UWVS
+d$<[^_]
+@U u
+[^_]
+[^_]
+UWVS
+t$8e
+D$<9D$4
+[^_]
+D$H)
+|$H)
+t$H)
+|$H)
+t$H)
+D$H)
+t$H)
+;l$<t\
+;l$<u
+[^_]
+|$H)
+D$H)
+|$H)
+t$H)
+t$H)
+|$0f
+D$()
+|$()
+|$8)
+D$8)
+UWVS
+D$$1
+<1\t
+d$L[^_]
+9D$ sw
++D$ 
+:"t"1
+UWVS
+d$,[^_]
+UWVS
+D$X)
++T$0
+D$X)
+D$X)
+[^_]
+D$X)
++T$0
+T$X)
+D$X)
++T$0
+D$X)
+D$X)
++T$0
++T$0
++T$0
++T$0
++T$0
+T$0)
+|$X+|$0
++T$0
+T$0)
+<;t$
+d$,[^_]
+x	"tu
+UWVS
+D$L9D$<
+9D$<
+;t$<
+D$H)
+9D$0r
+T$0+T$H
+Dl$0
+9|$L
+L$(t
++D$L
+D$<+D$P
++D$<
+[^_]
+;t$L
++D$P
+D$P)
+D$<+D$P
++t$H
+L$@1
+T$41
+tD;t$L
+;t$L
+D$L+D$P
+|$x)
+D$L+D$P
+T$(u
+l$@1
++D$P
+l$41
+T$41
+D$x)
+T$41
+|$x)
+|$x)
+l$41
+T$41
+T$41
+T$41
+|$x)
+|$x)
+l$41
+|$x)
+|$x)
+|$x)
+l$H)
+|$x)
+l$41
+|$x)
+l$41
+|$x)
+|$x)
+T$41
+l$41
+|$x)
+|$x)
+l$41
+|$x)
+|$x)
+UWVS
+t$(1
+[^_]
+L$$1
+;|$$r
+;D$ r
+;D$,
+T$4)
+T$8+t$4
+T$$9
+;D$4v
+9L$$
+D$,t8
+L$49L$ s
+|$ f
+T$,w
+D$H)
+|$H)
+L$ )
+|$H)
+|$H)
+|$H)
+L$0)
+L$,)
+ tX1
+NV@1
+T$,x
+t$(1
+l$4w=9D$0s7
+l$<1
+;|$<r
+;D$8r
++D$09
+N<3F03N4	
+T$,tx
+T$,t
+|$H)
+D$H)
+d$ [^_
+T$$1
+T$$1
+t$,1
+T$,1
+D$8)
+T$,1
+t$,1
+|$8)
+t$8)
+t$8)
+|$8)
+UWVS
+d$<[^_]
+UWVS
+[^_]
+UWVS
+W$9V
+[^_]
+;G s
+[^_]
+UWVS
+[^_]
+T$0th
+UWVS
+T$8f
+d$|[^_]
+L$0)
+T$<)
+T$8f
+|$0)
+f	V.
+f	F0
++|$D
+T$<)
+|$D$
+d$|[1
+f	V,
+f	V*
+D$H	V$
+T$H	F 
+T$H	F 
+T$<)
+9D$L
+T$89
+9D$Hu
+T$<)
+L$H9
+|$<)
+UX9T$\
+T$,t3
+9D$0
+*9t$0
+D$0f
+;t$0
+L$T9L$\
+3T$T3D$d	
+T$Lf
+D$L9
+;t$0
+;D$d
++|$P
+T$49T$T
+|$Lr
+|$09|$dw
+d$|1
+[^_]
+f	EP
+f	EP
+f	ER
+f	EL
+L$D	
+f	EP
+f	EL
+f	EL
+<uwK<ss
+D$\f
+<sr f
+UWVS
+T$,f
+t$4	
+t$8	
+t$4	
+t$8	
+T$0+T$09
++L$8
+T$,)
+d$L[^_]
+	L$,
+L$,	L$8
++T$0+L$0
+[^_]
+L$8t
+D$0	U4
+D$4	E4
+D$4	E4
+L$81
+D$,)
+f	~&
+f	~(
+f	~&
+f	~(
+D$8)
+|$8)
+|$8)
+E@f9G
+E@f9F
+f	EF
+f	EF
+D$8)
+D$8)
+|$8)
+|$8)
+*f)~hf
+|$H)
+|$H)
+|$H)
+D$H)
+D$ge
+[^_]
+UWVS
+d$,[^_]
+UWVS
+d$<[^_]
+f9T$
+wuf9U
+Udf;U
+9D$$|
+v+f;U
+D$$9
+L$ 9
+f;Md
+Udf;U
+f	FD
+f	FF
+f	FH
+f	FJ
+f	FL
+D$H)
+|$H)
+|$H)
+|$8)
+|$8)
+D$8)
+t$0f
+OvCf;EJs=
+f;EJtB
+D$(f
+T$<1
+T$<e3
+d$4[^
+d$4[^
+UWVS
+T$(e
+D$C 
+T$,f
+[^_]
+L$(1
+T$4f
+D$H)
+|$H)
+d$ [^_
+D$;u
+|$,9|$0
+D$4f
+D$4)
+D$4)
+9t$,
+|$4f
+t$4f
+9t$,
+t$4f
+|$4f
+D$H)
+|$H)
+t$H)
+|$H)
+t$H)
+9D$(vMf
+.f	h
+D$(9D$4
+D$4+D$(
+D$(f
++|$,
+9L$4
+D$0f
+D$H)
+|$8f
+|$H)
+T$01
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+T$01
+|$H)
+|$H)
+L$4)
+L$4f
+d$ ^1
+L$4f
+d$ ^
+d$0[^_
+UWVS
+[^_]
+;L$Tf
+D$X)
+D$T)
++T$0
+T$(t<
+D$T)
+D$X)
+|$X)
+|$X)
+T$0)
+T$@)
+UWVS
+[^_]
++D$T
+D$T)
++T$0
+|$0f
++D$0
+D$X)
+T$(tQ
+D$T)
+D$X)
+|$X)
+|$X)
+T$0)
+T$@)
+d$$[^
+n,v-
+D$8)
+T$,1
+|$8)
+T$,1
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+|$8)
+UWVS
+T$8e
+	D$0
+	D$0
+L$4)
++D$8
+[^_]
+T$,1
+D$H)
+T$,1
+|$H)
+|$H)
+|$H)
+|$H)
+UWVS
+[^_]
+D$8)
+|$8)
+|$8)
+D$8)
+|$8)
+|$8)
+t$41
+T$41
+D$H)
+T$41
+t$41
+|$H)
+t$H)
+t$8)
+T$41
+t$H)
+|$H)
+t$8)
+T$41
+|$H)
+|$H)
+B@f9BB
+T$$tw
+T$$t0
+t$8)
+T$,1
+D$8)
+|$8)
+t$8)
+A8;A4
+T$,1
+T$,1
+D$8)
+|$8)
+|$8)
+D$0ut
+NDf;NB
+NBf9ND
+D$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+|$H)
+d$L[
+[^_]
+|$$~,
+<2 u
+9t$<
+d$ [^_
+UWVS
+d$,[^_]
+V%8Q%t
+V 9Q u
+V89Q8u
+V49Q4u
+V09Q0u
+V,9Q,u
+VL9QLu
+VH9QHu
+VD9QDu
+F@9A@
+T$H)
+Q89V
+UWVS
+|$0)
+|$,f
+l$<f
+L$]f
+T$^f
+f9t$,r#
+9t$T
+;t$(
+D$@)
+D$$)
+T$8f
+D$Jf
+D$<)
+L$,f;H
+T$,s
+9|$(
+f9t$,
+T$H9
+9|$(
+f9t$,
+T$H9
+9|$(
+f9t$,
++l$(
+f9L$Hvh
+|$H)
+9|$(
+f9t$,
++l$(
+f9L$Hv
+t$H)
+f9L$,
+f9t$,
+f9t$H
+[^_]
+T$01
+l$,f
+T$01
+L$]f
+l$Zf
+|$<f
+|$,f
+T$h=
++l$(
+T$Jf)T$<
+l$,f
++l$(
+T$81
+T$81
+t$,f
+D$h)
+D$h)
+D$h)
+|$h)
+L$4)
+UWVS
+D$.f
+[^_]
+UWVS
+T$,f
+D$4)
+[^_]
+D$@)
+D$@)
+D$@)
+D$@)
+D$@)
+D$@)
+D$@)
+D$4)
+D$@)
+|$@)
+D$8)
+D$8)
+|$8)
+|$8)
+L$,)
+|$8)
+L$,)
+|$ u
+UWVS
+[^_]
+l$$)
+l$$)
+l$$)
+D$$)
+|$8)
+|$@f
+UWVS
+[^_]
++D$<=
+T$H)
+L$H)
++D$<=
+T$8)
+4$u!9
+r19D$
+[^_]
+suricata.c
+1.3.3
+Suricata
+%s %s
+USAGE: %s
+This is %s version %s RELEASE
+NFQ 
+PCAP_SET_BUFF 
+LIBPCAP_VERSION_MAJOR=1 
+AF_PACKET 
+HAVE_PACKET_FANOUT 
+LIBCAP_NG 
+LIBNET1.1 
+HAVE_HTP_URI_NORMALIZE_HOOK 
+PCRE_JIT 
+HAVE_NSS 
+none
+Features: %s
+Little-endian
+32-bits
+%s, %s architecture
+enabled
+disabled
+Suricata-Main
+[ERRCODE: %s(%d)] - 
+Unable to set thread name
+dump-config
+pfring
+pfring-int
+pfring-cluster-id
+pfring-cluster-type
+af-packet
+pcap
+pcap-buffer-size
+unittest-filter
+list-app-layer-protos
+list-unittests
+list-cuda-cards
+list-runmodes
+list-keywords
+engine-analysis
+pidfile
+init-errors-fatal
+fatal-unittests
+user
+erf-in
+napatech
+build-info
+engine.init-failure-fatal
+list-app-layer-protocols
+erf-file.file
+pcap.buffer-size
+default-log-dir
+pcap-file.file
+Failed to stat file %s
+Failed to open file %s
+bpf-filter
+/etc/suricata//suricata.yaml
+include
+detect-engine
+rule-reload
+Live rule reloads %s
+/var/log/suricata
+max-pending-packets
+default-packet-size
+pid-file
+failed in getting user ID
+failed in getting group ID
+Loading signatures failed.
+af-packet.live-interface
+time elapsed %.3fs
+Live rule reload not possible if -s or -S option used at runtime.
+Live rule reload not enabled in config.
+Ruleset load signal USR2 triggered for wrong runmode
+Ruleset load in progress.  New ruleset load allowed after current is done
+Live rule swap no longer possible. Engine in shutdown mode.
+Trans_Q Mutex not initialized correctly
+	-c <path>                    : path to configuration file
+	-T                           : test configuration file (use with -c)
+	-i <dev or ip>               : run in pcap live mode
+	-F <bpf filter file>         : bpf filter file
+	-r <path>                    : run in pcap file/offline mode
+	-q <qid>                     : run in inline nfqueue mode
+	-s <path>                    : path to signature file loaded in addition to suricata.yaml settings (optional)
+	-S <path>                    : path to signature file loaded exclusively (optional)
+	-l <dir>                     : default log directory
+	-D                           : run as daemon
+	--list-runmodes              : list supported runmodes
+	--runmode <runmode_id>       : specific runmode modification the engine should run.  The argument
+	                               supplied should be the id for the runmode obtained by running
+	                               --list-runmodes
+	--engine-analysis            : print reports on analysis of different sections in the engine and exit.
+	                               Please have a look at the conf parameter engine-analysis on what reports
+	                               can be printed
+	--pidfile <file>             : write pid to this file (only for daemon mode)
+	--init-errors-fatal          : enable fatal failure on signature init error
+	--dump-config                : show the running configuration
+	--pcap[=<dev>]               : run in pcap mode, no value select interfaces from suricata.yaml
+	--pcap-buffer-size           : size of the pcap buffer value from 0 - %i
+	--af-packet[=<dev>]          : run in af-packet mode, no value select interfaces from suricata.yaml
+	--user <user>                : run suricata as this user after init
+	--group <group>              : run suricata as this group after init
+	--erf-in <path>              : process an ERF file
+To run the engine with default configuration on interface eth0 with signature file "signatures.rules", run the command as:
+%s -c suricata.yaml -s signatures.rules -i eth0 
+HAVE_HTP_TX_GET_RESPONSE_HEADERS_RAW 
+4.7.2 20121001 (Red Hat 4.7.2-3)
+GCC version %s, C version %lli
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8
+compiled with -fstack-protector
+compiled with _FORTIFY_SOURCE=%d
+Warning: Log message exceeded message length limit of %d
+PF_RING not enabled. Make sure to pass --enable-pfring to configure when building.
+using multiple devices to get packets is experimental.
+Multiple af-packet option without interface on each is useless
+more than one run mode has been specified
+using multiple pcap devices to get packets is experimental.
+ERROR: Failed to set engine init-failure-fatal.
+ERROR: Unit tests not enabled. Make sure to pass --enable-unittests to configure when building.
+ERROR: Cuda not enabled. Make sure to pass --enable-cuda to configure when building.
+ERROR: Failed to set erf-file.file
+libdag and a DAG card are required to receieve packets using --dag.
+libntcommoninterface and a Napatech adapter are required to capture packets using --napatech.
+ERROR: Failed to set pcap-buffer-size.
+Running suricata under test mode
+translated %s to pcap device %s
+failed to find a pcap device for IP %s
+ERROR: Failed to set log directory.
+The logging directory "%s" supplied at the commandline (-l %s) doesn't exist. Shutting down the engine.
+IPFW not enabled. Make sure to pass --enable-ipfw to configure when building.
+ERROR: Failed to set pcap-file.file
+can't have multiple -s options or mix -s and -S.
+can't have multiple -S options or mix -s and -S.
+This is %s version %s RELEASE
+SCMalloc failed: %s, while trying to allocate %llu bytes
+Out of memory. The engine cannot be initialized. Exiting...
+Failed to allocate buffer for bpf filter in file %s
+ERROR: Failed to set bpf filter!
+ERROR: Failed to set bpf filter.
+The logging directory "%s" supplied by %s (default-log-dir) doesn't exist. Shutting down the engine
+Maximum max-pending-packets setting is 65534. Please check %s for errors
+Error parsing max-pending-packets from conf file - %s.  Killing engine
+== Carrying out Engine Analysis ==
+no engine-analysis parameter(s) defined in conf file.  Please define/enable them in the conf to use this feature.
+basic address vars test failed. Please check %s for errors
+basic port vars test failed. Please check %s for errors
+Use pid file %s from config file.
+The pidfile file option applies only to the daemon modes
+initializing detection engine context failed.
+Signature file has not been provided
+ERROR: No interface found in config for pcap
+ERROR: Failed to set af-packet.live-interface
+ERROR: No interface found in config for af-packet
+Configuration provided was successfully loaded. Exiting.
+Engine initialization failed, aborting...
+stopping engine, waiting for outstanding packets
+shutdown taking too long, likely a bug! (%llu != %llu).
+all packets processed by threads, stopping engine
+Live rule swap in progress.  Waiting for it to end before we shut the engine/threads down
+Received notification that live rule swap is done.  Continuing with engine/threads shutdown
+!(global_de_ctx == ((void *)0))
+SignalHandlerSigusr2Disabled
+SignalHandlerSigusr2SigFileStartup
+SignalHandlerSigusr2
+SignalHandlerSigusr2Idle
+GlobalInits
+SCPrintBuildInfo
+main
+main
+SetBpfStringFromFile
+SetBpfString
+zDPCAP_DEV
+PCAP_FILE
+PFRING(DISABLED)
+ERF_FILE
+ERF_DAG
+UNITTEST
+AF_PACKET_DEV
+Descripition
+Custom Mode 
+RunMode Type
+| %-17s | %-17s | %-10s 
+| %-17s | %-17s | %-27s 
+worker
+stats
+unified-
+threading.set-cpu-affinity
+threading.detect-thread-ratio
+Unknown runtime mode. Aborting
+------------------------------------- Runmodes ------------------------------------------
+|----------------------------------------------------------------------------------------
+|                   ---------------------------------------------------------------------
+'worker' mode have been renamed to 'workers', please modify your setup.
+SCStrdup failed: %s, while trying to allocate %llu bytes
+The custom type "%s" doesn't exist for this runmode type "%s".  Please use --list-runmodes to see available custom types for this runmode
+A runmode by this custom name has already been registered.  Please use an unique name
+SCRealloc failed: %s, while trying to allocate %llu bytes
+Failed to lookup configuration child node: fast
+Unified1 is no longer supported, use Unified2 instead (see https://redmine.openinfosecfoundation.org/issues/353 for an explanation)
+No output module named %s, ignoring
+TmModuleGetByName for %s failed
+SCCalloc failed: %s, while trying to allocate %llu bytes
+RunModeTranslateModeToName
+RunModeDispatch
+RunModeRegisterNewRunMode
+RunModeInitializeOutputs
+pcap.single-pcap-dev
+RxPcap
+DecodePcap
+ReceivePcap
+runmode-pcap.c
+Unable to start runmode
+Runmode start failed
+RecvPcap
+PcapLive
+Pcap will use %d buffer size
+checksum-checks
+auto
+single
+Multi threaded pcap live mode
+autofp
+workers
+RunModeIdsPcapWorkers initialised
+RunModeIdsPcapAutoFp initialised
+RunModeIdsPcapAuto initialised
+RunModeIdsPcapSingle initialised
+Unable to find pcap config using default value
+Unable to find pcap config for interface %s, using default value
+Failed to parse pcap buffer size: %s
+Failed to set pcap buffer size: 2gb max. %llu > %d
+BPF filter set from command line or via old 'bpf-filter' option.
+Invalid value for checksum-checks for %s
+Single threaded pcap live mode
+Multi threaded pcap live mode.  Packets from each flow are assigned to a single detect thread, unlike "pcap_live_auto" where packets from the same flow can be processed by any detect thread
+Workers pcap live mode, each thread does all tasks from acquisition to logging
+ParsePcapConfig
+RunModeIdsPcapSingle
+RunModeIdsPcapAuto
+RunModeIdsPcapAutoFp
+RunModeIdsPcapWorkers
+pickup%u
+runmode-pcap-file.c
+pktacqloop
+packetpool
+ReceivePcapFile
+ERROR: TmThreadsCreate failed
+DecodePcapFile
+ERROR: TmThreadSpawn failed
+Detect%u
+varslot
+StreamTcp
+Detect
+Error allocating memory
+simple
+detect-queue1
+1slot
+alert-queue1
+Outputs
+Multi threaded pcap file mode
+Failed retrieving pcap-file from Conf
+ERROR: TmModuleGetByName failed for ReceivePcap
+ERROR: TmModuleGetByName DecodePcap failed
+ERROR: TmModuleGetByName StreamTcp failed
+ERROR: TmModuleGetByName Detect failed
+ERROR: TmThreadCreatePacketHandler for Outputs failed
+Single threaded pcap file mode
+Multi threaded pcap file mode.  Packets from each flow are assigned to a single detect thread, unlike "pcap-file-auto" where packets from the same flow can be processed by any detect thread
+RunModeFilePcapSingle
+RunModeFilePcapAuto
+RunModeFilePcapAutoFp
+Multi threaded pfring mode
+Single threaded pfring mode
+runmode-pfring.c
+pfring.threads
+pfring.cluster-id
+rx-only
+pfring.interface
+Multi threaded pfring mode.  Packets from each flow are assigned to a single detect thread, unlike "pfring_auto" where packets from the same flow can be processed by any detect thread
+Workers pfring mode, each thread does all tasks from acquisition to logging
+Could not get cluster-id from config
+Unable to find pfring config using default value
+Unable to find pfring config for interface %s, using default value or 1.0 configuration system. 
+OldParsePfringConfig
+ParsePfringConfig
+DecodeNFQ
+VerdictNFQ
+ReceiveNFQ
+Multi threaded NFQ IPS mode
+Multi threaded NFQ IPS mode with respect to flow
+Multi queue NFQ IPS mode with one thread per queue
+Multi threaded IPFW IPS mode
+Multi threaded IPFW IPS mode with respect to flow
+Multi queue IPFW IPS mode with one thread per queue
+runmode-erf-file.c
+ReceiveErfFile
+DecodeErfFile
+Single threaded ERF file mode
+Failed retrieving erf-file.file from config
+ERROR: TmModuleGetByName failed for ReceiveErfFile
+ERROR: TmModuleGetByName DecodeErfFile failed
+RunModeErfFileAutoFp initialised
+Failed to get erf-file.file from config.
+RunModeErfFileSingle initialised
+Multi threaded ERF file mode.  Packets from each flow are assigned to a single detect thread
+RunModeErfFileSingle
+RunModeErfFileAutoFp
+RxDAG
+DecodeErfDag
+ReceiveErfDag
+runmode-erf-dag.c
+Singled threaded DAG mode
+DAG workers runmode failed to start
+RunModeIdsErfDagWorkers initialised
+DAG autofp runmode failed to start
+RunModeIdsDagAutoFp initialised
+DAG single runmode failed to start
+RunModeIdsDagSingle initialised
+Multi threaded DAG mode.  Packets from each flow are assigned to a single detect thread, unlike "dag_auto" where packets from the same flow can be processed by any detect thread
+Workers DAG mode, each thread does all  tasks from acquisition to logging
+RunModeIdsErfDagSingle
+RunModeIdsErfDagAutoFp
+RunModeIdsErfDagWorkers
+AFPacket
+DecodeAFP
+ReceiveAFP
+runmode-af-packet.c
+RxAFP
+RecvAFP
+RunModeIdsAFPAuto initialised
+cluster_round_robin
+cluster_flow
+defrag
+cluster_cpu
+invalid cluster-type %s
+Going to use bpf filter %s
+disable-promisc
+use-mmap
+kernel
+Multi threaded af-packet mode
+RunModeIdsAFPSingle initialised
+RunModeIdsAFPAutoFp initialised
+Going to use command-line provided bpf filter '%s'
+Unable to find af-packet config using default value
+Unable to find af-packet config for interface %s, using default value
+Could not get cluster-type from config
+Using round-robin cluster mode for AF_PACKET (iface %s)
+Using flow cluster mode for AF_PACKET (iface %s)
+Using defrag kernel functionnality for AF_PACKET (iface %s)
+Using cpu cluster mode for AF_PACKET (iface %s)
+Disabling promiscuous mode on iface %s
+Enabling mmaped capture on iface %s
+Single threaded af-packet mode
+Workers af-packet mode, each thread does all tasks from acquisition to logging
+Multi socket AF_PACKET mode.  Packets from each flow are assigned to a single detect thread.
+ParseAFPConfig
+RunModeIdsAFPAuto
+RunModeIdsAFPAutoFp
+RunModeIdsAFPSingle
+RunModeIdsAFPWorkers
+source-nfq.c
+can't get queue for %d
+accept
+repeat
+Unknown nfq.mode
+nfq.repeat-mark
+nfq.repeat-mask
+nfq.route-queue
+NFQ sent too big packet
+no queue for given index
+nfq_open() failed
+nfq_create_queue failed
+can't set packet_copy mode
+setting queue length to %d
+setting nfnl bufsize to %d
+can't set socket timeout: %s
+recv got returncode 0
+NFQ handle has been destroyed
+nfq_handle_packet error %d
+(%s) Pkts %u, Bytes %llu, Errors %u
+Pkts accepted %u, dropped %u, replaced %u
+NFQ running in standard ACCEPT/DROP mode
+NFQ running in REPEAT mode with mark %u/%u
+NFQ running in route mode with next queue %u
+Packet seems already treated by suricata
+nfq_set_verdict of %p failed %d
+nfq_unbind_pf() for AF_INET failed
+nfq_unbind_pf() for AF_INET6 failed
+nfq_bind_pf() for AF_INET failed
+nfq_bind_pf() for AF_INET6 failed
+binding this thread %d to queue '%u'
+can't set queue maxlen: your kernel probably doesn't support setting the queue length
+NFQ running in 'workers' runmode, will not use mutex.
+nfq thread failed to initialize
+specified queue number %s is not valid
+too much Netfilter queue registered (%d)
+NFQInitConfig
+NFQSetupPkt
+NFQInitThread
+NFQMutexInit
+ReceiveNFQThreadInit
+NFQRegisterQueue
+NFQRecvPkt
+ReceiveNFQ
+ReceiveNFQThreadExitStats
+NFQSetVerdict
+source-pcap.c
+(%s) Packets %u, bytes %llu
+Unable to find Live device
+using interface %s
+bpf compilation error %s
+could not set bpf filter %s
+error code %d %s
+Error: datalink type %d not yet supported in module DecodePcap
+(%s) Failed to get pcap_stats: %s
+(%s) Pcap Total:%llu Recv:%llu Drop:%llu (%02.1f%%).
+Running in 'auto' checksum mode. Detection of interface state will require 1000 packets.
+Couldn't create a new pcap handler for %s, error %s
+Couldn't create a new pcap handler for %s
+Couldn't set snaplen, error: %s
+Couldn't set promisc mode, error %s
+Problems setting timeout, error %s
+Going to use pcap buffer size of %d
+Problems setting pcap buffer size, error %s
+Couldn't activate the pcap handler, error %s
+Recovering interface listening
+Pcap callback PcapCallbackLoop failed
+ReceivePcapLoop
+PcapTryReopen
+ReceivePcapThreadInit
+ReceivePcapThreadExitStats
+DecodePcap
+Bsource-pcap-file.c
+error: initdata == NULL
+reading pcap file %s
+using bpf-filter "%s"
+Pcap-file module read %u packets, %llu bytes
+datalink type %d not (yet) supported in module PcapFile.
+pcap file end of file reached (pcap err code %d)
+Pcap callback PcapFileCallbackLoop failed
+ReceivePcapFileLoop
+ReceivePcapFileThreadInit
+ReceivePcapFileThreadExitStats
+pBsource-pfring.c
+ReceivePfring
+DecodePfring
+Error creating thread %s: you do not have support for pfring enabled please recompile with --enable-pfring
+NoPfringSupportExit
+source-ipfw.c
+ReceiveIPFW
+VerdictIPFW
+DecodeIPFW
+Error creating thread %s: you do not have support for ipfw enabled please recompile with --enable-ipfw
+NoIPFWSupportExit
+source-erf-file.c
+Packets: %u; Bytes: %llu
+Error: No filename provided.
+Failed to open %s: %s
+Processing ERF file %s
+Failed to allocate a packet.
+End of ERF file reached
+Error reading ERF record
+Failed to allocate memory for ERF file thread vars.
+DAG record type %d not implemented.
+ReceiveErfFileLoop
+ReadErfRecord
+ReceiveErfFileThreadInit
+ReceiveErfFileThreadExitStats
+source-erf-dag.c
+Error creating thread %s: you do not have support for DAG cards enabled please recompile with --enable-dag
+NoErfDagSupportExit
+source-napatech.c
+NapatechFeed
+NapatechDecode
+Error creating thread %s: you do not have support for Napatech adapter enabled please recompile with --enable-napatech
+NoNapatechSupportExit
+source-af-packet.c
+Using BPF '%s' on iface '%s'
+Filter compilation failed.
+Filter badly setup.
+Failed to attach filter: %s
+Unable to find iface %s: %s
+Couldn't find iface %s
+frame size to big
+Unable to mmap
+Unable to allocate frame buf
+capture.kernel_packets
+capture.kernel_drops
+Enabling zero copy mode
+Invalid polling request
+Error: datalink type %d not yet supported in module DecodeAFP
+(%s) Kernel: Packets %llu, dropped %llu
+recvmsg failed with error code %d
+Couldn't create a AF_PACKET socket, error %s
+Too old kernel giving up (need 2.6.27 at least)
+Error when retrieving packet header len
+Can't activate TPACKET_V2 on packet socket: %s
+AF_PACKET RX Ring params: block_size=%d block_nr=%d frame_size=%d frame_nr=%d
+Ring parameter are incorrect. Please correct the devel
+Memory issue with ring parameters. Retrying.
+Unable to allocate RX Ring for iface %s: (%d) %s
+Unable to allocate RX Ring for iface %s (order 0 failed)
+Couldn't bind AF_PACKET socket, iface %s is down
+Couldn't bind AF_PACKET socket to iface %s, error %s
+Couldn't switch iface %s to promiscuous, error %s
+'kernel' checksum mode not supported, failling back to full mode.
+Setting AF_PACKET socket buffer to %d
+Couldn't set buffer size to %d on iface %s, error %s
+Coudn't set fanout mode, error %s
+Unable to find type for iface "%s": %s
+Set AF_PACKET bpf filter "%s" failed.
+Couldn't init AF_PACKET socket
+Error reading data from socket: (%du) %s
+AFPRead error reading data from socket: (%du) %s
+AFPRead
+ReceiveAFPLoop
+AFPTryReopen
+AFPCreateSocket
+AFPGetIfnumByDev
+AFPComputeRingParams
+AFPGetDevLinktype
+AFPSetBPFFilter
+ReceiveAFPThreadInit
+ReceiveAFPThreadExitStats
+DecodeAFP
+_decode.c
+decoder.pkts
+decoder.bytes
+decoder.ipv4
+decoder.ipv6
+decoder.ethernet
+decoder.raw
+decoder.sll
+decoder.tcp
+decoder.udp
+decoder.sctp
+decoder.icmpv4
+decoder.icmpv6
+decoder.ppp
+decoder.pppoe
+decoder.gre
+decoder.vlan
+decoder.avg_pkt_size
+decoder.max_pkt_size
+defrag.ipv4.fragments
+defrag.ipv4.reassembled
+defrag.ipv4.timeouts
+defrag.ipv6.fragments
+defrag.ipv6.reassembled
+defrag.ipv6.timeouts
+defrag.max_frag_hits
+FIXME: DecodeTunnel: protocol %u not supported.
+DecodeTunnel
+PacketGetFromAlloc
+PacketCopyDataOffset
+DecodeThreadVarsAlloc
+flow-timeouts
+default
+emergency-new
+emergency-established
+emergency-closed
+icmp
+flow.emergency-recovery
+flow.memcap
+flow.hash-size
+flow.prealloc
+preallocating flow failed: %s
+flow.emergency-recovery must be in the range of 1 and 100 (as percentage)
+Error parsing flow.memcap from conf file - %s.  Killing engine
+allocating flow hash failed: max flow memcap is smaller than projected hash size. Memcap: %llu, Hash table size %llu. Calculate total hash size by multiplying "flow.hash-size" with %llu, which is the hash bucket size.
+Fatal error encountered in FlowInitConfig. Exiting...
+allocated %llu bytes of memory for the flow hash... %u buckets of size %llu
+preallocating flows failed: max flow memcap reached. Memcap %llu, Memuse %llu.
+preallocated %u flows of size %llu
+flow memory usage: %llu bytes, maximum: %llu
+FlowInitConfig
+Gflow-timeout.c
+!(1)
+Looks like we have failed to retrieve the slot for STREAMTCP TM
+Looks like we have failed to retrieve the TV containing STREAMTCP TM slot
+Looks like we have failed to retrieve a slot for DETECT TM
+Looks like we have failed to retrieve the TV containing the Detect TM slot
+Looks like we have failed to retrieve the slot for DECODE TM
+Looks like we have failed to retrieve the TV containing the Decode TM slot
+FlowForceReassemblyForFlowV2
+FlowForceReassemblySetup
+FlowManagerThread
+flow_mgr.closed_pruned
+flow_mgr.new_pruned
+flow_mgr.est_pruned
+flow.memuse
+flow.spare
+flow.emerg_mode_entered
+flow.emerg_mode_over
+flow-manager.c
+Flow emergency mode over, back to normal... unsetting FLOW_EMERGENCY bit (ts.tv_sec: %llu, ts.tv_usec:%llu) flow_spare_q status(): %u%% flows at the queue
+%u new flows, %u established flows were timed out, %u flows in closed state
+FlowManagerThread
+flow-queue.c
+Fatal error encountered in FlowQueueNew. Exiting...
+FlowQueueNew
+flow-util.c
+FlowAlloc
+flow-var.c
+FlowVarAddStr
+FlowVarAddInt
+flow-bit.c
+FlowBitAdd
+flow-alert-sid.c
+FlowAlertSidAdd
+pkt-var.c
+Name "%s", Value "
+\%02X
+", Len "%u"
+PktVarAdd
+host.c
+host.memcap
+host.hash-size
+host.prealloc
+preallocating host failed: %s
+Error parsing host.memcap from conf file - %s.  Killing engine
+allocating host hash failed: max host memcap is smaller than projected hash size. Memcap: %llu, Hash table size %llu. Calculate total hash size by multiplying "host.hash-size" with %llu, which is the hash bucket size.
+Fatal error encountered in HostInitConfig. Exiting...
+allocated %llu bytes of memory for the host hash... %u buckets of size %llu
+preallocating hosts failed: max host memcap reached. Memcap %llu, Memuse %llu.
+preallocated %u hosts of size %llu
+host memory usage: %llu bytes, maximum: %llu
+!((h->use_cnt_sc_atomic__) > 0)
+HostAlloc
+HostInitConfig
+HostShutdown
+Ehost-queue.c
+Fatal error encountered in HostQueueNew. Exiting...
+HostQueueNew
+reputation.c
+No Reputation Data!
+Rep_type %d = %d
+REPUTATION_FLAG_NEEDSYNC = 1
+Invalid arguments
+Invalid IPV4 Netblock
+Invalid IPV6 Netblock
+Mutex not correctly initialized
+Reputation trees not initialized
+SCReputationInitCtx
+SCReputationAllocData
+SCReputationTransactionAlloc
+SCReputationClone
+SCReputationAddIPV4Data
+SCReputationAddIPV6Data
+SCReputationUpdateIPV4Data
+SCReputationUpdateIPV6Data
+detect.c
+http uri content
+http raw uri content
+http header content
+http raw header content
+http method content
+http cookie content
+http client body content
+http server body content
+http stat code content
+http stat msg content
+    Fast pattern set: %s
+    Content negated: %s
+    Original content: 
+    Final content: 
+== Sid: %u ==
+    No content present
+    Fast pattern matcher: 
+default-rule-path
+opening rule file null
+opening rule file %s: %s.
+!(r == -1)
+SigAddressPrepareStage2 error
+SigAddressPrepareStage3 error
+!(de_ctx == ((void *)0))
+1 Src Addr: 
+ (sh %p)
+ 2 Dst Addr: 
+ (COPY): 
+ (ORIGINAL): 
+  3 Src port(range): 
+   4 Dst port(range): 
+ (sigs %u, sgh %p, maxlen %u)
+(COPY)
+  * Src port(range): 
+   * Dst port(range): 
+ (sigs %u)
+packet_proto_tcp
+packet_proto_udp
+packet_proto_other
+hcbd
+hrhd
+hrud
+hsmd
+hscd
+huad
+app_proto_detect
+rules_fast_pattern.txt
+%s/%s
+failed to open %s: %s
+rule-files
+No rules loaded from %s
+Loading rule file: %s
+No signatures supplied.
+=====Supported keywords=====
+- %s
+!(gr->ip.family == 0 && !(gr->flags & 0x01))
+    Fast pattern only set: %s
+    Fast pattern chop set: %s
+    Fast pattern offset, length: %u, %u
+error parsing signature "%s" from file %s at line %d
+ERROR: Detect has no thread ctx
+ERROR: Detect has no detection engine ctx
+%u signatures processed. %u are IP-only rules, %u are inspecting packet payload, %u inspect application layer, %u are decoder event only
+building signature grouping structure, stage 1: adding signatures to signature source addresses... complete
+building signature grouping structure, stage 2: building source address list... complete
+PatternMatchPrepareGroup failed
+BuildDestinationAddressHeads(src_gh[6],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[17],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[IPPROTO_SCTP],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_INET) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_INET6) failed
+BuildDestinationAddressHeads(src_gh[%d],AF_UNSPEC) failed
+building signature grouping structure, stage 3: building destination address lists... complete
+cleaning up signature grouping structure... complete
+* Building signature grouping structure, stage 5: print...
+* Building signature grouping structure, stage 5: print... done
+initializing the detection engine failed
+engine-analysis.rules-fast-pattern
+Conf parameter "engine-analysis.rules-fast-pattern" not found.  Defaulting to not printing the fast_pattern report.
+-------------------------------------------------------------------
+Date: %d/%d/%04d -- %02d:%02d:%02d
+Engine-Analysis for fast_pattern disabled in conf file.
+%d rule files specified, but no rule was loaded at all!
+%d rule files processed. %d rules succesfully loaded, %d rules failed
+Engine-Analyis for fast_pattern printed to file - %s
+DetectLoadCompleteSigPath
+EngineAnalysisWriteFastPattern
+DetectLoadSigFile
+SigLoadSignatures
+AlertDebugLogModeSyncFlowbitsNamesToPacketStruct
+SigAddressPrepareStage1
+CreateGroupedAddrList
+CreateGroupedPortList
+SigAddressPrepareStage2
+DetectEngineLookupBuildSourceAddressList
+BuildDestinationAddressHeadsWithBothPorts
+SigAddressPrepareStage3
+SigAddressCleanupStage1
+SigAddressCleanupStage1
+SigGroupBuild
+detect-engine-sigorder.c
+Fatal error encountered in SCSigRegisterSignatureOrderingFunc. Exiting...
+SCSigAllocSignatureWrapper
+SCSigRegisterSignatureOrderingFunc
+DetectEngineLiveRuleSwap
+detect-engine.c
+inspection-recursion-limit
+profile
+sgh-mpm-context
+medium
+high
+custom
+full
+custom-values
+toclient_src_groups
+toclient_dst_groups
+toclient_sp_groups
+toclient_dp_groups
+toserver_src_groups
+toserver_dst_groups
+toserver_sp_groups
+toserver_dp_groups
+detect.alert
+argument "data" NULL
+Live Rule Swap: Including: %s
+Live rule swap thread spawn failed
+TmThreadSpawn failed for DetectEngineLiveRuleSwap
+Error retrieving conf entry for detect-engine:inspection-recursion-limit
+You have supplied an invalid conf value for detect-engine.sgh-mpm-context-%s
+===== Starting live rule swap triggered by user signal USR2 =====
+===== New ruleset requires enabling htp features that can't be enabled at runtime.  You will have to restart engine to load the new ruleset =====
+===== Live rule swap premature exit, since engine is in shutdown phase =====
+Live rule swap has swapped %d old det_ctx's with new ones, along with the new de_ctx
+===== Live rule swap DONE =====
+DetectEngineSpawnLiveRuleSwapMgmtThread
+DetectEngineLiveRuleSwap
+DetectEngineThreadCtxInitForLiveRuleSwap
+DetectEngineCtxInit
+DetectEngineCtxLoadConf
+DetectEngineThreadCtxInit
+DetectEngineThreadCtxDeinit
+detect-rpc.c
+pcre study failed: %s
+pcre_get_substring failed
+invalid rpc option %s
+^\s*([0-9]{0,10})\s*(?:,\s*([0-9]{0,10}|[*])\s*(?:,\s*([0-9]{0,10}|[*]))?)?\s*$
+pcre compile of "%s" failed at offset %d: %s
+parse error, ret %d, string %s
+Invalid size specified for the rpc program:"%s"
+Invalid size specified for the rpc version:"%s"
+Invalid size specified for the rpc procedure:"%s"
+DetectRpcRegister
+DetectRpcParse
+isdataat
+detect-isdataat.c
+isdataat out of range
+^\s*!?([^\s,]+)\s*(,\s*relative)?\s*(,\s*rawbytes\s*)?\s*$
+pcre_exec parse error, ret %d, string %s
+isdataat supplied with var name for offset.  "offset" argument supplied to this function has to be non-NULL
+Unknown byte_extract var seen in isdataat - %s
+Unknown byte_extract var seen in isdataat - %s
+isdataat relative seen without a previous content uricontent, http_client_body, http_header, http_raw_header, http_method, http_cookie, http_raw_uri, http_stat_msg, http_stat_code, byte_test, byte_extract, byte_jump or http_user_agent keyword
+Unknown previous-previous keyword!
+DetectIsdataatRegister
+DetectIsdataatParse
+DetectIsdataatSetup
+detect-window.c
+^\s*([!])?\s*([0-9]{1,9}+)\s*$
+DetectWindowRegister
+DetectWindowParse
+detect-ftpbounce.c
+ftpbounce
+rule contains conflicting keywords.
+DetectFtpbounceSetup
+detect-engine-address.c
+!(dd->ip.family == 0)
+!(r == ADDRESS_ER)
+failed to parse address "%s"
+0.0.0.0/0
+!(ad->ip.family == 0)
+::/0
+DetectAddressSetup error
+[%s]
+vars.address-groups
+list:
+SIGS %6u 
+endlist
+!(new->ip.family == 0 && !(new->flags & 0x01))
+Hit the address buffer limit for the supplied address.  Invalidating sig.  Please file a bug report on this.
+variable %s resolved to nothing. This is likely a misconfiguration. Note that a negated address needs to be quoted, "!$HOME_NET" instead of !$HOME_NET. See issue #295.
+not every address block was properly closed in "%s", %d missing closing brackets (]). Note: problem might be in a variable.
+not every address block was properly opened in "%s", %d missing opening brackets ([). Note: problem might be in a variable.
+failed to parse address var "%s" with value "%s". Please check it's syntax
+address var - "%s" has the complete IP space negated with it's value "%s".  Rule address range is NIL. Probably have a !any or an address range that supplies a NULL address range
+Complete IP space negated. Rule address range is NIL. Probably have a !any or an address range that supplies a NULL address range
+DetectAddressInit
+DetectAddressPrintList
+DetectAddressInsert
+DetectAddressParseString
+DetectAddressParseString
+DetectAddressSetup
+DetectAddressSetup
+DetectAddressParse2
+DetectAddressMergeNot
+DetectAddressTestConfVars
+DetectAddressHeadInit
+detect-engine-threshold.c
+type %d is not supported
+track mode %d is not supported
+Threshold: Failed to initialize hash table mutex.
+ThresholdHandlePacketHost
+DetectThresholdEntryAlloc
+ThresholdHashInit
+$tIdetect-engine-tag.c
+DetectTagDataCopy
+detect-engine-proto.c
+tcp-pkt
+tcp-stream
+pkthdr
+DetectProtoInit
+detect-engine-port.c
+!(r == PORT_ER)
+ failed to parse port "%s"
+0:65535
+vars.port-groups
+!(r != PORT_ES && r != PORT_EB && r != PORT_LE && r != PORT_GE)
+DetectPortParseInsertString error
+Can't have a negated value in a range.
+variable %s resolved to nothing. This is likely a misconfiguration. Note that a negated port needs to be quoted, "!$HTTP_PORTS" instead of !$HTTP_PORTS. See issue #295.
+not every port block was properly closed in "%s", %d missing closing brackets (]). Note: problem might be in a variable.
+not every port block was properly opened in "%s", %d missing opening brackets ([). Note: problem might be in a variable.
+Port var - "%s" has the complete Port range negated with it's value "%s".  Port space range is NIL. Probably have a !any or a port range that supplies a NULL address range
+Complete port space is negated
+no ports left after merging ports with negated ports
+DetectPortInit
+DetectPortInsert
+DetectPortCut
+DetectPortCmp
+DetectPortParseMergeNotPorts
+DetectPortParseInsertString
+DetectPortTestConfVars
+DetectPortParseDo
+PortParse
+detect-engine-siggroup.c
+s->num %u 
+!(sgh->init == ((void *)0))
+!((*dst)->mpm_content_maxlen == 0)
+!(sgh->match_array != ((void *)0))
+!(sgh->head_array != ((void *)0))
+SigGroupHeadStore
+SigGroupHeadAlloc
+SigGroupHeadInitDataAlloc
+SigGroupHeadCopySigs
+SigGroupHeadLoadContent
+SigGroupHeadLoadContent
+SigGroupHeadLoadUricontent
+SigGroupHeadLoadUricontent
+SigGroupHeadLoadStreamContent
+SigGroupHeadLoadStreamContent
+SigGroupHeadBuildMatchArray
+SigGroupHeadBuildMatchArray
+SigGroupHeadBuildHeadArray
+SigGroupHeadBuildHeadArray
+detect-engine-mpm.c
+mpm-algo
+!(ht == ((void *)0))
+!(ht->hash == ((void *)0))
+!(e == ((void *)0))
+!(ret != 0)
+!(e->pattern == ((void *)0))
+!(len < sizeof(MpmPatternIdTableElmt))
+!(len1 < sizeof(MpmPatternIdTableElmt))
+!(len2 < sizeof(MpmPatternIdTableElmt))
+!(SigMatchListSMBelongsTo(s, mpm_sm) == -1)
+Invalid mpm algo supplied in the yaml conf file: "%s"
+!(ht == ((void *)0) || ht->hash == ((void *)0))
+How can this happen?  We have to have a content of type DETECT_CONTENT already registered at this point.  Impossible
+PatternMatchDefaultMatcher
+ContentHashAlloc
+UricontentHashAlloc
+PatternMatchPreparePopulateMpm
+PopulateMpmAddPatternToMpm
+MpmPatternIdTableInitHash
+MpmPatternIdTableInitHash
+MpmPatternIdCompare
+MpmPatternIdHashFunc
+DetectContentGetId
+DetectContentGetId
+DetectUricontentGetId
+DetectUricontentGetId
+DetectPatternGetId
+DetectPatternGetId
+, %u
+detect-engine-iponly.c
+!(dd->family == 0)
+DetectAddressParse error "%s"
+Error parsing addresses
+failed to parse addresses
+Fatal error encountered in SigNumArrayCopy. Exiting...
+Fatal error encountered in SigNumArrayNew. Exiting...
+Fatal error encountered in IPOnlyInit. Exiting...
+Error inserting in the src ipv4 radix tree
+Error inserting in the src ipv4 radix tree ip %s netmask %u
+Error inserting in the src ipv6 radix tree
+Error inserting in the dst ipv4 radix tree
+Error inserting in the dst ipv6 radix tree
+IPOnlySigParseAddress
+IPOnlyCIDRListParse2
+IPOnlyCIDRItemParseSingle
+IPOnlyCIDRItemParseSingle
+IPOnlyCIDRItemSetup
+IPOnlyCIDRItemNew
+IPOnlyInit
+DetectEngineIPOnlyThreadInit
+IPOnlyPrepare
+SigNumArrayNew
+SigNumArrayCopy
+detect-engine-content-inspection.c
+Can't modify payload without packet
+DetectEngineContentInspection
+detect-engine-hcbd.c
+DetectEngineBufferHttpClientBodies
+detect-engine-hsbd.c
+DetectEngineBufferHttpServerBodies
+detect-engine-hhd.c
+set-cookie
+DetectEngineBufferHttpHeaders
+Set-Cookie
+User-Agent
+detect-engine-state.c
+DE_STATE_MATCH_NOSTATE
+DE_STATE_MATCH_FULL
+DE_STATE_MATCH_PARTIAL
+DE_STATE_MATCH_NEW
+DE_STATE_MATCH_NOMATCH
+DeStateStoreAlloc
+DetectEngineStateAlloc
+detect-engine-analyzer.c
+%[0-9|a-f|A-F]{2}
+rules
+rules_analysis.txt
+warnings-only
+   Rule is ip only.
+    Rule matches on packets.
+Engine-Analyis for rules printed to file - %s
+Compile of "%s" failed at offset %d: %s
+Error compiling regex; can't check for percent encoding in normalized http content.
+Conf parameter "engine-analysis.rules" not found. Defaulting to not printing the rules analysis report.
+Engine-Analysis for rules disabled in conf file.
+Error parsing content - %s; error code is %d
+    Rule matches on reassembled stream.
+    Rule matches on http uri buffer.
+    Rule matches on http header buffer.
+    Rule matches on http cookie buffer.
+    Rule matches on http raw uri buffer.
+    Rule matches on http raw header buffer.
+    Rule matches on http method buffer.
+    Rule matches on http server body buffer.
+    Rule matches on http client body buffer.
+    Rule matches on http stat msg buffer.
+    Rule matches on http stat code buffer.
+    Rule matches on http user agent buffer.
+    App layer protocol is %s.
+    Rule contains %d content options, %d http content options, %d pcre options, and %d pcre options with http modifiers.
+    Warning: Rule uses pcre without a content option present.
+             -Consider adding a content to improve performance of this rule.
+    Warning: Rule uses content options with http_* and pcre options without http modifiers.
+             -Consider adding http pcre modifier.
+    Warning: Rule app layer protocol is http, but pcre options do not have http modifiers.
+             -Consider adding http pcre modifiers.
+    Warning: Rule contains content with http_* and content without http_*.
+             -Consider adding http content modifiers.
+    Warning: Rule app layer protocol is http, but content options do not have http_* modifiers.
+             -Consider adding http content modifiers.
+    Warning: Rule may contain percent encoded content for a normalized http buffer match.
+    Warning: TCP rule without a flow or flags option.
+             -Consider adding flow or flags to improve performance of this rule.
+    Warning: Rule contains ports or port variables only on the client side.
+             -Flow direction possibly inconsistent with rule.
+    Warning: Rule is bidirectional and has a flow option with a specific direction.
+    Warning: Rule uses content or pcre for http_method with flow:to_client or from_server
+    Warning: Rule uses content or pcre for http_method with content or pcre for http_server_body.
+    Warning: Rule uses pcre with only a http_method content; possible performance issue.
+    Warning: Rule has depth/offset with raw content keywords.  Please note the offset/depth will be checked against both packet payloads and stream.  If you meant to have the offset/depth checked against just the payload, you can update the signature as "alert tcp-pkt..."
+    Warning: Rule has offset/depth set along with a match on a specific app layer protocol - %d.  This can lead to FNs if we have a offset/depth content match on a packet payload before we can detect the app layer protocol for the flow.
+    No warnings for this rule.
+SetupRuleAnalyzer
+CleanupRuleAnalyzer
+PerCentEncodingSetup
+PerCentEncodingMatch
+detect-parse.c
+unknown rule keyword '%s'.
+pass
+reject
+rejectsrc
+rejectdst
+rejectboth
+Duplicate signature "%s"
+Libnet 1.1 is incompatible with POSIX based capabilities with privs dropping. For rejects to work, run as root/super user.
+pcre_exec failed: ret %d, optstr "%s"
+You need to send an even no of args (non zero as well) to this function, since we need a SigMatch list for every SigMatch type(send a map of sm_type and sm_list) sent
+Unable to find the sm in any of the sm lists
+^([A-z]+)\s+([A-z0-9\-]+)\s+([\[\]A-z0-9\.\:_\$\!\-,\/]+)\s+([\:A-z0-9_\$\!,]+)\s+(-\>|\<\>|\<\-)\s+([\[\]A-z0-9\.\:_\$\!\-,/]+)\s+([\:A-z0-9_\$\!,]+)(?:\s+\((.*)?(?:\s*)\))?(?:(?:\s*)\n)?\s*$
+^\s*([A-z_0-9-\.]+)(?:\s*\:\s*(.*)(?<!\\))?\s*;\s*(?:\s*(.*))?\s*$
+protocol "%s" cannot be used in a signature
+An invalid action "%s" was given
+"<-" is not a valid direction modifier, "->" and "<>" are supported.
+can't mix packet keywords with tcp-stream or flow:only_stream.  Invalidating signature.
+can't use uricontent /http_uri , raw_uri, http_client_body, http_method, http_user_agent keywords with flow:to_client or flow:from_server
+can't use http_server_body, http_stat_msg, http_stat_code with flow:to_server or flow:from_client
+http_raw_header signature without a flow direction. Use flow:to_server for inspecting request headers or flow:to_client for inspecting response headers.
+within needs two preceeding content or uricontent options
+Signature has replace keyword linked with a modified content keyword (http_*, dce_*). It only supports content on raw payload
+Signature combines packet specific matches (like dsize, flags, ttl) with stream / state matching by matching on app layer proto (like using http_* keywords).
+Signature parsing failed: "%s"
+Signature with newer revision, so the older sig replaced by this new signature "%s"
+Error allocating memory. Exiting...
+error allocating memory. exiting...
+Invalid hex code assembly in content - %s.  Invalidating signature
+SigMatchAlloc
+SigMatchGetLastSMFromLists
+SigMatchGetLastSMFromLists
+SigMatchListSMBelongsTo
+SigParsePrepare
+SigParseProto
+SigParseAction
+SigParseActionRejectValidate
+SigParse
+SigParseBasics
+SigParseOptions
+SigAlloc
+SigInit
+SigInitHelper
+SigBuildAddressMatchArray
+SigValidate
+DetectEngineAppendSig
+DetectEngineSignatureIsDuplicate
+DetectParseContentString
+detect-ack.c
+DetectAckSetup
+detect-seq.c
+DetectSeqSetup
+detect-content.c
+%s keyword arguments should be always enclosed in double quotes.  Invalid content keyword passed in this rule - "%s"
+Invalid hex code in content - %s, hex %c. Invalidating signature
+Invalid hex code assembly in %s - %s.  Invalidating signature
+DetectContentDataParse
+DetectContentParse
+DetectContentPrint
+uricontent
+detect-uricontent.c
+DetectUricontentSetup
+DetectUricontentPrint
+DoDetectUricontentSetup
+detect-flowbits.c
+noalert
+isset
+isnotset
+unset
+toggle
+unknown cmd %u
+flowbits
+([a-z]+)(?:,(.*))?
+"%s" is not a valid setting for flowbits.
+ERROR: flowbits action "%s" is not supported.
+DetectFlowbitsRegister
+DetectFlowbitSetup
+DetectFlowbitMatch
+detect-flowvar.c
+flowvar
+(.*),(.*)
+"%s" is not a valid setting for flowvar.
+DetectFlowvarRegister
+DetectFlowvarSetup
+DetectFlowintRegister
+DetectFlowintParse
+flowint
+detect-flowint.c
+Unknown modifier
+malloc from strdup failed
+^\s*([a-zA-Z][\w\d_.]+)\s*,\s*([+=-]{1}|==|!=|<|<=|>|>=|isset|notset)\s*,?\s*([a-zA-Z][\w\d]+|[\d]{1,10})?\s*$
+Error registering flowint detection plugin
+"%s" is not a valid setting for flowint(ret = %d).
+detect-pktvar.c
+pktvar
+"%s" is not a valid setting for pktvar.
+DetectPktvarRegister
+DetectPktvarSetup
+pcre
+pcre.match-limit
+detect-pcre.c
+pcre.match-limit-recursion
+parse error
+unknown regex modifier '%c'
+pcre study failed : %s
+content not setup properly
+pcre not setup properly
+Using PCRE match-limit setting of: %i
+Using PCRE match-limit-recursion setting of: %i
+(?<!\\)/(.*(?<!(?<!\\)\\))/([^"]*)
+\(\?P\<([A-z]+)\_([A-z0-9_]+)\>
+regex modifier 'B' inconsistent with 'U'
+regex modifier 'B' inconsistent with 'H'
+regex modifier 'B' inconsistent with 'C'
+regex modifier 'B' inconsistent with 'M'
+regex modifier 'U' inconsistent with 'I'
+regex modifier 'U' inconsistent with 'B'
+regex modifier 'V' inconsistent with 'B'
+regex modifier 'H' inconsistent with 'D'
+regex modifier 'H' inconsistent with 'B'
+regex modifier 'I' inconsistent with 'U'
+regex modifier 'I' inconsistent with 'B'
+regex modifier 'D' inconsistent with 'H'
+regex modifier 'M' inconsistent with 'B'
+regex modifier 'C' inconsistent with 'B'
+Can't use pcre /P with flow:from_server or flow:to_client
+Can't use pcre /U or /I with flow:from_server or flow:to_client
+Invalid option. DCERPC rule has pcre keyword with http related modifier.
+No preceding content or uricontent or pcre option
+prev sigmatch has unknown type: %u
+DetectPcreRegister
+DetectPcreSetup
+DetectPcreParse
+DetectPcreParseCapture
+detect-depth.c
+invalid argument
+depth needs preceeding content option for dcerpc sig
+depth needs preceeding content, uricontent option, http_client_body, http_server_body, http_header option, http_raw_header option, http_method option, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+can't have a relative negated keyword set along with a fast_pattern
+can't have a relative keyword set along with a fast_pattern:only;
+can't use a relative keyword with a non-relative keyword for the same content.
+can't use multiple depths for the same content.
+unknown byte_extract var seen in depth - %s
+depth - %u smaller than content length - %u
+depth needs a preceeding content (or uricontent) option
+DetectDepthSetup
+detect-nocase.c
+nocase has value
+nocase
+"nocase" needs a preceeding content, uricontent, http_client_body, http_server_body, http_header, http_method, http_uri, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+can't use multiple nocase modifiers with the same content
+"nocase" needs a preceeding content, uricontent, http_client_body, http_server_body, http_header, http_method, http_uri, http_cookie or http_raw_uri option
+DetectNocaseSetup
+detect-fast-pattern.c
+fast_pattern
+fast_pattern found inside the rule, without a preceding content based keyword.  Currently we provide fast_pattern support for content, uricontent, http_client_body, http_server_body, http_header, http_raw_header, http_method, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+fast_pattern found inside the rule, without a content context. Please use a content based keyword before using fast_pattern
+fast_pattern; cannot be used with negated content, along with relative modifiers
+can't use multiple fast_pattern options for the same content
+fast_pattern can be used on only one content in a rule
+fast_pattern: only; cannot be used with negated content or with any of the relative modifiers like distance, within, offset, depth
+pcre_get_substring failed for fast_pattern offset
+Fast pattern offset exceeds limit
+Fast pattern (length + offset) exceeds limit pattern length limit
+Fast pattern (length + offset (%u)) exceeds pattern length (%u)
+^(\s*only\s*)|\s*([0-9]+)\s*,\s*([0-9]+)\s*$
+SupportFastPatternForSigMatchList
+DetectFastPatternRegister
+DetectFastPatternSetup
+detect-rawbytes.c
+rawbytes has no value
+rawbytes
+"rawbytes" cannot be combined with "file_data"
+"rawbytes" needs a preceeding content option
+can't use multiple rawbytes modifiers for the same content. 
+DetectRawbytesSetup
+byte_test
+detect-bytetest.c
+Malformed number of bytes: %s
+Invalid operator
+Malformed value: %s
+ Malformed offset: %s
+relative
+string
+little
+Unknown value: "%s"
+^\s*([^\s,]+)\s*,\s*(\!?)\s*([^\s,]*)\s*,\s*([^\s,]+)\s*,\s*([^\s,]+)(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?(?:\s*,\s*([^\s,]+))?\s*$
+Error extracting %d bytes of string data: %d
+Error extracting %d bytes of numeric data: %d
+pcre_get_substring failed for arg %d
+byte_test supplied with var name for value.  "value" argument supplied to this function has to be non-NULL
+byte_test supplied with var name for offset.  "offset" argument supplied to this function has to be non-NULL
+Cannot test more than 23 bytes with "string": %s
+Cannot test more than 8 bytes without "string": %s
+Cannot use a base without "string": %s
+Non dce alproto sig has bytetest with dce enabled
+Invalid option. a byte_test keyword with dce holds other invalid modifiers.
+Unknown byte_extract var seen in byte_test - %s
+DetectBytetestRegister
+DetectBytetestDoMatch
+DetectBytetestParse
+DetectBytetestSetup
+detect-bytejump.c
+byte_jump
+from_beginning
+align
+multiplier 
+Malformed multiplier: %s
+post_offset 
+Malformed post_offset: %s
+Unknown option: "%s"
+Error extracting %d bytes of numeric data: %d
+^\s*([^\s,]+\s*,\s*[^\s,]+)(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?(?:\s*,\s*((?:multiplier|post_offset)\s+[^\s,]+|[^\s,]+))?\s*$
+parse error, ret %d, string "%s"
+pcre_get_substring failed for arg 1
+byte_jump supplied with var name for offset.  "value" argument supplied to this function has to be non-NULL
+Cannot test more than 8 bytes without "string": %s
+Invalid option. DCERPC rule holds an invalid modifier for bytejump.
+Unknown byte_extract var seen in byte_jump - %s
+DetectBytejumpRegister
+DetectBytejumpDoMatch
+DetectBytejumpMatch
+DetectBytejumpParse
+DetectBytejumpSetup
+sameip
+detect-ipproto.c
+Malformed protocol name: %s
+Malformed protocol number: %s
+ip_proto
+^\s*([!<>]?)\s*([^\s]+)\s*$
+pcre_exec parse error, ret%d, string %s
+can't use a eq ipproto without any operators attached to them in the same sig
+can't use a eq or gt ipproto along with a greater than ipproto in the same sig 
+can't have both gt and lt ipprotos, with the lt being lower than gt value
+can't use a eq or lt ipproto along with a less than ipproto in the same sig 
+can't use a have both gt and lt ipprotos, with the lt being lower than gt value
+can't use a eq ipproto along with a not ipproto in the same sig 
+DetectIPProtoRegister
+DetectIPProtoSetup
+DetectIPProtoParse
+detect-within.c
+content error
+pcre error
+unsupported type %d
+within
+"within" requires a preceding content keyword
+"within" requires preceeding content, uricontent, http_client_body, http_server_body, http_header, http_raw_header, http_method, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+can't have a relative keyword set along with a fast_pattern:only
+can't use a relative keyword with a non-relative keyword for the same content
+unknown byte_extract var seen in within - %s
+within argument "%i" is less than the content length "%u" which is invalid, since this will never match.  Invalidating signature
+previous keyword has a fast_pattern:only; set. Can't have relative keywords around a fast_pattern only content
+DetectWithinSetup
+detect-distance.c
+distance
+Invalid signature.  within needs a preceding content keyword
+within needs preceeding content, uricontent option, http_client_body, http_server_body, http_header, http_raw_header, http_method, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+distance needs two preceeding content or uricontent options
+can't use multiple distances with the same content. 
+unknown byte_extract var seen in distance - %s
+unknown previous-previous keyword!
+DetectDistanceSetup
+detect-offset.c
+offset needs preceeding content option for dcerpc sig
+offset needs preceeding content or uricontent option, http_client_body, http_header, http_raw_header, http_method, http_cookie, http_raw_uri, http_stat_msg, http_stat_code or http_user_agent option
+can't use multiple offsets for the same content. 
+unknown byte_extract var seen in offset - %s
+offset needs a preceeding content keyword
+DetectOffsetSetup
+detect-sid.c
+Saw an invalid character as arg to sid keyword
+DetectSidSetup
+detect-priority.c
+priority
+^\s*(\d+|"\d+")\s*$
+Invalid Priority in Signature - %s
+Saw an invalid character as arg to priority keyword
+DetectPriorityRegister
+DetectPrioritySetup
+detect-rev.c
+Saw an invalid character as arg to rev keyword
+DetectRevSetup
+detect-classtype.c
+classtype
+Invalid Classtype in Signature
+Error parsing classtype argument supplied with the classtype keyword
+Unknown Classtype: "%s".  Invalidating the Signature
+^\s*([a-zA-Z][a-zA-Z0-9-_]*)\s*$
+DetectClasstypeRegister
+DetectClasstypeSetup
+DetectClasstypeParseRawString
+reference
+detect-reference.c
+strdup failed: %s
+^\s*([A-Za-z0-9]+)\s*,"?\s*"?\s*([a-zA-Z0-9\-_\.\/\?\=]+)"?\s*"?
+unknown reference key "%s". Supported keys are defined in reference.config file.  Please have a look at the conf param "reference-config-file"
+DetectReferenceRegister
+DetectReferenceParse
+detect-tag.c
+host
+seconds
+^\s*(host|session)\s*(,\s*(\d+)\s*,\s*(packets|bytes|seconds)\s*(,\s*(src|dst))?\s*)?$
+Invalid argument type. Must be session or host (%s)
+Invalid argument for count. Must be a value in the range of 0 to %u (%s)
+Invalid argument metric. Must be one of "seconds", "packets" or "bytes" (%s)
+Invalid argument direction. Must be one of "src" or "dst" (only valid for tag host type, not sessions) (%s)
+Argument direction doesn't make sense for type "session" (%s [%u])
+DetectTagRegister
+DetectTagParse
+detect-threshold.c
+second
+track
+threshold
+by_dst
+by_src
+"detection_filter" and "threshold" are not allowed in the same rule
+^\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*,\s*(track|type|count|seconds)\s+(limit|both|threshold|by_dst|by_src|\d+)\s*
+DetectThresholdRegister
+DetectThresholdSetup
+DetectThresholdParse
+metadata
+detect-msg.c
+format error '%s'
+DetectMsgSetup
+detect-id.c
+^\s*([0-9]{1,5}|"[0-9]{1,5}")\s*$
+invalid id option. The id option value must be in the range %u - %u
+"id" option  must be in the range %u - %u
+DetectIdRegister
+DetectIdParse
+detect-flow.c
+stateless
+to_client
+from_server
+to_server
+from_client
+only_stream
+no_stream
+invalid flow option "%s"
+^\s*([A-z_]+)\s*(?:,\s*([A-z_]+))?\s*(?:,\s*([A-z_]+))?\s*$
+FLOW_PKT_ESTABLISHED flag is already set
+FLOW_PKT_STATELESS already set
+FLOW_PKT_STATELESS flag is already set
+cannot set FLOW_PKT_STATELESS, FLOW_PKT_ESTABLISHED already set
+cannot set FLOW_PKT_TOCLIENT flag is already set
+cannot set to_client, FLOW_PKT_TOSERVER already set
+cannot set FLOW_PKT_TOSERVER flag is already set
+cannot set to_server, FLOW_PKT_TO_CLIENT flag already set
+cannot set only_stream flag is already set
+cannot set only_stream flag, FLOW_PKT_NOSTREAM already set
+cannot set no_stream flag is already set
+cannot set no_stream flag, FLOW_PKT_ONLYSTREAM already set
+A signature may have only one flow option.
+DetectFlowRegister
+DetectFlowSetup
+DetectFlowParse
+dsize
+detect-dsize.c
+Parse error %s
+Invalid size value1:"%s"
+Invalid size value2:"%s"
+dsize2:%u <= dsize:%u
+Parsing '%s' failed
+^\s*(<|>)?\s*([0-9]{1,5})\s*(?:(<>)\s*([0-9]{1,5}))?\s*$
+Range specified but mode also set
+Multiple dsize values specified but mode is not range
+Can't use 2 or more dsizes in the same sig.  Invalidating signature.
+Failed to allocate memory for SigMatch
+DetectDsizeRegister
+DetectDsizeSetup
+DetectDsizeParse
+detect-tos.c
+^\s*(!?\s*[0-9]{1,3}|!?\s*[xX][0-9a-fA-F]{1,2})\s*$
+invalid tos option - %s. The tos option value must be in the range %u - %u
+Invalid tos argument - %s.  The tos option value must be in the range %u - %u
+DetectTosRegister
+DetectTosParse
+DetectStreamSizeRegister
+DetectStreamSizeParse
+stream_size
+detect-stream_size.c
+either
+^\s*([A-z_]+)\s*,\s*([<=>!]+)\s*,\s*([0-9]+)\s*$
+engine-event
+decode-event
+stream-event
+\S[0-9A-z_]+[.][A-z0-9_+]+$
+detect-engine-event.c
+pcre study failed: %s
+unknown decode event "%s"
+ipv4.pkt_too_small
+ipv4.hlen_too_small
+ipv4.iplen_smaller_than_hlen
+ipv4.trunc_pkt
+ipv4.opt_invalid
+ipv4.opt_invalid_len
+ipv4.opt_malformed
+ipv4.opt_pad_required
+ipv4.opt_eol_required
+ipv4.opt_duplicate
+ipv4.opt_unknown
+ipv4.wrong_ip_version
+ipv6.pkt_too_small
+ipv6.trunc_pkt
+ipv6.trunc_exthdr
+ipv6.exthdr_dupl_fh
+ipv6.exthdr_useless_fh
+ipv6.exthdr_dupl_rh
+ipv6.exthdr_dupl_hh
+ipv6.exthdr_dupl_dh
+ipv6.exthdr_dupl_ah
+ipv6.exthdr_dupl_eh
+ipv6.exthdr_invalid_optlen
+ipv6.wrong_ip_version
+ipv6.exthdr_ah_res_not_null
+icmpv4.pkt_too_small
+icmpv4.unknown_type
+icmpv4.unknown_code
+icmpv4.ipv4_trunc_pkt
+icmpv4.ipv4_unknown_ver
+icmpv6.unknown_type
+icmpv6.unknown_code
+icmpv6.pkt_too_small
+icmpv6.ipv6_unknown_version
+icmpv6.ipv6_trunc_pkt
+tcp.pkt_too_small
+tcp.hlen_too_small
+tcp.invalid_optlen
+tcp.opt_invalid_len
+tcp.opt_duplicate
+udp.pkt_too_small
+udp.hlen_too_small
+udp.hlen_invalid
+sll.pkt_too_small
+ethernet.pkt_too_small
+ppp.pkt_too_small
+ppp.vju_pkt_too_small
+ppp.ip4_pkt_too_small
+ppp.ip6_pkt_too_small
+ppp.wrong_type
+ppp.unsup_proto
+pppoe.pkt_too_small
+pppoe.wrong_code
+pppoe.malformed_tags
+gre.pkt_too_small
+gre.wrong_version
+gre.version0_recur
+gre.version0_flags
+gre.version0_hdr_too_big
+gre.version1_chksum
+gre.version1_route
+gre.version1_ssr
+gre.version1_recur
+gre.version1_flags
+gre.version1_no_key
+gre.version1_wrong_protocol
+gre.version1_hdr_too_big
+ipraw.invalid_ip_version
+vlan.header_too_small
+vlan.unknown_type
+ipv4.frag_too_large
+ipv4.frag_overlap
+ipv6.frag_too_large
+ipv6.frag_overlap
+stream.3whs_ack_in_wrong_dir
+stream.3whs_async_wrong_seq
+stream.4whs_wrong_seq
+stream.4whs_invalid_ack
+stream.closewait_invalid_ack
+stream.closing_ack_wrong_seq
+stream.closing_invalid_ack
+stream.est_synack_resend
+stream.est_synack_toserver
+stream.est_syn_resend
+stream.est_syn_toclient
+stream.est_invalid_ack
+stream.fin_invalid_ack
+stream.fin1_ack_wrong_seq
+stream.fin1_fin_wrong_seq
+stream.fin1_invalid_ack
+stream.fin2_ack_wrong_seq
+stream.fin2_fin_wrong_seq
+stream.fin2_invalid_ack
+stream.fin_but_no_session
+stream.fin_out_of_window
+stream.lastack_ack_wrong_seq
+stream.lastack_invalid_ack
+stream.rst_but_no_session
+stream.timewait_ack_wrong_seq
+stream.timewait_invalid_ack
+stream.pkt_invalid_timestamp
+stream.pkt_invalid_ack
+stream.rst_invalid_ack
+stream.shutdown_syn_resend
+stream.reassembly_no_segment
+stream.reassembly_seq_gap
+pcre compile of "%s" failed at offset %d: %s
+gre.version0_malformed_sre_hdr
+gre.version1_malformed_sre_hdr
+stream.3whs_right_seq_wrong_ack_evasion
+stream.3whs_synack_in_wrong_direction
+stream.3whs_synack_resend_with_different_ack
+stream.3whs_synack_resend_with_diff_seq
+stream.3whs_synack_toserver_on_syn_recv
+stream.3whs_synack_with_wrong_ack
+stream.3whs_syn_resend_diff_seq_on_syn_recv
+stream.3whs_syn_toclient_on_syn_recv
+stream.3whs_wrong_seq_wrong_ack
+stream.4whs_synack_with_wrong_ack
+stream.4whs_synack_with_wrong_syn
+stream.closewait_ack_out_of_window
+stream.closewait_fin_out_of_window
+stream.est_packet_out_of_window
+stream.est_pkt_before_last_ack
+stream.est_synack_resend_with_different_ack
+stream.est_synack_resend_with_diff_seq
+stream.est_syn_resend_diff_seq
+stream.reassembly_segment_before_base_seq
+DetectEngineEventRegister
+DetectEngineEventParse
+ipopts
+\S[A-z]
+detect-ipopts.c
+lsrr
+ssrr
+satid
+DetectIpOptsRegister
+DetectIpOptsParse
+detect-flags.c
+pcre match failed
+"flags" supports only one modifier at a time
+^\s*(?:([\+\*!]))?\s*([SAPRFU120CE\+\*!]+)(?:\s*,\s*([SAPRFU12CE]+))?\s*$
+DetectFlagsRegister
+DetectFlagsParse
+detect-fragbits.c
+fragbits
+^\s*(?:([\+\*!]))?\s*([MDR]+)
+DetectFragBitsRegister
+DetectFragBitsParse
+fragoffset
+^\s*(?:(<|>))?\s*([0-9]+)
+detect-fragoffset.c
+specified frag offset %s is not valid
+DetectFragOffsetRegister
+DetectFragOffsetParse
+detect-gid.c
+[0-9]+
+DetectGidRegister
+DetectGidParse
+detect-mark.c
+Numeric value out of range
+No numeric value
+Invalid numeric value
+nfq_set_mark
+([0x]*[0-9a-f]+)/([0x]*[0-9a-f]+)
+DetectMarkRegister
+DetectMarkParse
+detect-noalert.c
+nocase has no value
+DetectNoalertSetup
+detect-csum.c
+ipv4-csum
+tcpv4-csum
+tcpv6-csum
+udpv4-csum
+udpv6-csum
+icmpv4-csum
+icmpv6-csum
+DetectICMPV6CsumSetup
+DetectCsumParseArg
+DetectICMPV4CsumSetup
+DetectUDPV6CsumSetup
+DetectUDPV4CsumSetup
+DetectTCPV6CsumSetup
+DetectTCPV4CsumSetup
+DetectIPV4CsumSetup
+detect-ttl.c
+parse error, ret %d
+Invalid ttl range. 
+^\s*([0-9]*)?\s*([<>=-]+)?\s*([0-9]+)?\s*$
+DetectTtlRegister
+DetectTtlParse
+itype
+detect-itype.c
+itype: invalid value
+^\s*(<|>)?\s*([0-9]+)\s*(?:<>\s*([0-9]+))?\s*$
+specified icmp type %s is not valid
+DetectITypeRegister
+DetectITypeParse
+icode
+detect-icode.c
+icode: invalid value
+specified icmp code %s is not valid
+DetectICodeRegister
+DetectICodeParse
+detect-http-cookie.c
+http_cookie
+http_cookie shouldn't be supplied with an argument
+http_cookie found inside the rule, without any preceding content keywords
+http_cookie found inside the rule, without a content context.  Please use a content keyword before using http_cookie
+http_cookie rule can not be used with the rawbytes rule keyword
+rule contains keywordsthat conflict with http_cookie
+http_cookie with a distance or within requires preceeding http_cookie content, but none was found
+DetectHttpCookieSetup
+detect-http-method.c
+http_method
+http_method does not take an argument
+http_method modifies preceeding "content", but none was found
+http_method cannot be used with "rawbytes"
+rule contains keywordsthat conflict with http_method
+http_method with a distance or within requires preceeding http_method content, but none was found
+DetectHttpMethodSetup
+detect-http-header.c
+http_header
+http_header supplied with args
+"http_header" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_header" keyword
+http_header rule can not be used with the rawbytes rule keyword
+rule contains a non http alproto set
+http_header seen with a distance or within without a previous http_header content.  Invalidating signature.
+DetectHttpHeaderSetup
+detect-http-raw-header.c
+http_raw_header
+http_raw_header supplied with no args
+"http_raw_header" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_header" keyword
+http_raw_header seen with a distance or within without a previous http_raw_header content.  Invalidating signature.
+DetectHttpRawHeaderSetup
+detect-http-uri.c
+http_uri
+http_uri shouldn't be supplied with  an argument
+"http_uri" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_uri" keyword
+http_uri rule can not be used with the rawbytes rule keyword
+uricontent seen with a distance or within without a previous http_uri content.  Invalidating signature.
+DetectHttpUriSetup
+detect-http-raw-uri.c
+http_raw_uri
+http_raw_uri shouldn't be supplied with an argument
+"http_raw_uri" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_raw_uri" keyword
+http_raw_uri rule can not be used with the rawbytes rule keyword
+rawuricontent seen with a distance or within without a previous http_raw_uri content.  Invalidating signature.
+DetectHttpRawUriSetup
+detect-file-data.c
+file_data
+Can't use file_data with flow:to_server or from_client with http.
+DetectFiledataSetup
+detect-http-ua.c
+http_user_agent
+http_user_agent supplied with args
+"http_user_agent" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_user_agent" keyword
+http_user_agent rule can not be used with the rawbytes rule keyword
+http_user_agent can not be used with flow:to_client or flow:from_server. 
+http_user_agent seen with a distance or within without a previous http_user_agent content.  Invalidating signature.
+DetectHttpUASetup
+detect-tls.c
+invalid tls.issuerdn option
+invalid tls.subject option
+tls.subject
+tls.issuerdn
+^\s*(\!*)\s*([A-z0-9\s\-\.=,\*]+|"[A-z0-9\s\-\.=,\*]+")\s*$
+DetectTlsRegister
+DetectTlsIssuerDNSetup
+DetectTlsIssuerDNParse
+DetectTlsSubjectSetup
+DetectTlsSubjectParse
+tls.version
+detect-tls-version.c
+invalid tls.version option
+Invalid value
+^\s*([A-z0-9\.]+|"[A-z0-9\.]+")\s*$
+DetectTlsVersionRegister
+DetectTlsVersionSetup
+DetectTlsVersionParse
+1.99
+ssh.protoversion
+detect-ssh-proto-version.c
+2_compat
+^\s*"?\s*([0-9]+([\.\-0-9]+)?|2_compat)\s*"?\s*$
+invalid ssh.protoversion option
+DetectSshVersionRegister
+DetectSshVersionSetup
+DetectSshVersionParse
+ssh.softwareversion
+detect-ssh-software-version.c
+^\s*"?\s*?([0-9a-zA-Z\.\-\_]+)\s*"?\s*$
+invalid ssh.softwareversion option
+DetectSshSoftwareVersionRegister
+DetectSshSoftwareVersionSetup
+DetectSshSoftwareVersionParse
+icmp_id
+detect-icmp-id.c
+Missing close quote in input
+Missing open quote in input
+^\s*("\s*)?([0-9]+)(\s*")?\s*$
+specified icmp id %s is not valid
+DetectIcmpIdRegister
+DetectIcmpIdParse
+icmp_seq
+detect-icmp-seq.c
+Missing quote in input
+specified icmp seq %s is not valid
+DetectIcmpSeqRegister
+DetectIcmpSeqParse
+detect-dce-iface.c
+dce_iface
+DCE_IFACE interface version invalid: %d
+DCE_IFACE interface version invalid: %d.  Version can't be lessthan 0, with "<" operator
+DCE_IFACE interface version invalid: %d.  Version can't be greaterthan %d, with ">" operator
+Error parsing dec_iface option in signature
+^\s*([0-9a-zA-Z]{8}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{4}-[0-9a-zA-Z]{12})(?:\s*,(<|>|=|!)([0-9]{1,5}))?(?:\s*,(any_frag))?\s*$
+DetectDceIfaceSetup
+DetectDceIfaceArgParse
+detect-dce-opnum.c
+dce_opnum
+Error parsing dce_opnum option in signature
+^\s*([0-9]{1,5}(\s*-\s*[0-9]{1,5}\s*)?)(,\s*[0-9]{1,5}(\s*-\s*[0-9]{1,5})?\s*)*$
+DetectDceOpnumRegister
+DetectDceOpnumSetup
+DetectDceOpnumArgParse
+DetectDceOpnumAllocDetectDceOpnumRange
+detect-dce-stub-data.c
+dce_stub_data
+DetectDceStubDataSetup
+urilen
+detect-urilen.c
+Invalid size :"%s"
+urilen2:%u <= urilen:%u
+^(?:\s*)(<|>)?(?:\s*)([0-9]{1,5})(?:\s*)(?:(<>)(?:\s*)([0-9]{1,5}))?\s*(?:,\s*(norm|raw))?\s*$
+urilen option pcre parse error: "%s"
+Multiple urilen values specified but mode is not range
+DetectUrilenParse
+detection_filter
+detect-detection-filter.c
+found an invalid value
+^\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*,\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*,\s*(track|count|seconds)\s+(by_src|by_dst|\d+)\s*$
+At most one "detection_filter" is allowed per rule
+DetectDetectionFilterRegister
+DetectDetectionFilterSetup
+DetectDetectionFilterParse
+detect-http-client-body.c
+http_client_body
+http_client_body supplied with args
+"http_client_body" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_client_body" keyword
+http_client_body rule can not be used with the rawbytes rule keyword
+http_client_body can not be used with flow:to_client or flow:from_server. 
+http_client_body seen with a distance or within without a previous http_client_body content.  Invalidating signature.
+DetectHttpClientBodySetup
+detect-http-server-body.c
+http_server_body
+http_server_body supplied with args
+"http_server_body" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_server_body" keyword
+http_server_body rule can not be used with the rawbytes rule keyword
+http_server_body cannot be used with flow:to_server or from_client
+http_server_body seen with a distance or within without a previous http_server_body content.  Invalidating signature.
+DetectHttpServerBodySetup
+detect-http-stat-msg.c
+http_stat_msg
+http_stat_msg supplied with args
+"http_stat_msg" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_stat_msg" keyword
+http_stat_msg rule can not be used with the rawbytes rule keyword
+http_stat_msg seen with a distance or within without a previous http_stat_msg content.  Invalidating signature.
+DetectHttpStatMsgSetup
+asn1
+detect-asn1.c
+Malformed asn1 argument: %s
+bitstring_overflow
+double_overflow
+oversize_length
+absolute_offset
+relative_offset
+Malformed value for oversize_length: %s
+Malformed value for absolute_offset: %s
+Malformed value for relative_offset: %s
+DetectAsn1Parse
+filename
+detect-filename.c
+DetectFilenameSetup
+DetectFilenameParse
+fileext
+detect-fileext.c
+DetectFileextSetup
+DetectFileextParse
+detect-filestore.c
+filestore
+DetectFilestoreRegister
+DetectFilestoreSetup
+filemagic
+detect-filemagic.c
+DetectFilemagicSetup
+FilemagicLookup
+DetectFilemagicParse
+filemd5
+, negated match
+detect-filemd5.c
+opening md5 file %s: %s
+md5 string not 32 bytes
+md5 byte out of range %ld
+MD5 hash size %u bytes%s
+DetectFileMd5Setup
+DetectFileMd5Parse
+Md5ReadString
+detect-http-stat-code.c
+http_stat_code
+http_stat_code supplied with args
+"http_stat_code" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_stat_code" keyword
+http_stat_code rule can not be used with the rawbytes rule keyword
+http_stat_code seen with a distance or within without a previous http_stat_code content.  Invalidating signature.
+DetectHttpStatCodeSetup
+ssl_version
+detect-ssl-version.c
+invalid ssl_version option
+sslv2
+sslv3
+tls1.0
+tls1.1
+tls1.2
+^\s*(!?[A-z0-9.]+)\s*,?\s*(!?[A-z0-9.]+)?\s*\,?\s*(!?[A-z0-9.]+)?\s*,?\s*(!?[A-z0-9.]+)?\s*,?\s*(!?[A-z0-9.]+)?\s*$
+DetectSslVersionRegister
+DetectSslVersionSetup
+DetectSslVersionParse
+ssl_state
+^\s*([_a-zA-Z0-9]+)(.*)$
+detect-ssl-state.c
+client_hello
+server_hello
+client_keyx
+server_keyx
+^(?:\s*[|]\s*([_a-zA-Z0-9]+))(.*)$
+Invalid arg "%s" supplied to ssl_state keyword.
+Found invalid option "%s" in ssl_state keyword.
+Rule contains conflicting keywords.  Have non-tls alproto set for a rule containing "ssl_state" keyword
+DetectSslStateRegister
+DetectSslStateParse
+DetectSslStateSetup
+detect-byte-extract.c
+multiplier
+byte_extract
+Invalid arg to byte_extract : %s for byte_extract
+pcre_get_substring failed for arg 1 for byte_extract
+pcre_get_substring failed for arg 2 for byte_extract
+byte_extract offset invalid - %d.  The right offset range is -65535 to 65535
+pcre_get_substring failed for arg 3 for byte_extract
+pcre_get_substring failed for arg %d for byte_extract
+relative specified more than once for byte_extract
+multiplier specified more than once for byte_extract
+multipiler_value invalid - %d.  The range is %d-%d
+endian option specified more than once for byte_extract
+string specified more than once for byte_extract
+The right way to specify base is (string, base) and not (base, string) for byte_extract
+Base(hex) specified without specifying string.  The right way is (string, base) and not (base, string)
+More than one base specified for byte_extract
+Base(oct) specified without specifying string.  The right way is (string, base) and not (base, string)
+Base(dec) specified without specifying string.  The right way is (string, base) and not (base, string)
+Align specified more than once for byte_extract
+pcre_get_substring failed for arg %d in byte_extract
+Invalid align_value for byte_extract - "%d"
+Invalid option - "%s" specified in byte_extract
+Base not specified for byte_extract, though string was specified.  The right options are (string, hex), (string, oct) or (string, dec)
+byte_extract can't have endian "big" or "little" specified along with "string"
+byte_extract can't process more than %d bytes in "string" extraction
+byte_extract can't process more than %d bytes in "non-string" extraction
+^\s*([0-9]+)\s*,\s*(-?[0-9]+)\s*,\s*([^\s,]+)\s*(?:(?:,\s*([^\s,]+)\s*)|(?:,\s*([^\s,]+)\s+([^\s,]+)\s*))?(?:(?:,\s*([^\s,]+)\s*)|(?:,\s*([^\s,]+)\s+([^\s,]+)\s*))?(?:(?:,\s*([^\s,]+)\s*)|(?:,\s*([^\s,]+)\s+([^\s,]+)\s*))?(?:(?:,\s*([^\s,]+)\s*)|(?:,\s*([^\s,]+)\s+([^\s,]+)\s*))?(?:(?:,\s*([^\s,]+)\s*)|(?:,\s*([^\s,]+)\s+([^\s,]+)\s*))?$
+DetectByteExtractRegister
+DetectByteExtractDoMatch
+DetectByteExtractSetup
+DetectByteExtractParse
+detect-app-layer-event.c
+app-layer-event
+app-layer-event keyword supplied with no arguments.  This keyword needs an argument.
+app-layer-event keyword supplied with an argument which is not in the right format.  The right format is "<alproto>.<event>"
+rule contains conflicting keywords needing different alprotos
+DetectAppLayerEventParse
+DetectAppLayerEventSetup
+decode-events.c
+argument "table" NULL
+Decoder event module for alproto - %u already registered
+decoder event module not found for alproto - %u
+event "%s" not present in module enum map table.
+AppLayerDecoderEventsModuleRegister
+AppLayerDecoderEventsModuleGetEventId
+replace
+detect-replace.c
+Can't negate replacement string: %s
+Can't use 'replace' keyword in non IPS mode: %s
+replace needspreceeding content option for raw sig
+can't have a relative negated keyword set along with a replacement
+can't have a content length different from replace length
+DetectReplaceSetup
+DetectReplaceAddToList
+util-magic.c
+!(g_magic_ctx != ((void *)0))
+magic_open failed: %s
+magic-file
+using magic-file %s
+Error opening file: "%s": %s
+magic_load failed: %s
+MagicInit
+MagicInit
+MagicLookup
+^\s*(\d+(?:.\d+)?)\s*([a-zA-Z]{2})?\s*$
+invalid size argument - %s. Valid size argument should be in the format - 
+xxx <- indicates it is just bytes
+xxxkb or xxxKb or xxxKB or xxxkB <- indicates kilobytes
+xxxmb or xxxMb or xxxMB or xxxmB <- indicates megabytes
+xxxgb or xxxGb or xxxGB or xxxgB <- indicates gigabytes.
+util-misc.c
+ParseSizeString
+ParseSizeString
+A%02X 
+\\x%02X
+ %04X  
+util-print.c
+%04x:
+Unsupported protocol: %d
+Too small buffer to write IPv6 address
+PrintInet
+PrintInetIPv6
+util-cpu.c
+CPUs/cores online: %u
+Couldn't retrieve the number of cpus configured (%s)
+Couldn't retrieve the number of cpus online (%s)
+Couldn't retrieve the maximum number of cpus allowed by the system, synconf macro unavailable
+Couldn't retireve any information of CPU's, please, send your operating system info and check util-cpu.{c,h}
+UtilCpuGetNumProcessorsConfigured
+UtilCpuGetNumProcessorsOnline
+UtilCpuGetNumProcessorsMax
+UtilCpuPrintSummary
+util-pidfile.c
+Pid error (%s)
+unable to set pidfile: %s
+unable to write pidfile: %s
+unable to write pidfile: wrote %lld of %llu bytes.
+SCPidfileCreate
+util-mpm.c
+Invalid argument - %d
+lowest
+highest
+higher
+MpmFactoryRegisterMpmCtxProfile
+MpmFactoryGetMpmCtxForProfile
+PmqSetup
+util-spm.c
+BoyerMooreSearch
+BoyerMooreNocaseSearch
+util-spm-bm.c
+Fatal error encountered in BoyerMooreCtxInit. Exiting...
+Fatal error encountered in BooyerMooreCtxInit. Exiting...
+BoyerMooreCtxInit
+PreBmGs
+PreBmGsNocase
+MPM WuManber Information:
+Memory allocs:   %u
+Memory alloced:  %u
+ Sizeofs:
+  MpmCtx         %llu
+  WmCtx:         %llu
+  WmPattern      %llu
+  WmHashItem     %llu
+Unique Patterns: %u
+Smallest:        %u
+Largest:         %u
+Max shiftlen:    %u
+Hash size:       %u
+Search function: 
+MBSearch funct:  
+WmSearch2Hash16
+WmSearch2Hash15
+WmSearch2Hash14
+WmSearch2Hash12
+WmSearch2Hash9
+util-mpm-wumanber.c
+\x%X
+Max search words reached
+pattern-matcher
+wumanber
+hash_size
+bf_size
+WmSearch1 (allows single byte patterns)
+WmSearch2Hash16 (only for multibyte patterns)
+WmSearch2Hash15 (only for multibyte patterns)
+WmSearch2Hash14 (only for multibyte patterns)
+WmSearch2Hash12 (only for multibyte patterns)
+WmSearch2Hash9 (only for multibyte patterns)
+WmAddPattern
+WmAllocPattern
+WmPreparePatterns
+WmSearchPrepareShiftTable
+WmSearchPrepareHash
+WmAllocHashItem
+WmInitCtx
+MPM B2g Information:
+  B2gCtx:         %llu
+  B2gPattern      %llu
+  B2gPattern     %llu
+util-mpm-b2g.c
+B2gSearch
+B2gSearchBNDMq
+B2gAddPattern
+B2gAllocPattern
+B2gBuildMatchArray
+B2gPreparePatterns
+B2gPrepareHash
+B2gAllocHashItem
+B2gInitCtx
+MPM B3g Information:
+  B3gCtx:         %llu
+  B3gPattern      %llu
+  B3gHashItem     %llu
+util-mpm-b3g.c
+B3gSearch
+B3gSearchBNDMq
+B3gAddPattern
+B3gAllocPattern
+B3gBuildMatchArray
+B3gPreparePatterns
+B3gPrepareHash
+B3gAllocHashItem
+B3gInitCtx
+MPM B2gc Information:
+  B2gcCtx:       %llu
+  B2gcPattern    %llu
+util-mpm-b2gc.c
+!(len != sizeof(B2gcPattern))
+!(pattern == ((void *)0))
+b2gc
+B2gcSearch
+B2gcSearchBNDMq
+!(pcopy == ((void *)0))
+!(pcopy->pat == ((void *)0))
+!(p == ((void *)0))
+!(ctx->m == 0)
+!(p->len == 1)
+!(h == ((void *)0))
+!(h->len <= 1)
+!(p->len != 1)
+!(ctx->ha == ((void *)0))
+!(ctx->ha1 == ((void *)0))
+!(len1 != sizeof(B2gcPattern))
+!(len2 != sizeof(B2gcPattern))
+!(ctx->bloom[hash] == ((void *)0))
+!(ctx->patterns == ((void *)0))
+!(ctx->patterns1 == ((void *)0))
+B2gcAddPattern
+B2gcAllocPattern
+B2gcBuildMatchArray
+B2gcBuildMatchArray
+B2gcPreparePatterns
+B2gcPreparePatterns
+B2gcPrepareHash
+B2gcPrepareHash
+B2gcHashPatternSortHash1
+B2gcHashPatternCompare
+B2gcHashPatternSortHash
+B2gcAddCopyToHash
+B2gcAddCopyToHash
+B2gcInitCtx
+B2gcHashPatternInitHash
+MPM B2gm Information:
+  B2gmCtx:         %llu
+  B2gmPattern      %llu
+  B2gmPattern     %llu
+util-mpm-b2gm.c
+b2gm
+B2gmSearch
+B2gmSearchBNDMq
+!(len != sizeof(B2gmPattern))
+!(mpm_ctx->ctx != ((void *)0))
+!(len1 != sizeof(B2gmPattern))
+!(len2 != sizeof(B2gmPattern))
+B2gmAddPattern
+B2gmAllocPattern
+B2gmBuildMatchArray
+B2gmPreparePatterns
+B2gmPrepareHash
+B2gmPrepareHash
+B2gmHashPatternCompare
+B2gmHashPatternSortHash1
+B2gmAllocHashItem
+B2gmInitCtx
+B2gmInitCtx
+MPM AC Information:
+ Sizeof:
+  SCACCtx:         %llu
+  SCACPattern      %llu
+  SCACPattern     %llu
+util-mpm-ac.c
+pattern length 0
+Total states in the state table:    %u
+StateQueue behaving weirdly.  Fatal Error.  Exiting.  Please file a bug report on this
+Just ran out of space in the queue.  Fatal Error.  Exiting.  Please file a bug report on this
+SCACPreparePatterns
+SCACInitNewState
+SCACSetOutputState
+SCACCreateFailureTable
+SCACEnqueue
+SCACDequeue
+SCACClubOutputStates
+SCACCreateDeltaTable
+SCACInitThreadCtx
+SCACInitCtx
+SCACAddPattern
+SCACAllocPattern
+  SCACGfbsCtx:         %llu
+  SCACGfbsPattern      %llu
+  SCACGfbsPattern     %llu
+util-mpm-ac-gfbs.c
+ac-gfbs
+Max search words reached.  Can't insert anymore.  Exiting
+SCACGfbsPreparePatterns
+SCACGfbsInitNewState
+SCACGfbsSetOutputState
+SCACGfbsCreateFailureTable
+SCACGfbsEnqueue
+SCACGfbsDequeue
+SCACGfbsClubOutputStates
+SCACGfbsCreateModGotoTable
+SCACGfbsInitThreadCtx
+SCACGfbsInitCtx
+SCACGfbsAddPattern
+SCACGfbsAllocPattern
+  SCACBSCtx:         %llu
+  SCACBSPattern      %llu
+  SCACBSPattern     %llu
+util-mpm-ac-bs.c
+ac-bs
+SCACBSPreparePatterns
+SCACBSInitNewState
+SCACBSSetOutputState
+SCACBSCreateFailureTable
+SCACBSEnqueue
+SCACBSDequeue
+SCACBSClubOutputStates
+SCACBSCreateDeltaTable
+SCACBSCreateModDeltaTable
+SCACBSInitThreadCtx
+SCACBSInitCtx
+SCACBSAddPattern
+SCACBSAllocPattern
+util-hash.c
+Buckets:               %u
+Hash function pointer: %p
+----------- Hash Table Stats ------------
+HashTableInit
+HashTableAdd
+util-hashlist.c
+HashListTableInit
+HashListTableAdd
+util-rohash.c
+failed to alloc memory
+wrong size for data %u != %u
+table already locked
+no items
+data size must be multiple of 4
+invalid hash_bits setting, valid range is 4-32
+can't add value to locked table
+ROHashInit
+ROHashInitQueueValue
+ROHashInitFinalize
+util-bloomfilter.c
+Hash functions:        %u
+---------- Bloom Filter Stats -----------
+Memory size:           %u bytes
+BloomFilterInit
+util-bloomfilter-counting.c
+Counter size:          %u
+------ Counting Bloom Filter Stats ------
+ERROR: BloomFilterCountingRemove tried to remove data that was never added to the set or was already removed.
+ERROR: BloomFilterCountingRemove tried to decrease a counter below zero.
+BloomFilterCountingInit
+util-pool.c
+PoolInit
+PoolTestAlloc
+PoolTestAllocArg
+ERROR: GenericVarFree unknown type %u
+util-var-name.c
+VariableNameGetIdx
+VariableIdxGetName
+util-byte.c
+len too large (23 max)
+Numeric value out of range (%llu > %u)
+Numeric value out of range (%lli > %i)
+ByteExtractString
+ByteExtractStringUint32
+ByteExtractStringUint16
+ByteExtractStringUint8
+ByteExtractStringSigned
+ByteExtractStringInt32
+ByteExtractStringInt16
+ByteExtractStringInt8
+Logging module not initialized.  Call SCLogInitLogModule() first before using the debug API
+Error writing to stream using fprintf
+%s%d/%d/%04d -- %02d:%02d:%02d
+Fatal error encountered in SCLogallocLogOPIfaceCtx. Exiting...
+Fatal error encountered in SCLogAllocLogOPBuffer. Exiting...
+Warning: Supplied log_level_override for op_interface "%s" is invalid.  Defaulting to not specifing an override
+Warning: Invalid output interface supplied by user.  Falling back on default_output_interface "%s"
+pcre compile of "%s" failed at offset %d : %s
+Warning: Invalid global_log_format supplied by user or format length exceeded limit of "%d" characters.  Falling back on default log_format "%s"
+Warning: Invalid global_log_level assigned by user.  Falling back on default_log_level "%s"
+Fatal error encountered in SCLogInitLogModule. Exiting...
+Warning: Invalid/No global_log_level assigned by user.  Falling back on the default_log_level "%s"
+Warning: Invalid/No global_log_format supplied by user or format length exceeded limit of "%d" characters.  Falling back on default log_format "%s"
+Warning: Output_interface not supplied by user.  Falling back on default_output_interface "%s"
+No default log level set, will use info.
+Logging to file requires a filename
+Invalid syslog facility: "%s", now using "%s" as syslog facility
+Initialization syslog logging with format "%s".
+Invalid logging method: %s, ignoring
+UNKNOWN TM
+%s%lu
+%s%s
+%s%d
+util-debug.c
+sc_ids_log.log
+SC_LOG_FORMAT
+SC_LOG_LEVEL
+Error opening file %s
+local0
+%t - <%d> - 
+SC_LOG_FILE
+SC_LOG_FACILITY
+SC_LOG_OP_FILTER
+SC_LOG_OP_IFACE
+logging.outputs
+logging.default-log-level
+Invalid default log level: %s
+logging.default-log-format
+logging.default-output-filter
+Invalid log level: %s
+console
+syslog
+facility
+Console
+Not set
+None
+Emergency
+Critical
+Warning
+Notice
+Debug
+SCLogAllocLogOPBuffer
+SCLogAllocLogInitData
+SCLogInitConsoleOPIface
+SCLogAllocLogOPIfaceCtx
+SCLogInitFileOPIface
+SCLogInitSyslogOPIface
+SCLogInitLogModule
+SCLogSetLogFormat
+SCLogGetLogFilename
+SCLogSetOPFilter
+SCLogLoadConfig
+SCLogInitLogModuleIfEnvSet
+Invalid argument supplied to SCLogAddFDFilter
+Error Allocating memory (SCMalloc)
+Error Allocating memory (SCStrdup)
+Fatal error encountered in SCLogAddToFGFFileList. Exiting...
+Fatal error encountered in SCLogAddToFGFFuncList. Exiting...
+Fatal error encountered in SCLogAddToFGFLineList. Exiting...
+Error: Invalid arguments supplied to SCLogAddFGFilter
+Invalid argument(s) supplied to SCLogRemoveFDFilter
+util-debug-filters.c
+Error Allocating memory
+SCLogCheckFDFilterEntry
+SCLogAddFDFilter
+SCLogAddToFGFFileList
+SCLogAddToFGFFuncList
+SCLogAddToFGFLineList
+SC_OK
+SC_ERR_MEM_ALLOC
+SC_ERR_ACTION_ORDER
+SC_ERR_PCRE_MATCH
+SC_ERR_PCRE_GET_SUBSTRING
+SC_ERR_PCRE_COMPILE
+SC_ERR_PCRE_STUDY
+SC_ERR_PCRE_PARSE
+SC_ERR_LOG_MODULE_NOT_INIT
+SC_ERR_LOG_FG_FILTER_MATCH
+SC_ERR_PCAP_DISPATCH
+SC_ERR_PCAP_CREATE
+SC_ERR_PCAP_SET_SNAPLEN
+SC_ERR_PCAP_SET_PROMISC
+SC_ERR_PCAP_SET_TIMEOUT
+SC_ERR_PCAP_OPEN_LIVE
+SC_ERR_PCAP_OPEN_OFFLINE
+SC_ERR_PCAP_ACTIVATE_HANDLE
+SC_ERR_PCAP_SET_BUFF_SIZE
+SC_ERR_NO_PF_RING
+SC_ERR_PF_RING_RECV
+SC_ERR_PF_RING_OPEN
+SC_ERR_INVALID_CLUSTER_TYPE
+SC_ERR_DATALINK_UNIMPLEMENTED
+SC_ERR_INVALID_SIGNATURE
+SC_ERR_OPENING_FILE
+SC_ERR_OPENING_RULE_FILE
+SC_ERR_NO_RULES
+SC_ERR_NO_RULES_LOADED
+SC_ERR_COUNTER_EXCEEDED
+SC_ERR_INVALID_CHECKSUM
+SC_ERR_SPRINTF
+SC_ERR_FATAL
+SC_ERR_INVALID_ARGUMENT
+SC_ERR_SPINLOCK
+SC_ERR_INVALID_ENUM_MAP
+SC_ERR_INVALID_IP_NETBLOCK
+SC_ERR_INVALID_IPV4_ADDR
+SC_ERR_INVALID_IPV6_ADDR
+SC_ERR_INVALID_RUNMODE
+SC_ERR_INVALID_NUMERIC_VALUE
+SC_ERR_NUMERIC_VALUE_ERANGE
+SC_ERR_INVALID_NUM_BYTES
+SC_ERR_ARG_LEN_LONG
+SC_ERR_ALPARSER
+SC_ERR_POOL_EMPTY
+SC_ERR_REASSEMBLY
+SC_ERR_POOL_INIT
+SC_ERR_UNIMPLEMENTED
+SC_ERR_ADDRESS_ENGINE_GENERIC
+SC_ERR_PORT_ENGINE_GENERIC
+SC_ERR_FAST_LOG_GENERIC
+SC_ERR_IPONLY_RADIX
+SC_ERR_DEBUG_LOG_GENERIC
+SC_ERR_UNIFIED_LOG_GENERIC
+SC_ERR_HTTP_LOG_GENERIC
+SC_ERR_UNIFIED_ALERT_GENERIC
+SC_ERR_UNIFIED2_ALERT_GENERIC
+SC_ERR_FWRITE
+SC_ERR_FOPEN
+SC_ERR_THREAD_NICE_PRIO
+SC_ERR_THREAD_SPAWN
+SC_ERR_THREAD_CREATE
+SC_ERR_THREAD_INIT
+SC_ERR_THRESHOLD_HASH_ADD
+SC_ERR_UNDEFINED_VAR
+SC_ERR_RULE_KEYWORD_UNKNOWN
+SC_ERR_FLAGS_MODIFIER
+SC_ERR_WITHIN_MISSING_CONTENT
+SC_ERR_WITHIN_INVALID
+SC_ERR_DEPTH_MISSING_CONTENT
+SC_ERR_OFFSET_MISSING_CONTENT
+SC_ERR_NOCASE_MISSING_PATTERN
+SC_ERR_NO_URICONTENT_NEGATION
+SC_ERR_HASH_TABLE_INIT
+SC_ERR_STAT
+SC_ERR_LOGDIR_CONFIG
+SC_ERR_LOGDIR_CMDLINE
+SC_ERR_RADIX_TREE_GENERIC
+SC_ERR_MISSING_QUOTE
+SC_ERR_UNKNOWN_PROTOCOL
+SC_ERR_UNKNOWN_RUN_MODE
+SC_ERR_IPFW_NOSUPPORT
+SC_ERR_IPFW_BIND
+SC_ERR_IPFW_SOCK
+SC_ERR_IPFW_NOPORT
+SC_WARN_IPFW_RECV
+SC_WARN_IPFW_XMIT
+SC_WARN_IPFW_SETSOCKOPT
+SC_WARN_IPFW_UNBIND
+SC_ERR_MULTIPLE_RUN_MODE
+SC_ERR_BPF
+SC_ERR_MISSING_CONFIG_PARAM
+SC_ERR_UNKNOWN_VALUE
+SC_ERR_INVALID_VALUE
+SC_ERR_UNKNOWN_REGEX_MOD
+SC_ERR_INVALID_OPERATOR
+SC_ERR_PCAP_RECV_INIT
+SC_ERR_NFQ_NOSUPPORT
+SC_ERR_NFQ_UNBIND
+SC_ERR_NFQ_BIND
+SC_ERR_CUDA_ERROR
+SC_ERR_CUDA_HANDLER_ERROR
+SC_ERR_TM_THREADS_ERROR
+SC_ERR_TM_MODULES_ERROR
+SC_ERR_B2G_CUDA_ERROR
+SC_ERR_TMQ_ALREADY_REGISTERED
+SC_ERR_INITIALIZATION
+SC_ERR_INVALID_ACTION
+SC_ERR_LIBNET_INIT
+SC_ERR_LIBNET_INVALID_DIR
+SC_ERR_LIBNET_BUILD_FAILED
+SC_ERR_LIBNET_WRITE_FAILED
+SC_ERR_LIBNET_NOT_ENABLED
+SC_ERR_REFERENCE_UNKNOWN
+SC_ERR_PIDFILE_SNPRINTF
+SC_ERR_PIDFILE_OPEN
+SC_ERR_PIDFILE_WRITE
+SC_ERR_PIDFILE_DAEMON
+SC_ERR_UID_FAILED
+SC_ERR_GID_FAILED
+SC_ERR_CHANGING_CAPS_FAILED
+SC_ERR_LIBCAP_NG_REQUIRED
+SC_WARN_FLOW_EMERGENCY
+SC_ERR_SVC
+SC_ERR_ERF_DAG_OPEN_FAILED
+SC_ERR_NAPATECH_OPEN_FAILED
+SC_ERR_NAPATECH_REQUIRED
+SC_ERR_NAPATECH_NOSUPPORT
+SC_WARN_COMPATIBILITY
+SC_ERR_DCERPC
+SC_ERR_AHO_CORASICK
+SC_ERR_REFERENCE_CONFIG
+SC_ERR_DUPLICATE_SIG
+SC_ERR_UNKNOWN_DECODE_EVENT
+SC_ERR_RUNMODE
+SC_ERR_SHUTDOWN
+SC_ERR_INVALID_DIRECTION
+SC_ERR_AFP_CREATE
+SC_ERR_AFP_READ
+SC_ERR_AFP_DISPATCH
+SC_ERR_CMD_LINE
+SC_ERR_SIZE_PARSE
+SC_ERR_RAWBYTES_FILE_DATA
+SC_ERR_SOCKET
+SC_ERR_PCAP_TRANSLATE
+SC_WARN_OUTDATED_LIBHTP
+SC_WARN_DEPRECATED
+SC_WARN_PROFILE
+SC_ERR_FLOW_INIT
+SC_ERR_HOST_INIT
+SC_ERR_MEM_BUFFER_API
+SC_ERR_INVALID_MD5
+SC_ERR_NO_MD5_SUPPORT
+SC_ERR_EVENT_ENGINE
+UNKNOWN_ERROR
+SC_ERR_NO_PCAP_SET_BUFFER_SIZE
+SC_ERR_PF_RING_GET_CLUSTERID_FAILED
+SC_ERR_PF_RING_GET_INTERFACE_FAILED
+SC_ERR_GET_CLUSTER_TYPE_FAILED
+SC_ERR_PF_RING_SET_CLUSTER_FAILED
+SC_ERR_COMPLETE_PORT_SPACE_NEGATED
+SC_ERR_NO_PORTS_LEFT_AFTER_MERGE
+SC_ERR_NEGATED_VALUE_IN_PORT_RANGE
+SC_ERR_PORT_PARSE_INSERT_STRING
+SC_ERR_UNREACHABLE_CODE_REACHED
+SC_ERR_DISTANCE_MISSING_CONTENT
+SC_ERR_BYTETEST_MISSING_CONTENT
+SC_ERR_BYTEJUMP_MISSING_CONTENT
+SC_ERR_RAWBYTES_MISSING_CONTENT
+SC_ERR_INVALID_YAML_CONF_ENTRY
+SC_ERR_CONFLICTING_RULE_KEYWORDS
+SC_ERR_LIBNET_REQUIRED_FOR_ACTION
+SC_ERR_UNIFIED_LOG_FILE_HEADER
+SC_ERR_LIBNET11_INCOMPATIBLE_WITH_LIBCAP_NG
+SC_ERR_ERF_DAG_STREAM_OPEN_FAILED
+SC_ERR_ERF_DAG_STREAM_START_FAILED
+SC_ERR_ERF_DAG_STREAM_SET_FAILED
+SC_ERR_ERF_DAG_STREAM_READ_FAILED
+SC_WARN_ERF_DAG_REC_LEN_CHANGED
+SC_ERR_NAPATECH_FEED_OPEN_FAILED
+SC_ERR_NAPATECH_FEED_START_FAILED
+SC_ERR_NAPATECH_FEED_NEXT_FAILED
+SC_WARN_PCAP_MULTI_DEV_EXPERIMENTAL
+SC_ERR_PCAP_MULTI_DEV_NO_SUPPORT
+SC_ERR_HTTP_METHOD_NEEDS_PRECEEDING_CONTENT
+SC_ERR_HTTP_METHOD_INCOMPATIBLE_WITH_RAWBYTES
+SC_ERR_HTTP_METHOD_RELATIVE_MISSING
+SC_ERR_HTTP_COOKIE_NEEDS_PRECEEDING_CONTENT
+SC_ERR_HTTP_COOKIE_INCOMPATIBLE_WITH_RAWBYTES
+SC_ERR_HTTP_COOKIE_RELATIVE_MISSING
+SC_ERR_LOGPCAP_SGUIL_BASE_DIR_MISSING
+Invalid argument(s) passed into SCMapEnumNameToValue
+Invalid argument(s) passed into SCMapEnumValueToName
+A enum by the value %d doesn't exist in this table
+util-radix-tree.c
+prefix is NULL
+Invalid argument bitlen - %d
+Argument "stream" NULL
+prefix NULL
+src or dest NULL
+Argument "tree" NULL
+Error creating prefix
+prefix or user NULL
+new or list supplied as NULL
+%d [
+ [%d], 
+No print function provided
+NULL)
+Printing the Radix Tree: 
+Invalid argument.  Node is NULL
+Fatal error encountered in SCRadixCreateNode. Mem not allocated...
+Fatal error encountered in SCRadixAddKey. Mem not allocated
+Fatal error encountered in SCRadixAddKey. Mem not allocated...
+Fatal error encountered in SCRadixAddKey. Exiting...
+Fatal error encountered in SCRadixValidateIPV4Address. Exiting...
+Fatal error encountered in SCRadixValidateIPV6Address. Exiting...
+Fatal error encountered in SCRadixCreateRadixTree. Exiting...
+SCRadixValidateIPV4Address
+SCRadixValidateIPV6Address
+SCRadixCreateRadixTree
+SCRadixAddKey
+SCRadixCreateNode
+SCRadixPrefixContainNetmask
+SCRadixAddNetmaskUserDataToPrefix
+SCRadixAllocSCRadixUserData
+SCRadixAppendToSCRadixUserDataList
+SCRadixCreatePrefix
+SCRadixPrefixNetmaskCount
+SCRadixRemoveNetblockEntry
+SCRadixRemoveNetmaskUserDataFromPrefix
+SCRadixTransferNetmasksBWNodes
+SCRadixPrefixContainNetmaskAndSetUserData
+util-host-os-info.c
+Invalid enum map inside
+Invalid IPV4 address
+Invalid IPV6 address inside
+host-os-policy
+bsd-right
+old-linux
+old-solaris
+hpux10
+hpux11
+irix
+macos
+windows
+vista
+windows2k3
+Fatal error encountered in SCHInfoValidateIPV6Address. Exiting...
+Fatal error encountered in SCHInfoValidateIPV4Address. Mem not allocated
+Error allocating memory. Exiting
+Invalid enum map inside SCHInfoAddHostOSInfo()
+Failed to add host "%s" with policy "%s" to host info database
+SCHInfoAddHostOSInfo
+SCHInfoAllocUserDataOSPolicy
+SCHInfoValidateIPV4Address
+SCHInfoValidateIPV6Address
+SCHInfoGetHostOSFlavour
+SCHInfoLoadFromConfig
+util-rule-vars.c
+%s.%s
+$HOME_NET
+$EXTERNAL_NET
+[!192.168.0.0/16,2000::/3]
+$HTTP_SERVERS
+!192.168.0.0/16
+$SMTP_SERVERS
+$SQL_SERVERS
+$DNS_SERVERS
+$TELNET_SERVERS
+$AIM_SERVERS
+$HTTP_PORTS
+80:81,88
+$SHELLCODE_PORTS
+$ORACLE_PORTS
+1521
+$SSH_PORTS
+$HOME_NETW
+$home_net
+$TOMCAT_PORTSW
+$tomcat_ports
+Variable "%s" is not defined in configuration file
+%YAML 1.1
+default-log-dir: /var/log/suricata
+logging:
+  default-log-level: debug
+  default-format: "<%t> - <%l>"
+  default-startup-message: Your IDS has started.
+  default-output-filter:
+  output:
+  - interface: console
+    log-level: info
+  - interface: file
+    filename: /var/log/suricata.log
+  - interface: syslog
+    facility: local5
+    format: "%l"
+pfring:
+  interface: eth0
+  clusterid: 99
+vars:
+  address-groups:
+    HOME_NET: "[192.168.0.0/16,10.8.0.0/16,127.0.0.1,2001:888:13c5:5AFE::/64,2001:888:13c5:CAFE::/64]"
+    EXTERNAL_NET: "[!192.168.0.0/16,2000::/3]"
+    HTTP_SERVERS: "!192.168.0.0/16"
+    SMTP_SERVERS: "!192.168.0.0/16"
+    SQL_SERVERS: "!192.168.0.0/16"
+    DNS_SERVERS: any
+    TELNET_SERVERS: any
+    AIM_SERVERS: any
+  port-groups:
+    HTTP_PORTS: "80:81,88"
+    SHELLCODE_PORTS: 80
+    ORACLE_PORTS: 1521
+    SSH_PORTS: 22
+[192.168.0.0/16,10.8.0.0/16,127.0.0.1,2001:888:13c5:5AFE::/64,2001:888:13c5:CAFE::/64]
+alert tcp [![192.168.1.3,$EXTERNAL_NET],[$HTTP_SERVERS,!$HOME_NET],192.168.2.5] $HTTP_PORTS -> !$HTTP_SERVERS [80,[!$HTTP_PORTS,$ORACLE_PORTS]] (msg:"Rule Vars Test"; sid:1;)
+alert tcp $HTTP_SERVER any -> any any (msg:"Rule Vars Test"; sid:1;)
+alert tcp $http_servers any -> any any (msg:"Rule Vars Test"; sid:1;)
+alert tcp $http_servers any -> any $HTTP_PORTS (msg:"Rule Vars Test"; sid:1;)
+alert tcp !$TELNET_SERVERS !80 -> any !$SSH_PORTS (msg:"Rule Vars Test"; sid:1;)
+SCRuleVarsGetConfVar
+util-daemon.c
+Error forking the process
+Error creating new session
+/dev/null
+Child died unexpectedly
+ERROR: pcap offline mode cannot run as daemon
+ERROR: unittests cannot run as daemon
+Daemonize
+WaitForChild
+CheckValidDaemonModes
+util-classification-config.c
+classification-file
+pcre_get_substring() failed
+Error initializing the hash table
+^\s*config\s*classification\s*:\s*([a-zA-Z][a-zA-Z0-9-_]*)\s*,\s*(.+)\s*,\s*(\d+)\s*$
+Invalid Classtype in classification.config file
+Please check the "classification-file" option in your suricata.yaml file
+/etc/suricata//classification.config
+SCClassConfInitContextAndLocalResources
+SCClassConfAddClasstype
+SCClassConfAllocClasstype
+SCClassConfStringToLowercase
+SCClassConfLoadClassficationConfigFile
+threshold-file
+util-threshold-config.c
+event_filter
+rate
+suppress
+rule type %s is unknown
+limit type not supported: %s
+rule invalid: %s
+sdrop
+by_rule
+Can't init DetectAddress
+Can't add %s to address group
+Error allocating SigMatch
+/etc/suricata//threshold.config
+log action for rate_filter not supported yet
+sdrop action for rate_filter not supported yet
+Invalid track parameter %s in %s
+rate filter count should be > 0
+signature sid:%u has an event var set.  The signature event var is given precedence over the threshold.conf one.  We'll change this in the future though.
+Error allocating memory for threshold config (tried to allocate %uth_entrys for rule tracking with rate_filter)
+Can't use a event config that has sid > 0 and gid == 0.  Killing engine.  Please fix this in your threshold.conf file
+Threshold config parsed: %d rule(s) found
+^\s*(event_filter|threshold|rate_filter|suppress)\s*gen_id\s*(\d+)\s*,\s*sig_id\s*(\d+)\s*(.*)\s*$
+^,\s*type\s*(limit|both|threshold)\s*,\s*track\s*(by_dst|by_src)\s*,\s*count\s*(\d+)\s*,\s*seconds\s*(\d+)\s*$
+^,\s*track\s*(by_dst|by_src|by_rule)\s*,\s*count\s*(\d+)\s*,\s*seconds\s*(\d+)\s*,\s*new_action\s*(alert|drop|pass|log|sdrop|reject)\s*,\s*timeout\s*(\d+)\s*$
+^,\s*track\s*(by_dst|by_src)\s*,\s*ip\s*([\d.:/]+)*\s*$
+SCThresholdConfInitContext
+SCThresholdConfAddThresholdtype
+SCThresholdConfParseFile
+util-reference-config.c
+reference-config-file
+Invalid arguments.  system NULL
+^\s*config\s+reference\s*:\s*([a-zA-Z][a-zA-Z0-9-_]*)\s+(.+)\s*$
+Please check the "reference-config-file" option in your suricata.yaml file
+Invalid Reference Config in reference.config file
+/etc/suricata//reference.config
+SCRConfAllocSCRConfReference
+SCRConfStringToLowercase
+SCRConfLoadReferenceConfigFile
+SCRConfInitContextAndLocalResources
+SCRConfAddReference
+coredump.max-dump
+unlimited
+util-coredump-config.c
+Illegal core dump size: %s.
+Max dump is %llu
+Core dump size is unlimited.
+Core dump size set to %llu
+Negative value for core dump size; ignored.
+Can't get core dump configuration of process.
+Unable to make this process dumpable.
+Can't read coredump limit for this process.
+Core dump size set to unlimited.
+Could not set core dump size to unlimited; core dump size set to the hard limit.
+Failed to set core dump size to unlimited or to the hard limit.
+Could not set core dump size to unlimited; it's set to the hard limit.
+Core dump setting attempted is %llu
+Core dump size set to the hard limit.
+Could't set coredump size to %s.
+CoredumpLoadConfig
+util-privs.c
+failed in dropping the caps
+capng_change_id for main thread failed
+dropped the caps for main thread
+unable to get the user ID, check if user exist!!
+unable to get the group ID, check if group exist!!
+SCDropAllCaps
+SCDropMainThreadCaps
+SCGetUserID
+SCGetGroupID
+asn1-max-frames
+util-decode-asn1.c
+SCAsn1CtxNew
+SCAsn1CtxNewFrame
+util-decode-der.c
+%d.%d
+DecodeAsn1DerInteger
+DecodeAsn1DerBitstring
+DecodeAsn1DerOid
+DecodeAsn1DerIA5String
+DecodeAsn1DerOctetString
+DecodeAsn1DerPrintableString
+Asn1GenericNew
+emailAddress
+serialNumber
+1.2.840.113549.1.9.1
+2.5.4.3
+2.5.4.5
+2.5.4.6
+2.5.4.7
+2.5.4.8
+2.5.4.10
+2.5.4.11
+util-ringbuffer.c
+RingBuffer8Init
+RingBufferInit
+util-affinity.c
+threading.cpu-affinity
+can't get cpu-affinity node
+unknown cpu-affinity type
+unable to find 'cpu'
+unknown cpu_affinity prio
+Using default prio '%s'
+exclusive
+balanced
+unknown cpu_affinity node
+bad value for threads count
+Setting affinity on CPU %d
+receive-cpu-set
+decode-cpu-set
+stream-cpu-set
+detect-cpu-set
+verdict-cpu-set
+reject-cpu-set
+output-cpu-set
+management-cpu-set
+%s: invalid cpu range (start invalid): "%s"
+%s: invalid cpu range (end invalid): "%s"
+%s: invalid cpu range (bad order): "%s"
+%s: upper bound (%ld) of cpu set is too high, only %d cpu(s)
+%s: invalid cpu range (not an integer): "%s"
+Found affinity definition for "%s"
+cpu_set does not contains available cpus, cpu afinity conf is invalid
+AffinitySetupLoadFromConfig
+build_cpuset
+AffinityGetNextCPU
+/etc/protocols
+util-proto-name.c
+SCProtoNameInit
+auth
+authpriv
+cron
+daemon
+kern
+mail
+news
+security
+uucp
+local1
+local2
+local3
+local4
+local5
+local6
+local7
+util-device.c
+Name of device should not be null
+Adding interface %s from config file
+LiveRegisterDevice
+LiveGetDevice
+LiveBuildDeviceList
+util-checksum.c
+More than 1/%dth of packets have an invalid checksum, assuming checksum offloading is used (%d/%d)
+Less than 1/%dth of packets have an invalid checksum, assuming checksum offloading is NOT used (%d/%d)
+No packets with invalid checksum, assuming checksum offloading is NOT used
+ChecksumAutoModeCheck
+util-runmodes.c
+Going to use %d thread(s)
+%s%s%u
+Can't allocate thread name
+TmModuleGetByName %s failed
+RespondReject
+pickup-queue
+Using %d live device(s).
+%s-%s
+stream-queue1
+Decode & Stream
+verdict-queue
+alert-queue
+Failed to lookup live dev %d
+Can't allocate interface name
+ERROR: Invalid queue number
+Recv-Q%s
+1slot_noinout
+decode-queue
+Decode1
+Verdict%u
+Worker-Q%s
+TmModuleGetByName failed for %s
+TmModuleGetByName StreamTcp failed
+TmModuleGetByName Detect failed
+TmModuleGetByName RespondReject failed
+Single dev: Failed to allocate config
+'Auto' running mode does not honor 'threads' variable (set on '%s'). Please use an other mode as 'autofp' or 'worker'
+Multidev: Failed to lookup live dev %d
+Failed to allocate config for %s (%d)
+TmThreadsCreate failed for Decode1
+TmModuleGetByName for RespondReject failed
+TmThreadCreatePacketHandler for Outputs failed
+Going to use %d %s receive thread(s)
+Multidev: Failed to allocate config for %s (%d)
+Can't use single runmode with multiple device
+ERROR: TmModuleGetByName failed for %s
+ERROR: TmThreadsCreate failed for Decode1
+ERROR: TmModuleGetByName %s failed
+ERROR: TmModuleGetByName for RespondReject failed
+RunModeSetLiveCaptureAuto
+RunModeSetLiveCaptureAutoFp
+RunModeSetLiveCaptureWorkers
+RunModeSetLiveCaptureWorkersForDevice
+RunModeSetLiveCaptureSingle
+RunModeSetIPSAuto
+RunModeSetIPSAutoFp
+RunModeSetIPSWorker
+util-file.c
+Error allocating mem
+FileContainerAlloc
+FileDataAlloc
+FileAlloc
+util-buffer.c
+Mem buffer asked to create buffer with size greater than API limit - %d
+MemBufferCreateNew
+tm-modules.c
+TMM_DECODENFQ
+TMM_VERDICTNFQ
+TMM_RECEIVENFQ
+TMM_RECEIVEPCAP
+TMM_RECEIVEPCAPFILE
+TMM_DECODEPCAP
+TMM_DECODEPCAPFILE
+TMM_RECEIVEPFRING
+TMM_DECODEPFRING
+TMM_DETECT
+TMM_ALERTFASTLOG
+TMM_ALERTFASTLOG4
+TMM_ALERTFASTLOG6
+TMM_ALERTUNIFIED2ALERT
+TMM_ALERTPRELUDE
+TMM_ALERTDEBUGLOG
+TMM_ALERTSYSLOG
+TMM_LOGDROPLOG
+TMM_ALERTSYSLOG4
+TMM_ALERTSYSLOG6
+TMM_RESPONDREJECT
+TMM_LOGHTTPLOG
+TMM_LOGHTTPLOG4
+TMM_LOGHTTPLOG6
+TMM_PCAPLOG
+TMM_FILELOG
+TMM_FILESTORE
+TMM_STREAMTCP
+TMM_DECODEIPFW
+TMM_VERDICTIPFW
+TMM_RECEIVEIPFW
+TMM_RECEIVEERFFILE
+TMM_DECODEERFFILE
+TMM_RECEIVEERFDAG
+TMM_DECODEERFDAG
+TMM_RECEIVENAPATECH
+TMM_DECODENAPATECH
+TMM_RECEIVEAFP
+TMM_ALERTPCAPINFO
+TMM_DECODEAFP
+Threading module with the id "%d" doesn't exist
+TmModuleGetById
+LogFileNewCtx
+tm-queues.c
+TmqDebugList: id %u, name '%s', len %u
+Error: Queue "%s" doesn't have a reader
+Error: Queue "%s" doesn't have a writer
+TmqAlloc
+Warning: sched_setaffinity failed (%d): %s
+Error setting nice value for thread %s: %s
+Both slot name and function pointer can't be NULL inside TmThreadSetSlots
+Error: Slot "%s" not supported
+Setting affinity for "%s" Module to cpu/core %u, thread id %lu
+Setting prio %d for "%s" Module to cpu/core %u, thread id %lu
+Engine unable to disable receive thread - "%s".  Killing engine
+Engine unable to disable detect thread - "%s".  Killing engine
+ERROR; return code from pthread_create() is %d
+thread restarts exceeded threshold limit for thread "%s"
+Fatal error encountered in TmThreadInitMC.  Exiting...
+Error initializing the tv->m mutex
+Error initializing the tv->cond condition variable
+TmSlot or ThreadVars badly setup: s=%p, PktAcqLoop=%p, tmqh_in=%p, tmqh_out=%p
+thread "%s" failed to initialize.
+thread "%s" closed on initialization.
+all %u packet processing threads, %u management threads initialized, engine started.
+tm-threads.c
+1slot_noout
+1slot_noin
+invalid cpu type family
+ERROR: no thread function set
+thread "%s" failed to spawn
+thread "%s" restarted
+failed to setup a thread
+TmThreadsSlot1NoIn
+TmThreadsSlot1NoOut
+TmThreadsSlot1NoInOut
+TmThreadsSlot1
+TmThreadsSlotPktAcqLoop
+TmThreadsSlotVar
+TmSlotSetFuncAppend
+TmThreadSetPrio
+TmThreadSetCPU
+TmThreadGetNbThreads
+TmThreadSetupOptions
+TmThreadCreate
+TmThreadKillThread
+TmThreadDisableReceiveThreads
+TmThreadDisableUptoDetectThreads
+TmThreadInitMC
+TmThreadRestartThread
+TmThreadWaitOnThreadInit
+?nfq
+tmqh-packetpool.c
+Error registering Packet pool handler (at ring buffer init)
+Fatal error encountered while allocating a packet. Exiting...
+preallocated %lli packets. Total memory %llu
+TmqhPacketpoolRegister
+PacketPoolInit
+tmqh-flow.c
+autofp-scheduler
+round-robin
+active-packets
+hash
+AutoFP - Total flow handler queues - %u
+AutoFP - Queue %-2u - pkts: %-12llu flows: %-12llu
+AutoFP mode using "Round Robin" flow load balancer
+AutoFP mode using "Active Packets" flow load balancer
+AutoFP mode using "Hash" flow load balancer
+Invalid entry "%s" for autofp-scheduler in conf.  Killing engine.
+AutoFP mode using default "Active Packets" flow load balancer
+TmqhFlowRegister
+TmqhOutputFlowSetupCtx
+StoreQueueId
+TmqhOutputFlowFreeCtx
+ringbuffer_mrsw
+ringbuffer_srsw
+ringbuffer_srmw
+tmqh-ringbuffer.c
+Error allocating memory to register Ringbuffers. Exiting...
+TmqhRingBufferRegister
+alert-fastlog.c
+fast.log
+[Drop] 
+[wDrop] 
+PROTO:%03u
+AlertFastLog
+fast
+AlertFastLogIPv4
+AlertFastLogIPv6
+] [pcap file packet: %llu]
+Fast log output wrote %llu alerts
+%02d/%02d/%02d-%02d:%02d:%02d.%06u
+%s  %s[**] [%u:%u:%u] %s [**] [Classification: %s] [Priority: %u] {%s} %s:%u -> %s:%u
+%s  %s[**] [%u:%u:%u] %s [**] [Classification: %s] [Priority: %u] [**] [Raw pkt: 
+AlertFastLogThreadInit
+AlertFastLogExitPrintStats
+AlertFastLogInitCtx
+alert-debuglog.c
+(%s) Alerts %llu
+STREAM DATA LEN:     %u
+STREAM DATA:
+alert-debug.log
+TRUE
+FALSE
+STREAM
+PACKET
+<none>
+PCAP PKT NUM:      %llu
+FLOW Start TS:     %s
+FLOWVAR idx(%u):    
+FLOWVAR idx(%u):    %u"
+FLOWBIT:           %s
+PKTVAR:            %s
+ALERT CNT:           %u
+AlertDebugLog
+alert-debug
+ALERT CNT:         %u
++================
+TIME:              %s
+SRC IP:            %s
+DST IP:            %s
+PROTO:             %u
+SRC PORT:          %u
+DST PORT:          %u
+TCP SEQ:           %u
+TCP ACK:           %u
+FLOW:              to_server: %s, to_client: %s
+FLOW IPONLY SET:   TOSERVER: %s, TOCLIENT: %s
+FLOW ACTION:       DROP: %s, PASS %s
+FLOW NOINSPECTION: PACKET: %s, PAYLOAD: %s, APP_LAYER: %s
+FLOW APP_LAYER:    DETECTED: %s, PROTO %u
+PACKET LEN:        %u
+PACKET:
+ALERT MSG [%02d]:      %s
+ALERT GID [%02d]:      %u
+ALERT SID [%02d]:      %u
+ALERT REV [%02d]:      %u
+ALERT CLASS [%02d]:    %s
+ALERT PRIO [%02d]:     %u
+ALERT FOUND IN [%02d]: %s
+PAYLOAD LEN:         %u
+PAYLOAD:
+ALERT MSG [%02d]:    %s
+ALERT GID [%02d]:    %u
+ALERT SID [%02d]:    %u
+ALERT REV [%02d]:    %u
+ALERT CLASS [%02d]:  %s
+ALERT PRIO [%02d]:   %u
+AlertDebugLogThreadInit
+AlertDebugLogExitPrintStats
+AlertDebugLogInitCtx
+log-packet-content
+log-packet-header
+NIDS
+alert-prelude.c
+Unable to allocate memory
+%u:%u
+Snort Signature ID
+ip_ver
+ip_hlen
+ip_tos
+ip_len
+ip_id
+ip_off
+ip_ttl
+ip_sum
+tcp_seq
+tcp_ack
+tcp_off
+tcp_res
+tcp_flags
+tcp_win
+tcp_sum
+tcp_urp
+udp_len
+udp_sum
+icmp_type
+icmp_code
+icmp_sum
+payload
+snort_rule_sid
+snort_rule_rev
+stream-segment
+AlertPrelude
+alert-prelude
+unable to initialize the prelude library
+Unable to create a prelude client object
+http://www.openinfosecfoundation.org/
+Unable to start prelude client
+http://www.snort.org/search/sid/%u
+http://www.snort.org/search/sid/%u-%u
+AlertPreludeThreadInit
+AlertPreludeInitCtx
+alert-unified2-alert.c
+Error: fwrite failed: %s
+Unified2Alert
+unified2-alert
+%s/%s.%u
+unified2.alert
+Couldn't create new file_ctx
+Alert unified2 module wrote %llu alerts
+len is too big for thread data
+len is too big for thread data: %d vs %d
+Failed to initialize unified2 output, invalid limit: %s
+unified2-alert "limit" value of %llu assumed to be pre-1.2 style: setting limit to %llumb
+Failed to initialize unified2 output, limit less than allowed minimum: %d.
+Unified2-alert initialized: filename %s, limit %llu MB
+Error: Unified2AlertCloseFile failed
+Error: Unified2AlertOpenFileCtx, open new log file failed
+Unified2AlertRotateFile
+Unified2PacketTypeAlert
+Unified2PrintStreamSegmentCallback
+Unified2Write
+Unified2IPv6TypeAlert
+Unified2AlertThreadInit
+Unified2AlertThreadDeinit
+Unified2AlertInitCtx
+Unified2AlertOpenFileCtx
+alert-syslog.c
+identity
+Syslog output initialized
+AlertSyslog
+AlertSyslogIPv4
+AlertSyslogIPv6
+] [pcap file packet: %llu]
+%s[%u:%u:%u] %s [Classification: %s] [Priority: %u] {%s} %s:%u -> %s:%u
+%s[%u:%u:%u] %s [Classification: %s] [Priority: %u] {PROTO:%03u} %s:%u -> %s:%u
+%s[%u:%u:%u] %s [Classification: %s] [Priority: %u] [**] [Raw pkt: 
+AlertSyslogInitCtx
+AlertSyslogThreadInit
+AlertSyslogExitPrintStats
+alert-pcapinfo.c
+alert-pcapinfo.log
+append
+AlertPcapInfo
+pcap-info
+Fast log output initialized, filename: %s
+%llu:%u:%u:%d:%d:%d:%d:0:0:%s
+AlertPcapInfoThreadInit
+AlertPcapInfoExitPrintStats
+AlertPcapInfoInitCtx
+AlertPcapInfoOpenFileCtx
+log-droplog.c
+(%s) Dropped Packets %llu
+drop.log
+LogDropLog
+ SYN
+ ACK
+ PSH
+ RST
+ URG
+ PROTO=%s
+ PROTO=%03u
+ RES=0x%02u URGP=%u
+ SPT=%u DPT=%u LEN=%u
+ TYPE=%u CODE=%u ID=%u SEQ=%u
+ Unknown protocol
+ FIN
+%s: IN= OUT= SRC=%s DST=%s LEN=%u TOS=0x%02u TTL=%u ID=%u
+%s: IN= OUT= SRC=%s DST=%s LEN=%u TC=%u HOPLIMIT=%u FLOWLBL=%u
+ SPT=%u DPT=%u SEQ=%u ACK=%u WINDOW=%u
+LogDropLogThreadInit
+LogDropLogInitCtx
+LogDropLogExitPrintStats
+log-httplog.c
+couldn't create new file_ctx
+http.log
+extended
+<hostname unknown>
+ [**] 
+user-agent
+<useragent unknown>
+referer
+<no referer>
+<no protocol>
+location
+ => 
+<no status>
+ [**] %llu bytes
+ [**] %s:%u -> %s:%u
+LogHttpLog
+http-log
+LogHttpLogIPv4
+LogHttpLogIPv6
+HTTP logger logged %u requests
+LogHttpLogThreadInit
+LogHttpLogExitPrintStats
+LogHttpLogInitCtx
+pcaplog
+Sguil compatible
+normal
+log-pcap.c
+sguil
+sguil-base-dir
+Using log dir %s
+using %s logging
+max-files
+usec
+ts-format
+use-stream-depth
+PcapLog
+pcap-log
+%04d-%02d-%02d
+%s/%s.%u.%u
+Error opening dump file %s
+Failed to allocate Memory for PcapLogData
+Failed to allocate Memory for pcap header struct
+pcap-log "limit" value of %llu assumed to be pre-1.2 style: setting limit to %llumb
+Fail to initialize pcap-log output, limit less than allowed minimum.
+log-pcap you must specify "sguil" or "normal" mode option to be set.
+log-pcap "sguil" mode requires "sguil-base-dir" option to be set.
+The sguil-base-dir directory "%s" supplied doesn't exist. Shutting down the engine
+Failed to initialize pcap-log output, invalid number of files limit: %s
+Failed to initialize pcap-log output, limit less than allowed minimum.
+log-pcap ts_format specified %s is invalid must be "sec" or "usec"
+log-pcap use_stream_depth specified is invalid must be
+Failed to allocate memory for OutputCtx.
+Error allocating memory for directory name
+Error allocating memory. For filename
+failed to remove sguil log %s: %s
+opening new pcap log file failed
+PcapLogRotateFile
+PcapLog
+PcapLogInitCtx
+PcapLogOpenFileCtx
+log-file.c
+(%s) Files logged: %u
+files-json.log
+force-magic
+force-md5
+true
+false
+"id": %u, 
+"timestamp": "
+"pcap_pkt_num": %llu, 
+"ipver": %d, 
+<unknown>
+"srcip": "%s", 
+"dstip": "%s", 
+"protocol": %u, 
+"sp": %u, 
+"dp": %u, 
+"http_uri": "
+"http_host": "
+"http_referer": "
+"filename": "
+"magic": "
+"state": "CLOSED", 
+"md5": "
+%02x
+"state": "TRUNCATED", 
+"state": "ERROR", 
+"state": "UNKNOWN", 
+"stored": %s, 
+"size": %llu 
+LogFileLog
+file-log
+forcing magic lookup for logged files
+forcing md5 calculation for logged files
+LogFileLogInitCtx
+LogFileLogThreadInit
+LogFileLogExitPrintStats
+log-filestore.c
+(%s) Files extracted %u
+%s/file.%u
+%s.meta
+MAGIC:             %s
+STATE:             CLOSED
+MD5:               
+STATE:             TRUNCATED
+STATE:             ERROR
+STATE:             UNKNOWN
+SIZE:              %llu
+opening %s failed: %s
+couldn't open waldo: %s
+waldo
+loading waldo file %s
+%10u
+id %u
+storing files in %s
+TIME:              %s
+SRC IP:            %s
+DST IP:            %s
+PROTO:             %u
+SRC PORT:          %u
+DST PORT:          %u
+HTTP URI:          
+HTTP HOST:         
+HTTP REFERER:      
+FILENAME:          
+LogFilestoreLog
+file-store
+The file drop directory "%s" supplied doesn't exist. Shutting down the engine
+forcing magic lookup for stored files
+forcing md5 calculation for stored files
+LogFilestoreLogInitCtx
+LogFilestoreLogStoreWaldo
+LogFilestoreLogLoadWaldo
+LogFilestoreLogCloseMetaFile
+LogFilestoreLogThreadInit
+LogFilestoreLogExitPrintStats
+stream.c
+UDP is currently unsupported
+This protocol is currently unsupported
+StreamMsgAlloc
+StreamMsgQueueGetNew
+StreamSegmentForEach
+stream-tcp.c
+tcp.sessions
+tcp.ssn_memcap_drop
+tcp.pseudo
+tcp.invalid_checksum
+tcp.no_flow
+tcp.reused_ssn
+tcp.memuse
+tcp.syn
+tcp.synack
+tcp.rst
+tcp.segment_memcap_drop
+tcp.stream_depth_reached
+tcp.reassembly_memuse
+tcp.reassembly_gap
+stream.max-sessions
+stream "max-sessions": %u
+stream.prealloc-sessions
+stream.memcap
+stream "memcap": %llu
+stream.midstream
+stream.async-oneside
+stream "async-oneside": %s
+stream.checksum-validation
+stream.inline
+stream."inline": %s
+stream.reassembly.memcap
+stream.reassembly.depth
+stream.reassembly "depth": %u
+ssn_pool is not initialized
+Stream TCP processed %llu TCP packets
+stream "prealloc-sessions": %u
+Error parsing stream.memcap from conf file - %s.  Killing engine
+stream "midstream" session pickups: %s
+stream "checksum-validation": %s
+Error parsing stream.reassembly.memcap from conf file - %s.  Killing engine
+stream.reassembly "memcap": %llu
+Error parsing stream.reassembly.depth from conf file - %s.  Killing engine
+stream.reassembly.toserver-chunk-size
+Error parsing stream.reassembly.toserver-chunk-size from conf file - %s.  Killing engine
+stream.reassembly.toclient-chunk-size
+Error parsing stream.reassembly.toclient-chunk-size from conf file - %s.  Killing engine
+stream.reassembly "toserver-chunk-size": %u
+stream.reassembly "toclient-chunk-size": %u
+StreamTcpSessionPoolAlloc
+StreamTcpInitConfig
+StreamTcpThreadInit
+StreamTcpExitPrintStats
+stream-tcp-reassemble.c
+!(smsg->flow == ((void *)0))
+!(copy_size > sizeof(data))
+!(data_len > sizeof(data))
+!(payload_offset > seg->payload_len)
+!((payload_len + payload_offset) > seg->payload_len)
+!(copy_size > sizeof(smsg->data.data))
+!(((len + dst_pos) - 1) > dst_seg->payload_len)
+TcpSegmentPoolAlloc
+StreamTcpReassembleInitThreadCtx
+StreamTcpReassembleAppLayer
+StreamTcpReassembleRaw
+StreamTcpSetupMsg
+StreamTcpReassembleProcessAppLayer
+StreamTcpReassembleInlineAppLayer
+StreamTcpReassembleInlineRaw
+StreamTcpSegmentDataReplace
+stream-tcp-inline.c
+!(range > 65536)
+StreamTcpInlineSegmentCompare
+StreamTcpInlineSegmentReplacePacket
+stream-tcp-sack.c
+StreamTcpSackInsertRange
+respond-reject-libnet11.c
+libnet_inint failed: %s
+libnet_build_tcp %s
+libnet_build_ipv4 %s
+libnet_write failed: %s
+reset not src or dst returning
+libnet_build_icmpv4_unreach %s
+libnet_write_raw_ipv4 failed: %s
+RejectSendLibnet11L3IPv4TCP
+RejectSendLibnet11L3IPv4ICMP
+conf.c
+%s.%s = %s
+include-path
+ERROR: Failed to allocate memory for root configuration node, aborting.
+ConfInit
+ConfNodeNew
+ConfGetNode
+ConfSet
+ConfNodeDump
+ConfLoadCompleteIncludePath
+Failed to parse configuration file at line %llu: %s
+ERROR: Invalid configuration file.
+The configuration file must begin with the following two lines:
+ERROR: Invalid YAML version.  Must be 1.1
+%s is deprecated. Please use %s on line %llu.
+not showing more parameter name warnings.
+Failed to initialize yaml parser.
+%%YAML 1.1
+conf-yaml-loader.c
+Failed to open file: %s: %s
+ConfYamlParse
+counters.c
+stats.log
+Sprintf Error
+Value
+TM Name
+Counter
+%-25s | %-25s | %-s
+%-25s | %-25s | %-llu
+%-25s | %-25s | %-lf
+%-25s | %-25s | %0.0lf
+Invalid Timebased interval
+SCPerfWakeupThread
+SCPerfMgmtThread
+Perf Counter API not initSCPerfInitCounterApi() has to be called first
+Fatal error encountered in SCPerfInitOPCtx. Exiting...
+Error retrieving Perf Counter API output file path
+fopen error opening file "%s".  Resorting to using the standard output for output
+error initializing pctmi mutex
+Date: %d/%d/%04d -- %02d:%02d:%02d (uptime: %dd, %02dh %02dm %02ds)
+Counters of type %d can't be registered
+^(?:(\d+)([shm]))(?:(\d+)([shm]))?(?:(\d+)([shm]))?$
+SCPerfParseTBCounterInterval:pcre_get_substring failed
+Invalid timebased counter interval
+TmThreadCreateMgmtThread failed
+TmThreadSpawn failed for SCPerfWakeupThread
+SCPerfInitOPCtx
+SCPerfGetLogFilename
+SCPerfSpawnThreads
+SCPerfMgmtThread
+SCPerfWakeupThread
+SCPerfRegisterQualifiedCounter
+SCPerfParseTBCounterInterval
+SCPerfAddToClubbedTMTable
+SCPerfGetCounterArrayRange
+SCPerfOutputCounterFileIface
+app-layer.c
+AppLayerHandleTCPMsg
+app-layer-detect-proto.c
+!(dir->id == 256)
+!(s->co == ((void *)0))
+Error allocating memory. Signature not loaded. Not enough memory so.. exiting..
+!(__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (al_proto_table[al_proto].name) && __builtin_constant_p (name) && (__s1_len = strlen (al_proto_table[al_proto].name), __s2_len = strlen (name), (!((size_t)(const void *)((al_proto_table[al_proto].name) + 1) - (size_t)(const void *)(al_proto_table[al_proto].name) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((name) + 1) - (size_t)(const void *)(name) == 1) || __s2_len >= 4)) ? __builtin_strcmp (al_proto_table[al_proto].name, name) : (__builtin_constant_p (al_proto_table[al_proto].name) && ((size_t)(const void *)((al_proto_table[al_proto].name) + 1) - (size_t)(const void *)(al_proto_table[al_proto].name) == 1) && (__s1_len = strlen (al_proto_table[al_proto].name), __s1_len < 4) ? (__builtin_constant_p (name) && ((size_t)(const void *)((name) + 1) - (size_t)(const void *)(name) == 1) ? __builtin_strcmp (al_proto_table[al_proto].name, name) : (__extension__ ({ const unsigned char *__s2 = (const unsigned char *) (const char *) (name); register int __result = (((const unsigned char *) (const char *) (al_proto_table[al_proto].name))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((const unsigned char *) (const char *) (al_proto_table[al_proto].name))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((const unsigned char *) (const char *) (al_proto_table[al_proto].name))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((const unsigned char *) (const char *) (al_proto_table[al_proto].name))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (name) && ((size_t)(const void *)((name) + 1) - (size_t)(const void *)(name) == 1) && (__s2_len = strlen (name), __s2_len < 4) ? (__builtin_constant_p (al_proto_table[al_proto].name) && ((size_t)(const void *)((al_proto_table[al_proto].name) + 1) - (size_t)(const void *)(al_proto_table[al_proto].name) == 1) ? __builtin_strcmp (al_proto_table[al_proto].name, name) : (__extension__ ({ const unsigned char *__s1 = (const unsigned char *) (const char *) (al_proto_table[al_proto].name); register int __result = __s1[0] - ((const unsigned char *) (const char *) (name))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((const unsigned char *) (const char *) (name))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((const unsigned char *) (const char *) (name))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((const unsigned char *) (const char *) (name))[3]); } } __result; }))) : __builtin_strcmp (al_proto_table[al_proto].name, name)))); }) != 0)
+AlpProtoAdd
+AlpProtoAddSignature
+AlpProtoFinalizeGlobal
+AlpProtoFinalizeGlobal
+app-layer-parser.c
+Failed to store field value
+1|20|capability
+imap
+MSNP
+Port: %u
+        name: %s
+        alproto: ALPROTO_HTTP
+        alproto: ALPROTO_FTP
+        alproto: ALPROTO_SMTP
+        alproto: ALPROTO_TLS
+        alproto: ALPROTO_SSH
+        alproto: ALPROTO_IMAP
+        alproto: ALPROTO_MSN
+        alproto: ALPROTO_SMB
+        alproto: ALPROTO_SMB2
+        alproto: ALPROTO_IRC
+        port: %u
+        priority: HIGH
+        priority: MEDIUM
+        priority: LOW
+        priority: impossible
+        top: %u
+        min_depth: %u
+        max_depth: %u
+        mask: %u
+!(pp == ((void *)0))
+App layer "al_result_pool" is empty
+Failed to register %s al_parser_table array full
+=========Supported App Layer Protocols=========
+Fatal error encountered in AppLayerParsersInitPostProcess. Exiting...
+    to_server: max-depth: %u, mask - %u
+        alproto: ALPROTO_JABBER
+        alproto: ALPROTO_DCERPC
+        alproto: ALPROTO_DCERPC_UDP
+New probing parser "%s" being registered already exists in the database of registered parsers, except that the new one registers with a different ip_proto %u compared to the existing entry of %u
+New probing parser "%s" being registered already exists in the database of registered parsers, except that the new one registers with a different alproto %u compared to the existing entry of %u
+New probing parser "%s" being registered already exists in the database of registered parsers, except that the new one registers with a differnt ProbingParser function compared to the existing entry in the database
+Unknown protocol detected - %u
+Invalid arguments sent to register the probing parser.  min_depth > max_depth
+Invalid arguments sent to register the probing parser.  Probing parser func NULL
+App layer probing parser already registered for this port, direction
+AlpParseFieldBySize
+AlpStoreField
+AlpParseFieldByEOF
+AlpParseFieldByDelimiter
+AppLayerRegisterParser
+AppLayerRegisterProto
+AppLayerParserStateStoreAlloc
+AlpResultElmtPoolAlloc
+AppLayerParsersInitPostProcess
+AppLayerProbingParserInfoAdd
+AppLayerRegisterProbingParser
+AppLayerCreateAppLayerProbingParserElement
+AppLayerProbingParserGetMask
+AppLayerInsertNewProbingParserElement
+AppLayerDuplicateAppLayerProbingParserElement
+AppLayerInsertNewProbingParserSingleElement
+ALPROTO_UNKNOWN
+ALPROTO_JABBER
+ALPROTO_DCERPC
+ALPROTO_DCERPC_UDP
+ALPROTO_UNDEFINED
+app-layer-htp.c
+HTP state has no connp
+unknown address family, bug!
+!(htp == ((void *)0))
+MINIMAL
+IIS_4_0
+IIS_5_0
+IIS_5_1
+IIS_6_0
+IIS_7_0
+IIS_7_5
+TOMCAT_6_0
+APACHE
+APACHE_2_2
+libhtp.default-config
+personality
+request-body-limit
+request_body_limit
+response-body-limit
+double-decode-path
+double-decode-query
+libhtp.server-config
+filename=
+content-disposition:
+content-type:
+content-length
+Content-Type
+boundary=
+!(len > (uint32_t)d->len)
+Content-Disposition
+GET|20|
+http
+GET|09|
+PUT|20|
+PUT|09|
+POST|20|
+POST|09|
+HEAD|20|
+HEAD|09|
+TRACE|20|
+TRACE|09|
+OPTIONS|20|
+OPTIONS|09|
+CONNECT|20|
+CONNECT|09|
+GZip decompressor:
+Request field invalid
+Response field invalid
+Host information ambiguous
+Invalid request field folding
+Invalid T-E value in request
+Invalid T-E value in response
+Invalid C-L field in request
+Invalid C-L field in response
+Already seen 100-Continue
+Invalid authority port
+Request field over
+Response field over
+GZIP_DECOMPRESSION_FAILED
+REQUEST_FIELD_MISSING_COLON
+RESPONSE_FIELD_MISSING_COLON
+INVALID_REQUEST_CHUNK_LEN
+INVALID_RESPONSE_CHUNK_LEN
+100_CONTINUE_ALREADY_SEEN
+INVALID_AUTHORITY_PORT
+REQUEST_HEADER_INVALID
+RESPONSE_HEADER_INVALID
+MISSING_HOST_HEADER
+HOST_HEADER_AMBIGUOUS
+INVALID_REQUEST_FIELD_FOLDING
+REQUEST_FIELD_TOO_LONG
+RESPONSE_FIELD_TOO_LONG
+MULTIPART_GENERIC_ERROR
+MULTIPART_NO_FILEDATA
+MULTIPART_INVALID_HEADER
+Outbound parser is in error state, no need to feed data to libhtp
+!(hstate->connp == ((void *)0))
+Inbound parser is in error state, no need to feed data to libhtp
+Error initializing HTP config tree
+Failed to create HTP default config
+LIBHTP Failed adding personality "%s", ignoring
+LIBHTP Unknown personality "%s", ignoring
+Error parsing request-body-limit from conf file - %s.  Killing engine
+Error parsing response-body-limit from conf file - %s.  Killing engine
+LIBHTP Ignoring unknown default config: %s
+Failed to create HTP server config rec
+Failed to create HTP server config
+LIBHTP failed to add ipv6 server %s, ignoring
+LIBHTP failed to add ipv4 server %s, ignoring
+LIBHTP Ignoring unknown server config: %s
+Request header name is not a token
+Response header name is not a token
+Host information in request headers required by HTTP/1.1
+Invalid response field folding
+GZip decompressor: inflateInit2 failed
+Request field invalid: colon missing
+Response field invalid: colon missing
+Request chunk encoding: Invalid chunk length
+Response chunk encoding: Invalid chunk length
+Unable to match response to request
+Invalid server port information in request
+INVALID_TRANSFER_ENCODING_VALUE_IN_REQUEST
+INVALID_TRANSFER_ENCODING_VALUE_IN_RESPONSE
+INVALID_CONTENT_LENGTH_FIELD_IN_REQUEST
+INVALID_CONTENT_LENGTH_FIELD_IN_RESPONSE
+UNABLE_TO_MATCH_RESPONSE_TO_REQUEST
+INVALID_SERVER_PORT_IN_REQUEST
+INVALID_RESPONSE_FIELD_FOLDING
+HtpRequestBodyHandleMultipart
+HtpRequestBodySetupBoundary
+HtpRequestBodyMultipartParseHeader
+HTPCallbackRequestBodyData
+HTPCallbackRequestBodyData
+HtpRequestBodySetupMultipart
+HtpRequestBodyReassemble
+HTPCallbackResponseBodyData
+HTPCallbackResponseBodyData
+HTPHandleResponseData
+HTPHandleError
+HTPHandleWarning
+HTPHandleRequestData
+HTPHandleRequestData
+HTPStateAlloc
+HTPConfigure
+app-layer-htp-body.c
+Body %p; data %p, len %u
+--- Start body chunks at %p ---
+HtpBodyAppendChunk
+app-layer-smb.c
+|ff|SMB
+|fe|SMB
+smb2
+SMBStateAlloc
+app-layer-smb2.c
+SMB2StateAlloc
+app-layer-dcerpc.c
+Error allocating memory
+%.4x
+[%4.4s]   %-50.50s  %s
+Accepted
+Rejected
+%s UUID [%2u] %s 
+|05 00|
+dcerpc
+stub_len is NULL.  We shouldn't be seeing this.  In case you are, there is something gravely wrong with the dcerpc parser
+ Major Version 0x%04x Minor Version 0x%04x
+DCERPCParseBINDCTXItem
+DCERPCParseBINDACKCTXItem
+StubDataParser
+DCERPCStateAlloc
+app-layer-dcerpc-udp.c
+|04 00|
+dcerpcudp
+DCERPCUDPStateAlloc
+DCERPCUDPParseHeader
+FragmentDataParser
+app-layer-ftp.c
+USER 
+PASS 
+PORT 
+ftp.request_command_line
+FTPStateAlloc
+FTPParseRequestCommandLine
+app-layer-ssl.c
+|01 00 02|
+|01 03 00|
+|16 03 00|
+|01 03 01|
+|16 03 01|
+|01 03 02|
+|16 03 02|
+|01 03 03|
+|16 03 03|
+tls.no-reassemble
+INVALID_SSLV2_HEADER
+INVALID_TLS_HEADER
+INVALID_RECORD_TYPE
+INVALID_HANDSHAKE_MESSAGE
+INVALID_CERTIFICATE
+CERTIFICATE_MISSING_ELEMENT
+CERTIFICATE_UNKNOWN_ELEMENT
+CERTIFICATE_INVALID_LENGTH
+CERTIFICATE_INVALID_STRING
+ERROR_MESSAGE_ENCOUNTERED
+SSLv2Decode
+SSLv3Decode
+SSLv3ParseHandshakeType
+SSLStateAlloc
+app-layer-ssh.c
+SSH-
+AlpParseFieldBySize failed, r %d
+SSHStateAlloc
+SSHParseClientRecord
+SSHParseClientVersion
+SSHParseServerRecord
+SSHParseServerVersion
+app-layer-tls-handshake.c
+DecodeTLSHandshakeServerCertificate
+TLSCertificateErrCodeToWarning
+app-layer-smtp.c
+starttls
+bdat
+EHLO
+smtp
+HELO
+INVALID_REPLY
+MAX_COMMAND_LINE_LEN_EXCEEDED
+MAX_REPLY_LINE_LEN_EXCEEDED
+INVALID_PIPELINED_SEQUENCE
+BDAT_CHUNK_LEN_EXCEEDED
+NO_SERVER_WELCOME_MESSAGE
+TLS_REJECTED
+DATA_COMMAND_REJECTED
+UNABLE_TO_MATCH_REPLY_WITH_REQUEST
+SMTPLocalStorageAlloc
+SMTPProcessReply
+SMTPGetLine
+SMTPInsertCommandIntoCommandBuffer
+SMTPProcessCommandBDAT
+SMTPStateAlloc
+SMTPSetMpmState
+defrag.c
+defrag.trackers
+defrag.timeout
+Defrag: Failed to add new tracker to hash table.
+Invalid address family, aborting.
+Failed to allocate packet for fragmentation re-assembly, dumping fragments.
+Failed re-assemble fragmented packet, exceeds size of packet buffer.
+Defrag: Failed to initialize hash table.
+Defrag: Failed to initialize hash table mutex.
+Defrag: Failed to initialize tracker pool.
+Defrag: Failed to initialize tracker pool mutex.
+Defrag: Failed to initialize fragment pool.
+Defrag: Failed to initialize frag pool mutex.
+defrag: Timeout less than minimum allowed value.
+defrag: Tiemout greater than maximum allowed value.
+Failed to allocate memory for the Defrag module.
+DefragGetTracker
+DefragInsertFrag
+Defrag4Reassemble
+Defrag6Reassemble
+DefragInit
+DefragContextNew
+DefragFragNew
+DefragTrackerNew
+output.c
+Fatal error encountered in OutputRegisterModule. Exiting...
+OutputRegisterModule
+action-order
+util-action.c
+action-order, invalid action: "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, action already set: "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, you have already specified all the possible actions plus "%s". Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+action-order, the config didn't specify all of the actions. Please, use "pass","drop","alert","reject". You have to specify all of them, without quotes and without capital letters
+ActionInitConfig
+bond
+wlan
+util-ioctl.c
+Found an MTU of %d for '%s'
+Failure when trying to get MTU via ioctl: %d
+GetIfaceMTU
+util-logopenfile.c
+regular
+filetype
+unix_stream
+unix_dgram
+Error connecting to socket "%s": %s
+SCConfLogOpenGeneric(conf %p, ctx %p, default %p) missing an argument
+SCConfLogOpenGeneric: previously initialized Log CTX encountered
+Invalid entry for %s.type.  Expected "regular" (default), "unix_stream" or "unix_dgram"
+%s output device (%s) initialized: %s
+SCConfLogOpenGeneric
+SCLogOpenUnixSocketFp
+SCLogOpenFileFp
+;*2$"
+zPLR
+/tmp
+suricata.debug
+7zXZ
+b-2M
+\t;Ie
+sNCz,$!9{x
+GASl5<g7
+{rJw)
+JB-j#
+fvOa1%
+cn:V
+=VWx
+ E@Oi
+N[:9^
+LraT
+9goY
+^^Oz>
+g0QH
+R0$bJ
+uLeyM
+!5D3r(
+S:>0=
+*=;(f
+VagZ9
+nDE&
+>g)^
+hE6~
+&W][
+cwy*s
+/8A6
+c:Fi
+HLL_<WP
+xm\8>o
+}AZT
+Lg,t
+dr_	
+tSDQ
+'%iG
+ntoO
+1t?DR
+[L@G
+IF*}v
+dwvcO\
+A; ,
+U| !l
+	[;4
+/[Ue\
+{r{f
+-"h5;
+<[Q8q
+L%_dn
+Tz$17hI
+{n}j
+EV\*?
+}Q1>
+k[2?
+``*Wt
+|4YcC
+<)2]"
+[oA3Z/
+%kE$B
+\{?Qf
+yfQ*kB
+#EnI
+.@i6c
+6Vl66d
+lr|J
+E}j@h
+ST	H
+YJVY
+#svE%`
+3S+O
+tW,P
+XI9U$
+*-^5y
+R3aY=
+H r~
+'na5
+"A-E
+ubrO
+Z;Ua
+V9bG
+P9&q
+2+4J
+<l_.
+(]v`
+qTc;t
+0n_.
+RYw0)5
+`dwZ
+OCkRS
+Fxe4A
+GK/W)
+Nn%t:4
+d#`8m<
+2O'G
+y5[PZ&#
+|Y/H
+m ZygQ
+0FPU=
+Md7O3
+v8(Q
+1M!%'
+GdLr
+ 1@$=;
+R{Jn
+|wVQ{W#
+8rb(P
+<+oo
+!XV3
+uov12
+-GSBN#~
+[h*rQ
+k'=e
+3M@4
+nnS2	
+4$w,
+xHW^6
+fJ]+
+!5E6!
+kB}F
+3]ji
+3xxW	
+zT X
+a}Jc`
+'Bnc`
+/{zz
+c\(g
+7"Sn
+"z>3
+i>"#
+T7pk)P32
+rC_u
+d_Kt
+	?^nb
+sF~X
+Tw)?
+D2;}
+@Kr]
+	%4X%
+SCM$
+aJ[gy
+%,aN
+P\,\6&
+Aj*u(
+\fY/
+1qPSp
+MsH}
+<;q%
+&q{C
+"3.<
+jp;!
+T ld
+bZ)+
+XJ2R
+.T,s
+-jcv
+#%^H
+WQR8
+D*bqc
+w7^CNl
+fV_39
+;amz
+=6Rz
+>=[0
+{~l=-
+Yma2
+!Cz-2
+A2iV
+1T4S
+/2O"
+,$CZ
+k5fws5
+Lj2@g
+B43mT
+>"TO
+<([=
+d0)5
+SUR/
+W)hH
+3nvQwu
+>``}2
+*E[A
+kf{\
+$K8lG
+wnFy
+k{66
+G!afN
+* x%yp
+iD^"
+bRH4
+L-\R
+J*6Q
+SZOM
+c5lHz3r
+W$UT
+DBN}
+dl9F
+qvg25
+=oUPx
+	k6E
+z`PT%`
+PKyD+$+`*H
+ VTX
+)HNM
+3n?]
+5	lY
+f@kA>
+;+'N;P
+8vTZ
+a3Ii
+wOG7
+joVK
+r{I>
+`#Dw
+ra g{C
+A}.u
+y5Q#)
+zf~Fh
+x($0
+_5d0h
+nK~-
+)Q R/i_
+a<Tu
+ P2x1B
+[\,V6
+WIcs
+:}2F
+D	$=
+H{J|
+O?Ew
+|0d>
+V{']
+`01I
+r\.L'M
+;`}*
+q-#-
+r];C
+OHJ!5
+tGUS
+y|oq
+P;3X
+Q]Gr
+!EmK
+-9{ a
+=SId
+Ai?Z!k
+0CV6
+4P]-F'
+?/#Z
+Fz&'
+)(OeMz
+,/mD
+lb9qi27
+'UA=
+MrUL
+9V^_
+vS*Y
+'-"A
+X1E2(4
+NQW6
+$s9`$
+k/vh
+gL}2
+VAQH
+"{}W
+(M?H+
+bJ]T<")
+4n>v
+YP%X
+!]tH
+aY'YkVWk
+~Taws(
+=pj2
+6Syd<
+mc,I-K
+uk1''%"l_
+)X&6
+S!Q(
+He42
+<iIO
+BRh@
+he8k
+r2ST2B
+3~69ZO
+L|;`
+]?y#
+V2O>8Lt
+n0MtK}l
+	MMa
+%=S)
+at2O
+IjQVF
+8G?Ar
+$%c+Z
+I7aSX
+NlIU
+,YFF
+xIqz
+O~19
+nfz3
+>&[!
+yl7J
+VIvs
+%;riT
+/[3W
+WiR`
+be,w
+rl~:j
+[}a-
+V2ea8)
+R'M,
+}zaym	
+#wXR
+VDR6M
++#o)
+]+9@)
+IIJ]
+/87!
+j/d	
+0B:8
+^O%ktW
+bb5ggY 
+iWQk
+'}jr18
+`zfn
+W`f9
+oUF0j
+WR7G
+u2,cf
+Z G]
+RRj?q8
+,'\"
+x!e_a
+Vti/1
+||3[
+FE6O
+>dxr
+^7m"
+{Pd3
+x{6}
+e$L#h
+!UBp
+HM]9
+T5r)
+f0-7b
+AOHlu
+;3@3
+&;;S
+Xv5>
+-E&M
+oxIK.
+sr&1~
+9LPh
+H\qP)
+N+L|-
+B +_
+3<qP
+U&6s
+@^9HQ
+y9A=
+-.%1
+L	:tD
+YM}E
+z%Y'3
+,B#.
+A|#C
+2+=d
+-*^?T
+&135'
+;8;*+
+`b<|b
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,256 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+option_debug
+ast_log
+sscanf
+ast_findlabel_extension
+pbx_findapp
+__asprintf_chk
+ast_options
+pbx_exec
+ast_agi_send
+ast_pbx_run
+ast_exists_extension
+__errno_location
+strerror
+ast_debug_get_by_file
+__stack_chk_fail
+ast_module_unregister
+gosub_agi_command
+ast_agi_unregister
+ast_context_find
+ast_context_remove_extension2
+ast_context_destroy
+ast_unregister_application
+ast_custom_function_unregister
+ast_var_name
+pbx_builtin_setvar_helper
+ast_var_delete
+strcmp
+ast_var_assign
+pbx_builtin_pushvar_helper
+__manager_event
+ast_context_find_or_create
+__strdup
+ast_add_extension2
+ast_agi_register
+ast_register_application2
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+ast_channel_datastore_find
+pthread_mutex_lock
+pthread_mutex_unlock
+ast_explicit_goto
+pthread_mutex_destroy
+pbx_builtin_getvar_helper
+strlen
+memcpy
+ast_datastore_alloc
+calloc
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+pthread_mutexattr_destroy
+ast_channel_datastore_add
+strchr
+strrchr
+ast_app_separate_args
+strcpy
+ast_parseable_goto
+__snprintf_chk
+ast_datastore_free
+pbx_checkcondition
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.2.5
+5B0 
+%D0 
+%B0 
+%:0 
+%20 
+%*0 
+%"0 
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+%z. 
+%r. 
+%j. 
+%b. 
+ATSubH
+=O* 
+=g) 
+[]A\A]A^A_
+D$ I
+T$8I
+T$lH
+D$8M
+D$0H
+D$pH
+D$8H
+T$0H
+|$`D
+L$`M
+T$`H
+t$@A
+T$\1
+D$8M
+D$0H
+D$ H
+T$0H
+|$`D
+D$8H
+D$8H
+T$0L
+T$8H
+T$HH
+T$pH
+T$PH
+5!$ 
+AVAUI
+[]A\A]A^
+[]A\A]A^
+5Y! 
+5N$ 
+ffff.
+5!$ 
+t$ H
+t$ H
+fff.
+I9l$
+l$ H
+5G  
+AVAUM
+[]A\A]A^A_
+fffff.
+AVAUATI
+[A\A]A^A_
+app_stack.c
+Gosub
+%s,%s,%d(%s)
+asprintf() failed: %s
+%s,%s,%d
+100 result=0 Trying...
+200 result=0 Gosub complete
+200 result=%d Gosub failed
+app_stack
+VarSet
+KeepAlive
+$Revision: 161496 $
+GOSUB_RETVAL
+ARG%d
+Setting '%s' to '%s'
+gosub
+Execute a dialplan subroutine
+Return
+StackPop
+GosubIf
+LOCAL
+LOCAL(<varname>)
+GOSUB
+Return from gosub routine
+Gosub called with %d arguments: 0:%s 1:%s 2:%s 3:%s 4:%s
+Priority '%s' not found in '%s@%s'
+200 result=-1 Gosub label not found
+Gosub() cannot be found in the list of loaded applications
+503 result=-2 Gosub is not loaded
+Trying gosub with arguments '%s'
+app_stack_gosub_virtual_context
+503 result=-2 Memory allocation failure
+Channel: %s
+Variable: LOCAL(%s)
+Value: %s
+Uniqueid: %s
+Virtual context 'app_stack_gosub_virtual_context' does not exist and unable to create
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Return without Gosub: stack is unallocated
+Return without Gosub: stack is empty
+Tried to set LOCAL(%s), but we aren't within a Gosub routine
+%s called with no gosub stack allocated.
+%s called with an empty gosub stack
+%s requires an argument: %s([[context,]exten,]priority[(arg1[,...][,argN])])
+Channel %s has no datastore, so we're allocating one.
+Unable to allocate new datastore.  Gosub will fail.
+Unable to allocate datastore list head.  Gosub will fail.
+Ouch.  No closing paren: '%s'?
+Gosub address is invalid: '%s'
+Attempt to reach a non-existent destination for gosub: (Context:%s, Extension:%s, Priority:%d)
+GosubIf requires an argument: GosubIf(cond?label1(args):label2(args)
+Dialplan subroutines (Gosub, Return, etc)
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Variables local to the gosub stack frame
+  StackPop():
+Removes last label on the stack, discarding it.
+Remove one address from gosub stack
+  Return([return-value]):
+Jumps to the last label on the stack, removing it.  The return value, if
+any, is saved in the channel variable GOSUB_RETVAL.
+  GosubIf(condition?labeliftrue[(arg1[,...])][:labeliffalse[(arg1[,...])]]):
+If the condition is true, then jump to labeliftrue.  If false, jumps to
+labeliffalse, if specified.  In either case, a jump saves the return point
+in the dialplan, to be returned to with a Return.
+Conditionally jump to label, saving return address
+  Gosub([[context,]exten,]priority[(arg1[,...][,argN])]):
+Jumps to the label specified, saving the return address.
+Jump to label, saving return address
+handle_gosub
+local_write
+frame_set_var
+load_module
+_ast_strdup
+gosub_exec
+_ast_calloc
+gosub_allocate_frame
+gosubif_exec
+return_exec
+pop_exec
+ Usage: GOSUB <context> <extension> <priority> [<optional-argument>]
+   Cause the channel to execute the specified dialplan subroutine, returning
+ to the dialplan with execution of a Return()
+a9c98e5d177805051735cb5b0b16b0a0
+app_stack.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,159 @@
+td|>
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+mail_user_is_plugin_loaded
+str_append
+mail_user_plugin_getenv
+t_strdup_printf
+acl_user_module
+array_idx_modifiable_i
+client_find_namespace
+mailbox_alloc
+acl_mailbox_right_lookup
+client_fail_mailbox_name_status
+client_send_command_error
+client_send_tagline
+mailbox_free
+client_read_string_args
+t_str_new
+imap_quote_append
+str_append_c
+str_c
+client_send_line
+str_len
+strcmp
+pool_datastack_create
+acl_mailbox_get_aclobj
+acl_object_get_my_rights
+str_truncate
+str_data
+i_panic
+acl_object_update
+acl_backend_get_acl_username
+acl_object_list_init
+acl_object_list_next
+acl_backend_user_name_equals
+acl_object_list_deinit
+acl_object_get_default_rights
+mailbox_get_namespace
+acl_mailbox_list_get_backend
+buffer_create_dynamic
+buffer_append
+buffer_append_space_unsafe
+imap_acl_plugin_init
+command_register
+imap_client_created_hook_set
+imap_acl_plugin_deinit
+command_unregister
+imap_acl_plugin_binary_dependency
+imap_acl_plugin_dependencies
+imap_acl_plugin_version
+lib01_acl_plugin.so
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+lib02_imap_acl_plugin.so
+/usr/lib/dovecot
+GLIBC_2.1.3
+GLIBC_2.0
+T$@1
+T$@1
+L$@1
+T$@1
+d$ [^_
+l$81
+D$$f
+9D$,t:
+d$<[^_]
+d$<[^_]
+|$41
+[^_]
+D$Pt
+[^_]
+d$l[
+UWVS
+L$H1
+<+t9<-t=
+[^_]
+[^_]
+[^_]
+[^_]
+ ACL RIGHTS=texk
+acl_anyone
+allow
+authenticated
+owner
+ACLs disabled.
+* LISTRIGHTS 
+"" l r w s t p i e k x a c d
+OK Listrights completed.
+lookup
+post
+* MYRIGHTS 
+OK Myrights completed.
+imap-acl-plugin.c
+file %s: line %d: unreached
+Invalid arguments.
+OK Deleteacl complete.
+* ACL 
+OK Getacl completed.
+Invalid ACL right: %c
+../../../src/lib/array.h
+admin
+OK Setacl complete.
+LISTRIGHTS
+GETACL
+MYRIGHTS
+SETACL
+DELETEACL
+2.0.15
+read
+write
+write-seen
+write-deleted
+insert
+expunge
+create
+delete
+Global ACLs can't be modified: %s
+'anyone' identifier is disallowed
+'authenticated' identifier is disallowed
+NO [NONEXISTENT] Mailbox doesn't exist: %s
+NO [NOPERM] You lack administrator privileges on this mailbox.
+NO Internal error occurred. Refer to server log for more information.
+idx * array->element_size < array->buffer->used
+file %s: line %d (%s): assertion failed: (%s)
+NO Public namespaces have no owner
+imap
+array_idx_i
+;*2$" 
+lib02_imap_acl_plugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

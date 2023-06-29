@@ -1,0 +1,272 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+modeline_parser_apply_modeline
+gedit_debug_message
+g_type_class_peek_parent
+g_type_check_class_cast
+g_object_class_override_property
+g_type_class_adjust_private_offset
+modeline_parser_shutdown
+peas_extension_base_get_type
+g_type_check_instance_cast
+peas_extension_base_get_data_dir
+modeline_parser_init
+gedit_modeline_plugin_get_type
+gedit_debug
+gtk_text_view_get_type
+gtk_text_view_get_buffer
+g_signal_handler_disconnect
+gtk_source_view_get_type
+g_signal_connect_data
+g_type_name
+g_log
+g_value_set_object
+gedit_view_get_type
+g_value_dup_object
+g_object_unref
+peas_register_types
+g_type_module_get_type
+g_type_module_register_type
+gedit_view_activatable_get_type
+g_type_module_add_interface
+peas_object_module_register_extension_type
+__stack_chk_fail
+g_slice_free1
+g_str_equal
+g_str_hash
+g_hash_table_new_full
+g_key_file_get_keys
+g_key_file_get_string
+g_hash_table_insert
+g_build_filename
+g_key_file_new
+g_key_file_load_from_file
+g_key_file_free
+g_error_free
+gtk_source_buffer_get_type
+gtk_source_view_get_insert_spaces_instead_of_tabs
+gtk_source_buffer_get_language
+gtk_source_language_get_id
+g_strcmp0
+gtk_source_view_get_right_margin_position
+gtk_source_view_get_show_right_margin
+gtk_text_view_get_wrap_mode
+gtk_source_view_get_indent_width
+gtk_source_view_get_tab_width
+g_ascii_table
+g_string_sized_new
+g_string_free
+strchr
+g_string_assign
+g_string_insert_c
+g_ascii_strdown
+g_hash_table_lookup
+g_strdup
+strtol
+g_ascii_strcasecmp
+g_hash_table_unref
+gtk_text_buffer_get_start_iter
+gtk_text_buffer_get_line_count
+gtk_text_iter_is_end
+gtk_text_iter_forward_to_line_end
+gtk_text_buffer_get_text
+gtk_text_iter_get_line
+gtk_text_iter_forward_line
+gtk_source_language_manager_get_default
+gtk_source_language_manager_get_language
+gedit_document_get_type
+gedit_document_set_language
+g_object_get_data
+g_settings_new
+gtk_source_view_set_insert_spaces_instead_of_tabs
+gtk_source_view_set_tab_width
+gtk_source_view_set_indent_width
+gtk_text_view_set_wrap_mode
+gtk_source_view_set_right_margin_position
+gtk_source_view_set_show_right_margin
+g_settings_get_boolean
+g_settings_get
+g_settings_get_enum
+g_slice_alloc
+g_object_set_data_full
+gtk_text_buffer_get_end_iter
+gtk_text_iter_backward_lines
+libgedit-3.38.so
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libgtk-3.so.0
+libgtksourceview-4.so.0
+libpeas-1.0.so.0
+libc.so.6
+_edata
+__bss_start
+libmodelines.so
+GLIBC_2.4
+GLIBC_2.2.5
+$ORIGIN/../../gedit
+u/UH
+ATUH
+c E1
+[]A\
+([]A\A]
+[]A\A]
+AVAUI
+ []A\A]A^
+[]A\A]A^
+ATUH
+D$h1
+D$P(
+D$ H
+D$8H
+D$@H
+D$XH
+L$ H
+D$hdH+
+]A\A]
+AWAVI
+AUATUH
+[]A\A]A^A_
+AVAUATI
+#U A
+]A\A]A^
+A\A]A^
+AWAVAUATSH
+tmL9e
+[A\A]A^A_]
+<$:t
+<$:u
+tG<:tC<=
+K  L
+K @D
+<:u1
+tG<:tC
+<;u8
+t?<;t;
+<;u3
+<;t<
+$<;th
+t><;t:
+K  H
+K  L
+AWAVAUI
+ATUSH
+\$PL
+oD$P
+oL$`H
+oT$p
+L$ D
+ol$P
+ot$`H
+o|$p
+L$ D
+D$@ t\H
+|$ H
+t$ H
+D$@@
+t$(L
+t$,L
+t$0L
+t$4H
+t$<L
+t$8L
+o|$ 
+oD$0H
+D$@H
+[]A\A]A^A_
+oL$ 
+oT$0I
+D$@I
+L$ L
+GeditModelinePlugin initializing
+../plugins/modelines/gedit-modeline-plugin.c
+GeditModelinePlugin finalizing
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+view
+loaded
+saved
+property
+GeditModelinePlugin disposing
+GeditModelinePlugin
+gedit_modeline_plugin_dispose
+gedit_modeline_plugin_finalize
+gedit_modeline_plugin_init
+gedit_modeline_plugin_activate
+gedit_modeline_plugin_deactivate
+%lu mappings in group %s
+language-mappings
+emacs
+kate
+vim:
+Vim modeline on line %d
+filetype
+expandtab
+tabstop
+shiftwidth
+textwidth
+Emacs modeline on line %d
+Emacs modeline bit: %s = %s
+Mode
+tab-width
+indent-offset
+c-basic-offset
+js-indent-level
+indent-tabs-mode
+autowrap
+kate:
+Kate modeline on line %d
+Kate modeline bit: %s = %s
+syntax
+indent-width
+space-indent
+true
+word-wrap
+word-wrap-column
+set 
+text
+Unknown language `%s'
+ModelineOptionsDataKey
+insert-spaces
+tabs-size
+wrap-mode
+right-margin-position
+display-right-margin
+../plugins/modelines/modeline-parser.c
+Loaded language mappings from %s
+Failed to loaded language mappings from %s: %s
+org.gnome.gedit.preferences.editor
+parse_kate_modeline
+parse_emacs_modeline
+load_language_mappings_group
+load_language_mappings
+parse_modeline
+modeline_parser_apply_modeline
+;*3$"
+/usr/lib/debug/.dwz/x86_64-linux-gnu/gedit.debug
+v][h
+a0ec5e77f0de81d3f3539f8b3ee101b62ed419.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.data
+.bss
+.gnu_debugaltlink
+.gnu_debuglink

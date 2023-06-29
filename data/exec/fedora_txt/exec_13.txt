@@ -1,0 +1,361 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+kill
+plugin_log
+waitpid
+__stack_chk_fail
+malloc
+plugin_notification_meta_copy
+pthread_attr_init
+pthread_attr_setdetachstate
+plugin_thread_create
+pthread_attr_destroy
+pthread_mutex_lock
+pthread_mutex_unlock
+strcasecmp
+calloc
+__strdup
+strchr
+strrchr
+sstrncpy
+ssnprintf
+sigaction
+pipe
+getpwnam_r
+fork
+getgrnam_r
+__errno_location
+sstrerror
+getdtablesize
+dup2
+plugin_get_interval
+setenv
+hostname_g
+sigemptyset
+sigprocmask
+getuid
+setgroups
+setgid
+setegid
+setuid
+execvp
+fdopen
+__fprintf_chk
+fflush
+fclose
+plugin_notification_meta_free
+pthread_exit
+__fdelt_chk
+select
+strncasecmp
+stdout
+handle_putnotif
+handle_putval
+__memmove_chk
+__assert_fail
+module_register
+plugin_register_complex_config
+plugin_register_init
+plugin_register_read
+plugin_register_notification
+plugin_register_shutdown
+parse_string
+parse_option
+plugin_dispatch_notification
+fileno
+strtod
+sstrdup
+parse_identifier
+strlen
+plugin_get_ds
+parse_values
+plugin_dispatch_values
+create_putval
+format_name
+escape_string
+format_values
+libpthread.so.0
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+exec.so
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.15
+GLIBC_2.4
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+%zC 
+%rC 
+%jC 
+%bC 
+%ZC 
+%RC 
+%JC 
+%BC 
+%:C 
+%2C 
+%*C 
+%"C 
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+=iB 
+fffff.
+=)B 
+5"B 
+fffff.
+fffff.
+;B u
+AVAUI
+ATUSH
+D$H1
+T$HdH3
+P[]A\A]A^
+ATUSH
+D$H1
+=*? 
+T$HdH3
+P[]A\
+AWAVAUATUSH
+L$ H
+xIIc
+09A(
+[]A\A]A^A_
+ffffff.
+AWAVAUATUSH
+|$pI
+t$@L
+D$TE
+D$tA
+[]A\A]A^A_
+t$ L
+";l$pt
+AWAV1
+AUAT1
+AWAV1
+AUATI
+L$(H
+T$$dH
+Hc|$$
+D$$Hc|$(
+t$(H
+09t$$
+Ml$$L
+Hc|$$
+Hc|$(
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+|$ H
+t$,1
+D$,A
+D$$H
+=Q, 
+=6, 
+HcD$
+HcD$
+Hc|$(
+D$(H
+l$$L
+AWAVAUATUSH
+d$(H
+t$0H
+\$0H
+|$P1
+|$@L
+t$8H
+D$ H
+D$HH
+\$8H
+l$@H
+[]A\A]A^A_
+D$HH9
+D$XH
+H1D$X
+AWAVAUATUSH
+localhosH
+t$ H
+l$ M
+[]A\A]A^A_
+t$(L
+|$(H
+L$@H
+T$8H
+t$0L
+L$PL
+D$HH
+t$0L
+|$@H
+|$PH
+t$8I
+t$HI
+t$@H
+t$PH
+Hc@@H
+l$XL
+t$XH
+l$`M
+D$hH
+L$(H
+|$XH
+|$pH
+L$HH
+AWAVI
+AUATM
+ZYt*H
+[]A\A]A^A_
+t;xIf
+exec plugin: Sent SIGTERM to %hu
+exec plugin: The config option `%s' may not be a block.
+exec plugin: The config option `%s' needs at least two arguments.
+exec plugin: The first two arguments to the `%s' option must be string arguments.
+exec plugin: Unknown config option `%s'.
+exec plugin: Failed to get user information for user ``%s'': %s
+exec plugin: No such user: `%s'
+exec plugin: Cowardly refusing to exec program as root.
+exec plugin: Failed to get group information for group ``%s'': %s
+exec plugin: No such group: `%s'
+exec plugin: setgid (%i) failed: %s
+exec plugin: setegid (%i) failed: %s
+exec plugin: setuid (%i) failed: %s
+exec plugin: Failed to execute ``%s'': %s
+exec plugin: fdopen (%i) failed: %s
+exec plugin: Unable to parse command, ignoring line: "%s"
+exec plugin: Program `%s' has closed STDERR.
+exec plugin: exec_read_one: error = %s
+exec plugin: malloc failed.
+NotificationExec
+exec plugin: strdup failed.
+true
+false
+exec plugin: pipe failed: %s
+exec plugin: fork failed: %s
+%.3f
+COLLECTD_INTERVAL
+COLLECTD_HOSTNAME
+WARNING
+FAILURE
+OKAY
+Severity: %s
+Time: %.3f
+Host: %s
+Plugin: %s
+PluginInstance: %s
+Type: %s
+TypeInstance: %s
+%s: %s
+%s: %li
+%s: %lu
+%s: %e
+exec.c
+pl->pid != 0
+PUTVAL
+PUTNOTIF
+exec
+exec_read_one
+>-1 Cannot parse command.
+utils_cmd_putnotif.c
+command != ((void *)0)
+-1 Unexpected command: `%s'.
+-1 Malformed option.
+severity
+Failure
+Warning
+Okay
+time
+message
+host
+plugin
+plugin_instance
+type
+type_instance
+-1 Error parsing option `%s'
+-1 Option `time' missing.
+0 Success
+handle_putnotif: failed to write to socket #%i: %s
+-1 Option `severity' missing.
+-1 No message or message of length 0 given.
+handle_putnotif
+Cvalue has
+values have
+utils_cmd_putval.c
+-1 Cannot parse identifier.
+identifier != ((void *)0)
+-1 Identifier too long.
+-1 Type `%s' isn't defined.
+-1 malloc failed.
+-1 Misformatted option.
+string != ((void *)0)
+value != ((void *)0)
+interval
+-1 Misformatted value.
+PUTVAL %s interval=%.3f %s
+handle_putval: failed to write to socket #%i: %s
+-1 Cannot parse identifier `%s'.
+-1 Parsing the values string failed.
+0 Success: %i %s been dispatched.
+handle_putval
+;*3$"
+exec.so.debug
+7zXZ
+u=]9T#:Y
+\g*z
+v!/z}6
+zH4t
+.n[3a
+P j1+<
+\&?c&Nk
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

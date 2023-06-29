@@ -1,0 +1,272 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+__glusterfs_this_location
+_gf_msg
+use_spinlocks
+pthread_mutex_lock
+pthread_spin_unlock
+pthread_spin_lock
+pthread_mutex_unlock
+strerror
+gf_latency_end
+mem_get0
+pthread_mutex_init
+pthread_spin_init
+gf_latency_begin
+__assert_fail
+iobref_clear
+__errno_location
+_gf_log
+__stack_chk_fail
+xlator_mem_acct_init
+__gf_calloc
+xlator_option_init_bool
+__gf_free
+xlator_option_init_int32
+dict_get_str
+fini
+options
+cbks
+fops
+iobuf_get2
+iobref_add
+open64
+sys_write
+sys_close
+iobref_new
+deflateInit2_
+deflateEnd
+crc32
+deflate
+dict_set_int32
+dict_new
+dict_get
+inflateEnd
+inflateInit2_
+inflate
+libglusterfs.so.0
+libm.so.6
+libuuid.so.1
+libz.so.1
+librt.so.1
+libdl.so.2
+libpthread.so.0
+libcrypto.so.1.1
+libc.so.6
+cdc.so
+GLIBC_2.4
+GLIBC_2.2.5
+5:= 
+%<= 
+%:= 
+%2= 
+%*= 
+%"= 
+%z< 
+%r< 
+%j< 
+%b< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+%"< 
+%*< 
+=iO 
+=)O 
+5"O 
+=O; 
+=b7 
+AWAVAUATUSH
+t$XL
+[]A\A]A^A_
+AUUH
+AWAVE
+AUATI
+-]8 
+|$@I
+d$hI
+D$(H
+D$0H
+t$hM
+L$ H
+[]A\A]A^A_
+AWAVAUATI
+|$ L
+\$$L
+D$PI
+L$\A
+[]A\A]A^A_
+AWSH
+AZA[
+\$<I
+ATSH
+AWAVI
+AUATI
+t$0H
+D$(dH
+D$ I
+t$ H
+T$ H
+t$(L
+L$0H
+[]A\A]A^A_
+L$4L
+AZA[H
+L$(L
+D$ H
+t$ H
+t$(H
+L$0D
+D$hH
+L$(L
+ATUSH
+dH34%(
+[]A\
+AYAZ
+ATUH
+Lcc H
+[]A\
+AWAVI
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AWAV1
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVI
+AUATI
+XZu3L
+[]A\A]A^A_
+AZA[
+IcV L
+AWAVAUATI
+[]A\A]A^A_
+C PQ1
+HcS H
+H9T$
+cdc.c
+stack
+!frame
+stack-trace
+ci->iobref != NULL
+invalid argument: this
+invalid argument: frame
+Invalid operation mode (%d)
+Invalid operation mode (%d) 
+cdc_writev_cbk
+Memory accounting initfailed
+Need subvolume == 1
+gf_cdc_mt_priv_t
+debug
+CDC debug option turned on
+window-size
+compression-level
+mem-level
+min-size
+mode
+client
+server
+false
+stack-address: %p, %s returned %d error: %s
+stack-address: %p, %s returned %d
+(this->children->xlator)->fops->readv
+stack-address: %p, winding from %s to %s
+(this->children->xlator)->fops->writev
+Dangling volume. Check volfile
+Invalid gzip window size (%d), using default
+Invalid gzip (de)compression level (%d), using default
+Invalid gzip memory level, using the default
+Operation mode not specified !!
+Bogus operation mode (%s) specified
+CDC xlator loaded in (%s) mode
+Size of the zlib history buffer.
+Memory allocated for internal compression state. 1 uses minimum memory but is slow and reduces compression ratio; memLevel=9 uses maximum memory for optimal speed. The default value is 8.
+Compression levels 
+0 : no compression, 1 : best speed, 
+9 : best compression, -1 : default compression 
+Data is compressed only when its size exceeds this.
+Set on the basis of where the xlator is loaded. This option should NOT be configured by user.
+This is used in testing. Will dump compressed data to disk as a gzip file.
+init
+mem_acct_init
+cdc_writev
+cdc_writev_cbk
+cdc_readv
+cdc_cleanup_iobref
+cdc_readv_cbk
+Zlib output buffer overflow ->ncount (%d) | ->MAX_IOVEC (%d)
+unable to init Zlib (retval: %d)
+Data deflated, but could not set canary value in dict for identification
+Content not deflated, passing through ...
+unable to handle multiple iovecs (%d in number)
+Zlib: Unable to initialize inflate
+crc=%lu len=%lu buffer_size=%d
+Checksum or length mismatched in inflated data
+cdc-helper.c
+Cannot open file: %s
+dump'd %zu bytes to %s
+/tmp/cdcdump.gz
+Cannot allocate xdata dict
+1.2.11
+crc=%lu len=%d buffer_size=%d
+Compression Error: ret (%d)
+gf_cdc_mt_gzip_trailer_t
+Compressed %ld to %ld bytes
+deflate
+Decompression Error: ret (%d)
+Inflated %ld to %ld bytes
+do_cdc_decompress
+cdc_decompress
+cdc_next_iovec
+do_cdc_compress
+cdc_compress
+cdc_dump_iovec_to_disk
+;*3$"
+cdc.so-3.12.1-2.fc27.x86_64.debug
+7zXZ
+Zjk(V
+ MOwOz
+qx	s9
+2^>S
+SnPn`
+O(nv~
+~8ZB
+{4:K
+![T+
+L^vs
+s^fA&
+m:"$y
+1*b)
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

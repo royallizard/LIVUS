@@ -1,0 +1,375 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_peek_string
+g_utf8_skip
+g_utf8_get_char
+g_unichar_isspace
+workbook_date_conv
+format_match_number
+value_dup
+value_new_error_VALUE
+g_utf8_strup
+value_new_string_nocopy
+g_string_new
+g_string_append_unichar
+g_string_free
+g_string_truncate
+go_format_new_from_XL
+format_value
+go_format_unref
+format_match
+value_release
+value_new_empty
+value_get_as_string
+value_get_as_float
+g_string_sized_new
+strstr
+g_string_append_len
+g_string_append
+value_new_int
+gnm_regcomp_XL
+go_regexec
+g_log
+go_regfree
+g_utf8_pointer_to_offset
+g_utf8_strlen
+value_new_string
+g_utf8_offset_to_pointer
+g_unichar_tolower
+g_unichar_isalpha
+g_unichar_toupper
+g_strndup
+g_utf8_strdown
+g_strstr_len
+g_utf8_collate
+value_new_bool
+go_fake_trunc
+go_pow10
+go_format_default_money
+go_format_new
+value_new_float
+go_fake_round
+range_concatenate
+string_range_function
+g_convert_with_iconv
+g_unichar_isprint
+g_unichar_validate
+g_unichar_to_utf8
+go_plugin_shutdown
+gsf_iconv_close
+go_plugin_init
+gsf_msole_iconv_win_codepage
+gsf_msole_iconv_open_for_import
+gsf_msole_iconv_open_for_export
+g_try_malloc
+memcpy
+g_malloc
+value_get_as_checked_bool
+go_render_number
+g_string_insert_c
+go_plugin_depends
+go_plugin_header
+string_functions
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+[^_]
+[^_]
+[^_]
+[^_]
+?<ti
+<[^_]
+<[^_]
+<[^_]
+[^_]
+<[^_]
+<[^_]
+<[^_]
+l[^_]
+l[^_]
+0[^]
+0[^]
+[^_]
+0[^]
+\[^_]
+\[^_]
+\[^_]
+L[^_]
+L[^_]
+p[^]
+p[^]
+uRzP
+AUnexpected go_regexec result
+Unexpected regcomp result
+iconv failed for CODE(U%x)
+iconv failed for CHAR(%d)
+goffice
+gnumeric
+1.6.3
+string
+number
+unichar
+clean
+unicode
+concatenate
+text,text,
+dollar
+num,decimals
+exact
+text1,text2
+find
+text1,text2,num
+fixed
+f|fb
+num,decs,no_commas
+left
+text,num_chars
+lenb
+lower
+text,pos,num
+proper
+replace
+SffS
+old,start,num,new
+rept
+text,num
+right
+search
+search_string,text,start_num
+substitute
+SSS|f
+text,old,new,num
+value
+value,format_text
+trim
+upper
+iconv for CHAR(%d) produced a string of length %d
+@FUNCTION=ASC
+@SYNTAX=ASC(string)
+@DESCRIPTION=ASC a compatibility function that is meaningless in Gnumeric.  In MS Excel (tm) it converts 2 byte @string into single byte text.
+@EXAMPLES=
+CHAR("Foo") equals "Foo".
+@SEEALSO=
+@FUNCTION=CHAR
+@SYNTAX=CHAR(x)
+@DESCRIPTION=CHAR returns the ASCII character represented by the number @x.
+@EXAMPLES=
+CHAR(65) equals A.
+@SEEALSO=CODE
+@FUNCTION=UNICHAR
+@SYNTAX=UNICHAR(x)
+@DESCRIPTION=UNICHAR returns the Unicode character represented by the number @x.
+@EXAMPLES=
+UNICHAR(65) equals A.
+UNICHAR(960) equals a small Greek pi.
+@SEEALSO=CHAR,UNICODE,CODE
+@FUNCTION=CLEAN
+@SYNTAX=CLEAN(string)
+@DESCRIPTION=CLEAN removes any non-printable characters from @string.
+* This function is Excel compatible.
+@EXAMPLES=
+CLEAN("one"\&char(7)) equals "one".
+@SEEALSO=
+@FUNCTION=CODE
+@SYNTAX=CODE(char)
+@DESCRIPTION=CODE returns the ASCII number for the character @char.
+* This function is Excel compatible.
+@EXAMPLES=
+CODE("A") equals 65.
+@SEEALSO=CHAR
+@FUNCTION=UNICODE
+@SYNTAX=UNICODE(char)
+@DESCRIPTION=UNICODE returns the Unicode number for the character @char.
+@EXAMPLES=
+UNICODE("A") equals 65.
+@SEEALSO=UNICHAR,CODE,CHAR
+@FUNCTION=CONCATENATE
+@SYNTAX=CONCATENATE(string1[,string2...])
+@DESCRIPTION=CONCATENATE returns the string obtained by concatenation of the given strings.
+* This function is Excel compatible.
+@EXAMPLES=
+CONCATENATE("aa","bb") equals "aabb".
+@SEEALSO=LEFT, MID, RIGHT
+@FUNCTION=DOLLAR
+@SYNTAX=DOLLAR(num[,decimals])
+@DESCRIPTION=DOLLAR returns @num formatted as currency.
+* This function is Excel compatible.
+@EXAMPLES=
+DOLLAR(12345) equals "$12,345.00".
+@SEEALSO=FIXED, TEXT, VALUE
+@FUNCTION=EXACT
+@SYNTAX=EXACT(string1, string2)
+@DESCRIPTION=EXACT returns true if @string1 is exactly equal to @string2 (this routine is case sensitive).
+* This function is Excel compatible.
+@EXAMPLES=
+EXACT("key","key") equals TRUE.
+EXACT("key","Key") equals FALSE.
+@SEEALSO=LEN, SEARCH, DELTA
+@FUNCTION=FIND
+@SYNTAX=FIND(string1,string2[,start])
+@DESCRIPTION=FIND returns position of @string1 in @string2 (case-sensitive), searching only from character @start onwards (assuming 1 if omitted).
+* This function is Excel compatible.
+@EXAMPLES=
+FIND("ac","Jack") equals 2.
+@SEEALSO=EXACT, LEN, MID, SEARCH
+@FUNCTION=FIXED
+@SYNTAX=FIXED(num,[decimals, no_commas])
+@DESCRIPTION=FIXED returns @num as a formatted string with @decimals numbers after the decimal point, omitting commas if requested by @no_commas.
+* This function is Excel compatible.
+@EXAMPLES=
+FIXED(1234.567,2) equals "1,234.57".
+@SEEALSO=TEXT, VALUE, DOLLAR
+@FUNCTION=LEFT
+@SYNTAX=LEFT(text[,num_chars])
+@DESCRIPTION=LEFT returns the leftmost @num_chars characters or the left character if @num_chars is not specified.
+* This function is Excel compatible.
+@EXAMPLES=
+LEFT("Directory",3) equals "Dir".
+@SEEALSO=MID, RIGHT
+@FUNCTION=LEN
+@SYNTAX=LEN(string)
+@DESCRIPTION=LEN returns the length in characters of the string @string.
+* This function is Excel compatible.
+@EXAMPLES=
+LEN("Helsinki") equals 8.
+@SEEALSO=CHAR, CODE, LENB
+@FUNCTION=LENB
+@SYNTAX=LENB(string)
+@DESCRIPTION=LENB returns the length in bytes of the string @string.
+* This function is Excel compatible.
+@EXAMPLES=
+LENB("Helsinki") equals 8.
+@SEEALSO=CHAR, CODE, LEN
+@FUNCTION=LOWER
+@SYNTAX=LOWER(text)
+@DESCRIPTION=LOWER returns a lower-case version of the string in @text.
+* This function is Excel compatible.
+@EXAMPLES=
+LOWER("J. F. Kennedy") equals "j. f. kennedy".
+@SEEALSO=UPPER
+@FUNCTION=MID
+@SYNTAX=MID(string, position, length)
+@DESCRIPTION=MID returns a substring from @string starting at @position for @length characters.
+* This function is Excel compatible.
+@EXAMPLES=
+MID("testing",2,3) equals "est".
+@SEEALSO=LEFT, RIGHT
+@FUNCTION=PROPER
+@SYNTAX=PROPER(string)
+@DESCRIPTION=PROPER returns @string with initial of each word capitalised.
+* This function is Excel compatible.
+@EXAMPLES=
+PROPER("j. f. kennedy") equals "J. F. Kennedy".
+@SEEALSO=LOWER, UPPER
+@FUNCTION=REPLACE
+@SYNTAX=REPLACE(old,start,num,new)
+@DESCRIPTION=REPLACE returns @old with @new replacing @num characters from @start.
+* This function is Excel compatible.
+@EXAMPLES=
+REPLACE("testing",2,3,"*****") equals "t*****ing".
+@SEEALSO=MID, SEARCH, SUBSTITUTE, TRIM
+@FUNCTION=REPT
+@SYNTAX=REPT(string,num)
+@DESCRIPTION=REPT returns @num repetitions of @string.
+* This function is Excel compatible.
+@EXAMPLES=
+REPT(".",3) equals "...".
+@SEEALSO=CONCATENATE
+@FUNCTION=RIGHT
+@SYNTAX=RIGHT(text[,num_chars])
+@DESCRIPTION=RIGHT returns the rightmost @num_chars characters or the right character if @num_chars is not specified.
+* This function is Excel compatible.
+@EXAMPLES=
+RIGHT("end") equals "d".
+RIGHT("end",2) equals "nd".
+@SEEALSO=MID, LEFT
+@FUNCTION=SEARCH
+@SYNTAX=SEARCH(search_string,text[,start_num])
+@DESCRIPTION=SEARCH returns the location of the @search_ string within @text. The search starts  with the @start_num character of text @text.  If @start_num is omitted, it is assumed to be one.  The search is not case sensitive.
+@search_string can contain wildcard characters (*) and question marks (?). A question mark matches any character and a wildcard matches any string including the empty string.  If you want the actual wildcard or question mark to be found, use tilde (~) before the character.
+* If @search_string is not found, SEARCH returns #VALUE! error.
+* If @start_num is less than one or it is greater than the length of @text, SEARCH returns #VALUE! error.
+* This function is Excel compatible.
+@EXAMPLES=
+SEARCH("c","Cancel") equals 1.
+SEARCH("c","Cancel",2) equals 4.
+@SEEALSO=FIND
+@FUNCTION=SUBSTITUTE
+@SYNTAX=SUBSTITUTE(text, old, new [,num])
+@DESCRIPTION=SUBSTITUTE replaces @old with @new in @text.  Substitutions are only applied to instance @num of @old in @text, otherwise every one is changed.
+* This function is Excel compatible.
+@EXAMPLES=
+SUBSTITUTE("testing","test","wait") equals "waiting".
+@SEEALSO=REPLACE, TRIM
+@FUNCTION=T
+@SYNTAX=T(value)
+@DESCRIPTION=T returns @value if and only if it is text, otherwise a blank string.
+* This function is Excel compatible.
+@EXAMPLES=
+T("text") equals "text".
+T(64) returns an empty cell.
+@SEEALSO=CELL, N, VALUE
+@FUNCTION=TEXT
+@SYNTAX=TEXT(value,format_text)
+@DESCRIPTION=TEXT returns @value as a string with the specified format.
+* This function is Excel compatible.
+@EXAMPLES=
+TEXT(3.223,"$0.00") equals "$3.22".
+TEXT(date(1999,4,15),"mmmm, dd, yy") equals "April, 15, 99".
+@SEEALSO=DOLLAR, FIXED, VALUE
+@FUNCTION=TRIM
+@SYNTAX=TRIM(text)
+@DESCRIPTION=TRIM returns @text with only single spaces between words.
+* This function is Excel compatible.
+@EXAMPLES=
+TRIM("  a bbb  cc") equals "a bbb cc".
+@SEEALSO=CLEAN, MID, REPLACE, SUBSTITUTE
+@FUNCTION=UPPER
+@SYNTAX=UPPER(text)
+@DESCRIPTION=UPPER returns a upper-case version of the string in @text.
+* This function is Excel compatible.
+@EXAMPLES=
+UPPER("cancelled") equals "CANCELLED".
+@SEEALSO=LOWER
+@FUNCTION=VALUE
+@SYNTAX=VALUE(text)
+@DESCRIPTION=VALUE returns numeric value of @text.
+* This function is Excel compatible.
+@EXAMPLES=
+VALUE("$1,000") equals 1000.
+@SEEALSO=DOLLAR, FIXED, TEXT
+munG
+plugin.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

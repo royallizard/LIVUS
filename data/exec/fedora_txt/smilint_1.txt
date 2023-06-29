@@ -1,0 +1,173 @@
+td,.
+/lib/ld-linux.so.2
+libsmi.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+smiSetFlags
+smiGetErrorTag
+_init
+smiGetFlags
+smiLoadModule
+smiGetErrorMsg
+smiSetSeverity
+smiExit
+smiGetErrorDescription
+smiGetErrorSeverity
+smiReadConfig
+smiSetErrorHandler
+smiSetErrorLevel
+smiInit
+_fini
+libc.so.6
+_IO_stdin_used
+fflush
+exit
+strncmp
+strncpy
+puts
+putchar
+strtol
+calloc
+strlen
+strstr
+__errno_location
+__fprintf_chk
+stdout
+fputc
+strtoul
+__ctype_b_loc
+stderr
+fwrite
+strchr
+__vfprintf_chk
+qsort
+__cxa_finalize
+strcmp
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+d$([
+UWVS
+d$,[^_]
+d$<[^_]
+d$<[^_]
+D$,1
+8"t]
+D$,e3
+d$<[^_]
+9l$(
+(9l$(
+D$(9
+9l$(
+d$L[^_]
+9t$ u
+(9l$(
+d$L[^_]
+(9l$(
+9l$(
+UWVS
+t$,U
+[^_]
+smilint 0.4.8
+%s:%d: 
+[%d] 
+{%s} 
+warning: 
+info: 
+smilint
+Error:
+Warning:
+<xxx-missing-xxx>
+, ignored
+%-*s %s (level %d%s)
+Message:
+%-*s %s
+Description:
+%-*s 
+%.*s
+%.*s
+--config
+help
+version
+preload
+error-list
+error-names
+severity
+recursive
+level
+noignore
+Usage: smilint [options] [module or path ...]
+  -V, --version         show version and license information
+  -h, --help            show usage information
+  -c, --config=file     load a specific configuration file
+  -p, --preload=module  preload <module>
+  -e, --error-list      print list of known error messages
+  -m, --error-names     print the name of errors in braces
+  -s, --severity        print the severity of errors in brackets
+  -r, --recursive       print errors also for imported modules
+  -l, --level=level     set maximum level of errors and warnings
+  -i, --ignore=prefix   ignore errors matching prefix pattern
+  -I, --noignore=prefix do not ignore errors matching prefix pattern
+smilint: malloc failed - running out of memory
+smilint: cannot locate module `%s'
+Additional descriptions of some error/warning messages:
+invalid number `%s'
+unrecognized option `%s'
+unrecognized option `-%c'
+number `%s' to `%s' out of range
+option `%s' requires an argument
+option `%s' doesn't allow an argument
+;*2$"
+smilint.debug
+7zXZ
+1do}
+2P_'1
+H/8[>
+8cOl
+x~;n"
+%fz0S?oV
+lJ$,
+5Rro
+*<$F`Z
+3N|I^
+9Uck
+O)u*
+p6q>
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

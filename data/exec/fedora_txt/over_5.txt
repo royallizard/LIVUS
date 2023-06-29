@@ -1,0 +1,134 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_snprintf
+gegl_operation_point_composer_get_type
+g_type_module_register_type
+__stack_chk_fail
+g_slice_alloc0
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+gegl_clSetKernelArg
+gegl_clEnqueueNDRangeKernel
+gegl_cl_get_command_queue
+gegl_cl_compile_and_build
+gegl_operation_context_get_object
+gegl_buffer_get_abyss
+gegl_rectangle_intersect
+g_object_ref
+gegl_operation_context_take_object
+babl_format
+gegl_operation_set_format
+g_object_set_data_full
+g_slice_free1
+g_type_name
+g_log
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+over.so
+GLIBC_2.2.5
+GLIBC_2.4
+=I! 
+=7! 
+y@H9
+F@H9
+\$Pf
+T$0f
+L$2H
+D$ H
+D$81
+T$PH
+\$81
+t$8dH34%(
+t$ H
+AWAVE
+AUATI
+[]A\A]A^A_
+[]A\A]A^A_
+ATUI
+[]A\
+ []A\
+ []A\
+GeglChantover.c
+gegl:over
+gegl-0.2
+description
+compositors:porter-duff
+categories
+svg:src-over
+name
+kernel_over
+input
+output
+RaGaBaA float
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+Porter Duff operation over (d = cA + cB * (1 - aA))
+__kernel void kernel_over(__global const float4     *in,       
+                          __global const float4     *aux,      
+                          __global       float4     *out)      
+{                                                              
+  int gid = get_global_id(0);                                  
+  float4 in_v  = in [gid];                                     
+  float4 aux_v = aux[gid];                                     
+  float4 out_v;                                                
+  out_v.xyz = aux_v.xyz + in_v.xyz * (1.0f - aux_v.w);         
+  out_v.w   = aux_v.w + in_v.w - aux_v.w * in_v.w;             
+  out[gid]  = out_v;                                           
+}                                                              
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+;*3$"
+over.so.debug
+7zXZ
+[`L.
+N@9t
+m.%&q
+-O}e
+H`hl<wS
+]2vZF
+h&)h
+KryzHY3
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

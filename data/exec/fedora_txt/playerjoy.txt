@@ -1,0 +1,243 @@
+td4M
+/lib/ld-linux.so.2
+libpthread.so.0
+_ITM_deregisterTMCloneTable
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+read
+open
+pthread_create
+libplayerc++.so.3.0
+_ZN5boost6system15system_categoryEv
+_ZN5boost6system16generic_categoryEv
+__gmon_start__
+_ZN5boost6system12system_errorD2Ev
+_ZStlsRSoRKN8PlayerCc15Position2dProxyE
+_ZN8PlayerCc13ActArrayProxyC1EPNS_12PlayerClientEj
+_ZN8PlayerCc13ActArrayProxy6MoveToEjf
+_ZN8PlayerCc15Position2dProxy10SetCarlikeEdd
+_ZTIN5boost6system12system_errorE
+_ZN8PlayerCc15Position3dProxy8SetSpeedEdddddd
+_ZN8PlayerCc12GripperProxy5CloseEv
+_ZN8PlayerCc15Position2dProxy8SetSpeedEddd
+_ZNK5boost6system12system_error4whatEv
+_ZN8PlayerCc12GripperProxyC1EPNS_12PlayerClientEj
+_ZN8PlayerCc12GripperProxy4OpenEv
+_ZN8PlayerCc12PlayerClientC1ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEji
+_ZN8PlayerCc15Position3dProxy14SetMotorEnableEb
+_ZN8PlayerCc15Position2dProxyC1EPNS_12PlayerClientEj
+_ZTVN5boost6system12system_errorE
+_ZN8PlayerCc15Position2dProxy14SetMotorEnableEb
+_ZN8PlayerCc15Position3dProxyC1EPNS_12PlayerClientEj
+_ZN8PlayerCc12PlayerClient4ReadEv
+_ZN5boost6system12system_errorD0Ev
+_ZStlsRSoRKN8PlayerCc15Position3dProxyE
+_ZN5boost6system12system_errorD1Ev
+_ZTSN5boost6system12system_errorE
+libplayerc.so.3.0
+libplayerinterface.so.3.0
+libz.so.1
+libgeos-3.4.2.so
+libgeos_c.so.1
+libboost_thread.so.1.58.0
+libboost_system.so.1.58.0
+libboost_signals.so.1.58.0
+libm.so.6
+libplayerjpeg.so.3.0
+libjpeg.so.62
+libplayerwkb.so.3.0
+libplayercommon.so.3.0
+libstdc++.so.6
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
+_ZSt4cout
+_ZTISt13runtime_error
+__cxa_call_unexpected
+__cxa_end_catch
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
+__cxa_begin_catch
+_ZSt20__throw_length_errorPKc
+_ZNKSt13runtime_error4whatEv
+_ZNSt8ios_base4InitD1Ev
+_ZNSt13runtime_errorD2Ev
+__gxx_personality_v0
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
+_ZNSt8__detail15_List_node_base7_M_hookEPS0_
+_Znwj
+_ZSt19__throw_logic_errorPKc
+_ZNSt8ios_base4InitC1Ev
+_ZdlPv
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
+libgcc_s.so.1
+_Unwind_Resume
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+perror
+strncpy
+puts
+strtod
+strtol
+strlen
+__cxa_atexit
+tcsetattr
+stdout
+stderr
+fwrite
+gettimeofday
+strchr
+tcgetattr
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+use_keyboard
+use_gripper
+_ZN6Client4ReadEv
+_fp_hw
+jsdev
+_ZN6ClientC2EPKci
+_Z16keyboard_handlerPv
+always_command
+_ZN6ClientC1EPKci
+use_car
+max_turn
+__data_start
+debug_mode
+_ZN6Client6UpdateEP10controller
+_Z16joystick_handlerPv
+__libc_csu_init
+max_speed
+print_speeds
+threed
+__libc_csu_fini
+g_verbose
+GCC_3.0
+CXXABI_1.3
+GLIBCXX_3.4.21
+GLIBCXX_3.4.15
+GLIBCXX_3.4
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.4
+GLIBC_2.1.3
+GLIBC_2.3.4
+D$\1
+D$$9E
+D$$9E
+D$,9D$<uL
+t$<;t$,tQ
+6;t$,u
+t$<;t$,t'
+6;t$,u
+t$<;t$,
+D$<;D$,t
+;|$,
+UWVS
+D$,1
+UWVS
+,<Nw
+\$ t>
+\$ u
+D$,1
+L$(w;
+D$,e3
+d$<[^_]
+UWVS
+D$<1
+D$<e3
+d$L[^_]
+D$$9
+D$L1
+t$dt"
+D$Le3
+d$P[^_
+[^_]
+UWVS
+t$,U
+[^_]
+Failed to read from joystick, trying again
+q/z : increase/decrease max speeds by 10%
+w/x : increase/decrease only linear speed by 10%
+e/c : increase/decrease only angular speed by 10%
+basic_string::_M_construct null not valid
+Connecting to Player at %s:%d - 
+USAGE: playerjoy [options] <host:port> [<host:port>] ... 
+       -v   : verbose mode; print Player device state on stdout
+       -3d  : connect to position3d interface (instead of position)
+       -c   : continuously send commands
+       -n   : dont send commands or enable motors (debugging)
+       -k   : use keyboard control
+       -p   : print out speeds on the console
+       -udp : use UDP instead of TCP (deprecated, currently disabled)
+       -speed     : maximum linear speed (m/sec)
+       -turnspeed : maximum angular speed (deg/sec)
+       -dev <dev> : joystick device file (default /dev/js0)
+       <host:port> : connect to a Player on this host and port
+Falling back on keyboard control
+Reading from keyboard
+---------------------------
+Moving around:
+   u    i    o
+   j    k    l
+   m    ,    .
+r/v : gripper open/close
+t/b : lift up/down
+anything else : stop
+read():
+Success
+%5.3f %5.3f
+-speed
+-turnspeed
+-dev
+localhost
+/dev/js0
+Failed to open joystick
+basic_string::append
+N5boost6system12system_errorE
+;*2$"$
+zPLR
+es-8R
+playerjoy.debug
+7zXZ
+kU[d
+T^cYr
+37V8:
+~C{_a
+q.7CMo
+s4%9
+6w!C|K
+Nw}5
+?`$'
+X1\E
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

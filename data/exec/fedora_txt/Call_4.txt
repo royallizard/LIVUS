@@ -1,0 +1,153 @@
+tdDU
+]D0:
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+boot_Filter__Util__Call
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+XS_Filter__Util__Call_filter_read
+Perl_newXS_flags
+XS_Filter__Util__Call_real_import
+XS_Filter__Util__Call_filter_del
+XS_Filter__Util__Call_unimport
+Perl_my_cxt_init
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_sv_2pv_flags
+Perl_croak_nocontext
+Perl_vstringify
+Perl_croak
+Perl_filter_del
+Perl_Imy_cxt_list_ptr
+Perl_Iparser_ptr
+Perl_warn_nocontext
+Perl_ninstr
+Perl_sv_catpvn_flags
+Perl_push_scope
+Perl_Idebug_ptr
+Perl_Itmps_floor_ptr
+Perl_save_int
+Perl_Itmps_ix_ptr
+Perl_Idefgv_ptr
+Perl_save_sptr
+Perl_sv_2mortal
+Perl_Imarkstack_max_ptr
+Perl_Istack_max_ptr
+Perl_call_method
+Perl_filter_read
+Perl_call_sv
+Perl_sv_setpvn
+Perl_pop_scope
+Perl_Gthr_key_ptr
+pthread_getspecific
+Perl_deb
+Perl_sv_2iv_flags
+Perl_free_tmps
+Perl_gv_SVadd
+Perl_stack_grow
+Perl_markstack_grow
+Perl_av_len
+Perl_newSV
+Perl_filter_add
+Perl_savepv
+Perl_newSVsv
+Perl_Iop_ptr
+Perl_sv_newmortal
+Perl_sv_setiv
+Perl_pad_sv
+Perl_mg_set
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+L[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+,[^_]
+XS_VERSION
+%s::%s
+1.07
+version
+bootstrap parameter
+Call.c
+Filter::Util::Call::unimport
+gonna call %s::filter
+Call.xs
+ENTER
+%s scope %ld at %s:%d
+filter
+LEAVE
+Usage: %s(%s)
+object, perlmodule, coderef
+size=0
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "Call.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+Filter::Util::Call::filter_read
+Filter::Util::Call::real_import
+Filter::Util::Call::filter_del
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+Assertion %s failed: file "Call.xs", line %d
+**** In filter_call - maxlen = %d, out len buf = %d idx = %d my_sv = %d [%s]
+BLOCK(%d): size = %d, maxlen = %d
+((svtype)((my_sv)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((my_sv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((my_sv)->sv_flags & 0xff)) != SVt_PVHV
+!((((my_sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((my_sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((my_sv)->sv_flags & 0xff)) == SVt_PVLV))
+recycle %d - leaving %d, returning %d [%s]
+((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV
+((((shplep)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((shplep)->sv_flags & 0xff)) == SVt_PVLV))
+Filter::Util::Call - %s::filter returned %d values, 1 was expected 
+((svtype)((_svi)->sv_flags & 0xff)) == SVt_IV || ((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PVIV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+status = %d, length op buf = %d [%s]
+filter_read %d returned %d , returning %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((sv)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (sv); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 224), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 224), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 224), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 224), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 224), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "Call.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 224), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+!((((sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((sv)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((sv)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((sv)->sv_flags & 0xff)) != SVt_PVHV
+Call.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,282 @@
+/lib64/ld-linux-x86-64.so.2
+libdl.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libcondor_utils_8_3_8.so
+_ZN9HashTableI8MyStringS0_ED1Ev
+safe_fopen_wrapper_follow
+_ZN9HashTableI8MyStringS0_ED2Ev
+__wrap_exit
+_ZN8MyStringC1EPKc
+sleep
+_ZN9HashTableI8MyStringS0_E6insertERKS0_S3_
+_ZN11ReadUserLog9readEventERP9ULogEvent
+_ZN11ReadUserLog10initializeEPKcbbb
+_ZN8MyStringaSERKS_
+_ZN11ReadUserLogC1Eb
+_ZN9ULogEvent11formatEventERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+dprintf_to_term_check
+_ZN8MyStringD1Ev
+_ZN9HashTableI8MyStringS0_E7addItemERKS0_S3_
+_ZN11ReadUserLog11synchronizeEv
+_ZN12ExecuteEvent14getExecuteHostEv
+dprintf_config_tool
+_Z12MyStringHashRK8MyString
+config
+_ZN8MyStringC1Ev
+myDistro
+_ZeqRK8MyStringS1_
+_ZN9HashTableI8MyStringS0_E6removeERKS0_
+_ZN12Distribution4InitEiPPc
+_ZN11ReadUserLog16releaseResourcesEv
+dprintf
+CondorPlatform
+CondorVersion
+librt.so.1
+libclassad.so.7
+libvomsapi.so.1
+libglobus_gss_assist.so.3
+libglobus_gssapi_gsi.so.4
+libglobus_gsi_proxy_core.so.0
+libglobus_gsi_credential.so.1
+libglobus_gsi_callback.so.0
+libglobus_gsi_sysconfig.so.1
+libglobus_oldgaa.so.0
+libglobus_gsi_cert_utils.so.0
+libglobus_openssl.so.0
+libglobus_openssl_error.so.0
+libglobus_proxy_ssl.so.1
+libglobus_callout.so.0
+libglobus_common.so.0
+libltdl.so.7
+libexpat.so.1
+libpcre.so.1
+libssl.so.10
+libcrypto.so.10
+libkrb5.so.3
+libcom_err.so.2
+libk5crypto.so.3
+libkrb5support.so.0
+libgssapi_krb5.so.2
+libstdc++.so.6
+__gxx_personality_v0
+__cxa_throw_bad_array_new_length
+_ZdlPv
+_Znam
+_ZdaPv
+_Znwm
+libm.so.6
+libgcc_s.so.1
+_Unwind_Resume
+libpthread.so.0
+__errno_location
+libc.so.6
+__printf_chk
+ftell
+strtol
+fseek
+__fprintf_chk
+ctime
+fclose
+sscanf
+stderr
+__cxa_finalize
+__sprintf_chk
+strerror
+__libc_start_main
+_edata
+__bss_start
+_end
+$ORIGIN/../lib:/lib64:/usr/lib64:$ORIGIN/../lib/condor:/usr/lib64/condor
+__libc_csu_fini
+__data_start
+__libc_csu_init
+_IO_stdin_used
+GLIBC_2.2.5
+GCC_3.0
+GLIBC_2.3.4
+CXXABI_1.3.8
+CXXABI_1.3
+GLIBCXX_3.4
+5z& 
+%|& 
+%z& 
+%r& 
+%j& 
+%b& 
+%Z& 
+%R& 
+%J& 
+%B& 
+%:& 
+%2& 
+%*& 
+%"& 
+%z% 
+%r% 
+%j% 
+%b% 
+%Z% 
+%R% 
+%J% 
+%B% 
+%:% 
+%2% 
+AWAVH
+AUATUS
+D$PE1
+<$Mc
+~jIc
+L$HH
+T$DL
+D$LH
+T$ H
+D$XH
+D$0H
+D$8H
+t$ H
+|$ H
+D$XH
+PPRL
+_AXL
+l$`H
+D$D9GH
+D$H9GLt	
+D$L9GPt	
+d$8H
+t$0H
+|$XH
+d$PL9
+T$ H
+L$ H
+D$0H
+fffff.
+fffff.
+fffff.
+AUATI
+E9,$
+L$0I;L$8H
+I9D$8
+|$0H
+[]A\A]
+[]A\A]
+AVAUI
+CPI9
+I9\$(H
+D$0I;D$8u
+I9D$8tdH
+I9D$8
+]A\A]A^
+]A\A]A^
+I9\$(
+AWAVI
+AUATI
+4$Hc
+T$8I+T$0A
+[]A\A]A^A_
+AUATI
+[]A\A]
+[]A\A]
+AWAVA
+AUATL
+[]A\A]A^A_
+Use: %s [options] <log-file> [job-number]
+    -help             Display options
+    -version          Display Condor version
+    -debug            Show extra debugging info
+    -status           Show job start and terminate info
+    -echo             Echo log events relevant to [job-number]
+    -num <number>     Wait for this many jobs to end
+                       (default is all jobs)
+    -wait <seconds>   Wait no more than this time
+                       (default is unlimited)
+This command watches a log file, and indicates when
+a specific job (or all jobs mentioned in the log)
+have completed or aborted.  It returns success if
+all such jobs have completed or aborted, and returns
+    %s -wait 60 logfile 13.25.3
+-num must be greater than zero
+Couldn't understand job number: %s
+Specifed number of jobs (%d) done.
+INFO: File %s changed but userLog reader could not read another event. We are reinitializing userLog reader. 
+<reinitializing userLog reader>
+%d submitted %d completed %d aborted %d remaining
+This log does not mention any jobs!
+This log does not mention that job!
+No more events, sleeping for %ld seconds
+Where options are:
+failure otherwise.
+Examples:
+    %s logfile
+    %s logfile 35
+    %s logfile 1406.35
+    %s -num 2 logfile
+-help
+-version
+-debug
+TOOL
+-status
+-status is implied by -debug
+-echo
+-wait
+-wait requires an argument
+Will wait until %s
+-num
+-num requires an argument
+Will wait until %d jobs end
+Extra argument: %s
+%d.%d.%d
+Reading log file %s
+%s...
+%s submitted
+%s completed
+%s aborted
+%s executing on host %s
+All jobs done.
+Couldn't open %s: %s
+Time expired.
+?$CondorVersion: 8.3.8 Oct 01 2015 BuildID: RH-8.3.8-1.fc23 $
+$CondorPlatform: X86_64-RedHat_ $
+;*3$"
+zPLR
+condor_wait.debug
+7zXZ
+QNOLRE
+	k= 
+M(P~$
+z"|Z
+g3]S
+	qfr
+Jv5n
+tVt*
+b^(u
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

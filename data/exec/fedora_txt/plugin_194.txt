@@ -1,0 +1,430 @@
+td@w
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_dup
+value_peek_string
+g_utf8_skip
+g_utf8_get_char
+g_unichar_isspace
+workbook_date_conv
+format_match_number
+value_new_error_VALUE
+g_utf8_strup
+value_new_string_nocopy
+g_string_new
+g_string_append_unichar
+g_string_free
+g_string_truncate
+value_zero
+go_format_str_delocalize
+go_format_new_from_XL
+g_string_sized_new
+format_value_gstring
+go_format_unref
+value_release
+format_match
+value_new_empty
+value_get_as_string
+value_get_as_float
+strstr
+g_string_append_len
+g_string_append
+value_new_int
+gnm_regcomp_XL
+go_regexec
+go_regfree
+g_log
+g_utf8_pointer_to_offset
+value_new_string
+g_utf8_find_next_char
+g_utf8_strlen
+g_utf8_offset_to_pointer
+g_try_malloc
+memcpy
+g_utf8_get_char_validated
+g_utf8_validate
+g_malloc
+g_unichar_tolower
+g_unichar_isalpha
+g_unichar_toupper
+format_match_decimal_number_with_locale
+g_utf8_find_prev_char
+g_strndup
+g_utf8_strdown
+value_get_as_checked_bool
+go_fake_trunc
+value_new_float
+go_format_details_new
+go_format_generate_str
+go_format_details_free
+format_value
+go_pow10
+go_fake_round
+g_strstr_len
+g_utf8_collate
+value_new_bool
+range_concatenate
+string_range_function
+g_convert_with_iconv
+g_unichar_isprint
+g_unichar_validate
+g_unichar_to_utf8
+go_locale_get_currency
+go_string_append_gstring
+g_string_insert_c
+go_string_append_c_n
+go_plugin_init
+gsf_msole_iconv_win_codepage
+gsf_msole_iconv_open_for_import
+gsf_msole_iconv_open_for_export
+go_plugin_shutdown
+gsf_iconv_close
+go_plugin_depends
+go_plugin_header
+string_functions
+libm.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+[^_]
+d$,[^_]
+d$,[^_]
+d$,[^_]
+[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$l[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$\[^_]
+d$\[^_]
+d$,[^_]
+[^_]
+[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$\[^_]
+d$\[^_]
+d$\[^_]
+d$<[^_]
+d$<[^_]
+d$\[^_]
+z+u1
+d$\[^_]
+d$<[^_]
+d$<[^_]
+d$L[^_]
+d$L[^_]
+d$$[]
+d$@[^]
+d$@[^]
+d$,[^_]
+d$|[^_]
+d$|[^_]
+Unexpected go_regexec result
+Unexpected regcomp result
+iconv failed for CODE(U%x)
+iconv failed for CHAR(%d)
+#,##0
+goffice
+gnumeric
+1.10.11
+unichar
+clean
+unicode
+concatenate
+dollar
+exact
+find
+findb
+fixed
+f|fb
+left
+leftb
+lenb
+lower
+midb
+numbervalue
+proper
+replace
+SffS
+replaceb
+rept
+right
+rightb
+search
+searchb
+substitute
+SSS|f
+trim
+upper
+text:string
+=ASC("
+x:code point
+=CHAR(65)
+x:Unicode code point
+=UNICHAR(65)
+=UNICHAR(960)
+=UNICHAR(20000)
+CHAR,UNICODE,CODE
+=CLEAN("Gnumeric"&char(7))
+c:character
+=CODE("A")
+=UNICODE("A")
+UNICHAR,CODE,CHAR
+s1:first string
+s2:second string
+=CONCATENATE("aa","bb")
+LEFT,MID,RIGHT
+num:number
+decimals:decimals
+=DOLLAR(12345)
+FIXED,TEXT,VALUE
+string1:first string
+string2:second string
+=EXACT("Gnumeric","Gnumeric")
+=EXACT("gnumeric","Gnumeric")
+LEN,SEARCH,DELTA
+string1:search string
+string2:search field
+=FIND("num","Gnumeric")
+EXACT,LEN,MID,SEARCH
+=FINDB("v","L
+vy")
+=FINDB("v","L
+vy",3)
+=FINDB("v","L
+vy",5)
+decimals:number of decimals
+=FIXED(1234.567,2)
+=FIXED(1234.567,2,TRUE)
+TEXT,VALUE,DOLLAR
+text:original text
+=JIS("ABC")
+s:the string
+=LEFT("L
+vy",3)
+=LEFT("L
+vy",2)
+=LEFTB("L
+vy",3)
+=LEFTB("L
+vy",2)
+=LEN("Helsinki")
+=LEN("L
+vy")
+CHAR,CODE,LENB
+=LENB("Helsinki")
+=LENB("L
+vy")
+CHAR, CODE, LEN
+=LOWER("J. F. Kennedy")
+=LOWER("L
+VY")
+=MID("L
+vy",2,1)
+=MID("L
+vy",3,2)
+=MIDB("L
+vy",2,1)
+=MIDB("L
+vy",2,2)
+=MIDB("L
+vy",3,2)
+separator:decimal separator
+=NUMBERVALUE("$1,000",",")
+=PROPER("j. f. kennedy")
+LOWER,UPPER
+old:original text
+start:starting position
+new:replacement string
+MID,SEARCH,SUBSTITUTE,TRIM
+start:starting byte position
+=REPLACEB("L
+vy",2,1,"*")
+=REPLACEB("L
+vy",2,2,"*")
+=REPLACEB("L
+vy",2,3,"*")
+=REPLACEB("L
+vy",2,4,"*")
+=REPLACEB("L
+vy",3,2,"*")
+=REPLACEB("L
+vy",3,3,"*")
+num:non-negative integer
+=REPT("x",3)
+CONCATENATE
+=RIGHT("L
+vy",2)
+=RIGHT("L
+vy",3)
+=RIGHTB("L
+vy",2)
+=RIGHTB("L
+vy",3)
+search:search string
+text:search field
+=SEARCH("c","Canc
+=SEARCH("c","Canc
+n",2)
+=SEARCH("c*c","Canc
+=SEARCH("c*c","Canc
+n",2)
+FIND,SEARCHB
+=SEARCHB("n","Canc
+=SEARCHB("n","Canc
+n",4)
+=SEARCHB("n","Canc
+n",6)
+=SEARCHB("n*n","Canc
+=SEARCHB("n*n","Canc
+n",4)
+FINDB,SEARCH
+old:string to be replaced
+REPLACE,TRIM
+value:original value
+=T("Gnumeric")
+=T(64)
+CELL,N,VALUE
+value:value to be formatted
+format:desired format
+=TEXT(3.223,"$0.00")
+DOLLAR,FIXED,VALUE
+=TRIM("  a bbb  cc ")
+CLEAN,MID,REPLACE,SUBSTITUTE
+=UPPER("Gnumeric")
+=UPPER("L
+vy")
+LOWER
+=VALUE("$1,000")
+DOLLAR,FIXED,TEXT
+iconv for CHAR(%d) produced a string of length %d
+ASC:text with full-width katakana and ASCII characters converted to half-width
+ASC converts full-width katakana and ASCII characters to half-width equivalent characters, copying all others. 
+The distinction between half-width and full-width characters is described in http://www.unicode.org/reports/tr11/.
+For most strings, this function has the same effect as in Excel.
+While in obsolete encodings ASC used to translate between 2-byte and 1-byte characters, this is not the case in UTF-8.
+This function is OpenFormula compatible.
+CHAR:the CP1252 (Windows-1252) character for the code point @{x}
+CHAR(@{x}) returns the CP1252 (Windows-1252) character with code @{x}.
+@{x} must be in the range 1 to 255.
+CP1252 (Windows-1252) is also known as the "ANSI code page", but it is not an ANSI standard.
+CP1252 (Windows-1252) is based on an early draft of ISO-8859-1, and contains all of its printable characters. It also contains all of ISO-8859-15's printable characters (but partially at different positions.)
+In CP1252 (Windows-1252), 129, 141, 143, 144, and 157 do not have matching characters.
+For @{x} from 1 to 255 except 129, 141, 143, 144, and 157 we have CODE(CHAR(@{x}))=@{x}.
+This function is Excel compatible.
+UNICHAR:the Unicode character represented by the Unicode code point @{x}
+CLEAN:@{text} with any non-printable characters removed
+CLEAN removes non-printable characters from its argument leaving only regular characters and white-space.
+CODE:the CP1252 (Windows-1252) code point for the character @{c}
+@{c} must be a valid CP1252 (Windows-1252) character.
+CP1252 (Windows-1252) is based on an early draft of ISO-8859-1, and contains all of its printable characters (but partially at different positions.)
+UNICODE:the Unicode code point for the character @{c}
+CONCATENATE:the concatenation of the strings @{s1}, @{s2},
+DOLLAR:@{num} formatted as currency
+EXACT:TRUE if @{string1} is exactly equal to @{string2}
+FIND:first position of @{string1} in @{string2} following position @{start}
+start:starting position, defaults to 1
+This search is case-sensitive.
+FINDB:first byte position of @{string1} in @{string2} following byte position @{start}
+start:starting byte position, defaults to 1
+While this function is syntactically Excel compatible, the differences in the underlying text encoding will usually yield different results.
+While this function is OpenFormula compatible, most of its behavior is, at this time, implementation specific.
+FIND,LEFTB,RIGHTB,LENB,LEFT,MID,RIGHT,LEN
+FIXED:formatted string representation of @{num}
+no_commas:TRUE if no thousand separators should be used, defaults to FALSE
+JIS:text with half-width katakana and ASCII characters converted to full-width
+JIS converts half-width katakana and ASCII characters to full-width equivalent characters, copying all others. 
+While in obsolete encodings JIS used to translate between 1-byte and 2-byte characters, this is not the case in UTF-8.
+LEFT:the first @{num_chars} characters of the string @{s}
+num_chars:the number of characters to return (defaults to 1)
+If the string @{s} is in a right-to-left script, the returned first characters are from the right of the string.
+MID,RIGHT,LEN,MIDB,RIGHTB,LENB
+LEFTB:the first characters  of the string @{s} comprising at most @{num_bytes} bytes
+num_bytes:the maximum number of bytes to return (defaults to 1)
+The semantics of this function is subject to change as various applications implement it.
+If the string is in a right-to-left script, the returned first characters are from the right of the string.
+MIDB,RIGHTB,LENB,LEFT,MID,RIGHT,LEN
+LEN:the number of characters of the string @{s}
+LENB:the number of bytes in the string @{s}
+LOWER:a lower-case version of the string @{text}
+MID:the substring of the string @{s} starting at position @{position} consisting of @{length} characters
+position:the starting position
+length:the number of characters to return
+LEFT,RIGHT,LEN,LEFTB,MIDB,RIGHTB,LENB
+MIDB:the characters following the first @{start_pos} bytes comprising at most @{num_bytes} bytes
+start_pos:the number of the byte with which to start (defaults to 1)
+LEFTB,RIGHTB,LENB,LEFT,MID,RIGHT,LEN
+NUMBERVALUE:numeric value of @{text}
+If @{text} does not look like a decimal number, NUMBERVALUE returns the value VALUE would return (ignoring the given @{separator}).
+PROPER:@{text} with initial of each word capitalised
+REPLACE:string @{old} with @{num} characters starting at @{start} replaced by @{new}
+num:number of characters to be replaced
+=REPLACE("Gnumeric",2,6,"*6*")
+REPLACEB:string @{old} with up to @{num} bytes starting at @{start} replaced by @{new}
+num:number of bytes to be replaced
+REPLACEB replaces the string of valid unicode characters starting at the byte @{start} and ending at @{start}+@{num}-1 with the string @{new}.
+REPT:@{num} repetitions of string @{text}
+RIGHT:the last @{num_chars} characters of the string @{s}
+If the string @{s} is in a right-to-left script, the returned last characters are from the left of the string.
+LEFT,MID,LEN,LEFTB,MIDB,RIGHTB,LENB
+RIGHTB:the last characters of the string @{s} comprising at most @{num_bytes} bytes
+LEFTB,MIDB,LENB,LEFT,MID,RIGHT,LEN
+SEARCH:the location of the @{search} string within @{text} after position @{start}
+@{search} may contain wildcard characters (*) and question marks (?). A question mark matches any single character, and a wildcard matches any string including the empty string. To search for * or ?, precede the symbol with ~.
+This search is not case sensitive.
+If @{search} is not found, SEARCH returns #VALUE!
+If @{start} is less than one or it is greater than the length of @{text}, SEARCH returns #VALUE!
+SEARCHB:the location of the @{search} string within @{text} after byte position @{start}
+If @{search} is not found, SEARCHB returns #VALUE!
+If @{start} is less than one or it is greater than the byte length of @{text}, SEARCHB returns #VALUE!
+SUBSTITUTE:@{text} with all occurrences of @{old} replaced by @{new}
+num:if @{num} is specified and a number only the @{num}th occurrence of @{old} is replaced
+=SUBSTITUTE("United Nations Educational, Scientific and Cultural Organization","ation","-5-")
+=SUBSTITUTE("United Nations Educational, Scientific and Cultural Organization","ation","-5-",2)
+T:@{value} if and only if @{value} is text, otherwise empty
+TEXT:@{value} as a string formatted as @{format}
+=TEXT(date(1999,4,15),"mmmm, dd, yy")
+TRIM:@{text} with only single spaces between words
+UPPER:an upper-case version of the string @{text}
+VALUE:numeric value of @{text}
+munG
+plugin.so.debug
+yMWu
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,262 @@
+tdhX
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+xine_fast_memcpy
+xine_mm_accel
+dcgettext
+XLockDisplay
+XvQueryExtension
+XvMCQueryExtension
+XvQueryAdaptors
+xine_log
+XvMCListSurfaceTypes
+XvGrabPort
+XUnlockDisplay
+malloc
+XFree
+XvSetPortAttribute
+XInternAtom
+XSetForeground
+XFillRectangle
+XvGetPortAttribute
+_x_vo_scale_compute_ideal_size
+_x_vo_scale_compute_output_size
+XvMCHideSurface
+XvMCDestroySurface
+XvMCDestroyContext
+XFreeGC
+XvUngrabPort
+_x_alphablend_free
+XCreateGC
+_x_vo_scale_translate_gui2video
+XvMCPutSurface
+XSync
+_x_blend_yuy2
+_x_blend_yuv
+calloc
+pthread_mutex_init
+XvMCRenderSurface
+XvMCFlushSurface
+_x_vo_scale_redraw_needed
+XvMCSyncSurface
+_x_alphablend_init
+_x_vo_scale_init
+XAllocNamedColor
+XvQueryPortAttributes
+XvListImageFormats
+XvMCDestroyBlocks
+XvMCDestroyMacroBlocks
+XvMCCreateContext
+XvMCCreateSurface
+XvMCCreateBlocks
+XvMCCreateMacroBlocks
+stderr
+__fprintf_chk
+abort
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+libm.so.6
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libXvMCW.so.1
+libXv.so.1
+libX11.so.6
+libXext.so.6
+libXinerama.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_vo_out_xvmc.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.3.4
+UWVS
+d$|[^_]
+d$|[^_]
+9T$$
+d$|[^_]
+T$$9T$
+t$89t$ 
+T$@+T$4
+d$|[^_]
+9t$ 
+D$`X
+D$dX
+D$X,
+D$\,
+t$Df
+t$ 9t$4
+T$<+T$0
+o|$`
+o\$`
+o\$X
+e|$h
+D$Xq
+D$\q
+D$`I
+D$dI
+T$$9T$
++L$ 
+et$`
+UWVS
+T$Xu
+T$<9T$`
+D$Lt
+9l$|
+t$4u
+t$H1
+T$<1
+T$Dt
+[^_]
+t$L1
+9l$|
+t$4u
+l$H1
+9l$|
+[^_]
+d$$[^
+D$8)
+D$<)
+YV12t
+XvMCu;
+XvMC
+d$$[^
+d$$[^
+d$0[^_
+d$\[^_]
+d$\[^_]
+UWVS
+D$89D$l
+T$@t 
+D$4tA
+YUY2
+YV12u
+EHYV12r
+d$|[^_]
+ELYUY2
+UWVS
+|$XXvMC
+L$H9
+XvMC
+d$,[^_]
+T$H;
+d$,[^_]
+XvMC
+XvMC
+L$\;
+T$df
+d$P^_]
+D$81
+D$8f
+d$P^_]
+D$Df
+D$Hf
+D$Lf
+none
+weave
+greedy
+onefield
+onefield_xv
+linearblend
+xvmc_update_frame_format
+xvmc_set_context
+XvMC
+libxine1
+Found XVMC_MOCOMP
+XV_DOUBLE_BUFFER
+XV_COLORKEY
+black
+XV_HUE
+XV_SATURATION
+XV_BRIGHTNESS
+XV_CONTRAST
+XV_GAMMA
+video overlay colour key
+video.device.xv_colorkey
+XV_AUTOPAINT_COLORKEY
+autopaint colour key
+enable double buffering
+video.device.xv_double_buffer
+video_out_xvmc.c
+abort: %s:%d: %s: Aborting.
+xvmc
+xine video output plugin using the XvMC X video extension
+video_out_xvmc: Xv extension not present.
+video_out_xvmc: XvMC extension not present.
+video_out_xvmc: XvQueryAdaptors failed.
+video_out_xvmc: checking adaptor %d
+didn't find XVMC_IDCT acceleration trying for MC
+video_out_xvmc: IDCTaccel %02x
+video_out_xvmc: Xv extension is present but I couldn't find a usable yuv12 port.
+              Looks like your graphics hardware driver doesn't support Xv?!
+video_out_xvmc: using Xv port %ld from adaptor %s
+                for hardware colour space conversion and scaling
+                idct and motion compensation acceleration 
+                motion compensation acceleration only
+                no XvMC support 
+                With Overlay = %d; UnsignedIntra = %d.
+video_out_xvmc: VO_PROP_ZOOM_X = %d
+video_out_xvmc: VO_PROP_ZOOM_Y = %d
+xvmc_overlay_blend: overlay blending not supported for frame format %08x
+video_out_xvmc: port attribute %s (%d) value is %d
+video_out_xvmc: ignoring broken XV_HUE settings on NVidia cards
+The colour key is used to tell the graphics card where to overlay the video image. Try different values, if you experience windows becoming transparent.
+Make Xv autopaint its colour key.
+video.device.xv_autopaint_colorkey
+Double buffering will synchronize the update of the video image to the repainting of the entire screen ("vertical retrace"). This eliminates flickering and tearing artifacts, but will use more graphics memory.
+video_out_xvmc: no port attributes defined.
+This config setting is deprecated. You should use the new deinterlacing post processing settings instead.
+From the old days of analog television, where the even and odd numbered lines of a video frame would be displayed at different times comes the idea to increase motion smoothness by also recording the lines at different times. This is called "interlacing". But unfortunately, todays displays show the even and odd numbered lines as one complete frame all at the same time (called "progressive display"), which results in ugly frame errors known as comb artifacts. Software deinterlacing is an approach to reduce these artifacts. The individual values are:
+none
+Disables software deinterlacing.
+Interpolates between the lines for moving parts of the image.
+weave
+Similar to bob, but with a tendency to preserve the full resolution, better for high detail in low movement scenes.
+greedy
+Very good adaptive deinterlacer, but needs a lot of CPU power.
+onefield
+Always interpolates and reduces vertical resolution.
+onefieldxv
+Same as onefield, but does the interpolation in hardware.
+linearblend
+Applies a slight vertical blur to remove the comb artifacts. Good results with medium CPU usage.
+deinterlace method (deprecated)
+video.output.xv_deinterlace_method
+xvmc_update_frame_format: frame format %08x not supported
+set_context: couldn't create XvMCContext
+set_context: couldn't create XvMCSurfaces
+set_context: ERROR XvMCCreateBlocks failed
+set_context: ERROR XvMCCreateMacroBlocks failed
+xineplug_vo_out_xvmc.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

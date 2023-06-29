@@ -1,0 +1,98 @@
+/lib/ld-linux.so.2
+libdovecot.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+close_keep_errno
+i_fatal
+dec2str
+t_strdup_printf
+libc.so.6
+_IO_stdin_used
+wait
+pipe
+fork
+time
+open64
+read
+dup2
+system
+execvp
+__cxa_finalize
+__libc_start_main
+write
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+__libc_csu_fini
+__data_start
+__libc_csu_init
+_fp_hw
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.0
+D$$y$
+[^_]
+[^_]
+Usage: gdbhelper <program> [<args>]
+handle SIGPIPE nostop
+handle SIGALRM nostop
+handle SIG32 nostop
+cont
+bt full
+quit
+fork() failed: %m
+execvp(%s) failed: %m
+pipe() failed: %m
+write() failed: %m
+dup2() failed: %m
+gdb %s %s
+system() failed: %m
+wait() failed: %m
+/tmp/gdbhelper.%s.%s
+open(%s) failed: %m
+write(%s) failed: %m
+read(pipe) failed: %m
+;*2$",
+gdbhelper.debug
+7zXZ
+7^\T
+8O/^
+=ks{$
+t?!x
+Nk0n
+vw!tu
+*N8.
+QRdXB?
+&8X;aU
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

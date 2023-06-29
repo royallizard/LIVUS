@@ -1,0 +1,166 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+value_get_as_int
+value_new_int
+g_realloc
+value_new_error
+value_new_error_NUM
+value_new_bool
+value_new_error_VALUE
+go_plugin_shutdown
+g_free
+go_plugin_depends
+go_plugin_header
+num_theory_functions
+bitwise_functions
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+numtheory.so
+GLIBC_2.1.3
+[^_]
+ [^]
+ [^]
+ [^]
+,[^_]
+,[^_]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+ [^]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+#LIMIT!
+goffice
+gnumeric
+1.6.3
+ithprime
+number
+pfactor
+nt_phi
+nt_d
+nt_sigma
+isprime
+nt_pi
+nt_mu
+bitor
+bitxor
+bitand
+bitlshift
+bitrshift
+munG
+@FUNCTION=ITHPRIME
+@SYNTAX=ITHPRIME(i)
+@DESCRIPTION=ITHPRIME function returns the @ith prime.
+@EXAMPLES=
+@SEEALSO=NT_D, NT_SIGMA
+@FUNCTION=PFACTOR
+@SYNTAX=PFACTOR(n)
+@DESCRIPTION=PFACTOR function returns the smallest prime factor of its argument.
+The argument must be at least 2, or else a #VALUE! error is returned.
+@EXAMPLES=
+@SEEALSO=ITHPRIME
+@FUNCTION=NT_PHI
+@SYNTAX=NT_PHI(n)
+@DESCRIPTION=NT_PHI function calculates the number of integers less than or equal to @n that are relatively prime to @n.
+@EXAMPLES=
+@SEEALSO=NT_D, ITHPRIME, NT_SIGMA
+@FUNCTION=NT_D
+@SYNTAX=NT_D(n)
+@DESCRIPTION=NT_D function calculates the number of divisors of @n.
+@EXAMPLES=
+@SEEALSO=ITHPRIME, NT_PHI, NT_SIGMA
+@FUNCTION=NT_SIGMA
+@SYNTAX=NT_SIGMA(n)
+@DESCRIPTION=NT_SIGMA function calculates the sum of the divisors of @n.
+@EXAMPLES=
+@SEEALSO=NT_D, ITHPRIME, NT_PHI
+@FUNCTION=ISPRIME
+@SYNTAX=ISPRIME(i)
+@DESCRIPTION=ISPRIME function returns TRUE if @i is prime and FALSE otherwise.
+@EXAMPLES=
+@SEEALSO=ITHPRIME, NT_D, NT_SIGMA
+@FUNCTION=NT_PI
+@SYNTAX=NT_PI(n)
+@DESCRIPTION=NT_PI function returns the number of primes less than or equal to @n.
+@EXAMPLES=
+@SEEALSO=ITHPRIME, NT_PHI, NT_D, NT_SIGMA
+@FUNCTION=NT_MU
+@SYNTAX=NT_MU(n)
+@DESCRIPTION=NT_MU function (M
+bius mu function) returns 
+0  if @n is divisible by the square of a prime .
+Otherwise it returns: 
+  -1 if @n has an odd  number of different prime factors .
+   1  if @n has an even number of different prime factors .
+* If @n = 1 NT_MU returns 1.
+@EXAMPLES=
+@SEEALSO=NT_D, ITHPRIME, NT_PHI
+@FUNCTION=BITOR
+@SYNTAX=BITOR(a,b)
+@DESCRIPTION=BITOR function returns bitwise or-ing of its arguments.
+@EXAMPLES=
+@SEEALSO=BITXOR,BITAND
+@FUNCTION=BITXOR
+@SYNTAX=BITXOR(a,b)
+@DESCRIPTION=BITXOR function returns bitwise exclusive or-ing of its arguments.
+@EXAMPLES=
+@SEEALSO=BITOR,BITAND
+@FUNCTION=BITAND
+@SYNTAX=BITAND(a,b)
+@DESCRIPTION=BITAND function returns bitwise and-ing of its arguments.
+@EXAMPLES=
+@SEEALSO=BITOR,BITXOR
+@FUNCTION=BITLSHIFT
+@SYNTAX=BITLSHIFT(x,n)
+@DESCRIPTION=BITLSHIFT function returns @x bit-shifted left by @n bits.
+* If @n is negative, a right shift will in effect be performed.
+@EXAMPLES=
+@SEEALSO=BITRSHIFT
+@FUNCTION=BITRSHIFT
+@SYNTAX=BITRSHIFT(x,n)
+@DESCRIPTION=BITRSHIFT function returns @x bit-shifted right by @n bits.
+* If @n is negative, a left shift will in effect be performed.
+@EXAMPLES=
+@SEEALSO=BITLSHIFT
+numtheory.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

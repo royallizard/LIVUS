@@ -1,0 +1,362 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+ast_unregister_application
+__ctype_tolower_loc
+__ctype_toupper_loc
+strchr
+strlen
+__snprintf_chk
+memset
+ast_var_name
+strncasecmp
+strncat
+__stack_chk_fail
+ast_app_separate_args
+pbx_builtin_setvar_helper
+pbx_builtin_getvar_helper
+sscanf
+__rawmemchr
+ast_log
+pbx_substitute_variables_helper
+strptime
+ast_mktime
+gettimeofday
+ast_get_timeval
+ast_localtime
+ast_strftime
+memcpy
+option_debug
+ast_options
+ast_debug_get_by_file
+ast_autoservice_stop
+regcomp
+regexec
+regfree
+regerror
+ast_get_encoded_char
+__sprintf_chk
+__strsep_g
+__ast_custom_function_register
+ast_register_application2
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+%z@ 
+ATSubH
+=g< 
+=9? 
+=	@ 
+=9@ 
+=k@ 
+=3A 
+=eA 
+=QB 
+fffff.
+fffff.
+AUL9
+ATUSsZ
+[]A\A]A^
+[]A\A]A^
+fffff.
+AVAUI
+D$X1
+tqMc
+T$XdH3
+h[]A\A]A^A_
+ffffff.
+AUATUH
+[]A\A]A^A_
+d$(H
+D9d$ 
+AVAUATUSH
+T$XL
+D$ H
+D$PE
+l$0L
+t$ H
+t$8H
+t$(H
+t$HH
+D$XI
+<	v(A
+t$ H
+D$(@
+T$XI
+T$@H
+t$8D
+|$01
+D$XH
+t$ H
+t$ H
+D$(@
+T$XI
+T$HH
+t$8L
+D$(H
+l$0f
+dH34%(
+[]A\A]A^A_
+D$(L
+D$(@
+T$XIc
+t$8L
+D$(L
+T$(N
+T$XJ
+fff.
+D$PH
+|$XL
+t$`L
+D$pH
+T$xA
+[]A\
+[]A\
+|$`1
+T$`H
+L$hE1
+|$HL
+L$xH
+T$PH
+T$XH
+D$XH
+ffffff.
+AWAVI
+[A\A]A^A_
+ffff.
+D$ L
+D$hL
+L$`L
+t$hE1
+\$pH
+l$xL
+AVAUI
+ATUSH
+|$XH
+T$(L
+l$@L
+d$OL
+|$NL
+t$P1
+D$(H
+D$@H
+L$PL
+\$0A
+[]A\A]A^A_
+L$NH
+t$@D
+L$OH
+t$(A8
+t$(t
+L$ND
+uME1
+[A\A]A^A_
+=($ 
+=S$ 
+=~$ 
+5p" 
+5[" 
+5F" 
+51" 
+=*% 
+=U% 
+fff.
+AVAUATUH
+D$h1
+thHc
+T$hdH3
+x[]A\A]A^A_
+=I  
+AaBbCc2
+DdEeFf3
+GgHhIi4
+JjKkLl5
+MmNnOo6
+PpQqRrSs7
+TtUuVv8
+WwXxYyZz9
+~HASH~%s~
+~HASH~%s~%s~
+HASHKEYS
+~ODBCFIELDS~
+#0- +'I
+Lqjzt
+diouxXc
+func_strings.c
+eEfFgGaA
+array (%s=%s)
+array set value (%s=%s)
+FUNCTION REGEX (%s)(%s)
+Malformed input %s(%s): %s
+c1=%d, c2=%d
+Allowed: %s
+${%s}
+null
+$Revision: 163256 $
+func_strings
+FIELDQTY
+FIELDQTY(<varname>,<delim>)
+FILTER
+REGEX
+Regular Expression
+ARRAY
+QUOTE
+QUOTE(<string>)
+LEN(<string>)
+STRFTIME
+STRPTIME
+EVAL
+Evaluate stored variables.
+EVAL(<variable>)
+KEYPADHASH
+KEYPADHASH(<string>)
+SPRINTF
+Retrieve the keys of a HASH()
+HASHKEYS(<hashname>)
+HASH(hashname[,hashkey])
+ClearHash
+TOUPPER
+TOUPPER(<string>)
+TOLOWER
+TOLOWER(<string>)
+Argument '%s' is not an integer number for format '%s'
+SPRINTF() has more format specifiers than arguments!
+Argument '%s' is not a floating point number for format '%s'
+Format type not supported: '%s' with argument '%s'
+EVAL requires an argument: EVAL(<string>)
+Asterisk function STRPTIME() requires an argument.
+No format supplied to STRPTIME(<timestring>,<timezone>,<format>)
+C function strptime() output nothing?!!
+C function strftime() output nothing?!!
+Unexpected arguments: should have been in the form '"<regex>" <string>'
+Usage: FILTER(<allowed-chars>,<string>)
+String handling dialplan functions
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Count the fields, with an arbitrary delimiter
+Filter the string to include only the allowed characters
+Permits all characters listed in <allowed-chars>, filtering all others out.
+In addition to literally listing the characters, you may also use ranges of
+characters (delimited by a '-'), as well as hexadecimal characters started
+with a \x (i.e. \x20) and octal characters started with \0 (i.e. \040).
+Also, \t, \n, and \r are recognized.  If you want a literal '-' character,
+simply prefix it with a '\'
+FILTER(<allowed-chars>,<string>)
+Returns 1 if data matches regular expression, or 0 otherwise.
+Please note that the space following the double quotes separating the regex from the data
+is optional and if present, is skipped. If a space is desired at the beginning of the data,
+then put two spaces there; the second will not be skipped.
+REGEX("<regular expression>" <data>)
+Allows setting multiple variables at once
+The comma-separated list passed as a value to which the function is set will
+be interpreted as a set of values to which the comma-separated list of
+variable names in the argument should be set.
+Hence, Set(ARRAY(var1,var2)=1,2) will set var1 to 1 and var2 to 2.
+ARRAY(var1[,var2[...][,varN]])
+Quotes a given string, escaping embedded quotes as necessary
+Returns the length of the argument given
+Returns the current date/time in a specified format.
+STRFTIME sports all of the same formats as the underlying C function
+strftime(3) - see the man page for details.  It also supports the
+following format:
+ %[n]q - fractions of a second, with leading zeroes.  For example, %3q will
+         give milliseconds and %1q will give tenths of a second.  The default
+         is to output milliseconds (n=3).  The common case is to use it in
+         combination with %S, as in "%S.%3q".
+STRFTIME([<epoch>][,[timezone][,format]])
+Returns the epoch of the arbitrary date/time string structured as described in the format.
+This is useful for converting a date into an EPOCH time, possibly to pass to
+an application like SayUnixTime or to calculate the difference between two
+date strings.
+Example:
+  ${STRPTIME(2006-03-01 07:30:35,America/Chicago,%Y-%m-%d %H:%M:%S)} returns 1141219835
+STRPTIME(<datetime>,<timezone>,<format>)
+Using EVAL basically causes a string to be evaluated twice.
+When a variable or expression is in the dialplan, it will be
+evaluated at runtime. However, if the result of the evaluation
+is in fact a variable or expression, using EVAL will have it
+evaluated a second time. For example, if the variable ${MYVAR}
+contains "${OTHERVAR}", then the result of putting ${EVAL(${MYVAR})}
+in the dialplan will be the contents of the variable, OTHERVAR.
+Normally, by just putting ${MYVAR} in the dialplan, you would be
+left with "${OTHERVAR}".
+Hash the letters in the string into the equivalent keypad numbers.
+Example:  ${KEYPADHASH(Les)} returns "537"
+Format a variable according to a format string
+Parses the format string specified and returns a string matching that format.
+Supports most options supported by sprintf(3).  Returns a shortened string if
+a format specifier is not recognized.
+SPRINTF(<format>,<arg1>[,...<argN>])
+Returns a comma-delimited list of the current keys of an associative array
+defined by the HASH() function.  Note that if you iterate over the keys of
+the result, adding keys during iteration will cause the result of the HASHKEYS
+function to change.
+Implementation of a dialplan associative array
+In two argument mode, gets and sets values to corresponding keys within a named
+associative array.  The single-argument mode will only work when assigned to from
+a function defined by func_odbc.so.
+Convert the string to upper case.
+Example: ${TOUPPER(Example)} returns "EXAMPLE"
+Convert the string to lower case.
+Example: ${TOLOWER(Example)} returns "example"
+ClearHash(<hashname>)
+  Clears all keys out of the specified hashname
+Clear the keys from a specified hashname
+acf_sprintf
+function_eval
+acf_strptime
+acf_strftime
+array
+regex
+filter
+a9c98e5d177805051735cb5b0b16b0a0
+func_strings.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

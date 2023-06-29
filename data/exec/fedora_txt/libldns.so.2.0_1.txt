@@ -1,0 +1,5339 @@
+<.!	
+0 ,h
+X2`@v
+eR8z(f/
+gClF
+gol0
+~Z}o
+.MI0?B
+,	IQ
+GcO9
+:0"3p
+:z\l6z
+Tk)S
+EjJ-
+/g@x"
+M/pDZ
+]= T
+8~dc
+.R$>
+N\Fk
+0Q~~Hry
+C:lol
+w_}CRFFx
+B%y(
+`E2Q
+CL#*P
+*<>Lx
+E\9g
+26_{
+jfd|aGk
+S<``-\B
+l<zy
+?Q]2
+@E\t
+Igru
+Et#8
+x/s'2JV
+~3iX
+ZAgSY 
+|1}(
+-<"S
+@,62B
+Zw@r
+=ma}
+rI*G
+E-FFO
+~kGq
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+__assert_fail
+ldns_buffer_new
+malloc
+ldns_buffer_new_frm_data
+memcpy
+ldns_buffer_set_capacity
+realloc
+ldns_buffer_reserve
+ldns_buffer_printf
+__vsnprintf_chk
+ldns_buffer_free
+ldns_buffer_export
+ldns_bgetc
+ldns_buffer_copy
+X509_STORE_CTX_new
+X509_STORE_CTX_init
+X509_STORE_CTX_free
+X509_verify_cert
+OPENSSL_sk_num
+OPENSSL_sk_pop
+X509_free
+X509_check_ca
+ldns_dane_create_tlsa_owner
+ldns_rdf_get_type
+__snprintf_chk
+snprintf
+ldns_rdf_size
+ldns_rdf_data
+ldns_rdf_new_frm_data
+ldns_dane_cert2rdf
+X509_get_X509_PUBKEY
+X509_PUBKEY_get
+i2d_PUBKEY
+i2d_X509
+ldns_sha256
+ldns_rdf_new
+ldns_sha512
+ldns_dane_select_certificate
+X509_STORE_new
+X509_STORE_free
+X509_STORE_CTX_get1_chain
+OPENSSL_sk_pop_free
+X509_STORE_CTX_get_error
+X509_STORE_CTX_get_current_cert
+ldns_dane_create_tlsa_rr
+ldns_rr_new_frm_type
+ldns_native2rdf_int8
+ldns_rr_set_rdf
+ldns_rr_free
+ldns_dane_verify_rr
+ldns_rr_get_type
+ldns_rr_rd_count
+ldns_rr_rdf
+ldns_rdf2native_int8
+TLS_client_method
+SSL_CTX_new
+SSL_CTX_dane_enable
+SSL_CTX_free
+SSL_CTX_dane_set_flags
+SSL_new
+SSL_set_connect_state
+SSL_dane_enable
+SSL_free
+SSL_dane_tlsa_add
+SSL_is_server
+X509_STORE_CTX_set_default
+SSL_get0_param
+X509_STORE_CTX_get0_param
+X509_VERIFY_PARAM_set1
+SSL_get0_dane
+X509_STORE_CTX_set0_dane
+SSL_get_verify_callback
+X509_STORE_CTX_set_verify_cb
+X509_STORE_CTX_cleanup
+ldns_dane_verify
+ldns_rr_list_rr_count
+ldns_rr_list_new
+ldns_rr_list_rr
+ldns_rr_list_push_rr
+ldns_rr_list_free
+ldns_rdf_deep_free
+ldns_dname_cat_clone
+ldns_dname_cat
+ldns_rdf_set_data
+ldns_rdf_set_size
+ldns_dname_reverse
+ldns_dname_label_count
+ldns_dname_new
+ldns_rdf_set_type
+ldns_dname_new_frm_str
+ldns_rdf_new_frm_str
+ldns_dname_new_frm_data
+ldns_dname_clone_from
+ldns_dname_left_chop
+ldns_dname2canonical
+__ctype_tolower_loc
+ldns_dname_compare
+ldns_dname_is_wildcard
+ldns_dname_interval
+ldns_dname_str_absolute
+strlen
+__ctype_b_loc
+ldns_dname_absolute
+ldns_rdf2str
+ldns_dname_label
+ldns_dname_is_subdomain
+ldns_rdf_compare
+ldns_dname_match_wildcard
+qsort_rr_compare_nsec3
+ldns_rr_owner
+__printf_chk
+putchar
+ldns_dnssec_get_rrsig_for_name_and_type
+ldns_rr_rrsig_typecovered
+ldns_rdf2rr_type
+ldns_nsec_get_bitmap
+ldns_dnssec_pkt_has_rrsigs
+ldns_pkt_answer
+ldns_pkt_ancount
+ldns_pkt_authority
+ldns_pkt_nscount
+ldns_dnssec_pkt_get_rrsigs_for_name_and_type
+ldns_pkt_rr_list_by_name_and_type
+ldns_rr_list_subtype_by_rdf
+ldns_rdf_free
+ldns_rr_list_deep_free
+ldns_dnssec_pkt_get_rrsigs_for_type
+ldns_pkt_rr_list_by_type
+ldns_calc_keytag_raw
+ldns_calc_keytag
+ldns_rr_rdata2buffer_wire
+ldns_dnssec_get_dnskey_for_rrsig
+ldns_rr_rrsig_signame
+ldns_rr_rrsig_keytag
+ldns_rdf2native_int16
+ldns_key_buf2dsa_raw
+BN_bin2bn
+DSA_new
+DSA_set0_pqg
+DSA_set0_key
+BN_free
+DSA_free
+ldns_key_buf2dsa
+ldns_key_buf2rsa_raw
+BN_new
+RSA_new
+RSA_set0_key
+RSA_free
+ldns_key_buf2rsa
+ldns_digest_evp
+EVP_MD_CTX_new
+EVP_DigestInit_ex
+EVP_DigestUpdate
+EVP_DigestFinal_ex
+EVP_MD_CTX_free
+ldns_key_rr2ds
+ldns_rr_new
+ldns_rr_set_type
+ldns_rdf_clone
+ldns_rr_set_owner
+ldns_rr_ttl
+ldns_rr_set_ttl
+ldns_rr_get_class
+ldns_rr_set_class
+ldns_rr_push_rdf
+ldns_rdf2buffer_wire
+ldns_sha1
+SHA384
+ldns_dnssec_create_nsec_bitmap
+calloc
+ldns_dnssec_rrsets_contains_type
+ldns_dnssec_create_nsec
+ldns_dnssec_name_name
+ldns_create_nsec
+ldns_nsec3_hash_name
+ldns_b32_ntop_extended_hex
+ldns_str2rdf_dname
+ldns_nsec3_add_param_rdfs
+ldns_native2rdf_int16
+ldns_dnssec_create_nsec3
+ldns_create_nsec3
+ldns_nsec3_algorithm
+ldns_nsec3_flags
+ldns_nsec3_optout
+ldns_nsec3_iterations
+ldns_nsec3_salt
+ldns_nsec3_salt_length
+ldns_nsec3_salt_data
+ldns_nsec3_next_owner
+ldns_nsec3_bitmap
+ldns_nsec3_hash_name_frm_nsec3
+ldns_nsec_bitmap_covers_type
+ldns_nsec_bitmap_set_type
+ldns_nsec_bitmap_clear_type
+ldns_nsec_covers_name
+ldns_get_errorstr_by_id
+ldns_dnssec_nsec3_closest_encloser
+ldns_pkt_verify_time
+ldns_verify_time
+ldns_pkt_verify
+ldns_dnssec_chain_nsec3_list
+ldns_str2rdf_b32_ext
+ldns_rr_list_sort_nsec3
+qsort
+ldns_dnssec_default_add_to_signatures
+ldns_dnssec_default_leave_signatures
+ldns_dnssec_default_delete_signatures
+ldns_dnssec_default_replace_signatures
+ldns_convert_dsa_rrsig_asn12rdf
+d2i_DSA_SIG
+BN_num_bits
+memset
+BN_bn2bin
+ldns_convert_dsa_rrsig_rdf2asn1
+DSA_SIG_new
+DSA_SIG_set0
+i2d_DSA_SIG
+ldns_convert_ecdsa_rrsig_asn1len2rdf
+d2i_ECDSA_SIG
+ECDSA_SIG_get0
+ECDSA_SIG_free
+ldns_convert_ecdsa_rrsig_rdf2asn1
+ldns_convert_ed25519_rrsig_asn12rdf
+ldns_convert_ed25519_rrsig_rdf2asn1
+ldns_convert_ed448_rrsig_asn12rdf
+ldns_convert_ed448_rrsig_rdf2asn1
+ldns_key_list_key_count
+ldns_key_algorithm
+ldns_key_list_key
+ldns_key_flags
+ldns_key_set_use
+EVP_PKEY_base_id
+EVP_PKEY_get1_EC_KEY
+EC_KEY_get0_group
+EC_GROUP_get_curve_name
+EC_KEY_free
+ldns_create_empty_rrsig
+ldns_native2rdf_int32
+ldns_rr_rrsig_set_origttl
+ldns_key_pubkey_owner
+ldns_rr_rrsig_set_signame
+ldns_rr_rrsig_set_labels
+ldns_key_inception
+ldns_rr_rrsig_set_inception
+ldns_key_expiration
+ldns_rr_rrsig_set_expiration
+ldns_key_keytag
+ldns_rr_rrsig_set_keytag
+ldns_rr_rrsig_set_algorithm
+ldns_rr_rrsig_set_typecovered
+ldns_sign_public_dsa
+SHA1
+DSA_do_sign
+__memset_chk
+ldns_sign_public_evp
+EVP_DigestInit
+EVP_SignFinal
+EVP_PKEY_id
+ldns_sign_public_buffer
+EVP_sha512
+ldns_key_evp_key
+EVP_sha1
+EVP_sha256
+EVP_md5
+EVP_sha384
+ldns_sign_public
+ldns_rr_list_clone
+ldns_rr2canonical
+ldns_rr_list_sort
+ldns_key_use
+ldns_rrsig2buffer_wire
+ldns_rr_list2buffer_wire
+ldns_rr_rrsig_set_sig
+ldns_sign_public_rsasha1
+RSA_sign
+ldns_sign_public_rsamd5
+ldns_dnssec_zone_mark_and_get_glue
+ldns_rbtree_first
+ldns_rbtree_null_node
+ldns_rbtree_next
+ldns_dnssec_zone_mark_glue
+ldns_dnssec_name_node_next_nonglue
+ldns_dnssec_name_find_rrset
+ldns_rdf2native_int32
+ldns_traverse_postorder
+ldns_dname_compare_v
+ldns_rbtree_create
+ldns_dnssec_name_add_rr
+ldns_rbtree_insert
+ldns_rr_pop_rdf
+ldns_dnssec_zone_create_nsecs
+ldns_dnssec_zone_create_nsec3s
+ldns_dnssec_remove_signatures
+ldns_key_list_set_use
+ldns_dnssec_zone_create_rrsigs_flg
+ldns_key2rr
+ldns_rr_list_type
+ldns_dnssec_rrs_add_rr
+ldns_dnssec_rrs_new
+ldns_dnssec_zone_create_rrsigs
+ldns_dnssec_zone_sign_flg
+ldns_dnssec_zone_sign
+ldns_dnssec_zone_sign_nsec3_flg_mkmap
+ldns_dnssec_zone_add_empty_nonterminals
+ldns_dnssec_zone_find_rrset
+ldns_set_bit
+ldns_dnssec_zone_add_rr
+ldns_dnssec_zone_sign_nsec3
+ldns_dnssec_zone_sign_nsec3_flg
+ldns_zone_sign
+ldns_zone_new
+ldns_dnssec_zone_new
+ldns_zone_soa
+ldns_rr_clone
+ldns_zone_set_soa
+ldns_zone_rrs
+ldns_zone_push_rr
+ldns_dnssec_zone_free
+ldns_zone_sign_nsec3
+fwrite
+ldns_rr_rrsig_inception
+ldns_rdf2native_time_t
+ldns_rr_rrsig_expiration
+ldns_dnssec_data_chain_new
+ldns_dnssec_data_chain_free
+ldns_dnssec_data_chain_deep_free
+ldns_dnssec_data_chain_print_fmt
+ldns_rcodes
+ldns_lookup_by_id
+__fprintf_chk
+ldns_rr_descript
+ldns_rr_list_print_fmt
+ldns_dnssec_data_chain_print
+ldns_output_format_default
+ldns_dnssec_build_data_chain
+ldns_pkt_get_rcode
+ldns_resolver_query
+ldns_pkt_free
+ldns_dnssec_trust_tree_new
+ldns_dnssec_trust_tree_free
+ldns_dnssec_trust_tree_depth
+ldns_rdf_print
+stdout
+ldns_rr_print_fmt
+fputc
+OPENSSL_init_crypto
+ERR_print_errors_fp
+ldns_dnssec_trust_tree_print_fmt
+ldns_dnssec_trust_tree_print
+ldns_dnssec_trust_tree_add_parent
+ldns_dnssec_trust_tree_contains_keys
+ldns_rr_compare_ds
+ldns_dnssec_verify_denial
+ldns_rr_rrsig_labels
+ldns_dnssec_verify_denial_nsec3_match
+ldns_dnssec_verify_denial_nsec3
+ldns_ed255192pkey_raw
+EC_KEY_new_by_curve_name
+o2i_ECPublicKey
+EVP_PKEY_new
+EVP_PKEY_assign
+EVP_PKEY_free
+ldns_ed4482pkey_raw
+ldns_ecdsa2pkey_raw
+__memmove_chk
+ldns_verify_rrsig_evp_raw
+EVP_VerifyFinal
+ldns_verify_rrsig_evp
+ldns_verify_rrsig_dsa_raw
+ldns_verify_rrsig_dsa
+ldns_verify_rrsig_rsasha1_raw
+ldns_verify_rrsig_rsasha1
+ldns_verify_rrsig_rsasha256_raw
+ldns_verify_rrsig_rsasha512_raw
+ldns_verify_rrsig_rsamd5_raw
+ldns_verify_rrsig_buffers_raw
+ldns_verify_rrsig_buffers
+ldns_verify_rrsig_time
+ldns_dnssec_derive_trust_tree_dnskey_rrset_time
+ldns_dnssec_derive_trust_tree_dnskey_rrset
+ldns_dnssec_derive_trust_tree_normal_rrset_time
+ldns_dnssec_derive_trust_tree_time
+ldns_rr_list_pop_rrset
+ldns_dnssec_derive_trust_tree_ds_rrset_time
+ldns_dnssec_derive_trust_tree_no_sig_time
+ldns_dnssec_derive_trust_tree
+ldns_dnssec_derive_trust_tree_ds_rrset
+ldns_dnssec_derive_trust_tree_no_sig
+ldns_dnssec_derive_trust_tree_normal_rrset
+ldns_validate_domain_dnskey_time
+ldns_validate_domain_dnskey
+ldns_verify_rrsig
+ldns_verify_rrsig_keylist_notime
+ldns_rr_list_cat
+ldns_verify_notime
+ldns_verify_rrsig_keylist_time
+ldns_verify
+ldns_validate_domain_ds_time
+ldns_validate_domain_ds
+ldns_fetch_valid_domain_keys_time
+ldns_fetch_valid_domain_keys
+ldns_verify_trusted_time
+ldns_resolver_dnssec_anchors
+ldns_verify_trusted
+ldns_verify_rrsig_keylist
+ldns_verify_rrsig_rsamd5
+ldns_dnssec_rrs_free
+ldns_dnssec_rrs_deep_free
+ldns_rr_compare
+ldns_dnssec_rrs_print_fmt
+ldns_dnssec_rrs_print
+ldns_dnssec_rrsets_new
+ldns_dnssec_rrsets_free
+ldns_dnssec_rrsets_deep_free
+ldns_dnssec_rrsets_type
+ldns_dnssec_rrsets_set_type
+ldns_dnssec_rrsets_add_rr
+ldns_dnssec_rrsets_print_fmt
+ldns_dnssec_rrsets_print
+ldns_dnssec_name_new
+ldns_dnssec_name_free
+ldns_dnssec_name_deep_free
+ldns_dnssec_name_is_glue
+ldns_dnssec_name_set_name
+ldns_dnssec_name_set_nsec
+ldns_dnssec_name_cmp
+ldns_dnssec_name_new_frm_rr
+ldns_rbtree_search
+ldns_dnssec_name_print_fmt
+ldns_dnssec_name_print
+ldns_dnssec_zone_deep_free
+ldns_dnssec_zone_new_frm_fp_l
+ldns_rbtree_init
+ldns_zone_new_frm_fp_l
+ldns_zone_free
+ldns_dnssec_zone_new_frm_fp
+ldns_dnssec_zone_names_print_fmt
+ldns_dnssec_zone_names_print
+ldns_dnssec_zone_print_fmt
+ldns_dnssec_zone_print
+ldns_dnssec_zone_is_nsec3_optout
+ldns_duration_create
+ldns_duration_compare
+ldns_duration2string
+strncat
+ldns_duration2time
+ldns_duration_cleanup
+ldns_duration_create_from_string
+strchr
+strtol
+strrchr
+ldns_error_str
+ldns_get_rr_list_name_by_addr
+ldns_rdf_address_reverse
+ldns_get_rr_list_hosts_frm_fp_l
+ldns_fget_token_l
+ldns_bget_token
+ldns_rr_new_frm_str
+ldns_get_rr_list_hosts_frm_fp
+ldns_get_rr_list_hosts_frm_file
+fopen
+fclose
+ldns_get_rr_list_addr_by_name
+ldns_resolver_ip6
+ldns_resolver_set_ip6
+ldns_rr_list_cat_clone
+ldns_getaddrinfo
+ldns_resolver_deep_free
+ldns_resolver_new_frm_file
+ldns_nsec_type_check
+ldns_print_rr_rdf
+ldns_get_bit
+ldns_output_format_set_type
+ldns_rdf_bitmap_known_rr_types_space
+ldns_output_format_clear_type
+ldns_rdf_bitmap_known_rr_types
+ldns_pkt_opcode2buffer_str
+ldns_opcodes
+ldns_pkt_rcode2buffer_str
+ldns_algorithm2buffer_str
+ldns_algorithms
+ldns_cert_algorithm2buffer_str
+ldns_cert_algorithms
+ldns_rdf2buffer_str_dname
+ldns_rdf2buffer_str_int8
+ldns_rdf2buffer_str_int16
+ldns_rdf2buffer_str_int32
+ldns_rdf2buffer_str_time
+ldns_serial_arithmitics_gmtime_r
+strftime
+ldns_rdf2buffer_str_a
+inet_ntop
+ldns_rdf2buffer_str_aaaa
+ldns_rdf2buffer_str_str
+ldns_rdf2buffer_str_b64
+ldns_b64_ntop
+ldns_rdf2buffer_str_b32_ext
+ldns_rdf2buffer_str_hex
+ldns_rdf2buffer_str_type
+ldns_rdf2buffer_str_class
+ldns_rr_classes
+ldns_rdf2buffer_str_cert_alg
+ldns_rdf2buffer_str_alg
+ldns_rr_type2buffer_str
+ldns_rr_class2buffer_str
+ldns_rdf2buffer_str_loc
+ldns_rdf2buffer_str_unknown
+ldns_rdf2buffer_str_nsap
+ldns_rdf2buffer_str_atma
+ldns_rdf2buffer_str_wks
+getprotobynumber
+endprotoent
+getservbyport
+endservent
+ldns_rdf2buffer_str_nsec
+ldns_rdf2buffer_str_nsec3_salt
+ldns_rdf2buffer_str_period
+ldns_rdf2buffer_str_tsigtime
+ldns_rdf2buffer_str_apl
+ldns_rdf2buffer_str_int16_data
+ldns_rdf2buffer_str_ilnp64
+ldns_rdf2buffer_str_eui48
+ldns_rdf2buffer_str_eui64
+ldns_rdf2buffer_str_tag
+ldns_rdf2buffer_str_long_str
+ldns_rdf2buffer_str_hip
+ldns_rdf2buffer_str
+ldns_rdf2buffer_str_ipseckey
+ldns_wire2dname
+ldns_key_hmac_size
+ldns_key_hmac_key
+ldns_rr2buffer_str_fmt
+ldns_rr_is_question
+ldns_bubblebabble
+ldns_rr_dnskey_key_size
+ldns_rr2buffer_str
+ldns_rr_list2buffer_str_fmt
+ldns_rr_list2buffer_str
+ldns_pktheader2buffer_str
+ldns_pkt_get_opcode
+ldns_pkt_id
+ldns_pkt_qr
+ldns_pkt_aa
+ldns_pkt_tc
+ldns_pkt_rd
+ldns_pkt_cd
+ldns_pkt_ra
+ldns_pkt_ad
+ldns_pkt_qdcount
+ldns_pkt_arcount
+ldns_key2buffer_str
+ldns_key_dsa_key
+DSA_get0_pqg
+DSA_get0_key
+EC_KEY_get0_private_key
+ldns_key_rsa_key
+RSA_get0_key
+RSA_get0_factors
+RSA_get0_crt_params
+ldns_buffer2str
+strdup
+ldns_buffer_export2str
+ldns_pkt_opcode2str
+ldns_pkt_rcode2str
+ldns_pkt_algorithm2str
+ldns_pkt_cert_algorithm2str
+ldns_rr_type2str
+ldns_rr_class2str
+ldns_pkt2buffer_str_fmt
+ldns_pkt_question
+ldns_pkt_additional
+ldns_pkt_querytime
+ldns_pkt_edns
+ldns_pkt_tsig
+ldns_pkt_answerfrom
+ldns_pkt_timestamp
+ctime
+ldns_pkt_size
+ldns_pkt_edns_version
+ldns_pkt_edns_do
+ldns_pkt_edns_extended_rcode
+ldns_pkt_edns_udp_size
+ldns_pkt_edns_data
+ldns_pkt2buffer_str
+ldns_rr2str_fmt
+ldns_rr2str
+ldns_pkt2str_fmt
+ldns_pkt2str
+ldns_key2str
+ldns_rr_list2str_fmt
+ldns_rr_list2str
+fputs
+ldns_rr_print
+ldns_pkt_print_fmt
+ldns_pkt_print
+ldns_rr_list_print
+ldns_resolver_print_fmt
+ldns_resolver_nameservers
+ldns_resolver_searchlist
+ldns_resolver_rtt
+ldns_resolver_port
+ldns_resolver_edns_udp_size
+ldns_resolver_recursive
+ldns_resolver_usevc
+ldns_resolver_igntc
+ldns_resolver_fail
+ldns_resolver_retry
+ldns_resolver_retrans
+ldns_resolver_fallback
+ldns_resolver_random
+ldns_resolver_timeout
+ldns_resolver_dnssec
+ldns_resolver_dnssec_cd
+ldns_resolver_tsig_algorithm
+ldns_resolver_tsig_keyname
+ldns_resolver_debug
+ldns_resolver_domain
+ldns_resolver_defnames
+ldns_resolver_searchlist_count
+ldns_resolver_dnsrch
+ldns_resolver_nameserver_count
+ldns_resolver_print
+ldns_zone_print_fmt
+ldns_zone_print
+ldns_output_format_bubblebabble
+ldns_output_format_bubblebabble_record
+ldns_output_format_onlykeyids_record
+ldns_output_format_onlykeyids
+ldns_output_format_nocomments
+ldns_output_format_nocomments_record
+ldns_dname2buffer_wire_compress
+ldns_dname2buffer_wire
+ldns_rdf2buffer_wire_compress
+ldns_rdf2buffer_wire_canonical
+ldns_rr2buffer_wire_canonical
+ldns_rr2buffer_wire_compress
+ldns_rr2buffer_wire
+ldns_pkt2buffer_wire
+ldns_pkt_edns_z
+ldns_rbtree_free
+ldns_rdf2wire
+ldns_rr2wire
+ldns_pkt2wire
+ldns_fget_keyword_data_l
+ldns_str2rdf_b64
+EC_KEY_set_private_key
+EC_POINT_new
+EC_GROUP_get0_generator
+EC_POINT_copy
+EC_POINT_mul
+EC_KEY_set_public_key
+EC_POINT_free
+d2i_ECPrivateKey
+ldns_key_list_new
+ldns_key_new_frm_fp_rsa_l
+ldns_b64_pton
+RSA_set0_factors
+RSA_set0_crt_params
+ldns_key_new_frm_fp_rsa
+ldns_key_new_frm_fp_dsa_l
+ldns_key_new_frm_fp_dsa
+ldns_key_new_frm_fp_hmac_l
+ldns_key_new_frm_fp_hmac
+ldns_key_print
+ldns_key_set_algorithm
+ldns_key_set_flags
+ldns_key_set_evp_key
+ldns_key_set_rsa_key
+EVP_PKEY_set1_RSA
+ldns_key_set_dsa_key
+EVP_PKEY_set1_DSA
+ldns_key_assign_rsa_key
+ldns_key_assign_dsa_key
+ldns_key_set_hmac_key
+ldns_key_set_hmac_size
+ldns_key_set_external_key
+ldns_key_set_origttl
+ldns_key_set_inception
+ldns_key_set_expiration
+ldns_key_set_pubkey_owner
+ldns_key_set_keytag
+ldns_key_new
+EVP_PKEY_get1_RSA
+EVP_PKEY_get1_DSA
+ldns_key_external_key
+ldns_key_origttl
+ldns_key_list_set_key_count
+ldns_key_list_push_key
+ldns_key_list_pop_key
+EC_KEY_set_conv_form
+i2o_ECPublicKey
+memmove
+ldns_key_free
+ldns_key_new_frm_engine
+UI_OpenSSL
+ENGINE_load_private_key
+ldns_key_new_frm_fp_l
+ldns_key_new_frm_fp
+ldns_key_new_frm_algorithm
+EVP_PKEY_CTX_new_id
+EVP_PKEY_keygen_init
+EVP_PKEY_CTX_ctrl
+EVP_PKEY_keygen
+EVP_PKEY_CTX_free
+RAND_bytes
+DSA_generate_parameters_ex
+DSA_generate_key
+EC_KEY_generate_key
+RSA_pkey_ctx_ctrl
+ldns_key_deep_free
+ldns_key_list_free
+ldns_read_anchor_file
+fgetc
+ldns_key_get_file_base_name
+ldns_key_algo_supported
+ldns_signing_algorithms
+ldns_get_signing_algorithm_by_name
+strcasecmp
+__memcpy_chk
+fcntl
+poll
+socket
+bind
+getsockopt
+__errno_location
+ldns_rdf2native_sockaddr_storage
+ldns_tcp_connect
+ldns_udp_connect
+ldns_tcp_send_query
+sendto
+ldns_tcp_bgsend
+ldns_udp_send_query
+ldns_udp_bgsend
+ldns_udp_read_wire
+recvfrom
+ldns_udp_send
+ldns_tcp_read_wire_timeout
+recv
+ldns_tcp_send
+ldns_send_buffer
+ldns_resolver_source
+gettimeofday
+ldns_wire2pkt
+sleep
+ldns_resolver_set_nameserver_rtt
+ldns_resolver_nameservers_randomize
+ldns_resolver_tsig_keydata
+ldns_pkt_tsig_verify
+ldns_pkt_set_querytime
+ldns_pkt_set_answerfrom
+ldns_pkt_set_timestamp
+ldns_pkt_set_size
+ldns_send
+ldns_tcp_read_wire
+ldns_sockaddr_storage2rdf
+ldns_axfr_start
+ldns_pkt_query_new
+ldns_pkt_tsig_sign
+ldns_rr_set_question
+ldns_pkt_all
+ldns_pkt_all_noquestion
+ldns_pkt_set_edns_do
+ldns_pkt_rr
+ldns_rr_list_contains_rr
+ldns_pkt_section_count
+ldns_pkt_empty
+ldns_pkt_get_section_clone
+ldns_pkt_rr_list_by_name
+ldns_pkt_set_id
+ldns_pkt_set_random_id
+ldns_get_random
+ldns_pkt_set_qr
+ldns_pkt_set_aa
+ldns_pkt_set_tc
+ldns_pkt_set_rd
+ldns_pkt_set_additional
+ldns_pkt_set_question
+ldns_pkt_set_answer
+ldns_pkt_set_authority
+ldns_pkt_set_cd
+ldns_pkt_set_ra
+ldns_pkt_set_ad
+ldns_pkt_set_opcode
+ldns_pkt_set_rcode
+ldns_pkt_set_qdcount
+ldns_pkt_set_ancount
+ldns_pkt_set_nscount
+ldns_pkt_set_arcount
+ldns_pkt_set_edns_udp_size
+ldns_pkt_set_edns_extended_rcode
+ldns_pkt_set_edns_version
+ldns_pkt_set_edns_z
+ldns_pkt_set_edns_data
+ldns_pkt_set_section_count
+ldns_pkt_set_tsig
+ldns_pkt_push_rr
+ldns_pkt_safe_push_rr
+ldns_pkt_push_rr_list
+ldns_pkt_safe_push_rr_list
+ldns_pkt_new
+ldns_pkt_set_flags
+ldns_pkt_query_new_frm_str
+ldns_pkt_ixfr_request_new_frm_str
+ldns_pkt_ixfr_request_new
+ldns_pkt_reply_type
+ldns_pkt_clone
+ldns_edns_flags
+ldns_bskipcs
+ldns_fskipcs_l
+ungetc
+ldns_fget_token
+strncmp
+ldns_fget_keyword_data
+ldns_fskipcs
+ldns_bget_keyword_data
+ldns_directive_types
+ldns_radix_init
+ldns_radix_create
+ldns_radix_insert
+memcmp
+ldns_radix_search
+ldns_radix_delete
+ldns_radix_last
+ldns_radix_next
+ldns_radix_first
+ldns_radix_prev
+ldns_radix_find_less_equal
+ldns_radix_printf
+ldns_radix_join
+ldns_radix_split
+ldns_radix_traverse_postorder
+ldns_radix_free
+ldns_rbtree_insert_vref
+ldns_rbtree_find_less_equal
+ldns_rbtree_delete
+ldns_rbtree_last
+ldns_rbtree_previous
+ldns_rbtree_split
+ldns_rbtree_join
+ldns_native2rdf_int16_data
+ldns_str2rdf_apl
+ldns_str2rdf_str
+ldns_str2rdf_aaaa
+ldns_str2rdf_a
+ldns_str2rdf_int32
+ldns_str2rdf_int16
+ldns_str2rdf_int8
+ldns_str2rdf_matching_type
+ldns_str2rdf_selector
+ldns_str2rdf_certificate_usage
+ldns_str2rdf_long_str
+ldns_str2rdf_tag
+ldns_str2rdf_eui64
+ldns_str2rdf_eui48
+ldns_str2rdf_ilnp64
+ldns_str2rdf_nsec3_salt
+ldns_str2rdf_ipseckey
+ldns_str2rdf_atma
+ldns_str2rdf_nsap
+ldns_str2rdf_wks
+ldns_str2rdf_loc
+ldns_str2rdf_service
+ldns_str2rdf_hip
+ldns_str2rdf_period
+ldns_str2rdf_time
+ldns_str2rdf_unknown
+ldns_str2rdf_alg
+ldns_str2rdf_cert_alg
+ldns_str2rdf_class
+ldns_str2rdf_type
+ldns_str2rdf_nsec
+ldns_str2rdf_hex
+ldns_rdf_new_frm_fp_l
+ldns_rdf_new_frm_fp
+ldns_int_to_hexdigit
+ldns_rdf_hip_get_alg_hit_pk
+ldns_rdf_hip_new_frm_alg_hit_pk
+ldns_octet
+ldns_str2period
+ldns_resolver_trusted_key
+ldns_resolver_nameserver_rtt
+ldns_resolver_set_port
+ldns_resolver_set_source
+ldns_resolver_set_edns_udp_size
+ldns_resolver_set_recursive
+ldns_resolver_set_dnssec
+ldns_resolver_set_dnssec_cd
+ldns_resolver_set_dnssec_anchors
+ldns_resolver_push_dnssec_anchor
+ldns_resolver_set_igntc
+ldns_resolver_set_usevc
+ldns_resolver_set_debug
+ldns_resolver_set_fail
+ldns_resolver_set_nameserver_count
+ldns_resolver_set_dnsrch
+ldns_resolver_set_retry
+ldns_resolver_set_retrans
+ldns_resolver_set_fallback
+ldns_resolver_set_nameservers
+ldns_resolver_set_defnames
+ldns_resolver_set_rtt
+ldns_resolver_incr_nameserver_count
+ldns_resolver_push_nameserver
+ldns_resolver_push_nameserver_rr
+ldns_resolver_push_nameserver_rr_list
+ldns_resolver_dec_nameserver_count
+ldns_resolver_pop_nameserver
+ldns_resolver_set_domain
+ldns_resolver_set_timeout
+ldns_resolver_push_searchlist
+ldns_resolver_set_tsig_keyname
+ldns_resolver_set_tsig_algorithm
+ldns_resolver_set_tsig_keydata
+ldns_resolver_set_random
+ldns_resolver_clone
+ldns_resolver_free
+ldns_resolver_send_pkt
+ldns_axfr_next
+ldns_axfr_abort
+ldns_axfr_complete
+ldns_axfr_last_pkt
+ldns_resolver_set_ixfr_serial
+ldns_resolver_new
+ldns_resolver_new_frm_fp_l
+ldns_resolver_new_frm_fp
+ldns_resolver_get_ixfr_serial
+ldns_resolver_prepare_query_pkt
+ldns_resolver_send
+ldns_resolver_query_status
+ldns_resolver_search_status
+ldns_resolver_search
+ldns_rr_set_rd_count
+ldns_rr_list_set_rr_count
+ldns_rr_list_set_rr
+ldns_rr_list_push_rr_list
+ldns_rr_list_pop_rr
+ldns_rr_list_pop_rr_list
+ldns_is_rrset
+ldns_rr_set_pop_rr
+ldns_rr_compare_wire
+ldns_rr_uncompressed_size
+ldns_rr_compare_no_rdata
+ldns_rr_set_push_rr
+ldns_rr_list_compare
+ldns_rr_list2canonical
+ldns_rr_label_count
+ldns_rr_descriptor_minimum
+ldns_rr_descriptor_maximum
+ldns_rr_descriptor_field_type
+ldns_get_rr_type_by_name
+strncasecmp
+ldns_get_rr_class_by_name
+ldns_lookup_by_name
+strncpy
+__strncat_chk
+ldns_hexstring_to_data
+ldns_wire2rdf
+ldns_rr_new_frm_fp_l
+ldns_rr_new_frm_fp
+ldns_rr_new_question_frm_str
+ldns_rr_list_owner
+ldns_rr_a_address
+ldns_rr_a_set_address
+ldns_rr_ns_nsdname
+ldns_rr_mx_preference
+ldns_rr_mx_exchange
+ldns_rr_rrsig_algorithm
+ldns_rr_rrsig_origttl
+ldns_rr_rrsig_sig
+ldns_rr_dnskey_flags
+ldns_rr_dnskey_set_flags
+ldns_rr_dnskey_protocol
+ldns_rr_dnskey_set_protocol
+ldns_rr_dnskey_algorithm
+ldns_rr_dnskey_set_algorithm
+ldns_rr_dnskey_key
+ldns_rr_dnskey_set_key
+ldns_rr_dnskey_key_size_raw
+ldns_soa_serial_identity
+ldns_soa_serial_increment_by
+ldns_soa_serial_increment
+ldns_soa_serial_datecounter
+localtime_r
+ldns_soa_serial_unixtime
+ldns_rr_soa_increment_func_data
+ldns_rr_soa_increment
+ldns_rr_soa_increment_func
+ldns_rr_soa_increment_func_int
+ldns_sha1_transform
+ldns_sha1_init
+ldns_sha1_update
+ldns_sha1_final
+ldns_sha256_init
+ldns_sha256_update
+ldns_sha256_final
+ldns_sha512_init
+ldns_sha512_update
+ldns_sha512_final
+ldns_sha384_init
+ldns_sha384_update
+ldns_sha384_final
+ldns_sha384
+__isoc99_sscanf
+ldns_mktime_from_utc
+ldns_hexdigit_to_int
+strtoul
+inet_pton
+ldns_b32_pton_extended_hex
+strtod
+getservbyname
+getprotobyname
+strpbrk
+HMAC
+ldns_tsig_algorithm
+ldns_tsig_keyname
+ldns_tsig_keydata
+ldns_tsig_keyname_clone
+ldns_tsig_keydata_clone
+ldns_pkt_tsig_verify_next
+ldns_wire2rr
+ldns_pkt_tsig_sign_next
+ldns_update_pkt_tsig_add
+ldns_update_soa_mname
+ldns_update_soa_zone_mname
+ldns_update_zocount
+ldns_update_prcount
+ldns_update_upcount
+ldns_update_ad
+ldns_update_set_zo
+ldns_update_set_prcount
+ldns_update_set_upcount
+ldns_update_set_adcount
+ldns_update_pkt_new
+ldns_get_bit_r
+ldns_version
+ldns_init_random
+fread
+RAND_seed
+ldns_b32_ntop
+ldns_b32_pton
+ldns_buffer2pkt_wire
+ldns_zone_rr_count
+ldns_zone_set_rrs
+ldns_zone_push_rr_list
+ldns_zone_glue_rr_list
+ldns_zone_sort
+feof
+ldns_zone_new_frm_fp
+ldns_zone_deep_free
+libcrypto.so.1.1
+libssl.so.1.1
+libc.so.6
+__stack_chk_fail
+libldns.so.2
+OPENSSL_1_1_0
+OPENSSL_1_1_1
+GLIBC_2.1.3
+GLIBC_2.28
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3
+GLIBC_2.7
+GLIBC_2.3.4
+GLIBC_2.0
+UWVS
+[^_]
+[^_]
+|$(;F
+t$0j
+[^_]
+wM;F
+t$0j
+wH;A
+UWVS
+tGUW
+[^_]
+[^_]
+[^_]
+UWVS
+l$9U
+[^_]
+UWVS
+T$ RP
+,[^_]
+D$ PR
+Wj j
+UWVS
+tQw7
+[^_]
+[^_]
+[^_]
+[^_]
+t'RVQ
+[^_]
+D$,Pj
+D$0Pj
+D$4Pj
+t$,W
+UWVS
+[^_]
+D$ YXj
+D$&XZj
+D$'YXj
+,[^_]
+D$,Y
+L$$QP
+D$'P
+D$*P
+D$(P
+RVUQ
+ZYVP
+ZYPV
+UWVS
+,[^_]
+YZPV
+YZPV
+[^_]
+<[^_]
+D$*]Xj
+D$+XZj
+|$/W
+D$2P
+UWVS
+t$<V
+[^_]
+[^_]
+UWVS
+t$<V
+[^_]
+ZYUP
+Y_UV
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+|$$f
+Y]WV
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+l$,U
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+l$4V
+XZUW
+[^_]
+[^_]
+UWVS
+t$<V
+[^_]
+t$<V
+t$0V
+ZYWP
+0123
+4567
+89ab
+cdef
+,[^_]
+UWVS
+t$(P
+;D$$u
+[^_]
+ZYVP
+ZYVP
+UWVS
+D$Hf
+[^_]
+UWVS
+D$Df
+[^_]
+[^_f
+UWVS
+f9D$
+[^_]
+UWVS
+tVWU
+[^_]
+[^_]
+UWVS
+T$<R
+t$<V
+[^_]
+t$$V
+t$ V
+UWVS
+D$(1
+|$LW
+ZYPV
+]ZPV
+Y]PV
+YZPV
+ZYPV
+ZYPV
+XZWU
+,[^_]
+ZYPV
+UWVS
+l$,1
+[^_]
+UWVS
+ZYPV
+]ZPV
+ZYPV
+[^_]
+UWVS
+ZYPU
+D$(P
+[^_]
+tlj!Pj
+[^_]
+UWVS
+[^_]
+UWVS
+t$,P
+YZWP
+D$0P
+t$,V
+D$8P
+ZYPV
+[^_]
+UWVS
+L$4e
+UQVRP
+t$$V
+D$8P
+t$8V
+D$HP
+[^_]
+[^_]
+[^_]
+UWVS
+l$<U
+D$'P
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+t$<V
+XZUV
+t$<W
+[^_]
+[^_]
+t$<W
+UWVS
+D$-P
+D$2P
+D$4P
+t$ P
+[^_]
+,[^_]
+UWVS
+|$D.
+t$HU
+t$dWVP
+,[^_]
+t$HU
+t$(P
+UWV1
+D$,1
+D$$X
+|$8ZYVU
+L$,YXVU
+L$$QP
+L$,e3
+<[^_]
+UWVS
+D$ 1
+D$ Pj
+D5)ZP
+,[^_]
+UWVS
+D$(1
+D$ PW
+,[^_]
+UWVS
+D$ 1
+D$ Pj
+|$(]
+,[^_]
+UWVS
+t$PV
+,[^_]
+[^_]
+L$@;Q
+T$@;B
+T$@;B
+L$@;Q
+w|;w
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+|$<j
+XZUV
+YZPV
+YXUj
+ZYPV
+XZUV
+ZYPV
+ZYPj
+ZYPV
+Y]Pj
+ZYPV
+Y]PV
+_]PV
+]ZPV
+[^_]
+UWVS
+D$(1
+t$Ph
+Vj)j
+,[^_]
+UWVS
+D$(1
+t$ j
+,[^_]
+t$ W
+t$ W
+t$ W
+t$ W
+UWVS
+l$41
+XZVU
+YXVU
+ZYPW
+[^_]
+[^_]
+[^_]
+UWVS
+D$(1
+T$$R
+t$ j
+,[^_]
+UWVS
+l$@h
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+L$0j
+t$ V
+XZVU
+tz;D$
+<[^_]
+<[^_]
+UWVS
+t$8j
+YXUW
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+t$Dj
+UWV1
+L$(e
+ZYPU
+D$,u
+|$$W
+t$(W
+|$$W
+t$(W
+XZWV1
+|$$W
+[^_]
+UWVS
+t$<UWV
+[^_]
+[^_]
+UWVS
+t$LW
+[^_]
+D$<P
+D$<P
+D$<P
+D$<P
+D$<P
+D$<P
+D$<P
+D$<P
+UWVS
+ZYPV
+ZYVP
+ZYVP
+ZYPW
+t$HP
+[^_]
+UWVS
+YZPV
+YZVP
+YZVP
+YZPW
+D$(P
+D$(P
+D$(P
+D$(Pj
+t$hU
+YZWP
+[^_]
+UWVS
+9|$0v
+t#9<$u
+[^_]
+[^_]
+[^_]
+D$81
+t$,e35
+<[^_]
+]XWV
+]XWV
+XZWV
+l$8YXWV
+ZYUP
+UWVS
+[^_]
+[^_]
+UWVS
+t$HW
+[^_]
+t$HP
+t$LU
+[^_]
+D$PYXj
+D$PXZj
+t$HP
+|$$W
+j0WP
+ZYPU
+,[^_]
+,[^_]
+YZPU
+YXUj 
+YZPU
+D$\XZj
+ZYPU
+YZPU
+Uj	j
+ZYPU
+D$(P
+UWVS
+[^_]
+[^_]
+UWVS
+D$ ^
+T$ RP
+D$(X
+T$ RP
+T$ RP
+,[^_]
+,[^_]
+UWVS
+|$@+t
+|$@+
+ZYWP
+ZYPU
+ZYj+P
+ZYWP
+ZYPU
+t$HP
+,[^_]
+XZUV
+YZPW
+t$HP
+ZYUP
+YXUV
+ZYWP
+ZYWP
+D$,P
+|$$ 
+|$$9
+t$(P
+PjtV
+L$$Q
+[^_]
+ZYPV
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWV1
+;D$8t
+[^_]
+f9D$
+t$@U
+t$DW
+f9D$
+t$LV
+t$PP
+<[^_]
+t$PV
+t$LP
+YZUP
+t$LV
+|$D1
+UWVS
+t$HV
+t$TVU
+T$ RP
+YZWP
+T$ RP
+t$HU
+,[^_]
+UWVS
+[^_]
+UWVS
+t$,P
+[^_]
+UWVS
+f9D$
+,[^_]
+UWVS
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+UWVS
+t$<P
+[^_]
+UWVS
+t$,U
+[^_]
+[^_]
+UWVS
+t$LP
+[^_]
+t$(P
+t$LPV
+[^_]
+UWVS
+t$<V
+[^_]
+[^_]
+t$LVU
+t$<P
+t$LP
+D$@1
+t$(P
+UWVS
+T$,1
+t$lVPW
+L$,e3
+<[^_]
+ZYPW
+t$(P
+t$(P
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+YXUj
+Uj	j
+UWVS
+[^_]
+UWVS
+,[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+,[^_]
+UWVS
+,[^_]
+ZYWP
+XZWV
+UWVS
+[^_]
+UWVS
+D$ 9
+;D$ t
+[^_]
++L$<
+[^_]
+9D$(t0
+L$ 9L$(t&
+[^_]
+UWVS
+T$<1
+D$HP
+Y_PV
+T$<e3
+L[^_]
+Y]WP
+XZUV
+XZWV
+ZYPV
+UWVS
+[^_]
+UWVS
+[^_]
+Uj	j
+ZYPU
+UWVS
+t$(j3
+[^_]
+[^_]
+UWVS
+|$@1
+ZUPj
+ZWPj
+ZWPj
+,[^_]
+t5kB
+UWVS
+[^_]
+[^_]
+XZjWU
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+D$0e
+D$H1
+t$0h
+D$<P
+t$0h
+t$$h
+D$TP
+T$<e3
+L[^_]
+UWVS
+ZYPV
+t$Hj
+t$Hj
+[^_]
+t$Hj
+[^_]
+UWVS
+D$(1
+,[^_]
+t$LU
+t$LU
+D$$P
+UWVS
+l$$f
+XZWj 
+[^_]
+UWVS
+;4$t1
+;4$u
+[^_]
+[^_]
+[^_]
+L$0Q
+l$"1
+|$!f
+<[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+<\uj
+[^_]
+D$X1
+t$HV
+L$Le3
+\[^_]
+D$(1
+|$ WPj
+ [^_
+D$H1
+|$"WPj
+T$<e3
+@[^_
+UWVS
+|$<V
+[^_]
+[^_]
+UWVS
+|$@W
+[^_]
+UWVS
+t$@V
+[^_]
+[^_]
+UWV1
+[^_]
+l$Df
+$RPU
+$RWU
+|$<f
+,[^_]
+[^_]
+,[^_]
+XZWV
+UWVS
+l$@U
+[^_]
+UWVS
+t$<U
+[^_]
+t$ V
+UWVS
+|$0W
+[^_]
+UWV1
+,[^_]
+t$$W
+UWVS
+t$@V
+[^_]
+UWVS
+t$@V
+[^_]
+UWVS
+t$@V
+[^_]
+UWVS
+t$PV
+T$$R
+L$$Q
+t$,UW
+[^_]
+UWVS
+t$@V
+[^_]
+[^_]
+UWVS
+,[^_]
+UWVS
+t$<U
+;<$u
+[^_]
+[^_]
+wD;F
+UWVS
+D$(1
+T$()
+|$ W
+XZVW
+,[^_]
+D$ P
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+XZWV
+Y_PV
+[^_]
+UWVS
+D$,1
+T$,e3
+<[^_]
+tPWWP
+t*PP
+L$ V
+QWRP
+D$4P
+Y_PV
+tLPP
+t(PP
+Y^PU
+UWV1
+[^_]
+UWVS
+|$<V
+,[^_]
+UWVS
+D$<1
+|$<e3=
+L[^_]
+D$0P
+D$0P
+D$8P
+D$@PW
+ZYPU
+Y^PU
+D$$P
+D$$P
+D$0P
+D$0PW
+D$8P
+D$8P
+D$8PW
+wt;V
+UWVS
+D$,1
+L$,e3
+<[^_]
+Y]P1
+D$4P
+Y]PW
+UWVS
+l$0h
+[^_]
+UWV1
+t$,U
+[^_]
+UWVS
+D$,1
+D$(YZUP
+WRPj
+Y_PV
+XZVj
+XZVj
+D$,e3
+<[^_]
+UWVS
+l$0V
+[^_]
+UWVS
+[^_]
+t$<WV
+[^_]
+ZYPV
+w-;V
+UWVS
+ZYPV
+[^_]
+r`;V
+UWVS
+t$<U
+ZYPV
+[^_]
+[^_]
+_ZPV
+rU;F
+[^_]
+UWVS
+t$<W
+]ZPV
+[^_]
+t$01
+[^_]
+wZ;F
+w';F
+UWVS
+t$<W
+t$@PV
+[^_]
+t$@P
+[^_]
+wr;V
+w>;F
+UWVS
+t$<W
+f9l$
+[^_]
+UWV1
+|$0W
+UWV1
+[^_]
+UWVS
+ZYPW
+]Xj)W
+[^_]
+t$@	
+w9;F
+UWVS
+l$4h
+t$,V
+[^_]
+UWVS
+l$8h
+t$,V
+[^_]
+UWVS
+l$4h
+t$,V
+[^_]
+UWVS
+ZYPW
+[^_]
+UWVS
+D$#+
+|$#f
+D$" 
+[^_]
+UWVS
+D$#+
+|$#f
+D$"9
+[^_]
+,[^_]
+UWVS
+t$Xh
+D$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+t$Xh
+t$$P
+<[^_]
+UWVS
+t$Hh
+D$(P
+t$Hh
+t$(P
+t$Hh
+t$(P
+t$Hh
+t$(P
+t$Hh
+t$(P
+t$ R
+[^_]
+UWVS
+|$&WP
+[^_]
+UWV1
+ZYUP
+[^_]
+UWVS
+t$,V
+[^_]
+UWVS
+[^_]
+UWV1
+D$,1
+]ZPV
+ZYPV
+Y]PV
+]ZPV
+D$.Y]
+D$(PW
+t$$Pj
+ZYWV
+T$,e3
+<[^_]
+Y]PV
+]ZPV
+D$,P
+D$,PW
+ZYPV
+_]PV
+]ZPV
+D$.Y]
+D$(PW
+t$$V
+UWVS
+D$,1
+:vt-
+T$,VP
+|$,e3=
+<[^_]
+t$ V
+|$ W
+|$ W
+|$ W
+D$,P
+|$ W
+]XVW
+UWVS
+[^_]
+[^_]
+UWVS
+|$<h
+D$$P
+[^_]
+UWVS
+l$,h
+Y_PV
+[^_]
+D$l1
+T$le3
+|[^_]
+[^_]
+jxWP
+[^_]
+j|WP
+[^_]
+t$ 1
+D$ 1
+t$DQP
+,[^_]
+UWVS
+t$Dj
+[^_]
+[^_]
+t$$j
+t$$W
+t$4j
+t$DQ
+t$<P
+t$0WVU
+t$LV
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+|$<j
+[^_]
+[^_]
+[^_]
+D$41
+t$<P
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+D$De
+D$|1
+t$4P
+t$lP
+D$lP
+t$$V
+t$|e35
+[^_]
+ZYWVP
++t$x
+|$|+|$t
+D$(,
+D$(&
+UWVS
+|$4h
+[^_]
+UWVS
+t$<j
+[^_]
+[^_]
+[^_]
+UWVS
+D$,1
+t$\h
+D$(1
+L$,e3
+<[^_]
+t$(W
+Y_UV
+[^_]
+UWVS
+|$,W
+ZYVP
+^ZPU
+Y_PV
+[^_]
+ZYVP
+_ZPV
+ZYVP
+ZYVP
+_ZVP
+ZYVP
+Y_VP
+_ZVP
+ZYVP
+ZYVP
+UWVS
+t$@P
+t$<P
+[^_]
+[^_]
+UWVS
+t$@P
+;D$4u
+[^_]
+[^_]
+[^_]
+UWVS
+t$DP
+;D$8u
+t$<P
+[^_]
+[^_]
+[^_]
+t$ P
+t$ P
+t$ P
+t$ P
+UWVS
+l$,UWV
+[^_]
+UWV1
+t$,U
+[^_]
+UWV1
+t$,U
+[^_]
+UWVS
+D$,1
+ED$P
+D$4P
+t$0U
+t$$U
+L$,e3
+<[^_]
+t$8j
+[^_]
+UWVS
+,[^_]
+D$$P
+YZPV
+YZPV
+YZPV
+YZPV
+YZPV
+ZYPV
+ [^_
+UWVS
+T$41
+[^_]
+UWVS
+,[^_]
+,[^_]
+,[^_]
+;|$Lsz
++T$D;T$Lsl
+\u01
+L$$1
+t$(U
+[^_]
+UWVS
+[^_]
+[^_]
+9|$<v[
++L$4;L$<sM
+;L$4
+;D$<s
++D$4;D$<s
+UWVS
+l$,W
+tij 
+t$,PU
+t$DU
+[^_]
+UWVS
+l$,W
+t$,PU
+t$4U
+[^_]
+[^_]
+T$0f
+[^_]
+[^_]
+[^_]
+T$81
+;D$8r
+D$81
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+f;|$
+f+|$
+t$ j
+D$*f
+[^_]
+,[^_]
+UWVS
+|$8f
+D$L1
+T$(f
+T$<f
+t$0f9
+L$?f
+T$2f9
+9L$ 
+f9|$
+D$$f
+\$Le3
+\[^_]
+|$4f
+f9D$$
+f;l$
+f;l$
+T$LR
+T$TR
+T$Df
+f9D$$
+f;D$<
+9D$ 
+9D$ 
+L$4f+L$ f
+D$Df;l$
+T$Pf
+L$4f+L$ f
+t$TV
+D$@1
+D$ 1
+t$ f9t$
+f;l$ 
+L$Lf
+T$Nf
+T$HR
+T$PR
+T$JR
+T$TR
+UWVS
+T$@P
+f;t$
+[^_]
+[^_]
+UWVS
+D$LP
+,[^_]
+,[^_]
+,[^_]
+L$"P
+UWVS
+[^_]
+[^_]
+UWVS
+D$@f
+f;l$
+D$L1
+D$L1
+[^_]
+t$ )
+UWVS
+[^_]
+UWVS
+;t$4s
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+|$0;
+|$0;
+|$0;
+t3;_
+UWVS
+ZYPW
+9l$4w
+[^_]
+t$ V
+|$0j
+UWVS
+t$<P
+[^_]
+[^_]
+XZWV
+t$ P
+UWVS
+[^_]
+UWVS
+l$,h
+t$8j
+[^_]
+[^_]
+[^_]
+UWVS
+|$H1
+\$<e3
+L[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+t$\P
+,[^_]
+[^_]
+UWVS
+<"tl
+tD<.tp<\u
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+ZYPW
+UWVS
+[^_]
+[^_]
+UWVS
+Y_UV
+[^_]
+UWV1
+ZYPU
+[^_]
+[^_]
+UWVS
+YXUV
+[^_]
+UWVS
+t$0V
+[^_]
+ZYWP
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+D$ 1
+t$DUW
+,[^_]
+UWVS
+ZYWP
+,[^_]
+T$ RP
+YXj5V
+UWVS
+T$$e
+t$ V
+|$U#
+|$U#
+t$ V
+|$U#
+[^_]
+t$4V
+|$U#
+t$4V
+|$U#
+D$Ux;D$
+D$Ux9L$
+t$ V
+|$U#
+t$4V
+|$U#u
+t$ V
+|$U#tr
+D$Ux;D$
+D$Ux
+UWVS
+[^_]
+UWVS
+t$TV1
+,[^_]
+t$XV
+D$ P
+D$$P
+t$ V
+ZYPj
+t$XP
+UWVS
+,[^_]
+ET$\R
+ED$\PWV
+D$0P
+D$$P
+UWVS
+|$PV
+t$LPV
+[^_]
+t$LV
+[^_]
+UWVS
+D$81
+D$4Q
+L$,e3
+<[^_]
+t$lR
+T$$WU
+t$$WU
+D$$P
+D$$P
+UWVS
+,[^_]
+[^_]
+f9DL
+[^_]
+UWVS
+t$,V
+[^_]
+UWVS
+|$,W
+[^_]
+UWVS
+t$<V
+[^_]
+UWVS
+ZYPW
+[^_]
+[^_]
+UWV1
+ZYPU
+[^_]
+|$<W
+[^_]
+UWVS
+9t$$t
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+Y^PU
+^ZPU
+Y^PU
+ZYPU
+ZYPU
+[^_]
+UWV1
+ZYUP
+t$<P
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+ZYPV
+ZYPV
+[^_]
+UWVS
+|$01
+|$01
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+ZYUP
+ZYUP
+[^_]
+UWVS
+[^_]
+t$(W
+t$,U
+[^_]
+[^_]
+UWVS
+ZYPU
+[^_]
+[^_]
+UWVS
+[^_]
+ZYVP
+[^_]
+UWVS
+[^_]
+UWVS
+XZVW
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+D$,P
+Y_PV
+t$(V
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+1< t
+tFPP
+UWVS
+T$,1
+T$,e3
+<[^_]
+T$0RP
+t$(P
+t$ U
+D$DP
+t$(j
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+t$$UV
+[^_]
+UWVS
+[^_]
+[^_]
+D$<1
+|$MW
+L$<e3
+@[^_
+t$ P
+T$$ZYPj
+UWVS
+L$T1
+D$$1
+\$P!
+L$(!
+|$0!
+t$8!
+l$$3l$
+T$(3T$03T$
+3t$41
+t$,1
+L$03L$83L$
+3L$$
+t$0!
+D$43D$<3D$ 3D$(
+\$83\$@3
+$3\$,
+D$<1
+3l$0
+D$@1
+D$<1
+3T$$3T$4
+3T$(3T$8
+3T$ 3T$,3T$<
+T$01
+D$ 1
+D$ 1
+$3T$
+3T$43T$
+D$@1
+3T$$3T$83T$
+D$D1
+3T$(3T$<3T$ 
+D$H1
+T$$3T$,3T$
+3T$@
+D$$1
+T$(3T$03T$
+3T$D
+D$(1
+T$,3T$
+3T$H
+D$,1
+T$03T$43T$
+3T$$
+3D$83D$ 
+3D$(
+T$L1
+T$43T$<
+3T$@3T$,
+l$83l$
+3l$D3l$01
+|$H1
+3|$L
+3D$$3D$4
+3t$(3t$8
+3\$ 3\$,3\$<
+3L$@3L$03
+T$ 3T$D3T$L3T$
+3l$H1
+D$D3D$$3D$83D$
+t$H3t$(!
+3t$<3t$
+t$$3t$,34$3t$
+L$(3L$0!
+T$,3T$L3T$
+T$03T$43T$
+3T$ 
+T$L3T$8
+3D$$	
+3D$<3D$
+3D$(
+D$83
+$3D$
+3D$,
+D$<3D$
+3D$0
+$3D$
+3D$ 3D$4
+3D$$3D$8
+3T$(3T$<
+3T$,3
+3D$0
+3D$43D$
+3D$ 
+3D$83D$
+3L$$3L$<3L$
+t$ 3t$(34$3t$
+t$$3t$,
+T$(3T$03T$
+T$,3T$43T$
+3T$ 
+D$03D$8
+3D$$
+D$01
+D$43D$<3D$
+3D$@
+D$83
+3D$,
+D$<3D$
+3D$0
+$3D$
+3D$ 3D$4
+L$(3\$$3\$81
+3T$@3T$<
+3T$,1
+3D$03D$
+3T$43T$
+3D$ 1
+3D$83
+3D$$3D$<3D$
+d[^_]
+UWVS
+,[^_]
+l$4)
+UWVS
+L$	j
+[^_]
+UWVS
+D$h1
+XZVW
+T$\e3
+[^_]
+\$ 1
+4[^_]
+t$ #L$$
+#D$D!
+L$81
+3D$<
+#\$8!
+#L$<1
+D$H1
+t$01
+T$T1
+#D$$!
+#T$ 1
+D$`1
+t$p1
+#D$,1
+D$p1
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+D$x1
+XZVW
+T$le3
+[^_]
+UWVS
+\$41
+;4$u
+[^_]
+9\$8
+\$4)
+[^_]
+t$<P
+D$H1
+UWVS
+XZVW
+[^_]
+UWVS
+XZVW
+[^_]
+8.tp
+[^_]
+UWVS
+t`;4$
+[^_]
+UWVS
+[^_]
+UWVS
+D$X1
+D$$PU
+L$Le3
+\[^_]
+D$(P
+D$0P
+D$8P
+D$@P
+D$HP
+T$0-l
+|$$;wr
+|$ ;wk
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+t$(P
+UWVS
+D$(1
+D$ PW
+,[^_]
+D$ PW
+UWVS
+|$@j
+[^_]
+t$$W
+t$,j
+D$ 1
+t$4W
+t$<j
+ [^_
+UWVS
+L$@Q
+t\<\u
+[^_]
+[^_]
+UWVS
+t$PV
+Y_j:V
+]Zj/
+,[^_]
+[^_]
+,[^_]
+UWVS
+t$0V
+[^_]
+[^_]
+[^_]
+UWVS
+WPj	
+[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+t$(W
+Y[^_]
+UWVS
+D$ P
+,[^_]
+,[^_]
+,[^_]
+t$ V
+UWVS
+T$,1
+L$,e3
+<[^_]
+D$4P
+D$$X
+D$0P
+D$0P
+D$0P
+D$ 1
+t$HP
+,[^_]
+D$81
+l$`P
+D$,P
+D$,P
+D$,P
+D$,P
+D$,P
+D$,P
+;D$ t
+T$,e3
+<[^_]
+D$*Pj
+D$01
+l$XP
+D$$P
+D$$P
+D$$P
+D$$P
+D$$P
+D$$P
+D$$P
+D$$P
+;D$ t
+T$,e3
+<[^_]
+D$(Pj
+UWVS
+|$@W
+[^_]
+UWVS
+l$@U
+t0<\u
+PWj#
+[^_]
+[^_]
+UWVS
+D$41
+D$ )
+D$0PW
+9|$(
+|$,e3=
+<[^_]
+t$<1
+D$8@
+t$ V
+D$ U
+T$<R
+t$$P
+|$<e3=
+L[^_]
+|$(W
+XZWV
+XZWV
+t$ V
+t$(V
+t$,V
+UWVS
+D$T1
+L$Le3
+\[^_]
+D$(XZj
+D$,Y_j
+D$0XZj
+D$<Y_j
+D$4YXj
+D$8XZj
+l$01
+f9|$
+l$01
+D$@PV
+l$01
+f9|$
+l$01
+f9|$
+D$>f
+l$01
+f9|$
+L$<VP
+L$4f
+UWVS
+D$$e
+D$D1
+t$lj
+XZWj
+D$@P
+D$4P
+D$8P
+t$,WU
+YXWU
+t$0U
+T$<e3
+L[^_]
+D$,P
+UWVS
+t$0V
+[^_]
+[^_]
+UWVS
+t$<j
+[^_]
+UWVS
+L$ e
+L$81
+t$\j
+t$\j
+t$\j
+T$,e3
+<[^_]
+UWVS
+ZYPV
+_ZPV
+ZYPV
+[^_]
++4$k
+D$,1
+;L$Pw
+|$,e3=
+<[^_]
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+t$0)
+j<WV
+j<WV
+j<WV
+j<WV
+[^_]
+UWVS
+D$(1
+t`UVj
+,[^_]
+taUVj
+D$ e
+D$X1
+D$Aaeio
+D$Gbcdf
+D$Kghkl
+D$Omnpr
+D$Sstvz
+D$WxP
+9L$$
+|$Le3=
+D$(u
+\[^_]
+UWVS
+[^_]
+L$$9
+|$ )
+D$AP
+UWVS
+T$,1
+;D$X
+;|$X
+T$,e3
+<[^_]
+D$4P
+UWVS
+D$$P
+,[^_]
+t$ V
+;L$H
+;L$Hw>
+UWVS
+D$,1
+9T$Xs1
+L$,e3
+<[^_]
+YZUP
+D$$1
+YZUP
+D$$1
+YZUP
+T$ W
+t$lU
+ZYPW
+t$0W
+t$`W
+T$')
+UWVS
+Y^WP
+[^_]
+,[^_]
+T$ RP
+UWVS
+D$<1
+D$DPV
+D$HP
+L$<e3
+L[^_]
+t$4W
+;l$8
+T$4+
+;T$8
+|$4+
+t ;T$8
+t$4+
+;l$8sM
+|$4+
+[^_]
+[^_]
+?9D$(
+uO;D$(
+[^_]
+[^_]
+[^_]
+9\$(rn
+UWVS
+[^_]
+;<$w
+UWVS
+,[^_]
+./ldns/buffer.h
+buffer->_data != NULL
+at <= buffer->_limit
+./buffer.c
+buffer != NULL
+buffer->_position <= capacity
+!buffer->_fixed
+buffer->_position <= buffer->_limit
+buffer->_limit <= buffer->_capacity
+buffer->_limit == buffer->_capacity
+ldns_buffer_available_at(buffer, at, count)
+ldns_buffer_write_at
+ldns_buffer_at
+ldns_buffer_remaining_at
+ldns_buffer_printf
+ldns_buffer_reserve
+ldns_buffer_set_capacity
+ldns_buffer_new_frm_data
+ldns_buffer_invariant
+./dane.c
+tlsa_owner != NULL
+name != NULL
+X_%d
+_tcp
+_udp
+_sctp
+rdf != NULL
+selected_cert != NULL
+tlsa != NULL
+ssl_client
+ssl_server
+ldns_rdf_get_type(name) == LDNS_RDF_TYPE_DNAME
+ldns_dane_verify
+ldns_dane_create_tlsa_rr
+ldns_dane_select_certificate
+ldns_dane_cert2rdf
+ldns_dane_create_tlsa_owner
+./dname.c
+src_pos == ldns_rdf_size(dname)
+ldns_rdf_get_type(dname) == LDNS_RDF_TYPE_DNAME
+ldns_rdf_get_type(dname1) == LDNS_RDF_TYPE_DNAME
+ldns_rdf_get_type(dname2) == LDNS_RDF_TYPE_DNAME
+ldns_rdf_get_type(prev) == LDNS_RDF_TYPE_DNAME
+ldns_rdf_get_type(middle) == LDNS_RDF_TYPE_DNAME
+ldns_rdf_get_type(next) == LDNS_RDF_TYPE_DNAME
+ldns_dname_interval
+ldns_dname_compare
+ldns_dname_reverse
+ldns_dname_last_label_is_root_label
+%s [len=%d]: 
+%c%c
+./dnssec.c
+error catting: %s
+sig in ASN
+sig raw
+ldns_rdf_get_type(bitmap) == LDNS_RDF_TYPE_BITMAP
+ldns_buffer_available_at(buffer, at, sizeof(data))
+ldns_buffer_write_u8_at
+ldns_buffer_invariant
+ldns_buffer_write_at
+ldns_nsec_bitmap_clear_type
+ldns_nsec_bitmap_set_type
+ldns_nsec_bitmap_covers_type
+unknown algorithm, 
+is the one used available on this system?
+|---
+|   
+    
+;; rcode: %s
+;; qtype: %s
+TYPE%u
+;; NODATA response
+rrset:
+sigs:
+<no data>
+./dnssec_verify.c
+pkt != NULL
+There were already sigs!
+replacing the old sigs
+ (%s
+ (TYPE%d
+ keytag: %u
+ alg: 
+ keytag: 
+ digest type: 
+Existence is denied by:
+; SSL Error: 
+For RRset:
+With key:
+<null pointer>
+ldns_dnssec_build_data_chain
+Existence of DS is denied by:
+Error in denial of existence: %s
+./dnssec_zone.c
+zone != NULL
+nsec3rr != NULL
+; <void>
+; <void>
+;; Empty nonterminal: 
+;; Zone: 
+ldns_dnssec_zone_hashed_names_from_nsec3
+ldns_dnssec_name_make_hashed_name
+All OK
+Empty label
+Label length overflow
+Domainname length overflow
+\DDD sequence overflow (>255)
+Packet size overflow
+Invalid compression pointer
+General memory error
+Error in SSL library
+General LDNS error
+Could not open the files
+Uknown address family
+Supplied value pointer null
+No DNSSEC signature(s)
+No DNSSEC public key(s)
+No DS record(s)
+Valid DNSSEC signature
+Bogus DNSSEC signature
+DNSSEC signature has expired
+Bogus TSIG signature
+header section incomplete
+question section incomplete
+answer section incomplete
+authority section incomplete
+additional section incomplete
+No data
+Element already exists
+Empty line was returned
+Syntax error, value expected
+Error creating socket
+Existence denied by NSEC
+Unknown TLSA Selector
+Unknown TLSA Matching Type
+The offset was out of range
+Could not PKIX validate
+invalid rdata in wire format
+Rdata size overflow
+Domainname length underflow (zero length)
+Internal error, this should not happen
+Conversion error, integer expected
+Conversion error, ip4 addr expected
+Conversion error, ip6 addr expected
+Conversion error, string expected
+Conversion error, b32 ext encoding expected
+Conversion error, b64 encoding expected
+Conversion error, hex encoding expected
+Conversion error, time encoding expected
+Could not send or receive, because of network error
+Could not start AXFR, because of address error
+This function is not implemented (yet), please notify the developers - or not...
+Unknown cryptographic algorithm
+Cryptographic algorithm not implemented
+The signature does not cover this RRset
+No signatures found for trusted DNSSEC public key(s)
+Could not validate DS record(s)
+No keys with the keytag and algorithm from the RRSIG found
+DNSSEC signature not incepted yet
+Could not create TSIG signature
+DNSSEC signature has expiration date earlier than inception date
+Unable to load private key from engine
+Error in NSEC3 denial of existence proof
+No (valid) nameservers defined in the resolver
+No correct query given to resolver
+Bad algorithm type for CERT record
+Syntax error, could not parse the RR's type
+Syntax error, could not parse the RR's class
+Syntax error, could not parse the RR's TTL
+Syntax error, $INCLUDE not implemented
+Syntax error, could not parse the RR's rdata
+Syntax error, could not parse the RR's dname(s)
+Syntax error, version mismatch
+Syntax error, algorithm unknown or non parseable
+Syntax error, unknown keyword in input
+Syntax error, could not parse the RR
+$TTL directive was seen in the zone
+$ORIGIN directive was seen in the zone
+$INCLUDE directive was seen in the zone
+Iterations count for NSEC3 record higher than maximum
+Syntax error, integer value too large
+Syntax error, bad escape sequence
+RR not covered by the given NSEC RRs
+wildcard not covered by the given NSEC RRs
+original of NSEC3 hashed name could not be found
+The RRSIG has to few rdata fields
+The DNSKEY has to few rdata fields
+DNSSEC signature will expire too soon
+DNSSEC signature not incepted long enough
+Unknown TLSA Certificate Usage
+Unknown protocol. Only IPv4 and IPv6 are understood
+Unknown transport. Should be one of {tcp, udp, sctp}
+More than one certificate should be provided
+Non of the extra certificates is used to sign the first
+The queried resource records were insecure
+The queried resource records were bogus
+The TLSA record(s) did not match with the server certificate (chain)
+The certificate was not a CA certificate
+The validation path did not end in a self-signed certificate
+Conversion error, 4 colon separated hex numbers expected
+Conversion error, 6 two character hex numbers separated by dashes expected (i.e. xx-xx-xx-xx-xx-xx
+Conversion error, 8 two character hex numbers separated by dashes expected (i.e. xx-xx-xx-xx-xx-xx-xx-xx
+Conversion error, a non-zero sequence of US-ASCII letters and numbers in lower case expected
+The RR type bitmap rdata field did not have a bit reserved for the specific RR type
+The rdata field was not of the expected type
+Syntax error, superfluous text present
+The NSEC3 domainname length overflow
+ldns depends on the availability of the SSL_get0_dane() and X509_STORE_CTX_set0_dane() functions within OpenSSL >= 1.1.0 to be able to verify the DANE-TA usage type.
+%s IN AAAA %s
+%s IN A %s
+/etc/hosts
+\%03u
+TYPE%u 
+0.%02ld
+./host2str.c
+fmt != NULL
+OPCODE%u
+RCODE%u
+CERT_ALG%u
+%Y%m%d%H%M%S
+%02x
+	CLASS%d
+IXFR
+AXFR
+MAILA
+MAILB
+%02u %02u %0.3f %c 
+%.2f
+%.0f
+\# %u 
+%llu 
+/%u 
+%.4x:%.4x:%.4x:%.4x
+%.2x-%.2x-%.2x-%.2x-%.2x-%.2x
+%u %u %u 
+(null) 
+%s: 
+(Not available)
+Key: 
+; (null)
+TYPE%u	
+\# 0
+\# %d 
+	\# 0
+(null)
+%10lu
+id = %u
+ (ksk)
+ (zsk)
+size = %db
+ ;{id = %d}
+ ;{%s}
+ flags: optout
+ flags: -
+from: 
+ to: 
+;; ->>HEADER<<- 
+opcode: %s, 
+opcode: ?? (%u), 
+rcode: %s, 
+rcode: ?? (%u), 
+id: %d
+;; flags: 
+QUERY: %u, 
+ANSWER: %u, 
+AUTHORITY: %u, 
+ADDITIONAL: %u 
+Private-key-format: v1.2
+Algorithm: %u (RSA)
+Algorithm: %u (RSASHA1)
+Algorithm: %u (RSASHA256)
+Algorithm: %u (RSASHA512)
+Algorithm: %u (Unknown)
+Modulus
+PublicExponent
+PrivateExponent
+Prime1
+Prime2
+Exponent1
+Exponent2
+Coefficient
+Algorithm: 3 (DSA)
+Algorithm: 6 (DSA_NSEC3)
+Prime(p)
+Subprime(q)
+Base(g)
+Private_value(x)
+Public_value(y)
+Algorithm: %d (
+PrivateKey
+Algorithm: 157 (HMAC_MD5)
+Algorithm: 158 (HMAC_SHA1)
+Algorithm: 162 (HMAC_SHA224)
+Algorithm: 159 (HMAC_SHA256)
+Algorithm: 164 (HMAC_SHA384)
+Algorithm: 165 (HMAC_SHA512)
+;; QUESTION SECTION:
+;; ANSWER SECTION:
+;; AUTHORITY SECTION:
+;; ADDITIONAL SECTION:
+;; Query time: %d msec
+;; EDNS: version %u; flags:
+ ; ext-rcode: %d
+ ; udp: %u
+;; Data: 
+;; TSIG:
+;; SERVER: %s
+;; WHEN: %s
+;; MSG SIZE  rcvd: %d
+port: %d
+edns0 size: %d
+use ip6: %d
+recursive: %d
+usevc: %d
+igntc: %d
+fail: %d
+retry: %d
+retrans: %d
+fallback: %d
+random: %d
+timeout: %d
+dnssec: %d
+dnssec cd: %d
+trust anchors (%d listed):
+tsig: %s %s
+debug: %d
+default domain: 
+apply default domain: %d
+searchlist (%d listed):
+apply search list: %d
+nameservers (%d listed):
+ - reachable
+ - unreachable
+IQUERY
+STATUS
+NOTIFY
+UPDATE
+NOERROR
+FORMERR
+SERVFAIL
+NXDOMAIN
+NOTIMPL
+REFUSED
+YXDOMAIN
+YXRRSET
+NXRRSET
+NOTAUTH
+NOTZONE
+NONE
+IPKIX
+ISPKI
+IPGP
+IACPKIX
+RSAMD5
+DSA-NSEC3-SHA1
+RSASHA1-NSEC3-SHA1
+RSASHA256
+RSASHA512
+ECDSAP256SHA256
+ECDSAP384SHA384
+ED25519
+ED448
+INDIRECT
+PRIVATEDNS
+PRIVATEOID
+ldns_buffer_at
+ldns_buffer_invariant
+ldns_buffer_remaining_at
+ldns_buffer_write_u8_at
+ldns_output_format_clear_type
+ldns_output_format_set_type
+Unknown address family: %u data: 
+%.2x-%.2x-%.2x-%.2x-%.2x-%.2x-%.2x-%.2x
+Algorithm: %u (RSASHA1_NSEC3)
+;Unable to convert rdf to string
+;Unable to convert rr to string
+;Unable to convert packet to string
+ldns_buffer_write_u32_at
+ldns_buffer_write_at
+ldns_buffer_write_u16_at
+ldns_buffer_invariant
+ldns_buffer_remaining_at
+ldns_buffer_write_u8_at
+Primep
+Subprimeq
+Baseg
+Private_valuex
+Public_valuey
+./keys.c
+Private-key-format
+Algorithm
+157 HMAC-MD5
+158 HMAC-SHA1
+159 HMAC-SHA256
+161 
+162 HMAC-SHA224
+163 
+164 HMAC-SHA384
+165 HMAC-SHA512
++%03u+%05u
+NSEC3DSA
+NSEC3RSASHA1
+DSA_NSEC3
+RSASHA1_NSEC3
+hmac-md5.sig-alg.reg.int
+hmac-sha1
+hmac-sha256
+hmac-sha224
+hmac-sha384
+hmac-sha512
+Unable to convert private key to string
+bin[0] == POINT_CONVERSION_UNCOMPRESSED
+ldns_key2rr
+./net.c
+ldns_send_buffer
+$TTL
+$ORIGIN
+$INCLUDE
+ldns_buffer_invariant
+| [%u+
+| [%u]
+./radix.c
+node->len <= node->capacity
+node->capacity < size
+node->capacity == 0
+node->capacity > 0
+pos < len
+byte >= prefix->offset
+strlen_to_add < array->len
+array->len < strlen_to_add
+common_len < array->len
+common_len < strlen_to_add
+parent_index < parent->len
+n < node->len
+node->len > 0
+; empty radix tree
+(byte - prefix->offset) <= prefix->len
+(int) n <= (255 - (int) node->offset)
+ldns_radix_prev
+ldns_radix_node_array_free_end
+ldns_radix_node_array_free_front
+ldns_radix_cleanup_leaf
+ldns_radix_cleanup_onechild
+ldns_radix_array_split
+ldns_radix_array_grow
+ldns_radix_array_space
+ldns_radix_insert
+./rdata.c
+rd != NULL
+in-addr.arpa.
+ip6.arpa.
+ldns_rdf_clone
+ldns_rdf_set_data
+ldns_rdf_set_type
+ldns_rdf_set_size
+ldns_rdf_data
+ldns_rdf_get_type
+ldns_rdf_size
+./resolver.c
+src != NULL
+/etc/resolv.conf
+nameserver
+domain
+search
+sortlist
+options
+anchor
+ldns_resolver_nameservers_randomize
+ldns_resolver_send
+ldns_resolver_clone
+ldns_resolver_set_nameserver_rtt
+ldns_resolver_pop_nameserver
+ldns_resolver_nameserver_rtt
+./rr.c
+rr1 != NULL
+rr2 != NULL
+rrl1 != NULL
+rrl2 != NULL
+descriptor != NULL
+TYPE
+CLASS
+mark <= buffer->_limit
+CNAME
+HINFO
+MINFO
+AFSDB
+ISDN
+NSAP
+NSAP-PTR
+GPOS
+AAAA
+NIMLOC
+ATMA
+NAPTR
+CERT
+DNAME
+SINK
+SSHFP
+IPSECKEY
+RRSIG
+DHCID
+NSEC3PARAM
+TLSA
+SMIMEA
+TYPE54
+TYPE56
+TYPE57
+TALINK
+CDNSKEY
+OPENPGPKEY
+CSYNC
+TYPE63
+TYPE64
+TYPE65
+TYPE66
+TYPE67
+TYPE68
+TYPE69
+TYPE70
+TYPE71
+TYPE72
+TYPE73
+TYPE74
+TYPE75
+TYPE76
+TYPE77
+TYPE78
+TYPE79
+TYPE80
+TYPE81
+TYPE82
+TYPE83
+TYPE84
+TYPE85
+TYPE86
+TYPE87
+TYPE88
+TYPE89
+TYPE90
+TYPE91
+TYPE92
+TYPE93
+TYPE94
+TYPE95
+TYPE96
+TYPE97
+TYPE98
+TYPE100
+TYPE101
+TYPE102
+TYPE103
+EUI48
+EUI64
+TYPE110
+TYPE111
+TYPE112
+TYPE113
+TYPE114
+TYPE115
+TYPE116
+TYPE117
+TYPE118
+TYPE119
+TYPE120
+TYPE121
+TYPE122
+TYPE123
+TYPE124
+TYPE125
+TYPE126
+TYPE127
+TYPE128
+TYPE129
+TYPE130
+TYPE131
+TYPE132
+TYPE133
+TYPE134
+TYPE135
+TYPE136
+TYPE137
+TYPE138
+TYPE139
+TYPE140
+TYPE141
+TYPE142
+TYPE143
+TYPE144
+TYPE145
+TYPE146
+TYPE147
+TYPE148
+TYPE149
+TYPE150
+TYPE151
+TYPE152
+TYPE153
+TYPE154
+TYPE155
+TYPE156
+TYPE157
+TYPE158
+TYPE159
+TYPE160
+TYPE161
+TYPE162
+TYPE163
+TYPE164
+TYPE165
+TYPE166
+TYPE167
+TYPE168
+TYPE169
+TYPE170
+TYPE171
+TYPE172
+TYPE173
+TYPE174
+TYPE175
+TYPE176
+TYPE177
+TYPE178
+TYPE179
+TYPE180
+TYPE181
+TYPE182
+TYPE183
+TYPE184
+TYPE185
+TYPE186
+TYPE187
+TYPE188
+TYPE189
+TYPE190
+TYPE191
+TYPE192
+TYPE193
+TYPE194
+TYPE195
+TYPE196
+TYPE197
+TYPE198
+TYPE199
+TYPE200
+TYPE201
+TYPE202
+TYPE203
+TYPE204
+TYPE205
+TYPE206
+TYPE207
+TYPE208
+TYPE209
+TYPE210
+TYPE211
+TYPE212
+TYPE213
+TYPE214
+TYPE215
+TYPE216
+TYPE217
+TYPE218
+TYPE219
+TYPE220
+TYPE221
+TYPE222
+TYPE223
+TYPE224
+TYPE225
+TYPE226
+TYPE227
+TYPE228
+TYPE229
+TYPE230
+TYPE231
+TYPE232
+TYPE233
+TYPE234
+TYPE235
+TYPE236
+TYPE237
+TYPE238
+TYPE239
+TYPE240
+TYPE241
+TYPE242
+TYPE243
+TYPE244
+TYPE245
+TYPE246
+TYPE247
+TYPE248
+TKEY
+TSIG
+TYPE251
+TYPE252
+TYPE253
+TYPE254
+TYPE255
+TYPE258
+TYPE32768
+buffer->_position + count <= buffer->_limit
+count <= rr_list->_rr_capacity
+index < descriptor->_maximum || descriptor->_variable != LDNS_RDF_TYPE_NONE
+ldns_rr_descriptor_field_type
+ldns_rdf_bitmap_known_rr_types_set
+ldns_rr_list_compare
+ldns_rr_compare_no_rdata
+ldns_rr_set_push_rr
+ldns_rr_list_set_rr_count
+ldns_buffer_skip
+ldns_buffer_invariant
+ldns_buffer_remaining_at
+ldns_buffer_set_position
+ldns_buffer_at
+%Y%m%d00
+./sha2.c
+context != (ldns_sha256_CTX*)0 && data != (sha2_byte*)0
+context != (ldns_sha256_CTX*)0
+context != (ldns_sha512_CTX*)0 && data != (sha2_byte*)0
+context != (ldns_sha512_CTX*)0
+context != (ldns_sha384_CTX*)0
+ldns_sha384_final
+ldns_sha512_final
+ldns_sha512_update
+ldns_sha256_final
+ldns_sha256_update
+|6*)
+g&3g
+D7q/;M
++Yo,
+&\8!
+* qW
+LwH'
+L*~e
+vRQ>
+8STs
+LwH'
+%4d%2d%2d%2d%2d%2d
+%4x:%4x:%4x:%4x%n
+%2x-%2x-%2x-%2x-%2x-%2x%n
+Full
+SHA2-256
+SHA2-512
+PrivMatch
+PrivSel
+PKIX-TA
+PKIX-EE
+DANE-TA
+DANE-EE
+PrivCert
+%2x-%2x-%2x-%2x-%2x-%2x-%2x-%2x%n
+Mb@?
+Ahmac-sha512.
+hmac-shac384.
+hmac-sha256.
+hmac-sha1.
+hmac-md5.sig-alg.reg.int.
+ldns_buffer_write_u32_at
+ldns_buffer_write_u16_at
+ldns_buffer_invariant
+ldns_buffer_write_at
+0123456789abcdefghijklmnopqrstuv
+abcdefghijklmnopqrstuvwxyz234567
+1.7.0
+/dev/urandom
+/dev/random
+0123456789abcdef
+./wire2host.c
+ldns_wire2rdf
+./zone.c
+ldns_zone_sort
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+9*2$"
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e869
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+libldns.so.2.0.0-1.7.0-23.fc30.i386.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rel.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

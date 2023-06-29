@@ -1,0 +1,311 @@
+|Fvr
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_strcmp0
+g_print
+g_ascii_table
+ch_device_write_command_async
+g_usb_device_get_type
+g_type_check_instance_is_a
+g_return_if_fail_warning
+g_cancellable_get_type
+g_malloc0
+g_object_ref
+g_type_check_instance_cast
+g_simple_async_result_new
+memcpy
+g_usb_device_interrupt_transfer_async
+g_object_unref
+g_free
+g_usb_device_interrupt_transfer_finish
+g_simple_async_result_take_error
+g_simple_async_result_complete_in_idle
+ch_strerror
+ch_command_to_string
+g_strdup_printf
+g_simple_async_result_set_error
+g_simple_async_result_set_op_res_gboolean
+ch_device_write_command_finish
+g_simple_async_result_get_type
+g_simple_async_result_propagate_error
+g_simple_async_result_get_op_res_gboolean
+g_object_get_data
+cd_sensor_get_type
+g_usb_device_close
+g_simple_async_result_set_from_error
+g_error_free
+cd_sensor_lock_async
+g_usb_device_list_find_by_vid_pid
+cd_sensor_set_state
+g_usb_device_open
+g_usb_device_set_configuration
+g_usb_device_claim_interface
+g_log
+g_slice_alloc0
+g_simple_async_report_gerror_in_idle
+__stack_chk_fail
+g_cancellable_disconnect
+g_slice_free1
+cd_sensor_set_serial
+cd_sensor_get_sample_async
+g_set_error_literal
+g_simple_async_result_set_op_res_gpointer
+cd_sensor_unlock_async
+g_simple_async_result_run_in_thread
+cd_color_xyz_dup
+cd_sensor_get_sample_finish
+g_simple_async_result_get_op_res_gpointer
+cd_sensor_lock_finish
+cd_sensor_unlock_finish
+cd_sensor_coldplug
+g_object_set
+g_object_set_data_full
+g_usb_context_new
+g_usb_device_list_new
+libgusb.so.2
+libusb-1.0.so.0
+libcolord.so.1
+libgthread-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libcolord_sensor_colorhug.so
+GLIBC_2.2.5
+GLIBC_2.14
+GLIBC_2.4
+5J8 
+%L8 
+%J8 
+%B8 
+%:8 
+%28 
+%*8 
+%"8 
+%z7 
+%r7 
+%j7 
+%b7 
+%Z7 
+%R7 
+%J7 
+%B7 
+%:7 
+%27 
+%*7 
+%"7 
+=r6 
+=B6 
+=	6 
+=/4 
+=Z1 
+fffff.
+=(1 
+AUATI
+[]A\A]
+D$hI
+d$`H
+D$pH
+\$(H
+l$0H
+d$8L
+l$@H
+t$HL
+|$PH
+\$(L
+|$hA
+D$`H
+l$@L
+t$HL
+|$PH
+?~EH
+\$ H
+l$(L
+d$0H
+ffffff.
+T$(H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+[]A\
+ffffff.
+D$81
+D$8dH3
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+L$(1
+T$0L
+G E1
+D$3 
+l$(H
+fff.
+T$(L
+\$8H
+l$@L
+d$HL
+l$PH
+t$(H
+T$(L
+T$$H
+\$8H
+l$@L
+d$HL
+l$PH
+t$(H
+ffffff.
+T$(L
+T$&H
+\$8H
+l$@L
+d$HL
+l$PH
+t$(H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+D$&C
+l$(H
+D$&A
+T$&H
+D$&@
+D$&B
+fff.
+l$ H
+l$ H
+d$ H
+t$ H
+T$ H
+\$0H
+l$8L
+d$@H
+[]A\H
+%c[%dm
+reply
+%02x [%c]	
+%c[%dm
+G_USB_IS_DEVICE (device)
+cmd != 0
+Success
+Unknown command
+Wrong unlock code
+Not implemented
+Underflow of sensor
+No serial
+Watchdog
+Invalid address
+Invalid length
+Invalid checksum
+Invalid value
+Overflow of multiply
+Overflow of addition
+Overflow of sensor
+Overflow of stack
+No calibration
+Device deactivated
+Incomplete previous request
+Unknown error, please report
+get-color-select
+set-color-select
+get-multiplier
+set-multiplier
+get-integral-time
+set-integral-time
+get-firmare-version
+get-calibration
+set-calibration
+get-serial-number
+set-serial-number
+get-owner-name
+set-owner-name
+set-owner-email
+get-leds
+set-leds
+get-pcb-errata
+set-pcb-errata
+get-dark-offsets
+set-dark-offsets
+write-eeprom
+take-reading-raw
+take-readings
+take-reading-xyz
+reset
+read-flash
+erase-flash
+write-flash
+boot-flash
+set-flash-success
+get-calibration-map
+set-calibration-map
+get-hardware-version
+unknown-command
+cancellable == NULL || G_IS_CANCELLABLE (cancellable)
+Unknown command for bootloader
+Invalid read: retval=0x%02x [%s] cmd=0x%02x (expected 0x%x [%s]) len=%lu (expected %lu)
+G_IS_SIMPLE_ASYNC_RESULT (res)
+error == NULL || *error == NULL
+ch_device_write_command_finish
+ch_device_write_command_async
+priv
+CD_IS_SENSOR (sensor)
+Serial number: %s
+value != NULL
+pf != NULL
+kind
+native
+Claimed interface 0x%x for device
+ColorHug cannot measure in this mode
+finished values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+cd_sensor_get_sample_async
+ch_packed_float_to_double
+cd_sensor_get_sample_finish
+cd_sensor_lock_async
+cd_sensor_lock_finish
+cd_sensor_unlock_async
+cd_sensor_unlock_finish
+;*3$"
+libcolord_sensor_colorhug.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

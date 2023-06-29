@@ -1,0 +1,362 @@
+/lib64/ld-linux-x86-64.so.2
+libpam.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+pam_open_session
+pam_close_session
+pam_set_item
+pam_setcred
+pam_start
+pam_strerror
+pam_acct_mgmt
+pam_getenvlist
+pam_chauthtok
+pam_end
+pam_authenticate
+libpam_misc.so.0
+misc_conv
+libc.so.6
+setuid
+strcpy
+__printf_chk
+execv
+setlocale
+strsignal
+strncmp
+dcngettext
+optind
+__strdup
+dcgettext
+getpwuid
+initgroups
+getusershell
+strncpy
+fork
+warnx
+sigprocmask
+sigfillset
+__stack_chk_fail
+abort
+_exit
+getpid
+kill
+endpwent
+strtol
+isatty
+fgets
+getpwnam
+calloc
+strlen
+sigemptyset
+openlog
+warn
+__errno_location
+chdir
+__syslog_chk
+endgrent
+setgroups
+ttyname
+__fprintf_chk
+sigaddset
+getgrnam
+putenv
+stdout
+fputs
+memcpy
+endusershell
+fclose
+__memmove_chk
+strtoul
+malloc
+strcasecmp
+__ctype_b_loc
+getenv
+optarg
+stderr
+ioctl
+getlogin
+getuid
+getopt_long
+execvp
+gettimeofday
+sigaction
+geteuid
+waitpid
+__fpending
+strchr
+updwtmp
+program_invocation_short_name
+setusershell
+sleep
+__cxa_finalize
+setsid
+errx
+fopen64
+bindtextdomain
+setgid
+strcmp
+__libc_start_main
+ferror
+setenv
+basename
+closelog
+free
+__progname
+__environ
+__cxa_atexit
+_edata
+__bss_start
+__libc_csu_fini
+logindefs_load_defaults
+__libc_csu_init
+LIBPAM_MISC_1.0
+LIBPAM_1.0
+GLIBC_2.3
+GLIBC_2.14
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+%zK 
+%rK 
+%jK 
+%bK 
+%ZK 
+%RK 
+%JK 
+%BK 
+%:K 
+%2K 
+%*K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+%zI 
+%rI 
+%jI 
+%bI 
+%ZI 
+%RI 
+%JI 
+%BI 
+%:I 
+%2I 
+%*I 
+%"I 
+=BI 
+='I 
+=%I 
++[]A\
+=\H 
+=bH 
+=)H 
+=2B 
+fffff.
+=p@ 
+=Z@ 
+=KG 
+fffff.
+fffff.
+[]A\
+AWE1
+AVE1
+AUE1
+~%Hc
+=,? 
+="? 
+=A> 
+L$@H
+D$0H
+t$0H
+=x< 
+=!< 
+=%< 
+=}; 
+=t; 
+=f; 
+==; 
+=*; 
+=9: 
+=": 
+=~9 
+D$`1
+L$HH
+L$HH
+D$`L
+t$0H
+L$XH
+T$P1
+t$XH
+t$PH
+D$`f
+t$<H
+D$0H
+t$@H
+t$@H
+|$0H
+t$@H
+|$0H
+\$pH
+D$`H
+AVAUI
+ATUSH
+[]A\A]A^A_
+fff.
+fff.
+AVAUI
+ATUH
+[]A\A]A^
+ATUH
+t	<"I
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]A^A_
+/etc/defaults/su
+/etc/defaults/runuser
+/etc/login.defs
+su(1)
+runuser(1)
+Usage:
+Options:
+For more details see %s.
+cannot duplicate string
+cannot allocate %zu bytes
+/usr/local/bin:/bin:/usr/bin
+ENV_PATH
+ENV_ROOTPATH
+ENV_SUPATH
+failed to set PATH
+write error
+root
+/bin/sh
+runuser-l
+su-l
+(unknown)
+FAILED RUNUSER 
+FAILED SU 
+/usr/share/locale
+util-linux
+group %s does not exist
+%s from %s
+util-linux 2.24
+c:fg:G:lmps:u:hV
+COMMAND not specified.
+user %s does not exist
+/dev/
+none
+/var/log/btmp
+FAIL_DELAY
+incorrect password
+SHELL
+using restricted shell %s
+cannot set groups
+cannot open session: %s
+cannot create child process
+cannot change directory to %s
+cannot block signals
+cannot set signal handler
+%s (core dumped)
+ ...killed.
+cannot set group id
+cannot set user id
+TERM
+HOME
+USER
+LOGNAME
+ALWAYS_SET_PATH
+failed to execute %s
+%s(to %s) %s on %s
+session-command
+fast
+login
+preserve-environment
+shell
+supp-group
+help
+version
+ %s [options] -u <user> <command>
+ %s [options] [-] [<user> [<argument>...]]
+Run <command> with the effective user ID and group ID of <user>.  If -u is
+not given, fall back to su(1)-compatible semantics and execute standard shell.
+The options -c, -f, -l, and -s are mutually exclusive with -u.
+ -u, --user <user>             username
+Change the effective user ID and group ID to that of <user>.
+A mere - implies -l.  If <user> is not given, root is assumed.
+ -m, -p, --preserve-environment  do not reset environment variables
+ -g, --group <group>             specify the primary group
+ -G, --supp-group <group>        specify a supplemental group
+ -, -l, --login                  make the shell a login shell
+ -c, --command <command>         pass a single command to the shell with -c
+ --session-command <command>     pass a single command to the shell with -c
+                                   and do not create a new session
+ -f, --fast                      pass -f to the shell (for csh or tcsh)
+ -s, --shell <shell>             run <shell> if /etc/shells allows it
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+failed to set the %s environment variable
+specifying more than %d supplemental groups is not possible
+specifying more than %d supplemental group is not possible
+ignore --preserve-environment, it's mutually exclusive to --login.
+options --{shell,fast,command,session-command,login} and --user are mutually exclusive.
+only root can specify alternative groups
+may not be used by non-root users
+Session terminated, killing shell...
+warning: cannot change directory to %s
+%s: %s contains invalid numerical value: %s
+COLUMNS
+;*3$"
+su.debug
+7zXZ
+xC%k
+?<Fg\
+ROxb
+S$8o
+xA9l
+\D22
+=4hH
+0w93N
+R;=	Y
+)gy]
+|S%w
+{qU\W
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

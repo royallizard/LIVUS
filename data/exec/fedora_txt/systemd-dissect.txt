@@ -1,0 +1,161 @@
+/lib64/ld-linux-x86-64.so.2
+optarg
+GLIBC_2.2.5
+libc.so.6
+__progname
+strcmp
+__bss_start
+_edata
+_end
+stdout
+getopt_long
+program_invocation_short_name
+free
+__cxa_finalize
+__printf_chk
+GLIBC_2.3.4
+optind
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+_Unwind_Resume
+GCC_3.0
+__stack_chk_fail
+GLIBC_2.4
+log_parse_environment
+log_open
+loop_device_make_by_path
+root_hash_load
+__libc_start_main
+dissect_image
+partition_designator_to_string
+architecture_to_string
+_IO_putc
+dissected_image_decrypt_interactively
+dissected_image_mount
+decrypted_image_relinquish
+loop_device_relinquish
+dissected_image_unref
+decrypted_image_unref
+loop_device_unref
+log_assert_failed
+version
+unhexmem
+log_get_max_level
+log_internal
+log_assert_failed_unreachable
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-233.so
+libpthread.so.0
+/usr/lib/systemd
+a_&	
+AWAVAUATI
+[A\A]A^A_]
+AYAZ
+AWAVI
+AUATL
+[]A\A]A^A_
+fffff.
+writable
+read-only
+with
+without
+src/dissect/dissect.c
+argc >= 0
+argv
+disabled
+loop
+crypt
+Failed to parse root hash: %s
+Unhandled option
+Unknown action.
+Failed to dissect image: %m
+Found %s '%s' partition
+ of type %s
+ for %s
+ %s verity
+ on partition #%i
+ (%s)
+Failed to mount image: %m
+help
+version
+mount
+discard
+root-hash
+%s [OPTIONS...] IMAGE
+%s [OPTIONS...] --mount IMAGE PATH
+Dissect a file system OS image.
+  -h --help            Show this help
+     --version         Show package version
+  -m --mount           Mount the image to the specified directory
+  -r --read-only       Mount read-only
+     --discard=MODE    Choose 'discard' mode (disabled, loop, all, crypto)
+     --root-hash=HASH  Specify root hash for verity
+Unknown --discard= parameter: %s
+Root hash must be at least 128bit long: %s
+Expected a file path as only argument.
+Expected a file path and mount point path as only arguments.
+Failed to set up loopback device: %m
+Failed to read root hash file for %s: %m
+Couldn't identify a suitable partition table or file system in %s.
+No root partition for specified root hash found in %s.
+Multiple suitable root partitions found in image %s.
+No suitable root partition found in image %s.
+ (UUID %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x)
+Failed to relinquish DM devices: %m
+parse_argv
+parse_argv
+main
+main
+;*3$"
+zPLR
+.`d.
+gold 1.12
+systemd-dissect.debug
+7zXZ
+7T6o
+RC;pE
+Zdey
+YdwW
+e(bA4
+ue$7
+SV64
+eV@d
+[ww_
+\Lwn
+#T`2
+{i>,8
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,2375 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+dns_result_totext
+__stack_chk_fail
+pthread_once
+strlen
+isc__buffer_init
+isc__buffer_add
+cfg_parse_buffer
+isc_error_runtimecheck
+isc_assertion_failed
+strcmp
+cfg_obj_istuple
+cfg_tuple_get
+cfg_obj_isstring
+cfg_obj_asstring
+dns_name_init
+dns_name_setbuffer
+dns_rootname
+dns_name_fromtext
+cfg_type_namedconf
+dns_zone_getmctx
+cfg_obj_destroy
+cfg_parser_destroy
+dns_ssutable_detach
+dns_lctx
+cfg_parser_create
+dns_ssutable_create
+dns_zone_log
+cfg_list_first
+cfg_listelt_value
+dns_ssutable_addrule
+isc__mem_put
+cfg_list_next
+dns_zone_setssutable
+strcasecmp
+isc__mem_get
+dns_rdatatype_fromtext
+dns_name_iswildcard
+dns_name_format
+dns_zone_getorigin
+dns_name_copy
+cfg_aclconfctx_detach
+cfg_aclconfctx_create
+cfg_acl_fromconfig
+index
+cfg_obj_assockaddr
+isc_sockaddr_getport
+cfg_obj_getdscp
+isc_sockaddr_setport
+cfg_parse_map
+cfg_print_map
+cfg_doc_map
+cfg_rep_map
+isc_mem_attach
+dns_rbt_create
+dns_rbt_destroy
+isc__mem_putanddetach
+isc_rwlock_init
+isc_rwlock_lock
+isc_rwlock_unlock
+isc_rwlock_destroy
+dns_name_isabsolute
+dns_rbt_addname
+dns_rbt_deletename
+dns_rbt_findname
+getcwd
+mkdir
+chmod
+isc_dir_init
+isc_dir_open
+isc_dir_close
+__errno_location
+isc___errno2result
+strncpy
+isc_string_copy
+strchr
+isc_file_remove
+krb5_init_context
+krb5_cc_close
+krb5_kt_close
+krb5_free_principal
+krb5_free_cred_contents
+krb5_free_context
+krb5_get_error_message
+krb5_free_error_message
+setenv
+krb5_cc_resolve
+krb5_parse_name
+krb5_get_default_realm
+krb5_free_default_realm
+krb5_kt_resolve
+krb5_build_principal
+krb5_get_init_creds_opt_set_address_list
+krb5_get_init_creds_opt_set_forwardable
+krb5_get_init_creds_opt_set_proxiable
+krb5_get_init_creds_keytab
+krb5_cc_initialize
+krb5_cc_retrieve_cred
+krb5_cc_store_cred
+krb5_timeofday
+isc__buffer_initnull
+ldap_str2dn
+strncasecmp
+dns_name_dynamic
+ldap_dnfree
+dns_name_free
+dns_name_dupwithoffsets
+dns_name_issubdomain
+dns_name_equal
+isc__mem_allocate
+__ctype_b_loc
+memcpy
+isc_string_printf
+isc__mem_free
+dns_name_fullcompare
+dns_name_countlabels
+dns_name_getlabelsequence
+dns_name_tostring
+dns_rdatatype_format
+isc_string_append
+dns_db_origin
+dns_db_addrdataset
+dns_rbt_fullnamefromnode
+dns_rdatalist_fromrdataset
+pthread_mutex_lock
+dns_db_newversion
+pthread_mutex_unlock
+isc_error_fatal
+dns_db_rpz_attach
+dns_db_rpz_ready
+dns_db_setcachestats
+dns_db_hashsize
+dns_db_findext
+dns_db_findnodeext
+dns_db_getrrsetstats
+dns_db_isdnssec
+dns_db_resigned
+dns_db_getsigningtime
+dns_db_setsigningtime
+dns_db_findnsec3node
+dns_db_getnsec3parameters
+dns_db_transfernode
+dns_db_getoriginnode
+dns_db_settask
+dns_db_overmem
+dns_db_nodecount
+dns_db_issecure
+dns_db_allrdatasets
+dns_db_findrdataset
+dns_db_createiterator
+dns_db_printnode
+dns_db_expirenode
+dns_db_detachnode
+dns_db_attachnode
+dns_db_findzonecut
+dns_db_find
+dns_db_findnode
+dns_db_closeversion
+dns_db_attachversion
+dns_db_currentversion
+dns_db_serialize
+dns_db_detach
+pthread_mutex_destroy
+dns_rdatasetiter_first
+dns_rdatasetiter_destroy
+dns_db_subtractrdataset
+dns_rdatalist_init
+dns_db_deleterdataset
+dns_name_clone
+dns_rdata_fromstruct
+isc__mutex_init
+isc_ondestroy_init
+isc_refcount_init
+dns_db_create
+dynamic_driver_init
+dns_db_register
+dynamic_driver_destroy
+dns_db_unregister
+ldap_value_free
+ldap_memfree
+isc_lex_close
+isc_lex_destroy
+isc_lex_create
+ber_free
+ldap_first_attribute
+ldap_get_values
+ldap_next_attribute
+ldap_get_dn
+ldap_get_option
+ldap_err2string
+ldap_first_entry
+ldap_next_entry
+dns_ttl_fromtext
+pthread_mutex_trylock
+dns_zone_getraw
+dns_zone_detach
+dns_zone_getfile
+dns_zone_getjournal
+ldap_unbind_ext_s
+ldap_initialize
+ldap_set_option
+isc_time_now
+isc_time_compare
+isc_interval_set
+isc_time_nowplusinterval
+ldap_simple_bind_s
+isc_error_unexpected
+ldap_sasl_interactive_bind_s
+dns_view_findzone
+dns_view_freeze
+dns_zone_getview
+dns_zone_setview
+dns_view_addzone
+dns_view_thaw
+dns_zone_load
+dns_zone_getserial2
+dns_zone_notify
+dns_zone_attach
+isc__buffer_setactive
+isc_lex_openbuffer
+dns_rdata_fromtext
+dns_rdata_init
+dns_rdata_fromregion
+dns_rdata_tostruct
+dns_zone_setnsec3param
+dns_fwdtable_delete
+dns_zone_getdb
+dns_zt_unmount
+dns_zone_getmgr
+dns_zonemgr_releasezone
+dns_zone_unload
+dns_zone_getdbtype
+dns_view_flushcache
+isc_sockaddr_format
+dns_fwdtable_find2
+dns_zt_find
+isc_sockaddr_equal
+dns_fwdtable_addfwd
+isc_mem_detach
+isc_event_free
+isc_task_detach
+dns_zone_setfile
+dns_zone_setkeydirectory
+isc_result_totext
+dns_categories
+dns_zone_logc
+dns_acl_detach
+ldap_modify_ext_s
+ldap_delete_ext_s
+ldap_add_ext_s
+dns_rdata_freestruct
+memset
+isc__buffer_usedregion
+dns_rdata_totext
+ldap_msgfree
+ldap_search_ext_s
+ldap_count_entries
+dns_soa_getserial
+dns_update_soaserial
+dns_soa_setserial
+dns_rdataset_init
+dns_rdatasetiter_current
+dns_rdataset_first
+dns_rdataset_current
+dns_difftuple_create
+dns_diff_appendminimal
+dns_rdataset_next
+dns_rdataset_disassociate
+dns_rdatasetiter_next
+sigemptyset
+sigaddset
+pthread_sigmask
+ldap_sync_destroy
+sleep
+ldap_sync_initialize
+sigaction
+ldap_strdup
+ldap_sync_init
+ldap_sync_poll
+gethostname
+dns_view_detach
+pthread_kill
+pthread_join
+dns_dyndb_get_view
+dns_view_attach
+dns_dyndb_get_zonemgr
+isc_string_printf_truncate
+dns_fwdtable_find
+isc_thread_create
+dns_name_reset
+dns_rdata_toregion
+dns_diff_init
+dns_diff_clear
+dns_difftuple_free
+dns_journal_destroy
+dns_diff_print
+dns_diff_apply
+dns_zone_markdirty
+dns_journal_open
+dns_db_createsoatuple
+dns_journal_write_transaction
+dns_diff_append
+dns_zone_create
+dns_zone_setorigin
+dns_zone_setqueryacl
+dns_zone_setclass
+dns_zone_settype
+dns_zone_setdbtype
+dns_zonemgr_managezone
+dns_zone_clearqueryacl
+dns_zone_setxfracl
+dns_zone_clearxfracl
+dns_zone_setnotifytype
+dns_zone_setsigvalidityinterval
+dns_zone_setsigresigninginterval
+dns_zone_setsignatures
+dns_zone_setnodes
+dns_zone_setprivatetype
+dns_zone_setoption
+dns_zone_setrefreshkeyinterval
+dns_zone_gettask
+dns_zone_link
+dns_zone_setkeyopt
+dns_zone_rekey
+dns_db_getsoaserial
+isc_serial_le
+dns_difftuple_copy
+dns_rdata_compare
+dns_name_hasbuffer
+inet_pton
+isc_netaddr_fromin6
+isc_netaddr_fromin
+dns_byaddr_createptrname2
+strstr
+ldap_dn2str
+isc__mem_strdup
+isc_task_attach
+isc_event_allocate
+isc_task_send
+isc_task_beginexclusive
+isc_task_endexclusive
+dns_modules
+isc_log_vwrite
+dns_rbtnodechain_current
+dns_rbtnodechain_invalidate
+dns_rbtnodechain_next
+dns_rbtnodechain_init
+dns_rbtnodechain_first
+isc_region_compare
+isc_buffer_allocate
+isc_buffer_free
+isc__buffer_putmem
+qsort
+isc_md5_init
+isc_md5_update
+isc_md5_final
+isc_md5_invalidate
+pthread_cond_init
+pthread_cond_destroy
+pthread_cond_wait
+isc_condition_waituntil
+pthread_cond_signal
+isc_parse_uint32
+strcpy
+isc_string_separate
+pthread_cond_broadcast
+isc_task_sendanddetach
+__vsnprintf_chk
+isc_timer_detach
+dns_dyndb_get_task
+dns_name_tofilenametext
+isc__buffer_putuint8
+dns_db_attach
+libkrb5.so.3
+libldap-2.4.so.2
+libdns.so.160
+libisc.so.148
+libc.so.6
+_edata
+__bss_start
+_end
+ldap.so
+krb5_3_MIT
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.3.2
+GLIBC_2.2.5
+5B~"
+%D~"
+%B~"
+%:~"
+%2~"
+%*~"
+%"~"
+%z}"
+%r}"
+%j}"
+%b}"
+%Z}"
+%R}"
+%J}"
+%B}"
+%:}"
+%2}"
+%*}"
+%"}"
+%z|"
+%r|"
+%j|"
+%b|"
+%Z|"
+%R|"
+%J|"
+%B|"
+%:|"
+%2|"
+%*|"
+%"|"
+%z{"
+%r{"
+%j{"
+%b{"
+%Z{"
+%R{"
+%J{"
+%B{"
+%:{"
+%2{"
+%*{"
+%"{"
+%zz"
+%rz"
+%jz"
+%bz"
+%Zz"
+%Rz"
+%Jz"
+%Bz"
+%:z"
+%2z"
+%*z"
+%"z"
+%zy"
+%ry"
+%jy"
+%by"
+%Zy"
+%Ry"
+%Jy"
+%By"
+%:y"
+%2y"
+%*y"
+%"y"
+%zx"
+%rx"
+%jx"
+%bx"
+%Zx"
+%Rx"
+%Jx"
+%Bx"
+%:x"
+%2x"
+%*x"
+%"x"
+%zw"
+%rw"
+%jw"
+%bw"
+%Zw"
+%Rw"
+%Jw"
+%Bw"
+%:w"
+%2w"
+%*w"
+%"w"
+%zv"
+%rv"
+%jv"
+%bv"
+%Zv"
+%Rv"
+%Jv"
+%Bv"
+%:v"
+%2v"
+%*v"
+%"v"
+%zu"
+%ru"
+%ju"
+%bu"
+%Zu"
+%Ru"
+%Ju"
+%Bu"
+%:u"
+%2u"
+%*u"
+%"u"
+%zt"
+%rt"
+%jt"
+%bt"
+%Zt"
+%Rt"
+%Jt"
+%Bt"
+%:t"
+%2t"
+%*t"
+%"t"
+%zs"
+%rs"
+%js"
+%bs"
+%Zs"
+%Rs"
+%Js"
+%Bs"
+%:s"
+%2s"
+%*s"
+%"s"
+AWAVA
+AUATH
+l$PH
+D$h1
+l$0H
+D$0H
+D$ 1
+T$@1
+L$hdH3
+x[]A\A]A^A_
+ATUS
+>TFIDt
+[]A\
+AWAVM
+AUATI
+\$`H
+l$0L
+|$(H
+l$0H
+[]A\A]A^A_
+8.t,
+AWAVI
+AUATA
+t$PI
+D$HH
+D$ t+H
+D$HL
+D$p1
+L$(L
+T$PL
+t$PH
+T$DH
+D$(v
+D$`H
+|$(L
+D$XH
+l$p1
+tlVH
+D$`H;D$h
+t$ H
+T$ D
+|$0H
+t$ H
+[]A\A]A^A_
+fffff.
+5zf"
+fffff.
+=If"
+=rL"
+fffff.
+=AL"
+AUATI
+[]A\A]
+AWAVAUATUSH
+D$H1
+\$HdH3
+X[]A\A]A^A_
+ATUSL
+[]A\
+ffff.
+AUATI
+D$81
+L$8dH3
+H[]A\A]
+=	_"
+AWAVI
+AUATUSH
+t$xH
+|$`H
+[]A\A]A^A_
+T$`L
+|$`H
+L$hH
+t$pL
+\$\L
+|$HL
+D$0H
+D$(H
+D$PH
+t$ AVL
+L$4H
+t$hH
+ZYt'H
+\$\L
+|$HL
+t$pL
+T$0H
+T$(H
+|$8H
+T$@H
+|$(L
+|$(H
+t$PI
+D$$	
+AWAVAUATUSH
+D$81
+|$0H
+L$8dH3
+H[]A\A]A^A_
+T$0L
+|$0H
+L$(H
+t$ L
+L$0H
+t$8H
+|$(H
+XZtEH
+AWAVAUATUSH
+[]A\A]A^A_
+l$ L
+|$ H
+AVAUATUSH
+[]A\A]A^
+]A\A]A^
+ATUSH
+[]A\
+ATUH
+[]A\
+ATUH
+[]A\
+[]A\
+ATUH
+[]A\
+AUAT
+[]A\A]
+ATUH
+[]A\
+fffff.
+ATUH
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+t$0H
+|$0H
+t$HH
+t$@H
+t$PH
+|$8L
+|$8H
+|$0H
+|$8H
+T$HH
+|$0H
+|$8H
+|$8H
+T$PL
+D$PL
+t$8H
+t$XL
+D$HH
+t$XH
+|$8H
+T$@H
+L$XH
+L$PL
+T$`H
+ZYtJH
+T$PH
+t$HH
+|$0H
+|$8H
+t$HH
+|$8L
+|$0H
+t$,L
+T$,H
+;D$,
+AWAVAUATUSH
+\$@H
+D$(H
+T$8H
+|$8H
+[]A\A]A^A_
+D$(H
+|$ E1
+D$(H
+t$ 1
+T$ E1
+t$ L
+t$ L
+AWAVAUATUSH
+|$(H
+D$ H
+D$ H
+8[]A\A]A^A_
+\$ D
+|$(H
+8[]A\A]A^A_
+AVAUI
+ATUI
+D$x1
+L$xdH3
+[]A\A]A^
+ATUI
+ []A\
+ []A\
+ATUSH
+l$8H
+xcmA
+[]A\
+AWAVAUATUSH
+DPDLH
+\$ I
+XZt9H
+[]A\A]A^A_
+AUATUSH
+DPDLH
+[]A\A]
+[]A\A]
+ffffff.
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+ATUSH
+D$ L
+T$(L
+\$0H
+\$8H
+l$@L
+d$Ht:
+DPDLu1H
+l$@H
+\$8L
+\$0L
+T$(H
+D$ []A\
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu!H
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+DPDLu
+\$ H
+\$(t-
+DPDLu$H
+\$ L
+ffffff.
+DPDLu
+DPDLH
+ffff.
+DPDLu
+DPDLu
+DPDLu
+DPDL
+AWAVI
+AUATI
+\$ H
+[]A\A]A^A_
+ffffff.
+AWAVAUATUSH
+DPDLH
+\$0I
+[]A\A]A^A_
+t$(L
+L$$L
+D$$H
+L$(H
+ffffff.
+AWAVAUATUSH
+DPDLH
+\$PI
+[]A\A]A^A_
+DPDLu
+AVAUATI
+|$`L
+D$Bf
+\$@H
+[]A\A]A^A_
+AWAVAUATUSH
+D$XH
+[]A\A]A^A_
+DSNDA
+DPDLfA
+[]A\A]A^A_
+XZt+H
+D$XL
+AUATUSH
+[]A\A]
+ATUH
+tgH9u
+[]A\
+AVAUATUSL
+I;\$ 
+I;\$ 
+I;\$
+|$8H
+t$xH
+[]A\A]A^
+AUATUSH
+teH9E
+[]A\A]
+fff.
+ATUSH
+D$xH
+[]A\
+AWAVAUATUSH
+t$H1
+D$8H
+|$0H
+t$HdH34%(
+X[]A\A]A^A_
+D$8H
+T$0L
+T$8H
+\$8H
+D$8H
+|$0H
+L$@H
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVI
+AUATI
+D$81
+T$(H
+D$ H
+D$(I
+L$8dH3
+H[]A\A]A^A_
+t$ L
+D$ H
+T$(I
+ATUSH
+[]A\
+AUATI
+[]A\A]
+[]A\A]
+AWAVL
+AUATI
+D$X1
+D$ H
+D$(H
+D$0H
+D$8H
+L$XdH3
+h[]A\A]A^A_
+AWAVI
+AUATH
+([]A\A]A^A_
+ATUH
+[]A\
+T$ dH
+D$81
+L$8dH3
+D$ H
+fffff.
+AVAUATUSH
+[]A\A]A^
+]A\A]A^
+AUATE1
+~&Hc
+[]A\A]
+AVAUA
+ATUH
+T$ H
+[]A\A]A^
+t$ H
+t$xH
+T$(H
+\$`H
+\$`9
+t$xH
+T$@H
+T$@H
+t$xH
+t$xH
+T$HH
+L$`H
+T$0H
+T$8H
+l$HH
+}0ATA
+T$X1
+T$8H
+t$xH
+T$PH
+t$xH
+T$XH
+l$8L
+T$XH
+t$PI
+AUATA
+~0dH
+([]A\A]
+ATUSH
+[]A\
+AVAUATUSH
+tstAH
+tTE1
+ []A\A]A^
+t6I9
+tIH;E
+AVAUA
+ATUH
+tR=%
+tK=b
+ []A\A]A^
+AWAVM
+AUATI
+\$0L
+D$h1
+t$ H
+T$(H
+L$hdH3
+x[]A\A]A^A_
+D$ t>
+T$(H
+L$ H
+AWAVI
+AUATH
+D$X1
+L$XdH3
+h[]A\A]A^A_
+L$ H
+Y^t4H
+t$ 1
+t$Hj
+D$\L
+ATUI
+[]A\
+AUATUSH
+[]A\A]
+fff.
+AWAVI
+AUATI
+D$<$
+l$`H
+D$`H
+T$PH
+t$pH;
+H;t$x
+t$pH
+[]A\A]A^A_
+H;t$x
+t$<H
+D$PH
+|$`H
+D$XM
+d$$H
+l$(I
+D$xH
+|$XH
+d$$H
+L$@H
+l$HH
+D$@L
+l$pH
+|$HH
+T$pH
+ATUSH
+D$(1
+|$ H
+|$ H
+|$ H
+|$ H
+D$(dH3
+0[]A\
+H9E`
+9ufH
+AWAVI
+AUATL
+D$(1
+D$ H
+L$(dH3
+8[]A\A]A^A_
+D$ E
+AWAVI
+AUATI
+([]A\A]A^A_
+fffff.
+[]A\
+[]A\
+fffff.
+t0USH
+AWAVAUATI
+|$ L
+[A\A]A^A_]
+|$ L
+ffffff.
+AVAUATSH
+[A\A]A^]
+AUATUSH
+[]A\A]
+AVAUATUSL
+[]A\A]A^
+AWAVAUATUSH
+l$@H
+D$0H
+D$(H
+D$(J
+T$8H
+D$8A9
+t$(D
+[]A\A]A^A_
+D$(H
+ATUSH
+[]A\
+ATUH
+[]A\
+t$ H
+fff.
+AWAVAUATI
+D$H1
+t$(1
+\$HdH3
+[]A\A]A^A_
+d$ H
+l$(L
+T$0H
+D$00
+D$40
+D$8H
+D$PH
+D$@H
+D$(H
+D$(H
+t$ H
+t$ 1
+t$(I
+L$(E1
+y0RH
+T$(H
+T$(H
+D$ H
+D$(H
+ffff.
+AWAVH
+AUATUSH
+D$8H
+L$`H
+d$8H
+t$XL
+l$PH
+|$XH
+CpE1
+[]A\A]A^A_
+l$ H
+l$ A
+l$ 1
+T$@H
+D$0A
+D$8H
+D$8H
+AWAVAUATUSH
+D$pH
+D$xH
+[]A\A]A^A_
+d$XH
+t$PH
+|$XH
+|$XH
+/tBH
+|$XH
+|$PH
+T$hH
+|$hE1
+HcD$
+T$8H
+T$ H
+T$(H
+T$0H
+T$@H
+T$HH
+D$@t,
+D$8H
+T$ H
+D$`L
+t$pH
+|$XH
+ffff.
+ATUSH
+[]A\
+[]A\
+fffff.
+AWAVAUATUSH
+[]A\A]A^A_
+t$0H
+T$ H
+D$ L
+D$(L
+D$(D
+|$(E
+D$(H
+D$(D
+n A;]
+D$(H
+|$(1
+(u7I
+|$(A
+D$ L
+ffff.
+AWAV
+AUATI
+l$pH
+|$(H
+l$HH
+|$(H
+t$PL
+|$DH
+D$XH
+D$hH
+|$(L
+t$PH
+|$(H
+D$`H
+|$(L
+DD$XL
+D$0H
+T$,H
+[]A\A]A^A_
+|$(H
+T$8H
+t$`H
+AWAVA
+AUATI
+t$ H
+[]A\A]A^A_
+t$ H
+l$(H
+D$ H
+H;D$(t
+H9D$(
+t!f;p
+AWAVA
+AUATI
+$D;h
+$t^H
+[]A\A]A^A_
+AWAVAUATUSH
+t$h1
+l$HI
+|$HH
+\$hdH3
+x[]A\A]A^A_
+t$7H
+D$XH
+D$ H
+D$`H
+D$(H
+T$ H
+t$(H
+t$@L
+t$8H
+L$XL
+t$HH
+t$HH
+|$`H
+L$`AWM
+L$@H
+D$8H
+T$ H
+t$(H
+D$PH
+t$XH
+T$PL
+|$PD
+D$`H
+D$(P
+^_tdL
+T$`H
+D$XH
+D$XH
+fff.
+AUATUSH
+([]A\A]
+ATUSH
+tTH;]
+[]A\
+AWAVAUATUSH
+|$8H
+t$0L
+D$xH
+|$`H
+D$XH
+|$`H
+|$`H
+|$`H
+|$`H
+|$`H
+[]A\A]A^A_
+|$`L
+D$PL
+D$XH
+L$pH
+T$hL
+|$hH
+|$pH
+|$hH
+|$hH
+D$XL
+D$XH
+D$XL
+D$XL
+|$`H
+D$XH
+|$hH
+|$`M
+D$XH
+t$TH
+D$XH
+|$`H
+T$`H
+T$`H
+t$xH
+|$hH
+L$LH
+|$hH
+T$LH
+|$XL
+L$LH
+|$hH
+AWAVAUATUSH
+D$h$
+D$l1
+t$hH
+t$hH
+[]A\A]A^A_
+L$ H
+|$ L
+D$0H
+D$@H
+D$0H
+t$(H
+|$8L
+t$(H
+t$(H
+T$ H
+|$@H
+D$(H
+t$ H
+T$0H
+T$0H
+t$(H
+T$ H
+|$@H
+t$(H
+l$0H
+l$ H
+t$(H
+D$(H
+D$0H
+|$0H
+t$8H
+D$8H
+T$ H
+t$HH
+T$pH
+T$8L
+t$0H
+L$tH
+T$tL
+L$tH
+|$0H
+T$(H
+|$01
+t$(H
+|$0H
+T$8M
+t$ H
+FFIDH
+l$TH
+\$ 1
+l$TH
+D$|H
+t$(H
+t$(I
+|$@1
+t$|H
+\$ A
+T$ H
+T$ A
+AWAVI
+AUATUSH
+d$pH
+|$(H
+t$ H
+D$XH
+D$HH
+D$HH
+t$ H
+|$PH
+|$PH
+|$PH
+|$PH
+t$XI
+[]A\A]A^A_
+D$HH
+L$(H9H`
+D$@1
+D$HL
+D$HH
+|$XH
+D$HL
+D$`1
+D$HH
+|$XH
+D$HM
+D$D1
+L$(H
+T$H1
+T$`H
+D$`H
+AWAVI
+AUATH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+XZuUH
+T$ H
+L$ H
+fffff.
+AWAVI
+AUATUSH
+d$pH
+l$HdH
+t$PH
+[]A\A]A^A_
+L$HH
+t$ E1
+T$XL
+T$ H
+l$`H
+50E!
+|$HH
+5sD!
+D$hH
+D$(H
+D$`H
+t$(H
+|$(H
+|$HH
+|$hH
+T$(H
+t$XH
+D$`H
+D$0H
+D$`L
+D$0H
+|$hL
+|$hH
+D$8H
+T$0H
+D$`H
+ffffff.
+AWAVI
+AUATI
+D$81
+L$8dH3
+H[]A\A]A^A_
+t$ H
+D$ L
+D$ H
+AVAUI
+ATUH
+D$(1
+L$(dH3
+0[]A\A]A^
+L$ H
+fff.
+D$(1
+L$(dH3
+t$ H
+fff.
+AWAVAUATUSH
+[]A\A]A^A_
+L$8L
+D$8E1
+d$pH
+D$`I
+D$@H
+|$`H
+|$`H
+T$XH
+|$`H
+|$`H
+T$@H
+D$@H
+|$XH
+T$,H
+T$hH
+D$`H
+|$hH
+t$HA
+D$@I
+D$0L
+I;W`
+t$0H
+L$+L
+|$@H
+T$P1
+|$PH
+D$@H
+>$u<H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+?IPDLH
+;IPDLH
+?IPDL
+ffffff.
+AVAUATUSH
+IPDL
+ []A\A]A^
+AWAVAUATUSH
+L$81
+t$ L
+T$(H
+t$(H
+L$8dH3
+H[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+l$ L
+l$@D
+ffff.
+AVAUATUSH
+[]A\A]A^
+ATUS~SL
+[]A\
+[]A\
+ATUH
+u*[]A\
+[]A\H
+AVAUATUSH
+[]A\A]A^
+fffff.
+AWAVAUATUSH
+\$ H
+[]A\A]A^A_
+[]A\A]A^A_
+AVAUI
+ATUI
+[]A\A]A^
+ffff.
+AVAU1
+ATUI
+ []A\A]A^
+A9D$
+A9D$
+fff.
+AVAUI
+ATU1
+D$(1
+L$(dH3
+0[]A\A]A^
+H;D$
+fffff.
+fff.
+AWAVAUATUSH
+([]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+fff.
+AUATUSH
+D$ H
+tLE1
+[]A\A]
+ATUSH
+tstAH
+ []A\
+ATUSH
+D$(1
+tstA
+D$(dH3
+0[]A\
+D$ H
+t$ H
+ffffff.
+AWAVAUATUSH
+|$pL
+[]A\A]A^A_
+ATUH
+[]A\
+[]A\H
+fffff.
+AUATUSH
+tstAI
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_
+pAVAUATI
+[]A\A]A^A_
+ATUL
+[]A\
+AVAUI
+gpUSH
+[]A\A]A^
+ATUH
+opSH
+[]A\
+[]A\H
+AUATUSH
+[]A\A]
+AVAUATUSH
+[]A\A]A^
+fff.
+t7ATA
+[]A\
+ffff.
+ATUH
+[]A\
+[]A\
+fffff.
+AVAUI
+ATUH
+]A\A]A^
+AUATI
+~sHc
+([]A\A]
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+ATUSH
+[]A\
+[]A\
+AWAVI
+AUATI
+[]A\A]A^A_
+fffff.
+ATUSH
+[]A\
+fff.
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+d$ H
+\$`L
+[]A\A]A^A_
+fffff.
+AWAVAUATUSH
+d$0H
+[]A\A]A^A_
+t$ L
+t$8H
+AWAVAUATUSH
+|$@H
+[]A\A]A^A_
+AWAVI
+AUATI
+D$(1
+T$ L
+L$(dH3
+8[]A\A]A^A_
+PAWH
+XZtKH
+fff.
+ATUH
+[]A\
+[]A\
+AVAUI
+ATUI
+ []A\A]A^
+fff.
+AUATUSH
+[]A\A]
+AVAUATUSH
+[]A\A]A^
+AUATUSH
+[]A\A]
+acl.c
+{ %s }
+'%s' is not a valid name
+options
+update-policy
+allow-query
+allow-transfer
+forwarders
+failed to parse policy string
+mode
+grant
+deny
+matchtype
+zonesub
+wildcard
+selfsub
+selfwild
+ms-self
+krb5-self
+ms-subdomain
+krb5-subdomain
+tcp-self
+6to4-self
+external
+obj != ((void *)0)
+types
+i < n
+'%s' is not a valid type
+i == n
+identity
+{ %s; }
+addresses
+empty_map
+[%-15s: %4d: %-21s] check failed: %s
+objp != ((void *)0) && *objp == ((void *)0)
+((pthread_once((&once), (init_cfgtypes)) == 0) ? 0 : 34) == 0
+cfg_type != ((void *)0) && cfg_type->of != ((void *)0)
+bug in %s(): configuration object is not a tuple
+bug in %s(): tuple is expected
+bug in %s(): mode is not defined
+bug in %s(): unsupported ACL mode '%s'
+bug in %s(): matchtype is not defined
+bug in %s(): unsupported match type '%s'
+[%-15s: %4d: %-21s] Memory allocation failed
+invalid update policy: name '%s' is expected to be a wildcard
+aclp != ((void *)0) && *aclp == ((void *)0)
+"Unhandled ACL type in acl_from_ldap" == ((void *)0)
+%s ACL parsing failed: '%s': %s
+fw != ((void *)0) && *fw == ((void *)0)
+semicolon_bracket_str
+acl_parse_forwarder
+acl_from_ldap
+get_types
+get_fixed_name
+get_match_type
+get_mode
+bracket_str
+acl_configure_zone_ssutable
+fwdrp != ((void *)0) && *fwdrp == ((void *)0)
+isc_rwlock_lock((&fwdr->rwlock), (isc_rwlocktype_write)) == 0
+isc_rwlock_unlock((&fwdr->rwlock), (isc_rwlocktype_write)) == 0
+isc_rwlock_lock((&fwdr->rwlock), (isc_rwlocktype_read)) == 0
+isc_rwlock_unlock((&fwdr->rwlock), (isc_rwlocktype_read)) == 0
+fwd_register.c
+dns_name_isabsolute(name)
+fwdr_del_zone
+fwdr_add_zone
+fwdr_create
+dir_name != ((void *)0)
+fs.c
+unable to create directory '%s', working directory is '%s': %s
+unable to chmod directory '%s', working directory is '%s': %s
+unable to open directory '%s', working directory is '%s': %s
+unable to delete file '%s', working directory is '%s': %s
+fs_dirs_create
+<getcwd() failed>
+FILE:/etc/named.keytab
+krb5_helper.c
+FILE:
+MEMORY:_ld_krb5_cc_%s
+KRB5CCNAME
+krbtgt
+Failed to get timeofday (%s)
+Credentials in cache expired
+principal != ((void *)0) && principal[0] != '\0'
+Using default keytab file name: %s
+Unknown keytab file name format, missing leading 'FILE:' prefix
+Kerberos context initialization failed (%s)
+Failed to set KRB5CCNAME environment variable to '%s'
+Failed to resolve credentials cache name '%s' (%s)
+Failed to parse the principal name '%s' (%s)
+Failed to retrieve default realm (%s)
+Failed to build 'krbtgt/REALM' principal (%s)
+Credentials are not present in cache (%s)
+krb5_timeofday() = %u ; creds.times.endtime = %u
+Found valid Kerberos credentials in cache
+Attempting to acquire new Kerberos credentials
+Failed to resolve keytab file '%s' (%s)
+Failed to get initial credentials (TGT) using principal '%s' and keytab '%s' (%s)
+Failed to initialize credentials cache '%s' (%s)
+Failed to store credentials in credentials cache '%s' (%s)
+get_krb5_tgt
+no idnsName component found in DN
+bug in %s(): multi-valued RDNs are not supported
+bug in %s(): ldap_str2dn failed: %u
+non-string attribute detected: position %u
+out-of-zone data: first idnsName is not a subdomain of the other
+attempt to redefine zone apex: first idnsName equals to zone name
+unsupported number of idnsName components in DN: %u components found
+failed to convert DN '%s' to DNS name: %s
+ldap_name != ((void *)0) && *ldap_name == ((void *)0)
+bug in %s(): improperly escaped DNS string: '%s'
+dns_rdatatype_fromtext() failed for attribute '%s': %s
+rdn[0] != ((void *)0)
+ldap_convert.c
+idnsName
+dns_str != ((void *)0)
+\%02x
+idnsName=
+rdatatype_to_ldap_attribute
+dnsname_to_dn
+dns_to_ldap_dn_escape
+dn_to_dnsname
+((mctx) != ((void *)0) && (mctx)->magic == (('A') << 24 | ('m') << 16 | ('c') << 8 | ('x')))
+rdclass == ((dns_rdataclass_t)dns_rdataclass_in)
+dbp != ((void *)0) && *dbp == ((void *)0)
+((ldapdb) != ((void *)0) && (ldapdb)->common.impmagic == (('L') << 24 | ('D') << 16 | ('P') << 8 | ('D')))
+((pthread_mutex_lock(((&ldapdb->newversion_lock))) == 0) ? 0 : 34) == 0
+((pthread_mutex_unlock(((&ldapdb->newversion_lock))) == 0) ? 0 : 34) == 0
+ldapdb: method dump() should never be called
+ldapdb: method endload() should never be called
+ldapdb: method beginload() should never be called
+((pthread_mutex_destroy((&ldapdb->newversion_lock)) == 0) ? 0 : 34) == 0
+dns_rdatasetiter_first() failed during node_isempty() for name '%s': %s
+dns_db_allrdatasets() failed during node_isempty() for name '%s': %s
+registering dynamic ldap driver for %s.
+ldap_driver.c
+argc == 1
+type == dns_dbtype_zone
+result == 0
+*versionp != ((void *)0)
+*versionp == ((void *)0)
+prev > 0
+argv != ((void *)0)
+dyndb_args != ((void *)0)
+dynamic-ldap
+addrdataset
+subtractrdataset
+node_isempty
+deleterdataset
+ldapdb_create
+ldapdb_associate
+(*values).tail == (value)
+ldap_entry.c
+(*values).head == (value)
+(*values).head != (value)
+(*values).tail != (value)
+(*attrlist).tail == (attr)
+(*attrlist).head == (attr)
+(*attrlist).head != (attr)
+(*attrlist).tail != (attr)
+(*entrylist).tail == (entry)
+(*entrylist).head == (entry)
+(*entrylist).head != (entry)
+(*entrylist).tail != (entry)
+*entryp == ((void *)0)
+idnsSOArName
+idnsSOAmName
+idnsSOAserial
+idnsSOArefresh
+idnsSOAretry
+idnsSOAexpire
+idnsSOAminimum
+<NULL>
+objectClass
+idnsrecord
+idnszone
+idnsforwardzone
+idnsconfigobject
+dnsTTL
+LDAP error: %s: %s: unable to get entry DN
+LDAP error: %s: unable to get entry DN
+LDAP error: <unable to obtain LDAP error code>: unable to get entry DN
+entrylist != ((void *)0) && (((*entrylist).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)
+entry without supported objectClass: DN '%s'
+zone '%s' has to have type either 'master' or 'forward'
+entry '%s': entry TTL %u > MAXTTL, setting TTL to 0
+ldap_attr_nextvalue
+ldap_entry_getfakesoa
+ldap_attr_create
+ldap_entry_create
+ldap_entry_init
+ldap_entrylist_append
+ldap_entrylist_create
+ldap_sync_search_reference is not yet handled
+ldap_sync_search_result is not yet handled
+conn != ((void *)0) && *conn == ((void *)0)
+timeout in ldap_pool_getconnection(): try to raise 'connections' parameter; potential deadlock?
+unable to remove files, expect problems
+LDAP initialization failed: %s
+failed to set LDAP_OPT_HOST_NAME
+trying to establish LDAP connection to %s
+trying interactive bind using '%s' mechanism
+((pthread_mutex_lock(((&ldap_inst->kinit_lock))) == 0) ? 0 : 34) == 0
+((pthread_mutex_unlock(((&ldap_inst->kinit_lock))) == 0) ? 0 : 34) == 0
+invalid auth_method_enum value %u
+bug in %s(): unsupported authentication mechanism
+LDAP error: %s: %s: bind to LDAP server failed
+LDAP error: %s: bind to LDAP server failed
+LDAP error: <unable to obtain LDAP error code>: bind to LDAP server failed
+bind to LDAP server successful
+connection to the LDAP server was lost
+handle_connection_error failed to obtain ldap error code
+LDAP query timed out. Try to adjust "timeout" parameter
+LDAP error: %s: %s: invalid syntax in handle_connection_error indicates a bug
+LDAP error: %s: invalid syntax in handle_connection_error indicates a bug
+LDAP error: <unable to obtain LDAP error code>: invalid syntax in handle_connection_error indicates a bug
+LDAP error: %s: %s: connection error
+LDAP error: %s: connection error
+LDAP error: <unable to obtain LDAP error code>: connection error
+successfully reconnected to LDAP server
+changep != ((void *)0) && *changep == ((void *)0)
+((task) != ((void *)0) && (task)->magic == (('A') << 24 | ('t') << 16 | ('s') << 8 | ('t')))
+zone->view doesn't match data in the view
+cannot publish zone: view already contains another zone with this name
+reconfiguring NSEC3PARAM to '%s'
+%s '%s': failed to delete forwarders: %s
+zonep != ((void *)0) && *zonep != ((void *)0)
+; global forwarders from configuration file will be used
+; global forwarders will be disabled
+; global forwarders will be used (if they are configured)
+%s '%s': invalid value '%s' in idnsForwardPolicy attribute; valid values: first, only, none%s
+%s '%s': idnsForwarders attribute is not present%s
+%s '%s': forward policy is '%s'
+%s '%s': could not parse forwarder '%s'
+%s '%s': adding forwarder '%s'
+%s '%s': all idnsForwarders are invalid%s
+%s '%s': forwarding explicitly disabled (policy 'none', ignoring global forwarders)
+%s '%s': can't obtain old forwarding settings: %s
+automatic empty zone will be shut down to enable forwarding
+%s '%s': forwarding table update failed: %s
+%s '%s': forwarder table was updated: %s
+%s '%s': forwarding table unmodified
+global forwarder could not be set up: %s
+update_config (syncrepl) failed for '%s'. Configuration can be outdated, run `rndc reload`: %s
+bug in %s(): invalid acl type %u
+%s policy is invalid: %s; configuring most restrictive %s policy as possible
+cannot configure restrictive %s policy: %s
+ldap_sync_intermediate RECEIVED
+sync_barrier_wait() failed for instance '%s': %s
+"unsupported LDAP mod_op" == ((void *)0)
+got request for SASL_CB_GETREALM
+got request for SASL_CB_AUTHNAME
+((pthread_mutex_unlock(((&ldap_conn->lock))) == 0) ? 0 : 34) == 0
+ldap_modify_do(%s) failed to obtain ldap error code
+ldap_modify_do(add) failed to obtain ldap error code
+LDAP error: %s: %s: while %s entry '%s'
+LDAP error: %s: while %s entry '%s'
+LDAP error: <unable to obtain LDAP error code>: while %s entry '%s'
+retrying LDAP operation (%s) on entry '%s'
+((pthread_mutex_destroy(((&ldap_conn->lock))) == 0) ? 0 : 34) == 0
+valsp != ((void *)0) && *valsp == ((void *)0)
+disabling all updates because of error in update policy configuration: %s
+cannot disable all updates: %s
+ldap_qresultp != ((void *)0) && *ldap_qresultp == ((void *)0)
+failed to save LDAP query results
+(((soa_tuple) != ((void *)0)) && (((const isc__magic_t *)(soa_tuple))->magic == ((('D') << 24 | ('I') << 16 | ('F') << 8 | ('T')))))
+soa_tuple->op == DNS_DIFFOP_ADD || soa_tuple->op == DNS_DIFFOP_ADDRESIGN
+soa_tuple->rdata.type == ((dns_rdatatype_t)dns_rdatatype_soa)
+: is RFC 4533 supported by LDAP server?
+Entering ldap_syncrepl_watcher
+oldsa.__sigaction_handler.sa_handler == ((void *)0)
+ldap_syncrepl will reconnect in %d second%s
+cannot initialize LDAP syncrepl context
+(|(objectClass=idnsConfigObject)  (objectClass=idnsZone)  (objectClass=idnsForwardZone)  (objectClass=idnsRecord))
+LDAP instance '%s' is being synchronized, please ignore message 'all zones loaded'
+LDAP error: %s: %s: unable to start SyncRepl session%s
+LDAP error: %s: unable to start SyncRepl session%s
+LDAP error: <unable to obtain LDAP error code>: unable to start SyncRepl session%s
+LDAP error: %s: %s: ldap_sync_poll() failed
+LDAP error: %s: ldap_sync_poll() failed
+LDAP error: <unable to obtain LDAP error code>: ldap_sync_poll() failed
+ldap_sync_prepare() failed, retrying in 1 second: %s
+LDAP instance name cannot be empty
+at least two connections are required
+unknown authentication method '%s'
+options 'bind_dn' and 'password' are allowed only for auth_method 'simple'
+auth_method 'simple' requires 'bind_dn' and 'password'
+for anonymous bind please use auth_method 'none'
+options 'sasl_realm', 'sasl_user', 'sasl_password' and 'krb5_principal' are effective only with auth_method 'sasl'
+SASL mech GSSAPI defined but krb5_principal and sasl_user are empty andgethostname() failed
+SASL mech GSSAPI defined but krb5_principal and sasl_user are empty, using default '%s'
+SASL mechanisms other than GSSAPI+Kerberos are untested; expect problems
+option '%s' is not supported, ignoring
+LDAP config validation failed for database '%s': %s
+pthread_kill(ldap_inst->watcher, 10) == 0
+((pthread_join((ldap_inst->watcher), (((void *)0))) == 0) ? 0 : 34) == 0
+((pthread_mutex_destroy(((&ldap_inst->kinit_lock))) == 0) ? 0 : 34) == 0
+(((ldap_inst)->orig_global_forwarders.fwdrs)).tail == (fwdr)
+(((ldap_inst)->orig_global_forwarders.fwdrs)).head != (fwdr)
+(((ldap_inst)->orig_global_forwarders.fwdrs)).tail != (fwdr)
+ldap_instp != ((void *)0) && *ldap_instp == ((void *)0)
+LDAP idnsConfig object for database %s
+poolp != ((void *)0) && *poolp == ((void *)0)
+couldn't establish connection in LDAP connection pool: %s
+Failed to create syncrepl watcher thread
+%u master zones from LDAP instance '%s' loaded (%u zones defined, %u inactive, %u failed to load)
+0 master zones is suspicious number, please check access control instructions on LDAP server
+forward zone '%s': shutting down
+zone '%s' not found in zone register
+rdlistp != ((void *)0) && *rdlistp == ((void *)0)
+different TTLs in single rdata list are not supported
+(((*rdatalist).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)
+failed to parse RR entry: dn '%s': data '%s': %s
+(rdlist->rdata).tail == (rdata)
+(rdlist->rdata).head != (rdata)
+(rdlist->rdata).tail != (rdata)
+syncrepl_update: removing name from rbtdb, dn: '%s'
+syncrepl_update: updating name in rbtdb, dn: '%s'
+writing new zone serial %u to LDAP
+serial (%u) write back to LDAP failed
+reloading invalid zone after a change; reload triggered by change in '%s'
+restarting update_record after zone reload caused by change in '%s'
+unable to reload invalid zone; reload triggered by change in '%s':%s
+update_record (syncrepl) failed, dn '%s' change type 0x%x. Records can be outdated, run `rndc reload`: %s
+rawp != ((void *)0) && *rawp == ((void *)0)
+unable to unload automatic empty zone %s: %s
+automatic empty zone %s unloaded
+failed to create new zone '%s': %s
+created zone %s: raw %p; secure %p
+setting allow-transfer to '%s'
+(((diff) != ((void *)0)) && (((const isc__magic_t *)(diff))->magic == ((('D') << 24 | ('I') << 16 | ('F') << 8 | ('F')))))
+soa_latest != ((void *)0) && *soa_latest == ((void *)0)
+"unexpected diff: op != ADD || DEL" == ((void *)0)
+del_soa == ((void *)0) && tmp_tuple == ((void *)0)
+(((diff->tuples).head == ((void *)0)) ? isc_boolean_true : isc_boolean_false)
+zone_in_view == raw || zone_in_view == secure
+zone '%s' un-publication failed: %s
+zone deactivated and removed from view
+zone '%s': publishing failed, rolling back due to: %s
+zone '%s': rollback failed: : %s
+forward zone '%s': could not configure forwarding: %s
+failed to add forward zone '%s' to the forwarding register: %s
+update_zone (syncrepl) failed for '%s'. Zones can be outdated, run `rndc reload`: %s
+bug in %s(): PTR record synchronization could not convert IP address from string '%s'
+bug in %s(): unsupported address family 0x%x
+PTR record synchronization refused: record '%s' belongs to zone '%s' which is not managed by LDAP driver '%s'
+PTR record synchronization (%s) for A/AAAA '%s' refused: unable to find active reverse zone for IP address '%s': %s
+PTR record synchronization (%s) for A/AAAA '%s' refused: IP address '%s' belongs to reverse zone '%s' and dynamic updates are not allowed for that zone
+mod_op == (0x0001) || mod_op == (0x0000)
+PTR record synchronization (%s) for A/AAAA '%s' failed in ldapdb_rdatalist_get(): %s
+PTR record synchronization (%s) for A/AAAA '%s' failed: multiple PTR records under name '%s' are not supported
+PTR record synchronization (%s) for A/AAAA '%s' skipped: no PTR records found
+PTR record synchronization (%s) for A/AAAA '%s' failed: existing PTR record '%s' contains unexpected value '%s' (value '%s' expected)
+((ldap_rdlist).head)->type == ((dns_rdatatype_t)dns_rdatatype_ptr)
+PTR record synchronization (%s) for A/AAAA '%s' skipped: PTR record withdesired value is already present
+PTR record synchronization (%s) for A/AAAA '%s' failed: existing PTR record '%s' contains unexpected value '%s' (value '%s' or no value expected)
+update refused: active zone '%s' not found
+sync PTR is disabled for zone '%s'
+sync PTR is enabled for zone '%s'
+remove_entry_from_ldap failed to obtain ldap error code
+LDAP error: %s: %s: while deleting entry '%s'
+LDAP error: %s: while deleting entry '%s'
+LDAP error: <unable to obtain LDAP error code>: while deleting entry '%s'
+syncrepl change type: add%d, del%d, mod%d
+unsupported objectClass: dn '%s'
+syncrepl_update failed for object '%s': %s
+ldap_sync_search_entry failed: %s
+ldap_helper.c
+pool->connections > 0
+ldap_conn != ((void *)0)
+.jnl
+%.*s.jbk
+failed to set LDAP version
+failed to set timeout
+ldap_hostname
+reconnect_interval
+auth_method_enum
+bind_dn
+sasl_mech
+GSSAPI
+krb5_principal
+krb5_keytab
+loaded serial %u
+signing in progress
+nsec3param
+shutting down
+not loaded - unload skipped
+_builtin
+empty
+global configuration
+idnsForwardPolicy
+only
+first
+none
+(fwdrs).tail == (fwdr)
+(fwdrs).head != (fwdr)
+(fwdrs).tail != (fwdr)
+idnsForwarders
+task == inst->task
+Parsing configuration object
+idnsAllowDynUpdate
+dyn_update
+idnsAllowSyncPTR
+sync_ptr
+signed
+keys/
+<unknown>
+insecure state detected
+doing interactive bind
+got request for SASL_CB_USER
+sasl_user
+sasl_realm
+sasl_auth_name
+got request for SASL_CB_PASS
+sasl_password
+modifying(add)
+modifying(del)
+modifying(replace)
+adding
+modifying(unknown operation)
+bug in %s(): %s: 0x%x
+deleting whole node: '%s'
+writing to '%s': %s
+idnsRecord
+(objectClass=idnsRecord)
+querying '%s' with '%s'
+entry count: %d
+length + 1 < size
+ret == 0
+base
+Ending ldap_syncrepl_watcher
+sane_sleep: interrupted
+cache_ttl
+psearch
+serial_autoincrement
+zone_refresh
+directory
+dyndb-ldap/
+connections
+auth_method
+DNS/%s
+LDAP instance '%s' destroyed
+named.conf for database %s
+active
+cannot add zone to view: %s
+deleting zone '%s'
+foundzone == secure
+foundzone == raw
+<NULL data>
+(*rdatalist).tail == (rdlist)
+(*rdatalist).head == (rdlist)
+(*rdatalist).head != (rdlist)
+(*rdatalist).tail != (rdlist)
+iszone == isc_boolean_false
+fake_mname
+iszone == isc_boolean_true
+idnsSecInlineSigning
+TRUE
+upgrading zone to secure
+downgrading zone to insecure
+olddb == ((void *)0)
+zone_settings != ((void *)0)
+raw != ((void *)0)
+idnsUpdatePolicy
+update_policy
+setting update-policy to '%s'
+update-policy is not set
+idnsAllowQuery
+setting allow-query to '%s'
+allow-query is not set
+idnsAllowTransfer
+allow-transfer is not set
+nsec3paramRecord
+tmp_tuple == ((void *)0)
+del_soa == ((void *)0)
+idnsZoneActive
+entry != ((void *)0)
+inst != ((void *)0)
+forward zone '%s': loaded
+addition
+deletion
+dns_name_hasbuffer(zone_name)
+class != 0x0
+TODO: DN '%s': task fallback
+task != ((void *)0)
+verbose_checks
+0 0 0 00
+simple
+sasl
+update_config
+ldap_parse_fwd_zoneentry
+unpublish_zone
+diff_analyze_serial
+zone_sync_apex
+configure_zone_acl
+zone_master_reconfigure
+zone_security_change
+configure_paths
+zone_unload_ifempty
+create_zone
+configure_zone_forwarders
+ldap_parse_master_zoneentry
+ldap_delete_zone
+update_zone
+ldap_replace_serial
+rdatalist_to_diff
+rdataset_to_diff
+update_record
+syncrepl_update
+ldap_sync_search_entry
+remove_entry_from_ldap
+remove_attr_from_ldap
+ldap_find_ptr
+ldap_sync_ptr
+ldap_modify_do
+ldap_rdttl_to_ldapmod
+ldap_rdata_to_char_array
+ldap_mod_create
+ldap_rdatalist_to_ldapmod
+modify_soa_record
+modify_ldap_common
+findrdatatype_or_create
+add_soa_record
+ldap_parse_rrentry
+ldap_query_create
+ldap_query
+ldapdb_rdatalist_get
+ldap_delete_zone2
+parse_rdata
+zone_master_reconfigure_nsec3param
+load_zone
+publish_zone
+activate_zone
+new_ldap_connection
+ldap_pool_connect
+ldap_pool_create
+ldap_sasl_interact
+ldap_reconnect
+ldap_connect
+cleanup_zone_files
+cleanup_files
+ldap_sync_prepare
+ldap_pool_getconnection
+ldap_syncrepl_watcher
+new_ldap_instance
+validate_local_instance_settings
+*statep == 36
+lock.c
+*statep == 0 || *statep == 17
+state == 17 || state == 36
+(((iter) != ((void *)0)) && (((const isc__magic_t *)(iter))->magic == ((('L') << 24 | ('D') << 16 | ('P') << 8 | ('I')))))
+iterp != ((void *)0) && *iterp != ((void *)0)
+(((*iterp) != ((void *)0)) && (((const isc__magic_t *)(*iterp))->magic == ((('L') << 24 | ('D') << 16 | ('P') << 8 | ('I')))))
+(*iterp)->locktype != isc_rwlocktype_none
+iterp != ((void *)0) && *iterp == ((void *)0)
+isc_rwlock_lock((iter->rwlock), (iter->locktype)) == 0
+rbt_helper.c
+rbt_iter_getnodename
+rbt_iter_first
+targetp != ((void *)0) && *targetp == ((void *)0)
+rdlist.c
+ldap_rdatalist_copy
+rdatalist_digest
+rdata_clone
+rdatalist_clone
+value > 0
+semaphore.c
+((pthread_mutex_destroy((&sem->mutex)) == 0) ? 0 : 34) == 0
+((pthread_cond_destroy((&sem->cond)) == 0) ? 0 : 34) == 0
+((pthread_mutex_lock(((&sem->mutex))) == 0) ? 0 : 34) == 0
+((pthread_cond_wait(((&sem->cond)), ((&sem->mutex))) == 0) ? 0 : 34) == 0
+((pthread_mutex_unlock(((&sem->mutex))) == 0) ? 0 : 34) == 0
+((pthread_cond_signal(((&sem->cond))) == 0) ? 0 : 34) == 0
+semaphore_wait_timed
+settings.c
+setting != ((void *)0)
+set->lock != ((void *)0)
+default_set_length > 0
+built-in defaults
+found == ((void *)0) || *found == ((void *)0)
+examining set of settings '%s'
+setting '%s' was found in set '%s'
+bug in %s(): incompatible setting data type requested for name '%s' in set of settings '%s'
+invalid setting_type_t value %u
+bug in %s(): setting '%s' was not found in settings tree
+((pthread_mutex_lock(((set->lock))) == 0) ? 0 : 34) == 0
+setting '%s' has to be unsigned integer (base 10): %s
+unknown boolean expression (setting '%s': value '%s')
+((pthread_mutex_unlock(((set->lock))) == 0) ? 0 : 34) == 0
+bug in %s(): setting '%s' was not found in set of settings '%s'
+setting '%s' (%s) was deleted in object '%s'
+bug in %s(): multi-value attributes are not supported: attribute '%s' in entry '%s'
+setting '%s' (%s) was changed to '%s' in object '%s'
+bug in %s(): setting '%s' was not found in settings set '%s'
+target != ((void *)0) && *target == ((void *)0)
+multiple definitions of setting '%s' in set of settings '%s'
+cannot parse settings from '%s': problematic configuration line:
+error code: %s
+argument '%s' must be set in set of settings '%s': %s
+desc != ((void *)0) && *desc == ((void *)0)
+settings_set_fill
+settings_set_create
+setting_unset
+setting_update_from_ldap_entry
+set_value
+setting_set
+setting_get
+sync_barrier_wait(): finish reached
+((pthread_mutex_lock(((&bev->sctx->mutex))) == 0) ? 0 : 34) == 0
+bev->sctx->state == sync_barrier
+((pthread_mutex_unlock(((&bev->sctx->mutex))) == 0) ? 0 : 34) == 0
+sync_barrier_wait(): barrier reached
+barrier_decrement() failed: %s
+((pthread_mutex_lock(((&sctx->mutex))) == 0) ? 0 : 34) == 0
+(sctx->tasks).tail == (taskel)
+(sctx->tasks).head == (taskel)
+(sctx->tasks).head != (taskel)
+(sctx->tasks).tail != (taskel)
+((pthread_mutex_unlock(((&sctx->mutex))) == 0) ? 0 : 34) == 0
+adding task %p to syncrepl list; %u tasks in list
+sctxp != ((void *)0) && *sctxp == ((void *)0)
+bug in %s(): sync_barrier_wait(): called with empty task list
+sync_barrier_wait(): wait until all events are processed
+sync_barrier_wait(): all events were processed
+((pthread_cond_broadcast(((&sctx->cond))) == 0) ? 0 : 34) == 0
+syncrepl.c
+event != ((void *)0)
+syncrepl finish() failed: %s
+sctx != ((void *)0)
+inst_name != ((void *)0)
+sctxp != ((void *)0)
+(&sctx->task_cnt)->refs == 0
+sctx->state == sync_init
+sync_barrier_wait
+sync_task_add
+sync_ctx_init
+barrier_decrement
+finish
+str->mctx != ((void *)0)
+str.c
+new_str != ((void *)0) && *new_str == ((void *)0)
+src != ((void *)0) && src->data != ((void *)0)
+str_vsprintf
+str_cat_char
+str_init_char
+zone_manager.c
+bind-dyndb-ldap version 7.0 compiled at 13:12:32 Mar 13 2015, compiler 5.0.0 20150226 (Red Hat 5.0.0-0.17)
+instance != ((void *)0) && *instance == ((void *)0)
+((pthread_mutex_lock(((&instance_list_lock))) == 0) ? 0 : 34) == 0
+((pthread_mutex_unlock(((&instance_list_lock))) == 0) ? 0 : 34) == 0
+db_instp != ((void *)0) && *db_instp != ((void *)0)
+(instance_list).tail == (db_inst)
+(instance_list).head == (db_inst)
+(instance_list).head != (db_inst)
+(instance_list).tail != (db_inst)
+LDAP instance '%s' already exists
+manager_get_ldap_instance
+manager_create_db_instance
+zr != ((void *)0)
+zone_register.c
+result == 0 || result == 23
+((&name_buf)->used) > 0
+((&name_buf)->used) >= 2
+master/
+LDAP idnsZone object %s
+allow_query
+allow_transfer
+forward_policy
+zinfo != ((void *)0) && *zinfo == ((void *)0)
+zrp != ((void *)0) && *zrp == ((void *)0)
+isc_rwlock_lock((&zr->rwlock), (isc_rwlocktype_write)) == 0
+isc_rwlock_unlock((&zr->rwlock), (isc_rwlocktype_write)) == 0
+path != ((void *)0) && *path == ((void *)0)
+dns_name_isabsolute(zone_name)
+zinfop != ((void *)0) && *zinfop == ((void *)0)
+failed to add zone to the zone register: %s
+ldapdbp != ((void *)0) || rbtdbp != ((void *)0)
+isc_rwlock_lock((&zr->rwlock), (isc_rwlocktype_read)) == 0
+isc_rwlock_unlock((&zr->rwlock), (isc_rwlocktype_read)) == 0
+dn != ((void *)0) && *dn == ((void *)0)
+rawp == ((void *)0) || *rawp == ((void *)0)
+securep == ((void *)0) || *securep == ((void *)0)
+set != ((void *)0) && *set == ((void *)0)
+zr_get_zone_dbs
+zr_del_zone
+create_zone_info
+zr_add_zone
+zr_get_zone_path
+zr_create
+;*3$"
+ldap.so.debug
+7zXZ
+*ds{
+gd)h
+Z;zT|
+W4:V
+.f6GjW"
+w`h3
+c{"Y
+ &vN
+RZen
+x$%kC
+bqO6
+pQ7P\
+qJ{%
+XaTg
+LXM^n"
+E8Q?#
+w4`q
+5^PQ
+v@0T
+"ca_c
+x*V<
+R=qp$
+HQ~]
+Ekc++QJiCK2
+W/C1
+W"c 
+365qS
+d[V+
+93Mc
+b#EV
+2W^r$
+vMwL1
+T#CJX
+??\s
+Av9^
+[i=J
+f94~
+6Z4	5
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

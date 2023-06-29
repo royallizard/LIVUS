@@ -1,0 +1,349 @@
+/lib64/ld-linux-x86-64.so.2
+libsqlite3.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+sqlite3_busy_timeout
+sqlite3_step
+sqlite3_exec
+sqlite3_bind_blob
+sqlite3_open
+sqlite3_bind_int64
+sqlite3_errmsg
+sqlite3_close_v2
+sqlite3_free
+sqlite3_prepare_v2
+sqlite3_finalize
+sqlite3_column_int
+sqlite3_errstr
+sqlite3_bind_int
+_fini
+libcap.so.2
+cap_free
+cap_set_proc
+cap_init
+libc.so.6
+__xpg_basename
+__printf_chk
+exit
+optind
+closedir
+signal
+strncpy
+puts
+__stack_chk_fail
+mkdir
+getpid
+strtol
+prctl
+openlog
+rmdir
+__errno_location
+open64
+__fprintf_chk
+fputc
+strcasecmp
+opendir
+__xstat64
+getenv
+optarg
+stderr
+__snprintf_chk
+getopt_long
+close
+__vfprintf_chk
+readdir64
+__vsyslog_chk
+__ctype_tolower_loc
+__cxa_finalize
+access
+strcmp
+__libc_start_main
+write
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5"K 
+%$K 
+%"K 
+%zJ 
+%rJ 
+%jJ 
+%bJ 
+%ZJ 
+%RJ 
+%JJ 
+%BJ 
+%:J 
+%2J 
+%*J 
+%"J 
+AWAVAUATUS
+<dtrH
+[]A\A]A^A_
+-sF 
+%BH 
+[]A\A]A^A_
+fffff.
+fffff.
+=iH 
+fffff.
+AVAUATUSH
+[]A\A]A^
+=ZF 
+ZYvGH
+AUATI
+tNH=
+[]A\A]
+[]A\A]
+=f@ 
+=,B 
+AUATH
+=N? 
+[]A\A]
+=xA 
+=HC 
+=:B 
+=IA 
+5{@ 
+50@ 
+=i@ 
+= ? 
+=i> 
+=a= 
+AUATI
+=i< 
+<$E1
+=+< 
+dH34%(
+[]A\A]
+==; 
+=	; 
+ffff.
+ATUH
+<$E1
+[]A\
+ffff.
+AWAVE1
+AUATI
+=S9 
+<$E1
+[]A\A]A^A_
+=y8 
+=I8 
+<$E1
+=r7 
+=97 
+=h6 
+=R/ 
+=>/ 
+!=pE 
+ffffff.
+=NE 
+ATUH
+ []A\
+%H* 
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+D$ H
+ffff.
+USt4H
+fffff.
+ATUH
+=#+ 
+t8[	
+]A\1
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+t$(H
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+T$0H
+L$8L
+D$@L
+L$Ht7
+)D$P
+)L$`
+)T$p
+AWAVA
+AUATL
+%." 
+-." 
+[]A\A]A^A_
+NFSDCLTRACK_CLIENT_HAS_SESSION
+%s: unable to build filename for %s!
+Storage directory %s is not writable. Should be owned by root and writable by owner!
+Unexpected error when checking access on %s: %m
+No NFSDCLTRACK_LEGACY_RECDIR env var
+%s is not a directory: mode=0%o
+%s [ -hfd ] [ -s dir ] < cmd > < arg >
+Where < cmd > is one of the following and takes the following < arg >:
+Unable to prune capability %lu from bounding set: %m
+Unable to get blank capability set: %m
+Unable to set process capabilities: %m
+%s: '%s' doesn't match any known command
+Command %s requires an argument
+NFSDCLTRACK_GRACE_START
+%s: grace done. gracetime=%ld
+NFSDCLTRACK_LEGACY_TOPDIR
+%s/%s
+%s: unable to rmdir %s: %d
+/proc/fs/nfsd/v4_end_grace
+Unable to open %s: %m
+Unable to write to %s: %m
+Failed to init database: %d
+%s: create client record.
+%s: remove client record.
+%s: check client record
+NFSDCLTRACK_LEGACY_RECDIR
+Unable to stat %s: %d
+Failed to insert client: %d
+Failed to rmdir %s: %d
+    init
+    create <nfs_client_id4>
+    remove <nfs_client_id4>
+    check  <nfs_client_id4>
+    gracedone <epoch time>
+hdfs:
+Missing command name
+/var/lib/nfs/nfsdcltrack
+create
+remove
+check
+gracedone
+help
+debug
+foreground
+storagedir
+cltrack_create
+cltrack_remove
+cltrack_check
+cltrack_legacy_gracedone
+cltrack_gracedone
+find_cmd
+SELECT value FROM parameters WHERE key == "version";
+Unable to prepare select statement: %s
+Select statement execution failed: %s
+Unable to begin transaction: %s
+CREATE TABLE parameters (key TEXT PRIMARY KEY, value TEXT);
+Unable to create parameter table: %s
+CREATE TABLE clients (id BLOB PRIMARY KEY, time INTEGER, has_session INTEGER);
+Unable to create clients table: %s
+INSERT OR FAIL INTO parameters values ("version", "%d");
+sprintf output too long! (%d chars)
+Unable to insert into parameter table: %s
+Unable to commit transaction: %s
+Unable to rollback transaction: %s
+Unable to set sqlite busy timeout: %s
+ALTER TABLE clients ADD COLUMN has_session INTEGER;
+Unable to update clients table: %s
+UPDATE parameters SET value = %d WHERE key = "version";
+Unable to update schema version: %s
+Unsupported database schema version! Expected %d, got %d.
+INSERT OR REPLACE INTO clients VALUES (?, 0, ?);
+INSERT OR REPLACE INTO clients VALUES (?, strftime('%s', 'now'), ?);
+%s: insert statement prepare failed: %s
+%s: unexpected return code from insert: %s
+DELETE FROM clients WHERE id==?
+%s: statement prepare failed: %s
+%s: unexpected return code from delete: %d
+SELECT count(*) FROM clients WHERE id==?
+%s: unable to prepare update statement: %s
+%s: unexpected return code from select: %d
+UPDATE OR FAIL clients SET time=strftime('%s', 'now') WHERE id==?
+%s: unexpected return code from update: %s
+DELETE FROM clients WHERE time < %ld
+SELECT count(*) FROM clients WHERE time < ? OR has_session != 1
+%s: unable to prepare select statement: %s
+%s: unexpected return code from select: %s
+%s: there are %d clients that have not completed reclaim
+BEGIN EXCLUSIVE TRANSACTION;
+sprintf failed!
+COMMIT TRANSACTION;
+ROLLBACK TRANSACTION;
+%s/main.sqlite
+%s: bind blob failed: %s
+%s: bind int failed: %s
+%s: returning %d
+%s: select returned %d rows
+%s: delete failed: %s
+%s: bind int64 failed: %s
+sqlite_query_reclaiming
+sqlite_remove_unreclaimed
+sqlite_check_client
+sqlite_remove_client
+sqlite_insert_client
+%s: 
+turned on logging
+turned on logging level %d
+turned off logging
+Invalid debug facility: %s
+general
+call
+auth
+parse
+;*3$"
+nfsdcltrack.debug
+7zXZ
+DEi.
+C'Wp
+AE+O
+nMFvD
+>'IVi
+.mD2
+PupE$+X~
+i5G"c
+5So_@3
+.w*:
+xAH 
+vV+:r
+rn`,
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

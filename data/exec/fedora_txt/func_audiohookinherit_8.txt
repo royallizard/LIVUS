@@ -1,0 +1,113 @@
+es;p@U
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_custom_function_unregister
+option_debug
+ast_log
+ast_audiohook_move_by_source
+ast_options
+ast_debug_get_by_file
+strlen
+calloc
+strcpy
+ast_true
+pthread_mutex_lock
+ast_channel_datastore_find
+pthread_mutex_unlock
+strcasecmp
+ast_datastore_alloc
+ast_channel_datastore_add
+ast_datastore_free
+__ast_custom_function_register
+ast_module_register
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+ATSubH
+AVAUATI
+ []A\A]A^
+d$ H
+AUATUSH
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+([]A\A]A^A_
+fff.
+func_audiohookinherit.c
+func_audiohookinherit
+AUDIOHOOK_INHERIT
+AUDIOHOOK_INHERIT(source)
+audiohook inheritance
+inheritance fixup occurring for channels %s(%p) and %s(%p)
+Moved audiohook %s from %s(%p) to %s(%p)
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Set audiohook %s to be inheritable
+No argument provided to INHERITANCE function.
+No value provided to INHERITANCE function.
+Audiohook %s is already set to not be inheritable on channel %s
+Unable to set up audiohook inheritance datastore on channel %s
+Audiohook source %s is already set up to be inherited from channel %s
+Removing inheritability of audiohook %s from channel %s
+Audiohook inheritance function
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Set whether an audiohook may be inherited to another channel
+By enabling audiohook inheritance on the channel, you are giving
+permission for an audiohook to be inherited by a descendent channel.
+Inheritance may be be disabled at any point as well.
+	Example scenario:
+	exten => 2000,1,MixMonitor(blah.wav)
+	exten => 2000,n,Set(AUDIOHOOK_INHERIT(MixMonitor)=yes)
+	exten => 2000,n,Dial(SIP/2000)
+	exten => 4000,1,Dial(SIP/4000)
+	exten => 5000,1,MixMonitor(blah2.wav)
+	exten => 5000,n,Dial(SIP/5000)
+	In this basic dialplan scenario, let's consider the following sample calls
+	Call 1: Caller dials 2000. The person who answers then executes an attended
+	        transfer to 4000.
+	Result: Since extension 2000 set MixMonitor to be inheritable, after the
+	        transfer to 400 has completed, the call will continue to be recorded
+           to blah.wav
+	Call 2: Caller dials 5000. The person who answers then executes an attended
+	        transfer to 4000.
+	Result: Since extension 5000 did not set MixMonitor to be inheritable, the
+	        recording will stop once the call has been transferred to 4000.
+func_inheritance_write
+audiohook_inheritance_fixup
+setup_inheritance_datastore
+_ast_calloc
+setup_inheritable_audiohook
+a9c98e5d177805051735cb5b0b16b0a0
+func_audiohookinherit.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

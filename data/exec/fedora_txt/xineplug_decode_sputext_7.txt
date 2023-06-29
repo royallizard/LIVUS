@@ -1,0 +1,155 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+xine_xmalloc
+dcgettext
+strncpy
+xine_guess_spu_encoding
+xine_log
+free
+memcpy
+strlen
+__stack_chk_fail
+xine_get_status
+_x_get_current_info
+_x_spu_decoder_sleep
+xine_usec_sleep
+strcmp
+__strcat_chk
+stderr
+__fprintf_chk
+xine_plugin_info
+libxine.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_decode_sputext.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z2 
+%r2 
+%j2 
+%b2 
+%Z2 
+%R2 
+%J2 
+%B2 
+%:2 
+=S1 
+A H9
++A$x
+AWAVAUI
+ATSH
+[A\A]A^A_
+AWAVI
+AUATI
+D$81
+D$(E1
+T$01
+T$,H
+|$,Hc
+T$8dH3
+H[]A\A]A^A_
+<?w}
+N@dH
+F f1
+oPE1
+E;gLH
+IcGLA
+t$XH
+D$PH
+T$HH
+L$@H
+\$8H
+L$0L
+t$(I
+T$hH
+A9wL
+\$(H
+L$(H
+D$xHc
+t$(H
+A9wL
+|$8L
+L$0H
+A9GL
+L$HH
+T$@H
+L$XH
+T$PH
+<?w	@
+A9oL
+A9oL
+L$pD;
+\$hB
+sputext
+libxine1
+subtitle size
+subtitle vertical offset
+font for subtitles
+sans
+subtitles.separate.font
+encoding of the subtitles
+use unscaled OSD if possible
+libsputext: spu_font = %s
+utf-8
+</b>
+</i>
+<font>
+</font>
+xine_sputext_decoder.c
+this->renderer != NULL
+tiny
+small
+normal
+very large
+huge
+external subtitle decoder plugin
+You can adjust the subtitle size here. The setting will be evaluated relative to the window size.
+subtitles.separate.subtitle_size
+You can adjust the vertical position of the subtitle. The setting will be evaluated relative to the window size.
+subtitles.separate.vertical_offset
+A font from the xine font directory to be used for the subtitle text.
+The encoding of the subtitle text in the stream. This setting is used to render non-ASCII characters correctly. If non-ASCII characters are not displayed as you expect, ask the creator of the subtitles what encoding was used.
+subtitles.separate.src_encoding
+The unscaled OSD will be rendered independently of the video frame and will always be sharp, even if the video is magnified. This will look better, but does not work with all graphics hardware. The alternative is the scaled OSD, which will become blurry, if you enlarge a low resolution video to fullscreen, but it works with all graphics cards.
+subtitles.separate.use_unscaled_osd
+libsputext: spu_src_encoding = %s
+libsputext: decoder data [%s]
+libsputext: mode %d timing %d->%d
+libsputext: discarding subtitle with invalid timing
+libsputext: discarding old subtitle
+assert: %s:%d: %s: Assertion `%s' failed.
+Partial subtitle line splitting in %i chunks
+Complete subtitle line splitting in %i chunks
+Subtitle too long to be splited
+draw_subtitle
+xineplug_decode_sputext.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

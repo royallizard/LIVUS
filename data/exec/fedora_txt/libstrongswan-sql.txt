@@ -1,0 +1,413 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+free
+sql_config_create
+sql_cred_create
+sql_logger_create
+charon
+sql_plugin_create
+malloc
+enumerator_enumerate_default
+ike_cfg_create
+proposal_create_from_string
+proposal_create_default
+proposal_create_default_aead
+__stack_chk_fail
+identification_create_from_encoding
+host_create_from_string
+peer_cfg_create
+enumerator_create_token
+auth_cfg_create
+child_cfg_create
+traffic_selector_create_from_bytes
+traffic_selector_create_dynamic
+strdup
+chunk_create_clone
+shared_key_create
+thread_value_create
+libc.so.6
+libstrongswan-sql.so
+GLIBC_2.4
+GLIBC_2.2.5
+u+UH
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+[]A\A]
+AVAUATE1
+D$(1
+T$P1
+L$(dH3
+0[]A\A]A^
+AWAVI
+AUATUH
+D$ H
+D$8H
+D$(H
+D$XH
+D$xH
+D$pH
+D$hH
+D$`H
+D$PH
+D$HH
+D$0H
+t$XL
+T$@L
+T$@M
+[]A\A]A^A_
+D$(M
+l$(L
+D$(H
+D$(1
+D$xH
+D$pH
+D$XH
+D$hH
+D$8H
+D$PH
+D$HH
+D$@H
+t$81
+\$pL
+D$ H
+txwj
+D$(L
+D$0H
+[]A\
+AUATI
+ []A\A]A^
+|$0H
+[]A\A]A^
+D$0L
+|$01
+D$ L
+L$(AQE1
+T$HA
+AUATI
+e(uCj
+8[]A\A]A^A_
+\$,L
+T$ A
+\$LASj
+D$@L
+L$HAQE1
+t$PVH
+AUATL
+{0E1
+\$8ASAUATL
+T$HA
+AWAVI
+D$0P1
+([]A\A]A^A_
+D$8P1
+D$PL
+L$XAQE1
+T$xA
+AWAVE1
+[]A\A]A^A_
+D$0L
+L$8AQE1
+AVAUATUSH
+D$81
+D$ H
+D$ H
+x@j:1
+D$ L
+L$8dH3
+@[]A\A]A^
+T$(H
+AVAUATUSH
+D$81
+D$ H
+D$ H
+x@j:1
+D$ L
+L$8dH3
+@[]A\A]A^
+T$(H
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+AWAVAUATUSH
+D$X1
+D$@H
+t$@H
+L$@H
+D$@H
+l$0H
+|$,H
+|$8H
+t$01
+L$XdH3
+h[]A\A]A^A_
+T$HH
+D$HH
+T$HH
+ATUH
+[]A\A]A^A_
+D$xA
+T$ L
+T$xL
+T$PH
+\$XL
+D$0H
+T$8L
+T$(H
+D$ L
+D$dH
+D$`H
+L$HH
+D$HA
+T$8H
+T$PH
+t$@A
+t$@j
+t$Hj
+t$`j
+t$xj
+ASARj
+D$xE1
+ATUH
+D$ I
+D$0L
+l$ A
+\$([I
+%s.plugins.sql.database
+sql plugin: database URI not set
+sql plugin failed to connect to database
+SELECT c.id, c.name, c.ike_cfg, l.type, l.data, r.type, r.data, c.cert_policy, c.uniqueid, c.auth_method, c.eap_type, c.eap_vendor, c.keyingtries, c.rekeytime, c.reauthtime, c.jitter, c.overtime, c.mobike, c.dpd_delay, c.virtual, c.pool, c.mediation, c.mediated_by, COALESCE(p.type, 0), p.data FROM peer_configs AS c JOIN identities AS l ON c.local_id = l.id JOIN identities AS r ON c.remote_id = r.id LEFT JOIN identities AS p ON c.peer_id = p.id WHERE c.ike_version = ?
+SELECT c.id, c.certreq, c.force_encap, c.local, c.remote FROM ike_configs AS c
+SELECT p.proposal FROM proposals AS p JOIN ike_config_proposal AS ip ON p.id = ip.prop WHERE ip.ike_cfg = ? ORDER BY ip.prio
+could not create IKE proposal from '%s'
+SELECT c.id, c.name, c.lifetime, c.rekeytime, c.jitter, c.updown, c.hostaccess, c.mode, c.start_action, c.dpd_action, c.close_action, c.ipcomp, c.reqid FROM child_configs AS c JOIN peer_config_child_config AS pc ON c.id = pc.child_cfg WHERE pc.peer_cfg = ?
+SELECT p.proposal FROM proposals AS p JOIN child_config_proposal AS cp ON p.id = cp.prop WHERE cp.child_cfg = ? ORDER BY cp.prio
+could not create ESP proposal from '%s'
+SELECT ct.kind, t.type, t.protocol, t.start_addr, t.end_addr, t.start_port, t.end_port FROM traffic_selectors AS t JOIN child_config_traffic_selector AS ct ON t.id = ct.traffic_selector WHERE ct.child_cfg = ?
+SELECT c.id, c.certreq, c.force_encap, c.local, c.remote FROM ike_configs AS c WHERE c.id = ?
+SELECT c.id, c.name, c.ike_cfg, l.type, l.data, r.type, r.data, c.cert_policy, c.uniqueid, c.auth_method, c.eap_type, c.eap_vendor, c.keyingtries, c.rekeytime, c.reauthtime, c.jitter, c.overtime, c.mobike, c.dpd_delay, c.virtual, c.pool, c.mediation, c.mediated_by, COALESCE(p.type, 0), p.data FROM peer_configs AS c JOIN identities AS l ON c.local_id = l.id JOIN identities AS r ON c.remote_id = r.id LEFT JOIN identities AS p ON c.peer_id = p.id WHERE c.ike_version = ? AND c.name = ?
+SELECT dp.uri FROM certificate_distribution_points AS dp JOIN certificate_authorities AS ca ON ca.id = dp.ca JOIN certificates AS c ON c.id = ca.certificate JOIN certificate_identity AS ci ON c.id = ci.certificate JOIN identities AS i ON ci.identity = i.id WHERE i.type = ? AND i.data = ? AND (? OR dp.type = ?)
+SELECT dp.uri FROM certificate_distribution_points AS dp WHERE (? OR dp.type = ?)
+SELECT s.type, s.data FROM shared_secrets AS s WHERE (? OR s.type = ?)
+SELECT s.type, s.data FROM shared_secrets AS s JOIN shared_secret_identity AS sm ON s.id = sm.shared_secret JOIN identities AS m ON sm.identity = m.id JOIN shared_secret_identity AS so ON s.id = so.shared_secret JOIN identities AS o ON so.identity = o.id WHERE m.type = ? AND m.data = ? AND o.type = ? AND o.data = ? AND (? OR s.type = ?)
+SELECT s.type, s.data FROM shared_secrets AS s JOIN shared_secret_identity AS si ON s.id = si.shared_secret JOIN identities AS i ON si.identity = i.id WHERE i.type = ? AND i.data = ? AND (? OR s.type = ?)
+SELECT c.type, c.data FROM certificates AS c JOIN certificate_identity AS ci ON c.id = ci.certificate JOIN identities AS i ON ci.identity = i.id WHERE i.type = ? AND i.data = ? AND (? OR c.type = ?) AND (? OR c.keytype = ?)
+SELECT c.type, c.data FROM certificates AS c WHERE (? OR c.type = ?) AND (? OR c.keytype = ?)
+SELECT p.type, p.data FROM private_keys AS p JOIN private_key_identity AS pi ON p.id = pi.private_key JOIN identities AS i ON pi.identity = i.id WHERE i.type = ? AND i.data = ? AND (? OR p.type = ?)
+SELECT p.type, p.data FROM private_keys AS p WHERE (? OR p.type = ?)
+REPLACE INTO ike_sas (local_spi, remote_spi, id, initiator, local_id_type, local_id_data, remote_id_type, remote_id_data, host_family, local_host_data, remote_host_data) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+INSERT INTO logs (local_spi, `signal`, level, msg) VALUES (?, ?, ?, ?)
+%s.plugins.sql.loglevel
+:*3$"
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+libstrongswan-sql.so-5.7.2-2.fc30.x86_64.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

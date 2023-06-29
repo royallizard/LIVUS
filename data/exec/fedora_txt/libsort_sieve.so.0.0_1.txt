@@ -1,0 +1,327 @@
+(:Y`W
+|ku%*
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+sort_getbody
+sort_get_cancelkeep
+sort_get_mailbox
+sort_get_reject
+sort_get_rejectmsg
+sort_get_error
+sort_get_errormsg
+sort_free_result
+g_string_free
+sort_discard
+config_get_value
+strcasecmp
+__assert_fail
+__stack_chk_fail
+dm_list_free
+sieve2_free
+sieve2_errstr
+sieve2_alloc
+sort_callbacks
+sieve2_callbacks
+debug_callbacks
+g_malloc0
+dm_list_init
+vacation_callbacks
+notify_callbacks
+sort_process
+g_string_new
+db_get_sievescript_active
+sieve2_execute
+sort_validate
+sieve2_validate
+sort_listextensions
+sieve2_listextensions
+g_strdup
+sort_debugtrace
+sieve2_getvalue_int
+sieve2_getvalue_string
+sort_errexec
+sort_reject
+sort_getsubaddress
+__strdup
+strchr
+sieve2_setvalue_string
+dm_list_nodeadd
+sort_getsize
+dbmail_message_get_size
+sieve2_setvalue_int
+sort_getenvelope
+dbmail_message_get_header
+sort_getheader
+dbmail_message_get_header_repeated
+g_malloc0_n
+g_tuples_index
+g_tuples_destroy
+sieve2_setvalue_stringlist
+sort_getscript
+db_get_sievescript_byname
+sort_errparse
+g_string_append_printf
+g_strdup_printf
+send_alert
+sort_notify
+sieve2_getvalue_stringlist
+sort_redirect
+send_redirect
+sort_vacation
+db_replycache_validate
+send_vacation
+db_replycache_register
+g_strconcat
+dm_md5
+sort_fileinto
+imap_flag_desc
+strrchr
+g_strcasestr
+imap_flag_desc_escaped
+sort_deliver_to_mailbox
+g_strlcat
+libgmodule-2.0.so.0
+libgmime-2.0.so.2
+libz.so.1
+libnsl.so.1
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libsieve.so.1
+libldap-2.4.so.2
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libsort_sieve.so.0
+GLIBC_2.4
+GLIBC_2.2.5
+5B0 
+%D0 
+%B0 
+%:0 
+%20 
+%*0 
+%"0 
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+ATSubH
+=7* 
+fffff.
+\$ H
+l$(L
+d$0H
+d$(H
+5e( 
+D$(H
+D$ H
+\$8H
+l$@L
+d$HL
+l$PH
+t$ L
+5k& 
+5+& 
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+D$ H
+t)E1
+\$(H
+l$0L
+d$8L
+l$@H
+D$ H
+D$(H
+fff.
+\$(H
+l$0H
+56! 
+5y  
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+d$ H
+ffff.
+d$ L
+l$(L
+t$0H
+d$ H
+ffffff.
+AVAUATI
+[]A\A]A^A_
+d$ H
+fffff.
+ATUH
+[]A\
+fffff.
+[]A\
+D$(I
+L$ L
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+t$(H
+|$ 1
+ffffff.
+AWAVAUATUSH
+t$8H
+D$(H
+ED$0H
+T$(H
+d$@H
+\$$E
+T$(Ic
+\$`L
+|$@E1
+T$0L
+T$8I
+T$8H
+[]A\A]A^A_
+T$8H
+D$0L
+Action is DISCARD.
+sortsieve.c
+sort
+sieve_config != ((void *)0)
+DELIVERY
+SIEVE_VACATION
+SIEVE_NOTIFY
+SIEVE_DEBUG
+s2c != ((void *)0)
+sc != ((void *)0)
+Sieve vacation enabled.
+Sieve debugging enabled.
+level
+message
+function
+file
+module
+address
+user
+detail
+localpart
+domain
+Getting message size [%d]
+size
+Return-Path
+from
+header
+body
+path
+name
+script
+lineno
+Parse error on line [%d]: %s
+Sieve script parse error
+fromaddr
+method
+importance
+options
+Delivered-To
+Reply-To
+days
+mime
+subject
+hash
+mailbox
+flags
+INBOX
+Adding flag [%s]
+Unsupported flag [%s]
+Error [%d] when calling sieve2_free: [%s]
+Error [%d] when calling sieve2_alloc: [%s]
+Error [%d] when calling sieve2_callbacks: [%s]
+Sieve notify is not supported in this release.
+Error [%d] when calling db_getactive_sievescript
+User doesn't have any active sieve scripts.
+Error [%d] when calling sieve2_execute: [%s]
+No actions taken; message must be kept.
+Error %d when calling sieve2_validate: %s
+libSieve: module [%s] file [%s] function [%s] message [%s]
+Error is EXEC: Message is [%s]
+Action is REJECT: REJECT message is [%s].
+Getting envelope, to [%s] from [%s]
+Getting header [%s] returning value [%s]
+Include requested from [%s] named [%s]
+Getting default script named [%s]
+sort_getscript: read_file() returns %d
+Error is PARSE: Line is [%d], Message is [%s]
+Your Sieve script [%s] failed to parse correctly.
+Messages will be delivered to your INBOX for now.
+The error message is:
+Notification from [%s] to [%s] was not sent as notify is not supported in this release.
+Action is REDIRECT: REDIRECT destination is [%s].
+Sending vacation to [%s] from [%s] handle [%s] repeat days [%d]
+Vacation suppressed to [%s] from [%s] handle [%s] repeat days [%d]
+Action is FILEINTO: mailbox is [%s] flags are [%s]
+Action is FILEINTO: mailbox is [%s] no flags
+Could not file message into mailbox; not cancelling keep.
+sort_process
+sort_startup
+sort_startup
+sort_sieve_get_config
+sort_teardown
+sort_teardown
+sort_validate
+sort_listextensions
+sort_debugtrace
+sort_getsize
+sort_getenvelope
+sort_getheader
+sort_getscript
+sort_errexec
+sort_errparse
+sort_fileinto
+sort_discard
+sort_reject
+sort_redirect
+sort_notify
+sort_vacation
+libsort_sieve.so.0.0.0.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,260 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+free
+plugin_get_ds
+plugin_log
+strcasecmp
+calloc
+cf_util_get_string
+plugin_get_interval
+realloc
+cf_util_get_cdtime
+__snprintf_chk
+plugin_register_complex_read
+__stack_chk_fail
+parse_value
+__errno_location
+strtod
+sstrncpy
+plugin_dispatch_values
+__assert_fail
+module_register
+plugin_register_complex_config
+plugin_register_init
+plugin_register_shutdown
+__xstat
+fopen
+fseek
+fclose
+sstrerror
+strdup
+clearerr
+fgets
+ferror
+strlen
+libc.so.6
+tail_csv.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+u+UH
+tKUSH
+tGUH
+AWAVAUATUSH
+D$0E1
+D9k(
+D9x(
+[]A\A]A^A_
+t$(I
+|$ H
+D$ E1
+D$(I
+T$ H
+D$(I
+t$0H
+D9k(
+L$01
+D$ L
+d$ H
+D9x(
+E E1
+D9c(~@O
+D9x(
+t$8H
+D9x(
+D9x(
+AWAVAUATUSH
+L;}(sHH
+x:H9
+L;}(r
+D$(H
+D$ H
+D$(1
+t$0H
+D$@H
+[]A\A]A^A_
+H9D$
+oT$ f
+o\$0f
+od$@f
+ol$P
+ot$`f
+o|$p
+[]A\
+H9D$
+C@H9D$0}+H
+o\$ f
+od$0f
+ol$@f
+ot$P
+o|$`f
+oL$p
+AUATLc
+[]A\A]
+AWAVI
+[]A\A]A^A_
+tail_csv plugin: Failed to look up type "%s" for metric "%s". It may not be defined in the types.db file. Please read the types.db(5) manual page for more details.
+tail_csv plugin: The type "%s" has %zu data sources. Only types with a single data source are supported.
+tail_csv plugin: The "%s" config option needs exactly one integer argument.
+tail_csv plugin: The "%s" config option must be positive (or zero).
+tail_csv plugin: Option `%s' not allowed here.
+tail_csv plugin: Option `Type' must be set.
+tail_csv plugin: Option `ValueFrom' must be set.
+tail_csv plugin: The `Collect' config option needs at least one argument.
+tail_csv plugin: All arguments to `Collect' must be strings.
+tail_csv plugin: Option `Path' must be set.
+tail_csv plugin: Option `Collect' must be set.
+tail_csv plugin: Registering complex read function failed.
+tail_csv plugin: Ignore unknown config option `%s'.
+tail_csv plugin: `Collect' argument not found `%s'.
+tail_csv plugin: cu_tail_create ("%s") failed.
+tail_csv plugin: File "%s": cu_tail_readline failed with status %i.
+tail_csv plugin: last line of `%s' does not contain enough values.
+tail_csv plugin: calloc failed.
+tail_csv plugin: Metric "%s": Request for index %zd when only %zu fields are available.
+Metric
+Type
+Instance
+ValueFrom
+File
+Collect
+Interval
+TimeFrom
+Plugin
+tail_csv/%s
+tail_csv
+src/tail_csv.c
+i == metrics_num
+md->value_from >= 0
+tcsv_read_metric
+tcsv_read_buffer
+Cutils_tail: stat (%s) failed: %s
+utils_tail: File `%s' was truncated.
+utils_tail: fseek (%s) failed: %s
+utils_tail: fopen (%s) failed: %s
+utils_tail: cu_tail_readline: buflen too small: %i bytes.
+utils_tail: fgets (%s) returned an error: %s
+utils_tail: cu_tail_read: cu_tail_readline failed.
+utils_tail: cu_tail_read: callback returned status %i.
+src/utils_tail.c
+obj->fh != NULL
+cu_tail_readline
+:*3$"
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3p870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3h870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3c870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3s870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+3e870
+gcc 9.0.1 20190209
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA!stack_realign
+tail_csv.so-5.8.1-4.fc30.x86_64.debug
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rela.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

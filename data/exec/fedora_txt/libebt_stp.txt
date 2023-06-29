@@ -1,0 +1,162 @@
+6im)
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+__printf_chk
+putchar
+strcasecmp
+strrchr
+ether_aton
+strdup
+strchr
+free
+strtoul
+xt_params
+optarg
+strtol
+optind
+libebt_stp_init
+xtables_register_match
+libxtables.so.12
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+L$(1
+ZYj:P
+D$D1
+,[^_]
+D$D1
+uP;T$D
+D$ PQ
+9D$Dr
+9D$Dr
+D$ PW
+;D$D
+UWVS
+L$8	
+f	Gd
+[^_]
+f	wf
+stp options:
+--stp-type type                  : BPDU type
+--stp-flags flag                 : control flag
+--stp-root-prio prio[:prio]      : root priority (16-bit) range
+--stp-root-addr address[/mask]   : MAC address of root
+--stp-root-cost cost[:cost]      : root cost (32-bit) range
+--stp-sender-prio prio[:prio]    : sender priority (16-bit) range
+--stp-sender-addr address[/mask] : MAC address of sender
+--stp-port port[:port]           : port id (16-bit) range
+--stp-msg-age age[:age]          : message age timer (16-bit) range
+--stp-max-age age[:age]          : maximum age timer (16-bit) range
+--stp-hello-time time[:time]     : hello time timer (16-bit) range
+--stp-forward-delay delay[:delay]: forward delay timer (16-bit) range
+ Recognized BPDU type strings:
+   "config": configuration BPDU (=0)
+   "tcn"   : topology change notification BPDU (=0x80)
+ Recognized control flag strings:
+   "topology-change"    : topology change flag (0x01)
+   "topology-change-ack": topology change acknowledgement flag (0x80)
+Multiple use of same option not allowed
+%02x%s
+%u:%u 
+--%s %s
+config
+topology-change
+topology-change-ack
+Unicast
+Multicast
+Broadcast
+Bad --stp-type argument
+Bad --stp-flags argument
+Bad --stp-root-prio range
+Bad --stp-root-cost range
+Bad --stp-sender-prio range
+Bad --stp-port-range
+Bad --stp-msg-age range
+Bad --stp-max-age range
+Bad --stp-hello-time range
+Bad --stp-forward-delay range
+Bad --stp-root-addr address
+Bad --stp-sender-addr address
+Unknown stp option
+libxtables.so.12
+stp-type
+stp-flags
+stp-root-prio
+stp-root-addr
+stp-root-cost
+stp-sender-prio
+stp-sender-addr
+stp-port
+stp-msg-age
+stp-max-age
+stp-hello-time
+stp-forward-delay
+;*2$"$
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+libebt_stp.so-1.8.0-3.fc29.i386.debug
+7zXZ
+(|cb7
+X4`|!
+Rw;nk
+jM{+
+PxQt
++F[e
+&{E0f
+\6W@%e
+>e">dd
+yF!P
+.I~DX
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

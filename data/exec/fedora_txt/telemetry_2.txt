@@ -1,0 +1,98 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+_Z7TlmInitff
+_Z13TlmNewChannelPKcPfff
+_Z18TlmStartMonitoringPKc
+_Z17TlmStopMonitoringv
+_Z9TlmUpdated
+_Z11TlmShutdownv
+telemetry
+strdup
+calloc
+__snprintf_chk
+fopen
+fwrite
+__fprintf_chk
+fputc
+fclose
+__stack_chk_fail
+system
+free
+libopenal.so.1
+libalut.so.0
+libvorbisfile.so.3
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+fffff.
+fffff.
+fffff.
+AVAUL
+ATUI
+[]A\A]A^
+telemetry
+Telemetry module, used to store telemetry information
+telemetry/%s.cmd
+#!/bin/sh
+#    set yrange [%f:%f]
+    set grid
+    set size 2.5,1.5
+    set terminal png color
+    set data style lines
+, '' using %d title '%s'
+telemetry/%s.dat
+time
+sh %s
+gnuplot -persist > telemetry/%s.png <<!!
+plot 'telemetry/%s.dat' using %d title '%s'
+;*3$"
+telemetry.so.debug
+7zXZ
+TtfIJ
+}_~)W
+Z{e/
+*%9X
+.V'R
+-s	BE
+t'!G
+UCIEs
+(|=4
+?l9n:
+[^R+
+%(M@
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

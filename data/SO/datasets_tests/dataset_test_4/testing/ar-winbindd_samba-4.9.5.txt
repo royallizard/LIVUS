@@ -1,0 +1,80 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+task_server_set_title
+dyn_SBINDIR
+talloc_asprintf
+debug_get_output_is_stdout
+timeval_zero
+samba_runcmd_send
+tevent_req_set_callback
+DEBUGLEVEL_CLASS
+task_server_terminate
+dbghdrclass
+dbgtext
+__stack_chk_fail
+_tevent_req_callback_data
+_talloc_get_type_abort
+samba_runcmd_recv
+samba_init_module
+register_server_service
+libservice-samba4.so
+libsamba-util.so.0
+libsamba-debug-samba4.so
+libsamdb-common-samba4.so
+libtalloc.so.2
+libtevent.so.0
+libc.so.6
+winbindd.so
+SAMBA_4.9.5
+TALLOC_2.0.2
+GLIBC_2.2.5
+GLIBC_2.4
+TEVENT_0.9.9
+SAMBA_UTIL_0.0.1
+/usr/lib/samba:/usr/lib
+u3UH
+L$(QH
+--stdout
+task[winbindd_parent]
+%s/winbindd
+--foreground
+struct task_server
+winbindd child process exited
+winbind
+--option=server role check:inhibit=yes
+../source4/winbind/winbindd.c:77
+Failed to start winbindd as child daemon
+Failed to startup winbindd task
+../source4/winbind/winbindd.c:84
+Started winbindd as a child daemon
+../source4/winbind/winbindd.c:40
+../source4/winbind/winbindd.c:46
+winbindd daemon died with exit status %d
+../source4/winbind/winbindd.c:48
+winbindd daemon exited normally
+winbindd_done
+winbindd_task_init
+GCC: (GNU) 8.2.1 20181127
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.data
+.bss
+.comment

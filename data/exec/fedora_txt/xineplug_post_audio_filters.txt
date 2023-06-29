@@ -1,0 +1,260 @@
+UeGfi
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+free
+calloc
+_x_post_init
+pthread_mutex_init
+_x_post_intercept_audio_port
+xine_list_push_back
+dcgettext
+pthread_mutex_lock
+pthread_mutex_unlock
+_x_extra_info_merge
+puts
+_x_ao_mode2channels
+_x_post_dispose
+malloc
+memcpy
+dcngettext
+xine_log
+xine_monotonic_clock
+_x_audio_out_resample_stereo
+_x_audio_out_resample_mono
+pthread_mutex_destroy
+xine_plugin_info
+libxine.so.1
+libdl.so.2
+libz.so.1
+librt.so.1
+libresolv.so.2
+libnsl.so.1
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_post_audio_filters.so
+GLIBC_2.2.5
+%zX 
+%rX 
+%jX 
+%bX 
+%ZX 
+%RX 
+%JX 
+%BX 
+%:X 
+%2X 
+%*X 
+%"X 
+=8[ 
+ATSubH
+[A\]
+=XS 
+=>S 
+AUATUSH
+T$(I9
+T$(L
+8[]A\A]A^A_
+T$ A
+|$ H
+$tIA
+fffff.
+$t{I
+\$(H
+l$0L
+d$8H
+l$@L
+t$HL
+|$PH
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fffff.
+AVAUATUSH
+|$ H
+T$0I
+T$ H
+~&f.
+T$ H
+T$0H
+D$ H
+T$0L
+H[]A\A]A^A_
+T$ H
+T$ H
+D$8A
+D$8H
+T$8A
+T$8A
+T$8A
+T$8A
+D$8I
+T$ H
+T$0H
+T$ H
+t$8H
+T$0H
+l$ L
+d$(H
+l$0L
+t$8L
+|$@H
+[]A\
+ffffff.
+ATUSI
+[]A\L
+ffff.
+AWAVAUA
+x[]A\A]A^A_
+D$hA)
++D$hA
+D$TD
+\T$d
+YT$X
+\$TA
+\$Xf
+D$`D
+\T$d
+Y\$X
+YT$T
+\$0D
+d$ D)
+\$l1
+[]A\A]A^A_
+\$XA
+L$`A
+YT$X
+\$Xf
+D$TD
+Y\$`
+YT$X
+d$ D)
+AUATU
+[]A\A]A^
+[]A\A]A^
+D$8H
+d$ H
+YD$H
+ffffff.
+[]A\
+[]A\
+ []A\
+ []A\
+C`u+H
+[]A\H
+[]A\
+fff.
+ffff.
+H+KHH
+H+K@H
+d$ H
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+opSH
+H+CHH
+$H+C@
+d$ H
+AWAVI
+AUATUH
+H[]A\A]A^A_
+D$ L
+D$ Hc
+l$8D
+d$4E1
+d$4L
+9D$ 
+T$ H
+l$ L
+l$(A
+T$0H
+D$0H
+D$0L
+d$(E1
+T$ 9T$0
+D$0Hc
++D$ D
+d$ H
+HcD$
+|$XL
+l$ L
+d$(L
+l$0H
+t$8L
+|$@H
+[]A\
+fff.
+l$ L
+t$(L
+|$0H
+C`u)H
+fffff.
+~#E1
+~!E1
+upmix
+parameters
+libxine1
+Low pass filter init failed!
+cut_off_freq
+Upmix functions. e.g. Take stereo input and produce Surround 5.1 output.
+Parameters
+  cut_off_freq
+Note: It is possible to use frontend's control window to set these parameters.
+>upmix_mono
+converts Mono into Stereo
+channel
+This filter will upmix a mono stream to stereo, by duplicating channels. Alternatively, one may use this plugin to listen just one channel of a given stream.
+upmix_mono: upmixing Mono to Stereo.
+upmix_mono: upmixing a single channel from original %d channels stream.
+upmix_mono: upmixing a single channel from original %d channel stream.
+upmix_mono: audio device not capable of AO_CAP_MODE_STEREO.
+Select channel to upmix (duplicate) to stereo
+;stretch
+preserve_pitch
+Preserve pitch
+factor
+Time stretch by a given factor, optionally preserving pitch
+This filter will perform a time stretch, playing the stream faster or slower by a factor. Pitch is optionally preserved, so it is possible, for example, to use it to watch a movie in less time than it was originaly shot.
+Time stretch factor (<1.0 shorten duration)
+?volnorm
+Normalize volume
+Normalization method
+Normalizes audio by maximizing the volume without distorting the sound.
+Parameters:
+  method: 1: use a single sample to smooth the variations via the standard weighted mean over past samples (default); 2: use several samples to smooth the variations via the standard weighted mean over past samples.
+xineplug_post_audio_filters.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

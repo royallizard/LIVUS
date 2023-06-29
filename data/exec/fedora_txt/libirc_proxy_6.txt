@@ -1,0 +1,386 @@
+!eCE
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+irc_proxy_deinit
+proxy_listen_deinit
+irc_proxy_init
+settings_add_str_module
+settings_get_str
+signal_emit
+proxy_listen_init
+settings_check_module
+module_register_full
+g_string_append_printf
+channel_mode_is_set
+g_string_printf
+proxy_outdata_all
+g_strdup_vprintf
+strlen
+proxy_clients
+net_sendbuffer_send
+g_return_if_fail_warning
+proxy_outdata
+proxy_client_reset_nick
+strcmp
+g_strdup
+proxy_outserver_all_except
+proxy_outserver_all
+proxy_outserver
+proxy_dump_data
+g_slist_foreach
+g_string_new
+g_hash_table_foreach
+g_strsplit
+g_string_truncate
+g_string_free
+g_strfreev
+module_check_cast_module
+nicklist_getnicks
+g_string_append
+g_string_insert_c
+g_slist_free
+module_check_cast
+recode_out
+g_slist_remove
+printtext
+net_sendbuffer_destroy
+g_source_remove
+proxy_listens
+net_disconnect
+signal_remove_full
+g_slist_copy
+strchr
+strtol
+g_strcasecmp
+net_gethostbyname
+g_malloc0
+net_listen
+g_input_add
+g_slist_append
+settings_get_bool
+__errno_location
+g_strerror
+__stack_chk_fail
+chat_protocol_check_cast
+net_accept
+net_ip2host
+net_sendbuffer_create
+g_strdup_printf
+servers
+server_find_chatnet
+g_slist_prepend
+server_redirect_event
+g_slist_find
+net_sendbuffer_receive_line
+g_strup
+irc_send_cmd
+event_get_params
+g_ascii_strcasecmp
+strncmp
+g_strconcat
+g_strdown
+server_redirect_peek_signal
+server_redirect_get_signal
+__isoc99_sscanf
+strstr
+signal_stop
+signal_add_full
+libc.so.6
+_edata
+__bss_start
+_end
+libirc_proxy.so
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.7
+5zG 
+%|G 
+%zG 
+%rG 
+%jG 
+%bG 
+%ZG 
+%RG 
+%JG 
+%BG 
+%:G 
+%2G 
+%*G 
+%"G 
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%jE 
+%bE 
+%ZE 
+%RE 
+%JE 
+%BE 
+%:E 
+%2E 
+%*E 
+%"E 
+ATSubH
+=G@ 
+fff.
+l$ H
+ATUSH
+T$0H
+L$8L
+D$@H)
+D$ H
+H9X0t(H
+[]A\A]
+[]A\A]
+[]A\A]
+ffff.
+T$0H
+L$8L
+D$@H)
+D$ H
+ATUSH
+T$0H
+L$8L
+D$@H)
+D$ H
+C0I9D$0t$H
+[]A\A]
+[]A\A]
+[]A\A]
+ATUSH
+T$0H
+L$8L
+D$@H)
+D$ H
+I9\$0t%H
+[]A\A]
+[]A\A]
+[]A\A]
+ffff.
+T$0H
+L$8L
+D$@H)
+D$ H
+AWAVAUATUSH
+[]A\A]A^A_H
+t&E1
+[]A\A]A^A_
+AVAUATUH
+I;T$
+I;L$
+I;T$
+I;T$
+[]A\A]A^A_
+-51 
+=y3 
+fff.
+AWAVAUATUSH
+%c/ 
+D$X1
+D$ L
+D$@H
+D;:u
+D$XdH3
+h[]A\A]A^A_
+I9]0t'M
+l$ H
+D$X1
+\$@H
+D$XdH3
+\$`H
+l$hL
+d$pL
+l$xL
+D$(H
+l$8H
+\$0L
+d$@L
+l$HL
+t$PH
+\$0H
+l$8L
+d$@1
+l$HL
+t$PH
+AWAVAUATUSH
+|$@H
+D$HH
+T$8H
+|$ H
+|$HH
+\$(H
+X[]A\A]A^A_
+L$ H
+|$@I
+D$8H
+D$(H
+|$(bH
+|$(Iu"H
+\$(H
+X[]A\A]A^A_
+X[]A\A]A^A_
+|$(e
+D$@H
+l$8L
+L$@H
+L$8H
+L9e0t
+[]A\A]
+[]A\A]
+AVAUI
+[]A\A]A^
+[]A\A]A^
+irssiproxy_ports
+irssiproxy
+irssiproxy_password
+irssiproxy_bind
+warning
+gui dialog
+Warning!! Password not specified, everyone can use this proxy! Use /set irssiproxy_password <password> to set it
+No proxy ports specified. Use /SET irssiproxy_ports <ircnet>=<port> <ircnet2>=<port2> ... to set them.
+%s=%s 
+:%s 353 %s %c %s :
+server != NULL
+data != NULL
+client != NULL
+:%s!proxy NICK :%s
+user_name
+:%s!%s@proxy %s
+0.8.15
+:%s 005 %s 
+MODE %s :+%s
+JOIN %s
+CHANNEL
+WINDOW ITEM TYPE
+SERVER
+:%s 332 %s %s :%s
+:%s 333 %s %s %s %d
+:%s 001 %s :Welcome to the Internet Relay Network %s!%s@proxy
+:%s 002 %s :Your host is irssi-proxy, running version %s
+:%s 003 %s :This server was created ...
+:%s 004 %s %s %s oirw abiklmnopqstv
+:%s 004 %s %s %s oirw abeIiklmnopqstv
+ :are supported by this server
+:%s 251 %s :There are 0 users and 0 invisible on 1 servers
+:%s 255 %s :I have 0 clients, 0 services and 0 servers
+:%s 422 %s :MOTD File is missing
+:%s 306 %s :You have been marked as being away
+:%s 366 %s %s :End of /NAMES list.
+proxy_outserver_all_except
+proxy_outserver_all
+proxy_outserver
+proxy_outdata_all
+proxy_outdata
+proxy client disconnected
+rec != NULL
+server incoming
+server event
+event connected
+server disconnected
+event nick
+message own_public
+message own_private
+message irc own_action
+setup changed
+proxy client dump
+resolve_prefer_ipv6
+irc.proxy
+%s.proxy
+proxy client connected
+listen != NULL
+proxy %p
+PASS
+NICK
+USER
+QUIT
+PING
+:%s PONG %s :%s
+PROXY
+CTCP ON
+CTCP OFF
+proxy client command
+WHOWAS
+whowas
+WHOIS
+whois
+ISON
+ison
+USERHOST
+userhost
+MODE
+%s %s
+mode channel
+mode b
+mode e
+mode I
+PRIVMSG
+PRIVMSG %s
+ACTION 
+message irc own_ctcp
+AWAY
+PRIVMSG %s :
+ACTION %s
+PRIVMSG %s :%s
+event 
+proxy 
+event privmsg
+ACTION
+event ping
+event pong
+line != NULL
+Proxy: Client disconnected from %s
+Proxy: can not resolve '%s' - aborting
+Proxy: Listen in port %d failed: %s
+Proxy: Client connected from %s
+:%s NOTICE %s :Another client is now receiving CTCPs sent to %s
+:%s NOTICE %s :You're now receiving CTCPs sent to %s
+:%s NOTICE %s :Proxy is now handling itself CTCPs sent to %s
+:%s NOTICE %s :Not connected to server
+:%s NOTICE %s :Connection lost to server %s
+PART %s :Connection lost to server
+:%s NOTICE %s :Connected to server
+remove_client
+sig_dump
+sig_listen
+sig_listen_client
+proxy_redirect_event
+sig_server_event
+sig_incoming
+libirc_proxy.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,172 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_context_destroy
+ast_custom_function_unregister
+ast_context_find_or_create
+ast_add_extension
+__ast_custom_function_register_escalating
+ast_log
+__ast_pthread_mutex_lock
+ast_audiohook_detach
+__ast_pthread_mutex_unlock
+ast_audiohook_destroy
+__ast_module_unref
+ast_pbx_outgoing_exten
+__stack_chk_fail
+ast_false
+ast_true
+__ao2_lock
+ast_channel_datastore_find
+__ao2_unlock
+ast_channel_name
+memcpy
+__ast_app_separate_args
+sscanf
+option_debug
+__snprintf_chk
+__ast_datastore_alloc
+__ast_module_ref
+calloc
+__strdup
+ast_audiohook_init
+ast_channel_datastore_add
+ast_audiohook_attach
+strlen
+ast_options
+ast_debug_get_by_module
+ast_datastore_free
+gettimeofday
+_ast_asprintf
+ast_pthread_create_detached_stack
+ast_register_file_version
+ast_unregister_file_version
+ast_beep_start
+ast_beep_stop
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+=A- 
+5:- 
+=2( 
+=0( 
+d$`H
+D$PH
+D$Xj
+D$pPj
+AUATUSH
+5B# 
+[]A\A]
+]A\A]
+[]A\A]
+AWAVAUATSH
+[A\A]A^A_]
+AXAYL
+tSATUL
+[]A\
+AWAVAUATSH
+t.E1
+[A\A]A^A_]
+AYAZ
+AUATL
+[]A\A]
+func_periodic_hook
+func_periodic_hook.c
+ExecIf
+${ChannelToSpy},qEB
+ChanSpy
+Answer
+beep
+Playback
+&(&state->audiohook)->lock
+HOOK_ID
+HOOK_CHANNEL
+Local
+chan
+Invalid hook interval: '%s'
+%30u
+Failed to run hook on '%s'
+hook_launch_thread
+$Revision$
+%s,%s,%u
+Periodic dialplan hooks.
+PERIODIC_HOOK
+Failed to create %s dialplan context.
+EncodedChannel=${CUT(HOOK_CHANNEL,-,1-2)}
+GROUP_NAME=${EncodedChannel}${HOOK_ID}
+GROUP(periodic-hook)=${GROUP_NAME}
+$[${GROUP_COUNT(${GROUP_NAME}@periodic-hook)} > 1]?Hangup()
+ChannelToSpy=${URIDECODE(${EncodedChannel})}
+Hook with ID '%s' not found on channel '%s'
+Hook with ID '%s' not found on '%s'
+Invalid value for PERIODIC_HOOK function: '%s'
+A context and extension are required for PERIODIC_HOOK().
+hook to %s@%s enabled on %s with interval of %u seconds
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-13.9.1/include/asterisk/utils.h
+Failed to enable periodic beep.
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+_ast_strdup
+_ast_calloc
+hook_thread_arg_alloc
+do_hook
+hook_callback
+hook_state_alloc
+hook_datastore_destroy_callback
+load_module
+hook_re_enable
+hook_off
+hook_write
+init_hook
+hook_on
+ast_beep_start
+beep
+hook@__func_periodic_hook_context__
+hook
+__func_periodic_hook_context__
+;*3$"
+f450f61f60e761b3aa089ebed76ca8a5
+func_periodic_hook.so.debug
+7zXZ
+Ri~:
+DE'(
+IgqDM
+uBaW
+cfn$~e
+h YY
+\z	 no
+1[wh
+/> |[
+{+X0
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

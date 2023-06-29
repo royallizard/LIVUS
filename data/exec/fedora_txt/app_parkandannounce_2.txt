@@ -1,0 +1,110 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+strlen
+memcpy
+ast_app_separate_args
+strtol
+ast_log
+strchr
+option_verbose
+ast_options
+ast_parseable_goto
+ast_exists_extension
+ast_masq_park_call
+__snprintf_chk
+ast_variable_new
+__ast_request_and_dial
+ast_stopstream
+ast_say_digits
+ast_streamfile
+ast_waitstream
+ast_verbose_get_by_file
+__ast_verbose
+ast_hangup
+__stack_chk_fail
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+AWAVAUL
+ATSH
+[A\A]A^A_
+dt*L
+ParkAndAnnounce requires arguments: (announce:template|timeout|dial|[return_context])
+PARK: A dial resource must be specified i.e: Console/dsp or DAHDI/g1/5551212
+    -- Dial Tech,String: (%s,%s)
+    -- Return Context: (%s,%s,%d) ID: %s
+    -- Warning: Return Context Invalid, call will return to default|s
+    -- Call Parking Called, lot: %d, timeout: %d, context: %s
+       > Channel %s was answered.
+       > Channel %s was never answered.
+PARK: Channel %s was never answered for the announce.
+PARK: Unable to allocate announce channel.
+       > Announce Template:%s
+ast_streamfile of %s failed on %s
+Call Parking and Announce Application
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  ParkAndAnnounce(announce:template,timeout,dial[,return_context]):
+Park a call into the parkinglot and announce the call to another channel.
+announce template: Colon-separated list of files to announce.  The word PARKED
+                   will be replaced by a say_digits of the extension in which
+                   the call is parked.
+timeout:           Time in seconds before the call returns into the return
+                   context.
+dial:              The app_dial style resource to call to make the
+                   announcement.  Console/dsp calls the console.
+return_context:    The goto-style label to jump the call back into after
+                   timeout.  Default <priority+1>.
+The variable ${PARKEDAT} will contain the parking extension into which the
+call was placed.  Use with the Local channel to allow the dialplan to make
+use of this information.
+app_parkandannounce.c
+_PARKEDAT
+       > Announce:%s
+PARKED
+$Revision: 170049 $
+app_parkandannounce
+ParkAndAnnounce
+Park and Announce
+parkandannounce_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_parkandannounce.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

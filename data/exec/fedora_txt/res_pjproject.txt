@@ -1,0 +1,248 @@
+tdp<
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+ast_cli_unregister_multiple
+pj_log_set_log_func
+pj_log_set_decor
+free
+option_debug
+ast_options
+pj_shutdown
+__ao2_cleanup_debug
+ast_sorcery_unref
+ast_debug_get_by_module
+ast_log
+ast_sorcery_reload
+ast_sorcery_generic_alloc
+__ast_string_field_init
+ast_option_pjproject_log_level
+ast_cli
+ast_sorcery_retrieve_by_id
+__ao2_ref
+pthread_self
+fmin
+strchr
+ast_sorcery_objectset_create2
+ast_variables_destroy
+strcasecmp
+ast_pjproject_max_log_level
+pj_log_set_level
+__ast_string_field_free_memory
+strstr
+strdup
+strcmp
+calloc
+memcpy
+ast_pjproject_get_buildopt
+strlen
+__sprintf_chk
+vsscanf
+ast_pjproject_log_intercept_begin
+__ast_pthread_mutex_lock
+ast_pjproject_log_intercept_end
+__ast_pthread_mutex_unlock
+ast_pjproject_ref
+__ast_module_ref
+ast_pjproject_unref
+__ast_module_unref
+ast_pjproject_caching_pool_init
+ast_option_pjproject_cache_pools
+pj_caching_pool_init
+ast_pjproject_caching_pool_destroy
+pj_caching_pool_destroy
+ast_module_register
+ast_module_unregister
+__ast_sorcery_open
+__ast_sorcery_apply_default
+__ast_sorcery_object_register
+__ast_sorcery_object_field_register
+ast_sorcery_alloc
+ast_sorcery_load
+pj_init
+pj_log_get_decor
+pj_log_get_log_func
+pj_dump_config
+__ast_cli_register_multiple
+__ast_string_field_ptr_grow
+__ast_string_field_release_active
+pj_log_get_level
+__ast_string_field_alloc_space
+libpj.so.2
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+UWVS
+[^_]
+PWh7
+UWVS
+[^_]
+[^_]
+*D$(
+t$,R
+t$(PV
+UWVS
+[^_]
+ZPhu
+[^_]
+UWV1
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+UWVS
+3,4,
+[^_]
+[^_]
+[^_]
+[^_]
+Stopped PJPROJECT logging to Asterisk logger
+Usage: pjproject show log level
+       Show the current maximum active pjproject logging level.
+       See pjproject.conf.sample for additional information
+       about the various levels pjproject uses.
+Usage: pjproject show buildopts
+       Show the compile time config of the pjproject that Asterisk is
+       running against.
+PJPROJECT compile time config currently running against:
+Usage: pjproject show log mappings
+       Show pjproject to Asterisk log mappings
+PJPROJECT to Asterisk log mappings:
+Asterisk Level   : PJPROJECT log levels
+Unable to retrieve pjproject log_mappings
+pjproject set log level {default|0|1|2|3|4|5|6}
+Usage: pjproject set log level {default|<level>}
+       Set the maximum active pjproject logging level.
+       See pjproject.conf.sample for additional information
+       about the various levels pjproject uses.
+Asterisk built or linked with pjproject PJ_LOG_MAX_LEVEL=%d.
+Lowering request to the max supported level.
+pjproject log level is still %d.
+pjproject log level was %d and is now %d.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-15.5.0/include/asterisk/utils.h
+Starting PJPROJECT logging to Asterisk logger
+Failed to open SIP sorcery failed to open
+pjproject.conf,criteria=type=log_mappings
+Failed to register pjproject log_mappings object with sorcery
+Unable to allocate memory for pjproject log_mappings
+Asterisk built or linked with pjproject PJ_LOG_MAX_LEVEL=%d which is too low for startup level: %d.
+Asterisk built or linked with pjproject PJ_LOG_MAX_LEVEL=%d which is too low to get buildopts.
+PJPROJECT Log and Utility Support
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Set the maximum active pjproject logging level
+Show the compiled config of the pjproject in use
+Show pjproject to Asterisk log mappings
+Show the maximum active pjproject logging level
+res_pjproject.c
+res_pjproject
+ (default)
+pjproject show log level
+pjproject log level is %d.%s
+pjproject show buildopts
+log_mappings
+pjproject show log mappings
+%-16s : %s
+default
+%30d
+Teluu
+Dumping
+%s : %s
+&pjproject_log_intercept_lock
+config
+type
+asterisk_debug
+asterisk_error
+asterisk_warning
+asterisk_notice
+asterisk_verbose
+ast_pjproject_unref
+__ast_calloc
+mapping_destroy
+mapping_alloc
+__ast_strdup
+capture_buildopts_cb
+get_log_level
+load_module
+get_log_mappings
+handle_pjproject_show_log_mappings
+unload_module
+ast_pjproject_ref
+ast_pjproject_log_intercept_end
+ast_pjproject_log_intercept_begin
+;*2$"
+68b329da9893e34099c7d8ad5cb9c940
+gcc 8.1.1 20180712
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+GA+stack_realign
+GA+stack_clash
+GA*cf_protection
+GA*GOW
+res_pjproject.so-15.5.0-1.fc29.i386.debug
+7zXZ
+2x3R
+bMwa
+Y/\+
+z;yh
+wW3d
+2W+`
+DS]9
+G'| *
+4yJyt=C
+<J0K
+p't]
+Ka=n
+<G^?A
+	<pf
+9XmL
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu.build.attributes
+.gnu.build.attributes..text.startup
+.gnu.build.attributes..text.exit
+.gnu_debuglink
+.gnu_debugdata

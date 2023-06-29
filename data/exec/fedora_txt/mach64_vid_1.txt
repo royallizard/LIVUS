@@ -1,0 +1,212 @@
+tdt/
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+puts
+__printf_chk
+vixGetVersion
+vixProbe
+pci_scan
+pci_device_name
+pci_info
+strerror
+vixInit
+mtrr_set_type
+strtol
+vixDestroy
+unmap_phys_mem
+vixGetCapability
+vixQueryFourcc
+vixConfigPlayback
+vixPlaybackOn
+vixPlaybackOff
+vixPlaybackFrameSelect
+vixPlaybackGetEq
+equal
+vixPlaybackSetEq
+vixGetGrKeys
+vixSetGrKeys
+libc.so.6
+_edata
+__bss_start
+_end
+mach64_vid.so
+GLIBC_2.1.3
+GLIBC_2.3.4
+GLIBC_2.0
+=YV12t(w
+=I420t
+=YVU9ti=IYUVu
+d$,[^_]
+UWVS
+T$(u
+[^_]
+[^_]
+[^_]
+UWVS
+f=RLt
+f=ML
+[^_]
+[^_]
+f=NL
+f=SL
+YV12tOv1
+YVU9tEvc
+IYUVt;
+UYVYu=
+BGR t
+I420u
+YUY2u
+YV12
+YVU9
+IYUV
+UYVY
+YV12
+BGR 
+I420
+|$(f1
+l$()
+BGR 
+I420u
+YUY2u
+YVU9
+IYUV
+I420
+YV12
+IYUV
+I420
+RGB 
+BGR 
+j!T$ 
+t$41
+D$Dv 
+IYUV
+I420
+t$()
++T$H
+=YVU9
+=BGR 
+YVU9t
+IYUVt
+YV12
+!T$ 
+l$0f1
+UWVS
+=YV12
+vi=YVYUt
+=IYUVty=UYVY
+[^_]
+=BGR
+vf=BGR 
+=I420uI
+=YVU9
+=BGR
+[^_]
+UWVS
+d$<1
+[^_]
+d$<1
+[^_]
+[mach64] *** Begin of DRIVER variables dump ***
+[mach64] mach64_overlay_off=%08X
+[mach64] mach64_ram_size=%08X
+[mach64] video mode: %ux%u@%u
+[mach64] *** Begin of OV0 registers dump ***
+[mach64] *** End of OV0 registers dump ***
+[mach64] Error occured during pci scan: %s
+[mach64] Driver was forced. Was found %sknown chip
+[mach64] Assuming it as Mach64
+[mach64] Driver was not probed but is being initializing
+[mach64] version %d args='%s'
+[mach64] Set write-combining type of video memory
+[mach64] Planar YUV formats are %s supported
+[mach64] IDCT is %s supported
+[mach64] subpictures are %s supported
+[mach64] Can't apply width or height > 720
+[mach64] vertical stretching not supported
+[mach64] vertical stretching factor= %d
+[mach64] *** Internal fatal error ***: Detected pitch corruption
+[mach64] Try decrease number of buffers
+[mach64] mach64_mmio_base=%p
+[mach64] mach64_mem_base=%p
+[mach64] %s = %08X
+Unknown chip
+[mach64] Found chip: %s
+[mach64] Can't find chip
+irq=
+[mach64] forcing IRQ to %u
+[mach64] Video memory = %uMb
+[mach64] ecp: %d
+mach64_vid: flip_page = %u
+OVERLAY_SCALE_INC
+OVERLAY_Y_X_START
+OVERLAY_Y_X_END
+OVERLAY_SCALE_CNTL
+OVERLAY_EXCLUSIVE_HORZ
+OVERLAY_EXCLUSIVE_VERT
+OVERLAY_TEST
+SCALER_BUF_PITCH
+SCALER_HEIGHT_WIDTH
+SCALER_BUF0_OFFSET
+SCALER_BUF0_OFFSET_U
+SCALER_BUF0_OFFSET_V
+SCALER_BUF1_OFFSET
+SCALER_BUF1_OFFSET_U
+SCALER_BUF1_OFFSET_V
+SCALER_H_COEFF0
+SCALER_H_COEFF1
+SCALER_H_COEFF2
+SCALER_H_COEFF3
+SCALER_H_COEFF4
+SCALER_COLOUR_CNTL
+SCALER_THRESHOLD
+VIDEO_FORMAT
+VIDEO_CONFIG
+VIDEO_SYNC_TEST
+VIDEO_SYNC_TEST_B
+BUS_CNTL
+SRC_CNTL
+GUI_STAT
+BM_ADDR
+BM_DATA
+BM_HOSTDATA
+BM_GUI_TABLE_CMD
+BM_FRAME_BUF_OFFSET
+BM_SYSTEM_MEM_ADDR
+BM_COMMAND
+BM_STATUS
+BM_GUI_TABLE
+BM_SYSTEM_TABLE
+AGP_BASE
+AGP_CNTL
+CRTC_INT_CNTL
+BES driver for Mach64/3DRage cards
+Nick Kurshev and Michael Niedermayer
+mach64_vid.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,133 @@
+))v>
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+PerlIOScalar_fileno
+PerlIOScalar_tell
+PerlIOScalar_fill
+PerlIOScalar_flush
+PerlIOScalar_set_ptrcnt
+Perl_croak_nocontext
+PerlIOScalar_bufsiz
+PerlIOScalar_get_cnt
+PerlIOScalar_get_base
+Perl_sv_2pv_flags
+PerlIOScalar_get_ptr
+boot_PerlIO__scalar
+Perl_Istack_sp_ptr
+Perl_Imarkstack_ptr_ptr
+Perl_Istack_base_ptr
+Perl_newSVpv
+Perl_new_version
+Perl_sv_derived_from
+Perl_vcmp
+PerlIO_scalar
+PerlIO_define_layer
+Perl_Iunitcheckav_ptr
+Perl_Iscopestack_ix_ptr
+Perl_call_list
+Perl_Isv_yes_ptr
+Perl_form
+Perl_get_sv
+Perl_vstringify
+Perl_croak
+PerlIOScalar_dup
+PerlIOBase_dup
+PerlIOScalar_arg
+Perl_newRV_noinc
+PerlIO_sv_dup
+Perl_newSVsv
+PerlIOScalar_open
+PerlIO_push
+PerlIO_arg_fetch
+PerlIO_allocate
+PerlIOScalar_write
+Perl_sv_grow
+memmove
+PerlIOScalar_unread
+PerlIOScalar_seek
+memset
+Perl_ckwarn
+Perl_warner
+__errno_location
+PerlIOScalar_close
+PerlIOBase_close
+PerlIOScalar_popped
+Perl_sv_free
+Perl_sv_free2
+PerlIOScalar_pushed
+PerlIOBase_pushed
+Perl_sv_upgrade
+Perl_newSVpvn
+PL_no_modify
+PerlIOBase_binmode
+PerlIOBase_read
+PerlIOBase_eof
+PerlIOBase_error
+PerlIOBase_clearerr
+PerlIOBase_setlinebuf
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.0
+L[^_]
+L[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_PV
+Assertion %s failed: file "scalar.xs", line %d
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV
+!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV
+Assertion %s failed: file "scalar.c", line %d
+%s object version %-p does not match %s%s%s%s %-p
+!((((sv)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((sv)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((sv)->sv_flags & 0xff)) == SVt_PVLV))
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV
+((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM
+!((s->var)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (s->var); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 161), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 161), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 161), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 161), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 161), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 161), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+!((((s->var)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((s->var)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((s->var)->sv_flags & 0xff)) == SVt_PVLV))
+!((s->var)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (s->var); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 133), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 133), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 133), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 133), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 133), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 133), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+!((s->var)->sv_flags & 0x00000800) || !(*({ SV *const _svi = (SV *) (s->var); ((((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) >= SVt_RV", 115), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVAV", 115), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVHV", 115), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVCV", 115), (void) 0)); ((((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "((svtype)((_svi)->sv_flags & 0xff)) != SVt_PVFM", 115), (void) 0)); ((!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))) ? ((void) 0) : (Perl_croak_nocontext("Assertion %s failed: file \"" "scalar.xs" "\", line %d", "!((((_svi)->sv_flags & (0x00004000|0x00008000)) == 0x00008000) && (((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVGV || ((svtype)((_svi)->sv_flags & 0xff)) == SVt_PVLV))", 115), (void) 0)); &((_svi)->sv_u.svu_rv); }))
+((svtype)((s->var)->sv_flags & 0xff)) >= SVt_PV
+((svtype)((s->var)->sv_flags & 0xff)) != SVt_PVAV
+((svtype)((s->var)->sv_flags & 0xff)) != SVt_PVHV
+XS_VERSION
+%s::%s
+0.05
+version
+bootstrap parameter
+Offset outside string
+scalar
+scalar.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

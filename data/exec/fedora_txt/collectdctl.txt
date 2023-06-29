@@ -1,0 +1,254 @@
+/lib64/ld-linux-x86-64.so.2
+libcollectdclient.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+lcc_string_to_identifier
+lcc_connect
+lcc_putval
+lcc_strerror
+lcc_flush
+lcc_disconnect
+lcc_identifier_to_string
+lcc_listval
+lcc_getval
+libdl.so.2
+libc.so.6
+__printf_chk
+exit
+optind
+strncpy
+puts
+__stack_chk_fail
+realloc
+__assert_fail
+strtod
+strtol
+__errno_location
+getopt
+__fprintf_chk
+stdout
+strcasecmp
+optarg
+stderr
+__snprintf_chk
+gethostname
+fwrite
+strchr
+__cxa_finalize
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+/usr/lib64
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+AVAUATA
+unix:/vaH
+r/run/coH
+llectd-uH
+nixsock
+suUH
+D;#~
+t$PH
+D+d$
+D$PH
+d$(H
+|$0H
+D$pH
+D$8H
+D$hI
+D$(9D$
+t$ 1
+L$hH9
+|$XH
+[]A\A]A^A_
+D+d$
+L$`H
+T$XL
+D$hH
+D$`H
+D$hH
+H;\$Xr
+|$`H
+D$hH
+H;\$Xr
+D+d$
+D$H1
+D$XH
+D$ H
+D$LH
+D$(H
+D$`H
+HcD$HH
+T$XHi
+HcD$HH
+T$XL
+t$h1
+t$(H
+HcT$LH
+D$`L
+D+d$
+T$hH
+t$`H
+H;\$h
+L$`H
+t$ 1
+D$hH9
+L$hH
+t$ H
+t$ 1
+|$`H
+|$XH
+D9l$L
+D9|$H
+D$`H
+D$`H
+|$XH
+t$8H
+|$0H
+|$`H
+|$XH
+t$LH
+|$XH
+D$`H
+|$`H
+D$hH
+H;\$Xr
+|$hA
+=$  
+=:  
+fffff.
+AUATI
+[]A\A]A^
+fffff.
+[]A\A]A^A_
+Usage: %s [options] <command> [cmd options]
+Available options:
+  -s       Path to collectd's UNIX socket.
+           Default: /var/run/collectd-unixsock
+  -h       Display this help and exit.
+Available commands:
+ * getval <identifier>
+ * flush [timeout=<seconds>] [plugin=<name>] [identifier=<id>]
+ * listval
+ * putval <identifier> [interval=<seconds>] <value-list(s)>
+Identifiers:
+An identifier has the following format:
+  [<hostname>/]<plugin>[-<plugin_instance>]/<type>[-<type_instance>]
+Hostname defaults to the local hostname if omitted (e.g., uptime/uptime).
+No error is returned if the specified identifier does not exist.
+collectd 5.3.0.git, http://collectd.org/
+by Florian octo Forster <octo@verplant.org>
+for contributions see `AUTHORS'
+ERROR: Failed to get local hostname: %s
+ERROR: Failed to parse identifier ``%s'': %s.
+(array != ((void *)0)) && (array_len != ((void *)0))
+ERROR: Failed to allocate memory.
+ERROR: Failed to connect to daemon at %s: %s.
+strcasecmp (argv[0], "getval") == 0
+ERROR: getval: Missing identifier.
+strcasecmp (argv[0], "flush") == 0
+ERROR: flush: Invalid option ``%s''.
+ERROR: Failed to parse timeout as number: %s.
+WARNING: Ignoring trailing garbage after timeout: %s.
+ERROR: flush: Unknown option `%s'.
+ERROR: Failed to flush plugin `%s': %s.
+ERROR: Failed to flush plugin `%s', identifier `%s': %s.
+strcasecmp (argv[0], "listval") == 0
+ERROR: listval: Does not accept any arguments.
+ERROR: listval: Failed to convert returned identifier to a string: %s
+strcasecmp (argv[0], "putval") == 0
+ERROR: putval: Missing identifier and/or value list.
+ERROR: Failed to parse interval as number: %s.
+WARNING: Ignoring trailing garbage after interval: %s.
+ERROR: putval: Unknown option `%s'.
+ERROR: putval: Invalid value list: %s.
+ERROR: Failed to parse time as number: %s.
+ERROR: Garbage after time: %s.
+ERROR: Failed to parse value as number: %s.
+ERROR: Garbage after value: %s.
+ERROR: putval: Missing value list(s).
+%s/%s
+collectdctl.c
+(all)
+unix:%s
+%s: missing command
+getval
+ERROR: %s
+%s=%e
+flush
+timeout
+plugin
+identifier
+plugins_num == 1
+listval
+putval
+interval
+%s: invalid command: %s
+localhost
+putval
+listval
+array_grow
+flush
+getval
+;*3$"
+collectdctl.debug
+7zXZ
+"BB?
+lG:iQ
+Mv15
+xt-,
+:+:^"
+:fe#
+y'|W
+QOh6
+?#<x
+mq?%Q
+	|%a
+^oy+n
+&TRB
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

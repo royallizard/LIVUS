@@ -1,0 +1,476 @@
+/lib64/ld-linux-x86-64.so.2
+|fUa
+libstrongswan.so.0
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+time_monotonic
+options_create
+host_create_from_string
+library_init
+strerror_safe
+mem_cred_create
+library_deinit
+identification_create_from_string
+_fini
+asn1_wrap
+asn1_bitstring
+asn1_algorithmIdentifier
+linked_list_create
+encryption_algorithm_to_oid
+chunk_to_base64
+chunk_write
+chunk_to_hex
+hasher_algorithm_from_integrity
+asn1_to_time
+chunk_empty
+libc.so.6
+__printf_chk
+exit
+strncmp
+optind
+strrchr
+__stack_chk_fail
+stdin
+strtol
+fgets
+strlen
+openlog
+__errno_location
+memcmp
+__syslog_chk
+__fprintf_chk
+fputc
+__vsnprintf_chk
+malloc
+strcasecmp
+__ctype_b_loc
+optarg
+stderr
+__snprintf_chk
+getopt_long
+gethostname
+fwrite
+strchr
+__vfprintf_chk
+sleep
+__cxa_finalize
+setbuf
+__libc_start_main
+snprintf
+free
+_edata
+__bss_start
+_end
+/usr/lib64/strongswan
+GLIBC_2.3
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%ze 
+%re 
+%je 
+%be 
+%Ze 
+%Re 
+%Je 
+%Be 
+%:e 
+%2e 
+%*e 
+%"e 
+%zd 
+%rd 
+%jd 
+%bd 
+%Zd 
+%Rd 
+%Jd 
+%Bd 
+%:d 
+AWAVAUATUSH
+D$8H
+D$PH
+D$hH
+D$pH
+=ba 
+|$81
+t$HH
+|$0A
+L$hH
+T$pH
+5E` 
+5%` 
+t$P1
+5._ 
+Dt$\
+L$0D
+=U^ 
+=u] 
+=V] 
+=l\ 
+="\ 
+=_[ 
+\$(H
+P@P1
+D$@ZY
+D$0L
+D$0H
+D$(H
+\$(L
+P@AW1
+5 R 
+5`R 
+5RR 
+5TQ 
+5<Q 
+D$@L
+5=P 
+=DO 
+5lO 
+|$0E
+D$@H
+D$0H
+P@Pj6
+D$lL
+5lN 
+D$@H
+\$(H
+D$@H
+D$@H
+D$@H
+t$`H
+H+D$
+l$dH
+D$@H
+5`H 
+5AH 
+AYAZ
+=[H 
+5\H 
+P@V1
+_AXH
+t$`H
+P@P1
+t$@H
+fffff.
+=YD 
+5RD 
+fffff.
+=aD 
+fffff.
+5nC 
+=KC 
+=OC 
+=cC 
+=_C 
+l$ L
+=z@ 
+\$0I
+D$ H
+D$ H
+AUATI
+d$ L
+[]A\A]
+PATA)
+AWAVAUATI
+D$(1
+D$(dH3
+8[]A\A]A^A_
+AVAUATSI
+[A\A]A^]
+AWAVAUATI
+5[: 
+=\: 
+[A\A]A^A_]
+AWAVI
+AUATI
+D$ H
+D$(dH
+D$X1
+\$@H
+L$XdH3
+h[]A\A]A^A_
+P@j6H
+L$@A
+d$0H
+P@j6RSH
+T$8H
+\$0L
+AVAUh
+t$Xh
+|$0H
+D$0H
+ffff.
+AWAVI
+AUATI
+D$81
+PKIOpera
+D$(tionH
+<+t4H
+GetCACerH
+D$(H
+D$8L
+L$8H
+T$0L
+\$8dH3
+H[]A\A]A^A_
+D$(H
+AVAUj
+L$hH
+T$`A
+AWAVI
+AUAT1
+D$ 1
+P@j61
+([]A\A]A^A_
+M9l$
+AWAVA
+AUATL
+[]A\A]A^A_
+error: %s
+%.*s%s%s
+%s/%s
+CAIdentifier
+caCert.der
+myCert.der
+selfCert.der
+pkcs7.der
+myReq.der
+myKey.der
+scepclient
+scepclient %s
+pkcs1
+pkcs10
+cacert-enc
+cacert-sig
+cert-self
+invalid --in file type
+pkcs7
+cacert
+invalid --out file type
+invalid httptimeout specified
+optionsfrom failed
+invalid keylength
+missing number of days
+email
+invalid --subjectAltName type
+%prompt
+Challenge password: 
+only one URL argument allowed
+post
+invalid interval specified
+invalid algorithm specified
+dgst
+invalid --algorithm type
+unknown option
+scepclient.load
+plugin loading failed
+--out filetype required
+URL of SCEP server required
+-ra-%.1d
+no RSA private key available
+/etc/strongswan/ipsec.d/reqs
+C=CH, O=Linux strongSwan, CN=
+dn: '%s'
+building pkcs10 object:
+  fingerprint:    %s
+building pkcs1 object:
+  transaction ID: %.*s
+/etc/strongswan/ipsec.d/certs
+generating certificate failed
+encoding certificate failed
+building pkcs7 request
+failed to build pkcs7 request
+going to sleep for %d seconds
+fingerprint:    %.*s
+failed to build scep request
+reply status is not 'SUCCESS'
+extracting signed-data failed
+could not parse singed-data
+help
+version
+optionsfrom
+quiet
+debug
+force
+httptimeout
+bind
+startdate
+enddate
+subjectAltName
+password
+algorithm
+caname
+method
+interval
+maxpolltime
+Usage: scepclient
+ --help (-h)                       show usage and exit
+ --version (-v)                    show version and exit
+ --quiet (-q)                      do not write log output to stderr
+ --in (-i) <type>[=<filename>]     use <filename> of <type> for input
+                                   <type> = pkcs1 | pkcs10 | cert-self
+                                            cacert-enc | cacert-sig
+                                   - if no pkcs1 input is defined, an RSA
+                                     key will be generated
+                                   - if no pkcs10 input is defined, a
+                                     PKCS#10 request will be generated
+                                   - if no cert-self input is defined, a
+                                     self-signed certificate will be generated
+                                   - if no filename is given, default is used
+ --out (-o) <type>[=<filename>]    write output of <type> to <filename>
+                                   multiple outputs are allowed
+                                   <type> = pkcs1 | pkcs10 | pkcs7 | cert-self |
+                                            cert | cacert
+                                   - type cacert defines filename prefix of
+                                     received CA certificate(s)
+                                   - if no filename is given, default is used
+ --optionsfrom (-+) <filename>     reads additional options from given file
+ --force (-f)                      force existing file(s)
+ --httptimeout (-T)                timeout for HTTP operations (default: 30s)
+ --bind (-b)                       source address to bind for HTTP operations
+Options for key generation (pkcs1):
+ --keylength (-k) <bits>           key length for RSA key generation
+                                   (default: 2048 bits)
+Options for validity:
+ --days (-D) <days>                validity in days
+ --startdate (-S) <YYMMDDHHMMSS>Z  not valid before date
+ --enddate   (-E) <YYMMDDHHMMSS>Z  not valid after date
+Options for request generation (pkcs10):
+ --dn (-d) <dn>                    comma separated list of distinguished names
+ --subjectAltName (-s) <t>=<v>     include subjectAltName in certificate request
+                                   <t> =  email | dns | ip 
+ --password (-p) <pw>              challenge password
+                                   - use '%%prompt' as pw for a password prompt
+ --algorithm (-a) [<type>=]<algo>  algorithm to be used for PKCS#7 encryption,
+                                   PKCS#7 digest or PKCS#10 signature
+                                   <type> = enc | dgst | sig
+                                   - if no type is given enc is assumed
+                                   <algo> = des (default) | 3des | aes128 |
+                                            aes192 | aes256 | camellia128 |
+                                            camellia192 | camellia256
+                                   <algo> = md5 (default) | sha1 | sha256 |
+                                            sha384 | sha512
+Options for CA certificate acquisition:
+ --caname (-c) <name>              name of CA to fetch CA certificate(s)
+                                   (default: CAIdentifier)
+Options for enrollment (cert):
+ --url (-u) <url>                  url of the SCEP server
+ --method (-m) post | get          http request type
+ --interval (-t) <seconds>         poll interval in seconds (default 20s)
+ --maxpolltime (-x) <seconds>      max poll time in seconds when in manual mode
+                                   (default: unlimited)
+Debugging output:
+ --debug (-l) <level>              changes the log level (-1..4, default: 1)
+integrity check of scepclient failed
+hv+:qi:o:fk:d:s:p:a:u:c:m:t:x:APRCMS
+keylength is not a multiple of %d bits!
+<days> must be a positive number
+date format must be YYMMDDHHMMSSZ
+only one distinguished name allowed
+only one challenge password allowed
+challenge password could not be read
+invalid http request method specified
+unsupported encryption algorithm specified
+aes des rc2 sha1 sha2 md4 md5 random x509 pkcs1 pkcs7 pkcs8 pkcs12 pem openssl gmp curl
+in CA certificate request, no other --in or --out option allowed
+cannot generate --out of given --in!
+did not receive a valid scep response
+/etc/strongswan/ipsec.d/cacerts
+unable to parse PKCS#7, assuming plain CA cert
+could not write ca cert file '%s': %s
+could not write cert file '%s': %s
+/etc/strongswan/ipsec.d/private
+length of RSA key has to be at least %d bits
+could not read certificate request '%s'
+no hostname defined, use --dn <distinguished name> option
+parsing of distinguished name failed
+generating pkcs10 request failed
+could not write pkcs10 file '%s': %s
+could not write pkcs1 file '%s': %s
+could not read certificate file '%s'
+could not write self-signed cert file '%s': %s
+could not load encryption cacert file '%s'
+could not write pkcs7 file '%s': %s
+could not load signature cacert file '%s'
+  scep request pending, polling every %d seconds
+maximum poll time reached: %d seconds
+could not decrypt envelopedData
+extracting encrypted-data failed
+multiple certs received, only first stored
+messageType:  %s
+pkiStatus:    %s
+failInfo:     %s
+sending scep request to '%s'
+%s?operation=%s&message=%s
+Accept:
+Host:
+Pragma:
+%s?operation=%s
+Expect:
+%s?operation=%s&message=%.*s
+CertRep
+PKCSReq
+GetCertInitial
+GetCert
+GetCRL
+Unknown
+SUCCESS
+FAILURE
+PENDING
+UNKNOWN
+error parsing the scep response
+scep response is not PKCS#7 signed-data
+transaction ID of scep response does not match
+unable to verify PKCS#7 container
+badAlg - unrecognized or unsupported algorithm identifier
+badMessageCheck - integrity check failed
+badRequest - transaction not permitted or supported
+badTime - Message time field was not sufficiently close to the system time
+badCertId - No certificate could be identified matching the provided criteria
+;*3$"
+scepclient.debug
+7zXZ
+wN8U
+/3"g
+%	LDLq
+6sL4
+ofpC
+9# j
+oAQ#z
+\9a)@]
+Gtu=[
+w=)oph
+dY0l
+*	Y)
+;[]{`K
+F.=,
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,331 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dcgettext
+ioctl
+xine_log
+strcmp
+free
+strlen
+_x_io_tcp_write
+sscanf
+__vsnprintf_chk
+__strcat_chk
+_x_io_tcp_read_line
+strcpy
+_x_io_tcp_read
+__stack_chk_fail
+__strdup
+strstr
+strchr
+strtol
+_x_io_tcp_connect
+calloc
+perror
+xine_get_homedir
+__snprintf_chk
+opendir
+readdir64
+strcasecmp
+fopen64
+fgets
+realloc
+strcat
+strrchr
+__asprintf_chk
+fclose
+closedir
+_x_io_tcp_connect_finish
+__sprintf_chk
+__errno_location
+strerror
+memset
+strncmp
+__fprintf_chk
+__xstat64
+mkdir
+strncasecmp
+xine_config_lookup_entry
+_x_meta_info_set_utf8
+xine_xmalloc
+xine_plugin_info
+fork
+waitpid
+__printf_chk
+execl
+exit
+memcpy
+fread
+libxine.so.1
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_inp_cdda.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.3.4
+%z~ 
+%r~ 
+%j~ 
+%b~ 
+%Z~ 
+%R~ 
+%J~ 
+%B~ 
+%:~ 
+%2~ 
+%*~ 
+%"~ 
+ATSubH
+%\y 
+ffff.
+ffff.
+ffff.
+ffff.
+[]A\
+[]A\
+fffff.
+fff.
+l$ H
+ffffff.
+gfffA
+ffffff.
+\$ I
+[]A\A]
+HcT$
+ATUH
+[]A\
+[]A\
+fffff.
+AUATUSH
+#D;c
+[]A\A]A^A_
+fffff.
+AVAUATUH
+%]m 
+([]A\A]A^A_
+ATUSH
+T$ 1
+|$11
+@[]A\A]A^
+E(t"
+D$ -
+[]A\A]A^
+[]A\A]A^
+T$ H
+AVAUATUSH
+T$(L
+<.L)
+L$@H
+|$0H
+T$(H
+T$0H
+T$8H
+|$@H
+[]A\A]A^A_
+D$(H
+|$(H
+t$ H
+t$(H
+T$(D
+L$(H
+~NE1
+T$0H
+L$8H
+|$@H
+|$01
+|$0L
+T$PH
+T$@H
+T$HH
+|$8H
+L$0H
+T$8H
+D$h%
+D$ H
+D$ H
+AVAUATI
+T$(H
+[]A\A]A^A_
+AVAUATI
+gfffI
+[]A\A]A^A_
+AVAUATUSH
+L9sXt
+[]A\A]A^A_
+uDL9sX
+AWAVAUATI
+T$(t	
+E+>A
+x@Ic
+CxIc
+D9l$
+SpA9
+SxHc
+HcSpH
+HcSpH
+HcCpH
+CpHc
+CpA9
+CxIc
+T$(D
+8[]A\A]A^A_
+[]A\A]A^A_
+{xHc
+T$ H
+AUATUH
+[]A\A]
+[]A\A]
+[]A\A]
+L$ H!
+T$(I!
+D$0H
+L$8L1
+T$@H1
+D$HH1
+L$PH
+T$XH1
+D$`H1
+L$hB
+T$pH1
+D$xH1
+#EgH
+fffff.
+ATE1
+[]A\
+[]A\H
+AVAUATUH
+<>Hc
+[]A\A]A^
+|>8Hc
+ffffff.
+AWHc
+AVAUI
+[]A\A]A^A_
+?~yE
+l(@Ic
+[]A\A]A^A_
+#EgH
+] dH
+[]A\A]
+CD Digital Audio (aka. CDDA)
+libxine1
+media.audio_cd.device
+media.audio_cd.use_cddb
+media.audio_cd.cddb_server
+media.audio_cd.cddb_port
+media.audio_cd.cddb_cachedir
+media.audio_cd.drive_slowdown
+>>> %s
+cdda_open
+cdda_tochdr
+%*s %*s %d %d
+calloc
+cdda_tocentry %d
+%*s %*s %d %d %d %d
+device used for CD audio
+/dev/cdrom
+query CDDB
+CDDB server name
+freedb.freedb.org
+CDDB server port
+CDDB cache directory
+%s/.xine/cddbcache
+CDROMREADTOCHDR
+CDROMMULTISESSION
+CDROMREADTOCENTRY
+CDROMREADRAW
+cdda_read %d %d
+<<< %s
+DTITLE=%s
+DYEAR=%s
+TTITLE%d=%s
+EXTD=
+YEAR:
+%s: can't connect to %s:%d
+input_cdda
+1.1.16.3
+proto %d
+cddb query %08x %d 
+cddb read %s %s
+%s/%08x
+cdda:/
+%02X
+%08X
+cdda:/%d
+cdda:%s
+%s/%d
+input_cdda: setting drive speed to %d failed
+input_cdda: setting drive speed to normal failed
+input_cdda: error writing to socket.
+input_cdda: error reading from socket.
+input_cdda: protocol error, data returned but no buffer provided.
+input_cdda: error opening remote drive.
+input_cdda: network CDROMREADTOCHDR error.
+input_cdda: network CDROMREADTOCENTRY error.
+The path to the device, usually a CD or DVD drive, which you intend to use for playing audio CDs.
+Enables CDDB queries, which will give you convenient title and track names for your audio CDs.
+Keep in mind that, unless you use your own private CDDB, this information is retrieved from an internet server which might collect a profile of your listening habits.
+The CDDB server used to retrieve the title and track information from.
+This setting is security critical, because the sever will receive information about your listening habits and could answer the queries with malicious replies. Be sure to enter a server you can trust.
+The server port used to retrieve the title and track information from.
+The replies from the CDDB server will be cached in this directory.
+This setting is security critical, because files with uncontrollable names will be created in this directory. Be sure to use a dedicated directory not used for anything but CDDB caching.
+Since some CD or DVD drives make some really loud noises because of the fast disc rotation, xine will try to slow them down. With standard CD or DVD playback, the high datarates that require the fast rotation are not needed, so the slowdown should not affect playback performance.
+A value of zero here will disable the slowdown.
+slow down disc drive to this speed factor
+input_cdda: fopen(%s) failed: %s.
+input_cdda: cached entry for disc ID %08x not found.
+input_cdda: successfully connected to cddb server '%s:%d'.
+input_cdda: failed to connect to cddb server '%s:%d' (%s).
+input_cdda: error while reading cddb welcome message.
+cddb hello unknown localhost xine %s
+input_cdda: error while sending cddb hello command.
+input_cdda: cddb hello command returned error code '%03d'.
+input_cdda: error while sending cddb protocol command.
+input_cdda: cddb protocol command returned error code '%03d'.
+input_cdda: error while sending cddb query command.
+input_cdda: cddb query command returned error code '%03d'.
+input_cdda: error while sending cddb read command.
+input_cdda: cddb read command returned error code '%03d'.
+input_cdda: mkdir(%s) failed: %s.
+input_cdda: %s is not a directory.
+input_cdda: ioctl(CDROM_MEDIA_CHANGED) failed: %s.
+/bin/umount
+input_dvd: CDROMCLOSETRAY failed: %s
+input_dvd: CDROMEJECT failed: %s
+input_dvd: CDROM_DRIVE_STATUS failed: %s
+input_dvd: Device %s failed to open during eject calls
+%02x
+SHA-1
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._
+xineplug_inp_cdda.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

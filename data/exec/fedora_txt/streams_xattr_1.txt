@@ -1,0 +1,298 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+_talloc_realloc_array
+talloc_strdup
+talloc_tos
+get_ea_value
+_talloc_free
+smb_roundup
+strchr_m
+talloc_asprintf
+strrchr_m
+strupper_m
+DEBUGLEVEL_CLASS
+DEBUGLEVEL_CLASS_ISSET
+dbghdrclass
+dbgtext
+vfs_memctx_fsp_extension
+__errno_location
+vfs_fetch_fsp_extension
+smb_vfs_call_ftruncate
+fsp_str_dbg
+smb_vfs_call_fsetxattr
+memset
+smb_vfs_call_setxattr
+is_ntfs_stream_smb_fname
+is_ntfs_default_stream_smb_fname
+copy_smb_filename
+smb_vfs_call_unlink
+smb_vfs_call_removexattr
+map_errno_from_nt_status
+talloc_strdup_upper
+MD5Init
+MD5Update
+talloc_get_size
+MD5Final
+__stack_chk_fail
+smb_vfs_call_fstat
+create_synthetic_smb_fname
+lp_posix_pathnames
+smb_vfs_call_lstat
+smb_vfs_call_stat
+StrCaseCmp
+smb_vfs_call_rename
+smb_vfs_call_pwrite
+memcpy
+smb_vfs_call_pread
+smb_vfs_call_open
+vfs_add_fsp_extension_notype
+smb_fname_str_dbg
+smb_vfs_call_close_fn
+nt_errstr
+smb_vfs_call_fs_capabilities
+smb_vfs_call_get_alloc_size
+get_ea_names_from_file
+map_nt_error_from_unix
+init_samba_module
+smb_register_vfs
+libc.so.6
+_edata
+__bss_start
+_end
+streams_xattr.so
+GLIBC_2.4
+GLIBC_2.2.5
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+%J: 
+%B: 
+ATSubH
+=88 
+=g6 
+%<6 
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+l$0H
+\$(L
+d$8L
+l$@H
+t#E1
+t$ H
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+|$(M
+l$ L
+t$(C
+D$(H
+L$ H
+|$ H
+D$(H
+|$ H
+d$ H
+ffff.
+AUATUH
+D$x1
+|$`H
+T$xdH3
+[]A\A]
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+|$(H
+|$ H
+l$8H
+\$0L
+d$@L
+l$HL
+t$PH
+T$(H
+T$ H
+t$(L
+T$ H
+T$(H
+\$HH
+l$PL
+d$XL
+l$`L
+t$hL
+|$pH
+L$ H
+D$8O
+t$0H
+D$0H
+T$8B
+|$0L
+D$8H
+L$0H
+|$0H
+D$8H
+|$0H
+ffff.
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+l$(H
+l$ L
+fffff.
+T$8H
+D$@1
+t$@D
+|$@H
+D$8L
+T$8E1
+L$OA
+t$8L
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+T$8E1
+L$OA
+T$8E1
+L$OA
+T$8E1
+L$OA
+t$8H
+d$ H
+CHu!
+d$ H
+CHu!
+AWAVAUATI
+D$ L
+l$0L
+D$@H
+D$`H
+T$(H
+[]A\A]A^A_
+struct stream_struct
+user.DosStream.
+%s%s
+%s:$DATA
+uint8
+upper_sname != NULL
+modules/vfs_streams_xattr.c
+stream_inode returns %lu
+sbuf->st_ex_size = %d
+get_ea_value returned %s
+::$DATA
+talloc failed
+streams_xattr
+modules/vfs_streams_xattr.c:87
+modules/vfs_streams_xattr.c:123
+xattr_name: %s, stream_name: %s
+modules/vfs_streams_xattr.c:150
+modules/vfs_streams_xattr.c:151
+modules/vfs_streams_xattr.c:158
+modules/vfs_streams_xattr.c:970
+streams_xattr_ftruncate called for file %s offset %.0f
+modules/vfs_streams_xattr.c:990
+modules/vfs_streams_xattr.c:1016
+modules/vfs_streams_xattr.c:560
+modules/vfs_streams_xattr.c:581
+modules/vfs_streams_xattr.c:46
+stream_inode called for %lu/%lu [%s]
+modules/vfs_streams_xattr.c:49
+PANIC: assert failed at %s(%d): %s
+modules/vfs_streams_xattr.c:60
+modules/vfs_streams_xattr.c:65
+modules/vfs_streams_xattr.c:197
+streams_xattr_fstat called for %d
+modules/vfs_streams_xattr.c:223
+modules/vfs_streams_xattr.c:235
+modules/vfs_streams_xattr.c:668
+modules/vfs_streams_xattr.c:669
+modules/vfs_streams_xattr.c:861
+streams_xattr_pwrite called for %d bytes
+modules/vfs_streams_xattr.c:884
+modules/vfs_streams_xattr.c:905
+modules/vfs_streams_xattr.c:925
+streams_xattr_pread: offset=%d, size=%d
+modules/vfs_streams_xattr.c:944
+streams_xattr_pread: get_ea_value returned %d bytes
+modules/vfs_streams_xattr.c:954
+modules/vfs_streams_xattr.c:366
+streams_xattr_open called for %s
+modules/vfs_streams_xattr.c:416
+modules/vfs_streams_xattr.c:435
+modules/vfs_streams_xattr.c:445
+streams_xattr_open: base file %s not around, returning ENOENT
+modules/vfs_streams_xattr.c:462
+creating attribute %s on file %s
+modules/vfs_streams_xattr.c:349
+modules/vfs_streams_xattr.c:297
+modules/vfs_streams_xattr.c:803
+modules/vfs_streams_xattr.c:701
+Could not get ea %s for file %s: %s
+modules/vfs_streams_xattr.c:708
+modules/vfs_streams_xattr.c:713
+modules/vfs_streams_xattr.c:717
+modules/vfs_streams_xattr.c:720
+modules/vfs_streams_xattr.c:831
+modules/vfs_streams_xattr.c:836
+walk_xattr_streams
+streams_xattr_ftruncate
+streams_xattr_get_name
+stream_inode
+streams_xattr_fstat
+streams_xattr_pwrite
+streams_xattr_pread
+streams_xattr_open
+streams_xattr.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

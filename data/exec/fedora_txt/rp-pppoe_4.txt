@@ -1,0 +1,323 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+connect
+close
+__errno_location
+__snprintf_chk
+options_from_file
+exit
+pppoe_check_options
+sscanf
+lcp_allowoptions
+lcp_wantoptions
+ipcp_allowoptions
+ipcp_wantoptions
+ccp_allowoptions
+ccp_wantoptions
+option_error
+socket
+strncpy
+ioctl
+pppd_pppoe_service
+ppp_devnam
+strlcpy
+ppp_session_number
+remote_number
+__sprintf_chk
+warn
+script_setenv
+fatal
+Eth_PPPOE_Discovery
+openInterface
+discovery
+sendPADT
+strlen
+the_channel
+pppoe_channel
+modem
+malloc
+novm
+plugin_init
+ppp_available
+new_style_driver
+add_options
+info
+generic_establish_ppp
+generic_disestablish_ppp
+OldDevnameHook
+pppoe_reqd_mac_addr
+pppd_version
+parsePacket
+strncmp
+memcpy
+__memcpy_chk
+sendPacket
+getpid
+dbglog
+gettimeofday
+__fdelt_chk
+select
+receivePacket
+waitForPADO
+etherType
+Eth_PPPOE_Session
+setsockopt
+bind
+debug
+send
+pppoe_log_packet
+recv
+pppoe_printpkt
+init_pr_log
+end_pr_log
+libc.so.6
+__stack_chk_fail
+GLIBC_2.1.3
+GLIBC_2.15
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+D$,1
+D$,e3
+t$(V
+UWVS
+D$`1
+L$HQ
+t$(R
+T$<R
+T$<R
+T$<R
+T$<RV
+T$<R
+|$\e3=
+l[^_]
+UWVS
+D$81
+l$\U
+L$,e3
+<[^_]
+UWVS
+v@f=
+t$,VP
+[^_]
+t$,VP
+[^_]
+t$0U
+[^_]
+t$,VP
+[^_]
+t$,P
+D$ f
+FDWPQ
+[^_]
+D$ 1
+v)f=
+t$ P
+|$He
+D$$1
+D$ P
+,[^_]
+[^_]
+T$ f
+[^_]
+UWVS
+D$<1
+D$@j
+D$ P
+[^_]
+D$4P
+[^_]
+f90t
+f90u
+UWVS
+D$P1
+D$$Pj
+|$8W
+D$Bf
+D$<=
+L$Le3
+\[^_]
+t$ V
+UWVS
+T$D+|$
+[^_]
+[^_]
+UWVS
+D$,P
+[^_]
+UWVS
+t$,W
+t$(W
+t$4W
+<[^_]
+t$0W
+<[^_]
+vT<e
+tl<	
+Failed to disconnect PPPoE socket: %d %m
+cannot parse pppoe-mac option value
+Failed to create PPPoE socket: %m
+Illegal value for rp_pppoe_sess option
+Unable to complete PPPoE Discovery
+Connected to %02X:%02X:%02X:%02X:%02X:%02X via interface %s
+Failed to connect PPPoE socket: %d %m
+Linux kernel does not support PPPoE -- are you running 2.4.x?
+RP-PPPoE plugin version %s compiled against pppd %s
+Desired PPPoE access concentrator name
+Attach to existing session (sessid:macaddr)
+Be verbose about discovered access concentrators
+Only connect to specified MAC address
+/etc/ppp/options.%s
+Can't get MTU for %s: %m
+%d:%x:%x:%x:%x:%x:%x
+%02X:%02X:%02X:%02X:%02X:%02X
+MACREMOTE
+nic-
+Interface %s not Ethernet
+PPPoE session data
+2.4.7
+3.8p
+PPPoE device name
+rp_pppoe_service
+Desired PPPoE service name
+rp_pppoe_ac
+rp_pppoe_sess
+rp_pppoe_verbose
+pppoe-mac
+Access-Concentrator: %.*s
+PADO: System-Error: %.*s
+PADO: Generic-Error: %.*s
+Would create too-long packet
+PADS: Service-Name: '%.*s'
+PADS: System-Error: %.*s
+PADS: Generic-Error: %.*s
+gettimeofday: %m
+Bogus PPPoE length field (%u)
+PPP session is %d
+select (waitForPADS): %m
+select (waitForPADO): %m
+PADO: Service-Name-Error: %.*s
+PADS: Service-Name-Error: %.*s
+gettimeofday (waitForPADS): %m
+Access concentrator used a session value of %x -- the AC is violating RFC 2516
+NO-SERVICE-NAME-NON-RFC-COMPLIANT
+gettimeofday (waitForPADO): %m
+Ignoring PADO packet from non-unicast MAC address
+Ignoring PADO packet from wrong MAC address
+Ignoring PADO packet with no AC-Name tag
+Ignoring PADO packet with no Service-Name tag
+Timeout waiting for PADO packets
+Timeout waiting for PADS packets
+Invalid ether type 0x%x
+Send 
+Recv 
+Cannot create raw socket -- pppoe must be run as root.
+Can't open socket for pppoe: %m
+Can't set socket options for pppoe: %m
+Can't get hardware address for %s: %m
+Interface %.16s is not Ethernet
+Can't use interface %.16s: it has broadcast/multicast MAC address
+Interface %.16s has MTU of %d -- should be at least %d.
+This may cause serious connection problems.
+Could not get interface index for %s: %m
+Failed to bind to interface %s: %m
+error sending pppoe packet: %m
+error receiving pppoe packet: %m
+Invalid PPPoE version (%d)
+Invalid PPPoE type (%d)
+Invalid PPPoE tag length (%u)
+Sent PADT
+PPPOE Discovery V%dT%d 
+PADI
+PADO
+PADR
+PADS
+unknown code %x
+ session 0x%x length %d
+PPPOE Session V%dT%d
+end-of-list
+service-name
+AC-name
+host-uniq
+AC-cookie
+vendor-specific
+relay-session-id
+PPP-max-payload
+service-name-error
+AC-system-error
+generic-error
+unknown tag 0x%x
+ %.*v
+ %.*B
+ %.32B... (length %d)
+Invalid PPPoE packet length (%u)
+ code 0x%x session 0x%x length %d
+Unknown ethernet frame with proto = 0x%x
+ dst %02x:%02x:%02x:%02x:%02x:%02x 
+ src %02x:%02x:%02x:%02x:%02x:%02x
+9*2$"
+2.4.7
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA+stack_realign
+gcc 8.2.1 20180801
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+stack_realign
+rp-pppoe.so-2.4.7-26.fc29.i386.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rel.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

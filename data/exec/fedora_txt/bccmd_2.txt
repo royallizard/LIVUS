@@ -1,0 +1,1459 @@
+/lib64/ld-linux-x86-64.so.2
+libbluetooth.so.3
+__gmon_start__
+_Jv_RegisterClasses
+hci_open_dev
+hci_read_local_version
+hci_close_dev
+hci_devid
+hci_send_req
+hci_send_cmd
+hci_devinfo
+libusb-0.1.so.4
+usb_open
+usb_interrupt_read
+usb_find_busses
+usb_init
+usb_get_busses
+usb_control_msg
+usb_claim_interface
+usb_release_interface
+usb_close
+usb_find_devices
+libc.so.6
+fflush
+__printf_chk
+exit
+optind
+__strdup
+cfmakeraw
+strncpy
+__stack_chk_fail
+strtol
+mmap
+strlen
+memset
+__errno_location
+tcsetattr
+__fprintf_chk
+stdout
+memcpy
+malloc
+strcasecmp
+optarg
+stderr
+munmap
+__snprintf_chk
+getopt_long
+strncasecmp
+__fxstat
+usleep
+__memcpy_chk
+tcflush
+strchr
+tcgetattr
+__cxa_finalize
+fcntl
+__sprintf_chk
+cfsetospeed
+strerror
+__libc_start_main
+write
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+5R\!
+%T\!
+%R\!
+%J\!
+%B\!
+%:\!
+%2\!
+%*\!
+%"\!
+%z[!
+%r[!
+%j[!
+%b[!
+%Z[!
+%R[!
+%J[!
+%B[!
+%:[!
+%2[!
+%*[!
+%"[!
+ATSubH
+=0X!
+=OV!
+%L8!
+fffff.
+[]A\H
+t2Mc
+AVAUI
+u	fA
+]A\A]
+AVAUATUH
+[]A\A]A^
+AWAVAUATA
+D$(1
+l$ L
+L$ f
+D$!v 
+T$"L
+T$(dH3
+8[]A\A]A^A_
+AWAVAUATA
+[]A\A]A^A_
+AVAUA
+\$ H
+d$ fA
+D$"f
+D$#vA
+[]A\A]A^A_
+T$"A
+|$ M
+D$$f
+D$&f
+[]A\
+T$.L
+l$0f
+D$2f
+D$3vl
+D$3D
+t$0f
+|$1D
+D$4f
+D9l$
+D$6A
+D$8A	
+D$7D
+d$6A
+fff.
+ATUH
+[]A\A]
+fffff.
+uaHc
+[]A\
+NvNf
+[]A\
+AVAUATUS
+L$(H
+T$.f
+t$.H
+d$0@
+t$2fA
+d$1@
+t$3vH
+\$(1
+[]A\A]A^A_
+D$5D
+t$.1
+d$0f
+t$2A
+D$3vt
+t$.1
+T$2f
+T$3D
+l$1f
+AWAVAUATA
+D$(1
+l$ L
+\$ f
+T$"f
+T$#vB
+T$(dH3
+8[]A\A]A^A_
+T$"f
+D$#D
+AWAVAUATI
+T$*H
+L$$f
+\$0L
+l$,I
+t$.L
+D$0f
+D$4f
+D$.H
+|$$1
+[]A\A]A^A_
+\$ H
+l$(L
+d$0L
+l$8L
+t$@H
+fffff.
+fff.
+fffff.
+AWAVAUATUSH
+[]A\A]A^A_
+#uPH
+l$ H
+AVAUATUSH
+t$PE1
+t$PH
+[]A\A]A^A_
+fffff.
+L$91
+[]A\
+[]A\
+fff.
+D$0f
+D$0f
+[]A\A]A^
+L$91
+[]A\
+L$91
+D$x1
+T$xdH3
+\$0G
+fffff.
+D$X1
+T$XdH3
+ffff.
+AVAUATUS
+[]A\A]A^A_
+D$H1
+T$HdH3
+fffff.
+ffffff.
+ffffff.
+fffff.
+AWAVAUATUH
+[]A\A]A^A_
+[]A\A]A^A_
+fffff.
+AVAUATU
+[]A\A]A^A_
+fffff.
+fffff.
+l$ L
+t$(L
+|$0H
+bccmd - Utility for the CSR BCCMD interface
+Usage:
+	bccmd [options] <command>
+Options:
+	-t <transport>     Select the transport
+	-d <device>        Select the device
+	-h, --help         Display help
+Transports:
+	HCI USB BCSP H4 3WIRE
+Can't execute command: %s (%d)
+ROM (or "read-only" flash memory)
+Lock radio on specific channel
+Load all PS keys from PSR file
+Commands:
+	%-10s %-20s	%s
+Keys:
+bcsp
+3wire
+twutl
++t:d:i:h
+Unsupported transport
+Unsupported command
+default
+implementation
+factory
+psrom
+psram
++s:rh
+0x%04x =
+ 0x%02x
+Flash memory
+RAM (transient)
+Unknown
+Default
+%s (0x%04x) = %s (%d)
+Build definitions:
+0x%04x - %s
+%s: 0x%04x (%d)
+%s: 0x%08x (%d)
+ 0x%02x%02x
+BC1 ES
+BC2-External A
+BC2-External B
+BC2-ROM
+BC3-Multimedia
+BC3-ROM
+BC3-Flash
+BC4-External
+BC4-ROM
+Chip revision: 0x%04x (%s)
+Random number: 0x%02x (%d)
+Bluetooth clock: 0x%04x (%d)
+Crypt key length: %d bit
+invalid
+Fault code: 0x%02x (%s)
+Panic code: 0x%02x (%s)
+Build name: %s
+UNKNOWN
+0x%04x
+PSKEY_
+// %s%s
+&%04x =
+ %02x%02x
+0x%04x - %s (%d bytes)
+Loading %s%s ... 
+failed
+done
+transport
+help
+builddef
+Get build definitions
+keylen
+<handle>
+Get current crypt key length
+Get local Bluetooth clock
+rand
+Get random number
+chiprev
+Get chip revision
+buildname
+Get the full build name
+panicarg
+Get panic code argument
+faultarg
+Get fault code argument
+coldreset
+Perform cold reset
+warmreset
+Perform warm reset
+disabletx
+Disable TX on the device
+enabletx
+Enable TX on the device
+singlechan
+<channel>
+hoppingon
+Revert to channel hopping
+rttxdata1
+<freq> <level>
+TXData1 radio test
+radiotest
+<freq> <level> <id>
+Run radio tests
+memtypes
+Get memory types
+psget
+<key>
+Get value for PS key
+psset
+<key> <value>
+Set value for PS key
+psclr
+Clear value for PS key
+pslist
+List all PS keys
+psread
+Read all PS keys
+psload
+<file>
+pscheck
+Check PSR file
+stores
+bdaddr
+country
+devclass
+keymin
+keymax
+features
+remver
+hciextn
+mapsco
+baudrate
+hostintf
+anafreq
+anaftrim
+usbvid
+usbpid
+dfupid
+CHIP_BASE_BC01
+CHIP_BASE_BC02
+CHIP_BC01B
+CHIP_BC02_EXTERNAL
+BUILD_HCI
+BUILD_RFCOMM
+BT_VER_1_1
+TRANSPORT_ALL
+TRANSPORT_BCSP
+TRANSPORT_H4
+TRANSPORT_USB
+MAX_CRYPT_KEY_LEN_56
+MAX_CRYPT_KEY_LEN_128
+TRANSPORT_USER
+CHIP_BC02_KATO
+TRANSPORT_NONE
+REQUIRE_8MBIT
+RADIOTEST
+RADIOTEST_LITE
+INSTALL_FLASH
+INSTALL_EEPROM
+INSTALL_COMBO_DOT11
+LOWPOWER_TX
+TRANSPORT_TWUTL
+COMPILER_GCC
+CHIP_BC02_CLOUSEAU
+CHIP_BC02_TOULOUSE
+CHIP_BASE_BC3
+CHIP_BC3_NICKNACK
+CHIP_BC3_KALIMBA
+INSTALL_HCI_MODULE
+INSTALL_L2CAP_MODULE
+INSTALL_DM_MODULE
+INSTALL_SDP_MODULE
+INSTALL_RFCOMM_MODULE
+INSTALL_HIDIO_MODULE
+INSTALL_PAN_MODULE
+INSTALL_IPV4_MODULE
+INSTALL_IPV6_MODULE
+INSTALL_TCP_MODULE
+BT_VER_1_2
+INSTALL_UDP_MODULE
+REQUIRE_0_WAIT_STATES
+CHIP_BC3_PADDYWACK
+CHIP_BC4_COYOTE
+CHIP_BC4_ODDJOB
+TRANSPORT_H4DS
+CHIP_BASE_BC4
+BlueCore01a
+BlueCore01b
+BlueCore01b (ES)
+BlueCore02-External
+BlueCore02-External (ES2)
+BlueCore02-ROM/Audio/Flash
+BlueCore02
+BlueCore3-ROM
+BlueCore3-MM
+BlueCore3-Flash
+BlueCore4-External
+BlueCore4-ROM
+BlueCore3 or BlueCore4
+Country code
+Bluetooth address
+Class of device
+Device drift
+Device jitter
+Maximum ACL links
+Maximum SCO links
+Maximum remote masters
+Maximum HCI ACL packet length
+Maximum HCI SCO packet length
+Flow control low water mark
+Maximum transmit power
+Transmit gain ramp rate
+Radio power table
+Default transmit power
+TX Mod delay
+RX MR Sync Timing
+RX MR Sync Configuration
+AGC hysteresis levels
+RSSI high target
+Link key store bitfield
+Minimum encryption key length
+Maximum encryption key length
+Allow LM to use enc_mode=2
+LM period for AFH adaption
+Options to configure AFH
+AFH RSSI reading period
+AFH good channel adding time
+Max private link keys stored
+Local supported commands
+Maximum absence index allowed
+AFH RSSI threshold
+DFU attributes
+DFU detach timeout
+DFU transfer size
+DFU enable
+BCSP link establishment block
+HCI flow control block
+UART reset counter timeout
+Maximum hci_extn payload size
+Map SCO over PCM
+PCM data format
+UART Baud rate
+Use CRCs for BCSP or H5
+UART host wakeup
+H4DS Twu timer period
+H4DS Tuart_idle timer period
+Crystal frequency trim
+Host interface
+HQ host command timeout
+Enable host query task?
+Enable configuration security
+Crystal frequency
+Access to PIO pins
+pmalloc sizes array
+UART Baud rate (pre 18)
+UART configuration bitfield
+Stub
+TX and RX PIO control
+Persistent store version
+IQ calibration channel
+IQ calibration gain
+IQ calibration enable
+Transmit offset
+Deep sleep state usage
+IQ phase enable
+IQ PIO settings
+Device uses an external clock
+TX pre-amplifier level
+RX single ended
+TX filter configuration
+External clock request enable
+Crystal target amplitude
+Module serial number
+Module design ID
+Module security code
+VM disable
+Module manufactuer data 0
+Module manufactuer data 1
+Module manufactuer data 2
+Module manufactuer data 3
+Module manufactuer data 4
+Module manufactuer data 5
+Module manufactuer data 6
+Module manufactuer data 7
+Module manufactuer data 8
+Module manufactuer data 9
+User configuration data 0
+User configuration data 1
+User configuration data 2
+User configuration data 3
+User configuration data 4
+User configuration data 5
+User configuration data 6
+User configuration data 7
+User configuration data 8
+User configuration data 9
+User configuration data 10
+User configuration data 11
+User configuration data 12
+User configuration data 13
+User configuration data 14
+User configuration data 15
+User configuration data 16
+User configuration data 17
+User configuration data 18
+User configuration data 19
+User configuration data 20
+User configuration data 21
+User configuration data 22
+User configuration data 23
+User configuration data 24
+User configuration data 25
+User configuration data 26
+User configuration data 27
+User configuration data 28
+User configuration data 29
+User configuration data 30
+User configuration data 31
+User configuration data 32
+User configuration data 33
+User configuration data 34
+User configuration data 35
+User configuration data 36
+User configuration data 37
+User configuration data 38
+User configuration data 39
+User configuration data 40
+User configuration data 41
+User configuration data 42
+User configuration data 43
+User configuration data 44
+User configuration data 45
+User configuration data 46
+User configuration data 47
+User configuration data 48
+User configuration data 49
+USB device class codes
+USB vendor identifier
+USB product identifier
+USB manufacturer string
+USB product string
+USB serial number string
+USB configuration string
+USB attributes bitmap
+USB DFU class codes block
+USB DFU product ID
+USB detach/attach PIO line
+USB wakeup PIO line
+USB D+ pullup PIO line
+USB VBus detection PIO Line
+Radio test initial attenuator
+LO_LVL calibration enable
+Static IPv6 address
+Static IPv4 address
+Static IPv6 prefix length
+Static IPv6 router address
+Static IPv4 subnet mask
+Static IPv4 router address
+Multicast DNS name
+Fixed PIN
+Multicast DNS port
+Multicast DNS TTL
+Multicast DNS IPv4 address
+ARP cache timeout
+HFP power table
+Initial device bootmode
+HCI traffic routed internally
+Receiver attenuation back-off
+Flash wait state indicator
+RSSI correction factor.
+I2C configuration
+IQ demand level for reception
+The UART Sampling point
+PIO deep sleep wake up state 
+Bypass latch for LO dividers
+USB self powered
+USB responds to wake-up
+DFU manifestation tolerant
+DFU can upload
+DFU can download
+UART: hardware flow control
+UART: RTS auto-enabled
+UART: BCSP ack timeout
+UART: use BCSP CRCs
+UART: initial host state
+UART: host attention span
+UART: host wakeup time
+UART: host wakeup wait
+BCSP link establishment mode
+BCSP link establishment Tshy
+DFU mode UART: stop bits
+DFU mode UART: parity bit
+DFU mode UART: RTS asserted
+DFU mode UART: TX zero enable
+DFU mode UART: RX rate delay
+Multiplexer for AIO 0
+Multiplexer for AIO 1
+Multiplexer for AIO 2
+Multiplexer for AIO 3
+Local Name (simplified)
+Extended stub
+COUNTRYCODE
+BDADDR
+CLASSOFDEVICE
+DEVICE_DRIFT
+DEVICE_JITTER
+MAX_ACLS
+MAX_SCOS
+MAX_REMOTE_MASTERS
+ENABLE_MASTERY_WITH_SLAVERY
+H_HC_FC_MAX_ACL_PKT_LEN
+H_HC_FC_MAX_SCO_PKT_LEN
+H_HC_FC_MAX_ACL_PKTS
+H_HC_FC_MAX_SCO_PKTS
+LC_FC_BUFFER_LOW_WATER_MARK
+LC_MAX_TX_POWER
+TX_GAIN_RAMP
+LC_POWER_TABLE
+LC_PEER_POWER_PERIOD
+LC_FC_POOLS_LOW_WATER_MARK
+LC_DEFAULT_TX_POWER
+LC_RSSI_GOLDEN_RANGE
+LC_COMBO_DISABLE_PIO_MASK
+LC_COMBO_PRIORITY_PIO_MASK
+LC_COMBO_DOT11_BLOCK_CHANNELS
+LC_MAX_TX_POWER_NO_RSSI
+LC_CONNECTION_RX_WINDOW
+LC_ENHANCED_POWER_TABLE
+LC_WIDEBAND_RSSI_CONFIG
+LC_COMBO_DOT11_PRIORITY_LEAD
+BT_CLOCK_INIT
+TX_MR_MOD_DELAY
+RX_MR_SYNC_TIMING
+RX_MR_SYNC_CONFIG
+LC_LOST_SYNC_SLOTS
+RX_MR_SAMP_CONFIG
+AGC_HYST_LEVELS
+RX_LEVEL_LOW_SIGNAL
+AGC_IQ_LVL_VALUES
+MR_FTRIM_OFFSET_12DB
+MR_FTRIM_OFFSET_6DB
+NO_CAL_ON_BOOT
+RSSI_HI_TARGET
+PREFERRED_MIN_ATTENUATION
+LC_MULTISLOT_HOLDOFF
+FREE_KEY_PIGEON_HOLE
+LINK_KEY_BD_ADDR8
+LINK_KEY_BD_ADDR9
+LINK_KEY_BD_ADDR10
+LINK_KEY_BD_ADDR11
+LINK_KEY_BD_ADDR12
+LINK_KEY_BD_ADDR13
+LINK_KEY_BD_ADDR14
+LINK_KEY_BD_ADDR15
+ENC_KEY_LMIN
+ENC_KEY_LMAX
+LOCAL_SUPPORTED_FEATURES
+LM_USE_UNIT_KEY
+HCI_NOP_DISABLE
+LM_MAX_EVENT_FILTERS
+LM_USE_ENC_MODE_BROADCAST
+LM_TEST_SEND_ACCEPTED_TWICE
+LM_MAX_PAGE_HOLD_TIME
+AFH_ADAPTATION_RESPONSE_TIME
+AFH_OPTIONS
+AFH_RSSI_RUN_PERIOD
+AFH_REENABLE_CHANNEL_TIME
+NO_DROP_ON_ACR_MS_FAIL
+MAX_PRIVATE_KEYS
+PRIVATE_LINK_KEY_BD_ADDR0
+PRIVATE_LINK_KEY_BD_ADDR1
+PRIVATE_LINK_KEY_BD_ADDR2
+PRIVATE_LINK_KEY_BD_ADDR3
+PRIVATE_LINK_KEY_BD_ADDR4
+PRIVATE_LINK_KEY_BD_ADDR5
+PRIVATE_LINK_KEY_BD_ADDR6
+PRIVATE_LINK_KEY_BD_ADDR7
+LOCAL_SUPPORTED_COMMANDS
+LM_MAX_ABSENCE_INDEX
+DEVICE_NAME
+AFH_RSSI_THRESHOLD
+LM_CASUAL_SCAN_INTERVAL
+AFH_MIN_MAP_CHANGE
+AFH_RSSI_LP_RUN_PERIOD
+HCI_LMP_LOCAL_VERSION
+LMP_REMOTE_VERSION
+HOLD_ERROR_MESSAGE_NUMBER
+DFU_ATTRIBUTES
+DFU_DETACH_TO
+DFU_TRANSFER_SIZE
+DFU_ENABLE
+DFU_LIN_REG_ENABLE
+DFUENC_VMAPP_PK_MODULUS_MSB
+DFUENC_VMAPP_PK_MODULUS_LSB
+DFUENC_VMAPP_PK_M_DASH
+DFUENC_VMAPP_PK_R2N_MSB
+DFUENC_VMAPP_PK_R2N_LSB
+BCSP_LM_PS_BLOCK
+HOSTIO_FC_PS_BLOCK
+HOSTIO_PROTOCOL_INFO0
+HOSTIO_PROTOCOL_INFO1
+HOSTIO_PROTOCOL_INFO2
+HOSTIO_PROTOCOL_INFO3
+HOSTIO_PROTOCOL_INFO4
+HOSTIO_PROTOCOL_INFO5
+HOSTIO_PROTOCOL_INFO6
+HOSTIO_PROTOCOL_INFO7
+HOSTIO_PROTOCOL_INFO8
+HOSTIO_PROTOCOL_INFO9
+HOSTIO_PROTOCOL_INFO10
+HOSTIO_PROTOCOL_INFO11
+HOSTIO_PROTOCOL_INFO12
+HOSTIO_PROTOCOL_INFO13
+HOSTIO_PROTOCOL_INFO14
+HOSTIO_PROTOCOL_INFO15
+HOSTIO_UART_RESET_TIMEOUT
+HOSTIO_USE_HCI_EXTN
+HOSTIO_USE_HCI_EXTN_CCFC
+HOSTIO_HCI_EXTN_PAYLOAD_SIZE
+BCSP_LM_CNF_CNT_LIMIT
+HOSTIO_MAP_SCO_PCM
+HOSTIO_AWKWARD_PCM_SYNC
+HOSTIO_BREAK_POLL_PERIOD
+HOSTIO_MIN_UART_HCI_SCO_SIZE
+HOSTIO_MAP_SCO_CODEC
+PCM_CVSD_TX_HI_FREQ_BOOST
+PCM_CVSD_RX_HI_FREQ_BOOST
+PCM_CONFIG32
+USE_OLD_BCSP_LE
+PCM_CVSD_USE_NEW_FILTER
+PCM_FORMAT
+CODEC_OUT_GAIN
+CODEC_IN_GAIN
+CODEC_PIO
+PCM_LOW_JITTER_CONFIG
+HOSTIO_SCO_PCM_THRESHOLDS
+HOSTIO_SCO_HCI_THRESHOLDS
+HOSTIO_MAP_SCO_PCM_SLOT
+UART_BAUDRATE
+UART_CONFIG_BCSP
+UART_CONFIG_H4
+UART_CONFIG_H5
+UART_CONFIG_USR
+UART_TX_CRCS
+UART_ACK_TIMEOUT
+UART_TX_MAX_ATTEMPTS
+UART_TX_WINDOW_SIZE
+UART_HOST_WAKE
+HOSTIO_THROTTLE_TIMEOUT
+PCM_ALWAYS_ENABLE
+UART_HOST_WAKE_SIGNAL
+UART_CONFIG_H4DS
+H4DS_WAKE_DURATION
+H4DS_MAXWU
+H4DS_LE_TIMER_PERIOD
+H4DS_TWU_TIMER_PERIOD
+H4DS_UART_IDLE_TIMER_PERIOD
+ANA_FTRIM
+WD_TIMEOUT
+WD_PERIOD
+HOST_INTERFACE
+HQ_HOST_TIMEOUT
+HQ_ACTIVE
+BCCMD_SECURITY_ACTIVE
+ANA_FREQ
+PIO_PROTECT_MASK
+PMALLOC_SIZES
+UART_BAUD_RATE
+UART_CONFIG
+TXRX_PIO_CONTROL
+ANA_RX_LEVEL
+PSBC_DATA_VERSION
+PCM0_ATTENUATION
+LO_LVL_MAX
+LO_ADC_AMPL_MIN
+LO_ADC_AMPL_MAX
+IQ_TRIM_CHANNEL
+IQ_TRIM_GAIN
+IQ_TRIM_ENABLE
+TX_OFFSET_HALF_MHZ
+GBL_MISC_ENABLES
+UART_SLEEP_TIMEOUT
+DEEP_SLEEP_STATE
+IQ_ENABLE_PHASE_TRIM
+HCI_HANDLE_FREEZE_PERIOD
+MAX_FROZEN_HCI_HANDLES
+PAGETABLE_DESTRUCTION_DELAY
+IQ_TRIM_PIO_SETTINGS
+DEEP_SLEEP_WAKE_CTS
+FC_HC2H_FLUSH_DELAY
+RX_HIGHSIDE
+TX_PRE_LVL
+RX_SINGLE_ENDED
+CLOCK_REQUEST_ENABLE
+RX_MIN_ATTEN
+XTAL_TARGET_AMPLITUDE
+PCM_MIN_CPU_CLOCK
+HOST_INTERFACE_PIO_USB
+CPU_IDLE_MODE
+DEEP_SLEEP_CLEAR_RTS
+RF_RESONANCE_TRIM
+DEEP_SLEEP_PIO_WAKE
+DRAIN_BORE_TIMERS
+DRAIN_TX_POWER_BASE
+MODULE_ID
+MODULE_DESIGN
+MODULE_SECURITY_CODE
+MOD_MANUF0
+MOD_MANUF1
+MOD_MANUF2
+MOD_MANUF3
+MOD_MANUF4
+MOD_MANUF5
+MOD_MANUF6
+MOD_MANUF7
+MOD_MANUF8
+MOD_MANUF9
+DUT_VM_DISABLE
+USR0
+USR1
+USR2
+USR3
+USR4
+USR5
+USR6
+USR7
+USR8
+USR9
+USR10
+USR11
+USR12
+USR13
+USR14
+USR15
+USR16
+USR17
+USR18
+USR19
+USR20
+USR21
+USR22
+USR23
+USR24
+USR25
+USR26
+USR27
+USR28
+USR29
+USR30
+USR31
+USR32
+USR33
+USR34
+USR35
+USR36
+USR37
+USR38
+USR39
+USR40
+USR41
+USR42
+USR43
+USR44
+USR45
+USR46
+USR47
+USR48
+USR49
+USB_VERSION
+USB_DEVICE_CLASS_CODES
+USB_VENDOR_ID
+USB_PRODUCT_ID
+USB_MANUF_STRING
+USB_PRODUCT_STRING
+USB_SERIAL_NUMBER_STRING
+USB_CONFIG_STRING
+USB_ATTRIBUTES
+USB_MAX_POWER
+USB_BT_IF_CLASS_CODES
+USB_LANGID
+USB_DFU_CLASS_CODES
+USB_DFU_PRODUCT_ID
+USB_PIO_DETACH
+USB_PIO_WAKEUP
+USB_PIO_PULLUP
+USB_PIO_VBUS
+USB_PIO_WAKE_TIMEOUT
+USB_PIO_RESUME
+USB_BT_SCO_IF_CLASS_CODES
+USB_SUSPEND_PIO_LEVEL
+USB_SUSPEND_PIO_DIR
+USB_SUSPEND_PIO_MASK
+USB_CONFIG
+RADIOTEST_ATTEN_INIT
+RADIOTEST_FIRST_TRIM_TIME
+RADIOTEST_LO_LVL_TRIM_ENABLE
+RADIOTEST_DISABLE_MODULATION
+RFCOMM_FCON_THRESHOLD
+RFCOMM_FCOFF_THRESHOLD
+IPV6_STATIC_ADDR
+IPV4_STATIC_ADDR
+IPV6_STATIC_PREFIX_LEN
+IPV6_STATIC_ROUTER_ADDR
+IPV4_STATIC_SUBNET_MASK
+IPV4_STATIC_ROUTER_ADDR
+MDNS_NAME
+FIXED_PIN
+MDNS_PORT
+MDNS_TTL
+MDNS_IPV4_ADDR
+ARP_CACHE_TIMEOUT
+HFP_POWER_TABLE
+DRAIN_BORE_TIMER_COUNTERS
+DRAIN_BORE_COUNTERS
+LOOP_FILTER_TRIM
+DRAIN_BORE_CURRENT_PEAK
+VM_E2_CACHE_LIMIT
+FORCE_16MHZ_REF_PIO
+CDMA_LO_ERROR_LIMITS
+CLOCK_STARTUP_DELAY
+DEEP_SLEEP_CORRECTION_FACTOR
+TEMPERATURE_CALIBRATION
+TEMPERATURE_VS_DELTA_TX_BB
+TEST_DELTA_OFFSET
+RX_DYNAMIC_LVL_OFFSET
+TEST_FORCE_OFFSET
+RF_TRAP_BAD_DIVISION_RATIOS
+RADIOTEST_CDMA_LO_REF_LIMITS
+INITIAL_BOOTMODE
+ONCHIP_HCI_CLIENT
+RX_ATTEN_BACKOFF
+RX_ATTEN_UPDATE_RATE
+SYNTH_TXRX_THRESHOLDS
+MIN_WAIT_STATES
+RSSI_CORRECTION
+SCHED_THROTTLE_TIMEOUT
+DEEP_SLEEP_USE_EXTERNAL_CLOCK
+TRIM_RADIO_FILTERS
+TRANSMIT_OFFSET
+USB_VM_CONTROL
+MR_ANA_RX_FTRIM
+I2C_CONFIG
+IQ_LVL_RX
+MR_TX_FILTER_CONFIG
+MR_TX_CONFIG2
+LC_USE_THROTTLING
+CHARGER_TRIM
+CLOCK_REQUEST_FEATURES
+TRANSMIT_OFFSET_CLASS1
+TX_AVOID_PA_CLASS1_PIO
+MR_PIO_CONFIG
+UART_CONFIG2
+CLASS1_IQ_LVL
+CLASS1_TX_CONFIG2
+RX_MR_EQ_TAPS
+TX_PRE_LVL_CLASS1
+ANALOGUE_ATTENUATOR
+MR_RX_FILTER_TRIM
+MR_RX_FILTER_RESPONSE
+PIO_WAKEUP_STATE
+MR_TX_IF_ATTEN_OFF_TEMP
+LO_DIV_LATCH_BYPASS
+LO_VCO_STANDBY
+SLOW_CLOCK_FILTER_SHIFT
+SLOW_CLOCK_FILTER_DIVIDER
+USB_ATTRIBUTES_POWER
+USB_ATTRIBUTES_WAKEUP
+DFU_ATTRIBUTES_CAN_UPLOAD
+DFU_ATTRIBUTES_CAN_DOWNLOAD
+UART_CONFIG_STOP_BITS
+UART_CONFIG_PARITY_BIT
+UART_CONFIG_FLOW_CTRL_EN
+UART_CONFIG_RTS_AUTO_EN
+UART_CONFIG_RTS
+UART_CONFIG_TX_ZERO_EN
+UART_CONFIG_NON_BCSP_EN
+UART_CONFIG_RX_RATE_DELAY
+UART_SEQ_TIMEOUT
+UART_SEQ_RETRIES
+UART_SEQ_WINSIZE
+UART_USE_CRC_ON_TX
+UART_HOST_INITIAL_STATE
+UART_HOST_ATTENTION_SPAN
+UART_HOST_WAKEUP_TIME
+UART_HOST_WAKEUP_WAIT
+BCSP_LM_MODE
+BCSP_LM_SYNC_RETRIES
+BCSP_LM_TSHY
+UART_DFU_CONFIG_STOP_BITS
+UART_DFU_CONFIG_PARITY_BIT
+UART_DFU_CONFIG_FLOW_CTRL_EN
+UART_DFU_CONFIG_RTS_AUTO_EN
+UART_DFU_CONFIG_RTS
+UART_DFU_CONFIG_TX_ZERO_EN
+UART_DFU_CONFIG_NON_BCSP_EN
+UART_DFU_CONFIG_RX_RATE_DELAY
+AMUX_AIO0
+AMUX_AIO1
+AMUX_AIO2
+AMUX_AIO3
+LOCAL_NAME_SIMPLIFIED
+EXTENDED_STUB
+Build %d
+HCI 9.8
+HCI 10.3
+HCI 10.5
+HCI 11.0
+HCI 11.1
+HCI 11.2
+HCI 11.3
+HCI 12.0
+HCI 12.1
+HCI 12.2
+HCI 12.3
+HCI 12.4
+HCI 12.5
+HCI 12.6
+HCI 12.7
+HCI 12.8
+HCI 12.9
+HCI 13.2
+HCI 13.3
+HCI 13.4
+HCI 13.5
+HCI 13.6
+HCI 14.0
+HCI 13.7
+HCI 14.1
+HCI 14.2
+HCI 14.3
+HCI 13.8
+HCI 13.9
+HCI 13.10
+HCI 14.4
+HCI 14.5
+HCI 14.6
+HCI 13.11
+HCI 15.0
+HCI 14.7
+HCI 15.1
+HCI 15.2
+HCI 16.0
+HCI 15.3
+HCI 16.1
+HCI 14.8
+HCI 16.2
+HCI 16.1.1
+HCI 16.1.2
+HCI 16.3
+HCI 16.4
+HCI 16.5
+HCI 17.0
+HCI 13.10.1
+HCI 17.1
+HCI 17.2
+HCI 16.6
+HCI 13.10.2
+HCI 13.10.3
+HCI 13.10.4
+HCI 16.7
+HCI 16.8
+HCI 16.4.1
+HCI 16.7.1
+HCI 16.7.2
+HCI 16.4.2
+HCI 16.7.3
+HCI 16.7.4
+HCI 16.9
+HCI 17.3
+HCI 16.7.5
+HCI 16.10
+HCI 16.4.3
+HCI 16.11
+HCI 16.12
+HCI 16.13
+HCI 13.10.5
+HCI 16.14
+HCI 17.3.1
+HCI 17.3.2
+HCI 17.11
+HCI 18.1
+HCI 18.x
+HCI 18.2
+HCI 18.2.1
+HCI 18.3
+HCI 19.2
+Unified 20a
+HCI 18.4
+Unified 20a1
+Unified 18f
+Unified 18e
+Unified 20d
+Unified 20e
+Unified 21a
+Unified 21c
+Unified 21d
+Unified 21e
+Unified 21f
+Unified 22b
+Unified 22c
+Unified 22d
+Unified 23c
+Marcel 1 (2005-09-26)
+Marcel 2 (2005-09-28)
+Marcel 3 (2005-10-27)
+Marcel 4 (2006-06-16)
+Marcel 5 (2006-10-24)
+Marcel 6 (2007-06-11)
+Marcel 7 (2008-08-26)
+Sniff 1 (2001-11-27)
+Sniff 2 (2002-01-03)
+Sniff 3 (2002-02-22)
+Sniff 4 (2002-02-26)
+Sniff 5 (2002-03-12)
+Sniff 6 (2002-03-20)
+Sniff 7 (2002-04-12)
+Sniff 8 (2002-04-12)
+Sniff 9 (2002-05-02)
+Sniff 10 (2002-05-03)
+Sniff 11 (2002-05-16)
+Sniff 12 (2002-06-26)
+Sniff 13 (2002-08-16)
+Sniff 14 (2002-10-11)
+Sniff 15 (2002-11-14)
+Sniff 16 (2002-12-12)
+Sniff 17 (2003-01-29)
+Sniff 18 (2003-04-17)
+Sniff 19 (2003-06-10)
+Sniff 22 (2003-09-05)
+Sniff 23 (2003-10-03)
+Sniff 24 (2003-10-03)
+Sniff 25 (2003-12-03)
+Sniff 26 (2003-12-18)
+Sniff 27 (2004-03-08)
+Sniff 31 (2004-04-22)
+Sniff 34 (2004-06-16)
+Sniff 35 (2004-07-19)
+Sniff 36 (2004-08-18)
+Sniff 37 (2004-09-16)
+Sniff 38 (2004-10-07)
+Sniff 39 (2004-11-02)
+Sniff 40 (2004-11-03)
+Sniff 41 (2005-04-06)
+Sniff 42 (2005-04-11)
+Sniff 43 (2005-04-14)
+Sniff 44 (2005-04-18)
+Sniff 45 (2005-07-08)
+Sniff 46 (2005-08-17)
+Sniff 47 (2006-02-15)
+Sniff 48 (2006-05-16)
+Sniff 49 (2006-07-17)
+Sniff 50 (2006-09-21)
+Sniff 51 (2006-09-29)
+Sniff 52 (2006-11-03)
+Support master and slave roles simultaneously
+Maximum number of HCI ACL packets
+Maximum number of HCI SCO packets
+Peer transmit power control interval
+Flow control pool low water mark
+RSSI at bottom of golden receive range
+Combo: PIO lines and logic to disable transmit
+Combo: priority activity PIO lines and logic
+Combo: 802.11b channel number base PIO line
+Combo: channels to block either side of 802.11b
+Maximum transmit power when peer has no RSSI
+Receive window size during connections
+Combo: which TX packets shall we protect
+RSSI configuration for use with wideband RSSI
+Combo: How much notice will we give the Combo Card
+Initial value of Bluetooth clock
+Time in ms for lost sync in low power modes
+ANA_RX_LVL at low signal strengths
+ANA_IQ_LVL values for AGC algorithmn
+ANA_RX_FTRIM offset when using 12 dB IF atten 
+ANA_RX_FTRIM offset when using 6 dB IF atten 
+Do not calibrate radio on boot
+Preferred minimum attenuator setting
+Combo: Treat all packets as high priority
+Time till single slot packets are used for resync
+Bluetooth address + link key 0
+Bluetooth address + link key 1
+Bluetooth address + link key 2
+Bluetooth address + link key 3
+Bluetooth address + link key 4
+Bluetooth address + link key 5
+Bluetooth address + link key 6
+Bluetooth address + link key 7
+Bluetooth address + link key 8
+Bluetooth address + link key 9
+Bluetooth address + link key 10
+Bluetooth address + link key 11
+Bluetooth address + link key 12
+Bluetooth address + link key 13
+Bluetooth address + link key 14
+Bluetooth address + link key 15
+Local supported features block
+Allow use of unit key for authentication?
+Disable the HCI Command_Status event on boot
+Maximum number of event filters
+LM sends two LMP_accepted messages in test mode
+Maximum time we hold a device around page
+Complete link if acr barge-in role switch refused
+Local device's "user friendly" name
+Scan interval in slots for casual scanning
+The minimum amount to change an AFH map by
+AFH RSSI reading period when in low power mode
+The HCI and LMP version reported locally
+The LMP version reported remotely
+Maximum number of queued HCI Hardware Error Events
+Linear Regulator enabled at boot in DFU mode
+DFU encryption VM application public key MSB
+DFU encryption VM application public key LSB
+DFU encryption VM application M dash
+DFU encryption VM application public key R2N MSB
+DFU encryption VM application public key R2N LSB
+Host transport channel 0 settings (BCSP ACK)
+Host transport channel 1 settings (BCSP-LE)
+Host transport channel 2 settings (BCCMD)
+Host transport channel 3 settings (HQ)
+Host transport channel 4 settings (DM)
+Host transport channel 5 settings (HCI CMD/EVT)
+Host transport channel 6 settings (HCI ACL)
+Host transport channel 7 settings (HCI SCO)
+Host transport channel 8 settings (L2CAP)
+Host transport channel 9 settings (RFCOMM)
+Host transport channel 10 settings (SDP)
+Host transport channel 11 settings (TEST)
+Host transport channel 12 settings (DFU)
+Host transport channel 13 settings (VM)
+Host transport channel 14 settings
+Host transport channel 15 settings
+Use hci_extn to route non-hci channels
+Use command-complete flow control for hci_extn
+BCSP link establishment conf message count
+PCM interface synchronisation is difficult
+Break poll period (microseconds)
+Minimum SCO packet size sent to host over UART HCI
+Map SCO over the built-in codec
+High frequency boost for PCM when transmitting CVSD
+High frequency boost for PCM when receiving CVSD
+PCM interface settings bitfields
+Use the old version of BCSP link establishment
+CVSD uses the new filter if available
+Audio output gain when using built-in codec
+Audio input gain when using built-in codec
+PIO to enable when built-in codec is enabled
+PCM interface settings for low jitter master mode
+Thresholds for SCO PCM buffers
+Thresholds for SCO HCI buffers
+Route SCO data to specified slot in pcm frame
+UART configuration when using BCSP
+UART configuration when using H4
+UART configuration when using H5
+UART configuration when under VM control
+Acknowledgement timeout for BCSP and H5
+Max times to send reliable BCSP or H5 message
+Transmit window size for BCSP and H5
+Host interface performance control.
+PCM port is always enable when chip is running
+Signal to use for uart host wakeup protocol
+UART configuration when using H4DS
+How long to spend waking the host when using H4DS
+Maximum number of H4DS Wake-Up messages to send
+H4DS Link Establishment Tsync and Tconf period
+Watchdog timeout (microseconds)
+Watchdog period (microseconds)
+ANA_RX_LVL register initial value
+ANA_RX_FTRIM register initial value
+Volume control on PCM channel 0
+Maximum value of LO level control register
+Minimum value of the LO amplitude measured on the ADC
+Maximum value of the LO amplitude measured on the ADC
+Global miscellaneous hardware enables
+Time in ms to deep sleep if nothing received
+Time for which HCI handle is frozen after link removal
+Maximum number of frozen HCI handles
+Delay from freezing buf handle to deleting page table
+Exit deep sleep on CTS line activity
+Delay from disconnect to flushing HC->H FC tokens
+Disable the HIGHSIDE bit in ANA_CONFIG
+Minimum attenuation allowed for receiver
+Minimum CPU clock speed with PCM port running
+USB host interface selection PIO line
+CPU idle mode when radio is active
+Deep sleep clears the UART RTS line
+Frequency trim for IQ and LNA resonant circuits
+PIO line to wake the chip from deep sleep
+Energy consumption measurement settings
+VM disable when entering radiotest modes
+USB specification version number
+USB device maximum power consumption
+USB Bluetooth interface class codes
+USB language strings supported
+Timeout for assertion of USB PIO wake signal
+PIO signal used in place of bus resume
+USB Bluetooth SCO interface class codes
+USB PIO levels to set when suspended
+USB PIO I/O directions to set when suspended
+USB PIO lines to be set forcibly in suspend
+The maxmimum packet size for USB endpoint 0
+USB config params for new chips (>bc2)
+IQ first calibration period in test
+IQ subsequent calibration period in test
+Disable modulation during radiotest transmissions
+RFCOMM aggregate flow control on threshold
+RFCOMM aggregate flow control off threshold
+Energy consumption estimation timer counters
+Energy consumption estimation counters
+Trim value to optimise loop filter
+Energy consumption estimation current peak
+Maximum RAM for caching EEPROM VM application
+PIO line to force 16 MHz reference to be assumed
+Local oscillator frequency reference limits for CDMA
+Local oscillator frequency error limits for CDMA
+Clock startup delay in milliseconds
+Deep sleep clock correction factor
+Temperature in deg C for a given internal setting
+Temperature for given internal PA adjustment
+Temperature for a given TX_PRE_LVL adjustment
+Temperature for a given TX_BB adjustment
+Temperature for given crystal trim adjustment
+Frequency offset applied to synthesiser in test mode
+Receiver dynamic level offset depending on channel
+Force use of exact value in PSKEY_TEST_DELTA_OFFSET
+Trap bad division ratios in radio frequency tables
+LO frequency reference limits for CDMA in radiotest
+Receiver attenuation update rate
+Local oscillator tuning voltage limits for tx and rx
+Scheduler performance control.
+Deep sleep uses external 32 kHz clock source
+Trim rx and tx radio filters if true.
+Transmit offset in units of 62.5 kHz
+VM application will supply USB descriptors
+Medium rate value for the ANA_RX_FTRIM register
+TX filter configuration used for enhanced data rate
+Don't reset bootmode if USB host resets
+Adjust packet selection on packet error rate
+Trim value for the current charger
+Clock request is tristated if enabled
+Transmit offset / 62.5 kHz for class 1 radios
+PIO line asserted in class1 operation to avoid PA
+IQ demand level for class 1 power level
+TX filter configuration used for class 1 tx power
+Temperature adjustment for TX_PRE_LVL in EDR
+Temperature for a given TX_BB in EDR header
+Temperature for a given TX_BB in EDR payload
+Adjust receiver configuration for EDR
+TX pre-amplifier level in class 1 operation
+TX analogue attenuator setting
+Trim for receiver used in EDR.
+Filter response for receiver used in EDR.
+TX IF atten off temperature when using EDR.
+Use standby mode for the LO VCO
+Slow clock sampling filter constant
+Slow clock filter fractional threshold
+UART: enable BCSP-specific hardware
+UART: retry limit in sequencing layer
+UART: BCSP transmit window size
+BCSP link establishment sync retries
+DFU mode UART: hardware flow control
+DFU mode UART: RTS auto-enabled
+DFU mode UART: enable BCSP-specific hardware
+LC_COMBO_DOT11_CHANNEL_PIO_BASE
+LC_COMBO_DOT11_TX_PROTECTION_MODE
+LC_COMBO_DOT11_PRIORITY_OVERRIDE
+USB_ENDPOINT_0_MAX_PACKET_SIZE
+RADIOTEST_SUBSEQUENT_TRIM_TIME
+TEMPERATURE_VS_DELTA_INTERNAL_PA
+TEMPERATURE_VS_DELTA_TX_PRE_LVL
+TEMPERATURE_VS_DELTA_ANA_FTRIM
+USB_DONT_RESET_BOOTMODE_ON_HOST_RESET
+TEMPERATURE_VS_DELTA_INTERNAL_PA_CLASS1
+TEMPERATURE_VS_DELTA_EXTERNAL_PA_CLASS1
+TEMPERATURE_VS_DELTA_TX_PRE_LVL_MR
+TEMPERATURE_VS_DELTA_TX_BB_MR_HEADER
+TEMPERATURE_VS_DELTA_TX_BB_MR_PAYLOAD
+DFU_ATTRIBUTES_MANIFESTATION_TOLERANT
+Device not available
+Unsupported manufacturer
+Can't open device hci%d: %s (%d)
+Can't get device info for hci%d: %s (%d)
+Can't read version info for hci%d: %s (%d)
+UART write error
+/dev/ttyS0
+Initialization timed out
+Operation timed out
+Can't open serial port: %s (%d)
+Can't get port settings: %s (%d)
+Can't change port settings: %s (%d)
+Can't set non blocking mode: %s (%d)
+Transport not implemented
+Can't open device: %s (%d)
+Can't claim interface: %s (%d)
+bccmd.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

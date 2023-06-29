@@ -1,0 +1,231 @@
+]grCE
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+openssl_transition
+openssl_gen_key_transition
+ecryptfs_openssl_finalize
+__asprintf_chk
+strlen
+memcpy
+__syslog_chk
+malloc
+ecryptfs_add_key_module_key_to_keyring
+stack_push
+__stack_chk_fail
+exit
+realloc
+CRYPTO_set_mem_functions
+ERR_load_crypto_strings
+OPENSSL_add_all_algorithms_noconf
+ENGINE_load_builtin_engines
+BIO_s_file
+BIO_new
+BIO_ctrl
+PEM_read_bio_RSAPrivateKey
+BIO_free_all
+EVP_cleanup
+CRYPTO_cleanup_all_ex_data
+ERR_remove_state
+ERR_free_strings
+ecryptfs_find_key_mod
+RSA_size
+RSA_private_decrypt
+RSA_free
+ERR_get_error
+RSA_public_encrypt
+ecryptfs_openssl_init_from_param_vals
+free_name_val_pairs
+open
+parse_options_file
+close
+strtol
+ecryptfs_verbosity
+getuid
+getpwuid
+ecryptfs_openssl_get_key_sig
+BN_num_bits
+BN_bn2bin
+SHA1
+to_hex
+__strdup
+dirname
+mkdir
+__errno_location
+RSA_generate_key
+EVP_aes_256_cbc
+PEM_write_bio_RSAPrivateKey
+get_key_mod_ops
+libcrypto.so.10
+libdl.so.2
+libc.so.6
+_edata
+__bss_start
+_end
+libecryptfs_key_mod_openssl.so
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.8
+GLIBC_2.2.5
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+%z4 
+=/2 
+fffff.
+ffff.
+l$ L
+t$(L
+|$0H
+D$(1
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+$H9VH
+t$ H
+T$XH
+l$ H
+D$XH
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+d$ H
+ffff.
+l$ H
+=51 
+|$(H
+|$(L
+l$@H
+\$8L
+d$HL
+l$PL
+t$XL
+|$`H
+.u2E1
+ffff.
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+Error serializing openssl
+Out of memory
+%s: Internal error
+ecryptfs_sig=%s
+Unable to read filename [%s]
+max_key_bytes=%d
+%s: Called
+openssl_passwd_file
+openssl_passwd_fd
+openssl_passwd
+%s: Exiting
+openssl
+Error generating new RSA key
+Failed to write key to file
+OpenSSL module
+openssl_keysource
+Key source
+default
+OpenSSL Key File
+openssl_keyfile
+PEM key file
+Passphrase Method
+passwd_specification_method
+Passphrase
+Passphrase File
+Passphrase File Descriptor
+SSL key file path
+passphrase
+openssl_data internal structure not properly filled in
+Error serializing openssl; rc = [%d]
+Error attempting to add key to keyring for key module [%s]; rc = [%d]
+Unable to create BIO for output
+%s: Unable to read private key from file [%s]
+%s: Cannot find key_mod for param_node with val = [%s]
+Error attempting to read RSA key from file; rc = [%d]
+Error attempting to perform RSA public key decryption; rc = [%d]
+Error attempting to perform RSA public key encryption; rc = [%d]
+Error parsing parameter values; rc = [%d]
+%s: Error attempting to open file
+%s: Error attempting to parse options out of file
+Error processing OpenSSL key; rc = [%d]
+%s: No openssl_passwd option found in file
+%s: Called w/ node->val = [%s]
+%s/.ecryptfs/pki/openssl/key.pem
+%s: Error attempting to generate key signature; rc = [%d]
+%s: Error attempting to mkdir [%s]; rc = [%d]
+Failed to open file for reading
+Error writing key to file; rc = [%d]
+%s: Error generating key to file [%s]; rc = [%d]
+openssl_passwd_specification_method
+Method of providing the passphrase
+openssl_passwd: Enter on Console
+openssl_passwd_file: File Containing Passphrase
+openssl_passwd_fd: File Descriptor for File Containing Passphrase
+ecryptfs_openssl_get_key_sig
+ecryptfs_openssl_read_key
+tf_openssl_enter
+tf_ssl_passwd_file
+tf_ecryptfs_openssl_gen_key_param_node_passphrase
+ecryptfs_openssl_write_key_to_file
+ecryptfs_openssl_process_key
+tf_ssl_passwd
+;*3$"
+libecryptfs_key_mod_openssl.so.debug
+7zXZ
+cP1[
+8oCHrlf
+sEW0
+%l,%
+89J*
+V4?`
+wX.ms
+:]ei
+)WNi
+qVcFi
+-"hTA
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

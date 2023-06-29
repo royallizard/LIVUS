@@ -1,0 +1,3574 @@
+/lib64/ld-linux-x86-64.so.2
+libstonithd.so.2
+mainloop_del_ipc_client
+getXpathResult
+crm_log_level
+pcmk_strerror
+g_hash_table_destroy
+__gmon_start__
+_Jv_RegisterClasses
+crm_ipc_destroy
+qb_log_callsite_get
+freeXpathObject
+g_hash_table_insert
+crm_strdup_printf
+g_list_free_full
+crm_element_value
+crm_str_eq
+crm_element_value_copy
+g_hash_table_remove
+get_xpath_object
+crm_xml_add_int
+_ITM_deregisterTMCloneTable
+string2xml
+g_list_length
+log_data_element
+_ITM_registerTMCloneTable
+crm_ipc_new
+g_hash_table_size
+mainloop_add_ipc_client
+g_hash_table_new_full
+g_hash_table_foreach
+crm_itoa
+crm_is_callsite_active
+qb_log_real_
+g_list_append
+g_source_remove
+crm_element_value_int
+crm_xml_add
+crm_ipc_send
+crm_ipc_close
+g_hash_table_lookup
+mainloop_get_ipc_client
+mainloop_child_add
+xpath_search
+crm_meta_name
+crm_ipc_connected
+g_timeout_add
+crm_ipc_connect
+g_list_remove
+create_xml_node
+free_xml
+qb_log_from_external_source
+crm_abort
+safe_str_neq
+stonith_api_new
+libtransitioner.so.2
+crm_str_to_boolean
+first_named_child
+g_str_hash_traditional
+g_hash_table_iter_next
+g_hash_table_iter_init
+copy_xml
+crm_parse_int
+crm_get_msec
+xml2list
+crm_int_helper
+g_hash_destroy_str
+g_list_nth_data
+g_str_equal
+unpack_graph
+destroy_graph
+convert_graph_action
+run_graph
+update_abort_priority
+set_graph_functions
+print_graph
+transition_status
+print_action
+update_graph
+libpe_rules.so.2
+check_quorum
+compare_version
+crm_time_free
+check_time
+check_number
+config_metadata
+g_hash_table_replace
+verify_all_options
+g_list_prepend
+check_timer
+crm_time_new
+get_cluster_pref
+unpack_instance_attributes
+libcib.so.4
+find_entity
+get_message_xml
+g_hash_table_remove_all
+crm_concat
+xml_patch_versions
+copy_in_properties
+xml_log_patchset
+filename2xml
+write_xml_file
+find_xml_node
+crm_is_true
+cib_delete
+cib_config_changed
+cib_internal_op
+update_attr_delegate
+num_cib_op_callbacks
+get_object_path
+cib_new
+remove_cib_op_callback
+libcrmcluster.so.4
+create_request_adv
+crm_system_name
+mainloop_timer_start
+mainloop_timer_del
+mainloop_timer_add
+g_hash_table_iter_remove
+crm_strcase_hash
+crm_exit
+crm_generate_uuid
+g_hash_table_foreach_remove
+crm_write_blackbox
+election_timeout_set_period
+election_remove
+send_cluster_text
+crm_remote_peer_cache_refresh
+election_timeout_stop
+is_classic_ais_cluster
+crm_remote_peer_cache
+crm_get_peer
+is_heartbeat_cluster
+crm_cluster_disconnect
+crm_have_quorum
+is_openais_cluster
+crm_update_peer_expected
+crm_peer_cache
+crm_set_status_callback
+election_fini
+pcmk_cpg_membership
+crm_get_peer_full
+crm_find_peer
+pcmk_message_common_cs
+election_init
+crm_is_peer_active
+crm_set_autoreap
+crm_update_peer_proc
+crm_remote_peer_cache_size
+crm_peer_init
+crm_find_peer_full
+crm_peer_uuid
+election_check
+election_count_vote
+is_corosync_cluster
+get_cluster_type
+crm_peer_destroy
+cluster_connect_quorum
+send_cluster_message
+election_vote
+reap_crm_member
+corosync_initialize_nodelist
+text2msg_type
+name_for_cluster_type
+crm_peer_uname
+election_reset
+crm_peer_seq
+crm_update_peer_state
+crm_active_peers
+set_uuid
+corosync_cluster_name
+crm_cluster_connect
+libcrmcommon.so.3
+g_list_free
+qb_ipcs_disconnect
+qb_log_fini
+g_list_remove_link
+mainloop_destroy_trigger
+mainloop_set_trigger
+mainloop_destroy_signal
+xml_get_path
+create_operation_update
+mainloop_add_trigger
+generate_transition_key
+crm_set_options
+did_rsc_op_fail
+pcmk_panic
+crm_ipcs_send
+crm_client_name
+crm_ipcs_recv
+crm_ipcs_send_ack
+crm_acl_get_set_user
+decode_transition_key
+crm_log_output_fn
+crm_get_option
+crm_log_preinit
+crm_ipc_name
+check_script
+crm_bump_log_level
+crm_log_init
+calculate_operation_digest
+attrd_update_delegate
+check_utilization
+create_reply_adv
+rsc_op_expected_rc
+mainloop_del_ipc_server
+generate_op_key
+crm_element_value_const
+daemon_option_enabled
+mainloop_child_name
+crm_client_cleanup
+daemon_option
+crm_is_writable
+crmd_ipc_server_init
+crm_meta_value
+crm_client_destroy
+crm_client_get_by_id
+crm_help
+parse_op_key
+crm_client_new
+crm_client_get
+crm_ipc_buffer_flags
+mainloop_add_signal
+libcrmservice.so.3
+services_action_async
+services_action_free
+services_action_create_generic
+liblrmd.so.1
+remote_proxy_relay_event
+lrmd_api_delete
+lrmd_remote_api_new
+lrmd_key_value_freeall
+lrmd_free_rsc_info
+proxy_table
+remote_proxy_notify_destroy
+lrmd_copy_event
+remote_proxy_free
+lrmd_key_value_add
+lrmd_copy_rsc_info
+lrmd_api_new
+lrmd_internal_set_proxy_callback
+lrmd_free_event
+remote_proxy_relay_response
+remote_proxy_end_session
+libdbus-1.so.3
+libcpg.so.4
+libcfg.so.6
+libcmap.so.4
+libquorum.so.5
+libgnutls.so.30
+libcorosync_common.so.4
+libbz2.so.1
+libxslt.so.1
+libxml2.so.2
+libc.so.6
+fflush
+readdir
+fopen
+optind
+strrchr
+__strdup
+closedir
+fork
+__stack_chk_fail
+__lxstat
+realloc
+getpid
+kill
+strtof
+strtol
+reboot
+fgets
+calloc
+strlen
+strstr
+__errno_location
+unsetenv
+__fprintf_chk
+stdout
+fclose
+malloc
+strcasecmp
+setpgid
+opendir
+getenv
+sscanf
+stderr
+__snprintf_chk
+fscanf
+execvp
+fwrite
+__memcpy_chk
+strchr
+sleep
+__cxa_finalize
+__sprintf_chk
+__xstat
+getrlimit
+access
+__strcat_chk
+strcmp
+__libc_start_main
+sysconf
+libuuid.so.1
+libpam.so.0
+libglib-2.0.so.0
+g_main_loop_unref
+g_main_loop_run
+g_main_loop_get_context
+g_hash_table_get_values
+g_main_loop_new
+g_list_free_1
+g_list_delete_link
+g_main_context_pending
+g_main_loop_quit
+g_main_loop_is_running
+g_main_context_dispatch
+libltdl.so.7
+libqb.so.0
+libdl.so.2
+librt.so.1
+libpthread.so.0
+__start___verbose
+__stop___verbose
+_edata
+__bss_start
+_end
+cib_action_updated
+tengine_stonith_callback
+cib_fencing_updated
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.2.5
+AUATE1
+hu$1
+[]A\A]
+=M/%
+uiHc
+fffff.
+fffff.
+=	.%
+fffff.
+AUAT
+=W)%
+%;)%
+XZf.
+([]A\A]
+ATPE1
+AVAUI
+ATUI
+u3I9
+=9%%
+[]A\A]A^
+=h$%
+evenf
+OHdH
+=j %
+fff.
+ATUSH
+u	9k4
+[]A\
+[]A\
+ATUI
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]A^A_H
+ usH
+AYAZ
+ffff.
+AWAVAUATI
+D$(1
+PAWAVE1
+t$81
+AUPH
+AWAVE1
+L$H1
+Pj 1
+AYAZ
+L$(dH3
+8[]A\A]A^A_
+T$ E1
+PAWAV1
+AYAZH
+A[A_
+PATA
+A]A^
+ffff.
+AWAVAUATUS
+D$(1
+L$(dH3
+8[]A\A]A^A_
+AWP1
+AWP1
+UPE1
+AXAY
+fff.
+ffff.
+fff.
+ATUI
+[]A\
+AYAZ
+ATUA
+[]A\
+fff.
+ATUL
+[]A\
+[]A\H
+[]A\1
+fffff.
+ATUI
+Q@H!
+[]A\
+[]A\
+AWAVAUATUS
+[]A\A]A^A_
+A_XH
+=k}$
+A[]H
+[]A\A]A^A_
+AYAZ
+A\A]
+AVAU1
+ATUA
+5hp$
+A]A^H
+5[q$
+51q$
+5	q$
+50p$
+5xo$
+5%o$
+Pj@A
+[]A\A]A^
+=)w$
+=^w$
+5"l$
+AYAZ
+A[A\
+=Iu$
+=et$
+ATPE1
+=)r$
+=np$
+=	p$
+AUATH
+[]A\A]
+AWAVAUATUSH
+[]A\A]A^A_1
+([]A\A]A^A_
+=Sh$
+=If$
+=!e$
+AWAVAUATUSH
+QAVD
+PAU1
+([]A\A]A^A_
+fff.
+fffff.
+ATUA
+W(D9
+D;c(u
+[]A\
+AWAVI
+AUATI
+([]A\A]A^A_
+=re$
+=]b$
+ATUH
+=$^$
+[]A\
+fff.
+ATUH
+D$H1
+L$HdH3
+P[]A\
+fff.
+AWAVA
+AUATH
+([]A\A]A^A_
+=J\$
+AZA[
+==V$
+fffff.
+AWAVI
+AUATA
+([]A\A]A^A_
+AXAY
+PAT1
+=IN$
+AZA[
+fffff.
+AUATH
+=5x$
+[]A\A]1
+ffffff.
+AVAUA
+ATUH
+=3{$
+ []A\A]A^
+,$E1
+,$E1
+=	y$
+=zx$
+A\E1
+AZA[
+=	u$
+5]p$
+=a>$
+=9>$
+=H>$
+=+,$
+5yn$
+=`n$
+=7<$
+=qq$
+AXAYH
+=P;$
+=B:$
+ATUH
+ []A\
+=0o$
+=a7$
+=27$
+ATUSH
+=S8$
+[]A\
+[]A\
+ffffff.
+ffff.
+=~j$
+=%6$
+=J6$
+PUE1
+fffff.
+(]A\
+=jd$
+]A\1
+=J2$
+=Eb$
+AWAVM
+AUATUSH
+D$X1
+=h.$
+D$XdH3
+h[]A\A]A^A_
+\$0H
+5;Y$
+D$(H
+=6-$
+=/Z$
+t$,A
+=dY$
+t$ H
+D$(H
+AVAUI
+ATUH
+@uEA
+[]A\A]A^
+[]A\A]A^H
+=-)$
+fff.
+AWAVA
+AUAT1
+l$0H
+d$(1
+D$`H
+=4Z$
+D$(H
+D$(H
+D$(H
+D$(H
+\$ L
+=6T$
+D$(H
+=^S$
+AYAZ
+_AXL
+[]A\A]A^A_
+D$(H
+]A\H
+=]$$
+l$0L
+5`P$
+|$(L
+|$(L
+=+Q$
+=aT$
+AYAZ
+AUATUS
+	=.Q$
+=IN$
+([]A\A]
+_AXA
+=vO$
+=rK$
+ATUSH
+ []A\
+5%G$
+AWAVAUATI
+-TE$
+='K$
+=oG$
+([]A\A]A^A_
+AYAZ
+=KJ$
+PAW1
+([]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_1
+=zC$
+k$E1
+5f<$
+59<$
+AWAVE1
+={9$
+=6M$
+H9=46$
+=}8$
+=78$
+=/6$
+ffff.
+=g0$
+=E-$
+=U.$
+=y-$
+AUATUSH
+=Y?$
+=y1$
+=5+$
+=|*$
+=J*$
+= *$
+AUE1
+[]A\A]
+AYAZ
+=0-$
+AVAU1
+ATUA
+D9%W*$
+[]A\A]A^
+=D#$
+ffff.
+=j%$
+fff.
+ATUH
+AXAYH
+[]A\
+AZA[
+[]A\H
+AWAVH
+AUATL
+[]A\A]A^A_
+AZA[
+AXAY
+ATUI
+[]A\
+V0U1
+V0U1
+[]A\H
+fff.
+ffff.
+ATUSH
+n0dH
+[]A\
+[]A\
+AYAZ
+[]A\H
+ATUA
+D$81
+_AXH
+D$8dH3
+@[]A\
+AUATH
+[]A\A]
+AUE1
+AYAZ
+AUATA
+D$81
+D9h(
+L$8dH3
+H[]A\A]
+fff.
+AUATA
+D$81
+D$8dH3
+H[]A\A]
+=n	$
+AYAZ
+ATUA
+[]A\
+SPE1
+ffff.
+AWAVL
+AUAT
+D$H1
+T$,H
+t$0H
+D$0H
+D$8H
+D$@H
+9D$,
+D$<P
+t$ 1
+D$HdH3
+X[]A\A]A^A_
+9D$,
+t$,1
+D$4H
+A\A]
+D$DE1
+AYAZ
+ATUM
+[]A\
+A[[H
+[]A\1
+AYAZH
+_AXH
+[]A\1
+ffffff.
+ATUH
+AYAZ
+[]A\
+A[XL
+[]A\1
+[]A\
+[]A\
+AUATA
+[]A\A]
+]A\A]1
+ATUSH
+[]A\
+PAT1
+AZA[E
+AUATUSH
+[]A\A]
+PAU1
+PAT1
+PAT1
+t1ATH
+ffff.
+AVAUATUE1
+l$@H
+t$8H
+t$8VH
+t$8VH
+t$8VH
+L$8L
+L$(H
+T$ H
+t$0H
+[]A\A]A^
+AUATE1
+[]A\A]
+AWAVAUATI
+T$8PH
+[]A\A]A^A_
+t$pH9
+T$xH9
+D$pH
+D$xH
+/pro
+ATUSH
+ []A\
+ffff.
+AWAVA
+AUATA
+D$H1
+l$ L
+L$HdH3
+X[]A\A]A^A_
+fff.
+AVAUATUA
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^1
+[]A\A]A^1
+fff.
+ATUI
+[]A\
+[]A\
+[]A\
+AWAVAUATUS
+[]A\A]A^A_
+[]A\A]A^A_H
+[]A\A]A^A_1
+AZA[
+=oi#
+AXAY
+QPE1
+[]A\A]A^A_
+[]A\A]A^A_1
+PAWE1
+ATUSH
+[]A\
+fffff.
+AWAVAUATM
+[]A\A]A^A_
+|$HH
+_AXL
+PATA
+PAW1
+[]A\A]A^A_1
+[]A\A]A^A_1
+AUATA
+=-~#
+Q@H!
+='X#
+[]A\A]
+[]A\A]H
+PAUA
+=Y{#
+[]A\A]
+[]A\A]1
+ffff.
+AWAVAUATUSH
+[]A\A]A^A_
+=ZO#
+[]A\A]A^A_H
+=5w#
+[]A\A]A^A_
+AZA[A
+A]A^
+[]A\A]A^A_H
+[]A\A]A^A_
+[]A\A]A^A_A
+[]A\A]A^A_1
+D$(1
+\$(dH3
+AUATA
+[]A\A]
+AWAVAUATUSH
+([]A\A]A^A_
+AUATE1
+AUATE1
+AUATE1
+=Qq#
+=jj#
+ATUSH
+Y^t H
+[]A\H
+[]A\
+fff.
+ATUI
+[]A\H
+[]A\
+AWAVI
+AUATA
+l$@1
+l$8L
+D$8H
+t$01
+AZA[H
+[]A\A]A^A_
+l$@H
+\$pL
+d$8H
+l$(L
+D$0I
+D$0H
+D$8L
+P(RH
+D$8H
+=Dg#
+ATUSH
+[]A\
+ATUH
+[]A\
+ATUSH
+[]A\
+AWAVAUATUSH
+[]A\A]A^A_
+AUATI
+[]A\A]A^A_H
+AWAVAUATUSH
+[]A\A]A^A_
+fffff.
+AWAVA
+AUATI
+=Yz#
+([]A\A]A^A_
+=uY#
+fff.
+AWAVAUATUSH
+= t#
+([]A\A]A^A_
+PAU1
+5K$#
+=l$#
+5G##
+=h##
+3.0.
+crm_featH
+ure_set
+ATUI
+[]A\
+[]A\H
+AUATI
+E(A9D$(u
+[]A\A]
+fffff.
+AWAVAUATUSH
+D$81
+D$ H
+D$(H
+d$0M
+d$0M
+L$8dH3
+H[]A\A]A^A_
+|$ E1
+=zn#
+=Cn#
+PSE1
+PSE1
+Hc|$
+=>N#
+AWAVAUATUSH
+D$81
+^_tLM
+L$8dH3
+H[]A\A]A^A_
+AXAY
+D$$I
+L$(H
+t$8H
+D$0H
+=xh#
+=Tg#
+=(g#
+d$0M
+d$0M
+=jc#
+=>c#
+D$0H
+T$0H
+D$0H
+D$0L
+AXAY
+t$(E1
+ffffff.
+AVAUATUSH
+=BN#
+[]A\A]A^
+=r<#
+[]A\A]A^H
+u	L9
+=&Z#
+=@<#
+[]A\A]A^1
+=y;#
+=6K#
+[]A\A]A^
+AWAV1
+AUATUSH
+D$81
+%0I#
+=PU#
+=hT#
+L$8dH3
+H[]A\A]A^A_
+fffff.
+AWAVI
+AUATUSH
+D$H1
+\$ L
+D$HdH3
+X[]A\A]A^A_
+AWAVAUATUSH
+AXAYH
+=yM#
+[]A\A]A^A_
+C(E1
+[]A\A]A^A_H
+fffff.
+AWAVAUATUSH
+5k?#
+5W?#
+=JI#
+([]A\A]A^A_
+=X$#
+A[A^
+=-##
+=a"#
+= "#
+AWAVA
+AUATI
+<$dH
+=m%#
+[]A\A]A^A_
+={A#
+SPE1
+[]A\A]A^A_
+fff.
+AWAVAUATUSH
+D$(1
+D$(dH3
+8[]A\A]A^A_
+fff.
+AWAVI
+AUATL
+D$xH
+\$pdH
+T$(1
+=J=#
+D$(dH3
+[]A\A]A^A_E
+D$(dH3
+8[]A\A]A^A_
+D$(dH3
+8[]A\A]A^A_
+AWAVI
+AUATI
+D$H1
+D$HdH3
+X[]A\A]A^A_
+AWAVAUATA
+=f;#
+[]A\A]A^A_
+ffffff.
+AWAVAUATUSH
+=j6#
+=G,#
+=v4#
+([]A\A]A^A_
+PAT1
+=b1#
+PAT1
+APAR
+G0t\H
+K RPH
+A[A^
+PAT1
+=Q,#
+USP1
+=/(#
+AWAVA
+AUATUSH
+D$(1
+XZtS1
+D$(dH3
+8[]A\A]A^A_
+ffff.
+AWAVH
+AUATL
+D$h1
+AZA[
+D$hdH3
+x[]A\A]A^A_
+A\A^H
+AYAZ
+AXAYH
+FLt~H
+l$@L
+d$HH
+T$@I
+|$ H
+s`E1
+t$@H
+|$8L
+D$0H
+T$8H
+t$0L
+t$(AVE1
+|$ I
+T$ I
+PAV1
+|$ L
+D$,D
+D$,H
+AQPM
+SAW1
+L$(H
+D$,D
+D$,H
+D$,D
+D$,H
+D$,D
+D$,H
+T$0H
+t$@L
+D$8H
+D$8L
+ARPH
+A[XH
+fffff.
+AYAZ
+ffff.
+fff.
+AUATI
+D$x1
+D$ I
+D$hH
+L$xdH3
+[]A\A]
+AUATUSH
+[]A\A]
+PAU1
+AWAVI
+AUATI
+D$81
+T$(H
+t/ATH
+D$8dH3
+H[]A\A]A^A_
+T$,H
+T$,L
+D$0H
+T$0H
+L$(L
+_AXH
+L$(L
+t$ PH
+D$HE1
+t$ PH
+D$HE1
+T$,E1
+D$(A
+AYAZ
+SAUH
+T$8I
+t$ PH
+D$HE1
+T$8I
+AUATUSH
+[]A\A]
+AYAZ
+fff.
+fff.
+AUATI
+]A\A]
+[]A\A]
+AUATA
+[]A\A]
+AUATE1
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVAUATUSH
+|$`L
+([]A\A]A^A_
+d$hD
+|$`H
+[]A\A]A^A_
+AWAVAUATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+ATUSH
+[]A\
+[]A\
+AUAT
+T$PdH
+D$x1
+T$4H
+D$$A
+D$(A
+D$8I
+D$LA
+\$HH
+D$`H
+|$`H
+D$XL
+D$ I
+|$`H
+D$xdH3
+[]A\A]
+;D$H
+ATUSH
+[]A\
+fffff.
+AUATI
+[]A\A]
+AVAUI
+ATUSH
++D9e0u
+[]A\A]A^
+AVAUA
+ATUI
+]A\A]A^
+ffff.
+AVAUATUSH
+U,~/I
+dH34%(
+[]A\A]A^
+AVAUATUSH
+[]A\A]A^
+ffff.
+ATUH
+[]A\
+AVAUATUSH
+QPWH
+[]A\A]A^
+[]A\A]A^1
+[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+E4E1
+[]A\A]A^
+AXAY
+A\A^
+fffff.
+ffffff.
+remo
+pacemakeH
+ATUH
+;h0t
+[]A\
+AWAVAUATUSH
+D$pH
+D$xH
+D$(1
+E;w0u
+L$(dH3
+8[]A\A]A^A_
+E;w0u
+D;p0
+AWAVE
+AUATI
+D$(1
+T$0H
+PAQ1
+D$(dH3
+8[]A\A]A^A_
+D$(dH3
+[]A\A]A^A_1
+fff.
+PUE1
+fffff.
+tcH;=\
+tjH;=c
+tqH;=R
+txH;=Y
+H;=h
+H;=S
+ffffff.
+ffffff.
+AVAUATUSH
+[]A\A]A^
+ATE1
+ATE1
+AUATUSH
+[]A\A]
+[]E1
+ffffff.
+AUATUSH
+H;=}
+[]A\A]
+=OZ"
+UPE1
+ffffff.
+ffffff.
+AYAZ
+AYAZ
+AYAZ
+AYAZ
+AZA[
+AXAY
+AZA[
+AYAZ
+AYAZ
+AYAZ
+AYAZ
+AXAY
+AZA[
+AYAZ
+AYAZ
+AYAZ
+AXAY
+AZA[
+AYAZ
+=9~"
+=)}"
+AYAZ
+=i|"
+=	|"
+AXAY
+AZA[
+=Y{"
+AXAY
+ATUSH
+=x]"
+=bj"
+[]A\
+=dM"
+=IM"
+5QY"
+=xL"
+ATUSH
+=ZW"
+=5J"
+[]A\
+fffff.
+AUATUS
+ATPE1
+[]A\A]
+P RH
+AWAVAUATI
+_PdH
+L$(1
+=AG"
+L$(dH3
+8[]A\A]A^A_
+fffff.
+AWAVAUATI
+=X`"
+AUATA
+=Q_"
+[]A\A]A^A_
+AWAVAUATUS
+=&@"
+=n\"
+([]A\A]A^A_
+=8\"
+PAUE1
+AWAVAUATUSH
+D$X1
+T$$H
+T$(H
+T$,H
+L$0H
+T$8H
+t$@L
+D$4H
+\$0E
+T$4D
+D$8H
+D$<1
+AXAYH
+L$XdH3
+h[]A\A]A^A_
+t0AWH
+|$@1
+L$89
+T$,H
+==:"
+|$01
+T$4D
+$tWH
+=x9"
+T$4A9
+L$<H
+T$HH
+|$HH
+\$<E
+D$H@
+T$PE
+SAWH
+t$PH
+t$(E1
+=66"
+=EQ"
+D$(H
+t$PH
+|$HH
+|$HH
+AXAYD
+|$HH
+=zJ"
+INFINITY
+=BM"
+INFINITY
+fffff.
+AUATUSH
+[]A\A]
+[]A\
+[]A\
+AVAUATUSH
+[]A\A]A^
+=U="
+AWAVAUATI
+=jB"
+[]A\A]A^A_
+~	;E
+PAWSH
+=8A"
+AVE1
+=?@"
+ffff.
+ATUH
+[]A\
+[]A\H
+ATUI
+[]A\
+fffff.
+AVAUATUSH
+=0*"
+=h="
+[]A\A]A^
+[]A\A]A^
+AWAVAUATUSH
+D$81
+L$ H
+L$(H
+_AXL
+=g7"
+=;7"
+=_#"
+\$8dH3
+H[]A\A]A^A_
+L$(H
+AYAZ
+=)5"
+ATAWE1
+t$ RH
+ffff.
+AWAVAUATUSH
+D$h1
+L$hdH3
+x[]A\A]A^A_
+D$0H
+D$PH
+D$XH
+D$`Y^1
+t$ P1
+G0PH
+AYAZ
+5s*"
+D$81
+D$8dH3
+AWAVAUATUSH
+([]A\A]A^A_
+=u%"
+ATUSH
+=~$"
+PATE1
+=:#"
+[]A\
+AYAZ
+[]A\E1
+[]A\
+ATUSH
+[]A\
+fffff.
+t.UH
+AWAVAUATUSH
+D$X1
+L$4H
+t$0D
+L$ H
+AQAWE1
+AUATD
+D$8AP
+L$8A
+QAVUP1
+D$XdH3
+h[]A\A]A^A_
+T$@H
+t$0L
+QAVAUAT
+T$`R
+T$dR
+T$hRUH
+L$\H
+PAU1
+T$8H
+L$0H
+T$(D
+L$ D
+\$,A
+ASAVAUATD
+T$HARD
+L$LAQ
+L$PE1
+t$HUH
+T$`RAWH
+L$lH
+T$8H
+L$4H
+|$0D
+T$ D
+T$ D
+ASAVAUATARAQE1
+t$XPRH
+T$8D
+L$4D
+D$0H
+T$$D
+L$ D
+\$0ASAUATD
+T$DARD
+L$HAQD
+D$HE1
+AWUAV
+t$`P
+L$4D
+t$0D
+tlARE1
+ATAPA
+QAVUP
+t$PAW
+L$$D
+D$ D
+L$$D
+D$ D
+AUATUSH
+[]A\A]1
+s0UATP1
+[]A\A]
+[]A\A]H
+[]A\A]
+[]A\A]
+5N	"
+AVAUATUSH
+[]A\A]A^
+[]A\A]A^
+ffff.
+AUATUSH
+[]A\A]A
+[]A\A]
+AYAZ
+ffff.
+AUATI
+[]A\A]
+[]A\A]L
+AWAVAUATUSH
+D$X1
+T$ H
+T$@H
+t$0H
+T$$H
+D$XdH3
+h[]A\A]A^A_
+D$(H
+ATE1
+T$(1
+L$(L
+lu7A
+ru0A
+mu)A
+D$@H
+D$DP
+D$HP
+D$hP
+D$lP
+D$pPU1
+|$(H
+|$(H
+|$(H
+|$(H
+A\A]
+|$(H
+|$(H
+|$(H
+D$ H
+D9|$
+|$(H
+AZA[H
+L$8H
+AXAYL
+ATUE1
+AWAVAUATUSH
+AYAZH
+([]A\A]A^A_
+A[A]
+ffff.
+ATUSH
+D$81
+L$8dH3
+@[]A\
+AWAVAUATUSH
+([]A\A]A^A_
+AWAVA
+AUATL
+[]A\A]A^A_
+Starting %s
+main.c
+Starting %s's mainloop
+[options]
+metadata
+1.1.13-3.fc23
+CRM Version: %s (%s)
+haclient
+hacluster
+/var/lib/pacemaker/pengine
+/var/lib/pacemaker/cib
+%u stopped: %s (%d)
+Inhibiting automated respawn
+CRM Git Version: %s (%s)
+help
+	This text
+verbose
+	Increase debug output
+Daemon for aggregating resource and node failures as well as co-ordinating the cluster's response
+ERROR: Bad permissions on /var/lib/pacemaker/pengine. See logs for details
+ERROR: Bad permissions on /var/lib/pacemaker/cib. See logs for details
+Startup of %s failed.  Current state: %s
+Bad permissions on /var/lib/pacemaker/cib. Terminating
+Bad permissions on /var/lib/pacemaker/pengine. Terminating
+crmd_init
+crmd_init
+main
+Bit 0x%.8llx set by %s
+../include/crm_internal.h
+xml-blob
+corosync.c
+crm_config
+expected-quorum-votes
+online
+connection closed
+connection terminated
+Quorum update failed: %s
+Setting expected votes to %s
+Invalid quorum/membership update
+Invalid message class (%d): %.100s
+Unexpected message class (%d): %.100s
+Receiving messages from a node we think is dead: %s[%d]
+Could not parse message content (%d): %.100s
+crm_set_bit
+crmd_cs_dispatch
+crmd_cs_dispatch
+crmd_cs_destroy
+crmd_quorum_destroy
+CRM_notify_recipient
+Setting notify key %s = '%s'
+notify.c
+found != 0
+CRM_notify_kind
+1.1.13
+CRM_notify_version
+/dev/null
+CRM_notify_node
+CRM_notify_nodeid
+CRM_notify_desc
+CRM_notify_task
+CRM_notify_rc
+fencing
+unknown error
+invalid parameter
+unimplemented feature
+insufficient privileges
+not installed
+not configured
+master
+master (failed)
+OCF_SIGNAL
+OCF_NOT_SUPPORTED
+OCF_PENDING
+OCF_CANCELLED
+OCF_TIMEOUT
+OCF_OTHER_ERROR
+OCF_DEGRADED
+OCF_DEGRADED_MASTER
+UNKNOWN!
+Timed Out
+NOT SUPPORTED
+Error
+Not installed
+CRM_notify_rsc
+CRM_notify_interval
+CRM_notify_target_rc
+CRM_notify_status
+monitor
+Notification %d (%s) complete
+Notifications enabled
+Notifications disabled
+Sending '%s' notification to '%s' via '%s'
+Operation %s requested by %s for peer %s: %s (ref=%s)
+Notification %d (%s) failed: %d
+crmd_notify_complete
+send_notification
+set_notify_key
+set_notify_key
+crmd_enable_notifications
+actions:trace: 	// %s
+fsa.c
+actions:trace: digraph "g" {
+actions:trace: 	graph [
+actions:trace: 	]
+actions:trace: 	node [
+actions:trace: 	edge [
+actions:trace: 	"S_PENDING" 
+actions:trace: 	[
+actions:trace: 	 ]
+check-assert
+fsa_data != NULL
+stored_msg
+Processing queued input %d
+FSA processing input from %s
+FSA message data
+log-assert
+cur_state != next_state
+fsa_our_dc != NULL
+AM_I_DC
+true
+false
+Initial
+Restored actions
+New actions
+Bit 0x%.8llx cleared by %s
+Exiting the FSA
+Added
+Removed
+Remaining
+%s: %s %s
+actions:trace: 	size = "30,30"
+actions:trace: 		fontsize = "12"
+actions:trace: 		fontname = "Times-Roman"
+actions:trace: 		fontcolor = "black"
+actions:trace: 		bb = "0,0,398.922306,478.927856"
+actions:trace: 		color = "black"
+actions:trace: 		shape = "ellipse"
+actions:trace: // special nodes
+actions:trace: 	 color = "blue"
+actions:trace: 	 fontcolor = "blue"
+actions:trace: 	"S_TERMINATE" 
+actions:trace: 	 color = "red"
+actions:trace: 	 fontcolor = "red"
+actions:trace: // DC only nodes
+actions:trace: 	"S_INTEGRATION" [ fontcolor = "green" ]
+actions:trace: 	"S_POLICY_ENGINE" [ fontcolor = "green" ]
+actions:trace: 	"S_TRANSITION_ENGINE" [ fontcolor = "green" ]
+actions:trace: 	"S_RELEASE_DC" [ fontcolor = "green" ]
+actions:trace: 	"S_IDLE" [ fontcolor = "green" ]
+FSA processing CCM callback from %s
+FSA processing LRM callback from %s
+FSA processing XML message from %s
+actions:trace: 	%s -> %s [ label=%s cause=%s origin=%s ]
+State transition %s -> %s [ input=%s cause=%s origin=%s ]
+Resetting our DC to NULL on transition to %s
+All %d cluster nodes responded to the join offer.
+All %u cluster nodes are eligible to run resources.
+FSA invoked with Cause: %s	State: %s
+Checking messages (%d remaining)
+Processing %s: [ state=%s cause=%s origin=%s ]
+actions:trace: 	// FSA input: State=%s 	Cause=%s 	Input=%s 	Origin=%s() 	id=%d
+Exiting the FSA: queue=%d, fsa_actions=0x%llx, stalled=%s
+(Re)Issuing shutdown request now that we are the DC
+Only %u of %u cluster nodes are eligible to run resources - continue %d
+Membership changed: %llu -> %llu - join restart
+We have more confirmed nodes than our membership does: %d vs. %d
+%u cluster nodes failed to confirm their join.
+Progressed to state %s after %s
+%u cluster nodes failed to respond to the join offer.
+Reached S_NOT_DC without a DC being recorded
+(Re)Issuing shutdown request now that we have a new DC
+Purging %s from stonith cleanup list
+Action %s (0x%llx) not supported 
+ghash_print_node
+crm_set_bit
+do_state_transition
+do_state_transition
+log_fsa_input
+log_fsa_input
+s_crmd_fsa_actions
+s_crmd_fsa_actions
+crm_clear_bit
+do_fsa_action
+s_crmd_fsa
+s_crmd_fsa
+init_dotfile
+Connection %p
+control.c
+tengine
+Disconnecting client %s (%p)
+Triggering FSA: %s
+Invoked: %s
+client->user != NULL
+crm_user
+Processing msg from %s
+CRMd[inbound]
+crm_sys_from
+config_query_callback
+Querying the CIB... call %d
+crmd_spawns_pengine
+<null>
+crmd
+req_shutdown
+Exit is already in progress
+Preparing to exit: %d
+Closing IPC server
+Closing attrd connection
+Disconnecting Policy Engine
+Disconnecting fencing API
+No mainloop detected
+Draining mainloop %d %d
+Iteration %d
+Closing mainloop %d %d
+Done %d
+Call %d : Parsing CIB options
+cib-bootstrap-options
+cluster_property_set
+notification-agent
+notification-recipient
+dc-deadtime
+node-action-limit
+load-threshold
+SBD_WATCHDOG_TIMEOUT
+stonith-watchdog-timeout
+Watchdog disabled
+%lds
+no-quorum-policy
+shutdown-escalation
+election-timeout
+cluster-recheck-interval
+crmd-transition-delay
+crmd-integration-timeout
+crmd-finalization-timeout
+cluster-name
+gracefully
+forcefully
+Registering Signal Handlers
+Creating CIB and LRM objects
+/usr/libexec/pacemaker
+Init server comms
+CRM Daemon Options
+CRM Daemon
+exit from shutdown
+Escalating the shutdown
+dc-version
+string
+none
+cluster-infrastructure
+heartbeat
+dc_deadtime
+cluster_recheck_interval
+15min
+percentage
+integer
+election_timeout
+2min
+*** Advanced Use Only ***.
+shutdown_escalation
+20min
+3min
+30min
+no_quorum_policy
+enum
+stop, freeze, ignore, suicide
+stop
+The local CRM is operational
+Start cancelled... %s
+Received HUP from %s:[%d]
+[%s] stopped (%d)
+Inhibiting respawn: %d -> %d
+%s is still connected at exit
+Disconnecting STONITH...
+Faking %s exit
+Terminating the %s
+Unexpected action %s in %s
+Connected to the cluster
+Could not obtain local uuid
+Disconnected from the cluster
+Client hadn't registered with us yet
+Received HUP from transient client
+Destroying reload cache with %d members
+Shutdown escalation occurs after: %dms
+Checking for expired actions every %dms
+Sending expected-votes=%s to corosync
+Using default shutdown escalation: %dms
+Performing %s - %s exiting the CRMd
+/usr/libexec/pacemaker/pengine
+This is a fake resource that details the options that can be configured for the CRM Daemon.
+Requesting shutdown, upper limit is %dms
+Shutting down pacemaker, stonith-watchdog-timeout (%ldms) is too short (must be greater than %ldms)
+Watchdog enabled but stonith-watchdog-timeout is disabled
+Setting stonith-watchdog-timeout=%s
+Shutting down pacemaker, no watchdog device configured
+The cluster is mis-configured - shutting down and staying down
+Local CIB query resulted in an error: %s
+Version of Pacemaker on the cluster's DC.
+Includes the hash which identifies the exact changeset it was built from.  Used for diagnostic purposes.
+The messaging stack on which Pacemaker is currently running.
+Used for informational and diagnostic purposes.
+How long to wait for a response from other nodes during startup.
+The "correct" value will depend on the speed/load of your network and the type of switches used.
+Zero disables polling.  Positive values are an interval in seconds (unless other SI units are specified. eg. 5min)
+Polling interval for time based changes to options, resource parameters and constraints.
+The Cluster is primarily event driven, however the configuration can have elements that change based on time.  To ensure these changes take effect, we can optionally poll the cluster's status for changes.
+Notification script or tool to be called after significant cluster events
+Full path to a script or binary that will be invoked when resources start/stop/fail, fencing occurs or nodes join/leave the cluster.
+Must exist on all nodes in the cluster.
+Destination for notifications (Optional)
+Where should the supplied script send notifications to.  Useful to avoid hard-coding this in the script.
+The maximum amount of system resources that should be used by nodes in the cluster
+The cluster will slow down its recovery process when the amount of system resources used (currently CPU) approaches this limit
+The maximum number of jobs that can be scheduled per node. Defaults to 2x cores
+If need to adjust this value, it probably indicates the presence of a bug.
+If you need to adjust this value, it probably indicates the presence of a bug.
+*** Advanced Use Only ***
+Enabling this option will slow down cluster recovery under all conditions
+Delay cluster recovery for the configured interval to allow for additional/related events to occur.
+Useful if your configuration is sensitive to the order in which ping updates arrive.
+How long to wait before we can assume nodes are safely down
+Fast-tracking shutdown in response to errors
+Failed to create IPC server: shutting down and inhibiting respawn
+Delaying start, No peer data (%.16llx)
+Delaying start, Config not read (%.16llx)
+Delaying start, CIB not connected (%.16llx)
+Delaying start, LRM not connected (%.16llx)
+Delaying start, no membership data (%.16llx)
+Dropping %s: [ state=%s cause=%s origin=%s ]
+Forcing immediate exit: %s (%d)
+Error during shutdown process, terminating now: %s (%d)
+Could not recover from internal error
+Sending shutdown request to %s
+All subsystems stopped, continuing
+Waiting for subsystems to exit
+Election failed: Declaring ourselves the winner
+crm_shutdown
+crm_shutdown
+config_query_callback
+config_query_callback
+crm_read_options
+crm_read_options
+do_recover
+do_recover
+crmd_ipc_accept
+crmd_ipc_created
+crmd_ipc_dispatch
+crmd_ipc_dispatch
+crmd_ipc_closed
+crmd_ipc_closed
+crmd_ipc_destroy
+do_started
+do_started
+do_stop
+do_stop
+do_startup
+do_startup
+do_exit
+crmd_exit
+crmd_exit
+crmd_fast_exit
+log_connected_client
+do_shutdown_req
+do_shutdown_req
+do_shutdown
+do_shutdown
+crm_clear_bit
+crm_set_bit
+election_timeout_popped
+election_timeout_popped
+do_ha_control
+do_ha_control
+queue[%d.%d]: input %s raised by %s(%p.%d)	(cause=%s)
+Checking client version number
+Unknown Sub-system (%s)... discarding message.
+Bad message destination: no subsystem
+Message result: DC/CRMd process
+Message result: External relay to DC
+Message result: Discard, not DC
+Message result: External relay
+Stalling the FSA pending further input: source=%s cause=%s data=%p queue=%d
+%s %s FSA input %d (%s) (cause=%s) %s data
+Adding actions %.16llx to input
+Copying %s data from %s as a HA msg
+((ha_msg_input_t *) data)->msg != NULL
+Copying %s data from %s as lrmd_event_data_t
+Forcing an election from S_HALT
+Raising I_JOIN_RESULT: join-%s
+cause == C_IPC_MESSAGE || cause == C_HA_MESSAGE
+Creating shutdown request for %s (state=%s)
+Unexpected response (op=%s, src=%s) sent to the %s
+%s - Ignoring calculation with no reference
+Unexpected request (%s) sent to %s
+Instructing peers to remove references to node %s/%u
+Could not instruct peers to remove references to node %s/%u
+We didn't ask to be shut down, yet our DC is telling us too.
+Another node is asking us to shutdown but we think we're ok.
+We didnt ask to be shut down, yet our TE is telling us too. Better get out now!
+Client version (%d:%d) is not acceptable
+Bad client details (client_name=%s, uuid=%s)
+Hello message was not valid (field %s not found)
+Cannot route message to unknown node %s
+%s: Message data was the wrong type! %d vs. requested=%d.  Origin: %s
+%s: No message data available. Origin: %s
+Don't know how to free %s data from %s
+Couldnt add message to the queue
+Copying %s data (from %s) not yet implemented
+Cannot add entry to queue: no input and no action
+Resetting the current action list
+messages.c
+Processing input %d
+fsa_data->data_type == a_type
+crm_task
+reference
+hello
+crm_xml
+client_name
+major_version
+minor_version
+client name
+major version
+minor version
+Hello message ok
+Accepted client %s
+lrmd
+Bad message type
+Cannot route empty message
+crm_host_to
+crm_sys_to
+Routing message %s
+bad msg
+Router result: %s
+Message result: Local relay
+Message result: CRMd process
+dcib
+Copy msg
+No message to copy
+copy->msg != NULL
+<unknown>
+with
+without
+prepended
+appended
+raised_from != NULL
+Restored
+%s data copied
+Prepending input
+Queue len: %d
+Drop
+the DC
+non-DC node
+Bad message
+join_announce
+join_request
+join_confirm
+do_shutdown
+no-vote
+throttle
+clear_failcount
+//primitive
+on_node
+router_node
+fail-count
+last-failure
+invalid failcount op
+join_offer
+Raising I_JOIN_OFFER: join-%s
+join_id
+join_ack_nack
+lrm_delete
+lrm_fail
+lrm_refresh
+probe_again
+noop
+start_shutdown
+ping_response
+crm_subsystem
+crmd_state
+rm_node_cache
+uname
+Unexpected
+CRMd
+pe_calc
+Completed: %s...
+subt
+About to free %s data
+%s data freed
+%s calculation %s is obsolete
+Current ping state: %s
+Discarding %s op from %s
+Shutting down
+Shutting ourselves down (DC)
+Removing failcount for %s
+Unknown message type: %s
+Rejected client logon request
+Message [%s] not authorized
+%s: No FSA data available
+copy failed
+Bogus data from %s
+send_msg_via_ipc
+send_msg_via_ipc
+handle_shutdown_request
+handle_shutdown_request
+handle_response
+handle_response
+crm_set_bit
+handle_failcount_op
+handle_failcount_op
+handle_request
+handle_request
+handle_message
+handle_message
+process_hello_message
+crmd_authorize_message
+crmd_authorize_message
+relay_message
+relay_message
+route_message
+route_message
+do_msg_route
+fsa_typed_data_adv
+fsa_typed_data_adv
+get_message
+delete_fsa_input
+copy_ha_msg_input
+copy_ha_msg_input
+fsa_dump_queue
+register_fsa_input_adv
+register_fsa_input_adv
+register_fsa_error_adv
+register_fsa_error_adv
+membership.c
+update:failed
+Node update %d complete
+Quorum update %d complete
+node_state
+offline
+in_ccm
+crm-debug-origin
+hashtable
+Creating node entry for %s/%s
+cib_modify
+node_list_update_callback
+crmd_node_update_complete
+%s added action %s to the FSA
+have-quorum
+dc-uuid
+cib_quorum_update_complete
+No CIB connection available
+Node update failed: %s (%d)
+Deletion of the unknown conflicting node "%s": %s (rc=%d)
+remove_conflicting_node_callback
+/cib/configuration/nodes/node[@uname='%s'][@id!='%s']
+search_conflicting_node_callback
+Populating <nodes> section from %s
+Updated cache after membership event %d.
+Updating quorum status to %s (call=%d)
+Quorum update %d failed: %s (%d)
+Node update %d failed: %s (%d)
+Node list update failed: %s (%d)
+Deleting unknown node %s/%s which has conflicting uname with %s
+Searching conflicting nodes for %s failed: %s (%d)
+Node update for %s cancelled: no id
+Node update for %s cancelled: no state, not seen yet
+Our DC node (%s) left the cluster
+We're not part of the cluster anymore
+cib_quorum_update_complete
+cib_quorum_update_complete
+crm_update_quorum
+crm_update_quorum
+remove_conflicting_node_callback
+search_conflicting_node_callback
+search_conflicting_node_callback
+node_list_update_callback
+node_list_update_callback
+crmd_node_update_complete
+crmd_node_update_complete
+populate_cib_nodes
+populate_cib_nodes
+do_update_node_cib
+crm_set_bit
+reap_dead_nodes
+reap_dead_nodes
+post_cache_update
+post_cache_update
+Invoked
+in unknown state
+peer
+attrd
+stonithd
+stonith-ng
+mgmtd
+corosync-cpg
+No change %6x %6x %6x
+Not connected
+Stopping
+3.0.9
+transient_attributes
+Alive=%d, appear=%d, down=%p
+operation
+stonith
+Other %p
+Node failure
+user_data == fsa_cib_conn
+Invoked (queue len: %d)
+Exited  (queue len: %d)
+%s of %s (op %d) is complete
+Peer %s left us
+Our peer connection failed
+%s is now %s (was %s)
+%s is now %s
+Another DC detected: %s (op=%s)
+Removing %s from the cleanup list
+Waiting for stonithd to report the fencing of %s is complete
+Connection to the CIB terminated...
+Stonith/shutdown of %s not matched
+Node return implies stonith of %s (action %d) completed
+Our peer on the DC (%s) is dead
+Client %s/%s now has status [%s] (DC=%s, changed=%6x)
+Remote node %s is now %s (was %s)
+Lost connection to heartbeat service!
+Heartbeat disconnection complete
+crm_fsa_trigger
+crm_clear_bit
+crmd_cib_connection_destroy
+crmd_cib_connection_destroy
+crm_set_bit
+peer_update_callback
+peer_update_callback
+crmd_ha_msg_filter
+crmd_ha_msg_filter
+crmd_ha_connection_destroy
+crmd_ha_connection_destroy
+Ignore election check: we not in an election
+Marking %s, target of a previous stonith action, as clean
+Taking over DC status for this partition
+Not voting in election, we're in state %s
+election.c
+3.0.10
+crm_feature_set
+feature_update_callback
+have-watchdog
+1.1.13-3.fc23-44eb2dd
+Releasing the role of DC
+Am I still the DC? %s
+Unknown action %s
+DC role released
+Update failed: %s (%d)
+Unhandled election result: %d
+Internal error, no peer cache
+Broken? Voting in state %s
+crm_clear_bit
+do_dc_release
+do_dc_release
+crm_set_bit
+feature_update_callback
+feature_update_callback
+do_dc_takeover
+do_dc_takeover
+do_election_count_vote
+do_election_count_vote
+do_election_check
+do_election_check
+do_election_vote
+do_election_vote
+generation_tuple
+join_client.c
+join_id != NULL
+Query %d superseded
+Querying for a DC
+Announcing availability
+join_query_callback
+Ignoring op=%s message
+Confirming join join-%d: %s
+terminate
+Membership is in flux, not continuing join-%s
+Respond to join offer join-%s from %s
+Accepting join offer from %s: join-%s
+Cancelling previous join query: %d
+Registered join query callback: %d
+join-%d: Join complete.  Sending local LRM status to %s
+Could not send our LRM state to the DC
+Discarding %s from %s (expected %s)
+Discarding our own welcome - we're no longer the DC
+Join (join-%d) with leader %s failed (NACK'd): Shutting down
+Could not retrieve version details for join-%s: %s (%d)
+Discarding offer from %s (expected %s)
+Delaying announce until local startup is complete
+Do not announce ourselves in state %s
+do_cl_join_finalize_respond
+do_cl_join_finalize_respond
+join_query_callback
+join_query_callback
+do_cl_join_offer_respond
+do_cl_join_offer_respond
+do_cl_join_announce
+do_cl_join_announce
+do_cl_join_query
+do_cl_join_query
+%s: Node %s[%u] - join-%u phase still %u
+join-%d: ACK'ing join request from %s
+join-%d: Initializing join data (flag=%s)
+Ignoring op=%s message from %s
+join-%d: Registered callback for LRM update %d
+Ensuring DC, quorum and node attributes are up-to-date
+%s: Membership changed since join started: %llu -> %llu (%llu)
+join-%d: Integration of %d peers complete: %s
+join-%d: Delaying I_FINALIZED until we have the CIB
+join-%d: Still waiting on %d welcomed nodes
+join-%d: Still waiting on %d integrated nodes
+join-%d: Still waiting on %d finalized nodes
+(Re-)offering membership to %s...
+Waiting on %d outstanding join acks for join-%d
+Invalid response from %s: join-%d vs. join-%d
+%s has a better generation number than the current max %s
+join-%d: Welcoming node %s (ref %s)
+%u nodes have been integrated into join-%d
+join-%d: Still waiting on %d outstanding offers
+Notifying %d clients of join-%d results
+No longer the DC in S_FINALIZE_JOIN: %s/%s
+Finializing join-%d for %d clients
+join-%d: Updating node state to %s for %s
+Join not in progress: ignoring join-%d from %s (phase = %d)
+join-%d: Syncing our CIB to the rest of the cluster
+join-%d: Syncing the CIB from %s to the rest of the cluster
+join-%d: We are still in a transition.  Delaying until the TE completes.
+join-%d: NACK'ing node %s (ref %s)
+join-%d: Processing %s request from %s in state %s
+Attempt to send welcome message without a host to reply to!
+Attempt to send welcome message without a message to reply to!
+An unknown node joined - (re-)offer to any unconfirmed nodes
+join-%d: Waiting on %d outstanding join acks
+Making join offers based on membership %llu
+No recipient for welcome message
+Not making an offer to %s: not active (%s)
+%s: Node %s[%u] - join-%u phase cannot transition from %u to %u
+%s: Node %s[%u] - join-%u phase %u -> %u
+%s: Could not set join-%u to %d for NULL
+join_dc.c
+member != NULL
+Skipping %s in state %d
+Creating node entry for %s
+Processing ack from %s
+join_update_complete_callback
+welcomed
+integrated
+finalized
+confirmed
+join-%d: %s=%s
+Invoked by %s in state: %s
+join-%d complete: %s
+Node join
+admin_epoch
+banned
+Processing req from %s
+Max generation
+Their generation
+num_updates
+-EPERM != rc
+Sync from %s failed: %s
+Join update %d complete
+Requested version
+finalize_sync_callback
+Join update %d failed
+Waiting for %d more nodes
+Generation was NULL
+Node %s is not a member
+A new node joined the cluster
+join-%d: Sending offer to %s
+Skipping %s: already known %d
+crmd_join_phase_log
+do_dc_join_final
+check_join_state
+check_join_state
+finalize_join_for
+finalize_join_for
+join_update_complete_callback
+join_update_complete_callback
+do_dc_join_ack
+do_dc_join_ack
+finalize_sync_callback
+finalize_sync_callback
+crm_set_bit
+do_dc_join_finalize
+do_dc_join_finalize
+do_dc_join_filter_offer
+do_dc_join_filter_offer
+do_dc_join_offer_one
+do_dc_join_offer_one
+join_make_offer
+join_make_offer
+do_dc_join_offer_all
+crm_clear_bit
+initialize_join
+initialize_join
+crm_update_peer_join
+Child process %s exited (pid=%d, rc=%d)
+Stopping %s before it had connected
+Sent -TERM to %s: [%d]: %s (%d)
+Sent -TERM to %s: [%d]: %s (%d)
+Cannot (access) exec %s: %s (%d)
+Cannot (access) exec %s: %s (%d)
+Cannot (stat) exec %s: %s (%d)
+Cannot (stat) exec %s: %s (%d)
+FATAL: Cannot exec %s: %s (%d)
+FATAL: Cannot exec %s: %s (%d)
+Client %s already running as pid %d
+Child process %s terminated with signal %d (pid=%d, core=%d)
+subsystems.c
+Stopping sub-system "%s"
+Client %s not running
+Client %s is has pid: %d
+Executing "%s (%s)" (pid %d)
+Cannot fork.
+Starting sub-system "%s"
+Sent -TERM to %s: [%d]
+crmd_child_exit
+start_subsystem
+crm_clear_bit
+stop_subsystem
+stop_subsystem
+Noticeable %s detected: %f
+throttle.c
+Negligable %s detected: %f
+/proc/stat
+cpu 
+procs_blocked 
+procs_blocked %u
+Current IO load is %f
+/proc/loadavg
+Current load is %f (full: %s)
+crm-limit-mode
+crm-limit-max
+/proc
+/status
+%15s%63s
+/proc/%d/stat
+Found %s
+/proc/cpuinfo
+processor
+CIB load
+CPU load
+IO load
+blocked IO ratio
+3.0.8
+LRMD_MAX_CHILDREN
+PCMK_node_action_limit
+Using batch-limit=%d
+Moderate %s detected: %f
+High %s detected: %f
+Extreme %s detected: %f
+Couldn't read %s: %s (%d)
+Couldn't find CIB load file
+cpu  %Lu %Lu %Lu %Lu %Lu %Lu %Lu %Lu
+%d %[^ ] %c %d %d %d %d %d %lu %lu %lu %lu %lu %lu %lu
+cib load: %f (%lu ticks in %ds)
+Init %lu + %lu ticks at %d (%lu tps)
+DC version %s doesn't support throttling
+Using batch-limit=%d instead of %d
+Defaulting to local values for unknown node %s
+Host %s supports a maximum of %d jobs and throttle mode %.4x.  New job limit is %d
+Unknown throttle mode %.4x on %s
+New throttle mode: %.4x (was %.4x)
+Only %d of 15 fields found in %s
+Can not read /proc directory to track existing components
+No processors found in %s, assuming 1
+Couldn't read %s, assuming a single processor: %s (%d)
+throttle_update
+throttle_get_job_limit
+throttle_get_total_job_limit
+throttle_send_command
+throttle_send_command
+throttle_handle_load
+throttle_io_load
+throttle_load_avg
+find_cib_loadfile
+throttle_cib_load
+throttle_mode
+throttle_timer_cb
+throttle_num_cores
+?333333
+?33s?
+>cib.c
+cib_update_result
+cib_rc
+Filter rc=%d (%s)
+format
+path
+fsa_cib_conn != NULL
+cib_diff_notify
+cib_refresh_notify
+revision_check_callback
+CIB connection established
+Disconnecting CIB
+Shutting down the CRM
+Unknown patch format: %d
+safe_str_eq(crm_element_name(generation), XML_TAG_CIB)
+Checking our feature revision is allowed: %s
+//cib_update_result//diff-added//crm_config
+/cib/configuration/crm_config/
+Updating the CIB after a replace: DC=%s
+Could not complete CIB registration  %d times... hard error
+Couldn't complete CIB registration %d times... pause and retry
+Could not set CIB notification callback (update)
+Could not set CIB notification callback (replace)
+Could not set dnotify callback
+Could not connect to the CIB service: %s
+Ignoring request to start %s after shutdown
+Waiting for resource update %d to complete
+We can only support up to CRM feature set %s (current=%s)
+This build (%s) does not support the current resource configuration
+crm_set_bit
+crm_clear_bit
+do_cib_updated
+do_cib_updated
+do_cib_replaced
+do_cib_replaced
+revision_check_callback
+revision_check_callback
+do_cib_control
+do_cib_control
+pengine.c
+filename != NULL
+output != NULL
+lpc > 0
+Forcing %s/%s = %s
+value
+Creating %s/%s = %s
+nvpair
+no-quorum-panic
+save_cib_contents
+do_pe_invoke_callback
+Invoking PE in state: %s
+Waiting for the PE to connect
+/var/lib/pacemaker/pengine/pe-core-%s.bz2
+Skipping superseded CIB query: %d (current=%d)
+No need to invoke the PE anymore
+Discarding PE request in state: %s
+Re-asking for the CIB: %d other peer updates still pending
+%.128s//%s//nvpair[@name='%.128s']
+Invoking the PE: query=%d, ref=%s, seq=%llu, quorate=%d
+Query %d: Requesting the current CIB: %s
+Could not contact the pengine: %d
+Cant retrieve the CIB: %s (call %d)
+Attempted to invoke the PE without a consistent copy of the CIB!
+No need to invoke the PE in state %s
+Cannot shut down gracefully without the PE
+Not DC: No need to invoke the PE (anymore): %s
+Ignoring request to start %s while shutting down
+Setup of client connection failed, not adding channel to mainloop
+Connection to the Policy Engine released
+Connection to the Policy Engine failed (pid=%d, uuid=%s)
+Saved CIB contents after PE crash to %s
+Could not save CIB contents after PE crash to %s
+force_local_option
+force_local_option
+do_pe_invoke_callback
+do_pe_invoke_callback
+do_pe_invoke
+do_pe_invoke
+save_cib_contents
+save_cib_contents
+pe_ipc_destroy
+pe_ipc_destroy
+crm_set_bit
+crm_clear_bit
+do_pe_control
+do_pe_control
+tengine.c
+Transitioner is now active
+DC Takeover
+Cancelling the transition: %s
+Peer Cancelled
+Halting the transition: %s
+Peer Halt
+crm-tgraph
+crm-tgraph-in
+Bad command
+Transition Active
+Transition Redundant
+graph_data != NULL
+transition_graph != NULL
+failed-stop-offset
+failed-start-offset
+Input raised by %s is invalid
+Registering TE UUID: %s
+Transitioner is now inactive
+The transitioner is already active
+The transitioner wait for a transition timer
+Processing graph %d (ref=%s) derived from %s
+Transition is redundant: %s vs. %s
+Another transition is already active
+No need to invoke the TE (%s) in state %s
+Could not set CIB global callback
+Could not set CIB notification callback
+do_te_invoke
+do_te_invoke
+crm_set_bit
+crm_clear_bit
+do_te_control
+do_te_control
+lrm.c
+key != NULL
+%s:%d
+op != 0
+Scheduling %s for removal
+Cancelling op %d for %s (%s)
+Op %d for %s (%s): cancelled
+node_fenced
+CRM_meta_
+lrm disconnect
+shutdown... waiting
+Recurring a
+Pending action: %s (%s)
+Processing %s: %s.%d=%d
+migrate_to
+Found %s active
+call-id
+transition-key
+op:cancel
+cib_delete
+class
+provider
+long-id
+Retrieving %s from the LRM.
+Constructed %s op for %s
+CRM_meta_op_target_rc
+start-delay
+transition != NULL
+password
+passwd
+private
+Attr %s is %s%s
+ %s 
+Rejecting %s for %s
+Inverting %s match for %s xml
+Adding attr to the xml result
+caller_version != NULL
+rclass != NULL
+lrm_state != NULL
+metadata != NULL
+metadata == NULL
+op->params != NULL
+reload
+op-force-restart
+op-restart-digest
+%s: %s, %s
+restart digest source
+op-secure-params
+op-secure-digest
+secure digest source
+%s: no secure parameters
+unique
+Connecting to the LRM
+lrm_resources
+lrm_resource
+CRM_meta_container
+Current state of the LRM
+last_failure
+op != NULL
+lrm_invoke
+ACK Update
+Unable to route reply
+uuid != NULL
+rsc->type != NULL
+rsc->class != NULL
+CRM_meta_remote_node
+cib_rsc_callback
+last-lrm-refresh
+ not
+internal
+Resource '%s' deleted
+probe_complete
+FALSE
+op->rsc_id != NULL
+%s-%s_%s_%d:%d
+Adding recurring op: %s_%s_%d
+operation_key
+LRM command from user '%s'
+LRM command from: %s
+xml_rsc != NULL
+asyncmon
+root
+bad input
+ACK'ing refresh from %s (%s)
+lrm_query
+ACK'ing re-probe from %s (%s)
+op_task != NULL
+op_interval != NULL
+Missing transition number
+Op %s (call=%d): No user data
+Op %s (call=%d): Cancelled
+Operation %s on %s failed: %d
+Performing key=%s op=%s_%s_%d
+Failing resource %s...
+No pending op found for %s
+No metadata for %s::%s:%s
+LRM connection established
+Disconnected from the LRM
+Disconnecting from the LRM
+LRM Connection disconnected
+LRM Connection failed
+Removed %u op cache entries, new size: %u
+Operation %s already cancelled
+Op %d for %s (%s): Nothing to cancel
+Resource update %d complete: rc=%d
+Failed to init status section for remote-node %s
+Checking for active resources before exit
+%d pending LRM operations at %s
+async: Sending delete op for %s_%s_%d (call=%d)
+//node_state[@uname='%s']//lrm_resource[@id='%s']/lrm_rsc_op[@id='%s' and @call-id='%d']
+//node_state[@uname='%s']//lrm_resource[@id='%s']/lrm_rsc_op[@id='%s']
+sync: Sending delete op for %s (call=%d)
+//node_state[@uname='%s']//lrm_resource[@id='%s']
+Adding rsc %s before operation
+safe_str_eq(CRMD_ACTION_STOP, operation)
+Constructed %s op for %s: interval=%d
+Building %s operation update with originator version: %s
+No digests needed for %s %p %p %s
+Retreiving cached metadata for %s
+Retreived live metadata for %s: %s (%d)
+Includind additional digests for %s::%s:%s
+Resource %s is a part of container resource %s
+ACK'ing resource op %s_%s_%d from %s: %s
+Sent resource state update message: %d for %s=%d on %s
+Triggering a refresh after %s deleted %s from the LRM
+sync: Sending delete op for %s
+Op %s (call=%d): cancelled due to rsc deletion
+Op %s (call=%d): no delete event required
+Op %s (call=%d, stop-id=%s, remaining=%u): Confirmed
+Operation %s: %s (node=%s, call=%d, rc=%d, cib-update=%d, confirmed=%s)
+Purged history for '%s' after %s
+Updating history for '%s' with %s op
+Removing cancelled recurring op: %s_%s_%d
+Skipping %s_%s_%d rc=%d, status=%d
+Dropping %d recurring ops because of: %s_%s_%d
+PE requested op %s (call=%s) be cancelled
+Stopped %u recurring operations in preparation for %s_%s_%d
+Recording pending op: %d - %s %s
+Deletion of resource '%s' complete after %s
+Operation %s (node=%s, call=%d, status=%d, cib-update=%d, confirmed=%s) %s
+Operation %s: %s (node=%s, call=%d, timeout=%dms)
+Operation %s: %s (node=%s, call=%d, confirmed=%s)
+Resource %s no longer exists in the lrmd
+Initializing lrm status for baremetal remote-node %s
+Initalizing lrm status for container remote-node %s. Container successfully started.
+Resource %s has no value for class
+Resource %s has no value for type
+Sending update to local CIB in state: %s
+Resource update %d failed: (rc=%d) %s
+Faking confirmation of %s: execution postponed for over 5 minutes
+Operation %s on resource %s failed to execute on remote node %s: %d
+Discarding attempt to perform action %s on %s in state %s
+Start and Stop actions cannot have an interval: %d
+Operation was neither a lrm_query, nor a rsc op.  %s
+Attempted deletion of resource status '%s' from CIB for %s (user=%s) on %s failed: (rc=%d) %s
+Nothing known about operation %d for %s
+Not creating resource for a %s event: %s
+Invalid resource definition for %s
+Forcing the status of all resources to be redetected
+Forced a local LRM refresh: call=%d
+Cannot find/create resource in order to fail it...
+%s does not have permission to fail %s
+no lrmd connection for remote node %s found on cluster node %s. Can not process request.
+Faking result %d for %s_%s_%d on %s (%p)
+Skipping %s=%d on %s (%p): no operation
+Skipping %s=%d on %s (%p): no resource
+clearing resource history on node %s
+Deletion of resource '%s' for %s (%s) on %s failed: %d
+Deletion of resource '%s' pending
+Removing resource %s for %s (%s) on %s
+Could not add resource %s to LRM %s
+Not enough information to delete op entry: rsc=%p key=%p
+Removing op %s:%d for deleted resource %s
+Notifying %s on %s that %s was%s deleted
+Could not query lrm state for lrmd node %s
+Metadata for %s::%s:%s is not valid XML
+Invalid parameter in %s metadata
+No metadata found for %s: %s (%d)
+%d resources were active at %s.
+%sction %s (%s) incomplete at %s
+Stopped %u recurring operations at %s (%u ops remaining)
+Failed to sign on to the LRM %d (max) times
+Failed to sign on to the LRM %d (%d max) times
+Resource %s no longer exists, not updating cache
+update_history_cache
+process_lrm_event
+process_lrm_event
+do_lrm_event
+do_lrm_event
+verify_stopped
+send_direct_ack
+send_direct_ack
+stop_recurring_action_by_rsc
+do_lrm_rsc_op
+do_lrm_rsc_op
+delete_resource
+construct_op
+construct_op
+delete_rsc_status
+delete_rsc_status
+cancel_op_key
+cancel_op_key
+notify_deleted
+notify_deleted
+lrm_remove_deleted_op
+delete_rsc_entry
+delete_rsc_entry
+remote_node_init_status
+remote_node_init_status
+cib_rsc_callback
+cib_rsc_callback
+do_update_resource
+do_update_resource
+synthesize_lrmd_failure
+synthesize_lrmd_failure
+get_lrm_resource
+get_lrm_resource
+force_reprobe
+do_lrm_invoke
+do_lrm_invoke
+delete_op_entry
+delete_op_entry
+do_lrm_query
+append_secure_list
+append_secure_list
+build_parameter_list
+append_restart_list
+append_restart_list
+get_rsc_metadata
+get_rsc_metadata
+build_operation_update
+build_operation_update
+build_active_RAs
+build_active_RAs
+do_lrm_query_internal
+do_lrm_query_internal
+crm_set_bit
+is_rsc_active
+cancel_op
+cancel_op
+stop_recurring_actions
+lrm_state_verify_stopped
+do_lrm_control
+do_lrm_control
+crm_clear_bit
+lrm_connection_destroy
+lrm_connection_destroy
+lrm_op_callback
+lrm_op_callback
+Destroying proxy table %s with %d members
+Destroying rsc info cache with %d members
+Destroying history op cache with %d members
+Destroying deletion op cache with %d members
+Destroying pending op cache with %d members
+Pre-emptively failing %s_%s_%d on %s (call=%s, %s)
+Passing response back to %.8s on %s: %.200s - request id: %d
+Passing event back to %.8s on %s: %.200s
+new remote proxy client established to %s, session id %s
+Relayed %s request %d from %s to %s for %s
+Relaying %s request %d from %s to %s for %s
+Re-setting history op cache with %d members
+Re-setting deletion op cache with %d members
+Re-setting pending op cache with %d members
+Re-setting rsc info cache with %d members
+Destroying state table with %d members
+Destroying proxy table with %d members
+Synthesized %d operation failures for %s
+initiating remote connection to %s at %d with timeout %d
+Could not relay %s request %d from %s to %s for %s: %s (%d)
+Received a NULL msg from IPC service.
+No node name given for lrm state object
+lrm_state.c
+Destroying %s (%p)
+lrmd_ipc_op
+lrmd_ipc_session
+session != NULL
+lrmd_ipc_msg_id
+lrmd_ipc_server
+channel != NULL
+created proxy session ID %s
+destroy
+lrmd_ipc_msg
+lrmd_ipc_client
+request != NULL
+lrmd_ipc_msg_flags
+pacemaker-remote
+acl_role
+lrm_state->node_name
+lrmd_ipc_user
+CRMd-PROXY[inbound]
+function
+attr_host
+Disconnecting %s
+to-proxy
+Sending event to %.8s on %s
+Unknown proxy operation: %s
+crmd_proxy_dispatch
+crmd_proxy_dispatch
+remote_proxy_dispatch_internal
+remote_proxy_disconnected
+remote_proxy_new
+remote_proxy_cb
+remote_proxy_cb
+lrm_state_remote_connect_async
+crmd_proxy_send
+crmd_proxy_send
+fail_pending_op
+lrm_state_disconnect
+lrm_state_destroy_all
+internal_lrm_state_destroy
+lrm_state_reset_tables
+lrm_state_create
+lrm_state
+remote_lrmd_ra.c
+addr
+port
+migrate_from
+unregister
+exec_complete
+poke
+new_client
+no event to match
+Event did not match %s action
+Pre-emptively failing %s %s (interval=%d, %s)
+began remote lrmd connect, waiting for connect event.
+connect failed, not expecting to match any connection event later
+poked remote lrmd at node %s, waiting for async response.
+remote connection event - event_type:%s node:%s action:%s rc:%s op_status:%s
+lrm_state info not found for remote lrmd connection event
+ignoring event, this connection is taken over by another node
+rescheduling start, remaining timeout %d
+can't reschedule start, remaining timeout too small %d
+remote lrmd connect event matched %s action. 
+remote lrmd poke event matched %s action. 
+merging duplicate monitor cmd %s_monitor_%d
+remote-node %s unexpectedly disconneced during monitor operation
+Unexpected disconnect on remote-node %s
+Unexpected pacemaker_remote client takeover. Disconnecting
+Poke async response timed out for node %s (%p)
+takeover event timed out for node %s
+handle_dup_monitor
+monitor_timeout_cb
+connection_takeover_timeout_cb
+handle_remote_ra_exec
+handle_remote_ra_stop
+fail_all_monitor_cmds
+remote_lrm_op_callback
+ at shutdown
+Deletion of "%s": %s (rc=%d)
+Election Trigger
+Shutdown Escalation
+Integration Timer
+Finalization Timer
+New Transition Timer
+PEngine Recheck Timer
+Wait Timer
+Unknown Timer
+<UNKNOWN_INPUT>
+I_ILLEGAL
+I_TERMINATE
+I_HALT
+I_PENDING
+I_LRM_EVENT
+I_WAIT_FOR_EVENT
+I_DC_HEARTBEAT
+I_STOP
+I_TE_SUCCESS
+I_STARTUP
+I_SHUTDOWN
+I_ROUTER
+I_PE_SUCCESS
+I_RESTART
+I_RELEASE_SUCCESS
+I_RELEASE_FAIL
+I_RECOVERED
+I_NOT_DC
+I_JOIN_RESULT
+I_JOIN_REQUEST
+I_JOIN_OFFER
+I_NODE_JOIN
+I_FINALIZED
+I_INTEGRATED
+I_FAIL
+I_ERROR
+I_ELECTION_DC
+I_RELEASE_DC
+I_PE_CALC
+I_ELECTION
+I_DC_TIMEOUT
+I_CIB_UPDATE
+I_CIB_OP (unused)
+I_NULL
+Started %s (%s:%dms), src=%d
+Stopping %s (%s:%dms), src=%d
+%s (%s:%dms) already stopped
+<UNKNOWN_STATE>
+S_ILLEGAL
+S_HALT
+S_STARTING
+S_TRANSITION_ENGINE
+S_TERMINATE
+S_STOPPING
+S_PENDING
+S_RELEASE_DC
+S_RECOVERY
+S_POLICY_ENGINE
+S_NOT_DC
+S_FINALIZE_JOIN
+S_INTEGRATION
+S_ELECTION
+S_IDLE
+<UNKNOWN_CAUSE>
+C_ILLEGAL
+C_FSA_INTERNAL
+C_HA_DISCONNECT
+C_CRMD_STATUS_CALLBACK
+C_LRM_MONITOR_CALLBACK
+C_LRM_OP_CALLBACK
+C_SUBSYSTEM_CONNECT
+C_HEARTBEAT_FAILED
+C_SHUTDOWN
+C_TIMER_POPPED
+C_CCM_CALLBACK
+C_HA_MESSAGE
+C_IPC_MESSAGE
+C_STARTUP
+C_UNKNOWN
+<UNKNOWN_ACTION>
+A_WARN  
+A_ERROR 
+A_LOG   
+A_UPDATE_NODESTATUS
+A_NODE_BLOCK
+A_PE_STOP
+A_PE_START
+O_PE_RESTART
+A_PE_INVOKE
+A_TE_CANCEL
+A_TE_HALT
+A_TE_STOP
+A_TE_START
+O_TE_RESTART
+A_TE_INVOKE
+A_CIB_STOP
+A_CIB_START
+O_CIB_RESTART
+A_CCM_DISCONNECT
+A_CCM_CONNECT
+A_EXIT_1
+A_EXIT_0
+A_STOP  
+A_SHUTDOWN_REQ
+A_SHUTDOWN
+A_DC_TAKEOVER
+A_DC_RELEASED
+A_DC_RELEASE
+A_RECOVER
+A_MSG_ROUTE
+A_MSG_PROCESS
+A_DC_JOIN_FINALIZE
+A_DC_JOIN_PROCESS_ACK
+A_DC_JOIN_PROCESS_REQ
+A_DC_JOIN_OFFER_ONE
+A_DC_JOIN_OFFER_ALL
+A_CL_JOIN_RESULT
+A_CL_JOIN_REQUEST
+A_CL_JOIN_ANNOUNCE
+A_ELECTION_CHECK
+A_ELECTION_VOTE
+A_ELECTION_COUNT
+A_FINALIZE_TIMER_STOP
+A_FINALIZE_TIMER_START
+A_INTEGRATE_TIMER_STOP
+A_INTEGRATE_TIMER_START
+A_DC_TIMER_START
+A_DC_TIMER_STOP
+A_CL_JOIN_QUERY
+O_LRM_RECONNECT
+A_LRM_DISCONNECT
+A_LRM_INVOKE
+A_LRM_EVENT
+A_LRM_CONNECT
+A_HA_DISCONNECT
+A_HA_CONNECT
+A_STARTED
+A_STARTUP
+O_RELEASE
+A_READCONFIG
+A_DC_JOIN_FINAL
+A_ELECTION_START
+A_NOTHING
+Input register contents:
+%s %.16llx (R_THE_DC)
+%s %.16llx (R_STARTING)
+%s %.16llx (R_SHUTDOWN)
+%s %.16llx (R_STAYDOWN)
+%s %.16llx (R_JOIN_OK)
+%s %.16llx (R_READ_CONFIG)
+%s %.16llx (R_INVOKE_PE)
+%s %.16llx (R_CIB_CONNECTED)
+%s %.16llx (R_PE_CONNECTED)
+%s %.16llx (R_TE_CONNECTED)
+%s %.16llx (R_LRM_CONNECTED)
+%s %.16llx (R_CIB_REQUIRED)
+%s %.16llx (R_PE_REQUIRED)
+%s %.16llx (R_TE_REQUIRED)
+%s %.16llx (R_REQ_PEND)
+%s %.16llx (R_PE_PEND)
+%s %.16llx (R_TE_PEND)
+%s %.16llx (R_RESP_PEND)
+%s %.16llx (R_CIB_DONE)
+%s %.16llx (R_HAVE_CIB)
+%s %.16llx (R_CIB_ASKED)
+%s %.16llx (R_MEMBERSHIP)
+%s %.16llx (R_PEER_DATA)
+%s %.16llx (R_IN_RECOVERY)
+Action %.16llx (A_STARTUP) %s
+Action %.16llx (A_STARTED) %s
+Action %.16llx (A_CONNECT) %s
+Action %.16llx (A_RECOVER) %s
+Action %.16llx (A_STOP  ) %s
+Action %.16llx (A_EXIT_0) %s
+Action %.16llx (A_EXIT_1) %s
+Action %.16llx (A_TE_STOP) %s
+Action %.16llx (A_PE_STOP) %s
+Action %.16llx (A_LOG   ) %s
+Action %.16llx (A_ERROR ) %s
+Action %.16llx (A_WARN  ) %s
+dc_version != NULL
+welcome_from != NULL
+//node_state[@uname='%s']/%s
+erase_xpath_callback
+Deleting xpath: %s
+Unset DC. Was %s
+Set DC to %s (%s)
+New DC %s is not %s
+We have no DC
+Action %.16llx is unknown
+Cause %d is unknown
+State %d is unknown
+Input %d is unknown
+Attempted to stop NULL timer
+Welcomed: %d, Integrated: %d
+%s (%s) just popped (%dms)
+Connection to attribute manager failed: %s (%d)
+Connection to attribute manager failed: %s (%d)
+%s (%s:%dms) already running: src=%d
+Discarding %s event in state: %s
+A_DC_TIMER_START|A_CL_JOIN_QUERY
+Action %.16llx (A_READCONFIG) %s
+Action %.16llx (A_DISCONNECT) %s
+Action %.16llx (A_LRM_CONNECT) %s
+Action %.16llx (A_LRM_EVENT) %s
+Action %.16llx (A_LRM_INVOKE) %s
+Action %.16llx (A_LRM_DISCONNECT) %s
+Action %.16llx (A_DC_TIMER_STOP) %s
+Action %.16llx (A_DC_TIMER_START) %s
+Action %.16llx (A_INTEGRATE_TIMER_START) %s
+Action %.16llx (A_INTEGRATE_TIMER_STOP) %s
+Action %.16llx (A_FINALIZE_TIMER_START) %s
+Action %.16llx (A_FINALIZE_TIMER_STOP) %s
+Action %.16llx (A_ELECTION_COUNT) %s
+Action %.16llx (A_ELECTION_VOTE) %s
+Action %.16llx (A_ELECTION_CHECK) %s
+Action %.16llx (A_CL_JOIN_ANNOUNCE) %s
+Action %.16llx (A_CL_JOIN_REQUEST) %s
+Action %.16llx (A_CL_JOIN_RESULT) %s
+Action %.16llx (A_DC_JOIN_OFFER_ALL) %s
+Action %.16llx (A_DC_JOIN_OFFER_ONE) %s
+Action %.16llx (A_DC_JOIN_PROCESS_REQ) %s
+Action %.16llx (A_DC_JOIN_PROCESS_ACK) %s
+Action %.16llx (A_DC_JOIN_FINALIZE) %s
+Action %.16llx (A_MSG_PROCESS) %s
+Action %.16llx (A_MSG_ROUTE) %s
+Action %.16llx (A_DC_RELEASE) %s
+Action %.16llx (A_DC_RELEASED) %s
+Action %.16llx (A_DC_TAKEOVER) %s
+Action %.16llx (A_SHUTDOWN) %s
+Action %.16llx (A_SHUTDOWN_REQ) %s
+Action %.16llx (A_CCM_CONNECT) %s
+Action %.16llx (A_CCM_DISCONNECT) %s
+Action %.16llx (A_CIB_START) %s
+Action %.16llx (A_CIB_STOP) %s
+Action %.16llx (A_TE_INVOKE) %s
+Action %.16llx (A_TE_START) %s
+Action %.16llx (A_TE_CANCEL) %s
+Action %.16llx (A_PE_INVOKE) %s
+Action %.16llx (A_PE_START) %s
+Action %.16llx (A_NODE_BLOCK) %s
+Action %.16llx (A_UPDATE_NODESTATUS) %s
+telling attrd to clear attributes for remote host %s
+Could not send attrd refresh%s: %s (%d)
+Could not send attrd %s update%s: %s (%d)
+Disconnecting from attribute manager: %s (%d)
+Connecting to attribute manager ... %d retries remaining
+Not updating DC to %s (%s): we are also a DC
+Tried to start %s (%s:%dms) with a -ve period
+We appear to be in an election loop, something may be wrong
+%s (%s) just popped in state %s! (%dms)
+crmd_peer_down
+update_attrd_remote_node_removed
+update_attrd_helper
+update_attrd_helper
+erase_xpath_callback
+erase_status_tag
+erase_status_tag
+update_dc
+update_dc
+fsa_dump_actions
+fsa_dump_inputs
+fsa_action2string
+fsa_cause2string
+fsa_state2string
+fsa_input2string
+crm_timer_stop
+crm_timer_start
+crm_timer_start
+crm_timer_popped
+crm_timer_popped
+do_timer_control
+FSA: Input %s from %s() received in state %s
+Resource %s: Call ID %d returned %d (%d).  New status if rc=0: %s
+misc.c
+do_log
+do_log
+on_node_uuid
+Wrong key %s for %s on %s
+te_events.c
+Wrong node %s for %s on %s
+Found %s on %s
+No node uuid
+Action %d : Node mismatch: %s
+, ignoring failure
+value++
+arrived late
+arrived really late
+initiated by a different node
+event != NULL
+rc-code
+op-status
+Bad event
+Unexpected event
+Foreign event
+Old event
+Inactive graph
+Unknown event
+on-fail
+ignore
+Target rc: == %d
+Event failed
+Remote-node re-discovered.
+Processed update to %s: %s
+build_active_RAs
+on_uname != NULL
+promote
+demote
+INFINITY
+last failure
+No match for action %d
+Couldn't parse: %s
+Match found for action %d: %s on %s
+initiated outside of the cluster
+Re-mapping op status to PCMK_LRM_OP_DONE for rc=%d
+No update for %s (rc=%d) on %s: Old failure from lrm status refresh
+parse_op_key(id, &rsc_id, &task, &interval)
+Detected action (%d.%d) %s.%d=%s: %s
+Invalid event %s.%d detected: %s
+No match for shutdown action on %s
+Action %s (%d) confirmed on %s (rc=%d%s)
+Action %d (%s) on %s failed (target: %d vs. rc: %d): %s
+Updating %s for %s on %s after failed %s: rc=%d (update=%s, time=%s)
+Node %s shutdown resulted in un-runnable actions
+Action %d (%s) is scheduled for %s (offline)
+Action %d (%s) was pending on %s (offline)
+update_failcount
+update_failcount
+process_remote_node_action
+status_from_rc
+match_graph_event
+match_graph_event
+process_graph_event
+process_graph_event
+match_down_event
+match_down_event
+get_cancel_action
+fail_incompletable_actions
+fail_incompletable_actions
+jobs[%s] = %d
+te_actions.c
+migrate_source
+migrate_target
+stonith_action
+target != NULL
+BadAction
+tengine_stonith_callback
+action->timer->source_id != 0
+peer != NULL
+cib_fencing_updated
+new action
+Bad:action
+cib_action_updated
+ - no waiting
+action->xml != NULL
+op_no_wait
+record-pending
+ (local)
+local shutdown
+done
+graph->complete
+Transition %d status: %s - %s
+Action %d confirmed - no wait
+Action %d failed: send
+%s %d: %s on %s timed out
+Peer %s is over their job limit of %d (%d): deferring %s
+Peer %s is over their migration job limit of %d (%d): deferring %s
+Peer %s has not hit their limit yet. current jobs = %d limit= %d limit
+Sending fencing update %d for %s
+%s %d: Recording pending operation %s on %s
+Updating CIB with "%s" (%s): %s %s on %s
+Updating CIB with %s action %d: %s on %s (call_id=%d)
+on_node != NULL && strlen(on_node) != 0
+Action %d: %s %s on %s(timeout %dms) was already confirmed.
+Recording pending op %s in the CIB
+Pseudo action %d fired and confirmed
+Processing transition completion in state %s
+We didn't ask to be shut down, yet our PE is telling us too.
+Action %d: %s %s on %s had an invalid timeout (%dms).  Using %dms instead
+Initiating action %d: %s %s on %s%s%s
+Corrupted command(id=%s) %s: no node
+Action %d: %s on %s had an invalid timeout (%dms).  Using %dms instead
+crm-event (%s) is a local shutdown
+Executing crm-event (%s): %s on %s%s%s
+Corrupted command (id=%s) %s: no node
+Executing %s fencing operation (%s) on %s (timeout=%d)
+Recording uuid '%s' for node '%s'
+crm_clear_bit
+notify_crmd
+notify_crmd
+te_pseudo_action
+te_pseudo_action
+te_rsc_command
+te_rsc_command
+te_start_action_timer
+te_crm_command
+te_crm_command
+te_fence_node
+te_fence_node
+te_should_perform_action_on
+te_update_job_count_on
+cib_action_update
+cib_action_update
+send_stonith_update
+send_stonith_update
+Still connected
+te_utils.c
+rc == pcmk_ok
+st_notify_disconnect
+st_notify_fence
+Connected
+action timer
+global timer
+Stopping %s
+%s was already stopped
+Nothing to do
+Invoking graph %d in state %s
+Transition not yet complete
+Transition %d is now complete
+diff
+create
+change-result
+transition-magic
+<anyone>
+<unset>
+may have been
+%s.%d
+target=%s dc=%s
+External Fencing Operation
+Stonith failure
+Transition failed: %s
+Notify data not found
+Fencing daemon disconnected
+Attempting connection to fencing daemon...
+Transition not yet complete - no actions fired
+%s:%d - Triggered graph processing
+Transition aborted by %s.%s: %s (cib=%d.%d.%d, source=%s:%d, path=%s, %d)
+Transition aborted: %s (source=%s:%d, %d)
+Transition aborted by deletion of %s: %s (cib=%d.%d.%d, source=%s:%d, path=%s, %d)
+Transition aborted by %s, %s=%s: %s (%s cib=%d.%d.%d, source=%s:%d, path=%s, %d)
+Transition aborted by %s '%s' on %s: %s (magic=%s, cib=%d.%d.%d, source=%s:%d, %d)
+Transition aborted by %s '%s' on %s: %s (cib=%d.%d.%d, source=%s:%d, %d)
+Transition aborted by %s.%s '%s': %s (cib=%d.%d.%d, source=%s:%d, path=%s, %d)
+Abort %s suppressed: state=%s (complete=%d)
+Sign-in failed: pausing and trying again in 2s...
+Sign-in failed, but no longer required
+Sign-in failed: triggered a retry
+Target %s our leader %s (recorded: %s)
+External fencing operation from %s fenced %s
+Peer %s was%s terminated (%s) by %s for %s: %s (ref=%s) by client %s
+We were allegedly just fenced by %s for %s!
+Unfencing of %s by %s failed: %s (%d)
+%s was successfully unfenced by %s (at the request of %s)
+Fencing daemon connection failed
+STONITHd failure resulted in un-runnable actions
+Failing action %d (%s): STONITHd terminated
+abort_transition_graph
+abort_transition_graph
+trigger_graph_processing
+te_graph_trigger
+stop_te_timer
+fail_incompletable_stonith
+fail_incompletable_stonith
+tengine_stonith_connection_destroy
+tengine_stonith_connection_destroy
+tengine_stonith_notify
+tengine_stonith_notify
+te_connect_stonith
+te_connect_stonith
+node_state[@id='
+Got %p in %s
+te_callbacks.c
+LRM Refresh
+Processing %s
+node != NULL
+/lrm[@id=
+Expecting changes to %s (%s)
+No graph
+Filter state=%s, complete=%d
+cib_op
+diff != NULL
+Non-status change
+Ticket attribute: update
+Ticket attribute: removal
+Transient attribute: update
+Abort
+Transient attribute: removal
+//diff-removed//lrm_rsc_op
+match != NULL
+Resource op removal
+Patch:Raw
+move
+/cib/configuration
+/tickets
+Ticket attribute change
+/transient_attributes[
+Transient attribute change
+/lrm_rsc_op[
+Resource operation removal
+/lrm[
+Resource state removal
+/node_state[
+Node state removal
+Processing %s (%s) message
+Bad sys-to %s
+Processing (N)ACK
+Processing (N)ACK %s from %s
+Invalid (N)ACK
+finished processing message
+userdata != NULL
+Stonith failed
+Failed update
+CIB update failed
+timer->action != NULL
+Action missed its timeout: 
+Action lost
+Update %d FAILED: %s
+Stonith action not matched
+Invalid event detected
+strcmp((const char*)xml->name, XML_LRM_TAG_RESOURCES) == 0
+Detected LRM refresh - %d resources updated
+Not expecting %s to be down (%s)
+Processing (%s) diff: %d.%d.%d -> %d.%d.%d (%s)
+//cib_update_result//diff-added//tickets
+//cib_update_result//diff-removed//tickets
+//cib_update_result//diff-added//transient_attributes//nvpair
+//cib_update_result//diff-removed//transient_attributes
+//cib_update_result//diff-added//lrm_resource
+Detected LRM refresh - %d resources updated: Skipping all resource events
+//cib_update_result//diff-added//lrm_rsc_op
+No match for deleted action %s (%s on %s)
+Deleted lrm_rsc_op %s on %s was for graph event %d
+Handling %s operation for %s %p, %s
+No result for %s operation to %s
+//diff-added//cib//lrm_rsc_op[@id='%s']
+strcmp(op, "delete") == 0 || strcmp(op, "move") == 0
+decode_transition_key(userdata, &uuid, &transition_id, &stonith_id, &target_rc)
+Stonith operation %d for %s passed
+Aborting transition, action lost: 
+Ignoring timeout while not in transition
+Timer popped (timeout=%d, abort_level=%d, complete=%s)
+Fencing update %d for %s: complete
+Fencing update %d for %s: failed - %s (%d)
+Stonith operation %d for %s failed (%s): aborting transition.
+Ignoring STONITH action initiated outside of the current transition
+Stonith operation %d/%s: %s (%d)
+No devices found in cluster to fence %s, giving up
+Too many failures to fence %s (%d), giving up
+Unknown command: %s::%s from %s
+Ignoring %s operation for %s %p, %s
+Cancellation of %s on %s confirmed (%d)
+Could not extract node ID from %s
+action_timer_callback
+action_timer_callback
+cib_action_updated
+cib_fencing_updated
+cib_fencing_updated
+tengine_stonith_callback
+tengine_stonith_callback
+too_many_st_failures
+process_te_message
+process_te_message
+get_node_from_xpath
+process_resource_updates
+process_resource_updates
+abort_unless_down
+abort_unless_down
+get_node_id
+get_node_id
+te_legacy_update_diff
+te_legacy_update_diff
+te_update_diff
+te_update_diff
+;*3$"
+crmd.debug
+7zXZ
+FUXigIpl+Y
+CxfE
+ipJi
++fxt
+m>=u
+bA-Q2
+jy$T
+q5zI
+l;:L
+8w:L
+;#NF
+?JX[
+iV2%]
+-5S%
+Q>\j?
+L?7FP
+ie\@F
+7"	b#
+Ry	 g
+Gf]?t
+Y$L ;
+NL(~
+.8-.
+,=Vm
+74IT
+tuXau
+hmsE
+Tf~7T
+~2U+
+)*7h
+Q*Xu
+aZ15
+K0O8
+2da'5sX
+?F?X
+0`[Cb\p
+]\'R
+C8h?/
+-$YY
+5Dy5H
+<"ZRl
+'odX
+de$3u1
+dmq(
+k$3S
+E:Phv
+cC\P[D,x
+LGSub/30
+.{Ns
+*.!v
+FV\65YY+
+rDC5
+rc?u
+dZ(dQMt
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+__verbose
+.bss
+.gnu_debuglink
+.gnu_debugdata

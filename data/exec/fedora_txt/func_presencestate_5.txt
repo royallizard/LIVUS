@@ -1,0 +1,213 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+ast_custom_function_unregister
+ast_presence_state_prov_del
+ast_cli_unregister_multiple
+strchr
+ast_presence_state_val
+ast_log
+ast_cli_complete
+strncasecmp
+strlen
+memcpy
+ast_cli
+ast_db_put
+ast_presence_state_changed_literal
+__stack_chk_fail
+__ast_app_separate_args
+ast_presence_state_nocache
+strcasecmp
+ast_base64encode
+free
+ast_presence_state2str
+ast_db_gettree
+strrchr
+ast_db_freetree
+__ast_custom_function_register
+ast_presence_state_prov_add
+ast_cli_register_multiple
+ast_presence_state_changed
+ast_db_get
+ast_base64decode
+__strdup
+ast_register_file_version
+ast_unregister_file_version
+ast_module_register
+ast_module_unregister
+libpthread.so.0
+libc.so.6
+GLIBC_2.14
+GLIBC_2.4
+GLIBC_2.2.5
+%z/ 
+%r/ 
+%j/ 
+%b/ 
+%Z/ 
+%R/ 
+%J/ 
+%B/ 
+%:/ 
+%2/ 
+%*/ 
+%"/ 
+ffff.
+=21 
+fffff.
+=H* 
+=2* 
+=	. 
+[]A\A]A^A_
+AWAVAUATSH
+t;Hc
+[A\A]A^A_]
+9S u
+AVAUI
+ATSH
+[A\A]A^]
+AWAVAUI
+ATSH
+[A\A]A^A_]
+AVAUATUSH
+l$0I
+l$(H
+T$ M
+=C$ 
+[]A\A]A^A_
+t$ H
+AVAUATUSH
+D$PL
+d$`H
+l$8L
+|$XH
+D$HI
+D$DH
+T$(L
+|$DH
+t$HL
+D$0L
+L$ H
+T$(H
+D$0H
+[]A\A]A^A_
+D$0H
+|$8H
+\$0H
+T$(H
+L$ H
+[]A\A]
+t$(H
+t$ H
+|$(1
+|$ I
+CustomPresence
+func_presencestate.c
+Invalid options  '%s'
+presencestate change
+CustomPresence:
+Changing %s to %s
+PRESENCE_STATE unknown 
+value
+subtype
+message
+CustomPresence:%s
+presencestate list
+$Revision: 381655 $
+NOT_SET
+UNAVAILABLE
+AWAY
+CHAT
+func_presencestate
+PRESENCE_STATE
+Unknown presence state value %s
+Usage: presencestate change <entity> <state>[,<subtype>[,message[,options]]]
+       Change a custom presence to a new state.
+       The possible values for the state are:
+NOT_SET | UNAVAILABLE | AVAILABLE | AWAY | XA | CHAT | DND
+Optionally, a custom subtype and message may be provided, along with any options
+accepted by func_presencestate. If the subtype or message provided contain spaces,
+be sure to enclose the data in quotation marks ("")
+Examples:
+       presencestate change CustomPresence:mystate1 AWAY
+       presencestate change CustomPresence:mystate1 AVAILABLE
+       presencestate change CustomPresence:mystate1 "Away,upstairs,eating lunch"
+       
+The presencestate command can only be used to set 'CustomPresence:' presence state!
+The PRESENCE_STATE function can only set CustomPresence: presence providers.
+Invalid arguments to PRESENCE_STATE
+PRESENCE_STATE function called with no custom device name!
+PRESENCE_STATE reading requires both presence provider and presence field arguments. 
+PRESENCE_STATE reading requires an argument 
+Invalid CustomPresence entry %s encountered
+---------------------------------------------------------------------
+--- Custom Presence States ------------------------------------------
+---------------------------------------------------------------------
+No custom presence states defined
+--- Name: 'CustomPresence:%s'
+    --- State: '%s'
+    --- Subtype: '%s'
+    --- Message: '%s'
+    --- Base64 Encoded: '%s'
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Usage: presencestate list
+       List all custom presence states that have been set by using
+       the PRESENCE_STATE dialplan function.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-11.4.0/include/asterisk/utils.h
+Gets or sets a presence state in the dialplan
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+List currently know custom presence states
+Change a custom presence state
+_ast_strdup
+custom_presence_callback
+load_module
+presence_read
+presence_write
+handle_cli_presencestate_list
+parse_data
+CustomPresence
+;*3$"
+7e188f7e8f4d83eb438971816ebcf5e0
+func_presencestate.so.debug
+7zXZ
+^8yO
+'4Y$
+j~l{
+3dLD
+RqkE
+S	-,
+J~U,
+ih'MF%2T
+t>7B
+.z(\
+u*cH%
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

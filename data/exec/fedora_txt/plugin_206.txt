@@ -1,0 +1,284 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+value_area_get_width
+value_area_get_height
+value_new_error_std
+collect_floats_value
+value_get_as_float
+g_malloc0_n
+g_return_if_fail_warning
+value_new_array_empty
+value_new_float
+g_free
+g_malloc_n
+__stack_chk_fail
+go_complex_from_polar
+go_complex_mul
+go_complex_add
+go_complex_sub
+collect_floats_value_with_info
+g_slist_free
+gnm_strip_missing
+gnm_complex_to_string
+value_new_string_nocopy
+go_range_increasing
+gnm_slist_sort_merge
+g_log
+value_new_array_non_init
+sqrt
+go_cspline_init
+go_cspline_get_integrals
+go_cspline_destroy
+go_cspline_get_value
+go_cspline_get_values
+collect_float_pairs
+value_new_error_VALUE
+g_memdup
+TimeSeriesAnalysis_functions
+go_plugin_header
+go_plugin_depends
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+plugin.so
+GLIBC_2.2.5
+GLIBC_2.4
+%zI 
+%rI 
+%jI 
+%bI 
+%ZI 
+%RI 
+%JI 
+%BI 
+%:I 
+%2I 
+%*I 
+%"I 
+=uH 
+u+UH
+=ZH 
+=>@ 
+AWAVI
+AUATI
+D$81
+|$8dH3<%(
+H[]A\A]A^A_
+L$,L
+l$0I
+D$,Hc
+L$,H
+$9\$,
+AVAUE
+D$x1
+L$0E
+|$$D
+L$8E
+D$$f
+l$`L
+l$P1
+d$@I
+YL$(I
+T$8L
+o,2L
+)l$@
+T$0L
+o42L
+)t$@
+Y\$`
+o<2L
+)|$@
+D$hH
+YL$`H
+9\$$
+D$xdH3
+[]A\A]A^A_
+AWAVAUATUH
+D$(1
+t$(dH34%(
+8[]A\A]A^A_
+L$ E
+ATUH
+[]A\A]A^A_
+[]A\A]A^A_
+AWAVAUATUSH
+rQHc
+[]A\A]A^A_
+$8H9
+tQIc
+[]A\A]A^
+]A\A]A^
+AWAVAUATUSH
+|OHc
+[]A\A]A^A_
+vOHc
+AWAVAUATUH
+D$X1
+L$XdH3
+h[]A\A]A^A_
+t$8L
+l$0H
+D$@L
+D$4H
+D$HH
+|$@H
+t$HH
+L$0D
+t$0A9
+HcT$0
+HcT$0
+D$49
+T$@H
+L$0I
+D$0f
+L$ Hc
+D$4L
+T$0L
+L9d$ I
+[]A\A]A^A_
+AUATI
+u]Hc
+]A\A]A^
+A\A]A^
+AWAVAUI
+ATUSH
+D$H1
+L$8L
+l$8H
+\$HdH3
+X[]A\A]A^A_
+D$ I
+D$ PL
+L$@L
+D$HAYAZH
+|$(E
+|$@I
+t$$H
+t$$H
+Hc|$
+D$$H
+t$0H
+|$(H
+|$@E1
+HcT$
+D9d$
+E9'u
+HcT$
+D9d$
+|$0H
+n > 5
+interpolation
+AAA|f
+periodogram
+A|fAff
+fourier
+A|bb
+hpfilter
+INTERPOLATION
+PERIODOGRAM
+goffice
+gnumeric
+1.12.41
+This should not happen. n0=%d n1=%d
+HPFILTER:Hodrick Prescott Filter
+Sequence:the data sequence to be transformed
+:filter parameter 
+, defaults to 1600
+This array function returns the trend and cyclical components obtained by applying the Hodrick Prescott Filter with parameter @{
+} to the given data sequence.
+The output consists of two columns of numbers, the first containing the trend component, the second the cyclical component.
+If @{Sequence} is neither an n by 1 nor 1 by n array, this function returns #VALUE!
+If @{Sequence} contains less than 6 numerical values, this function returns #VALUE!
+FOURIER:Fourier or inverse Fourier transform
+Inverse:if true, the inverse Fourier transform is calculated, defaults to false
+Separate:if true, the real and imaginary parts are given separately, defaults to false
+This array function returns the Fourier or inverse Fourier transform of the given data sequence.
+The output consists of one column of complex numbers if @{Separate} is false and of two columns of real numbers if @{Separate} is true.
+If @{Separate} is true the first output column contains the real parts and the second column the imaginary parts.
+PERIODOGRAM:periodogram of the given data
+ordinates:ordinates of the given data
+filter:windowing function to be used, defaults to no filter
+abscissae:abscissae of the given data, defaults to regularly spaced abscissae
+interpolation:method of interpolation, defaults to none
+number:number of interpolated data points
+If an interpolation method is used, the number of returned values is one less than the number of targets and the targets values must be given in increasing order.
+The output consists always of one column of numbers.
+Possible interpolation methods are:
+0: linear;
+1: linear with averaging;
+2: staircase;
+3: staircase with averaging;
+4: natural cubic spline;
+5: natural cubic spline with averaging.
+Possible window functions are:
+0: no filter (rectangular window)
+1: Bartlett (triangular window)
+2: Hahn (cosine window)
+3: Welch (parabolic window)
+Strings and empty cells in @{abscissae} and @{ordinates} are ignored.
+If several target data are provided they must be in the same column in consecutive cells.
+INTERPOLATION:interpolated values corresponding to the given abscissa targets
+abscissae:abscissae of the given data points
+ordinates:ordinates of the given data points
+targets:abscissae of the interpolated data
+interpolation:method of interpolation, defaults to 0 ('linear')
+The @{abscissae} should be given in increasing order. If the @{abscissae} is not in increasing order the INTERPOLATION function is significantly slower.
+If any two @{abscissae} values are equal an error is returned.
+If any of interpolation methods 1 ('linear with averaging'), 3 ('staircase with averaging'), and 5 ('natural cubic spline with averaging') is used, the number of returned values is one less than the number of targets and the target values must be given in increasing order. The values returned are the average heights of the interpolation function on the intervals determined by consecutive target values.
+=interpolation(array(1,2,3),array(10,20,20),1.5,0)
+=interpolation(array(1,2,3),array(10,20,20),array(1.5,4),1)
+gnm_hpfilter
+munG
+;*3$"
+gcc 8.1.1 20180626
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+GA!stack_realign
+plugin.so-1.12.41-2.fc29.x86_64.debug
+7zXZ
+ N|A
+sNu-
+hI<a
+*f,>
+t:E/
+ly16
+E9Qei
+Vv4'
+r@{9
+oz|M
+mjt-
+6_{<
+t$mh
+opYr
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.gnu.property
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

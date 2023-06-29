@@ -1,0 +1,270 @@
+/lib64/ld-linux-x86-64.so.2
+libldap-2.4.so.2
+__gmon_start__
+_Jv_RegisterClasses
+ldap_msgfree
+ldap_get_option
+ldap_get_dn
+ldap_simple_bind_s
+ldap_initialize
+ldap_start_tls_s
+ldap_err2string
+ldap_memfree
+ldap_first_entry
+ldap_compare_s
+ldap_init
+ldap_search_s
+ldap_unbind
+ldap_set_option
+liblber-2.4.so.2
+ber_pvt_opt_on
+librt.so.1
+libpthread.so.0
+__errno_location
+libdl.so.2
+libm.so.6
+rint
+libresolv.so.2
+libnsl.so.1
+libc.so.6
+strcpy
+__printf_chk
+exit
+fopen
+strrchr
+__strdup
+perror
+puts
+__stack_chk_fail
+realloc
+abort
+stdin
+strtok
+strtol
+fgets
+calloc
+strlen
+strstr
+__fprintf_chk
+stdout
+fputc
+memcpy
+fclose
+malloc
+__ctype_b_loc
+sscanf
+stderr
+__snprintf_chk
+fwrite
+__ctype_tolower_loc
+__cxa_finalize
+__sprintf_chk
+setbuf
+strerror
+__libc_start_main
+snprintf
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+5:? 
+%<? 
+%:? 
+%2? 
+%*? 
+%"? 
+%z> 
+%r> 
+%j> 
+%b> 
+%Z> 
+%R> 
+%J> 
+%B> 
+%:> 
+%2> 
+%*> 
+%"> 
+=h= 
+ATSubH
+=P; 
+=E< 
+=`; 
+AWAVAUATUSH
+D$|dH
+-l: 
+[]A\A]A^A_
+5*9 
+l$hL
+l$`L
+l$XL
+l$PL
+l$HL
+l$@L
+l$8L
+l$0L
+l$(L
+l$ L
+=S7 
+507 
+t$|H
+t$|H
+fffff.
+AVAUI
+ATUSH
+T$@H
++vLH
+<3vXH
+-y3 
+|$(A
+L$(L
+d$(~'I
+t$(M
+|$<1
+-y1 
+=A0 
+H+L$
+-a/ 
+=W/ 
+=;/ 
+L$(L
+-i. 
+D$$L
+|$<1
+t$$L
+[]A\A]A^A_
+d$<E
+|$<1
+localhosf
+AUATI
+tb<%A
+<%th
+ []A\A]A^
+AWAVA
+AUATUH
+[]A\A]A^A_
+=$& 
+fffff.
+ffffff.
+fff.
+fffff.
+fff.
+=u! 
+fff.
+=O@ 
+=*@ 
+fff.
+fffff.
+=z? 
+fff.
+fffff.
+l$ L
+t$(L
+|$0H
+TLS requires LDAP version 3
+Blank password given
+%02x
+Ldap search returned nothing
+%s=%s,%s
+%s %s
+base
+never
+always
+search
+find
+	-p port			LDAP server port
+	-c timeout		connect timeout
+	-v 2|3			LDAP version
+ERR No such user
+ERR %s
+Unable to connect to LDAPURI:%s
+Unable to connect to LDAP server:%s port:%d
+Could not set LDAP_OPT_PROTOCOL_VERSION %d
+Could not Activate TLS connection
+squid_ldap_auth: WARNING, could not bind to binddn '%s'
+user filter '%s', searchbase '%s'
+noreferrals && rc == LDAP_PARTIAL_RESULTS
+squid_ldap_auth: WARNING, LDAP search error '%s'
+squid_ldap_auth: ERROR, could not get user DN for '%s'
+attempting to authenticate user '%s'
+squid_ldap_auth: ERROR: Unknown search scope '%s'
+squid_ldap_auth ERROR: -E unsupported with this LDAP library
+squid_ldap_auth: ERROR: Unknown alias dereference method '%s'
+squid_ldap_auth ERROR: Can not read secret file %s
+squid_ldap_auth ERROR: Secret file %s is empty
+squid_ldap_auth ERROR: can not allocate memory
+Protocol version should be 2 or 3
+TLS (-Z) is incompatible with version %d
+squid_ldap_auth: ERROR: Unknown command line option '%c'
+Usage: squid_ldap_auth -b basedn [options] [ldap_server_name[:port]]...
+	-b basedn (REQUIRED)	base dn under which to search
+	-f filter		search filter to locate user DN
+	-u userattr		username DN attribute
+	-s base|one|sub		search scope
+	-D binddn		DN to bind as to perform searches
+	-w bindpasswd		password for binddn
+	-W secretfile		read password for binddn from file secretfile
+	-H URI			LDAPURI (defaults to ldap://localhost)
+	-h server		LDAP server (defaults to localhost)
+	-P			persistent LDAP connection
+	-t timelimit		search time limit
+	-R			do not follow referrals
+	-a never|always|search|find
+				when to dereference aliases
+	-Z			TLS encrypt the LDAP connection, requires LDAP version 3
+	If no search filter is specified, then the dn <userattr>=user,basedn
+	will be used (same as specifying a search filter of '<userattr>=',
+	but quicker as as there is no need to search for the user DN)
+	If you need to bind as a user to perform searches then use the
+	-D binddn -w bindpasswd or -D binddn -W secretfile options
+%%%02X
+<>"#{}|\^~[]`' ;/?:@=&%.2f MB
+%.2f GB
+%.2f TB
+%.3f GB
+%.4f TB
+Unknown error
+(%d) %s
+xcalloc
+realloc
+malloc
+util.c
+s != NULL
+xcalloc: Unable to allocate %u blocks of %u bytes!
+xrealloc: Unable to reallocate %d bytes!
+xmalloc: Unable to allocate %d bytes!
+xstrdup: tried to dup a NULL pointer!
+mBassertion failed: %s:%d: "%s"
+squid_ldap_auth.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

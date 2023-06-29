@@ -1,0 +1,899 @@
+]Im8
+1\mK
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_talloc_get_type_abort
+system_session
+samdb_connect
+samdb_rodc
+lpcfg_parm_int
+initialize_krb5_error_table
+smb_krb5_init_context
+initialize_hdb_error_table_r
+krb5_add_et_list
+krb5_kdc_get_config
+talloc_named_const
+lpcfg_kdc_enable_fast
+_talloc_zero
+hdb_samba4_create_kdc
+hdb_samba4_interface
+krb5_plugin_register
+talloc_asprintf
+hdb_get_kt_ops
+krb5_kt_register
+kdc_plugin_table
+krb5_kdc_plugin_init
+krb5_kdc_pkinit_config
+ndr_table_irpc
+irpc_register
+irpc_add_name
+debuglevel_get_class
+task_server_terminate
+dbghdrclass
+dbgtext
+ldb_errstring
+error_message
+__stack_chk_fail
+talloc_check_name
+data_blob_named
+ndr_pull_PAC_Validate
+ndr_pull_struct_blob
+data_blob_const
+lpcfg_realm
+krb5_make_principal
+kdc_check_pac
+hdb_free_entry
+krb5_free_principal
+lpcfg_server_role
+load_interface_list
+iface_list_count
+task_server_set_title
+lpcfg_krb5_port
+lpcfg_kpasswd_port
+lpcfg_bind_interfaces_only
+iface_list_n_ip
+talloc_strdup
+kdc_add_socket
+kpasswd_process
+_talloc_free
+iface_list_wildcard
+krb5_data_zero
+krb5_kdc_update_time
+tsocket_address_bsd_sockaddr
+tsocket_address_string
+krb5_kdc_process_krb5_request
+data_blob_talloc_named
+krb5_data_free
+samba_init_module
+register_server_service
+auth_context_create
+gensec_server_start
+gensec_set_credentials
+gensec_set_target_service
+_talloc_steal_loc
+nt_errstr
+samba_server_gensec_start
+lpcfg_gensec_settings
+talloc_reparent
+samba_server_gensec_krb5_start
+_talloc_zero_array
+gensec_init
+gensec_security_by_oid
+samdb_kpasswd_change_password
+samdb_set_password_sid
+dom_sid_string
+_tevent_req_callback_data
+tdgram_recvfrom_recv
+tsocket_address_inet_port
+kdc_udp_proxy_send
+tevent_req_set_callback
+tdgram_sendto_queue_send
+tdgram_recvfrom_send
+tdgram_sendto_queue_recv
+smb_krb5_mk_error
+smb_krb5_free_data_contents
+kdc_udp_proxy_recv
+stream_terminate_connection
+_tevent_queue_create
+socket_get_fd
+_tstream_bsd_existing_socket
+packet_full_request_u32
+tstream_read_pdu_blob_send
+tstream_read_pdu_blob_recv
+kdc_tcp_proxy_send
+tstream_writev_queue_send
+tstream_writev_queue_recv
+strerror
+kdc_tcp_proxy_recv
+_tsocket_address_inet_from_strings
+_tdgram_inet_udp_socket
+lpcfg_socket_options
+stream_setup_socket
+__errno_location
+map_nt_error_from_unix_common
+ldb_get_default_basedn
+dsdb_loadreps
+_talloc_array
+_tevent_req_data
+__explicit_bzero_chk
+make_nbt_name
+lpcfg_resolve_context
+resolve_name_ex_send
+_tevent_req_nomem
+_tevent_req_nterror
+resolve_name_recv
+tdgram_sendto_send
+timeval_current_ofs
+tevent_req_set_endtime
+_tevent_req_done
+tdgram_sendto_recv
+tstream_inet_tcp_connect_send
+_tstream_inet_tcp_connect_recv
+tstream_writev_send
+_tevent_req_oom
+tstream_writev_recv
+_tevent_req_create
+tevent_req_is_in_progress
+werror_to_ntstatus
+tevent_req_post
+tevent_req_is_nterror
+_talloc_move
+tevent_req_received
+hdb_enctype2key
+check_pac_checksum
+krb5_cksumtype_to_enctype
+kdc_request_get_server
+kdc_request_get_req
+malloc
+kdc_request_add_encrypted_padata
+kdc_request_get_error_code
+kdc_request_get_client
+talloc_strndup
+strlen
+kdc_request_get_cname
+samba_kdc_check_client_access
+kdc_request_get_rep
+kdc_request_get_context
+krb5_padata_add
+samba_kdc_map_policy_err
+kdc_request_get_config
+krb5_find_padata
+rep_memset_s
+decode_PA_PAC_OPTIONS
+kdc_request_get_explicit_armor_client
+kdc_request_get_explicit_armor_pac
+krb5_pac_get_kdc_checksum_info
+samba_kdc_validate_pac_blob
+samba_krbtgt_is_in_db
+krb5_pac_verify
+samba_kdc_fetch
+sdb_entry_to_hdb_entry
+sdb_entry_free
+kdc_request_get_ticket
+krb5_kdc_get_time
+rk_time_sub
+kdc_audit_addreason
+krb5_pac_init
+samba_kdc_update_pac
+krb5_pac_free
+data_blob_null
+krb5_principal_is_krbtgt
+samba_kdc_get_pac_blobs
+samba_kdc_encrypt_pac_credentials
+samba_make_krb5_pac
+tsocket_address_is_inet
+cli_credentials_init
+cli_credentials_set_krb5_context
+cli_credentials_set_conf
+cli_credentials_set_realm
+cli_credentials_set_username
+cli_credentials_get_principal_and_obtained
+cli_credentials_set_keytab_name
+gensec_set_local_address
+gensec_want_feature
+gensec_start_mech_by_name
+gensec_update
+gensec_unwrap
+kpasswd_handle_request
+kpasswd_make_error_reply
+smb_krb5_data_from_blob
+cli_credentials_get_principal
+smb_krb5_parse_name
+memcpy
+gensec_wrap
+push_utf8_talloc
+kpasswd_make_pwchange_reply
+kpasswd_samdb_set_password
+ldb_transaction_start
+crack_service_principal_name
+ldb_transaction_commit
+crack_user_principal_name
+ldb_dn_get_linearized
+ldb_transaction_cancel
+kpasswd_check_non_tgt
+gensec_krb5_initial_ticket
+gensec_session_info
+decode_ChangePasswdDataMS
+lpcfg_iconv_handle
+convert_string_talloc_handle
+krb5_build_principal_ext
+copy_PrincipalName
+free_ChangePasswdDataMS
+krb5_unparse_name_short
+krb5_unparse_name
+strcmp
+libreplace-samba4.so.0
+libauthkrb5-samba4.so.0
+libsamba-security-samba4.so.0
+libsamba-hostconfig.so.0
+libkdc-samba4.so.0
+libldb.so.2
+libsamba-credentials.so.1
+libkrb5samba-samba4.so.0
+libtevent-util.so.0
+libsamba-sockets-samba4.so.0
+libcom-err-samba4.so.0
+libpac-samba4.so.0
+libgensec-samba4.so.0
+libservice-samba4.so.0
+libsamdb.so.0
+libHDB-SAMBA4-samba4.so.0
+libhdb-samba4.so.0
+libauth4-samba4.so.0
+libsamba-errors.so.1
+libndr-krb5pac.so.0
+libndr.so.3
+libsamba-util.so.0
+libroken-samba4.so.0
+libasn1-samba4.so.0
+libkrb5-samba4.so.0
+libsamdb-common-samba4.so.0
+libsamba-debug-samba4.so.0
+libndr-samba4.so.0
+libMESSAGING-samba4.so.0
+libdb-glue-samba4.so.0
+libnetif-samba4.so.0
+libcli-ldap-samba4.so.0
+libtevent.so.0
+libtalloc.so.2
+libc.so.6
+kdc.so
+SAMBA_4.18.1_DEBIAN_SAMBA4
+NDR_0.0.1
+TEVENT_UTIL_0.0.1
+LDB_0.9.10
+NDR_KRB5PAC_0.0.1
+TEVENT_0.9.12
+TEVENT_0.9.9
+SAMBA_HOSTCONFIG_0.0.1
+SAMBA_UTIL_0.0.1
+SAMBA_CREDENTIALS_1.0.0
+SAMDB_0.0.1
+SAMBA_ERRORS_1.0.0
+TALLOC_2.0.2
+GLIBC_2.4
+GLIBC_2.14
+GLIBC_2.25
+GLIBC_2.2.5
+/usr/lib/x86_64-linux-gnu/samba
+u+UH
+AUATUSH
+L$ ?H
+D$ H
+[]A\A]
+AWAVAUATUH
+T$0H
+[]A\A]A^A_
+D$<H
+|$PE1
+|$4H
+T$ H
+AVAUATUSH
+D$H1
+ti~G
+T$HdH+
+X[]A\A]A^A_
+T$@L
+l$@H
+D$ A
+|$$E
+D$(E1
+D$4H
+|$ H
+D$0H
+l$(H
+|$0M
+|$ I
+D$(H
+AZA[
+AXAY
+D$8H
+|$0M
+l$(L
+AWAVAUI
+|$ dH
+PAWH
+[]A\A]A^A_
+AWAVAUI
+D$81
+D$0H
+T$0H
+L$(H
+|$(L
+t$(H
+D$8dH+
+[]A\A]A^A_
+AWAVM
+t$PL
+D$PL
+[]A\A]A^A_
+[]A\A]A^A_
+AUATUH
+t$PAWH
+D$PL
+[]A\A]A^A_
+[]A\A]A^A_
+AUE1
+ATE1
+t$8AVj
+[]A\A]A^
+D$8H
+D$8H
+[]A\A]A^
+|$8H
+AUATI
+([]A\A]
+AUE1
+D$ H
+([]A\A]
+AUATUH
+[]A\A]
+[]A\A]
+[]A\
+[]A\
+AVAUATI
+[]A\A]A^
+[]A\A]A^
+]A\A]A^
+ATUSH
+[]A\
+AVAUATI
+t6[H
+]A\A]A^
+]A\A]A^
+]A\A]A^
+[]A\H
+8A]A^
+[]A\A]A^A_
+7AWSPH
+D$,PAU
+[]A\A]A^A_
+[]A\A]A^A_
+[]A\A]A^A_
+AUATI
+([]A\A]
+AUATUH
+[]A\A]
+]A\A]
+ []A\
+[]A\
+AUATUSH
+([]A\A]
+AUATUSH
+[]A\A]
+AUATUH
+[]A\A]
+]A\A]
+ []A\
+[]A\
+AUATUH
+[]A\A]
+AUATUH
+H9CXu/H
+([]A\A]
+ATUSH
+[]A\
+[]A\A]A^A_
+ATUH
+t$(L
+D$0H
+[]A\A]
+[]A\A]A^A_
+ATUH
+t$PL
+D$XH
+[]A\A]
+D$(1
+T$(dH+
+0[]A\A]A^
+ []A\
+AVAUATE1
+D$(1
+T$(dH+
+8[]A\A]A^A_
+D$(dH+
+[]A\A]A^A_
+E @uCH
+ATUSH
+D$0twI
+L$xH
+[]A\A]A^A_
+D$lH
+t$pH
+D$XH
+D$(H
+T$0H
+|$@H
+T$kH
+|$Lv
+|$XH
+D$ I9
+D$8H
+T$@E
+t$xH
+|$XH
+t$LH
+T$tH
+D$(H
+t$ M
+t$xL
+D$HH
+T$XH
+D$xD
+t$xH
+ATUH
+D$x1
+)D$`H
+t$,H
+D$xdH+
+[]A\A]A^A_
+l$8M
+D$PH
+t$0Q
+t$()
+t$(L
+l$8H
+t$`H
+D$xH
+L$pH
+D$8H
+AVAUATUSH
+)D$P
+)D$`
+)D$p
+Hc|$
+D$ E)
+T$(A
+D$`H
+D$HP
+AYAZ
+|$@L
+|$@H
+|$@H
+T$ L
+D$PL
+D$`H
+|$@L
+l$pL
+D$@PH
+T$PL
+)\$PH
+T$8H
+L$pD
+|$pH
+t$xD
+T$HH
+L$X1
+t$XA
+D$`H
+T$hH
+T$X1
+T$XH
+t$PH
+D$XH
+t$`H
+[]A\A]A^A_
+|$@H
+)d$P
+)T$P
+t$8H
+)L$P
+AVAUI
+[]A\A]A^
+AWAVAUE
+D$`L
+t$hL
+|$pH
+D$(H
+[]A\A]A^A_
+AWAVM
+([]A\A]A^A_
+D$(PL
+AWAVI
+ATUH
+T$8L
+|$8L
+[]A\A]A^A_
+D$8I
+\$pf
+L$HH
+)D$pH
+)T$`
+\$pM
+)L$p
+D$x1
+L$HH
+L$pL
+D$xH
+L$ L
+D$`H
+D$(H
+D$hPQL
+L$01
+t$@1
+t$@H
+t$@D
+T$XL
+t$@L
+D$XPH
+D$DP
+t$@L
+L$xH
+D$8H
+t$@L
+kdc: Null task
+kdc: No kdc_server info
+struct kdc_server
+%s: 
+proxy timeout
+kdc: krb5_init_context failed
+struct HDB *
+kdc: out of memory
+struct samba_kdc_base_context
+hdb_samba4_interface
+HDBGET:samba4:&%p
+krbtgt
+task[kdc]
+kpasswd
+../../source4/kdc/kdc-heimdal.c:340
+../../source4/kdc/kdc-heimdal.c:350
+kdc_task_init: unable to connect to samdb
+kdc: krb5_init_context samdb connect failed
+../../source4/kdc/kdc-heimdal.c:357
+kdc_task_init: Cannot determine if we are an RODC: %s
+kdc: krb5_init_context samdb RODC connect failed
+../../source4/kdc/kdc-heimdal.c:370
+kdc_task_init: krb5_init_context failed (%s)
+kdc: failed to get KDC configuration
+kdc: hdb_samba4_create_kdc (setup KDC database) failed
+kdc: failed to register hdb plugin
+kdc: Failed to set keytab name
+kdc: failed to register keytab plugin
+kdc: failed to register kdc plugin
+kdc: failed to init kdc plugin
+kdc: failed to init kdc pkinit subsystem
+kdc failed to setup monitoring
+DATA_BLOB: ../../source4/kdc/kdc-heimdal.c:202
+kdc: no KDC required in standalone configuration
+kdc: no KDC required in member server configuration
+Cannot start KDC as a 'classic Samba' DC
+kdc: no network interfaces configured
+talloc_new: ../../source4/kdc/kdc-heimdal.c:122
+../../source4/kdc/kdc-heimdal.c:156
+../../source4/kdc/kdc-heimdal.c:181
+kdc failed to setup interfaces
+../../source4/kdc/kdc-heimdal.c:84
+Received KDC packet of length %lu from %s
+DATA_BLOB: ../../source4/kdc/kdc-heimdal.c:95
+DATA_BLOB: ../../source4/kdc/kdc-heimdal.c:100
+DATA_BLOB: ../../source4/kdc/kdc-heimdal.c:105
+DATA_BLOB: ../../source4/kdc/kdc-heimdal.c:108
+kdc_process
+kdc_post_fork
+talloc_new: ../../source4/auth/samba_server_gensec.c:43
+../../source4/auth/samba_server_gensec.c:55
+Failed to start auth server code: %s
+../../source4/auth/samba_server_gensec.c:56
+../../source4/auth/samba_server_gensec.c:65
+../../source4/auth/samba_server_gensec.c:66
+Failed to start GENSEC server code: %s
+../../source4/auth/samba_server_gensec.c:75
+../../source4/auth/samba_server_gensec.c:76
+../../source4/auth/samba_server_gensec.c:101
+const struct gensec_security_ops *
+../../source4/auth/samba_server_gensec.c:129
+../../source4/auth/samba_server_gensec.c:146
+1.2.840.113554.1.2.2
+1.3.6.1.5.5.2
+samba_server_gensec_start_settings
+Failed to open samdb
+../../source4/kdc/kpasswd_glue.c:65
+Changing password of %s\%s (%s)
+No such user when changing password
+samdb_kpasswd_change_password
+../../source4/kdc/kdc-server.c:109
+../../source4/kdc/kdc-server.c:119
+../../source4/kdc/kdc-server.c:126
+../../source4/kdc/kdc-server.c:128
+../../source4/kdc/kdc-server.c:135
+Received krb5 UDP packet of length %lu from %s
+../../source4/kdc/kdc-server.c:148
+../../source4/kdc/kdc-server.c:156
+kdc_udp_call_loop: proxying requested when not RODC
+../../source4/kdc/kdc-server.c:157
+../../source4/kdc/kdc-server.c:169
+../../source4/kdc/kdc-server.c:184
+no memory for tdgram_recvfrom_send
+../../source4/kdc/kdc-server.c:239
+../../source4/kdc/kdc-server.c:247
+../../source4/kdc/kdc-server.c:93
+Unable to form krb5 error reply
+DATA_BLOB: ../../source4/kdc/kdc-server.c:97
+../../source4/kdc/kdc-server.c:205
+../../source4/kdc/kdc-server.c:210
+../../source4/kdc/kdc-server.c:218
+../../source4/kdc/kdc-server.c:230
+../../source4/kdc/kdc-server.c:480
+../../source4/kdc/kdc-server.c:489
+../../source4/kdc/kdc-server.c:491
+kdc_tcp_accept: no memory for tstream_read_pdu_blob_send
+../../source4/kdc/kdc-server.c:252
+kdc_tcp_call_loop: no memory for kdc_tcp_call
+../../source4/kdc/kdc-server.c:269
+kdc_tcp_call_loop: tstream_read_pdu_blob_recv() - %s
+../../source4/kdc/kdc-server.c:284
+Received krb5 TCP packet of length %lu from %s
+kdc_tcp_call_loop: process function failed
+kdc_tcp_call_loop: proxying requested when not RODC
+kdc_tcp_call_loop: kdc_tcp_proxy_send failed
+kdc_tcp_call_loop: no memory for tstream_writev_queue_send
+kdc_tcp_call_loop: no memory for tstream_read_pdu_blob_send
+kdc_tcp_call_writev_done: tstream_writev_queue_recv() failed
+../../source4/kdc/kdc-server.c:437
+../../source4/kdc/kdc-server.c:443
+kdc_tcp_call_writev_done: tstream_writev_queue_recv() - %d:%s
+../../source4/kdc/kdc-server.c:460
+kdc_tcp_call_proxy_done: kdc_proxy_unavailable_error() failed
+../../source4/kdc/kdc-server.c:370
+../../source4/kdc/kdc-server.c:376
+kdc_tcp_call_proxy_done: kdc_proxy_unavailable_error - %s
+../../source4/kdc/kdc-server.c:568
+../../source4/kdc/kdc-server.c:587
+Failed to bind to %s:%u TCP - %s
+../../source4/kdc/kdc-server.c:589
+../../source4/kdc/kdc-server.c:599
+../../source4/kdc/kdc-server.c:605
+Failed to bind to %s:%u UDP - %s
+../../source4/kdc/kdc-server.c:610
+struct kdc_udp_socket
+struct kdc_udp_call
+struct kdc_tcp_connection
+kdc_tcp_send: called
+kdc_tcp_recv: called
+kdc_tcp_accept: out of memory
+kdc_tcp_accept
+struct kdc_socket
+struct kdc_tcp_call
+kdc_udp_send_queue
+kdc_tcp
+kdc_tcp_call_loop
+kdc_proxy_unavailable_error
+kdc_udp_call_loop
+kdc_add_socket
+repsFrom
+char *
+struct kdc_udp_proxy_state
+struct tevent_req
+struct kdc_tcp_proxy_state
+../../source4/kdc/kdc-proxy.c:54
+../../source4/kdc/kdc-proxy.c:54: No replication sources for RODC in KDC proxy
+../../source4/kdc/kdc-proxy.c:55
+../../source4/kdc/kdc-proxy.c:60
+../../source4/kdc/kdc-proxy.c:62
+../../source4/kdc/kdc-proxy.c:72
+../../source4/kdc/kdc-proxy.c:76
+../../source4/kdc/kdc-proxy.c:143
+../../source4/kdc/kdc-proxy.c:149
+../../source4/kdc/kdc-proxy.c:156
+../../source4/kdc/kdc-proxy.c:167
+../../source4/kdc/kdc-proxy.c:180
+../../source4/kdc/kdc-proxy.c:183
+../../source4/kdc/kdc-proxy.c:193
+Unable to resolve proxy[%s] - %s
+../../source4/kdc/kdc-proxy.c:200
+../../source4/kdc/kdc-proxy.c:206
+../../source4/kdc/kdc-proxy.c:216
+../../source4/kdc/kdc-proxy.c:229
+../../source4/kdc/kdc-proxy.c:236
+../../source4/kdc/kdc-proxy.c:246
+tevent_req_set_endtime failed
+../../source4/kdc/kdc-proxy.c:250
+kdc_udp_proxy: proxying request to %s[%s]
+../../source4/kdc/kdc-proxy.c:285
+../../source4/kdc/kdc-proxy.c:288
+../../source4/kdc/kdc-proxy.c:296
+../../source4/kdc/kdc-proxy.c:298
+kdc_udp_proxy: reply from %s[%s] gave %d : %s
+../../source4/kdc/kdc-proxy.c:313
+../../source4/kdc/kdc-proxy.c:261
+../../source4/kdc/kdc-proxy.c:264
+../../source4/kdc/kdc-proxy.c:270
+../../source4/kdc/kdc-proxy.c:272
+kdc_udp_proxy: sendto for %s[%s] gave %d : %s
+../../source4/kdc/kdc-proxy.c:405
+../../source4/kdc/kdc-proxy.c:411
+../../source4/kdc/kdc-proxy.c:418
+../../source4/kdc/kdc-proxy.c:429
+../../source4/kdc/kdc-proxy.c:441
+../../source4/kdc/kdc-proxy.c:444
+../../source4/kdc/kdc-proxy.c:453
+../../source4/kdc/kdc-proxy.c:460
+../../source4/kdc/kdc-proxy.c:466
+../../source4/kdc/kdc-proxy.c:477
+../../source4/kdc/kdc-proxy.c:491
+../../source4/kdc/kdc-proxy.c:494
+../../source4/kdc/kdc-proxy.c:498
+../../source4/kdc/kdc-proxy.c:500
+../../source4/kdc/kdc-proxy.c:510
+../../source4/kdc/kdc-proxy.c:521
+../../source4/kdc/kdc-proxy.c:528
+kdc_tcp_proxy: proxying request to %s[%s]
+../../source4/kdc/kdc-proxy.c:549
+../../source4/kdc/kdc-proxy.c:552
+../../source4/kdc/kdc-proxy.c:558
+DATA_BLOB: ../../source4/kdc/kdc-proxy.c:568
+../../source4/kdc/kdc-proxy.c:570
+../../source4/kdc/kdc-proxy.c:574
+../../source4/kdc/kdc-proxy.c:535
+../../source4/kdc/kdc-proxy.c:540
+../../source4/kdc/kdc-proxy.c:110
+../../source4/kdc/kdc-proxy.c:123
+../../source4/kdc/kdc-proxy.c:321
+../../source4/kdc/kdc-proxy.c:366
+../../source4/kdc/kdc-proxy.c:379
+../../source4/kdc/kdc-proxy.c:582
+kdc_tcp_proxy_connect_done
+kdc_tcp_proxy_resolve_done
+kdc_udp_proxy_sendto_done
+kdc_udp_proxy_recvfrom_done
+kdc_udp_proxy_resolve_done
+kdc_udp_proxy_resolve_done
+kdc_proxy_get_writeable_dcs
+struct samba_kdc_entry
+samba_kdc_reget_pac2 context
+samba_get_pac context
+../../source4/kdc/wdc-samba4.c:394
+../../source4/kdc/wdc-samba4.c:427
+Failed to get PAC checksum info
+Ticket is not a ticket-granting ticket
+../../source4/kdc/wdc-samba4.c:226
+../../source4/kdc/wdc-samba4.c:228
+../../source4/kdc/wdc-samba4.c:249
+../../source4/kdc/wdc-samba4.c:256
+../../source4/kdc/wdc-samba4.c:267
+../../source4/kdc/wdc-samba4.c:330
+PAC KDC signature failed to verify
+../../source4/kdc/wdc-samba4.c:377
+../../source4/kdc/wdc-samba4.c:143
+../../source4/kdc/wdc-samba4.c:180
+../../source4/kdc/wdc-samba4.c:191
+../../source4/kdc/wdc-samba4.c:199
+../../source4/kdc/wdc-samba4.c:209
+samba_wdc_reget_pac2
+samba_wdc_reget_pac
+talloc_new: ../../source4/kdc/kpasswd-service.c:80
+../../source4/kdc/kpasswd-service.c:87
+../../source4/kdc/kpasswd-service.c:112
+../../source4/kdc/kpasswd-service.c:117
+../../source4/kdc/kpasswd-service.c:123
+Request length does not match
+../../source4/kdc/kpasswd-service.c:129
+../../source4/kdc/kpasswd-service.c:134
+../../source4/kdc/kpasswd-service.c:146
+Failed to initialize server credentials!
+../../source4/kdc/kpasswd-service.c:201
+../../source4/kdc/kpasswd-service.c:209
+Failed to set credentials keytab name
+../../source4/kdc/kpasswd-service.c:266
+../../source4/kdc/kpasswd-service.c:280
+../../source4/kdc/kpasswd-service.c:307
+../../source4/kdc/kpasswd-service.c:319
+Invalid error string! This should not happen
+../../source4/kdc/kpasswd-service.c:328
+../../source4/kdc/kpasswd-service.c:344
+Failed to create principal: %s
+../../source4/kdc/kpasswd-service.c:359
+Failed to create krb5 error reply: %s
+DATA_BLOB: ../../source4/kdc/kpasswd-service.c:364
+../../source4/kdc/kpasswd-service.c:368
+Failed to allocate memory for error reply
+DATA_BLOB: ../../source4/kdc/kpasswd-service.c:373
+../../source4/kdc/kpasswd-service.c:391
+Invalid remote IP address
+Invalid local IP address
+Request truncated
+Unsupported version: 0x%04x
+AP_REQ truncated
+kadmin/changepw
+krb5
+gensec_update failed - %s
+gensec_unwrap failed - %s
+gensec_wrap failed - %s
+Failed to create error reply
+kpasswd_process
+../../source4/kdc/kpasswd-helper.c:43
+../../source4/kdc/kpasswd-helper.c:45
+../../source4/kdc/kpasswd-helper.c:58
+../../source4/kdc/kpasswd-helper.c:65
+../../source4/kdc/kpasswd-helper.c:69
+../../source4/kdc/kpasswd-helper.c:71
+../../source4/kdc/kpasswd-helper.c:78
+Password does not meet complexity requirements
+Password is already in password history
+Password change rejected, password changes may not be permitted on this account, or the minimum password age may not have elapsed.
+Not permitted to change password
+Password too short, password must be at least %d characters long.
+Password is already in password history. New password must not match any of your %d previous passwords.
+../../source4/kdc/kpasswd-helper.c:191
+%s\%s (%s) is changing password of %s
+../../source4/kdc/kpasswd-helper.c:233
+Failed to commit transaction to set password on %s: %s
+A TGT may not be used as a ticket to kpasswd
+Failed to ascertain that ticket to kpasswd is not a TGT
+kpasswd reply - %s
+Password too short
+Failed to set password
+Failed to set password: %s
+Password changed
+kpasswd_samdb_set_password
+kpasswd_make_error_reply
+Expected an initial ticket
+Failed to create reply
+String conversion failed
+String conversion failed!
+Failed to decode packet
+String conversion failed
+Failed to parse principal
+gensec_session_info failed - %s
+../../source4/kdc/kpasswd-service-heimdal.c:278
+../../source4/kdc/kpasswd-service-heimdal.c:297
+../../source4/kdc/kpasswd-service-heimdal.c:123
+decode_ChangePasswdDataMS failed
+../../source4/kdc/kpasswd-service-heimdal.c:145
+Realm and principal must be both present, or neither present
+../../source4/kdc/kpasswd-service-heimdal.c:231
+kpasswd_samdb_set_password failed - %s
+Protocol version %u not supported
+kpasswd_set_password
+kpasswd_handle_request
+struct gensec_krb5_state
+;*3$"
+/usr/lib/debug/.dwz/x86_64-linux-gnu/samba.debug
+8f95661ad6db2fa59ed15d496d38d95cbdb411.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_d
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debugaltlink
+.gnu_debuglink

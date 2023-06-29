@@ -1,0 +1,375 @@
+/lib64/ld-linux-x86-64.so.2
+libcupsmime.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_cups_strcasecmp
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+cupsArrayCount
+_cups_strlcpy
+cupsArrayFirst
+cupsArrayNew
+cupsArrayRemove
+cupsFileOpen
+cupsArrayDelete
+cupsArrayAdd
+cupsArrayFind
+cupsArrayNext
+cupsArrayInsert
+cupsFileClose
+mimeFirstType
+mimeLoadTypes
+mimeNextType
+mimeFilter
+mimeLoadFilters
+mimeFilterLookup
+mimeAddFilter
+mimeAddType
+mimeFileType
+mimeType
+libcups.so.2
+ippPort
+ppdOpenFile
+_ppdCacheCreateWithPPD
+ppdErrorString
+cupsLangDefault
+cupsDoIORequest
+_cupsSetLocale
+httpConnectEncrypt
+_cupsLangPrintError
+_cupsLangPrintf
+_cupsLangPuts
+ppdLastError
+httpClose
+ippNewRequest
+_cups_strcpy
+cupsFileGetConf
+_cupsFileCheck
+cupsGetNamedDest
+cupsGetOption
+cupsTempFd
+cupsAddOption
+cupsLastErrorString
+ippAddString
+cupsParseOptions
+cupsEncryption
+ippAddInteger
+cupsUser
+cupsServer
+ippDelete
+cupsLastError
+libgssapi_krb5.so.2
+libkrb5.so.3
+libk5crypto.so.3
+libcom_err.so.2
+libgnutls.so.26
+libgcrypt.so.11
+libdl.so.2
+libgpg-error.so.0
+libavahi-common.so.3
+libavahi-client.so.3
+libz.so.1
+libpthread.so.0
+wait
+__errno_location
+fcntl
+fork
+open
+close
+libcrypt.so.1
+libm.so.6
+libaudit.so.1
+libselinux.so.1
+libc.so.6
+__printf_chk
+exit
+strrchr
+pipe
+__strdup
+perror
+signal
+__stack_chk_fail
+unlink
+strtoll
+strtol
+dup2
+__fprintf_chk
+stdout
+malloc
+getenv
+sscanf
+stderr
+__snprintf_chk
+execve
+getcwd
+geteuid
+strchr
+__cxa_finalize
+strcmp
+strerror
+__libc_start_main
+stpcpy
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3.4
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+%2B 
+%*B 
+%"B 
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+%z@ 
+%r@ 
+%j@ 
+%b@ 
+%Z@ 
+%R@ 
+%J@ 
+%B@ 
+AWAVAUATU
+D$8Ic
+D$0H
+=<C 
+-<Hv
+T$ H
+t$ H
+D$xH
+D$xH
+D$0H
+L$xL
+D$0H
+D$0H
+=I= 
+|$HH
+|$8H
+L9|$H
+t$HH
+|$8H
+|$8I
+\$8H
+L$ A
+l$ I
+tdM9
+T$(H
+T$(H
+D$HL
+D$HL
+L$XL
+L$`L
+t$(1
+L$(L
+T$(H
+D$`H
+t$ H
+T$PH
+|$81
+t$(H
+|$8L
+L$@H
+t$(~
+d$ 1
+[]A\A]A^A_
+=]0 
+=-0 
+L$(L
+|$8H
+5{) 
+D$HH
+L$HH
+D$HH
+T$xH
+t$0H
+=7! 
+fffff.
+fff.
+l$ H
+AWAVI
+ATUSH
+d$$L
+D$@H
+L$PH
+T$0H
+L$PH
+T$0H
+[]A\A]A^A_
+t$0H
+|$P*t
+uDM9
+L$$L
+|$0*I
+L$$L
+t$(H
+l$ L
+t$(L
+|$0H
+%s: %s
+%s: Unknown option "%c".
+cupsfilter
+Options:
+Usage: convert [ options ]
+%s/%s/%s
+printer
+maxsize(
+%s/filter/%s
+tofile
+/etc/cups
+application/pdf
+(stdin)
+convert
+CUPS_SERVERROOT
+%s/cupsd.conf
+copies
+%15[^/]/%255s
+ipp://localhost/jobs/%d
+job-uri
+document-number
+ERROR
+CUPS_DATADIR
+/usr/share/cups
+CUPS_FONTPATH
+/usr/share/cups/fonts
+128m
+CUPS_SERVERBIN
+/usr/lib/cups
+DataDir
+FontPath
+RIPCache
+ServerBin
+ServerRoot
+%s/mime
+application/vnd.cups-raw 0 -
+prefilter
+vnd.cups-postscript
+application
+CONTENT_TYPE=%s/%s
+CUPS_DATADIR=%s
+CUPS_FONTPATH=%s
+CUPS_SERVERBIN=%s
+CUPS_SERVERROOT=%s
+LANG=%s.UTF8
+PPD=%s
+PPD=%s/model/laserjet.ppd
+RIP_MAX_CACHE=%s
+USER=%s
+printer-info
+PRINTER_INFO=%s
+printer-location
+PRINTER_LOCATION=%s
+PRINTER_LOCATION=Unknown
+PRINTER=%s
+<CFProcessPath>
+DEBUG: argv[%d]="%s"
+DEBUG: envp[%d]="%s"
+/dev/null
+INFO: %s (PID %d) started.
+Usage: cupsfilter [ options ] filename
+  -D                      Remove the input file when finished.
+  -P filename.ppd         Set PPD file.
+  -U username             Set username for job.
+  -c cupsd.conf           Set cupsd.conf file to use.
+  -d printer              Use the named printer.
+  -e                      Use every filter from the PPD file.
+  -i mime/type            Set input MIME type (otherwise auto-typed).
+  -j job-id[,N]           Filter file N from the specified job (default is file 1).
+  -m mime/type            Set output MIME type (otherwise application/pdf).
+  -n copies               Set number of copies.
+  -o name=value           Set option(s).
+  -p filename.ppd         Set PPD file.
+  -t title                Set title.
+  -u                      Remove the PPD file when finished.
+  -J title                Set title.
+  -a 'name=value ...'     Set option(s).
+  -c copies               Set number of copies.
+  -f filename             Set file to be converted (otherwise stdin).
+  -j mime/type            Set output MIME type (otherwise application/pdf).
+  -o filename             Set file to be generated (otherwise stdout).
+%15[^/]/%255s%*[ 	]%15[^/]/%255s%d%*[ 	]%1023[^
+%15[^/]/%255s%d%*[ 	]%1023[^
+%s: Invalid filter string "%s".
+testmime: Invalid filter string "%s".
+cupsfilter: Invalid job ID %d.
+cupsfilter: Invalid document number %d.
+%s: Unable to connect to server.
+Unable to create temporary file
+cupsfilter: Unable to get job file - %s
+convert: Use the -f option to specify a file to convert.
+cupsfilter: Only one filename can be specified.
+%s/filter:/usr/bin:/usr/sbin:/bin:/usr/bin
+%s: Unable to read MIME database from "%s" or "%s".
+%s: Unable to open PPD file: %s on line %d.
+application/vnd.cups-postscript 0 -
+%s: Unknown source MIME type %s/%s.
+%s: Unable to determine MIME type of "%s".
+%s: Unknown destination MIME type %s/%s.
+%s: No filter to convert from %s/%s to %s/%s.
+ERROR: Unable to create "%s" - %s
+ERROR: %s (PID %d) stopped with status %d
+ERROR: %s (PID %d) crashed on signal %d
+INFO: %s (PID %d) exited with no errors.
+;*3$"
+gziptoany
+cupsfilter.debug
+7zXZ
+D=X:
+=,j:<
+DUd"_
+Qj)U
+dP=J
+H%4iE
+>U'3
+e+<x(g
+?6n7h
+K',ID
+HDfw.
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

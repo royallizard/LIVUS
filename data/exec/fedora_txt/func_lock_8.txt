@@ -1,0 +1,131 @@
+zXy\
+D@	%
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+__ast_custom_function_register
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutex_destroy
+locklist
+ast_custom_function_unregister
+ast_channel_datastore_find
+strcmp
+option_debug
+ast_log
+ast_options
+ast_debug_get_by_file
+gettimeofday
+usleep
+pthread_mutex_trylock
+strlen
+calloc
+strcpy
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_init
+pthread_mutexattr_destroy
+ast_datastore_alloc
+ast_channel_datastore_add
+ast_datastore_free
+__stack_chk_fail
+ast_autoservice_start
+ast_autoservice_stop
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+ATSubH
+ffff.
+G8H9C
+AVAUI
+L9g8u
+[]A\A]A^A_
+AWAVA
+AUATUH
+D$H1
+|$@H
+H9Z8H
+l$ 1
+D$(L
+|$ H
+L$(H
+t$ H
+H+L$
+\$81
+T$HdH3
+X[]A\A]A^A_
+l$0I
+l$@I
+ffff.
+[]A\A]
+[]A\A]
+func_lock.c
+$Revision: 135680 $
+This should NEVER happen
+func_lock
+Dialplan mutexes
+TRYLOCK
+TRYLOCK(<lockname>)
+UNLOCK
+Unlocks a named mutex
+UNLOCK(<lockname>)
+MUTEX
+No datastore for dialplan locks.  Nothing was ever locked!
+Channel %s has no lock datastore, so we're allocating one.
+Unable to allocate new datastore.  No locks will be obtained.
+Memory Allocation Failure in function %s at line %d of %s
+/builddir/build/BUILD/asterisk-1.6.1-rc1/include/asterisk/utils.h
+Unable to allocate datastore list head.  %sLOCK will fail.
+Unable to allocate channel lock frame.  %sLOCK will fail.
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+Attempt to obtain a named mutex
+Attempts to grab a named lock exclusively, and prevents other channels from
+obtaining the same lock.  LOCK will wait for the lock to become available.
+Returns 1 if the lock was obtained or 0 on error.
+Note: to avoid the possibility of a deadlock, LOCK will only attempt to
+obtain the lock for 3 seconds if the channel already has another lock.
+Attempts to grab a named lock exclusively, and prevents other channels
+from obtaining the same lock.  Returns 1 if the lock was available or 0
+otherwise.
+Unlocks a previously locked mutex.  Note that it is generally unnecessary to
+unlock in a hangup routine, as any locks held are automatically freed when the
+channel is destroyed.  Returns 1 if the channel had a lock or 0 otherwise.
+unlock_read
+get_lock
+_ast_calloc
+a9c98e5d177805051735cb5b0b16b0a0
+func_lock.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,182 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+free
+xine_xmalloc
+_x_post_init
+_x_post_intercept_audio_port
+xine_list_push_back
+dcgettext
+pthread_mutex_lock
+pthread_mutex_unlock
+_x_post_dispose
+_x_extra_info_merge
+puts
+_x_ao_mode2channels
+pthread_mutex_init
+dcngettext
+xine_log
+xine_monotonic_clock
+memcpy
+_x_audio_out_resample_stereo
+_x_audio_out_resample_mono
+pthread_mutex_destroy
+xine_plugin_info
+libxine.so.1
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+xineplug_post_audio_filters.so
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.2
+UWVS
+D$Ht%
+\[^_]
++T$P
+9T$LtK
+T$P9P
+GTRP
+|$H1
+GTRP
+UWVS
+D$LRP
+,[^_]
+[^_]
+D$H 
+UWVS
+D$09B
+L[^_]
+L$@)
+D$(9
+t$(9q
+)l$D
+)l$D
+T$(1
+4$;|$$
+[^_]
+UWVS
+[^_]
+L$01
+D$41
+D$0)
+D$41
+D$0)
+;D$0u
+[^_]
+T$4)
+UWVS
+<$9T$
+[^_]
+l$`t
+[^_]
+D$ )
++F$P
+UWVS
+yT;D$@
+)l$@
+|[^_]
+;|$@
+T$8)
+D$t=
+9L$X
+T$X9T$P
+D$t=
++D$X9D$l
+)T$T
+D$@+|$@
+L$89
+T$@+T$D
+D$81
+D$t=
+D$ 9D$L
+L$L9L$D
+L$81
+D$t=
++D$L9D$d
+D$$)D$H
+UWVS
++F$P
+kQTx
+D$$9
+EhtQ
+Ed;Eht
+<[^_]
+UT)q
+El;Ed
+T$ u
+L$P1
+UWVS
++F$P
+L[^_]
++F$P
+F0@B
+0[^_
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+0^_]
+w	9u
+upmix
+parameters
+libxine1
+Low pass filter init failed!
+cut_off_freq
+Upmix functions. e.g. Take stereo input and produce Surround 5.1 output.
+Parameters
+  cut_off_freq
+Note: It is possible to use frontend's control window to set these parameters.
+?upmix_mono
+converts Mono into Stereo
+channel
+This filter will upmix a mono stream to stereo, by duplicating channels. Alternatively, one may use this plugin to listen just one channel of a given stream.
+upmix_mono: upmixing Mono to Stereo.
+upmix_mono: upmixing a single channel from original %d channels stream.
+upmix_mono: upmixing a single channel from original %d channel stream.
+upmix_mono: audio device not capable of AO_CAP_MODE_STEREO.
+Select channel to upmix (duplicate) to stereo
+!	@B
+;stretch
+preserve_pitch
+Preserve pitch
+factor
+Time stretch by a given factor, optionally preserving pitch
+This filter will perform a time stretch, playing the stream faster or slower by a factor. Pitch is optionally preserved, so it is possible, for example, to use it to watch a movie in less time than it was originaly shot.
+Time stretch factor (<1.0 shorten duration)
+Gvolnorm
+Normalize volume
+Normalization method
+Normalizes audio by maximizing the volume without distorting the sound.
+Parameters:
+  method: 1: use a single sample to smooth the variations via the standard weighted mean over past samples (default); 2: use several samples to smooth the variations via the standard weighted mean over past samples.
+xineplug_post_audio_filters.so.debug
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,283 @@
+/lib/ld-linux.so.2
+JQ=j	C
+libdovecot-login.so.0
+str_len
+str_truncate
+t_str_new
+t_pop_check
+o_stream_cork
+pool_datastack_create
+__gmon_start__
+_Jv_RegisterClasses
+buffer_create_dynamic
+p_strdup
+t_strdup_printf
+t_push
+o_stream_nsend
+i_strdup
+t_strconcat
+t_strdup_until
+buffer_append_c
+_ITM_deregisterTMCloneTable
+str_append_c
+_ITM_registerTMCloneTable
+my_hostname
+buffer_create_from_data
+auth_client_is_connected
+default_pool
+str_printfa
+str_to_uint
+base64_encode
+str_append
+master_service
+safe_memset
+master_service_set_die_callback
+str_c
+ioloop_time
+net_addr2ip
+net_ip2addr
+auth_client_find_mech
+i_panic
+buffer_append
+hex_to_binary
+io_add
+str_sanitize
+o_stream_uncork
+i_stream_next_line
+client_unref
+login_set_roots
+client_is_tls_enabled
+client_read
+login_proxy_get_ssl_flags
+clients_destroy_all
+auth_client
+login_binary_run
+client_send_raw_data
+client_ref
+client_proxy_finish_destroy_client
+client_auth_begin
+client_log
+client_send_raw
+client_proxy_log_failure
+client_check_plaintext_auth
+client_proxy_failed
+client_cmd_starttls
+client_destroy
+client_log_err
+sasl_server_get_advertised_mechs
+login_proxy_starttls
+login_proxy_get_ostream
+client_get_session_id
+libdovecot.so.0
+base64_decode
+auth_client_get_connect_id
+t_str_ucase
+dsasl_client_new
+t_strsplit
+i_strdup_printf
+dsasl_client_mech_get_name
+o_stream_nsend_str
+dsasl_client_output
+str_data
+random_fill
+dsasl_client_input
+libc.so.6
+_IO_stdin_used
+strlen
+strncasecmp
+strchr
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+/usr/lib/dovecot
+cmd_user
+cmd_apop
+_fp_hw
+client_send_reply
+pop3_login_setting_roots
+__data_start
+cmd_pass
+pop3_proxy_error
+pop3_login_service_settings
+__libc_csu_init
+pop3_client_auth_result
+cmd_auth
+pop3_proxy_parse_line
+cmd_capa
+__libc_csu_fini
+pop3_proxy_reset
+pop3_login_setting_parser_info
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+UWVS
+l$@e
+XZWV
+Y_j V
+D$$P
+,[^_]
+UWVS
+D$Pe
+|$,1
+D$,e3
+<[^_]
+D$(P
+D$0PR
+UWVS
+D$h1
+D$?P
+T$KR
+l$ U
+D$\e3
+l[^_]
+UWVS
+D$(1
+D$ P
+,[^_]
+t$ j
+t$ j
+t$ j
+UWVS
+t$@e
+,[^_]
+D$ PV
+ZYPV
+UWVS
+t$,V
+[^_]
+UWVS
+t$De
+,[^_]
+UWVS
+D$,1
+T$(RP
+L$,e3
+<[^_]
+t$ RP
+ZYPV
+UWVS
+,[^_]
+ZYPU
+_ZPU
+VVPU
+t$ P
+ZYPU
+t$,U
+[^_]
+-ERR
+-ERR [SYS/TEMP]
+-ERR [AUTH]
+!client->authenticating
+client.c
+CAPA
+USER
+PASS
+AUTH
+APOP
+STLS
+QUIT
+Logging out
+Aborted login
+XCLIENT
+You are not from trusted IP
+ADDR=
+PORT=
+SESSION=
+TTL=
+Invalid parameters
+Updated
+Unknown command.
+[XCLIENT] 
+<%x.%x.%lx.%s@%s>
+pop3
+pop3-login
+file %s: line %d (%s): assertion failed: (%s)
+Too many invalid bad commands.
+Disconnected: Too many bad commands
+pop3_client_input
+STLS
+USER
+SASL
+No username given.
+PLAIN
+APOP failed: APOP not enabled
+APOP not enabled.
+Invalid parameters.
+CAPA
+UIDL
+RESP-CODES
+PIPELINING
+AUTH-RESP-CODE
+APOP failed: Invalid parameters
+APOP failed: Invalid characters in MD5 response
+Invalid characters in MD5 response.
+Reconnected to auth server, can't do APOP
+$default_login_user
+pop3s
+client->common.proxy_ttl > 1
+pop3-proxy.c
+USER 
+AUTH %s 
+!client->destroyed
+ [XCLIENT]
+proxy: Remote STLS failed: %s
+PASS %s
+ret == 0
+-ERR 
+Authentication failed.
+XCLIENT ADDR=%s PORT=%u SESSION=%s TTL=%u
+client->common.proxy_sasl_client == NULL
+proxy: SASL mechanism %s init failed: %s
+proxy: Remote returned invalid banner: %s
+proxy: Remote XCLIENT failed: %s
+client->proxy_sasl_client == NULL
+proxy: Server sent invalid base64 data in AUTH response
+proxy: Server sent invalid authentication data: %s
+pop3_proxy_continue_sasl_auth
+proxy_send_login
+pop3_proxy_parse_line
+;*2$"
+pop3-login.debug
+7zXZ
+:ZG$
+S;`\H
+-kbp
+1SIG="
+K.8.8,2
+	IGX>
+HL:=
+&qE4/M
+80	Si
+0mB@
+9Cdv
+tu9	
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

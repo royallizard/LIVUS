@@ -1,0 +1,352 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+parse_setting_from_defs
+ldap_get_option
+ldap_err2string
+i_error
+ldap_set_option
+i_fatal
+strlen
+i_panic
+auth_request_log_error
+aqueue_count
+ioloop_time
+aqueue_delete_tail
+auth_request_log_info
+timeout_remove
+ldap_unbind
+io_remove_closed
+timeout_add
+ldap_get_error
+t_strconcat
+ldap_memfree
+db_ldap_connect
+net_set_nonblock
+io_add
+ldap_sasl_interactive_bind_s
+ldap_start_tls_s
+ldap_initialize
+strtol
+dec2str
+strcasecmp
+ldap_search
+ldap_bind
+ldap_msgfree
+ldap_result
+ldap_msgid
+ldap_result2error
+ldap_msgtype
+aqueue_delete
+t_push
+t_pop_check
+db_ldap_request
+aqueue_append
+db_ldap_enable_input
+io_remove
+db_ldap_set_attrs
+t_strsplit
+t_str_new
+strchr
+p_strdup_until
+p_strdup
+strcmp
+hash_table_lookup
+hash_table_insert
+str_len
+str_c
+str_append
+str_append_c
+db_ldap_value_get_var_expand_table
+auth_request_get_var_expand_table
+t_malloc0
+memcpy
+ldap_escape
+str_append_n
+db_ldap_result_iterate_init
+var_expand
+ldap_first_attribute
+db_ldap_result_iterate_next
+ldap_value_free
+ldap_next_attribute
+str_printfa
+t_strdup_until
+ldap_get_values
+auth_request_log_warning
+str_truncate
+auth_request_log_debug
+ber_free
+pool_alloconly_create
+null_settings_section_callback
+settings_read
+default_pool
+buffer_create_dynamic
+aqueue_init
+getenv
+env_put
+exit
+db_ldap_unref
+buffer_free
+aqueue_deinit
+hash_table_destroy
+authdb_ldap_init
+passdb_ldap_plugin
+passdb_register_module
+userdb_ldap_plugin
+userdb_register_module
+authdb_ldap_deinit
+passdb_unregister_module
+userdb_unregister_module
+t_strarray_join
+auth_request_ref
+auth_request_set_field
+password_get_scheme
+passdb_handle_credentials
+auth_request_unref
+auth_request_password_verify
+t_strdup
+strcase_hash
+hash_table_create
+auth_cache_parse_key
+ldap_get_dn
+auth_request_new_dummy
+global_auth_settings
+i_debug
+i_warning
+auth_request_init_userdb_reply
+auth_request_set_userdb_field_values
+libldap-2.4.so.2
+liblber-2.4.so.2
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libauthdb_ldap.so
+GLIBC_2.1.3
+GLIBC_2.0
+d$([
+d$([
+UWVS
+d$,1
+[^_]
+;T$P|h
+d$<[^_]
+d$,[^_]
+d$@[^_
+d$@1
+UWVS
+|$81
+D$,1
+d$\[^_]
+d$\[^_]
+T$$tM
+T$$t
+T$$}'
+d$\[^_]
+L$,t+1
+t$ u&
+UWVS
+d$,[^_]
+d$,[^_]
+[^_]
+UWVS
+tE<(
+<(t!<*t
+[^_]
+d$,[
+UWVS
+DT$,
+T$(t9
+T$(t
+d$<[
+d$<1
+[^_]
+UWVS
+d$,[
+[^_]
+d$$[^
+d$$[^
+d$<[^_]
+d$L[^_]
+D$,tc
+UWVS
+[^_]
+UWVS
+D$,u
+d$<[^_]
+d$<[^_]
+UWVS
+d$<[^_]
+D$$t:
+V,t<
+UWVS
+d$<[
+LDAP: Can't get error number: %s
+LDAP: Can't set option %s to %s: %s
+idx * array->element_size < array->buffer->used
+file %s: line %d (%s): assertion failed: (%s)
+Aborting (timeout), we're not connected to LDAP server
+conn->conn_state == LDAP_CONN_STATE_BINDING
+LDAP: Initial binding to LDAP server timed out
+LDAP: ldap_init() failed with hosts: %s
+LDAP: sasl_bind=yes requires ldap_version=3
+LDAP: tls=yes requires ldap_version=3
+LDAP: Unknown tls_require_cert value '%s'
+LDAP: Don't use both tls=yes and ldaps URI
+LDAP: ldap_start_tls_s() failed: %s
+LDAP: Can't get connection fd: %s
+LDAP: Buggy LDAP library returned wrong fd: %d
+conn->conn_state == LDAP_CONN_STATE_BOUND_AUTH || conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+ldap_search(%s) parsing failed: %s
+LDAP: Can't connect to server: %s
+LDAP: binding failed (dn %s): %s
+conn->conn_state != LDAP_CONN_STATE_BINDING
+conn->default_bind_msgid == -1
+ldap_get_errno(conn) != LDAP_SUCCESS
+LDAP: Reply with unknown msgid %d
+LDAP: Reply with unexpected type %d
+LDAP: ldap_result() failed: %s
+LDAP: Connection lost to LDAP server, reconnecting
+Connection appears to be hanging, reconnecting
+ldap: LDAP attribute '%s' used multiple times. This is currently unsupported.
+Multiple values found for '%s', using value '%s'
+no fields returned by the server
+LDAP: Configuration file path not given
+LDAP: Multiple different ldaprc_path settings not allowed (%s and %s)
+LDAP: Unknown deref option '%s'
+LDAP: Unknown scope option '%s'
+homeDirectory=home,uidNumber=uid,gidNumber=gid
+(&(objectClass=posixAccount)(uid=%u))
+uid=user,userPassword=password
+../../src/lib/array.h
+conn->pending_count > 0
+ldap
+request->msgid != -1
+conn->pending_count == 0
+deref
+debug_level
+protocol_version
+tls_ca_cert_file
+tls_ca_cert_dir
+tls_cert_file
+tls_key_file
+tls_cipher_suite
+never
+hard
+demand
+allow
+tls_require_cert
+ldaps:
+file %s: line %d: unreached
+request->msgid == -1
+ldap_bind(%s) failed: %s
+(none)
+conn->pending_count == 1
+ldap_search(%s) failed: %s
+Request lost
+request->auth_request != NULL
+?unknown?
+ %s(%s)=
+password
+password_noscheme
+, %s
+<hidden>
+result: %s
+ldap_connection
+LDAP: No base given
+LDAP: No uris or hosts set
+LDAPRC
+LDAPRC=
+searching
+finding
+always
+base
+onelevel
+subtree
+conn->refcount >= 0
+Shutting down
+conn->to == NULL
+uid=user
+(objectClass=posixAccount)
+crypt
+hosts
+uris
+dnpass
+auth_bind
+auth_bind_userdn
+sasl_bind
+sasl_mech
+sasl_realm
+sasl_authz_id
+scope
+ldap_version
+ldaprc_path
+user_attrs
+user_filter
+pass_attrs
+pass_filter
+iterate_attrs
+iterate_filter
+default_pass_scheme
+db_ldap_request
+array_idx_i
+db_ldap_conn_close
+db_ldap_abort_requests
+db_ldap_request_queue_next
+db_ldap_request_search
+db_ldap_request_bind
+db_ldap_bind
+ldap_connection_timeout
+db_ldap_connect
+db_ldap_default_bind_finished
+db_ldap_handle_result
+db_ldap_unref
+(all)
+unknown user
+passdb-ldap.c
+invalid credentials
+ (given password: 
+ldap_bind() failed: %s
+request->entries > 1
+pass search: base=%s scope=%s filter=%s fields=%s
+pass_filter matched multiple objects, aborting
+No password returned (and no nopassword)
+password == NULL || scheme != NULL
+Login attempt with empty password
+bind search: base=%s filter=%s
+ldap_lookup_finish
+ldap_bind_lookup_dn_fail
+ldap: iterate: base=%s scope=%s filter=%s fields=%s
+ldap: iterate: Ignoring field not named 'user': %s
+user search: base=%s scope=%s filter=%s fields=%s
+user_filter matched multiple objects, aborting
+;*2$"
+libauthdb_ldap.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rel.plt
+.got.plt
+.got
+.text

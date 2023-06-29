@@ -1,0 +1,323 @@
+td8}
+'%,-
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+i_stream_read_data
+memcmp
+i_panic
+compression_lookup_handler
+compression_handlers
+strcmp
+compression_detect_handler
+compression_lookup_handler_from_ext
+strlen
+i_stream_create_gz
+o_stream_create_gz
+i_stream_create_bz2
+o_stream_create_bz2
+i_stream_create_deflate
+o_stream_create_deflate
+i_stream_create_lzma
+o_stream_create_lzma
+i_stream_close
+lzma_end
+i_stream_stat
+i_stream_get_data_size
+i_stream_skip
+i_stream_read
+i_stream_seek
+i_stream_get_name
+io_stream_set_error
+i_error
+i_stream_get_max_buffer_size
+i_stream_grow_buffer
+lzma_code
+i_stream_compress
+t_strdup_printf
+i_fatal_status
+lzma_stream_decoder
+i_fatal
+strerror
+default_pool
+i_stream_get_fd
+i_stream_create
+inflateEnd
+inflateInit2_
+i_stream_is_eof
+inflate
+crc32_data_more
+BZ2_bzDecompressEnd
+BZ2_bzDecompress
+BZ2_bzDecompressInit
+o_stream_flush
+o_stream_close
+o_stream_send
+o_stream_copy_error_from_parent
+o_stream_flush_parent_if_needed
+o_stream_get_name
+lzma_easy_encoder
+o_stream_get_fd
+o_stream_create
+deflateInit2_
+deflateEnd
+BZ2_bzCompressEnd
+BZ2_bzCompress
+BZ2_bzCompressInit
+libdovecot.so.0
+libdl.so.2
+libz.so.1
+libbz2.so.1
+liblzma.so.5
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+libdovecot-compression.so.0
+XZ_5.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+/usr/lib/dovecot
+7zXt 
+1AY&t
+D$,1
+T$$1
+L$,e3
+UWV1
+,[^_]
+UWV1
+[^_]
+UWVS
+[^_]
+|$Pe
+D$<1
+L$81
+L$<e3
+@[^_
+D$8e
+D$L1
+\$41
+T$<)
+T$,1
+|$Le3=
+|$8)
+t$0e
+UWVS
+\$,)
+;T$,
+T$D9
+l$H)
+L$,1
+;T$,
+;D$(
+\[^_]
+9|$0
+D$<~
+ [^_
+|$Pe
+D$<1
+L$81
+L$<e3
+@[^_
+tV~A
+ [^_
+t$0e
+UWVS
+\$,)
+;T$,
+T$D9
+l$H)
+L$,1
+;T$,
+;D$(
+\[^_]
+9|$0
+D$<~
+t$pe
+D$L1
+T$$1
+T$H9
+|$Le3=
+\[^_]
+D$@1
+T$<)
+|$Pe
+D$<1
+L$81
+L$<e3
+@[^_
+D$L1
+T$41
+T$<1
+\$,1
+|$Le3=
+D$H1
+T$H)
+t$0e
+UWVS
+\$,)
+;T$,
+T$D9
+l$H)
+L$,1
+;T$,
+;D$(
+\[^_]
+9|$0
+D$<~
+ [^_
+UWVS
+T$$9D
+D$$9D$XtZ
+<[^_]
+<[^_]
+<[^_]
+UWVS
+|$<1
+D$81
+D$89D$h
+[^_]
+T$,)
+l$<9l
+D$89D$h
+UWVS
+T$$9D
+D$$9D$XtZ
+<[^_]
+<[^_]
+Dovecot-LZ4
+7zXZ
+1AY&SY
+size >= 2
+compression.c
+.bz2
+deflate
+.lz4
+file %s: line %d (%s): assertion failed: (%s)
+is_compressed_zlib
+ret == -1
+istream-lzma.c
+lzma.read(%s): %s at %llu
+stream->parent->eof
+!stream->istream.blocking
+corrupted data
+Unsupported xz options
+lzma.read(%s): Out of memory
+lzma_code() failed with %d
+lzma: Out of memory
+stream->istream.eof
+zstream->high_pos == 0 || zstream->high_pos == stream->pos
+zstream->eof_offset == high_offset
+wrong magic in header (not xz file?)
+lzma_stream_decoder() failed with ret=%d
+lzma_istream.seek(%s) failed: %s
+i_stream_lzma_read
+i_stream_lzma_seek
+i_stream_lzma_stat
+istream-zlib.c
+missing gz trailer
+1.2.11
+inflateInit() failed with %d
+missing gz header
+gz header is too large
+unexpected EOF
+can't read file without dict
+inflate() failed with %d
+gz trailer has wrong CRC value
+Wrong zlib library version (broken compilation)
+zlib_istream.seek(%s) failed: %s
+wrong magic in header (not gz file?)
+i_stream_zlib_read
+i_stream_zlib_seek
+i_stream_zlib_stat
+istream-bzlib.c
+bzlib.read(%s): %s at %llu
+file %s: line %d: unreached
+bzlib.read(%s): Out of memory
+bzlib: Out of memory
+bzlib: Invalid parameters
+wrong magic in header (not bz2 file?)
+BZ2_bzDecompress() failed with %d
+Wrong bzlib library version (broken compilation)
+BZ2_bzDecompressInit() failed with %d
+bzlib_istream.seek(%s) failed: %s
+i_stream_bzlib_read
+i_stream_bzlib_seek
+i_stream_bzlib_stat
+size > 0
+ostream-lzma.c
+zstream->outbuf_used == 0
+lzma.write(%s): Out of memory
+level >= 1 && level <= 9
+lzma: Invalid level
+zstream->ostream.ostream.last_failed_errno != 0
+lzma.write(%s) flush failed with unexpected code %d
+lzma.write(%s) failed with unexpected code %d
+lzma_easy_encoder() failed with %d
+o_stream_lzma_send_chunk
+o_stream_zlib_send_outbuf
+o_stream_lzma_send_flush
+o_stream_create_lzma
+ostream-zlib.c
+deflateInit(): Out of memory
+Invalid compression level %d
+deflateInit() failed with %d
+zstream->gz
+zlib.write(%s) failed: Can't write more data to .gz after flushing
+zlib.write(%s) failed with unexpected code %d
+o_stream_zlib_send_chunk
+o_stream_zlib_send_outbuf
+o_stream_zlib_send_flush
+o_stream_create_zlib
+ostream-bzlib.c
+BZ2_bzCompressInit() failed with %d
+o_stream_bzlib_send_chunk
+o_stream_zlib_send_outbuf
+o_stream_bzlib_send_flush
+o_stream_create_bz2
+;*2$"
+libdovecot-compression.so.0.0.0-2.2.32-2.fc27.i386.debug
+7zXZ
+zdad
+!\2M
+T,uB
+5+B%
+b}/\D
+3bt5
+8}6p
+44*M
+y-a}
+	+|Ki	}4
+XH{L
+q*tb
+Qt]BLp
+D[(:
+XQMVv
+y$13f9
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

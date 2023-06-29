@@ -1,0 +1,339 @@
+l+B?
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+dia_plugin_init
+dcgettext
+dia_plugin_info_init
+istar_actor_type
+object_register_type
+istar_goal_type
+istar_other_type
+istar_link_type
+g_module_check_init
+dia_plugin_check_version
+object_load_using_properties
+text_get_attributes
+object_get_props_from_offsets
+prop_desc_list_calculate_quarks
+text_set_cursor
+text_grab_focus
+element_update_handles
+sqrt
+color_white
+color_black
+text_draw
+__assert_fail
+text_destroy
+element_destroy
+text_calc_boundingbox
+text_set_position
+sincos
+element_update_boundingbox
+g_malloc0
+dia_font_new_from_style
+new_text
+dia_font_unref
+element_init
+object_set_props_from_offsets
+apply_textattr_properties
+element_move_handle
+object_copy_using_properties
+object_create_props_dialog
+object_apply_props_from_dialog
+object_apply_props
+object_save_using_properties
+distance_rectangle_point
+connpointline_destroy
+connpointline_update
+connpointline_putonaline
+connpointline_create
+distance_line_point
+connpointline_remove_points
+connpointline_add_points
+connpointline_can_add_point
+connpointline_can_remove_point
+connection_update_handles
+distance_bez_line_point
+connection_destroy
+g_strdup
+g_free
+bezier_eval
+bezier_eval_tangent
+connection_update_boundingbox
+rectangle_add_point
+rectangle_union
+connection_init
+connection_move_handle
+libpng12.so.0
+libm.so.6
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libistar_objects.so
+GLIBC_2.2.5
+%zS 
+%rS 
+%jS 
+%bS 
+%ZS 
+%RS 
+%JS 
+%BS 
+%:S 
+%2S 
+%*S 
+%"S 
+%zR 
+%rR 
+%jR 
+%bR 
+%ZR 
+%RR 
+%JR 
+%BR 
+%:R 
+%2R 
+%*R 
+%"R 
+ATSubH
+=!O 
+=!O 
+fff.
+fff.
+ffff.
+AVAUI
+ATUSH
+D$8f
+[]A\A]A^
+T$PH
+t$`L
+[]A\A]A^
+T$PH
+t$`L
+T$0H
+t$@L
+[]A\A]A^
+AVAUATA
+t$8H
+D$@L
+l$0H
+XD$@H
+XD$H
+L$ f
+XD$(
+D$(H
+L$ H
+P[]A\A]A^
+XL$ 
+Xd$(
+[]A\A]A^A_
+fff.
+ffffff.
+=!C 
+fff.
+T$pfD
+\$hf
+^-v0
+D$0H
+XD$0H
+XD$8
+D$0H
+l$0H
+@[]A\
+XD$ 
+t$0H
+@[]A\
+XL$(
+ []A\A]A^
+[]A\A]A^
+ffffff.
+fff.
+D$XA
+L$pL
+D$xL
+D$hA
+AUATA
+t$`H
+l$PL
+l$ H
+D$`H
+XL$`H
+XD$h
+D$PH
+D$PH
+x[]A\A]
+ []A\A]A^
+[]A\A]A^
+ffffff.
+[]A\
+[]A\
+[]A\
+fff.
+L$ f
+X$$H
+[]A\A]
+ffff.
+AUATUSH
+t$pH
+D$pH
+\$PL
+T$0H
+T$8H
+T$@H
+T$HH
+D$ H
+[]A\A]
+=m; 
+t$ L
+fff.
+ffffff.
+Istar diagram
+Istar
+actor.c
+actor != ((void *)0)
+text
+actor!=((void *)0)
+handle!=((void *)0)
+to!=((void *)0)
+Istar - actor
+obj_pos
+obj_bb
+rect
+meta
+dict
+elem_corner
+elem_width
+real
+elem_height
+type
+enum
+Object position
+Where the object is located
+Object bounding box
+Object meta info
+Some key/value pairs
+Element corner
+The corner of the element
+Element width
+The width of the element
+Element height
+The height of the element
+22 22 3 1
+ 	c None
+.	c #000000
++	c #FFFFFF
+         ....         
+      ..........      
+     ....++++....     
+    ..++++++++++..    
+   ..++++++++++++..   
+  ..++++++++++++++..  
+ ..+++++++++++++++..  
+ ..++++++++++++++++.. 
+..+++++++++++++++++.. 
+  ...++++++++++++..   
+   ...++++++++++..    
+    ....++++++...     
+        ......        
+                      
+Unspecified
+Agent
+Position
+Role
+The bounding box of the object
+actor_move_handle
+actor_draw
+?ffffff
+?ffffff
+?goal.c
+goal != ((void *)0)
+goal!=((void *)0)
+Istar - goal
+Goal Type
+` c black
+a c none
+b c white
+aaaaaaaaaaaaaaaaaaaaaa
+aaaa```aaaaaaaa```aaaa
+aaa`bbb`aaaaaa`bbb`aaa
+aaa`bbbb``aaa`bbbb`aaa
+aa`bbbbbbb```bbbbbb`aa
+aa`bbbbbbbbbbbbbbbb`aa
+a`bbbbbbbbbbbbbbbbbb`a
+Softgoal
+Goal
+goal_move_handle
+goal_draw
+?333333
+?other.c
+other != ((void *)0)
+other!=((void *)0)
+Istar - other
+cpl_north
+connpoint_line
+cpl_west
+cpl_south
+cpl_east
+Add connection point
+Delete connection point
+i* other
+   ................   
+   .++++++++++++++.   
+Resource
+Task
+other_move_handle
+other_draw
+link.c
+link != ((void *)0)
+link!=((void *)0)
+Istar - link
+conn_endpoints
+Connection endpoints
+Type:
+22 22 2 1
+aaaaaaaaaa``aaaaaaaaaa
+aaaaaaaaa````aaaaaaaaa
+aaaaaaaa``````aaaaaaaa
+Positive contrib
+Negative contrib
+Dependency
+Decomposition
+Means-Ends
+link_move_handle
+link_draw
+?333333
+?333333
+333333
+?ffffff
+?433333
+?433333
+libistar_objects.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

@@ -1,0 +1,447 @@
+}O?G
++Fsr
+&@IP
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+lseek
+shaper_tab
+readv
+destroy_pool
+make_sub_pool
+pr_pool_tag
+make_array
+push_array
+__errno_location
+strerror
+pr_log_writefile
+malloc
+pr_signals_handle
+msgrcv
+free
+pr_log_pri
+end_login
+msgsnd
+msgctl
+pr_privs_root
+kill
+pr_privs_relinquish
+writev
+flock
+session
+find_config
+shaper_module
+pr_event_register
+getpid
+main_server
+check_context
+pr_fs_valid_path
+pstrdup
+mod_create_ret
+get_context_name
+pstrcat
+strtol
+add_config_param
+pcalloc
+strcasecmp
+get_boolean
+pr_ctrls_parse_acl
+pr_ctrls_set_module_acls
+strtod
+pr_event_unregister
+pr_timer_remove
+mpid
+ServerType
+pr_fsio_unlink
+permanent_pool
+pr_ctrls_register
+pr_ctrls_init_acl
+pr_fsio_open
+pr_fsio_fstat
+pr_fsio_close
+ftok
+msgget
+pr_log_openfile
+pr_log_debug
+pr_timer_add
+pr_ctrls_unregister
+find_config_next
+xaset_remove
+add_config_param_set
+fixup_dirs
+pr_ctrls_check_acl
+pr_ctrls_add_response
+pr_rewind_scoreboard
+pr_scoreboard_entry_read
+strcmp
+palloc
+__snprintf_chk
+pr_restore_scoreboard
+pr_netaddr_get_addr
+pr_netaddr_get_ipstr
+libc.so.6
+_edata
+__bss_start
+_end
+mod_shaper.so
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zg 
+%rg 
+%jg 
+%bg 
+%Zg 
+%Rg 
+%Jg 
+%Bg 
+%:g 
+%2g 
+%*g 
+%"g 
+%zf 
+%rf 
+%jf 
+%bf 
+%Zf 
+%Rf 
+%Jf 
+%Bf 
+%:f 
+%2f 
+%*f 
+%"f 
+=hh 
+ATSubH
+=(c 
+=Wa 
+%,a 
+-=b 
+D$ H
+D$0H
+D$@H
+T$ H
+T$0H
+D$PH
+`[]A\
+[]A\
+=^b 
+=5b 
+AWAVAUATU1
+D$`t,
+l$hL
+=Da 
+l$hA
+T$pL
+D$8H
+l$0H
+l$`D
+D$hD
+l$hD
+D$h1
+Lct$4D
+T$8H
+=]_ 
+D$0D9AD
+[]A\A]A^A_
+=w^ 
+ATUSH
+=l] 
+=M] 
+D$ H
+D$0H
+D$@H
+T$ H
+T$0H
+D$PH
+h[]A\A]
+5b^ 
+=U[ 
+=~Z 
+t$ H
+= ] 
+=2Z 
+%qW 
+ffff.
+CDA9
+,,A;m
+d$(L
+l$0L
+t$8L
+|$@H
+;]DsXA
+=pU 
+;]Dr
+EDt	
+l$ L
+t$(L
+|$0H
+t$ H
+ffffff.
+ffffff.
+=,U 
+G0E1
+AWAVAUATUSH
+[]A\A]A^A_
+D$81
+l$ H
+fff.
+5ON 
+= L 
+G0E1
+AWAVAUATUSH
+([]A\A]A^A_
+=XE 
+fffff.
+=bC 
+=zE 
+=uB 
+t$ H
+=hA 
+=r@ 
+55@ 
+=~? 
+=K? 
+=h> 
+=B= 
+=,< 
+AVAUATUSH
+T$hH
+T$`L
+T$`I
+D; u
+t$pL
+|$x1
+L;`X
+L;`h
+t$pL
+|$xH
+l$0H
+=o8 
+D$(H
+[]A\A]A^A_H
+l$@H
+[]A\A]A^A_
+[]A\A]A^A_H
+fff.
+AWAVAUATUH
+l$PD
+L$hA
+t$@I
+D$(H
+D$(H
+L$8E
+[]A\A]A^A_
+5%4 
+t$PD
+D$0H
+D$0A
+D$8D
+|$@A
+5[. 
+T$@H
+T$0E
+l$XE1
+L$PH
+\$8E
+|$PH
+D$HH
+|$XH
+E;~D
+D$Hx}H
+t$@I
+D$(H
+D$(H
+t$@I
+D$(H
+D$(H
+=P& 
+=	& 
+=X% 
+=)% 
+error seeking to start of ShaperTable: %s
+error reading ShaperTable header: %s
+mod_shaper/0.6.6: ShaperTable pool
+error reading session entry %u from ShaperTable: %s
+clearing queue ID %d of messages for process ID %lu
+total session shares: %u down, %u up
+rate per share: %3.2Lf down, %3.2Lf up
+pid %u has shares of %u down, %u up, sending rates of %3.2Lf down, %3.2Lf up
+error checking queue ID %d: %s
+unable to send message to PID %lu via queue ID %d, max bytes (%lu) reached (%lu messages of %lu bytes currently in queue)
+unable to send message to PID %lu via queue ID %d after %u attempts (%u max attempts allowed), failing
+error sending msg to pid %u: %s
+error writing ShaperTable (%d) header: %s
+error writing ShaperTable session entry: %s
+ShaperTable not configured, disabling ShaperEngine
+ShaperTable not open, disabling ShaperEngine
+overall rates negative or not configured, disabling ShaperEngine
+error adding session to ShaperTable: %s
+error removing session from ShaperTable: %s
+removed dead session (pid %u) from ShaperTable
+error modifying session: shares increment (%s%d) will drop session downshares (%u) below 1
+unable to open ShaperTable: %s
+downshares parameter must start with '+' or '-'
+priority must be greater than 0
+shares parameter must start with '+' or '-'
+upshares parameter must start with '+' or '-'
+second parameter must be 'allow' or 'deny'
+third parameter must be 'user' or 'group'
+downrate must be greater than 0
+downshares must be greater than 1
+upshares must be greater than 1
+error removing queue ID %d: %s
+mod_shaper/0.6.6: error registering 'shaper' control: %s
+mod_shaper/0.6.6: error opening ShaperLog '%s': %s
+error opening ShaperTable '%s': %s
+mod_shaper/0.6.6: error opening ShaperTable '%s': %s
+unable to fstat ShaperTable: %s
+ShaperTable '%s' has size %llu bytes, is already initialized
+initialized ShaperTable with rate %3.2Lf KB/s (down), %3.2Lf KB/s (up), default priority %u, default shares %u down, %u up
+error initializing ShaperTable: %s
+determining queue ID for path '%s'
+unable to get key for '%s': %s
+received prio %u, rate %3.2Lf down, %3.2Lf up
+merging in new TransferRate entries
+error receiving updates for pid %lu: %s
+received signal, no updates for pid %lu
+received signal, read in %d %s for pid %lu
+shaper: missing required parameters
+error write-locking ShaperTable: %s
+downrate must be greater than 0 (%3.2Lf)
+downshares (%d) must be greater than 1
+priority (%d) must be greater than 0
+rate must be greater than 0 (%3.2Lf)
+overall rates (%3.2Lf down, %3.2Lf up) set
+shares (%d) must be greater than 1
+default shares (%u down, %u up) set
+uprate must be greater than 0 (%3.2Lf)
+upshares (%d) must be greater than 1
+unknown shaper all option '%s'
+unable to read-lock ShaperTable: %s
+error refreshing ShaperTable: %s
+Overall Rates: %3.2Lf KB/s down, %3.2Lf KB/s up
+Default Shares Per Session: %u down, %u up
+%-5s %8s %-14s %11s %-14s %11s
+----- -------- -------------- ------------ -------------- ------------
+%5u %8u %14s  %11.2Lf %14s  %11.2Lf
+downshares (%s) must start with '+' or '-'
+adjusted session downshares by %s%d
+shares (%s) must start with '+' or '-'
+adjusted session downshares and upshares by %s%d
+upshares (%s) must start with '+' or '-'
+adjusted session upshares by %s%d
+unknown shaper session option '%s'
+error rewinding scoreboard: %s
+unknown shaper session target type: '%s'
+mod_shaper/0.6.6
+Out of memory!
+mod_shaper.c
+error sending notice: %s
+ShaperEngine
+core.exit
+core.signal.USR2
+ShaperSession
+missing arguments
+ context
+directive not allowed in 
+must be an absolute path
+wrong number of parameters
+downshares
+priority
+upshares
+unknown option: '
+none
+expected Boolean parameter
+allow
+deny
+user
+group
+: unknown shaper action: '
+downrate
+invalid downrate parameter
+invalid rate parameter
+shares must be greater than 1
+uprate
+invalid uprate parameter
+uprate must be greater than 0
+removed queue ID %d
+tune mod_shaper settings
+shaper
+core.module-unload
+core.postparse
+core.restart
+error opening '%s': %s
+error obtaining queue ID: %s
+obtained queue ID %d
+error locking ShaperTable: %s
+shaper table scrubber
+no ShaperTable configured
+update
+updates
+TransferRate
+access denied
+error handling request
+invalid downrate value (%s)
+overall downrate (%3.2Lf) set
+default downshares (%u) set
+default priority (%u) set
+invalid rate value (%s)
+invalid uprate value (%s)
+overall uprate (%3.2Lf) set
+default upshares (%u) set
+info
+Default Priority: %u
+Number of Shaped Sessions: %u
+DRate (KB/s)
+DShares
+Priority
+URate (KB/s)
+UShares
+%u/%u (%s%d)
+sess
+downshares cannot be 0
+set session priority to %u
+upshares cannot be 0
+error adjusting pid %u: %s
+host
+error resolving '%s': %s
+class
+sessions adjusted
+unknown shaper action: '%s'
+RETR
+APPE
+STOR
+STOU
+ShaperAll
+ShaperControlsACLs
+ShaperLog
+ShaperTable
+PASS
+mod_shaper.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

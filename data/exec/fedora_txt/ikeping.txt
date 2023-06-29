@@ -1,0 +1,298 @@
+/lib64/ld-linux-x86-64.so.2
+libgmp.so.3
+__gmon_start__
+_Jv_RegisterClasses
+libc.so.6
+socket
+strcpy
+__printf_chk
+exit
+optind
+perror
+__stack_chk_fail
+memchr
+__assert_fail
+getnetbyname
+strtol
+strlen
+strstr
+__errno_location
+bind
+poll
+__fprintf_chk
+memcpy
+rand
+setsockopt
+malloc
+__ctype_b_loc
+recvfrom
+optarg
+stderr
+getopt_long
+strncat
+close
+strchr
+sendto
+gethostbyname2
+__cxa_finalize
+fcntl
+__libc_start_main
+free
+_edata
+__bss_start
+_end
+__libc_csu_fini
+__libc_csu_init
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.2.5
+%zD 
+%rD 
+%jD 
+%bD 
+%ZD 
+%RD 
+%JD 
+%BD 
+%:D 
+%2D 
+%*D 
+%"D 
+ATSubH
+=`B 
+=g> 
+=O> 
+AVAUL
+t$pH
+T$hH
+t$pH
+Cv'H
+[]A\A]A^A_
+|$xH
+T$(H
+T$ H
+T$pH
+t$(1
+D$ H
+|$xA
+D$`H
+T$XH
+D$PH
+T$HH
+D$@I
+T$8H
+T$xH
+D$|	
+L$XL
+D$P1
+|$xL
+|$xD
+T$0H
+T$HH
+|$P1
+D$HH
+H;L$8u
+|$x1
+D$HH
+|$xH
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+>:u A
+H+D$
+D$x1
+T$xdH3
+T$ 1
+IN-ADDR.
+ARPAf
+T$ A
+T$ E1
+IP6.ARPAf
+H+T$
+T$ E1
+fff.
+ffffff.
+AVAUA
+D$x1
+$t41
+E9|$
+T$xdH3
+[]A\A]A^A_
+Ict$
+AWAVAUI
+ATUSH
+D$H1
+t$0H
+wdH9
+?:tX
+T$HdH3
+X[]A\A]A^A_
+\$(H
+l$0H
+fffff.
+wEI9
+?.uWA
+l$ H
+l$ H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+l$ L
+t$(L
+|$0H
+d$ H
+fff.
+d$ L
+l$(L
+t$0H
+AWAVAUATA
+;0tkH
+[]A\A]A^A_
+4+E1
+=f" 
+=2" 
+u#D9
+[]A\A]A^A_
+[]A\A]A^A_
+D$(1
+otJA
+T$(dH3
+uRf.
+fffff.
+fffff.
+l$ L
+t$(L
+|$0H
+IPv6
+FreeS/WAN %s
+IPv4
+hVnvsp:b:46E:w:
+socket
+v4 bind
+v6 bind
+Sending packet to %s/%d
+sendto
+poll
+echo-request
+echo-reply
+help
+version
+verbose
+listen
+ikeport
+ikeaddress
+inet
+inet6
+nat-t
+natt
+exchangenum
+wait
+Usage:
+ikeping [--listen]     causes IKEping to open a socket and reply to requests.
+ [--verbose]    causes IKEping to hexdump all packets sent/received.
+ [--ikeport <port-number>]      port to listen on/send from
+ [--ikeaddress <address>]       address to listen on/send from
+ [--inet]       just send/listen on IPv4 socket
+ [--inet6]      just send/listen on IPv6 socket
+ [--version]    just dump version number and exit
+ [--nat-t]      enabled NONESP encapsulation on port
+ [--exchangenum num]    use num instead of 244 for the exchange type.
+ [--wait seconds]    time to wait for replies, defaults to 10 seconds.
+ host/port ...
+Openswan %s
+Invalid exchange number '%s' (should be 1<=x<255)
+Invalid port number '%s' (should be 0<=x<65536)
+Invalid waittime number '%s' (should be 0<=x)
+Invalid local address '%s': %s
+/builddir/build/BUILD/openswan-2.6.18/programs/ikeping/ikeping.c
+NAT-Traversal: ESPINUDP(%d) not supported by kernel for family %s
+Invalid remote address '%s': %s
+kernel failed to steal ESP packet (SPI=0x%02x%02x%02x%02x) of length %d
+read short packet (%d) from %s/%d
+received %d(%s) packet from %s/%d of len: %d
+	rcookie=%08x_%08x icookie=%08x_%08x msgid=%08x
+	np=%03d  version=%d.%d    xchg=%s(%d)
+%d packets sent, %d packets received. %d%% packet loss
+main
+:0:0:
+<invalid>
+illegal (non-DNS-name) character in name
+unable to get temporary space for name
+does not look numeric and name lookup failed
+address-type mismatch from gethostbyname2!!!
+address-type mismatch from getnetbyname!!!
+non-hex field in IPv6 numeric address
+field in IPv6 numeric address longer than 4 hex digits
+more than one :: in IPv6 numeric address
+IPv6 numeric address ends prematurely
+syntax error in IPv6 numeric address
+extra garbage on end of IPv6 numeric address
+incomplete IPv6 numeric address (internal error)
+non-abbreviating empty field in IPv6 numeric address
+illegal leading `:' in IPv6 numeric address
+illegal trailing `:' in IPv6 numeric address
+internal error, tryhex called with bad length
+?empty number in dotted-decimal address
+?non-numeric component in dotted-decimal address
+byte overflow in dotted-decimal address
+syntax error in dotted-decimal address
+?syntax error in dotted-decimal address
+extra garbage on end of dotted-decimal address
+unknown address family in tnatoaddr
+does not appear to be either IPv4 or IPv6 numeric address
+does not appear to be numeric address
+non-ipv6 address may not contain `:'
+empty string
+invalid address family
+not numeric
+abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-_.
+unsupported number base
+non-hex digit in hex number
+hex number too long
+unsigned-long overflow
+non-digit in number
+0123456789abcdef
+Openswan 2.6.18
+2.6.18
+unknown address family in loopbackaddr
+unknown address family in anyaddr/unspecaddr
+unknown address family in add_port
+unknown address family in initaddr
+IPv4 address must be exactly 4 bytes
+IPv6 address must be exactly 16 bytes
+0123456789ABCDEF
+0123456789abcdef
+ikeping.debug
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

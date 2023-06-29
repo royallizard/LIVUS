@@ -1,0 +1,281 @@
+td8I
+td@M
+/lib/ld-linux.so.2
+libopensc.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+sc_ctx_log_to_file
+sc_context_create
+sc_format_path
+sc_lock
+sc_strerror
+sc_release_context
+sc_update_binary
+sc_transmit_apdu
+sc_ctx_get_reader
+sc_connect_card
+sc_read_binary
+sc_select_file
+sc_unlock
+sc_format_apdu
+sc_ctx_get_reader_count
+sc_disconnect_card
+libcrypto.so.10
+_init
+X509_free
+i2d_X509
+_fini
+PEM_write_X509
+X509_NAME_get_text_by_NID
+PEM_read_X509
+d2i_X509
+libz.so.1
+libdl.so.2
+libpthread.so.0
+__errno_location
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+fopen
+optind
+puts
+putchar
+strtol
+strlen
+__fprintf_chk
+stdout
+fclose
+strcasecmp
+optarg
+stderr
+getopt_long
+fwrite
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+D$\e
+D$X;8
+D$X90u,
+D$H1
+9D$P
+D$l1
+D$l;x,r
+kT$H<
+kD$H<
+kD$D
+kD$H<
+Et$H
+kD$H<
+kT$D
+D$\k
+kD$H<
+kD$H<
+kD$D
+9D$\
+kD$H<
+kD$H<
+9t$Xu
+kD$H<
+D$,1
+VUUU
+D$,e3
+d$<[^_]
+D$()
+[^_]
+UWV1
+D$$e
+[^_]
+|$|0
+l$Dt
+UWVS
+t$,U
+[^_]
+Reading crypted Initial-PUK-file: 
+Cannot select crypted Initial-PUK-file, %s
+Cannot read crypted Initial-PUK-file, %s
+Decrypting crypted Initial-PUK-file: 
+sc_transmit_apdu(MSE) failed, %s
+sc_transmit_apdu(PSO) failed, %s
+, Cannot select Cert-file %s, is this a NetKey-Card ??
+, Invald Cert-file: Type=%d, EF-Structure=%d
+This is netkey-tool V1.0, May 15 2005, Copyright Peter Koch <pk_opensc@web.de>
+  -v                       : verbose, may be specified several times
+  --reader <num>, -r <num> : use reader num (default 0)
+  --pin <pin>, -p <pin>    : current value of global PIN
+  --puk <pin>, -u <pin>    : current value of global PUK
+  --pin0 <pin>, -0 <pin>   : current value of local PIN0
+  --pin1 <pin>, -1 <pin>   : current value of local PIN1
+  unblock {pin | pin0 | pin1}
+  change {pin | puk | pin0 | pin1} <new pin>
+list PINs and Certs without changing anything. Try this first!!
+list PINs and Certs and initial PUK-value (after verification of global PIN)
+change local PIN0 to 654321 after verification of global PIN
+  %s --pin 123456 change pin0 654321
+change global PIN from hex 01:02:03:04:05:06 to ascii 123456
+  %s --pin 01:02:03:04:05:06 change pin 123456
+unblock global PIN with global PUK
+  %s --puk 12345678 unblock pin
+set global PIN to initial value when in NullPin-state
+store Certificate into card at position 2 and read it back into file
+  %s --pin1 123456 cert /tmp/cert1 2
+Be carful - this tool may destroy your card
+Questions? Comments? ==> opensc-user@opensc-project.org
+%s: invalid usage, try --help
+Context for application "%s" created, Debug=%d
+Card detected (driver: %s)
+ATR:
+Cannot select Serial-Number 2F02, is this a NetKey-Card ??
+Invald Serial-Number: Type=%d, EF-Structure=%d, Size=%lu
+Cannot select PIN-file %s, is this a NetKey-Card ??
+Invald PIN-file: Type=%d, EF-Structure=%d, Prop-Len=%lu %02X:%02X:%02X
+sc_transmit_apdu() failed, %s
+%s: %d tries left, %d tries max, 
+sc_transmit_apdu() failed, %s
+global PIN is not in NullPin-state (%02X%02X)
+Reading Card-Certificate %d: 
+cardfile contains %d bytes which are not a certificate
+Certificate %d from Netkey E4 card
+Readonly-Certificate %d cannot be changed
+Need %s or %s to change Card-Certificate %d
+file does not conatin PEM-encoded certificate
+Storing Cert into Card-Certificate %d: 
+Context does not support TCOS-cards
+certificate too long or invalid (Len=%d)
+Telesec Authentifizierungs Zertifikat
+User Authentifizierungs Zertifikat1
+User Authentifizierungs Zertifikat2
+Telesec Verschluesselungs Zertifikat
+User Verschluesselungs Zertifikat1
+User Verschluesselungs Zertifikat2
+3F004350
+3F00DF01
+Cannot select DF01, %s
+MSE=%02X%02X
+PSO=%02X%02X
+OK ==> Initial-PUK:
+DF01C000
+Telesec Signatur Zertifikat
+Certificate %lu: %s
+, Cannot read Cert-file, %s
+, Maxlen=%lu
+, Len=%d
+  Subject-CN: %s
+  Issuer-CN:  %s
+  Invalid Certificate-Data
+, empty
+change
+unblock
+Changing
+Unblocking
+hvr:p:u:0:1:
+usage: %s <options> command
+Options:
+Commands:
+  nullpin <new pin>
+  cert <certnum> <filepath>
+  cert <filepath> <certnum>
+Examples:
+  %s --pin 123456
+  %s nullpin 123456
+  %s cert 2 /tmp/cert2
+nullpin
+cert
+Establish-Context failed: %s
+stderr
+tcos
+Cannot open reader %d
+Connect-Card failed: %s
+%c%02X
+Lock failed: %s
+3F002F02
+Serial-Number: 
+not verified
+blocked
+NullPin
+Error %02X%02X
+Need %s
+ or %s
+ to %s %s
+%s %s with %s: 
+Cannot select %s, %s
+Setting initial PIN-value: 
+cannot select certfile, %s
+Cannot read Cert, %s
+Writing Cert to %s: 
+Cannot open file, %s
+Reading Cert from %s: 
+cannot store cert, %s
+%d Readers detected
+help
+verbose
+reader
+pin0
+pin1
+3F005000
+global PIN
+3F005001
+global PUK
+3F00DF015080
+local PIN0
+3F00DF015081
+local PIN1
+DF014331
+User Signatur Zertifikat1
+DF014332
+User Signatur Zertifikat2
+DF01C100
+DF014371
+DF014372
+DF01C200
+DF0143B1
+DF0143B2
+;*2$"<
+netkey-tool.debug
+7zXZ
+{Cn4i
+BK+=
+=\`>
+VBrV
+45X9
+g]R&
+(CLF
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

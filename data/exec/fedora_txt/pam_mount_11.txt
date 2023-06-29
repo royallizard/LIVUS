@@ -1,0 +1,719 @@
+P`^B
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ERR_get_error
+ERR_error_string
+memset
+OpenSSL_add_all_ciphers
+EVP_CIPHER_CTX_init
+SSL_load_error_strings
+fopen64
+EVP_get_cipherbyname
+fread
+fclose
+EVP_CIPHER_CTX_cleanup
+ERR_free_strings
+__assert_fail
+EVP_md5
+strlen
+EVP_BytesToKey
+EVP_DecryptInit_ex
+EVP_DecryptUpdate
+EVP_DecryptFinal_ex
+getpwnam
+stderr
+__vfprintf_chk
+__vsyslog_chk
+g_strlcpy
+g_strlcat
+setsid
+chdir
+setgid
+setuid
+setenv
+getegid
+geteuid
+getgid
+getuid
+setfsuid
+strtol
+__xstat64
+pam_sm_setcred
+pam_sm_acct_mgmt
+sigemptyset
+sigaction
+fdopen
+fscanf
+waitpid
+__errno_location
+pam_sm_close_session
+pam_get_user
+pam_get_item
+pam_strerror
+pam_sm_open_session
+pam_get_data
+pam_getenv
+pam_set_data
+pam_sm_authenticate
+pam_set_item
+pam_sm_chauthtok
+malloc
+strcpy
+setmntent
+getmntent
+strcmp
+strncpy
+endmntent
+g_list_length
+strcasecmp
+getgrgid
+getgrnam
+strspn
+__snprintf_chk
+strcat
+strncat
+strchr
+snprintf
+strcspn
+realloc
+access
+strncasecmp
+strncmp
+__fprintf_chk
+__vsnprintf_chk
+fputc
+__ctype_b_loc
+fgets
+sscanf
+__strncpy_chk
+opendir
+readdir64
+__sprintf_chk
+strstr
+__strcat_chk
+__strcpy_chk
+closedir
+g_path_get_dirname
+mkdir
+chown
+write
+g_error_free
+exit
+__realpath_chk
+ioctl
+system
+rmdir
+g_list_find_custom
+g_list_append
+g_queue_pop_head
+g_tree_foreach
+gzclose
+g_tree_insert
+g_queue_new
+g_tree_new
+gzopen
+g_queue_push_head
+memcpy
+g_queue_pop_tail
+g_queue_is_empty
+__strncat_chk
+g_tree_lookup
+gzgets
+__ctype_tolower_loc
+__ctype_toupper_loc
+memmove
+g_spawn_async_with_pipes
+libz.so.1
+libglib-2.0.so.0
+libssl.so.6
+libcrypto.so.6
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+pam_mount.so
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.2
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+[^_]
+[^_]
+,[^_]
+,[^_]
+,[^_]
+,[^_]
+[^_]
+[^_]
+<[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+,[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+/dev
+/loof
+[^_]
+[^_]
+[^_]
+[^_]
+gfff
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+8\uk
+8 ~o
+ot	1
+v,<}u
+[^_]
+[^_]
+>/t	
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+8	t-
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+0.gz
+[^_]
+pam_mount(crypto.c:60) %s: %s
+crypto.c
+pt_fs_key != ((void *)0)
+pt_fs_key_len != ((void *)0)
+fs_key_cipher != ((void *)0)
+fs_key_path != ((void *)0)
+authtok != ((void *)0)
+Salted__
+failed to decrypt key
+pam_mount(crypto.c:150) error opening %s
+pam_mount(crypto.c:155) error getting cipher "%s"
+pam_mount(crypto.c:88) error reading salt from encrypted filesystem key
+pam_mount(crypto.c:92) magic string Salted__ not in filesystem key file
+pam_mount(crypto.c:99) failed to hash system password
+pam_mount(crypto.c:165) failed to read encrypted filesystem key from %s
+failed to initialize decryption code
+bad pad on end of encrypted file (wrong algorithm or key size?)
+pam_mount(crypto.c:193) error closing file pointer
+error cleaning up cipher context
+ret == 0 || *pt_fs_key_len <= 127 + 32
+decrypted_key
+misc.c
+format != ((void *)0)
+HOME
+USER
+argv != ((void *)0)
+arg != ((void *)0)
+vinfo != ((void *)0)
+pam_mount(misc.c:302) %s
+pam_mount(misc.c:309) %s
+user != ((void *)0)
+file != ((void *)0)
+pam_mount(misc.c:264) command: %s
+pam_mount(misc.c:341) %s(pre): real uid/gid=%ld:%ld, effective uid/gid=%ld:%ld
+pam_mount(misc.c:346) error setting uid to 0
+pam_mount(misc.c:351) error setting fsuid to 0
+pam_mount(misc.c:358) setting uid to user %s
+pam_mount(misc.c:360) could not get passwd entry for user %s
+pam_mount(misc.c:364) could not set gid to %ld
+pam_mount(misc.c:369) could not set uid to %ld
+pam_mount(misc.c:376) %s(post): real uid/gid=%ld:%ld, effective uid/gid=%ld:%ld
+argc != ((void *)0) && *argc >= 0 && *argc <= 127 - 1
+pam_mount(misc.c:300) could not fill %s
+pam_mount(misc.c:151) count string is NULL
+pam_mount(misc.c:156) count string is not valid
+pam_mount(misc.c:125) user %s could not be translated to UID
+pam_mount(misc.c:131) file %s could not be stat'ed
+set_myuid
+add_to_argv
+owns
+exists
+w4rn
+pam_mount(pam_mount.c:123) clean system authtok (%d)
+pam_mount(pam_mount.c:332) error executing /usr/sbin/pmvarrun
+pam_mount(pam_mount.c:338) error opening file: %s
+pam_mount(pam_mount.c:344) error reading login count from pmvarrun
+pam_mount(pam_mount.c:350) error waiting for child: %s
+pam_mount(pam_mount.c:356) pmvarrun failed
+pam_mount(pam_mount.c:360) pmvarrun says login count is %d
+pam_mount(pam_mount.c:533) received order to close things
+pam_mount(pam_mount.c:534) real and effective user ID are %d and %d.
+pam_mount(pam_mount.c:540) could not get user
+pam_mount(pam_mount.c:549) could not chdir
+pam_mount(pam_mount.c:551) volcount is zero
+pam_mount(pam_mount.c:556) going to unmount
+pam_mount(pam_mount.c:558) unmount of %s failed
+pam_mount(pam_mount.c:562) %s seems to have other remaining open sessions
+pam_mount(pam_mount.c:567) pam_mount execution complete
+pam_mount(pam_mount.c:193) enter read_password
+pam_mount(pam_mount.c:159) conv->conv(...): %s
+pam_mount(pam_mount.c:161) pam_get_item: %s
+retval != 0 || (pass != ((void *)0) && *pass != ((void *)0))
+pam_mount(pam_mount.c:397) could not get user
+pam_mount(pam_mount.c:405) username %s is too long
+pam_mount(pam_mount.c:413) error trying to retrieve authtok from auth code
+pam_mount(pam_mount.c:416) error trying to read password
+pam_mount(pam_mount.c:429) KRB5CCNAME setenv failed
+pam_mount(pam_mount.c:435) error trying to save config structure
+pam_mount(pam_mount.c:439) back from global readconfig
+pam_mount(pam_mount.c:441) per-user configurations not allowed by pam_mount.conf
+pam_mount(pam_mount.c:443) going to readconfig user
+pam_mount(pam_mount.c:448) back from user readconfig
+pam_mount(pam_mount.c:450) %s does not exist or is not owned by user
+pam_mount(pam_mount.c:453) no volumes to mount
+pam_mount(pam_mount.c:455) error expanding configuration
+pam_mount(pam_mount.c:459) %s: real uid/gid=%ld:%ld, effective uid/gid=%ld:%ld
+pam_mount(pam_mount.c:474) about to perform mount operations
+pam_mount(pam_mount.c:478) mount of %s failed
+pam_mount(pam_mount.c:491) done opening session
+pam_mount(pam_mount.c:106) Clean global config (%d)
+pam_mount(pam_mount.c:85) pam_sm_open_session args: %s
+pam_mount(pam_mount.c:91) bad pam_mount option
+pam_mount(pam_mount.c:234) could not get user
+pam_mount(pam_mount.c:249) could not get password from PAM system
+pam_mount(pam_mount.c:257) error trying to read password
+pam_mount(pam_mount.c:262) error trying to export password
+pam_mount(pam_mount.c:267) password too long
+pam_mount(pam_mount.c:271) saving authtok for session code
+pam_mount(pam_mount.c:275) error trying to save authtok for session code
+ret != 0 || pam_get_data(pamh, "pam_mount_system_authtok", &tmp) == 0
+ret != 0 || tmp != ((void *)0)
+pam_mount.c
+config_valid(config)
+operation != ((void *)0)
+OPERATION
+pamh != ((void *)0)
+prompt != ((void *)0)
+pass != ((void *)0)
+pam_mount_system_authtok
+reenter password:
+/etc/security/pam_mount.conf
+KRB5CCNAME
+pam_mount_config
+argc >= 0
+argv[i] != ((void *)0)
+use_first_pass
+try_first_pass
+pam_sm_close_session
+modify_pm_count
+pam_sm_open_session
+pam_sm_open_session
+read_password
+pam_sm_authenticate
+parse_pam_args
+tried to set int param from user config
+pam_mount(readconfig.c:155) %s
+pam_mount(readconfig.c:726) error opening %s: %s
+pam_mount(readconfig.c:732) error reading %s: %s
+pam_mount(readconfig.c:518) could not open fstab
+pam_mount(readconfig.c:525) could not get %dth fstab field for %s
+pam_mount(readconfig.c:543) field of %d invalid
+((struct config *)(cmd->option->info)) != ((void *)0)
+cmd->data.list[i] != ((void *)0)
+tried to set command from user config
+command[i].command_name != ((void *)0)
+pam_mount(readconfig.c:269) bad command in config
+command type specified without definition
+pam_mount(readconfig.c:278) configured command line too long
+cmd->option->info != ((void *)0)
+tried to set options_deny from user config
+pam_mount(readconfig.c:214) reading options_deny...
+tried to set options_allow from user config
+pam_mount(readconfig.c:197) reading options_allow...
+tried to set options_require from user config
+pam_mount(readconfig.c:180) reading options_require...
+error parsing required options
+pam_mount(readconfig.c:418) checking sanity of volume record (%s)
+mount command not defined for this type
+remote mount type specified without server
+NCP volume definition missing user option
+fs_key_cipher defined without fs_key_path
+fs_key_path defined without fs_key_cipher
+pam_mount(readconfig.c:397) You may not use wildcards in user-defined volumes
+pam_mount(readconfig.c:360) possible conflicting option settings (use allow OR deny)
+pam_mount(readconfig.c:317) option %s required
+pam_mount(readconfig.c:300) option %s not allowed
+pam_mount(readconfig.c:333) no denied options
+pam_mount(readconfig.c:336) all mount options denied, user tried to specify one
+pam_mount(readconfig.c:341) option %s denied
+pam_mount(readconfig.c:378) user specified options denied by default
+pam_mount(readconfig.c:401) illegal option specified by user
+tried to set fsckloop from user config
+pam_mount(readconfig.c:608) getpwnam("%s") failed: %s
+pam_mount(readconfig.c:622) volume wildcards ignored for root
+pam_mount(readconfig.c:634) getgrgid(%ld) failed: %s
+pam_mount(readconfig.c:961) getgrnam("%s") failed: %s
+could not determine mount point
+pam_mount(readconfig.c:707) ignoring volume record %.20s... (not for me)
+pam_mount(readconfig.c:832) expand_home(path=%s); path does not begin with ~
+pam_mount(readconfig.c:837) Could not lookup account information for %s
+pam_mount(readconfig.c:843) Warning: Not enough buffer space in expand_home()
+tried to set luserconf from user config
+expanded luserconf path too long
+pam_mount(readconfig.c:467) path to luserconf set to %s
+pam_mount(readconfig.c:864) expand_user_wildcard(str=NULL)
+pam_mount(readconfig.c:868) expand_user_wildcard(dest=NULL), please fix
+username=%(USER),uid=%(USERUID),gid=%(USERGID)%(before="," OPTIONS)
+pass-fd=0,volume=%(VOLUME)%(before="," OPTIONS)
+%(MNTPT)%(before="-o" OPTIONS)
+/etc/fstab
+readconfig.c
+cmd != ((void *)0)
+cmd->name != ((void *)0)
+cmd->context != ((void *)0)
+cmd->data.list != ((void *)0)
+cmd->option != ((void *)0)
+command too long
+cmd->data.str != ((void *)0)
+error parsing denied options
+error parsing allowed options
+config != ((void *)0)
+config->volume != ((void *)0)
+user
+umount command not defined
+fsckloop path too long
+bad number of args for volume
+root
+could not determine options
+error parsing mount options
+smbfs
+/usr/bin/smbmount
+//%(SERVER)/%(VOLUME)
+%(MNTPT)
+/usr/bin/smbumount
+cifs
+cifsmount
+/bin/mount
+ncpfs
+/usr/bin/ncpmount
+%(SERVER)/%(USER)
+/usr/bin/ncpumount
+fusemount
+/sbin/mount.fuse
+%(before="-o" OPTIONS)
+fuseumount
+/usr/bin/fusermount
+nfsmount
+%(SERVER):%(VOLUME)
+lclmount
+%(FSTYPE)
+cryptmount
+/bin/umount
+/usr/bin/lsof
+mntagain
+--bind
+%(PREVMNTPT)
+mntcheck
+/sbin/fsck
+%(FSCKTARGET)
+/sbin/losetup
+%(before="-e" CIPHER)
+%(before="-k" KEYBITS)
+%(FSCKLOOP)
+unlosetup
+/usr/sbin/pmvarrun
+%(OPERATION)
+debug
+mkmountpoint
+luserconf
+fsckloop
+options_require
+options_allow
+options_deny
+read_options_deny
+read_options_allow
+read_options_require
+read_command
+get_command_index
+volume_record_sane
+luserconf_volume_record_sane
+_options_ok
+DC_INCLUDEPATH
+%s:%ld: 
+Unknown Config-Option: '%s'
+Unbalanced '{'
+Error parsing '%s'
+Unterminated here-document!
+%s%s%s
+Include
+IncludePath
+Error opening configuration file '%s'
+[dotconf] Parse error. Unexpected end of file at line %ld in file %s
+[emerg] could not stat currently read file (%s)
+Missing argument to option '%s'
+Error occured while processing wildcard %c
+Filename is '%s'
+Cannot open %s for inclusion.
+IncludePath is '%s'
+Absolute filename too long (>%d)
+Error occured while attempting to process %s for inclusion.
+IncludePath is '%s'
+FSCKLOOP
+FSTYPE
+VOLUME
+SERVER
+USERUID
+USERGID
+OPTIONS
+(defined by globalconf)
+(defined by luserconf)
+pam_mount(mount.c:370) %s
+vol_valid(volume)
+fd >= 0
+buf != ((void *)0)
+pam_mount(mount.c:100) %s
+password != ((void *)0)
+move
+/proc/filesystems
+nodev
+encryption
+keybits
+CIPHER
+KEYBITS
+pam_mount(mount.c:580) %s
+pam_mount: %s
+FSCKTARGET
+pam_mount(mount.c:698) %s
+pam_mount(mount.c:633) %s
+//%s/%s
+%s:%s
+/dev/mapper/%s
+/etc/mtab
+PREVMNTPT
+pam_mount(mount.c:788) %s
+PASSWD_FD
+pam_mount(mount.c:838) %s
+password == ((void *)0)
+pam_mount(mount.c:127) %s
+/sbin/umount.crypt
+pam_mount(mount.c:482) %s
+pam_mount(mount.c:901) getpwnam("%s") failed: %s
+pam_mount(mount.c:368) information for mount:
+pam_mount(mount.c:369) ----------------------
+pam_mount(mount.c:373) user:          %s
+pam_mount(mount.c:374) server:        %s
+pam_mount(mount.c:375) volume:        %s
+pam_mount(mount.c:376) mountpoint:    %s
+pam_mount(mount.c:377) options:       %s
+pam_mount(mount.c:378) fs_key_cipher: %s
+pam_mount(mount.c:379) fs_key_path:   %s
+pam_mount(mount.c:380) use_fstab:   %d
+pam_mount(mount.c:381) ----------------------
+pam_mount(mount.c:397) creating mount point %s
+pam_mount(mount.c:407) tried to create %s but failed
+pam_mount(mount.c:413) could not chown %s to %s
+pam_mount(mount.c:419) could not determine uid from %s to make %s
+pam_mount(mount.c:96) error opening file: %s
+password_len >= 0 && password_len <= 127 + 32
+pam_mount(mount.c:673) fsck not defined in pam_mount.conf
+pam_mount(mount.c:564) losetup not defined in pam_mount.conf
+pam_mount(mount.c:587) error sending password to losetup
+pam_mount: could not close fd: %s
+I don't like failed system calls -- I quit
+pam_mount(mount.c:591) losetup errors (should be empty):
+pam_mount(mount.c:595) waiting for losetup
+pam_mount(mount.c:597) error waiting for child: %s
+pam_mount(mount.c:687) volume not a loopback (options: %s)
+pam_mount(mount.c:705) waiting for filesystem check
+pam_mount(mount.c:707) error waiting for child: %s
+pam_mount(mount.c:622) unlosetup not defined in pam_mount.conf
+pam_mount(mount.c:637) waiting for losetup delete
+pam_mount(mount.c:639) error waiting for child: %s
+pam_mount(mount.c:167) could not open /etc/mtab
+pam_mount(mount.c:752) could not determine if %s is already mounted, failing
+pam_mount(mount.c:171) can't get realpath of volume %s: %s
+pam_mount(mount.c:177) realpath of volume "%s" is "%s"
+pam_mount(mount.c:182) checking to see if %s is already mounted at %s
+pam_mount(mount.c:755) %s already seems to be mounted at %s, skipping
+pam_mount(mount.c:758) %s already mounted elsewhere at %s
+pam_mount(mount.c:770) mount point %s does not exist (pam_mount not configured to make it)
+pam_mount(mount.c:777) mntagain not defined in pam_mount.conf
+pam_mount(mount.c:796) proper mount command not defined in pam_mount.conf
+pam_mount(mount.c:799) checking for encrypted filesystem key configuration
+pam_mount(mount.c:803) decrypting FS key using system auth. token and %s
+pam_mount(mount.c:819) about to start building mount command
+pam_mount(mount.c:830) error checking filesystem but will continue
+pam_mount(mount.c:845) error sending password to mount
+pam_mount(mount.c:851) mount errors (should be empty):
+pam_mount(mount.c:854) waiting for mount
+pam_mount(mount.c:857) error waiting for child: %s
+pam_mount(mount.c:119) lsof not defined in pam_mount.conf
+pam_mount(mount.c:131) lsof output (should be empty)...
+pam_mount(mount.c:133) waiting for lsof
+pam_mount(mount.c:135) error waiting for child: %s
+pam_mount(mount.c:467) {smb,ncp}umount not defined in pam_count.conf
+pam_mount(mount.c:487) umount errors (should be empty):
+pam_mount(mount.c:490) waiting for umount
+pam_mount(mount.c:492) error waiting for child: %s
+pam_mount(mount.c:503) could not remove %s
+mount_op
+do_mount
+already_mounted
+mkmountpoint
+check_filesystem
+do_losetup
+do_unlosetup
+pipewrite
+do_unmount
+optlist.c
+x != ((void *)0)
+px->key != ((void *)0)
+optlist != ((void *)0)
+ptr != ((void *)0) || !optlist_exists(optlist, str)
+len > 0 && len <= strlen(str) && len <= 127
+!ret || (optlist_exists(*optlist, key) && !__extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (optlist_value(*optlist, key)) && __builtin_constant_p (val) && (__s1_len = strlen (optlist_value(*optlist, key)), __s2_len = strlen (val), (!((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) || __s2_len >= 4)) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__builtin_constant_p (optlist_value(*optlist, key)) && ((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) && (__s1_len = strlen (optlist_value(*optlist, key)), __s1_len < 4) ? (__builtin_constant_p (val) && ((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) (val); register int __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (val) && ((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) && (__s2_len = strlen (val), __s2_len < 4) ? (__builtin_constant_p (optlist_value(*optlist, key)) && ((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (optlist_value(*optlist, key)); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) (val))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) (val))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) (val))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) (val))[3]); } } __result; }))) : __builtin_strcmp (optlist_value(*optlist, key), val)))); }))
+!ret || (optlist_exists(*optlist, key) && __extension__ ({ size_t __s1_len, __s2_len; (__builtin_constant_p (optlist_value(*optlist, key)) && __builtin_constant_p (val) && (__s1_len = strlen (optlist_value(*optlist, key)), __s2_len = strlen (val), (!((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) || __s1_len >= 4) && (!((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) || __s2_len >= 4)) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__builtin_constant_p (optlist_value(*optlist, key)) && ((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) && (__s1_len = strlen (optlist_value(*optlist, key)), __s1_len < 4) ? (__builtin_constant_p (val) && ((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__extension__ ({ __const unsigned char *__s2 = (__const unsigned char *) (__const char *) (val); register int __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[0] - __s2[0]); if (__s1_len > 0 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[1] - __s2[1]); if (__s1_len > 1 && __result == 0) { __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[2] - __s2[2]); if (__s1_len > 2 && __result == 0) __result = (((__const unsigned char *) (__const char *) (optlist_value(*optlist, key)))[3] - __s2[3]); } } __result; }))) : (__builtin_constant_p (val) && ((size_t)(const void *)((val) + 1) - (size_t)(const void *)(val) == 1) && (__s2_len = strlen (val), __s2_len < 4) ? (__builtin_constant_p (optlist_value(*optlist, key)) && ((size_t)(const void *)((optlist_value(*optlist, key)) + 1) - (size_t)(const void *)(optlist_value(*optlist, key)) == 1) ? __builtin_strcmp (optlist_value(*optlist, key), val) : (__extension__ ({ __const unsigned char *__s1 = (__const unsigned char *) (__const char *) (optlist_value(*optlist, key)); register int __result = __s1[0] - ((__const unsigned char *) (__const char *) (val))[0]; if (__s2_len > 0 && __result == 0) { __result = (__s1[1] - ((__const unsigned char *) (__const char *) (val))[1]); if (__s2_len > 1 && __result == 0) { __result = (__s1[2] - ((__const unsigned char *) (__const char *) (val))[2]); if (__s2_len > 2 && __result == 0) __result = (__s1[3] - ((__const unsigned char *) (__const char *) (val))[3]); } } __result; }))) : __builtin_strcmp (optlist_value(*optlist, key), val)))); }) == 0)
+!ret || ((strlen(str) == 0 && *optlist == '\0') || *optlist != '\0')
+(optlist == ((void *)0) && strlen(str) == 0) || strlen(str) > 0
+optlist_to_str
+optlist_value
+_compare
+optlist_exists
+str_to_optlist
+_parse_string_opt
+_parse_opt
+fmt_ptrn.c
+fmt_ptrn_valid(x)
+fmt_ptrn_valid(data)
+no error
+string
+msg != ((void *)0)
+buffer_valid(str)
+mystack_valid(modifier)
+mystack_valid(s)
+fnval != ((void *)0)
+*p != ((void *)0)
+buffer_valid(buf)
+fmt_ptrn_valid(y)
+%s: %ld: end of input
+%s: %ld: key has no value
+*ptrn != ((void *)0)
+*pattern != ((void *)0)
+%s: %ld: no end quote
+%s: %ld: no space after arg
+%s: %ld: key too long
+buffer_valid(value)
+%s: %ld: error applying %s modifier to %s
+%s: %ld: modifier arg. too long
+%s: %ld: more than %d modifiers
+%s: %ld: no literal found in quotes
+fmt_ptrn_close
+fmt_ptrn_gets
+_fill_it
+_handle_fmt_str
+_read_modifiers
+_read_modifier
+_read_modifier_arg
+_stack_push
+_read_key
+_is_literal
+_read_literal
+_lookup
+_eat_alternate
+_matching_paren
+_apply_modifiers
+_stack_pop
+_read_alternate
+_fmt_ptrn_copy_fillers
+_copy_fillers
+fmt_ptrn_open
+fmt_ptrn_init
+fmt_ptrn_filled
+fmt_ptrn_update_kv
+enqueue_parse_errmsg
+fmt_ptrn_parse_strerror
+fmt_ptrn_parse_err
+ -->
+<!-- 
+upper
+lower
+basename
+before="
+after="
+c_delim
+cpp_delim
+sh_delim
+tex_delim
+c_comment
+cpp_comment
+sh_comment
+tex_comment
+xml_comment
+sgml_comment
+no_newlines
+template
+file
+remove_underscore
+%s: %ld: template %s does not exist
+no template for type %s
+buffer.c
+buffer_valid(dest)
+src != ((void *)0)
+realloc_n_cpy
+realloc_n_ncat
+realloc_n_cat
+buffer_len
+buffer_eat
+buffer_clear
+%s: sigaction: %s
+%s: saved_handler already grabbed, not overwriting
+spawn_restore_sigchld
+pam_mount(xstdlib.c:56) xrealloc: Could not reallocate to %lu bytes
+pam_mount(xstdlib.c:40) xmalloc: Could not allocate %lu bytes
+pam_mount.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

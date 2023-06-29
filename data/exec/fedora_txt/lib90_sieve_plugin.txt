@@ -1,0 +1,208 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+mail_user_plugin_getenv
+mail_user_get_home
+sieve_directory_open
+sieve_directory_get_scriptfile
+strcmp
+buffer_insert
+buffer_append
+sieve_directory_close
+sieve_sys_warning
+sieve_compile
+sieve_sys_error
+sieve_sys_debug
+sieve_save
+sieve_error_handler_reset
+sieve_open
+t_strdup_printf
+mail_send_rejection
+duplicate_check
+duplicate_mark
+smtp_client_close
+smtp_client_open
+i_panic
+sieve_init
+sieve_master_ehandler_create
+sieve_system_ehandler_set
+sieve_error_handler_accept_infolog
+sieve_error_handler_accept_debuglog
+t_push
+__xstat
+pool_datastack_create
+buffer_create_dynamic
+buffer_append_buf
+sieve_system_ehandler_get
+t_strconcat
+sieve_logfile_ehandler_create
+mail_deliver_get_return_address
+mail_get_first_header
+sieve_multiscript_start_execute
+sieve_multiscript_run
+sieve_multiscript_status
+sieve_close
+sieve_get_source
+sieve_multiscript_finish
+sieve_error_handler_unref
+t_pop_check
+sieve_deinit
+sieve_is_loaded
+sieve_execute
+mail_user_home_expand
+__errno_location
+eacces_error_get
+sieve_plugin_init
+mail_deliver_hook_set
+sieve_plugin_deinit
+sieve_plugin_binary_dependency
+sieve_plugin_version
+libdovecot-sieve.so.0
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+lib90_sieve_plugin.so
+/usr/lib64/dovecot
+GLIBC_2.2.5
+5*, 
+%,, 
+%*, 
+%", 
+%z+ 
+%r+ 
+%j+ 
+%b+ 
+%Z+ 
+%R+ 
+%J+ 
+%B+ 
+%:+ 
+%2+ 
+%*+ 
+%"+ 
+=8* 
+ATSubH
+=P( 
+=o& 
+%4& 
+[A\]
+ffff.
+AWAVAUATUH
+t^E1
+D;t$
+D;t$
+T$ L
+t$ L
+[]A\A]A^A_
+8[]A\A]A^
+H9o(H
+H9k 
+l$ L
+t$(L
+|$0H
+	u[H9k uUH
+ffffff.
+l$ H
+H9k t
+l$ H
+L9g(H
+L9g 
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+	uKL9c uEH
+ffff.
+H9w A
+ffff.
+AWAVAUATUSH
+t$@H
+D$@H
+T$PL
+D$8H
+|$8H
+t$,H
+\$HH
+T$0H
+;\$,H
+H;l$0
+T$ H
+|$8H
+\$HH
+[]A\A]A^A_
+T$ H
+T$ H
+ffffff.
+main_script
+opening script %s
+script file %s is missing
+failed to open script %s
+empty script path, disabled
+~/.dovecot.sieve
+sieve_global_path
+global_script_path
+stat
+sieve_before
+sieve_after
+.log
+Message-ID
+executing script from %s
+2.0.15
+encountered corrupt binary: re-compiling script %s
+script file %s is missing for re-compile
+failed to re-compile script %s (view user logfile %s for more information)
+failed to re-compile script %s
+the lda sieve plugin does not have permission to save global sieve script binaries; global sieve scripts like %s need to be pre-compiled using the sievec tool
+failed to open script %s (view user logfile %s for more information)
+ (user logfile %s may reveal additional details)
+execution of script %s failed, but implicit keep was successful%s
+!!BUG!!: binary compiled from %s is still corrupt; bailing out and reverting to default delivery
+script %s failed with unsuccessful implicit keep%s
+dest_array->element_size == src_array->element_size
+/builddir/build/BUILD/dovecot-2.0.15/src/lib/array.h
+file %s: line %d (%s): assertion failed: (%s)
+relative script path, but empty home dir: %s
+path to user's main active personal script is unknown. See http://wiki2.dovecot.org/Pigeonhole/Sieve/Configuration
+user's script path %s doesn't exist (using global script path in stead)
+failed to stat user's sieve script: %s (using global script path in stead)
+failed to stat user's sieve script: stat(%s) failed: %m (using global script path in stead)
+user has no valid personal script
+using sieve path for user's script: %s
+sieve_before path not found: %s
+sieve_after path not found: %s
+executed before user's script(%d): %s
+executed after user's script(%d): %s
+no scripts to execute: reverting to default delivery.
+lda lmtp
+array_append_array_i
+;*3$"
+lib90_sieve_plugin.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

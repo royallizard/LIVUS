@@ -1,0 +1,208 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+lp_parm_enum
+smb_vfs_call_fchmod_acl
+lp_syslog
+__syslog_chk
+DEBUGLEVEL_CLASS
+DEBUGLEVEL_CLASS_ISSET
+dbghdrclass
+fsp_str_dbg
+dbgtext
+__errno_location
+strerror
+smb_vfs_call_chmod_acl
+smb_vfs_call_fchmod
+smb_vfs_call_chmod
+smb_vfs_call_unlink
+smb_fname_str_dbg
+smb_vfs_call_rename
+smb_vfs_call_close_fn
+smb_vfs_call_open
+smb_vfs_call_rmdir
+smb_vfs_call_mkdir
+smb_vfs_call_opendir
+smb_vfs_call_disconnect
+smb_vfs_call_connect
+openlog
+init_samba_module
+smb_register_vfs
+debug_add_class
+libc.so.6
+_edata
+__bss_start
+_end
+extd_audit.so
+GLIBC_2.4
+GLIBC_2.2.5
+5Z1 
+%\1 
+%Z1 
+%R1 
+%J1 
+%B1 
+%:1 
+%21 
+%*1 
+%"1 
+= 4 
+ATSubH
+=`/ 
+%L, 
+[A\]
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+5(, 
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+l$ H
+d$(L
+l$0L
+t$8L
+|$@H
+5|) 
+l$ L
+t$(L
+|$0H
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+l$ L
+t$(L
+|$0H
+50% 
+l$0H
+\$(L
+d$8L
+l$@L
+t$HL
+|$PH
+t$ H
+t$ H
+5c! 
+t$ H
+5i  
+fff.
+l$ H
+priority
+extd_audit
+failed: 
+fchmod_acl %s mode 0x%x %s%s
+modules/vfs_extd_audit.c:336
+modules/vfs_extd_audit.c:296
+fchmod %s mode 0x%x %s%s
+modules/vfs_extd_audit.c:316
+modules/vfs_extd_audit.c:276
+unlink %s %s%s
+modules/vfs_extd_audit.c:256
+rename %s -> %s %s%s
+modules/vfs_extd_audit.c:235
+close fd %d %s%s
+modules/vfs_extd_audit.c:211
+for writing 
+open %s (fd %d) %s%s%s
+modules/vfs_extd_audit.c:191
+rmdir %s %s%s
+modules/vfs_extd_audit.c:168
+mkdir %s %s%s
+modules/vfs_extd_audit.c:148
+opendir %s %s%s
+modules/vfs_extd_audit.c:128
+disconnected
+modules/vfs_extd_audit.c:107
+facility
+smbd_audit
+modules/vfs_extd_audit.c:97
+modules/vfs_extd_audit.c:368
+modules/vfs_extd_audit.c:370
+EMERG
+ALERT
+CRIT
+WARNING
+NOTICE
+INFO
+DEBUG
+USER
+LOCAL0
+LOCAL1
+LOCAL2
+LOCAL3
+LOCAL4
+LOCAL5
+LOCAL6
+LOCAL7
+vfs_extd_audit: fchmod_acl %s mode 0x%x %s %s
+vfs_extd_audit: chmod_acl %s mode 0x%x %s %s
+vfs_extd_audit: fchmod %s mode 0x%x %s %s
+vfs_extd_audit: chmod %s mode 0x%x %s %s
+vfs_extd_audit: unlink %s %s %s
+vfs_extd_audit: rename old: %s newname: %s  %s %s
+vfs_extd_audit: close fd %d %s %s
+vfs_extd_audit: open %s %s %s
+vfs_extd_audit: rmdir %s %s %s
+vfs_extd_audit: mkdir %s %s %s
+vfs_extd_audit: opendir %s %s %s
+Disconnected from VFS module extd_audit
+connect to service %s by user %s
+Connected to service %s as user %s
+vfs_extd_audit: Couldn't register custom debugging class!
+vfs_extd_audit: Debug class number of 'extd_audit': %d
+init_samba_module
+audit_fchmod_acl
+audit_chmod_acl
+audit_fchmod
+audit_chmod
+audit_unlink
+audit_rename
+audit_close
+audit_open
+audit_rmdir
+audit_mkdir
+audit_opendir
+audit_disconnect
+audit_connect
+extd_audit.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

@@ -1,0 +1,320 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+errp
+__stack_chk_fail
+tcmu_get_dev_private
+tcmu_emulate_test_unit_ready
+tcmu_emulate_read_capacity_16
+tcmu_emulate_inquiry
+tcmu_get_lba
+tcmu_get_xfer_length
+tcmu_iovec_length
+tcmu_seek_in_iovec
+tcmu_set_sense_data
+tcmu_emulate_mode_select
+tcmu_emulate_mode_sense
+__assert_fail
+free
+calloc
+tcmu_set_dev_private
+tcmu_get_attribute
+tcmu_get_device_size
+tcmu_get_dev_cfgstring
+strchr
+dbgp
+pwritev
+preadv
+close
+__openat_2
+faccessat
+__fxstatat
+pread
+inflateInit2_
+inflate
+inflateEnd
+openat
+__snprintf_chk
+malloc
+readlink
+dirname
+open
+perror
+lseek
+ftruncate
+pwrite
+fdatasync
+fallocate
+access
+__asprintf_chk
+iovec_segment
+iovec_memset
+tcmu_memcpy_into_iovec
+handler_init
+tcmur_register_handler
+libz.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+handler_qcow.so
+GLIBC_2.8
+GLIBC_2.10
+GLIBC_2.7
+GLIBC_2.4
+GLIBC_2.2.5
+GLIBC_2.3.4
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%"J 
+%*J 
+%*J 
+%*J 
+AWAVA
+AUATA
+D$81
+L$8dH3
+H[]A\A]A^A_
+AWAVAUATI
+]A\A]A^A_
+]A\A]A^A_
+]A\A]A^A_
+[]A\A]A^A_
+<Zt|<
+<Uu0H
+]A\A]A^A_
+tL<(
+[]A\A]A^A_
+[]A\A]A^A_
+]A\A]A^A_
+[]A\
+ATUI
+tNE1
+H9D$0
+[]A\
+AWAVE1
+AUATUSH
+_(dH
+D$x1
+u?I9
+|$xdH3<%(
+[]A\A]A^A_
+<$QFI
+AVAUATSH
+[A\A]A^]
+AVAUA
+ATUI
+L$0H
+L$@H
+IFQH
+L$PH
+L$XH
+t$(L
+|$,H
+|$,H
+t$pL
+t$,H
+[]A\A]A^
+IFQH
+AVAUA
+ATUI
+D$h1
+L$ D
+t$"H
+t$$I
+L$PD
+T$DH
+t$(H
+|$,H
+t$0L
+t$,H
+\$hdH3
+p[]A\A]A^
+ATUH
+<$QFI
+[]A\
+[]A\
+[]A\
+AUATUS
+tGH9
+]A\A]A^
+u4Ic
+[]A\A]A^
+AWAVI
+AUATI
+[]A\A]A^A_
+AUATH
+I9\$
+[]A\A]
+I9\$
+[]A\A]
+[]A\A]
+AVAU1
+[]A\A]A^
+AWAVH
+AUATH
+[]A\A]A^A_
+tCI;l
+MHHc
+[]A\A]A^A_
+AWAVAUATI
+[A\A]A^A_]
+t[AVA
+ATUH
+[]A\A]A^
+AWAVAUATI
+dH34%(
+[A\A]A^A_]
+image open failed: %s
+read failed: %m
+writefailed: %m
+unknown command %x
+hw_block_size
+Could not get device size
+%d: %s
+1.2.11
+Backing file name too long
+/proc/self/fd/%d
+Failed to open file: %s
+Failed to read file: %s
+header is not QCOW
+bad cluster_bits = %d
+Invalid encryption value %d
+Image size too big
+L1 size is incorrect
+Failed to allocate L1 table
+Failed to read L1 table
+Failed to allocate L2 cache
+s->l2_cache = %p
+s->cluster_cache = %p
+s->rc_cache = %p
+Failed to read file: &s
+version is %d, expected 1
+bad l2_bits = %d
+no file access
+openat failed
+read fail
+bad magic
+version = %d
+refblock allocation failure
+%s: setting RC[%d] to %llx
+refblock cache failure
+!(value >> (1 << order))
+  %s %zx
+size == s->cluster_size
+fallocate failed: %m
+  allocating cluster %d
+%s: setting %llx[%d] to %llx
+write
+read
+%s: %lx %s
+  l1_index = %d
+  l2_offset = %lx
+  l2_index = %d
+%s: setting L1[%d] to %llx
+%s: l2 hit %llx at index %d
+  l2_table @ %p
+  cluster offset = %lx
+CoW failed
+No path found
+!(count & 511)
+decompression failure
+QEMU Copy-On-Write image file
+qcow
+image format not recognized: %s
+/builddir/build/BUILD/tcmu-runner-1.1.3/qcow.c
+tcmu_iovec_length(iovec, iov_cnt) == length
+Could not get device block size
+no configuration found in cfgstring
+Error reading backing file name
+version is %d, expected 2 or 3
+QCOW AES-CBC encryption has been deprecated
+Convert to unencrypted image using qemu-img
+size misconfigured, TCMU says %ld but image says %ld
+block_size misconfigured, TCMU says %d but qcow only supports 512
+Failed to allocate cluster decompression space
+Failed to allocate refcount table
+Failed to read refcount table
+Failed to allocate refcount cache
+%s: rc[%d][%d] = %llx[%d] = %d
+%s: error, RC writeback failed (%zd)
+%s: error, refblock writeback failed (%zd)
+no more free clusters in image file
+%s: error, L2 writeback failed (%zd)
+%s: error, L1 writeback failed (%zd)
+re-allocating compressed cluster for writing
+re-allocating shared cluster for writing
+File not present, or not writable
+cluster not allocated for writes
+cluster decompression CoW failure
+qcow_probe
+qcow2_probe
+get_refcount
+qcow2_block_alloc
+qcow2_block_alloc
+set_refcount
+rc_table_update
+qcow2_set_refcount
+qcow_preadv
+l2_table_update
+qcow_cluster_alloc
+l2_cache_lookup
+l1_table_update
+l2_table_alloc
+get_cluster_offset
+qcow_pwritev
+raw_probe
+qcow_handle_cmd
+The path to the QEMU QCOW image file.
+;*3$"
+handler_qcow.so.debug
+7zXZ
+i}zO
+{K!%	/
+AJ65;n
+J_k!
+6g[X/
+4x,\
+CBL-u
+hf A
+e(!A
+#ZR"u
+U-\Lr
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

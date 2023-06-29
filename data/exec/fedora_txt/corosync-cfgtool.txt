@@ -1,0 +1,130 @@
+/lib64/ld-linux-x86-64.so.2
+libcfg.so.6
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+corosync_cfg_ring_status_get
+_fini
+corosync_cfg_try_shutdown
+_init
+corosync_cfg_get_node_addrs
+corosync_cfg_ring_reenable
+corosync_cfg_finalize
+corosync_cfg_kill_node
+corosync_cfg_initialize
+corosync_cfg_local_get
+libc.so.6
+__printf_chk
+exit
+inet_ntop
+strncpy
+puts
+__stack_chk_fail
+putchar
+strtol
+strstr
+getopt
+strcasecmp
+optarg
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+COROSYNC_CFG_0.82
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.2.5
+AVAUI
+D$`E1
+D$PH
+D$ H
+D$pH
+D$@H
+|$ 1
+t$(H
+L$0H
+D$`D
+D$`H
+D$pH
+D$pH
+l$0t
+|$ H
+|$`1
+|$pH
+;l$@}-
+T$@H
+D$`H
+D$pH
+D$pH
+D$0t
+[]A\A]A^A_
+fffff.
+[]A\A]A^A_
+corosync-cfgtool [-i <interface ip>] -s] [-r] [-H] [service_name] [-k] [nodeid] [-a] [nodeid]
+A tool for displaying and configuring active parameters within corosync.
+	-s	Displays the status of the current rings on this node.
+	-r	Reset redundant ring state cluster wide after a fault to
+		re-enable redundant ring operation.
+	-a	Display the IP address(es) of a node
+	-k	Kill a node identified by node id.
+	-H	Shutdown corosync cleanly on this node.
+Could not initialize corosync configuration API error %d
+Could not get the local node id, the error is: %d
+Could not get the ring status, the error is: %d
+Could not reenable ring error %d
+Could not kill node (error = %d)
+Could not shutdown (error = %d)
+options:
+Printing ring status.
+Local node ID %d
+RING ID %d
+	id	= %s
+	status	= %s
+FAULTY
+Re-enabling all failed rings.
+Killing node %d
+Killed by corosync-cfgtool
+Shutting down corosync
+i:srk:a:hH
+;*3$"
+corosync-cfgtool.debug
+7zXZ
+bFUr
+@CmH!
+@K!T
+g\V<
+1h(B
+=Odw
+|{bq
+r9v+
+'YS9C
+^B%4'
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

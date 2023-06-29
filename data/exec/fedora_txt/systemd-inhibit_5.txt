@@ -1,0 +1,170 @@
+td`-
+/lib/ld-linux.so.2
+strcmp
+GLIBC_2.0
+libc.so.6
+execvp
+fork
+libpthread.so.0
+__bss_start
+_edata
+_end
+__cxa_finalize
+GLIBC_2.1.3
+__stack_chk_fail
+GLIBC_2.4
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+free
+__printf_chk
+GLIBC_2.3.4
+_exit
+__gcc_personality_v0
+GCC_3.3.1
+log_parse_environment
+log_open
+sd_bus_default_system
+strv_join
+bus_error_message
+__libc_start_main
+reset_all_signal_handlers
+optarg
+reset_signal_mask
+optind
+close_all_fds
+wait_for_terminate_and_warn
+program_invocation_short_name
+safe_close
+sd_bus_flush_close_unref
+sd_bus_error_free
+sd_bus_message_enter_container
+get_process_comm
+uid_to_name
+sd_bus_message_read
+sd_bus_message_exit_container
+bus_log_parse_error
+sd_bus_call_method
+getopt_long
+sd_bus_message_read_basic
+fcntl
+__errno_location
+sd_bus_message_unref
+log_assert_failed
+version
+log_assert_failed_unreachable
+log_get_max_level
+log_internal
+bus_standard_errors
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+D$`1
+htK=
+D$l1
+[^_]
+T$lx
+D$ht
+T$dty
+t S1
+UWVS
+[^_]
+src/login/inhibit.c
+argc >= 0
+argv
+Unhandled option
+Failed to connect to bus: %m
+ListInhibitors
+/org/freedesktop/login1
+org.freedesktop.login1
+(ssssuu)
+%u inhibitors listed.
+Failed to list inhibitors: %s
+block
+ssss
+Inhibit
+Failed to inhibit: %s
+Failed to fork: %m
+Failed to execute %s: %m
+help
+version
+what
+mode
+list
+idle:sleep:shutdown
+Unknown reason
+%s [OPTIONS...] {COMMAND} ...
+Execute a process while inhibiting shutdown/sleep/idle.
+  -h --help               Show this help
+     --version            Show package version
+     --what=WHAT          Operations to inhibit, colon separated list of:
+                          shutdown, sleep, idle, handle-power-key,
+                          handle-suspend-key, handle-hibernate-key,
+                          handle-lid-switch
+     --who=STRING         A descriptive string who is inhibiting
+     --why=STRING         A descriptive string why is being inhibited
+     --mode=MODE          One of block or delay
+     --list               List active inhibitors
+Missing command line to execute.
+org.freedesktop.login1.Manager
+     Who: %s (UID %u/%s, PID %i/%s)
+    What: %s
+     Why: %s
+    Mode: %s
+parse_argv
+parse_argv
+main
+;*2$"
+zPLR
+gold 1.12
+systemd-inhibit.debug
+7zXZ
+G\lL
+m,jy
+4r)_
++.@F
+a|\s@5'
+Ef&5<
+"pLE
+i@V,
+[^[lM
+h_g}y'q
+d'`H
+eXXo
+D^S; @
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

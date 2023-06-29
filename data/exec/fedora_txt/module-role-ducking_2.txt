@@ -1,0 +1,185 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+pa_log_level_meta
+abort
+pa_object_type_id
+pa_idxset_first
+pa_proplist_gets
+pa_idxset_next
+strcmp
+pa_idxset_get_by_data
+pa_sink_input_add_volume_factor
+pa_idxset_put
+pa_idxset_remove_by_data
+pa_sink_input_remove_volume_factor
+__stack_chk_fail
+module_role_ducking_LTX_pa__get_author
+module_role_ducking_LTX_pa__get_description
+module_role_ducking_LTX_pa__get_version
+module_role_ducking_LTX_pa__load_once
+module_role_ducking_LTX_pa__get_usage
+module_role_ducking_LTX_pa__done
+pa_xfree
+pa_idxset_free
+pa_idxset_steal_first
+pa_hook_slot_free
+module_role_ducking_LTX_pa__init
+pa_modargs_new
+pa_xmalloc0
+pa_idxset_new
+pa_modargs_get_value
+pa_split
+pa_idxset_isempty
+pa_modargs_get_value_boolean
+pa_sw_volume_from_dB
+pa_modargs_get_value_volume
+pa_hook_connect
+pa_modargs_free
+pa_xstrdup
+libpulsecore-6.0.so
+libpulsecommon-6.0.so
+libpulse.so.0
+libcap.so.2
+libpthread.so.0
+librt.so.1
+libdl.so.2
+libm.so.6
+libc.so.6
+_edata
+__bss_start
+_end
+module-role-ducking.so
+/usr/lib64/pulseaudio
+GLIBC_2.4
+GLIBC_2.2.5
+%z. 
+%r. 
+%j. 
+%b. 
+%Z. 
+%R. 
+%J. 
+%B. 
+%:. 
+%2. 
+%*. 
+%". 
+fffff.
+fffff.
+=Y- 
+=7- 
+=") 
+fffff.
+AWAVAUATUSH
+D$(I
+d$,H
+L9,$
+[]A\A]A^A_
+D$41
+AWAVAUATUSH
+D$(1
+t$ H
+d$$H9D$
+u`E1
+l$$H
+T$(dH3
+8[]A\A]A^A_
+=+& 
+ATUSH
+%a% 
+[]A\
+ATUSH
+%1$ 
+[]A\
+ATUSH
+[]A\
+fffff.
+AVAUATUSH
+D$@I
+[]A\A]A^
+modules/module-role-ducking.c
+./pulsecore/object.h
+./pulsecore/sink.h
+media.role
+./pulsecore/sink-input.h
+./pulsecore/core.h
+trigger_roles
+phone
+ducking_roles
+music
+video
+global
+volume
+Assertion '%s' failed at %s:%u, function %s(). Aborting.
+!obj || obj->check_type(pa_object_type_id)
+pa_object_refcnt(pa_object_cast(o)) > 0
+Found a '%s' stream that should be ducked.
+Found a '%s' stream that should be unducked
+Found a '%s' stream that will trigger the ducking.
+Flavio Ceolin <flavio.ceolin@profusion.mobi>
+Apply a ducking effect based on streams roles
+trigger_roles=<Comma separated list of roles which will trigger a ducking> ducking_roles=<Comma separated list of roles which will be ducked> global=<Should we operate globally or only inside the same device?>volume=<Volume for the attenuated streams. Default: -20dB
+Failed to parse module arguments
+Using role 'phone' as trigger role.
+Using roles 'music' and 'video' as ducking roles.
+Failed to parse a boolean parameter: global
+Failed to parse a volume parameter: volume
+module_role_ducking_LTX_pa__done
+module_role_ducking_LTX_pa__done
+apply_ducking_to_sink
+apply_ducking_to_sink
+pa_sink_assert_ref
+pa_sink_assert_ref
+sink_has_trigger_streams
+process
+process
+pa_sink_input_assert_ref
+pa_sink_input_assert_ref
+pa_object_cast
+pa_object_cast
+pa_core_assert_ref
+pa_core_assert_ref
+module_role_ducking_LTX_pa__init
+module_role_ducking_LTX_pa__init
+;*3$"
+module-role-ducking.so.debug
+7zXZ
+Tgp	
+]nXu
++]~~
+{G	Y
+1c e
+d}GV
+va|n
+\C$lx
+0;Wb
+	&Y[%F
+E1;k=
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu_debuglink
+.gnu_debugdata

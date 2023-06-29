@@ -1,0 +1,2176 @@
+/lib64/ld-linux-x86-64.so.2
+__tls_get_addr
+GLIBC_2.3
+ld-linux-x86-64.so.2
+free
+GLIBC_2.2.5
+libc.so.6
+stpcpy
+strcmp
+__sprintf_chk
+GLIBC_2.3.4
+__libc_start_main
+strchr
+strstr
+strlen
+__stack_chk_fail
+GLIBC_2.4
+strncmp
+strcpy
+__gcc_personality_v0
+GCC_3.3.1
+libgcc_s.so.1
+_Unwind_Resume
+GCC_3.0
+fputs
+fputc
+__fprintf_chk
+malloc
+__snprintf_chk
+fwrite
+__bss_start
+_edata
+calloc
+__libc_current_sigrtmax
+libpthread.so.0
+__libc_current_sigrtmin
+open
+access
+__errno_location
+__asprintf_chk
+GLIBC_2.8
+unlinkat
+acl_delete_entry
+ACL_1.0
+libacl.so.1
+acl_get_perm
+acl_set_file
+acl_add_perm
+acl_create_entry
+acl_set_qualifier
+_end
+acl_get_file
+acl_set_tag_type
+acl_get_entry
+acl_calc_mask
+acl_get_permset
+acl_get_tag_type
+acl_free
+internal_set_new
+set_consume
+set_iterate
+internal_hashmap_free_free
+acl_find_uid
+__cxa_finalize
+format_timestamp
+sd_bus_error_is_set
+sd_bus_reply_method_error
+strv_consume
+strv_extend
+bus_label_escape
+sd_bus_get_current_message
+bus_label_unescape_n
+sd_bus_message_get_sender
+sd_bus_get_property
+unit_dbus_path_from_name
+sd_bus_message_new_method_call
+sd_bus_call
+sd_bus_emit_properties_changed_strv
+sd_bus_message_get_path
+unit_name_from_dbus_path
+bus_log_parse_error
+sd_event_source_get_time
+sd_bus_creds_get_session
+efi_get_reboot_to_firmware
+sd_bus_message_append_basic
+sd_bus_message_get_member
+efi_reboot_to_firmware_supported
+bus_test_polkit
+sd_bus_message_new_method_return
+sd_bus_message_open_container
+sd_bus_message_close_container
+string_is_safe
+tty_is_vc
+vtnr_from_tty
+tty_is_console
+sd_bus_message_enter_container
+sd_bus_message_ref
+sd_bus_creds_get_owner_uid
+uid_is_valid
+dirfd
+touch
+mkdir_p_label
+endswith
+udev_enumerate_add_match_parent
+opendir
+write_string_file
+write_string_file_atomic_label
+sd_bus_creds_get_uid
+sd_bus_creds_get_tty
+utmp_wall
+sd_bus_query_sender_creds
+sd_bus_creds_get_euid
+sd_bus_creds_get_pid
+closedir
+internal_hashmap_size
+readdir
+sd_bus_error_setf
+sd_bus_creds_unref
+efi_set_reboot_to_firmware
+bus_verify_polkit_async
+free_and_strdup
+sd_bus_reply_method_return
+sd_bus_emit_signal
+sd_bus_message_read
+bus_property_get_bool
+cunescape
+split
+safe_atollu
+parse_percent
+parse_size
+page_size
+clean_ipc
+display_is_local
+slice_build_subslice
+unit_name_build
+hashmap_remove_value
+umount2
+ioctl
+rm_rf
+sd_bus_error_has_name
+path_is_mount_point
+mac_smack_use
+mount
+chmod_and_chown
+label_fix
+rmdir
+bus_common_errors
+close_nointr
+sd_bus_message_new_signal
+sd_bus_message_set_destination
+sd_bus_message_append
+umask
+sd_bus_send
+getpid
+udev_device_new_from_devnum
+udev_device_get_devnode
+udev_device_get_parent_with_subsystem_devtype
+unlink
+sd_bus_message_unref
+parse_env_file
+parse_uid
+parse_boolean
+parse_pid
+audit_session_from_pid
+timestamp_deserialize
+bus_name_has_owner
+sd_bus_track_new
+sd_bus_track_add_name
+read_one_line_file
+fchown
+cescape
+pipe_eof
+mkfifo
+dual_timestamp_from_realtime
+rename
+sd_bus_track_unref
+get_ctty
+path_is_absolute
+fchmod
+path_startswith
+fileno
+__lxstat
+timespec_load
+strjoin
+basename
+uint64_hash_ops
+getpwuid
+read
+close
+greedy_realloc0
+lseek
+strerror
+truncate_nl
+safe_atou
+__strdup
+mkdir_safe_label
+fopen_temporary
+fflush_and_check
+safe_fclose
+strappend
+chvt
+log_syntax_internal
+string_table_lookup
+can_sleep
+get_process_comm
+uid_to_name
+log_struct_internal
+sd_event_add_post
+internal_hashmap_remove
+hashmap_put
+dual_timestamp_get
+cg_pid_get_slice
+cg_pid_get_unit
+get_user_creds
+udev_device_get_syspath
+udev_device_has_tag
+udev_device_get_property_value
+strv_find
+udev_device_get_parent
+udev_device_get_subsystem
+udev_device_get_sysattr_value
+open_terminal
+config_parse_strv
+config_parse_bool
+config_parse_sec
+config_parse_uint64
+config_parse_unsigned
+log_set_target
+log_set_facility
+log_parse_environment
+log_open
+mac_selinux_init
+mkdir_label
+sd_notify
+internal_hashmap_new
+udev_new
+sd_event_default
+sd_event_set_watchdog
+sd_event_unref
+sd_bus_unref
+bus_verify_polkit_async_registry_free
+udev_unref
+udev_monitor_unref
+safe_close
+sd_event_source_unref
+internal_hashmap_free
+internal_hashmap_first
+internal_hashmap_iterate
+sd_event_source_set_enabled
+sd_event_source_set_time
+sd_event_source_set_priority
+sd_event_add_time
+sd_event_get_state
+sd_event_run
+config_parse_many
+log_oom_internal
+udev_enumerate_add_match_subsystem
+session_id_valid
+hidden_or_backup_file
+dirent_is_file
+internal_hashmap_get
+udev_enumerate_new
+udev_enumerate_add_match_tag
+udev_enumerate_add_match_is_initialized
+udev_enumerate_scan_devices
+udev_enumerate_get_list_entry
+udev_list_entry_get_name
+udev_device_new_from_syspath
+udev_list_entry_get_next
+udev_enumerate_unref
+sd_bus_default_system
+sd_bus_add_object_vtable
+sd_bus_add_fallback_vtable
+sd_bus_add_node_enumerator
+sd_bus_add_match
+sd_bus_call_method
+bus_error_message
+sd_bus_request_name
+sd_bus_attach_event
+sd_bus_error_free
+udev_device_get_sysname
+udev_device_get_action
+strcmp_ptr
+udev_monitor_receive_device
+udev_device_unref
+udev_monitor_filter_add_match_tag
+udev_monitor_new_from_netlink
+udev_monitor_filter_add_match_subsystem_devtype
+udev_monitor_enable_receiving
+udev_monitor_get_fd
+sd_event_add_io
+log_get_max_level
+log_internal
+ignore_signals
+sigprocmask_many
+log_assert_failed
+sd_event_add_signal
+physical_memory_scale
+system_tasks_max_scale
+strv_free
+bus_standard_errors
+string_hash_ops
+config_item_perf_lookup
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+libsystemd-shared-231.so
+/usr/lib/systemd
+a_&	
+AWAVAUATS
+[A\A]A^A_]
+A[A\
+AYAZ
+H8AWRH
+JxAWPH
+ATPH
+AYAZ
+ATP1
+D$(H
+D$0H
+AYAZH
+A[A\
+AUATUSH
+dH34%(
+([]A\A]
+|$ H
+ffff.
+u3H9
+H;C@r6H
+fff.
+ATUSH
+[]A\
+fff.
+fff.
+St:M
+AUATUSH
+[]A\A]
+[]A\A]
+ATUSH
+[]A\
+AWAVAUATUSH
+D$H1
+d$0L
+T$ H
+|$ H
+|$ H
+|$ H
+L$HdH3
+X[]A\A]A^A_
+|$ H
+ffff.
+AVAUATS
+tFE1
+[A\A]A^]
+PAU1
+ATUSH
+[]A\
+AVAUATUSH
+D$(1
+|$ 1
+T$(dH3
+0[]A\A]A^
+ATSH
+[A\]
+AVATSH
+[A\A^]
+St*M
+St*M
+St*M
+fff.
+St:M
+AUATUSH
+([]A\A]
+ffffff.
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+t$ H
+|$ H
+ATUSH
+D$(1
+D$ L
+L$(dH3
+0[]A\
+AUATUSH
+([]A\A]
+ATUSH
+D$(1
+T$ H
+|$ H
+L$(dH3
+0[]A\
+D$ L
+|$ y
+ATUSH
+D$(1
+T$ 1
+T$ L
+L$(dH3
+0[]A\
+AWAVH
+AUAT1
+([]A\A]A^A_
+fffdH
+@u?fffdH
+handle-l
+id-switcH
+handle-h
+-keyH
+ibernatef
+handle-s
+uspend-kH
+handle-p
+ower-keyf
+idleH
+slee
+fffdH
+shutdownA
+ffff.
+AWAVAUATUSH
+D$(1
+D;`8u
+\$(dH3
+8[]A\A]A^A_
+fff.
+AWAVAUATUSH
+D$-D
+L$.H
+D$X1
+D$8L
+d$0H
+l$@I
+D$ I
+D9h8u
+9p@t
+PPubH
+\$XdH3
+h[]A\A]A^A_
+T$ L
+L$/u
+ffff.
+CXt,
+fff.
+St*H
+AUATUSH
+[]A\A]
+AWAVAUATSH
+AWE1
+[A\A]A^A_]
+ffffff.
+AVAUATUSH
+D$(1
+L$(dH3
+0[]A\A]A^
+|$ H
+AWAVAUATSH
+AVPA
+ZYx{A
+dH34%(
+[A\A]A^A_]
+/var/libH
+/systemdH
+/linger/H
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+ATUSH
+D$(1
+T$ H
+T$ L
+L$ H
+t$(dH34%(
+0[]A\
+H;,$w
+fff.
+AVAUATSH
+[A\A]A^]
+SWj@
+jIjJh
+fff.
+AUATUSH
+D$(1
+@(D9h
+T$(dH3
+8[]A\A]
+ffffff.
+ATUI
+|$(H
+ []A\
+St:M
+fff.
+St:M
+AUATUSH
+[]A\A]
+[]A\A]
+StJM
+ATUSH
+[]A\
+AWAVAUATUSH
+D$H1
+d$0L
+T$ H
+|$ H
+|$ H
+|$ H
+L$HdH3
+X[]A\A]A^A_
+|$ H
+ffff.
+ATUSH
+[]A\
+?w*H
+fff.
+D$H1
+PAR1
+t$HdH34%(
+ATUS
+[]A\
+[]A\1
+fff.
+ATSH
+[A\]
+AVATSH
+[A\A^]
+AWAVAUATUSH
+D$H1
+d$0L
+T$(H
+|$(H
+|$ H
+|$(H
+|$ H
+|$(H
+D$ H
+L$HdH3
+X[]A\A]A^A_
+|$ H
+|$(H
+ffff.
+ATSH
+[A\]
+AVATSH
+[A\A^]
+AUATI
+|$ H
+dH34%(
+([]A\A]
+|$ H
+ffff.
+AUATUSH
+D$81
+\$8dH3
+H[]A\A]
+fffff.
+ATUSH
+ []A\
+AWAVAUATUSH
+D$(1
+t$ H	
+\$(dH3
+8[]A\A]A^A_
+$x+I
+ATUStgH
+[]A\
+AUATUSH
+L$(;A
+([]A\A]
+AVAUATUSH
+U(AU1
+dH3<%(
+ []A\A]A^
+AUATUSH
+T$(;B
+([]A\A]
+AUATUSH
+T$(;B
+([]A\A]
+|$(H
+N(RH
+St:H
+ATUSH
+ []A\
+ATUS
+[]A\
+AVAUATUSH
+[]A\A]A^
+ATUSH
+[]A\
+fff.
+StZH
+AUATSH
+[A\A]]
+t7H;x 
+ffff.
+AVATSH
+[A\A^]
+StZH
+St*9
+ATUSH
+ []A\
+ffffff.
+AWAVAUATUSH
+\$HH
+[]A\A]A^A_
+AVATSH
+dH34%(
+[A\A^]
+F Y^H
+ffff.
+AWAVAUATSH
+[A\A]A^A_]
+AZA[
+AUATSH
+/dev/inpL
+~UAUH
+[A\A]]
+/dev/inpL
+ffff.
+StJ1
+H#D$
+j|jQjLj
+jVjH
+jRjXh
+jQP1
+j(jK
+StZH
+St*H
+H;Y@u
+ATUSH
+ []A\
+fff.
+ATUSH
+ []A\
+fff.
+AWAVAUATSH
+[A\A]A^A_]
+>vEH
+H;B@
+D$PH
+D$@L
+D$HL
+D$XL
+D$`L
+D$hL
+D$pL
+|$ H
+|$ H
+AWAVAUATSH
+HcH8D
+XZxII
+|$0H
+[A\A]A^A_]
+AWAVAUATUSH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+AWAVAUATUSH
+D$(1
+t$(dH34%(
+8[]A\A]A^A_
+AWAVAUATSH
+[A\A]A^A_]
+ATUSH
+D$(1
+T$ 1
+T$ L
+L$(dH3
+0[]A\
+AWAVAUATSH
+G H9
+AYAZL
+(H9{(t
+[A\A]A^A_]
+_AXL
+fffff.
+AWAVAUATSH
+[A\A]A^A_]
+[A]M
+AZA[
+vnD;
+ffff.
+AWAVAUATUSH
+D$(1
+t	H;
+T$(dH3
+8[]A\A]A^A_
+AWAVAUATSH
+User SliL
+ce ofA
+[A\A]A^A_]
+User SliL
+ce ofA
+AVATSH
+[A\A^]
+ffff.
+AVATSH
+C`uA
+[A\A^]
+AYAZ
+H;YPu
+ATUSH
+D$(1
+D$(dH3
+0[]A\
+H;Y@u*H
+XZxLH
+AWAVAUATUSH
+H;]@
+H;]H
+[]A\A]A^A_
+H;]P
+AYAZ
+PASL
+\$(P1
+T$0h
+jNjxjFh
+AWAVAUATSH
+[A\A]A^A_]
+c(E1
+D$(L
+AUATUSH
+[]A\A]
+ffffff.
+t?H9x 
+t&H;_ 
+PjJ1
+jmjEh
+jTj3
+AWAVAUATSH
+[A\A]A^A_]
+Pjf1
+jHjCj
+jbjEh
+H;_ tKH
+fffff.
+AUATUSH
+D$(1
+H;_ 
+T$(dH3
+8[]A\A]
+AWAVAUATUSH
+\$XL
+x_Hc
+[]A\A]A^A_
+fff.
+AWAVAUATUSH
+\$hH
+bv{H
+([]A\A]A^A_
+fff.
+AVAUATSH
+[A\A]A^]
+HcC8D
+HcC81
+VAPL
+ffff.
+9q`H
+~iHcC81
+VAPL
+AUATUSH
+([]A\A]
+AYAZ
+ffff.
+ATSH
+/var/libH
+/systemdH
+/linger/H
+[A\]
+fff.
+ATUStw
+[]A\
+tdE1
+fffff.
+St*@
+AWAVAUATUSH
+([]A\A]A^A_
+ffffff.
+AWAVAUATSH
+[A\A]A^A_]
+ffffff.
+ffff.
+AWAVAUATUSH
+l$(L
+L$@H
+T$`H
+d$@H
+L$HH
+T$pH
+L$PH
+L$XH
+L$hH
+L$xH
+[]A\A]A^A_
+D$$L
+AWAVAUATUSH
+D$H1
+d$ L
+t$0H
+D$8L9
+T$0I
+L$0I
+D$0L
+|$81
+T$HdH3
+X[]A\A]A^A_
+ffffff.
+AVAUATUS
+|$8H
+]A\A]A^
+|$8H
+]A\A]A^
+|$8L
+AVAUATUSH
+[]A\A]A^
+ffffff.
+AVAUATUS
+]A\A]A^
+4$E1
+]A\A]A^
+AUATUSH
+[]A\A]
+[]A\A]
+fff.
+fffff.
+fffff.
+fffff.
+AUATUSH
+([]A\A]
+AVATSH
+dH34%(
+[A\A^]
+fff.
+AWAVAUATSH
+AUP1
+AYAZ
+[A\A]A^A_]
+fff.
+AWAVAUATI
+AZA[E
+AXAYxIL
+[A\A]A^A_]
+yu'A
+eu A
+N(RH
+fff.
+St:M
+StJM
+St*M
+ATUSH
+[]A\
+ATUSH
+[]A\
+ATUSH
+D$(1
+L$(dH3
+0[]A\
+ffffff.
+fff.
+ATUSH
+D$(1
+L$ H
+|$ L
+d$ H
+L$(dH3
+0[]A\
+|$ H
+ffffff.
+AVATSH
+XZxDA
+[A\A^]
+ffff.
+AVATSH
+[A\A^]
+ffff.
+ffff.
+ffff.
+AWAVAUATUSH
+([]A\A]A^A_
+ffffff.
+AWAVAUATSH
+dH34%(
+[A\A]A^A_]
+H9X 
+ffff.
+AUATUSH
+L;o@s
+H;0t
+[]A\A]
+D$8J
+H;XH
+tqH;_ 
+H;_(
+H;Zh
+H;_(
+H;Y0unH
+H;YHuNH
+fffff.
+ATUStwH
+[]A\
+ATUStGH
+[]A\
+ffff.
+Pj{1
+jBj=h
+AWAVAUATSH
+_AXt
+[A\A]A^A_]
+ffff.
+AVAUATSH
+[A\A]A^]
+AUATUSH
+[]A\A]
+[]A\A]
+[]A\A]
+AWAVA
+AUATUSH
+D$(1
+|$pH
+L$xL
+T$$H
+D$$1
+AUAWD
+ZYt/H
+t$(dH34%(
+8[]A\A]A^A_
+fffff.
+AWAVAUATSH
+[A\A]A^A_]
+t'H9
+AWAVAUATI
+XZx/A
+[A\A]A^A_]
+|$0H
+ATUSH
+ZYxC
+ []A\
+fff.
+fffff.
+ATUSH
+[]A\
+fff.
+StJM
+fff.
+fff.
+L$(1
+T$(dH3
+ATUS
+,wNL
+[]A\
+[]A\
+AWAVAUATUSH
+D$(1
+L$(dH3
+8[]A\A]A^A_
+|$(H
+AVAUATUStCH
+]A\A]A^
+|$ t]
+AWAVAUATUSH
+[]A\A]A^A_
+AWAVA
+AUATL
+[]A\A]A^A_
+fffff.
+This program takes no arguments.
+Could not initialize labelling: %m
+sigprocmask_many(SIG_SETMASK, NULL, SIGHUP, -1) >= 0
+Failed to register SIGHUP handler: %m
+Failed to open /sys/class/tty/tty0/active: %m
+Failed to watch foreground console
+Not enough real-time signals available: %u-%u
+ignore_signals(SIGRTMIN + 1, -1) >= 0
+sigprocmask_many(SIG_BLOCK, NULL, SIGRTMIN, -1) >= 0
+Failed to create udev watchers: %m
+Failed to connect to system bus: %m
+org.freedesktop.login1.Manager
+Failed to add manager object vtable: %m
+Failed to add seat object vtable: %m
+Failed to add seat enumerator: %m
+org.freedesktop.login1.Session
+/org/freedesktop/login1/session
+Failed to add session object vtable: %m
+Failed to add session enumerator: %m
+Failed to add user object vtable: %m
+Failed to add user enumerator: %m
+type='signal',sender='org.freedesktop.systemd1',interface='org.freedesktop.systemd1.Manager',member='JobRemoved',path='/org/freedesktop/systemd1'
+Failed to add match for JobRemoved: %m
+type='signal',sender='org.freedesktop.systemd1',interface='org.freedesktop.systemd1.Manager',member='UnitRemoved',path='/org/freedesktop/systemd1'
+Failed to add match for UnitRemoved: %m
+type='signal',sender='org.freedesktop.systemd1',interface='org.freedesktop.DBus.Properties',member='PropertiesChanged'
+Failed to add match for PropertiesChanged: %m
+type='signal',sender='org.freedesktop.systemd1',interface='org.freedesktop.systemd1.Manager',member='Reloading',path='/org/freedesktop/systemd1'
+Failed to add match for Reloading: %m
+org.freedesktop.systemd1.Manager
+Failed to enable subscription: %s
+Failed to attach bus to event loop: %m
+Failed to set up lid switch ignore event source: %m
+Failed to open /run/systemd/seats: %m
+Failed to open /var/lib/systemd/linger/: %m
+Couldn't add lingering user %s: %m
+Failed to open /run/systemd/users: %m
+Failed to add user by file name %s: %m
+Failed to open /run/systemd/sessions: %m
+Invalid session file name '%s', ignoring.
+Failed to add session by file name %s: %m
+UID not specified for session %s
+Failed to parse UID value %s for session %s.
+Cannot attach session %s to seat %s
+Session enumeration failed: %m
+Failed to open /run/systemd/inhibit: %m
+Inhibitor enumeration failed: %m
+Failed to fully start up daemon: %m
+systemd-logind running as pid %i
+READY=1
+STATUS=Processing requests...
+systemd-logind stopped as pid %i
+STOPPING=1
+STATUS=Shutting down...
+/org/freedesktop/login1/seat/self
+org.freedesktop.login1.NoSuchSession
+org.freedesktop.login1.SessionNotOnSeat
+src/login/logind-session-dbus.c
+/org/freedesktop/login1/session/self
+Sending reply about created session: id=%s object_path=%s uid=%u runtime_path=%s session_fd=%d seat=%s vtnr=%u
+org.freedesktop.login1.NoSuchUser
+PID %i does not belong to any known or logged in user
+org.freedesktop.login1.NoUserForPID
+PID %i does not belong to any known session
+org.freedesktop.login1.NoSessionForPID
+org.freedesktop.login1.NoSuchSeat
+w > 0 && w < _INHIBIT_WHAT_MAX
+org.freedesktop.login1.flush-devices
+Failed to open /etc/udev/rules.d: %m
+org.freedesktop.DBus.Error.InvalidArgs
+org.freedesktop.login1.attach-device
+/etc/udev/rules.d/72-seat-%s.rules
+TAG=="seat", ENV{ID_FOR_SEAT}=="%s", ENV{ID_SEAT}="%s"
+org.freedesktop.login1.set-self-linger
+org.freedesktop.login1.set-user-linger
+org.freedesktop.login1.lock-sessions
+MESSAGE=System is shutting down
+MESSAGE=System is rebooting with kexec
+MESSAGE=System is powering down
+MESSAGE_ID=%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
+/org/freedesktop/login1/user/self
+/org/freedesktop/login1/user/_
+%s%sThe system is going down for %s %s%s!
+s == m->wall_message_timeout_source
+sd_event_source_set_time() failed. %m
+sd_event_source_set_enabled() failed. %m
+/org/freedesktop/login1/user/_%u
+/org/freedesktop/login1/session/
+You are not in control of this session
+org.freedesktop.login1.NotInControl
+org.freedesktop.login1.DeviceNotTaken
+org.freedesktop.login1.DeviceIsTaken
+Only owner of session may take control
+org.freedesktop.DBus.Error.AccessDenied
+Only owner of session may set locked hint
+Only owner of session may set idle hint
+src/login/logind-session-device.c
+kernel does not support evdev-revocation
+cannot open VT %s of session %s: %m
+sd->type != DEVICE_TYPE_UNKNOWN
+Cannot release VT of session %s: %m
+/sys/module/vt/parameters/default_utf8
+Cannot change owner of /dev/tty%u: %m
+Cannot set K_OFF on /dev/tty%u: %m
+Cannot set KD_GRAPHICS on /dev/tty%u: %m
+Cannot set VT_PROCESS on /dev/tty%u: %m
+org.freedesktop.DBus.Error.NoReply
+org.freedesktop.DBus.Error.Disconnected
+org.freedesktop.systemd1.NoSuchUnit
+org.freedesktop.systemd1.LoadFailed
+Failed to parse handle action setting, ignoring: %s
+# This is private data. Do not parse.
+IS_SEAT0=%i
+CAN_MULTI_SESSION=%i
+CAN_TTY=%i
+CAN_GRAPHICAL=%i
+Failed to save seat data %s: %m
+Refusing operation, as it is turned off.
+Ignoring lid switch request, system startup or resume too close.
+Refusing operation, %s is inhibited.
+Requested operation not supported, ignoring.
+Action already in progress, ignoring.
+Refusing operation, %s is inhibited by UID %u/%s, PID %i/%s.
+Failed to execute operation: %s
+Failed to add button event: %m
+Watching system buttons on /dev/input/%s (%s)
+MESSAGE=Hibernate key pressed.
+TTY %s is virtual console but seat %s is not seat0
+Cannot determine VT number from virtual console TTY %s
+Specified TTY and VT number do not match
+Console TTY specified but seat is not seat0
+Console TTY specified but VT number is not 0
+Seat has no VTs but VT number not 0
+org.freedesktop.login1.SessionBusy
+Maximum number of sessions (%lu) reached, refusing further sessions.
+org.freedesktop.DBus.Error.LimitsExceeded
+Existing logind session ID %s used by new audit session, ignoring
+!session || session->seat == s
+/run/udev/static_node-tags/uaccess
+Found udev node %s for seat %s
+Found static node %s for seat %s
+Changing ACLs at %s for seat %s (uid %u
+%u%s%s)
+Device %s disappeared while setting ACLs
+session_is_active(sd->session)
+Failed to read current console: %s
+Hm, /sys/class/tty/tty0/active is badly formatted.
+xsprintf: p[] must be big enough
+Failed to preallocate VT %u: %m
+org.freedesktop.systemd1.UnitExists
+Failed to start user slice %s, ignoring: %s (%s)
+# This is private data. Do not parse.
+NAME=%s
+STATE=%s
+Failed to save user data %s: %m
+Failed to create /run/user: %m
+mode=0700,smackfsroot=*,uid=%u,gid=%u,size=%zu
+mode=0700,uid=%u,gid=%u,size=%zu
+Failed to mount per-user tmpfs directory %s: %m
+Failed to change runtime directory ownership and mode: %m
+Failed to fix label of '%s', ignoring: %m
+Failed to start user service, ignoring: %s
+Failed to add idle event source: %m
+Failed to set idle event source priority: %m
+Failed to set idle event timer: %m
+Failed to enable idle event timer: %m
+Received VT_PROCESS signal without a registered session on that VT.
+Failed to remove runtime directory %s: %m
+Failed to unmount user runtime directory %s: %m
+Failed to parse config file, using defaults: %m
+Failed to start session scope %s: %s
+org.freedesktop.systemd1.Scope
+org.freedesktop.systemd1.ScopeNotRunning
+Failed to abandon session scope, ignoring: %s
+Failed to stop session scope: %s
+MESSAGE=New session %s of user %s.
+Failed to parse tasks maximum, ignoring: %s
+Tasks maximum out of range, ignoring: %s
+Failed to parse size value, ignoring: %s
+Inhibitor %s (%s) pid=%i uid=%u mode=%s started.
+# This is private data. Do not parse.
+WHAT=%s
+MODE=%s
+UID=%u
+PID=%i
+Failed to save inhibit data %s: %m
+Inhibitor %s (%s) pid=%i uid=%u mode=%s stopped.
+Electing new display for user %s
+Choosing session %s in preference to %s
+Failed to stop user service: %s
+External (%i) displays connected.
+Device with invalid seat name %s found, ignoring.
+org.freedesktop.login1.hibernate-multiple-sessions
+org.freedesktop.login1.hibernate
+org.freedesktop.login1.hibernate-ignore-inhibit
+org.freedesktop.login1.suspend-multiple-sessions
+org.freedesktop.login1.suspend
+org.freedesktop.login1.suspend-ignore-inhibit
+org.freedesktop.login1.reboot-multiple-sessions
+org.freedesktop.login1.reboot-ignore-inhibit
+org.freedesktop.login1.power-off-multiple-sessions
+org.freedesktop.login1.power-off
+org.freedesktop.login1.power-off-ignore-inhibit
+The system shutdown has been cancelled
+Unable to execute transition to %s: %m
+Creating /run/nologin, blocking further logins...
+Failed to create /run/nologin: %m
+org.freedesktop.login1.halt-ignore-inhibit
+org.freedesktop.login1.halt-multiple-sessions
+sd_event_source_set_time() failed: %m
+sd_event_source_set_enabled() failed: %m
+sd_event_add_time() failed: %m
+sd_event_add_time() failed. %m
+Failed to create shutdown subdirectory: %m
+/run/systemd/shutdown/scheduled
+Failed to save information about scheduled shutdowns: %m
+USEC=%lu
+WARN_WALL=%i
+MODE=%s
+Failed to write information about scheduled shutdowns: %m
+System manager has been reloaded, rechecking sessions...
+org.freedesktop.DBus.Error.UnknownObject
+# This is private data. Do not parse.
+UID=%u
+USER=%s
+ACTIVE=%i
+STATE=%s
+REMOTE=%i
+Failed to save session data %s: %m
+Running in dry run, suppressing action.
+There's already a shutdown or sleep operation in progress
+org.freedesktop.login1.OperationInProgress
+org.freedesktop.login1.SleepVerbNotSupported
+Delay lock is active (UID %u/%s, PID %i/%s) but inhibitor timeout is reached.
+Failed to send delayed message: %s
+manager->inhibit_timeout_source == s
+org.freedesktop.login1.inhibit-block-shutdown
+org.freedesktop.login1.inhibit-delay-shutdown
+org.freedesktop.login1.inhibit-block-sleep
+org.freedesktop.login1.inhibit-delay-sleep
+org.freedesktop.login1.inhibit-block-idle
+org.freedesktop.login1.inhibit-handle-power-key
+org.freedesktop.login1.inhibit-handle-suspend-key
+org.freedesktop.login1.inhibit-handle-hibernate-key
+org.freedesktop.login1.inhibit-handle-lid-switch
+Delay inhibitors only supported for shutdown and sleep
+The operation inhibition has been requested for is already running
+Maximum number of inhibitors (%lu) reached, refusing further inhibitors.
+org.freedesktop.login1.set-wall-message
+org.freedesktop.login1.set-reboot-to-firmware-setup
+Start job for unit %s failed with '%s'
+org.freedesktop.systemd1.JobFailed
+xsprintf: lu[] must be big enough
+Login.LidSwitchIgnoreInhibited
+Login.SuspendKeyIgnoreInhibited
+Login.HibernateKeyIgnoreInhibited
+src/login/logind.c
+/run/systemd/seats
+/run/systemd/users
+/run/systemd/sessions
+m->console_active_fd < 0
+/dev/tty0
+/sys/class/tty/tty0/active
+!m->udev_seat_monitor
+!m->udev_device_monitor
+!m->udev_vcsa_monitor
+!m->udev_button_monitor
+udev
+master-of-seat
+input
+graphics
+power-switch
+!m->bus
+/org/freedesktop/login1
+org.freedesktop.login1.Seat
+/org/freedesktop/login1/seat
+org.freedesktop.login1.User
+/org/freedesktop/login1/user
+Subscribe
+/org/freedesktop/systemd1
+org.freedesktop.systemd1
+org.freedesktop.login1
+Failed to register name: %m
+seat0
+Failed to add seat0: %m
+Device enumeration failed: %m
+Seat enumeration failed: %m
+/var/lib/systemd/linger
+src/login/logind-user.c
+SLICE_JOB
+SERVICE_JOB
+MONOTONIC
+REALTIME
+DISPLAY
+Failed to read %s: %m
+User enumeration failed: %m
+src/login/logind-session.c
+SCOPE
+REMOTE
+CONTROLLER
+CLASS
+TYPE
+LEADER
+POSITION
+STATE
+VTNR
+DESKTOP
+SERVICE
+REMOTE_USER
+REMOTE_HOST
+SEAT
+FIFO
+SCOPE_JOB
+User of session %s not known.
+closing
+/run/systemd/inhibit
+Couldn't add inhibitor %s: %m
+WHAT
+MODE
+Button enumeration failed: %m
+/dev/tty%u
+Failed to pin reserved VT: %m
+src/login/logind-button.c
+Name
+Timestamp
+TimestampMonotonic
+RuntimePath
+Service
+Slice
+Display
+(so)
+State
+Sessions
+a(so)
+IdleHint
+IdleSinceHint
+IdleSinceHintMonotonic
+Linger
+Terminate
+Kill
+User
+(uo)
+VTNr
+Seat
+Remote
+RemoteHost
+RemoteUser
+Desktop
+Scope
+Leader
+Audit
+Type
+Class
+Active
+LockedHint
+Activate
+Lock
+Unlock
+SetIdleHint
+SetLockedHint
+TakeControl
+ReleaseControl
+TakeDevice
+ReleaseDevice
+PauseDeviceComplete
+PauseDevice
+ResumeDevice
+ActiveSession
+CanMultiSession
+CanTTY
+CanGraphical
+ActivateSession
+SwitchTo
+SwitchToNext
+SwitchToPrevious
+EnableWallMessages
+WallMessage
+NAutoVTs
+KillOnlyUsers
+KillExcludeUsers
+KillUserProcesses
+RebootToFirmwareSetup
+BlockInhibited
+DelayInhibited
+InhibitDelayMaxUSec
+HandlePowerKey
+HandleSuspendKey
+HandleHibernateKey
+HandleLidSwitch
+HandleLidSwitchDocked
+HoldoffTimeoutUSec
+IdleAction
+IdleActionUSec
+PreparingForShutdown
+PreparingForSleep
+ScheduledShutdown
+(st)
+Docked
+RemoveIPC
+RuntimeDirectorySize
+InhibitorsMax
+NCurrentInhibitors
+SessionsMax
+NCurrentSessions
+UserTasksMax
+GetSession
+GetSessionByPID
+GetUser
+GetUserByPID
+GetSeat
+ListSessions
+a(susso)
+ListUsers
+a(uso)
+ListSeats
+ListInhibitors
+a(ssssuu)
+CreateSession
+uusssssussbssa(sv)
+soshusub
+ReleaseSession
+ActivateSessionOnSeat
+LockSession
+UnlockSession
+LockSessions
+UnlockSessions
+KillSession
+KillUser
+TerminateSession
+TerminateUser
+TerminateSeat
+SetUserLinger
+AttachDevice
+FlushDevices
+PowerOff
+Reboot
+Suspend
+Hibernate
+HybridSleep
+CanPowerOff
+CanReboot
+CanSuspend
+CanHibernate
+CanHybridSleep
+ScheduleShutdown
+CancelScheduledShutdown
+Inhibit
+ssss
+CanRebootToFirmwareSetup
+SetRebootToFirmwareSetup
+SetWallMessage
+SessionNew
+SessionRemoved
+UserNew
+UserRemoved
+SeatNew
+SeatRemoved
+PrepareForShutdown
+PrepareForSleep
+src/login/logind-seat-dbus.c
+path
+interface
+found
+/org/freedesktop/login1/seat/
+message
+No session '%s' known
+Session %s not on seat %s
+org.freedesktop.login1.manage
+reply
+nodes
+src/login/logind-dbus.c
+field
+No user %u known or logged in
+Session has no seat.
+No seat '%s' known
+shutdown
+sleep
+idle
+handle-power-key
+handle-suspend-key
+handle-hibernate-key
+handle-lid-switch
+src/login/logind-inhibit.c
+.ref
+/run/systemd/inhibit/
+ignore
+poweroff
+reboot
+halt
+kexec
+suspend
+hibernate
+hybrid-sleep
+lock
+/uevent
+change
+/etc/udev/rules.d
+72-seat-
+Failed to unlink %s: %m
+.rules
+/sys
+Path %s is not in /sys
+Seat %s is not valid
+seat
+sysfs
+ID_FOR_SEAT
+/var/lib/systemd
+SHUTDOWN=kexec
+SHUTDOWN=reboot
+MESSAGE=System is rebooting
+SHUTDOWN=halt
+MESSAGE=System is halting
+SHUTDOWN=power-off
+unit_name
+poweroff.target
+halt.target
+reboot.target
+kexec.target
+src/login/logind-utmp.c
+/dev/
+src/login/logind-user-dbus.c
+main
+manager
+unit
+KillUnit
+Invalid signal %i
+offline
+opening
+lingering
+online
+active
+Device not taken
+Device already taken
+card
+event
+Invalid kill parameter '%s'
+leader
+fd >= 0
+gone
+force
+pause
+track
+sender
+ActiveState
+org.freedesktop.systemd1.Unit
+inactive
+failed
+s->fifo_fd == fd
+/run/systemd/sessions/%s.ref
+src/login/logind-action.c
+filename
+lvalue
+rvalue
+data
+src/login/logind-seat.c
+s->active->user
+ACTIVE=%s
+ACTIVE_UID=%u
+SESSIONS=
+UIDS=
+%s%c
+%u%c
+Locking sessions...
+/usr/sbin/kexec
+b->lid_closed
+Failed to open %s: %m
+Failed to get input name: %m
+fd == b->fd
+MESSAGE=Power key pressed.
+MESSAGE=Suspend key pressed.
+MESSAGE=Lid closed.
+MESSAGE=System docked.
+MESSAGE=Lid opened.
+MESSAGE=System undocked.
+src/login/logind-device.c
+*_head == _item
+!s->active
+suspend.target
+hibernate.target
+hybrid-sleep.target
+Powering Off...
+Rebooting...
+Halting...
+Rebooting via kexec...
+Suspending...
+Hibernating...
+Hibernating and suspending...
+uusssssussbss
+Invalid UID
+Invalid leader PID
+Invalid session type %s
+Invalid session class %s
+Invalid desktop string %s
+VT number out of range
+(sv)
+Already running in a session
+Already occupied by a session
+c%lu
+(ssssuu)
+(uso)
+(susso)
+src/login/logind-acl.c
+uaccess
+ID_SEAT
+ add
+ del
+Failed to apply ACLs: %m
+Failed to parse VT number %s
+VT number invalid: %s
+VT changed to %u
+src/login/logind-core.c
+/dev/tty1
+autovt@tty%u.service
+StartUnit
+fail
+Failed to start %s: %s
+s->manager
+Preallocating VTs...
+vtnr >= 1
+slice
+StartTransientUnit
+systemd-logind.service
+After
+systemd-user-sessions.service
+TasksMax
+a(sa(sv))
+Description
+u->state_file
+RUNTIME=%s
+SERVICE_JOB=%s
+SLICE_JOB=%s
+DISPLAY=%s
+SEATS=
+ACTIVE_SESSIONS=
+ONLINE_SESSIONS=
+ACTIVE_SEATS=
+ONLINE_SEATS=
+REALTIME=%lu
+MONOTONIC=%lu
+New user %s logged in.
+/run/user
+tmpfs
+replace
+System idle. Taking action.
+m->seat0
+m->console_active_fd == fd
+vcsa
+remove
+/etc/systemd/logind.conf
+MESSAGE=Removed seat %s.
+SEAT_ID=%s
+User %s logged out.
+/run/nologin
+Config file reloaded.
+Session 
+s->user
+.scope
+session-
+ of user 
+pid > 1
+SendSIGHUP
+PIDs
+atime
+MESSAGE=Removed session %s.
+LEADER=%i
+USER_ID=%s
+SESSION_ID=%s
+Abandon
+user
+root
+WHO=%s
+WHY=%s
+FIFO=%s
+fd == i->fifo_fd
+Ignoring session %s
+Failed to stop user slice: %s
+VGA-
+System is docked.
+DVI-I-
+DVI-D-
+DVI-A-Composite-
+SVIDEO-
+Component-
+DIN-
+HDMI-A-
+HDMI-B-
+enabled
+status
+disconnected
+Display counting failed: %m
+name
+org.freedesktop.login1.reboot
+System is going down.
+org.freedesktop.login1.halt
+dry-
+Unsupported shutdown type
+WALL_MESSAGE=%s
+/run/systemd/shutdown
+challenge
+w >= 0
+w <= _INHIBIT_WHAT_MAX
+action
+action_multiple_sessions
+action_ignore_inhibit
+uoss
+Operation '%s' finished.
+org.freedesktop.systemd1.Job
+StopUnit
+unspecified
+wayland
+greeter
+lock-screen
+background
+!s->user
+TYPE=%s
+CLASS=%s
+SCOPE=%s
+SCOPE_JOB=%s
+SEAT=%s
+TTY=%s
+REMOTE_HOST=%s
+REMOTE_USER=%s
+SERVICE=%s
+DESKTOP=%s
+VTNR=%u
+POSITION=%u
+LEADER=%i
+AUDIT=%u
+CONTROLLER=%s
+session
+!session->seat
+MESSAGE=New seat %s.
+w < _INHIBIT_WHAT_MAX
+signal_name[w]
+replace-irreversibly
+!m->action_job
+Sleep verb not supported
+Invalid what specification %s
+Invalid mode specification %s
+userdata
+done
+block
+delay
+/run/systemd/users/%u
+/run/user/%u
+user.slice
+.service
+session_id_valid(id)
+/run/systemd/sessions/
+/run/systemd/seats/
+Login.NAutoVTs
+Login.ReserveVT
+Login.IdleAction
+Login.SessionsMax
+Login.UserTasksMax
+Login.IdleActionSec
+Login.HandlePowerKey
+Login.HandleLidSwitch
+Login.HandleSuspendKey
+Login.HoldoffTimeoutSec
+Login.HandleHibernateKey
+Login.RemoveIPC
+Login.RuntimeDirectorySize
+Login.HandleLidSwitchDocked
+Login.PowerKeyIgnoreInhibited
+Login.KillOnlyUsers
+Login.KillExcludeUsers
+Login.KillUserProcesses
+Login.InhibitorsMax
+Login.InhibitDelayMaxSec
+manager_connect_console
+manager_connect_console
+manager_connect_udev
+manager_connect_bus
+manager_connect_bus
+manager_enumerate_seats
+manager_enumerate_linger_users
+user_load
+user_load
+manager_enumerate_users
+session_load
+session_load
+manager_enumerate_sessions
+manager_enumerate_inhibitors
+manager_reserve_vt
+button_check_switches
+manager_startup
+manager_startup
+main
+session_node_enumerator
+session_send_signal
+session_send_changed
+session_send_lock
+session_send_lock_all
+session_send_create_reply
+session_send_create_reply
+property_get_active_session
+property_get_can_multi_session
+property_get_can_tty
+property_get_can_graphical
+property_get_sessions
+property_get_idle_hint
+property_get_idle_since_hint
+bus_seat_method_terminate
+method_activate_session
+method_switch_to
+method_switch_to_next
+method_switch_to_previous
+seat_object_find
+seat_bus_path
+inhibitor_create_fifo
+manager_is_inhibited
+manager_get_session_from_creds
+manager_get_user_from_creds
+manager_get_seat_from_creds
+property_get_idle_hint
+property_get_idle_since_hint
+property_get_inhibited
+property_get_preparing
+property_get_scheduled_shutdown
+property_get_handle_action
+property_get_docked
+property_get_current_sessions
+property_get_current_inhibitors
+method_get_session
+method_get_session_by_pid
+method_get_user
+method_get_user_by_pid
+method_activate_session_on_seat
+method_lock_session
+method_lock_sessions
+method_kill_session
+method_kill_user
+method_terminate_session
+method_terminate_user
+method_terminate_seat
+method_set_user_linger
+trigger_device
+attach_device
+method_attach_device
+flush_devices
+method_flush_devices
+have_multiple_sessions
+bus_manager_log_shutdown
+bus_manager_log_shutdown
+lid_switch_ignore_handler
+manager_set_lid_switch_ignore
+seat_node_enumerator
+seat_send_signal
+seat_send_changed
+property_get_display
+property_get_state
+property_get_sessions
+property_get_idle_hint
+property_get_idle_since_hint
+property_get_linger
+bus_user_method_terminate
+bus_user_method_kill
+user_object_find
+user_bus_path
+user_node_enumerator
+user_send_signal
+user_send_changed
+logind_wall_tty_filter
+warn_wall
+warn_wall
+wall_message_timeout_handler
+wall_message_timeout_handler
+manager_kill_unit
+bus_session_method_activate
+bus_session_method_lock
+method_set_idle_hint
+method_set_locked_hint
+bus_session_method_kill
+method_take_control
+method_release_control
+method_take_device
+method_release_device
+method_pause_device_complete
+session_object_find
+session_bus_path
+session_get_idle_hint
+session_dispatch_fifo
+session_create_fifo
+session_remove_fifo
+manager_unit_is_active
+session_check_gc
+session_add_to_gc_queue
+session_get_state
+session_open_vt
+session_leave_vt
+session_leave_vt
+session_is_controller
+on_bus_track
+session_prepare_vt
+session_set_controller
+session_drop_controller
+session_device_notify
+sd_eviocrevoke
+sd_eviocrevoke
+sd_drmsetmaster
+sd_drmdropmaster
+session_device_open
+session_device_stop
+device_free
+button_free
+button_lid_switch_handle_action
+button_recheck
+button_install_check_event_source
+button_dispatch
+button_dispatch
+button_open
+button_open
+manager_handle_action
+manager_handle_action
+config_parse_handle_action
+config_parse_handle_action
+seat_free
+seat_save
+seat_save
+method_get_seat
+method_list_sessions
+method_list_users
+method_list_seats
+method_list_inhibitors
+method_create_session
+method_create_session
+session_release
+method_release_session
+method_activate_session
+vt_allocate
+seat_preallocate_vts
+seat_preallocate_vts
+devnode_acl
+devnode_acl_all
+devnode_acl_all
+seat_apply_acls
+session_device_start
+seat_set_active
+manager_spawn_autovt
+manager_spawn_autovt
+seat_active_vt_changed
+seat_read_active_vt
+seat_read_active_vt
+session_device_free
+session_device_pause_all
+user_free
+user_save_internal
+user_save_internal
+user_save
+manager_start_slice
+user_start_slice
+user_start_slice
+user_mkdir_runtime_path
+manager_start_unit
+user_start_service
+user_start
+user_start
+Login
+/etc/systemd/logind.conf.d
+/run/systemd/logind.conf.d
+/usr/local/lib/systemd/logind.conf.d
+/usr/lib/systemd/logind.conf.d
+manager_free
+manager_dispatch_seat_udev
+manager_dispatch_device_udev
+manager_dispatch_vcsa_udev
+manager_dispatch_button_udev
+manager_dispatch_console
+manager_vt_switch
+manager_vt_switch
+user_remove_runtime_path
+user_finalize
+seat_stop
+manager_gc
+manager_dispatch_idle_action
+manager_dispatch_idle_action
+manager_parse_config_file
+manager_dispatch_reload_signal
+session_activate
+manager_start_scope
+session_start_scope
+session_start_scope
+session_start
+session_start
+session_stop
+manager_abandon_scope
+manager_shall_kill
+session_stop_scope
+session_finalize
+session_finalize
+release_timeout_callback
+session_is_active
+get_tty_atime
+user_stop
+user_stop_service
+user_stop_slice
+user_get_idle_hint
+user_check_gc
+user_add_to_gc_queue
+user_get_state
+user_elect_display
+user_elect_display
+config_parse_tmpfs_size
+config_parse_tmpfs_size
+config_parse_user_tasks_max
+config_parse_user_tasks_max
+inhibitor_free
+inhibitor_save
+inhibitor_start
+inhibitor_start
+inhibitor_stop
+inhibitor_dispatch_fifo
+manager_add_user_by_name
+manager_add_user_by_uid
+manager_add_inhibitor
+device_attach
+manager_add_device
+manager_process_seat_device
+manager_process_seat_device
+manager_add_button
+manager_process_button_device
+manager_get_session_by_pid
+manager_get_idle_hint
+manager_is_docked_or_external_displays
+device_detach
+nologin_timeout_handler
+manager_scheduled_shutdown_handler
+manager_scheduled_shutdown_handler
+manager_setup_wall_message_timer
+update_schedule_file
+method_schedule_shutdown
+method_schedule_shutdown
+method_cancel_scheduled_shutdown
+method_can_shutdown_or_sleep
+match_job_removed
+match_job_removed
+match_unit_removed
+match_properties_changed
+match_properties_changed
+match_reloading
+match_reloading
+manager_send_changed
+manager_stop_unit
+manager_job_is_active
+property_get_user
+property_get_name
+property_get_seat
+property_get_type
+property_get_class
+property_get_active
+property_get_state
+property_get_idle_hint
+property_get_idle_since_hint
+property_get_locked_hint
+bus_session_method_terminate
+seat_start
+seat_start
+seat_stop_sessions
+seat_attach_session
+seat_complete_switch
+seat_get_idle_hint
+seat_add_to_gc_queue
+seat_name_is_valid
+seat_has_vts
+seat_has_master_device
+session_free
+session_set_user
+session_save
+session_save
+execute_shutdown_or_sleep
+execute_shutdown_or_sleep
+manager_dispatch_delayed
+manager_dispatch_delayed
+manager_inhibit_timeout_handler
+send_prepare_for
+delay_shutdown_or_sleep
+delay_shutdown_or_sleep
+bus_manager_shutdown_or_sleep_now_or_later
+verify_shutdown_creds
+method_do_shutdown_or_sleep
+property_get_reboot_to_firmware_setup
+method_set_reboot_to_firmware_setup
+method_can_reboot_to_firmware_setup
+method_set_wall_message
+method_set_wall_message
+method_inhibit
+session_jobs_reply
+-----------------------------------------------------------------------------------
+----------------
+-------------------------------------------------------------------------------------------------------------------------------------------manager_add_seat
+session_new
+manager_add_session
+user_new
+manager_add_user
+	3-|
+;*3$"
+zPLR
+.@k.
+.`a.
+L. h.
+.0f.
+.PY.
+.0g.
+. S.
+Z. t.
+. \.
+s. V.
+|. e.
+h. t.
+gold 1.11
+systemd-logind.debug
+7zXZ
+WR<$
+C	ra
+PbES
+=f>qE
+d)4Y
+lnVp'
+JV"<
+#h,;
+P%Q Y
+Oc3~
+|v9F
+S~M?
+::Q ,
+eA"S
+U('q
+]JqT
+d:Bk
+qhG7=g
+S_imG)U
+86(I
+T`kHR
+S"xS
+iaG)
+zrl<
+Lq2E
+!\)`
+5|7y
+k'^{
+c?4 
+i:an
+	"8rmx
+Jq$*
+@ Mq
+AX4sj
+;PI[
+0d$R
+6}_P
+9!rd
+|}PVg\
+qZy*g
+gqMK
+1zhP
+	^*\^
+(WPc
+g(Uv
+z+|T
+*YY_
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.tbss
+.data.rel.ro.local
+.jcr
+.fini_array
+.init_array
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

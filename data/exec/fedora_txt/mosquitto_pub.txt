@@ -1,0 +1,441 @@
+/lib64/ld-linux-x86-64.so.2
+|fUa
+libmosquitto.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+mosquitto_loop
+mosquitto_publish_callback_set
+mosquitto_opts_set
+mosquitto_will_set
+mosquitto_destroy
+mosquitto_tls_opts_set
+mosquitto_loop_stop
+mosquitto_connect_callback_set
+mosquitto_connect_bind
+mosquitto_connect_srv
+mosquitto_max_inflight_messages_set
+mosquitto_tls_set
+mosquitto_loop_start
+mosquitto_log_callback_set
+mosquitto_publish
+mosquitto_username_pw_set
+mosquitto_tls_insecure_set
+mosquitto_disconnect_callback_set
+mosquitto_lib_init
+mosquitto_tls_psk_set
+mosquitto_disconnect
+mosquitto_new
+mosquitto_lib_cleanup
+mosquitto_connack_string
+mosquitto_sub_topic_check
+mosquitto_lib_version
+mosquitto_socks5_set
+mosquitto_pub_topic_check
+mosquitto_strerror
+libc.so.6
+__printf_chk
+fopen
+__strdup
+ftell
+puts
+__stack_chk_fail
+realloc
+stdin
+getpid
+strtok
+strtol
+feof
+fgets
+strlen
+__errno_location
+fseek
+__fprintf_chk
+memcpy
+fclose
+malloc
+getenv
+stderr
+__snprintf_chk
+gethostname
+usleep
+fwrite
+fread
+strchr
+__cxa_finalize
+__xpg_strerror_r
+__libc_start_main
+free
+_fini
+_edata
+__bss_start
+_end
+MOSQ_1.3
+MOSQ_1.4
+MOSQ_1.2
+MOSQ_1.0
+GLIBC_2.4
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3.4
+%zg 
+%rg 
+%jg 
+%bg 
+%Zg 
+%Rg 
+%Jg 
+%Bg 
+%:g 
+%2g 
+%*g 
+%"g 
+%zf 
+%rf 
+%jf 
+%bf 
+%Zf 
+%Rf 
+%Jf 
+%Bf 
+%:f 
+%2f 
+%*f 
+%"f 
+3u0@
+AunD
+0u?D
+AVAU
+ATUH
+T$jH
+D$PH
+|$@H
+[]A\A]A^
+L$@H
+=7c 
+=yb 
+=Wa 
+=(a 
+=y` 
+fffff.
+fffff.
+fffff.
+ffffff.
+5X^ 
+=?^ 
+fffff.
+AUATUS1
+=4\ 
+=F\ 
+[]A\A]
+ffffff.
+%S[ 
+=)[ 
+[]A\
+[]A\
+=~Z 
+=iZ 
+=AZ 
+=$Z 
+AWAVA
+AUATI
+~qMc
+h[]A\A]A^A_
+u-E9
+u-E9
+[]A\A]A^A_
+=(T 
+[]A\A]A^A_
+=XQ 
+luPA
+u1E9
+t$(I
+l$@H
+\$LL
+t$PE
+t$(H
+t$ E1
+T$XHc
+HcL$XIc
+L$XH
+T$XHc
+HcL$XIc
+L$XH
+t$ L
+l$ A
+t$(H
+D$(H
+D$8H
+t$(D
+l$HH
+\$LL
+HcL$HIc
+t$0H
+L$0A
+=SH 
+L$(H
+=-H 
+D$ D
+D$8H
+tiHc
+HcL$
+t$0H
+D$(H
+HcL$
+t$0H
+umE9
+u0E9
+rucA
+u+E9
+u.E9
+cuUA
+<NucA
+ATUSH
+~)E1
+~-E1
+[]A\
+[]A\
+AWAVAUATA
+|$@L
+|$@#u
+[]A\A]A^A_
+ffffff.
+ATUH
+[]A\
+AUATUSH
+[]A\A]
+=M2 
+AWAVA
+AUATL
+[]A\A]A^A_
+Error: Invalid input. Does your topic contain '+' or '#'?
+Error: Out of memory when trying to publish message.
+Error: Client not connected when trying to publish.
+Error: Protocol error when communicating with broker.
+Error: Message payload is too large.
+Error: Unable to open file "%s".
+Error: File "%s" is too large (>268,435,455 bytes).
+Error: Unable to determine size of file "%s".
+mosquitto_pub is a simple mqtt client that will publish a message on a single topic and exit.
+mosquitto_pub version %s running on libmosquitto %d.%d.%d.
+Usage: mosquitto_pub [-h host] [-k keepalive] [-p port] [-q qos] [-r] {-f file | -l | -n | -m message} -t topic
+                     [-A bind_address] [-S]
+                     [-i id] [-I id_prefix]
+                     [-d] [--quiet]
+                     [-M max_inflight]
+                     [-u username [-P password]]
+                     [--will-topic [--will-payload payload] [--will-qos qos] [--will-retain]]
+                     [{--cafile file | --capath dir} [--cert file] [--key file]
+                      [--ciphers ciphers] [--insecure]]
+                     [--psk hex-key --psk-identity identity [--ciphers ciphers]]
+                     [--proxy socks-url]
+ -A : bind the outgoing socket to this host/ip address. Use to control which interface
+      the client communicates over.
+ -f : send the contents of a file as the message.
+ -h : mqtt host to connect to. Defaults to localhost.
+ -i : id to use for this client. Defaults to mosquitto_pub_ appended with the process id.
+ -I : define the client id as id_prefix appended with the process id. Useful for when the
+      broker is using the clientid_prefixes option.
+ -k : keep alive in seconds for this client. Defaults to 60.
+ -l : read messages from stdin, sending a separate message for each line.
+ -m : message payload to send.
+ -M : the maximum inflight messages for QoS 1/2..
+ -n : send a null (zero length) message.
+ -p : network port to connect to. Defaults to 1883.
+ -P : provide a password (requires MQTT 3.1 broker)
+ -q : quality of service level to use for all messages. Defaults to 0.
+ -r : message should be retained.
+ -s : read message from stdin, sending the entire input as a message.
+ -S : use SRV lookups to determine which host to connect to.
+ -t : mqtt topic to publish to.
+ -u : provide a username (requires MQTT 3.1 broker)
+ -V : specify the version of the MQTT protocol to use when connecting.
+      Can be mqttv31 or mqttv311. Defaults to mqttv31.
+ --help : display this message.
+ --quiet : don't print error messages.
+ --will-payload : payload for the client Will, which is sent by the broker in case of
+                  unexpected disconnection. If not given and will-topic is set, a zero
+                  length message will be sent.
+ --will-qos : QoS level for the client Will.
+ --will-retain : if given, make the client Will retained.
+ --will-topic : the topic on which to publish the client Will.
+ --cafile : path to a file containing trusted CA certificates to enable encrypted
+ --capath : path to a directory containing trusted CA certificates to enable encrypted
+ --cert : client certificate for authentication, if required by server.
+ --key : client private key for authentication, if required by server.
+ --ciphers : openssl compatible list of TLS ciphers to support.
+ --tls-version : TLS protocol version, can be one of tlsv1.2 tlsv1.1 or tlsv1.
+                 Defaults to tlsv1.2 if available.
+ --insecure : do not check that the server certificate hostname matches the remote
+              hostname. Using this option means that you cannot be sure that the
+              remote host is the server you wish to connect to and so is insecure.
+              Do not use this option in a production environment.
+ --psk : pre-shared-key in hexadecimal (no leading 0x) to enable TLS-PSK mode.
+ --psk-identity : client identity string for TLS-PSK mode.
+ --proxy : SOCKS5 proxy URL of the form:
+           socks5h://[username[:password]@]hostname[:port]
+           Only "none" and "username" authentication is supported.
+See http://mosquitto.org/ for more information.
+Use 'mosquitto_pub --help' to see usage.
+Error loading input from stdin.
+Error loading input file "%s".
+Error: Both topic and message must be supplied.
+Error: Publish returned %d, disconnecting.
+Error: Out of memory.
+Error: Zero length input.
+Error: File "%s" is empty.
+1.4.2
+       mosquitto_pub --help
+ -d : enable debug messages.
+            communication.
+mosqpub
+Error: Invalid id.
+Error: %s
+Error: -p argument given but no port specified.
+Error: Invalid port given: %d
+Error: -A argument given but no address specified.
+Error: --cafile argument given but no file specified.
+Error: --capath argument given but no directory specified.
+Error: --cert argument given but no file specified.
+Error: --ciphers argument given but no ciphers specified.
+Error: -C argument given but no count specified.
+Error: Invalid message count "%d".
+Error: Only one type of message can be sent at once.
+Error: -f argument given but no file specified.
+Error: -h argument given but no host specified.
+Error: -i and -I argument cannot be used together.
+Error: -i argument given but no id specified.
+Error: -I argument given but no id prefix specified.
+Error: -k argument given but no keepalive specified.
+Error: Invalid keepalive given: %d
+Error: --key argument given but no file specified.
+Error: -m argument given but no message specified.
+Error: -M argument given but max_inflight not specified.
+Error: --protocol-version argument given but no version specified.
+Error: Invalid protocol version argument given.
+Error: --proxy argument given but no proxy url specified.
+Error: Unsupported proxy protocol: %s
+Error: --psk argument given but no key specified.
+Error: --psk-identity argument given but no identity specified.
+Error: -q argument given but no QoS specified.
+Error: -t argument given but no topic specified.
+Error: Invalid publish topic '%s', does it contain '+' or '#'?
+Error: Invalid subscription topic '%s', are all '+' and '#' wildcards correct?
+Error: -T argument given but no topic filter specified.
+Error: Invalid filter topic '%s', are all '+' and '#' wildcards correct?
+Error: --tls-version argument given but no version specified.
+Error: -u argument given but no username specified.
+Error: -P argument given but no password specified.
+Error: --will-payload argument given but no will payload specified.
+Error: --will-qos argument given but no will QoS specified.
+Error: --will-topic argument given but no will topic specified.
+Error: Invalid will topic '%s', does it contain '+' or '#'?
+Warning: Unable to locate configuration directory, default config not loaded.
+Error: Will payload given, but no will topic given.
+Error: Will retain given, but no will topic given.
+Warning: Not using password since username not set.
+Error: Both certfile and keyfile must be provided if one of them is.
+Error: Only one of --psk or --cafile/--capath may be used at once.
+Error: --psk-identity required if --psk used.
+Error: You must provide a client id if you are using the -c option.
+Error: You must specify a topic to subscribe to.
+Error: Problem setting username and password.
+Error: Problem setting TLS options.
+Error: Problem setting TLS insecure option.
+Error: Problem setting TLS-PSK options.
+--cafile
+--capath
+--cert
+--ciphers
+--debug
+--file
+--help
+--host
+--insecure
+--id
+--keepalive
+--key
+--message
+--null-message
+--protocol-version
+mqttv31
+mqttv311
+--proxy
+socks5h://
+Error: Invalid proxy.
+Error: Invalid proxy port %d
+--psk
+--psk-identity
+--qos
+Error: Invalid QoS given: %d
+--quiet
+--stdin-file
+--topic
+--filter-out
+--tls-version
+--pw
+--will-payload
+--will-qos
+Error: Invalid will QoS %d.
+--will-retain
+--will-topic
+--verbose
+Error: Unknown option '%s'.
+--port
+--id-prefix
+--stdin-line
+--retain
+--username
+--disable-clean-session
+XDG_CONFIG_HOME
+%s/mosquitto_pub
+%s/mosquitto_sub
+%s/.config/mosquitto_pub
+%s/.config/mosquitto_sub
+localhost
+Error: Problem setting will.
+%s%d
+%s/%d-%s
+Unable to connect (%d).
+;*3$"
+mosquitto_pub.debug
+7zXZ
+/1`(
+ bXW
+zi\b
+##KY
+nw~+
+	.ht
+QKl-
+K1RD
+~_uJt
+);U@
+J|(6h
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

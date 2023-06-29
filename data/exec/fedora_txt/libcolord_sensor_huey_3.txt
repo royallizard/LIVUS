@@ -1,0 +1,315 @@
+/WqP
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_object_unref
+g_free
+g_type_check_instance_cast
+g_object_get_data
+g_strcmp0
+g_print
+g_ascii_table
+cd_sensor_get_type
+g_usb_device_close
+g_simple_async_result_set_from_error
+g_error_free
+g_log
+cd_sensor_get_sample_async
+g_type_check_instance_is_a
+g_return_if_fail_warning
+g_slice_alloc0
+g_simple_async_result_new
+g_object_ref
+g_cancellable_connect
+g_cancellable_new
+g_object_set_data
+g_simple_async_result_get_type
+g_simple_async_result_run_in_thread
+g_simple_async_result_set_op_res_gpointer
+g_cancellable_disconnect
+g_slice_free1
+cd_sensor_unlock_async
+cd_sensor_lock_async
+g_usb_device_control_transfer
+g_usb_device_interrupt_transfer
+g_set_error
+g_set_error_literal
+cd_sensor_set_state
+cd_buffer_read_uint16_be
+__stack_chk_fail
+cd_buffer_write_uint16_be
+cd_buffer_read_uint32_be
+cd_vec3_subtract
+cd_mat33_vector_multiply
+cd_vec3_scalar_multiply
+cd_color_xyz_dup
+cd_mat33_get_data
+g_usb_device_list_find_by_vid_pid
+g_usb_device_open
+g_usb_device_set_configuration
+g_usb_device_claim_interface
+g_strdup_printf
+cd_sensor_set_serial
+g_clear_error
+cd_mat33_clear
+cd_mat33_to_string
+cd_vec3_get_data
+g_usleep
+cd_sensor_get_sample_finish
+g_simple_async_result_propagate_error
+g_simple_async_result_get_op_res_gpointer
+cd_sensor_lock_finish
+cd_sensor_unlock_finish
+cd_sensor_dump_device
+g_string_append_printf
+cd_sensor_coldplug
+g_object_set
+g_malloc0
+g_object_set_data_full
+g_usb_context_new
+g_usb_device_list_new
+cd_sensor_huey_return_code_to_string
+cd_sensor_huey_command_code_to_string
+cd_buffer_write_uint16_le
+cd_buffer_read_uint16_le
+cd_buffer_write_uint32_be
+cd_buffer_write_uint32_le
+cd_buffer_read_uint32_le
+libgusb.so.2
+libusb-1.0.so.0
+libcolord.so.1
+libgthread-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+librt.so.1
+libglib-2.0.so.0
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+libcolord_sensor_huey.so
+GLIBC_2.2.5
+GLIBC_2.4
+%z5 
+%r5 
+%j5 
+%b5 
+%Z5 
+%R5 
+%J5 
+%B5 
+%:5 
+%25 
+%*5 
+%"5 
+%z4 
+%r4 
+%j4 
+%b4 
+%Z4 
+%R4 
+%J4 
+%B4 
+%:4 
+%24 
+%*4 
+%"4 
+fffff.
+=z. 
+ffffff.
+AUATI
+[]A\A]
+l$ H
+t$(L
+|$0H
+C(t$L
+l$ L
+t$(L
+|$0H
+l$ H
+l$ H
+l$ H
+l$ H
+t$0H
+D$ P
+\$XH
+l$`L
+d$hL
+l$pL
+t$xL
+ATUH
+D$(1
+t$ I
+T$"H
+D$(dH3
+0[]A\
+D$(1
+T$ H
+T$(dH3
+\$8H
+l$@L
+d$HL
+l$PH
+d$"L
+T$ H
+T$ H
+ATUH
+T$ H
+L$ H
+D$$H
+T$$f
+T$ H
+L$(D
+D$$H
+L$ H
+T$0I
+D$0H
+T$@H
+.D$0
+.D$8
+.D$@
+|$hH
+T$PH
+T$`H
+L$XH
+p[]A\
+T$ H
+D$(1
+T$(dH3
+ffffff.
+\$(H
+l$0L
+d$8L
+l$@L
+t$HL
+|$PH
+fff.
+AVAUI
+[]A\A]A^
+ffffff.
+D$X1
+T$0H
+D$!G
+D$"r
+D$#M
+D$$b
+D$%k
+D$&e
+D$'d
+t$zH
+D$XdH3
+\$hH
+l$pL
+d$xL
+d$A1
+T$ H
+[]A\H
+ATUSH
+[]A\A]A^
+ffff.
+fff.
+priv
+request
+%c[%dm
+reply
+%02x [%c]	
+%c[%dm
+cancelled huey
+state
+CD_IS_SENSOR (sensor)
+the device is locked
+failed to issue command: %s
+return value unknown: 0x%02x
+request != NULL
+reply != NULL
+reply_read != NULL
+using LCD calibration matrix
+using CRT calibration matrix
+Serial number: %s
+device calibration LCD: %s
+device calibration CRT: %s
+Unlock string: %s
+huey-dump-version:%i
+unlock-string:%s
+calibration-value:%f
+dark-offset:%f,%f,%f
+calibration-lcd:%s
+calibration-crt:%s
+post-scale-value:%f
+register[0x%02x]:0x%02x
+kind
+native
+wrong command reply, got 0x%02x, expected 0x%02x
+HUEY cannot measure ambient light in projector mode
+HUEY cannot measure in projector mode
+initial values: red=%i, green=%i, blue=%i
+using multiplier factor: red=%i, green=%i, blue=%i
+raw values: red=%i, green=%i, blue=%i
+scaled values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+dark offset values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+finished values: red=%0.6lf, green=%0.6lf, blue=%0.6lf
+G_IS_SIMPLE_ASYNC_RESULT (res)
+error == NULL || *error == NULL
+cd_sensor_get_sample_async
+cd_sensor_huey_send_data
+cd_sensor_get_sample_finish
+cd_sensor_lock_async
+cd_sensor_lock_finish
+cd_sensor_unlock_async
+cd_sensor_unlock_finish
+@success
+error
+retry
+unknown5a
+unknown81
+get-status
+read-green
+read-blue
+set-value
+get-value
+unknown07
+reg-read
+unlock
+unknown0f
+unknown10
+unknown11
+unknown12
+measure-rgb-crt
+unknown15(status?)
+measure-rgb
+unknown21
+ambient
+set-leds
+unknown19
+;*3$"
+libcolord_sensor_huey.so.debug
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text
+.fini_array
+.init_array

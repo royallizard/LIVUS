@@ -1,0 +1,300 @@
+/lib/ld-linux.so.2
+libSoundTouch.so.1
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_init
+_ZN10soundtouch10SoundTouch13setSampleRateEj
+_ZN10soundtouch10SoundTouch13setRateChangeEf
+_ZN10soundtouch10SoundTouch11setChannelsEj
+_ZN10soundtouch10SoundTouchC1Ev
+_ZN10soundtouch9BPMDetectD1Ev
+_ZN10soundtouch10SoundTouch10putSamplesEPKfj
+_ZN10soundtouch9BPMDetect12inputSamplesEPfi
+_ZN10soundtouch10SoundTouch10setSettingEii
+_ZN10soundtouch10SoundTouch14setTempoChangeEf
+_ZN10soundtouch10SoundTouch16getVersionStringEv
+_ZN10soundtouch10SoundTouch5flushEv
+_ZN10soundtouch9BPMDetect6getBpmEv
+_ZN10soundtouch10SoundTouchD1Ev
+_ZN10soundtouch13FIFOProcessor14receiveSamplesEPfj
+_ZN10soundtouch10SoundTouch17setPitchSemiTonesEf
+_ZN10soundtouch9BPMDetectC1Eii
+_fini
+libstdc++.so.6
+_ZNSt13runtime_errorD1Ev
+_ZTISt13runtime_error
+__cxa_end_catch
+_ZNSt13runtime_errorC1ERKS_
+__cxa_throw
+_ZNSt13runtime_errorC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_Znaj
+__cxa_begin_catch
+_ZSt20__throw_length_errorPKc
+__cxa_get_exception_ptr
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc
+_ZSt24__throw_out_of_range_fmtPKcz
+__gxx_personality_v0
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
+_Znwj
+_ZSt19__throw_logic_errorPKc
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj
+__cxa_allocate_exception
+_ZdlPv
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
+__cxa_free_exception
+_ZdaPv
+libm.so.6
+libgcc_s.so.1
+_Unwind_Resume
+libc.so.6
+_IO_stdin_used
+fflush
+fopen
+stdin
+__assert_fail
+strtod
+feof
+strlen
+fseek
+memcmp
+__fprintf_chk
+stdout
+fclose
+stderr
+fwrite
+fread
+__cxa_finalize
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GCC_3.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.1
+GLIBC_2.3.4
+GLIBC_2.0
+CXXABI_1.3.1
+CXXABI_1.3
+GLIBCXX_3.4.21
+GLIBCXX_3.4.20
+GLIBCXX_3.4
+D$ PU
+d$,[^_]
+D$l1
+T$le3
+[^_]
+l$8e
+[^_]
+UWVS
+L$ t
+[^_]
+D$,1
+L$(w;
+D$,e3
+d$<[^_]
+D$L1
+T$<9
+T$$9
+D$49
+D$,1
+D$<1
+D$<e3
+d$@[^_
+UWVS
+t$@e
+d$,[^_]
+UWVS
+|$\1
++D$0=
+D$D9
+D$D9
+D$\e3
+d$l[^_]
+D$,9
+D$D9
+UWVS
+|$Te
+D$,1
+|$,e3=
+d$<[^_]
+UWVS
+d$,[
+d$,[^_]
+[^_]
+J09J
+UWVS
+D$L1
+D$,;D$
+L$Le3
+d$\[^_]
+D$$1
+|$(u+
+9t$$
+E,data
+ <Zv
+fmt 
+t$@e
+D$,1
+D$,e3
+d$0[^_
+D$De
+L$,1
+D$,e3
+d$0[^_
+t$De
+D$,1
+D$,e3
+d$0[^_
+I =6
+RIFF
+WAVE
+fmt 
+@(data
+t$pe
+D$\1
+D$\e3
+d$`[^_
+T$ 9
+D$De
+L$,1
+D$,e3
+d$0[^_
+|$De
+D$,1
+D$,e3
+d$0[^_
+D$De
+L$,1
+|$Hu6
+D$,e3
+d$0[^_
+UWVS
+T$`e
+D$<1
+D$<e3
+d$L[^_]
+T$,9
+D$$9
+d$,[^_]
+UWVS
+t$,U
+[^_]
+Detecting BPM rate...
+Done!
+Detected BPM rate %.1f
+Couldn't detect BPM rate.
+stdin
+stdout
+  tempo change = %+g %%
+  rate change  = %+g %%
+Working...
+The file will be converted to %.1f BPM
+Uses 32bit floating point sample type in processing.
+Processing the file with the following changes:
+  pitch change = %+g semitones
+Warning: output file name missing, won't output anything.
+   SoundStretch v%s -  Written by Olli Parviainen 2001 - 2008
+==================================================================
+author e-mail: <oparviai@iki.fi> - WWW: http://www.surina.net/soundtouch
+This program is subject to (L)GPL license. Run "soundstretch -license" for
+more information.
+Bbasic_string::_M_construct null not valid
+%s: __pos (which is %zu) > this->size() (which is %zu)
+ERROR : Illegal parameter "
+basic_string::substr
+basic_string::append
+Usage :
+    soundstretch infilename outfilename [switches]
+To use standard input/output pipes, give 'stdin' and 'stdout' as filenames.
+Available switches are:
+  -tempo=n : Change sound tempo by n percents  (n=-95..+5000 %)
+  -pitch=n : Change sound pitch by n semitones (n=-60..+60 semitones)
+  -rate=n  : Change sound rate by n percents   (n=-95..+5000 %)
+  -bpm=n   : Detect the BPM rate of sound and adjust tempo to meet 'n' BPMs.
+             If '=n' is omitted, just detects the BPM rate.
+  -quick   : Use quicker tempo change algorithm (gain speed, lose quality)
+  -naa     : Don't use anti-alias filtering (gain speed, lose quality)
+  -license : Display the program license text (LGPL)
+This application processes WAV audio files by modifying the sound tempo,
+pitch and playback rate properties independently from each other.
+    LICENSE:
+    ========
+    
+    SoundTouch sound processing library
+    Copyright (c) Olli Parviainen
+    
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License version 2.1 as published by the Free Software Foundation.
+    
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+    
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+    
+This application is distributed with full source codes; however, if you
+didn't receive them, please visit the author's homepage (see the link above).
+pBError: WavInFile::read(char*, int) works only with 8bit samples.
+header.format.bits_per_sample == 16
+Input file is corrupt or not a WAV file
+Input file uses unsupported encoding.
+Error : Unable to access input stream for reading
+numSamples < (0x7fffffff * 2U + 1U) / 1000
+Error while writing to a wav file.
+Error : Unable to access output file stream.
+Error: WavOutFile::write(const char*, int) accepts only 8bit samples.
+WavFile.cpp
+numBytes >= 0
+hdrsOk == 0
+fptr
+Error : Unable to open file "
+" for reading.
+" for writing.
+void WavOutFile::write(const short int*, int)
+uint WavInFile::getLengthMS() const
+int WavInFile::read(short int*, int)
+int WavInFile::read(char*, int)
+void WavInFile::rewind()
+void WavInFile::init()
+data
+fmt 
+WAVE
+RIFF
+;*2$",
+zPLR
+GCC: (GNU) 5.1.1 20150612 (Red Hat 5.1.1-3)
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment

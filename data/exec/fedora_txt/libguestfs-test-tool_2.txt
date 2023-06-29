@@ -1,0 +1,261 @@
+/lib64/ld-linux-x86-64.so.2
+libguestfs.so.0
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+guestfs_get_backend
+guestfs_version
+guestfs_get_autosync
+guestfs_launch
+guestfs_create
+guestfs_mkfs
+guestfs_get_network
+guestfs_get_path
+guestfs_free_version
+guestfs_shutdown
+guestfs_touch
+guestfs_get_memsize
+guestfs_get_trace
+guestfs_mount
+guestfs_get_pgroup
+guestfs_add_drive_scratch
+guestfs_get_append
+guestfs_get_hv
+guestfs_get_cachedir
+guestfs_set_hv
+guestfs_set_verbose
+guestfs_get_backend_settings
+guestfs_get_recovery_proc
+guestfs_get_smp
+guestfs_get_selinux
+guestfs_part_disk
+guestfs_parse_environment
+guestfs_close
+guestfs_get_tmpdir
+guestfs_create_flags
+guestfs_get_direct
+guestfs_get_verbose
+guestfs_get_program
+libpthread.so.0
+system
+libc.so.6
+fflush
+fchmod
+__printf_chk
+setlocale
+strncmp
+optind
+perror
+dcgettext
+puts
+unlink
+mkstemp
+__fprintf_chk
+stdout
+fclose
+getenv
+sscanf
+optarg
+stderr
+alarm
+getopt_long
+fdopen
+sleep
+__cxa_finalize
+__xstat
+bindtextdomain
+access
+strcmp
+__asprintf_chk
+__libc_start_main
+free
+__environ
+__cxa_atexit
+_fini
+_init
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.8
+GLIBC_2.3.4
+%z% 
+%r% 
+%j% 
+%b% 
+%Z% 
+%R% 
+%J% 
+%B% 
+%:% 
+%2% 
+%*% 
+%"% 
+%z$ 
+%r$ 
+%j$ 
+%b$ 
+%Z$ 
+%R$ 
+%J$ 
+%B$ 
+%:$ 
+%2$ 
+%*$ 
+%"$ 
+AWAVL
+AUATI
+=e# 
+uUHcD$
+D$8%
+fffff.
+fffff.
+fffff.
+AWAVA
+AUATL
+[]A\A]A^A_
+(null)
+/usr/share/locale
+libguestfs
+t:V?
+qemu
+qemudir
+libguestfs-test-tool
+%s %li.%li.%li%s
+LIBGUESTFS_QEMU
+LIBGUESTFS_HV
+%s/pc-bios
+asprintf
+x86_64
+LIBGUESTFS_
+SUPERMIN_
+LIBVIRT_
+LIBVIRTD_
+TMPDIR
+TMPDIR=%s
+PATH
+PATH=%s
+SELinux: 
+getenforce
+guestfs_get_append: %s
+guestfs_get_autosync: %d
+guestfs_get_backend: %s
+guestfs_get_cachedir: %s
+guestfs_get_direct: %d
+guestfs_get_hv: %s
+guestfs_get_memsize: %d
+guestfs_get_network: %d
+guestfs_get_path: %s
+guestfs_get_pgroup: %d
+guestfs_get_program: %s
+guestfs_get_selinux: %d
+guestfs_get_smp: %d
+guestfs_get_tmpdir: %s
+guestfs_get_trace: %d
+guestfs_get_verbose: %d
+host_cpu: %s
+Guest launched OK.
+/dev/sda
+/dev/sda1
+ext2
+/hello
+===== TEST FINISHED OK =====
+help
+timeout
+version
+libguestfs-test-tool: unknown long option: %s (%d)
+libguestfs-test-tool: invalid timeout: %s
+libguestfs-test-tool: failed to create libguestfs handle
+libguestfs-test-tool: guestfs_version failed
+libguestfs-test-tool: interactive test tool
+Copyright (C) 2009-2014 Red Hat Inc.
+Usage:
+  libguestfs-test-tool [--options]
+Options:
+  --help         Display usage
+  --qemudir dir  Specify QEMU source directory
+  --qemu qemu    Specify QEMU binary
+  --timeout n
+  -t n           Set launch timeout (default: %d seconds)
+  --version
+  -V             Display libguestfs version and exit
+libguestfs-test-tool: unexpected command line option 0x%x
+libguestfs-test-tool: extra arguments on the command line
+     ************************************************************
+     *                    IMPORTANT NOTICE
+     *
+     * When reporting bugs, include the COMPLETE, UNEDITED
+     * output below in your bug report.
+     *
+     ************************************************************
+libguestfs-test-tool: failed parsing environment variables.
+Check earlier messages, and the output of the 'printenv' command.
+LIBGUESTFS_HV/LIBGUESTFS_QEMU environment variable is already set, so
+--qemu/--qemudir options cannot be used.
+Binary '%s' does not exist or is not executable
+%s: does not look like a qemu source directory
+#!/bin/sh -
+host_cpu=%s
+qemudir='%s'
+case $host_cpu in
+    amd64*) qemu="$qemudir/$host_cpu-softmmu/qemu-system-x86_64"
+            ;;
+    arm*) qemu="$qemudir/$host_cpu-softmmu/qemu-system-arm"
+          ;;
+    ppc64le) qemu="$qemudir/$host_cpu-softmmu/qemu-system-ppc64"
+             ;;
+    *) qemu="$qemudir/$host_cpu-softmmu/qemu-system-$host_cpu"
+       ;;
+esac
+exec "$qemu" -L "$qemudir/pc-bios" "$@"
+libguestfs-test-tool: failed to add scratch drive
+guestfs_get_backend_settings: [
+guestfs_get_recovery_proc: %d
+Launching appliance, timeout set to %d seconds.
+libguestfs-test-tool: failed to launch appliance
+libguestfs-test-tool: failed to run part-disk
+libguestfs-test-tool: failed to mkfs.ext2
+libguestfs-test-tool: failed to mount /dev/sda1 on /
+libguestfs-test-tool: failed to touch file
+libguestfs-test-tool: shutdown failed
+;*3$"
+/tmp/libguestfs-test-tool-wrapper-XXXXXX
+libguestfs-test-tool.debug
+7zXZ
+a}n 
+G W/
+bDt$%q
+r\`V
+Mg8p
+e-U~
+y97|
+85zC
+T;"`'1
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

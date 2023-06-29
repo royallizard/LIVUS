@@ -1,0 +1,293 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+talloc_tos
+copy_smb_filename
+smb_vfs_call_stat
+_talloc_free
+lp_parm_bool
+DEBUGLEVEL_CLASS
+DEBUGLEVEL_CLASS_ISSET
+dbghdrclass
+dbgtext
+lp_parm_const_string
+sscanf
+smb_vfs_call_disconnect
+lp_servicename
+unix_wild_match
+pdb_get_domain
+talloc_sub_advanced
+trim_char
+smb_vfs_call_unlink
+strlen
+strncmp
+smb_fname_str_dbg
+conv_str_size
+__errno_location
+strerror
+strrchr
+__strdup
+lp_parm_string_list
+strchr
+malloc
+__asprintf_chk
+vfs_stat_smb_fname
+safe_strcat_fn
+smb_vfs_call_mkdir
+create_synthetic_smb_fname
+talloc_strdup
+smb_vfs_call_rename
+timespec_current
+smb_vfs_call_ntimes
+unbecome_root
+smb_vfs_call_connect
+init_samba_module
+smb_register_vfs
+debug_add_class
+libc.so.6
+_edata
+__bss_start
+_end
+recycle.so
+GLIBC_2.8
+GLIBC_2.2.5
+%z? 
+%r? 
+%j? 
+%b? 
+%Z? 
+%R? 
+%J? 
+%B? 
+%:? 
+%2? 
+%*? 
+%"? 
+5Y> 
+:	~>H
+:	~.H
+ATSubH
+[A\]
+=H9 
+=.9 
+ffffff.
+AWAVAUATI
+5z: 
+L$(D
+D$ L
+L$01
+D$ H
+L$(H
+[]A\A]A^A_
+5&7 
+5Q5 
+t$8A
+t$8L
+5e3 
+5y2 
+5B2 
+t$8H
+t$8H
+D$@Hc
+T$@H
+L$(t
+D$@H
+l$HL
+d$PH
+l$HL
+d$Pt
+D$@H
+l$HL
+d$PM
+59/ 
+D$p%
+D$PL
+L$HH
+T$HH
+|$HH
+D$HH
+T$@H
+t$@H
+D$p%
+5M- 
+T$PH
+t$@H
+D$HH
+T$@H
+T$P</t
+t$@H
+5|+ 
+t$@H
+8	~*H
+D$8H
+t$@M
+\$@H
+\$@L
+L$8H
+D$@H
+t$@H
+5w% 
+D$ A
+D$HH
+5g# 
+t$8L
+D$8L
+t$0H
+5:" 
+fff.
+modules/vfs_recycle.c:239
+True
+False
+touch_mtime
+modules/vfs_recycle.c:112
+recycle: touch_mtime = %s
+directory_mode
+modules/vfs_recycle.c:187
+recycle: directory_mode = %o
+modules/vfs_recycle.c:56
+.recycle
+repository
+modules/vfs_recycle.c:68
+recycle: repository = %s
+modules/vfs_recycle.c:473
+recycle.bin: out of memory!
+modules/vfs_recycle.c:480
+modules/vfs_recycle.c:488
+modules/vfs_recycle.c:264
+modules/vfs_recycle.c:271
+maxsize
+modules/vfs_recycle.c:157
+recycle: maxsize = %lu
+modules/vfs_recycle.c:511
+minsize
+modules/vfs_recycle.c:169
+recycle: minsize = %lu
+modules/vfs_recycle.c:518
+modules/vfs_recycle.c:540
+modules/vfs_recycle.c:544
+modules/vfs_recycle.c:550
+recycle: fname = %s
+modules/vfs_recycle.c:552
+recycle: fpath = %s
+modules/vfs_recycle.c:554
+recycle: base = %s
+exclude
+modules/vfs_recycle.c:123
+recycle: exclude = %s ...
+modules/vfs_recycle.c:557
+exclude_dir
+modules/vfs_recycle.c:134
+modules/vfs_recycle.c:563
+keeptree
+modules/vfs_recycle.c:79
+recycle_bin: keeptree = %s
+%s/%s
+modules/vfs_recycle.c:570
+modules/vfs_recycle.c:575
+modules/vfs_recycle.c:579
+modules/vfs_recycle.c:581
+modules/vfs_recycle.c:295
+modules/vfs_recycle.c:300
+modules/vfs_recycle.c:312
+modules/vfs_recycle.c:314
+recycle: creating new dir %s
+modules/vfs_recycle.c:316
+subdir_mode
+modules/vfs_recycle.c:204
+recycle: subdir_mode = %o
+modules/vfs_recycle.c:585
+modules/vfs_recycle.c:592
+modules/vfs_recycle.c:606
+modules/vfs_recycle.c:90
+recycle: versions = %s
+noversions
+modules/vfs_recycle.c:145
+recycle: noversions = %s
+modules/vfs_recycle.c:612
+modules/vfs_recycle.c:615
+%s/Copy #%d of %s
+modules/vfs_recycle.c:625
+modules/vfs_recycle.c:627
+modules/vfs_recycle.c:637
+recycle: Moving %s to %s
+modules/vfs_recycle.c:643
+touch
+modules/vfs_recycle.c:101
+recycle: touch = %s
+modules/vfs_recycle.c:426
+modules/vfs_recycle.c:440
+modules/vfs_recycle.c:443
+modules/vfs_recycle.c:657
+modules/vfs_recycle.c:658
+modules/vfs_recycle.c:48
+modules/vfs_recycle.c:680
+modules/vfs_recycle.c:682
+recycle_disconnect() connect to service[%s].
+recycle: repository path not set, purging %s...
+recycle: File is within recycling bin, unlinking ...
+recycle: stat for %s returned %s
+recycle: File %s exceeds maximum recycle size, purging... 
+recycle: File %s lowers minimum recycle size, purging... 
+recycle: file %s is excluded 
+recycle: exclude_dir = %s ...
+recycle: directory %s is excluded 
+recycle: Directory already exists
+recycle: Creating directory %s
+recycle: dir %s already exists
+recycle: mkdir failed for %s with error: %s
+recycle: Could not create directory, purging %s...
+recycle: recycled file name: %s
+recycle: Removing old file %s from recycle bin
+recycle: Error deleting old file: %s
+recycle: Move error %d (%s), purging file %s (%s)
+recycle: touching %s failed, reason = %s
+recycle_connect() connect to service[%s] as user[%s].
+vfs_recycle: Couldn't register custom debugging class!
+vfs_recycle: Debug class number of 'recycle': %d
+init_samba_module
+recycle_unlink
+recycle_repository
+recycle_get_file_size
+recycle_maxsize
+recycle_minsize
+recycle_exclude
+recycle_exclude_dir
+recycle_keep_dir_tree
+recycle_create_dir
+recycle_directory_mode
+recycle_subdir_mode
+recycle_versions
+recycle_noversions
+recycle_touch
+recycle_touch_mtime
+recycle_do_touch
+recycle_disconnect
+recycle_connect
+recycle.so.debug
+.data
+.rodata
+.shstrtab
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rela.dyn
+.data.rel.ro
+.gnu.version_r
+.jcr
+.eh_frame_hdr
+.dynstr
+.ctors
+.dtors
+.bss
+.init
+.rela.plt
+.got.plt
+.got
+.text

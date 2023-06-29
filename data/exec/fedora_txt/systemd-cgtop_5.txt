@@ -1,0 +1,336 @@
+td`l
+/lib/ld-linux.so.2
+free
+GLIBC_2.0
+libc.so.6
+strcspn
+__printf_chk
+GLIBC_2.3.4
+__stack_chk_fail
+GLIBC_2.4
+_Unwind_Resume
+GCC_3.0
+libgcc_s.so.1
+__udivdi3
+__bss_start
+_edata
+_end
+strcmp
+sscanf
+__snprintf_chk
+fputc
+strlen
+__errno_location
+libpthread.so.0
+__cxa_finalize
+GLIBC_2.1.3
+__strdup
+qsort
+closedir
+fwrite
+__gcc_personality_v0
+GCC_3.3.1
+calloc
+strspn
+fgets
+__fprintf_chk
+log_parse_environment
+log_open
+cg_mask_supported
+show_cgroup_get_path_and_warn
+internal_hashmap_new
+__libc_start_main
+log_oom_internal
+signal
+usleep
+read_one_char
+fopen64
+GLIBC_2.1
+fflush
+sleep
+internal_hashmap_free
+terminal_is_dumb
+optarg
+internal_hashmap_size
+optind
+internal_hashmap_iterate
+lines
+program_invocation_short_name
+columns
+colors_enabled
+stdin
+on_tty
+stdout
+ellipsize
+format_timespan
+_IO_putc
+getopt_long
+format_bytes
+internal_hashmap_steal_first
+cg_enumerate_subgroups
+cg_read_subgroup
+strjoin_real
+path_kill_slashes
+cg_all_unified
+internal_hashmap_get
+hashmap_put
+internal_hashmap_move_one
+cg_enumerate_processes
+is_kernel_thread
+cg_read_pid
+cg_get_keyed_attribute
+read_one_line_file
+cg_get_path
+strstrip
+first_word
+safe_atollu
+now_nsec
+safe_fclose
+path_startswith
+path_compare
+log_assert_failed
+version
+parse_sec
+safe_atou
+parse_boolean
+log_assert_failed_unreachable
+log_get_max_level
+log_internal
+bus_standard_errors
+columns_lines_cache_reset
+string_hash_ops
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+_fini
+_init
+__gmon_start__
+_IO_stdin_used
+libsystemd-shared-233.so
+/usr/lib/systemd
+a_&	
+D$Le
+[^_]
+;D$Dw
++D$0
+D$S<h
++D$0
+t49E
+D$04
+t S1
+UT9T$
+wz9D$
+[^_]
+tpJt.
+D$He
+D$@H
+D$@u\
+t$01
+D$L:L$L
+D$l1
+D$x1
+D$|1
+D$p1
+t$01
+L$01
+D$0xT
+T$,H9C4
+|$,+p
+|$Du
++L$0
+l$0y
+l$0y
+D$0+CH
+T$D	
+D$@1
+D$(9
+T$,)
+D$P9
+D$P1
+d$XiL$\
+D$P9
++L$P
+D$(e
+D$\1
+D$P1
+|$\e3=
+D$01
+D$41
+D$<H
+UWVS
+[^_]
+%llu
+src/cgtop/cgtop.c
+[0;1;4m
+[0;4m
+Proc+
+Procs
+Tasks
+%CPU
+CPU Time
+Output/s
+Input/s
+Memory
+Control Group
+%-*s
+ %7llu
+       -
+ %6.1f
+      -
+ %*s
+ %8s
+io.stat
+blkio.io_service_bytes
+path
+_systemd
+pids
+pids.current
+cpuacct
+usage_usec
+cpu.stat
+cpuacct.usage
+memory
+memory.current
+memory.usage_in_bytes
+blkio
+wbytes=%llu
+Read
+Write
+rbytes=%llu
+tasks
+all processes (incl. kernel)
+argc >= 1
+argv
+time
+percentage
+Unhandled option
+hptcmin:brd:kPM:
+Too many arguments.
+Cgroup path: %s
+Failed to refresh: %m
+Couldn't read key: %m
+Counting: %s.
+Increased delay to %s.
+Decreased delay to %s.
+Unknown key '%c'. Ignoring.
+help
+version
+delay
+iterations
+batch
+depth
+order
+recursive
+machine
+xsprintf: buffer[] must be big enough
+%s%s%-*s%s %s%7s%s %s%s%s %s%8s%s %s%8s%s %s%8s%s%s
+userspace processes (excl. kernel)
+Failed to determine supported controllers: %m
+%s [OPTIONS...] [CGROUP]
+Show top control groups by their resource usage.
+  -h --help           Show this help
+     --version        Show package version
+  -p --order=path     Order by path
+  -t --order=tasks    Order by number of tasks/processes
+  -c --order=cpu      Order by CPU load (default)
+  -m --order=memory   Order by memory load
+  -i --order=io       Order by IO load
+  -r --raw            Provide raw (not human-readable) numbers
+     --cpu=percentage Show CPU usage as percentage (default)
+     --cpu=time       Show CPU usage as time
+  -P                  Count userspace processes instead of tasks (excl. kernel)
+  -k                  Count all processes instead of tasks (incl. kernel)
+     --recursive=BOOL Sum up process count recursively
+  -d --delay=DELAY    Delay between updates
+  -n --iterations=N   Run for N iterations before exiting
+  -b --batch          Run in batch mode, accepting no input
+     --depth=DEPTH    Maximum traversal depth (default: %u)
+  -M --machine=       Show container
+Unknown argument to --cpu=: %s
+Failed to parse depth parameter.
+Failed to parse delay parameter.
+Failed to parse iterations parameter.
+Invalid argument to --order=: %s
+Failed to parse --recursive= argument: %s
+Non-recursive counting is only supported when counting processes, not tasks. Use -P or -k.
+Failed to get root control group path: %m
+Cannot toggle recursive counting, not available in task counting mode.
+Recursive process counting: %s
+[0;1;39mp
+[0m> By path; <
+[0;1;39mt
+[0m> By tasks/procs; <
+[0;1;39mc
+[0m> By CPU; <
+[0;1;39mm
+[0m> By memory; <
+[0;1;39mi
+[0m> By I/O
+[0;1;39m+
+[0m> Inc. delay; <
+[0;1;39m-
+[0m> Dec. delay; <
+[0;1;39m%%
+[0m> Toggle time; <
+[0;1;39mSPACE
+[0m> Refresh
+[0;1;39mP
+[0m> Toggle count userspace processes; <
+[0;1;39mk
+[0m> Toggle count all processes
+[0;1;39mr
+[0m> Count processes recursively; <
+[0;1;39mq
+[0m> Quit
+Unknown key '\x%x'. Ignoring.
+group_free
+process
+refresh_one
+display
+parse_argv
+parse_argv
+main
+;*2$"
+zPLR
+gold 1.12
+systemd-cgtop.debug
+7zXZ
+CKnCT
+1y!.
+aUr2V
+2_qYu
+5_%(
+\4}=
+M+,sN
+pP)|
+i\cj
+m+CN
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.gcc_except_table
+.eh_frame
+.eh_frame_hdr
+.data.rel.ro.local
+.fini_array
+.init_array
+.dynamic
+.got
+.got.plt
+.tm_clone_table
+.data
+.bss
+.note.gnu.gold-version
+.gnu_debuglink
+.gnu_debugdata

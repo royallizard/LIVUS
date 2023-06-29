@@ -1,0 +1,317 @@
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+g_type_class_peek_parent
+g_type_class_add_private
+g_param_spec_string
+g_object_class_install_property
+g_param_spec_int
+gst_poll_set_flushing
+g_thread_join
+gst_poll_remove_fd
+close
+gst_poll_free
+g_free
+__errno_location
+__gst_debug_min
+gst_debug_log
+gst_clock_get_internal_time
+gst_poll_wait
+g_strerror
+gst_net_time_packet_new
+gst_net_time_packet_send
+gst_poll_fd_can_read
+gst_net_time_packet_receive
+gst_clock_add_observation
+g_mutex_lock
+g_mutex_unlock
+__stack_chk_fail
+g_type_name
+g_value_get_int
+g_value_get_string
+g_strdup
+g_value_set_int
+g_value_set_string
+gst_net_client_clock_get_type
+g_once_init_enter
+g_intern_static_string
+gst_system_clock_get_type
+gst_type_register_static_full
+g_once_init_leave
+_gst_debug_category_new
+g_type_instance_get_private
+gst_net_client_clock_new
+g_object_new
+gst_clock_set_calibration
+gst_clock_get_time
+gst_poll_new
+g_return_if_fail_warning
+gst_object_unref
+socket
+getsockname
+inet_aton
+g_malloc
+gst_poll_add_fd
+gst_poll_fd_ctl_read
+g_thread_try_new
+g_error_free
+g_malloc0
+gst_net_time_packet_serialize
+recvfrom
+GST_CAT_DEFAULT
+sendto
+gst_clock_get_type
+g_param_spec_object
+g_param_spec_boolean
+g_value_get_boolean
+g_value_get_object
+gst_object_replace
+g_value_set_boolean
+g_value_set_object
+gst_net_time_provider_get_type
+gst_object_get_type
+gst_net_time_provider_new
+g_type_check_instance_is_a
+setsockopt
+bind
+g_object_notify
+libgstreamer-0.10.so.0
+libxml2.so.2
+libm.so.6
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libgmodule-2.0.so.0
+libglib-2.0.so.0
+libdl.so.2
+libpthread.so.0
+libc.so.6
+libgstnet-0.10.so.0
+GLIBC_2.4
+GLIBC_2.2.5
+5rG 
+%tG 
+%rG 
+%jG 
+%bG 
+%ZG 
+%RG 
+%JG 
+%BG 
+%:G 
+%2G 
+%*G 
+%"G 
+%zF 
+%rF 
+%jF 
+%bF 
+%ZF 
+%RF 
+%JF 
+%BF 
+%:F 
+%2F 
+%*F 
+%"F 
+%zE 
+%rE 
+%:C 
+=YE 
+AWAVI
+AUATUSH
+D$(1
+-+@ 
+=qB 
+ATPH
+=tA 
+AZA[1
+APVM
+=Q? 
+\$(dH3
+8[]A\A]A^A_
+=9> 
+AXAY
+=Q= 
+APQH
+=\< 
+APQH
+=H; 
+AUQH
+APASA
+ATWAQPH
+ATUH
+t$$H
+[]A\
+[]A\
+[]A\
+ATUH
+ []A\
+ATUSH
+D$81
+L$8dH3
+@[]A\
+=G3 
+ATPH
+ATPH
+=b2 
+ATPH
+=A0 
+AWAVA
+AUATI
+([]A\A]A^A_
+AUATUSH
+[]A\A]
+[]A\A]
+ATUH
+[]A\
+[]A\
+[]A\
+t$$H
+[]A\
+[]A\
+AWAVL
+AUATL
+-"' 
+D$H1
+D$0H
+=`) 
+A\XH
+AZA[E
+=X( 
+L$,H
+=v' 
+AXAY
+=4' 
+t$HdH34%(
+X[]A\A]A^A_
+ATUH
+ []A\
+AUATUSH
+D$(1
+L$(dH3
+8[]A\A]
+A[A\H
+=r# 
+AYAZH
+_AX;kXtNA
+kXv5H
+ATPH
+= ! 
+ATPH
+ATPH
+127.0.0.1
+address
+port
+gstnetclientclock.c
+doing select
+local_1 = %u:%02u:%02u.%09u
+remote = %u:%02u:%02u.%09u
+local_2 = %u:%02u:%02u.%09u
+select returned %d
+select error %d: %s (%d)
+stop
+timed out
+got packet back
+shutting down
+receive error
+property
+Network client clock
+netclock
+GstNetClientClock
+remote_address != NULL
+remote_port > 0
+remote_port <= G_MAXUINT16
+self->address != NULL
+self->servaddr == NULL
+socket opened on UDP port %hd
+will communicate with %s:%d
+socket failed %d: %s (%d)
+inet_aton failed %d: %s (%d)
+could not create thread: %s
+The address of the machine providing a time server, as a dotted quad (x.x.x.x)
+The port on which the remote server is listening
+sending packet, local time = %u:%02u:%02u.%09u
+time packet receive time < send time (%u:%02u:%02u.%09u < %u:%02u:%02u.%09u)
+unhandled select return state?
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+unable to set the base time, expect sync problems!
+base_time != GST_CLOCK_TIME_NONE
+getsockname failed %d: %s (%d)
+could not create an fdset: %s (%d)
+gst_net_client_clock_observe_times
+gst_net_client_clock_do_select
+gst_net_client_clock_thread
+gst_net_client_clock_start
+gst_net_client_clock_start
+gst_net_client_clock_new
+gst_net_client_clock_new
+MbP?
+Cgstnettimepacket.c
+receive error %d: %s (%d)
+packet != NULL
+someone sent us a short packet (%d < %d)
+gst_net_time_packet_send
+gst_net_time_packet_receive
+The port to receive the packets from, 0=allocate
+The address to bind on, as a dotted quad (x.x.x.x)
+The clock to export over the network
+TRUE if the clock will respond to queries over the network
+port >= 0 && port <= G_MAXUINT16
+invalid network address %s: %s (%d)
+0.0.0.0
+Active
+active
+gstnettimeprovider.c
+Network time provider
+nettime
+GstNetTimeProvider
+clock && GST_IS_CLOCK (clock)
+binding on port %d
+bound, on port %d
+notifying %d
+setsockopt failed %d: %s (%d)
+bind failed %d: %s (%d)
+gst_net_time_provider_thread
+gst_net_time_provider_start
+gst_net_time_provider_new
+gst_net_time_provider_new
+;*3$"
+libgstnet-0.10.so.0.30.0.debug
+7zXZ
+Hx*-
+n*{<
+U*kk
+>}>N
+rQD0j
+Z()$
+@tZZ
+F!:1
+`U%k&
+HRmK
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got.plt
+.bss
+.gnu_debuglink
+.gnu_debugdata

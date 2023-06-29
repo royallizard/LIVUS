@@ -1,0 +1,231 @@
+D AB
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_static_resource_get_resource
+g_static_resource_init
+g_static_resource_fini
+gedit_debug
+gedit_window_get_active_view
+g_simple_action_get_type
+g_type_check_instance_cast
+g_simple_action_set_enabled
+gtk_dialog_get_type
+gtk_dialog_set_response_sensitive
+gedit_debug_message
+g_type_check_class_cast
+g_type_class_peek_parent
+g_object_class_override_property
+g_type_class_adjust_private_offset
+gtk_text_buffer_get_type
+gtk_text_buffer_get_slice
+g_utf8_strlen
+g_malloc0_n
+pango_language_from_string
+pango_get_log_attrs
+g_free
+gtk_text_buffer_get_selection_bounds
+gtk_text_iter_get_line
+gtk_widget_set_sensitive
+g_strdup_printf
+gtk_label_get_type
+gtk_label_set_text
+__stack_chk_fail
+gtk_text_buffer_get_bounds
+gtk_text_buffer_get_line_count
+tepl_buffer_get_type
+tepl_buffer_get_file
+tepl_file_get_short_name
+gtk_header_bar_get_type
+gtk_header_bar_set_subtitle
+gedit_window_get_active_document
+gtk_window_get_type
+gtk_window_present
+gtk_widget_get_type
+gtk_widget_grab_focus
+gtk_builder_new
+gtk_builder_add_from_resource
+gtk_builder_get_object
+g_object_unref
+gtk_dialog_set_default_response
+gtk_window_set_transient_for
+gtk_widget_destroyed
+g_signal_connect_data
+gtk_widget_set_can_focus
+gtk_widget_show
+gtk_widget_destroy
+gedit_docinfo_plugin_get_type
+g_action_map_get_type
+g_action_map_remove_action
+g_simple_action_new
+g_action_get_type
+g_action_map_add_action
+gedit_app_activatable_extend_menu
+dcgettext
+g_menu_item_new
+gedit_menu_extension_append_menu_item
+g_type_name
+g_log
+g_value_set_object
+gedit_window_get_type
+g_value_dup_object
+gedit_app_get_type
+peas_register_types
+g_type_module_get_type
+peas_extension_base_get_type
+g_type_module_register_type
+gedit_app_activatable_get_type
+g_type_module_add_interface
+gedit_window_activatable_get_type
+peas_object_module_register_extension_type
+libgedit-44.so
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libgtk-3.so.0
+libpango-1.0.so.0
+libtepl-6.so.2
+libpeas-1.0.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.2.5
+$ORIGIN/../../gedit
+u+UH
+ATUH
+[]A\A]A^A_
+AVAUATL
+|$pH
+D$$E
+L$(L
+t$$1
+|$ 1
++D$(L
+D$,L
+[]A\A]A^A_
+T$pL
+D$$PH
+L$(L
+|$$X1
+D+\$
+[]A\A]A^A_
+AVAUI
+ATUH
+[]A\A]A^A_
+tB[]A\A]A^
+[]A\A]A^
+[]A\A]A^
+ATUSH
+]A\A]
+([]A\A]
+[]A\A]
+AVAUI
+ []A\A]A^
+[]A\A]A^
+[]A\A]A^
+AUATI
+D$h1
+D$(fH
+D$ H
+D$PH
+D$8H
+L$ H
+D$hdH+
+[]A\A]
+../plugins/docinfo/gedit-docinfo-plugin.c
+GeditDocinfoPlugin initializing
+/org/gnome/gedit/plugins/docinfo/ui/gedit-docinfo-plugin.ui
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+GeditDocinfoPlugin finalizing
+window
+Selected chars: %d
+Selected lines: %d
+Selected words: %d
+Selected chars non-space: %d
+Selected bytes: %d
+Selection empty
+Chars: %d
+Lines: %d
+Words: %d
+Chars non-space: %d
+Bytes: %d
+dialog
+header_bar
+document_label
+document_words_label
+document_bytes_label
+document_lines_label
+document_chars_label
+document_chars_ns_label
+selection_label
+selected_words_label
+selected_bytes_label
+selected_lines_label
+selected_chars_label
+selected_chars_ns_label
+destroy
+response
+GTK_RESPONSE_CLOSE
+GTK_RESPONSE_OK
+activate
+tools-section
+_Document Statistics
+win.docinfo
+property
+GeditDocinfoPlugin dispose
+GeditDocinfoPlugin
+gedit_docinfo_plugin_dispose
+gedit_docinfo_plugin_finalize
+gedit_docinfo_plugin_init
+gedit_docinfo_plugin_app_activate
+gedit_docinfo_plugin_app_deactivate
+update_selection_info
+calculate_info
+update_document_info
+docinfo_dialog_response_cb
+create_docinfo_dialog
+docinfo_cb
+gedit_docinfo_plugin_window_activate
+gedit_docinfo_plugin_window_deactivate
+update_ui
+gedit_docinfo_plugin_window_update_state
+GVariant
+gnome/
+org/
+gedit/
+plugins/
+docinfo/
+gedit-docinfo-plugin.ui
+<?xml version="1.0" encoding="UTF-8"?>
+<interface><requires lib="gtk+" version="2.16"/><object class="GtkDialog" id="dialog"><property name="can_focus">False</property><property name="border_width">5</property><property name="title" translatable="yes">Document Statistics</property><property name="resizable">False</property><property name="destroy_with_parent">True</property><property name="type_hint">dialog</property><child type="titlebar"><object class="GtkHeaderBar" id="header_bar"><property name="title" translatable="yes">Document Statistics</property><property name="visible">True</property><property name="can_focus">False</property><property name="show-close-button">True</property><child><object class="GtkButton" id="update_button"><property name="visible">True</property><property name="valign">center</property><property name="can_focus">True</property><property name="use_underline">True</property><style><class name="image-button"/></style><child><object class="GtkImage" id="reload_button_image"><property name="visible">True</property><property name="icon_size">1</property><property name="icon_name">view-refresh-symbolic</property></object></child></object><packing><property name="pack_type">start</property></packing></child></object></child><child internal-child="vbox"><object class="GtkBox" id="dialog-vbox1"><property name="visible">True</property><property name="can_focus">False</property><property name="orientation">vertical</property><property name="spacing">8</property><child><object class="GtkBox" id="docinfo_dialog_content"><property name="visible">True</property><property name="can_focus">False</property><property name="border_width">5</property><property name="orientation">vertical</property><property name="spacing">6</property><child><object class="GtkGrid" id="grid_table"><property name="visible">True</property><property name="can_focus">False</property><property name="row_spacing">6</property><property name="column_spacing">18</property><child><object class="GtkLabel" id="document_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Document</property><property name="use_markup">True</property><property name="use_underline">True</property><property name="justify">center</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">0</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selection_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Selection</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">0</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="lines_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Lines</property><property name="selectable">True</property></object><packing><property name="left_attach">0</property><property name="top_attach">1</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="words_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Words</property><property name="selectable">True</property></object><packing><property name="left_attach">0</property><property name="top_attach">2</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="chars_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Characters (with spaces)</property><property name="selectable">True</property></object><packing><property name="left_attach">0</property><property name="top_attach">3</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="chars_ns_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Characters (no spaces)</property><property name="selectable">True</property></object><packing><property name="left_attach">0</property><property name="top_attach">4</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="bytes_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">0</property><property name="label" translatable="yes">Bytes</property><property name="selectable">True</property></object><packing><property name="left_attach">0</property><property name="top_attach">5</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="document_lines_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">1</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="document_words_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">2</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="document_chars_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">3</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="document_chars_ns_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">4</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="document_bytes_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">1</property><property name="top_attach">5</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selected_lines_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">1</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selected_words_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">2</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selected_chars_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">3</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selected_chars_ns_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">4</property><property name="width">1</property><property name="height">1</property></packing></child><child><object class="GtkLabel" id="selected_bytes_label"><property name="visible">True</property><property name="can_focus">False</property><property name="xalign">1</property><property name="label">0</property><property name="selectable">True</property></object><packing><property name="left_attach">2</property><property name="top_attach">5</property><property name="width">1</property><property name="height">1</property></packing></child></object><packing><property name="expand">False</property><property name="fill">True</property><property name="position">1</property></packing></child></object><packing><property name="expand">False</property><property name="fill">True</property><property name="position">1</property></packing></child></object></child><action-widgets><action-widget response="-5">update_button</action-widget></action-widgets></object></interface>
+(uuay)
+;*3$"
+/usr/lib/debug/.dwz/x86_64-linux-gnu/gedit.debug
+421db69a01b5f3a4029959e0ea243d106e6b0d.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.gresource.gedit_docinfo
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.data
+.bss
+.gnu_debugaltlink
+.gnu_debuglink

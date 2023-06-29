@@ -1,0 +1,189 @@
+tdx%
+/lib/ld-linux.so.2
+libecryptfs.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+ecryptfs_process_decision_graph
+ecryptfs_get_version
+ecryptfs_process_key_gen_decision_graph
+_fini
+_init
+ecryptfs_add_passphrase_key_to_keyring
+ecryptfs_validate_keyring
+ecryptfs_free_key_mod_list
+libssl3.so
+libsmime3.so
+libnss3.so
+libnssutil3.so
+libplds4.so
+libplc4.so
+libnspr4.so
+libpthread.so.0
+__errno_location
+libkeyutils.so.1
+libdl.so.2
+libc.so.6
+_IO_stdin_used
+__printf_chk
+puts
+putchar
+mkdir
+stdin
+strtol
+fgets
+memset
+tcsetattr
+__syslog_chk
+mlock
+__fprintf_chk
+malloc
+stderr
+fwrite
+strchr
+tcgetattr
+__cxa_finalize
+_IO_getc
+strcmp
+__asprintf_chk
+__libc_start_main
+free
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.0
+GLIBC_2.3.4
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.4
+[^_]
+T$81
+D$L1
+T$Le3
+d$P[^_
+UWVS
+D$l1
+t$le35
+d$|[^_]
+UWVS
+D$\1
+L$\e3
+d$l[^_]
+UWVS
+D$,1
+T$,e3
+d$<[^_]
+UWVS
+[^_]
+UWVS
+D$,1
+L$,e3
+d$<[^_]
+UWVS
+l$he
+D$<1
+L$<e3
+d$L[^_]
+UWVS
+D$<1
+T$,u
+L$<e3
+d$L[^_]
+UWVS
+t$,U
+[^_]
+Error attempting to validate keyring integrity; rc = [%d]
+That key was already in the keyring.
+Added key to keyring with signature [%s].
+Unable to get the version number of the kernel
+module. Please make sure that you have the eCryptfs
+kernel module loaded, you have sysfs mounted, and
+the sysfs mount point is in /etc/mtab. This is
+necessary so that the mount helper knows which 
+kernel options are supported.
+Make sure that your system is set up to auto-load
+your filesystem kernel module on mount.
+Enabling passphrase-mode only for now.
+Error processing key generation decision graph; rc = [%d]
+Unable to free key modules
+Returning to main menu
+Unknown option, aborting
+"3DUfw%s: 
+eCryptfs key management menu
+	%d. Exit
+Make selection: 
+Invalid selection
+	Mount-wide passphrase: 
+	Confirm passphrase: 
+	Using the default salt value
+	%i. %s
+Error reading input
+-------------------------------
+	%d. Add passphrase key to keyring
+	%d. Add public key to keyring
+	%d. Generate new public/private keypair
+ecryptfs: %s: Failed to allocate memory
+Invalid passphrase. Aborting mount.
+ecryptfs: %s: Failed to read passphrase
+Passphrase mismatch. Aborting mount
+The following PKI modules are available:
+Select desired key module [%d]: 
+read_passphrase_salt
+%s/.ecryptfs/pki/%s/%s
+Error: %m
+%s/.ecryptfs/
+%s/.ecryptfs/pki/
+Error: %m
+%s/.ecryptfs/pki/%s/
+;*2$",
+ecryptfs-manager.debug
+7zXZ
+ix_CL
+o6c|
+P2lp
+44xk
+DPVze
+HEPG
+I.nIR
+x[;|
+8lX.
+r?KZ
+=UcO
+,1Y61kK
+%be}
+s3W.q
+\MV#
+zO/7OK
+xy{n
+m|{J_
+x`:U
+J*lz
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

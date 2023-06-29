@@ -1,0 +1,283 @@
+td(M
+td(]
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+fish_encrypt
+BF_set_key
+strlen
+g_malloc
+BF_encrypt
+fish_decrypt
+BF_decrypt
+fish_encrypt_for_nick
+keystore_get_key
+fish_decrypt_from_nick
+irc_parse_message
+irc_prefix_get_nick
+g_strndup
+get_config_filename
+g_key_file_new
+g_key_file_load_from_file
+g_strdup
+g_key_file_get_groups
+irc_nick_cmp
+g_key_file_remove_group
+g_strfreev
+g_key_file_save_to_file
+g_key_file_get_string
+g_key_file_free
+keystore_store_key
+g_strconcat
+g_key_file_set_string
+keystore_delete_nick
+hexchat_get_prefs
+hexchat_list_get
+hexchat_list_next
+hexchat_list_int
+hexchat_list_str
+hexchat_nickcmp
+hexchat_list_free
+hexchat_set_context
+g_strcmp0
+hexchat_print
+g_ascii_strdown
+g_hash_table_lookup
+g_hash_table_steal
+dh1080_compute_key
+hexchat_printf
+dh1080_generate_key
+hexchat_commandf
+hexchat_get_info
+hexchat_emit_print
+strchr
+hexchat_get_context
+g_hash_table_replace
+g_strchug
+g_strchomp
+g_string_sized_new
+g_string_append
+hexchat_command
+g_string_free
+g_time_val_to_iso8601
+g_string_insert_c
+g_build_filename
+g_filename_from_utf8
+hexchat_plugin_get_info
+hexchat_plugin_init
+hexchat_hook_command
+hexchat_hook_server
+hexchat_hook_server_attrs
+dh1080_init
+g_str_equal
+g_str_hash
+g_hash_table_new_full
+hexchat_plugin_deinit
+g_hash_table_destroy
+dh1080_deinit
+g_base64_encode
+stpcpy
+g_string_new
+g_base64_decode_inplace
+g_string_truncate
+g_return_if_fail_warning
+DH_new
+BN_bin2bn
+BN_new
+BN_set_word
+DH_set0_pqg
+DH_check
+DH_free
+DHparams_dup
+DH_generate_key
+DH_get0_key
+BN_bn2bin
+OPENSSL_cleanse
+g_assertion_message_expr
+strspn
+DH_check_pub_key
+DH_set0_key
+DH_compute_key
+SHA256
+BN_free
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libssl.so.1.1
+libcrypto.so.1.1
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+fishlim.so
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.1.3
+OPENSSL_1_1_0
+UWVS
+T$<1
+T$@1
+l$<1
+D$,u&
+[^_]
+UWVS
+T$,1
+L$01
+[^_]
+;:t7
+t:<!t6
+!t	@
+[^_]
+UWVS
+[^_]
+l$81
+UWVS
+D$,1
+9l$(u
+L$,e3
+<[^_]
+|$De
+D$,1
+T$,e3
+ [^_
+UWVS
+D$,e
+D$L1
+9l$ 
+\$Le3
+\[^_]
+uW9t$
+D$@@;D$
+D$D1
+,[^_]
+L$$1
+D$(1
+;D$(r
+D$$1
+;D$$r
+D$,e
+9D$(t=
+T$(9
+D$,1
+L$41
+D$81
+;D$8r
+D$81
+;D$8r
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@&'()*+,-./0123456789:;<=>?@@@@@@
+ !"#$%@@@@@
+./0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+OK 
+blowinikey
+channels
+channel
+context
+DH1080_INIT
+Failed to generate keys
+DH1080_FINISH
+Stored new key for %s
+Failed to create secret key!
+type
+TOPIC %s +OK %s
+nick
+Your Message
+PRIVMSG %s :+OK %s
+PRIVMSG %s :
+ACTION +OK %s 
+Your Action
+Message Send
+quote NOTICE %s :+OK %s
+Notice Sent
+chantypes
+Stored key for %s
+Deleted key for %s
+mcps
+RECV
+ @time=
+configdir
+addon_fishlim.conf
+SETKEY
+DELKEY
+KEYX
+TOPIC+
+NOTICE+
+MSG+
+NOTICE
+PRIVMSG
+TOPIC
+%s plugin loaded
+%s plugin unloaded
+Received key exchange for CBC mode which is not supported.
+Received public key from %s, sending mine...
+quote NOTICE %s :DH1080_FINISH %s
+Received a key exchange response for unknown user: %s
+Please change to the channel window where you want to set the topic!
+/topic+ error, no key found for %s
+/msg+ error, no key found for %s
+/notice+ error, no key found for %s.
+You can only exchange keys with individuals
+quote NOTICE %s :DH1080_INIT %s
+Sent public key to %s, waiting for reply...
+05Failed to store key in addon_fishlim.conf
+05Failed to delete key in addon_fishlim.conf!
+Usage: MSG+ <nick or #channel> <message>
+Usage: NOTICE+ <nick or #channel> <notice>
+Usage: TOPIC+ <topic>, sets a new encrypted topic for the current channel
+Usage: KEYX [<nick>], performs DH1080 key-exchange with <nick>
+Usage: DELKEY <nick or #channel>, deletes the key for a channel or nick
+Usage: SETKEY [<nick or #channel>] <password>, sets the key for a channel or nick
+0.1.0
+Encryption plugin for the FiSH protocol. Less is More!
+FiSHLiM
+g_dh == NULL
+priv_key != NULL
+dh1080.c
+pub_key != NULL
+secret_key != NULL
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+dh1080_compute_key
+dh1080_generate_key
+dh1080_init
+;*2$"
+fishlim.so-2.12.4-8.fc27.i386.debug
+7zXZ
+Ldad
+iOJPwx
+zn]Y
+ 8&O
+W@e4
+p9)M
+]-E 
+hz"L
+2uW-
+bpYr
+b[C;
+Bi\f3
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.bss
+.gnu_debuglink
+.gnu_debugdata

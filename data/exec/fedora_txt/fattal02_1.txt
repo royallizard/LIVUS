@@ -1,0 +1,254 @@
+td(n
+4]A(h
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+g_snprintf
+gegl_operation_filter_get_type
+g_type_module_register_type
+g_slice_alloc0
+gegl_operation_source_get_bounding_box
+babl_format
+gegl_operation_set_format
+g_type_class_peek_parent
+gegl_operation_get_type
+g_type_check_class_cast
+g_dgettext
+gegl_operation_class_set_keys
+g_param_spec_double
+g_object_class_install_property
+g_object_set_data_full
+g_slice_free1
+g_value_set_double
+g_type_name
+g_log
+g_value_get_double
+g_return_if_fail_warning
+g_malloc_n
+g_free
+babl_format_get_n_components
+gegl_buffer_get
+__powf_finite
+memcpy
+qsort
+gegl_buffer_set
+gegl_chant_get_type
+gegl_module_query
+gegl_module_register
+libgmodule-2.0.so.0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libgthread-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+fattal02.so
+GLIBC_2.15
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+t$8V
+RVPW
+UWVS
+|$LW
+Y]PV
+\$,UP
+Y]PV
+Y]PV
+\$,UP
+Y]PV
+<[^_]
+tNv,
+ZYWP
+0[^_
+tNv,
+ZYWP
+0[^_
+t$L1
+D$H%
+D$H%
+D$H%
+D$H%
+\$ 9D$x
+D$Le3
+\[^_]
+D$Lf
+\$ +\$
+9D$<
+D$<9D$$
+L$<!
+\$<!
+D$,9
+t$$1
+t$$9
+|$ 9T$4
+;T$4u
+|[^_]
++\$ 
+T$\1
+\$8f
+D$X%
+D$X%
+D$X%
+D$X%
+D$X%
+D$X%
+D$\e3
+l[^_]
+t$89t$0tE
+L[^_]
+L[^_]
+D$4j
+D$(_Xj
+D$$XZj
+D$hXZj
+L$X1
+D$(9D$
+D$89
+L$41
+D$(9D$
+D$49
+\$@U
+L$41
+L$ 9
+L$ 9
+\$41
+D$(9D$
+\$@U
+|[^_]
+UWVS
+L$ e
+[^_]
+)|$0
+;D$L
+|$hW
+D$`Y^j
+\$@1
+L$(1
+;D$L
+t$,1
+YD$0
+9D$Hu
+;D$$r
+t$hV
+D$`Y_j
+D$(XZj
+9l$(t0
+9l$(u
+9L$0
+|$$tl
+9D$(
+FD$D1
+FT$H
+|$@9\$$u
+D$8P
+9T$X
+9L$(
+9L$Xu
+D$ j
+D$4XZj
+D$ Y[j
+t$(9D$D
+L$X1
+T$`1
+D$|9D$
+$9\$D
+;l$0t7
+9t$D}
+t$Pf
+;|$Lu
+D$4XZj
+D$ YXj
+GeglChantfattal02.c
+RGB float
+output
+gegl-0.2
+description
+tonemapping
+categories
+gegl:fattal02
+name
+Alpha
+alpha
+Beta
+beta
+Saturation
+saturation
+Noise
+noise
+chant-data
+property
+GEGL-../../gegl/gegl-chant.h
+weight != 0
+GEGL-fattal02.c
+size > 0
+result
+Y float
+min_input <= max_input
+width > 0
+height > 0
+Adapt an image, which may have a high dynamic range, for presentation using a low dynamic range. This operator attenuates the magnitudes of local image gradients, producing luminance within the range 0.0-1.0
+Gradient threshold for detail enhancement
+Strength of local detail enhancement
+Global color saturation factor
+Gradient threshold for lowering detail enhancement
+%s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+babl_format_get_n_components (babl_format (OUTPUT_FORMAT)) == pix_stride
+level_extent.width >= MINIMUM_PYRAMID
+level_extent.height >= MINIMUM_PYRAMID
+fattal02_prolongate
+fattal02_gaussian_blur
+fattal02_downsample
+fattal02_create_gaussian_pyramids
+fattal02_tonemap
+fattal02_process
+;*2$"
+gcc 8.0.1 20180218
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA+GLIBCXX_ASSERTIONS
+GA*FORTIFY
+fattal02.so-0.2.0-38.fc28.i386.debug
+7zXZ
+K?E@
+rL+UB
+L"f|SV
+0ZIL
+4Z;]
+!+VD
+__y-x7*
+;zM,
+p$2\
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.bss
+.gnu.build.attributes
+.gnu_debuglink
+.gnu_debugdata

@@ -1,0 +1,195 @@
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+go_plugin_shutdown
+gda_client_get_type
+g_type_check_instance_is_a
+g_type_check_instance_cast
+g_object_unref
+g_free
+g_hash_table_lookup
+g_hash_table_new_full
+dcgettext
+gnome_db_login_dialog_new
+gnome_db_login_dialog_get_type
+gnome_db_login_dialog_get_login_widget
+gnome_db_login_get_type
+gnome_db_login_set_dsn
+gnome_db_login_set_username
+gnome_db_login_set_password
+gnome_db_login_dialog_run
+gnome_db_login_get_dsn
+g_strdup
+gnome_db_login_get_username
+gnome_db_login_get_password
+gtk_widget_destroy
+gda_client_open_connection
+g_malloc0
+g_hash_table_insert
+gda_client_new
+g_log
+g_error_free
+gda_init
+g_str_hash
+strcmp
+gda_data_model_get_type
+gda_data_model_get_n_columns
+gda_data_model_get_n_rows
+workbook_date_conv
+value_new_array_empty
+gda_data_model_get_value_at
+g_type_check_value
+gda_short_get_type
+gda_ushort_get_type
+g_date_get_type
+gda_time_get_type
+value_new_error
+g_value_type_transformable
+g_value_init
+g_value_transform
+g_value_get_string
+value_new_string
+value_array_set
+g_value_get_boolean
+value_new_bool
+g_value_get_int
+value_new_int
+g_value_get_uint
+g_value_get_float
+value_new_float
+g_value_get_double
+g_value_unset
+value_new_empty
+gda_value_get_short
+gda_value_get_ushort
+g_value_get_boxed
+datetime_g_to_serial
+go_format_default_date
+value_set_fmt
+gda_value_get_time
+go_format_default_time
+g_return_if_fail_warning
+value_get_as_string
+gda_connection_get_type
+gda_command_new
+gda_connection_execute_command
+gda_command_free
+g_list_foreach
+g_list_free
+go_plugin_depends
+go_plugin_header
+gdaif_functions
+libgnomedb-3.0.so.4
+libgthread-2.0.so.0
+librt.so.1
+libgda-report-3.0.so.3
+libgda-3.0.so.3
+libgdasql-3.0.so.3
+libgnomecanvas-2.so.0
+libglade-2.0.so.0
+libart_lgpl_2.so.2
+libgtk-x11-2.0.so.0
+libxml2.so.2
+libgdk-x11-2.0.so.0
+libatk-1.0.so.0
+libgdk_pixbuf-2.0.so.0
+libpangocairo-1.0.so.0
+libpango-1.0.so.0
+libcairo.so.2
+libgobject-2.0.so.0
+libgmodule-2.0.so.0
+libdl.so.2
+libglib-2.0.so.0
+libm.so.6
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+gdaif.so
+GLIBC_2.2.5
+ATSubH
+\$8H
+l$@L
+d$HL
+l$PL
+t$XL
+|$`H
+L$(H
+D$(H
+fffff.
+fffff.
+AVAUATUSH
+(wLH
+H[]A\A]A^A_
+D;l$
+fffff.
+d$ L
+l$(L
+t$0H
+d$ L
+l$(L
+t$0H
+Database Connection
+gnumeric
+Libgda error: %s
+GDA_IS_DATA_MODEL (recset)
+Too much data returned
+G_IS_VALUE (gval)
+goffice
+1.6.3
+execSQL
+ssss
+dsn,username,password,sql
+readDBTable
+dsn,username,password,table
+munG
+display_recordset
+gnm_value_new_from_gda
+Format: readDBTable(dsn,user,password,table)
+Error: could not open connection to %s
+Error: no recordsets were returned
+Format: execSQL(dsn,user,password,sql)
+@FUNCTION=EXECSQL
+@SYNTAX=EXECSQL(dsn,username,password,sql)
+@DESCRIPTION=The EXECSQL function lets you execute a command in a database server, and show the results returned in current sheet. It uses libgda as the means for accessing the databases.
+For using it, you need first to set up a libgda data source.
+@EXAMPLES=
+To get all the data from the table "Customers" present in the "mydatasource" GDA data source, you would use:
+EXECSQL("mydatasource","username","password","SELECT * FROM customers")
+@SEEALSO=READDBTABLE
+@FUNCTION=READDBTABLE
+@SYNTAX=READDBTABLE(dsn,username,password,table)
+@DESCRIPTION=The READDBTABLE function lets you get the contents of a table, as stored in a database. For using it, you need first to set up a libgda data source.
+Note that this function returns all the rows in the given table. If you want to get data from more than one table or want a more precise selection (conditions), use the EXECSQL function.
+@EXAMPLES=
+To get all the data from the table "Customers" present in the "mydatasource" GDA data source, you would use:
+READDBTABLE("mydatasource","username","password","customers")
+@SEEALSO=EXECSQL
+gdaif.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

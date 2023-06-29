@@ -1,0 +1,359 @@
+td,L
+/lib/ld-linux.so.2
+librrd.so.4
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+rrd_set_error
+rrd_last
+rrd_dump
+rrd_get_error
+rrd_clear_error
+rrd_fetch
+rrd_flushcached
+rrd_first
+rrd_xport
+rrd_tune
+rrd_create
+rrd_restore
+rrd_update
+rrd_lastupdate
+rrd_info
+rrd_resize
+rrd_version
+rrd_info_free
+rrd_test_error
+rrd_graph_v
+rrd_strerror
+rrd_info_print
+rrd_graph
+rrd_update_v
+libm.so.6
+libdbi.so.1
+_init
+_fini
+libdl.so.2
+libpangocairo-1.0.so.0
+libpango-1.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libcairo.so.2
+libxml2.so.2
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+readdir
+setlocale
+perror
+dcgettext
+closedir
+puts
+putchar
+mkdir
+realloc
+stdin
+feof
+fgets
+strlen
+__errno_location
+chdir
+__fprintf_chk
+stdout
+getrusage
+malloc
+opendir
+stderr
+getcwd
+gettimeofday
+__cxa_finalize
+__xstat
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.4
+GLIBC_2.1.3
+GLIBC_2.0
+GLIBC_2.3.4
+D$0e
+L$8u
+T$<tY
+[^_]
++D$H
+D$<+D$D
+UWVS
+d$,[^_]
+UWVS
+D$4e
+|$8p
+[^_]
+L$<u
+|$8l
+D$p%
+|$8v
+L$<u
+T$8ut
+|$X1
+;t$Ts>
+D$<;t$L
+;l$T
+;t$T
+D$`s
+UWVS
+[^_]
+UWVS
+t$,U
+[^_]
+create
+dump
+restore
+last
+lastupdate
+first
+updatev
+fetch
+flushcached
+graph
+graphv
+tune
+resize
+xport
+quit
+mkdir
+22:51:46
+Jun 18 2015
+1.5.3
+ERROR: chdir %s %s
+ERROR: getcwd %s
+ERROR: mkdir %s: %s
+.rrd
+.RRD
+- %s
+ERROR: opendir .: %s
+--help
+--version
+           
+%20s
+%10lu:
+ %0.10e
+--imginfo
+%dx%d
+unknown function '%s'
+ERROR: %s
+ERROR: not enough arguments
+ERROR: creating arguments
+OK u:%1.2f s:%1.2f r:%1.2f
+fgetslong: malloc
+fgetslong: realloc
+Valid remote commands: quit, ls, cd, mkdir, pwd
+RRDtool is distributed under the Terms of the GNU General
+Public License Version 2. (www.gnu.org/copyleft/gpl.html)
+For more information read the RRD manpages
+RRDtool %s  Copyright by Tobias Oetiker <tobi@oetiker.ch>
+               Compiled %s %s
+Usage: rrdtool [options] command command_options
+Valid commands: create, update, updatev, graph, graphv,  dump, restore,
+		last, lastupdate, first, info, fetch, tune
+		resize, xport, flushcached
+* create - create a new RRD
+	rrdtool create filename [--start|-b start time]
+		[--step|-s step]
+		[--template|-t template-file]
+		[--source|-r source-file]
+		[--no-overwrite|-O]
+		[--daemon|-d address]
+		[DS:ds-name:DST:dst arguments]
+		[RRA:CF:cf arguments]
+* dump - dump an RRD to XML
+	rrdtool dump [--header|-h {none,xsd,dtd}]
+		[--no-header|-n]
+		[--daemon|-d address]
+		file.rrd [file.xml]
+* info - returns the configuration and status of the RRD
+	rrdtool info [--daemon|-d <addr> [--noflush|-F]] filename.rrd
+* restore - restore an RRD file from its XML form
+	rrdtool restore [--range-check|-r] [--force-overwrite|-f] filename.xml filename.rrd
+* last - show last update time for RRD
+	rrdtool last filename.rrd
+		[--daemon|-d address]
+* lastupdate - returns the most recent datum stored for
+  each DS in an RRD
+	rrdtool lastupdate filename.rrd
+		[--daemon|-d address]
+* first - show first update time for RRA within an RRD
+	rrdtool first filename.rrd [--rraindex number] [--daemon|-d address]
+* update - update an RRD
+	rrdtool update filename
+		[--template|-t ds-name:ds-name:...]
+		[--skip-past-updates|-s]
+		[--daemon|-d <address>]
+		time|N:value[:value...]
+		at-time@value[:value...]
+		[ time:value[:value...] ..]
+* updatev - a verbose version of update
+	returns information about values, RRAs, and datasources updated
+	rrdtool updatev filename
+		[--template|-t ds-name:ds-name:...]
+		[--skip-past-updates|-s]
+		time|N:value[:value...]
+		at-time@value[:value...]
+		[ time:value[:value...] ..]
+* fetch - fetch data out of an RRD
+	rrdtool fetch filename.rrd CF
+		[-r|--resolution resolution]
+		[-s|--start start] [-e|--end end]
+		[-a|--align-start]
+		[-d|--daemon <address>]
+* flushcached - flush cached data out to an RRD file
+	rrdtool flushcached filename.rrd
+		[-d|--daemon <address>]
+* graph - generate a graph from one or several RRD
+	rrdtool graph filename [-s|--start seconds] [-e|--end seconds]
+		[-x|--x-grid x-axis grid and label]
+		[-Y|--alt-y-grid] [--full-size-mode]
+		[--left-axis-format format]
+		[-y|--y-grid y-axis grid and label]
+		[-v|--vertical-label string] [-w|--width pixels]
+		[--right-axis scale:shift] [--right-axis-label label]
+		[--right-axis-format format]
+		[-h|--height pixels] [-o|--logarithmic]
+		[-u|--upper-limit value] [-z|--lazy]
+		[-l|--lower-limit value] [-r|--rigid]
+		[-g|--no-legend] [-d|--daemon <address>]
+		[-F|--force-rules-legend]
+		[-j|--only-graph]
+		[-n|--font FONTTAG:size:font]
+		[-m|--zoom factor]
+		[-A|--alt-autoscale]
+		[-M|--alt-autoscale-max]
+		[-G|--graph-render-mode {normal,mono}]
+		[-R|--font-render-mode {normal,light,mono}]
+		[-B|--font-smoothing-threshold size]
+		[-T|--tabwidth width]
+		[-E|--slope-mode]
+		[-P|--pango-markup]
+		[-N|--no-gridfit]
+		[-X|--units-exponent value]
+		[-L|--units-length value]
+		[-S|--step seconds]
+		[-f|--imginfo printfstr]
+		[-a|--imgformat PNG]
+		[-c|--color COLORTAG#rrggbb[aa]]
+		[--border width
+		[-t|--title string]
+		[-W|--watermark string]
+		[-Z|--use-nan-for-all-missing-data]
+		[DEF:vname=rrd:ds-name:CF]
+		[CDEF:vname=rpn-expression]
+		[VDEF:vdefname=rpn-expression]
+		[PRINT:vdefname:format]
+		[GPRINT:vdefname:format]
+		[COMMENT:text]
+		[SHIFT:vname:offset]
+		[TEXTALIGN:{left|right|justified|center}]
+		[TICK:vname#rrggbb[aa][:[fraction][:legend]]]
+		[HRULE:value#rrggbb[aa][:legend]]
+		[VRULE:value#rrggbb[aa][:legend]]
+		[LINE[width]:vname[#rrggbb[aa][:[legend][:STACK]]]]
+		[AREA:vname[#rrggbb[aa][:[legend][:STACK]]]]
+		[PRINT:vname:CF:format] (deprecated)
+		[GPRINT:vname:CF:format] (deprecated)
+		[STACK:vname[#rrggbb[aa][:legend]]] (deprecated)
+* graphv - generate a graph from one or several RRD
+           with meta data printed before the graph
+	rrdtool graphv filename [-s|--start seconds] [-e|--end seconds]
+ * tune -  Modify some basic properties of an RRD
+	rrdtool tune filename
+		[--heartbeat|-h ds-name:heartbeat]
+		[--data-source-type|-d ds-name:DST]
+		[--data-source-rename|-r old-name:new-name]
+		[--minimum|-i ds-name:min] [--maximum|-a ds-name:max]
+		[--deltapos|-p scale-value] [--deltaneg|-n scale-value]
+		[--failure-threshold|-f integer]
+		[--window-length|-w integer]
+		[--alpha|-x adaptation-parameter]
+		[--beta|-y adaptation-parameter]
+		[--gamma|-z adaptation-parameter]
+		[--gamma-deviation|-v adaptation-parameter]
+		[--smoothing-window|-s fraction-of-season]
+		[--smoothing-window-deviation|-S fraction-of-season]
+		[--aberrant-reset|-b ds-name]
+		[--step|-t newstep]
+		[--daemon|-D address]
+		[DEL:ds-name]
+		[DS:ds-spec]
+		[DELRRA:index]
+		[RRA:rra-spec]
+		[RRA#index:[+-=]number]
+ * resize - alter the length of one of the RRAs in an RRD
+	rrdtool resize filename rranum GROW|SHRINK rows
+* xport - generate XML dump from one or several RRD
+	rrdtool xport [-s|--start seconds] [-e|--end seconds]
+		[-m|--maxrows rows]
+		[--step seconds]
+		[--enumds] [--json]
+		[-d|--daemon address]
+		[DEF:vname=rrd:ds-name:CF]
+		[CDEF:vname=rpn-expression]
+		[XPORT:vname:legend]
+ * quit - closing a session in remote mode
+	rrdtool quit
+ * ls - lists all *.rrd files in current directory
+	rrdtool ls
+ * cd - changes the current directory
+	rrdtool cd new directory
+ * mkdir - creates a new directory
+	rrdtool mkdir newdirectoryname
+ * pwd - returns the current working directory
+	rrdtool pwd
+ERROR: invalid parameter count for quit
+ERROR: invalid parameter count for cd
+ERROR: invalid parameter count for pwd
+ERROR: invalid parameter count for mkdir
+ERROR: invalid parameter count for ls
+RRDtool 1.5.3  Copyright by Tobi Oetiker (%f)
+;*2$"<
+rrdtool.debug
+7zXZ
+%nUk
+Y*vQE
+g N%
+`||C
+T6vj
+IgP1
+s<@f
+Y[_a
+Tx8G
+|^nB
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

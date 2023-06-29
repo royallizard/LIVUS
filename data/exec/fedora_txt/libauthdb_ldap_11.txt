@@ -1,0 +1,478 @@
+__gmon_start__
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+_Jv_RegisterClasses
+parse_setting_from_defs
+ldap_set_option
+ldap_err2string
+i_fatal
+strlen
+i_panic
+hash_table_lookup
+auth_request_log_warning
+str_printfa
+ldap_get_option
+i_error
+auth_request_log_error
+aqueue_count
+ioloop_time
+aqueue_delete_tail
+auth_request_log_info
+timeout_remove
+p_strdup
+buffer_append
+ldap_unbind
+io_remove_closed
+timeout_add
+ldap_get_error
+t_strconcat
+ldap_memfree
+db_ldap_connect
+net_set_nonblock
+io_add
+ldap_sasl_interactive_bind_s
+ldap_start_tls_s
+ldap_initialize
+strtol
+dec2str
+strcasecmp
+ldap_search
+ldap_bind
+ldap_result
+ldap_msgid
+ldap_msgfree
+ldap_result2error
+ldap_msgtype
+aqueue_delete
+t_push
+t_pop_check
+db_ldap_request
+aqueue_append
+db_ldap_enable_input
+io_remove
+db_ldap_set_attrs
+t_strsplit_spaces
+t_str_new
+buffer_create_dynamic
+strchr
+p_strdup_until
+str_truncate
+var_expand_with_funcs
+strcmp
+buffer_append_space_unsafe
+memset
+array_idx_modifiable_i
+p_strconcat
+ldap_escape
+str_append_n
+str_append_c
+str_c
+db_ldap_result_iterate_init
+pool_alloconly_create
+default_pool
+strcase_hash
+hash_table_create
+ldap_first_attribute
+ldap_get_values
+str_append
+hash_table_insert
+ldap_value_free
+ldap_next_attribute
+ber_free
+db_ldap_result_iterate_next
+auth_request_get_var_expand_table
+memcpy
+db_ldap_result_iterate_deinit
+str_len
+hash_table_iterate_init
+hash_table_iterate
+hash_table_iterate_deinit
+auth_request_log_debug
+hash_table_destroy
+null_settings_section_callback
+settings_read
+getenv
+env_put
+aqueue_init
+exit
+db_ldap_unref
+buffer_free
+aqueue_deinit
+authdb_ldap_init
+passdb_ldap_plugin
+passdb_register_module
+userdb_ldap_plugin
+userdb_register_module
+authdb_ldap_deinit
+passdb_unregister_module
+userdb_unregister_module
+var_expand
+t_strarray_join
+auth_request_ref
+auth_request_set_field
+auth_request_unref
+ldap_get_dn
+password_get_scheme
+passdb_handle_credentials
+auth_request_password_verify
+t_strdup
+auth_cache_parse_key
+global_auth_settings
+i_debug
+i_warning
+auth_request_init_userdb_reply
+auth_request_set_userdb_field_values
+libldap-2.4.so.2
+liblber-2.4.so.2
+librt.so.1
+libc.so.6
+_edata
+__bss_start
+_end
+libauthdb_ldap.so
+GLIBC_2.14
+GLIBC_2.2.5
+%zd 
+%rd 
+%jd 
+%bd 
+%Zd 
+%Rd 
+%Jd 
+%Bd 
+%:d 
+%2d 
+%*d 
+%"d 
+%zc 
+%rc 
+%jc 
+%bc 
+%Zc 
+%Rc 
+%Jc 
+%Bc 
+%:c 
+%2c 
+%*c 
+%"c 
+%zb 
+%rb 
+%jb 
+%bb 
+%Zb 
+%Rb 
+%Jb 
+%Bb 
+%:b 
+%2b 
+%*b 
+%"b 
+%za 
+%ra 
+%ja 
+%ba 
+%Za 
+%Ra 
+%Ja 
+%Ba 
+=id 
+=RZ 
+fffff.
+5h` 
+fffff.
+t?H=
+t>H=
+ffff.
+fffff.
+AWAVA
+[]A\A]A^A_
+fffff.
+fffff.
+D$ H
+T$ H
+T$(H
+T$0H
+T$8H
+t$0I
+L$8I
+L$0I
+ffff.
+fffff.
+AVAUATI
+ []A\A]A^
+dt;A
+d}#L
+ []A\A]A^
+l$ L
+d$(L
+l$0H
+fff.
+AWAVAUI
+ATUSH
+X[]A\A]A^A_
+D$0H
+D$(I
+t$8H
+D$0H
+T$81
+|$01
+X[]A\A]A^A_
+T$8H
+|$0H
+AUATI
+<\u#
+[]A\A]
+[]A\A]
+AWAVI
+AUATI
+T$(H
+L;<$I
+T$(H
+|$(1
+[]A\A]A^A_
+AWAVI
+ATUSH
+[]A\A]A^A_
+[]A\A]A^A_
+ATUSH
+ []A\
+AUATA
+[]A\A]
+[]A\A]
+=Q6 
+=16 
+d$(H
+l$ H
+l$0H
+t$8L
+|$@H
+ffffff.
+ffffff.
+t$HI
+t$ H
+t$ H
+t$ H
+t$ H
+fff.
+l$ L
+d$(L
+l$0H
+ffffff.
+l$ L
+d$(L
+l$0H
+t$HL
+|$PH
+[]A\
+l$ L
+t$(L
+|$0H
+ffff.
+ATUH
+([]A\A]
+([]A\A]
+ffffff.
+l$ L
+d$(L
+l$0L
+t$8L
+|$@H
+SPt H
+\$(H
+l$0L
+d$8L
+l$@H
+ATUH
+[]A\
+LDAP: Can't set option %s to %s: %s
+idx * array->element_size < array->buffer->used
+file %s: line %d (%s): assertion failed: (%s)
+Multiple values found for '%s', using value '%s'
+LDAP: Can't get error number: %s
+Aborting (timeout), we're not connected to LDAP server
+conn->conn_state == LDAP_CONN_STATE_BINDING
+LDAP: Initial binding to LDAP server timed out
+LDAP: ldap_init() failed with hosts: %s
+LDAP: sasl_bind=yes requires ldap_version=3
+LDAP: tls=yes requires ldap_version=3
+LDAP: Unknown tls_require_cert value '%s'
+LDAP: Don't use both tls=yes and ldaps URI
+LDAP: ldap_start_tls_s() failed: %s
+LDAP: Can't get connection fd: %s
+LDAP: Buggy LDAP library returned wrong fd: %d
+conn->conn_state == LDAP_CONN_STATE_BOUND_AUTH || conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+conn->conn_state == LDAP_CONN_STATE_BOUND_DEFAULT
+ldap_search(%s) parsing failed: %s
+LDAP: Can't connect to server: %s
+LDAP: binding failed (dn %s): %s
+conn->conn_state != LDAP_CONN_STATE_BINDING
+conn->default_bind_msgid == -1
+ldap_get_errno(conn) != LDAP_SUCCESS
+LDAP: Reply with unexpected type %d
+ldap_search(base=%s filter=%s) failed: %s
+LDAP: ldap_result() failed: %s
+LDAP: Connection lost to LDAP server, reconnecting
+LDAP: Reply with unknown msgid %d
+Connection appears to be hanging, reconnecting
+no fields returned by the server
+LDAP: Configuration file path not given
+LDAP: Multiple different ldaprc_path settings not allowed (%s and %s)
+LDAP: Unknown deref option '%s'
+LDAP: Unknown scope option '%s'
+homeDirectory=home,uidNumber=uid,gidNumber=gid
+(&(objectClass=posixAccount)(uid=%u))
+uid=user,userPassword=password
+../../src/lib/array.h
+; %s missing
+ldap
+conn->pending_count > 0
+request->msgid != -1
+conn->pending_count == 0
+deref
+debug_level
+protocol_version
+tls_ca_cert_file
+tls_ca_cert_dir
+tls_cert_file
+tls_key_file
+tls_cipher_suite
+never
+hard
+demand
+allow
+tls_require_cert
+ldaps:
+file %s: line %d: unreached
+request->msgid == -1
+ldap_bind(%s) failed: %s
+(none)
+conn->pending_count == 1
+Request lost
+request->auth_request != NULL
+ldap: Invalid attrs entry: %s
+ldap result iter
+ %s=
+<no values>
+password
+password_noscheme
+<hidden>
+ unused
+result: %s
+ldap_connection
+LDAP: No base given
+LDAP: No uris or hosts set
+LDAPRC
+LDAPRC=
+searching
+finding
+always
+base
+onelevel
+subtree
+conn->refcount >= 0
+Shutting down
+conn->to == NULL
+uid=user
+(objectClass=posixAccount)
+crypt
+hosts
+uris
+dnpass
+auth_bind
+auth_bind_userdn
+sasl_bind
+sasl_mech
+sasl_realm
+sasl_authz_id
+scope
+ldap_version
+ldaprc_path
+user_attrs
+user_filter
+pass_attrs
+pass_filter
+iterate_attrs
+iterate_filter
+default_pass_scheme
+userdb_warning_disable
+db_ldap_request
+array_idx_i
+db_ldap_conn_close
+db_ldap_abort_requests
+db_ldap_request_queue_next
+db_ldap_bind
+ldap_connection_timeout
+db_ldap_request_bind
+db_ldap_request_search
+db_ldap_connect
+db_ldap_handle_result
+db_ldap_default_bind_finished
+db_ldap_unref
+(all)
+invalid credentials
+ (given password: 
+unknown user
+ldap_bind() failed: %s
+request->entries > 1
+passdb-ldap.c
+pass search: base=%s scope=%s filter=%s fields=%s
+Login attempt with empty password
+bind search: base=%s filter=%s
+pass_filter matched multiple objects, aborting
+No password returned (and no nopassword)
+password == NULL || scheme != NULL
+ldap_lookup_finish
+ldap_bind_lookup_dn_fail
+ldap: iterate: base=%s scope=%s filter=%s fields=%s
+ldap: iterate: Ignoring field not named 'user': %s
+user search: base=%s scope=%s filter=%s fields=%s
+user_filter matched multiple objects, aborting
+;*3$"
+libauthdb_ldap.so.debug
+7zXZ
+UhE5
+K@EX-
+h>e_
+,0*<
+Unae
+zQwO
+%}%"
+(i_@
+cCB#
+6_`e
+#Jr|G
+{9D<
+|W.7`
+>|rQ
+10?Z)H`
+.oCx
+V$;ee
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

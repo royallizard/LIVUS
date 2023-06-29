@@ -1,0 +1,153 @@
+tdp/
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ao_driver_info
+ao_driver_info_list
+ao_is_big_endian
+ao_driver_id
+strcmp
+ao_default_driver_id
+ao_close
+fclose
+free
+ao_free_options
+ao_play
+realloc
+__errno_location
+malloc
+stderr
+__fprintf_chk
+ao_open_file
+stdout
+fopen
+ao_open_live
+ao_append_option
+__strdup
+ao_shutdown
+dlclose
+opendir
+readdir
+__snprintf_chk
+__xstat
+strrchr
+dlopen
+dlsym
+closedir
+ao_initialize
+read_config_files
+calloc
+qsort
+ao_null
+ao_wav
+ao_raw
+ao_au
+read_config_file
+fgets
+getenv
+strlen
+strncpy
+__strcat_chk
+ftell
+fseek
+fwrite
+libpthread.so.0
+libdl.so.2
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+_end
+libao.so.2
+GLIBC_2.1
+GLIBC_2.0
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+d$L[^_]
+[^_]
+[^_]
+[^_]
+[^_]
+d$,[^_]
+[^_]
+RIFF
+WAVE
+fmt 
+F$data
+d$\[^_]
+dns.
+d$<[^_]
+-------------------------
+big : %d
+device->client_byte_format:%d
+device->driver_byte_format:%d
+--------------------------
+/usr/lib/ao/plugins-2
+%s/%s
+ao_plugin_test
+ao_plugin_driver_info
+ao_plugin_device_init
+ao_plugin_set_option
+ao_plugin_open
+ao_plugin_play
+ao_plugin_close
+ao_plugin_device_clear
+default_driver=
+HOME
+/etc/libao.conf
+/.libao
+ao_null: %ld bytes sent to null device.
+Stan Seibert <volsung@asu.edu>
+debug
+Null output
+null
+This driver does nothing.
+WAV file output
+Sends output to a .wav file
+Aaron Holtzman <aholtzma@ess.engr.uvic.ca>
+AU file output
+Wil Mahan <wtm2@duke.edu>
+Sends output to a .au file
+byteorder
+native
+little
+RAW sample output
+Stan Seibert <indigo@aztec.asu.edu>
+Writes raw audio samples to a file
+libao.so.2.1.3.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

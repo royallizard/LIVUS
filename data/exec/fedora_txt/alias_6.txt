@@ -1,0 +1,547 @@
+r8@v}
+R(e0}
+ExvG>
+__gmon_start__
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+alias_valid
+alias_list
+alias_search
+weechat_alias_plugin
+alias_string_add_word
+strlen
+realloc
+strcat
+malloc
+strcpy
+alias_string_add_word_range
+alias_string_add_arguments
+alias_replace_args
+alias_run_command
+strcmp
+stpcpy
+alias_free
+last_alias
+alias_free_all
+alias_find_pos
+alias_hook_command
+__snprintf_chk
+alias_update_completion
+strdup
+alias_name_valid
+strchr
+alias_new
+alias_add_to_infolist
+weechat_plugin_init
+alias_config_init
+alias_config_read
+alias_command_init
+alias_completion_init
+alias_info_init
+weechat_plugin_end
+alias_config_write
+alias_config_file
+weechat_plugin_priority
+weechat_plugin_license
+weechat_plugin_version
+weechat_plugin_author
+weechat_plugin_description
+weechat_plugin_api_version
+weechat_plugin_name
+alias_command_add
+alias_config_section_cmd
+alias_config_cmd_new_option
+alias_config_section_completion
+alias_config_completion_new_option
+alias_command_cb
+alias_completion_alias_cb
+alias_completion_alias_value_cb
+alias_config_cmd_change_cb
+alias_config_cmd_delete_cb
+alias_config_completion_change_cb
+alias_config_completion_delete_cb
+alias_config_reload
+alias_config_cmd_write_default_cb
+alias_default
+alias_config_completion_write_default_cb
+alias_config_cmd_create_option_cb
+alias_config_completion_create_option_cb
+alias_info_infolist_alias_default_cb
+alias_info_infolist_alias_cb
+libc.so.6
+__stack_chk_fail
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+UWVS
+[^_]
+_ZVP
+D$$)
+UWVS
+D$@9D$<
+t#9l$<t
+[^_]
+UWVS
+D$81
+D$0P
+D$,P
+|$,e3=
+<[^_]
+|$,W
+|$ 9
+|$,W
+|$ 9
+1;L$$
+t$ UW
+VPUW
+|$,W
+|$,W
+t$ U
+|$<W
+VPUW
+UWVS
+[^_]
+UWVS
+URVPj
+[^_]
+,[^_]
+UWVS
+[^_]
+UWVS
+,[^_]
+T$$U
+UWVS
+|$@V
+[^_]
+[^_]
+VQWPj
+[^_]
+[^_]
+[^_]
+UWVS
+t$<V
+t$<V
+t$@V
+PHZY
+t$<VPj
+[^_]
+t$4VQWPj
+[^_]
+D$(X
+D$0X
+D$8X
+T$LR
+L$LQSP
+L[^_]
+t$Lj
+[^_]
+4$Pj
+L[^_]
+PHZY
+t$ P
+UWVS
+[^_]
+UWVS
+D$$1
+L$$Q
+,[^_]
+UWVS
+,[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+ZYPV
+[^_]
+t$,j
+t$4V
+[^_]
+[^_]
+t$,j
+t$4V
+[^_]
+[^_]
+t$<j
+UWVS
+t$LVW
+[^_]
+VWRU1
+[^_]
+t$<j
+UWVS
+l$PW
+XZUV
+[^_]
+WQVPj
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+[^_]
+error
+2000|%s
+%%%%%s
+hook
+name
+command
+running
+%s%s: error, circular reference when calling alias "%s"
+%s%s: invalid alias name: "%s"
+Alias "%s" => "%s" created
+list
+chat_delimiters
+completion:
+  %s %s=>%s %s
+No alias found matching "%s"
+No alias defined
+no_filter
+addcompletion
+%sAlias "%s" not found
+Alias "%s" removed
+Aliases with "%s":
+All aliases:
+%s%s: error creating alias "%s" => "%s"
+  %s %s=>%s %s  %s(%s%s %s%s)%s
+%sToo few arguments for command "%s%s%s" (help on command: /help %s)
+%sError with command "%s" (help on command: /help %s)
+list %(alias) || add %(alias) %(commands:/)|%(alias_value) || addcompletion %- %(alias) %(commands:/)|%(alias_value) || del %(alias)|%*
+         list: list aliases (without argument, this list is displayed)
+          add: add an alias
+addcompletion: add an alias with a custom completion
+          del: delete an alias
+   completion: completion for alias: by default completion is done with target command
+               note: you can use %%command to use completion of an existing command
+        alias: name of alias
+      command: command name with arguments (many commands can be separated by semicolons)
+Note: in command, special variables are replaced:
+        $n: argument 'n' (between 1 and 9)
+       $-m: arguments from 1 to 'm'
+       $n-: arguments from 'n' to last
+      $n-m: arguments from 'n' to 'm'
+        $*: all arguments
+        $~: last argument
+      $var: where "var" is a local variable of buffer (see /buffer localvar)
+            examples: $nick, $channel, $server, $plugin, $name
+Examples:
+  alias /split to split window horizontally:
+    /alias add split /window splith
+  alias /hello to say "hello" on all channels but not on #weechat:
+    /alias add hello /allchan -exclude=#weechat msg * hello
+  alias /forcejoin to send IRC command "forcejoin" with completion of /sajoin:
+    /alias addcompletion %%sajoin forcejoin /quote forcejoin
+list [<alias>] || add <alias> [<command>[;<command>...]] || addcompletion <completion> <alias> [<command>[;<command>...]] || del <alias> [<alias>...]
+list, add or remove command aliases
+sort
+args
+beginning
+list of aliases
+value of alias
+alias_value
+string
+AAWAY
+allserv /away
+allchan /me
+AMSG
+allchan /msg *
+ANICK
+allserv /nick
+BEEP
+print -beep
+quit
+buffer clear
+CLOSE
+buffer close
+CHAT
+dcc chat
+EXIT
+ignore
+join
+kick
+kickban
+LEAVE
+part
+unban *
+MSGBUF
+%(buffers_plugins_names)
+names
+query
+REDRAW
+window refresh
+SIGNOFF
+topic
+unban
+UMODE
+mode $nick
+command core version
+window merge
+whois
+whois $1 $1
+whowas
+%s%s: error creating completion for alias "%s": alias not found
+command -buffer $1 * /input send $2-
+alias pointer (optional)
+list of default aliases
+alias_default
+alias name (wildcard "*" is allowed) (optional)
+9*2$"
+GPL3
+bastien Helleu <flashcode@flashtux.org>
+Alias commands
+20180812-01
+alias
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3p870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3h870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3c870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3s870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+3e870
+gcc 9.0.1 20190129
+GA*GOW
+GA+stack_clash
+GA*cf_protection
+GA*FORTIFY
+GA+GLIBCXX_ASSERTIONS
+GA+omit_frame_pointer
+GA+stack_realign
+alias.so-2.3-3.fc30.i386.debug
+.data
+.rodata
+.shstrtab
+.plt.sec
+.dynamic
+.note.gnu.build-id
+.eh_frame
+.gnu.hash
+.fini
+.gnu_debuglink
+.dynsym
+.gnu.version
+.rel.dyn
+.data.rel.ro
+.gnu.version_r
+.eh_frame_hdr
+.dynstr
+.gnu.build.attributes
+.bss
+.init
+.rel.plt
+.got
+.text
+.fini_array
+.init_array
+.note.gnu.property

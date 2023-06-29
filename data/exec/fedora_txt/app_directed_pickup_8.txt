@@ -1,0 +1,101 @@
+__gmon_start__
+_init
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+ast_module_unregister
+ast_unregister_application
+ast_register_application2
+option_debug
+ast_log
+ast_answer
+ast_queue_control
+ast_channel_masquerade
+ast_options
+ast_debug_get_by_file
+ast_module_register
+ast_unregister_file_version
+ast_register_file_version
+strlen
+strcpy
+ast_walk_channel_by_name_prefix_locked
+pthread_mutex_unlock
+strncasecmp
+__stack_chk_fail
+memcpy
+strchr
+ast_pickup_call
+ast_channel_walk_locked
+strcasecmp
+pbx_builtin_getvar_helper
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+GLIBC_2.2.5
+GLIBC_2.4
+ATSubH
+ffff.
+ATSH
+[A\A]
+AWAVAUATI
+[A\A]A^A_
+t5I9
+AWAVAUI
+[A\A]A^A_
+app_directed_pickup.c
+Call pickup on '%s' by '%s'
+Unable to answer '%s'
+$Revision: 162344 $
+PICKUPMARK
+app_directed_pickup
+PickupChan
+Directed Call Pickup
+Pickup a ringing channel
+Unable to queue answer on '%s'
+Unable to masquerade '%s' into '%s'
+PickupChan requires an argument (channel)!
+Cannot pickup your own channel %s.
+No target channel found for %s.
+Directed Call Pickup Application
+This paragraph is copyright (c) 2006 by Digium, Inc. In order for your module to load, it must return this key via a function called "key".  Any code which includes this paragraph must be licensed under the GNU General Public License version 2 or later (at your option).  In addition to Digium's general reservations of rights, Digium expressly reserves the right to allow other parties to license this paragraph under different terms. Any use of Digium, Inc. trademarks or logos (including "Asterisk" or "Digium") without express written permission of Digium, Inc. is prohibited.
+  Pickup([extension[@context][&extension2@[context]...]]):  This application can
+pickup any ringing channel that is calling the specified extension.  If no
+context is specified, the current context will be used. If you use the special
+string "PICKUPMARK" for the context parameter, for example 10@PICKUPMARK,
+this application tries to find a channel which has defined a ${PICKUPMARK}
+channel variable with the same value as "extension" (in this example, "10").
+When no parameter is specified, the application will pickup a channel matching
+the pickup group of the active channel.
+  PickupChan(channel[&channel...]): This application can pickup any ringing channel
+pickupchan_exec
+pickup_do
+pickup_exec
+a9c98e5d177805051735cb5b0b16b0a0
+app_directed_pickup.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.gnu_debuglink

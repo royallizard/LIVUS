@@ -1,0 +1,318 @@
+/lib64/ld-linux-x86-64.so.2
+}q|y
+libcrypt.so.1
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+libgmodule-2.0.so.0
+g_free
+g_return_if_fail_warning
+libgthread-2.0.so.0
+libgmime-2.6.so.0
+g_strdup_vprintf
+g_strchug
+g_strchomp
+g_malloc0
+libgio-2.0.so.0
+libgobject-2.0.so.0
+libglib-2.0.so.0
+libm.so.6
+libmhash.so.2
+libevent_pthreads-2.0.so.5
+libevent-2.0.so.5
+libssl.so.10
+libcrypto.so.10
+libzdb.so.11
+Exception_stack
+Exception_throw
+SQLException
+libdbmail.so.0
+ci_readln
+db_query
+db_con_get
+client_session_bailout
+db_result_get
+p_string_len
+ci_write_cb
+client_session_new
+ci_authlog_init
+ci_uncork
+ci_starttls
+trace
+db_log_ip
+db_get_message_lines
+server_getopt
+db_update_pop
+mempool_pop
+p_list_first
+p_list_data
+server_mainloop
+ci_write
+db_find_create_mailbox
+db_result_next
+server_conf
+auth_getencryption
+ci_cork
+config_get_value
+auth_validate
+client_session_set_timeout
+auth_user_exists
+p_list_append
+db_params
+db_con_close
+dm_db_ping
+db_result_get_u64
+auth_md5_validate
+strip_crlf
+p_list_next
+server_showhelp
+libldap-2.4.so.2
+libpthread.so.0
+pthread_setspecific
+fcntl
+pthread_getspecific
+libc.so.6
+perror
+strncpy
+__stack_chk_fail
+strspn
+strlen
+openlog
+memset
+_setjmp
+strcasecmp
+__snprintf_chk
+strtoull
+strchr
+__cxa_finalize
+__libc_start_main
+_edata
+__bss_start
+_end
+/usr/lib64/dbmail
+__libc_csu_fini
+pop_before_smtp
+__data_start
+pop3_cb_time
+pop3_handle_connection
+commands
+pop3_error
+__libc_csu_init
+pop3_cb_write
+ValidNetworkChars
+_IO_stdin_used
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+%zB 
+%rB 
+%jB 
+%bB 
+%ZB 
+%RB 
+%JB 
+%BB 
+%:B 
+%2B 
+%*B 
+%"B 
+%zA 
+%rA 
+%jA 
+%bA 
+%ZA 
+%RA 
+%JA 
+%BA 
+%:A 
+%2A 
+%*A 
+%"A 
+ATUI
+[]A\
+=9@ 
+fffff.
+fffff.
+fffff.
+=y9 
+AWAV
+L$(H
+D$(H
+=3i 
+\$0H
+[]A^A_
+L$0H
+ATUH
+u$Hc
+[]A\
+ffffff.
+ATUSH
+T$PH
+L$XL
+D$`L
+L$ht=
+)D$p
+D$81
+t$ H
+D$@H
+D$ H
+D$(H
+D$@H
+T$8dH3
+[]A\
+ffff.
+AWAVAUATUSH
+[]A\A]A^A_
+\$01
+L$ H
+AZA[H
+AUS1
+AXAY
+t$(L
+QATL
+t$ H
+t$ H
+AWAVA
+AUATL
+[]A\A]A^A_
+-ERR I'm leaving, you're too slow
+key "banner" section "POP" var banner value [%s]
++ERR database has gone fishing
++OK DBMAIL pop3 server ready to rock %s
+find_create INBOX for user [%lu] failed, exiting..
+SELECT pm.messagesize, msg.message_idnr, msg.status, msg.unique_id FROM %smessages msg, %sphysmessage pm WHERE msg.mailbox_idnr = %lu AND msg.status < %d AND msg.physmessage_id = pm.id ORDER BY msg.message_idnr ASC
+validation OK, building a session for user [%s]
++OK %s has %lu messages (%lu octets)
+user %s logged in [messages=%lu, octets=%lu]
+state[%d], command issued :cmd [%s], value [%s]
+command looked up as commandtype %d
+-ERR your command does not compute
+user %s logging out [messages=%lu, octets=%lu]
+-ERR some deleted messages not removed
+client timed out, connection closed
+alert! possible flood attempt, closing connection
+user [%s] coming from [%s] tried to login with wrong password
+-ERR username/password incorrect
++OK %lu messages (%lu octets)
+RETR command, retrieving message
+RETR command, selecting message
++OK Some very unique numbers for you
+error finding if user exists. username = [%s]
+-ERR APOP command is not supported for this user
+APOP auth, username [%s], md5_hash [%s]
+user [%s] tried to login with wrong password
+-ERR authentication attempt is invalid
+-ERR no AUTH mechanisms supported
+TOP command (partially) retrieving message
+TOP command, selecting message
++OK %lu lines of message %lu
++OK Capability list follows
+USER
+UIDL%s
++OK Password required for %s
+banner
+pop3
++OK %s %s
+INBOX
+adding items to list
+SQLException: %s
+adding succesful
+mailbox_idnr > 0
+active
+F_GETFL
+F_SETFL
+-ERR too many errors
+an invalid command was issued
+STLS
+incoming buffer: [%s]
+[%p] sessionResult [%d]
++OK see ya later
+authorization layer failure
+storage layer failure
+-ERR wrong command mode
+-ERR server error
+-ERR TLS already active
++OK Begin TLS now
+failed
+-ERR [%s] no such message
++OK %lu %lu
++OK %lu octets
++OK message %lu deleted
++OK %lu
++OK %lu %s
+-ERR not a valid md5 hash
+0123456789
+-ERR wrong parameter
+-ERR no such message
+-ERR command not understood
+quit
+user
+pass
+stat
+retr
+dele
+noop
+last
+rset
+uidl
+apop
+auth
+capa
+stls
+pop3_error
+db_createsession
+_pop3_session_authenticated
+pop3_close
+pop3
+send_greeting
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,'"?_.!|@#$%^&*()-+=~[]{}<>:;\/ '
+dbmail/pop3d
+dbmail-pop3d
+exit
+This daemon provides Post Office Protocol v3 services.
+main
+;*3$"
+dbmail-pop3d.debug
+,Y4p
+7zXZ
+FubP
+RE4%
+YWQnY
+}~Yp
+vm59[
+S{h?
+Vu5t
+CNK:7
+#4i\
+ts=/
+stqK
+epHE
+;h)h
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

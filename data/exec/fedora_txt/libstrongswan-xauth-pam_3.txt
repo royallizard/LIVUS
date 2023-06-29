@@ -1,0 +1,101 @@
+__gmon_start__
+_init
+_fini
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+__cxa_finalize
+free
+charon
+xauth_pam_plugin_create
+malloc
+xauth_pam_listener_create
+xauth_method_register
+xauth_pam_create_server
+__asprintf_chk
+pam_start
+pam_open_session
+pam_strerror
+pam_close_session
+pam_end
+cp_payload_create_type
+chunk_empty
+configuration_attribute_create_chunk
+__strdup
+chunk_printable
+__snprintf_chk
+memwipe_noinline
+memchr
+identification_create_from_string
+pam_authenticate
+pam_acct_mgmt
+libpam.so.0
+libc.so.6
+__stack_chk_fail
+_edata
+__bss_start
+libstrongswan-xauth-pam.so
+LIBPAM_1.0
+GLIBC_2.8
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.0
+GLIBC_2.3.4
+l$h1
+|$L1
+|$Le3=
+D$,1
+D$,e3
+D$4e
+[^_]
+xauth-pam
+%s.plugins.xauth-pam.session
+pam-session
+xauth-pam plugin requires CAP_AUDIT_WRITE capability
+login
+XAuth pam_open_session for '%s' failed: %s
+XAuth pam_close_session for '%s' failed: %s
+XAuth pam_start for '%s' failed: %s
+%s.plugins.eap-gtc.pam_service
+%s.plugins.xauth-pam.pam_service
+%.*s
+%s.plugins.xauth-pam.trim_email
+peer did not respond to our XAuth request
+XAuth pam_acct_mgmt for '%s' failed: %s
+XAuth pam_authenticate for '%s' failed: %s
+PAM authentication of '%s' successful
+;*2$"
+libstrongswan-xauth-pam.so.debug
+7zXZ
+zzeO dm
+sL_"
+uJ<E
+p(;Ce
+ O1%q
+B-|q
+4+"*
+1=eC
+P^`~j 
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata

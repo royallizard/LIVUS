@@ -1,0 +1,331 @@
+aGo+2
+__gmon_start__
+_fini
+__cxa_finalize
+_Jv_RegisterClasses
+module_register
+plugin_register_complex_config
+plugin_register_init
+plugin_register_read
+plugin_register_notification
+plugin_register_shutdown
+kill
+plugin_log
+malloc
+plugin_notification_meta_copy
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_create
+__stack_chk_fail
+waitpid
+pipe
+fork
+getdtablesize
+dup2
+getpwnam_r
+getuid
+setgroups
+setgid
+setegid
+setuid
+__errno_location
+sstrerror
+getgrnam_r
+execvp
+fdopen
+__fprintf_chk
+fflush
+fclose
+plugin_notification_meta_free
+pthread_exit
+pthread_mutex_lock
+pthread_mutex_unlock
+select
+ssnprintf
+stdout
+handle_putval
+strchr
+strncasecmp
+handle_putnotif
+__memmove_chk
+__assert_fail
+strcasecmp
+__strdup
+memset
+strrchr
+sstrncpy
+sigaction
+parse_string
+__ctype_b_loc
+parse_option
+plugin_dispatch_notification
+fileno
+strtol
+interval_g
+sstrdup
+parse_identifier
+strlen
+plugin_get_ds
+plugin_dispatch_values
+strtod
+strtoll
+time
+format_name
+libpthread.so.0
+libc.so.6
+_edata
+__bss_start
+_end
+exec.so
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.3
+GLIBC_2.3.4
+5Z< 
+%\< 
+%Z< 
+%R< 
+%J< 
+%B< 
+%:< 
+%2< 
+%*< 
+%"< 
+%z; 
+%r; 
+%j; 
+%b; 
+%Z; 
+%R; 
+%J; 
+%B; 
+%:; 
+%2; 
+%*; 
+%"; 
+%z: 
+%r: 
+%j: 
+%b: 
+%Z: 
+%R: 
+%J: 
+%B: 
+%:: 
+%2: 
+ATSubH
+=g5 
+=O5 
+AWAVAUATUH
+D$H1
+T$HdH3
+X[]A\A]A^A_
+ffffff.
+W dH
+D$pA
+9l$tt
+D$hH
+t$0L
+t$@f
+AVAUATUH
+fffff.
+ATUSH
+D$H1
+T$HdH3
+P[]A\
+=F- 
+AVAUATUSH
+T$ H
+T$(H
+T$0H
+T$8H
+T$@H
+T$HH
+T$PH
+T$XH
+T$`H
+T$hH
+T$pH
+T$xH
+D$ H
+D+t$
+HcD$
+4$H9
+D$ H
+D$(H
+D$0H
+D$8H
+D$@H
+D$HH
+D$PH
+D$XH
+D$`H
+D$hH
+D$pH
+D$xH
+HcD$
+=Q' 
+=8' 
+AWAVAUATUSH
+O(dH
+d$ E1
+[]A\A]A^A_
+x;Ic
+,$[]A\
+AVAUATI
+t'f.
+[]A\A]A^
+d$8H
+t$XH
+l$XH
+t$HL
+l$PH
+D$ H
+T$(H
+D$0H
+L$PL
+|$HH
+L$PA
+AVAUATUSH
+localhosH
+l$HH
+t$HH
+L$xH
+L$hL
+D$pH
+|$xH
+|$hH
+t$xH
+t$hH
+IcG@H
+T$XH
+l$(H
+T$0H
+T$PH
+D$ H
+T$@H
+T$0H
+t$ H
+|$(H
+t$`H
+\$XH
+t$@H
+T$PH
+[]A\A]A^A_
+t$ H
+\$`H
+L$<H
+L$pH
+exec
+exec plugin: malloc failed.
+exec plugin: pipe failed: %s
+exec plugin: fork failed: %s
+exec plugin: exec failed: %s
+WARNING
+OKAY
+FAILURE
+Severity: %s
+Time: %u
+Host: %s
+Plugin: %s
+PluginInstance: %s
+Type: %s
+TypeInstance: %s
+%s: %s
+%s: %li
+%s: %lu
+%s: %e
+false
+true
+exec.c
+pl->pid != 0
+PUTVAL
+PUTNOTIF
+PUTVAL %s
+NotificationExec
+exec plugin: strdup failed.
+exec plugin: Sent SIGTERM to %hu
+exec plugin: getpwnam_r failed: %s
+exec plugin: No such user: `%s'
+exec plugin: Cowardly refusing to exec program as root.
+exec plugin: getgrnam_r failed: %s
+exec plugin: No such group: `%s'
+exec plugin: setgid (%i) failed: %s
+exec plugin: setegid (%i) failed: %s
+exec plugin: setuid (%i) failed: %s
+exec plugin: fdopen (%i) failed: %s
+exec plugin: Prepending `PUTVAL' to this line: %s
+exec plugin: exec_read_one: error = %s
+exec plugin: The config option `%s' may not be a block.
+exec plugin: The config option `%s' needs at least two arguments.
+exec plugin: The first two arguments to the `%s' option must be string arguments.
+exec plugin: Unknown config option `%s'.
+exec_read_one
+-1 Cannot parse command.
+utils_cmd_putnotif.c
+command != ((void *)0)
+-1 Unexpected command: `%s'.
+-1 Malformed option.
+severity
+Failure
+Warning
+Okay
+time
+message
+host
+plugin
+plugin_instance
+type
+type_instance
+-1 Error parsing option `%s'
+-1 Option `time' missing.
+0 Success
+handle_putnotif: failed to write to socket #%i: %s
+-1 Option `severity' missing.
+-1 No message or message of length 0 given.
+handle_putnotif
+utils_cmd_putval.c
+-1 Cannot parse identifier.
+identifier != ((void *)0)
+-1 Identifier too long.
+-1 Type `%s' isn't defined.
+-1 malloc failed.
+-1 Misformatted option.
+string != ((void *)0)
+value != ((void *)0)
+interval
+-1 Misformatted value.
+-1 No time found.
+values have
+value has
+handle_putval: failed to write to socket #%i: %s
+-1 Cannot parse identifier `%s'.
+cmd putval: parse_value: Number of values incorrect: Got %i, expected %i. Identifier is `%s'.
+-1 Number of values incorrect: Got %i, expected %i.
+0 Success: %i %s been dispatched.
+handle_putval
+exec.so.debug
+.shstrtab
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.ctors
+.dtors
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.got.plt
+.bss
+.gnu_debuglink

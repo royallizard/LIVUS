@@ -1,0 +1,279 @@
+tdx?
+/lib/ld-linux.so.2
+?PIi
+libsmi.so.2
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+smiGetNextImport
+smiGetElementNode
+_init
+smiRenderOID
+smiGetFirstNamedNumber
+smiGetNextRefinement
+smiGetFirstImport
+smiGetFlags
+smiGetNodeType
+smiGetNextChildNode
+smiGetFirstRevision
+smiLoadModule
+smiGetNextNamedNumber
+smiGetRefinementWriteType
+smiGetRefinementType
+smiGetOptionNode
+smiGetParentType
+smiGetType
+smiGetFirstChildNode
+smiExit
+smiGetRefinementNode
+smiRenderValue
+smiGetFirstElement
+smiGetFirstRange
+smiGetParentNode
+smiGetNextOption
+smiGetFirstRefinement
+smiGetNode
+smiReadConfig
+smiGetModuleIdentityNode
+smiRenderType
+smiGetModule
+smiGetMacro
+smiGetNextRange
+smiGetFirstOption
+smiGetNextElement
+smiRenderNode
+smiGetTypeModule
+smiGetNextRevision
+smiInit
+smiIsLoaded
+_fini
+libc.so.6
+_IO_stdin_used
+fflush
+__printf_chk
+exit
+strncmp
+strrchr
+strncpy
+puts
+putchar
+strtol
+strlen
+strstr
+__errno_location
+ctime
+stdout
+strtoul
+__ctype_b_loc
+stderr
+fwrite
+strchr
+__vfprintf_chk
+__strcpy_chk
+__cxa_finalize
+strcmp
+__libc_start_main
+__stack_chk_fail
+_edata
+__bss_start
+_end
+GLIBC_2.3
+GLIBC_2.1.3
+GLIBC_2.4
+GLIBC_2.3.4
+GLIBC_2.0
+D$4e
+;t$0
+D$<9E
+[^_]
+D$<9E
+D$<9E
+D$<9E
+    
+    
+    f
+D$,1
+8"t]
+D$,e3
+d$<[^_]
+9l$(
+(9l$(
+D$(9
+9l$(
+d$L[^_]
+9t$ u
+(9l$(
+d$L[^_]
+(9l$(
+9l$(
+UWVS
+t$,U
+[^_]
+smiquery
+smiquery 0.4.8
+<implicit>
+<unknown>
+<type-assignment>
+<implicit-sequence-of>
+<value-assignment>
+OBJECT-TYPE
+OBJECT-IDENTITY
+MODULE-IDENTITY
+NOTIFICATIONTYPE
+TRAP-TYPE
+OBJECT-GROUP
+NOTIFICATION-GROUP
+MODULE-COMPLIANCE
+AGENT-CAPABILITIES
+TEXTUAL-CONVENTION
+module
+typedef
+scalar
+node
+<UNDEFINED>
+<implicit object>
+compliance
+group
+notification
+column
+table
+SMIv1
+SMIv2
+SMIng
+capabilities
+Index
+Mandatory
+Includes
+Members
+Objects
+Elements
+not-accessible
+accessible-for-notify
+read-write
+read-only
+current
+deprecated
+obsolete
+optional
+mandatory
+OctetString
+ObjectIdentifier
+Unsigned32
+Integer32
+Unsigned64
+Integer64
+Float32
+Float64
+Float128
+Enumeration
+Bits
+--config
+      Module: %s
+    Pathname: %s
+      Object: %s
+Organization: %s
+ ContactInfo: %s
+ Description: %s
+   Reference: %s
+    Language: %s
+ Conformance: %d
+      Loaded: %s
+    Revision: %s
+imports
+     Imports:
+ %s::%s
+             
+     MibNode: %s
+         OID: %s
+  ParentNode: %s
+        Type: %s
+     Default: %s
+ Declaration: %s
+    NodeKind: %s
+   Creatable: %s
+     Implied: %s
+%12s:
+      Access: %s
+      Status: %s
+      Format: %s
+       Units: %s
+   Mandatory:
+      Option: %s
+  Refinement: %s
+  Write-Type: %s
+children
+    Children:
+type
+    Basetype: %s
+ Parent Type: %s
+     Numbers:
+ %s(%ld)
+      Ranges:
+..%s
+macro
+       Macro: %s
+help
+version
+preload
+Usage: smiquery [options] command name [command name ...]
+  -V, --version        show version and license information
+  -h, --help           show usage information
+  -c, --config=file    load a specific configuration file
+  -p, --preload=module preload <module>
+Supported commands are:
+  module <module>           show information on module <module>
+  imports <module>          show import list of module <module>
+  node <module::name>       show information on node <module::name>
+  compliance <module::name> show information on compliance node <module::name>
+  children <module::name>   show children list of node <module::name>
+  type <module::name>       show information on type <module::name>
+  macro <module::name>      show information on macro <module::name>
+invalid number `%s'
+unrecognized option `%s'
+unrecognized option `-%c'
+number `%s' to `%s' out of range
+option `%s' requires an argument
+option `%s' doesn't allow an argument
+;*2$"
+smiquery.debug
+7zXZ
+gad Y
+#`LZ
+q3=,n
+-x'd0
+"Uo/=q
+Y/m(
+gGhm[o
+l mO
+`?jp5
+INo}
+#L%T
+BcAZ
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.gnu_debuglink
+.gnu_debugdata
